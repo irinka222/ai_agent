@@ -1,0 +1,31 @@
+# ========== ЭТАП 1: Ingestion (PDF, OCR, язык) ==========
+pdfplumber==0.11.0
+pymupdf==1.24.9
+pytesseract==0.3.10
+pillow==10.4.0
+tqdm==4.66.4
+langdetect==1.0.9
+camelot-py[cv]>=0.11.0          # таблицы
+unstructured>=0.12.0            # структура документов
+requests>=2.31.0                # для GROBID (уже есть, но явно)
+
+# ========== ЭТАП 2: Retrieval (эмбеддинги, векторная БД, поиск) ==========
+sentence-transformers>=2.2.2    # мультиязычные эмбеддинги (e5, LaBSE)
+chromadb>=0.4.22                # или qdrant-client, faiss-cpu
+rank-bm25>=0.2.2                # BM25 для гибридного поиска
+langchain>=0.1.0                # для RAG-цепочки (опционально)
+langchain-community>=0.0.10
+faiss-cpu>=1.7.4                # если выберете FAISS
+
+# ========== ЭТАП 3: LLM и агентные возможности ==========
+openai>=1.0.0                   # если используете GPT (через API)
+anthropic>=0.18.0               # если Claude
+# Для локальных LLM (Qwen, DeepSeek):
+# transformers>=4.36.0
+# accelerate>=0.25.0
+# torch>=2.1.0 (осторожно — большой)
+# vllm (для инференса) – отдельно
+
+# ========== ЭТАП 4: Оценка качества ==========
+ragas>=0.1.0                    # RAGAS метрики
+datasets>=2.14.0
