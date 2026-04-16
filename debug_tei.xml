@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="ru">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">MATHEMATICAL MODELS OF PONZI SCHEMES THAT CONSIDER THE STOCHASTIC NATURE OF DECISION-MAKING</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Kesiyan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Kovalenko</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Kh</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Urtenov</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Z</forename><forename type="middle">M</forename><surname>Laipanova</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Karachay-Cherkessian State University named after U. D. Aliev</orgName>
+								<address>
+									<addrLine>29 Lenina Street</addrLine>
+									<postCode>369202</postCode>
+									<settlement>Karachaevsk</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Ovsyannikova</surname></persName>
+							<email>anna_ovsyannikov@bk.ru</email>
+							<affiliation key="aff2">
+								<orgName type="institution">Financial University under the Government of the Russian Federation</orgName>
+								<address>
+									<addrLine>49/2 Leningradskij Avenue</addrLine>
+									<postCode>125167</postCode>
+									<settlement>Moscow</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Kuban State University</orgName>
+								<address>
+									<addrLine>149 Stavropolskaja Street</addrLine>
+									<postCode>350040</postCode>
+									<settlement>Krasnodar</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">MATHEMATICAL MODELS OF PONZI SCHEMES THAT CONSIDER THE STOCHASTIC NATURE OF DECISION-MAKING</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">29DFCCFDF777F690CFA02A9E2BC38FE2</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-04-16T15:27+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[formula,head,p,table], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>mathematical modelling</term>
+					<term>financial pyramid</term>
+					<term>Ponzi scheme</term>
+					<term>stochastic differential equations</term>
+					<term>Ito processes</term>
+					<term>numerical Runge -Kutta scheme</term>
+				</keywords>
+			</textClass>
+			<abstract xml:lang="bg">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>О б р а з е ц ц</head></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="850.394"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="850.394"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="850.394"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="850.394"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="850.394"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="850.394"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="850.394"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="850.394"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="850.394"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="850.394"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="850.394"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="850.394"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="850.394"/>
+	</facsimile>
+	<text xml:lang="ru">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Введение</head><p>Исследованию деятельности финансовых пирамид посвящено множество работ. При этом существует несколько подходов к математическому моделированию деятельности финансовых пирамид: подход «экономически рациональный субъект», игровой подход и подход Дубовского. Кроме того, одни модели выражаются детерминированными уравнениями, а другие -стохастическими.</p><p>В работах <ref type="bibr">[1]</ref><ref type="bibr">[2]</ref><ref type="bibr">[3]</ref> предложены дискретные и непрерывные детерминированные модели, лишенные недостатков модели Дубовского <ref type="bibr">[4; 5]</ref>, в которой отсутствовал учет таких затрат, как затраты на рекламу.</p><p>В статье <ref type="bibr">[6]</ref> для описания схемы Понци используется линейное дифференциальное уравнение 1-го порядка. Модель основана на обещанной (нереалистичной) процентной ставке, фактической (реализованной) номинальной процентной ставке, скорости накопления новых депозитов и скорости снятия средств. Обнаружение схемы Понци изучают и современные авторы (см., например, <ref type="bibr">[7]</ref><ref type="bibr">[8]</ref><ref type="bibr">[9]</ref>).</p><p>Далее рассмотрим работы, учитывающие случайность. Вероятностная модель финансовой пирамиды, описанная в статье <ref type="bibr">[10]</ref>, демонстрирует, что потенциальные выгоды от инвестиций искажаются учредителями. Основные последствия заключаются в том, что у подавляющего большинства участников есть менее чем десятипроцентный шанс окупить свои первоначальные инвестиции, когда достигается небольшая прибыль, как только они нанимают трех человек, и что в среднем половина участников больше никого не наймут и потеряют все свои деньги.</p><p>В работе <ref type="bibr">[11]</ref> финансовые пирамиды моделируются как стохастическая игра при неполной информации между фирмой Понци -предполагаемым строителем пирамиды -и группой разнородных индивидуальных инвесторов. Показано, что, хотя равновесные стратегии, включающие индивидуальное решение инвестировать, могут существовать в сценических играх, во всей динамической игре нет равновесия, кроме тривиального, в которое никто не инвестирует, и, следовательно, пирамида не растет. Таким образом, индивидуальные решения инвестировать объясняются либо наивной верой в честность фирмы, либо неадекватными параметрами задачи динамической оптимизации.</p><p>В статье <ref type="bibr">[12]</ref> авторы предлагают математическую модель процессов притока и оттока капитала в структуре финансовой пирамиды, учитывающую возможность привлечения новых клиентов с помощью рекламы и сарафанного радио. Результатами являются окончательные распределения притока и оттока капитала, а также графическое представление прибыли финансовой пирамиды в каждый момент времени.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Стохастическое моделирование прибыли финансовых пирамид</head><p>В данной работе предлагаются стохастические модели, содержащие преимущества непрерывных моделей и учитывающие как детерминированные, так и случайные факторы <ref type="bibr">[13]</ref>.</p><p>Общая модель. Общая формула в непрерывном детерминированном случае в текущий момент времени t имеет вид</p><p>Теория вероятностей и математическая статистика Probability Theory and Mathematical Statistics S t S mN mN t d m N d t t t ! ³ ³ det , , 0 0 0 0 0 D W W E W W (1) где S t det -прибыль финансовой компании в текущий момент времени t; S S 0 0 ; m -фиксированная сумма вклада (предполагаем, что используется один тип вклада); N N 0 0 ; N t -количество клиентов в текущий момент времени t; mN t -денежные поступления от клиентов; D t -расходы на рек ламу в те- кущий момент времени t; b -процент по вкладу, который начисляется ежемесячно (предполагаем месяц в качестве базового периода); E W W m N d t ³ 0 -выплата дивидендов клиентам. Уравнение (1) в дифференциальной форме записывается следующим образом: dS dt m dN dt t mN t D E . (2) Учтем правую часть уравнения (2) как детерминированный коэффициент сноса a S t , общего про- цесса Ито dS a S t dt b S t W , , , G где δW -бесконечно малый винеровский шум. Получим общую формулу для процесса Ито, описывающего прибыль финансовых пирамид:</p><formula xml:id="formula_0">dS m dN dt t mN t dt b S t W § © ¨• ¹ ¸ D E G , .<label>(3)</label></formula><p>Уравнение (3) в интегральной форме записывается как</p><formula xml:id="formula_1">S t S mN mN t d m N d b S W t t t ³ ³ ³ 0 0 0 0 0 D W W E W W W W G W , .</formula><p>Если коэффициент волатильности b S t , зависит только от времени, т. е.</p><p>b S t b t , , то имеем точное решение в неявной форме: S t S mN mN t d m N d b d t t t ³ ³ ³ 0 0 2 0 0 0 D W W E W W W W H, где e -случайная величина, распределенная по нормальному закону распределения с нулевым математическим ожиданием и единичной дисперсией. Характеристики процесса. Среднее значение процесса (3) можно получить из следующего динамического уравнения для средних значений:  S a S t , . Так как a S t , не зависит от S, то среднее значение процесса S при любом коэффициенте волатиль- ности b S t , совпадает с детерминированным уравнением (1):  S m dN dt t mN t D E ,  S m dN dt t mN t D E , S m dN dt d t d m N t d C t t t ³ ³ ³ W D W E W 0 0 0 1 , S mN t mN d m N d S t t ³ ³ 0 0 0 0 D W W E W W . Далее, полагая, что C 1 = S 0 , получаем решение, аналогичное детерминированному: S mN t mN d m N d S t t ³ ³ 0 0 0 0 D W W E W W . (4) Журнал Белорусского государственного университета. Математика. Информатика. 2024;2:27-39 Journal of the Belarusian State University. Mathematics and Informatics. 2024;2:27-39 Волатильность процесса получим из следующего соотношения: V V S S S S 2 2 2 . (5) Чтобы вычислить выражение (5), требуется найти S 2 , для этого можно воспользоваться леммой Ито d F S t dt F t S t F S b S t F S , , , . w w w w w w D 2 2 2 2 Подставим F S t S , : 2  S S m dN dt t mN t b S t 2 2 0 2 2 2</p><formula xml:id="formula_2">§ © ¨• ¹ ¸ D E , ,  S S m dN dt t mN t b S t 2 2 2 § © ¨• ¹ ¸ D E , ,  S m dN dt t mN t S b S t 2 2 2 § © ¨• ¹ ¸ D E , ,<label>(6)</label></formula><formula xml:id="formula_3">где b S t 2 , -диффузия.</formula><p>Для последующего интегрирования уравнения (6) надо учесть явный вид b S t , и подставить S из формулы (4). Методы анализа. Один из распространенных подходов при исследовании процессов Ито заключается в анализе плотности вероятности, которая удовлетворяет уравнению Фоккера -Планка. Однако данный подход содержит ряд недостатков: уравнение Фоккера -Планка сложно решить (кроме линейного и градиентного случаев), плотность не дает информации о корреляциях во времени, и отдельные траектории могут сильно отклоняться от среднего процесса. По этой причине в данной работе делается упор на коридор волатильности и траекторное описание процессов, моделирующих деятельность финансовых пирамид.</p><p>Под коридором волатильности будем понимать область внутри верхней ( ) V S и нижней ( ) V S границ коридора, которые определяются следующими формулами:</p><formula xml:id="formula_4">V V S S S , V V S S S .</formula><p>Определение параметров моделей. Для определения параметров моделей и проведения экспериментов в качестве примера финансовой пирамиды будем использовать МММ-2012. Основной принцип в МММ-2012 гласит: чем больше срок вложения, тем больше доходность.</p><p>Указанная система предоставляет вклады трех типов. 1. Основной вклад (процент по вкладу составляет 30 % в месяц, снятие денежных средств можно осуществить в любой момент).</p><p>2. Простой депозит (может быть на 3 мес. (40 %), 6 мес. (50 %) и 12 мес. (60 %), позволяет получить минимальные проценты (30 % в месяц) даже при досрочном снятии).</p><p>3. Сверхдоходный депозит (также может быть на 3 мес. (55 %), 6 мес. (65 %) и 12 мес. (75 %), как видно, имеет более высокие проценты по вкладу, чем простой депозит, но при досрочном снятии участник теряет все накопленные проценты и получает только вложенную сумму).</p><p>Участник МММ-2012 проходил регистрацию на специальном сайте, за ним закреплялись десятник (прямой руководитель) и сотник (руководитель руководителя). Все деньги конвертировались в виртуальную валюту МАВРО. Операции с МАВРО учитывались в личном кабинете, а также согласовывались с десятником. Курсы менялись по вторникам и четвергам в 00:00 по Гринвичу (04:00 по Москве).</p><p>Таким образом, для моделирования в настоящей работе будем использовать основной вклад (30 % в месяц) МММ-2012, т. е. параметр b = 0,3 (30 %). Период моделирования выберем исходя из продолжительности деятельности МММ-2012: с июня 2012 по январь 2013 г. (8 мес.). Предположим, что участники снимают накопленные проценты в конце каждого месяца. Остальные параметры определяем исходя из здравого смысла и специальной литературы.</p><p>Курс покупки МАВРО-RUR для вкладов под 30 % на 31.05.2012 г. составлял 1,0 руб. С учетом этого, чтобы не производить конвертацию валют и упростить вычисления, прибыль финансовой пирамиды будем считать в валюте МАВРО-RUR.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Теория вероятностей и математическая статистика Probability Theory and Mathematical Statistics</head><p>По данным Росстата, среднемесячная номинальная начисленная заработная плата работников по полному кругу организаций в 2012 г. составила 26 629 руб. На основании этого будем предполагать, что средняя сумма вклада (m) в МММ-2012 достигала приблизительно 30 000 руб., т. е. была соразмерна одной накопленной заработной плате.</p><p>Примеры моделей и эксперименты. Рассмотрим модель с постоянным количеством клиентов и постоянными расходами на рекламу.</p><p>Пусть число клиентов не меняется:</p><formula xml:id="formula_5">dN dt N t N 0, const.</formula><p>Обозначим расходы на рекламу:</p><formula xml:id="formula_6">D t R const 0 .</formula><p>Тогда детерминированное уравнение (1) примет вид</p><formula xml:id="formula_7">S t S mN mN R d m N d t t ³ ³ det , 0 0 0 0 W E W S t S R mN t det . 0 0 E В форме процесса Ито с постоянной волатильностью b S t , V получаем dS R mN dt W 0 E V G .<label>(7)</label></formula><p>Процесс ( <ref type="formula" target="#formula_7">7</ref>) представляет собой винеровское блуждание со сносом. Заметим сразу, что из-за отрицательного коэффициента сноса процесс (7) будет убывать, хотя старт процесса может находиться в положительной области (зависит от S 0 ).</p><p>Точное решение уравнения (7) имеет вид</p><formula xml:id="formula_8">S t S R mN t t 0 0 E V H.<label>(8)</label></formula><p>Среднее значение процесса <ref type="bibr">(7)</ref> рассчитывается по формуле S S t S R mN t det . 0 0 E Дисперсия процесса (7) определяется как V V W W V S t t d t 2 2 0 2 ³ . Тогда волатильность процесса (7) равна V V S t . Для реализации формул и проведения экспериментов была разработана программа «Анализ стохастических финансовых пирамид (StochasticFPyramidsBuilder)» на языке Python.</p><p>Для моделирования процесса (7) заданы следующие исходные данные: сумма вклада m = 10 5 МАВРО, процент по вкладу b = 0,3 (30 %), количество участников до начала деятельности финансовой пирамиды N 0 = 10 человек (организаторы распространяли свои финансовые инструменты среди знакомых или «нужных» людей), постоянные расходы на рекламу R 0 = 5 ⋅ 10 5 МАВРО, интенсивность шума того же порядка, что и коэффициент сноса, т. е. σ = 10 5 , сумма вкладов на начало деятельности финансовой пирамиды, определяемая как денежные поступления от первых клиентов (близких, знакомых, «нужных» людей) минус сумма, потраченная финансовой пирамидой на рекламную кампанию до начала деятельности, т. е. S 0 = mN 0 -R 0 , начальный момент времени моделирования процесса t 0 = 0, конечный момент времени моделирования процесса t 1 = 18 мес. (1,5 года), шаг моделирования h = 0,1 (достаточен, так как используем точное решение (8)). Для моделирования описанных ниже процессов задаются такие же начальные параметры, если не оговорено иное.</p><p>Результаты моделирования в программе StochasticFPyramidsBuilder 1000 траекторий для точного решения (8) в случае постоянного количества клиентов, постоянных расходов на рекламу и постоянной волатильности представлены на рис. 1.</p><p>Как видно из рис. 2, который аналогичен рис. 1 (но увеличен масштаб и ограничены интервалы отображения по осям абсцисс и ординат), верхняя граница коридора волатильности достигает значения 0 до t = 0,8. То есть банкротство наступит раньше, чем за 1 мес.  Тогда детерминированное уравнение примет вид</p><formula xml:id="formula_9">S t mqt m q N R m t S § © ¨• ¹ ¸ det . 1 2 2 0 0 0 E E В форме процесса Ито с постоянной волатильностью b S t , V получаем dS t mqt m q N R m dt W § © ¨• ¹ § © ¨• ¹ ¸ E E VG 0 0 .<label>(9)</label></formula><p>Точное решение уравнения (9) при t 0 = 0 имеет вид</p><formula xml:id="formula_10">S t mqt m q N R m t S t § © ¨• ¹ ¸ 1 2 2 0 0 0 E E V H. (<label>10</label></formula><formula xml:id="formula_11">)</formula><p>Среднее значение процесса (9) рассчитывается по формуле</p><formula xml:id="formula_12">S S t m qt m q N R m t S § © ¨• ¹ ¸ det . 1 2 2 0 0 0 E E Дисперсия и волатильность процесса (9) определяются как V V S t t 2 2 , V V S t .</formula><p>Для моделирования процесса ( <ref type="formula" target="#formula_9">9</ref>) зададим следующие исходные данные: прирост участников q = 10 2 человек, интенсивность шума того же порядка, что и коэффициент сноса, т. е. σ = 10 7 (0,3 ⋅ 10 5 ⋅ 10 2 t). Остальные параметры не изменились.</p><p>Результаты моделирования в программе StochasticFPyramidsBuilder 1000 траекторий для точного решения <ref type="bibr">(10)</ref>  Теперь рассмотрим модель с линейным приростом клиентов и постоянными расходами на рекламу. Пусть системе удается удержать линейный приток клиентов. В этом случае прирост клиентов определяется формулами dN dt q qt N t N q t qt</p><formula xml:id="formula_13">0 0 0 2 1 2 , .</formula><p>Обозначим расходы на рекламу:</p><formula xml:id="formula_14">D t R const 0 .</formula><p>Тогда детерминированное уравнение примет вид</p><formula xml:id="formula_15">S t mqt m q q t m q N R m t S § © ¨• ¹ ¸ det . 1 6 1 2 3 0 2 0 0 0 E E E В форме процесса Ито с постоянной волатильностью b S t , V получаем dS t m qt m q q t m q N R m dt W § © ¨• ¹ § © ¨• ¹ ¸ 1 2 2 0 0 0 E E E V G .<label>(11)</label></formula><p>Точное решение уравнения (11) при t 0 = 0 имеет вид</p><formula xml:id="formula_16">S t mqt m q q t m q N R m t S t § © ¨• ¹ ¸ 1 6 1 2 3 0 2 0 0 0 E E E V H.<label>(12)</label></formula><p>Среднее значение процесса <ref type="bibr">(11)</ref> рассчитывается по формуле</p><formula xml:id="formula_17">S S t m qt m q q t m q N R m t S § © ¨• ¹ ¸ det . 1 6 1 2 3 0 2 0 0 0 E E E<label>(13)</label></formula><p>Дисперсия и волатильность процесса <ref type="bibr">(11)</ref> определяются как Для моделирования процесса (11) параметры m, b, N 0 , R 0 , t 0 и h не изменились. Конечный момент времени моделирования t 1 = 9 мес. Для расчета параметров q 0 и q составим систему из двух уравнений. Для этого подставим в уравнение (13) предполагаемую прибыль 1 млрд руб. через 4 мес., т. е. S t q q det , , , 4 1 0 0 9 и прибыль из соображения банкротства через 8 мес., т. е. S t q q det , , . V Тогда вместо модели (9) получим</p><formula xml:id="formula_18">V V S t t 2 2 , V V S t .</formula><formula xml:id="formula_19">dS t mqt m q N R m dt S W § © ¨• ¹ § © ¨• ¹ ¸ E E V G 0 0 .<label>(14)</label></formula><p>Можно предположить, что случайные факторы, такие как заинтересованность потенциальных участников и доверие настоящих участников, линейно зависят от прибыли и, например, составляют 30 % от нее, т. е. σ = 0,3. Для проведения экспериментов в разработанной программе StochasticFPyramidsBuil der реализована схема Рунге -Кутты 4-го порядка численного решения стохастических дифференциальных уравнений (СДУ). Результаты моделирования 1000 траекторий процесса (14) с параметром σ = 0,3 представлены на рис. 6.</p><p>Таким образом, если участники будут принимать случайные решения с учетом прибыли финансовой пирамиды (что вполне вероятно), то, исходя из рис. 6, можно сделать следующие выводы:</p><p>• в самом начале деятельности финансовой пирамиды влияние случайных факторов минимальное (в отличие от предыдущих моделей <ref type="bibr">(7)</ref>, ( <ref type="formula" target="#formula_9">9</ref>) и ( <ref type="formula" target="#formula_15">11</ref>));</p><p>• отдельные траектории прибыли могут существенно отличаться от большинства (выше максимальная прибыль);</p><p>• верхняя граница коридора волатильности процесса (9) достигает значения 0 после t = 8, в то время как в модели (14) верхняя граница коридора волатильности достигает значения 0 вблизи t = 7.</p><p>Приведенные выводы говорят о том, что случайные факторы могут существенно влиять на процесс, так как изменилась структура модели и детерминированная часть стала зависеть от волатильности. Из рис. 7 можно сделать вывод о том, что процентные затраты на рекламу приводят к более быстрому краху пирамиды. Однако в данной модели не учтено, что, возможно, при такой рекламной кампании удастся удержать не постоянный, а линейный прирост клиентов.</p><p>Следовательно, в случае линейного прироста клиентов dN dt q qt N t N q t qt 0 0 0 2 1 2 , .</p><p>После приведения подобных имеем S t mqt m g q q t m g q N t S</p><formula xml:id="formula_20">1 6 1 2 1 1 3 0 2 0 0 E E E .</formula><p>В форме СДУ получаем процесс для линейного прироста клиентов и процентных расходов на рекламу: dS t m qt m g q q t m g q N dt S W</p><formula xml:id="formula_21">§ © ¨• ¹ ¸ 1 2 1 1 2 0 0 E E E V G . (<label>16</label></formula><formula xml:id="formula_22">)</formula><p>Результаты моделирования в программе StochasticFPyramidsBuilder 1000 траекторий процесса (16) с линейным приростом клиентов и процентными расходами на рекламу при q 0 = 1 представлены на рис. 8. Как показывает рис. 8, процентные затраты на рекламу оправдываются (максимальная прибыль выше и продолжительность функционирования финансовой пирамиды дольше), если при такой рекламной кампании удается удержать линейный прирост клиентов.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Заключение</head><p>Таким образом, создан программный продукт, который позволяет моделировать прибыль финансовой пирамиды с использованием СДУ в форме процессов Ито с помощью точного решения и схемы Рунге -Кутты 4-го порядка численного решения СДУ.</p><p>В программе реализованы следующие модели с постоянной волатильностью:</p><p>• модель с постоянным количеством клиентов и постоянными расходами на рекламу;</p><p>• модель с постоянным приростом клиентов и постоянными расходами на рекламу;</p><p>• модель с линейным приростом клиентов и постоянными расходами на рекламу. Также в программе реализованы модели с линейной волатильностью:</p><p>• модель с постоянным приростом клиентов и постоянными расходами на рекламу;</p><p>• модель с постоянным приростом клиентов и процентными расходами на рекламу;</p><p>• модель с линейным приростом клиентов и процентными расходами на рекламу. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>0</head><figDesc>Далее рассмотрим модель с постоянным приростом клиентов и постоянными расходами на рекламу. Пусть прирост клиентов определяется формулами dN dt q N t N N qt , .Обозначим расходы на рекламу: D t R const 0 .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Рис. 1 . 1 . 2 . 2 .</head><label>1122</label><figDesc>Динамика прибыли финансовой пирамиды при постоянном количестве клиентов, постоянных расходах на рекламу и постоянной волатильности (точное решение) Fig. Profit dynamics of a financial pyramid at constant number of clients, constant advertising costs and constant volatility (exact solution) Динамика прибыли финансовой пирамиды при постоянном количестве клиентов, постоянных расходах на рекламу и постоянной волатильности (точное решение) (увеличен масштаб и ограничены интервалы отображения по осям абсцисс и ординат) Fig. Profit dynamics of a financial pyramid at constant number of clients, constant advertising costs and constant volatility (exact solution) (the scale is enlarged and the display intervals on the abscissa and ordinate axes are limited) Теория вероятностей и математическая статистика Probability Theory and Mathematical Statistics</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>3 .</head><label>3</label><figDesc>в случае постоянного прироста клиентов, постоянных расходов на рекламу и постоянной волатильности представлены на рис. 3. Как видно из рис. 4, который аналогичен рис. 3 (но увеличен масштаб и ограничены интервалы отображения по осям абсцисс и ординат), верхняя граница коридора волатильности достигает значения 0 до t = 9. То есть в случае постоянного прироста клиентов банкротство наступит за 9 мес. Рис. 3. Динамика прибыли финансовой пирамиды при постоянном приросте клиентов, постоянных расходах на рекламу и постоянной волатильности (точное решение) Fig. Profit dynamics of a financial pyramid at constant growth of clients, constant advertising costs and constant volatility (exact solution)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>4 .</head><label>4</label><figDesc>Динамика прибыли финансовой пирамиды при постоянном приросте клиентов, постоянных расходах на рекламу и постоянной волатильности (точное решение) (увеличен масштаб и ограничены интервалы отображения по осям абсцисс и ординат) Fig.4. Profit dynamics of a financial pyramid at constant growth of clients, constant advertising costs and constant volatility (exact solution) (the scale is enlarged and the display intervals on the abscissa and ordinate axes are limited)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><figDesc>Интенсивность шума имеет тот же порядок, что и коэффициент сноса, т. е. σ = 10 8 . Результаты моделирования в программе StochasticFPyramidsBuilder 10 траекторий для точного решения (12) в случае линейного прироста клиентов, постоянных расходов на рекламу и постоянной волатильности представлены на рис. 5. Для соразмерности шума и исследуемого процесса удобно задать линейную волатильность b S t S , .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Рис. 5 . 5 ., 6 . 7 .</head><label>5567</label><figDesc>Динамика прибыли финансовой пирамиды при линейном приросте клиентов, постоянных расходах на рекламу и постоянной волатильности (точное решение) Fig. Profit dynamics of a financial pyramid with a linear growth of clients, constant advertising costs and constant volatility (exact solution) Далее выведем СДУ для модели с постоянным приростом клиентов, процентными расходами на рекламу и линейной волатильностью. В отличие от предыдущей модели в данной модели расходы на рекламу задаются формулой a t gm dN dt программе StochasticFPyramidsBuilder 1000 траекторий процесса (15) с процентом на рекламу от вновь поступивших средств g = 0,2 представлены на рис. 7. Рис. 6. Динамика прибыли финансовой пирамиды при постоянном приросте клиентов, постоянных расходах на рекламу и линейной волатильности (схема Рунге -Кутты 4-го порядка) Fig. Profit dynamics of a financial pyramid at constant growth of clients, constant advertising costs and linear volatility (Runge -Kutta scheme of 4 th order) 7. Динамика прибыли финансовой пирамиды при постоянном приросте клиентов, процентных расходах на рекламу и линейной волатильности (схема Рунге -Кутты 4-го порядка) Fig. Profit dynamics of a financial pyramid at constant growth of clients, interest expenses on advertising and linear volatility (Runge -Kutta scheme of 4 th order) Теория вероятностей и математическая статистика Probability Theory and Mathematical Statistics</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>8 . 8 .</head><label>88</label><figDesc>Динамика прибыли финансовой пирамиды при линейном приросте клиентов, процентных расходах на рекламу и линейной волатильности (схема Рунге -Кутты 4-го порядка) Fig.Profit dynamics of a financial pyramid under linear growth of clients, interest expenses on advertising and linear volatility (Runge -Kutta scheme of 4 th order)</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Журнал Белорусского государственного университета. Математика. Информатика. 2024;2:27-39 Journal of the Belarusian State University. Mathematics and Informatics. 2024;2:27-39</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<author>
+			<persName><surname>Журнал Белорусского Государственного Университета</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Математика</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Результаты анализа траекторий прибыли финансовой пирамиды позволяют сделать следующие выводы: • случайные факторы могут существенно влиять на детерминированную часть формирования прибыли</title>
+		<imprint>
+			<date type="published" when="2024">2024. 2024</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="27" to="39" />
+		</imprint>
+		<respStmt>
+			<orgName>Mathematics and Informatics</orgName>
+		</respStmt>
+	</monogr>
+	<note>Информатика траектории таких моделей могут существенно отличаться от большинства</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Математическое моделирование деятельности финансовой пирамидой. Часть 1, Основные понятия. Политематический сетевой электронный научный журнал Кубанского государственного аграрного университета</title>
+		<author>
+			<persName><surname>Ав</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">М</forename><forename type="middle">Х</forename><surname>Уртенов</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Р</forename><forename type="middle">Х</forename><surname>Чагаров</surname></persName>
+		</author>
+		<ptr target="http://ej.kubagro.ru/2012/08/pdf/29.pdf" />
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">8</biblScope>
+		</imprint>
+	</monogr>
+	<note>Электронный ресурс процитировано 17 июля 2023 г</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Математическое моделирование деятельности финансовой пирамидой. Часть 2, Дискретные модели. Политематический сетевой электронный научный журнал Кубанского государственного аграрного университета</title>
+		<author>
+			<persName><forename type="first">А</forename><forename type="middle">В</forename><surname>Коваленко</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">М</forename><forename type="middle">Х</forename><surname>Уртенов</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Р</forename><forename type="middle">Х</forename><surname>Чагаров</surname></persName>
+		</author>
+		<ptr target="http://ej.kubagro.ru/2012/08/pdf/30.pdf" />
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">8</biblScope>
+		</imprint>
+	</monogr>
+	<note>Электронный ресурс процитировано 17 июля 2023 г</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Математическое моделирование деятельности финансовой пирамидой. Часть 3, Непрерывные модели. Политематический сетевой электронный научный журнал</title>
+		<author>
+			<persName><forename type="first">А</forename><forename type="middle">В</forename><surname>Коваленко</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">М</forename><forename type="middle">Х</forename><surname>Уртенов</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Р</forename><forename type="middle">Х</forename><surname>Чагаров</surname></persName>
+		</author>
+		<ptr target="http://ej.kubagro.ru/2012/08/pdf/31.pdf" />
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">8</biblScope>
+		</imprint>
+	</monogr>
+	<note>Кубанского государственного аграрного университета Электронный ресурс процитировано 17 июля 2023 г</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Прогнозирование инфляции и обменного курса рубля в российской нестационарной экономике</title>
+		<author>
+			<persName><forename type="first">С</forename><forename type="middle">В</forename><surname>Дубовский</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Москва</title>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m">Труды Института системного анализа РАН</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Обменный курс рубля как результат денежной эмиссии, внешней торговли и блуждающих финансовых потоков</title>
+		<author>
+			<persName><forename type="first">С</forename><forename type="middle">В</forename><surname>Дубовский</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Экономика и математические методы</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="84" to="96" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The mathematics of Ponzi schemes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Artzrouni</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mathsocsci.2009.05.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mathematical Social Sciences</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="190" to="201" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Improving robustness and accuracy of Ponzi scheme detection on Ethereum using time-dependent features</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Huynh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Dau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Luong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Viterbo</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2308.16391</idno>
+		<ptr target="https://arxiv.org/abs/2308.16391" />
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>Preprint cited 2023 August 31</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Al-SPSD: anti-leakage smart Ponzi schemes detection in blockchain</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cheng</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ipm.2021.102587</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Information Processing &amp; Management</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">102587</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Classifying bitcoin Ponzi schemes with machine learning</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van De Voort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Coneys</surname></persName>
+		</author>
+		<idno type="DOI">10.13140/RG.2.2.13091.58405</idno>
+		<ptr target="http://dx.doi.org/10.13140/RG.2.2.13091.58405" />
+		<imprint>
+			<date type="published" when="2018-12-01">2018 December 1</date>
+			<pubPlace>Shanghai; New York University Shanghai</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Internet cited 2023 July 17 about 8 p</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A probability model of a pyramid scheme</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Gastwirth</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00031305.1977.10479200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The American Statistician</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="79" to="82" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Belianin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Issoupova</surname></persName>
+		</author>
+		<title level="m">Financial pyramids in transitional economies: a game-theoretic approach</title>
+		<meeting><address><addrLine>Moscow</addrLine></address></meeting>
+		<imprint>
+			<publisher>EERC</publisher>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Математическое моделирование процессов притока и оттока капитала в структуре финансовой пирамиды и реализация модели на ЭВМ</title>
+		<author>
+			<persName><forename type="first">А</forename><forename type="middle">К</forename><surname>Новиков</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">А</forename><forename type="middle">А</forename><surname>Осадчий</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Москва: Московский государственный университет имени М. В. Ломоносова; 7 января 2022 г процитировано 17 июля 2023 г</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<ptr target="https://www.researchgate.net/publication/358771924_Matematiceskoe_modelirovanie_processov_pritoka_i_ottoka_kapitala_v_strukture_finansovoj_piramidy_i_realizacia_modeli_na_EVM" />
+		<title level="m">Доступно по</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Математические модели ценообразования на российском рынке ценных бумаг</title>
+		<author>
+			<persName><forename type="first">Г</forename><forename type="middle">А</forename><surname>Кесиян</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">М</forename><forename type="middle">Х</forename><surname>Уртенов</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">А</forename><forename type="middle">В</forename><surname>Коваленко</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Краснодар: Кубанский государственный университет</title>
+		<imprint>
+			<biblScope unit="page">158</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Mathematical modeling of financial pyramid scheme. Part 1, Definitions</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Kovalenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Urtenov</forename><surname>Mkh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Chagarov</surname></persName>
+		</author>
+		<ptr target="http://ej.kubagro.ru/2012/08/pdf/29.pdf.Russian" />
+	</analytic>
+	<monogr>
+		<title level="s">Polythematic Online Scientific Journal of Kuban</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+		<respStmt>
+			<orgName>State Agrarian University</orgName>
+		</respStmt>
+	</monogr>
+	<note>Internet cited 2023 July 17</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Mathematical modeling of financial pyramid scheme. Part 2, Discrete models</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Kovalenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Urtenov</forename><surname>Mkh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Chagarov</surname></persName>
+		</author>
+		<ptr target="http://ej.kubagro.ru/2012/08/pdf/30.pdf.Russian" />
+	</analytic>
+	<monogr>
+		<title level="j">Polythematic Online Scientific Journal of Kuban State Agrarian University</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>Internet cited 2023 July 17</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Mathematical modeling of financial pyramid scheme. Part 3, Continuous models</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Kovalenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Urtenov</forename><surname>Mkh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Chagarov</surname></persName>
+		</author>
+		<ptr target="http://ej.kubagro.ru/2012/08/pdf/31.pdf.Russian" />
+	</analytic>
+	<monogr>
+		<title level="j">Polythematic Online Scientific Journal of Kuban State Agrarian University</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>Internet cited 2023 July 17</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Dubovsky</surname></persName>
+		</author>
+		<title level="m">Prognozirovanie inflyatsii i obmennogo kursa rublya v rossiiskoi nestatsionarnoi ekonomike</title>
+		<meeting><address><addrLine>Moscow</addrLine></address></meeting>
+		<imprint>
+			<publisher>URSS</publisher>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note>Forecasting inflation and the ruble exchange rate in the Russian non-stationary economy</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Ruble exchange rate as a result of money issue, foreign trade and wandering financial flows</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Dubovsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economics and Mathematical Methods</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="84" to="96" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note>Russian</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The mathematics of Ponzi schemes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Artzrouni</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.math-socsci.2009.05.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mathematical Social Sciences</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="190" to="201" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Improving robustness and accuracy of Ponzi scheme detection on Ethereum using time-dependent features</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Huynh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Dau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Luong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Viterbo</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2308.16391</idno>
+		<ptr target="https://arxiv.org/abs/2308.16391" />
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>Preprint cited 2023 August 31</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Al-SPSD: anti-leakage smart Ponzi schemes detection in blockchain</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cheng</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ipm.2021.102587</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Information Processing &amp; Management</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">102587</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Kesiyan, senior lecturer at the department of data analysis and artificial intelligence</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van De Voort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Coneys</surname></persName>
+		</author>
+		<idno type="DOI">10.13140/RG.2.2.13091.58405</idno>
+		<ptr target="https://orcid.org/0009-0001-1635-110X" />
+	</analytic>
+	<monogr>
+		<title level="m">Арутович Кесиян -старший преподаватель и интеллекта и прикладной математики. -доктор технических , доцент</title>
+		<title level="s">faculty of computer technology and applied mathematics</title>
+		<meeting><address><addrLine>Shanghai; New York University Shanghai</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018-12-01">2018 December 1</date>
+		</imprint>
+	</monogr>
+	<note>Internet cited 2023 July 17 about 8 p Classifying bitcoin Ponzi schemes with machine learning grant.kesiyan@mail</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<author>
+			<persName><forename type="first">Anna</forename><forename type="middle">V</forename><surname>Kovalenko</surname></persName>
+		</author>
+		<ptr target="https://orcid.org/0000-0002-0252-6247" />
+		<title level="m">doctor of science (engineering), docent; head of the department of data analysis and artificial intelligence, faculty of computer technology and applied mathematics. savanna-05@mail</title>
+		<imprint/>
+	</monogr>
+	<note>doctor of science (physics and mathematics full professor; professor at the department of applied mathematics, faculty of computer technology and applied mathematics. urtenovmax@mail</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">docent; head of the department of mathematical analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zulfa</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Laipanova</surname></persName>
+		</author>
+		<ptr target="https://orcid.org/0000-0003-3051-6078" />
+	</analytic>
+	<monogr>
+		<title level="m">acting dean of the faculty of physics and mathematics</title>
+		<imprint/>
+	</monogr>
+	<note type="report_type">faculty of physics and mathematics</note>
+	<note>physics and mathematics laipanovazulfa@mail</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">associate professor at the department of mathematics, faculty of information technology and big data analysis</title>
+		<author>
+			<persName><forename type="first">Anna</forename><forename type="middle">V</forename><surname>Ovsyannikova</surname></persName>
+		</author>
+		<ptr target="https://orcid.org/0000-0002-1716-3100" />
+		<imprint/>
+	</monogr>
+	<note type="report_type">PhD</note>
+	<note>pedagogics docent anna_ovsyannikov@bk</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A probability model of a pyramid scheme</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Gastwirth</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00031305.1977.10479200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The American Statistician</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="79" to="82" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Belianin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Issoupova</surname></persName>
+		</author>
+		<title level="m">Financial pyramids in transitional economies: a game-theoretic approach</title>
+		<meeting><address><addrLine>Moscow</addrLine></address></meeting>
+		<imprint>
+			<publisher>EERC</publisher>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Matematicheskoe modelirovanie protsessov pritoka i ottoka kapitala v strukture finansovoi piramidy i realizatsiya modeli na EVM</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Novikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Osadchii</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mathematical modelling of processes of inflow and outflow of capital in the structure of the financial pyramid and realization of the model on the computer</title>
+		<meeting><address><addrLine>Moscow</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2022-01-07">2022 January 7</date>
+			<biblScope unit="page">41</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Lomonosov Moscow State University</orgName>
+		</respStmt>
+	</monogr>
+	<note>Internet cited 2023 July 17</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Matematicheskie modeli tsenoobrazovaniya na rossiiskom rynke tsennykh bumag</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Kesiyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Urtenov</forename><surname>Mkh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Kovalenko</surname></persName>
+		</author>
+		<idno>02.05.2024 / исправлена 12.06.2024 / принята 12.06.2024. Received 02.05.2024 / revised 12.06.2024 / accepted 12.06.2024</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Mathematical models of pricing in the Russian securities market</title>
+		<meeting><address><addrLine>Krasnodar</addrLine></address></meeting>
+		<imprint>
+			<publisher>Kuban State University</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page">158</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
