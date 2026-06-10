@@ -1,0 +1,121 @@
+[
+  {
+    "content": "1. Introduction The dissociation of water molecules in systems with ion-exchange membranes was first noted in works by Frilett [1], Kressman and Tye [2] and further studied in works [3-6]. The dissociation reactions of water molecules and their reverse recombination are important, since the appearance of new charge carriers can lead to a decrease or even disappearance of electroconvection, the main mechanism of the overlimiting transport of salt ions. There are two different mechanisms for the dissociation of water in electromembrane systems, namely catalytic and non-catalytic. According to the catalytic mechanism of water dissociation on ion-exchange membranes, H+ and OH- ions can arise in the reactions of proton transport between charged groups in the membrane and water molecules [7, 8]. It was found that water dissociation is more pronounced on anion exchange membranes (AEM) and not so significant on cation exchange membranes (CEM) [8]. In a number of works [9, 10], we showed that in the extended space charge region, the electric field strength reaches such high values that it pulls hydrogen and hydroxyl ions in this region and a non-catalytic reaction of dissociation of water molecules occurs at the maximum possible rate. We also in work [11], using a one-dimensional model, showed the emergence of a double electric layer inside the section of the desalination channel. In this work, a two-dimensional mathematical model is formulated and, on the basis of its numerical analysis, the mutual influence of the emergence and development of space charge, the reactions of dissociation/recombination of water molecules and electroconvection and their joint effect on the transport of salt ions are investigated.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Gudza V.",
+        "Urtenov M.",
+        "Chubyr N."
+      ],
+      "paper_id": "Kovalenko_2021_JPhysConfSer_2131_022109",
+      "title": "Mathematical modeling of the influence of non-catalytic dissociation / recombination of water molecules in the desalination channel on electric convection",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Comment. Speaking about H+ ions, a simplification is made, since they are absent in water. The proton \"lost\" by the water molecule is attached to another molecule to form the hydronium ion H3O+, and the water dissociation reaction is written as: H2O + H2O ↔ H3O+ + OH-. Hydronium ion, in turn, can combine with other water molecules to form hydrated ions, for example, H5O2+, H7O3+, H9O4+. A two-dimensional diagram of the desalting channel of an electrodialysis device for simulating the unsteady transport of 1:1 electrolyte in the potentiodynamic mode, taking into account electroconvection and the non-catalytic reaction of dissociation/recombination of water molecules, is shown in Figure 1. The flow channel of the desalination of the electrodialysis apparatus is investigated. Let us assume that the Oy axis passes through the anion-exchange membrane, and the Ox axis perpendicular to it is directed towards the cation-exchange membrane. Let the channel width be H, and L is the length. An anion-exchange membrane is located at x = 0, a cation-exchange membrane is located at x = H. A dilute NaCl solution is fed to the entrance to the desalination channel located at y = 0. The exit from the channel is located at y = L.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Gudza V.",
+        "Urtenov M.",
+        "Chubyr N."
+      ],
+      "paper_id": "Kovalenko_2021_JPhysConfSer_2131_022109",
+      "title": "Mathematical modeling of the influence of non-catalytic dissociation / recombination of water molecules in the desalination channel on electric convection",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Mathematical model 2.1. System of Equations The unsteady transport of a binary electrolyte taking into account the reaction of dissociation/recombination of water molecules and electroconvection in a desalination channel of an electrodialysis device is described by a coupled system of two-dimensional Navier-Stokes and Nernst-Planck-Poisson equations, taking into account the electric force (dimensional view and vector notation) (1-6). The Nernst-Planck-Poisson and Navier-Stokes equations are the expression of the general conservation laws, therefore, the model of the transport of salt ions, taking into account electroconvection, is determined, along with the formula for the electric force, in the Navier-Stokes equation, first of all, by the boundary conditions. One of the variants of the boundary conditions is described below. In the potentiodynamic mode, the surfaces of the ion-exchange membranes are considered homogeneous and equipotential, and the potential drop is set. The system includes: material balance equations, Nernst-Planck equations for the flows of cations (i=1), anions (i=2), hydrogen (i=3) and hydroxyl (i=4) ions, Poisson equation, dissociation/recombination reaction with kw = kd CH2O/kr, current density equation, and Navier-Stokes equations with the electric force.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Gudza V.",
+        "Urtenov M.",
+        "Chubyr N."
+      ],
+      "paper_id": "Kovalenko_2021_JPhysConfSer_2131_022109",
+      "title": "Mathematical modeling of the influence of non-catalytic dissociation / recombination of water molecules in the desalination channel on electric convection",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2. Boundary conditions The surfaces of the ion exchange membrane are considered to be ideally selective, i.e., impermeable to co-ions, the boundary concentration of counter-ions is equal to the fixed charge inside the membrane. The adhesion condition is set for the velocity on the membrane surface. Near the anion exchange membrane (x=0), conditions include impermeability for counterions, specified anion concentration, hydrogen ion flux, no hydroxyl flux, no-slip, and potential drop. Near the cation exchange membrane (x=H), conditions include specified cation concentration, impermeability for co-ions, no hydrogen flux, specified hydroxyl flux, no-slip, and zero potential. At the channel inlet, ion concentrations and potential distribution are assumed to be given with electroneutrality. The potential distribution is either linear or follows from Ohm's law. The velocity profile is either constant or Poiseuille parabola. At the outlet, concentration condition for ion flux (removal by solution flow only) and zero normal potential gradient are used. Two methods handle outlet vortices: channel extension or open boundary with zero normal stress. Initial conditions are set consistent with boundary conditions; inconsistencies at corner points smooth out quickly with mesh refinement.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Gudza V.",
+        "Urtenov M.",
+        "Chubyr N."
+      ],
+      "paper_id": "Kovalenko_2021_JPhysConfSer_2131_022109",
+      "title": "Mathematical modeling of the influence of non-catalytic dissociation / recombination of water molecules in the desalination channel on electric convection",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Results of numerical experiments The finite element method implemented in Comsol Multiphysics 5.5 was used to numerically solve the boundary value problem. First, consider the flow taking into account electroconvection, but without taking into account the dissociation/recombination reaction of water molecules. Electroconvection begins with the formation of a \"stationary vortex\" at the entrance near the CEM rather quickly (at time 31 s). Over time, the stationary vortex gradually increases. At some moments (64 s) a small electroconvective vortex breaks away and moves downstream, gradually decaying (66 s). The stationary vortex expands downstream, and at t = 67 s vortex formation begins along the entire CEM. Developed vortices and vortex clusters appear, with bifurcation and dynamic chaos of vortices (e.g., at t = 100 s). Subsequently, electroconvection begins and develops at the AEM (72 s, 100 s, 120 s, 127 s, 130 s, 142 s). This scheme substantially depends on the potential sweep rate. At sufficiently low sweep rates, vortex formation begins at the exit from the channel, without a stationary vortex at the entrance.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Gudza V.",
+        "Urtenov M.",
+        "Chubyr N."
+      ],
+      "paper_id": "Kovalenko_2021_JPhysConfSer_2131_022109",
+      "title": "Mathematical modeling of the influence of non-catalytic dissociation / recombination of water molecules in the desalination channel on electric convection",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Now consider the formation and development of electroconvection taking into account the dissociation/recombination reaction of water molecules. This reaction significantly alters both the formation and development of electroconvection. The formation of an electroconvective vortex begins approximately in the middle part of the channel (shifted towards the AEM) closer to the end of the channel (approximately at t = 62 s). This vortex is similar to the stationary vortex described above. Over time, it gradually expands upstream. At t = 86 s, streamlines begin to bend strongly from the AEM over more than half of the channel. At t = 88 s, electroconvective vortices begin at the AEM, flowing downstream; each new vortex forms closer to the inlet but not reaching it. At this time, the CEM has no electroconvection. At t = 95 s, an electroconvective vortex appears in the middle of the channel, flowing downstream; some vortices form closer to the CEM, others remain in the middle forming closer to the inlet (118 s, 124 s). These processes become more evident (134 s, 143 s). Such a complex process is associated with the complex space charge structure caused by the influence of the dissociation/recombination reaction on the space charge distribution.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Gudza V.",
+        "Urtenov M.",
+        "Chubyr N."
+      ],
+      "paper_id": "Kovalenko_2021_JPhysConfSer_2131_022109",
+      "title": "Mathematical modeling of the influence of non-catalytic dissociation / recombination of water molecules in the desalination channel on electric convection",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Conclusion In this article, using a mathematical model, for the first time, the unsteady transfer of ions of a binary salt in the desalination channel is analyzed taking into account the reaction of dissociation/recombination of water molecules. The main regularities have been established, namely, it has been shown that the cross-section of the desalination channel consists of narrow quasi-equilibrium regions of space charge adjacent to ion-exchange membranes. In the central part, there is a fairly extensive region of recombination, where recombination dominates over dissociation. It was shown for the first time that a double electric layer of hydrogen and hydroxyl ions arises in the recombination region. It is shown that between the region of recombination and quasi-equilibrium regions of space charge there are regions of electroneutrality and equilibrium with an almost linear distribution of concentrations. It was found that even under pre-limiting, but close enough to the limiting current, modes, non-catalytic dissociation of water molecules in the quasi-equilibrium region of space charge occurs so intensely that the concentration of hydrogen and hydroxyl ions becomes comparable to the concentration of potassium and chlorine ions. At overlimiting current densities, due to the appearance of an extended space charge region and intense dissociation of water molecules in this region, as well as an increase in the electric double layer in the recombination region, the space charge and the dissociation/recombination reaction of water molecules significantly affect each other. In turn, this has a decisive effect on electroconvection and, accordingly, on the transport of salt ions. The reported study was funded by RFBR and DFG according to the research project No. 20-58-12018 NNIO.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Gudza V.",
+        "Urtenov M.",
+        "Chubyr N."
+      ],
+      "paper_id": "Kovalenko_2021_JPhysConfSer_2131_022109",
+      "title": "Mathematical modeling of the influence of non-catalytic dissociation / recombination of water molecules in the desalination channel on electric convection",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  }
+]

@@ -1,0 +1,663 @@
+[
+  {
+    "content": "Journal of Membrane Science 720 (2025) 123741\n\nAvailable online 23 January 20250376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/). Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment Zheng Cao , Jules Thibault\n\n, Boguslaw Kruczek *\n\nDepartment of Chemical and Biological Engineering, University of Ottawa, 161 Louis Pasteur St., Ottawa, K1N 6N5, Canada\n\nA R T I C L E I N F O Keywords:Membrane characterizationConstant volume systemsTime-lag methodPressure decayDifferential pressure transducer",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T The time-lag method is the most common approach for evaluating the membrane gas permeability, diffusion and solubility coefficients in a single gas permeation experiment. However, only permeability and diffusivity are determined directly, while the solubility is evaluated from the ratio of permeability and diffusivity. Herein, we present how the conventional time-lag experiment can be used to determine all three transport coefficients directly when, in addition to monitoring the pressure rise in the constant volume downstream from the mem­brane, the corresponding pressure decay is also monitored in the constant volume upstream of the membrane. The new design of the upstream part of the constant volume (CV) system used in this study allowed pressure decay monitoring. We provide the mathematical fundamentals of the new methods enabled by the new CV system and demonstrate them experimentally using a commercial poly (dimethylsiloxane) PDMS membrane.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Membrane gas separation became an industrial reality in the late 1970s with Monsanto’s first commercial asymmetric hollow membrane modules [1]. Today’s prominent membrane-based gas separations include hydrogen recovery [2], natural gas purification [3], and air separation [4]. In addition, olefin/paraffin separation, ethanol/water separation, and carbon capture applications have expanded the oppor­tunities for gas separation membranes [5]. Despite significant progress in the development of inorganic [6] and mixed matrix membranes (MMMs) [7], commercial gas separation membranes are exclusively prepared using organic polymers. These include polysulfones, cellulose acetates, polyphenylene oxide, aramids, polycarbonates, and polyimides [5]. Developing new materials - organic, inorganic, and composite – remains the central theme of membrane gas separation research. The combination of permeability and permselectivity for a given pair of gases compared to the upper-bound line is the standard metric for assessing new membrane materials [8]. In turn, the permeability (P) and permselectivity for a given pair of gases depend on the respective diffusivity (D) and solubility (S) coefficients of these gases in the membrane material. The three transport coefficients, P, D, and S, are determined in a single dynamic gas permeation experiment, often referred to as a timelag experiment.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "he three transport coefficients, P, D, and S, are determined in a single dynamic gas permeation experiment, often referred to as a timelag experiment. The mathematical basis for the time-lag experiment was first described more than a century ago [9]. The time-lag experiments are generally performed in constant volume (CV) systems. A degassed, homogeneous membrane from the tested material is exposed to a step pressure increase at one (feed) side. The resulting pressure rise at the other (permeate) side of the membrane is monitored in real-time. The tangent of the linear portion of the pressure rise, associated with a constant permeation rate, is directly proportional to P [10]. The extrapolation of that linear portion to the time axis yields a time lag (θd), which is related to the diffusivity by: θd = L2 6D(1) where L is the membrane thickness. According to the solution-diffusion model, the ratio of P to D represents S. The linear portion of the pressure response indicates a pseudo-steady state permeation, which is commonly referred to as a steady state. Alternatively, gravimetric, barometric, and volumetric techniques can determine S directly in gas sorption experiments [11]. The outcome of gas sorption experiments is an adsorption isotherm, i.e., the relation between the gas concentration in the membrane (c) as a function of",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Journal of Membrane Science 720 (2025) 123741 pressure (p) and solubility is S = cp(2) The solubility might be independent of pressure, like in the case of rubbery polymer membranes, in which Henry’s law governs gas sorp­tion. However, typically, S depends on p. For example, in the case of glassy polymer membranes, which represent most commercial gas sep­aration membranes [5], gas sorption is governed by dual-mode sorption [12]. Also, gas sorption in novel membrane materials, polymeric, inor­ganic, and mixed matrices does not follow Henry’s law and is not necessarily dual-mode sorption. Gas sorption experiments rely on reaching an equilibrium between the gas and the membrane phases, which may require a long time, especially for thick membranes, i.e., when the characteristic length for gas diffusion in a sample is relatively large. On the other hand, monitoring the gas concentration in the membrane as a function of time also allows the direct determination of the gas diffusivity. Knowing D and S, the gas permeability is evaluated from the product of D and S [13,14]. Therefore, like the time-lag method, the dynamic sorption/desorption experiments allow deter­mining all three transport coefficients from a single experiment. How­ever, two (S and D) are determined directly, while the third (P) is determined indirectly. The dynamic sorption/desorption experiments are usually per­formed using a barometric method called the pressure decay method.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "determined indirectly. The dynamic sorption/desorption experiments are usually per­formed using a barometric method called the pressure decay method. This technique introduces a known amount of gas into an evacuated chamber containing the membrane sample, and the pressure decay in the chamber corresponds to gas sorption by the membrane. Therefore, this method relies on the accurate knowledge of the system volume, a sensitive pressure transducer, and maintaining a constant temperature [11]. The protocol of a pressure decay method resembles that of the timelag method from the perspective of the upstream of the tested mem­brane. The main difference is that the steady-state permeation is reached in the time-lag method rather than an equilibrium between the gas and the membrane. However, it should be emphasized that the time-lag method relies on the instantaneous equilibrium between the gas and the membrane’s upstream interface. Another difference is that the pressure decay method is commonly used in gas sorption/desorption experiments, but its equivalent in gas permeation does not practically exist, even though the benefits of applying the pressure decay method in membrane characterization were first discussed 30 years ago [15].",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "practically exist, even though the benefits of applying the pressure decay method in membrane characterization were first discussed 30 years ago [15]. Monitoring the upstream pressure decay can offer some unique advan­tages, particularly when characterizing barrier materials for which reaching the steady state permeation (necessary to determine the time lag) could take not seconds or minutes but hours or even days. Combining the upstream pressure decay with the downstream pressure rise allowed Al-Ismaily et al. to determine P from transient permeation data before reaching a steady state [16]. Immediately after initiating the gas permeation experiment, the membrane behaves as a semi-infinite solid. It can be shown that during that time, the pressure decay (Δp0) is a linear function of the square root of time [16]: Δp0 = -2p0SRTA̅̅̅D√ V0 ̅̅̅π√̅̅t√(3) where p0 is the upstream (feed) pressure, V0 is the constant upstream volume, A is the membrane area, T is the absolute temperature, and R is the universal gas constant. Eq. (3) implies that Δp0 ≪ p0. The slope of Δp0 vs ̅̅t√is directly proportional to S̅̅̅D√, but the intercept from Eq. (3)is zero. Therefore, S and D cannot be determined from the initial pres­sure decay. However, it was shown that laminating the tested membrane with a film of known properties (e.g. silicone rubber) results in an intercept that depends on the tested membrane’s S and D [17].",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the tested membrane with a film of known properties (e.g. silicone rubber) results in an intercept that depends on the tested membrane’s S and D [17]. There­fore, the mathematical expression for the intercept yields the second independent equation, thus allowing the determination of D, S, and P from the upstream pressure decay before the gas leaves the tested barrier material. It can also be shown that if the tested membrane is not lami­nated and the gas emerges from the membrane, the deviation from the initial linear relation given by Eq. (3) at any time depends on D but not S [18]. Therefore, D can be evaluated from the observed deviation at the specific time, and knowing D, S can be determined from the initial slope of Δp0 versus ̅̅t√.Despite the potential advantages of monitoring the pressure decay in membrane characterization, this approach did not gain much attention in the membrane community. There are two main reasons for that. First, the resolution of the absolute pressure transducers depends on the maximum pressure they can measure. Because the pressure at the up­stream side of the membrane is orders of magnitude greater than that at the permeate side, the pressure rise in the conventional time-lag method can be monitored with an excellent resolution, but not the pressure decay at the upstream side of the membrane. Another challenge when monitoring pressure decay is the temperature drift [19].",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tion, but not the pressure decay at the upstream side of the membrane. Another challenge when monitoring pressure decay is the temperature drift [19]. The measure­ments in a CV system assume the observed pressure rise or decay (dp/dt) depends only on the gas molar flow (dn/dt) into or out of the membrane. It is a reasonable assumption when monitoring the pressure rise starting at high vacuum (p ≈0), but not necessarily when monitoring the pres­sure decay after initiating a time-lag experiment, which is evident when considering the total derivative from the ideal gas law: dpdt = RTV dndt -pV dVdt + pT dTdt(4) The second term on the right-hand side is always zero. However, when monitoring the pressure decay, the last term on the right-hand side might not be negligible even when the temperature is controlled because of the magnitude of the feed pressure (p ≫ 0). The resolution problem of absolute pressure transducers can be solved by adopting the concept of a two-tank volume, initially developed by Arkilic et al. [20], commonly used in microfluidics. Al-Ismaily et al. [16] were the first to adopt this concept to measure pressure decay in membrane characterization. However, the time-lag experiments could not be performed at pressures greater than 175 Torr. Moreover, the upstream and downstream time lag ratio did not yield a reasonable value, attributed to a “compression ef­fect.” [16]. We have recently solved the problems faced by Al-Ismaily et al.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "g ratio did not yield a reasonable value, attributed to a “compression ef­fect.” [16]. We have recently solved the problems faced by Al-Ismaily et al. by developing a new generation of the CV system [21], which increased the range of the feed pressure to 2000 Torr and led to the absolute ratio of the time lags for PDMS membrane very close to the expected value of 2. Like the conventional time-lag technique, the new characterization methods discussed in Refs. [16–18], which rely on the accurate moni­toring of the pressure decay, allow the direct determination of two out of three primary gas transport coefficients in the membrane, namely D and P. In this study, we present a new method based on the conventional time lag, which relies on the simultaneous monitoring of pressure rise and decay and allows the direct determination of all three transport coefficients from a single gas permeation experiment. We first provide the mathematical fundamentals of the new method. Then, we experi­mentally demonstrate the application of this method in the new CV system using a commercial PDMS membrane. We also discuss how the method proposed in this study and the new generation of CV systems can facilitate the characterization of new membrane materials for gas separation. 2.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ethod proposed in this study and the new generation of CV systems can facilitate the characterization of new membrane materials for gas separation. 2. Theoretical background The governing partial differential equation (PDE) describing the time-lag experiment is the Fick’s second law of diffusion: ∂c(x, t) ∂t= D ∂2c(x, t) ∂x2(5) The corresponding initial and boundary conditions are: c(x, 0) = 0;c(0, t) = c0; c(L, t) = 0. Solving the governing PDE, subject to the above",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Z. Cao et al.\n\nJournal of Membrane Science 720 (2025) 123741\n\n)exp(-Dn2π2tL2 )(6)\n\n)exp(-Dn2π2tL2 )(7) n=1 cos(nπxL )exp(-Dn2π2tL2 )(8)\n\n)(9)\n\n)[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}]\n\nThe above-series solutions simplify to single-term approximation when the Fourier number (dimensionless time) is relatively large. More specifically, when Fo = DtL2 > 0.2, Eqs. (9) and [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}], become: J(0, t) = p0PL + 2 p0PL exp(-Dπ2tL2 )[ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] J(L, t) = p0PL -2 p0PL exp(-Dπ2tL2 )[ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] The difference between the fluxes in and out are: ΔJ(t) = J(0, t) -J(L, t) = 4 p0PL exp(-Dπ2tL2\n\n)[ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}]",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "As t → ∞, i.e., at steady state, ΔJ approaches to 0. However, in the transient state, when Fo > 0.2, taking the natural logarithm of both sides of Eq. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] leads, after rearrangements, to: ln{ΔJ(t)L4p0P }= -Dπ2 L2 t[ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] ΔJ(t) can be evaluated by the differentiation of experimentally measured pressure rise and decay; P can be determined from the steadystate pressure rise or decay, while p0 and L are known parameters. Therefore, the left-hand-side of Eq. [ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] is known and can be plotted as a function of time, which should yield a straight line with the slope (σ): σ = -Dπ2 L2[ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] Knowing σ, D can be evaluated from Eq. [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}], and it should be the same as D from Eq. (1). Also, monitoring the pressure decay also allows the measurement of the upstream time lag (θ0), which is given by: θ0 = -L2 3D(16) The experimentally measured pressure decay also allows another way to determine D.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "t of the upstream time lag (θ0), which is given by: θ0 = -L2 3D(16) The experimentally measured pressure decay also allows another way to determine D. At early times, i.e., before permeating molecules emerge from the permeate interface of the membrane, the membrane behaves as semi-infinite, and the pressure decay is given by Eq. (3). In this early transient permeation period, the plot of the pressure decay versus the square root of time should yield a straight line with the slope (Σt) given by:",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Σt = -2p0SRTA̅̅̅D√ V0 ̅̅̅π√(17) On the other hand, when gas permeation reaches a steady state, the upstream pressure becomes a linear function of time, and the corre­sponding steady-state slope (Σss) is given by: Σss = -SDp0ARTV0L[ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] The ratio of the two slopes leads to the following expression: Σss Σt = ̅̅̅π√ 2L ̅̅̅D√(19) Therefore, the ratio of the two slopes allows for determining D directly from Eq. (19). Eqs. (1), [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}], (16) and (19) provide four ways to evaluate D from the same time-lag experiment, which should lead to the same value. Although more independent ways to determine a given parameter in­crease confidence in that parameter, the analysis so far does not go beyond the conventional time-lag method because only D and P are determined directly. S needs to be determined from the ratio of P and D. However, the accurate measurement of the pressure rise and decay also allows for the direct determination of S. First, we recognize that gas accumulation in the membrane as a function of time, M(t), is related to the fluxes in and out of the membrane: M(t) = A ⎧⎨ ⎩ ∫t J(0, t)dt -∫t J(L, t)dt\n\n[ФОРМУЛА: [FORMULA_ID: 844678c5-cb86-4cdc-972b-85583db87980] ( exp ( -Dn2π2t L2 ) -1 )} (21)]",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "π2 (π2 )= Ap0SL2(22)\n\nKnowing the upstream and downstream volumes of the system and the experimentally measured pressure rise and decay, M∞ can be eval­uated experimentally. In turn, the gas solubility in the membrane becomes: S = 2M∞ p0LA(23) It should be emphasized that Eq. (21) also provides the basis for determining gas diffusivity in the membrane. Dividing both sides of Eq. (21) by M∞ and rearranging the resulting equation leads to: 1 -M(t)M∞ = exp(-Dπ2tL2 )(24) Taking the natural logarithm of both sides of Eq. (24) yields: Mln(t) = ln(1 -M(t)M∞ )= -Dπ2tL2(25) The plot of the LHS of Eq. (25) versus time should lead to a straight line with the same slope (σ) as before given by Eq. [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}], and then D is determined from Eq. (16). 3. Materials and methods 3.1. Materials PDMS membranes (SSPM823-010-12″-SSP-M823-Platinum Cured\n\nZ. Cao et al.\n\nJournal of Membrane Science 720 (2025) 123741\n\nSilicone) were purchased from Interstate Specialty Products (Sutton, MA). They were supplied with a white virgin Teflon backing. According to the supplier, the PDMS membranes had a 0.025’’ ± 0.002’’ (0.610 mm ± 0.051 mm) thickness. All experiments were performed using a 99.99 % pure N2 from the compressed gas cylinder (Linde Canada Inc., Ottawa, ON).",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3,
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Apparatus Fig. 1 presents the schematic diagram of our novel CV system, which has been recently described in great detail [21]. Here, we focus only on the upstream part of the system, which allows the accurate monitoring of the pressure decay. The upstream volume is divided into the working V-101 and reference V-100 sections, with respective volumes of 89 cm3 and 96 cm3. The 96 cm3 does not include the dead volume (4 cm3) comprising the upstream part of the membrane cell and tubing up to the remotely operated FCV-7 valve. The working and reference volumes could be connected/separated with another remotely operated valve (FCV-1). The FCV valves comprise a valve body (Swagelok SC-4BK-VCR) and an actuator (Swagelok SS-4BK-VCR-1D & SS-4BK-1C-K10). The bodies of the FV and FCV valves are the same: stainless steel bellows sealed valves, procured from Weston Valve & Fitting LTD, Mississauga, ON. The measurement of the pressure decay due to gas permeation into the membrane relies on a capacitance-based differential pressure transducer DPT1 (CCR Process Products Kanata, Ontario, Canada, MKS698A ± 1 Torr, 10-6 full-scale resolution, accuracy: 0.05 % of reading), which compares a variable pressure in V-101 with a constant pressure in V-100.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "98A ± 1 Torr, 10-6 full-scale resolution, accuracy: 0.05 % of reading), which compares a variable pressure in V-101 with a constant pressure in V-100. In addition, the working and reference volumes are equipped with identical absolute pressure transducers, APT1 and APT4 (CCR Process Products Kanata, Ontario, Canada, MKS627F13TBC1B, 10-5 full-scale resolution, accuracy: 0.12 % of reading, range: 0–2000 Torr). The pressure in the reference volume can be adjusted indepen­dently of that in the working volume using a rotary vacuum pump P-400 (CANVACTECH, Ottawa, Ontario, Canada, Edwards RV3, A65201906, ultimate pressure: 1.5 * 10-3 Torr) and compressed gas cylinder TK-400 via FV-6 and FV-3 valves. Except for P-400, a turbomolecular pump P-401 (Edwards Vacuum LLC Sanborn, New York, USA, Edwards TS85D1002, ultimate pressure: <3.75 * 10-10 Torr) and TK-400, all components of the system in Fig. 1are enclosed in a temperature-controlled chamber with an operational range between 273 K and 313 K [22].",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Experimental protocol After installing the membrane inside the cell, the system was extensively evacuated to degas the membrane using two vacuum pumps, P-400 and P-401, and leak tests were performed in the different sections of the system, including the downstream, reference, and working vol­umes. The observed leak rates (10-7 torr/s or lower) were at least four orders of magnitude lower than the measured pressure decay/rise dur­ing experiments. After completing the leak tests, the system was evac­uated before initiating each experiment. With the membrane cell and the\n\nFig. 1. A schematic diagram (to the scale) of the novel constant volume (CV) system [21]. Z. Cao et al.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Journal of Membrane Science 720 (2025) 123741 downstream section of the system under vacuum, the reference and working volumes were pressurized to the desired level using TK-400. The remote opening of FCV-7 initiated the experiment, causing gas expansion and a pressure drop in the working volume greater than 1 torr, which is the full range of DPT1. Consequently, the pressure decay could only be monitored using APT1, not DPT1. For DPT1 to monitor the pressure decay, the pressure in the reference volume was reduced by the expected pressure drop in the working volume before the experiment. However, the adiabatic expansion in the working volume led to a sudden decrease in gas temperature. Since the thermal capacity of the gas in the working volume was negligible compared to the thermal capacity of insulated tubing, the gas temperature quickly returned to its initial level. Due to this phenomenon, the DPT1 readings in the first 5–6 s of the experiment were unreliable and had to be discarded [21]. Consequently, the gas permeation experiments began when the working and reference volumes were connected (i.e., FCV-1 was open), making DPT1 unavailable to monitor the experiment’s progress. FCV-1 was closed 5 s after FCV-7 was opened. In other words, the progress of the experiments by DPT1 was monitored after 5 s from their initiation. The remote operation of FCV1 and FCV7 ensured excellent repeatability of the experiments [21].",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "by DPT1 was monitored after 5 s from their initiation. The remote operation of FCV1 and FCV7 ensured excellent repeatability of the experiments [21]. Simultaneously with the pressure decay, the corresponding down­stream pressure rise was monitored using two identical 10-Torr absolute pressure transducers, APT2 and APT3 (CCR Process Products Kanata, Ontario, Canada, MKS627F11TBC1B, 10-5 full-scale resolution, accu­racy: 0.12 % of reading, range: 0–10 Torr). The gas accumulated in the downstream configuration that excluded accumulation tanks (V-300, V301, V302), i.e., in the downstream volume of 81 cm3. The purpose of not using the accumulation tanks downstream was to minimize the ef­fect of resistance to gas accumulation, which affects the experimentally measured θd [23]. The pressure rise results did not require any pro­cessing; the pressure decay results required two corrections described in Ref. [21]. 4. Results Fig. 2 presents an example of the progress of the gas permeation experiment – pressure rise and pressure decay – performed in the CV system shown in Fig. 1. The experiment was performed with a PDMS membrane (0.610 mm ± 0.051 mm thick) using N2 at 850 Torr pressure and 30 ◦C. Because the experiment was started when the working and reference volumes were commented, the pressure decay data is available only after 5 s from the initiation of the experiment, i.e., when FCV-1 was closed.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "erence volumes were commented, the pressure decay data is available only after 5 s from the initiation of the experiment, i.e., when FCV-1 was closed. The pressure decay rate is highest at the beginning of the experiment and gradually decreases as time progresses, reaching a constant rate indicating a steady state. Extrapolating the linear portion of the pressure decay curve to the time axis yields the upstream time lag θ0 = -99 s. At the same time, right after the initiation of the experiment, there is a negligible pressure rise because it takes time for gas molecules to diffuse across the membrane, which is followed by a gradual increase in the rate of pressure rise until a steady state permeation is attained. The corresponding downstream time lag based on the intercept of the extrapolated linear portion of the pressure rise curve is θd = 49 s. Therefore, the corresponding absolute value of the ratio of θ0 and θd is 2.02, which is nearly identical to the theoretical value of 2. Using θd and θ0 determined from the experimental pressure rise and decay, the corresponding diffusivity of N2 in PDMS from Eqs. (1) and (16) are 1.26 * 10-9 m2/s and 1.25 * 10-9 m2/s. Based on the slopes of the downstream pressure rise and the upstream pressure decay, the permeability of N2 in PDMS is 6.83 * 10-14 mol/s⋅m⋅Pa (207 Barrer) and 7.30 * 10-14 mol/s⋅m⋅Pa (221 Barrer), respectively.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "pstream pressure decay, the permeability of N2 in PDMS is 6.83 * 10-14 mol/s⋅m⋅Pa (207 Barrer) and 7.30 * 10-14 mol/s⋅m⋅Pa (221 Barrer), respectively. Knowing D and P, the corresponding solubility of N2 in PDMS from the pressure rise and decay is 5.40 * 10-5 mol/m3⋅Pa and 5.83 * 10-5 mol/m3⋅Pa, respec­tively. It is, therefore, evident that D, P, and S from the downstream pressure rise and the upstream pressure decay are very close to each other, which confirms the validity of the experimentally measured pressure decay in our novel CV system. As shown in Fig. 2, the rise in pressure after the initiation of the experiment is negligible for the first 40 s because it takes time for the permeating molecules to reach the downstream interface of the mem­brane. During that time, the membrane behaves as a semi-infinite solid, and the pressure decay should be governed by Eq. (3). Fig. 3 presents the experimentally measured pressure decay, shown in Fig. 2, as a function of the square root of time. The inset in Fig. 3 is the pressure decay portion of Fig. 2. As expected, Δp0 is a linear function of ̅̅t√at early times. Then, the pressure decay rate gradually increases because the permeating molecules leave the membrane, i.e., the membrane is no longer a semi-infinite solid. The slope of the linear portion Δp0 versus ̅̅t√ represents Σt, given by Eq. (17), and equals -0.065 Torr/s0.5. The cor­responding slope of the linear portion of pressure decay in Fig.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "p0 versus ̅̅t√ represents Σt, given by Eq. (17), and equals -0.065 Torr/s0.5. The cor­responding slope of the linear portion of pressure decay in Fig. 2, used to calculate membrane permeability, represents Σss, given by Eq. [ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}], and is equal to 3.4 * 10-3 Torr/s. Therefore, using the ratio of Σss and Σt, the diffusivity of N2 in PDMS from Eq. (19) is 1.28 * 10-9 m2/s. This diffusivity, which we will refer to as D by the two-slope method, is very close to the D values from the upstream and downstream time lags, which validates the two-slope method. The direct determination of the solubility of N2 in PDMS from Eq.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. An example of the pressure profiles from the N2 permeation in the CV system using a PDMS membrane of thickness 0.610 ± 0.051 mm. The experi­ment was conducted at 850 Torr and 30 ◦C.\n\nFig. 3. Pressure decay of the experiment demonstrated in Fig. 2 in the square root of the time domain. The inset shows the pressure decay part of Fig. 2. The N2 permeation experiment in the CV system using a PDMS membrane of thickness 0.610 ± 0.051 mm at 850 Torr and 30 ◦C.\n\nZ. Cao et al.\n\nJournal of Membrane Science 720 (2025) 123741",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5,
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(23) requires M∞, i.e., the amount of N2 dissolved in the membrane at a steady state. The number of moles of N2 in the membrane at a given time, M(t), can be determined from the pressure decay and pressure rise curves shown in Fig. 2. The number of moles entering the membrane, M0(t), is directly related to the pressure decay: M0(t) = V0 RT ∫t Δp0(t)dt = A∫t J(0, t)dt(26) Similarly, the number of moles leaving the membrane, Md(t), is directly related to the pressure rise: Md(t) = Vd RT ∫t Δpd(t)dt = A∫t J(L, t)dt(27) Fig. 4 presents the plots M0(t) and Md(t) using the experimentally measured Δp0 and Δpd shown in Fig. 2. Fig. 4 resembles Fig. 2 because M0 and Md are directly related to Δp0 and Δpd. However, unlike Fig. 2, the slopes M0(t) and Md(t) at a steady state are the same so that the respective linear portions of the curves are parallel. It is because in Eqs. (26) and (27) rely on the pressure decay and the pressure rise corrected by the respective upstream (V0) and downstream (Vd) volumes. The gas accumulation in the membrane as a function of time, M(t), is therefore: M(t) = M0(t) -Md(t)(28) The M∞ required to calculate S using Eq. (23) is represented by the vertical distance between M0(t) and Md(t) at a steady state. It is also important to note that the horizontal distance between M0(t) and Md(t) at a steady state represents the difference between the downstream and the upstream time lags. Because M0(t) and Md(t) are determined from the respective pressure decay (Eq.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "sents the difference between the downstream and the upstream time lags. Because M0(t) and Md(t) are determined from the respective pressure decay (Eq. (26)) and pressure rise (Eq. (27)) re­sponses, the resulting θ0 and θd in Fig. 4 are identical, as they should, as those in Fig. 2, and their difference depends on D: θd -θ0 = L2 2D(29) The diffusivity of N2 from Eq. (29) represents an arithmetic average diffusivity determined from Eqs. (1) and (16). Fig. 5 presents M(t) as a function of time determined from Fig. 4. As the time increases, M(t) → M∞, which is identical to the vertical distance between M0(t) and Md(t) at a steady state. The value of M∞ in Fig. 5 is obtained from the arithmetic average of M(t) after the system reaches the steady state at approximately 200 s. It is important to note that 200 s corresponds to four times the downstream time lag, consistent with a rule of thumb for reaching the steady state permeation [24]. According to Fig. 5 M∞ = 2.35 * 10-6 mol, the corresponding solubility coefficient from Eq. (23) is S = 5.38 mol/m3⋅Pa. Having the experimental value of M∞ allows the transformation of Eq. (21) into Eq. (25), as shown in Fig. 6. It is evident that there is a linear portion in Fig. 6. The slight upward deviation at the beginning is due to Eq. (24) relying on a single-term approximation, which is not valid at short times. Additionally, there is a downward deviation from linearity when Fo > 0.35.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "relying on a single-term approximation, which is not valid at short times. Additionally, there is a downward deviation from linearity when Fo > 0.35. As the steady state is approached, the lefthand side of Eq. (24) approaches zero. However, the limited resolu­tion of DPT1 results in a systematic error in M∞ - M(t), which becomes evident when the difference approaches zero. Nevertheless, there is a sufficiently long period in Fig. 6 during which Mln(t) is a linear function of t with a slope of σ = -0.031 s-1, corresponding to a diffusivity D =1.14 * 10-9 m2/s. 5. Discussion Monitoring the pressure decay in addition to the conventional pressure rise during the time lag experiments offers three additional",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. The amount of gas entering and leaving the membrane as a function of time determined from M0(t) and Md(t) shown in Fig. 4 for the pressure decay and rise in Fig. 2. The N2 permeation experiment in the CV system using a PDMS membrane of thickness 0.610 ± 0.051 mm at 850 Torr and 30 ◦C.\n\nFig. 5. Gas accumulation in the membrane as a function of time - determined from Mi(t) and Mo(t) presented in Fig. 4. The N2 permeation experiment in the CV system using a PDMS membrane of thickness 0.610 ± 0.051 mm at 850 Torr and 30 ◦C.\n\nFig. 6. Transformation of the results presented in Fig. 5 using Eq. (25). The Fourier number in the lower x-axis is calculated using D = 1.14 * 10-9 m2/s determined using the slope of the linear portion of the data in this figure. The N2 permeation experiment in the CV system used a PDMS membrane with a thickness of 0.610 ± 0.051 mm at 850 Torr and 30 ◦C.\n\nZ. Cao et al.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Journal of Membrane Science 720 (2025) 123741 methods for characterizing gas separation membranes. The first and most obvious, which we will refer to as Method 2 (where Method 1 is the time-lag method), is the direct application of the pressure decay, which allows determining D from the upstream time lag and P from the linear portion of the pressure decay, mimicking the conventional membrane characterization using the pressure rise, i.e., Method 1. The second, the two-slope method, which we will refer to as Method 3, uses the linear portion of pressure decay and the early slope of the pressure decay in the square root-of-time domain. The ratio of the two slopes depends only on the diffusion coefficient. The permeability coefficient in this method is the same as in the first method. These two new methods solely depend on pressure decay. If P, D, and S can be determined solely based on pressure decay using Methods 2 and 3, the permeate side of the mem­brane could be continuously evacuated, better adhering to one of the two boundary conditions on which the time-lag method relies. Alter­natively, the permeate side of the membrane could be connected to an online mass spectrometer, which would be advantageous if the feed were a gas mixture rather than a single gas. Finally, the combined method (Method 4), which relies on both pressure rise and decay, allows for the determination of gas accumulation in the membrane as a function of time.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "thod (Method 4), which relies on both pressure rise and decay, allows for the determination of gas accumulation in the membrane as a function of time. This, in turn, allows the direct determination of the diffusivity and solubility coefficients in a way similar to the dynamic adsorption/ desorption experiments used to characterize adsorbents. The resulting P is the product of directly determined D and S. Table 1 summarizes the P, D and S values using the abovementioned methods. Methods 1–3 rely on the fundamental correlation of the so­lution diffusion mechanism, i.e. P = DS(30) In other words, S in Methods 1–3 represents the ratio of the respective P and D values. On the other hand, S in Method 4 is determined inde­pendently and does not rely on Eq. (30). Because Method 4 utilizes the pressure rise and pressure decay results, the reported P in Table 1 is the arithmetic average from Methods 1 and 2. In addition to the values listed in Table 1, one could also report the average D and S from Methods 1 and 2: D = 1.26 * 10-9 m2/s and S =5.62 * 10-5 [mol/m3 Pa]. Also, using the product of D and S determined from Method 4, one could report P = 186 [Barrer]. The latter is 13 % smaller than the average P (214 Barrer). This discrepancy is primarily because the D from Method 4 is 10 % smaller than the average D from Methods 1 and 2. As indicated by Eq.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "P (214 Barrer). This discrepancy is primarily because the D from Method 4 is 10 % smaller than the average D from Methods 1 and 2. As indicated by Eq. (25), due to the logarithmic nature of the right-hand of this equation, a small error in M∞, such as 1 %, could translate into a larger error in the slope in Fig. 6, from which D is evaluated in Method 4. On the other hand, a 1 % error in M∞ would result in a 1 % error in S from Method 4. More importantly, the S from Method 4 does not rely on Eq. (30). As previously mentioned, the evaluation of S using Method 4 resembles the determination of S using a barometric method [11]. However, there are some fundamental differences. First, M∞ in Method 4 represents a steady-state rather than an equilibrium value. At a steady state, for a given feed pressure, while the permeate side is a vacuum, the membrane is “filled” to 50 % of its capacity because of the linear concentration profile. If an impermeable layer covered the permeate side of the membrane, the membrane could be filled to 100 % of its capacity, which would resemble a typical sorption experiment. How­ever, it can be shown that filling the remaining 50 % of the capacity would take a much longer time than reaching the steady state. It is important to acknowledge that in a sorption experiment, a sample (i.e., the membrane) would be exposed to the same pressure conditions on both the feed and permeate sides.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "dge that in a sorption experiment, a sample (i.e., the membrane) would be exposed to the same pressure conditions on both the feed and permeate sides. As a result, the characteristic length for diffusion inside the membrane would be half of its thickness rather than the entire thickness in the permeation experiment. Still, because of a decreasing concentration gradient for diffusion as the gas accumulates in the sample, reaching the equilibrium would take much longer than reaching a steady state in the permeation cell [25]. Another advantage of determining the solubility coefficient using Method 4 in our CV system is the resolution of the measurement. PDMS or, in general, polymeric membranes do not have high-capacity ab­sorption capacities. Therefore, evaluating the gas solubility coefficient in conventional gas sorption experiments using gravimetric/baro­metric/volumetric techniques would require a larger sample, which could increase the characteristic length for diffusion and, consequently, the time to reach the equilibrium concentration in the tested sample [11]. Also, as shown by Eq. (23), knowing the experimental M∞, re­quires accurate values of p0, L and A to determine S. There is practically no uncertainty in these values when a membrane is tested in a CV sys­tem. The accurate knowledge of L, or, more generally, the characteristic length for diffusion, is even more critical in determining D using Method 4 (Eq. (25)), as the slope in Fig.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "L, or, more generally, the characteristic length for diffusion, is even more critical in determining D using Method 4 (Eq. (25)), as the slope in Fig. 6 is inversely proportional to the square of membrane thickness. In this work, we have demonstrated the “multiplication” of mem­brane characterization methods when the pressure decay and the pres­sure rise are monitored simultaneously in a conventional time-lag experiment. The importance of using multiple methods (e.g., integral and differential) for analyzing the permeation data from a given time lag experiment was postulated by Beckman et al. [26]. This approach helps detect anomalous diffusion effects. For the rubbery polymers such as PDMS, P, D, and S should be independent of pressure. However, these transport coefficients become pressure-dependent in glassy polymers. Moreover, the more complex membrane materials, including glassy polymer membranes, require additional kinetic and thermodynamic parameters to characterize their performance fully. In this case, the “multiplication” of membrane characterization methods using simulta­neous monitoring of pressure rise and decay could be advantageous and necessary. 6. Conclusions The time-lag method, the most common way to evaluate membranes D, P and S, is widely used to design and optimize advanced membrane materials in gas separation.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lag method, the most common way to evaluate membranes D, P and S, is widely used to design and optimize advanced membrane materials in gas separation. The conventional time-lag method, which focuses on the downstream pressure profile, evaluates solubility from the ratio of permeability and diffusivity. In this work, we have provided the theoretical basis and experimentally demonstrated the direct determination of D, P, and S from a single time-lag gas permeation test by simultaneously measuring the upstream pressure decay and down­stream pressure rise in a new generation of a CV system. The simultaneous monitoring of pressure decay and pressure rise allows the evaluation of gas accumulation in the membrane as a function of time, and the steady-state gas accumulation allows the direct deter­mination of S. Moreover, the time-dependent gas accumulation in the membrane allows direct determination of D. Monitoring pressure decay during the time lag experiment also enables a new way of determining D from the ratio of two slopes, the early slope of pressure decay in the square root of time domain and the steady state pressure decay. In addition, the entire pressure decay curve mimics the conventional pressure rise curve from which P and D can be directly evaluated. The P, D, and S of N2 in the PDMS membrane using these characterization",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 1 The summary of N2 transport coefficients in a PDMS membrane of thickness 0.610 ± 0.051 mm determined from the single gas permeation (time-lag) experiment at 850 Torr and 30 ◦C. MethodP [Barrer]D [m2/s]S [mol/m3 Pa] 1. Conventional pressure rise2071.26 * 10-95.40 * 10-5 a 2. Direct pressure decay2211.25 * 10-95.83 * 10-5 a 3. Pressure decay two-slopes221b1.28 * 10-95.70 * 10-5 a 4. Combined pressure rise & decay214c1.14 * 10-95.38 * 10-5 a Calculated from P = DS.b From the pressure decay slope – Method 2.c The arithmetic average from Methods 1 and 2. Z. Cao et al.\n\nJournal of Membrane Science 720 (2025) 123741 methods were similar, which provided validation of the new methods proposed in this work. Multiple methods for determining P, D, and S in rubbery polymers might be unnecessary. Still, having several independent values of transport coefficients for a given membrane provides more confidence. However, when it comes to more complex membrane materials, in which Henry’s law is not applicable, including glassy polymers, mixed matrix materials, and membranes with anomalous diffusion effects, the conventional time-lag method might be insufficient, and the new methods proposed in this work may become indispensable. CRediT authorship contribution statement Zheng Cao: Writing – original draft, Visualization, Validation, Methodology, Investigation, Formal analysis. Jules Thibault: Writing – review & editing, Supervision, Software, Methodology, Investigation,",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7,
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Conceptualization. Boguslaw Kruczek: Writing – review & editing, Writing – original draft, Supervision, Methodology, Investigation, Funding acquisition, Conceptualization.\n\nDeclaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgement The authors gratefully acknowledge the financial support provided by the Natural Science and Engineering Research Council (NSERC) Canada, Discovery Grant (DG), grant number: 04443.\n\nNomenclature\n\nSymbols AMembrane area [m2]cGas concentration in the membrane [mol/m3]DDiffusivity coefficient [m2/s]FoFourier number [-]LMembrane thickness [m]M(t)Gas accumulation in the membrane as a function of time [mol]Mln(t)Logarithmic gas accumulation defined by Eq. (25) [-]M∞Gas accumulation in the membrane at the steady state [mol]PPermeability coefficient [Barrer or mol/s m Pa]pPressure [Torr or Pa]RUniversal gas constant [J/mol K]SSolubility coefficient [mol/m3 Pa]TAbsolute temperature [K]tTime [s]VVolume [m3]",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Greek symbols θTime lag [s]ΔpPressure decay/pressure rise [Torr or Pa]σSlope defined by Eq. [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] [1/s]ΣtSlope in the square-root-of-time domain defined by Eq. (17) [Torr/s1/2 or Pa/s1/2]ΣssSlope in the time domain defined by Eq. [ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] [Torr/s or Pa/s]\n\nSubscripts dDownstream0Upstream\n\n[3] R.W. Baker, K. Lokhandwala, Natural gas processing with membranes: an overview, Ind. Eng. Chem. Res. 47 (2008) 2109–2121, https://doi.org/10.1021/ ie071083w.[4] R. Prasad, F. Notaro, D.R. Thompson, Evolution of membranes in commercial air separation, J. Membr. Sci. 94 (1994) 225–248, https://doi.org/10.1016/03767388(93)E0193-N.[5] D.F. Sanders, Z.P. Smith, R. Guo, L.M. Robeson, J.E. McGrath, D.R. Paul, B. D. Freeman, Energy-efficient polymeric gas separation membranes for a sustainable future: a review, Polymer (Guildf). 54 (2013) 4729–4761, https://doi.org/ 10.1016/j.polymer.2013.05.075.[6] Q. Wang, R. Zhou, T. Tsuru, Recent progress in silicon carbide-based membranes for gas separation, Membranes 12 (2022), https://doi.org/10.3390/ membranes12121255.\n\nZ. Cao et al.\n\nJournal of Membrane Science 720 (2025) 123741",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8,
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[7] A.R. Kamble, C.M. Patel, Z.V.P. Murthy, A review on the recent advances in mixed matrix membranes for gas separation processes, Renew. Sustain. Energy Rev. 145 (2021) 111062, https://doi.org/10.1016/j.rser.2021.111062.[8] L.M. Robeson, The upper bound revisited, J. Membr. Sci. 320 (2008) 390–400, https://doi.org/10.1016/j.memsci.2008.04.030.[9] H.A. Daynes, The process of diffusion through a rubber membrane, Proc. R. Soc. London. Ser. A, Contain. Pap. a Math. Phys. Character. 97 (1920) 286–307, https:// doi.org/10.1098/rspa.1920.0034.[10] R.M. Barrer, E.K. Rideal, Permeation, diffusion and solution of gases in organic polymers, Trans. Faraday Soc. 35 (1939) 628–643, https://doi.org/10.1039/ tf9393500628.[11] M. Sadrzadeh, M. Rezakazemi, T. Mohammadi, Fundamentals and Measurement Techniques for Gas Transport in Polymers, Elsevier Inc., 2017, https://doi.org/ 10.1016/B978-0-12-809884-4.00019-7.[12] P. Meares, The diffusion of gases through polyvinyl acetate, J. Am. Chem. Soc. 76 (1954) 3415–3422, https://doi.org/10.1021/ja01642a015.[13] W.R. Vieth, K.J. Sladek, A model for diffusion in a glassy polymer, J. Colloid Sci. 20 (1965) 1014–1033, https://doi.org/10.1016/0095-8522(65)90071-1.[14] D.C. Li, T. Liu, L. Zhao, W.K. Yuan, Solubility and diffusivity of carbon dioxide in solid-state isotactic polypropylene by the pressure-decay method, Ind. Eng. Chem. Res. 48 (2009) 7117–7124, https://doi.org/10.1021/ie8019483.[15] X.Q. Nguyen, Z. Broˇz, F. Vaˇs´ak, Q.T.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "by the pressure-decay method, Ind. Eng. Chem. Res. 48 (2009) 7117–7124, https://doi.org/10.1021/ie8019483.[15] X.Q. Nguyen, Z. Broˇz, F. Vaˇs´ak, Q.T. Nguyen, Manometric techniques for determination of gas transport parameters in membranes. Application to the study of dense and asymmetric poly(vinyltrimethylsilane) membranes, J. Membr. Sci. 91 (1994) 65–76, https://doi.org/10.1016/0376-7388(94)00019-0.[16] M. Al-Ismaily, J.G. Wijmans, B. Kruczek, A shortcut method for faster determination of permeability coefficient from time lag experiments, J. Membr. Sci. (2012) 423–424, https://doi.org/10.1016/j.memsci.2012.08.009.[17] N. Al-Qasas, J. Thibault, B. Kruczek, Analysis of gas transport in laminated semiinfinite solid: novel method for complete membrane characterization during highly transient state, J. Membr. Sci. 460 (2014), https://doi.org/10.1016/j. memsci.2014.02.024.[18] N. Al-Qasas, J. Thibault, B. Kruczek, Membrane characterization based on the upstream pressure decay in a dynamic gas permeation test, J. Fluid Flow, Heat Mass Transf. 1 (2014) 57–64, https://doi.org/10.11159/jffhmt.2014.009.[19] B. Kruczek, S. Lashkari, in: G.U. Beltr´an, L.L. Castro G´omez (Eds.), Challenges in Microflow Measurements in Flow Measurement, 2012, pp. 1–34.[20] E.B. Arkilic, M.A. Schmidt, K.S. Breuer, Gaseous slip flow in long microchannels, J. Microelectromechanical Syst. 6 (1997) 167–178, https://doi.org/10.1109/ 84.585795.[21] P. Leszczynski, Z. Cao, H. Wu, J. Thibault, B.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "icrochannels, J. Microelectromechanical Syst. 6 (1997) 167–178, https://doi.org/10.1109/ 84.585795.[21] P. Leszczynski, Z. Cao, H. Wu, J. Thibault, B. Kruczek, MethodsX Determination of time lag by accurate monitoring of pressure decay in a new generation constant volume system, MethodsX 13 (2024) 102858, https://doi.org/10.1016/j. mex.2024.102858.[22] P.J. Leszczynski, A Novel Constant Volume System for Determining Transport Properties in Polymeric Membranes, University of Ottawa, 2023.[23] S. Lashkari, B. Kruczek, Effect of resistance to gas accumulation in multi-tank receivers on membrane characterization by the time lag method. Analytical approach for optimization of the receiver, J. Membr. Sci. 360 (2010), https://doi. org/10.1016/j.memsci.2010.05.043.[24] R. C. Ll Jenkins, P.M. Nelson, L. Spirer, Calculation of the transient diffusion of a gas through a solid membrane into a finite outflow volume, Trans. Faraday Soc. 66 (1970) 1391–1401.[25] J. Crank, The Mathematics of Diffusion, second ed., Oxford University Press, 1975.[26] I.N. Beckman, D. Syrtsova, M.G. Shalygin, P. Kandasamy, V.V. Teplyakov, Transmembrane gas transfer: mathematics of diffusion and experimental practice, J. Membr. Sci. 601 (2020) 117737, https://doi.org/10.1016/j. memsci.2019.117737.",
+    "citation": {
+      "authors": [
+        "This B.V."
+      ],
+      "paper_id": "1-s2.0-S0376738825000547-main",
+      "title": "Direct determination of permeability, diffusivity and solubility of gases in membrane based on simultaneous monitoring of pressure rise and decay in a single time-lag experiment",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  }
+]

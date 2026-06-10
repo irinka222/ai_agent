@@ -1,0 +1,716 @@
+[
+  {
+    "content": "Real-time non-destructive monitoring of supported liquid membranes usingelectrochemical impedance spectroscopy Hiroki Fukuda , Jongho Lee * Department of Civil Engineering, University of British Columbia, Vancouver, BC, Canada, V6T 1Z4\n\nA R T I C L E I N F O Keywords:Electrochemical impedance spectroscopySupported liquid membraneResource recoveryMedium-chain fatty acids",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T The degradation of supported liquid membranes (SLMs) due to membrane liquid leaching has been a hurdle fortheir implementation in resource recovery from waste streams. We present a novel approach utilizing fourelectrode mode electrochemical impedance spectroscopy (EIS) for real-time, non-destructive monitoring ofSLM degradation, providing detailed analysis of SLM’s structural changes. We first showed that SLMs may bedepicted as an electrical circuit of resistors and capacitors by EIS. The EIS then revealed that SLM degradationprogressed over four different phases as a result of varying rates of thickness and area reduction of the SLM. Todemonstrate the effectiveness of EIS-based diagnosis, we prepared SLMs designed for selective medium-chainfatty acid (MCFA) extraction in intact, partially, and completely degraded states, determined by the EIS. Theintact SLM showed a high selectivity (~50) for MCFAs over short-chain fatty acids. The selectivity decreased to~22 in the partially degraded SLMs, and less than 1 in the completely degraded SLM, indicating the clear linkagebetween the degree of degradation and the separation performance. Our four-electrode mode EIS method isexpected to serve as a key tool for efficient SLM operation and stable SLM development.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction The growing emphasis on sustainable resource management hasnecessitated effective separation processes for the recovery and production of versatile chemicals and critical metals from various wastestreams [1,2]. Solvent extraction processes are widely implemented formetal extraction in hydrometallurgy as well as organic compound recovery from wastewater. Pertraction is a solvent extraction process in amembrane platform, consisting of extraction and stripping steps [3,4].As a variant of pertraction, supported-liquid membrane (SLM) compactsthe extraction and stripping steps into a thin membrane, significantlyreducing the solvent use and the physical footprint [5]. In SLMs, anorganic liquid (membrane liquid hereafter) that has a high chemicalaffinity toward the target compound is immobilized in the pores of aporous membrane substrate. The target compounds in the feed firstdissolve into the membrane liquid at the feed-membrane interface(extraction), then diffuse across the thin membrane, and are finallystripped into the draw solution (stripping), often by an acid-base reaction at the membrane-draw interface.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e across the thin membrane, and are finallystripped into the draw solution (stripping), often by an acid-base reaction at the membrane-draw interface. The high selectivity of SLMs isparticularly attractive for waste valorization, with successful demonstrations at both laboratory and pilot scales in recovering biochemical compounds such as volatile fatty acids [6,7], lactic acid [8], andmedium-chain fatty acids (MCFAs) [9], as well as critical metals[10–24].Despite these successful cases, SLM implementation at the practicallevel has been impeded by membrane instability or degradation, that is,the gradual leaching of the membrane liquid from the SLM pores [5,25–28]. The primary challenge is the lack of proper methods to detect ormonitor SLM degradation in real-time during the operation. Currently,the assessment of SLM degradation relies on monitoring recovery andselectivity [29,30], post-use membrane weighing [23,31], and trackingpH in the feed or draw solution [32]. These methods are limited toproviding indirect and qualitative indications of SLM degradation andhardly inform the appropriate stage for replacing the membranes.Electrochemical impedance spectroscopy (EIS) is a versatile technique that can not only assess the electrochemical performance of systems but also elicit their physical/chemical properties by analyzing theelectrical responses of the system [33].",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the electrochemical performance of systems but also elicit their physical/chemical properties by analyzing theelectrical responses of the system [33]. Consequently, in addition toenergy storage systems (e.g., batteries, fuel cells, and supercapacitors),EIS has been applied to characterize fouling propensity in water treatment membranes [34–38], and to monitor the wetting progression inwater-repelling membranes [39,40]. EIS has also been attempted to",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 21 September 2024 0376-7388/ 2024 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC license ( http://creativecommons.org/licenses/bync/4.0/ ). assess SLM degradation, albeit to a limited extent [41,42]. For SLMs, EIShas typically been applied using either a twoor three-electrodeconfiguration. In these setups, impedance from system components (e.g., electrodes) can overlap with that of the membrane, distorting Bodeand Nyquist plots and complicating the interpretation of impedanceresponses from equivalent circuit components [43,44]. Therefore, mostprevious studies focus on total system impedance. Alternatively, in afour-electrode configuration, two electrodes apply the current (workingand counter), while the other two measure the voltage (working-senseand reference). This separation ensures that voltage measurements areunaffected by electrode contact resistance (i.e., the impedance at theinterface between the electrode and the aqueous solution), minimizingartifacts and allowing more accurate readings [43,44]. Despite theadvantage, four-electrode mode EIS has rarely been applied to structuralanalysis of SLMs, as well as hydrophobic desalination membranes.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "]. Despite theadvantage, four-electrode mode EIS has rarely been applied to structuralanalysis of SLMs, as well as hydrophobic desalination membranes. Thiscalls for investigating the applicability of EIS to clearly deciphering theelectrical responses of SLMs and accurately describe SLM degradationprocesses.We investigate the applicability of four-electrode mode EIS for thereal-time, non-destructive monitoring of SLM degradation and itsstructural changes. Through Bode impedance plot analysis, we determine the resistance and capacitance behaviors of the membrane andsystematically relate these electrical parameters to the compositionalchanges in SLMs. The effectiveness of the EIS method is assessed byperforming selective MCFA extraction experiments with SLMs at threevaried stages of degradation. This analysis examines the relationship between the structural changes of SLMs and their performance outcomes. The potential benefits of this approach for enhancing the stability of SLM systems are also discussed. 2. Working principles We used a microporous polyvinylidene difluoride (PVDF) membranesubstrate filled with dodecane in its pores as a model SLM, which allowsselective MCFA transfer over short-chain fatty acids (SCFAs) [9]. Inpreliminary EIS tests, the intact SLMs exhibit capacitive behavior due tothe non-ion-conductive nature of dodecane (relative permittivity of ~2[45,46]).",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "eliminary EIS tests, the intact SLMs exhibit capacitive behavior due tothe non-ion-conductive nature of dodecane (relative permittivity of ~2[45,46]). As the SLM degrades, marked by membrane liquid leaching,the liquid layer’s thickness and the non-ion-conductive pore (i.e., closedpore) area decrease (Fig. 1a). These structural changes may be describedby measuring the electrical capacitance arising from closed pores, Ccl: Ccl(t) = εrε0 Acl(t)dcl(t)(1) where εr is the membrane liquid’s relative permittivity, ε0 the vacuumpermittivity, Acl the closed pore area [the total cross-sectional area ofnon-ion-conductive (closed) pores], and dcl the average length of closedpores, which represents the extent of the continuous presence of themembrane liquid in the closed pores. A pore partially depleted of themembrane liquid, but with the liquid encompassing the pore crosssection, remains non-ion-conductive and functions as a capacitor",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Schematic illustrations of working principles and the experimental setup. (a) Schematics of intact, partially degraded, and completely degraded SLMs. Due tothe leakage of the membrane liquid, a partially degraded SLM features a thinner layer of membrane liquid (i.e., reduced dcl) and partially open pores comprising ionconductive pathways and residual membrane liquid (i.e., reduced Acl). (b) Modelling of SLM as a parallel circuit of resistors (open pores and solutions) and capacitors(closed pores and PVDF substrate). In the Bode impedance plot of the RC parallel circuit, Ccl is obtained by extrapolating the high-frequency response to the point at f= 1 Hz [with the corresponding value of 1/2π(Ccl + Csub)], and Rsol + Raq is obtained from the plateau. (c) Experimental setup for EIS. An AC is applied throughworking and counter electrodes by a potentiostat, while the potential drop across the SLM is measured via a working sense and a reference electrode. The systemtemperature is maintained by circulating water through a thermostat. H. Fukuda and J. LeeJournal of Membrane Science 713 (2025) 123360",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(Fig. 1b). In this work, we also refer to Acl and dcl as the SLM area and theSLM thickness, respectively, since a solubility-based selective transferacross the SLM is enabled by the closed pores.When the feed and draw solutions are connected across a pore, owingto the partial or complete leaching of the membrane liquid, the poreconducts ions (i.e., open pores) and acts as a resistor (Fig. 1b). Considering the tortuous ion-conductive pathway of the open pores, the electrical resistance of SLM due to these open pores (Raq) is calculated as: Raq(t) = ρτlAaq(t)(2) where ρ is the solution’s resistivity, τ the membrane tortuosity, l thethickness of the membrane substrate, and Aaq the total cross-sectionalarea of the ion-conductive pathways in the open pores. It can be notedthat the product τl is equivalent to the length of the ion-conductivepathways across the open pores.The PVDF membrane substrate not only provides structural support,but also functions as a capacitor with a relative permittivity of approximately 10 [47]. Consequently, a degraded SLM can be modeled as aresistor-capacitor (RC) parallel circuit. The total impedance of the SLM(Ztot) can be expressed by the following equation: Ztot(t) = Rsol +1jω[Ccl(t) + Csub] +1Raq(t)",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(3) where Rsol is the resistance due to the aqueous solution between the SLMand the two sensing electrodes, j the imaginary unit, ω the angularfrequency (ω = 2πf, with f representing frequency), and Csub thecapacitance due to the PVDF membrane substrate. The detailed theoretical background of the Bode and Nyquist plots is explained in Supporting Information Section S1 and the procedure of obtaining theresistance and capacitances are elaborated and Section 3.3. Briefly, thevalues of Ccl + Csub and Rsol + Raq can be derived from the Bodeimpedance plots acquired by EIS (Fig. 1b and c). The impedance valueextrapolated at 1 Hz corresponds to 1/2π(Ccl + Csb), and the lowfrequency plateau indicates Rsol + Raq. After Csub and Rsol were determined experimentally, Ccl and Raq were obtained from the extrapolatedvalue of Ccl + Csub and Rsol + Raq, respectively. Following this, parameters such as Acl, dcl and Aaq were calculated using Equations (1) and (2).The detailed steps for these calculations are presented in Section 3.3. 3. Material and methods 3.1. Materials and chemicals As a hydrophobic and porous substrate for SLMs, we used a microporousPVDFmembrane(MilliporeSigma,Burlington,MA,HVHP14250, nominal pore diameter 0.45 μm, porosity 75 %). Thedetailed characteristics of the membrane substrate are available inSupporting Information Section S2.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ominal pore diameter 0.45 μm, porosity 75 %). Thedetailed characteristics of the membrane substrate are available inSupporting Information Section S2. As the organic liquid, non-polardodecane from Alfa Aesar (Ward Hill, MA, U.S.) was chosen for its purity and suitability in capacitance measurements and prior use in MCFAextraction through SLM [9]. For the verification tests of EIS for structural analysis of SLMs, paraffin from Fisher Scientific (Waltham, MA, U.S.) was used instead. For accelerated SLM degradation and inclusion inthe synthetic MCFA extraction feed solution, reagent-grade ethanol wassourced from Electron Microscopy Sciences (Hatfield, PA, U.S.). Thesynthetic feed solution also included several fatty acids: acetic acid (C2),caproic acid (C6), and caprylic acid (C8) from Sigma-Aldrich (Burlington, MA, U.S.), and propionic acid (C3) from Fisher Scientific (Waltham,MA, U.S.). Reagent-grade sodium chloride (NaCl) for EIS conductivesolution was acquired from Sigma-Aldrich (Burlington, MA, U.S.).",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. SLM fabrication The methodology outlined in our previous publication was adoptedto fabricate SLMs [9]. Briefly, dodecane was infused into a PVDFmembrane through immersion, followed by the removal of excess liquidfrom the membrane surface using a rubber roller.For EIS validation tests in its ability to analyze SLM structures,dodecane was replaced by paraffin as the membrane liquid in the SLM.As paraffin remains solid at room temperature, this substitution allowsfor the precise control of the cross-section area of open pores in theSLMs. Specifically, the paraffin was melted at 70–80 ◦C in a beaker on ahot plate. The PVDF membrane was then partially immersed in themelted paraffin to fill membrane pores in a designated area. The paraffincoating on the membrane was performed in a symmetric fashion withrespect to the centerline of the membrane, which preserves a symmetric,undistorted electric field across the membrane during EIS. The membrane pores without paraffin work as open pores (ion-conductive pores)upon their exposure to and wetting by 45 % v/v ethanol in 1 M NaClsolution during EIS, which will be described in Section 4.1.For the MCFA extraction experiments, SLMs were prepared in threedistinct conditions: intact (freshly prepared), partially degraded, andcompletely degraded. A completely degraded SLM was achieved byagitating an intact SLM in ethanol until it became translucent and itsmeasured impedance approached zero.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ed. A completely degraded SLM was achieved byagitating an intact SLM in ethanol until it became translucent and itsmeasured impedance approached zero. A partially degraded SLM wasprepared by exposing an intact SLM to 45 % v/v ethanol-in-watermixture. This exposure continued until EIS measurements indicatedthat the closed pore length (dcl) was approximately 50 % of the intactstate, but around 90 % of the pores were still closed, available for selective MCFA extraction.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Impedance measurement by EIS This study employs four-electrode mode EIS, which offers a morereliable and isolated impedance response of the SLM than twoor threeelectrode mode. A detailed comparison of the two-, three-, and fourelectrode modes is provided in Supporting Information Section S3. ForSLM impedance measurement during its degradation (i.e., membraneleakage leaching), a custom-designed jacketed Devanathan–Stachurski(DS) cell was purchased from Adams & Chittenden Scientific Glass(Berkeley, CA, U.S.). As illustrated in Fig. 1c, the SLM was placed in theDS cell, with an orifice area of 4.91 * 10-4 m2. The two glass cellscontained 40 mL of 45 % v/v ethanol in 0.5 M NaCl, serving as aconductive medium to accelerate SLM degradation. This degradation isfurther expedited by agitating the solution at 900 rpm using a magneticstirrer. The cell temperature is regulated by circulating water from awater bath into a glass jacket.Upon setting the SLM in the DS cell, an alternating current (AC) wasapplied at the frequency range of 1 kHz–2 MHz through platinumworking and counter electrodes connected to a potentiostat (Interface1010E, Gamry Instruments, Warminster, PA, U.S.), while the potentialdrop across the SLM was measured using silver/silver-chloride (Ag/AgCl) working and reference electrodes. All measurements, includingAC application at various frequencies and impedance recordings, weremanaged using the Gamry Framework software (Gamry Instruments,Warminster, PA, U.S.).",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "application at various frequencies and impedance recordings, weremanaged using the Gamry Framework software (Gamry Instruments,Warminster, PA, U.S.). All measurements were conducted using themode of potentiostatic EIS, in which AC is applied to the system toensure that the resultant alternating potential difference remains at aconstant amplitude (i.e., 50 mV RMS) throughout the process. Each run(i.e., each SLM) lasted approximately 15 h, during which impedancemeasurements were conducted every 4–5 min.Following each impedance measurement, a set of Bode and Nyquistplots were generated. The experimentally obtained plots were then",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "H. Fukuda and J. LeeJournal of Membrane Science 713 (2025) 123360 fitted to their theoretical counterparts. As explained earlier, in the Bodeimpedance plot, the extrapolated point at a frequency f = 1 Hz wasequated to 1/2π(Ccl + Csub), and the plateau to Rsol + Raq. ZView 4software (Scribner, Southern Pines, NC, U.S.) was employed to performthe fitting and subsequent determination of Ccl + Csub and Rsol + Raqvalues.To determine the capacitance exclusively associated with the membrane liquid in the closed pores (Ccl), we measured the capacitance ofthe PVDF membrane substrate alone (Csub), as will be discussed in detailin Section 4.1. Similarly, the resistance values from the fitting process,Rsol + Raq, include contributions from both the aqueous solution outsideSLM and the SLM open pores. From the impedance measurementswithout a SLM, the 0.5 M NaCl solution resistance of Rsol = 10.9 Ω wasobtained. This resistance was then deducted from Rsol + Raq to reflect theresistance solely of the SLM (Raq).The structural parameters of the SLM were derived from themeasured capacitance and resistance values. At each measurement timet, the area occupied by the aqueous solution within the open pores, Aaq,was calculated using Equation (2) and the parameters in Table 1.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "asurement timet, the area occupied by the aqueous solution within the open pores, Aaq,was calculated using Equation (2) and the parameters in Table 1. Thecombined area of Acl and Aorg was then determined as a function of time,Acl(t) + Aorg(t), by recognizing the following relation: Atot = Acl(t) + Aorg(t) + Aaq(t)(4) Here, Atot is the total pore area of the PVDF membrane substrate,calculated from the resistance of a completely degraded SLM usingEquation (2). The individual values of Acl and Aorg as functions of timewere determined by considering the temporal relative change of theirmagnitudes. Since Aorg = 0 and open pores do not form at t = 0, weobtain the following conditions: Acl(t)Atot = 1at t = 0(5A) dAcl(t)dt= d[Acl(t) + Aorg(t)] dtat t = 0(5B) At the later stage t = tdegrade when the closed pore area of the SLM isfully diminished, Acl(t) = 0at t = tdegrade(5C) dAcl(t)dt= 0at t = tdegrade(5D) A third-order polynomial function of time (t) for Acl that satisfiesthese four boundary conditions was constructed, from which Acl andAorg were individually determined. Subsequently, the SLM thickness(length of closed pore), dcl, was calculated using Equation (1) and theparameters in Table 1.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.4. MCFA extraction tests The experimental procedure for MCFA extraction is identical to thoseoutlined in our previous publication [9] (details also provided in Supporting Information Section S4). Briefly, the feed solution comprised a mixture of MCFAs [caproic acid (C6) and caprylic acid (C8), each at 100mg L-1], SCFAs [acetic acid (C2) and propionic acid (C3), each at 100mg L-1], and ethanol (3000 mg L-1). The pH was adjusted to 3 usingsulfuric acid to ensure nearly all fatty acids in the feed were in theprotonated form (pH ≪pKa ~4.8). Conversely, an aqueous sodiumhydroxide solution with a pH of 12 was used as the draw solution to keepthe fatty acids in the draw in deprotonated form. The SLM, with anexposed area of 2.83 * 10-5 m2, was placed between two 7 mL glasscells containing the feed and the draw solutions. The duration of the testwas 24 h, and samples were collected from both solutions at predetermined intervals. The acquired concentrations were then used tocalculate the recovery and the selectivity. The selectivity (Si/j) of compound i over compound j is defined as: Si/j = REi REj(6) where REi and REj are the recoveries of compound i and compound j,respectively. 4. Results and discussion 4.1. Verification of EIS for structural analysis of SLMs The membrane liquid and PVDF membrane substrate as dielectricmaterials are expected to behave as capacitors in parallel.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "r structural analysis of SLMs The membrane liquid and PVDF membrane substrate as dielectricmaterials are expected to behave as capacitors in parallel. Therefore, theoverall capacitance of an SLM measured by EIS (CEIS) consists of contributions from both materials: CEIS(t) = Ccl(t) + Csub = εrε0 Acl(t)dcl(t) + Csub(7) To examine the EIS’s capability of structural analysis, three membranes filled with different media were first prepared by filling the PVDFsubstrate with air (i.e., pristine PVDF membrane), dodecane, andparaffin (see Section 3.2). Each value of Acl and dcl is identical for thethree SLMs. The measured capacitances (CEIS) of these SLMs for therelative permittivity (εr) of the three media are presented in Fig. 2a. Asexpected from Equation (7), a linear relationship between CEIS and εrwas observed, verifying separate contributions of capacitive behaviorfrom the membrane liquid and the PVDF substrate. Extending the linearregression line to the y-intercept further allows us to estimate thecapacitance solely from the PVDF substrate (Csub), quantified atapproximately 0.025 nF (or 1.42 * 10-7 F/m2). This baseline measurement is crucial as it establishes a reference point for assessing thecapacitance contributions from membrane liquid in SLMs.Next, EIS’s capability to quantify the closed pore length (dcl) andcross-section area of open pores (Aaq) in SLMs was examined.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "embrane liquid in SLMs.Next, EIS’s capability to quantify the closed pore length (dcl) andcross-section area of open pores (Aaq) in SLMs was examined. For Aaqestimation using EIS, several SLMs were prepared by partially dipcoating the substrate with paraffin such that known fractions of areaare not covered by the paraffin (see Section 3.2). The membrane areawithout paraffin is considered as the actual area of open pores, as thepores in the area are readily wetted by 45 % v/v ethanol in 1 M NaClsolution when EIS is conducted. By fitting the obtained Bode andNyquist plots to the RC parallel circuit model, Rsol + Raq was obtained.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 1Detailed parameters used to calculate the SLM area (Acl) and thickness (dcl). ParameterValueUnit Vacuum permittivity, ε08.85 * 10-12F m-1 Relative permittivity of dodecane, εr2 [45,46]–Resistivity of 0.5 M NaCl solution, ρ0.25Ω mMembrane thickness, l103μmMembrane substrate tortuosity, τ1.5 [9]–Resistance of aqueous solution between the membrane surface and electrodes, Rsol10.9ΩTotal pore area of the PVDF substrate, Atot1.46 * 10-5m2 H. Fukuda and J. LeeJournal of Membrane Science 713 (2025) 123360",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Raq was then obtained by subtracting Rsol (experimentally measured forthe 1 M NaCl solution) from Rsol + Raq, and Aaq was estimated usingEquation (2). As shown in Fig. 2b, the estimated Aaq increases as theactual open area increases (shown in the pictures). Both actual andmeasured Aaq values show an excellent agreement, substantiating thatthe open pores behave as resistors, and the four-electrode mode EISenables a sound estimation of the resistance values.For dcl estimation using EIS, up to four PVDF membranes that arefully dip-coated with paraffin were stacked together to create SLMs ofvarious thicknesses. During the dip-coating process, it was ensured thatthere were no air bubbles inside the SLMs and that all the pores in all thelayers were completely filled with paraffin. In the absence of open pores,these SLMs behave as a capacitor. We obtained Ccl + Csub by fitting theobtained Bode and Nyquist plots to the RC parallel circuit model. Bysubtracting Csub from Ccl + Csub, we calculated Ccl for the SLMs withdifferent thicknesses. Then, dcl was estimated using Equation (1) as Acl isconstant in these tests. As shown in Fig. 2b, the measured dcl increasesproportionally with the actual closed pore length (i.e., the total thickness of stacked SLMs). The actual and the estimated values of Acl show asound agreement. Fig. 2c illustrates the variations of Ccl with the numberof stacked SLMs on the log-log scale.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "and the estimated values of Acl show asound agreement. Fig. 2c illustrates the variations of Ccl with the numberof stacked SLMs on the log-log scale. The slope of nearly -1 indicatesthat Ccl is inversely proportional to dcl, as described in Equation (1).These experiments confirm that the closed pores behave as capacitors,and the SLM thickness (or the closed pore length) can be accuratelyestimated by EIS. With the EIS application and subsequent analysis ofSLM structures validated, we proceed to employ this method in investigating the mechanism of SLM degradation in the followingsections.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.2. Capacitance and resistance of SLM Fig. 3a shows the Bode impedance plots of the SLM at six differenttime points during the EIS test (the Bode phase plots and Nyquist plotsare available in Supporting Information Section S5). At the onset ofmembrane degradation (t = 0), the impedance was exceedingly high,indicating the absence of ion-conductive pathways in the SLM, resultingin a purely capacitive effect visible in the Bode impedance plot. Overtime, the resistance value, indicated by the plateau in the low-frequencyrange, emerges and subsequently diminishes. This decreasing resistancesuggests an increase in the number or cross-sectional area of ionconductive pathways as the membrane liquid leaches out. The impedance slope in the high-frequency range, which determines the extrapolated impedance value, 1/2π(Ccl + Csub), at f = 1 Hz, also decreases overtime. These separate derivations of resistance and capacitance from thetotal impedance have scarcely been attempted in previous studies [39,40,42], but provide more detailed descriptions of the physical composition of the membranes. Fig. 3b illustrates capacitance and resistance obtained from the Bodeimpedance plot analysis. The capacitance increases during the first 150min, followed by a decline to zero. The initial increase corresponds to areduction in the SLM thickness (Equation (1)). The subsequent declinesuggests a diminishing SLM area, characterized by a decreasing number",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Estimation of SLM structural parameters using EIS. (a) Capacitance measurements for PVDF membranes filled with various materials, plotted against therelative permittivity (εr), including air (εr ≈1, pristine PVDF membrane), dodecane (εr ≈2), and paraffin (εr ≈2.25). The dashed line indicates a linear regression lineconstructed from the average CEIS values. The y-intercept represents the capacitance attributable solely to the PVDF substrate (0.025 nF or 1.42 * 10-7 F/m2). (b)Correlation plot between actual and EIS-estimated values of open pore area (Aaq) and SLM thickness (or length of closed pores, dcl) for paraffin-filled SLMs. Aaq isnormalized to the total cross-section area (Atot) and dcl is to the thickness of four stacked SLMs (4l). (c) Capacitance of the closed pores (Ccl) as a function of thenumber of stacked SLMs. All error bars indicate standard deviations from measurements of three different membrane samples. The dotted line indicates a linearregression line constructed from the average Ccl values. H. Fukuda and J. LeeJournal of Membrane Science 713 (2025) 123360 of closed pores. After 270 min, the SLM essentially lost all its closedpores. The resistance curve, on the other hand, exhibits a sharp declinewithin the first hour, followed by a more gradual decrease. This initialsteep decrease suggests the formation of small open (i.e., ionconductive) pores.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "thin the first hour, followed by a more gradual decrease. This initialsteep decrease suggests the formation of small open (i.e., ionconductive) pores. Given the high electrical resistance of dodecane,even a slightly increased number of open pores markedly lowered theoverall resistance by facilitating ion passage. The subsequent slowerdecline implies a gradual reduction in the SLM area. The continueddecrease in resistance even after the capacitance reached zero (t > 270min) describes the partially open pores with the residual membraneliquid on the membrane pore surface. As the leakage of residualdodecane from these pores continued, the resistance value continued todecline due to the enlarged pathways of ion transfer, ultimately reachingthat of the aqueous solution in completely degraded membranes. The reproducibility of this method is presented in Supporting InformationSection S6. 4.3. Evolution of SLM area and thickness during degradation Based on the estimated capacitance and resistance (Fig. 3b), the SLMarea (closed pore area, Acl) and thickness (closed pore length, dcl) werecalculated using Equations (1) and (2) (details in Section 3.3), and arepresented in Fig. 3c. For convenience, we designate the SLM degradationprocess into four phases (Fig. 3d).In Phase I, dcl decreases while Acl remains largely unchanged.Although some small open pores may form, the majority of the poresstay closed, and mainly dcl is reduced.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. Temporal structural changes of SLM monitored by EIS. (a) Bode impedance plots at different times elapsed since the onset of SLM degradation. (b) Temporalvariations in electrical capacitance (Ccl) and resistance (Raq), normalized to those of the intact SLM, Ccl,0 and Raq,0, respectively. The time zero marks thecommencement of the SLM degradation. (c) Evolution of pore areas (Acl, Aaq, and Aorg) and length (dcl), normalized to the total pore area (Atot) and the closed porelength of the intact SLM (l), respectively. The legends are intended to match the pictorial descriptions in Fig. 1a. tdegrade denotes the time all the closed pores diminishat the end of Phase II. (d) Schematic representations of the progressive stages of SLM degradation, corresponding to Fig. 3c. H. Fukuda and J. LeeJournal of Membrane Science 713 (2025) 123360",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(e.g., MCFA recovery). Rather, a shorter closed pore length (i.e., thinnerSLM) can be advantageous due to its lower mass transfer resistance.Phase II is characterized by a continued decrease in dcl, accompaniedby a reduction in Acl, which eventually reaches zero. The closed poresgradually disappear, leaving open pores that are still partially filled withthe membrane liquid. During this phase, the SLM is expected to gradually lose its selective nature.In Phase III, this residual membrane liquid also leaks from the openpores. In Phase IV, the pore area allowing the passage of the aqueousfeed solution surpasses the area of any remaining membrane liquidwithin the open pores. This progression ultimately results in acompletely degraded SLM, devoid of membrane liquid in its pores.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.4. MCFA recovery and selectivity with intact and degraded SLMs To evaluate the effectiveness of EIS in tracking the SLM structuralchange, we performed selective MCFA extraction tests on SLMs in threestates: intact, partially degraded, and completely degraded. As described in our previous work [9], the intact SLM was tailored for selective MCFArecovery over SCFAs. The partially degraded SLM corresponds to Phase Ifrom the previous section with Acl/Atot = 0.9 and dcl/l = 0.43. Fig. 4a, b, and 4c show the SCFA and MCFA concentration changes inthe feed and draw solutions using the intact, partially degraded, andcompletely degraded SLMs, respectively. The intact SLM allowed thefacile transfer of MCFAs while almost completely blocking SCFAs,exhibiting an ideal SLM performance (Fig. 4a). The partially degradedSLM showed a reduced C8 recovery and slightly increased SCFA transfercompared to the intact SLM (Fig. 4b). In this SLM in Phase I, closed pores(filled with dodecane) were less available for fast MCFA transfer thanthe intact SLM, and the open pores allowed SCFAs (and MCFAs) to pass.For the completely degraded SLM, as expected, both SCFAs and MCFAsfreely transferred through the open pores, and the membrane did notfeature any selectivity (Fig. 4c). The slightly higher recovery rate ofSCFAs compared to MCFAs is attributed to the greater diffusion coefficient of SCFAs than that of MCFAs in aqueous solutions. Fig. 4d clearly illustrates the impact of SLM degradation on",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. Temporal changes in the mass of SCFAs and MCFAs in the extraction tests using the SLMs of different degradation states: (a) Intact SLM with Acl/Atot = 1 anddcl/l = 1, (b) Partially degraded SLM with Acl/Atot = 0.9 and dcl/l = 0.43, and (c) Completely degraded SLM with Acl/Atot = 0 and dcl/l = 0. mf* and md* are thenormalized mass of the fatty acids in the feed and draw solutions, respectively. (d) MCFA selectivity (Si/j) at the 24-h mark of the extraction experiments. In this work,C6 and C8 are used as representatives of MCFAs, and C2 and C3 as representatives of SCFAs. C6/C3 denotes the selectivity of caproic acid (C6) over propionic acid(C3). C8/C3 denotes the selectivity of caprylic acid (C8) over propionic acid (C3). C8/C6 is the selectivity of caprylic acid (C8) over caproic acid (C6). H. Fukuda and J. LeeJournal of Membrane Science 713 (2025) 123360 selectivity performance, particularly the selectivity of MCFAs overSCFAs. The C8/C3 selectivity markedly decreased, falling from ~50 inintact SLMs to ~22 in partially degraded ones. In these partiallydegraded SLMs, approximately 10 % of the pore area was open, allowingfree passage of the aqueous solution, and the closed pore length is lessthan half compared to that in the intact SLM. This shows that even minordegradation can significantly impair SLM selectivity.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "losed pore length is lessthan half compared to that in the intact SLM. This shows that even minordegradation can significantly impair SLM selectivity. The decline inselectivity continues as the SLMs degrade further; for completelydegraded SLMs, the C8/C3 selectivity sharply drops to 0.82, highlighting a substantial reduction in both recovery and selectivity due todecreased closed pore area. In contrast, selectivity among MCFAs, evenwith an intact SLM, is low (C8/C6 selectivity of 1.6) and decreases onlyslightly by the partial degradation (C8/C6 selectivity of 1.2), suggestingthat the selectivity among MCFAs mainly hinges on their respective affinities to the membrane liquid in closed pores [9]. Overall, EIS proveseffective in monitoring SLM degradation, with a direct correlation toselective extraction performance. 4.5. Real-time monitoring of SLM integrity during MCFA extraction In the previous section, the SLM degradation was deliberatelyaccelerated by using 45 % v/v ethanol-in-water solution and thedegraded status of SLM was determined prior to the MCFA extraction.This section discusses the applicability of EIS to real-time monitoring ofSLM integrity or degradation while extracting target materials by theSLM. Fig. 5 shows the time evolution of Ccl and Raq from the SLM alongwith the recovery values of SCFAs (C2 and C3) and MCFAs (C6 and C8).The extraction experiments were conducted up to the point where nearlyall C8 was extracted (~30 h).",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "values of SCFAs (C2 and C3) and MCFAs (C6 and C8).The extraction experiments were conducted up to the point where nearlyall C8 was extracted (~30 h). The overall changes in the Bode andNyquist plots over time were relatively minor, while they fluctuated dueto the extremely high impedance caused by the insulating intact SLMs.Consequently, the capacitance and resistance values of the SLM duringthe tests were reasonably consistent. The rate of SLM degradation was not very noticeable in the tested time scale, as the dissolution of themembrane liquid into the aqueous feed solution (i.e., leaching) wasslow. As a result, the observed recovery values of fatty acids were nearlyidentical to those in Fig. 4a. This experiment demonstrates that theMCFA extraction and EIS can be performed simultaneously, without anyobservable interferences to each other, allowing for real-time monitoring of the SLM structural changes in a non-invasive manner. 5. Conclusion and implications In this work, we verified the applicability and accuracy of the fourelectrode mode EIS in the structural analysis of SLMs and utilized themethods to investigate the mechanism of the SLM degradation. Ourresults underline the EIS’s capability to distinguish the resistive andcapacitive behaviors of SLMs and correlate them to temporal evolutionsof membrane physical structures as the membrane liquid leaches.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the resistive andcapacitive behaviors of SLMs and correlate them to temporal evolutionsof membrane physical structures as the membrane liquid leaches. Aspotential SLM applications for biochemical recovery, the MCFAextraction experiments with EIS-diagnosed SLMs demonstrated EIS’sutility in linking the SLM structure and degradation states to performance prediction.Our proposed approach serves as a key for developing stable SLMsand expanding their applications in resource recovery from variouswaste streams. Even for non-stable SLMs, as currently are most SLMs,continuous and non-destructive monitoring of the membrane composition allows for early detection of process failures and facile systemmaintenance without relying on indirect indications such as loweredselectivity or membrane weight change. Further, a thorough analysis ofthe time-varying Bode and Nyquist plots based on the four-electrode EISprovides a benchmark for SLM stability and membrane leakage kinetics,thereby assisting in the development of stable SLMs.When applying SLMs for resource recovery from real feed streams (e.g., anaerobically treated wastewater), various types of contaminants andresources may be present, causing the electrical resistances of the feedand permeate sides to change over time. The current method allows formeasuring the resistance of the feed and draw solutions separately inreal-time to offset any changes caused by contaminants.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "current method allows formeasuring the resistance of the feed and draw solutions separately inreal-time to offset any changes caused by contaminants. Moreover, theresistance value corresponding to the contaminants in such feed streamsis typically much smaller than the resistance change caused by SLMdegradation from an insulating state (intact) to a conductive state(degraded). Thus, the current approach of applying EIS remains effective by isolating the effects of SLM degradation from other variables.SLMs with enhanced stability have great potential for the recoveryand production of resources beyond MCFAs. For example, MomentumTechnologies (Aubrey, TX) has commercialized SLMs for extractinglithium from spent batteries [48]. In particular, for metal recovery, ionicliquids (ILs) are considered effective membrane liquids in SLM, as ILsselective to a given target compound can be designed by selectingsuitable ionic groups [49,50]. Since ILs are conductive and exhibit bothresistive and capacitive behavior [41], different from the dodecane usedin this work, EIS for IL-embedded SLMs should be applied by employinga suitable electrical circuit model and/or utilizing the electrical conductivity contrast between highly conductive solutions and ILs. Supplementary materials Supplementary data to this article can be found online.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "cal conductivity contrast between highly conductive solutions and ILs. Supplementary materials Supplementary data to this article can be found online. CRediT authorship contribution statement HirokiFukuda:Conceptualization,Methodology,Validation,Formal analysis, Investigation, Writing – original draft, Writing – review& editing, Visualization. Jongho Lee: Conceptualization, Methodology,Formal analysis, Writing – review & editing, Supervision, Projectadministration, Funding acquisition.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Declaration of competing interest The authors declare that they have no known competing financialinterests or personal relationships that could have appeared to influencethe work reported in this paper. Data availability Data will be made available on request.\n\nAcknowledgements This work was supported by the Natural Sciences and EngineeringResearch Council of Canada (NSERC) through a Discovery Grant(RGPIN-2023-03352).\n\nAppendix A. Supplementary data Supplementary data to this article can be found online at https://doi.org/10.1016/j.memsci.2024.123360. Nomenclature",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "AbbreviationsACAlternating currentDS cellDevanathan–Stachurski cellEISElectrochemical impedance spectroscopyILIonic liquidMCFAMedium-chain fatty acidPVDFPolyvinylidene difluorideRCResistor-capacitorSCFAShort-chain fatty acidSLMSupported liquid membrane SymbolsAaqCross-section area of SLM’s open (ion-conductive) pores(unit: m2)AclCross-section area of SLM’s closed (non-ion-conductive)pores (unit: m2)Ag/AgClSilver/silver chloride AorgSpanning area of membrane liquid in open pores (unit: m2)AtotTotal pore cross-section area of the PVDF membranesubstrate (unit: m2)C2Acetic acidC3Propionic acidC6Caproic acidC8Caprylic acidCclElectrical capacitance of SLM’s closed pores (unit: F)Ccl,0Electrical capacitance of intact SLM’s closed pores (unit: F)CsubElectrical capacitance of the PVDF substrate (unit: F)dclLength of SLM’s closed pores (unit: m)fFrequency (unit: Hz or s-1)jImaginary unitlLength of SLM’s open pores (= thickness of the PVDFsubstrate) (unit: m)md*Normalized mass in the draw solution (unit: )mf*Normalized mass in the feed solution (unit: )NaClSodium chlorideRaqElectrical resistance of SLM’s open pores (unit: Ω)Raq,0Electrical resistance of intact SLM (unit: Ω)RERecovery (unit: )RsolElectrical resistance of the aqueous solution between theSLM and the working-sense/reference electrodes (unit: Ω)SSelectivity (unit: )tTime (unit: s)tdegradeTime when the closed pore area is fully diminished (unit: s)ZtotTotal impedance of the SLM system (unit: Ω)ε0Vacuum permittivity (ε0 = 8.854 * 10-12 F m-1)εrRelative permittivity of membrane liquid (unit: )ρElectrical resistivity of aqueous solution in SLM’s openpores (unit: Ω m)τTortuosity of the PVDF substrate (unit: )ωAngular frequency (unit: rad s-1)",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[26] A.M. Neplenbroek, D. Bargeman, C.A. Smolders, Mechanism of supported liquidmembrane degradation: emulsion formation, J. Membr. Sci. 67 (2) (1992)133–148.[27] A.M. Neplenbroek, D. Bargeman, C.A. Smolders, Supported liquid membranes:instability effects, J. Membr. Sci. 67 (2) (1992) 121–132.[28] A.J.B. Kemperman, D. Bargeman, T. Van Den Boomgaard, H. Strathmann, Stabilityof supported liquid membranes: state of the art, Separ. Sci. Technol. 31 (20) (1996)2733–2762.[29] F.J. Hern´andez-Fern´andez, A.P. de los Ríos, M. Rubio, F. Tom´as-Alonso, D. G´omez,G. Víllora, A novel application of supported liquid membranes based on ionicliquids to the selective simultaneous separation of the substrates and products of atransesterification reaction, J. Membr. Sci. 293 (1) (2007) 73–80.[30] F.J. Hern´andez-Fern´andez, A.P. de los Ríos, F. Tom´as-Alonso, D. G´omez, G. Víllora,Improvement in the separation efficiency of transesterification reactioncompounds by the use of supported ionic liquid membranes based on thedicyanamide anion, Desalination 244 (1) (2009) 122–129.[31] B. Jiang, H. Dou, L. Zhang, B. Wang, Y. Sun, H. Yang, Z. Huang, H. Bi, Novelsupported liquid membranes based on deep eutectic solvents for olefin-paraffinseparation via facilitated transport, J. Membr. Sci. 536 (2017) 123–132.[32] A. Kumar, M.S. Manna, A.K. Ghoshal, P. Saha, Study of the supported liquidmembrane for the estimation of the synergistic effects of influential parameters onits stability, J. Environ. Chem.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Saha, Study of the supported liquidmembrane for the estimation of the synergistic effects of influential parameters onits stability, J. Environ. Chem. Eng. 4 (1) (2016) 943–949.[33] S. Wang, J. Zhang, O. Gharbi, V. Vivier, M. Gao, M.E. Orazem, Electrochemicalimpedance spectroscopy, Nature Reviews Methods Primers 1 (1) (2021) 1–21.[34] Y. Xu, M. Wang, Z. Ma, C. Gao, Electrochemical impedance spectroscopy analysisof sulfonated polyethersulfone nanofiltration membrane, Desalination 271 (1)(2011) 29–33.[35] A. Antony, T. Chilcott, H. Coster, G. Leslie, In situ structural and functionalcharacterization of reverse osmosis membranes using electrical impedancespectroscopy, J. Membr. Sci. 425–426 (2013) 89–97.[36] Y. Gao, W. Li, W.C.L. Lay, H.G.L. Coster, A.G. Fane, C.Y. Tang, Characterization offorward osmosis membranes by electrochemical impedance spectroscopy,Desalination 312 (2013) 45–51.[37] Y. Jing, B.P. Chaplin, Electrochemical impedance spectroscopy study of membranefouling characterization at a conductive sub-stoichiometric TiO2 reactiveelectrochemical membrane: transmission line model development, J. Membr. Sci.511 (2016) 238–249.[38] N. Zhang, M.A. Halali, C.-F. de Lannoy, Detection of fouling on electricallyconductive membranes by electrical impedance spectroscopy, Sep. Purif. Technol.242 (2020) 116823.[39] Y. Chen, Z. Wang, G.K. Jennings, S.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "electricallyconductive membranes by electrical impedance spectroscopy, Sep. Purif. Technol.242 (2020) 116823.[39] Y. Chen, Z. Wang, G.K. Jennings, S. Lin, Probing pore wetting in membranedistillation using impedance: early detection and mechanism of surfactant-inducedwetting, Environ. Sci. Technol. Lett. 4 [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] (2017) 505–510.[40] P.W. Wong, V.M.-W. Yim, J. Guo, B.S. Chan, B.J. Deka, A.K. An, Noninvasive realtime monitoring of wetting progression in membrane distillation using impedancespectroscopy, Environ. Sci. Technol. 56 (1) (2022) 535–545.[41] R. Fortunato, L.C. Branco, C.A.M. Afonso, J. Benavente, J.G. Crespo, Electricalimpedance spectroscopy characterisation of supported ionic liquid membranes,J. Membr. Sci. 270 (1) (2006) 42–49.[42] C.H. Nguyen, T.T. Van Tran, W.-C. Huang, R.-S. Juang, Experimental verificationon stability analysis of supported-liquid-membrane separation of metal ions by insitu electrical impedance spectroscopy, J. Taiwan Inst. Chem. Eng. 128 (2021)1–10.[43] E.L. Anderson, P. Bühlmann, Electrochemical impedance spectroscopy of ionselective membranes: artifacts in two-, three-, and four-electrode measurements,Anal. Chem. 88 (19) (2016) 9738–9745.[44] J. Fang, W. Shen, S.H.S. Cheng, S. Ghashghaie, H.K. Shahzad, C.Y.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "-, three-, and four-electrode measurements,Anal. Chem. 88 (19) (2016) 9738–9745.[44] J. Fang, W. Shen, S.H.S. Cheng, S. Ghashghaie, H.K. Shahzad, C.Y. Chung, Fourelectrode symmetric setup for electrochemical impedance spectroscopy study oflithium–sulfur batteries, J. Power Sources 441 (2019) 227202.[45] P.C. Sedrez, C.J.N. Sanchez, M.J. da Silva, J.R. Barbosa, Dielectric constant ofmixtures of carbon dioxide and N-dodecane between 283 K and 343 K, Int. J.Thermophys. 41 (2) (2020) 26.[46] M. Khademi, S.S.Y. Cheng, D.P.J. Barz, Charge and electrical double layerformation in a nonpolar solvent using a nonionic surfactant, Langmuir 36 (19)(2020) 5156–5164.[47] Z. Han, Q. Wang, Recent progress on dielectric polymers and composites forcapacitive energy storage, iEnergy 1 (1) (2022) 50–71.[48] Oak Ridge National Laboratory, Process to recover metals from batteries licensedby Momentum Technologies, in: https://www.ornl.gov/news/process-recover-metals-batteries-licensed-momentum-technologies, 2020 (accessed 2024-September24).[49] P.D. Ola, M. Matsumoto, Supported ionic liquid membranes for metal separation,in: Progress and Developments in Ionic Liquids, InTech, 2017.[50] R. AliAkbari, Y. Marfavi, E. Kowsari, S. Ramakrishna, Recent studies on ionicliquids in metal recovery from E-waste and secondary sources by liquid-liquidextraction and electrodeposition: a review, Materials Circular Economy 2 (1)(2020) 10.",
+    "citation": {
+      "authors": [
+        "The S.",
+        "To M."
+      ],
+      "paper_id": "1-s2.0-S0376738824009542-main",
+      "title": "Real-time non-destructive monitoring of supported liquid membranes using electrochemical impedance spectroscopy",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  }
+]

@@ -1,0 +1,852 @@
+[
+  {
+    "content": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis Young Joo Lee a , Ashley M. Robinson b\n\n, Woo Jin Jang a, Zekun Ye b\n\n, Yi Ren a, Yan Xia b,*\n\n, Ryan P. Lively a,** a School of Chemical and Biomolecular Engineering, Georgia Institute of Technology, Atlanta, GA, 30332, USAb Department of Chemistry, Stanford University, Stanford, CA, 94305, USA\n\nA R T I C L E I N F O Keywords:Catalytic arene-norbornene annulation (CANAL) polymersTr¨oger’s base (TB) based polymersMicroporous polymer membranesMachine-learningOrganic solvent reverse osmosis (OSRO)",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Polymer membranes can effectively separate organic liquid mixtures. Identifying high-performance polymer structures for specific separations is crucial for the development of next-generation membrane materials. However, reliance on empirical experimental investigations alone is limited by the labor intensive and timeconsuming nature of laboratory study. This work presents an example of material selection using a predictive model for a series of microporous polymers containing motifs from catalytic arene-norbornene annulation (CANAL) and Tr¨oger’s base (TB) chemistries, which have not yet been explored in organic solvent reverse osmosis (OSRO). For the prediction, no additional information beyond the chemical structure of the polymer and details of the mixture (e.g., chemical structures of molecules, mixture concentration) to be separated is required. The prediction model was employed to classify 13 distinct microporous polymer structures, which have not been trained in the model, into groups of good and poor performers for a benchmark binary hydrocarbon mixture (e. g., toluene/triisopropylbenzene). The prediction-assisted material selection was experimentally validated, underscoring its potential to expedite membrane materials discovery and selection. The use of a selected polymer membrane was extended to a model light crude mixture separation.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Polymer membrane-based separation of organic liquids offers an energy-efficient augmentation or even alternative to conventional thermal fractionation [1–3]. Separating organic solvents of similar size via organic solvent reverse osmosis (OSRO) represents an emerging yet challenging application, and demands polymer membranes with high selectivity in addition to chemical stability. Microporous polymers, such as polymers of intrinsic microporosity (PIMs), with abundant ultra­micropores, have been widely explored for gas separations [4–6], and more recently for organic solvent separations [7–9]. However, classic PIMs, such as PIM-1, dilate significantly in organic hydrocarbons and typically exhibit poor separation capability [10,11]. More recently, catalytic arene-norbornene annulation (CANAL) [12–14] and Tr¨oger’s base (TB) [15–18] chemistries have been used to synthesize rigid ladder polymers as new types of PIMs. The rigid and contorted structures of these ladder polymers result in high surface area and excellent thermal stability. Some of these ladder polymers have been shown to exhibit excellent performance in gas separations combining high selectivity with high permeability, after a period of aging under ambient conditions [14].",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "bit excellent performance in gas separations combining high selectivity with high permeability, after a period of aging under ambient conditions [14]. While these polymers have only been investigated for gas separation applications so far, their excellent size-sieving properties observed in gas separations and high thermal and chemical stability warrant exploration of these polymers for OSRO ap­plications [15]. Moreover, the high backbone rigidity in ladder polymers is believed to be crucial to obtain high size selectivity in gas separations. However, in organic liquid separations, the polymers are strongly dilated and even plasticized by sorbed solvent molecules, and an outstanding question is whether having completely rigid ladder struc­tures is necessary for enhancing selectivity relative to non-ladder structures. One common challenge with exploring the usage of new materials for existing or emerging chemical separations is identifying which material to examine first. In this regard, machine learning (ML) prediction",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "* Corresponding author.** Corresponding author.E-mail addresses: yanx@stanford.edu (Y. Xia), ryan.lively@chbe.gatech.edu (R.P. Lively).\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 734 (2025) 124475",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 23 July 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC license ( http://creativecommons.org/licenses/bync/4.0/ ). methods based on large sets of relevant data can facilitate the selection and even discovery of new materials to deploy for chemical separation targets. In the case of polymer membranes for OSRO separations, it is attractive to use only the polymer structure as an input for ML algo­rithms to train the model about predicting structure-property relation­ships, and thus more diverse polymer structures and large data sets will in turn improve the accuracy of the ML model [19–30]. ML models have been used to successfully design and develop new polymer materials for gas separation [20,21,23], pervaporation [24,30], and organic solvent nanofiltration [25]. These examples have used experimental and/or molecular simulation data to train the ML model to precisely predict membrane performance using the chemical structure of membrane polymer as an input. When investigating new polymer structures that have not been explored for organic liquid transport properties, such predictive models can enable a rapid and efficient material selection process by generating the separation performance of the materials for a specific mixture of interest.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "enable a rapid and efficient material selection process by generating the separation performance of the materials for a specific mixture of interest. Moreover, artificial intelligence algorithms driven by these ML models have the potential to suggest numerous membrane structures that are predicted to exhibit superior separation performance for the target mixtures, based on the structure-property relationship discovered during the model training stage [20,23]. Although this approach is undoubtedly necessary in the OSRO separa­tion field, no relevant examples have been reported due to the lack of predictive models. Thus, we aimed to evaluate the potential of a pre­diction step for OSRO material screening. Herein, we present a strategy to rapidly investigate a new class of polymers for hydrocarbon mixture separations. We initially proposed 13 synthetically-accessible ladder and pseudo-ladder polymer structures consisting of norbornyl benzocyclobutene (from CANAL chemistry) and/or Tr¨oger’s base (TB) repeat units. These structures vary in the backbone rigidity and degree of contortion, which may lead to differ­ences in free volume, micropore distribution, and separation perfor­mance. To survey these polymer structures as OSRO membranes, a prediction model that integrates ML transport parameter predictions (e.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "paration perfor­mance. To survey these polymer structures as OSRO membranes, a prediction model that integrates ML transport parameter predictions (e. g., diffusivity, solubility) and the Maxwell-Stefan type N-component permeation framework was applied to predict the separation perfor­mance of the designed ladder polymers for a representative binary hy­drocarbon mixture separation (e.g., toluene/1,3,5-triisopropyl benzene) [31]. In earlier work, we have demonstrated the efficacy of the model for accurately predicting permeation rates of complex organic solvent mixtures through polymer membranes [32,33]. Note that the prediction steps outlined in this work do not require any experimental input values except polymer structures, solvent structures, and operation conditions such as mixture concentration, pressure, and system temperature. The permeation predictions are then used to identify polymer structures with good or poor performance based on comparison to separation perfor­mance (i.e., permeance vs. separation factor) previously shown by other polymer membranes for a benchmark binary hydrocarbon mixture separation (toluene-triisopropylbenzene). The separation performance of the polymer membranes was experimentally evaluated through permeation tests with the binary hydrocarbon mixture used in the pre­dictions. The comparison between the predictions and experimental measurements validated the prediction-assisted materials screening process.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the pre­dictions. The comparison between the predictions and experimental measurements validated the prediction-assisted materials screening process. One of the best performing polymer membranes, as identified both by the experiments and predictions against the binary hydrocarbon mixture, was further evaluated in a more complex hydrocarbon mixture (e.g., a 9-component model crude mixture). 2. Materials and methods 2.1. Materials Matrimid5218 was purchased from Solvay Advanced (Alpharetta, GA). Chemicals used in this work (toluene, tert-butylbenzene, 1,3,5-trii­sopropyl benzene, 1-methylcyclohexane, decalin, 1-methynaphthalene, n-octane, iso-octane, iso-cetane, lithium nitrate, 1-methyl-2- pyrrolidone, ethanol, tetrahydrofuran, methanol, hexane, p-xylylene diamine, chloroform) were purchased from Sigma Aldrich, TCI, or Alfa Aesar and used as received. In this work, 13 different ladder and pseudoladder polymer structures were designed (Fig. 1), 6 of which (POLYMER – 1, 2, 3, 4, 6, and 9) were synthesized and tested. HPLC-grade tetra­hydrofuran (THF) was purchased from Fisher Scientific and sparged with nitrogen before being transferred into a glovebox and used for polymerization reactions. All other reagents were obtained from com­mercial vendors and used as received. Fluorene dinorbornene was syn­thesized following a previously reported procedure [14]. TB-1 diamine and TB-2 diamine were synthesized according to a previously reported procedure [18].",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ized following a previously reported procedure [14]. TB-1 diamine and TB-2 diamine were synthesized according to a previously reported procedure [18]. The detailed synthesis procedure is available in the Supporting Information file. 2.2. Nuclear magnetic resonance (NMR) For the synthesized polymers (POLYMER – 1, 2, 3, 4, 6, and 9), 1H and 13C NMR experiments were performed in CDCl3 using a Varian 400 MHz spectrometer. Chemical shifts are reported in ppm using the re­sidual protiated solvent as an internal standard (CHCl3 1H: 7.26 ppm and 13C: 77.00 ppm). The NMR data for the 6 ladder polymers synthesized is provided in the Supporting Information file (Fig. S1–S10). 2.3. Gel permeation chromatography (GPC) The synthesized polymers were analyzed using gel permeation chromatography (GPC) in a 0.25 % triethylamine solution in chloroform as the eluent (Fig. S5–S10). GPC measurements were conducted with a Tosoh EcoSEC system equipped with a TSKgel SuperHZMM column (6.0 mm inner diameter * 15 cm, particle size 3.5 μ m) at a flow rate of 0.45 ml/min. The molecular weight of the polymers was determined based on a calibration curve prepared using polystyrene standards. 2.4. Membrane fabrication Thin film composite (TFC) membranes for liquid mixture permeation tests were fabricated by spin coating active materials onto a crosslinked, porous polyimide (Matrimid) support film.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nes for liquid mixture permeation tests were fabricated by spin coating active materials onto a crosslinked, porous polyimide (Matrimid) support film. The fabrication of the support films and the TFC membrane with active selective layer followed our previously established method. Briefly, Matrimid powders and LiNO3 were dissolved in a mixture of 1-methyl-2-pyrrolidone (69 wt %), tetrahydrofuran (10 wt%), ethanol (1 wt%), and D. I. water (1 wt%). The solid powders (Matrimid and LiNO3) were dried under vacuum at 110 ◦C before dissolved in the mixture. The resulting solution underwent mixing on a roller for two days until complete dissolution. The prepared polymeric solution was cast onto a glass plate using a 10 mil doctor blade, and the cast film was swiftly transferred to a water bath after 10 s to induce non-solvent phase inversion. Following this, the as-cast sup­port films were immersed in deionized water for three days and subse­quently three times in a row in methanol and hexane each for solvent exchange. The support sheets were air dried for an hour and then cut into circular coupons with an effective area of 10.25 cm2. To cross-link the polymer films, the coupons were transferred to a cross-linking so­lution made by dissolving 5 g of cross-linkers (p-xylylene diamine) in 100 ml methanol. The films were incubated in the cross-linking solution for 24 h, followed by solvent exchange in methanol and hexane to eliminate any excess cross-linker.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "films were incubated in the cross-linking solution for 24 h, followed by solvent exchange in methanol and hexane to eliminate any excess cross-linker. The final supports were stored in hexane and allowed to air-dry for 24 h before use. To produce the thin film composite membranes used in this study, a polymer dope solution in chloroform (1 wt% polymer in chloroform) was spin coated onto the pre-fabricated Matrimid support. For perme­ation tests, thin film composite (TFC) membranes were fabricated using seven polymeric materials (POLYMER-1, 2, 3, 4, 6, and 9). The polymer dope, stored in a 5 ◦C refrigerator, was dispensed at a volume of 0.7 ml onto a plate in a spin coater set to a rate of 1200 rpm. The spin coater chamber was pre-saturated with chloroform by placing cotton wipes wet",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Y.J. Lee et al. Journal of Membrane Science 734 (2025) 124475 by the chloroform solvent and introducing N2 gas in the spin coater. The prepared TFC membranes were dried under air for 24 h before use. The same procedure was conducted for all polymers employed in this work. 2.5. Scanning electron microscopy (SEM) SEM was used to capture high-resolution images of the membranes using a Hitachi SU8010 instrument (Fig. S11). Cross-sectional SEM analysis was conducted to determine the selective layer thickness, which was utilized in the transport modelling for flux calculations. Following the permeation tests, a small portion of each membrane was immersed in hexane for 10 min and then subjected to liquid nitrogen for freezing. Once frozen, the pieces were broken with the broken edge facing upward in the sample plate of the SEM instrument. Before imaging, the samples underwent sputtering with gold (Quorum q-150T ES), and the images were acquired using voltage of 5.0 kV along with a current of 10 μA. The cross-sectional images of the membranes were utilized to estimate the active layer thickness. In Fig. S9, the selective layer thickness of the membrane experimentally tested in this work are 302 ± 13, 318 ± 16, 307 ± 29, 317 ± 20, 298 ± 27 and 311 ± 18 nm for POLYMER-1, POLYMER-2, POLMYER-3, POLYMER-4, POLYMER-6, and POLYMER9. The thickness measurement was performed in three different spots in each membrane, and the errors indicate standard deviation.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "OLYMER-6, and POLYMER9. The thickness measurement was performed in three different spots in each membrane, and the errors indicate standard deviation. The thickness of all polymer membranes is near 300 nm, which was assumed in permeation predictions for all polymer membranes. 2.6. Mixture permeation tests Liquid permeation tests were carried out in a custom-built cross-flow system where the upstream side is pressurized by an HPLC pump (Azura P 4.1S, Knauer). The permeation tests were conducted at 295 K. The binary aromatic mixture tests and 9-component mixture tests were conducted under upstream pressures of 50 bar and 40 bar, respectively.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The feed flow rate was maintained consistently at 15 ml/min such that the stage cut was <3 %. The amount of the permeate was normalized by the effective area (10.25 cm2), transmembrane pressure, and time to obtain the permeances. The concentration of the permeate was analyzed by gas chromatographic method (7890B GC, Agilent) and the separation factor was calculated as the following way: Separation factorToluene/TIPB = Cp,Toluene Cf,Toluene\n\n* Cf,TIPB Cp,TIPB where Cp,Toluene and Cf,Toluene are the permeate and feed concentration of toluene, and Cp,TIPB and Cf,TIPB are the permeate and feed concentration of TIPB. The experiments were typically run for more than 2–3 days to allow for steady state permeation profiles to develop. For the mixture permeation tests, different thin film composite samples were tested in triplicate. All permeation tests were predicted by the Maxwell-Stefan model described in this work. For 9-component mixture, root mean square percentage error (RMSPE) was used to evaluate the model performance in predicting permeate concentration as below:\n\n[ФОРМУЛА: [FORMULA_ID: 6da715e5-51e9-4667-975b-a304be0bc12b] RMSPE, % = ⎡ ⎢⎢⎢⎣ ∑ 9 i=1 ( log10ytrue,i-log10ypredicted,i log10ytrue,i]\n\n)2\n\n[ФОРМУЛА: [FORMULA_ID: e2b12abc-af66-46b6-bd05-bdf75a5c17d8] N ⎤ ⎥⎥⎥⎦ 1/2 ⋅100]",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "where ytrue,i and ypredicted,i are experimentally measured and predicted mole fractions of component i in the permeate. 2.7. Toluene sorption tests To compare the ML-predicted toluene sorption at unit activity, pure toluene sorption tests were conducted using dense films of POLYMERs-1, -3, -4 (containing TB units), as well as POLYMERs-6 and -9(without TB",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Chemical structures of polymers designed and computationally eavluated in this work. The separation performance of a binary hydrocarbon mixture (toluene/triisopropylbenzene) for all polymer structures was predicted. Polymers mark with an asterisk (*) – POLYMER 1, 2, 3, 4, 6, and 9 - were synthesized, and their separation performances were experimentally tested via permeation techniques. Y.J. Lee et al. Journal of Membrane Science 734 (2025) 124475 units). Each polymer was dissolved in chloroform at a concentration of 1 wt% to prepare the dope solution. The resulting solutions were poured into a Teflon Petri dish and placed in a glove bag saturated with nitrogen gas and chloroform vapor. After solid dense films were formed, they were further dried in a vacuum oven at 110 ◦C overnight to remove residual chloroform and humidity. The dried films were punched into circular coupons, and the initial dry mass was recorded. The coupons were then immersed in pure toluene at temperature of 292–295 K. The weight changes were monitored at regular intervals until sorption equilibrium was achieved (at least for a week). Each sorption test was conducted in triplicate, and the final sorption final sorption uptakes were calculated based on the mass change before and after the immer­sion in toluene. 2.8.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "in triplicate, and the final sorption final sorption uptakes were calculated based on the mass change before and after the immer­sion in toluene. 2.8. OSRO prediction The separation performance of 13 ladder polymer structures designed in this work was predicted by using two different ML models and a Maxwell-Stefan solution-diffusion permeation model (Fig. 2). The detailed OSRO prediction procedures for the overall process are described by Equations (S1-S16) and Fig. S12 and S13 in the ‘Organic solvent reverse osmosis permeation modeling’ section in the Supporting Information file. Briefly, the inputs for the OSRO permeation prediction are the chemical structures of the polymer membrane and the organic solvents comprising the target mixture (Fig. 2a). The chemical structures are provided as simplified molecular-input line-entry system (SMILES). It is important that OSRO membranes operate in the presence of organic compounds that are non-solvents for the membrane polymer; however, solvents will lead to poor membrane performance at best and membrane failure at worst. The incorporation of a predictive model capable of classifying solvents or non-solvents and of anticipating the dissolution can serve a valuable prior criterion for eliminating impractical candi­dates and improving the generalizability of the material screening pro­cess [29].",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n serve a valuable prior criterion for eliminating impractical candi­dates and improving the generalizability of the material screening pro­cess [29]. In this study, we cross-checked our experimental sorption and permeation results against the solvent/non-solvent predictions from Polymer Genome. Two distinct machine learning models generate the pure solvent solution-diffusion parameters (i.e., pure solvent diffusivities and sorption uptakes in the polymer membrane) (Fig. 2b) [32]. The ML models are available in the Polymer Genome website - https://www. polymergenome.org/). The target mixtures explored in this work were toluene/1,3,5-triisopropylbenzene (TIPB) and a synthetic crude oil mixture (e.g., 9-component hydrocarbon mixture consisting of toluene, TIPB, tert-butylbenzene, decalin, 1-methycyclohexane, n-octane, iso-octane, iso-cetane, and 1-methylnaphthalene). The ML predicted solution-diffusion parameters for each mixture tested are listed in Table S1 and Table S2. The subsequent step involves formulating the parameters for sorp­tion and diffusion of the mixture in the polymer membrane in the Maxwell-Stefan equations (Fig. 2c). The selective separation of different molecules through a polymer membrane, driven by differences in diffusion rates and chemical interactions with the membrane, can be diminished by plasticization or dilation of the membrane [31]. This phenomenon occurs when the chemical affinity between the membrane and the solvent mixture is high [33].",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ization or dilation of the membrane [31]. This phenomenon occurs when the chemical affinity between the membrane and the solvent mixture is high [33]. Specifically, as the polymer membrane undergoes significant plasticization in the presence of the organic solvent mixture, the influence of diffusion rate differences on separation behavior diminishes, and the separation becomes predomi­nantly governed by differences in solvent sorption. To account for this phenomenon in the transport model, the extent to which polymer membrane resists plasticization by the given solvent mixture is esti­mated by a constant c, which is named “steepness constant” or “plasti­cization resistance constant”, in Equation S[ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] in the Supporting Information. While the potential range of plasticization resistance for other microporous polymers (e.g., 0.1 < c <0.5) has been reported [33], uncertainty remains in selecting a true value. Thus, the predicted sep­aration performance of the polymer membranes in this article is an arithmetic average of multiple separation performance predictions that were derived using various plausible estimates of plasticization resis­tance constants (e.g., c = 0.1, 0.3, and 0.5 in Equation S[ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}]).",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "on S[ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}]). The separation predictions are presented in Table S3–S7. Finally, the constructed Maxwell-Stefan equations are solved under the assumptions of local thermodynamic equilibrium between bulk fluids and membrane phases at the upstream and downstream interfaces to obtain the prediction targets: the partial fluxes and permeate con­centration (Fig. 2d). The separation performance predicted for 13 different ladder and pseudo-ladder polymer membranes is compared with that of previously reported polymer membranes (Fig. S14). Poly­mers exhibiting comparable or superior separation performance were then selected (Fig. 2e). 3. Results and discussion 3.1. Predicted binary hydrocarbon mixture separation by microporous polymers A binary mixture of toluene and 1,3,5-triisopropyl benzene (TIPB) was used in the material screening process (Fig. 3). Aromatic com­pounds, including benzene, toluene, and xylenes, are valuable com­modity chemicals. These aromatic hydrocarbons can be converted into higher-value polymers and plastics [34]. In addition, aromatic com­pounds such as toluene are extensively used as solvents in numerous industrial processes. Toluene/TIPB separation is a benchmarking sepa­ration in the field of OSRO to evaluate the efficiency of membrane materials.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ous industrial processes. Toluene/TIPB separation is a benchmarking sepa­ration in the field of OSRO to evaluate the efficiency of membrane materials. TIPB serves as a surrogate alkyl aromatic solute at the lower end of typical OSN range (200–1000 g/mol). In recent years, various polymer membrane materials have been evaluated for the separation of this binary mixture (Fig. S14) [34–40]. For this separation challenge, the goal has been to develop mem­brane materials to surpass the permeability-selectivity performance shown by previous membrane performance (Fig. S14). In this work, the performance of a total of 13 different polymers for toluene/TIPB sepa­ration was predicted by the transport model integrating the ML-based parameter estimators and the Maxwell-Stefan-based solution-diffusion",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Flow diagram of OSRO permeation prediction and material screening. Y.J. Lee et al. Journal of Membrane Science 734 (2025) 124475 permeation model, and the predictions are plotted with other polymer membranes reported previously (Fig. 3 and Table S6). In general, many of the polymer structures studied in this work were predicted to show separation performance comparable to those of previously reported polymer membranes. Notably, POLYMER-1, 3, and 4 were predicted to achieve separation performance comparable to the existing polymer membranes in terms of the permeance-separation factor trade-off. The 13 designed polymers were ranked for separation performance, listed from highest to lowest based on their predicted separation factors (Fig. 3b). This ranking was determined solely using the average pre­diction values from the three different c values (the steepness constant or plasticization resistance constant in Equation S[ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}]). Interestingly, ac­cording to the prediction, the polymers containing TB units such as POLYMERs 1–4 have higher separation factors than those containing CANAL units, such as POLYMERs 6–10.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "iction, the polymers containing TB units such as POLYMERs 1–4 have higher separation factors than those containing CANAL units, such as POLYMERs 6–10. Considering the similar struc­tural rigidity of TB and CANAL motifs, the prediction may suggest that more polar TB motif may result in less solvent plasticization than the fully hydrocarbon CANAL motif in this aromatic hydrocarbon separa­tion. For example, the fully rigid ladder POLYMER-6 consisting of only fluorene-CANAL repeat units was found to give exceptional size-sieving effect in gas separations, which are primarily governed by differences in molecular diffusivity [14], but the model predicted it to have the lowest separation factor for toluene/TIPB separation. Among the polymer structures incorporating TB units (POLYMERs 1–5), POLYMER-5 with more flexible and kinked backbone structure was predicted to have lower separation factors compared to more rigid POLYMER-1, POLY­MER-3, and POLYMER-4. The 13 designed polymer structures were also ranked according to predicted permeance (Fig. 3c). Among the five polymer structures that contain TB units (POLYMERs 1–5), the lowest permeance was predicted for POLYMER-1 and POLYMER-3, which have the most rigid complete ladder structures. With the exception of POLYMER-13, which was pre­dicted to show the highest permeance, polymer structures containing rigid TB units (POLYMERs 1–5) were in general forecasted to exhibit faster permeance compared to other polymer structures (POLYMERs 6–12).",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "containing rigid TB units (POLYMERs 1–5) were in general forecasted to exhibit faster permeance compared to other polymer structures (POLYMERs 6–12). Rigid and contorted ladder polymer structures, such as PIMs, typically generate high fractional free volume or micropores and fast diffusion for membranes for gas separations [15,41,42]. Similarly, contorted polymer structures can also have potential to provide inter­connected micropore domains that enable higher molecular transport in OSRO applications [35,43–45]. The prediction of higher diffusion rates in general for POLYMERs 1–5, compared to other polymers except for POLYMER 13, is tentatively attributed to polymer structure and the ri­gidity imparted from the structure (Fig. S15a). However, it is important to consider that sorption of organic mixtures plays a crucial role in the transport of guest species through the membrane. In this aromatic liquid mixture (toluene/TIPB) separation, a higher aromatic content in the polymer structure likely enhances interactions with the mixture, ulti­mately leading to higher solvent sorption. From this point of view, the highest predicted toluene sorption for POLYMER 4 can be attributed to the strong chemical affinity between the polymer and the target aro­matic liquid mixture. The predicted sorption uptakes (in mmol g-1) of toluene are generally higher in cases of POLYMERs 1–5 compared to other structures (Fig.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Microporous polymer synthesis and separation experimentation In evaluating OSRO separations, permeance and separation factors serve as key performance indicators, representing productivity and separation efficiency. However, given the inherent difficulty of separa­tion toluene and TIPB due to their similar physicochemical properties (i. e., size, viscosity), the polymers were categorized into high (top three performing polymers) and low performers based on their predicted separation factors (Fig. 3b). Three polymers from the high separation factor category (POLYMER-1, POLYMER-3, POLYMER-4) and three from the low separation factor category (POLYMER-2, POLYMER-6, POLY­MER-9) were selected for experimental permeation tests and validation of the prediction-assisted material screening. POLYMERS-1, 2, 3, and 4 were synthesized via TB polymerization from the corresponding aryl diamines as monomers, containing CANAL or biphenyl motifs (Scheme 1a) [18]. POLYMERS-6 and 9 were syn­thesized via CANAL polymerization from the corresponding ladder dinorbornenes as monomers, using our previously reported two-step protocol (Scheme 1b) [14]. The detailed synthesis procedures are pro­vided in the Supporting Information. All the synthesized polymers can",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. (a) Predicted toluene/TIPB separation of 13 different ladder (or pseudo-ladder) polymer membranes. Light grey X marks are previously reported separation performance of polymer membranes shown in Fig. S14 (b) Rank in separation factor prediction. The polymer structures are listed from the highest separation factor at the top to the lowest at the bottom. The color coding in Fig. 3a corresponds to the predicted separation factor ranking presented in Fig. 3b. (c) Rank in permeance prediction. The polymer structures are listed from the highest permeance at the top to the lowest at the bottom. Y.J. Lee et al. Journal of Membrane Science 734 (2025) 124475 form mechanically robust films. 1H NMR and spectra of the polymers showed all the characteristic signals from the TB and CANAL linkages as well as the expected aromatic protons (Fig. S5–S10). Hydrocarbon CANAL polymers, POLYMERS-6 and 9 were characterized by GPC, which gave Mw in the range of 40–110 kDa. The experimental assessment of toluene/TIPB mixture separation employing the selected six polymer membranes (POLYMER-1, 2, 3, 4, 6, and 9) was conducted (Fig. 4 and Table S6). The permeation test results are compared with the predictions in Fig. 4a. The experimentally measured separation factors for POLYMER-1, POLYMER-2, and POLYMER-3 fall within the range of the model predictions, indicating good agreement between the experimental and predicted separation efficiencies.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nd POLYMER-3 fall within the range of the model predictions, indicating good agreement between the experimental and predicted separation efficiencies. In the case of POLYMER-4, the experimental separation factor was 3.9 ± 0.9, slightly higher than the predicted separation factor of 2.9 ± 0.03. The three polymers (1, 3, and 4) predicted as high per­formers are experimentally shown to be the top three performers of the six polymers tested. While POLMYERs-1, -3, and -4 exhibit good agreement between the predicted and experimentally demonstrated separation performance, POLYMERs-2, -6, and -9 show large discrepancies between experimental and predicted results. The deviation is particularly pronounced for POLYMER-6 and POLYMER-9. The experimentally measured separation factors for POLYMER-6 and POLYMER-9 were 1.43 ± 0.16 and 1.32 ±0.07, respectively, which are approximately 21.4 % and 35.3 % lower than the predicted values of 1.82 ± 0.17 and 2.04 ± 0.20. Given that these are true predictions – i.e., the training set does not contain any information about this class of polymers – we find that this level of prediction accuracy is reasonable. However, although it is challenging to accurately rank the measured permeances due to the uncertainties in membrane thickness measurement, large differences between experi­ment and prediction were found in the permeance for these polymers",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(Fig. S16). POLYMERS-6 and 9 were predicted to have the lowest per­meance of 0.115 ± 0.004 L m-2 hr-1 bar-1 and 0.061 ± 0.002 L m-2 hr-1 bar-1 respectively, but experimentally exhibited the highest per­meances of 0.837 ± 0.016 L m-2 hr-1 bar-1 and 0.717 ± 0.016 L m-2 hr-1 bar-1, which are approximately 7–12 times higher than the pre­dicted permeances. These deviations in separation factor and permeance may stem from severe plasticization and dilation effects that are not fully accounted for in the model. Notably, POLYMERs-1, -3, and -4 have the highest Hansen solubility difference from toluene (which is the main component of the tested aromatic mixture), suggesting greater resis­tance to plasticization and swelling (Table 1). These polymer mem­branes were predicted to have relatively better selectivity compared to other polymer membranes, which is validated by the experiments. Conversely, POLYMERs-6 and -9 appear to have the strongest chemical affinity for toluene among the six polymers tested, as inferred from their lowest Hansen solubility differences with toluene. An important concern arises from the fact that POLYMERs-6 and -9 with the strongest chemical\n\nScheme 1. General synthesis of the polymers used in this work via (a) TB polymerization (for POLYMERS-1, 2, 3, and 4) or (b) CANAL polymerization (for POLYMERS-6 and 9).",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. (a) Comparison between predicted and experimentally measured toluene/TIPB separation via ladder polymer membranes (POLYMERs-1, 2, 3, 4, 6, and 9). Hollow marks and filled marks indicate predictions and experiments, respectively. (b) Separation factor rank comparison between predictions and experiments. The polymers are listed from top to bottom, starting with the polymer exhibiting the highest values in separation factor and proceeding to the polymer with the lowest value. (c) Chemical structures of the polymers synthesized and tested in order from the highest separation factor polymer to the lowest separation factor polymer by experiments.\n\nTable 1 Calculated Hansen solubility parameter (HSP) difference rela­tive to toluene (Ra in Equation S[ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}]) for six polymer mem­branes (POLYMERs-1, -2, -3, -4, -6, and -9). Lower values indicate more dilation and plasticization in toluene. SampleHSP difference (MPa0.5) POLYMER-19.21POLYMER-25.88POLYMER-39.21POLYMER-48.06POLYMER-64.63POLYMER-95.89",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Y.J. Lee et al. Journal of Membrane Science 734 (2025) 124475 affinity to toluene were predicted to exhibit the lowest sorption uptakes (Table 1), although we recognize the sorption uptake of organic solvent molecules in the polymer membrane is influenced by multiple factors – including chemical affinity, polymer rigidity, and pore size and struc­ture. This discrepancy raises potential concerns regarding the limita­tions of the ML model used in this work for highly swellable polymers. If the two polymers indeed experience strong interactions with aromatic compounds, leading to significant sorption, plasticization, or even swelling, a reduction in selectivity may occur. Additionally, in such a scenario, the diffusivity of organic solvent molecules could be higher than predicted, possibly explaining the observed underestimation of the permeance. To assess the swelling behavior, liquid toluene sorption tests were conducted on POLYMERs-1, -3, -4 (containing TB units) and POLYMERs-6 and -9 (without TB units) (Fig. S17). POLYMER-9 exhibited severe swelling in toluene, which caused the dense film to soften excessively, preventing accurate mass measurement. As shown in Fig. S17, POLYMER-6 exhibited significantly higher toluene sorption compared to other polymers, a behavior not captured by the ML sorption predictions. These findings suggest that POLYMER-6 and POLYMER-9 likely experienced substantial swelling in the aromatic mixture explored in this work.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "redictions. These findings suggest that POLYMER-6 and POLYMER-9 likely experienced substantial swelling in the aromatic mixture explored in this work. We surmise that such extreme swelling of the membrane compromises not only the diffusion selectivity but also the sorption selectivity, as the swollen gel becomes largely composed of solvent instead of polymer. In contrast, POLYMERs-1, -3, and -4 demonstrated some degree of resistance to plasticization/swelling resistance to the mixture due to the presence of TB units [43,46,47]. The large permeance prediction errors observed for POLYMER-6 and POLYMER-9 suggest that the current model may have insufficiently learned the behavior of highly swollen polymers during the training process. Although the current training dataset includes some highly swollen cases, such as polydimethyl siloxane and polyisobutylene, and PIM-1 exposed to toluene (i.e., toluene sorption >0.6 g per g of poly­mer), the majority of the data points exhibit sorption uptakes (<0.5 g of toluene per g of polymer) and this might not be sufficient to represent such highly swollen polymers (e.g., POLYMER-6 and -9) [32]. Thus, for highly swollen systems, generating additional sorption and diffusion data and retraining the ML model with these datasets will be crucial to enhancing prediction accuracy and expanding the model’s applicable chemical space.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "and retraining the ML model with these datasets will be crucial to enhancing prediction accuracy and expanding the model’s applicable chemical space. Beyond training the data sets, there is also the potential that the fundamental mass transfer phenomena changes when the polymer becomes sufficiently swollen. In such extreme cases, the un­derlying mass transfer model (the diffusion-based Maxwell-Stefan equations) will not fully account for all permeation pathways or driving forces, leading to substantial underprediction [48]. Independent pre­dictions from the Polymer Genome platform further support the sorption experiment results, as toluene was classified as a likely solvent for POLYMER-9 and as a non-solvent for POLYMER-6 (Table S7) [29]. While toluene may not have dissolved POLYMER-6, it may still act as a strong dilatant and plasticizer, contributing to the excessive swelling observed. This highlights the utility of solvent/non-solvent classification models in pre-screening materials. Despite the discrepancy between the experimental and predicted values, the model predictions were successful in distinguishing good and poor performers based on separation efficiency (represented by the separation factor). Apart from POLYMER-4 achieving the highest sepa­ration factor and POLYMER-9 showing lowest separation factor, the ranking of separation efficiencies for the rest of polymers agreed with the prediction.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ion factor and POLYMER-9 showing lowest separation factor, the ranking of separation efficiencies for the rest of polymers agreed with the prediction. This qualitative correlation between predicted and experimental performance is encouraging especially considering that the polymer structures explored in this work have not appeared in the training set of the prediction model. Furthermore, the consistency in classification of highand low-performing polymers between experi­ments and model predictions highlights the effectiveness of the model­ling approach in enabling membrane material selection for a given OSRO separation target. Based on the results of the comparative verification between the predictions and experimental results in this study, the separation effi­ciency of ladder-type polymer membrane appears to be influenced by the rigidity of their chemical structures (Fig. 4c) and resistance to swelling. To achieve higher separation efficiency (high separation fac­tor), it may be advantageous to minimize structural contortion and incorporate plasticization-resistant motifs, such as TB units, within the polymer structure. In addition, for POLMYER-4, which exhibited the highest separation factor, the permeance was also satisfactory. The high density of TB motifs and aromatic rings of POLMYER-4 may enhance chemical affinity with the given mixture to enhance permeation while limiting dilation. 3.3.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "of TB motifs and aromatic rings of POLMYER-4 may enhance chemical affinity with the given mixture to enhance permeation while limiting dilation. 3.3. Complex mixture separation analysis Encouraged by the promising performance of POLYMER-4 for the separation of toluene/TIPB mixture from the material screening, we further evaluated the separation performance of POLYMER-4 for a more complex hydrocarbon mixture (9-component hydrocarbon mixture) as a representative of Permian shale oil used in several previous reports [35,49,50]. The 9-component mixture consisted of toluene (17 mol %), 1methylcyclohexane (28 mol %), n-octane (22 mol %), iso-octane (15 mol %), tert-butylbenzene (2.2mol %), decalin (11 mol %), 1-methylnaph­thalene (2 mol %), TIPB (1.6 mol %), and iso-cetane (1.3 mol %). The experimental measurement and prediction for POLYMER-4 membrane are shown in Fig. 4 and in Table S8. The synthetic crude oil separation using POLYMER-4 demonstrates that aromatic com­pounds are preferentially enriched in the permeate, while aliphatic compounds are retained in the retentate. Moreover, the separation capability improves significantly with increasing organic solvent mo­lecular size (Fig. 4a). This finding indicates that POLYMER-4 exhibits both solvent class-based and size-based separation capabilities for the model crude oil mixture.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". 4a). This finding indicates that POLYMER-4 exhibits both solvent class-based and size-based separation capabilities for the model crude oil mixture. When compared to state-of-the-art membranes (a spirocyclic polymer, SBAD-1, polyamide nanofilms, and triptycenebased polyimine, Trip-TFS) under the same conditions of mixture con­centration, upstream pressure, and temperature at steady-state perme­ation in a cross-flow permeation system, POLYMER-4 exhibits slightly lower efficiency in solvent class-based separation but demonstrates outstanding size-based separation performance (Fig. S18 and Table S8) [35,49,50]. POLYMER-4 may exhibit lower class-based selectivity than SBAD-1, polyamide, and polyimine due to its less polar structure, lack­ing the amide or imine functional groups present in the latter three polymers. Given that the aromatic solvents (e.g., toluene, alkyl-benzenes) in the 9-component mixture are slightly more polar than the alkanes, the stronger polar interactions in the other state-of-the-art membranes likely contributed to their enhanced class-based separa­tion performance compared to POLYMER-4. However, the separation capability of POLYMER-4 membrane is particularly pronounced for molecules around 200 g/mol, such as TIPB (204.35 g/mol) and iso-cetane (226.48 g/mol) (Fig.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ility of POLYMER-4 membrane is particularly pronounced for molecules around 200 g/mol, such as TIPB (204.35 g/mol) and iso-cetane (226.48 g/mol) (Fig. 4b and c), indi­cating that POLYMER-4 membrane enables more selective separation for those molecules from the model crude oil compared to other advanced membranes (SBAD-1 and polyamide nanofilms). As discussed in Fig. 3, the size-based separation capability of POLYMER-4 is likely attributable to the rigid structure of the polymer, which is likely retained even in the presence of solvent due to the TB motif, rendering it resistant to swelling. Separating crude oil into smaller and larger molecular groups is essential for producing products categorized by their carbon number, such as gasoline (C5–C12 alkanes) and jet fuel (C10–C18 alkanes and aromatics). In the separation of this synthetic crude oil mixture, POLYMER-4 shows a permeance of 0.065 L m-2 hr-1 bar-1, which is nearly three times faster than that of SBAD-1 of 0.022 L m-2 hr-1 bar-1 with the same membrane thickness conditions (300 nm) [35]. Although the permeance of POLYMER-4 membrane is lower than those of poly­amide films (0.1–4 L m-2 hr-1 bar-1) the thickness-normalized per­meance appears fairly comparable, given that the polyamide films had an average thickness of around 30 nm [49]. However, compared to the",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Y.J. Lee et al. Journal of Membrane Science 734 (2025) 124475 cross-linked triptycene polyimine membrane, the POLYMER-4 mem­brane exhibits relatively low selectivity suggesting that further im­provements in swelling resistance to this linear polymer may be necessary to enhance its separation performance in relatively small organic solvent molecule separations [50]. Future designs could explore the incorporation of TB-based backbones with other motifs and func­tionalities to enhance interactions with aromatic hydrocarbons while maintaining the inherent rigidity of the TB framework. This approach may offer a pathway to improve both class-based and size-based sepa­ration performance in complex hydrocarbon mixtures. A prediction for the 9-component hydrocarbon mixture separation via POLYMER-4 was generated (Fig. 5d, and Table S8). The parity plot (Fig. 5d) compares the experimentally measured and predicted mole fraction of the membrane permeate stream. Good agreement was ach­ieved between the predicted and experimental permeate concentrations, as all 9 components in the mixture are located on or near the parity line. The root mean square percentage error (RMSPE) between the predicted and experimental permeate concentrations was approximately 11.8 %, indicating that the model predicted the mole fraction of each component with an average error of 11.8 %.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "eate concentrations was approximately 11.8 %, indicating that the model predicted the mole fraction of each component with an average error of 11.8 %. However, a higher experimental per­meance 0.065 ± 0.003 L m-2 hr-1 bar-1 was observed compared to the predicted permeance of 0.019 ± 0.004 L m-2 hr-1 bar-1. Since diffu­sivity generally impacts permeation rate more significantly than sorption, it can be inferred that the ML model underestimates diffusivity prediction for molecules in the tested mixture. To address this issue for more accurate prediction capability, experimental evaluation of the diffusivity and sorption properties of these new materials will be needed in future studies. Additionally, expanding the training dataset of ML algorithms with new types of polymer structures such as the ones investigated in this study and their performance will continuously improve the accuracy of this predictive model and broaden its utility. 4. Conclusion Computational material screening based on predictive models will likely accelerate the development of new membrane materials with superior separation performance for specific mixtures.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ased on predictive models will likely accelerate the development of new membrane materials with superior separation performance for specific mixtures. In this study, a total of 13 distinct microporous polymer structures using CANAL and TB chemistry, with varying backbone rigidity and degree of contortion, and a mixture permeation model (integrating ML algorithms and a MaxwellStefan permeation framework) was used to evaluate the separation performance of the 13 ladder and pseudo-ladder polymers for a binary aromatic hydrocarbon separation. These polymer structures have not been previously studied in the OSRO field, and the model successfully categorized them into high-performing and low-performing groups. Six polymers, three from each group (i.e., low and high performance), were",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. (a) Ratio of concentrations in permeate (Cp) versus retentate (Cr) of components in a synthetic crude oil fractionated by POLYMER-4 membrane (N = 2). The measurement was conducted at 40 bar upstream pressure and 295 K. Measured model crude oil permeance (L m-2 hr-1 bar-1) and measured Cr/Cp (b) for 1,3,5triisopropylbenzene (TIPB) and (c) iso-cetane, compared to state-of-the-art membranes in crude oil fractionation [35,49,50]. (d) comparison between experimentally measured permeate concentration and predicted concentration using the steepness constants. Root mean square percentage error (RMSPE) in permeate concentration prediction was 11.8 %. Y.J. Lee et al. Journal of Membrane Science 734 (2025) 124475 synthesized, and the material selection capability of the model was validated through experimental permeation testing. Notably, one poly­mer membrane (POLYMER-4), which was forecasted to have fairly high sorption capacity of aromatic hydrocarbons and plasticization stability (potentially derived from the backbone rigidity) emerged as the top performer, demonstrating superior binary aromatic hydrocarbon sepa­ration capability amongst the candidates considered in this study. Additionally, the POLYMER-4 membrane showed potential for frac­tionating more complex mixtures, such as a synthetic crude oil.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nsidered in this study. Additionally, the POLYMER-4 membrane showed potential for frac­tionating more complex mixtures, such as a synthetic crude oil. To further improve the accuracy of the ML model for predicting the properties of new classes of polymer membrane materials, it would be beneficial to train the model with datasets from a broader range of polymer structures, including the polymers studied in this work. Although the polymer studied in this work were not included in the current ML training set to allow for unbiased assessment of model generalizability, they will be incorporated in future retraining to enhance predictive coverage. Additionally, integrating concentrationdependent χi,n+1 values (Flory-Huggins parameter, which was assumed to be constant in this work) and systematically characterizing solventinduced free volume changes in polymers could further improve the model’s predictive accuracy, particularly in systems prone to swelling. Techniques such as small-angle X-ray scattering on swollen membranes may also provide insight into structure evolution under operation con­ditions, which could be of interest in understanding correlations with separation performance. Incorporating a solvent/non-solvent classifi­cation as a pre-screening step may also enhance the model’s generaliz­ability by helping to exclude polymers that are likely to dissolve or undergo excessive swelling in mixture environments.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nhance the model’s generaliz­ability by helping to exclude polymers that are likely to dissolve or undergo excessive swelling in mixture environments. For such highly swollen polymers, the applicability of the solution-diffusion-based mass transfer model used in this work may also be limited. Future enhance­ments to the predictive model could potentially include selections for transport mechanism based on the degree of polymer dilation; however, we emphasize that membranes swollen to this degree will struggle to separate similarly-sized compounds, which is the key objective of our work. CRediT authorship contribution statement Young Joo Lee: Writing – review & editing, Writing – original draft, Visualization, Methodology, Investigation, Data curation, Conceptuali­zation. Ashley M. Robinson: Writing – review & editing, Writing – original draft, Visualization, Methodology, Investigation, Conceptuali­zation. Woo Jin Jang: Investigation. Zekun Ye: Investigation. Yi Ren: Investigation. Yan Xia: Writing – review & editing, Writing – original draft, Supervision, Methodology, Investigation, Funding acquisition, Conceptualization. Ryan P. Lively: Writing – review & editing, Writing – original draft, Supervision, Project administration, Methodology, Investigation, Conceptualization. Declaration of competing interest The authors declare no competing interests. Acknowledgements This material is based upon work partly supported by the U.S.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ation of competing interest The authors declare no competing interests. Acknowledgements This material is based upon work partly supported by the U.S. Department of Energy, Office of Science, Separation Science, under Award Number DE-SC0023252 (Y.X.). Y. J. L. acknowledges his fellowship from Kwanjeong Educational Foundation, Seoul, South Korea. R.P.L. acknowledges the Thomas C. DeLoach Jr. Endowed Pro­fessorship fund for his support. Appendix A. Supplementary data Supplementary data to this article can be found online at https://doi. org/10.1016/j.memsci.2025.124475.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[23] J. Yang, L. Tao, J. He, J.R. McCutcheon, Y. Li, Machine learning enables interpretable discovery of innovative polymers for gas separation membranes, Sci. Adv. 8 (29) (2022) eabn9545.[24] M. Wang, Q. Xu, H. Tang, J. Jiang, Machine learning-enabled prediction and highthroughput screening of polymer membranes for pervaporation separation, ACS Appl. Mater. Interfaces 14 (6) (2022) 8427–8436.[25] C. Wang, L. Wang, A. Soo, N.B. Pathak, H.K. Shon, Machine learning based prediction and optimization of thin film nanocomposite membranes for organic solvent nanofiltration, Separ. Purif. Technol. 304 (2023) 122328.[26] G. Ignacz, N. Alqadhi, G. Szekely, Explainable machine learning for unraveling solvent effects in polyimide organic solvent nanofiltration membranes, Advanced Membranes 3 (2023) 100061.[27] G. Ignacz, G. Szekely, Deep learning meets quantitative structure–activity relationship (QSAR) for leveraging structure-based prediction of solute rejection in organic solvent nanofiltration, J. Membr. Sci. 646 (2022) 120268.[28] G. Ignacz, A.K. Beke, G. Szekely, Data-driven investigation of process solvent and membrane material on organic solvent nanofiltration, J. Membr. Sci. 674 (2023) 121519.[29] S. Venkatram, C. Kim, A. Chandrasekaran, R. Ramprasad, Critical assessment of the Hildebrand and Hansen solubility parameters for polymers, J. Chem. Inf. Model.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "am, C. Kim, A. Chandrasekaran, R. Ramprasad, Critical assessment of the Hildebrand and Hansen solubility parameters for polymers, J. Chem. Inf. Model. 59 [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (2019) 4188–4194.[30] M. Yang, J.-J. Zhu, A.L. McGaughey, R.D. Priestley, E.M. Hoek, D. Jassby, Z.J. Ren, Machine learning for polymer design to enhance pervaporation-based organic recovery, Environ. Sci. Technol. (2024).[31] R. Mathias, D.J. Weber, K.A. Thompson, B.D. Marshall, M. Finn, J.K. Scott, R. P. Lively, Framework for predicting the fractionation of complex liquid feeds via polymer membranes, J. Membr. Sci. 640 (2021) 119767.[32] Y.J. Lee, L. Chen, J. Nistane, H.Y. Jang, D.J. Weber, J.K. Scott, N.D. Rangnekar, B. D. Marshall, W. Li, J.R. Johnson, Nicholas C. Bruno, M.G. Finn, Rampi Ramprasad, R.P. Lively, Data-driven predictions of complex organic mixture permeation in polymer membranes, Nat. Commun. 14 (1) (2023) 4931.[33] Y.J. Lee, R.P. Lively, A transition in diffusion behaviors of organic liquid mixtures in dense polymer membranes, J. Membr. Sci. 713 (2025) 123346, https://doi.org/ 10.1016/j.memsci.2024.123346.[34] H.Y. Jang, J. Johnson, Y. Ma, R. Mathias, D.A. Bhandari, R.P. Lively, Torlon hollow fiber membranes for organic solvent reverse osmosis separation of complex aromatic hydrocarbon mixtures, AIChE J.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Bhandari, R.P. Lively, Torlon hollow fiber membranes for organic solvent reverse osmosis separation of complex aromatic hydrocarbon mixtures, AIChE J. 65 [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] (2019) e16757.[35] K.A. Thompson, R. Mathias, D. Kim, J. Kim, N. Rangnekar, J. Johnson, S.J. Hoy, I. Bechis, A. Tarzia, K.E. Jelfs, B.A. McCool, A.G. Livingston, R.P. Lively, M.G. Finn, N-Aryl–linked spirocyclic polymers for membrane separations of complex hydrocarbon mixtures, Science 369 (6501) (2020) 310–315.[36] K.A. Thompson, R. Mathias, R.P. Lively, M. Finn, Structure–function relationships in membrane-based hydrocarbon separations using N-Aryl-Linked spirocyclic polymers, Chem. Mater. 35 (9) (2023) 3464–3469.[37] W. Kushida, R.R. Gonzales, T. Shintani, A. Matsuoka, K. Nakagawa, T. Yoshioka, H. Matsuyama, Organic solvent mixture separation using fluorine-incorporated thin film composite reverse osmosis membrane, J. Mater. Chem. A 10 (8) (2022) 4146–4156.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[38] N.C. Bruno, R. Mathias, Y.J. Lee, G. Zhu, Y.-H. Ahn, N.D. Rangnekar, J. Johnson, S. Hoy, I. Bechis, A. Tarzia, Solution-processable polytriazoles from spirocyclic monomers for membrane-based hydrocarbon separations, Nat. Mater. 22 [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] (2023) 1540–1547.[39] Y. Feliachi, A. Roy, Y. Ren, M. Finn, R.P. Lively, Solid-state crosslinking of thin film composite membranes for organic solvent reverse osmosis separations, J. Membr. Sci. 695 (2024) 122462.[40] P. Ramesh, M.M. Sta Cruz, S. Karla, J. Ahn, S. Lee, P.T. Underhill, G. Belfort, A new class of “structure-by-design” polymer membranes for organic solvent nanofiltration with controllable selectivity, J. Membr. Sci. 692 (2024) 122296, https://doi.org/10.1016/j.memsci.2023.122296.[41] C.G. Bezzu, M. Carta, A. Tonkins, J.C. Jansen, P. Bernardo, F. Bazzarelli, N. B. McKeown, A spirobifluorene-based polymer of intrinsic microporosity with improved performance for gas separation, Adv. Mater. 24 (44) (2012) 5930.[42] B.S. Ghanem, R. Swaidan, X. Ma, E. Litwiller, I. Pinnau, Energy-efficient hydrogen separation by AB-type ladder-polymer molecular sieves, Adv. Mater. 26 (39) (2014) 6696–6700.[43] T.H. Lee, M. Balcik, W.-N. Wu, I. Pinnau, Z.P. Smith, Dual-phase microporous polymer nanofilms by interfacial polymerization for ultrafast molecular separation, Sci. Adv. 10(33) eadp6666.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nau, Z.P. Smith, Dual-phase microporous polymer nanofilms by interfacial polymerization for ultrafast molecular separation, Sci. Adv. 10(33) eadp6666. https://doi.org/10.1126/sciadv.adp6666.[44] B. Liang, H. Wang, X. Shi, B. Shen, X. He, Z.A. Ghazi, N.A. Khan, H. Sin, A. M. Khattak, L. Li, Z. Tang, Microporous membranes comprising conjugated polymers with rigid backbones enable ultrafast organic-solvent nanofiltration, Nat. Chem. 10 (9) (2018) 961–967, https://doi.org/10.1038/s41557-018-0093-9.[45] D. Fritsch, P. Merten, K. Heinrich, M. Lazar, M. Priske, High performance organic solvent nanofiltration membranes: development and thorough testing of thin film composite membranes made of polymers of intrinsic microporosity (PIMs), J. Membr. Sci. 401–402 (2012) 222–231, https://doi.org/10.1016/j. memsci.2012.02.008.[46] C. Yang, S. Liu, Q. Zhao, X. Zhang, Z. Wang, F. Zhang, J. Jin, V-shape Tr¨oger’s basebased organic solvent nanofiltration membranes for fast and precise molecular separation, J. Membr. Sci. 711 (2024) 123227, https://doi.org/10.1016/j. memsci.2024.123227.[47] P. Agrawal, R.E. Hefner, S. Ge, I. Tomlinson, Y. Rao, T. Dikic, Nanofiltration membranes from crosslinked Tr¨oger’s base Polymers of Instrinsic Microporosity (PIMs), J. Membr. Sci. 595 (2020) 117501, https://doi.org/10.1016/j. memsci.2019.117501.[48] V.H. Hegde, M.F. Doherty, T.M. Squires, A two-phase model that unifies and extends the classical models of membrane transport, Science 377 (6602) (2022) 186–191.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "M.F. Doherty, T.M. Squires, A two-phase model that unifies and extends the classical models of membrane transport, Science 377 (6602) (2022) 186–191. https://www.science.org/doi/full/10.1126/science.abm7192.[49] S. Li, R. Dong, V.-E. Musteata, J. Kim, N.D. Rangnekar, J.R. Johnson, B.D. Marshall, S. Chisca, J. Xu, S. Hoy, B.A. McCool, S.P. Nunes, Z. Jiang, A.G. Livingston, Hydrophobic polyamide nanofilms provide rapid transport for crude oil separation, Science 377 (6614) (2022) 1555–1561, https://doi.org/10.1126/science.abq0598.[50] T. H. Lee, M. Balcik, Z. Ali, T. Joo, M. P. Rivera, I. Pinnau, Z. Smith,Microporous polyimine membranes for efficient separation of liquid hydrocaron mixtures, Science 388(6749) 839-844.",
+    "citation": {
+      "authors": [
+        "Robinson M.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825007884-main",
+      "title": "Prediction-driven selection of microporous polymer membranes for organic solvent reverse osmosis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  }
+]

@@ -1,0 +1,762 @@
+[
+  {
+    "content": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage Seyyed Hossein Monsefi Estakhrposhti a,b,*\n\n, Jing Jing Xu a,b\n\n, Margit Gf¨ohler a, Michael Harasek b a Institute of Engineering Design and Product Development, TU Wien, Austriab Institute of Chemical, Environmental and Bioscience Engineering, TU Wien, Austria\n\nA R T I C L E I N F O Keywords:Extracorporeal membrane oxygenation (ECMO)Multi-objective optimizationComputational fluid dynamics (CFD)Modified enhanced jayaPareto front solutions",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Extracorporeal Membrane Oxygenation provides life-saving support for patients with severe heart and lung dysfunction; however, its implementation is associated with significant complications, including hemolysis and thrombosis. These complications address the need for an improved design of hollow fiber membrane oxygena­tors. This study presents a multi-objective optimization framework aiming to enhance the gas exchange effi­ciency while minimizing blood damage. A 2D computational fluid dynamics model, validated with micro-PIV measurements, was developed to simulate 200 fiber configurations defined by three geometric parameters (fiber diameter, distance-to-diameter ratio, and angle) and a flow parameter (blood flow rate). Specific CO2 removal, dead-zone-to-total-area ratio, and hemolysis index were established as objectives, representing gas exchange efficiency, thrombosis potential within the membrane module, and hemolysis, respectively. Objectives were modeled using multivariate polynomial functions with unknown exponents and determined using the modified enhanced Jaya algorithm. Single-objective and multi-objective optimization were performed using Pareto front solutions, followed by weighted sum and goal programming methods to identify optimal arrangements. The findings demonstrated that the maximum obtained specific CO2 removal, dead-zone-to-total-area ratio, and hemolysis index are 250.3 mLCO2 min-1 m-2, 0.0254 %, and 0.011 * 10-3 %, respectively.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tained specific CO2 removal, dead-zone-to-total-area ratio, and hemolysis index are 250.3 mLCO2 min-1 m-2, 0.0254 %, and 0.011 * 10-3 %, respectively. Furthermore, this study identifies the distance-to-diameter ratio as the key factor affecting all the objectives. Finally, the calculated optimal configuration from both weighted sum and goal programming methods suggests that the best configu­ration includes low angle, small diameter, and relatively moderate distance-to-diameter ratio, and high blood flow rate.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Extracorporeal Membrane Oxygenation (ECMO) is a life-support technique used in critical care to support patients with severe heart and lung dysfunction [1]. The main component of an ECMO circuit is the hollow fiber membrane oxygenator, which facilitates gas exchange by diffusing oxygen into the blood and removing carbon dioxide [2]. During the COVID-19 pandemic, the use of ECMO increased signifi­cantly, supporting patients experiencing severe respiratory failure. The increased dependence on ECMO displayed its critical role in managing acute respiratory distress syndrome (ARDS) caused by COVID-19 and the evolving outcomes associated with its use throughout the pan­demic’s first two years [3]. Despite the life-saving potential of ECMO, it is associated with significant complications [4]. Hemolysis, the rupture of red blood cells, may occur due to mechanical stress within the circuit induced by the pump or contact with fibers, leading to the release of free hemoglobin into the bloodstream [5–7]. While hemolysis in an ECMO circuit is more associated with the blood pump and cannulae, consid­ering the oxygenator’s shear stresses, which comprise the largest volume and area of the ECMO circuit, is essential. Pan et al. demonstrated the gradual hemolysis in a microfluidic device with arrays of narrow gaps representing the blood path in ECMO.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", is essential. Pan et al. demonstrated the gradual hemolysis in a microfluidic device with arrays of narrow gaps representing the blood path in ECMO. Their study revealed that due to the squeeze of RBCs between the fibers, they deform periodically, resulting in the fatigue of RBCs, progressive changes in morphology, and the gradual loss of deformability, indicating the importance of consid­ering the hemolysis of the oxygenator [8]. Blood clot formation, or thrombosis, is another critical issue, potentially resulting in ischemic events and compromising the effectiveness of the oxygenator [9–11].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "* Corresponding author. Institute of Engineering Design and Product Development, TU Wien, Austria.E-mail address: seyyed.monsefi@tuwien.ac.at (S.H. Monsefi Estakhrposhti).\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 731 (2025) 124228\n\nAvailable online 16 May 2025 0376-7388/ 2025 The Author(s). Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "These complications contribute to high mortality rates among ECMO patients [12–14]. Studies indicate that survival rates differ based on the specific type of ECMO used; for instance, veno-arterial (VA) ECMO has reported survival rates of approximately 40–60 %, while veno-venous (VV) ECMO showed survival rates around 21–37 % [15]. To address these challenges, optimizing the design of hollow fiber membrane oxy­genators to enhance mass transfer efficiency and reduce the risk of he­molysis and thrombosis is essential. Computational modeling is an effective method for simulating and analyzing the blood flow and gas transfer within the oxygenator. Many studies have utilized computational fluid dynamics (CFD) to investigate the effect of different fiber arrangements and other parameters on flow patterns and gas transfer rates. Taskin et al. developed a multi-fiber CFD model evaluating two different void fractions or fiber spacings. Their findings indicated that at lower flow rates, the mass transfer rates for the arrangement with a denser configuration were only slightly higher than those of the wider-spaced arrangement. However, at higher flow rates, the denser configuration appeared more favorable [16]. Kaesler et al. examined oxygen transfer efficiency in staggered, in-line, and three random configurations. Their study demonstrated that a random configuration chain of fibers forms areas of low blood velocity and af­fects oxygen transfer [17]. Santos et al.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "heir study demonstrated that a random configuration chain of fibers forms areas of low blood velocity and af­fects oxygen transfer [17]. Santos et al. tested flow-aligned spacers for different cases and showed how the local Sherwood number varied in each scenario [18]. Lukitsch et al. developed a 3D CFD model of an oxygenator with a parallel flow configuration. Their study confirmed that increasing the blood flow rate increases the radial velocity and improves specific CO2 removal [19]. Additionally, research findings have demonstrated that changing the shape and arrangement of fibers may significantly influence gas ex­change efficiency. Ecker et al. demonstrated that sinusoidal-shaped hollow fibers increase the available gas exchange surface, thereby improving CO2 transfer rates. Their findings also indicated that gas transfer efficiency is higher when fibers are arranged in a staggered configuration compared to a non-staggered arrangement [20]. Furthermore, advancements in membrane materials, such as poly­methylpentene (PMP) fibers, have enhanced biocompatibility and reduced thrombogenicity. PMP fibers improve gas permeability and lower resistance to blood flow, which helps reduce the risk of hemolysis and thrombosis [21]. These ongoing studies aim to advance ECMO technology by integrating computational modeling with experimental validation to develop oxygenators that optimize gas exchange and reduce complications, thereby improving patient outcomes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "modeling with experimental validation to develop oxygenators that optimize gas exchange and reduce complications, thereby improving patient outcomes. Even though previous studies have utilized CFD to simulate gas transfer in hollow fiber membrane oxygenators with various fiber con­figurations, they have mainly focused on the fiber scale to evaluate mass transfer and neglected the critical complications of hemolysis and thrombosis. On the other hand, some studies have investigated blood damage, such as thrombosis in oxygenators, in a macroscopic way. These studies modeled a hollow fiber membrane as a porous medium. For instance, Fu et al. conducted CFD simulations to investigate the thrombosis risk in four clinical and one newly designed oxygenator [22]. CFD models that use a porous media approach are commonly employed to simulate the behavior of entire ECMO oxygenators. Since there are more than 10000 fibers in oxygenators, it is very hard to simulate the full oxygenator with all the fibers. In many studies, fibers were treated as a porous medium to neglect the complex geometry of the fiber bundle, allowing macroscopic flow and mass transfer evaluation [22–26]. However, at the fiber-scale level, only a very limited section of the oxygenator can be effectively investigated due to the computational cost. While these models simulate the thrombosis in the oxygenator, they do not include detailed blood damage modeling between the fibers.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "mputational cost. While these models simulate the thrombosis in the oxygenator, they do not include detailed blood damage modeling between the fibers. The micro-CT images from Wagner’s study show many clot formations between the fibers, representing the importance of microscopically investigating the blood damage [27]. Optimizing fiber arrangements without addressing these risks limits progress in oxygenator design. Therefore, an optimization approach is required to evaluate gas exchange efficiency while minimizing the risks of hemolysis and thrombosis. The primary aim of this study is to identify and analyze the in­terrelations between key geometric parameters of ECMO oxygenators, including fiber spacing, diameter, and bundle arrangement, and their effects on gas exchange efficiency, hemolysis, and thrombosis. By developing multivariate models to predict these outcomes, the study enhances understanding of how design choices influence oxygenator performance and blood damage. Following this, optimization methods, including Pareto front analysis, are applied to identify optimal config­urations that maximize gas transfer efficiency while minimizing blood damage. 2. Materials and methods 2.1. Computational fluid dynamics 2.1.1. Geometric parameters Three geometric parameters, including angle, diameter, and distance-to-diameter ratio, as well as a flow parameter, blood flow rate, were considered to optimize the membrane fiber arrangement. Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ameter, and distance-to-diameter ratio, as well as a flow parameter, blood flow rate, were considered to optimize the membrane fiber arrangement. Fig. 1(a) shows the angle, diameter, and distance between the fibers in a stag­gered arrangement. Each parameter was assigned a specific lower and upper bound: the angle ranged from 30 to 60 ◦, the diameter ranged from 300 to 700 μm, the distance-to-diameter ratio ranged from 1.25 to 2.25, and the blood flow rate ranged from 0.5 to 5 L.min-1. Blood flow rate was incorporated as an input parameter because flow condition variation might significantly influence the behavior of the geometric configura­tion of the fibers, thereby impacting the overall performance. Since the distance between the fibers may be impractical in some cases, the distance-to-diameter ratio was considered. For instance, in fibers with a diameter of 300 μm, a distance of 500 μm (distance-to-diameter ratio of 1.66) is feasible. In comparison, the exact distance is impossible in fibers with a diameter of 600 μm (distance-to-diameter ratio of 0.83) as the fibers collide. 2.1.2. Numerical domain The computational fluid dynamics (CFD) domain was designed with 27 fibers, including 22 full fibers within the flow path and 10 half fibers at the periodic boundaries. Since simulations with more fibers produce results similar to the 27-fiber configuration, the CFD model with the 27fiber configuration was chosen to better balance computational cost and accuracy.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ults similar to the 27-fiber configuration, the CFD model with the 27fiber configuration was chosen to better balance computational cost and accuracy. Given the laminar flow and unidirectional fiber alignment, a 2D flow assumption was considered appropriate for the CFD model, reducing the computational cost compared to a 3D model while main­taining accuracy. Inlet and outlet extensions of 6 mm each was added to the domain to achieve fully developed flow conditions. Fig. 1(b) shows the CFD domain along with dimensions, considering the arrangement with a 45 ◦fiber angle, a fiber diameter of 400 μm, and a spacing of 600 μm between fibers, giving a distance-to-diameter ratio of 1.5. 2.1.3. Governing equations, boundary conditions, and simulation settings The steady-state flow of blood is modeled by solving incompressible Navier-Stokes equations, ρ (∂v ∂t + (v.∇)v)= -∇p + μ∇2v(1) ∇.v = 0,(2) where ρ is the fluid density in kg m-3, v is the fluid velocity vector in m s1, p is the pressure in Pa, and μ is the fluid viscosity in Pa s. These equations express the momentum conservation in a differential control volume. Solving the Navier-Stokes equations with appropriate initial and boundary conditions yields the velocity and pressure distributions throughout each control volume in the discretized computational",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S.H. Monsefi Estakhrposhti et al. Journal of Membrane Science 731 (2025) 124228 domain. Ansys Fluent (Ansys, Inc., Pennsylvania, USA) was used to solve the Navier-Stokes equations for the CFD simulations. In this study, blood is treated as a non-Newtonian fluid, following a Carreau-Yasuda viscosity model, with a constant density of 1050 kg m-3 [28]. The Reynolds number is calculated utilizing Equations (3) and (4), where Q represents the blood flow rate in m3 s-1, L the distance between the fibers in m, θ the angle between the fibers in degrees, V the inlet blood velocity in m s-1, D the fibers diameter in m, and μ∞ the infinite shear rate viscosity in Pa s. Considering an infinite shear rate viscosity of 0.0035 Pa s [28], a maximum flow rate of 5 L min-1, a minimum distance-to-diameter ratio of 1.25 and a minimum angle of 30 ◦, results in the maximum Reynolds number of 33.33, indicating laminar flow condition. Q = A V = (6 * L * sin(θ) * 1) * V(3) Re = ρ V D μ∞ =ρ Q6 μ∞ LD sin(θ)(4) Fig. 1(b) shows the applied boundary conditions on the CFD domain. At the inlet, a constant velocity and at the outlet, a constant gauge pressure of 0 Pa was imposed. Periodic boundary condition was considered for the upper and lower sides of the domain, indicating a repetitive fiber arrangement and flow pattern. Period boundary condi­tions are suitable here, allowing the simulation to model only a section of fibers rather than the entire oxygenator.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "w pattern. Period boundary condi­tions are suitable here, allowing the simulation to model only a section of fibers rather than the entire oxygenator. The Coupled scheme was used for pressure-velocity coupling, with pressure discretized using a second-order scheme and momentum using a second-order upwind scheme. A convergence value of 10-5 was set for all the variables. 2.1.4. Mass transport simulations The steady-state transport of the gas is modeled by solving the advection-diffusion equation, ∇φ = D∇2φ + S,(5) where φ is the scalar quantity, D is the diffusion coefficient in m2 s-1, and S is the source term in s-1. Since the CO2 and O2 exchange rates are in the same range [29–31] and given that CO2 removal is generally the limiting factor in ECMO system performance, only CO2 removal is considered in this study. This approach was chosen to reduce computational cost, simplify the optimization process, and avoid unnecessary complexity, as simulating both gases was deemed redundant due to their similar trends and transfer rate ranges. A user-defined scalar (UDS) was used to solve the advection-diffusion equation. Based on the study by Svitek and Federspiel, the CO2 partial pressure is modeled by solving the following equation:",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(7) where DCO2 is the diffusivity of dissolved CO2, DHCO3 is the diffusivity of bicarbonate, αCO2 is the CO2 solubility, and λCO2 is the slope of the CO2 content curve [32]. A constant CO2 partial pressure of 45 mmHg was set at the inlet, and a partial pressure of 4 mmHg was imposed on the fiber surfaces. At the outlet, a zero gradient CO2 partial pressure was applied. The UDS was discretized using a second-order scheme, with a conver­gence criterion set to 10-5. The mass-weighted average of CO2 partial pressure is calculated at the outlet, and by calculating the CO2 concen­tration from the partial pressure [33,34], the CO2 removal is calculated as follows: CTR = Qblood (CCO2,inlet -CCO2,outlet )(8) Where CTR is the rate of transferred CO2 in mLCO2 min-1 m-2, Qblood is the blood flow rate in mLblood min-1, and CCO2 is the CO2 concentration in mLCO2 mLblood-1. 2.1.5. Hemolysis index evaluation A practical method for evaluating hemolysis is the hemolysis index (HI), which simplifies the relationship between shear stress, exposure time, and red blood cell damage. Hemolysis is typically assessed using empirical models that link mechanical stress and exposure duration. This approach, which has been validated in numerous studies [35,36], offers a direct and computationally efficient way to evaluate hemolysis.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "uration. This approach, which has been validated in numerous studies [35,36], offers a direct and computationally efficient way to evaluate hemolysis. The hemolysis index was modeled by solving the advection equation, d(HIʹ)dt+ ρ(v.∇HIʹ) = S,(9) where HIʹ is defined as a user-defined scalar variable equal to HI1/α, and S is the source term given by S = ρ (C σβ)1/α. C, α, and β are the empirical coefficients equal to 3.62*10-5, 0.785, and 2.416, respectively [35,36]. The scalar shear stress, σ, is calculated using Equation [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}]: σ =[16 ∑( σii -σjj )2 +∑ σ2ij ]0.5",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Geometric and computational domain setup for fiber arrangement. (a) Defined geometric parameters for fibers in a staggered arrangement, (b) CFD domain layout with 27 fibers, showing flow direction, dimensions, and boundary conditions. S.H. Monsefi Estakhrposhti et al. Journal of Membrane Science 731 (2025) 124228 where σij are the shear stress components, and i and j are indices rep­resenting the coordinate directions in a Cartesian coordinate system. 2.1.6. Mesh dependence study A mesh dependence study was done to ensure that the simulation results were independent of the mesh size and that the modeled physical phenomena were accurately captured. A structured mesh provides higher accuracy and lower computational cost than an unstructured mesh due to its regular and grid-like cell arrangement, reducing the numerical diffusion. Therefore, a structured mesh was generated for a smoother gradient, better convergence, and stability. The mesh was refined for the configuration with a 45 ◦fiber angle, a fiber diameter of 400 μm, a spacing of 600 μm between fibers, and a blood flow rate of 0.75 L min-1. Four different meshes with the minimum orthogonal quality of 0.65 and a number of elements of 50k, 100k, 250k, and 500k were generated, and the local Sherwood number was evaluated for each. The local Sherwood number was calculated based on the following equation: Sh = kc LDCO2",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] where L denotes the characteristic length in m, which in this context corresponds to the diameter of the fibers, DCO2 represents the diffusion coefficient of the CO2, and kc is the local mass transfer coefficient in m s-1 that was calculated based on the following equation: kc = -DCO2PCO2,inlet ∂PCO2 ∂n[ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] Root mean square error (RMSE) for the Sherwood number for each mesh was calculated relative to the finest mesh (500k). The RMSE per­centage for 50k, 100k, and 250k elements meshes were 10.89 %, 4.52 %, and 1.33 %, respectively. Since the RMSE between the 250k and 500k element meshes is around 1 %, the 250k element mesh settings were selected for the CFD simulations, ensuring consistent element count across varying geometries and mesh configurations. The local Sherwood number along a fiber circumference and a generated mesh close-up with 250k elements are shown in supplementary material S.1. 2.2. Experimental setup and procedure 2.2.1. Microchannel fabrication Four rectangular microchannels containing fibers with different an­gles, diameters, and distance to diameter ratios were 3D-printed to investigate the transverse flow conditions in a membrane oxygenator.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "different an­gles, diameters, and distance to diameter ratios were 3D-printed to investigate the transverse flow conditions in a membrane oxygenator. Microchannels were 3D-printed with a Digital Light Processing (DLP) printer (Max X27, Asiga, New South Wales, Australia) using Nano Clear resin (FunToDo, Kotka, Finland) with fibers in a staggered position. The fibers are 3D-printed as cylinders inside the microchannels with a height of 1 mm. On the side of the channels, semi-cylinders were 3D-printed, implying the periodic boundary condition. Fig. 2(a) shows the sche­matic of the microchannel with dimensions, and Fig. 2(b) shows the 3Dprinted microchannel for the micro-particle image velocimetry (μ-PIV) experiment. The 4x magnification of the fibers under the microscope is shown in Fig. 2(c). Table 1 presents the geometric parameter values of the printed microchannels alongside the flow rate. 2.2.2. Micro-PIV measurement For visualizing the flow and velocity field between the fibers of the fabricated micro-channel, a μ-PIV system was utilized. A simplified schematic of the μ-PIV system is shown in Fig. 2(d). Fluid flow (water) is seeded with polystyrene fluorescent micro-particles with a diameter of 1.9 μm (PS-FluoRot-2.0, microParticles GmbH, Berlin, Germany). Since the density of the micro-particles (1.05 g cm-3) is similar to the density of the water (1 g cm-3), the micro-particles stay suspended in the water and move along the flow field.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Overview of microchannel design and measurement setup. (a) Detailed design of Microchannels, (b) 3D printed microchannel for the micro-PIV measure­ment, (c) Microchannel fibers under 4x magnification using the microscope, (d) Simplified schematic of the μ-PIV system. S.H. Monsefi Estakhrposhti et al. Journal of Membrane Science 731 (2025) 124228",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(Model 11, Harvard Apparatus, Pennsylvania, USA) with a flow rate of 1.5 mL min-1 and 3 mL min-1. Two laser pulses are emitted from the laser source (Bernoulli B-PIV 200-15, Litron Lasers, Warwickshire, UK) with a time interval of 100 μs. Since the wavelength of the laser matches the absorption wavelength of the micro-particles, they excite at 530 nm and emit light at 607 nm, making them visible. The emitted light from the micro-particles inside the microchannel is captured by a high-speed CCD camera (Zyla 5.5 sCMOS, Andor Technology Ltd, Belfast, UK) that is mounted on an inverted microscope (IX73, Olympus Life Science, Tokyo, Japan), which provides magnified images of flow between the fibers. A synchronizer (LaserPulse Synchronizer 610036, TSI, Minne­sota, USA) is used to precisely control the timing between the camera exposure and laser pulses, ensuring that two images are captured shortly after the laser pulses. The captured images are post-processed in the Insight 4G software (TSI, Minnesota, USA). Measurements were done at the midplane of the microchannel (shown as the focal plane). More details of the micro-PIV principle are given by Raffel et al. [37]. 2.3. Data-driven model development 2.3.1. Multivariate polynomial model formulation The primary objectives of ECMO are to enhance mass transfer while minimizing the risks of thrombosis and hemolysis.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "riate polynomial model formulation The primary objectives of ECMO are to enhance mass transfer while minimizing the risks of thrombosis and hemolysis. Therefore, three objectives were considered in this study: 1 Maximizing specific CO2 removal: Specific CO2 removal was calcu­ lated by dividing the CO2 removal rate from Equation (8) by the total fiber surface area, indicating the mass transfer efficiency of the oxygenator.2 Minimizing dead-zone-to-total-area ratio: Regions with a velocity below 0.1 mm s-1 were defined as dead zones where blood flow is minimal and increases the risk of thrombosis. The dead-zone-tototal-area ratio measures the percentage of the oxygenator poten­tially susceptible to thrombosis.3 Minimizing hemolysis index: Hemolysis index quantifies the extent of hemolysis, providing an estimate of blood cell damage. In this study, blood-side pressure drop was not considered a direct optimization objective since the analysis focused on mass transfer effi­ciency, hemolysis, and thrombosis risk, which are more linked to patient safety and clinical outcomes. Besides, it was considered that the pump would manage any pressure loss, and its effects would be reflected indirectly through hemolysis, indicating hydraulic stress within the system. So, a higher pressure drop results in a higher mechanical load on the pump, which leads to higher shear-induced hemolysis. The overview of the methodology employed in this study is shown in Fig. 4.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "mechanical load on the pump, which leads to higher shear-induced hemolysis. The overview of the methodology employed in this study is shown in Fig. 4. After defining the input parameters and objectives, developing the CFD model, and conducting micro-PIV measurements for CFD vali­dation, the fourth step involved generating 200 cases with varying input parameters using the Latin hypercube sampling (LHS) method [38]. CFD simulations were conducted for these cases to assess the effect of each defined parameter (angle, diameter, distance-to-diameter ratio, and blood flow rate) on the defined objectives. The dataset was divided into a model identification dataset and a validation dataset to construct surrogate models for each objective. Specifically, 150 cases were used as model identification dataset to train the surrogate models, and the remaining 50 cases constituted the validation dataset where they were employed to assess the accuracy of the developed surrogate models. As demonstrated in many studies, numerous physical phenomena exhibit nonlinear behavior. For instance, the Sherwood number in a laminar flow parallel to a plate is given as a function of the Reynolds number raised to the power of 1/2 and the Schmidt number raised to the power of 1/3 (Sh=0.664 Re1/2 SC1/3). However, by treating Re1/2 and Sc1/3 as separate variables, the Sherwood number equation can be expressed as a linear polynomial function of order 1 for each variable.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ing Re1/2 and Sc1/3 as separate variables, the Sherwood number equation can be expressed as a linear polynomial function of order 1 for each variable. So, an unknown exponent was assigned to each parameter to achieve a better fit to the data, and each objective is expressed as follows: objective=f(anglea,diameterb,distance-to-diameterratioc,flowrated )",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] where a, b, c, and d are the unknown exponents of each parameter, which vary for each objective. Additionally, the polynomial order is an unknown parameter that must be determined. 2.3.2. Modified Enhanced Jaya Algorithm The Modified Enhanced Jaya algorithm, combining the modified Jaya algorithm for mixed variables [39] with the Enhanced Jaya Algo­rithm (EJAYA) [40], was implemented in MATLAB (MathWorks, Natick, Massachusetts, USA) and utilized to determine each objective’s expo­nents and polynomial model. The unknown exponents were treated as continuous variables, constrained between -5 and 5, while the poly­nomial model was treated as a discrete variable, ranging from 1111 to 6666. Each digit in the polynomial model specifies the maximum degree of each input parameter in the multivariate polynomial model. The Modified Enhanced Jaya algorithm was applied to minimize the fitness function for each objective. A multivariate polynomial model was fitted to the data for each population (parameters a, b, c, d, and the polynomial order). Using the input parameters from the model identi­fication and validation datasets, the relative error of the obtained value from the multivariate polynomial model compared to the CFD was calculated as the fitness function.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "datasets, the relative error of the obtained value from the multivariate polynomial model compared to the CFD was calculated as the fitness function. Additionally, 625 parameter combi­nations (5 values for each parameter) were generated and evaluated by the model. To enforce constraints, any negative output from the model resulted in a penalty value of 106 being assigned to the fitness function. The EJAYA algorithm framework includes a search mechanism that consists of local exploitation and global exploration strategies. For each population, a switch probability is selected randomly. The global exploration strategy is applied if this value exceeds 0.5; otherwise, the local exploitation strategy is used. Since differential vectors between historical and current populations cover a broader search space than differential vectors within the same generation, the global exploration strategy can be particularly effective. The discrete variable for polynomial order was treated as a contin­uous variable within the population generation. The generated value was then checked to find the two closest discrete values. If the generated value was greater than the average of these two values, it was assigned the higher value; otherwise, it was assigned the lower value. 3. Results 3.1. CFD validation with Micro-PIV Different CFD simulations were conducted using a 3D domain, as shown in Fig. 1(b), to validate the results of the micro-PIV experiments.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ith Micro-PIV Different CFD simulations were conducted using a 3D domain, as shown in Fig. 1(b), to validate the results of the micro-PIV experiments. Unlike the main simulations, the validation simulations incorporated modified boundary conditions to align with the experimental setup; period boundary conditions were replaced with wall boundary condi­tions, and the working fluid was changed to water to replicate the actual",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 1 Geometric parameter values of printed microchannels with the corresponding experiment flow rate. MicrochannelAngle [◦] Diameter [μm]\n\nDistance-toDiameter Ratio [ -] Flow Rate [mL min-1]\n\n[ФОРМУЛА: [FORMULA_ID: 2aba987a-9fd2-4c4b-a446-5004c5003d47] Case 1 60 600 (2 * 300)]\n\n[ФОРМУЛА: [FORMULA_ID: ba3be459-fd53-4a2d-a5e2-87e2cc75e8bf] 900/600 = 1.5 1.5]\n\nCase 260300450/300 = 1.51. 5Case 345494 (1.3 *380)\n\n[ФОРМУЛА: [FORMULA_ID: e27bbee8-b796-4e48-b4b5-b7a379127a77] 780/494 = 1.579 3]\n\nCase 445380600/380 = 1.5793 S.H. Monsefi Estakhrposhti et al. Journal of Membrane Science 731 (2025) 124228 experimental conditions. Velocity contours were computed and visual­ized at the mid-plane of the domain for comparison. Fig. 3 compares the CFD simulation and the micro-PIV experiment results. Due to the inherent difficulty in defining a precise line in the micro-PIV experiment results to compare with the CFD results, a qualitative comparison approach was adopted. As shown in Fig. 3, the CFD simulations closely align with the micro-PIV measurements, exhibiting strong agreement and confirming the robustness and accuracy of the CFD as an effective method to evaluate flow behavior between the fibers. With a 4x magnification, the field of view in the micro-PIV experiment was limited to 690*820 microns. As a result, capturing the complete flow field around the entire fiber was impossible in cases 1 and 3.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5,
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Data distribution Fig. 5 illustrates the relationship between the objectives (specific CO2 removal, dead-zone-to-total-area ratio, and hemolysis index) and input parameters (angle, diameter, distance-to-diameter ratio, blood flow rate). The scatter plots indicate that most input parameters have a minimal correlation with the hemolysis index. However, there is a slight negative trend with the distance-to-diameter ratio, where a lower distance-to-diameter ratio tends to increase the hemolysis index, resulting in higher blood damage. Uniform scatter indicates a weak relationship with the hemolysis index between angle, diameter, and blood flow rate. A more noticeable trend with angle and blood flow rate is shown with the dead-zone-to-total-area ratio. Lower angles and higher blood flow rates are associated with reducing the dead-zone area. A clear negative correlation exists between diameter and the specific CO2 removal. Decreasing the diameter tends to increase the specific CO2 removal. Also, a slight positive trend is observed between blood flow rate and specific CO2 removal, with a higher flow rate increasing specific CO2 removal. As illustrated in Fig. 5, the majority of the data for the hemolysis index falls below 10 * 10-3%, and most values for the dead-zone-tototal-area ratio are below 0.75 %. Additionally, specific CO2 removal is mainly below 110 mLCO2 min-1 m-2. 3.3.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "%, and most values for the dead-zone-tototal-area ratio are below 0.75 %. Additionally, specific CO2 removal is mainly below 110 mLCO2 min-1 m-2. 3.3. Model evaluation of each objective The modified enhanced Jaya algorithm has been employed to determine the unknown exponent for each input parameter and the polynomial order of the multivariate polynomial function. Stepwise regression was utilized to model the objectives. Stepwise regression removes predictors based on statistical criteria, such as p-values, allowing for selecting a subset of predictors that best aligns with the objectives. The calculated exponent values for each variable and the polynomial model for each objective are presented in Table 2. The final equation for each objective is provided in the supplementary material S.3. Fig. 6 illustrates the accuracy of the obtained models for each mentioned objective. The obtained model for specific CO2 removal, shows high accuracy for both the identification and validation datasets. The error between the predicted value and those obtained from the CFD simulations falls below 2.5 % for the model identification dataset. It remains below 5 % for the validation dataset except for one data point with an approximate error of 14 % (see Fig. 6(a)). The scatter plot of predicted versus actual specific CO2 removal is shown in Fig. 6(b).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "data point with an approximate error of 14 % (see Fig. 6(a)). The scatter plot of predicted versus actual specific CO2 removal is shown in Fig. 6(b). The data points align closely with the identity line, indicating a strong agreement between the predicted and actual values for specific CO2 removal. Low error percentages across both model identification and validation indicate that the model is highly accurate in predicting spe­cific CO2 removal. The developed model predicting the dead-zone-to-total-area ratio demonstrates good accuracy as well. Fig. 6(c) illustrates the error per­centage of this ratio as a function of input parameters. The error remains consistently below 15 %, indicating a good fit for the complex dataset. Even though most of the dead-zone-to-total-area ratio falls below 1, and only 7 data points show the dead-zone-to-total-area ratio above 1, the model shows a high accuracy across lower and higher values. Similarly, the close alignment of the predicted and actual values along the identity line implies that the model performs well (see Fig. 6(d)). Fig. 6(e) presents the error percentage of the hemolysis index model. For this model, all the errors are below 5 %. Fig. 6(f) shows the predicted versus actual hemolysis index, where the data points align very closely to the identity line, meaning that the developed model performs well and provides high accuracy. Overall, all three models accurately fit the data, making them appropriate for further analysis. 3.4.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "model performs well and provides high accuracy. Overall, all three models accurately fit the data, making them appropriate for further analysis. 3.4. Global Sensitivity Analysis Uncertainty and sensitivity analysis are considered critical compo­nents in model applications. Global Sensitivity Analysis (GSA) helps to identify the key parameters whose uncertainty has the most significant impact on the output, allowing ranking of the variables, fixing or removing irrelevant ones, and reducing the complexity of the problem. Among the various GSA methods, variance-based Sobol’ sensitivity indices are most commonly used due to their efficiency and ease of interpretation [41,42]. Several Sobol’ indices exist, including the first-, second-, and higherorder indices. A second-order Sobol’ indices can be defined as the firstorder Sobol’ index of a group of two input variables. In this study, the firstand total-order Sobol’ indices were investigated. Azzini et al. proposed two sampling strategies along with their respective Monte Carlo estimators to calculate both the firstand total-order Sobol’ indices [43]. Their findings demonstrate that the new strategy out­performs the previous one introduced by Saltelli [44]. Therefore, this study calculates the first-order and total Sobol indices following the methodology of Azzini et al. using the sample size of 107. The sensitivity analysis results, based on first-order and total-order Sobol’ indices, are presented in Fig. 7.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "i et al. using the sample size of 107. The sensitivity analysis results, based on first-order and total-order Sobol’ indices, are presented in Fig. 7. The distance-to-diameter ratio emerges as the most influential parameter across all objectives, both in terms of its direct effect and its interaction with other variables. This influence is particularly evident for the hemolysis index, where the Sobol’ indices for the distance-to-diameter ratio show a notably higher contribution compared to the other inputs. In contrast, the blood flow rate demonstrates almost the least influence on all objectives. The specific CO2 removal is most sensitive to the diameter and",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. Overview of the methodology employed in this study for the optimi­zation of fiber arrangement in an oxygenator. The process includes parameter definition, CFD modeling, experimental validation, surrogate model develop­ment using a modified enhanced Jaya algorithm, and both singleand multiobjective optimization to identify optimal configurations. S.H. Monsefi Estakhrposhti et al. Journal of Membrane Science 731 (2025) 124228 distance-to-diameter ratio, while the dead-zone-to-total-area ratio is primarily influenced by the distance-to-diameter ratio and angle. However, for the dead-zone-to-total-area ratio, the variation in sensi­tivity indices between the inputs is less pronounced compared to the specific CO2 removal and the hemolysis index. The total-order Sobol’ indices, which account for the main effects and interactions among input variables, further support these findings. 3.5. Single-objective optimization A single-objective optimization approach was conducted following the development of the multivariate polynomial models and the pre­liminary study of input parameter effects on each objective. A design space was constructed by defining each input parameter’s minimum and maximum bounds. This space was discretized into a fine grid of data points, ensuring a thorough exploration of the objective landscape. Then, the objectives were evaluated at each of these discrete points using the developed polynomial models.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "gh exploration of the objective landscape. Then, the objectives were evaluated at each of these discrete points using the developed polynomial models. Subsequently, the global minimum and maximum values of each objective were identified. This method allows for a detailed understanding of the influence of the input parameters on the objectives and facilitates the identification of parameter configurations that yield the best possible outcomes for each objective. The minimum and maximum values of each objective are presented in Table 3. Since the aims are to maximize the specific CO2 removal and minimize the dead-zone-to-total-area ratio and the hemo­lysis index, the input parameter configurations that achieve these out­comes are highlighted in bold in Table 3.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.6. Multi-objective optimization In the multi-objective optimization analysis, the Pareto front was used to identify the optimal trade-offs between objectives. Despite the single-objective optimization that focuses on maximizing or minimizing a single objective, multi-objective optimization considers multiple ob­jectives simultaneously. The aim is to identify solutions where im­provements in one objective cannot be achieved without compromising another, known as non-dominated solutions. These solutions together form the Pareto front. The Pareto front was constructed for all three objectives simulta­neously. The resulting Pareto front provides a comprehensive view of the optimal solutions where no further improvement can be made in one objective without negatively impacting another. This approach enables the identification of balanced parameter configurations that consider all objectives, aiming to achieve the best fiber arrangement. Fig. 8 shows the dominated and Pareto optimal solutions considering all three objectives. Pareto solutions are the non-dominated points, with no other points having higher specific CO2 removal and lower deadzone-to-total-area ratio and hemolysis index. The multi-objective\n\nFig. 5. Relationship between the objectives (specific CO2 removal, dead-zone-to-total-area ratio, and hemolysis index) and input parameters (angle, diameter, distance-to-diameter ratio, blood flow rate) for the model identification (blue) and model validation (red) datasets.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 2 Exponents and polynomial orders were achieved for each objective using the modified enhanced Jaya algorithm. ObjectiveabcdPolynomial Model Specific CO2 Removal [mLCO2 min-1 m-2]1.413-0.251-1.4640.360poly4666 Dead-Zone-to-TotalArea Ratio [%] 1.192-0.093-1.1981.741poly5546 Hemolysis Index *10-3 [%] 0.597-0.801-2.691-0.027poly6452 S.H. Monsefi Estakhrposhti et al. Journal of Membrane Science 731 (2025) 124228\n\nPareto front presents a comprehensive perspective on the trade-offs among specific CO2 removal, dead-zone-to-total-area ratio, and hemo­lysis index. The multi-objective Pareto front indicates that enhancing specific CO2 removal can significantly decrease the dead-zone-to-totalarea ratio yet raises the hemolysis index, resulting in a precise balance in design choices. Following obtaining the Pareto front solutions, two methods, weighted sum and goal programming, were employed to identify the optimal fiber arrangement.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8,
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.6.1. Weighted sum method The weighted sum method is a technique that combines several ob­jectives into a single objective function by assigning a weight to each, allowing for prioritized trade-offs among the objectives [45]. In this study, the method balances the maximization of specific CO2 removal alongside the minimization of hemolysis index and dead-zone-to-total-area ratio by adjusting the relative importance of each objective. The primary advantages of the weighted sum method are its simplicity and flexibility, as it allows objectives to be emphasized ac­",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. Accuracy of the models for each objective: (a) Error percentage of specific CO2 removal versus input parameters; (b) Predicted versus calculated value of the specific CO2 removal from CFD; (c) Error percentage of dead-zone-to-total-area ratio versus input parameters; (d) Predicted versus real value of the dead-zone-tototal-area ratio from CFD; (e) Error percentage of hemolysis index versus input parameters; (f) Predicted versus real value of the hemolysis index from CFD. S.H. Monsefi Estakhrposhti et al. Journal of Membrane Science 731 (2025) 124228 cording to specific needs by modifying the weights. However, this approach has limitations, including the subjectivity in weight selection, which may influence the outcome [46]. The best 3 optimal arrange­ments based on the weighted sum method for various weights are pre­sented in Table 4. As shown in Table 4, the optimal arrangements achieved with the lowest diameter (300 μm), lower angles, and highest blood flow rate (5 L min-1). Furthermore, assuming almost the same angle, by increasing the distance-to-diameter ratio from 1.25 to 1.65, the specific CO2 removal decreases from 220 to 130 mLCO2 min-1 m-2 (-41 %), while the hemolysis index decreases from 285* 10-3 to 12 * 10-3 % (-95.8 %). 3.6.2. Goal programming method The goal programming method is another technique that seeks to achieve predefined target values or thresholds for each objective, minimizing the deviation from these set goals [47].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "another technique that seeks to achieve predefined target values or thresholds for each objective, minimizing the deviation from these set goals [47]. The primary ad­vantages of goal programming lie in its ability to precisely align with clinical requirements by establishing explicit performance targets, reducing subjective prioritization often seen in other methods [48]. However, this approach also presents challenges, such as the difficulty in setting realistic and attainable target values and a potential risk of generating unbalanced or infeasible solutions if the set goals are overly restrictive or incompatible with each other. Considering the maximum value of the specific CO2 removal (250.3 mLCO2 min-1 m-2), the mini­mum value of hemolysis index (0.011 %), and the minimum value of dead-zone-to-total-area ratio (0.024 %) as the targets, the best 3 optimal arrangements using goal programming method are presented in Table 5. The results of the goal programming method indicate that optimal",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. Bar graph of firstand total-order Sobol’ indices (respectively at the top and the bottom) with a sample size of 107.\n\nTable 3 Single-objective optimization results. ObjectiveMin/MaxAngle [◦]Diameter [μm]Distance-to-Diameter Ratio [ -]Flow Rate [L.min-1] Specific CO2 Removal [mLCO2 min-1 m-2]Min = 12.2307002.250.5Max ¼ 250.3303001.255Dead-Zone-to-Total-Area Ratio [%]Min ¼ 0.024343001.554.8Max = 7.54607001.350.5Hemolysis Index *10-3 [%]Min ¼ 0.011607002.250.5Max = 876303001.255 S.H. Monsefi Estakhrposhti et al. Journal of Membrane Science 731 (2025) 124228 solutions are achieved with the smallest fiber diameter and the highest blood flow rate. Moreover, the hemolysis index obtained using this method is lower than that achieved with the weighted sum method, particularly when higher weights are assigned to specific CO2 removal or the dead-zone-to-total-area ratio. In both the weighted sum and goal programming methods, selecting different weights or setting alternative goals impacts the optimization outcome, often resulting in different results. Therefore, assigning these values must carefully consider the relative importance of each objective within the context of critical care, as specific outcomes such as mini­mizing hemolysis or maximizing mass transfer may take superiority depending on clinical priorities and patient-specific requirements.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10,
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 8. Three-objective Pareto front solutions for the optimization of specific CO2 removal, dead-zone-to-total-area ratio, and hemolysis index. (a) 3D representation of Pareto optimal solutions (red) and dominated solutions (blue). (b, c, d) Projection of three-objective Pareto front solutions onto each respective plane.\n\nTable 4 The best three optimal fiber arrangements were determined using the weighted sum method for various weight combinations (w1,w2,w3). WeightsAngle [ ◦]Diameter [μm]\n\nDistance-to-Diameter Ratio [-] Blood Flow Rate [L min-1]\n\nSpecific CO2 Removal [mLCO2 min-1 m-2] Dead-Zone-to-TotalArea Ratio [%]\n\nHemolysis Index *10-3 [%] w1 = 1/3 303001.255250.30.086876 w2 = 1/3 303001.254.9248.60.070846 w3 = 1/3 303001.254.8246.90.060816 w1 =0.7 313001.255243.40.080607 w2 =0.2 323001.255237.10.076457 w3 =0.1 313001.254.9241.70.064586 w1 =0.2 343001.254.7220.30.045284 w2 =0.7 343001.254.8222.10.050294 w3 =0.1 343001.254.6218.40.041274 w1 =0.1 373001.655130.80.03111 w2 =0.2 363001.655132.50.02912 w3 =0.7 383001.65134.60.03113 S.H. Monsefi Estakhrposhti et al. Journal of Membrane Science 731 (2025) 124228",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Discussion The solutions obtained from multi-objective optimization differ in geometric configuration compared to those from single-objective opti­mization. For instance, when optimizing only for specific CO2 removal, the resulting geometry is characterized by a 30 ◦fiber angle, 300 μm diameter, and a distance-to-diameter ratio of 1.25. This configuration forms a very dense fiber bundle, which is efficient in gas transfer but induces high hemolysis and pressure drop. In contrast, when applying multi-objective optimization using the goal programming method, the optimal geometry shifts to a 34◦angle, the same 300 μm diameter, but with a more moderate distance-to-diameter ratio of 1.45. This configu­ration achieves a specific CO2 removal of 164.4 mLCO2 min-1 m-2, approximately 34 % lower than the single-objective optimum. However, the hemolysis index is reduced by 94.7 %, demonstrating that a modest compromise in mass transfer efficiency by increasing the distance-todiameter ratio can substantially improve blood damage. The specific CO2 removal calculated in this study aligns closely with the experimental results reported in Svitek’s study [32]. Although the detailed specifications of their first prototype fiber bundle module are not fully disclosed, the fiber diameter of 300 μm and the specific CO2 removal values, ranging from 50 to 75 mLCO2 min-1 m-2 for a blood flow rate of 0.75–2.25 L min-1, are consistent with the CFD results obtained in the present study.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", ranging from 50 to 75 mLCO2 min-1 m-2 for a blood flow rate of 0.75–2.25 L min-1, are consistent with the CFD results obtained in the present study. For example, with a diameter of 320 μm, a distance-to-diameter of 2.1, an angle of 38 ◦, and a flow rate of 2.3 L min-1, the calculated specific CO2 removal was 68.9 mLCO2 min-1 m-2. Similarly, with a diameter of 315 μm, a distance-to-diameter of 1.95, an angle of 43 ◦, and a flow rate of 1.3 L min-1, the calculated specific CO2 removal was 58.5 mLCO2 min-1 m-2. Typical fiber mat configurations used in existing oxygenators were examined to establish the relevance of our findings to commercial oxygenator designs. For example, Membrana PMP fiber mats feature a packing density of 44 fibers per inch and a fiber diameter of 380 μm, resulting in an approximate center-to-center spacing of 600 μm [49], which corresponds to a fiber angle of 51.7◦and a distance-to-diameter ratio of 1.27. As shown in Table 4, this configuration closely aligns with the optimal geometries identified through our multi-objective optimization using the weighted sum method, thereby supporting the practical applicability of our modeling approach. Although this study focuses on evaluating and optimizing membrane fiber arrangements, practical implementation may differ due to inherent challenges, such as slight variations in fiber positioning and movement of fibers as the fluid flows around them.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "mentation may differ due to inherent challenges, such as slight variations in fiber positioning and movement of fibers as the fluid flows around them. Therefore, this study thoroughly analyzed and optimized the ideal geometric configuration. It is acknowledged that using a 2D simulation model represents a limitation of this work. In the simulations, fibers were assumed to be transverse to the flow, effectively modeling a cross-sectional slice of the oxygenator. While this approach offers valuable insight into local flow behavior and mass transfer between fibers, it does not fully capture the threedimensional flow complexities present in real devices, such as those with 90◦stacked or 24◦wound configurations, as Focke et al. [50] re­ported. Nonetheless, the 2D configuration used here closely resembles the 90◦stacked arrangement and provides a computationally efficient parametric analysis and optimization framework. Moreover, this study demonstrated that increasing mass transfer leads to increased blood damage, a factor often overlooked in previous studies. Even though there are some solutions to mitigate blood damage, such as adding heparin to the blood to reduce the risk of thrombosis [51], this study showed that optimizing the arrangement of the fibers can also effectively reduce the blood damage. 5.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "o reduce the risk of thrombosis [51], this study showed that optimizing the arrangement of the fibers can also effectively reduce the blood damage. 5. Conclusion This study focused on optimizing the arrangement of ideal hollow fiber membrane oxygenators to enhance specific CO2 removal while reducing the hemolysis index and the dead-zone-to-total-area ratio. The study developed highly accurate tools for predicting gas exchange effi­ciency, hemolysis, and dead-zone formation across various fiber con­figurations by integrating CFD simulations with multivariate polynomial models. These models evaluated the effects of geometric parameters, including fiber angle, diameter, and distance-to-diameter ratio, and the flow parameter, blood flow rate, on each objective. The main findings of the study are outlined below: CFD simulations demonstrated a good agreement with micro-PIV measurements, validating the accuracy of the numerical model. Combining the modified enhanced Jaya algorithm and multivariate polynomial functions resulted in high-accuracy modeling of the objectives. The distance-to-diameter ratio had the most significant impact on the hemolysis index. Specific CO2 removal was most sensitive to the fiber diameter and distance-to-diameter ratio. The dead-zone-to-total-area ratio was mainly influenced by the distance-to-diameter ratio and fiber angle.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "er diameter and distance-to-diameter ratio. The dead-zone-to-total-area ratio was mainly influenced by the distance-to-diameter ratio and fiber angle. The optimal configuration is sensitive to the chosen weights (in the weighted sum method) or goal targets (in the goal programming method). Commercial fiber mat, Membrana PMP (44 fibers/inch, 380 μm diameter), were analyzed to assess how typical design parameters align with the optimized geometries identified in this study. Overall, this study demonstrates that careful optimization of fiber arrangement parameters can balance high mass transfer efficiency and reduce the risk of hemolysis and thrombosis. The study provides a foundation for further refining ECMO designs, emphasizing the need for parameter-specific adjustments based on clinical priorities. CRediT authorship contribution statement Seyyed Hossein Monsefi Estakhrposhti: Writing – review & edit­ing, Writing – original draft, Visualization, Software, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Jing Jing Xu: Validation. Margit Gf¨ohler: Writing – review & editing, Su­pervision. Michael Harasek: Writing – review & editing, Supervision. Declaration of competing interest The authors would like to declare that there is no conflict of interest with this research.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 5 The best three optimal arrangements were determined using the goal programming method, considering the best single objectives as targets. Optimal Solutions Angle [ ◦]Diameter [μm]\n\nDistance-to-Diameter Ratio [-] Blood Flow Rate [L min-1]\n\nSpecific CO2 Removal [mLCO2 min-1 m-2] Dead-Zone-to-TotalArea Ratio [%]\n\nHemolysis Index *10-3 [%]\n\nOptimal Solution 1 343001.455164.40.02746 Optimal Solution 2 363001.45168.90.03253 Optimal Solution 3 353001.455161.80.02741 S.H. Monsefi Estakhrposhti et al. Journal of Membrane Science 731 (2025) 124228",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[19] B. Lukitsch, P. Ecker, M. Elenkov, C. Janeczek, B. Haddadi, C. Jordan, C. Krenn, R. Ullrich, M. Gfoehler, M. Harasek, Computation of global and local mass transfer in hollow fiber membrane modules, Sustainability 12 (6) (March 2020) 2207.[20] P. Ecker, M. Pekovits, T. Yorov, B. Haddadi, B. Lukitsch, M. Elenkov, C. Janeczek, C. Jordan, M. Gfoehler, M. Harasek, Microstructured hollow fiber membranes: potential fiber shapes for extracorporeal membrane oxygenators, Membranes 11 (5) (May 2021) 374.[21] T. He, J. He, Z. Wang, Z. Cui, Modification strategies to improve the membrane hemocompatibility in extracorporeal membrane oxygenator (ECMO), Adv. Compos. Hybrid Mater. 4 (4) (December 2021) 847–864.[22] X. Fu, Z. Su, Y. Wang, A. Sun, L. Wang, X. Deng, Z. Chen, Y. Fan, Comparison of hemodynamic features and thrombosis risk of membrane oxygenators with different structures: a numerical study, Comput. Biol. Med. 159 (2023) 106907.[23] M. Gartner, C. Wilhelm, K. Gage, M. Fabrizio, W. Wagner, Modeling flow effects on thrombotic deposition in a membrane oxygenator, Artif. Organs 24 (1) (2000) 29–36.[24] J. Zhang, T.D. Nolan, T. Zhang, B.P. Griffith, Z.J. Wu, Characterization of membrane blood oxygenation devices using computational fluid dynamics, J. Membr. Sci. 288 (1–2) (2007) 268–279.[25] B. Fill, M. Gartner, G. Johnson, M. Horner, J. Ma, Computational fluid flow and mass transfer of a functionally integrated pediatric pump-oxygenator configuration, ASAIO J.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". Johnson, M. Horner, J. Ma, Computational fluid flow and mass transfer of a functionally integrated pediatric pump-oxygenator configuration, ASAIO J. 54 (2) (2008) 214–219.[26] L. Goubergrits, B. Franke, Novel axial oxygenator with bevelled shape of priming volume: CFD based analysis of oxygenator hemodynamics, Curr. Direct. Biomed. Eng. 10 (4) (2024) 268–271.[27] M.S. Wagner, M. Kranz, L. Krenkel, D. Pointner, M. Foltan, M. Lubnow, K. Lehle, Computer based visualization of clot structures in extracorporeal membrane oxygenation and histological clot investigations for understanding thrombosis in membrane lungs, Front. Med. 11 (2024) 1416319.[28] S. Karimi, M. Dabagh, P. Vasava, M. Dadvar, B. Dabir, P. Jalali, Effect of rheological models on the hemodynamics within human aorta: CFD study on CT image-based geometry, J. Non-Newtonian Fluid Mech. 207 (2014) 42–52.[29] K.F. Bachmann, M. Haenggi, S.M. Jakob, J. Takala, L. Gattinoni, D. Berger, Gas exchange calculation May estimate changes in pulmonary blood flow during venoarterial extracorporeal membrane oxygenation in a porcine model, Am. J. Physiol. Lung Cell. Mol. Physiol. 318 (6) (2020) L1211–L1221.[30] D.C. Berger, L. Zwicker, K. Nettelbeck, D. Casoni, P.P. Heinisch, H. Jenni, M. Haenggi, L. Gattinoni, K.F. Bachmann, Integral assessment of gas exchange during veno-arterial ECMO: accuracy and precision of a modified fick principle in a porcine model, Am. J. Physiol. Lung Cell. Mol. Physiol. 324 (2) (2023) L102–L113.[31] X.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "CMO: accuracy and precision of a modified fick principle in a porcine model, Am. J. Physiol. Lung Cell. Mol. Physiol. 324 (2) (2023) L102–L113.[31] X. Li, X. Yu, A. Cheypesh, J. Li, Non-invasive measurements of energy expenditure and respiratory quotient by respiratory mass spectrometry in children on extracorporeal membrane Oxygenation-A pilot study, Artif. Organs 39 (9) (2015) 815–819.[32] R. Svitek, W. Federspiel, A mathematical model to predict CO2 removal in hollow fiber membrane oxygenators, Ann. Biomed. Eng. 36 (2008) 992–1003.[33] J. Loeppky, U. Luft, E. Fletcher, Quantitative description of whole blood CO2 dissociation curve and haldane effect, Respir. Physiol. 51 (2) (1983) 167–181.[34] L.B. Khadka, F.L. Mouzakis, A. Kashefi, J. Greven, K. Mottaghy, J.W. Spillner, Mathematical modeling of oxygen and carbon dioxide exchange in hollow fiber oxygenators, Membranes 14 (3) (2024) 68.[35] M. Taskin, K. Fraser, T. Zhang, C. Wu, B. Griffith, Z. Wu, Evaluation of Eulerian and Lagrangian models for hemolysis estimation, ASAIO J. 58 (4) (2012) 363–372.[36] K.H. Fraser, T. Zhang, M.E. Taskin, B.P. Griffith, Z.J. Wu, A quantitative comparison of mechanical blood damage parameters in rotary ventricular assist devices: shear stress, exposure time, and hemolysis index, J. Biomech. Eng. 134 (8) (2012).[37] M. Raffel, C.E. Willert, F. Scarano, C.J. K¨ahler, S.T. Wereley, J. Kompenhans, Particle Image Velocimetry: a Practical Guide, Springer, 2018.[38] R.L.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". Raffel, C.E. Willert, F. Scarano, C.J. K¨ahler, S.T. Wereley, J. Kompenhans, Particle Image Velocimetry: a Practical Guide, Springer, 2018.[38] R.L. Iman, Latin Hypercube Sampling, John Wiley & Sons, 2008.[39] P. Singh, H. Chaudhary, A modified jaya algorithm for mixed-variable optimization problems, J. Intell. Syst. 29 (1) (2019) 1007–1027.[40] Y. Zhang, A. Chi, S. Mirjalili, Enhanced jaya algorithm: a simple but efficient optimization method for constrained engineering design problems, Knowl. Base Syst. 233 (2021).[41] A. Saltelli, S. Tarantola, F. Campolongo, M. Ratto, Sensitivity Analysis in Practice: a Guide to Assessing Scientific Models, Wiley Online Library, 2004.[42] I.M. Sobol, Global sensitivity indices for nonlinear mathematical models and their monte carlo estimates, Math. Comput. Simulat. 55 (1–3) (2001) 271–280.[43] I. Azzini, T.A. Mara, R. Rosati, Comparison of two sets of monte carlo estimators of sobol’ indices, Environ. Model. Software 144 (2021) 105167.[44] A. Saltelli, M. Ratto, S. Tarantola, F. Campolongo, Update 1 of: sensitivity analysis for chemical models, Chem. Rev. 112 (5) (2012) PR1–PR21.[45] R.T. Marler, J.S. Arora, The weighted sum method for multi-objective optimization: new insights, Struct. Multidiscip. Optim. 41 (2010) 853–862.[46] I.Y. Kim, O.L. de Weck, Adaptive weighted sum method for multiobjective optimization: a new method for pareto front generation, Struct. Multidiscip. Optim. 31 (2) (2006) 105–116.[47] A.H. Abdelhamid, R.H.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "or multiobjective optimization: a new method for pareto front generation, Struct. Multidiscip. Optim. 31 (2) (2006) 105–116.[47] A.H. Abdelhamid, R.H. Mohamed, M.M. Rashwan, A.R.A. Farag, Generating pareto optimal solutions for multi-objective optimization problems using goal programming, Contemp. Math. (2024) 3082–3097.[48] M. Tamiz, D. Jones, Goal programming and pareto efficiency, J. Inf. Optim. Sci. 17 (2) (1996) 291–307.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S.H. Monsefi Estakhrposhti et al. Journal of Membrane Science 731 (2025) 124228\n\n[49] S.P. Madhani, B.D. D’Aloiso, B. Frankowski, W.J. Federspiel, Darcy permeability of hollow fiber membrane bundles made from membrana polymethylpentene fibers used in respiratory assist devices, ASAIO J. 62 (3) (2016) 329–331.[50] J.M. Focke, P.-L. Bonke, N. Gendron, T. Call, U. Steinseifer, J. Arens, M. Neidlin, The influence of membrane fiber arrangement on gas exchange in blood oxygenators: a combined numerical and experimental analysis, J. Membr. Sci. 710 (2024) 123147.[51] H.J. Yeo, D.H. Kim, D. Jeon, Y.S. Kim, W.H. Cho, Low-dose heparin during extracorporeal membrane oxygenation treatment in adults, Intensive Care Med. 41 (2015) 2020–2021.\n\nS.H. Monsefi Estakhrposhti et al. Journal of Membrane Science 731 (2025) 124228",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005411-main",
+      "title": "Optimizing hollow fiber membrane oxygenators: A multi-objective approach for improved gas exchange and reduced blood damage",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13,
+        14
+      ]
+    },
+    "type": "chunk"
+  }
+]

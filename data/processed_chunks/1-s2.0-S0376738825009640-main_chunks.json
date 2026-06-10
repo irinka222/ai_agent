@@ -1,0 +1,619 @@
+[
+  {
+    "content": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes David Kitto a , Jos´e C. Díaz a,c, Nathan Bryant b, Carolina Espinoza a, Jacquelyn Zamora a, Jovan Kamcev a,b,* a Department of Chemical Engineering, University of Michigan, Ann Arbor, MI, 48105, USAb Macromolecular Science and Engineering, University of Michigan, Ann Arbor, MI, 48105, USAc Advanced Light Source, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720, USA\n\nA R T I C L E I N F O Keywords:Ion-exchange membraneIon transportCharge selectivityCounter-ion condensationCritical onset phenomena",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Ion-exchange membranes (IEMs) with ultrahigh charge densities offer the promise of enhanced ion transport for electrochemical technologies, yet the fundamental limits of this membrane design strategy are not yet under­stood. In this work, we present a systematic study of bis(1-vinyl-3-imidazolium) cross-linked polymer membranes with fixed charge contents ranging from 6 to 9 mol/L[dry polymer], synthesized to isolate the effects of charge density at constant membrane water content. While ionic conductivity increases monotonically with increasing charge density, a sharp decline in charge selectivity is observed for the most densely charged membranes, defying conventional expectations. Structural, thermal, and mechanical analyses reveal a critical onset of network disruption and anomalous ion partitioning behavior in these densely charged membranes. With proper consideration of cross-linker geometry, these results are interpreted using Manning’s counter-ion condensation theory, which suggests that closely packed charged cross-linkers amplify inter-chain electrostatic interactions and trigger excess counter-ion condensation. Our findings suggest that, beyond a threshold spacing between fixed charges, increased functionalization may harm rather than help charge selectivity of IEMs.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Charged polymer membranes are used in a variety of electrochemical water and energy technologies because they enable selective ion trans­port [1–3]. Cation-exchange membranes (CEMs) and anion-exchange membranes (AEMs) achieve this selectivity by favoring the transport of ions with opposite charge (i.e., counter-ions) over those with similar charge (i.e., co-ions), a consequence of fixed ionic species tethered to the polymer backbone and the mobile counter-ions that maintain electro­neutrality. This ability to selectively regulate ion transport has made ion-exchange membranes (IEMs) essential in applications such as water treatment [4], resource recovery [5], energy generation [6], energy storage [7], and electrolytic chemical production [8]. Because IEM performance depends on the density of fixed charge groups, the degree of membrane functionalization is a critical design parameter. There is substantial interest in increasing the ion-exchange capacity (IEC) of IEMs, i.e., the number of ionizable species attached to the polymer, as highlighted in both the broader literature [2,9–19] and recent work from our group [20,21]. It is well established that higher membrane charge content enhances ion transport rates and improves membrane ionic conductivity.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "m our group [20,21]. It is well established that higher membrane charge content enhances ion transport rates and improves membrane ionic conductivity. Although it is common to experimentally observe a decline in charge selectivity (i.e., counter-ion over co-ion) at elevated charge content [22–25], these observations are often confounded by variations in membrane swelling. Adding hydrophilic charge groups to membranes, especially those derived from linear polymers, leads to an increase in water content that eventually over­powers the initial increase in charge content. Controlled studies have instead shown that charge selectivity improves with increasing charge content, provided all other membrane properties are held constant [21,26]. Theoretical considerations, including predictions from Manning’s counter-ion condensation theory, suggest there may be diminishing returns to ever-increasing charge contents [20,26]. However, the ben­efits are expected to outweigh the drawbacks [21]. Consequently, for membranes with equivalent water content, those with greater charge",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This article is part of a special issue entitled: Early Career Membrane Scientists published in Journal of Membrane Science. * Corresponding author. Department of Chemical Engineering, University of Michigan, Ann Arbor, MI, 48105, USA.E-mail address: jkamcev@umich.edu (J. Kamcev).\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 736 (2025) 124651",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 4 September 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). content are expected to exhibit both higher ionic conductivity and higher charge selectivity. This expectation motivated our recent development of ultrahigh charge density (UHCD) IEMs, which demonstrated unprecedented combinations of fast and selective ion transport [27]. The membranes exhibited charge densities approaching 8 mol/L[dry polymer], compared to the observed upper limit of 6 mol/L[dry polymer] for previously reported membranes [20] and hypothesized ceiling of 10 mol/L[dry polymer] for the future development of membranes [21]. However, the effects of systematically increasing charge density within the UHCD regime was not investigated, as the membranes had similar charge contents but varied water content. As such, the direct impact of charge contents exceeding 6 mol/L[dry polymer] remains unexplored, and to our knowledge, no IEMs with charge densities above 8 mol/L[dry polymer] have been previously reported. Motivated by the potential for enhanced transport properties at higher membrane charge contents, we prepared a series of UHCD AEMs with charge contents ranging from 6 to 9 mol/L[dry polymer]. This was achieved by synthesizing a library of imidazolium-based homopolymer cross-linked membranes with varying alkyl chain lengths between crosslinking units.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "chieved by synthesizing a library of imidazolium-based homopolymer cross-linked membranes with varying alkyl chain lengths between crosslinking units. This molecular design ensured that the chemical structures were virtually identical except for the charge density, while controlled polymerization conditions allowed the water content to remain effec­tively constant across the series. Our investigation revealed a critical onset of performance and material property degradation in the most densely charged membranes. We rationalize these results using estab­lished thermodynamic models of electrostatic repulsion in charged polymers in combination with geometric considerations of polymer ar­chitecture. Together, these findings suggest the existence of a soft upper limit to membrane charge content, beyond which additional function­alization yields diminishing returns for charge selectivity. 2. Experimental The synthesis protocols for the cross-linkable imidazolium mono­ mers and details of their polymerization into free-standing polymer membranes are provided in the Supplementary Information (SI). Addi­tionally, the SI outlines procedures for characterizing equilibrium charge and water contents, ion transport properties, and thermal behavior of the polymers. These procedures are all identical or closely analogous to those used in our prior study of UHCD imidazolium IEMs [27]. Readers are referred to that work for the reference data used to contextualize the results presented here.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "prior study of UHCD imidazolium IEMs [27]. Readers are referred to that work for the reference data used to contextualize the results presented here. Throughout this study, both the monomers and the resulting membranes are designated as CnVI2, where n denotes the number of carbon atoms connecting the two vinyl imi­dazolium groups in the monomer. The materials studied span n = 2 -7, each synthesized from the corresponding α,ω-dibromoalkane (Table S1). Associated FTIR and 1H NMR spectra are provided in Fig. S1–7. 3. Results and discussion 3.1. Synthesis and equilibrium properties of CnVI2 membranes In our initial investigation of ultrahigh charge density (UHCD) IEMs, we co-polymerized the C4VI2 cross-linker with its monofunctional analog, C2VI, to create a series of membranes with varying cross-link densities. These membranes exhibited similar maximum charge den­sities (mol/L[dry polymer]) but differed in water content. In the present study, we examine the influence of cross-linker chain length on the transport properties of homopolymer membranes made from similar chemical structures (Fig. 1a). Importantly, reducing the carbon chain length below n = 4 is expected to yield membranes with even higher charge contents than those previously reported, providing insight into ion transport behavior as the membranes approach their theoretical charge density limit.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ntents than those previously reported, providing insight into ion transport behavior as the membranes approach their theoretical charge density limit. To facilitate interpretation of the transport results, we designed the membrane series to maintain comparable water content across all compositions. To maximize the charge density of the water-equilibrated mem­branes (mol/L[hydrated membrane]), which yields UHCD membranes with high selectivity, we polymerized each monomer in a saturated",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. a) Synthetic scheme for preparing CnVI2 monomers. b) Water mass fraction of the saturated pre-polymer solution used for each CnVI2 monomer. c) Dif­ferential scanning calorimetry thermograms of the CnVI2 monomers. Even-numbered monomers exhibit complex thermal behavior with multiple endothermic transitions, while odd-numbered monomers exhibit a single endothermic peak at ~175 ◦C, attributed to auto-polymerization. D. Kitto et al. Journal of Membrane Science 736 (2025) 124651 aqueous solution to form fully cross-linked homopolymer membranes. The composition of the pre-polymer solution dramatically affects the final membrane properties, as water present during the network for­mation acts to pre-swell the membranes [28], thereby influencing equilibrium membrane swelling and charge density. Thus, membranes made from pre-polymer solutions saturated with the cross-linker are expected to exhibit minimal swelling and, hence, the highest fixed charge density in the swollen state. Despite their structural similarity, these monomers yielded saturated solutions with vastly differing water mass fractions (Fig. 1b). Notably, the odd numbered cross-linkers (n = 3, 5, 7) demonstrated similar solubility in water, while the shorter even numbered cross-linkers (n = 2 and 4) exhibited substantially reduced solubility.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", 7) demonstrated similar solubility in water, while the shorter even numbered cross-linkers (n = 2 and 4) exhibited substantially reduced solubility. Differential scanning calorimetry (DSC) analysis of the monomers revealed that the even-numbered cross-linkers exhibit distinct phase transitions upon heating prior to auto-polymerization, while the oddnumbered cross-linkers did not undergo similar phase transitions (Fig. 1c). Coupled with the solubility results, these thermograms suggest that the even-numbered cross-linkers contain ordered structures that are difficult to break apart and dissolve. These findings are consistent with well-established even/odd effects observed in functionalized n-alkyl chain fatty acids [29,30], where even-numbered carbon chains exhibit markedly stronger crystalline ordering than their odd-numbered ana­logues. Similar trends have been observed in α,ω-difunctionalized al­kanes [31], where chains that terminate in neutral or ionizable end groups (R = –H, –SH, –OH, –NH2, –CO2H) exhibit higher melting points when the carbon chain length is even-numbered. By analogy, the bis (vinyl imidazolium) monomers likely exhibit comparable enhanced (even chain lengths) or frustrated (odd chain lengths) packing effects, which markedly affect their solubility in water.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "y exhibit comparable enhanced (even chain lengths) or frustrated (odd chain lengths) packing effects, which markedly affect their solubility in water. Although we found the solubility of odd-numbered CnVI2 monomers in water to be relatively insensitive to temperature, the solubility of shorter even-numbered CnVI2 monomers increased upon heating beyond a threshold temperature, likely due to disruption of the observed crys­talline ordering. Accordingly, C4VI2 pre-polymer solutions were pre­pared at 45 ◦C, and C2VI2 solutions at 97 ◦C (Table S2). Polymerization of each pre-polymer solution at these elevated concentrations yielded CnVI2 membranes (Fig. 2b) with comparable water contents (Table S3",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Ion transport properties of CnVI2 membranes The ion transport properties of IEMs are strongly influenced by their structure. To investigate the performance of these membranes, we measured the counter-ion conductivity and counter-ion/co-ion selec­tivity of each material for comparison with the equilibrium charge and water contents. Charge and water contents of IEMs are typically coupled, i.e., membranes with higher charge content generally sorb more water, making it difficult to independently assess the influence of each. However, as demonstrated in the previous section, the CnVI2 membranes have similar water contents but markedly different charge contents, enabling a systematic study into the effect of charge content alone. Based on conventional understanding, the membranes with higher charge content are expected to exhibit higher ionic conductivity and greater charge selectivity compared to those having lesser charge content [21]. These ion transport properties can be analyzed on trade-off plots (Fig. 3a and b), which simultaneously compare the normalized counter-ion conductivity (κg) and normalized counter-ion/co-ion\n\n) K at a given external salt concen­ tration (Css) and membrane fixed charge group concentration (Cm,wA , (mol/L[sorbed water])) as follows [21]: ( αg/c ) K = Cm,wgCm,wc = 1 +2̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅1 + Γ(2Css /Cm,wA )2√-1≈1Γ",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4,
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(Cm,wACss )2 (1) where the final approximation holds in the limit Cm,wA≫Css. In this expression, Γ is the ratio between the mean salt activity coefficient in the external solution and in the membrane (Γ =(γs±/γm± )2). In the Ideal Donnan model, Γ is set to unity, simplifying the expression. Although this assumption generally leads to an over-prediction of membrane selectivity [35], it provides a consistent reference point for comparing different materials and captures the essential physical mechanism gov­erning the partitioning selectivity between counter-ions and co-ions. While the partitioning selectivities of the previously reported C4VI2 membranes fall just below the Ideal Donnan predictions, similar to most commercial IEMs, the CnVI2 series deviates from this expected trend. Membranes synthesized from monomers with longer alkyl chains exhibit partition selectivities that exceed predictions from the Ideal Donnan model, whereas those with shorter chains exhibit selectivities that fall below the predicted values. This divergence occurs despite the structural similarity of the membranes, their comparable water contents, and their relatively narrow range of Cm,wA values. An alternative interpretation of these results involves considering the apparent mean salt activity co­efficients within the membranes, γm±, which can be calculated from Equation (1) using the mean salt activity coefficient of 1 m NaCl calculated via the Pitzer model [36,37], γs± = 0.6499.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "which can be calculated from Equation (1) using the mean salt activity coefficient of 1 m NaCl calculated via the Pitzer model [36,37], γs± = 0.6499. The correspond­ing γm± values are plotted in Fig. 3d as a function of cross-linker chain length. This perspective reveals a clear onset behavior: for chain lengths n > 5, γm± remains relatively constant, whereas for chain lengths n < 5, γm± decreases sharply. These results suggest a critical transition in membrane behavior at shorter chain lengths that strongly impacts ion partitioning in the most densely charged membranes, and thereby alters their overall selectivity.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Critical onset phenomena in CnVI2 polymer networks Although critical onset phenomena are well documented in charged polymer systems [38,39], they are generally attributed to increasing ionization of the polymer backbone. In contrast, each CnVI2 membrane already contains a charged imidazolium group in every repeat unit, making the emergence of such a threshold behavior unexpected. To rigorously assess the presence of critical onset phenomena, we investi­gated additional material properties that could be influenced by cross-linker length and the resulting charge density, including polymer network formation, chain dynamics, and backbone topology. Building on our prior characterization of the C4VI2 membranes [27], we employed a suite of standard polymer characterization techniques, including thermogravimetric analysis (TGA), dynamic mechanical analysis (DMA), and wide-angle x-ray scattering (WAXS) to understand the structure of the polymer networks comprising these CnVI2 IEMs. The storage modulus of each membrane, measured via DMA on hy­drated films, is particularly informative because elastic network theory provides a framework for interpreting the elongation behavior. As the cross-linking units decrease in size, the spatial density of cross-linking nodes is expected to increase, resulting in a stiffer polymer network [40–42]. Modest variations in swelling and polymerization concentra­tion also influence the mechanical properties of the hydrated films.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lymer network [40–42]. Modest variations in swelling and polymerization concentra­tion also influence the mechanical properties of the hydrated films. Therefore, to better reflect the underlying cross-linking density, the measured storage modulus (Eʹ) was converted into a swelling-reduced storage modulus (Eʹ SR), which accounts for these differences in mem­brane swelling [28,43]. Deviations from a monotonic relationship be­tween Eʹ SR and the theoretical cross-linking density can indicate the presence of network defects, such as dead-ends and ineffective loops that do not contribute toward network elasticity [44]. As shown in Fig. 4a, Eʹ SR increases with the theoretical cross-linking density for n > 4. How­ever, for n ≤4, Eʹ SR reaches a plateau, despite continued increases in theoretical cross-linking density. This trend suggests that for large n, cross-linking efficiency remains relatively constant, whereas for small n, the elastic effectiveness of cross-links diminishes as they become more densely packed. The thermal stability of the polymer networks also exhibits an un­expected dependence on cross-linker length, as shown in Fig. 4b. All membranes show a pronounced mass loss at ~280 ◦C, consistent with the onset of chloride-mediated imidazolium degradation [45].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s shown in Fig. 4b. All membranes show a pronounced mass loss at ~280 ◦C, consistent with the onset of chloride-mediated imidazolium degradation [45]. In membranes with n = 6 and 7, this degradation results in the apparent vaporization of the imidazolium, chloride, and intervening alkyl seg­ments, leaving a residual mass corresponding to the poly(ethylene) backbone. For all membranes, the residual mass begins to decline beyond 400 ◦C, as expected for poly(ethylene) decomposition [46]. However, for membranes with shorter cross-linkers, the initial imida­zolium degradation does not produce a well-defined plateau in the ex­pected poly(ethylene) mass range (Fig. 4b). For example, in the n = 2 membrane, the expected mass of the poly(ethylene) backbone accounts for only 56 % of the measured mass at 400 ◦C. In contrast, this value exceeds 70 % for n = 3, 4, 5 and 80 % for n = 6, 7. Although the degradation products and mechanisms were not directly analyzed, these observations suggest that imidazolium decomposition is suppressed in",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "D. Kitto et al. Journal of Membrane Science 736 (2025) 124651 membranes with densely cross-linked, short-chain architectures. X-ray scattering measurements also revealed systematic differences across the membrane series (Fig. 4c). In our prior work on C4VI2 membranes, we identified a scattering feature near q ≈0.6 ˚A -1, corre­sponding to the distance between fully extended cross-links [27,47,48]. This interpretation remains qualitatively valid for the CnVI2 series, where the observed length scale generally correlates with the length of the fully extended cross-linker (Fig. S15). However, this feature is absent in membranes with n = 2 and 3. In hydrated membranes, network swelling shifts the scattering signal slightly toward lower q for mem­branes with large n, consistent with an expanded network. Notably, for membranes with n = 3, the observed signal appears at a higher q than expected, indicating a shorter characteristic spacing. For membranes with n = 2, no discernible peak was observed for the hydrated mem­brane. These variations in both the hydrated and dried membranes suggest that the highly cross-linked membranes formed with short cross-links fail to adopt the spatial organization seen in membranes with longer, more flexible linkers. Taken together, the comparisons of thermal stability, network stiff­ness, and network topology reveal that the CnVI2 membranes differ in more than just cross-linking and charge density.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "thermal stability, network stiff­ness, and network topology reveal that the CnVI2 membranes differ in more than just cross-linking and charge density. Instead, the data indi­cate a transition in network architecture that becomes increasingly pronounced with decreasing cross-linker length. Membranes with long alkyl chains behave in accordance with conventional structure-property relationships. However, as the cross-linker chain length decreases to­ward n = 2, deviations from expected behavior emerge. These polymerfocused characterizations both support and contextualize the ion parti­tioning data, which similarly show that membranes with large n follow a distinct trend from those with small n. Although some of these obser­vations might also be affected directly by the length of the cross-links, the ion activity and extensive precedence for electrostatically driven critical onset phenomena point towards an electrostatic origin for these data. With this foundation established, the ion transport properties of the CnVI2 membranes will now be examined through the lens of critical onset phenomena in charged polymer systems. 3.4. Inter-chain electrostatic repulsion intensifies counter-ion condensation A leading theoretical framework for relating thermodynamic ion partitioning behavior in IEMs to polymer structural features is Man­ning’s counter-ion condensation theory [35,49,50].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "for relating thermodynamic ion partitioning behavior in IEMs to polymer structural features is Man­ning’s counter-ion condensation theory [35,49,50]. The core principle of this theory is that counter-ions condense onto the polymer backbone when fixed charge groups are sufficiently closely spaced to collectively bind an ion, thereby reducing electrostatic repulsion. Counter-ion condensation helps to explain numerous critical onset phenomena observed in charged polymer systems [39]. Notably, condensed counter-ions exhibit distinct thermodynamic behavior but remain",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. a) Measured storage modulus (Eʹ) of hydrated CnVI2 membranes and corresponding swelling-reduced storage modulus (Eʹ SR). Dashed lines are included to guide the eye. Error bars of Eʹ represent the standard deviation of measurements on at least three independent samples, while error bars of Eʹ SR represent the propagated standard deviation of raw data collected on at least three samples. b) Thermogravimetric analysis of the CnVI2 membranes, with mass normalized to 100 % after annealing at 100 ◦C to remove residual water in the membrane. c) Wide-angle x-ray scattering profiles of hydrated (solid lines) and dried (dashed lines) CnVI2 membranes. Scattering intensities are normalized to the amplitude of the amorphous halo at high q. Identified peaks are marked for each condition. D. Kitto et al. Journal of Membrane Science 736 (2025) 124651 mobile, capable of diffusing along the polymer backbone [35,51–53]. In the present case, critical onset phenomena are observed for ion activity coefficients but not for ion diffusion coefficients. Such behavior cannot be explained by theories related to contact ion pairing or other mech­anisms that immobilize counter-ions because such phenomena would affect both the partitioning and diffusion behavior of the IEMs. Thus, Manning’s counter-ion condensation theory offers a valuable framework for interpreting the observed trend in γm± (Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ion behavior of the IEMs. Thus, Manning’s counter-ion condensation theory offers a valuable framework for interpreting the observed trend in γm± (Fig. 3d).Although Manning’s counter-ion condensation theory provides detailed quantitative expressions that, when combined with Equation (1), form the predictive Donnan-Manning model for ion partitioning in IEMs [35], we refrain from applying these equations to make quantita­tive predictions in these IEMs. This framework predicts selectivities strictly lower than the Ideal Donnan model, making it incompatible with the CnVI2 data set in which the opposite behavior occurs (Fig. 3c). Even in our earlier investigation on C4VI2 membranes [27], which also feature fixed charge groups in every repeat unit, we found that additional fac­tors beyond counter-ion condensation would be required to fully explain the ion partitioning behavior of these UHCD IEMs. Due to the water-starved environment of these membranes (Fig. S9), one likely contributor is dielectric exclusion. This effect can be incorporated through the Donnan-Manning-Born framework, provided that experi­mental results from small-angle neutron scattering (SANS) and dielectric relaxation spectroscopy are available [54,55]. SANS results are used to determine the effective Born radius, while dielectric spectroscopy measures the dielectric constant of the membrane.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[54,55]. SANS results are used to determine the effective Born radius, while dielectric spectroscopy measures the dielectric constant of the membrane. In the absence of these data, this modeling approach necessitates several adjustable pa­rameters, which may obscure the underlying physical mechanisms. Accordingly, our present analysis focuses on elucidating critical onset behavior in the ion activity coefficients of CnVI2 membranes through comparative trends rather than quantitative modeling. To account for a decrease in the ion activity coefficient within an IEM (γm±), Manning’s counter-ion condensation theory requires an increase in the reduced linear charge density of the polymer, ξ. This dimensionless parameter represents the spacing between fixed charge groups along the polymer backbone and is directly proportional to the extent of counterion condensation. As the electrostatic influence of multiple fixed charges overlap to greater extents, counter-ion condensation stabilizes the sys­tem (Fig. 5a). In conventional IEMs composed of co-polymers with a mixture of charged and uncharged monomer units, ξ is typically calcu­lated from the membrane water content and the fraction of charged repeat units along the polymer backbone [35]. However, this standard approach is inadequate for the CnVI2 membranes, in which all repeat units are charged, and water contents are similar across the series.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "this standard approach is inadequate for the CnVI2 membranes, in which all repeat units are charged, and water contents are similar across the series. Under the conventional formulation, ξ would be identical for all CnVI2 mem­branes, failing to capture the experimentally observed differences in γm±.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Instead, we adopt a more conceptual interpretation of ξ that in­corporates geometric considerations of the cross-linker. Prior work by Ji et al. [56] demonstrated that incorporating cross-linker length into the Donnan-Manning model significantly improved predictions of NaCl partitioning in poly(ethylene glycol diacrylate)-based IEMs. In that case, the longer cross-links introduced additional spacing between charged sites, influencing ξ and, in turn, ion condensation behavior (Fig. 5b). This effect is not captured by conventional calculations of ξ. Drawing a parallel to Ji et al., we interpret ξ by considering cross-linker geometry, allowing for a more accurate conceptual framework to rationalize ion partitioning in the CnVI2 membranes. Manning’s counter-ion condensation theory has been primarily validated for IEMs with terminal side-chain fixed charge groups. In contrast, charged cross-linking architectures such as those present in the CnVI2 membranes could intensify inter-chain electrostatic interactions, which are effects not accounted for in the traditional framework (Fig. 5c). These interactions are likely to become especially significant when the cross-linking chains are short, as the proximity of charged groups on adjacent chains increases. Therefore, deviations from Man­ning’s predictions could arise in systems with charged cross-linkers, offering a potential explanation for the ion partitioning trends observed in the CnVI2 membranes. The WAXS data (Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tems with charged cross-linkers, offering a potential explanation for the ion partitioning trends observed in the CnVI2 membranes. The WAXS data (Fig. 4c) suggest that the alkyl chains connecting the imidazolium units in the cross-linkers are fully extended. Based on this, we approximate the inter-chain fixed charge group spacing as 1.25(n) ˚A, using 2.5 Å as the projected length of two methylene units in an alkyl chain [41,49]. This inter-chain distance can then be compared to the intra-chain spacing of fixed charge groups to assess when inter-chain electrostatic effects become important. To estimate the intra-chain distance between imidazolium fixed charge groups, we considered the influence of polymer tacticity. While tacticity is often a minor factor in calculating ξ for conventional sidechain IEMs—where fixed charge groups retain some mobility post-pol­ymerization—it plays a more critical role in ionene-type structures such as these bis(1-vinyl-3-imidazolium) membranes. In these systems, the fixed charges are integrated directly into the polymer network, rendering them immobile relative to the chain. Further, since the imi­dazolium units are positioned immediately adjacent to the polymer­izable site, the spatial separation of fixed charges is tightly coupled to the polymer stereochemistry (Fig. 6a). Due to steric hindrance and electrostatic repulsion between like charges, syndiotactic polymeriza­tion is likely favored in these IEMs.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "try (Fig. 6a). Due to steric hindrance and electrostatic repulsion between like charges, syndiotactic polymeriza­tion is likely favored in these IEMs. Using a projection length of 2.5 Å for two methylene units [41,49], the nearest in-plane intra-chain neighbors (two repeat units away in a syndiotactic sequence) are located approx­imately 5 Å away. To approximate the out-of-plane separation, we considered the bond geometry: syndiotactic imidazolium units alternate",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. Schematic illustrations of the inter-chain spacing regimes considered by Manning’s counter-ion condensation theory. a) Isolated polyelectrolytes in dilute solutions experience local charge density fluctuations as the polymer chain bends. Such systems were studied by Manning [39,57,58]. b) Traditional co-polymer IEMs consisting of side-chain fixed charges and long, neutral cross-linking structures bring polymer chains nearer to one another. Such systems were studied in more recent IEM investigations [49,56]. c) Ionene membranes consisting of short-chain charged cross-linkers could induce inter-chain effects comparable to intra-chain elec­trostatic forces. Such IEM systems have not yet been studied using Manning’s theory [35]. D. Kitto et al. Journal of Membrane Science 736 (2025) 124651 in and out of the plane of the backbone due to the tetrahedral configu­ration of carbon atoms. A first approximation of this spatial relationship is given by: d = ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ (2.5 ˚A)2 +(2l sin(109.52 ))2√\n\n(2)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In Equation (2), the first term represents the in-plane backbone spacing (one repeat unit away), while the second term accounts for the out-ofplane projection of the imidazolium rings. Here, l is the distance from the polymer backbone to the center of the imidazolium ring, and 109.5◦ is the standard tetrahedral bond angle. An interesting case to consider is when the in-plane and out-of-plane distances are equal, which occurs at l= 2.65 ˚A. Since this value slightly exceeds the projection length of the imidazolium ring’s C–N–C bonding structure, it serves as a reasonable approximation. For simplicity, we adopt l = 2.65 ˚A and assume that each imidazolium is equidistant from its four nearest intra-chain neighbors, as illustrated in Fig. 6a. With geometrically informed estimates for both the interand intrachain fixed charge group spacings, we can now assess the expected trend in counter-ion condensation across the CnVI2 series (Fig. 6b). As the cross-linker length decreases, the spatial proximity between imidazo­lium groups on adjacent chains increases. When the cross-linking chain becomes sufficiently short, and the imidazolium groups within the small molecule cross-linker fall within 5 Å of each other, the cation from the adjacent chain effectively enters the first layer of imidazolium cations adjacent to each fixed charge.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "within 5 Å of each other, the cation from the adjacent chain effectively enters the first layer of imidazolium cations adjacent to each fixed charge. Particularly, when the cross-linker length is appreciably less than 5 Å, other nearby imidazolium groups on other polymer chains may intrude into the first, second, or third layer of nearest-neighbor fixed charge groups. This cascading increase in dimensionality of the electrostatic environment enhances the overlap of fixed charge group electrostatic forces in a non-linear fashion. The result is an increase in counter-ion condensation and a corresponding drop in γm±. Conversely, in membranes with long-chain cross-linkers, the interchain electrostatic interactions are comparatively small, and intrachain nearest neighbor interactions dominate. Under these conditions, the degree of condensation is relatively insensitive to changes in crosslinker length, because in each CnVI2 membrane, the intra-chain spacing is constant with every repeat unit containing an imidazolium. Thus, these results are consistent with the modest variation in γm±observed for large n. Although this analysis does not provide quantitative predictions of the absolute values of γm±, it successfully captures the critical chain length at which γm± begins to decrease (Fig. 6c).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "quantitative predictions of the absolute values of γm±, it successfully captures the critical chain length at which γm± begins to decrease (Fig. 6c). Notably, this simple geometric framework helps to rationalize the nearly twofold decrease in apparent ion activity coefficients observed between membranes that are otherwise structurally similar. These results strongly support the hy­pothesis that inter-chain electrostatic repulsion plays a central role in driving the critical onset phenomena exhibited by the CnVI2 membranes. While a comprehensive theoretical treatment of electrostatic effects on polymer dynamics is beyond the scope of this work, such a framework would be valuable in linking inter-chain interactions to the additional critical onset phenomena observed in Fig. 4. However, further charac­terization, such as dielectric relaxation spectroscopy and small-angle neutron scattering, would be needed to enable application of the Donnan-Manning-Born model [55] and more definitively resolve the",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. a) Schematic illustration of a syndiotactic vinyl imidazolium polymer backbone with calculated fixed charge group spacing relative to a reference imida­zolium (marked with an asterisk). For clarity, cross-links connected to the imidazolium groups have been omitted. b) Calculated distances between imidazolium fixed charge groups in CnVI2 membranes, comparing inter-chain and intra-chain nearest neighbors. c) Apparent mean ion activity coefficient in the CnVI2 membranes equilibrated with 1 m NaCl, plotted against the calculated inter-chain distance charge group spacing. Dashed lines are included to guide the eye. Error bars represent the propagated standard deviations of raw data collected on at least five independent samples. D. Kitto et al. Journal of Membrane Science 736 (2025) 124651 role of dielectric exclusion in these systems. Nonetheless, even at this stage, the proposed mechanism provides a compelling explanation for the pronounced partitioning behavior, and the insights gained here offer a guiding framework for the rational design of new IEMs with ultrahigh charge densities. 4. Conclusions In a recent study, we introduced ultrahigh charge density mem­branes, synthesized via copolymerization of a doubly charged crosslinker with a monofunctional analogue. The cross-linker featured bis (1-vinyl-3-imidazolium) structures connected by a four-carbon alkyl spacer.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "crosslinker with a monofunctional analogue. The cross-linker featured bis (1-vinyl-3-imidazolium) structures connected by a four-carbon alkyl spacer. In the present work, we systematically varied the alkyl chain length from 2 to 7 carbons to assess whether membrane performance scales continuously with charge density. This well-controlled series, spanning charge contents of 6–9 mol/L[dry polymer] and exhibiting nearly constant water contents, provides a unique platform for isolating the effects of charge content in structurally similar materials. While the ionic conductivity increased with charge density, mem­branes with the shortest cross-linkers and highest charge content dis­played sharp declines in charge selectivity under salt-equilibrated conditions. Materials characterization revealed critical onset phenom­ena in these densely charged membranes that extended beyond ion selectivity, impacting mechanical properties, thermal stability, and network topology. This multifaceted transition was rationalized by extending Manning’s counter-ion condensation theory through a geo­metric argument, which underscores the growing significance of interchain electrostatic interactions as fixed charges are brought into closer proximity. This dimensional shift likely enhances counter-ion conden­sation and ultimately leads to reduced membrane selectivity.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "brought into closer proximity. This dimensional shift likely enhances counter-ion conden­sation and ultimately leads to reduced membrane selectivity. While this study advances our understanding of how polymer ar­chitecture influences charge selectivity in ultrahigh charge density membranes, predictive models for selectivity in these systems remain lacking. Future work may build on the geometric condensation frame­work developed here to more fully explain the mechanisms of co-ion exclusion, despite the counter-ion condensation effects that are inherent to such densely charged materials. Extending the quantitative and predictive models, such as the Donnan-Manning-Born model, to these new systems would significantly advance our understanding of charge selectivity in highly charged IEMs. However, in the absence of a clear strategy to mitigate the observed decline in selectivity, the onset of significant inter-chain electrostatic repulsion may represent a practical upper limit for polymer charge density with regards to charge selec­tivity. Although maximum charge concentrations (CmaxA) can exceed 8 mol/L[dry polymer], our findings suggest that IEMs with CmaxA near this value have already realized most of the achievable gains in charge selectivity from increasing charge density alone. CRediT authorship contribution statement David Kitto: Writing – original draft, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Jos´e C.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "contribution statement David Kitto: Writing – original draft, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Jos´e C. Díaz: Writing – review & editing, Investigation, Data curation. Nathan Bry­ant: Writing – review & editing, Investigation, Data curation. Carolina Espinoza: Writing – review & editing, Investigation, Data curation. Jacquelyn Zamora: Investigation, Data curation. Jovan Kamcev: Writing – review & editing, Validation, Supervision, Project adminis­tration, Formal analysis, Conceptualization. Conflicts of interest The University of Michigan has filed a patent application (PCT/ US23/79743) covering the materials introduced in this publication with authors D.K. and J.K. listed as co-inventors.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[11] Y.S. Kim, Polymer electrolytes with high ionic concentration for fuel cells and electrolyzers, ACS Appl. Polym. Mater. 3 (3) (2021) 1250–1270, https://doi.org/ 10.1021/acsapm.0c01405.[12] J.C. Bui, I. Digdaya, C. Xiang, A.T. Bell, A.Z. Weber, Understanding multi-ion transport mechanisms in bipolar membranes, ACS Appl. Mater. Interfaces 12 (47) (2020) 52509–52526, https://doi.org/10.1021/acsami.0c12686.[13] M. Treichel, J.C. Gaitor, C. Birch, J.L. Vinskus, K.J.T. Noonan, Anion-exchange membranes derived from main group and metal-based cations, Polymer 249 (2022) 124811, https://doi.org/10.1016/j.polymer.2022.124811.[14] S. Garg, C.A. Giron Rodriguez, T.E. Rufford, J.R. Varcoe, B. Seger, How membrane characteristics influence the performance of CO 2 and CO electrolysis, Energy Environ. Sci. 15 [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] (2022) 4440–4469, https://doi.org/10.1039/D2EE01818G.[15] D.A. Salvatore, C.M. Gabardo, A. Reyes, C.P. O’Brien, S. Holdcroft, P. Pintauro, B. Bahar, M. Hickner, C. Bae, D. Sinton, E.H. Sargent, C.P. Berlinguette, Designing anion exchange membranes for CO2 electrolysers, Nat. Energy 6 (4) (2021) 339–348, https://doi.org/10.1038/s41560-020-00761-x.[16] K.M. Meek, C.M. Antunes, D. Strasser, Z.R. Owczarczyk, A. Neyerlin, B.S. Pivovar, High-throughput anion exchange membrane characterization at NREL, ECS Trans.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "k, C.M. Antunes, D. Strasser, Z.R. Owczarczyk, A. Neyerlin, B.S. Pivovar, High-throughput anion exchange membrane characterization at NREL, ECS Trans. 92 (8) (2019) 723–731, https://doi.org/10.1149/09208.0723ecst.[17] A. Alabi, A. AlHajaj, L. Cseri, G. Szekely, P. Budd, L. Zou, Review of nanomaterialsassisted ion exchange membranes for electromembrane desalination, npj Clean Water 1 (1) (2018) 10, https://doi.org/10.1038/s41545-018-0009-7.[18] Y.-L. Kao, F. Buchauer, D. Serhiichuk, S.W. Boettcher, D. Aili, Bipolar membranes via divergent synthesis: on the interplay between ion exchange capacity and water dissociation catalysis, ACS Appl. Mater. Interfaces 16 (43) (2024) 58637–58647, https://doi.org/10.1021/acsami.4c12213.[19] G. Merle, M. Wessling, K. Nijmeijer, Anion exchange membranes for alkaline fuel cells: a review, J. Membr. Sci. 377 (1–2) (2011) 1–35, https://doi.org/10.1016/j. memsci.2011.04.043.[20] D. Kitto, J. Kamcev, The need for ion-exchange membranes with high charge densities, J. Membr. Sci. 677 (2023) 121608, https://doi.org/10.1016/j. memsci.2023.121608.[21] D. Kitto, J. Kamcev, Predicting the conductivity–selectivity trade-off and upper bound in ion-exchange membranes, ACS Energy Lett. 9 (4) (2024) 1346–1352, https://doi.org/10.1021/acsenergylett.4c00301.[22] K. Chang, H. Luo, S.M. Bannon, S.Y. Lin, W.A.S. Agata, G.M. Geise, Methoxy groups increase water and decrease salt permeability properties of sulfonated polysulfone desalination membranes, J. Membr. Sci.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", G.M. Geise, Methoxy groups increase water and decrease salt permeability properties of sulfonated polysulfone desalination membranes, J. Membr. Sci. 630 (December 2020) (2021) 119298, https://doi.org/10.1016/j.memsci.2021.119298.[23] M. Zhou, X. Chen, J. Pan, S. Yang, B. Han, L. Xue, J. Shen, C. Gao, B.V. Der Bruggen, A novel UV-Crosslinked sulphonated polysulfone cation exchange membrane with improved dimensional stability for electrodialysis, Desalination 415 (2017) 29–39, https://doi.org/10.1016/j.desal.2017.03.037.[24] S. Pal, R. Mondal, S. Guha, U. Chatterjee, S.K. Jewrajka, Homogeneous phase crosslinked Poly(Acrylonitrile-Co-2-Acrylamido-2-Methyl-1-Propanesulfonic acid) conetwork cation exchange membranes showing high electrochemical properties and electrodialysis performance, Polymer 180 (2019) 121680, https://doi.org/ 10.1016/j.polymer.2019.121680.[25] G.M. Geise, B.D. Freeman, D.R. Paul, Characterization of a sulfonated pentablock copolymer for desalination applications, Polymer 51 (24) (2010) 5815–5822, https://doi.org/10.1016/j.polymer.2010.09.072.[26] J. Kamcev, D.R. Paul, B.D. Freeman, Effect of fixed charge group concentration on equilibrium ion sorption in ion exchange membranes, J. Mater. Chem. A 5 (9) (2017) 4638–4650, https://doi.org/10.1039/C6TA07954G.[27] D. Kitto, C. Espinoza, J.C. Díaz, J. Zamora, J. Kamcev, Fast and selective ion transport in ultrahigh-charge-density membranes, Nat. Chem. Eng.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "G.[27] D. Kitto, C. Espinoza, J.C. Díaz, J. Zamora, J. Kamcev, Fast and selective ion transport in ultrahigh-charge-density membranes, Nat. Chem. Eng. 2 (2025) 252–260, https://doi.org/10.1038/s44286-025-00205-x.[28] J.C. Bray, E.W. Merrill, Poly(Vinyl alcohol) hydrogels. Formation by electron beam irradiation of aqueous solutions and subsequent crystallization, J. Appl. Polym. Sci. 17 [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] (1973) 3779–3794, https://doi.org/10.1002/app.1973.070171219.[29] A.W. Ralston, Fatty Acids and their Derivatives, John Wiley & Sons, Inc, New York, 1948.[30] A.D. Bond, On the crystal structures and melting point alternation of the N-Alkyl carboxylic acids, New J. Chem. 28 (1) (2004) 104–114, https://doi.org/10.1039/ B307208H.[31] V.R. Thalladi, M. Nüsse, R. Boese, The melting point alternation in α , ω -Alkanedicarboxylic acids, J. Am. Chem. Soc. 122 (38) (2000) 9227–9236, https:// doi.org/10.1021/ja0011459.[32] C. Espinoza, J. Díaz, D. Kitto, H. Kim, J. Kamcev, Bound water enhances the ion selectivity of highly charged polymer membranes, ACS Appl. Mater. Interfaces 16 (34) (2024) 45433–45446, https://doi.org/10.1021/acsami.4c07516.[33] C. Espinoza, D. Kitto, J. Kamcev, Ion transport properties of commercial ionexchange membranes contacted by highly concentrated salt solutions, ACS Appl.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Polym. Mater. 5 [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] (2023) 10324–10333, https://doi.org/10.1021/ acsapm.3c02102.[34] F. Helfferich, Ion Exchange, Dover Science Books, New York, 1995.[35] D. Kitto, J. Kamcev, Manning condensation in ion exchange membranes: a review on ion partitioning and diffusion models, J. Polym. Sci. 60 (21) (2022) 2929–2973, https://doi.org/10.1002/pol.20210810.[36] M.C. Simoes, K.J. Hughes, D.B. Ingham, L. Ma, M. Pourkashanian, Temperature dependence of the parameters in the pitzer equations, J. Chem. Eng. Data 62 (7) (2017) 2000–2013, https://doi.org/10.1021/acs.jced.7b00022.[37] K.S. Pitzer, A thermodynamic model for aqueous solutions of liquid-like density, in: Annual Meeting of the, Geological Society of America, 1987.[38] F. Oosawa, Polyelectrolytes, first ed., Marcel Dekker, Inc., New York, 1971.[39] G.S. Manning, The critical onset of counterion condensation: a survey of its experimental and theoretical basis, Ber. Bunsen Ges. Phys. Chem. 100 (6) (1996) 909–922.[40] P.J. Flory, Principles of Polymer Chemistry, first ed., George Banta Publishing Company, Ithaca, 1954.[41] P.C. Hiemenz, T.P. Lodge, Polymer Chemistry, second ed., CRC Press, Boca Raton, 2007 https://doi.org/10.1201/9781420018271.[42] L.R.G. Treolar, The Physics of Rubber Elasticity, third ed., 1975.[43] M.C. Boyce, E.M.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s, Boca Raton, 2007 https://doi.org/10.1201/9781420018271.[42] L.R.G. Treolar, The Physics of Rubber Elasticity, third ed., 1975.[43] M.C. Boyce, E.M. Arruda, Swelling and mechanical stretching of elastomeric materials, Math. Mech. Solid 6 (6) (2001) 641–659, https://doi.org/10.1177/ 108128650100600605.[44] M. Zhong, R. Wang, K. Kawamoto, B.D. Olsen, J.A. Johnson, Quantifying the impact of molecular defects on polymer network elasticity, Science 353 (6305) (2016) 1264–1268, https://doi.org/10.1126/science.aag0184.[45] E. Thomas, K.P. Vijayalakshmi, B.K. George, Kinetic stability of imidazolium cations and ionic liquids: a frontier molecular orbital approach, J. Mol. Liq. 276 (2019) 721–727, https://doi.org/10.1016/j.molliq.2018.12.034.[46] Z. Gao, I. Amasaki, M. Nakada, A thermogravimetric study on thermal degradation of polyethylene, J. Anal. Appl. Pyrolysis 67 (1) (2003) 1–9, https://doi.org/ 10.1016/S0165-2370(02)00010-4.[47] J. Fan, S. Willdorf-Cohen, E.M. Schibli, Z. Paula, W. Li, T.J.G. Skalski, A. T. Sergeenko, A. Hohenadel, B.J. Frisken, E. Magliocca, W.E. Mustain, C. E. Diesendruck, D.R. Dekel, S. Holdcroft, Poly(Bis-Arylimidazoliums) possessing high hydroxide ion exchange capacity and high alkaline stability, Nat. Commun. 10 (1) (2019) 2306, https://doi.org/10.1038/s41467-019-10292-z.[48] D. Salas-de la Cruz, M.D. Green, Y. Ye, Y.A. Elabd, T.E. Long, K.I. Winey, Correlating backbone-to-backbone distance to ionic conductivity in amorphous polymerized ionic liquids, J.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", Y. Ye, Y.A. Elabd, T.E. Long, K.I. Winey, Correlating backbone-to-backbone distance to ionic conductivity in amorphous polymerized ionic liquids, J. Polym. Sci. B Polym. Phys. 50 (5) (2012) 338–346, https://doi.org/10.1002/polb.23019.[49] J. Kamcev, D.R. Paul, B.D. Freeman, Ion activity coefficients in ion exchange polymers: applicability of manning’s counterion condensation theory, Macromolecules 48 (21) (2015) 8011–8024, https://doi.org/10.1021/acs. macromol.5b01654.[50] G.S. Manning, Limiting laws and counterion condensation in polyelectrolyte solutions I. Colligative properties, J. Chem. Phys. 51 (3) (1969) 924–933, https:// doi.org/10.1063/1.1672157.[51] J. Kamcev, D.R. Paul, G.S. Manning, B.D. Freeman, Ion diffusion coefficients in ion exchange membranes: significance of counterion condensation, Macromolecules 51 [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] (2018) 5519–5529, https://doi.org/10.1021/acs.macromol.8b00645.[52] G.S. Manning, A counterion condensation theory for the relaxation, rise, and frequency dependence of the parallel polarization of rodlike polyelectrolyteEur. Phys. J. E, The European Physical Journal E 34 (2011) 39, https://doi.org/ 10.1140/epje/i2011-11039-2.[53] G.S. Manning, On the apparent saturation of the dipole induced in a rodlike polyion at high electric fields, J. Phys. Chem.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "40/epje/i2011-11039-2.[53] G.S. Manning, On the apparent saturation of the dipole induced in a rodlike polyion at high electric fields, J. Phys. Chem. B 113 (2009) 2231–2233, https:// doi.org/10.1021/jp8108896.[54] V. Freger, Dielectric exclusion, an ´eminence grise, Adv. Colloid Interface Sci. 319 (2023) 102972, https://doi.org/10.1016/j.cis.2023.102972.[55] S.M. Bannon, G.M. Geise, Influence of donnan and dielectric exclusion on ion sorption in sulfonated polysulfones, J. Membr. Sci. (2024) 122396, https://doi. org/10.1016/j.memsci.2023.122396.[56] Y. Ji, H. Luo, G.M. Geise, Specific Co-Ion sorption and diffusion properties influence membrane permselectivity, J. Membr. Sci. 563 (2018) 492–504, https:// doi.org/10.1016/j.memsci.2018.06.010.[57] G.S. Manning, Counterion binding in polyelectrolyte theory, Acc. Chem. Res. 12 [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] (1979) 443–449, https://doi.org/10.1021/ar50144a004.[58] G.S. Manning, Excess counterion condensation on polyelectrolyte kinks and branch points and the interaction of skewed charged lines, Soft Matter 10 (21) (2014) 3738, https://doi.org/10.1039/c4sm00256c.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009640-main",
+      "title": "Electrostatic limits on charge selectivity in ultrahigh charge density polymer membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  }
+]

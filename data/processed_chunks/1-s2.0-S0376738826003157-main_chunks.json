@@ -1,0 +1,278 @@
+[
+  {
+    "content": "1. Introduction\n\nThe pore structure of membranes includes key structural properties such as pore size distribution, pore shape, and interconnectivity, which directly influence permeability, selectivity, fouling behavior, and transport dynamics [1]. In pressure-driven membrane applications such as ultrafiltration and microfiltration, membranes filter particles largely based on the ratio of particle size to pore size, making detailed knowledge of the spatial arrangement of pores essential for predictive design and accurate performance modeling [2,3]. Pore structure is also critical in other applications such as dialysis [4,5], gas diffusion layers for fuel cells and electrolyzers [6], and battery separators [7,8]. While average pore size gives a basic indication of particle retention sizes, accurate performance modeling and predictive membrane design require access to three-dimensional (3-D) structural information that reflects the true complexity of the internal pore network [9]. This is especially the case for isotropic membranes used in microfiltration, for which particle retention occurs throughout the 3-D volume, as opposed to the surface sieving that occurs in nanofiltration and ultrafiltration. For this reason, the nominal pore sizes of microfiltration membranes are rated based on particle retention experiments, rather than by direct visualization.\n\nA variety of experimental techniques such as capillary flow porometry, gas adsorption, and mercury intrusion porosimetry can estimate bulk pore size distribution, but they offer limited insight into the spatial arrangement or structural visualization of pores [10].",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "1. Introduction",
+      "pages": [1,2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Liquid–liquid displacement and cryoporometry offer improvements in detecting narrower pores, but they generally lack the resolution to reliably measure sub-10 nm pores and rely on idealized assumptions such as cylindrical geometry and uniform interfacial properties, which are rarely valid in real membrane structures [11]. High-resolution imaging techniques like scanning electron microscopy (SEM) and transmission electron microscopy (TEM) are widely used to visualize pore morphologies at the membrane top surface or cross-section. These methods provide direct, non-destructive visualization of pores and have been instrumental in analyzing membrane surface roughness, and pore size distributions [12]. However, SEM and TEM are inherently two-dimensional techniques; they reveal only surface features and provide no information about pore connectivity or 3-D architecture [13]. This limitation is particularly critical as transport properties are strongly influenced by internal morphology.\n\nTo address this, advanced 3-D imaging techniques such as focused ion beam-scanning electron microscopy (FIB-SEM) and X-ray computed tomography (micro-CT and nano-CT) have enabled detailed structural characterization of porous membranes [14].",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "1. Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "FIB-SEM achieves high-resolution 3-D reconstructions by sequentially milling thin slices of the membrane with a focused gallium ion beam and imaging each exposed surface with SEM. This approach offers voxel sizes down to ~10 nm and enables visualization of nanoscale pore morphology and connectivity. However, the technique is destructive, time-intensive, and limited to small sample volumes, typically just a few tens of microns in depth [15,16]. X-ray tomography, including micro-CT and nano-CT, offers non-destructive 3-D imaging and is suitable for capturing larger membrane volumes [17,18]. However, micro-CT generally has lower resolution (typically >= 0.3 micrometers for micro-CT) and cannot capture nano-scale pore details [17]. While synchrotron-based nano-CT can reach resolutions of ~30 nm, this resolution is still insufficient for many membranes. Furthermore, nano-CT availability is limited to select synchrotron or advanced microscopy centers, and polymeric membranes often require staining or contrast enhancement due to weak X-ray attenuation [19,20]. Consequently, these constraints—including high cost, operational complexity, and limited accessibility of both FIB-SEM and nano-CT—restrict their widespread use in routine membrane characterization.",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "1. Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In our previous work, we demonstrated a proof-of-concept algorithm capable of reconstructing a 3-D membrane structure from a single 2-D slice of a FIB-SEM 3-D dataset [21]. This method produced statistically equivalent structures to those obtained through 3-D FIB-SEM tomography, showing potential for enabling 3-D insights using conventional imaging. While promising, our analysis was conducted on a tomographic dataset for just the selective-layer region of an ultrafiltration membrane, as opposed to a complete membrane volume. Additionally, the previous algorithm was limited in its ability to generate pore shapes, providing statistically equivalent pore properties to the experimental 3-D dataset, but without qualitatively matching pore shapes. In other words, despite similar statistical pore characteristics, the 3-D structures generated using single 2-D slices \"looked different\" from the original tomographic structure, and often missed local shapes such as branches and sharp corners seen in the SEM input image.\n\nIn this study, we present an enhanced reconstruction algorithm capable of generating full-thickness 3-D structures of isotropic membranes from a single cross-sectional 2-D SEM image.",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "1. Introduction",
+      "pages": [2,3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Compared with our prior algorithm, these updates cover a wider variety of pore shapes while matching the pore-network statistics. The model integrates a simple multi-scale distance mapping with a statistical optimization framework to generate 3-D structures that closely match the input image visually and statistically, in terms of pore and throat size distributions, porosity, coordination number, and morphological features. We apply the method to synthetic datasets and a real cellulose nitrate membrane; for the latter, we validate our results by quantitatively comparing the generated structures with a tomographic structure obtained from X-ray micro-CT. Our approach provides a statistically rigorous and broadly accessible alternative to conventional 3-D imaging of isotropic membranes and other isotropic porous materials, enabling detailed pore structure analysis using easily obtained 2-D SEM images, which will prove particularly useful when other 3-D imaging methods are unavailable or resolution-limited. The present work focuses on isotropic membranes; future work is needed to extend the algorithm to anisotropic membranes with depth-dependent pore sizes and finger-like pores.\n\n2. Materials and methods\n\n2.1. Membranes\n\nFor validation of our methods, a cellulose nitrate microfiltration membrane (Sartorius 1134225 N, nominal pore size of 5 micrometers) was purchased from Fisher Scientific.",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "1. Introduction and 2.1",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This membrane was chosen for its isotropic pore structure and large pore size, which enabled visualization by micro-CT.\n\n2.2. SEM imaging\n\nThe membrane was soaked in liquid nitrogen for 2 min and then freeze-fractured using two tweezers inside the liquid nitrogen. This freeze-fracture technique allows for a clean cross-section with minimal artifacts and damage to the polymer walls of the membrane. The fractured slice was then gently transferred to a cross-sectional stub and sputter-coated at 90 degree coating angle with a 4 nm layer of platinum using a Leica ACE600. For scanning electron microscopy (SEM) imaging, an acceleration voltage of 0.8 kV was used, and the working distance was maintained below 4 mm to ensure high-quality images and minimize damage to the sample.\n\n2.3. X-ray computed tomography\n\nFor 3-D tomography, the membrane was scanned using a Zeiss Xradia 630 Versa at the Canadian Center for Electron Microscopy (CCEM). A small piece of membrane was sandwiched between transparent plastic sheets, and the entire assembly was then glued onto a pin and mounted in a pin-vise sample holder. Computed tomography (CT) imaging was conducted at 50 kV with 1821 projections and an exposure time of 14 s per projection, achieving a pixel size of 0.38 micrometers.",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "2.2 and 2.3",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.4. Membrane 3-D reconstruction algorithm\n\nWe developed a novel 3-D reconstruction algorithm in the MATLAB environment, utilizing the Computer Vision and Statistics and Machine Learning Toolboxes provided by MathWorks. To ensure robustness and accuracy, the reconstruction process was repeated eight times, generating eight distinct 3-D structures. To evaluate the model's reliability, we calculated the 95% confidence interval of key structural properties across these reconstructions. The margin of error was computed as 1.96 * sqrt(SD/N), where SD is the standard deviation, and N is the number of samples. A 95% confidence interval is a common standard in the literature for reporting the precision of repeated computational measurements [16,17].\n\n2.5. Statistical pore analysis\n\nFor pore analysis, we utilized the Pore Network Modeling toolbox available in the Dragonfly software developed by OpenPNM [22]. To begin, the 3-D structures underwent a conversion process to the .tiff format and were subsequently imported into the Dragonfly environment. The volumetric dataset was then binarized using Otsu's thresholding method to segment pore and solid phases across the full 3-D structure.",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "2.4 and 2.5",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Following segmentation, the Pore Network Modeling module was used to extract pore size distribution, throat size, coordination number, and tortuosity metrics. In this software, larger spheres represent the pore bodies, while narrow cylinders represent throats, with each throat connecting two pore bodies. In addition, the 3-D modeling module (dense graph) of Dragonfly was employed to estimate tortuosity, total porosity, and connected porosity.\n\n3. Results and discussion\n\n3.1. Conversion of gray-scale 2-D SEM images to a statistical representation\n\nTo prepare the gray-scale 2-D SEM image for structural analysis, we first converted the image into a binary format (i.e., pore phase or solid phase) using the adaptive thresholding algorithm provided by MATLAB [23], where the threshold value is determined based on the local mean intensity surrounding each pixel. This method adjusts the threshold across the image, improving segmentation performance in the presence of local contrast variations or uneven brightness. From the resulting binary image, structural information was extracted using the combined distance function framework [21] that we used in our earlier work.",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "3.1",
+      "pages": [3,4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "For each pixel, two separate distance maps were computed: one for the pore phase and one for the solid phase (i.e., based on the binary and inverted binary images, respectively). These maps, which quantify the shortest straight-line distance to the nearest interface, were merged and binned into a one-dimensional histogram. This histogram serves as a statistical fingerprint of the pore structure.\n\nTo better capture local structural features, we have updated the model to include multiple combined distance functions. Starting with a binarized SEM image, we calculate two distance maps: one measuring the distance of each pixel to the nearest solid region (void map), and one measuring the distance to the nearest pore (solid map). These distances are converted into histograms that describe how often different distances occur in each phase. We then compute the same two distance maps after two zoom-in operations using nearest-neighbor: first at 1.5x and then again at 1.5x, cropping back to the original size each time. This zoom factor was determined empirically to progressively place greater emphasis on finer pore features during reconstruction.",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "3.1",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The histograms for the void and solid phases are then combined into a single feature vector for each scale. Finally, all three vectors are merged into one descriptor that summarizes the pore structure across all scales. Supplementary Fig. S.1 shows the binary images, the corresponding distance maps, and the histograms at each zoom-in level. The outcome of this approach is to provide greater statistical weighting to changes for smaller pore features.\n\nThis improvement in feature extraction, i.e., using a multi-scale combined distance function instead of the single-scale version employed in the previous study, enabled the model to identify the optimal structure more efficiently. The multi-scale approach effectively serves as a practical scale-weighting strategy, placing greater emphasis on fine features during optimization. To evaluate the impact of this change, we ran the new model with a 2-D slice of a random 3-D structure as the input, to reconstruct structures. We then repeated the process using the same model and with single-scale combined distance function. As shown in Supplementary Fig. S.2, the results demonstrated statistical improvements, with the multi-scale combined distance function resulting in reconstructed structures that more closely resembled the original.",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "3.1",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Creation of a computational algorithm for 3-D structure generation\n\nIn terms of 3-D structure generation, our model here differs greatly from our previous work [21]. We targeted a flexible model capable of generating various types of isotropic membranes with different pore shapes. To achieve this flexibility, we developed a method that generates three different base structures, B1, B2, and B3 from three independently initialized random 3-D matrices, A1, A2, and A3, respectively. The final structure (B) is a weighted average of these three matrices: B = B1 * X1 + B2 * X2 + B3 * X3. Each base structure (B1, B2, and B3) is a 3-D matrix built using a set of adjustable parameters (X4 to X9), which will be discussed in detail below. In total, there are nine adjustable parameters (X1 to X9) that help determine the final structure, with Final Structure = Function(X1 to X9). Table S1 summarizes all internal model variables and adjustable parameters used in the 3-D reconstruction algorithm for clarity and reproducibility.",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "3.2",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The focus of this section is to describe how the model constructs the final structure based on these nine X parameters. In the following section (Section 3.3), we will explain how these nine X parameters are then optimized to accurately reproduce the membrane's 3-D digital structure. Increasing the number of base structures would add complexity to the optimization process; therefore, we limited the method to three base structures (B1, B2, and B3). We experimented with various techniques to generate B1 to B3 from the initial random structures A1 to A3. As will be discussed in Section 3.5, the presented approach was successful in mimicking the real structure of isotropic membranes.\n\n3.2.1. Generation of base structures\n\nTo generate B1, a 3-D random matrix (A1) is converted to a binary matrix using a cut-off value which is dependent on X4. Then, a distance map of this modified matrix is calculated, creating a pattern of grains. After normalization, this structure is referred to as B1, in which there are several grains (Fig. 1). B2 is generated using a similar approach, but with a different cut-off value (which is dependent on X5) and a different initial random structure (A2). Consequently, B2 will differ from B1 in terms of the distribution and size of grains.",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "3.2.1",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This variability in the generated structures, i.e., B1 and B2, allows us to create a broader range of structures with diverse pore sizes.\n\nThe structures produced by the above technique, i.e., B1 and B2, are characterized by their smoothness and lack of angularity (i.e., they are unable to generate sharp corners). To address this limitation, we develop B3 with branching networks using the following approach. We begin by creating a random 3-D matrix (A3), after which a Gaussian filter is applied to smooth the matrix, with the degree of smoothing controlled by parameter X6 (standard deviation of the filter). This step reduces noise and blurs sharp details. The smoothed matrix is then converted into a binary 3-D structure using a threshold value determined by X7. The result is a binarized image. Next, we calculate a distance map from this binary image. However, a limitation arises: the distance map assigns a value of zero to all non-zero (solid) voxels, because these voxels are already considered the \"nearest solid point\" by the algorithm. This results in a structure where many interior regions have flat (zero) values.",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "3.2.1",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "To overcome this, we modify the approach by also computing the distance map of the complement of the binarized image (i.e., the pore space instead of the solid). We then subtract the distance map of the binarized image from the distance map of its complement: B3 = DistanceMap(1 - binarizedimage) – DistanceMap(binarizedimage). This subtraction produces a structure with continuous transitions and non-zero values throughout, enhancing connectivity and introducing sharper features such as corners and branching pathways.\n\n3.2.2. Post-processing and final thresholding\n\nAfter computing B = X1 * B1 + X2 * B2 + X3 * B3, a Gaussian filter is applied to B using a standard deviation defined by X8. The filtered image is then subtracted from the original to enhance high-frequency details and edge features. Finally, the resulting image is binarized using a threshold value defined by X9, producing the final membrane structure.\n\n3.3. Optimization of digitally generated 3-D structures\n\nAs described in Section 3.1, the input 2-D SEM image is first converted into a multi-scale statistical representation using the combined distance function computed across three length-scales, resulting in a one-dimensional feature vector that captures pore morphology across multiple scales (see Fig. 2).",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "3.2.1-3.3",
+      "pages": [4,5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In Section 3.2, we explained how different 3-D membrane structures can be generated using nine adjustable parameters, X1 to X9. These parameters control key morphological operations—including thresholding, Gaussian smoothing, and how strongly each intermediate structure (B1, B2, B3) contributes to the final 3-D result. The reconstruction objective is to generate a 3-D structure whose cross-sectional slice statistically resembles the input 2-D SEM image. To achieve this, a Bayesian optimization algorithm was used to iteratively update the generated structure parameters (i.e., the values of X1 to X9). At each iteration, a fixed central slice of the generated 3-D structure (i.e., always taken from the middle z-plane) is extracted and compared to the SEM-derived feature vector. Similarity is quantified using the mean absolute error (MAE) between their combined distance functions, which serves as the optimization objective. The optimization process continues until the discrepancy is minimized, yielding a 3-D structure statistically closely matching the 2-D SEM input.\n\n3.4. Evaluation of model performance\n\nTo evaluate the performance of our reconstruction algorithm, we first used in silico 3-D membrane structures by digitally developing three 3-D structures, from which a 2-D slice was used as input into the reconstruction algorithm.",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "3.3-3.4",
+      "pages": [5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The in-silico 3-D images were generated using the algorithm presented in this paper: we selected the parameters X1–X9 randomly and produced many candidate structures. Because some random parameter combinations lead to unrealistic morphologies, we retained only those candidates that resembled physically reasonable membrane structures and discarded obvious non-membrane cases. These synthetic structures provide high flexibility for validation: they allow us to systematically vary pore size and shape, generate multiple membrane samples, and perform detailed statistical comparisons. This approach enables rigorous evaluation of model robustness before validating the algorithm with experimental data.\n\nWe selected a single random 2-D slice from each synthetic 3-D structure and used it as input to generate eight independently optimized 3-D structures (i.e., 3-D structures statistically feature-matched to the 2-D SEM input). For each reconstruction, we computed key structural properties including pore size, throat size, total and connected porosity, coordination number, and tortuosity using the Dragonfly software. Results for one representative case are shown in Fig. 2, with the reconstructed structures exhibiting strong agreement with the original 3-D structure across all metrics. Additional validation using two more synthetic membrane structures is included in the Supplementary Information (Fig. S.3).",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "3.4",
+      "pages": [5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Validation with a real membrane is also performed in Section 3.6. In that section, structures reconstructed from 2-D SEM images are compared with 3-D structures obtained through X-ray tomography.\n\n3.5. Capturing pore morphology\n\nFig. 3 shows that the current model successfully captures realistic pore geometries for four isotropic membranes, and the reconstructions arguably pass the \"eye test,\" in which the Binary and Reconstruction slices could plausibly be different sections of the same 3-D structure. This performance is achieved because the new code combines multiple morphological building blocks and is designed for a broad range of isotropic membranes. By contrast, Fig. 3 illustrates the limitations of our earlier approach in terms of pore generation [21]. The previous model was developed and validated using a FIB-SEM dataset, and was ultimately not flexible enough in its pore generation methodology to produce pore shapes that adequately mimic diverse input sources. As shown in Fig. 3, the updated model presented in this study marks a substantial improvement over our previous version, producing structures with 2-D slices that better visually match the source 2-D image.",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "3.5",
+      "pages": [5,6]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "As described in Section 3.2, the model combines three different structural types: one with large, smooth grains, another with small, smooth grains, and a third with a branching structure featuring sharp corners. These structures are combined using optimized weight fractions, allowing us to accurately mimic the real shapes of the pores. Currently, the model generates eight different structures in parallel. While all generated structures are statistically equivalent, one typically better matches the real pore shapes. At this stage, we select the most similar structure by visual inspection. However, future work will focus on automating this selection process using deep learning techniques.\n\n3.6. Model validation using 2-D SEM and 3-D X-ray tomography\n\nIn addition to the evaluation presented in Section 3.4 using synthetic membrane structures, we further validated our approach through direct comparison between a 3-D structure reconstructed from a 2-D SEM image of a real membrane (cellulose nitrate membrane from Fisher Scientific, 5 micrometers nominal pore size) and a 3-D structure obtained via X-ray computed tomography (CT). The membrane sample was first imaged using cross-sectional SEM at high resolution (0.1 micrometer/pixel) and processed using our model to generate 3-D structures, followed by X-ray CT scanning at 0.4 micrometer/voxel resolution.",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "3.5-3.6",
+      "pages": [6]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "To assess the influence of image pixel size, the SEM image was resampled from its original pixel size of 0.1 micrometer to 0.4 micrometer by resizing the total pixel dimensions, thereby matching the voxel size of the CT scan. We then reconstructed 3-D structures from both the SEM images with the original pixel size (0.1 micrometer) and the resampled pixel size (0.4 micrometer) SEM images. The resulting structures were compared with the CT-derived 3-D structure through both visual inspection and quantitative pore network analysis.\n\nAs shown in Fig. 4, the reconstruction from the resampled 0.4 micrometer pixel size SEM image produced pore body diameter, throat diameter, and coordination number distributions that closely matched those from the CT scan. Such agreement confirms our method's ability to capture CT-scale morphology when using properly scaled input data (i.e., data of equivalent resolution). Visual comparison of the 2-D slices again shows strong similarity. In other words, slices taken from the CT-scan-based tomograph and from the reconstruction at the same pixel size could plausibly be from the same material. This quantitative and qualitative comparison of the two structures provides strong validation of the model's ability to generate 3-D structures of similar quality to state-of-the-art micro-CT.",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "3.6",
+      "pages": [6]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "However, while the slices from micro-CT and the reconstruction using 0.4 micrometer pixel size resemble each other, they look clearly different from the original SEM image, as fine pore details clearly visible in the SEM image are lost. In contrast, the structure generated from the original 0.1 micrometer pixel size SEM input retains these pore details and more closely resembles the cross-sectional SEM image. Quantitatively, the 3-D structure also had sharply smaller body and throat diameters (Fig. 4C). If considering the micro-CT scan to be the \"ground truth,\" this result would suggest that the model may produce inaccuracies. However, we propose that the limited resolution of the micro-CT approach is the main source of the misalignment, as evidenced by the 2-D slice from micro-CT losing the fine details in the SEM image. Additionally, the body and throat size distributions from the reconstruction approach (at 0.1 micrometer pixel size) better align with the pore size rating of 5 micrometers, which implies that essentially all particles of 5 micrometer diameter should be retained by the membrane. The body and throat size distributions from micro-CT would suggest only partial retention of 5-micrometer particles, whereas the distributions from SEM-based reconstruction would suggest complete retention.",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "3.6",
+      "pages": [6]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The impact of SEM pixel size on pore structure estimation is further illustrated in Supplementary Fig. S.4, where reducing the pixel size from 0.4 micrometer to 0.1 micrometer led to smaller estimated pore and throat diameters.\n\nOverall, these results support two key conclusions: (1) the model can accurately reproduce structural statistics with resolution-matched SEM input with CT-scale resolution, and (2) higher-resolution SEM images reveal finer pore details beyond the detection limit of micro-CT, enabling more accurate characterization of sub-micron membrane features.\n\n3.7. Model advantages, limitations, and potential use cases\n\nThe algorithm introduced in this study offers a practical and accessible approach for reconstructing isotropic 3-D pore structures from a single 2-D SEM image. As shown in this study, micro-CT systems are constrained by limited resolution, even for membranes with large pore sizes such as the 5-micrometer pore size rating that we used. Membranes with pores in the nanometer-range (e.g., ultrafiltration, reverse osmosis support layers) are out of range of even the best nano-CT instruments. For the validation approach used in this study, we generated 3-D structures using an SEM pixel size of 0.1 micrometer, but more importantly, the approach should be applicable for isotropic porous materials at any scale accessible by SEM (i.e., down to <10 nm).",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "3.7",
+      "pages": [7]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This enables the analysis of nanoscale features that fall below the detection threshold of micro- and nano-CT systems, which includes most membranes of interest. We are currently using the model in other projects to characterize materials with <100-nm sized pores, such as polymeric foams and thin films of packed silica nanoparticles.\n\nOur model should enable simple and accurate 3-D reconstruction of a wide range of isotropic and disordered porous materials. However, the model does not account for anisotropic features such as finger-like voids or the increased pore size with depth that is commonly observed in phase-inversion membranes. Given that phase-inversion membranes make up a major fraction of porous membranes of interest, improved models are certainly needed. It is possible that similar advances in other fields may translate well to 3-D reconstruction of anisotropic membranes. In particular, generative adversarial networks (GANs) are finding increasing usage in 3-D reconstruction of pore structures in non-membrane fields, with many models being independently generated in recent years [27,28]. GANs are capable of learning spatial correlations from large training datasets and may eventually capture features such as anisotropy or finger-like structures more effectively than purely statistical models such as the one that we have developed.",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "3.7",
+      "pages": [7]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The assessment and adaptation of GAN-based models to generate accurate 3-D structures of porous membranes—isotropic and anisotropic—is a rich area for future research.\n\n4. Conclusion\n\nIn this study, we have developed a reconstruction model that generates 3-D structures of isotropic membranes from a single cross-sectional SEM image, offering a significantly faster and more practical alternative to conventional 3-D imaging techniques. Our model employs statistical optimization to align pore-scale features between the input 2-D image and the reconstructed 3-D volume. This approach enables the quantification of structural metrics, including pore and throat diameters, porosity, and coordination number. Validation with both synthetic and real membranes confirmed that the reconstructed structures closely resemble real 3-D datasets in terms of statistical distributions and pore morphology. Notably, comparisons with CT data from a cellulose nitrate membrane revealed that reconstructions based on high-resolution SEM inputs successfully captured fine sub-micron features that were beyond the resolution of the CT-derived structure. These findings suggest that the model works well for analyzing the structure of isotropic membranes, especially in the highly common scenarios where CT resolution is inadequate or access to full 3-D imaging is insufficient. The method offers an accessible approach for quantitative assessment and comparison of isotropic membrane architectures using commonly available 2-D imaging data. Further work is needed for 3-D structure generation for anisotropic membranes; for these materials, tomographic methods (e.g., FIB-SEM, nano/micro-CT) are currently still necessary.",
+    "citation": {
+      "authors": ["Zeinali Danalou S.", "Chamani H.", "Rabbani A.", "Lee P.C.", "Hattrick-Simpers J.", "Werber J.R."],
+      "paper_id": "1-s2.0-S0376738826003157-main",
+      "title": "Digital generation of the 3-D pore architecture of isotropic membranes using 2-D cross-sectional scanning electron microscopy images",
+      "year": 2026,
+      "section": "4. Conclusion",
+      "pages": [7,8]
+    },
+    "type": "chunk"
+  }
+]

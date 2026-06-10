@@ -1,0 +1,257 @@
+[
+  {
+    "content": "1. Introduction Mathematical modelling based on the Nernst-Planck and Poisson (NPP) equations built in one-, two- and three-dimensional geometry is largely used for describing ion transport in electrode and membrane systems. The boundary-value problems involving these equations are mathematically complicated, since a small parameter is present in the Poisson equation (in its dimensionless form) [1]. The most models are developed for the potentiostatic mode, where electric regime is set through the potential drop. For membrane systems, this approach was first used by Rubinstein and Shtilman [2]. The authors of this work proposed a model that allowed explaining the nature of the overlimiting current and the occurrence of a space charge region (SCR) near the membrane surface. Their results stimulated other authors to develop productive models giving new insights into the theory of mass transfer in ion-exchange membrane and nano/microfluidic systems [4–14].",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M.",
+        "Nikonenko V.V."
+      ],
+      "paper_id": "membranes-08-00084",
+      "title": "1D Mathematical Modelling of Non-Stationary Ion Transfer in the Diffusion Layer Adjacent to an Ion-Exchange Membrane in Galvanostatic Mode",
+      "year": 2018,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The importance of simplifying the solutions for the ion and water transfer problems, which take into account the effect of SCR, is related to the fact that these problems, both galvanostatic and potentiostatic, are computationally very complex. The quasi-equilibrium EDL of a thickness λ scaled by the Debye length is characterized by huge gradients of ion concentrations and electric potential. The computational complexity of the problem, as well as computational costs increases rapidly when the ratio of λ to the diffusion layer thickness δ decreases [8]. The later occurs with increasing the electrolyte concentration, since λ decreases. For this reason, the most computations in literature were carried out for the λ/δ values, which are far from the parameters of real membrane systems (at least in electrodialysis applications).",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M.",
+        "Nikonenko V.V."
+      ],
+      "paper_id": "membranes-08-00084",
+      "title": "1D Mathematical Modelling of Non-Stationary Ion Transfer in the Diffusion Layer Adjacent to an Ion-Exchange Membrane in Galvanostatic Mode",
+      "year": 2018,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Mathematical Models The system under consideration involves a diffusion boundary layer of a binary electrolyte solution at the surface of a cation-exchange membrane (CEM). Let x be the coordinate normal to the membrane surface, varying from 0 (the solution bulk = outer boundary of the diffusion layer) to δ (the solution/membrane boundary). The following three regions can be distinguished in the structure of the diffusion layer [2,30]: the electroneutral region, the extended SCR and the quasi-equilibrium EDL. In this study, we consider three variants of mathematical description of 1D non-stationary ion transfer in the diffusion layer in the galvanostatic mode: (1) The “primary” model, which differs from potentiostatic models by the boundary condition: the potential gradient determined by the current density is given instead of the potential drop. Only a numerical solution is obtained for this model. (2) The “zonal” numerical-analytical model, in which the diffusion layer is split into two zones, where the solution is determined separately. (3) The “simplified” model, in which the thickness of the equilibrium part of EDL is assumed equal to zero.",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M.",
+        "Nikonenko V.V."
+      ],
+      "paper_id": "membranes-08-00084",
+      "title": "1D Mathematical Modelling of Non-Stationary Ion Transfer in the Diffusion Layer Adjacent to an Ion-Exchange Membrane in Galvanostatic Mode",
+      "year": 2018,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.1. The “Primary” Galvanostatic Model 2.1.1. The System of Equations and the Boundary Conditions The mathematical model of the non-stationary ion transfer includes the Nernst-Planck equation, the matter conservation equation (the continuity equation), the Poisson equation, and the equation for the total electric current density, including the displacement current [27,31]. Convective transfer is not considered. This equation system for a binary electrolyte in a dimensionless form is given, where the dimensionless spatial coordinate x is normalized to the thickness of the diffusion layer δ; time t to δ^2/D; concentration ci to c0; electric potential φ to RT/F; current density i to Dc0F/δ; ion flux ji to Dc0/δ; individual ion diffusion coefficients Di to the electrolyte diffusion coefficient D = D1D2(z1-z2)/(D1z1-D2z2). The system contains a small dimensionless parameter ε = εrε0RT/(c0δ^2F^2) at the derivative in the Poisson equation, which can be presented as ε = 2(LD/δ)^2, where LD is the Debye length.",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M.",
+        "Nikonenko V.V."
+      ],
+      "paper_id": "membranes-08-00084",
+      "title": "1D Mathematical Modelling of Non-Stationary Ion Transfer in the Diffusion Layer Adjacent to an Ion-Exchange Membrane in Galvanostatic Mode",
+      "year": 2018,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In the case of laminar flow between two parallel smooth membranes of length L, the average value of δ can be estimated using the Leveque equation. The total current density i is not a function of x. The current density condition may be set at the left or right-hand boundary. At x=0 (outer edge of the diffusion layer): ci(0,t)=1, φ(0,t)=0. At the right-hand boundary x=1 (solution/membrane interface), two parameters are specified. One is the counterion concentration c1m, set as a constant Nc times greater than the bulk solution concentration: c1(1,t)=Nc. This condition was first proposed by Rubinstein and Shtilman [2]. In our formulation, the current density i is used as the parameter determining the electric regime, entered via the potential gradient ∂φ/∂x at x=1 as an explicit function of i. A new boundary condition is proposed, expressing the potential gradient as an explicit function of i. This condition is obtained from the continuity condition for counterion flux at the solution/membrane interface, where T1 is the effective counterion transport number in the membrane.",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M.",
+        "Nikonenko V.V."
+      ],
+      "paper_id": "membranes-08-00084",
+      "title": "1D Mathematical Modelling of Non-Stationary Ion Transfer in the Diffusion Layer Adjacent to an Ion-Exchange Membrane in Galvanostatic Mode",
+      "year": 2018,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A second variant uses an alternative condition obtained from the total current density expression. The condition for the co-ion concentration at x=1 describes the continuity of co-ion flux. The potential drop is determined from the numerical solution. 2.1.2. Numerical Solution The numerical solution was obtained by the finite element discretization using COMSOL Multiphysics. 2.1.3. Parameters Used in Computations Parameters were chosen to match chronopotentiometric experiment conditions [37] with NaCl solution. The diffusion layer thickness δ was calculated using the Leveque equation. The Debye length LD = 9.7e-8 m yields ε = 1.6e-10. Most computations were made at ε = 3e-7 (c0=0.01 mol/m3) due to computational complexity. The current density i/ilim = 2, where ilim = 1/(T1-t1) is the dimensionless limiting current density, found through the Peers equation.",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M.",
+        "Nikonenko V.V."
+      ],
+      "paper_id": "membranes-08-00084",
+      "title": "1D Mathematical Modelling of Non-Stationary Ion Transfer in the Diffusion Layer Adjacent to an Ion-Exchange Membrane in Galvanostatic Mode",
+      "year": 2018,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.1.4. Choice of the Boundary Conditions to Set the Current Density Two computations were performed using the two different boundary conditions for current density. The error of calculations was estimated by the maximum difference between the given i and the calculated current density at x=1. The condition derived from the total current density expression gave less error (<0.016%) and was used in subsequent calculations. 2.1.5. Results Concentration Profiles, Distribution of Space Charge and Current Density As follows from numerical results, the concentrations of cations and anions near the membrane surface decrease over time. When the tangent to the electrolyte concentration profile approaches zero at x=1, the extended SCR starts to form at the outer edge of the quasi-equilibrium EDL. A local maximum on the space charge density graph is formed and moves with time from the outer edge of the quasi-equilibrium EDL towards the bulk.",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M.",
+        "Nikonenko V.V."
+      ],
+      "paper_id": "membranes-08-00084",
+      "title": "1D Mathematical Modelling of Non-Stationary Ion Transfer in the Diffusion Layer Adjacent to an Ion-Exchange Membrane in Galvanostatic Mode",
+      "year": 2018,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Definition of transition time. The transition time τ determines the time required for the near-surface concentration to achieve a value much less than the bulk concentration. Sand theory [39] gives τS for an infinite stagnant diffusion layer. In our model (ε≠0), the minimum counterion concentration never reaches zero. The transition time τm is defined as the time at which the tangent to the electrolyte concentration profile crosses zero at x=1. Distribution of current density. When ρ increases with time, the conduction current density ic decreases with increasing x. A part of cations is consumed for charging the EDL, causing ic to increase as cations approach the membrane. Within the SCR, the behavior of ρ(x) can be analyzed by the behavior of c1(x). When the maximum on the ρ(x) curve shifts from the membrane surface toward the bulk, ic(x) passes through a minimum corresponding to the maximum of ρ(x).",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M.",
+        "Nikonenko V.V."
+      ],
+      "paper_id": "membranes-08-00084",
+      "title": "1D Mathematical Modelling of Non-Stationary Ion Transfer in the Diffusion Layer Adjacent to an Ion-Exchange Membrane in Galvanostatic Mode",
+      "year": 2018,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Chronopotentiograms. The chronopotentiograms (potential drop vs. time) were calculated for i/ilim = 1; 1.5; 2; 3 and 4. The model does not consider additional transfer mechanisms (electroconvection), therefore the inflection point is not observed; ∆φ continues to rise steeply even when extended SCR is formed. However, in the NPP model ∆φ approaches a finite (very large) value. At i/ilim < 2, τm is noticeably higher than τS; at i/ilim ≥2, the difference becomes negligible. With decreasing ε, the ∆φ(t) curve goes up steeper and τm decreases at the same i/ilim. Accuracy of computation decreases with decreasing ε; at ε=3e-7 results were acceptable; at ε=3e-5 all functions and derivatives were calculated with good accuracy (<0.1% relative error).",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M.",
+        "Nikonenko V.V."
+      ],
+      "paper_id": "membranes-08-00084",
+      "title": "1D Mathematical Modelling of Non-Stationary Ion Transfer in the Diffusion Layer Adjacent to an Ion-Exchange Membrane in Galvanostatic Mode",
+      "year": 2018,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2. The “Zonal” Model 2.2.1. Decomposition of the Problem The region is divided into two zones: Zone I (0 ≤ x ≤ 1-δ3) includes the electroneutral region and the extended SCR; Zone II (1-δ3 ≤ x ≤ 1) is the equilibrium EDL. The steady-state solution in zone I is almost independent of Nc. The coordinate (1-δ3) is found using the formula for the thickness of the quasi-equilibrium region δ3. The potential drop in zone I is found numerically. In zone II, an approximate analytical solution exists. The total potential drop is the sum of drops in both zones. The state of the equilibrium part of the EDL can be considered quasi-stationary because the time of establishing a stationary profile is much shorter than for the diffusion layer. This approach significantly facilitates the solution. The condition of equality of concentration c1s in both zones is used to stitch the solutions.",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M.",
+        "Nikonenko V.V."
+      ],
+      "paper_id": "membranes-08-00084",
+      "title": "1D Mathematical Modelling of Non-Stationary Ion Transfer in the Diffusion Layer Adjacent to an Ion-Exchange Membrane in Galvanostatic Mode",
+      "year": 2018,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2.2. Comparison of the “Primary” and “Zonal” Models The results from both models are in quite good quantitative agreement (concentrations and potential differ by less than 1% everywhere, except in high-gradient regions where the difference increases to 20%). The transition times τm are very close. The use of the “zonal” model allows reducing the number of mesh elements 75 times and the total calculation time 35 times compared to the “primary” model (for ε=3e-7, i/ilim=2).",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M.",
+        "Nikonenko V.V."
+      ],
+      "paper_id": "membranes-08-00084",
+      "title": "1D Mathematical Modelling of Non-Stationary Ion Transfer in the Diffusion Layer Adjacent to an Ion-Exchange Membrane in Galvanostatic Mode",
+      "year": 2018,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.3. The “Simplified” Model Idea and Limits of Applicability The “zonal” model can be simplified by neglecting the thickness of the equilibrium part of the SCR (δ3 = 0), moving the right-hand boundary condition to x=1. The potential drop ∆φII is still calculated using the analytical formula. This simplification reduces computation time by approximately 38% compared to the “zonal” model. With decreasing ε (increasing c0), the difference between the “simplified” and “zonal” models decreases. The “simplified” model is applicable at relatively low ε, exactly where the numerical solution of the “primary” model is extremely complex.",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M.",
+        "Nikonenko V.V."
+      ],
+      "paper_id": "membranes-08-00084",
+      "title": "1D Mathematical Modelling of Non-Stationary Ion Transfer in the Diffusion Layer Adjacent to an Ion-Exchange Membrane in Galvanostatic Mode",
+      "year": 2018,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.4. Effect of Setting Condition for the Current Density at the Left-Hand Boundary A condition setting the current density can be formulated at the left-hand boundary instead of the right-hand one. The behavior of the system is quite similar. Comparison of ic(x,t) computed using all three models shows very good agreement (values differ by less than 0.03%).",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M.",
+        "Nikonenko V.V."
+      ],
+      "paper_id": "membranes-08-00084",
+      "title": "1D Mathematical Modelling of Non-Stationary Ion Transfer in the Diffusion Layer Adjacent to an Ion-Exchange Membrane in Galvanostatic Mode",
+      "year": 2018,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Comparison with the Experiment Chronopotentiograms obtained experimentally [37] and theoretically using the “zonal” and “simplified” models are compared. For a cation-exchange membrane MK-40MOD in 0.02 M NaCl at i/ilim=1.7, the computed transition time τm is 11.53 s, the Sand τS is 11.4 s, and the experimental τexp is about 14 s. Good agreement is observed at times t < τS (potential drop difference <10%). When t approaches τS, the theoretical curve goes up steeply, while the experimental curve slows down and forms an inflection point, then flattens. This slowing is generally due to the development of current-induced convection (electroconvection), which is not considered in the model. The difference between τm and τexp is explained by “early” electroconvection caused by electrical and geometrical inhomogeneity of the surface, producing local currents and electroosmotic flow.",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M.",
+        "Nikonenko V.V."
+      ],
+      "paper_id": "membranes-08-00084",
+      "title": "1D Mathematical Modelling of Non-Stationary Ion Transfer in the Diffusion Layer Adjacent to an Ion-Exchange Membrane in Galvanostatic Mode",
+      "year": 2018,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Conclusions Mathematical modelling of 1D non-stationary ion transfer in ion-exchange membrane systems under an applied DC current is carried out using the NPP equations. A new boundary condition, expressing the potential gradient as an explicit function of current density, is proposed. The problem allows describing concentrations, potential, space charge density and current density as functions of time and distance. The numerical solution when using the new condition is identical to that obtained using the condition proposed by Manzanares et al. [27], but the computation time is essentially less. A very good approximate solution is obtained by a combination of numerical solution in the electroneutral region and extended SCR (zone I) and an analytical solution in the quasi-equilibrium EDL (zone II) – the “zonal” model. Additional simplification (the “simplified” model) neglects the thickness of the quasi-equilibrium EDL. The “simplified” model agrees well with the “zonal” model for ε < 1e-7 (real experimental conditions). The calculation of the transition time for an ion-exchange membrane gives rather good agreement with experiment. The difference is explained by the development of electroconvection, not considered here. Rapid changes of space charge density with time and distance could lead to lateral electroosmotic flows delaying depletion of near-surface solution.",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M.",
+        "Nikonenko V.V."
+      ],
+      "paper_id": "membranes-08-00084",
+      "title": "1D Mathematical Modelling of Non-Stationary Ion Transfer in the Diffusion Layer Adjacent to an Ion-Exchange Membrane in Galvanostatic Mode",
+      "year": 2018,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  }
+]

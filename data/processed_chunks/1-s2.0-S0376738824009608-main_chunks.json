@@ -1,0 +1,706 @@
+[
+  {
+    "content": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayernanofiltration membranes Robert Niestroj-Pahl a,b, Esra te Brinke a, Hannah Roth a,*, Lars D¨ahne b, Wiebe M. de Vos a a Membrane Science and Technology, University of Twente, MESA+ Institute for Nanotechnology, P.O. Box 217, 7500, AE, Enschede, the Netherlandsb Surflay Nanotec GmbH, Max-Planck-Str. 3, 12489, Berlin, Germany\n\nA R T I C L E I N F O Keywords:Polyelectrolyte multilayersNanofiltrationCeramic membranesMicropollutantsWater purification",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Polyelectrolyte multilayer based nanofiltration membranes can remove organic micropollutants from water.Such polyelectrolyte multilayer membranes (PEMMs) are often assembled on polymeric supports, but lessresearch focuses on inorganic (ceramic) supports. In this work, we assembled symmetric and asymmetric,coatings of poly(allylamine (PAH) and poly(styrene sulfonate) (PSS) on ceramic supports. Symmetric membranesare assembled with the same salt concentration in the coating solution for each layer. Asymmetric membranesuse very permeable layers (high salt concentration in coating solution) as base layers and dense top layers withlower permeability (low salt concentration in coating solution) as filtration layers. By reversing the coating order– first salt-free and after that high salt concentration, we obtained reverse asymmetric membranes. Theyconsistently outperformed the symmetric and standard asymmetric design in removing organic micropollutants,reaching an average retention of 85 ± 13 % compared to 77 ± 14 % for the standard asymmetric membranes. Weattribute this higher retention to a more efficient pore overcoating for the reverse asymmetric membranes. Thiswork demonstrates that ceramic supports combined with reverse asymmetric PEMMs can be efficiently used formicropollutant removal from water.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Climate change and environmental pollution threaten the availability of clean water, thereby increasing the demand for efficient technologies to clean wastewater and produce safe drinking water [1,2]. Forexample, the surface water quality is becoming increasingly impaired byorganic micropollutants (OMP): small organic molecules originatingfrom industrial, agricultural, and medical sources, including pharmaceuticals, cosmetics, and cleaning agents [3,4]. Removing OMPs fromwater sources forms a significant challenge for conventional wastewatertreatment and drinking water facilities, as they were never designed todeal with these small and diverse pollutants [5]. Newer technologies likemembrane filtration can be part of the solution, but conventionalmethods such as microfiltration (MF) and ultrafiltration (UF) are notsuitable to remove these small molecules. Reverse osmosis (RO), whichremoves all ions and small molecules except water, is also not attractiveas after treatment minerals must be added back to achieve potabledrinking water [6]. Moreover, RO consumes a lot of energy due to theosmotic pressure that needs to be overcome to operate the membrane.RO also creates large amounts of concentrated brine which must be disposed [7].The most promising membrane approach for the removal of OMPs isthe use of nanofiltration (NF) membranes.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "concentrated brine which must be disposed [7].The most promising membrane approach for the removal of OMPs isthe use of nanofiltration (NF) membranes. NF membranes have theunique advantage of rejecting multivalent ions and organic micropollutants of a certain size and charge, while monovalent ions canmostly pass through the membrane [8]. This reduces the osmotic pressure that must be overcome and allows the treated water to be directlydrinkable without remineralization. More recently, hollow-fiber (HF)nanofiltration membranes became an emerging membrane type. HF NFmodules have several advantages over spiral wound (SW) modules,including reduced fouling [6] and the possibility of backwashing. A bynow common HF nanofiltration membrane is based on a separation layerof polyelectrolyte multilayers.Polyelectrolyte multilayers, also called Layer-by-Layer (LbL) films,were first introduced by Decher in 1992 [9]. They are nanometer-thinfilms built from alternating layers of positively and negatively chargedpolymers. These water-soluble polymers can form multilayers based onelectrostatic attraction and other interactions such as hydrogen bondingor hydrophobic interactions. Polyelectrolyte multilayers have membrane properties, as they are permeable only for molecules of certain",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 4 October 2024 0376-7388/ 2024 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). charge and size [10,11]. The separation properties of polyelectrolytemultilayer membranes (PEMMs) depend on the type of polyelectrolytecombination, the number of layers, and the assembly conditions such asionic strength [12] and pH [13–15]. The polyelectrolytes can be eitherweak or strong [16], depending on their functional group. In weakpolyelectrolytes, the groups can be ionized depending on the pH (forexample carboxylor amine groups), while in strong polyelectrolytes thegroups are always ionized (sulfonate groups or quaternary amines).Especially the ionic strength plays a key role in the formed structure ofthe polyelectrolyte layer [17,18]. Furthermore, the retention efficiencyis also influenced by the charge of the terminating layer [19,20].Whenassemblingpolyelectrolytemultilayersonmembranes,different strategies like dip-coating [21], spray-coating [22], orflow-through [23] are used. In the latter case, the coating can be performed pressureless (static) or by filtering the coating solutions throughthe pores of the support (dynamic).",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n the latter case, the coating can be performed pressureless (static) or by filtering the coating solutions throughthe pores of the support (dynamic). The dynamic approach showedincreased film thicknesses and produced defect-free membranes withfewer layers [23–26].The polyelectrolytes used in this study, Poly (sodium styrene sulfonate) (PSS) and Poly (allylamine hydrochloride) (PAH) are known tohave excellent retention for OMPs because of their dense structure[27–29]. In contrast, PEMMs produced from Poly (dimethyl diallylammonium chloride) (PDADMAC) and PSS show very good retention fordivalent ions but not for organic micropollutants.To build a defect-free membrane from polyelectrolyte multilayers,all pores of the support must be closed. To achieve this, the number oflayers must be high enough, or the individual layers must be thickenough, depending on the pore size of the support membrane. However,when the layer number increases, the permeability decreases. A solutionto this problem is to first use multilayers with an open and permeablestructure, to close the support pores, and then a thin but dense multilayer on top, to achieve good selectivity. As discussed above, this can forexample be achieved by coating at different salinities [15]. Suchasymmetric polyelectrolyte multilayer membranes, first introduced byTe Brinke et al., in 2020 [27,30], indeed show high retentions at relatively high water permeances. The work of Menne et al.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ranes, first introduced byTe Brinke et al., in 2020 [27,30], indeed show high retentions at relatively high water permeances. The work of Menne et al. [31] presented areverse asymmetric PEMM on a ceramic support but used PDADMAC/PSS as a polyelectrolyte system. Menne’s work focuses on coatingand removing the layers and does not investigate the retention of saltand OMPs.The market for drinking water production with nanofiltrationmembranes is currently dominated by polymeric membranes due towell-established procedures and manufacturers [6]. However, the moreexpensive ceramic membranes have certain advantages such as higher mechanical strength and high chemical and thermal resistance. Thehigher cost of the ceramic membranes is mitigated by a higher overallpermeability, lower fouling, and a remarkably longer life span (15–20years) [32] compared to polymeric membranes (5–8 years) [33]. Inaddition, they do not end up as plastic waste at the end of their usefullife, making them more sustainable [33]. However, by using polyelectrolyte multilayers it is also possible to create ceramic hybridmembranes, that consist of a ceramic ultrafiltration support and anorganic separation layer. The earliest publications on aluminum oxidemembranes were done by the Bruening group [34,35].",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ultrafiltration support and anorganic separation layer. The earliest publications on aluminum oxidemembranes were done by the Bruening group [34,35]. More recentresearch shows, that these inorganic/organic hybrid membranes provide comparable organic micropollutant and salt retentions [28,29,36].There is no commercially available ceramic hybrid membrane yet.Hybrid ceramic/PEM nanofiltration membranes presented in earlierstudies [28,29] showed a high retention of OMPs but rather lowpermeability. They were mostly assembled as symmetric polyelectrolytemultilayer membranes, which means the coating conditions were thesame throughout the process. In Table 1, previous work on polyelectrolyte multilayers on ceramic membrane supports is compared withthe here presented work.In this work, we designed a ceramically supported polyelectrolytemultilayer membrane to achieve high micropollutant retention andincreased permeability. Poly (allylamine hydrochloride) (PAH) and poly(styrene sulfonate) (PSS) are used as polyelectrolytes to coat symmetric,asymmetric, and reverse asymmetric PEMMs. The multilayer membranes were produced at different ion strength by varying the concentrations of the background ion (NaCl). In a cross-flow filtration setup,the retention of different salts and a broad range of organic micropollutants (20 substances) were studied.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n (NaCl). In a cross-flow filtration setup,the retention of different salts and a broad range of organic micropollutants (20 substances) were studied. In contrast to the typicalasymmetric membrane coating found to be most effective on polymericmembranes, we found a higher retention of OMPs for reverse asymmetric membranes. 2. Experimental 2.1. Chemicals Poly (styrene sulfonate sodium salt) (PSS) with a molecular weight of1,000,000 Da and magnesium chloride were provided by Sigma Aldrich(Darmstadt, Germany). Poly (allylamine hydrochloride) (PAH) with amolecular weight of 50,000 Da was provided by Nittobo (Tokyo, Japan).Sodium chloride (NaCl), magnesium sulfate (MgSO4), tris(hydroxymethyl)aminomethane (TRIS), and sodium acetate (NaAc) were provided by Roth (Karlsruhe, Germany. Sodium sulfate was purchased from",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 1Comparison of polyelectrolyte multilayer membranes on ceramic supports in recent literature. ReferenceYearPolyelectrolyte SystemPermeability (L/h m2 bar)MWCO(KDa)Maximum RetentionsRemarks\n\n[ФОРМУЛА: [FORMULA_ID: a5a89ec4-d38a-40e5-a0a3-ee3ceaba4d5b] [8] 2008 (PDADMAC/PSS)4 + (PAH/ PSS)1]\n\n7.4N/A95 % MgCl2Asymmetric system\n\nDynamic coating\n\n[ФОРМУЛА: [FORMULA_ID: ed0a5bcd-0792-4c4d-9f17-546a5405a179] [36] 2021 (PAH/PVS)8 N/A 115 95 % MgCl2 95 % Na2SO4 70 % NaCl]\n\nDynamic coating\n\nDynamic coating, reverse asymmetriccoating\n\nR. Niestroj-Pahl et al.Journal of Membrane Science 713 (2025) 123366",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Chemsolute (Roskilde, Denmark) and Diclofenac from TCI (Eschborn,Germany). Paracetamol was purchased from European Pharmacopoeia(Strasbourg, France); and sotalol and amisulpride from British Pharmacopoeia (London, United Kingdom). All other OMPs were purchasedfrom Sigma Aldrich (Darmstadt, Germany). LCMS grade methanol wasprovided by Thermo Fisher Scientific (Waltham, USA), ammonium acetate by Sigma Aldrich (Darmstadt, Germany), and acetic acid by BoomB.V. (Meppel, The Netherlands).Ultra-pure water was produced in an ElgaLab device by Veolia(Aubervilliers, France). 2.2. Materials For the Whispering Gallery Mode (WGM) experiments, we usedspecific fluorescent 10 μm polystyrene particles (Surflay Nanotec GmbH,Berlin, Germany).Ceramic ultrafiltration membranes (see supplementary information,Figure SI1) were kindly provided by Nanostone Water GmbH, Germany.The separation layer of the provided tubular membranes is made ofalpha-aluminum oxide (Al2O3). The tubes have a diameter of 8 mm andan active length of 280 mm, leading to a surface area of 0.007 m2. Thenominal pore diameter is 30 nm and was a result of measuring virusretention. However, in a recent study, the pore size and pore-size distribution of the Nanostone monotube membranes were determined bycapillary flow porometry [29]. The study found 128 nm being the meanpore size with a distribution between 59 and 215 nm. The initial purewater permeability is ~1600 L/m2 h bar. 2.3.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The study found 128 nm being the meanpore size with a distribution between 59 and 215 nm. The initial purewater permeability is ~1600 L/m2 h bar. 2.3. Whispering Gallery Mode (WGM) measurements The kinetics and quantity of LbL assembly were measured by WGM.The device (WhisperSense) was developed and built by Surflay NanotecGmbH, Germany. The physical background of WGM and how to usethem for sensing are described elsewhere [37,38]. Briefly, a laser pulseexcites the fluorescence labeled sensor of 10 μm diameter. The inducedfluorescence emission is partly totally reflected on the inner particlesurface. The light circles up to 10,000 times around the particle until itescapes. Only wavelengths, which are in resonance with particle sizeand refractive index form narrow WGM peaks. The resonance wavelength is continuously measured. Adsorbing molecules shifts the resonance frequency to longer wavelengths depending on the number ofadsorbed molecules. Due to the small diameter, already attomoles(10-18) of polymer molecules yield a measurable shift of the frequency.Hence the system can measure the polyelectrolyte adsorption verysensitively and with a time resolution of 100 ms.The sensor particles were functionalized with one layer of PSS andsubsequently with two bilayers of (PAH/PSS).",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ly and with a time resolution of 100 ms.The sensor particles were functionalized with one layer of PSS andsubsequently with two bilayers of (PAH/PSS). 1 g/l polyelectrolyte in a50 mM sodium acetate buffer of pH 5.6 with 0.2 M NaCl was used for thepre-coating which ensures an even distribution of charges and facilitatesthe deposition of the next layers because the first layers on a substratecan grow differently from the rest [39].A polyelectrolyte concentration of 1 g/L and a flow rate of 80 μl/minwas used for the measurement. For the symmetric coating, eight bilayersof PAH/PSS without any added NaCl or with 0.5 M NaCl were assembled. The pH of the solutions was adjusted to 7. In between the coatingsteps, the particles were washed with deionized water or 0.5 M NaCl inwater.The overall deposited mass for different salt contents was detected bystatistical measurement of 10 individual particles. The kinetic measurements were performed with only one particle.The data analysis was done with the NBA_FIT_WGM_kinetics software, provided by NanoBioAnalytics, Berlin, Germany. The amount ofadsorbed mass can be estimated by using the formulas described byHimmelhaus et al. [40]. The mode shift is calculated by the abovementioned software. Now the change in particle radius is calculated by:",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "With the measured mode shift Δλm, the refractive index ns and m theinteger mode number, the change in particle radius, ΔR can be calculated. By using equation (2), the surface mass density σ can becalculated: σ = ρ (R + ΔR)3 -R3 R2(2) With ρ the mass density of the adsorbate and R the radius of thesensor. The adsorbed mass density is given in mg/m2. 2.4. Polyelectrolyte multilayer coating The ceramic ultrafiltration membranes were coated dynamically byflushing the coating solutions through the membrane in dead-end modewith a fixed transmembrane pressure (TMP) of 1 bar. For this, the Surflay NanoCoater (Surflay, Berlin, Germany) was used. The machine isoperated by air pressure and valves that direct the coating and washingsolutions through the membrane. The automatic coating system (Fig. 1)is controlled by a self-written computer program (VBA) that sends thecommands to the microcontroller, which triggers the valves. Pre-definedprograms are used to ensure exact reproducible coating sequences ofeach membrane.For the polyanion PSS, the coating solution consisted of 0.1 g/L ofPSS in pure water or water with 0.5 M NaCl. For the polycation PAH, 0.1g/L was in deionized water with or without 0.5 M NaCl. Afterward, thepH was adjusted (Orion VersaStar, Thermo Scientific, USA) to pH 7 byusing 0.5 M NaOH. The program consists of several steps of coating andwashing. Since the membrane is negatively charged at pH 7, the firstpolyelectrolyte is the polycation (PAH).",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "m consists of several steps of coating andwashing. Since the membrane is negatively charged at pH 7, the firstpolyelectrolyte is the polycation (PAH). The first layer is applied withoutany pressure, i.e. the coating solution is only contacted with the membrane for 5 min, without filtering it through the pores. For all othersteps, except the first one, solutions are filtered through the membranefor 5 min with 1 bar of applied pressure (dead-end mode).After each coating step, the membrane is washed for 30 s with pure,deionized water, then for 15 s break, and again for 30 s with pure water.Then, the washing solution is flushed out with compressed air and thenext coating step begins.The experiments were done in triplicates, i.e. three individualmembranes were coated and tested for each parameter, error bars wereused to denote the standard deviation. 2.5. Scanning electron microscopy images Scanning electron microscopy samples were prepared from PEMcoated ceramic supports. The membranes were cryogenically cooled inliquid nitrogen for 5 min. Upon removal, they were immediately fractured using a hammer. Fragments exhibiting clearly defined crosssections were selected for subsequent analysis. The samples were thenplaced in sample holders and dried at 30 ◦C for 14 h in a vacuum oven.Post-drying, the samples were sputter-coated with a 5 nm layer of Pt/Pdunder specified conditions (Q150T ES, Quorum, US).",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "◦C for 14 h in a vacuum oven.Post-drying, the samples were sputter-coated with a 5 nm layer of Pt/Pdunder specified conditions (Q150T ES, Quorum, US). Scanning electronmicroscopy (SEM) images were obtained using a Jeol JSM-6010LAScanning Electron Microscope (JEOL, Japan). 2.6. Molecular weight cut-off (MWCO) To gain information on the (effective) pore size of the PEM (polyelectrolyte multilayer), we measured the retention of molecules ofvarious molecular weights, determining their concentrations throughgel permeation chromatography (GPC) measurements. Ethylene glycol,diethylene glycol, and Poly (ethylene glycol) (PEG) ranging from 200 to2000 Da at a concentration of 1 g/L for each substance were mixed andfiltered through the membrane. The permeate and feed samples were",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "R. Niestroj-Pahl et al.Journal of Membrane Science 713 (2025) 123366 analyzed using an Agilent 1200/1260 Infinity GPC/SEC series chromatography device. Two columns were used in a serial setup: Suprema 8 *300 mm–1000 Å, 10 μm followed by 30 Å, 10 μm (Polymer StandardsService GmbH). The columns were operated at a flow of 1 mL min-1. Thecolumns were followed by a refractive index (RI) detector. The refractiveindex value changes linearly with the concentration of the PEG and wasused to measure the PEG content in the feed and the permeate. A feedsample before and after the permeate collection was used to calculatethe sieving curve and the MWCO of the sample.The sieving curve was calculated from the signal intensity of threeindividual sample membranes, divided by the signal intensity of thefeed. The values were then plotted over the molecular weight. Themolecular weight at the point where the curve reaches 0.1 (10 %) is themolecular weight at which 90 % of the PEG is rejected. That is defined asthe molecular weight cutoff of the membrane. 2.7. Permeability, salt, and diclofenac retention Pure water permeability was measured with ultrapure water in across-flow filtration setup with a pressure of 2 bar and a cross-flow velocity of 0.7 m/s at 20 ◦C. The collection vessel was weighed (SBS-LW2000A, Steinberg, Germany) empty and after a certain permeatecollection time, the vessel was weighed again. The permeability wascalculated according to: permeability =mpρ * A * t * ΔP [Lm-2 * h * bar",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Where mp is the mass of the permeate and ρ the density of water at20 ◦C (1000 g L-1), A is the active surface area of the membrane in m2, tis the sampling time in h and ΔP the applied transmembrane pressure inbar for the filtration. For PWP, three measurements were performed.Salt retention was measured using the same filtration setup as for thePWP and with single-salt solutions of 5 mM NaCl, MgSO4, Na2SO4, andMgCl2 respectively. The membranes were equilibrated by filtering thesalt solutions for 20 min prior to measurements. Permeability (seeabove) and retention values were obtained by measuring the conductivity using a conductometer (Knick PortaCond, Germany). It wascalculated by Retention =(1 -cp cf )* 100 %(4) With cp, the permeate and cf, the feed conductivity.For standard testing, the model OMP diclofenac was used. 100 mgwere dissolved in 1 ml methanol and added to 5 L of 5 mM MgSO4 inultrapure water. The retention was measured by UV absorbance (Cary50, Varian, USA). 1 ml of feed solution was filled in a quartz glasscuvette and the absorbance value of the feed and of the permeate wasmeasured at 278 nm. Retention =(1 -Ap Af )* 100 %(5) With Ap the absorbance in the permeate and Af the absorbance in thefeed. For salt and diclofenac retention, four measurements were performed. Feed samples were taken at the beginning and the end of the collection time, and the average was calculated. 2.8.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n, four measurements were performed. Feed samples were taken at the beginning and the end of the collection time, and the average was calculated. 2.8. Retention of organic micropollutants To test the OMP retention, a mix of 20 organic micropollutants ofdifferent sizes and charges at a concentration of 50 μg/L each wasfiltered at pH 5.6 through the membrane in crossflow mode (0.7 m/s, 2bar) using a rotary vane pump (BN71B4 pump motor, Bonfiglioli, Italy;IMTI 1.5 M inverter, Electroil, Italy; PA411 pump head, Fluid-o-Tech,Italy). After 30 h of equilibration, to ensure stable retention unaffected by adsorption, feed and permeates were collected, and a calibration curve (1x, 2x, 10x, 20x, and 100x dilution) was prepared fromthe feed sample.All samples were analyzed by UHPLC (Dionex Ultimate 3000, using agradient of 1.9 mM ammonium acetate and 0.1 mM acetic acid in wateragainst pure methanol, 0.5 mL min-1) equipped with a Thermo Scientific Accucore C18 guard column (2.6 μm, 2.1 * 10 mm) and a ThermoScientific Acclaim RSLC Polar Advantage analytical column (2.2 μm, 2.1* 100 mm), and followed by MS detection with a Thermo Scientific TSQQuantis triple quadrupole mass spectrometer with heated electrosprayionization. The OMPs were quantified in a single reaction monitoringmode for the precursor-product transition with the highest intensity.The calibration curve was analyzed both before and after the permeatesamples to account for changes in sensitivity.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nsition with the highest intensity.The calibration curve was analyzed both before and after the permeatesamples to account for changes in sensitivity. The entire sequence wasrun once in negative ionization mode for the quantification of bisphenolA, ibuprofen, naproxen, and salicylic acid with 50 μl injection volumes,and once in positive ionization mode for all other OMPs, with 10 μlinjection volumes. 3. Results and discussion To compare the different coating types, model surfaces (WGM sensors) and ceramic membrane supports were coated. The membraneproperties were characterized by permeability, molecular weight cutoff, salt retention, and organic micropollutant retention. 3.1. Polyelectrolyte multilayer growth on model surfaces The different multilayer types were studied on model surfaces usingthe WGM technique.By analyzing 10 individual particles, the amount of deposited polyelectrolytes in salt-free condition was 9.4 ± 0.91 mg/m2 after 8 bilayers.Assembled at 0.5 M NaCl, the analysis of 9 individual particles showedan adsorption of 35.6 ± 0.52 mg/m2 also after 8 bilayers.In Fig. 2, the amount of deposited polyelectrolyte (mg/m2) on theWGM sensor, was plotted over the layer number. Symmetric layers withhigh and low ionic strength and asymmetric layers were coated asdescribed above.The overall amount of deposited mass is about 4.5 mg/m2 for thesymmetric coating with 0 M NaCl and 36 mg/m2 for the symmetriccoating with 0.5 M NaCl (Fig. 2A).",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ll amount of deposited mass is about 4.5 mg/m2 for thesymmetric coating with 0 M NaCl and 36 mg/m2 for the symmetriccoating with 0.5 M NaCl (Fig. 2A). These results are expected, becausethe thickness of the polyelectrolyte multilayers is strongly dependent onthe concentration of background ions [41].For the reverse asymmetric layers, the increase of adsorbed polymer Fig. 1. Automatic coating system for membranes.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "R. Niestroj-Pahl et al.Journal of Membrane Science 713 (2025) 123366 is low for salt-free layers and increases rapidly when changing to 0.5 MNaCl. The opposite behavior is observed for the asymmetric layers(Fig. 2B). The difference in overall deposited mass is most probablyrelated to differences in the coating of the individual particle and notstatistically proved. However, the overall amount of adsorbed polymeris lower than for the symmetric coating with 0.5 M NaCl.We see a linear growth of the layers, as expected from the literature[27,42,43]. Linear growth indicates a low degree of mobility of the usedpolyelectrolytes in the multilayer. As the weight per monomer for PAH isabout three times smaller than for PSS (see Table 2), this indicates amonomeric excess in the layer of PAH as described in the literature [43].The calculated monomeric excess is shown in the supplementary information, Figure SI3. There is clearly a higher amount of PAH in themultilayer.Since the mode shift is directly correlated to the radius of the particles, the thickness of the adsorbed layer can be calculated using formula (1). For 8 bilayers at 0.5 M NaCl, the calculated thickness on themodel surface is 25.81 nm. When coated without salt, the calculated thickness reduces to 2.78 nm. For the asymmetric membrane, thethickness was 13.98 nm and for the reverse asymmetric membrane itwas 15.82 nm.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "alculated thickness reduces to 2.78 nm. For the asymmetric membrane, thethickness was 13.98 nm and for the reverse asymmetric membrane itwas 15.82 nm. However, we suppose the thickness of the layers on themembrane are thicker, mainly because of increasing local concentrationof the polymers due to dynamic coating and different charge of themembrane compared to model surfaces.The salt content during the multilayer assembly plays, together withother factors, a key role in the structure of the final multilayers [17,41].Techniques like quartz-crystal microbalance (QCM), surface plasmonresonance (SPR), and reflectometry show comparable results for polyelectrolyte multilayers [18,41,44,45]. The reason for the difference inlayer thickness is the complexation mechanism, which is based on eitherintrinsic or extrinsic charge compensation. At low ionic strength, thepolyelectrolytes will bind mostly to the oppositely charged polymerspecies due to the lack of counter-ions. When counterions (in the form ofsalt ions) are available, they will screen charges in the polymer and theresulting complexes are thicker and less dense. The adsorbed mass forpolyelectrolytes will also increase because, with fewer charges, morepolymer is needed to compensate them [41], which can be seen in Fig. 2.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Polyelectrolyte multilayer growth on ceramic supports The effect of membrane formation on pure water permeability (PWP)and retention of magnesium sulfate and diclofenac, was measured aftereach additional bilayer (growth curve) coated on the ceramic support.\n\nFig. 2. Adsorbed mass (mg/m2) over layer number for PAH/PSS layers. filled = PAH, hollow = PSS. A) without NaCl (squares) and for PAH/PSS layers with 0.5 MNaCl (circles). B) layer buildup for asymmetric (circles) and reverse asymmetric (squares). Table 2Molecular weights, number of monomers units per polymer (n), and contourlength Lcont of the polyelectrolytes used for membrane coating. PolyelectrolyteMolecular weight of the monomer (g/mol)nLcont (nm) PAH 50,00057.09876220PSS 1,000,000183.1954591370\n\nFig. 3. Permeability and retention for different bilayer numbers of A) symmetric PEMM with increasing layer number and B) reverse asymmetric PEMM. Resultswere obtained with 5 mM MgSO4 and 20 mg/L Diclofenac. Cross-flow velocity 0.7 m/s and pressure of 2 bar. Error bars indicate the standard deviation of 3 individual membranes with the same number of bilayers. R. Niestroj-Pahl et al.Journal of Membrane Science 713 (2025) 123366",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "For each layer number, separate membranes (in triplicate) were used.The layers were assembled by dynamic coating except for the first layerfor all three membrane types. The same coating conditions as in theWGM experiments were applied, except for a 10 times lower polyelectrolyte (PE) concentration.The PWP of the symmetric membrane, assembled in 0.5 M NaCl,decreases rapidly for the first two bilayers (Fig. 3 A). This is attributed toa rapid closure of the support pores since the layer thickness is muchhigher at high ionic strength in the coating solutions (Fig. 2). After therapid initial decrease, the permeability drop is slowed down until itreaches 4.6 L/m2 h bar at the final eight bilayers.The retention of MgSO4 and diclofenac also increases very fast withthe bilayer number. After four bilayers, the membrane already showed59 % MgSO4 and 60 % diclofenac retention, which is attributed to thethicker layers that more quickly close the pores of the membrane support. When enough layers are deposited to build a defect-free membrane, the retention reaches a maximum and does not increase further.This state is described by de Grooth as a “layer-dominated regime” [17].However, as the MgSO4 and diclofenac retention still increases, thePEMM is at four bilayers still in the pore-dominated regime, whichmeans the layers contain still defects. The layer-dominated regime isreached only after eight bilayers of PE.The permeability of the reverse asymmetric membranes decreasesmuch slower (Fig.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". The layer-dominated regime isreached only after eight bilayers of PE.The permeability of the reverse asymmetric membranes decreasesmuch slower (Fig. 3 B). This is attributed to the low ionic strength in thecoating solutions of the first four bilayers. As discussed before, at lowionic strength the layers are thin because of a high degree of intrinsiccompensation. With higher intrinsic compensation, the effective pore size decreases [46]. De Grooth et al. [17] showed this by comparing theadsorbed mass (reflectometry) with the pure water permeability ofassembled membranes. For the same amount of adsorbed mass, theyfound decreased permeability for layers assembled with 0.005 M NaClcompared to layers assembled with 0.5 M NaCl in the coating solution.However, in our case, the permeability for the salt-free layers is stillvery high, because the thin layers cannot block the pores of the supportmembrane completely and either lay over the pores or build a lininginside the pores. Therefore, the retention for the reverse asymmetricmembrane (Fig. 4B) was not measured for bilayers 1–3 because noretention was expected. At four bilayers of PAH/PSS under salt-freeconditions resulted in a retention of just 1 % MgSO4 and 4 % diclofenac. Again, this is a result of a polyelectrolyte multilayer with manydefects, i.e. the support pores are not completely overcoated.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "O4 and 4 % diclofenac. Again, this is a result of a polyelectrolyte multilayer with manydefects, i.e. the support pores are not completely overcoated. Whenbuilding enough layers, the pores would be completely overcoated, butthe permeability would be much lower, which de Grooth showed [17].When reaching eight bilayers, the reverse asymmetric membrane (Fig. 3B) shows a PWP of 8 L/m2 h bar and a MgSO4 retention of 90 %.Interestingly, the PEMM reaches the layer-dominated regime within 8bilayers.Hence, at the final number of bilayers, both membrane types showcomparable retention for MgSO4 and diclofenac (both between 80 and90 %), while as mentioned before, the PWP for the reverse asymmetricsystem is nearly twice as high as for the symmetric system. It is relevantto study these membranes in more detail.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. SEM images of uncoated membranes. A = Membrane structure overview with ceramic support (bottom), intermediate layer (middle) and filtration layer(top). Magnification 0.5K. B= Filtration layer of the uncoated membrane in angular view. Magnification 8K.\n\nFig. 5. SEM images of a membrane with PAH/PSS reverse asymmetric coating. There are 8 Bilayers of PAH/PSS with first 4 BL in salt-free conditions and last 4 BLwith 0.5 M NaCl. A = Coated top-layer of the membrane in 8K magnification. B = Coating layer in 15K magnification. R. Niestroj-Pahl et al.Journal of Membrane Science 713 (2025) 123366",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. SEM images The PEM could be identified as a sort of “veil” or polymeric “blanket”on top of the filtration layer of the membrane support (Fig. 5), which isabsent on uncoated membrane supports (Fig. 4). 3.4. Membrane performance and cut-off characteristics To compare the different membranes, the salt retentions and PWP ofsymmetric, asymmetric, and reverse asymmetric designs were studied inmore detail. The symmetric membranes without added NaCl show ahigh permeability (40 L/h m2 bar) and almost no retention for MgSO4.Other ions were not measured and there is a similar retention expected.Symmetric membranes with 0.5 M NaCl show much lower permeability because of the higher deposited mass of the polyelectrolytes (seeFig. 2) and the expected higher thickness of the layers, which leads toclosure of the support pores and a higher resistance for water molecules.Interestingly, the asymmetric and reverse asymmetric membranes havealmost twice the permeability of the symmetric membrane (Fig. 6 A).The reason is the lower amount of adsorbed material for the asymmetricand reverse asymmetric membranes (Fig. 2A and B) and therefore thelower resistance to the water molecules. Without added NaCl, lesspolyelectrolyte is adsorbed to the surface.On the right y-Axis in Fig. 6 A, the molecular weight cut-off (MWCO)is shown. For symmetric and reverse asymmetric membranes, theMWCO is very similar (234 ± 7 and 224 ± 2 Da).",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "g. 6 A, the molecular weight cut-off (MWCO)is shown. For symmetric and reverse asymmetric membranes, theMWCO is very similar (234 ± 7 and 224 ± 2 Da). Both membrane typesseem to have mostly defect-free coatings, which can be seen from thesieving curves (Figure SI4). This low molecular weight cut-off combinedwith high permeability are unprecedented results for ceramic membranes (compare Table 1). For the symmetric membrane, a transmissionof about 0.03 is still monitored for 1000 Da MW, which is possibly asmall leakage of the module. The asymmetric membrane showed defectsand the sieving coefficient dropped not below 0.1 until molecular weightof 2000 Da (which is the biggest PEG that was used for filtration). But wecan still see a good salt and decent OMP retention (for OMP retention seenext section)To characterize the membrane retention further, the retention ofsingle salt solutions was measured. In Table 3, retentions for single saltsolutions (5 mM) are listed for different layer designs.For nanofiltration membranes, there are three known separationmechanisms: steric hindrance, Donnan exclusion and dielectric exclusion. Steric hindrance is influenced by the pore diameter and excludesmolecules by size. In Donnan exclusion, the Donnan potential of the membrane governs the rejection of molecules. Here, the charge of theterminating polyelectrolyte layer is decisive.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lusion, the Donnan potential of the membrane governs the rejection of molecules. Here, the charge of theterminating polyelectrolyte layer is decisive. Dielectric exclusion is arejection mechanism that occurs when there is a difference in thedielectric properties of the membrane and the solvent. It is caused by anenergy barrier, that can only be overcome when the ions shed theirhydration shell, unrelated to the ions charge.The experimental results show that retentions for salts are highest forthe symmetric membranes and the reverse asymmetric membranes. Saltretention for the asymmetric membranes was noticeably lower. Thereason for the better retention of the symmetric membrane is probablythe thickness of the multilayer (Fig. 2), which is already in the layerdominated regime, which means the pores of the membrane supportare defect-free overcoated with the polyelectrolyte multilayers. Surprisingly, this seems to be also the case for the reverse asymmetricmembrane, which also showed very good retentions.The retention mechanisms can be explained by the individual retentions for monoand divalent salt ions. MgSO4 consists of two divalentions. High retention for MgSO4 indicates dielectric exclusion as the mainretention mechanism or a combination of Donnanand dielectricexclusion.The highest retention was measured for MgCl2, although the terminating layer of the membrane is negatively charged.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n of Donnanand dielectricexclusion.The highest retention was measured for MgCl2, although the terminating layer of the membrane is negatively charged. In PEM membraneswhere the main retention mechanism is Donnan exclusion, the retentionof charged species depends strongly on the charge of the terminatingpolyelectrolyte layer. In membranes which are dominated by dielectricexclusion mechanism, the charge of the terminating layer is lessimportant but the types of polyelectrolytes that form the membrane. Itwas shown before, that membranes made of PAH/PSS show distinctdielectricexclusionproperties[36,43,47].PEMMscomposedofPAH/PSS show an overcompensation of the PSS by the PAH [48–50],which means that the net charge is positive, even when they areterminated by PSS [20]. Divalent cations are therefore very wellretained, and the corresponding anion will also be retained.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. Permeability and MWCO (A) and retention for 5 mM single-salt solutions (B). Cross-flow filtration of single salt solutions at 2 bar. Error bars indicate thestandard deviation of 3 individual membranes with the same coating conditions.\n\nR. Niestroj-Pahl et al.Journal of Membrane Science 713 (2025) 123366",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "For Na2SO4, the divalently negative SO42-is expected to dominate theretention behavior. The low retention is in line with the expected positive bulk layer of the PAH/PSS layers, indeed a monomeric excess of thepolycation was found in the layer growth experiments on model surfaces(Figure SI 3).NaCl retention is highest for the reverse asymmetric membrane. Bothions, Na+ and Cl-, are monovalent. As mentioned before, the datasuggests the PEMM has a positive bulk charge. When retaining thepositive Na+, Cl-must be retained as well to remain charge equilibrium.The single salt retention results are consistent with those of otherworks [35,43] and are typical for an anion-terminated (PAH/PSS)membrane. The consistent outperformance of the reverse asymmetricover the asymmetric membrane is surprising, as a similar amount ofmaterial is coated (Fig. 2). Why would the same amount of material inone case still allow defects (asymmetric) while for the other the defectsare fully closed? We will discuss this further after looking at the retention of OMPs. 3.5. OMP retention To determine their relevance for organic micropollutant retention,the asymmetric and the reverse asymmetric membranes were studied. Acocktail of 20 OMPs, with varying sizes, charges, and degrees of hydrophobicity was studied, and the retention was determined for eachcompound. In Fig. 7A and B, the molecular weight increases from left toright, and the charge from negative to neutral and positive.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "determined for eachcompound. In Fig. 7A and B, the molecular weight increases from left toright, and the charge from negative to neutral and positive. For moredetails see the retention per compound in supplementary information,table SI1. Overall, higher molecular weight and positively chargedOMPs were retained better.This finding is in line with the expected overcompensation of PAH inPAH/PSS films [48]. The bulk charge of the multilayer is positive,excluding positively charged molecules better than neutral or negativelycharged ones.In Table 4, the average retentions for asymmetric and reverseasymmetric membranes are shown. More detailed retention values andphysicochemical properties can be found in Table SI 1.Overall, a very good micropollutant retention was seen for thereverse asymmetric membrane, suggesting that the reverse asymmetricdesign has an advantage over the asymmetric. The improved retention isrelated to the multilayer structure of the reverse asymmetric membrane.As seen in the sieving curves of the MWCO measurement (Fig. 6), theasymmetric membrane shows still defects, whereas the reverse asymmetric membrane can retain PEG molecules as small as 200 Da. Notably,both membranes have the same number of layers but a different order.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.6. Proposed structural properties of the PEMM A schematic illustration of the studied systems is provided in Fig. 8.By coating ceramic ultrafiltration membranes with the same ionicstrength throughout all layers, symmetric PEMMs were assembled(Fig. 8 left). By coating four bilayers using high ionic strength (0.5 MNaCl) and then four bilayers with low ionic strength (0 M NaCl),asymmetric PEMMs were assembled (Fig. 8 middle). Finally, by coatingthe opposite order, reverse asymmetric PEMMs were produced (Fig. 8right).Polyelectrolytes at zero ion strengths have stiff chains and highpersistence lengths due to strong repulsion of the charged monomerspecies through space.The calculated molecule length (for calculation details see SI) of PAHand PSS at 50,000 or 1,000,000 molecular weight shows that, when fullystretched, the polymers are long enough to overcoat the pores and toprovide a network structure to prevent the blocking of the pores(Table 2). In a highly ionized state, the polymers are expected to show anelongated structure of roughly ¾ of the overall length (contour length) ofthe polymer [51]. Furthermore, PSS shows a higher stiffness because ofan increased persistence length, which further reduces the probability ofinner wall coating [52]. If the stiff, stretched polymers at low ionstrength are adsorbing to the ceramic surface, the pores of the substrateare hardly entered, and the stiff chains yield a mesh like structure withinthe LbL film.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e adsorbing to the ceramic surface, the pores of the substrateare hardly entered, and the stiff chains yield a mesh like structure withinthe LbL film. Hence, the permeability keeps high, but the retention islow.In contrast, shielding of the monomer charges by high ion concentration as in the symmetric coating, yields high flexibility of the chainsand therefore a transition to a thermodynamically more stable sphericalshape is preferred. The flexible polyelectrolytes can enter the substratepores (Nanostone ceramic UF support: 59–214 nm) partly, at least thelarger ones, resulting in reduced permeability and some retention. Thisresults in the effective blocking of the pores and thus, brings the PEMM",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. Measurement of the micropollutant cocktail containing 20 individual OMPs at a concentration of 50 μg/L concentration with A) the asymmetric and B) thereverse asymmetric membrane. Cross-flow velocity 0.7 m/s and pressure of 2 bar. Error bars indicate the standard deviation of 3 individual membranes with the samelayer design.\n\nTable 4OMP average retentions measured for asymmetric and reverse asymmetricmembranes. Asymmetric (%retention)Reverse asymmetric (%retention) Negativelycharged59 ± 1368 ± 10 Neutral80 ± 490 ± 3Positively charged92 ± 398 ± 1 Average77 ± 1485 ± 13",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "R. Niestroj-Pahl et al.Journal of Membrane Science 713 (2025) 123366 into the layer-dominated regime.In the case of the asymmetric system, during coating the high ionstrength polyelectrolytes enter the pores until all pores are filled. Thisbase layer is not in the layer-dominated regime and therefore gives notthe maximum retention. For subsequent polyelectrolytes, at zero ionstrength, form a mesh like structure with almost no retention. Thatmeans, the retention is dominated by the base layers.We showed previously that asymmetric top layers of the samepolyelectrolyte system, assembled in 50 mM NaCl, have no advantagefor micropollutant retention [27]. The asymmetric top layer in thiswork, assembled at 0 M NaCl, shows comparable results (Fig. 7).The hypothesis for the reverse asymmetric layers is that in the first,zero ion-strength coating type, thin and stretched polyelectrolytes (PAH:220 nm and PSS: 1370 nm) either overcoat the pores or form mesh-likesupport structures inside the membrane pores (Fig. 8). The beneficialeffects as shown here for reverse asymmetric systems are thus especiallyexpected when the Mw of the used polyelectrolytes is large. The subsequent filtration layers with a high ionic strength (0.5 M NaCl) are thickand can overcoat the mesh structure. All defects are closed, which issupported by the low MWCO of this membrane.Menne et al.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "gth (0.5 M NaCl) are thickand can overcoat the mesh structure. All defects are closed, which issupported by the low MWCO of this membrane.Menne et al. tested the reverse asymmetric approach for the PDADMAC/PSS system, also on ceramic membranes, and found higherpermeability and better performance. The ceramic membranes Menneused had an even higher nominal pore size of 100 nm, nonetheless, hesaw an improved permeability over the symmetric coating. Menne saw asimilar behavior of the permeability when coating with high and low ionstrength, but hypothesized that salt-free layers attach on the inner sidesof the pores and lower their diameter [31]. In the case of 100 nm poresize that seems reasonable but for our 30 nm pores we propose that inlow ionic strength, stretched polyelectrolytes would rather overcoat themembrane pores or build support structures inside the pores. This hypothesis is also supported by the results of the MWCO measurements,where the asymmetric membrane shows strong defects but the reversedasymmetric membrane has a very low cut-off (Fig. 6 A). The same is truefor the OMP retentions (Fig. 7).We tested the procedure on polymeric supports (refer to Figure SI4)with 10 kDa PES/SPES membranes (NX-Filtration, The Netherlands) andfound no evidence of improved efficiency. The principle is thereforebased on the order and the salt content of the layers and is also only validfor ultrafiltration supports with rather big pores.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Conclusions and outlook Reverse asymmetric PEMM on ceramic membrane supports achieveunprecedented high permeability with an MWCO of 224 Da resulting inan excellent micropollutant retention (average 85 ± 13).We prepared asymmetric membranes with a salinity gradient andnoticed a distinct difference when coating them in different order. Bycoating first thick, high-salt containing layers and then salt-free layers,the resulting membranes showed significant defects. By applying a saltfree bottom layer and coating the subsequent layers with 0.5 M NaCl,leads to mostly defect-free PEMM. We propose that these, at low ionicstrength very stretched polyelectrolytes, form a support structure on theceramic membrane. Our results indicate that for different membranesupports, different coating strategies are necessary to gain the highestpermeability and best micropollutant retention.Because no evidence for the proposed principle on polymeric supports was found, we attribute the effect to the pore size and the ceramicsupport. In future studies, the reverse asymmetric coating can be studiedon ceramic supports with different pore sizes and using polycations withhigher molecular weights. The design of polyelectrolyte layers offersmuch room for further research.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "th different pore sizes and using polycations withhigher molecular weights. The design of polyelectrolyte layers offersmuch room for further research. For example, multi-asymmetric membranes on ceramic supports could be prepared by using first salt-freepolyelectrolytes, then high salt content, and again a different polyelectrolyte pair in lower salt content to build dense top layers for efficient separation of pollutants. CRediT authorship contribution statement Robert Niestroj-Pahl: Writing – original draft, Methodology,Investigation, Formal analysis, Conceptualization. Esra te Brinke:Writing – review & editing, Investigation, Formal analysis. HannahRoth: Writing – review & editing, Supervision, Conceptualization. LarsD¨ahne: Writing – review & editing, Supervision, Funding acquisition.Wiebe M. de Vos: Writing – review & editing, Supervision, Fundingacquisition. Declaration of competing interest The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:Early career editorial board member, Journal of Membrane Science,Dr. Hannah Roth. The other authors declare that they have no known",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[40] M. Himmelhaus, S. Krishnamoorthy, A. Francois, Optical sensors based onwhispering Gallery modes in fluorescent microbeads: response to specificinteractions, Sensors 10 (2010) 6257–6274, https://doi.org/10.3390/s100606257.[41] J.B. Schlenoff, S.T. Dubas, Mechanism of polyelectrolyte multilayer growth: chargeovercompensation and distribution, Macromolecules 34 (2001) 592–598, https://doi.org/10.1021/ma0003093.[42] J. Ruths, F. Essler, G. Decher, H. Riegler, I. Polyelectrolytes, Polyanion/polycationmultilayers at the air/monolayer/water interface as elements for quantitativepolymer adsorption studies and preparation of hetero-superlattices on solidsurfaces, Langmuir 16 (2000) 8871–8878, https://doi.org/10.1021/la000257a.[43] D.M. Reurink, J.D. Willott, H.D.W. Roesink, W.M. de Vos, Role of polycation andcross-linking in polyelectrolyte multilayer membranes, ACS Appl. Polym. Mater. 2(2020) 5278–5289, https://doi.org/10.1021/acsapm.0c00992.[44] F. Caruso, K. Niikura, D.N. Furlong, Y. Okahata 1, Ultrathin multilayerpolyelectrolyte films on gold: construction and thickness determination, Langmuir13 (1997) 3422–3426, https://doi.org/10.1021/la960821a.[45] J. Salopek, A. Sadˇzak, D. Kuzman, J. Poˇzar, D. Kovaˇcevi´c, Polyelectrolytemultilayers on silica surfaces: effect of ionic strength and sodium salt type, Croat.Chem. Acta 90 (2017), https://doi.org/10.5562/cca3179.[46] J.B. Schlenoff, H. Ly, M. Li, Charge and mass balance in polyelectrolytemultilayers, J. Am. Chem. Soc.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[47] J.A. Regenspurg, W.A. Jonkers, M.A. Junker, I. Achterhuis, E. Te Brinke, W.M. DeVos, Polyelectrolyte multilayer membranes: an experimental review, Desalination583 (2024) 117693, https://doi.org/10.1016/j.desal.2024.117693.[48] H. Riegler, F. Essler, Polyelectrolytes. 2. Intrinsic or extrinsic chargecompensation? Quantitative charge analysis of PAH/PSS multilayers, Langmuir 18(2002) 6694–6698, https://doi.org/10.1021/la020108n.[49] R. He, J. Chen, C. Zhang, D. Lu, L. Zhang, T. He, Quantification ofovercompensated cations in layer-by-layer membrane by Orange yellow II, Separ.Purif. Technol. 331 (2024) 125637, https://doi.org/10.1016/j.seppur.2023.125637.[50] J.M.C. Lourenço, P.A. Ribeiro, A.M. Botelho Do Rego, F.M. Braz Fernandes, A.M.C. Moutinho, M. Raposo, Counterions in poly(allylamine hydrochloride) and poly(styrene sulfonate) layer-by-layer films, Langmuir 20 (2004) 8103–8109, https://doi.org/10.1021/la049872v.[51] B. Jachimska, T. Jasi´nski, P. Warszy´nski, Z. Adamczyk, Conformations of poly(allylamine hydrochloride) in electrolyte solutions: experimental measurementsand theoretical modeling, Colloids Surf. A Physicochem. Eng. Asp. 355 (2010)7–15, https://doi.org/10.1016/j.colsurfa.2009.11.012.[52] Z. Adamczyk, B. Jachimska, T. Jasi´nski, P. Warszy´nski, M. Wasilewska, Structure ofpoly (sodium 4-styrenesulfonate) (PSS) in electrolyte solutions: theoreticalmodeling and measurements, Colloids Surf. A Physicochem. Eng. Asp.",
+    "citation": {
+      "authors": [
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738824009608-main",
+      "title": "Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  }
+]

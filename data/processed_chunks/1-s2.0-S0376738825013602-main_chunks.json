@@ -1,0 +1,760 @@
+[
+  {
+    "content": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation Haleh Nourizadeh Kazerouni *\n\n, Gabriel Toshiaki Tayama , Julie Fr´echette , Youn`es Messaddeq\n\nCentre d’Optique, Photonique et Lasers (COPL), Universit´e Laval, Qu´ebec, Canada\n\nA R T I C L E I N F O Keywords:Membrane technologyAdditive manufacturing3D printingWater treatment",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T We present a novel freeform fabrication strategy for polymer membranes via 3D printing, in which porosity is generated through a polymerization-induced phase separation mechanism. The approach employs a vatphotopolymerization compatible formulation to produce a macroporous network with coexisting meso­porosity. Hydrophilic flat-sheet membranes (400 μm thick) were fabricated and subjected to post-treatments involving CO2 supercritical drying and solvent exchange. The resulting membranes exhibited permeance of up to 36 and 29 LMH.bar-1, respectively, under a transmembrane pressure of 2 bar. An in-depth evaluation was conducted on membranes produced from photocurable formulations containing methacrylic acid (MA, 30 vol%) and polyethylene glycol diacrylate (PEGDA, 20 vol%), with varying ratios of 1-butanol and 2-phenoxyethanol as porogens. SEM analysis revealed a porous morphology throughout the membrane cross-section. The topperforming sample exhibited the highest specific surface area of 12.8 m2/g and the smallest mean pore di­ameters of 45 nm and 42 nm, as determined by adsorption branches of Brunauer-Emmett-Teller (BET) and Barrett-Joyner-Halenda (BJH) analyses, respectively. Pore size distribution was compared with liquid-liquid displacement method, which revealed mean pore size of 8.8 nm, with a small quantity of pores of approxi­mately 121 nm, which were in better agreement with pure water flux values.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "evealed mean pore size of 8.8 nm, with a small quantity of pores of approxi­mately 121 nm, which were in better agreement with pure water flux values. The influence of postpolymerization porogen removal methods—solvent exchange and supercritical drying—was also assessed. Post-treated membranes demonstrated lower compaction factors and more stable flux over time and under increasing pressure. This technique offers a promising route for the customized design of membrane geometries and architectures tailored to specific separation challenges. We further demonstrate such concept by printing textured membranes with wavy and rugged surface profiles.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction The most common methods for preparing polymeric membranes are based on the phase inversion phenomenon, in which a polymeric solu­tion undergoes phase separation triggered by a specific mechanism, depending on the process. This trigger may involve a change in tem­perature (for polypropylene (PP) [1], polyethylene (PE) [2]), the introduction of a non-solvent (for polyvinylidene fluoride (PVDF) [3], polyvinyl chloride (PVC) [4], cellulose acetate (CA) [5]), or solvent evaporation (for polystyrene (PS) [6]). Polymeric membranes can exhibit different morphologies depending on the preparation approach [7]. In these methods, the polymer must be dissolved in large volumes of solvents, which are often highly toxic to both humans and the environment [8]. In water treatment applications in particular, persis­tent challenges such as membrane fouling and balancing membrane flux and rejection remains an issue, leading to increased operational costs and reduced efficiency. To address these challenges, current research is focusing on fabrication strategies that minimize solvent consumption [9], enabling more sustainable and environmentally friendly processes [10] while improving membrane performance and cost-effectiveness [11].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nsumption [9], enabling more sustainable and environmentally friendly processes [10] while improving membrane performance and cost-effectiveness [11]. As a disruptive manufacturing method, 3D printing provides costeffective, medium-scale production of complex freeform structures, with advantages including high resolution, minimal waste, energy effi­ciency, rapid production, and material versatility [10]. This technology enables innovative designs for membrane modules, oil/water separation",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 8 December 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). sponges [11], and adsorbents for dyes and heavy metals [12]. In particular, 3D printing shows great potential for the customized fabri­cation of membranes with complex geometries and integrated module configurations—capabilities unattainable with conventional methods such as phase inversion [13,14]. This exceptional design flexibility creates new possibilities to enhance mass transport, selectivity, and antifouling properties through precise hierarchical structural control. Researchers have successfully used 3D printing to fabricate wavy-supported composite membranes, demonstrating their superior performance over flat designs. In both ultrafiltration and nanofiltration applications, the wavy architecture proved highly effective at mitigating fouling and concentration polarization [15,16]. Other studies have further established that additive manufacturing (AM) enables the fabrication of ceramic membranes with architecturally complex and patterned surfaces, a feature that directly enhances filtration perfor­mance by improving hydrodynamics and antifouling properties [17,18].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "omplex and patterned surfaces, a feature that directly enhances filtration perfor­mance by improving hydrodynamics and antifouling properties [17,18]. However, the practical application of AM in membrane fabrication is still constrained by several technical limitations, such as inadequate nanoscale resolution, limited printable materials, slow printing rates, and high production costs. Ongoing advancements in photopolymerization-based technologies, coupled with the develop­ment of innovative photo-curable and composite materials, are expected to overcome these challenges. As a result, 3D printing is anticipated to play an increasingly important role in producing customized, high-performance membranes and may ultimately revolutionize mem­brane fabrication by integrating material design, structural engineering, and module manufacturing into a single, unified process [14,19]. While directly manufacturing porosity of the materials via AM is not feasible with current technologies, alternative strategies can be employed. One such approach is polymerization-induced phase sepa­ration (PIPS), a phase inversion process in which an initial monomersolvent solution of monomers and solvents undergoes phase separa­tion during polymerization. This phenomenon arises from the thermo­dynamic incompatibility between the growing polymer chains and the solvent, leading to the formation of polymer-rich and solvent-rich do­mains.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "thermo­dynamic incompatibility between the growing polymer chains and the solvent, leading to the formation of polymer-rich and solvent-rich do­mains. Ultimately, the solvent-rich regions are removed (e.g., via evaporation or solvent extraction), leaving behind a porous structure [20–22]. This approach offers the possibility to directly 3D print mem­branes for water filtration using polymerization-based AM techniques such as vat-photopolymerization (VPP). This 3D-printing method fab­ricates objects in a layer-by-layer fashion by selectively exposing discrete layers of a photosensitive resin to UV/blue light. This process triggers the localized photopolymerization of the resin, forming a solid material. Therefore, freeform porous structures and membranes are possible to manufacture using resins that can undergo PIPS. While this approach has been demonstrated to prepare sorbents, there is no demonstration of its use in directly manufacturing membranes for water filtration. For instance, Dong et al. 3D-printed monolithic adsorbents using dimethylaminoethyl methacrylate (DMAEA) as a monofunctional monomer and ethylene glycol dimethacrylate (EDMA) as a bifunctional monomer, to adsorb methyl orange from aqueous solutions [22]. Mason et al. developed a 3D-printed hierarchical nanoporous sorbent platform for cobalt recycling.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "o adsorb methyl orange from aqueous solutions [22]. Mason et al. developed a 3D-printed hierarchical nanoporous sorbent platform for cobalt recycling. They synthesized a novel methacrylate-functionalized bisdicyclohexyl acetamide receptor and copolymerized it with a commercial diacrylate and porogens, forming nanoporous materials through photoinitiated polymerization-induced phase separation. The resulting sorbent demonstrated selective bind­ing of CoCl2 over LiCl in simulated ethanolic battery leachates [23]. Resins for VPP process are composed of multifunctional monomers, photoinitiator, and additives, which can be fillers, solvents, and dyes (in some cases). The development of new compositions should achieve the required structural and functional properties of the desired parts [24], including considerations related to its 3D printability, such as surface finish, dimensional accuracy, and anisotropic behavior [25]. Particu­larly, in the case of resins for VPP that should undergo PIPS, the choice of solvent and monomer system is a primary concern, as the latter should be totally soluble in the former, but should present limited solubility once polymerized. Furthermore, the hydrophilicity of the materials is an important criterion for water filtration applications, as it promotes higher water permeation. Therefore, monomer candidates for VPP resins capable of undergo­ing PIPS for membrane fabrication should be highly hydrophilic.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "gher water permeation. Therefore, monomer candidates for VPP resins capable of undergo­ing PIPS for membrane fabrication should be highly hydrophilic. In this case, (meth)acrylic acid, and other monomers with a (meth)acrylate group attached to polyethylene glycol (PEG) fragment are excellent candidates [26], given their hydrophilic and biocompatible polymerized forms with proven safety profiles [27]. These monomers undergo polymerization via the well-known free radical photopolymerization mechanism and are well-suited for VPP processes. Particularly, the use of hybrid systems combining acrylate and methacrylate is more effective as the polymerization kinetics of methacrylate is considerably slower than acrylates, while a pure acrylate system can cause distortions in the printed object [28] due to high shrinkage and sensitivity to oxygen [29]. In this study, we introduce an innovative approach for manufacturing membranes with a controlled distribution of mesopores and macropores using 3D printing. We developed photosensitive resin formulations that not only ensure compatibility with the printing pro­cess but also enable the formation of porous architectures through the polymerization-induced phase separation (PIPS) mechanism. This technological synergy allows to overcome current resolution constraints and lays the foundation for a new generation of membranes with cus­tomizable porosity and geometries.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "llows to overcome current resolution constraints and lays the foundation for a new generation of membranes with cus­tomizable porosity and geometries. To validate the potential of this approach, we produced porous, hydrophilic flat-sheet membranes tailored for water treatment applications. A bespoke resin formulation was designed, incorporating methacrylate (MA), polyethylene glycol diacrylate (PEGDA), 1-butanol, and 2-phenoxyethanol—a biocompat­ible antimicrobial preservative widely used in cosmetic and biomedical applications [29]. We conducted a comprehensive investigation into the effects of resin composition, processing parameters—including post-treatment methods such as supercritical CO2 drying (SCD) and solvent exchange—and membrane compaction, in order to assess their influence on the structural characteristics and performance of the resulting membranes. 2. Materials and methods 2.1. Chemicals Methacrylic acid (MA) and polyethylene glycol diacrylate (PEGDA, average Mn 575) were employed as monomers, while 1-butanol (>99.4 %) and 2-phenoxyethanol (>99 %) were used as pore-forming agents. Diphenyl(2,4,6-trimethylbenzoyl) phosphine oxide 97 % (TPO) was used as photoinitiator. All chemicals were purchased from SigmaAldrich. Isopropanol (IPA) and methanol were purchased from Fischer Scientific, while anhydrous ethanol was obtained from Greenfield Global Inc. All chemicals were used as received, without further purification. 2.2.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "r Scientific, while anhydrous ethanol was obtained from Greenfield Global Inc. All chemicals were used as received, without further purification. 2.2. Membrane fabrication The resins were prepared by mixing the reactants as listed in Table 1. Six formulations were produced, maintaining the monomer ratio while Table 1 Composition of prepared resins. SampleMA (vol %) PEGDA (vol %)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2-phenoxyethanol (vol %) 1-butanol (vol %) M13020050M230201040M330202030M430203020M530204010M63020500\n\nH. Nourizadeh Kazerouni et al. Journal of Membrane Science 741 (2026) 125047 varying the solvent ratios. All resins contained 1 w/vol% TPO as the photoinitiator. Flat-sheet membranes, 400 μm-thick, were fabricated via 3D-printed on a Prusa SL1 printer with a layer height of 50 μm. This layer thickness was selected as it provides an optimal balance between print resolution and fabrication speed, ensuring high-quality output while minimizing printing time. To remove unpolymerized monomers, the samples were immersed in IPA for 24 h prior to post-treatment. The printing process generated no material waste, as the unused resin remaining in the vat was collected and stored in a light-blocking container for future use.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.3. Post-treatment of membranes The printed membranes were stored in IPA to extract residual solvent and unpolymerized reactants. Initial testing was performed without solvent exchange (direct IPA-to-water filtration), followed by a gradual IPA-to-water replacement via 1-h immersion. However, this approach resulted in no measurable pure water flux (PWF), attributed to the membranes being soft and delicate, leading to structural pore collapse during the abrupt solvent exchange. To address this issue, two post-treatment strategies were implemented: Supercritical CO2 drying (SCD) – This method enabled complete solvent removal while minimizing capillary forces that damage pore structure Conventional solvent exchange – A more economical approach, used for comparative assessment of membrane performance. The impact of each treatment on membrane morphology and PWF was systematically evaluated. 2.3.1. Supercritical CO2 drying (SCD) A supercritical dryer (LADD CPD3, Ladd Research Industries, USA) was employed to prevent pore collapse in the 3D-printed membranes. Samples were kept in IPA while the dryer chamber temperature was lowered to 5 ◦C by quickly depressurizing CO2. When the chamber became cold enough, excess IPA was removed, and the samples were quickly placed in the chamber, which was then filled with CO2 to a pressure of at least 55.2 bar. A small outlet in the chamber allowed continuous CO2 flow for 45 min to purge any residual solvent.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "illed with CO2 to a pressure of at least 55.2 bar. A small outlet in the chamber allowed continuous CO2 flow for 45 min to purge any residual solvent. After purging, the chamber was heated to 42 ◦C and pressurized to 82.7 bar, followed by slow depressurization at 6.9 bar/min. The dried samples were transferred to a hermetic container and maintained at 40 ◦C to prevent moisture uptake until further analysis. 2.3.2. Solvent exchange In this study, a sequential solvent exchange protocol was developed to replace IPA in the membrane pores with deionized (DI) water prior to PWF testing. To minimize structural damage, alcohols of decreasing molecular size (IPA → ethanol → methanol) were used as intermediate solvents before the final water exchange. As illustrated in Fig. 1, the first step involved displacing IPA with ethanol. The subsequent replacements (ethanol → methanol and methanol → DI water) followed the same procedure, maintaining identical solvent ratios and step durations as in the initial IPA-to-ethanol exchange. 2.4. Characterization Resin viscosity was measured on a Rheosys Rheometer equipped with a Cup and Bob system over shear rates ranging from 500 to 1250 s-1 at 25 ◦C. The average of the final three points is reported. Raman spectra were acquired with a Raman microscope (inVia, Renishaw, UK) operating in backscattering configuration in the range of 400–1800 cm-1 in order to identify characteristic bonds of the resins and photo­polymerized membranes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "in backscattering configuration in the range of 400–1800 cm-1 in order to identify characteristic bonds of the resins and photo­polymerized membranes. Excitation wavelengths of 633 nm and 785 nm were employed for the resins and membranes, respectively. Spectra were analyzed using the Wire 4.1 software (Renishaw). The degree of polymerization was calculated using Equation (1): DP(%) = 100 * ΔC=C Pol/ΔC=O PolΔC=C Mon/ΔC=O Mon",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Where ΔC=C Pol, ΔC=O Pol, ΔC=C Mon, and ΔC=O Mon represent the integrated areas corresponding to the stretching vibrations of the C––C and C––O bonds in the polymer and monomer at 1630 and 1720 cm-1 in the Raman spectra, respectively. The area of each band was obtained by deconvoluting the spectra by applying a baseline subtraction, followed by fitting the peaks centered around 1636 cm-1, 1695 cm-1, and 1728 cm-1 with Pseudo-Voigt functions. Seven measurements were collected to calculate standard deviation. Structural assignments from Raman spectroscopy were additionally confirmed by FTIR-ATR (Frontier, Per­kin Elmer). The surface and cross-sectional morphologies of the prepared membranes were examined using scanning electron microscope (SEM, Quanta 3D, FEI). Prior to imaging, samples were supercritically dried and sputter-coated with gold to enhance electrical conductivity. For cross-sectional observations, the membranes were cryofractured in liquid nitrogen before coating. The membrane surface morphology was analyzed with a 3D optical profilometer (Nexview NX2, Zygo, USA) to obtain precise, non-contact, quantitative data on the surface topography. Surface area (SBET), pore volume (VBET, VBJH), pore diameter (DBET, DBJH), and isotherm graphs were measured using a BET analyzer (Micromeritics Gemini VII, USA). First, samples were supercritically dried (SCD), then crushed into small pieces (~1 mm * 1 mm), and subsequently degassed at 65 ◦C for 16 h.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "II, USA). First, samples were supercritically dried (SCD), then crushed into small pieces (~1 mm * 1 mm), and subsequently degassed at 65 ◦C for 16 h. The specific surface area was calculated using the BET method from the linear portion of the adsorption branch of the isotherm, within the relative pressure range (P/ P0) of 0.05–0.3. Pore size distribution was determined using the BarrettJoyner-Halenda (BJH) method, and total pore volume was estimated from nitrogen adsorption at P/P0 = 0.99. The liquid-liquid displacement porometry (LLDP) measurement was conducted on a never-dried M4 sample using a POROLIQ ML system (Porometer, Poland). The analysis utilized an Isobutanol-Porefil liquid pair with an interfacial tension of 7.25 dyn/cm, a contact angle of 0◦, and a shape factor of 0.715. A reduction inlay was employed during measurement to prevent sample damage. Data were processed by the instrument’s automated system, which implemented a fixed flow threshold of 3 μL/min to mitigate low-flow noise.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The contact angle of the membranes was measured using the captive bubble method, suitable for highly porous and hydrophilic materials. This technique ensures the solid sample reaches equilibrium with both the atmospheric interfacial tension and the liquid phase. It also mini­mizes contamination at the solid-vapor interface [30]. The samples were fully submerged and equilibrated with the aqueous phase before the test, preventing any liquid penetration during measurement and ensuring the measurement reflects the solid-water interface in its operational, hy­drated state. Then, they were mounted on a custom-made holder on a tilting stage, and an air bubble was injected beneath the membrane using a syringe pump (New Era Pump Systems Inc., USA) at a rate of 1.00 ml/min. Two measurement protocols were employed: a static captive bubble method and a dynamic method. In the dynamic protocol, the submerged sample holder was tilted, causing the air bubble to tra­verse the surface of the membrane. The angles at the bubble’s front (advancing, θa) and rear (receding, θr) were recorded to directly deter­mine contact angle hysteresis (CAH) as θr – θa. Images were collected using an industrial camera (DMK 33UX264, The Imaging Source, Ger­many) equipped with a macro lens (super multi coated macro takumar 1:4/50 mm, Asahi Opt. Co., Japan), and the contact angle between the air bubble and the membrane was measured using ImageJ.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "multi coated macro takumar 1:4/50 mm, Asahi Opt. Co., Japan), and the contact angle between the air bubble and the membrane was measured using ImageJ. Reported values represent the average of at least three independent measurements. Water absorption capacity of the membranes was measured by weighing supercritically dried samples (Wdry), immersing them in DI water for 3 days, and recording their wet weight (Wwet). Solvent content and swelling ratio were calculated using Equations 2 and 3 [31], respectively. Reported values represent the average of three measurements. water content (%) = Wwet -Wdry Wwet * 100(2) Swelling ratio (%) = Wwet -Wdry Wdry * 100(3)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.5. PWF and compaction of the membranes Membrane filtration is a cost-effective water treatment technology, offering relatively low capital and operational expenses compared to other methods. Additionally, it is highly energy-efficient, which is crucial for large-scale operations. In this regard, a laboratory-scale crossflow filtration system was assembled using a commercial membrane holder (CF016A, Sterlitech, USA) equipped with a porous support plate to provide structural stability and ensure even pressure distribution during operation. The effective filtration area of the membranes used was 20.6 cm2, reported by the holder company. The system was con­nected to a vacuum pump (LIQUIPORT NF 1.300, Switzerland). PWF measurements were conducted at transmembrane pressures of 0.7, 1, and 2 bar without removing the sample between tests. All analyses were conducted at room temperature (25 ◦C). The PWF and permeance of each sample were measured twice and calculated using Equation (4)[32] and 5 [15], respectively: J = VA.t(4) Permeance =VA.t. P(5) Where J is the permeate flux (LMH), V is the permeate volume (L), A is the effective membrane area (m2), t is the sampling time (h), and P is the transmembrane pressure (bar). The compaction factor (CF) quantifies the extent of structural deformation in the membrane’s porous network under applied pressure.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ne pressure (bar). The compaction factor (CF) quantifies the extent of structural deformation in the membrane’s porous network under applied pressure. Over time, as pressure is maintained, the PWF gradually stabilizes due to pore wall compression, which produces a denser and more uniform structure. This reduces both effective pore size and overall porosity, leading to a decline in permeate flux [33]. The compaction factor (CF) of the membranes at each operating pressure was determined using Equation (6) [34]: CF = Jin Jst",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(6) where Jin refers to the initial DI water flux and Jst is the flux measured after 60 min of filtration at the same pressure. Both values are expressed in LMH. 3. Results and discussion 3.1. Physicochemical properties Raman scattering spectra of the prepared membranes and resins are presented in Fig. 2(a) and (b), respectively. As can be seen from Fig. 2(a), the observed vibrational bands are characteristic of acrylateand methacrylate-based polymers, with the distinguishable bands at 1726 cm-1, and 1697 cm-1 assigned to the symmetric stretching of the carbonyl group (C––O). The presence of the two carbonyl vibration bands is related to the formation of dimer species through hydrogen interactions. The vibrational bands centered at 1634 cm-1, and 1451 cm-1 are assigned to C––C stretching from unpolymerized acrylate/ methacrylate species, and asymmetric C–H bending in α-CH3 from methacrylate species, respectively. Skeletal C–C stretching is observed at 1123 cm-1 and 767 cm-1, while C–C skeletal bending is observed at 516 cm-1, and 597 cm-1. Bands centered at 1281 cm-1, 1243 cm-1, and 1200 cm-1 are assigned to C–O stretching modes and those at 968 cm-1, 930 cm-1, and 855 cm-1 correspond to rocking modes of the α-CH3 and CH2 [35] The Raman spectra of the resins, in Fig. 2(b), show additional fea­tures associated with the porogens 2-phenoxyethanol and 1-butanol. For 2-phenoxyethanol, the vibrational bands centered at 421 cm-1, 614",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "H. Nourizadeh Kazerouni et al. Journal of Membrane Science 741 (2026) 125047 cm-1, and 791 cm-1 are assigned to the deformation modes of the ar­omatic ring; 996 cm-1 to the ring breathing mode; 1152 cm-1 and 1172 cm-1 to C–H bending in the aromatic ring; and 1247 cm-1, 1586 cm-1, and 1599 cm-1 to a combination of deformation and bending modes of the aromatic ring [36]. For 1-butanol, characteristic peaks at 800 cm-1, 826 cm-1, 880 cm-1, and 900 cm-1 are assigned to C–C stretching modes [37]. The vibrational bands associated with the monomers are observed at similar positions to those in the membranes. For instance, the symmetric C––O stretching appears at 1717 cm-1, and 1694 cm-1, while C––C stretching is observed at 1638 cm-1. Bending modes of α-CH3 and CH2 are observed at 1452 cm-1, 1403 cm-1, and 1376 cm-1. The membrane spectra are largely insensitive to the composition of the original resins, indicating that the structure of the polymeric network is minimally affected by 2-phenoxyethanol and 1-butanol ra­tios, as these solvents do not integrate the polymeric network. In contrast, the resin spectra show pronounced changes with composition, due to the presence of the solvents, however the relative intensities of the monomer-associated bands remain constant. The only noticeable difference in the membrane spectra is a decrease in the 1634 cm-1 vibrational band, assigned to C––C stretching, with increasing 2-phenox­yethanol content in the resin.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "membrane spectra is a decrease in the 1634 cm-1 vibrational band, assigned to C––C stretching, with increasing 2-phenox­yethanol content in the resin. This suggests a lower fraction of unpoly­merized monomers. This trend was further confirmed by calculating the polymerized fraction through spectral deconvolution in the 1510 cm-1 to 1800 cm-1 range. Note that the presence of 2-phenoxyethanol and 1butanol does not interfere with this analysis, as their characteristic vibrational bands do not overlap with the C––C and C––O stretching modes of the monomers. The calculated polymerized fraction values are summarized in Table 2, along with resin viscosity and the typical exposure time used during additive manufacturing of each formulation. Deconvolutions for the Raman spectrum of the resins and membranes are presented in Figure S1 and Figure S2, available in the Supporting Information. The structural assignments from Raman spectroscopy were confirmed by FTIR spectroscopy, presented in Figure S3 and Figure S4, available in the Supporting Information. As shown in Table 2, increasing the proportion of 2-phenoxyethanol while decreasing the concentration of 1-butanol leads to higher resin viscosity, shorter UV exposure times for each layer, and a lower fraction of unpolymerized monomers.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "concentration of 1-butanol leads to higher resin viscosity, shorter UV exposure times for each layer, and a lower fraction of unpolymerized monomers. The higher viscosity hinders polymeriza­tion efficiency, allowing the gel point to be reached earlier in the pho­topolymerization process, causing the reaction to be diffusion-limited at earlier stages [38]. The increased viscosity also contributes to greater layer stability, helping the resin maintain its shape between exposures and enabling faster solidification with minimal deformation. Since 2-phenoxyethanol is significantly less volatile than 1-butanol, replacing the latter with the former reduces solvent evaporation during curing, resulting in a more stable resin system that requires shorter UV exposure for proper layer formation. SEM images of the flat-sheet membranes are presented in Fig. 3. The top row depicts surface morphologies, highlighting the influence of formulation on pore formation. It can be observed that increasing the concentration of 2-Phenoxyethanol while simultaneously decreasing the amount of 1-Butanol results in smaller surface pores with more homo­geneous distribution. This suggests that 2-Phenoxyethanol plays a role in stabilizing the polymerization process at the surface, producing a finer and more uniform morphology. These differences are primarily attributed to the distinct solvation effects of 2-Phenoxyethanol and 1Butanol.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ng a finer and more uniform morphology. These differences are primarily attributed to the distinct solvation effects of 2-Phenoxyethanol and 1Butanol. Previous studies have demonstrated that the porogen compo­sition significantly influences the phase separation microstructure. Computational materials science facilitates the characterization of porescale microstructures via the integration of computer-aided techniques and digital reconstruction [39]. Using the mean-field Flory–Huggins theory [40], researchers computed the conversion phase diagram of the system and simulated the microstructure evolution during polymerization-induced phase separation through a Cahn–Hilliard-type phase-field model [22,39,41]. Cross-sectional SEM images of the membranes reveal a pronounced asymmetric structure from the bottom (first polymerized layer) to the top (last polymerized layer). The lower regions are denser and more compact, whereas the upper layers display a looser structure. This asymmetry likely arises from the sequential UV polymerization process, during which earlier layers continue to receive residual UV light expo­sure as subsequent layers are cured. Additional exposure drives further cross-linking in the initial layers, increasing their density and rigidity; however, this is counteracted at the surface by oxygen inhibition, a fundamental phenomenon in photopolymerization [42] that limits monomer conversion.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "owever, this is counteracted at the surface by oxygen inhibition, a fundamental phenomenon in photopolymerization [42] that limits monomer conversion. The resulting conversion gradient is evidenced by larger pores, thinner polymer structure, and smaller rods in the layers closer to the surface region [43,44]. Fig. 4 presents the surface morphology of the fabricated membranes, comparing 2D and 3D optical profilometry images with corresponding SEM micrographs. A clear morphological distinction is evident between the sample groups. The profilometry images for samples M1-M3 reveal a highly heterogeneous and textured topography, which is consistent with the SEM observations of a distinct thread-like structure, larger surface pores, and a non-uniform pore size distribution. Conversely, the images for samples M4-M6 indicate a significantly more uniform and smoother surface texture. These qualitative observations are quantitatively sub­stantiated by the surface roughness data presented in Table 3. Further­more, the significantly larger Sz (maximum height) values for M1-M3 confirm a greater peak-to-valley distance, indicating the pronounced topographic non-uniformity visible in the images. Table 3 presents the surface roughness characteristics of the fabri­cated membranes. The reported values represent the average of mea­surements taken from at least six distinct locations on each sample to ensure statistical reliability.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "he reported values represent the average of mea­surements taken from at least six distinct locations on each sample to ensure statistical reliability. The areal roughness parameters are defined as follows: Sa is the arithmetical mean height, representing the average roughness across the entire measured area. Sq is the root mean square height, a more statistically significant parameter sensitive to extreme peaks and valleys. Sz denotes the maximum height, defined as the sum of the height of the highest peak and the depth of the deepest valley within the assessment area. As the data indicate, the Sa values for all samples fall within a range of 1.5–3.8 μm. Samples M1-M3 exhibit the highest Sa and Sq values, signifying a greater overall surface roughness compared to samples M4-M6. This increased roughness is attributed to their fibrous and thread-like morphology, which, in conjunction with larger surface pore sizes as observed in SEM images, creates a more pro­nounced texture. Furthermore, the Sz results reveal a greater peak-tovalley distance for samples M1-M3. This suggests a more pronounced topographic non-uniformity, where the profilometer detects both higher protrusions and deeper pores compared to the topographically smoother surfaces of samples M4-M6. This is visually evident in the profilometry maps, where, for instance, the more extensive red regions on samples M1-M3 correspond to these taller peak structures. Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "vident in the profilometry maps, where, for instance, the more extensive red regions on samples M1-M3 correspond to these taller peak structures. Fig. 5 presents the adsorption–desorption isotherms of the mem­branes. The experimental curve cannot be classified under a single IUPAC isotherm type [45] due to the complex pore architecture, which combines features of multiple classifications [46]. At the relative pres­sure P/P0 ≈0.01, single-layer adsorption is nearly complete, and the inflection point of the isotherm typically appears at this stage. The overall adsorption isotherm shape resembles a hybrid of type II and type IV(a) curves, with a narrow hysteresis loop. As the relative pressure",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 2 Viscosity of resins, exposure time during 3D printing, and polymerized fraction (%). Standard deviation values are reported in parenthesis. SampleViscosity (mPa. S)Exposure time (s)Polymerized fraction (%) M18.7 ± 0.53061.1 (3.7)M210.3 ± 0.32359.6 (3.4)M311.7 ± 0.42160.6 (3.1)M413.4 ± 0.82055.7 (4.2)M514.9 ± 0.91750.6 (6.5)M616.6 ± 0.31551.0 (3.8) H. Nourizadeh Kazerouni et al. Journal of Membrane Science 741 (2026) 125047 increases, the gradual rise in adsorption indicates a transition from micropore filling and monolayer adsorption to multilayer adsorption. At P/P0 approaching 1, adsorption does not reach saturation, suggesting the presence of macropores. Fig. 6 shows the pore size distributions of the membranes, where the Y-axis represents dV/dlog(w) and scales vary between samples. Mem­branes M4, M5 and M6 exhibit the narrowest distributions, with peaks below 100 nm. In contrast, M1 displays several smaller peaks at the lower end of the pore size range, along with the lowest Y-axis maximum value (0.02) among all samples. This indicates that although M1 con­tains larger pores (as observed via SEM), they are fewer in number compared to the more abundant smaller pores, which may be less readily detected. Consequently, M1 has a smaller average pore size than the other membranes, consistent with the data in Table 3. BET and BJH analyses were performed on the adsorption branches of the isotherms.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e size than the other membranes, consistent with the data in Table 3. BET and BJH analyses were performed on the adsorption branches of the isotherms. The BET parameters include specific surface area (SBET), total pore volume (VBET) for pores <911.63 nm at P/P◦= 0.99, and average pore diameter (DBET). The BJH parameters include cumulative pore volume (VBJH) for pores between 1.7 and 300 nm, and average pore width (DBJH). These results are summarized in Table 3. Among all samples, M5 exhibited the highest SBET and the smallest pore diameter according to both BET and BJH analyses. Taken together, the isotherm characteristics – supported by the mean pore size values (Table 4), pore size distribution profiles (Fig. 6), and SEM observations – indicate that the membranes are predominantly, macroporous, with a secondary contribution from mesopores. The pore size distribution was further determined by Liquid-Liquid Displacement Porometry (LLDP), with the resulting flow-pressure curves presented in Fig. 7. The instrument’s automated analysis, which employs a fixed flow threshold of 3 μl/min to mitigate low-flow noise, reported a maximum pore diameter of 10.7 nm and a corre­sponding bubble point pressure of 19.3 bar. A detailed analysis of the wet curve, however, indicates that the initial permeation occurs at a significantly lower pressure of 1.7 bar.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "of 19.3 bar. A detailed analysis of the wet curve, however, indicates that the initial permeation occurs at a significantly lower pressure of 1.7 bar. Calculating the pore diameter from this pressure reveals the presence of a distinct population of larger pores, with a maximum diameter of approximately 121 nm. The mean flow pore diameter, defined by the intersection of the half-dry and wet curves, was 8.8 nm, while the smallest detectable pore diameter, iden­tified from the convergence of the wet and dry curves, was 7.8 nm. These results demonstrate a strongly asymmetric pore size distribution. Despite the existence of a small number of large defects (~121 nm), the membrane is predominantly characterized by a much smaller modal pore size, as evidenced by the mean pore diameter (8.8 nm) being much closer to the smallest detected pore (7.8 nm) than to the maximum. The difference between the mean pore sizes determined by LLDP (8.8 nm) and gas sorption methods (BET: 64 nm, BJH: 44 nm) arises from the fundamental differences in what each technique measures. LLDP characterizes the active, through-going pores in an intact mem­brane by detecting the pressure required to initiate fluid flow, thereby reporting the diameter of the narrowest constrictions, or throats, within the permeable pathways.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "he pressure required to initiate fluid flow, thereby reporting the diameter of the narrowest constrictions, or throats, within the permeable pathways. In contrast, the BET and BJH analyses were performed on crushed samples, which exposes the entire internal pore network—including large blind pores and cavities that are inaccessible to flow in the intact material. Consequently, gas sorption provides a volumetric distribution of the pore body sizes within the bulk material, which are inherently larger than the flow-limiting throats measured by LLDP. This confirms a membrane structure where larger internal voids are interconnected by significantly smaller pathways that control liquid movement. The captive bubble measurements are presented in Table 5 and confirm the high hydrophilicity of all samples, with static contact angles ranging from 27◦to 34◦. However, the dynamic wetting behavior re­veals a more complex interfacial phenomenon. The extremely low sliding angle (1–2◦) and low contact angle hysteresis (CAH <10◦) indi­cate that the three-phase (air-solid-water) contact line moves with minimal resistance and negligible pinning. This behavior directly",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. SEM images of (1) surface and (2–5) cross-section of a) M1, b) M2, c) M3, d) M4, e) M5, and f) M6 samples. Rows 3, 4, and 5 show the top, middle and bottom part of the cross-section. H. Nourizadeh Kazerouni et al. Journal of Membrane Science 741 (2026) 125047 contradicts the expected characteristics of a homogeneous Wenzel state, where the liquid fully penetrates the surface roughness, leading to strong contact line pinning and high CAH [47]. The remarkably low adhesion is attributed to the formation of a water-swollen, gel-like interface, as evidenced by the high swelling ratios of 127–147 %. This extensive swelling suggests that the air bubble does not interact with the native, rough membrane surface. Instead, it contacts a smooth and dy­namic layer of hydrated polymer chains, which effectively lubricates the interface and prevents pinning by allowing surface reconfiguration. Therefore, the observed facile bubble movement is not due to a tradi­tional Cassie-Baxter state with trapped air [48], but rather a ’soft\n\nFig. 4. Surface morphology of membranes measured by SEM and optical profilometry.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 3 Surface characteristics measured by 3D optical profilometry. Standard deviation values are reported in parenthesis. SampleSa (μm)Sq (μm)Sz (μm) M13.5 (1.1)4.9 (1.4)47.3 (10.4)M23.8 (1.7)5.2 (2.6)42 (21.1)M33.7 (2.1)5.1 (2.8)41.8 (14.4)M41.5 (0.6)2.1 (0.6)25 (6.1)M51.8 (0.7)2.7 (1.1)30 (11.1)M62.8 (1.4)3.8(1.7)33.4 (9.5) H. Nourizadeh Kazerouni et al. Journal of Membrane Science 741 (2026) 125047\n\nCassie-like’ state where the bubble slides on a composite of a continuous water-rich layer and the underlying hydrogel. 3.2. Post-treatment of membranes and PWF Fig. 8 shows the SEM images of the M4 sample before and after solvent exchange. The membrane before solvent exchange exhibits a more defined and interconnected network structure with visible fibrous or thread-like formations. As a result of its network arrangement, pores appear larger and elongated, suggesting a less dense structure. As can be seen from the image of the sample after solvent exchange, the membrane is denser and has a more granular texture. There are smaller, more irregular voids that look more compact, indicating a higher material density. As IPA (23 mN/m) has a lower surface tension than water (72 mN/m), capillary forces can act more strongly on the structure, which could collapse or densify the porous network during solvent exchange. Water could induce swelling or partial restructuring of the network. This might lead to a denser, more compact appearance.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7,
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The effects of solvent exchange and supercritical CO2 drying on membrane performance were investigated. As shown in Fig. 9(a), the membrane treated via solvent exchange exhibited a permeance of 58 LMH.bar-1 at 0.7 bar, which decreased with increasing pressure to finally reach 29 LMH.bar-1 at 2 bar. For the SCD-treated membrane, rewetted for 1 h before testing, the initial permeance was substantially higher at 108 LMH.bar-1 and decreasing to final point of 36 LMH.bar-1 as pressure rose. This behavior suggests that, at each pressure stage, the membrane experienced compaction, reducing permeance, until reach­ing close to the permeance of solvent-exchanged membrane. In contrast, the solvent-exchanged membrane exhibited lower compaction and less pronounced stretching, indicating greater structural stability during filtration. The reduced permeance of the 3D-printed membranes is primarily attributed to their significant thickness (400 μm), which introduces considerable hydraulic resistance. This thickness, while greater than that of most conventional polymeric membranes (≤250 μm), was necessary to ensure structural integrity during removal from the print",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. BET adsorption/desorption isotherms for a) M1, b) M2, c) M3, d) M4, e) M5, and f) M6. H. Nourizadeh Kazerouni et al. Journal of Membrane Science 741 (2026) 125047 substrate and to provide a measurable flow path. This increased thick­ness, however, directly affects membrane performance, as it signifi­cantly influences structural properties and transport behavior. The transport rate of a species across a membrane decreases as thickness increases; in other words, thicker membranes result in lower flux [49], consistent with previously reported findings [50–55]. Finally, the per­meance results align with the pore size range obtained from the liq­uid–liquid displacement measurements. Analysis of the initial permeates identified TPO, butanol, MA, and PEGDA by LC/MS-TOF as shown in Fig. S6 available in the Supporting Information, with concentrations highest in the first hour. These species could not be detected via 1H NMR indicating concentrations below 100 ppm given the use of DMSO2 internal standards, as shown in Fig. S5available in the Supporting Information. The residue recovered after evaporation corresponded to ~23 ppm of PEGDA, confirming negligible levels that can be minimized with conditioning. To assess membrane compaction during pressure-driven PWF mea­surements, compaction factor (CF) values were calculated using Equa­tion (5). The initial flux (Jin), stabilized flux (Jst), and corresponding CF values—with and without post-treatment—are summarized in Table 6.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "g Equa­tion (5). The initial flux (Jin), stabilized flux (Jst), and corresponding CF values—with and without post-treatment—are summarized in Table 6. As observed from Fig. 9 (b), membranes without post-treatment exhibited higher permeance due to the presence of residual IPA within the pore structure but also underwent substantial compaction, with permeance reductions of 37 %, 22 %, and 44 % at 0.7, 1, and 2 bar, respectively. In contrast, solvent-exchanged membranes showed mark­edly lower permeance declines— 9 %, 7 %, and 9 %—under the same conditions, highlighting the effectiveness of solvent exchange in miti­gating compaction. This trend is reflected in the CF values, which ranged from 1.0 to 1.6, with untreated samples consistently exhibiting higher CFs. The SEM image of the post-treated sample by solvent exchange, corresponding to the data shown in Fig. 10 (a), is presented in Fig. 8. The surface fibers appear compacted under applied pressure, indicating a structural response to mechanical stress during filtration. Such compaction likely contributes to the observed reduction in water flux, as reduced pore interconnectivity and surface porosity can hinder water transport. The cross-sectional images further confirm this behavior, revealing densification across the membrane thickness, particularly near the top surface. This deformation is attributed to the membrane’s flex­ible polymer network, based on methacrylic acid and long-chain PEGDA (Mn 575).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the top surface. This deformation is attributed to the membrane’s flex­ible polymer network, based on methacrylic acid and long-chain PEGDA (Mn 575). The inherent high free volume, while beneficial for initial water uptake and swelling, allows the structure to compress under filtration pressure. Consequently, although solvent exchange improves stability, these results emphasize that further optimization of posttreatment is essential to mitigate compaction and enhance mechanical durability. 4. Limitation and future work This work establishes a platform with significant potential to advance membrane technology by fundamentally decoupling membrane design from traditional manufacturing constraints. As shown in Fig. 11, the demonstrated ability to fabricate membranes with customized, complex textures and architectures opens a new paradigm for creating application-specific membranes, where surface topography and pore geometry can be actively engineered to control fouling, flux, and selectivity. Realizing this potential involves exploring the precise re­lationships between these designed structures and their performance, optimizing the material composition and post-processing to eliminate",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. Pore size distribution determined by the BJH approach for a) M1, b) M2, c) M3, d) M4, e) M5, and f) M6.\n\nTable 4 BET surface area (SBET), pore volume (V), and mean pore diameter (D) extracted from adsorption branches of BET and BJH plots. MembranesBETBJH SBET (m2/ g) VBET (cm3/ g)\n\n[ФОРМУЛА: [FORMULA_ID: 74aa94c3-d9c6-4829-9d31-5a78d9322141] DBET (nm) VBJH (cm3/ g) DBJH (nm)]",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "M13.00.04580.0350M27.90.17880.1576M37.50.14760.1372M48.30.13640.0944M512.80.14450.1442M611.50.26910.2479 H. Nourizadeh Kazerouni et al. Journal of Membrane Science 741 (2026) 125047 leaching and enhance mechanical stability, and validating the system against complex pollutants, ultimately enabling a new class of highperformance, tailored membranes for water treatment. 5. Conclusion Membranes were successfully fabricated via 3D printing using a resin formulation composed of methacrylic acid (MA) and polyethylene glycol diacrylate (PEGDA) as the monomer system, with 1-butanol and 2-phe­noxyethanol serving as porogens. SEM revealed an asymmetric crosssectional architecture and surface pores in the range of 50–100 nm, which was further corroborated by BET analysis. BET results confirmed that the membranes were predominantly macroporous, with a minor fraction of mesopores. Although the mean pore diameter for all samples was below 100 nm, pore size distribution analysis demonstrated that samples M4, M5, and M6 exhibited a distinct peak below 100 nm, sug­gesting a higher volume of smaller pores relative to other formulations. Captive bubble point contact angle measurements demonstrated high hydrophilicity for all samples, with values ranging from 27◦to 34◦. Permeation testing of sample M4 under three conditions revealed that solvent-exchanged membranes had lower permeance values (29 LMH.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "g from 27◦to 34◦. Permeation testing of sample M4 under three conditions revealed that solvent-exchanged membranes had lower permeance values (29 LMH. bar-1) across pressures compared to SCD-treated (36 LMH.bar-1) or untreated samples (247 LMH.bar-1) but displayed a smaller compaction factor (CF), indicating superior structural stability. This enhanced",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. LLDP pore size measurement for samples M4.\n\nTable 5 Captive bubble contact angle, water content, and swelling ratio of the samples. SampleStatic captive bubble contact angle (◦) θr (◦)θa (◦)Water content (%)\n\nSwelling ratio (%)\n\nM127 (5)34 (4)26 (5)57132M234 (8)35 (3)29 (4)59146M329 (1)38 (6)36 (6)61156M434 (5)36 (2)30 (2)59143M532 (4)36 (4)34 (5)56127M630 (2)34 (4)30 (4)59143\n\nFig. 8. SEM images of sample M4: a) before and b) after solvent exchange. Row (1) displays the surface, while rows (2)–(5) show the entire cross-section, top, middle, and bottom regions of the cross-section, respectively.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "H. Nourizadeh Kazerouni et al. Journal of Membrane Science 741 (2026) 125047 stability is attributed to the gradual solvent exchange process, in which larger solvent molecules were systematically replaced by smaller ones, reducing pore collapse and preserving membrane integrity. This work demonstrates the feasibility of vat photopolymerization (VPP) for direct membrane fabrication, providing further design flexibility, and true three-dimensional structuring for potential water filtration applications. CRediT authorship contribution statement Haleh Nourizadeh Kazerouni: Writing – review & editing, Writing – original draft, Visualization, Validation, Methodology, Investigation, Fig. 9. Permeance of the M4 sample a) after supercritical drying (SCD) and solvent exchange, and b) without any post-treatment. Table 6 Jin, Jst, and CF of M4 with and without post-treatment. Post-treatmentPressure (bar)Jin (LMH)Jst (LMH)CF No post-treatment0.76774771.416064691.329515991.6SCD0.775641.2178671.2284741.1Solvent exchange0.741381.1146441.0264581.1\n\nFig. 10. SEM images of the M4 sample: 1 and 2 show the surface (with image 2 providing a zoomed-in view), while 3 to 6 display the cross-section. Images 4, 5, and 6 correspond to the top, middle, and bottom regions of the cross-section, respectively. Part a) represents the sample before PWF testing, and part b) shows the sample after PWF testing.\n\nH. Nourizadeh Kazerouni et al. Journal of Membrane Science 741 (2026) 125047",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Formal analysis, Data curation, Conceptualization. Gabriel Toshiaki Tayama: Writing – review & editing, Writing – original draft, Visuali­zation, Validation, Methodology, Formal analysis, Conceptualization. Julie Fr´echette: Writing – review & editing, Supervision, Project administration. Youn`es Messaddeq: Writing – review & editing, Su­pervision, Resources, Project administration, Funding acquisition. Funding This research was supported by the Sentinel North program of Uni­versit´e Laval, made possible, in part, thanks to funding from the Canada First Research Excellence Fund. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments The authors gratefully acknowledge Thomas Meyneng for perform­ing the Raman spectroscopy measurements. The authors thank Pete Shickel and Dr. Dana Dutczak from Porometer Poland for generously providing the liquid-liquid displacement porometry (LLDP) measure­ments. The author gratefully acknowledges Professor Simon Thibault (Department of Physics, Universit´e Laval) for the loan of the industrial camera and macro lens, as well as for providing access to the optical 3D profilometer. This technical support was fundamental to the experi­mental methodology of this work. Appendix A. Supplementary data Supplementary data to this article can be found online at https://doi.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[11] A. Firmanda, F. Fahma, K. Syamsu, S. Suprihatin, R. Purnawati, M. Mahardika, L. Suryanegara, Y. Saito, K. Wood, R. Sinaga, Cellulose and its composite for sustainable oils/water (O/W) separation: from cellulose sponge to 3D printed nanocellulose, J. Environ. Chem. Eng. 11 (2023) 110359, https://doi.org/ 10.1016/j.jece.2023.110359.[12] N. Fijoł, H.N. Abdelhamid, B. Pillai, S.A. Hall, N. Thomas, A.P. Mathew, 3D-printed monolithic biofilters based on a polylactic acid (PLA) – hydroxyapatite (HAp) composite for heavy metal removal from an aqueous medium, RSC Adv. 11 (2021) 32408–32418, https://doi.org/10.1039/D1RA05202K.[13] J.-Y. Lee, W.S. Tan, J. An, C.K. Chua, C.Y. Tang, A.G. Fane, T.H. Chong, The potential to enhance membrane module design with 3D printing technology, J. Membr. Sci. 499 (2016) 480–490, https://doi.org/10.1016/j. memsci.2015.11.008.[14] Z.-X. Low, Y.T. Chua, B.M. Ray, D. Mattia, I.S. Metcalfe, D.A. Patterson, Perspective on 3D printing of separation membranes and comparison to related unconventional fabrication techniques, J. Membr. Sci. 523 (2017) 596–613, https://doi.org/ 10.1016/j.memsci.2016.10.006.[15] A. Al-Shimmery, S. Mazinani, J. Ji, Y.M.J. Chew, D. Mattia, 3D printed composite membranes with enhanced anti-fouling behaviour, J. Membr. Sci. 574 (2019) 76–85, https://doi.org/10.1016/j.memsci.2018.12.058.[16] S. Mazinani, A. Al-Shimmery, Y.M.J. Chew, D. Mattia, 3D printed nanofiltration composite membranes with reduced concentration polarisation, J.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "58.[16] S. Mazinani, A. Al-Shimmery, Y.M.J. Chew, D. Mattia, 3D printed nanofiltration composite membranes with reduced concentration polarisation, J. Membr. Sci. 644 (2022) 120137, https://doi.org/10.1016/j.memsci.2021.120137.[17] T. Chen, P. Xu, M. Qiu, X. Chen, Z. Zhong, Y. Fan, Construction of anti-fouling ceramic tubular membranes with corrugated inner surfaces using DLP 3D printing, J. Membr. Sci. 706 (2024) 122941, https://doi.org/10.1016/j. memsci.2024.122941.[18] Z. Lyu, T.C.A. Ng, T. Tran-Duc, G.J.H. Lim, Q. Gu, L. Zhang, Z. Zhang, J. Ding, N. Phan-Thien, J. Wang, H.Y. Ng, 3D-printed surface-patterned ceramic membrane with enhanced performance in crossflow filtration, J. Membr. Sci. 606 (2020) 118138, https://doi.org/10.1016/j.memsci.2020.118138.[19] X. Qian, M. Ostwal, A. Asatekin, G.M. Geise, Z.P. Smith, W.A. Phillip, R.P. Lively, J. R. McCutcheon, A critical review and commentary on recent progress of additive manufacturing and its impact on membrane technology, J. Membr. Sci. 645 (2022) 120041, https://doi.org/10.1016/j.memsci.2021.120041.[20] R.M. Johnson, R.A. Smaldone, It’s not just a phase: shaping the future of 3D photoprinted polymers with polymerization-induced phase separation, Polym. Int. 74 (2025) 291–295, https://doi.org/10.1002/pi.6713.[21] B. Deore, K.L. Sampson, T. Lacelle, N. Kredentser, J. Lefebvre, L.S. Young, J. Hyland, R.E. Amaya, J. Tanha, P.R.L. Malenfant, H.W. De Haan, C.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.[21] B. Deore, K.L. Sampson, T. Lacelle, N. Kredentser, J. Lefebvre, L.S. Young, J. Hyland, R.E. Amaya, J. Tanha, P.R.L. Malenfant, H.W. De Haan, C. Paquet, Direct printing of functional 3D objects using polymerization-induced phase separation, Nat. Commun. 12 (2021) 55, https://doi.org/10.1038/s41467-02020256-3.[22] Z. Dong, H. Cui, H. Zhang, F. Wang, X. Zhan, F. Mayer, B. Nestler, M. Wegener, P. A. Levkin, 3D printing of inherently nanoporous polymers via polymerizationinduced phase separation, Nat. Commun. 12 (2021) 247, https://doi.org/10.1038/ s41467-020-20498-1.[23] K.S. Mason, S.-Y. Huang, S.K. Emslie, Q. Zhang, S.M. Humphrey, J.L. Sessler, Z. A. Page, 3D-Printed porous supramolecular sorbents for cobalt recycling, J. Am. Chem. Soc. 146 (2024) 4078–4086, https://doi.org/10.1021/jacs.3c12635.[24] G. Melilli, I. Carmagnola, C. Tonda-Turo, F. Pirri, G. Ciardelli, M. Sangermano, M. Hakkarainen, A. Chiappone, DLP 3D printing meets lignocellulosic biopolymers: carboxymethyl cellulose inks for 3D biocompatible hydrogels, Polymers 12 (2020) 1655, https://doi.org/10.3390/polym12081655.[25] M. Srivastava, S. Rathee, V. Patel, A. Kumar, P.G. Koppad, A review of various materials for additive manufacturing: recent trends and processing issues, J. Mater. Res. Technol. 21 (2022) 2612–2641, https://doi.org/10.1016/j.jmrt.2022.10.015.[26] W. Yao, Y. Li, X.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "g: recent trends and processing issues, J. Mater. Res. Technol. 21 (2022) 2612–2641, https://doi.org/10.1016/j.jmrt.2022.10.015.[26] W. Yao, Y. Li, X. Huang, Fluorinated poly(meth)acrylate: synthesis and properties, Polymer 55 (2014) 6197–6211, https://doi.org/10.1016/j.polymer.2014.09.036.[27] V.F. Coindre, Y. Hu, M.V. Sefton, Poly-methacrylic acid cross-linked with collagen accelerates diabetic wound closure, ACS Biomater. Sci. Eng. 6 (2020) 6368–6377, https://doi.org/10.1021/acsbiomaterials.0c01222.[28] S.C. Ligon, R. Liska, J. Stampfl, M. Gurr, R. Mülhaupt, Polymers for 3D printing and customized additive manufacturing, Chem. Rev. 117 (2017) 10212–10290, https://doi.org/10.1021/acs.chemrev.7b00074.[29] L.J. Tan, W. Zhu, K. Zhou, Recent progress on polymer materials for additive manufacturing, Adv Funct Materials 30 (2020) 2003062, https://doi.org/10.1002/ adfm.202003062.[30] R.S. Hebbar, A.M. Isloor, A.F. Ismail, Contact angle measurements, in: Membrane Characterization, Elsevier, 2017, pp. 219–255, https://doi.org/10.1016/B978-0444-63776-5.00012-7.[31] A. Gugliuzza, Membrane swelling, in: E. Drioli, L. Giorno (Eds.), Encyclopedia of Membranes, Springer, Berlin Heidelberg, Berlin, Heidelberg, 2015, pp. 1–2, https://doi.org/10.1007/978-3-642-40872-4_720-6.[32] M. Sivakumar, A.K. Mohanasundaram, D. Mohan, K. Balu, R. Rangarajan, Modification of cellulose acetate: its characterization and application as an ultrafiltration membrane, J. Appl. Polym. Sci.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", K. Balu, R. Rangarajan, Modification of cellulose acetate: its characterization and application as an ultrafiltration membrane, J. Appl. Polym. Sci. 67 (1998) 1939–1946, https://doi. org/10.1002/(SICI)1097-4628(19980314)67:11%253C1939::AID-APP13% 253E3.0.CO;2.[33] M.Q. Seah, S.F. Chua, W.L. Ang, W.J. Lau, A. Mansourizadeh, C. Thamaraiselvan, Advancements in polymeric membranes for challenging water filtration environments: a comprehensive review, J. Environ. Chem. Eng. 12 (2024) 112628, https://doi.org/10.1016/j.jece.2024.112628.[34] N. Kamal, S. Ahzi, V. Kochkodan, Polysulfone/halloysite composite membranes with low fouling properties and enhanced compaction resistance, Appl. Clay Sci. 199 (2020) 105873, https://doi.org/10.1016/j.clay.2020.105873.[35] J.B. Lando, J.L. Koenig, J. Semen, Conformational studies of poly(methacrylic Acid). II. Laser-excited Raman studies of the conformational transition in aqueous solution, J. Macromol. Sci. B 7 (1973) 319–343, https://doi.org/10.1080/ 00222347308212589.[36] H.M. Badawi, Vibrational spectra and assignments of 2-phenylethanol and 2phenoxyethanol, Spectrochim. Acta Mol. Biomol. Spectrosc. 82 (2011) 63–68, https://doi.org/10.1016/j.saa.2011.06.066.[37] K. Ohno, H. Yoshida, H. Watanabe, T. Fujita, H. Matsuura, Conformational study of 1-Butanol by the combined use of vibrational spectroscopy and ab initio molecular orbital calculations, J. Phys. Chem. 98 (1994) 6924–6930, https://doi.org/ 10.1021/j100079a007.[38] C. Decker, A.D.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ectroscopy and ab initio molecular orbital calculations, J. Phys. Chem. 98 (1994) 6924–6930, https://doi.org/ 10.1021/j100079a007.[38] C. Decker, A.D. Jenkins, Kinetic approach of oxygen inhibition in ultravioletand laser-induced polymerizations, Macromolecules 18 (1985) 1241–1244, https://doi. org/10.1021/ma00148a034.[39] F. Wang, P. Altschuh, L. Ratke, H. Zhang, M. Selzer, B. Nestler, Progress report on phase separation in polymer solutions, Adv. Mater. 31 (2019) 1806733, https:// doi.org/10.1002/adma.201806733.[40] P.J. Flory, Thermodynamics of high polymer solutions, J. Chem. Phys. 10 (1942) 51–61, https://doi.org/10.1063/1.1723621.[41] F. Wang, L. Ratke, H. Zhang, P. Altschuh, B. Nestler, A phase-field study on polymerization-induced phase separation occasioned by diffusion and capillary flow—a mechanism for the formation of porous microstructures in membranes, J. Sol. Gel Sci. Technol. 94 (2020) 356–374, https://doi.org/10.1007/s10971-02005238-7.[42] A.K. O’Brien, C.N. Bowman, Modeling the effect of oxygen on photopolymerization kinetics, Macro Theory & Simulations 15 (2006) 176–182, https://doi.org/ 10.1002/mats.200500056.[43] H. Yin, Y. Ding, Y. Zhai, W. Tan, X. Yin, Orthogonal programming of heterogeneous micro-mechano-environments and geometries in three-dimensional biostereolithography, Nat. Commun. 9 (2018) 4096, https://doi.org/10.1038/ s41467-018-06685-1.[44] J. Wu, Z. Zhao, C.M. Hamel, X. Mu, X. Kuang, Z. Guo, H.J.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "reolithography, Nat. Commun. 9 (2018) 4096, https://doi.org/10.1038/ s41467-018-06685-1.[44] J. Wu, Z. Zhao, C.M. Hamel, X. Mu, X. Kuang, Z. Guo, H.J. Qi, Evolution of material properties during free radical photopolymerization, J. Mech. Phys. Solid. 112 (2018) 25–49, https://doi.org/10.1016/j.jmps.2017.11.018.[45] M.D. Donohue, G.L. Aranovich, Classification of Gibbs adsorption isotherms, Adv. Colloid Interface Sci. 76–77 (1998) 137–152, https://doi.org/10.1016/S00018686(98)00044-X.[46] S. Fu, Q. Fang, A. Li, Z. Li, J. Han, X. Dang, W. Han, Accurate characterization of full pore size distribution of tight sandstones by low-temperature nitrogen gas adsorption and high-pressure mercury intrusion combination method, Energy Sci. Eng. 9 (2021) 80–100, https://doi.org/10.1002/ese3.817.[47] Y. Deng, C. Peng, M. Dai, D. Lin, I. Ali, S.S. Alhewairini, X. Zheng, G. Chen, J. Li, I. Naz, Recent development of super-wettable materials and their applications in oil-water separation, J. Clean. Prod. 266 (2020) 121624, https://doi.org/10.1016/ j.jclepro.2020.121624.[48] A.B.D. Cassie, S. Baxter, Wettability of porous surfaces, Trans. Faraday Soc. 40 (1944) 546, https://doi.org/10.1039/tf9444000546.[49] R.W. Baker, Membrane Technology and Applications, first ed., Wiley, 2023 https://doi.org/10.1002/9781119686026.[50] X. Zhang, M. Wei, F. Xu, Y. Wang, Thickness-dependent ion rejection in nanopores, J. Membr. Sci. 601 (2020) 117899, https://doi.org/10.1016/j. memsci.2020.117899.[51] G.L.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Xu, Y. Wang, Thickness-dependent ion rejection in nanopores, J. Membr. Sci. 601 (2020) 117899, https://doi.org/10.1016/j. memsci.2020.117899.[51] G.L. Jadav, V.K. Aswal, H. Bhatt, J.C. Chaudhari, P.S. Singh, Influence of film thickness on the structure and properties of PDMS membrane, J. Membr. Sci. 415–416 (2012) 624–634, https://doi.org/10.1016/j.memsci.2012.05.043.[52] J. He, T. Arbaugh, D. Nguyen, W. Xian, E.M.V. Hoek, J.R. McCutcheon, Y. Li, Molecular mechanisms of thickness-dependent water desalination in polyamide reverse-osmosis membranes, J. Membr. Sci. 674 (2023) 121498, https://doi.org/ 10.1016/j.memsci.2023.121498.[53] C.-Y. Zhu, C. Liu, J. Yang, B.-B. Guo, H.-N. Li, Z.-K. Xu, Polyamide nanofilms with linearly-tunable thickness for high performance nanofiltration, J. Membr. Sci. 627 (2021) 119142, https://doi.org/10.1016/j.memsci.2021.119142.[54] M. Adachi, T. Navessin, Z. Xie, F.H. Li, S. Tanaka, S. Holdcroft, Thickness dependence of water permeation through proton exchange membranes, J. Membr. Sci. 364 (2010) 183–193, https://doi.org/10.1016/j.memsci.2010.08.011.[55] X. Qian, T. Ravindran, S.J. Lounder, A. Asatekin, J.R. McCutcheon, Printing zwitterionic self-assembled thin film composite membranes: tuning thickness leads to remarkable permeability for nanofiltration, J. Membr. Sci. 635 (2021) 119428, https://doi.org/10.1016/j.memsci.2021.119428.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825013602-main",
+      "title": "New approach to 3D-print methacrylic acid/polyethylene glycol diacrylate-based membranes based on polymerization induced phase separation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  }
+]

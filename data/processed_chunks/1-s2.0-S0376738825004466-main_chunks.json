@@ -1,0 +1,549 @@
+[
+  {
+    "content": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling Sadaf Saeedi Garakani , Jia Wei Chew * Division of Chemical Engineering, Chalmers University of Technology, Gothenburg, Sweden\n\nA R T I C L E I N F O Keywords:Membrane foulingSeparationMachine learningPhysics-informed neural networkFlux decline",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Although membrane technology is a promising separation means due to the relatively low energy requirement and amenability for continuous operation, more widespread implementation persists to be plagued by the inevitable membrane-fouling phenomena. To enable predictions of flux decline, the Hermia laws have laid out four governing equations for the four basic fouling mechanisms more than four decades ago, and subsequently combined fouling models have provided more complex equations that account for two to three fouling mecha­nisms simultaneously. More recently, data-driven black-box machine-learning models that do not require any physical equations have improved understanding and predictions. To leverage the benefits of physical laws to govern the right trends, physics-informed machine-learning models have gained much momentum. Here, the four Hermia fouling equations were hybridized with neural networks to develop a physics-informed neural network (PINN) architecture to enhance mechanistic understandings from flux-decline data and enable more accurate predictions of flux decline. A comprehensive dataset consisting of over 50 flux decline curves from more than 10 studies was compiled. Firstly, the relative dominance of the four fouling mechanisms in influencing flux decline was quantified, allowing direct knowledge of which is most operative.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "he relative dominance of the four fouling mechanisms in influencing flux decline was quantified, allowing direct knowledge of which is most operative. This was enabled by applying a fractional weighing factor to each of the mechanisms and employing neural network to best-fit the empirical data to the resulting equation. Secondly, more accurate predictions of flux decline even with a much-reduced dataset was enabled by a PINN model, which dynamically assigns weights to all four fouling mechanisms to embed the physical laws into the learning process. This study demonstrates the potential of physics-informed machinelearning models in significantly augmenting the understanding, prediction and operation of membrane-filtration processes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Membrane-based filtration is gaining increasing attention as an energy-efficient separation technology. One of the key issues impeding more widespread application is well-acknowledged to be the inevitable membrane-fouling phenomena, which is the progressive deposition of feed constituents onto the membrane. This not only reduces the filtra­tion rate, but also increases downtime for membrane cleaning and replacement. Even though membrane technology is the main purifica­tion means for the water industry and membrane materials constantly improves [1], membrane fouling persists to be challenging, particularly as the foulant types (e.g., heavy metal ions [2]) and regulations (e.g., Contaminants of Emerging Concern (CECs) [3]) evolve. Understanding the flux evolution during filtration offers critical in­sights into fouling and aids in improving filtration systems. Many studies on membrane-fouling relied on the Hermia fouling laws [2], which laid out the four basic fouling mechanisms (i.e., intermediate pore blockage, complete pore blockage, pore constriction, and cake filtration), and on the concept of critical flux [4,5], which defines the permeation flux below which negligible fouling occurs. While an equation for each fouling mechanism exists, using singular equations to describe the flux decline curve expectedly falls short. To address this, combined fouling models that account for two to three mechanisms have been reported.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e the flux decline curve expectedly falls short. To address this, combined fouling models that account for two to three mechanisms have been reported. Ho and Zydney established a fouling model that integrates pore blocking with cake filtration and reported good fits for bovine serum albumin (BSA) filtration, despite the neglection of internal fouling [6]. Duclos-Orsello et al. further developed a fouling model that integrates more mechanisms, namely, pore constriction, complete pore blockage, and cake formation [7]. Furthermore, Trinh et al. reported on a fifth fouling mechanism of internal cake filtration, and designed a model that",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 23 April 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). incorporates pore blocking, pore constriction and internal cake filtration [8]. More recently, Zydney presented a model that accounts for inter­connected pore structures and flow through permeable foulant layers [9]. While integrating multiple fouling mechanisms enables the extraction of more fouling parameters, the resulting equations from such combined fouling models often become highly stiff. This stiffness poses significant challenges in achieving numerical accuracy and imple­menting these models in real-time operational scenarios. Furthermore, which existing combined fouling models are valuable for accounting for two to three fouling mechanisms, they fall short of incorporating all four mechanisms simultaneously. In this study, we address this gap by considering all four fouling mechanisms - intermediate pore blockage, complete pore blockage, pore constriction, and cake filtration - through the Hermia fouling laws. Data-driven machine-learning methods have become very popular, since first-principles understanding remains incomplete. For instance, Tanudjaja et al.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Data-driven machine-learning methods have become very popular, since first-principles understanding remains incomplete. For instance, Tanudjaja et al. applied machine-learning methods on 30 years of protein-fouling data, finding via random forest (RF) the dominance of pore size on both flux and rejection, and demonstrating good predictive capability for the broad dataset via neural network (NN) [10]. Liu et al. employed an NN model to forecast the performance of an MF system functioning under critical and supra-critical flux circumstances, demonstrating that the predictions derived from five input variables closely agreed with experimental data [11]. Lee and Kim applied a hybrid NN and RF methodology to estimate the rejection rates of organic contaminants in NF/RO systems based on 701 data points derived from 84 organic compounds, revealing accurate solute rejection predictions with R2 values greater than 0.9 [12]. Li et al. [13] integrated response surface methodology (RSM) with artificial neural networks (ANNs) to optimize membrane fabrication conditions for wastewater treatment, achieving highly accurate predictions for membrane performance. Zhao et al. [14] employed a genetic algorithm back-propagation (GABP) ANN to quantify interfacial interactions related to membrane fouling, significantly reducing computational time compared to conventional thermodynamic models.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "uantify interfacial interactions related to membrane fouling, significantly reducing computational time compared to conventional thermodynamic models. Although data-driven models are promising for understanding and predicting membrane fouling, the shortcomings include the requirement for large datasets and the lack of physical governance for the processes. Physics-informed machine-learning models are grey-box models (Fig. 1), developed based on balancing the trade-off between fully deterministic white-box models (i.e., well-defined physics so no data input needed) and fully stochastic black-box models (i.e., large datasets needed but no physics needed). For membrane-filtration, as is the case for all engineering processes, some physical understanding is available, but a complete understanding is not tenable. This makes such grey-box models, which hybridizes the limited physical governing laws with empirical data, highly valuable. Recent advancements, such as the Legendre Improved Extreme Learning Machine (L-IELM) [15] and the Deep Learning-based Iteration Scheme Approximation (DeLISA) [16], have demonstrated efficacy in addressing high-dimensional equations through the incorporation of physical knowledge. Raissi et al. developed a physics-informed neural network (PINN) model and used deep learning in conjunction with Navier-Stokes equations to forecast pres­sure distributions in incompressible fluids [17]. Chen et al.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "odel and used deep learning in conjunction with Navier-Stokes equations to forecast pres­sure distributions in incompressible fluids [17]. Chen et al. developed a PINN for accurate state-of-health estimation in lithium-ion batteries, achieving a 0.87 % mean absolute percentage error (MAPE) by modeling degradation dynamics across diverse battery types and charge protocols [18]. Since all engineering processes are governed by physical laws, grey-box physics-informed machine-learning models are superior to black-box ones with respect to ensuring the right physical trends. This study hypothesizes that physics-informed machine-learning models can enhance the understanding and predictive capability of membrane fouling - an inevitable challenge in membrane-filtration that limits its broader applicability. While the Hermia fouling laws, estab­lished in the 1980’s, for describing the four basic fouling mechanisms, they fail to capture flux decline trends because a few mechanisms typically act simultaneously. Since the 2000’s, combined fouling models have sprouted to account for two to three fouling mechanisms concur­rently, but such equations are stiff. To address this limitation, this study incorporates all four fouling mechanisms and leverages the outstanding regression capabilities of neural networks to develop a hybrid model.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "his study incorporates all four fouling mechanisms and leverages the outstanding regression capabilities of neural networks to develop a hybrid model. In an earlier study, Tagliavini and Snyder [19] enhanced the Hermia model with machine learning using initial flux, organic load, and fluorescence spectra inputs to predict fouling under varying conditions, demon­strating good predictive capability of flux decline. Specifically, to improve the model’s applicability for complex feeds, they first identified the dominant mechanism, then quantified the model parameters via regression. As an alternative approach, this study attempts to use the Hermia equations as physical governing equations to constrain machine learning models. The goals were twofold based on more than 50 flux-decline curves: (1) quantify the relative dominance of the four basic fouling mechanisms, and (2) compare the accuracy of such grey-box models to those of black-box models, and assess the feasibility to pro­vide good predictions with reduced data volume.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Trade-off between data volume and physical governance.\n\nFig. 2. Schematic diagram of the four basic membrane-fouling mechanisms.\n\nTable 1 Mathematical formulation of the four basic membrane-fouling mechanisms. Fouling mechanismnkFlux formulationEq. (#) Cake Filtration0kcJ = J0\n\n(1 + 2 kc J20 t)-0.5(3)\n\nIntermediate Pore Blockage1kiJ = J0(1 + ki J0 t)-1(4) Pore Constriction1.5ksJ = J0\n\n(1 + 0.5 ks J0.50t)-2(5)\n\nComplete Pore Blockage2kbJ = J0 e-kbt(6) S.S. Garakani and J.W. Chew Journal of Membrane Science 728 (2025) 124133\n\n2. Methods 2.1. Fouling models To describe the inevitable membrane-fouling phenomenon, the fouling model presented by Hermia more than 40 years ago [5] remains widely used. Fig. 2 presents the schematic diagrams of the four membrane-fouling mechanisms, namely, pore constriction (i.e., reduc­tion in pore volume due to internal pore fouling), intermediate pore blockage (i.e., partial external pore blockage), complete pore blockage (i.e., total blockage of pore) and cake filtration (i.e., additional surface-layer resistance). Overall, the resulting flux decline with respect to time has been expressed as [5]: d2tdV2 = k( dtdV )n",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(1) where V represents the cumulative volume of filtrate over filtration time t, k is a permeability parameter, and n defines the fouling mechanism at play. Regarding n, values of 0, 1, 1.5 and 2 represent respectively cake filtration, intermediate pore blockage, pore constriction and complete pore blockage. Since filtration performance is typically characterized by flux versus time, Eq. (1) can be reformulated with respect to flux J [20,21]: dJdt = -kn J3-n(2) Table 1 provides a summary of the equations corresponding to each of the four mechanisms. It should be noted that the Hermia’s fouling models are strictly only applicable for constant-pressure, dead-end filtration. Other underlying assumptions include cylindrical, parallel membrane pores, as well as spherical, uniform-sized, non-deformable spheres – these criteria are relaxed here. Since the various fouling mechanisms likely occur simultaneously rather than independently, numerous combined fouling models that incorporate two to three fouling mechanisms each have been developed [22]. While these models have invariably been useful to enhance the understanding of membrane fouling, such equations are typically com­plex and best-fitting to experimental data may be challenging for instance in cases where the initial flux decline is very steep. 2.2.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e typically com­plex and best-fitting to experimental data may be challenging for instance in cases where the initial flux decline is very steep. 2.2. Machine learning The datasets examined in this work include flux decline versus time data from more than 10 sources in the literature, encompassing a range of particulate types, membranes and experimental conditions (e.g., concentration, pressure). Over 50 flux decline curves have been compiled to facilitate a comprehensive examination under a variety of experimental conditions. Data extraction was carried out manually, by either collecting numbers from the tables or text, or using Origin’s PlotDigitizer tool to extract numbers from figures. All time and flux data were scaled to the range of -1 and 1. The conventional linear regression method was assessed alongside four common machine-learning models, namely, Random Forest, Gradient Boosting, Support Vector Regressor (SVR), and Artificial Neural Network (ANN). In each case, the hyperparameters were optimized using grid search in Python. For example, for Random Forest model, the number of trees (100, 200, 300) and the maximum tree depth (3, 4, 5) Fig. 3. Architecture of physics-informed neural network (PINN).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. (a) Performance comparison of four machine-learning models vis-`a-vis linear regression based on MSE values for the 12 flux decline curves. NN ach­ieved the best performance with MSE = 0.59. Each half error bar shown denotes one standard deviation. S.S. Garakani and J.W. Chew Journal of Membrane Science 728 (2025) 124133 were assessed. For SVR, the regularization parameter (0.1, 1, 10), the kernel coefficient (’scale’ and ’auto’), and different kernel types (linear, polynomial, and RBF) were evaluated. MSE and MAE were quantified using the following expressions: MSE = 1N ∑N i=1 (Jdata -JPredict)2(7) MAE = 1N ∑N i=1 (Jdata -JPredict)(8) where Jdata is experimental flux, Jpredict is predicted flux, and N is the dataset size. 2.2.1. Physics-informed neural network (PINN) As black-box models, neural networks (NNs) make predictions based only on empirical data and require no input of physical governing equations. Although NNs efficiently generate targeted output values from input data, they do not explain the underlying mechanisms. ANNs are made up of nodes, or neurons, that have location information and connections that control the flow of information based on weighted values. Through hidden layers, the model links input and output pa­rameters. Each neuron uses a transfer function to process inputs.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "based on weighted values. Through hidden layers, the model links input and output pa­rameters. Each neuron uses a transfer function to process inputs. Each neuron’s weights and biases are iteratively changed throughout the training phase in order to reduce the discrepancy between the actual (experimental) and anticipated (output) values. To evaluate the model’s accuracy and reliability in novel scenarios, it is validated and tested after training using different data that was not used for training [23,24]. In this study, the Hermia fouling equations (Table 1) were amal­gamated with the NN model to create the PINN model (Fig. 3), which leverages both theoretical tenets and superior regression capability of NN [25,26]. In contrast to earlier fouling models that only account for up to three fouling mechanisms, all four mechanisms can be factored in here. Specifically, the developed PINN fits the flux data (J) to enable the derivation of all four individual fouling coefficients (kn). To quantify the errors of PINNs, loss functions that represent both the physical model and the NN model are used. It is essential to weigh these losses appro­priately, particularly when the data is noisy or when physical models are approximations. To address this, advanced methodologies such as un­certainty assessment dynamically modify weights to improve both pre­cision and stability [27,28].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". To address this, advanced methodologies such as un­certainty assessment dynamically modify weights to improve both pre­cision and stability [27,28]. This multi-loss methodology offers resilient solutions by preventing overfitting or instability in the hybridizing of the physics-based and data-driven frameworks.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "As for the total loss of the PINN model, it is typically expressed as [17]: LPINN = (1 -λ)Ldata + λ Lphysics(9) where λ is a weighing factor of between 0 and 1 that regulates the contribution by the physical and data-driven tenets to minimize the overall loss. To minimize the error of the PINN models, several hyper­parameters were systematically optimized. Specifically, the number of layers (two and three), the number of neurons per layer (64 and 128), activation function (ReLU and Tanh), learning rates (0.0005–0.001), batch size (32 and 64), epoch counts (100 and 200), and λ (0.1, 0.15 and 0.2) were assessed. A grid search over these hyperparameters was con­ducted using itertools in Python. Specifically, for each permutation, the model was trained and the losses quantified. The model that gave the least error was employed for the analysis here. A sensitivity analysis on the impact of λ on mean squared error (MSE) over repeated runs was performed to ensure model stability and prediction accuracy, particu­larly under conditions of limited or noisy data.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ror (MSE) over repeated runs was performed to ensure model stability and prediction accuracy, particu­larly under conditions of limited or noisy data. The overall physics-based loss incurred by each of the fouling mechanisms (Table 1) is expressed as follows: Lphysics = Wb⋅Lb + Ws⋅Ls + Wi⋅Li + Wc⋅Lc[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] where W is the fractional weight corresponding to each mechanism that is adjusted to minimize the overall loss, and L is the loss corresponding to each mechanism. For this study, to reduce the computational cost, the step size for each is set at 0.2, which means W can be either 0, 0.2, 0.4, 0.6, 0.8 or 1. Smaller steps can be used in the future for higher-resolution insights on fouling. 3. Results and discussion This study analyzed more than 50 flux decline curves obtained under various experimental conditions, membrane types, and particle in­teractions to comprehensively evaluate model performance across different fouling scenarios. The analyses of 12 flux decline curves are presented in this section to illustrate model accuracy, limitations, and predictive capabilities. Detailed analyses of the rest can be found in Supplementary Information.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ction to illustrate model accuracy, limitations, and predictive capabilities. Detailed analyses of the rest can be found in Supplementary Information. Specifically, the 12 flux declines correspond to commonly reported model foulants (namely, polyamide (PA) and polystyrene (PS)) filtered through cellulose acetate membranes (nominal pore size = 5 μm) in dead-end mode [29]. The report includes flux decline data at various transmembrane pressures (TMPs) and particle concentrations. The",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. (a) Comparison of MSE values for 12 flux decline curves (Cases 1–12) from three model types, namely, black-box ANN model, grey-box model based on computing weights of Hermia fouling mechanisms using ANN, and grey-box PINN model (Fig. 3). (b) Variabilities of MSE values based on 10 repeats for PINN, Gradient Boosting, SVR and ANN models for Case 3. The width of the violin plot at each point along the y-axis represents the density of the data distribution, while the interquartile range (IQR), shown by the thicker section of the violin, indicates where the middle 50 % of the data lies. S.S. Garakani and J.W. Chew Journal of Membrane Science 728 (2025) 124133",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. Predicted and actual normalized flux-decline trends for the 12 cases. Inset figures show training dataset and the main figures show the testing dataset. The ratio of the training:testing data is 8:2. S.S. Garakani and J.W. Chew Journal of Membrane Science 728 (2025) 124133 relatively smaller PA particles have higher hydrophobicity and neutral charges, leading to denser cakes and worse fouling. On the other hand, the larger PS particles are of irregular shapes and negative charges, resulting in looser cakes, reduced fouling, and increased membrane abrasion. 3.1. machine-learning models Alongside linear regression, four common machine-learning models (namely, Random Forest, Gradient Boosting, Support Vector Regressor (SVR), and Artificial Neural Network (ANN)) were assessed concerning the capability to best-fit the flux decline data. The essential hyper­parameters for each model, including the number of estimators for ensemble methods and kernel functions for SVR, were tuned prior to optimize the learning process. Fig. 4 shows the resulting MSE values for the 12 flux decline trends. Linear regression gives an MSE value of an order-of-magnitude greater than any of the four machine-learning models evaluated, demonstrating the superiority of the latter. Out of the four models, the Neural Network gives the lowest MSE. Thus, the NN model was employed for the analyses in this study.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "iority of the latter. Out of the four models, the Neural Network gives the lowest MSE. Thus, the NN model was employed for the analyses in this study. Furthermore, three variations of NN models were developed using each of the 12 flux decline curves: (A) black-box model based only on the empirical data, (B) grey-box model based on minimizing Lphysics (Eq. (9)) to compute the fractional weights (W; ranges between 0 and 1), and (C) grey-box PINN model (Eq. [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}]). Fig. 5a compares the resulting MSE values obtained. Two observations are worth highlighting. Firstly, the black-box NN (Model A) consistently performs the worst in terms of giving MSE values that are orders-of-magnitude higher, indicating that incorporating mechanistic understanding via descriptive equations into a data-driven framework reduces the error and improves prediction accuracy. Secondly, the PINN (Model C) generally performs the best by giving the lowest MSE values. Of the two grey-box models, the better performance of Model C relative to Model B underscores the superiority of the PINN framework (Fig. 3). This suggests that the reliance of Model",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 2 Resulting MSE values from training NN to compute the fractional weights (W; ranges between 0 and 1) of each fouling mechanism per the Hermia model. The flux decline data were extracted from an earlier dead-end microfiltration study [29]. PS = polystyrene; PA = polyamide. CaseFoulantConcentration (mg/ L)\n\nTMP (Bar) MSEComplete pore-blockage (Wb)\n\nPore constriction (Ws) Intermediate poreblockage (Wi)\n\nCake filtration (Wc)\n\n1PS10.30.01150.800.202PS50.30.0030.8000.23PS100.30.0010.8000.24PS200.30.0010.8000.25PA10.30.0020.200.806PA50.30.0050.200.807PA100.30.0020.800.208PA200.30.0020.80.2009PSNot Specified\n\n0.10.00400.800.2\n\n10PSNot Specified\n\n0.30.0010.80.200\n\n11PSNot Specified\n\n0.50.0030.800.20\n\n12PSNot Specified\n\n0.70.004000.80.2\n\nTable 3 Errors of PINN, Gradient Boosting, SVR, and NN for the 12 flux-decline cases when the ratio of the training:testing data is 8:2.\n\nGrey-box modelBlack-box models\n\nFoulant informationCasePINNGradient BoostingSVRNN\n\nMSEMAEMSEMAEMSEMAEMSEMAE",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "PS 1 mg/L10.00280.042770.77410.72770.59170.62490.60050.637PS 5 mg/L20.00180.035010.45170.53090.40050.50030.38740.4887PS 10 mg/L30.0010.024740.22910.40710.16820.34990.17030.3446PS 20 mg/L40.00110.028660.40020.53090.40170.52430.30490.4535PA 1 mg/L50.00240.030281.04930.6731.17110.65320.84530.5836PA 5 mg/L60.00110.027980.52460.60770.35490.48610.42410.5426PA 10 mg/L70.00160.026560.74320.56310.41740.41460.47380.4399PA 20 mg/L80.00230.029921.04930.6731.17110.65320.84530.5836PS 0.1 Bar90.00360.051330.71840.7320.63480.67770.62290.6777PS 0.3 Bar100.00080.024140.22080.39220.15770.32590.15050.3142PS 0.5 Bar110.00080.023620.70780.68621.02420.71680.4920.5684PS 0.7 Bar120.00170.026982.32251.0933.17491.09231.83840.9212\n\nTable 4 Errors of PINN, Gradient Boosting, SVR, and NN on 4 flux-decline cases when the ratio of the training:testing data is 4:6. Foulant informationCasePINNGradient BoostingSVRNN\n\nMSEMAEMSEMAEMSEMAEMSEMAE\n\nPS 10 mg/LCase 30.0010.02580.22450.40280.16360.33790.15940.3258PS 20 mg/LCase 40.00110.02780.44340.5710.48160.53950.32040.4711PA 10 mg/LCase 70.00160.02590.65250.54670.35260.3960.34850.3919PS 0.1 BarCase 90.0060.05230.65710.68710.57680.6320.55820.6248 S.S. Garakani and J.W. Chew Journal of Membrane Science 728 (2025) 124133",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "B on the summation of the weighted losses (Eq. (9)) may be too rigid, leading to suboptimal fits. On the other hand, the PINN mitigates this limitation by dynamically calibrating the contribution between the datadriven and physical components by adjusting the weighing factor λ (Eq. [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}]). Fig. S1 presents the derived λ values, indicating the lower weighting for the physics component compared to the data component, and thus the relatively greater prominence of the former in the PINN model. This suggests the efficacy of the Hermia equations in describing the flux-decline trends. Since machine-learning models are by nature stochastic, repeated runs give a range of MSE values. To ascertain that the spread in MSE values across repeats of each model is not so large as to overlap among the different models, Fig. 5b displays the variabilities of MSE values from 10 repeated runs for one flux decline curve (namely, Case 3). The results indicate that, despite the span of MSE values, that corresponding to PINN remain two orders-of-magnitude lower than Gradient Boosting, SVR and ANN.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. mechanistic understanding Τhe classical fouling models allow for determination of which of the four basic mechanisms is governing (Fig. 2; Table 1), while the com­bined fouling models allow for the extraction of fouling parameters, including pore-blockage α, pore-constriction β, and cake resistance Rc. All these models have been invaluable in enhancing mechanistic insights into membrane fouling. What remains amiss but would be valuable is quantification of the relative dominance of the four fouling mechanisms. To address this, an NN model can be trained to determine the fractional weights of each fouling mechanism contributing to the overall flux decline (Eq. [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}]; Model B). The low MSE values (Fig. 5a) provide confidence on the reliability of the NN model as a robust framework for understanding the fouling mechanisms. Fig. 6 presents the flux decline curves for the 12 cases, with details of the conditions given in Table 2. These curves were obtained for two different foulants, and a range of concentrations and TMPs [29]. The distinctly different trends in Fig. 6 reflect different fouling phenomena caused by the different conditions. Through the quantified weights (W; Eq.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e distinctly different trends in Fig. 6 reflect different fouling phenomena caused by the different conditions. Through the quantified weights (W; Eq. [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}]), Table 2 reveals the relative dominance of the four fouling mechanisms in each of the 12 cases, while Table S1 presents the results for 41 other reported datasets. It should be noted that the step size for W was set at 0.2 (i.e., W can only be 0, 0.2, 0.4, 0.6, 0.8 or 1) to reduce the computational load, but smaller step sizes can be set to provide higher resolution. As an example, for Case 1, complete pore-blockage is responsible for 80 % of the flux decline, while intermediate pore-blockage for the remaining 20 %, and the other two mechanisms play negligible roles. The results are generally consistent with that re­ported earlier [29], which indicated complete pore-blocking as the primary fouling mechanism. Regarding the effects of foulant type and concentration, Table 2 re­veals that fouling by PA is more sensitive to concentration than that by PS. With reference to Cases 5–8 for PA, the dominant fouling mechanism was intermediate pore-blockage at lower concentrations, but complete",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 8. Predicted and actual normalized flux-decline trends for 4 cases. The ratio of the training:testing data is 2:8. S.S. Garakani and J.W. Chew Journal of Membrane Science 728 (2025) 124133 pore-blockage at higher concentrations. In contrast, referring to Cases 1–4 for PS, complete pore-blockage dominated for the entire concen­tration range, which can be tied to the larger particle size and irregular shape of the PS foulants. As for the effect of increasing TMP, while Fig. 6shows steeper flux declines, Table 2 shows clearly the variations in fouling mechanisms among Cases 9–12. The earlier experimental study indicated the impact of TMP on both the complete pore blocking kinetic constant and blocked surface area parameter are non-monotonic, with the minimum values at the intermediate TMP of 0.3 bar [29]. To elucidate this, the W values in Table 2 indicate that, the dominant fouling mechanism transitioned from pore-constriction to complete pore-blockage to intermediate pore-blockage as TMP increased. While earlier studies have reported on the influence of various parameters - such as physical properties of foulants, foulant concentration and TMP - on the fouling mechanisms by microplastics [31,32], the model here can directly quantify the relative dominance of the mechanisms. The NN model developed here thus further augments the value of the dataset by providing detailed quantitative insights on the relative con­tributions of the four basic fouling mechanisms.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "her augments the value of the dataset by providing detailed quantitative insights on the relative con­tributions of the four basic fouling mechanisms. Armed with these quantities, machine-learning tools like random forest can be further applied to determine the relative dominance of each parameter (e.g., concentration, TMP) on each fouling mechanism. 3.3. predictive capability Beyond mechanistic understanding, predictive capability for flux decline is important in membrane-filtration applications. Fig. 6 and Fig. S2 illustrate the predicted flux in comparison to the measured flux for the 12 cases. The high R2 values affirm the efficacy of the PINN model to predict flux values across the different experimental condi­tions. To ascertain the predictive accuracy by PINN versus black-box models (namely, gradient boosting, SVR and NN), the MSE and MAE values are compiled in Table 3. Clearly, the errors for PINN are the lowest, specifically approximately 50–100 times lower than the three black-box models, highlighting the superior accuracy. One of the advantages of grey-box models relative to black-box models is the requirement for a smaller dataset for training, which is particularly beneficial in scenarios of limited data like during scale-up.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "-box models is the requirement for a smaller dataset for training, which is particularly beneficial in scenarios of limited data like during scale-up. To assess the resilience of PINN with reduced data, the ratio of the training and testing dataset was changed from 8:2 to 4:6, which means the number of training datapoints for each case was halved (i.e., from approximately 280 to 140 datapoints). For the halved dataset, Table 4presents the MSE and MAE values involved for PINN vis-`a-vis three black-box models. While the errors for the black-box models remain similar for the reduced dataset, the errors for PINN remain by far the lowest, affirming the enhanced accuracy. Fig. 7 provides direct com­parisons of the actual flux and flux predicted by PINN for the halved dataset for 4 flux-decline cases, demonstrating good agreement. To further test the limits of PINN with regards to the dataset size required, the data used for training was further halved, such that the training:testing ratio becomes 2:8 and only approximately 70 datapoints were used for training. Fig. 8 displays the predicted versus actual fluxdecline trends, indicating good agreement for both the training and testing datasets. Even with the inherent noise in the data due to the repeated runs, the PINN persist to give accurate predictions with limited datasets. This highlights the resilience and effectiveness of the PINN model even in data-scarce scenarios.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "to give accurate predictions with limited datasets. This highlights the resilience and effectiveness of the PINN model even in data-scarce scenarios. Such adaptability underscores its potential for applications where obtaining extensive datasets is challenging. 4. Conclusion This study focuses on the use of grey-box models, which integrates physical white-box models (i.e., Hermia fouling laws) with data-driven black-box models (i.e., neural network), to extract more mechanistic understandings from and facilitate better predictions of flux decline.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The first part determined the relative dominance of the four fouling mechanisms. By applying a fractional weighing factor to each of the fouling mechanisms and employing neural network to best-fit the empirical data, the contribution of each mechanism to the flux-decline curve was quantified. The second part developed the PINN architec­ture to enhance the prediction of flux decline during membrane filtra­tion. Specifically, the PINN dynamically assigns weights to all four fouling mechanisms to embed the physical laws into the learning pro­cess. Compared to the black-box models, PINN consistently gives lower errors. Even when the dataset was reduced by 80%, the predictive capability remains superior, underscoring its potential for scenarios whereby obtaining extensive datasets is challenging like during scaleup. This study highlights the potential of such hybridized models that integrate machine-learning methods with physical governing equations to provide new dimensions of understanding and improve the accuracy of membrane fouling predictions. Using data from model foulants, the proof of concept of this approach is demonstrated here. However, realworld fouling scenarios – e.g., industrial wastewater treatment or bio­pharmaceutical separation - may require the incorporation of additional physical governing equations, such as those accounting for interfacial energy, concentration polarization, and shear effects.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "orporation of additional physical governing equations, such as those accounting for interfacial energy, concentration polarization, and shear effects. These factors can be readily integrated into this versatile hybrid framework. Furthermore, the model developed in this study has the potential to provide critical insights into the dynamic evolution of fouling processes, such as iden­tifying time-dependent transitions between fouling mechanisms (by incorporating for instances sliding time windows and/or dynamic weight adjustments in the PINN model), and atypical flux trends. CRediT authorship contribution statement Sadaf Saeedi Garakani: Writing – original draft, Validation, Meth­odology, Investigation, Formal analysis, Data curation. Jia Wei Chew: Writing – review & editing, Supervision, Resources, Project adminis­tration, Methodology, Funding acquisition, Formal analysis, Conceptualization.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[3] M. Enfrin, J. Lee, P. Le-Clech, L.F. Dum´ee, Kinetic and mechanistic aspects of ultrafiltration membrane fouling by nanoand microplastics, J. Membr. Sci. 601 (2020), https://doi.org/10.1016/j.memsci.2020.117890.[4] R.W. Field, J.J. Wu, Modelling of permeability loss in membrane filtration: reexamination of fundamental fouling equations and their link to critical flux, Desalination 283 (2011) 68–74, https://doi.org/10.1016/j.desal.2011.04.035.[5] J. Hermia, Constant pressure blocking filtration laws - application to power-law non-newtonian fluids. https://api.semanticscholar.org/CorpusID:61145250, 1982.[6] C.C. Ho, A.L. Zydney, A combined pore blockage and cake filtration model for protein fouling during microfiltration, J. Colloid Interface Sci. 232 (2000) 389–399, https://doi.org/10.1006/jcis.2000.7231.[7] C. Duclos-Orsello, W. Li, C.C. Ho, A three mechanism model to describe fouling of microfiltration membranes, J. Membr. Sci. 280 (2006) 856–866, https://doi.org/ 10.1016/j.memsci.2006.03.005.[8] T.A. Trinh, W. Li, J.W. Chew, Internal fouling during microfiltration with foulants of different surface charges, J. Membr. Sci. 602 (2020), https://doi.org/10.1016/j. memsci.2020.117983.[9] A.L. Zydney, Development of a new blocking model for membrane fouling based on a composite media model, Journal of Membrane Science Letters 2 (2022), https:// doi.org/10.1016/j.memlet.2022.100018.[10] H.J. Tanudjaja, A.Q.Q. Ng, J.W.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "omposite media model, Journal of Membrane Science Letters 2 (2022), https:// doi.org/10.1016/j.memlet.2022.100018.[10] H.J. Tanudjaja, A.Q.Q. Ng, J.W. Chew, Understanding single-protein fouling in Microand ultrafiltration systems via machine-learning-based models, Ind. Eng. Chem. Res. (2023), https://doi.org/10.1021/acs.iecr.3c00275.[11] Q.F. Liu, S.H. Kim, S. Lee, Prediction of microfiltration membrane fouling using artificial neural network models, Sep. Purif. Technol. 70 (2009) 96–102, https:// doi.org/10.1016/j.seppur.2009.08.017.[12] L. Sangsuk, K. Jooho, Prediction of nanofiltration and reverse-osmosis-membrane rejection of organic compounds using random forest model, J. Environ. Eng. 146 (2020) 04020127, https://doi.org/10.1061/(ASCE)EE.1943-7870.0001806.[13] B. Li, R. Yue, L. Shen, C. Chen, R. Li, Y. Xu, M. Zhang, H. Hong, H. Lin, A novel method integrating response surface method with artificial neural network to optimize membrane fabrication for wastewater treatment, J. Clean. Prod. 376 (2022), https://doi.org/10.1016/j.jclepro.2022.134236.[14] B. Li, L. Shen, Y. Zhao, W. Yu, H. Lin, C. Chen, Y. Li, Q. Zeng, Quantification of interfacial interaction related with adhesive membrane fouling by genetic algorithm back propagation (GABP) neural network, J. Colloid Interface Sci. 640 (2023) 110–120, https://doi.org/10.1016/j.jcis.2023.02.030.[15] Y. Yang, M. Hou, H. Sun, T. Zhang, F. Weng, J.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "network, J. Colloid Interface Sci. 640 (2023) 110–120, https://doi.org/10.1016/j.jcis.2023.02.030.[15] Y. Yang, M. Hou, H. Sun, T. Zhang, F. Weng, J. Luo, Neural network algorithm based on legendre improved extreme learning machine for solving elliptic partial differential equations, Soft Comput. 24 (2020) 1083–1096, https://doi.org/ 10.1007/s00500-019-03944-1.[16] Y. Li, Z. Zhou, S. Ying, DeLISA: deep learning based iteration scheme approximation for solving PDEs, J. Comput. Phys. 451 (2022), https://doi.org/ 10.1016/j.jcp.2021.110884.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[17] M. Raissi, P. Perdikaris, G.E. Karniadakis, Physics-informed neural networks: a deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations, J. Comput. Phys. 378 (2019) 686–707, https://doi.org/10.1016/j.jcp.2018.10.045.[18] F. Wang, Z. Zhai, Z. Zhao, Y. Di, X. Chen, Physics-informed neural network for lithium-ion battery degradation stable modeling and prognosis, Nat. Commun. 15 (2024), https://doi.org/10.1038/s41467-024-48779-z.[19] M. Tagliavini, S.A. Snyder, Flux decline prediction in dead-end ultrafiltration combining fluorescence spectroscopy and mechanism-informed machine learning, ACS ES and T Water (2024), https://doi.org/10.1021/acsestwater.4c00473.[20] R.W. Field, D. Wu, J.A. Howell, B.B. Gupta, Critical flux concept for microfiltration fouling, J. Membr. Sci. 100 (1995) 259–272, https://doi.org/10.1016/0376-7388 (94)00265-Z.[21] S. Taghaddosi, A. Akbari, R. Yegani, Preparation, characterization and anti-fouling properties of nanoclays embedded polypropylene mixed matrix membranes, Chem. Eng. Res. Des. 125 (2017) 35–45, https://doi.org/10.1016/j.cherd.2017.06.036.[22] J.W. Chew, J. Kilduff, G. Belfort, The behavior of suspensions and macromolecular solutions in crossflow microfiltration: an update, J. Membr. Sci. 601 (2020), https://doi.org/10.1016/j.memsci.2020.117865.[23] S. Ye, K. Zhong, J. Zhang, W. Hu, J.D. Hirst, G. Zhang, S. Mukamel, J.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e, J. Membr. Sci. 601 (2020), https://doi.org/10.1016/j.memsci.2020.117865.[23] S. Ye, K. Zhong, J. Zhang, W. Hu, J.D. Hirst, G. Zhang, S. Mukamel, J. Jiang, A machine learning protocol for predicting protein infrared spectra, J. Am. Chem. Soc. 142 (2020) 19071–19077, https://doi.org/10.1021/jacs.0c06530.[24] Y.J. Lee, L. Chen, J. Nistane, H.Y. Jang, D.J. Weber, J.K. Scott, N.D. Rangnekar, B. D. Marshall, W. Li, J.R. Johnson, N.C. Bruno, M.G. Finn, R. Ramprasad, R.P. Lively, Data-driven predictions of complex organic mixture permeation in polymer membranes, Nat. Commun. 14 (2023), https://doi.org/10.1038/s41467-02340257-2.[25] J. Hua, Y. Li, C. Liu, P. Wan, X. Liu, Physics-informed neural networks with weighted losses by uncertainty evaluation for accurate and stable prediction of manufacturing systems, IEEE Transact. Neural Networks Learn. Syst. (2023), https://doi.org/10.1109/TNNLS.2023.3247163.[26] T. Muther, A.K. Dahaghi, F.I. Syed, V. Van Pham, Physical laws meet machine intelligence: current developments and future directions, Artif. Intell. Rev. 56 (2023) 6947–7013, https://doi.org/10.1007/s10462-022-10329-8.[27] E. Kharazmi, Z. Zhang, G.E. Karniadakis, Variational physics-informed neural networks for solving partial differential equations. http://arxiv.org/abs/191 2.00873, 2019.[28] M. Raissi, A. Yazdani, G.E. Karniadakis, Hidden fluid mechanics: learning velocity and pressure fields from flow visualizations, Science (2020), 1979, https://www.sc ience.org.[29] A.R.P.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "is, Hidden fluid mechanics: learning velocity and pressure fields from flow visualizations, Science (2020), 1979, https://www.sc ience.org.[29] A.R.P. Pizzichetti, C. Pablos, C. ´Alvarez-Fern´andez, K. Reynolds, S. Stanley, J. Marug´an, Kinetic and mechanistic analysis of membrane fouling in microplastics removal from water by dead-end microfiltration, J. Environ. Chem. Eng. 11 (2023), https://doi.org/10.1016/j.jece.2023.109338.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825004466-main",
+      "title": "Development of physics-informed machine-learning models to enhance understanding and prediction of membrane fouling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  }
+]

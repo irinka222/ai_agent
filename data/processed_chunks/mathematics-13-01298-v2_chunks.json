@@ -1,0 +1,272 @@
+[
+  {
+    "content": "1. Introduction This article investigates the boundary value problem for an extended system of stationary Nernst–Planck–Poisson (NPP) equations [1–4], describing the transport of ions of a binary salt in the diffusion layer, taking into account the influence of space charge on changes in the equilibrium coefficient. It is known that in strong electric fields the equilibrium coefficient of equilibrium/recombination of water molecules can increase many times. For bipolar ion-exchange membranes, Timashev S.F. and others [5] based on Onsager’s idea suggested an empirical formula, from which it follows that the equilibrium coefficient exponentially depends on the stability of the external field of external action. There are some considerations [3] in favor of using a linear dependence on the space charge density instead of the exponential dependence of the equilibrium coefficient on the electric field strength. For bipolar membranes, due to the Boltzmann–Debye equation, this is equivalent to an exponential dependence on the electric field strength. It is easy to show that the same is preserved in the quasi-equilibrium region of the space charge in the diffusion layer of the ion-exchange membrane. However, at overlimiting current densities in the diffusion layer of monopolar membranes of the extended region of the space charge [6], it can be shown that in the extended space charge region, the equilibrium coefficient will depend almost linearly on the electric field strength.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Nazarov R.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01298",
+      "title": "Investigation of the Boundary Value Problem for an Extended System of Stationary Nernst–Planck–Poisson Equations in the Diffusion Layer",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A similar solution of the boundary value problem, obtained by us, in the extended region of space charge, shows that along with the dependence of the equilibrium coefficient on the voltage, the key role is played by the dependence on the initial concentration of the electrolyte solution. Namely, at high solution concentrations of the order of 1 mol/m3 and higher, the effect of the change in the equilibrium coefficient on the transfer of salt ions is not significant and can be ignored, but at lower concentrations it must be taken into account. This allows for a more accurate description of ion transport processes in electromembrane systems (EMS) and makes the model more universal and applicable to a wide range of parameters. Moreover, in previous studies, numerical methods were generally used to solve boundary value problems in membrane electrochemistry in diffusion layers, nonlinear processes in porous electrodes, electrochemical phenomena in microfluidic systems, etc. [7–12]. Numerical methods for solving boundary value problems for the Nernst–Planck–Poisson system are currently a pressing and complex problem. For example, in [13], numerical schemes are proposed that can unconditionally ensure conservation of mass, initial energy dissipation, and the existence of positive numerical solutions.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Nazarov R.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01298",
+      "title": "Investigation of the Boundary Value Problem for an Extended System of Stationary Nernst–Planck–Poisson Equations in the Diffusion Layer",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The transition to dimensionless variables using characteristic parameter values shows that the boundary value problem is singularly perturbed, containing two small parameters, one of which is in the derivative of the Poisson equation, leading to computational difficulties at small parameter values in numerical solutions and the need for special methods [13–15]. In this regard, obtaining analytical solutions is of great importance. The main problem of the analytical solution lies in the fact that different physical processes dominate in different regions of the diffusion layer [16,17]. In this article, we estimate the characteristic quantities used to make the transition to a dimensionless form and obtain trivial and nontrivial similarity criteria. We have determined their physical meaning, defined the regions of change, and clarified the main properties of the solution to the boundary value problem. We have performed a numerical analysis of the boundary value problem and shown that the diffusion layer has a complex structure; namely, it is divided into six intervals where different processes dominate, and therefore, in each of them, the solution to the boundary value problem behaves differently.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Nazarov R.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01298",
+      "title": "Investigation of the Boundary Value Problem for an Extended System of Stationary Nernst–Planck–Poisson Equations in the Diffusion Layer",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In this article, to construct an analytical solution to the boundary value problem, we divide the solution region into a number of subregions (regions of electroneutrality, region of extended space charge, quasi-equilibrium region, recombination region, intermediate layer), in each of which the boundary value problem is solved in its own way, and then these solutions are merged. The analytical solution is verified by comparing it with the numerical solution. The advantage of the analytical solution we obtained is the possibility of a comprehensive analysis of the effect of the dissociation/recombination reaction of water molecules on the transport of salt ions over a wide range of real changes in the concentration and composition of the electrolyte solution and other input parameters. Thus, the model we propose and its analytical solution represent a significant step forward in understanding the processes of ion transport in EMS, taking into account the effect of the dissociation/recombination reaction of water molecules and solving boundary value problems for the extended system of NPP equations. The mathematical model we propose and the analytical method for its study are the standard for other singularly perturbed boundary value problems in membrane electrochemistry. It demonstrates how complex physicochemical processes, such as the dissociation and recombination of water molecules [18], can be taken into account within a single mathematical formulation. This opens up new possibilities for constructing asymptotic solutions for other problems related to ion transport in EMS, when numerical methods become ineffective.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Nazarov R.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01298",
+      "title": "Investigation of the Boundary Value Problem for an Extended System of Stationary Nernst–Planck–Poisson Equations in the Diffusion Layer",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Mathematical Model of the Influence of the Dependence of the Dissociation Coefficient on the Space Charge Value on the Stationary Transport of Salt Ions in the Diffusion Layer The dissociation of water at interphase boundaries and changes in the equilibrium coefficient are important for understanding the processes occurring in ion transport using ion-exchange membranes. The increase in the rate coefficient of water molecule dissociation at interphase boundaries (membrane/solution or membrane/membrane) can have several causes, as indicated in [19]. In this work, the influence of the electric field on the equilibrium coefficient of the water molecule dissociation/recombination reaction is investigated. According to the concepts developed by Timashev S.F. and Sheldeshov N.V. et al. [5,20,21] for bipolar membranes, the current density of H+(OH-) ions generated in the membrane system is determined by an empirical formula where the equilibrium coefficient depends exponentially on the external electric field strength [9]. In electrodialysis systems with monopolar membranes, few studies have been devoted to studying this dependence [22,23]. There are several considerations suggesting that, unlike the studies mentioned above, in systems with monopolar membranes, changes in the equilibrium coefficient can be associated not only with the magnitude of the electric field strength but also with the magnitude of the space charge. For the first time, the dependence of H+(OH-) ion fluxes on the magnitude of the space charge was mentioned in the work of Nikonenko V.V. et al. [23].",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Nazarov R.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01298",
+      "title": "Investigation of the Boundary Value Problem for an Extended System of Stationary Nernst–Planck–Poisson Equations in the Diffusion Layer",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Consider the water molecule dissociation/recombination reaction equation. Assume that kw depends on the space charge ρ. Expanding kw(ρ) in a Taylor series with respect to ρ and limiting ourselves to the first approximation, we obtain an empirical formula. After transformation, we obtain kw(ρ) = kw0 + λ Σ_i z_i C_i, where λ is a dimensionless fitting parameter. Thus, we obtain only one, dimensionless fitting parameter λ, which has a clear and simple physical meaning, which consists in the influence of the magnitude of the space charge on the increase in the rate of dissociation of water molecules. In addition, the function kw(ρ) depends linearly on the values of the ion concentrations at each point, which allows us to study its change in different parts of the diffusion layer [24] and find analytical solutions.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Nazarov R.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01298",
+      "title": "Investigation of the Boundary Value Problem for an Extended System of Stationary Nernst–Planck–Poisson Equations in the Diffusion Layer",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.1. System of Equations Stationary transport of salt ions for a 1:1 electrolyte in a diffusion layer at a cation-exchange membrane (CEM), taking into account the space charge and the dissociation/recombination reaction, taking into account the dependence of the dissociation coefficient on the value of the space charge, is described by the following extended system of NPP equations: material balance equations, Nernst–Planck equations for the flows of cations, anions, H+ and OH- ions, Poisson equation, dissociation/recombination reaction with kw(ρ) = kw0 + bρ, and current flow equation (Faraday current density). Here, εr is the permittivity, F is Faraday constant, R is gas constant, T is absolute temperature, ϕ is potential, E = -dφ/dx is electric field strength. Remark: As follows from the equations, the relations z1j1+z2j2 = Is/F, z3j3+z4j4 = Iw/F and I = Is+Iw are valid, where Is, Iw are constant unknown partial currents for salt ions and dissociation products of water molecules.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Nazarov R.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01298",
+      "title": "Investigation of the Boundary Value Problem for an Extended System of Stationary Nernst–Planck–Poisson Equations in the Diffusion Layer",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2. Boundary Conditions At x=0, the concentrations are known, the solution away from the CEM is acidified (C30 >> sqrt(kw0)). At x=h, the cation concentration C1 is determined by the membrane exchange capacity (C1k), the membrane is ideally selective, H+ ions pass through freely, a flow of OH- ions is injected into the solution from the membrane surface, and the potential drop is specified (φ(0)=d, φ(h)=0).",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Nazarov R.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01298",
+      "title": "Investigation of the Boundary Value Problem for an Extended System of Stationary Nernst–Planck–Poisson Equations in the Diffusion Layer",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Trivial and Non-Trivial Similarity Criteria 3.1. Characteristic Quantities and Transition to Dimensionless Form Characteristic quantities: initial concentration C0 (10^{-3} to 100 M), diffusion layer thickness h (~10^{-4} m), electrolyte diffusion coefficient D0, thermal potential φ0 = RT/F, limiting diffusion current. After transition to dimensionless form, the boundary value problem contains parameters ε(u), D3(u), D4(u), a(u), k(u), k_w0(u), β(u), b(u).",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Nazarov R.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01298",
+      "title": "Investigation of the Boundary Value Problem for an Extended System of Stationary Nernst–Planck–Poisson Equations in the Diffusion Layer",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Physical Meaning of Similarity Criteria (1) Parameter ε(u) = 2(ld/h)^2, where ld is Debye length. It is a small parameter, decreasing with increasing C0. (2) Parameter k_w0(u) = kd CH2O/(kr C0^2) varies from 10^{-14} to 10^{-6}, also a small parameter. (3) Parameter a(u) = kr φ0 εr/(D0 F) = 12.6, a universal constant. It is the square of the ratio of Debye length ld to the width of the recombination region lr. (4) When h is fixed, there is a non-trivial similarity criterion kw0 = B ε^2, where B is a dimensionless parameter. Thus, with increasing initial concentration C0, the influence of the dissociation/recombination reaction on salt ion transport rapidly decreases.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Nazarov R.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01298",
+      "title": "Investigation of the Boundary Value Problem for an Extended System of Stationary Nernst–Planck–Poisson Equations in the Diffusion Layer",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Analysis of Numerical Solution and Algorithm of Analytical Solution A special program was developed for numerical study of the boundary value problem using the finite element method in COMSOL Multiphysics. Analysis of the numerical solution shows that the diffusion layer can be conditionally divided into six intervals by five points: xr (center of recombination region), xc (center of intermediate region between electroneutrality and extended space charge), xq (left boundary of quasi-equilibrium region). The structure includes: region of electroneutrality (acidified, no OH-), recombination region (recombination dominates), intermediate layer, extended space charge region (at overlimiting currents), and quasi-equilibrium SCR. Concentration profiles: C1 changes linearly then slowly decreases and exponentially increases near membrane; C2 decreases linearly then becomes zero; H+ decreases linearly then grows to local maximum; OH- grows from zero to maximum then drops.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Nazarov R.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01298",
+      "title": "Investigation of the Boundary Value Problem for an Extended System of Stationary Nernst–Planck–Poisson Equations in the Diffusion Layer",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5. Analytical Solution The dimensionless boundary value problem (omitting index “u”) contains two small parameters ε and kw0; ε enters singularly. The solution domain is divided into six sublayers. In the electroneutrality regions, the condition of electroneutrality and equilibrium is satisfied. 5.1. Analytical Solution in the Recombination Region Assumptions: recombination region is small, recombination prevails over dissociation. Using these, the system simplifies. For the interval (xr-δ1, xr], taking into account C4≈0, we obtain a linear non-homogeneous equation for j3, giving j3(x,ε) = A2 exp(-√(aC3(xr)/D4) (xr-x)/√ε) + Iw/D3. For the interval [xr, xr+δ1), using C3≈0, we get j3(x,ε) = B2 exp(-√(aC4(xr)/D3) (x-xr)/√ε). Matching at xr determines A2, B2. The width of the recombination region is O(√ε ln ε).",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Nazarov R.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01298",
+      "title": "Investigation of the Boundary Value Problem for an Extended System of Stationary Nernst–Planck–Poisson Equations in the Diffusion Layer",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5.2. Analytical Solution in the Extended SCR In the extended space charge region (xc+δ2, xq), dissociation dominates, C1 = O(√ε), C4 << C1, C3 << C4, C2≈0. The system simplifies. The solution depends on the ratio kw0/(β√ε). (1) If kw0/(β√ε) >> 1, the effect of changing the equilibrium coefficient is insignificant; flows increase linearly. An equation for the electric field is derived, which after neglecting the left-hand side gives an algebraic equation for E, having one isolated positive solution. (2) If β√ε/kw0 >> 1, a linear dependence of H+ and OH- flows on the electric field strength is obtained: j4 = (aβ/D4)E + γ1. After transformations, an equation for the potential φ is obtained and solved analytically by introducing a parameter.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Nazarov R.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01298",
+      "title": "Investigation of the Boundary Value Problem for an Extended System of Stationary Nernst–Planck–Poisson Equations in the Diffusion Layer",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5.3. Analytical Solution in a Quasi-Equilibrium SCR on the Segment (xq, 1] When the equilibrium coefficient depends on the space charge, the flows of H+ and OH- increase exponentially (second Wien effect). In this region, C1 increases exponentially, C2≈0, C3 has a local maximum, C4 decreases to zero. The system simplifies, and integration gives C1 = C1q exp((x-xq)E). The equilibrium coefficient depends exponentially on E: kw(ρ) ≈ kw0 + λ C1x0 exp((x-xq)E). The system has an analytical solution for E, C1, and j3. The thickness of the quasi-equilibrium region is O(√ε ln ε), same as the recombination region, confirming similarity theory.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Nazarov R.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01298",
+      "title": "Investigation of the Boundary Value Problem for an Extended System of Stationary Nernst–Planck–Poisson Equations in the Diffusion Layer",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "6. Conclusions A mathematical model of stationary transfer of a binary electrolyte in electromembrane systems is constructed taking into account the dissociation/recombination reaction and changes in the equilibrium coefficient. A similarity theory of the transfer process in the diffusion layer of a cation-exchange membrane has been developed. Using trivial similarity criteria, it has been shown that the size of the recombination region is of the same order of magnitude as the quasi-equilibrium region of the space charge. A non-trivial similarity criterion has been found and the contribution of the dissociation/recombination reaction of water molecules to the transfer of salt ions in the diffusion layer has been clarified. It has been shown that, assuming the diffusion layer thickness remains constant, the effect of the reaction decreases with increasing initial concentration at a quadratic rate. With increasing initial concentration, the small parameter ε decreases to 10^{-12} or less, causing computational difficulties. Therefore, an analytical solution was constructed by dividing the solution domain into subregions (electroneutrality, extended space charge, quasi-equilibrium, recombination, intermediate layer), solving in each, and merging. The analytical solution matches the numerical solution with 99% accuracy. The advantage is the ability to comprehensively analyze the effect of water dissociation/recombination over a wide range of parameters. It was shown that the dependence of the equilibrium coefficient on space charge leads to a linear dependence on E in the extended SCR and an exponential dependence on E in the quasi-equilibrium SCR, generalizing the assumption for bipolar membranes to monopolar membranes. This boundary value problem serves as a benchmark for constructing asymptotic solutions for other singularly perturbed problems in membrane electrochemistry.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Nazarov R.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01298",
+      "title": "Investigation of the Boundary Value Problem for an Extended System of Stationary Nernst–Planck–Poisson Equations in the Diffusion Layer",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  }
+]

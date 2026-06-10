@@ -1,0 +1,942 @@
+[
+  {
+    "content": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation Farah Rahman Omi a, Masoud Rastgar a , Afrouz Yousefi a, Mojtaba Mohseni b, Waralee Dilokekunakul b\n\n, Matthias Wessling b,c, Mohtada Sadrzadeh a,* a Department of Mechanical Engineering, 10-367 Donadeo Innovation Center for Engineering, Advanced Water Research Lab (AWRL), University of Alberta, Edmonton, AB, T6G 1H9, Canadab RWTH Aachen University, Aachener Verfahrenstechnik - Chemical Process Engineering, Forckenbeckstr. 51, 52074, Aachen, Germanyc DWI - Leibniz Institute for Interactive Materials, Forckenbeckstr. 50, 52074, Aachen, Germany\n\nA R T I C L E I N F O Keywords:Electrically conductive membraneLaser-induced graphenemembrane distillationMicropollutant degradationScaling prevention",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Electrically conductive membranes (ECMs) show significant potential in overcoming wetting and pore-blocking challenges in membrane distillation (MD) processes. In this study, a novel Janus ECM has been developed by laser-induced graphene (LIG) engraving technique on a polyamide-imide (PAI) membrane, complemented by a silica-infused PVDF layer on the opposite side to create a unique ’sandwich’ structure. The Janus structure in­tegrates the hydrophilicity of the LIG layer with the hydrophobicity of the PVDF layer, facilitating efficient vapor flux. The optimized membrane achieved electrical conductivity of 142 ± 1.5 S/cm, water vapor flux of 11.3 ±0.56 LMH, and 99.77 ± 0.1 % salt rejection. Its underwater oleophobicity effectively resisted wetting by sur­factants and oil-water emulsions. Furthermore, applying a cathodic potential of 3V enhanced the electrostatic interactions between organic foulants and the membrane surface, reducing fouling and achieving a minimal flux decline of 2.45 %/hr over 6 h. Experiments on mineral scaling mitigation revealed that AC electric fields out­performed DC fields. A square waveform at 5Hz frequency achieved over 99 % salt rejection with minimal flux decline for monovalent and multivalent ion solutions, attributed to enhanced electrophoretic mixing under the AC field.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lt rejection with minimal flux decline for monovalent and multivalent ion solutions, attributed to enhanced electrophoretic mixing under the AC field. A long-term test with the monovalent salt solution under AC/1V/5Hz(square waveform) exhibited excellent flux with a minimum flux decline of 1.35 %/hr after 18 h of experiment with no significant change in the membrane LIG structure. The in-situ LIG engraving process and the membrane’s adaptability to varying electric field applications highlight its potential for large-scale use.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Electrically conductive membranes (ECMs) offer an innovative approach to water filtration by combining traditional filtration proper­ties with the added benefits of the electrical field. These membranes are often fabricated with electrically conductive materials, such as carbon nanomaterials [1,2], graphene [3,4], and silver [5,6]. ECMs can improve membrane selectivity and permeability while enabling elec­trostatic interactions, electrochemical redox reactions, electrophoresis, and electrolysis, depending on the electric field applied [7,8]. The synergy of the electric field with the physicochemical separation in membrane filtration is evident in mitigating fouling [9–12], biofouling [13–16], and enhancing in-situ degradation of organic contaminants [17,18]. Despite the numerous advantages of ECM processes, developing a stable ECM remains challenging due to issues with long-term stability, fabrication complexity, and cost. Stable ECM must maintain material integrity when exposed to harsh environments, including acidic, basic, or high-temperature conditions [19,20]. ECM fabrication often requires complex synthesis processes and specialized coating techniques, which can complicate achieving uniform layer and mechanical stability [20]. Furthermore, the high cost of electrically conductive materials may limit the viability of large-scale production and implementation [21,22].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ty [20]. Furthermore, the high cost of electrically conductive materials may limit the viability of large-scale production and implementation [21,22]. Since its discovery in 2014, laser-induced graphene (LIG) has gained significant attention as an electrically conductive material due to its lowcost production and potential to transform various industries, from electronics to environmental technologies [23]. This technique enables the transformation of carbon-containing materials into graphene using laser beam energy, which causes localized heat-induced chemical",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 27 February 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). reactions [24]. Since its initial synthesis, LIG has found applications in supercapacitors [25], antibacterial surfaces [26–28], flexible electronics [29], and water filtration [30–32]. LIG engraving can customize a sur­face from hydrophilic to superhydrophobic by tuning the laser param­eters, which are partially dependent on the material properties [33]. A variety of membranes with different polymers, including polyimide (PI), polyethersulfone (PES), and polysulfone (PSU), have been processed with LIG for use in water filtration applications [32,34,35]. However, applying LIG-engraved membranes is often limited by reduced selec­tivity due to the open microporous structure formed during laser irra­diation. Therefore, advanced surface modification is also required after LIG to reach optimal membrane filtration properties with proper sta­bility, as shown by Thakur et al. [36]. Their study showed that incor­porating polyvinyl alcohol (PVA) with LIG-engraved PES can improve the bovine serum albumin (BSA) rejection by up to 63 % compared to the stand-alone LIG PES filters. In another study, Tan et al. developed a composite membrane LIG PES coated with polydimethylsiloxane (PDMS) and explored the electrothermal membrane distillation (MD) performance [37].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "oped a composite membrane LIG PES coated with polydimethylsiloxane (PDMS) and explored the electrothermal membrane distillation (MD) performance [37]. This study utilized the localized joule heating prop­erty for MD application, where the membrane vapor flux increased up to 119.5 % with excellent material stability. MD is particularly effective for desalination and the purification of hypersaline and highly contaminated water, offering advantages over traditional methods due to its moderate operating temperatures and manageable energy requirements. Like other membrane filtration techniques, MD is prone to fouling and wetting by low surface energy liquids (surfactants and oil) and mineral scaling [38]. Recently, Janus membranes have shown promise in addressing fouling and wetting is­sues, particularly when the feed water consists of low surface energy components [39]. Two approaches have been introduced to fabricate Janus MD membranes for wetting and fouling prevention: creating a superhydrophobic/omniphobic or hydrophobic/hydrophilic matrix [40]. The superhydrophobic/omniphobic membrane matrix has a concave omniphobic surface that resists fouling by trapping air but re­mains prone to organic fouling due to its lipophilic(lipid-loving) nature [41,42]. Similarly, Janus membranes, with a hydrophilic top layer and a hydrophobic substrate, enhance organic fouling by forming a hydration layer that prevents organic matter adhesion.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "with a hydrophilic top layer and a hydrophobic substrate, enhance organic fouling by forming a hydration layer that prevents organic matter adhesion. However, they remain vulnerable to surfactants in complex feedwater, necessitating improved designs for hypersaline wastewater resistance [43,44]. An electrically conductive hydrophilic layer on a hydrophilic/hydrophobic matrix can provide tunable antifouling properties by applying an electric field. The hydrophilic layer of such a matrix ensures uniform contact, while the thermal conductivity of the conductive material can transfer heat from the feed solution to the interface that provides the required energy for vaporization [45]. In some studies, electrophoretic mixing was found to reduce the mineral scaling problem by applying alternating current (AC) to an ECM [46,47]. MD was also conjugated with advanced oxidation processes (AOPs), where the degradation reaction kinetics powdered by reactive oxygen species (ROS) can improve by the dewatering effect, greatly impacting micropollutant removal research [48]. These studies indicate that an ECM with Janus properties could help address MD’s key challenges, such as fouling, wetting, and mineral scaling. In our previous study, we developed an electrically conductive silver ink-coated PTFE membrane for synergistic MD and electro-Fenton (EF) reaction and investigated the effect of wetting and micropollutant degradation [49].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "k-coated PTFE membrane for synergistic MD and electro-Fenton (EF) reaction and investigated the effect of wetting and micropollutant degradation [49]. The Ag-PTFE membrane showed excellent resistance to wetting by surfactant and oil while exhibiting a rapid increase in reaction kinetics during cathodic EF while degrading dyes and micro­pollutants. However, the Ag-PTFE membrane was only applicable for cathodic EF reaction as applying anodic potential causes oxidation of Ag, and the ECM property is sacrificed. In this study, we chose LIG due to its susceptibility to various physical and chemical stresses, and it can be used for both cathodic and anodic potentials.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Experimental 2.1. Materials Commercial polyamide-imide (PAI, Torlon 4000T-HV, Solvay Advanced Polymers) and dimethylacetamide (DMAc >99 %, SigmaAldrich) were employed in membrane fabrication for subsequent LIG formation. Polyvinylpyrrolidone (PVP, reagent grade, MW = 10 kDa) was sourced from Sigma-Aldrich as a polymeric additive. Hydrophobic polyvinylidene fluoride (PVDF) membranes were prepared using PVDF powder (SOLEF 6020/1001, Solvay Specialty Polymers) and DMAc as a solvent. Silane-functionalized silica nanoparticles (SiO2, SkySpring Nanomaterials, Inc.) and lithium chloride (LiCl, Sigma-Aldrich) were incorporated into the dope solution to enhance hydrophobicity and pore structure formation. Sodium chloride (NaCl) and sodium sulfate (Na2SO4) from Sigma-Aldrich served as electrolytes. For oil-in-water emulsions, n-hexadecane (>99 %, Sigma-Aldrich) was emulsified in demineralized water using sodium dodecyl sulfate (Sigma-Aldrich) as a surfactant. 2.2. Membrane fabrication 2.2.1. PAI membrane casting The nonsolvent-induced phase separation (NIPS) method was used to fabricate the PAI membrane. A homogeneous polymer solution was prepared by dissolving PAI powder (14 wt%) and PVP (2 wt %) in DMAc, followed by stirring at 350 rpm at 40 ◦C for 24 h. After stirring, the solution was placed in a vacuum oven for 1 h to remove any air bubbles. The PAI membrane layers were then formed by casting the solution onto non-woven polyester fabric using a film applicator.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "h to remove any air bubbles. The PAI membrane layers were then formed by casting the solution onto non-woven polyester fabric using a film applicator. The casting speed was 10 mm/s, with the gap height set at 130 μm. The fabricated mem­brane was finally immersed in a coagulation bath overnight to remove the solvent from the polymer matrix. 2.2.2. Engraving the LIG on the PAI membrane PAI was chosen for LIG engraving due to its higher carbon content (67.5 %) and excellent thermal decomposition temperature. Briefly, the fabricated polymeric membrane was taped to an acrylic sheet and placed in a laser bed, which was then exposed to a PLS6.150D (Universal Laser Systems) laser with different power, utilizing a 10.6 μm CO2 pulse laser (75 W). The process involved using an image density of 1000 pulses per inch (PPI) and a scan rate of 25 % for all experiments. 2.2.3. Fabrication of the silica-doped LIG-PVDF membrane LiCl (5 wt %) was first dissolved in DMAc solvent, followed by the addition of silane-functionalized silica nanoparticles (2–3 wt %). Next, PVDF polymer powder (12 wt %) was incorporated into the solution, and the mixture was stirred at 350 rpm at 60 ◦C for 24 h. After degassing and cooling the dope solution, the LIG-engraved PAI membrane (PAILIG) was positioned upside down and taped. The PVDF membrane was then cast over it using a casting knife at a speed of 10 mm/s.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "raved PAI membrane (PAILIG) was positioned upside down and taped. The PVDF membrane was then cast over it using a casting knife at a speed of 10 mm/s. Membranes of varying thicknesses (250 μm, 300 μm, 350 μm, and 400 μm) were produced and optimized for performance. Finally, the cast LIG-PVDF membrane was immersed in deionized water overnight to remove re­sidual LiCl and solvent. Fig. 1 schematically illustrates the details of these steps along with the chemical structures of the utilized polymers. The compositions of the eight fabricated membranes are summarized in Table 1. 2.3. Characterization of the membrane 2.3.1. Physicochemical characteristics The surface of the LIG engraved PAI membrane(M2) was examined using a Raman Spectrometer (Renishaw InVIa Raman Microscope). A 532 nm laser source, set at a power of 10 %, was focused on the sample surface with a 20 * objective lens to ensure accurate focusing.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "F.R. Omi et al. Journal of Membrane Science 722 (2025) 123916\n\nTransmission Electron Microscopy (TEM Lamella Preparation - Hydra Advanced) was utilized to observe the LIG structures and formations of the graphene flakes. The surface morphology of the membranes was analyzed using a Field Emission Scanning Electron Microscope (FESEM, Zeiss Sigma 300 VP). Before imaging, a thin gold layer (~10 nm) was applied to all membrane samples through sputter coating. Elemental analysis was conducted using Energy Dispersive X-ray Analysis (EDX). The membrane pore size was determined by analyzing FESEM im­ages with ImageJ software. Assuming the pores are cylindrical, the average pore size was calculated using the following equation:\n\nFig. 1. Schematic of the membrane fabrication process. Step 1 shows the large-scale PAI membrane fabrication process, step 2 includes LIG formation using the 10.6 μm CO2 laser cutter, and step 3 entails the PVDF membrane fabrication on the back side of the LIG membrane. F.R. Omi et al. Journal of Membrane Science 722 (2025) 123916 ds = ⎡ ⎢⎢⎣ ∑n i=1 ni di2 ∑ni=1ni ⎤ ⎥⎥⎦ 0.5",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(1) where ds is the average pore diameter, di is the ith pore diameter, ni is the number of pores with diameter di, and n is the total number of pores considered. The membrane surface wettability was assessed using a contact angle goniometer (Kruss Model DSA 100E) with the sessile drop method, applying a 2 μL MilliQ water droplet. To evaluate underwater oil wettability, oil contact angle analysis was performed with n-hexadecane using the captive bubble method. Membrane samples (1 cm * 2 cm) were attached to a holder, and placed upside down in a quartz cuvette filled with water, and oil droplets (5 μL) were applied to the membrane using a syringe. The interaction was recorded in dynamic mode. The membranes’ zeta potential was measured using the Surpass 3 Elec­trokinetic Analyzer from Anton Paar, Graz, Austria. The measurements were conducted in a 1 mM KCl solution with a pH range of 3–9. Surface topography was evaluated using Atomic Force Microscopy (AFM, Asylum MFP-3D) in tapping mode under ambient conditions. The roughness parameters, including root-mean-square roughness (Rq) and average roughness (Ra), were analyzed using Gwyddion software, with a scanning rate of 1.0 Hz and an area of 10 μm * 10 μm. X-ray diffraction (XRD) studies were done by using a Rigaku Ultima IV XRD device with a radiation source of Cobalt tube at 38 kV and 38 mA at a scan rate of",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5–90◦. Data was converted using JADE MDI 9.6 software. Phase iden­tification was done using DIFFRAC.EVA V5 software using the 2023/ 2024 ICDD PDF 5+ and Crystallographic Open Database. The elemental composition and chemical bonding of PAI, LIG, and PVDF were analyzed using a Kratos AXIS ULTRA XPS system, which features a monochromatic Al Kα X-ray source (energy of 1486.71 eV). The compositions were determined from the survey spectra by analyzing the major elemental peaks and applying sensitivity factors from the database. CasaXPS software was utilized for component analysis to fit the C1s, N1s, O1s, F1s, and Si2P spectra to peaks corresponding to various chemical bonds. Thermal stability was assessed using a Dis­covery TGA, where TGA curves were recorded as the temperature increased from 25 ◦C to 800 ◦C at a rate of 20 ◦C/min in a nitrogen atmosphere. 2.3.2. Electrochemical characterization The electrochemical experiments were conducted in a divided flowthrough module (Flex-E-Cell, FXC Engineering GmbH) using a threeelectrode setup consisting of a 4.5 * 5.0 cm2 platinum-coated expanded titanium sheet (Magneto) as the counter electrode (CE), a 3* 3 cm2 as-synthesized M2 (LIG-PAI) membrane as the working elec­trode (WE), and a potassium-saturated Hg2SO4 electrode (0.64 V vs. SHE) as the reference electrode (RE). A 100 mL solution of either 50 mM or 200 mM Na2SO4 was circulated through the module at a 50 mL/min flow rate.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". SHE) as the reference electrode (RE). A 100 mL solution of either 50 mM or 200 mM Na2SO4 was circulated through the module at a 50 mL/min flow rate. Throughout the experiments, the electrolyte was continuously bubbled with either N2 or O2 for 15 min before and during testing to ensure saturation. Electrochemical impedance spectroscopy (EIS) was initially per­formed to establish the baseline impedance of the electrochemical cell. In the EIS measurements, a small alternating current (AC) signal was applied at open-circuit potential, and the resulting voltage response was measured across a frequency range of 0.1 Hz–100 kHz. Following EIS, linear sweep voltammetry (LSV) experiments were conducted in the same setup to assess the electrochemical activity of the membranes. The LSV experiments were performed in the same flowthrough module setup described above, with the same electrode configuration and electrolyte flow rate at the potential range of 1.3 to -2.6 V vs. SHE. 2.4. Membrane performance analysis: wetting and pore blocking Initially, the permeability and rejection of the M3 and M4 mem­branes were tested under a 40 ◦C temperature difference, with feed and permeate temperatures set at 60 ◦C and 20 ◦C, respectively. M3 and M4 membranes were tested for two different operating conditions: feed facing the active side and feed facing the back side of the membrane. This is to understand if MD performance is affected by switching the membrane sides.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ng the active side and feed facing the back side of the membrane. This is to understand if MD performance is affected by switching the membrane sides. The mass change on the cold permeate side was monitored for 6 h using a digital balance. The solution used contained 3.5 % of NaCl, and permeability was calculated using equation (2): Water Vapour flux = ΔmAt ⌈kgm2hr ⌉(2) Here, Δm is the mass increase on the permeate side, A is the surface area of the membrane, and t is the experimental time. Salt rejection was measured by using the following equation: Rejection = Cf -Cp Cf * 100(3) Cf and Cp are the concentrations of the dissolved salt in feed and permeate sides measured in terms of conductivity. The flux decline rate (FDR) is an essential parameter for understanding the fouling phenom­ena and was measured by using the following equation:",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 1 Chemical composition of different fabricated membranes in this study. NameMembrane type StatusChemical compositionMembrane configuration M1PAISingle sided PAI (14 wt%), PVP-10kD (2 wt %), DMAc M2LIGSingle sided LIG engraved graphene M3PVDF (2 % SiO2) Single sided PVDF(12 wt%), LiCl(5 wt%), SiO2 (2 wt%), DMAc M4PVDF (3 % SiO2) Single sided PVDF(12 wt%), LiCl(5 wt%), SiO2 (3 wt%), DMAc M5-1PAIPVDF (2 % SiO2) Dualsided Feed side: PAI(14 wt %), PVP(10kD, 2 wt %), DMAc Permeate side: PVDF(12 wt%), LiCl(5 wt%), SiO2 (2 wt%), DMAc M5-2PAIPVDF (3 % SiO2) Dualsided Feed side: PAI(14 wt %), PVP(10kD, 2 wt %), DMAc Permeate side: PVDF(12 wt%), LiCl(5 wt%), SiO2 (3 wt%), DMAc M6-1LIGPVDF (2 % SiO2) Dualsided Feed side: LIG engraved PAI Permeate side: PVDF(12 wt%), LiCl(5 wt%), SiO2 (2 wt%), DMAc M6-2LIGPVDF (3 % SiO2) Dualsided Feed side: LIG engraved PAI Permeate side: PVDF(12 wt%), LiCl(5 wt%), SiO2 (3 wt%), DMAc Polyester support PAI LIG PVDF F.R. Omi et al. Journal of Membrane Science 722 (2025) 123916",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "FDR = (1 -JtJ0 )* 100% t(4) J0 and Jt correspond to the initial flux and flux at time t, respectively. All the membranes were tested with 0.5 mM of SDS solution with a 3.5 % NaCl feed to analyze the wetting behavior. Additionally, 1 g/L n-hex­adecane oil with 0.5 mM of SDS and 3.5 % NaCl solution was used as an oil-water emulsion to understand the wetting and pore-blocking phe­nomena of the membrane. Moreover, 3V electric potential was applied to the membrane to analyze its cathodic and anodic behavior while subjected to oil-water emulsion. 2.5. Membrane performance: inorganic scaling mitigation using an electrical field The effect of mitigating mineral scaling was assessed using a laboratory-scale ECMD system under the application of alternating current (AC). M4 membrane, with an effective area of 40.5 cm2, was used in an acrylic cell with a channel height of 5 mm. Two feed solu­tions, one with monovalent ions and another with multivalent ions, were continuously supplied to the ECMD cell by a pump, each with a volume of 1.5 L. The composition of the monovalent ion solution was NaCl at 200,000 mg/L, while the multivalent ion solution contained NaCl (193,802.4 mg/L), CaCl2 (3033.45 mg/L), Na2CO3 (2120 mg/L), and Na2SO4 (1044.12 mg/L). Ultrapure deionized water was circulated as the distillate solution using a gear pump, with feed and distillate tem­peratures maintained at 60 ◦C and 20 ◦C, respectively, using doublejacketed borosilicate glass vessels.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "sing a gear pump, with feed and distillate tem­peratures maintained at 60 ◦C and 20 ◦C, respectively, using doublejacketed borosilicate glass vessels. The weight and conductivity of the distillate were continuously monitored with an electronic balance (Metler Toledo) and a conductivity meter (Hach 8,506,000 Portable). A dual-channel arbitrary/function waveform generator (Tektronix AFG 3022) was used to generate and adjust AC waveforms. Each experiment was repeated at least three times to ensure reproducibility and reliable data. A long-term scaling test was conducted using the M6-2 membrane over three consecutive days, with each daily run lasting 6 h for a total of 18 h. The test conditions were optimized based on scaling experiment results with MD temperature gradient of 40 ◦C(60◦-20 ◦C). At the end of each 6-h run, the membrane was washed by circulating deionized (DI) water across its surface before restarting the experiment. The flux decline ratio(FDR) was recorded at the end of each daily experiment to monitor membrane performance with time. 3. Result and discussion 3.1. Membrane characterization A polymer must meet several key criteria to be suitable for graphene conversion through laser-induced graphene (LIG) processing. These include a high carbon content, a high decomposition temperature, an aromatic structure with specific functional groups, and low thermal conductivity to facilitate efficient graphitization.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "decomposition temperature, an aromatic structure with specific functional groups, and low thermal conductivity to facilitate efficient graphitization. The properties of the most common polymers used for membrane filtration are listed in Table S1 in the supporting information (SI). In this study, we investi­gated the potential of PAI membrane for LIG engraving primarily due to its higher carbon content of 67.5 %, comparable to polyimide (PI) at 69.1 %. PAI’s decomposition temperature (450–500 ◦C [50]) allows it to endure laser power without premature decomposition. Additionally, its aromatic rings with amide (–CONH–) and imide (–CO–N–CO–) links provide a carbon source and promote sp2-bonded carbon formation. At the same time, nitrogen from the amide group can be incorporated into the graphene structure during laser treatment, potentially enhancing its electrical conductivity and catalytic activity [51,52]. The thermally stable imide groups decompose at high temperatures during laser treatment, releasing gases like CO2 and NH3, which create a porous structure while leaving behind a conductive carbon matrix [53,54]. The PAI(M1) membrane was processed under various laser param­eters detailed in Table S2. An optical image of the resulting LIG mem­brane (M2) is presented in Fig. 2A, with a TEM image of the LIG flakes presented in Fig. 2B. Raman spectroscopy was carried out on the membranes lasered at power levels 7 %, 7.5 %, and 8 % with two Z-axis heights (0.24 and 0.25 inch).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2B. Raman spectroscopy was carried out on the membranes lasered at power levels 7 %, 7.5 %, and 8 % with two Z-axis heights (0.24 and 0.25 inch). The speed and PPI (pulses per inch) were fixed at 25 % and 1000, respectively. The Raman spectra (Fig. 2C) reveal three characteristic peaks: D band (1350 cm-1), G band (1580 cm-1), and 2D band (2700 cm-1), indicative of graphene. The ratio ID/IG and I2D/IG provide information about the level of disorder and layers of graphene, which can be found in Table S2. The ID/IG ratio of LIG, typically 0.8–1.2, signifies a higher degree of disorder than pristine flat graphene structure due to the formation of various non-hexagonal car­bon rings[55–57]. The ID/IG obtained from different parameters in our study listed in Table S2 shows a range of 0.26–0.83. While a lower ID/IG represents less disorder and high-quality graphene, the nonuniform production of LIG on PAI can restrict the choice of laser parameters. LIG formation is uneven at lower power, whereas higher power leads to instability, causing the LIG to detach as a powder. Similarly, higher I2D/IG (>1) means single-layer graphene, while our study shows a lower I2D/IG ratio (0.27–0.73) that confirms the production of multilayered graphene which can be confirmed through the high-resolution TEM (HRTEM) image in Fig. 2D. The HRTEM image illustrates multilayer graphene with repeating hexagonal and non-hexagonal patterns.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the high-resolution TEM (HRTEM) image in Fig. 2D. The HRTEM image illustrates multilayer graphene with repeating hexagonal and non-hexagonal patterns. Sharp 2D peaks in the Raman spectra typically indicate single-layer graphene, whereas broader 2D peaks, as observed here, confirm multilayer gra­phene (Fig. S2). Based on these findings, the optimal laser parameters were determined to be 7.5 % power with a Z-axis height of 0.24 inches, yielding a uniform LIG film on the PAI membrane. Higher laser power caused the detachment of the graphene as a powder, indicating the importance of parameter optimization. The XRD spectra in Fig. 2E show the different characteristic peaks of PAI (M1) and LIG (M2), as listed in Table S3. PAI demonstrated three distinct peaks, with the broader peak at 20.2◦indicating its amorphous structure. The other two peaks may result from partial crystallization of PAI during thermal treatment or impurities in this polymer. In contrast, the LIG spectrum shows a dominant peak at 25.9◦, corresponding to the (002) plane of disordered or turbostratic graphene, with an interlayer spacing of about 3.4 Å. The broadness of this peak reflects the random stacking and amorphous nature of the graphene layers formed by laser irradiation. A secondary peak at 42.8◦, related to the (100) plane with 2.1 Å interlayer spacing, indicates in-plane lattice order. The surface zeta potential (Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "secondary peak at 42.8◦, related to the (100) plane with 2.1 Å interlayer spacing, indicates in-plane lattice order. The surface zeta potential (Fig. 2F) shows that PAI is negatively charged above pH 3, a trend retained after LIG engraving. However, the LIG membrane demonstrates a less negative charge due to the conver­sion of PAI’s carboxyl and imide groups into a pure carbon backbone, reducing negative surface density. Furthermore, LIG’s ability to attract and adsorb positively charged ions from the solution contributes to this reduction in overall surface charge. The FESEM image of the LIG surface (Fig. 2G) reveals a dense \"forest\" of graphene nanosheets formed after converting the M1 (Fig. S1A) ho­mogenous surface to LIG. ImageJ software was used to measure the M1 membrane thickness on top of polyester support as 50 ± 1.8 μm from the cross-sectional FESEM image, as shown in Fig. S1B. A cross-sectional view (Fig. 2H) shows the LIG layer thickness(M2) on the polyester support, measured as approximately 25 μm after laser engraving. AFM analysis reveals that the PAI membrane has an average surface rough­ness (Ra) of 8.8 nm and a lower root mean square roughness (Rq) of 6.2 nm, indicating minimal surface height deviations from the mean plane.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ace rough­ness (Ra) of 8.8 nm and a lower root mean square roughness (Rq) of 6.2 nm, indicating minimal surface height deviations from the mean plane. Additionally, the surface area difference (SAD) of the PAI membrane is only 2.9 %, suggesting a relatively smooth surface with minor topo­graphical features, such as small bumps or grooves, as shown in the AFM image of the PAI(M1) membrane in Fig. 2I. After LIG engraving, Ra increases significantly to 41.5 nm, with pronounced surface irregular­ities, as indicated by an Rq of 55.5 nm (Fig. 2J). The SAD of the LIG(M2)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "F.R. Omi et al. Journal of Membrane Science 722 (2025) 123916 membrane rises dramatically to 50.7 %, highlighting the formation of a porous graphene structure that significantly enhances the surface area. As shown in Fig. 3A, the water contact angle of the PAI membrane is\n\n58.7◦, while after conversion to LIG, it increases slightly to 62.7◦. While graphene is inherently hydrophobic due to its carbon-only composition, this relatively modest increase in contact angle highlights the\n\nFig. 2. (A) Optical image of the optimized LIG membrane (M2); (B) TEM image acquired near the edge of the scraped LIG powder presenting the planar structure of graphene; (C) Raman spectra of the fabricated LIG membrane showing D, G and 2D bands which are the characteristics of graphene planes; (D) HRTEM image of stacked graphene sheets with repeating hexagonal and non-hexagonal patterns; (E) XRD spectra of PAI (M1) and LIG (M2) membranes showing characteristic peaks for both the membranes as detailed in Table S3; (F) surface zeta potential of PAI (M1) and LIG (M2); (G) FESEM image from top surface of LIG membrane, (H) Crosssectional FESEM image of LIG membrane, and AFM images of (I) M1 (PAI) (J) M2 (LIG) (K) M3 (L) M4 membranes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. (A) water contact angle of PAI (M1), LIG (M2), M3, and M4, (B) a schematic of the experimental setup used for EIS and LSV studies (the experiments utilized 50 mM and 200 mM Na2SO4 as electrolytes, circulated at a flow rate of 50 mL/min and 15 mV/s scan rate), (C) TGA analysis of PAI and LIG, (D) EIS results and (E) LSV analyses obtained from flow-through module for M2 (working electrode). F.R. Omi et al. Journal of Membrane Science 722 (2025) 123916 hydrophilic nature of the LIG surface in this study. This behavior can be attributed to its surface morphology and chemistry. The increased roughness of the LIG surface, as shown by AFM analysis, reduces the contact angle, as described by Wenzel’s equation. Furthermore, the laser engraving process, particularly in an oxygen-rich environment, in­troduces oxygen-containing functional groups (e.g., hydroxyl, carbonyl) on the LIG surface, further enhancing its hydrophilicity. Laser parame­ters such as power, speed, and the surrounding environment play a critical role in determining the surface morphology and chemistry of LIG [33]. The TGA analysis in Fig. 3C shows that M1 and M2 membranes show the first sign of decomposition when the temperature exceeds 400 ◦C. At around 500 ◦C, both materials reach a decomposition plateau with no further weight loss.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "sign of decomposition when the temperature exceeds 400 ◦C. At around 500 ◦C, both materials reach a decomposition plateau with no further weight loss. The reduction in total mass, from 22 % in PAI to 15 % in LIG, is attributed to the decomposition of organic content and its conversion into CO2, CO, or other byproducts during the laser process. A schematic of the electrochemical cell used for EIS and LSV studies is presented in Fig. 3B. The Nyquist plots for the M2 membrane, presented in Fig. 3D, indicate the membrane’s electrochemical proper­ties. At an electrolyte concentration of 50 mM Na2SO4, the x-axis in­tercepts representing ohmic resistance are approximately 9 Ω. Increasing the electrolyte concentration to 200 mM boosts the ionic conductivity of the solution, causing a marked decrease in ohmic resistance, as indicated by the leftward shift in the Nyquist plots. Consequently, the intercepts drop to 4.04 Ω for the M2 membrane, indicating that the observed high ohmic resistance is mainly due to electrolyte resistance, supporting the high electroconductivity of this membrane. Conductivity values for the different laser parameters are listed in Table S2, where the optimized film shows a surface electro­conductivity of 142 ± 1.5 S/cm. Fig. 3E presents the LSV data for the M2 membrane under oxygenand nitrogen-saturated electrolytes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s a surface electro­conductivity of 142 ± 1.5 S/cm. Fig. 3E presents the LSV data for the M2 membrane under oxygenand nitrogen-saturated electrolytes. The M2 membrane demonstrates slight activity toward the oxygen reduction reaction (ORR) and exhibits an increase in monitored current at a potential of -0.8 V vs. SHE under O2 saturation compared to N2. This increase becomes more pronounced at the higher electrolyte concentration of 200 mM Na2SO4, indicating",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. (A) Survey XPS spectra of M1, M2, M3, and M4, (B and C) high-resolution C1s and O1s spectra of M1 membrane, (D anfE)) high-resolution C1s and O1s spectra of M2 membrane(F, G, H, and I) high-resolution C, O1s, F1s and Si 2p spectra of M4 membrane. F.R. Omi et al. Journal of Membrane Science 722 (2025) 123916 the occurrence of ORR on the surface of the M2 membrane due to the catalytic properties of graphene for ORR. Additionally, the current density observed at higher electrolyte concentrations shows a steeper increase for the M2 membrane, further supporting the EIS data in Fig. 3D. The inside photographs (Fig. 3B) of the M2 membranes before and after both electrochemical studies demonstrate their physical sta­bility, with no detachment of engraved LIG particles observed throughout the entire experiments. The elemental composition of the M1, M2, M3, and M4 membrane surface was analyzed further using an XPS survey scan, as shown in Fig. 4A, and their atomic concentration (%) has been listed in Table S4. The atomic percentage of C1 increases from 77.38 % of M1 to 84.61 % in M2, confirming that LIG engraving introduces graphene conversion. The high-temperature localized heating during LIG engraving causes PAI pyrolysis that breaks down the polymer chain and releases volatile compounds producing oxygen and nitrogen-containing gases such as (CO, CO2, NOx, etc.) resulting in O and N compound reduction in M2 [58].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ses volatile compounds producing oxygen and nitrogen-containing gases such as (CO, CO2, NOx, etc.) resulting in O and N compound reduction in M2 [58]. Along with the decomposition of PAI polymer, the LIG engraving rearranges the carbon atoms in the graphitic structure that selectively removes heteroatoms (O and N), leaving a carbon-rich M2 membrane. Meanwhile, the M4 membrane shows an increment in C, O, and Si components due to the incorporation of 3 % SiO2 compared to the M3 membrane having 2 % SiO2. The atomic concentration of Si becomes 1.42 in M4, while the M3 membrane shows 0.71 % Si in the XPS survey. High-resolution C1 spectra were used to identify the functional groups present in M1 and M2 membranes. The C1 region of M1 can be decon­voluted into four distinct chemical bonds, namely: C–C/C–H at 283.24eV, C––O at 284.28 eV, C–N at 286.54 eV, and O–C––O at 288.89 eV (Fig. 4B). The C1 region of the M2 membrane shows five deconvo­luted peaks, including the four chemical bonds of M1, with the notice­able addition of the C–O bond (11.41 %) at 285.30 eV, as shown in Fig. 4D. The O1 region of both M1 and M2 shows two deconvoluted peaks for the C––O bond at 530.65 eV and the C–O bond at 531.99 eV. There was an increase (6.56 %) in the C––O bond in the M2 membrane, while the C–O bond followed an equal reduction after LIG engraving in the O1 region. This phenomenon is explained by the higher thermody­namic stability of carbonyl bonds(C––O) than the ether of hydroxyl (C–O) bonds.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "in the O1 region. This phenomenon is explained by the higher thermody­namic stability of carbonyl bonds(C––O) than the ether of hydroxyl (C–O) bonds. The interesting behavior of introducing new C–O bonds in the C1s spectra is due to oxygen retention in the graphitic structure, and the proximity of C atoms to oxygen helps form C–O bonds, while the O1s spectra show a decrease in C–O bonds as oxygen-containing groups are lost, leaving more stable carbonyl (C––O) groups. Also, M1 and M2 membranes elucidate distinct N1 spectra at 398.8 eV, as presented in Fig. S3. There is a reduction in the N component after LIG conversion, showing 2.8 % in the M2 membrane, which was 7.58 % in the M1 membrane. This is due to the thermal decomposition and volatilization of nitrogen-containing amide and imide groups of PAI, facilitating the removal of nitrogen atoms from the polymer matrix [59]. 3.1.1. PVDF(SiO2) membrane characterization The water contact angle of the M3 membrane is 103◦, increasing slightly to 105◦in the M4 membrane (Fig. 3A). M1 and M2 membranes demonstrated underwater oleophobicity, as shown in Videos S1 and S2, where oil droplets did not adhere to the membrane surfaces. The XPS spectra in Fig. 4A show four distinct regions of C1, O1, F1, and Si2p spectra conforming to the PVDF and incorporation of SiO2 nano­particles.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The XPS spectra in Fig. 4A show four distinct regions of C1, O1, F1, and Si2p spectra conforming to the PVDF and incorporation of SiO2 nano­particles. Due to the difference in surface morphology and pore distri­bution, the carbon content increased, and fluorine content decreased in the M4 compared to the M3 membrane (Table S4). The Silica content increases from 0.71 % of M3 to 1.42 % in M4 due to the increment in SiO2 nanoparticles in M4. Following this increment in SiO2 nanoparticles in M4, we notice the oxygen content also increases from 3.9 %(M3) to 4.62 %(M4). To understand the chemical bonds, we investigated the high-resolution spectra of C, O, F, and Si elements of the M4 membrane. The C1s region depicts three deconvoluted peaks of C–C/ C–H, F–C–F, and H–C–H bonds at 284.72eV, 289.34eV, and 286.92eV, respectively. In the O1s region, the SiO2 peak dominates the other C––O and C–O groups, indicating the incorporation of SiO2 nanoparticles in the 10 nm depth of the XPS survey scan. The F1s region shows two deconvoluted peaks for C–F semi-ionic and C–F covalent bonds at 686.46eV and 687.26eV, respectively. In PVDF, fluorine atoms are highly electronegative, causing polarization of C–F bonds. Though the C–F bond is primarily covalent, a dipole moment is created due to the higher difference in electronegativity between C and F, increasing the semi-ionic C–F bonds (82.26 %) in F1s region than the covalent C–F bond(17.74 %).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "gher difference in electronegativity between C and F, increasing the semi-ionic C–F bonds (82.26 %) in F1s region than the covalent C–F bond(17.74 %). A distinct Si2p spectrum was observed at 102.41 eV, confirming the silica nanoparticles’ presence on the membrane surface. Despite noticeable differences in surface morphology, the similar contact angle values for M3 and M4 are likely due to the higher silica content in M4, even with fewer surface pores. The top surface morphology (Fig. 5A and B) shows that M3 has numerous micropores, whereas M4 has fewer but larger micropores than M3. Pore size analysis using ImageJ software measured the average pore sizes of the M3 and M4 membranes as 0.38 μm and 0.55 μm, respectively. EDX mapping images (Fig. 5C) and corresponding elemental analysis (Table S4) confirmed the successful incorporation of silica nanoparticles, with the silica atomic concentration increasing from 4.83 % in M3 to 6.28 % in M4. Oxygen content similarly increased from 7.20 % in M3 to 8.89 % in M4, while fluorine content decreased, indicating the integration of SiO2 into the M4 membrane’s composition and contributing to the observed variations in surface morphology. Zeta potential measurements (Fig. 5D) showed an increased negative surface charge for M4 due to the higher number of hydroxyl groups from silane-functionalized silica, resulting in lower zeta potential and iso­electric point. AFM analysis (Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "o the higher number of hydroxyl groups from silane-functionalized silica, resulting in lower zeta potential and iso­electric point. AFM analysis (Fig. 2K and L) revealed that incorporating SiO2 increased the average surface roughness (Ra) of M4 to 19.5 nm compared to 12.9 nm for M3. The surface area difference (SAD) also increases significantly for M4 (3.83 %) compared to M3 (1.03 %), indicating greater texture and roughness. TGA curves (Fig. S4) highlight a distinct decomposition phase for both membranes, starting at 400 ◦C and stabilizing around 450 ◦C. The M4 membrane retains 1.97 % more weight than M3, reflecting the increased SiO2 content, further corrob­orating its enhanced thermal stability and compositional differences. 3.2. Membrane distillation tests 3.2.1. Evaluation of membrane performance in water permeation and salt separation The LIG membrane (M2) should be integrated with either the M3 or M4 membrane to fabricate a complete Janus membrane with advanced water filtration and electrochemical capabilities. We designed an inverted PVDF-SiO2 layer to ensure high MD water flux with effective salt rejection, complemented by an opposing LIG layer configured for electrochemical reactions. A schematic of the MD assembly is presented in Fig. S5, illustrating its dual functionality as an MD system and a hybrid MD-electrochemical cell capable of applying an electric field.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "presented in Fig. S5, illustrating its dual functionality as an MD system and a hybrid MD-electrochemical cell capable of applying an electric field. For M3 and M4, comparable water flux and salt rejection were achieved during typical MD operations, regardless of whether the membrane active side faced the feed (ASFF) or permeate (ASFP) solutions (Fig. 5E and F). The M3 membrane exhibited an FDR of 0.54 % per hour in ASFF mode, which increased to 0.78 % per hour in ASFP mode after 6 h of operation. Its salt rejection remained at 99.89 % and 99.83 % in ASFF and ASFP modes, respectively. Similarly, the M4 membrane achieved FDR values of 0.75 % per hour in ASFF mode and 0.66 % per hour in ASFP mode, with slight variations attributed to the membrane’s wetta­bility differences on its two sides, as shown in Fig. S6. The water contact angle of the back sides of the M3 and M4 membranes was measured at 90◦and 92◦, respectively (Fig. S6A). Moreover, the zeta potential of the back side of the M3 and M4 membrane (Fig. S6B) followed a similar trend to the active sides, supporting the consistent flux and salt rejection observed in both ASFF and ASFP modes. As shown in Table 1, the M5-1, M5-2, M6-1, and M6-2 membranes",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "F.R. Omi et al. Journal of Membrane Science 722 (2025) 123916 exhibit Janus structures, with one side composed of LIG and the other coated with a PVDF-SiO2 composite. Experiments were conducted on these four membranes with the LIG surface exposed to the hot feed water and the PVDF-SiO2 side in contact with the cold permeate water. Fig. 5G presents the water flux and salt rejection of the M5-1 and M5-2 mem­branes, showing an initial flux of approximately 7–8 LMH. The flux in­creases during the first 2 h before gradually declining over time. These membranes have an approximate thickness of 300 μm, with a 130 μm PAI layer on one side and a PVDF layer on the other. The initial flux increase can be attributed to the hydrophilicity of the PAI layer, which enhances water permeation for the first 2 h. The subsequent gradual decline in flux suggests that the hydrophilic PAI layer undergoes wetting over time, enhancing temperature polarization (TP) across the mem­brane. In designing Janus MD membranes, an ultra-thin hydrophilic layer is typically preferred to maximize water vapor transport while minimizing thermal and mass transfer resistances [60]. A thicker hy­drophilic PAI layer introduces greater thermal resistance, impacting the temperature gradient essential for vapor flux and increasing mass transfer resistance, which can reduce overall efficiency.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "resistance, impacting the temperature gradient essential for vapor flux and increasing mass transfer resistance, which can reduce overall efficiency. To address these challenges, the M6 membranes were fabricated with four different thicknesses and varying SiO2 contents to systematically evaluate their effects on water permeation and salt separation performance, aiming to optimize the balance between flux and efficiency. The LIG layer thickness was approximately 25 μm for all membranes, while the PDVF layer thickness varied. As shown in Fig. 5H, the M6-1 membrane exhibited a water flux of 8.3 ± 0.5 LMH at a thickness of 250 μm, with a gradual decline in flux as thickness increased. NaCl rejection improved with increased membrane thickness, highlighting the trade-off relationship between water flux and salt rejection. The M62 membrane, at 250 μm thickness, demonstrated water flux and salt rejection comparable to the M6-1 membrane. However, at 300 μm, the flux increased to 11.3 ± 0.56 LMH with a salt rejection rate of 99.77 ±0.1 % after 6 h of operation. Beyond 300 μm, further increases in thickness to 350 μm and 400 μm resulted in reduced water vapor flux but enhanced salt rejection. Fig. S7 illustrates the cross-sectional and top morphologies of the M6-2 membranes with varying thicknesses, revealing significant differences in pore structure and distribution. At 250 μm, the absence of top-layer pores likely accounts for the lower water flux.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ealing significant differences in pore structure and distribution. At 250 μm, the absence of top-layer pores likely accounts for the lower water flux. In contrast, at 300 μm, the presence of visible finger-like pores and top-layer pores improved both flux and salt rejection, with the increased distance between the pore tips and the bottom layer pre­venting membrane wetting. At 350 μm and 400 μm, longer finger-like pores with larger top-layer pores were observed, potentially leading to wetting and reduced flux. All experiments were conducted in triplicate to ensure repeatability, and the 300 μm thick M6-2 membrane was selected for further performance testing due to its optimal balance of water flux and salt rejection.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. Top surface SEM images of (A) M3 and (B) M4 membranes, (C) EDX mapping images for M3 and M4 membranes presenting the status of four elements including carbon, oxygen, fluorine, and silica, (D) zeta potential analysis of M3 and M4 with a pH range of 3–9, water flux and salt rejection of (E) M3 and (F) M4 in different working modes versus operational time, (G) water flux and salt rejection of M5-1 and M5-2 membranes in 6 h continuous working, (H) water flux and salt rejection of M6-1 and M6-2 membranes with different thicknesses. F.R. Omi et al. Journal of Membrane Science 722 (2025) 123916\n\n3.2.2. Membrane performance evaluation for surfactant and oil-water emulsion The 0.5 mM SDS concentration in a 3.5 % NaCl solution was selected as it corresponds to the critical micelle concentration (CMC), as reported by Kharraz et al. [61] with a surface tension of 27.66 ± 0.53 mN/m. Adding 1 g/L n-hexadecane oil to this solution further reduced the surface tension to approximately 19.92 ± 0.01 mN/m, increasing the likelihood of pore wetting and blocking. As shown in Fig. S8, the M3 and M4 membranes exhibited rapid wetting upon introducing SDS to the salt solution. Due to predominant wetting, both membranes lost function­ality entirely within 40 min of operation. Given PVDF’s intrinsic hy­drophobicity and susceptibility to rapid wetting, incorporating a thin hydrophilic layer, as demonstrated in Janus membranes, can signifi­cantly improve MD membrane performance.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9,
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. Membrane wetting performance with 3.5 % NaCl and 0.5 mM SDS solution of (A) M5-2 membrane (B) M6-2 membrane when 0.5 mM SDS is added after 1hr; Membrane wetting and oil fouling performance with a feed solution composition consisting 3.5 % NaCl, 0.5 mM SDS and 1000 ppm n-Hexadecane oil (oil-water emulsion) where the 3.5 % NaCl solution is replaced with the oil-water emulsion after 1hr (C) M5-2 membrane and (D) M6-2 membrane. Electrical field application on M6-2 membrane with a feed composition of oil-water emulsion for 6 h operational time under (E) cathodic (-3V) and (F) anodic (+3V) potentials. F.R. Omi et al. Journal of Membrane Science 722 (2025) 123916",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6A and B illustrate the performance of the M5-2 and M6-2 membranes when exposed to SDS and oil-water emulsion. The M5-2 membrane showed a significant flux decline, eventually reaching negative flux within 3 h. The reduced surface tension of the liquid on the PAI layer disrupts the air-water interface stability within the hydro­phobic PVDF-SiO2 membrane pores, leading to a gradual increase in water flux and indicating signs of partial pore wetting. In contrast, M6-2 demonstrated greater resistance to SDS wetting due to its thinner hy­drophilic LIG layer, which mitigated the likelihood of pore wetting. The M6-2 membrane maintained steady rejection for the first 3 h after SDS addition but declined thereafter, reaching 76 % rejection after 6 h (Fig. 6B). This slow-wetting phenomenon is observed when SDS mole­cules can permeate the hydrophilic top layer and subsequently adsorb onto the hydrophobic substrate surface and membrane pore wall hy­drophilic surfaces [62]. Upon the addition of oil, the surface tension of the solution decreased further, resulting in a negative flux for the M5-2 membrane within 1 h due to pore wetting, as shown in Fig. 6C. While PAI is known for its underwater oleophobicity [63], this rapid wetting and pore blocking can be attributed to the elevated temperatures during MD operation. These conditions can disrupt the hydration layer [63], contributing to underwater oleophobicity by causing slight thermal expansion or reorganization in the PAI polymer.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n disrupt the hydration layer [63], contributing to underwater oleophobicity by causing slight thermal expansion or reorganization in the PAI polymer. This effect destabilizes the protective water layer at the membrane-feed interface, increasing susceptibility to oil adhesion and pore blocking, as shown in Fig. 6C. In contrast, the M6-2 membrane, with its LIG-modified surface, prevented rapid pore blocking. It demonstrated a slight increase in flux due to the higher SDS concentration at the critical micelle concentration (CMC) and enhanced mobility resulting from the presence of oil in the hot feed water (Fig. 6D). The water vapor flux increased initially from 11 LMH in the first hour to 13 LMH in the second hour, followed by a gradual decline. Notably, the rejection performance of the M6-2 membrane did decrease rapidly, as observed in Fig. 6B, indicating that while SDS pri­marily contributes to pore wetting, it does not significantly compromise rejection. These findings highlight the enhanced durability of the LIG-decorated membrane, which can withstand low surface tension liquids and maintain functionality over extended operation. The study further examines the application of direct current (DC) at an electric potential of 3V in both cathodic and anodic modes to evaluate the antifouling performance of the M6-2 membrane. Under a cathodic voltage (-3V), the membrane exhibited a flux decline rate (FDR) of 2.45 % per hour during 6 h of continuous operation (Fig. 6E).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ane. Under a cathodic voltage (-3V), the membrane exhibited a flux decline rate (FDR) of 2.45 % per hour during 6 h of continuous operation (Fig. 6E). This suggests that the cathodic potential effectively repels oil droplets, minimizing hydrophobic interactions and fouling. The non-polar dodecyl tail (C12H25) of SDS attached to the oil and the negatively charged sulfate (SO4-) group at the head remains in the aqueous feed. While the hy­drophobic oil can be prevented by the hydration layer generated on the LIG surface, a negative electric potential can repel the SDS head, reducing the wetting effect. Thus, the functional hydrophilic electrically conductive LIG layer can be tuned according to the presence of charged particles in the feed, improving the anti-wetting properties of the Janus matrix. Conversely, applying an anodic potential (+3V) resulted in a much higher FDR of 12.4 % per hour (Fig. 6F), as the positively charged membrane attracted the negatively charged oil droplets. The behavior of the M6-2 membrane under these conditions is driven by electrostatic attraction and repulsion mechanisms, as well as electrophoretic mixing. The oil droplets, emulsified with an anionic SDS surfactant, carry a negative charge. Under a cathodic potential, these droplets are repelled from the membrane surface, reducing fouling and flux decline. In contrast, an anodic potential attracts the negatively charged oil droplets, exacerbating fouling and flux reduction.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "cing fouling and flux decline. In contrast, an anodic potential attracts the negatively charged oil droplets, exacerbating fouling and flux reduction. Additionally, the applied voltage induces an electrophoretic force that displaces charged oil droplets away from the membrane surface, further enhancing anti­fouling performance. These results demonstrate the potential of the M62 membrane’s electroactive properties to improve its resistance to fouling in feed water containing charged contaminants, particularly under cathodic operation.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2.3. Mineral scaling evaluation under different electric field conditions To investigate the role of the electric field in mitigating mineral scale (inorganic salt) formation, we evaluated membrane performance under various operational conditions, including no applied potential, direct current (DC), and alternating current (AC). In DC mode, a voltage of -1 V was applied to the M6-2 membrane, while in AC experiments, a 1 V potential was tested using square and sinusoidal waveforms at three frequencies (1, 5, and 10 Hz). Fig. 7A illustrates the normalized water flux of the M6-2 membrane with a hypersaline monovalent salt solution (200,000 mg/L NaCl). Mineral scaling in the MD process progresses through three main stages [47,64,65], as illustrated in Fig. S9: (1) a slow flux decline due to limited heterogeneous nucleation on the membrane surface, (2) a rapid flux drop caused by homogeneous nucleation in the bulk solution, and (3) a near-zero flux stage with increased distillate conductivity, indicating significant scaling and reduced separation performance. Under no-potential conditions, the M6-2 membrane exhibited these distinct scaling stages, with a gradual flux decline during the first 2 h, followed by a rapid drop, reaching zero flux at 6 h (Fig. 7A). When a cathodic potential of -1 V was applied, the resulting negative charge repelled positively charged scaling ions, disrupting the nucleation pro­cess and reducing scale deposition.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "was applied, the resulting negative charge repelled positively charged scaling ions, disrupting the nucleation pro­cess and reducing scale deposition. This extended the heterogeneous nucleation phase from 120 min to over 150 min, delaying the onset of homogeneous nucleation. The flux decline under a -1V DC potential proceeded more gradually, reaching zero after 360 min. The applied potential generates an electrical double layer (EDL) at the membrane surface, where counter-ions accumulate and co-ions are depleted [66]. This EDL reduces the local saturation index, slowing nucleation and mitigating mineral scaling. Additionally, the electric field redirected scaling species into the bulk solution, minimizing adhesion and scale layer formation on the membrane. In some cases, the DC potential could also induce electrolysis reactions, resulting in local pH changes that further inhibit scale formation by altering the solubility and precipitation behavior of scaling ions [67]. Numerous studies have reported that effective mitigation of inor­ganic scaling can be achieved through the application of an AC electric field [66,67]. Several mechanisms are explained to validate the effect of AC electrical field in mitigating the mineral scale formation as follows [68]: 1. Minimizing concentration polarization (CP): The constantly changing polarity of an AC electric field helps reduce the CP effect by periodically reversing the charge at the membrane surface.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "CP): The constantly changing polarity of an AC electric field helps reduce the CP effect by periodically reversing the charge at the membrane surface. This dynamic pre­vents ions from accumulating near the surface, which is crucial for minimizing scaling, as ion buildup often leads to crystallization and scale formation.2. Disturbance of the EDL: As opposed to the DC electric field, AC alternated the polarity of the surface, thereby disturbing the EDL and preventing stable nucleation of scale-forming ions like Ca+ and SO42-. The dynamic nature of an AC electric field makes it more challenging for ions to form stable deposits, unlike DC conditions where a stable electric field promotes ion buildup. This constant shift in polarity disrupts ion interactions near the membrane surface, reducing the likelihood of stable scale formation.3. Electrophoretic mixing and surface turbulence: Electrophoretic mixing induced by rapid reversal of current direction causes local turbu­lence, helping in dispersing ions away from the membrane surface, reducing the likelihood of ion clusters forming and adhering, which can significantly mitigate scaling [66].4. No localized pH changes: The dynamic AC environment also prevents localized pH changes, unlike the cathodic DC environment, where a stable negative potential can raise local pH and promote the pre­cipitation of certain minerals.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "To evaluate the effect of AC electric field application, we monitored the effect of frequency (1, 5, and 10 Hz) and two common AC wave­forms, including sinusoidal and square, on the monovalent and multi­valent ion solutions. The frequency of AC means the rate at which AC changes per second, explaining how many times the reversal happens when applied to an electrically conductive surface. The waveform of AC refers to the shape of AC, showing how it alternates, changing direction and amplitude. For a sine wave, the voltage rises and falls smoothly, changing between positive and negative peaks periodically, while square waveform switches abruptly between maximum positive and maximum negative values(see Fig. S10A). Following this periodic switch, oppositely charged ions move toward the membrane surface, causing electrophoretic movement and preventing the accumulation and nucleation of ions (Fig. S10B). In Fig. 7A, we investigated the role of 1 V AC voltage in sine and square waveforms for monovalent ion solu­tion using peak-to-peak voltage. The wave oscillates between +0.5V and -0.5V, making the total range 1 V. For 1 Hz frequency AC waveforms, we see a huge improvement in the flux compared to no electric field (no DC) and DC (-1V) conditions. For both sine and square waveforms, the heterogenous nucleation stage was found to be predominant, and the flux decline showed slow progress. The square waveform showed gradual flux reduction, reaching an FDR of 2.7 % per hour.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nd to be predominant, and the flux decline showed slow progress. The square waveform showed gradual flux reduction, reaching an FDR of 2.7 % per hour. Meanwhile, the sine waveform at 1 Hz frequency shows a gradual flux decline (FDR 2.7 % per hour) until 280 min, followed by a rapid flux decline, making the FDR 15.94 % per hour (Fig. 7A). Such an observed phenomenon can be due to the effect of electrophoretic movement, which is insufficient for complete scaling mitigation. At 5 Hz, we see a gradual flux decline for both sine and square waveforms, showing FDR of 1.5 % and 0.93 % per hour, respectively. The frequent abrupt switching of the square waveform is effective for monovalent ion scaling prevention. At 10 Hz, the dramatic flux decline highlights that the excessive electrochemical interaction can accelerate the scaling formation process. At 1 and 5 Hz frequencies, longer relaxation time allows ions to move more effectively away from the surface, reducing the likelihood of nucleation as well as electrophoretic mixing is more pronounced, creating localized turbu­lence that prevents ion accumulation and the formation of prenucleation clusters. The less frequent reversing also optimally disrupts the EDL, preventing ion buildup stability near the membrane surface. In contrast, the faster switching of the electric field at 10 Hz provides less time for effective ion displacement, leading to partial accumulation and increased scaling potential, as seen in Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ric field at 10 Hz provides less time for effective ion displacement, leading to partial accumulation and increased scaling potential, as seen in Fig. 7A for the monovalent ion feed solution. Evidently, at 10 Hz, the scaling is governed by a homog­enous nucleation stage with rapid flux decline. However, the sine waveform performs better performance than the square waveform due",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. Mineral scaling performance of M6-2 membrane in terms of normalized vapor water flux in different operational modes with (A) monovalent ion feed solution and (B) multivalent ion feed solution. F.R. Omi et al. Journal of Membrane Science 722 (2025) 123916 to the smooth periodic manner of alternating positive to negative peaks of the sine waveform. For monovalent ion scaling mitigation, square waveform shows better control of ion transport, while frequency became a more critical factor as the scaling patterns can change with the increment of frequency. A similar behavior is observed with a multivalent ion hypersaline solution (composed of 193,802.4 mg/L NaCl, 3033.45 mg/L CaCl2, 2120 mg/L Na2CO3, and 1044.12 mg/L Na2SO4). Under no electric field and -1 V DC conditions, the heterogeneous nucleation phase is limited to the first 20 min of operation, after which the M6-2 membrane un­dergoes rapid flux decline due to homogeneous nucleation, eventually reaching zero flux. While the application of DC voltage slightly reduces scaling propensity compared to the no-field condition, flux decline re­mains more prominent between 60 and 90 min under DC (-1V) condi­tions. After 90 min, however, the DC (-1V) environment shows reduced scaling compared to the no-field condition, although the flux still de­creases, reaching zero around 360 min.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", the DC (-1V) environment shows reduced scaling compared to the no-field condition, although the flux still de­creases, reaching zero around 360 min. Due to the complex chemistry of multivalent ions, flux decline begins earlier than with monovalent ions, reflecting the higher scaling tendency of ions such as Ca2+, CO32-, and SO42-. As seen in Fig. 7B, multivalent ions exhibit a quicker scaling tendency, driven by their electrostatic interactions in the presence of an electric field. When Na+ and Cl-ions are mixed with multivalent ions, the heterogeneous nucleation stage is eliminated under a 1 Hz AC fre­quency. Interestingly, at 1 Hz, the sine waveform slows flux decline, maintaining flux until zero is reached within the 6-h experimental window, whereas the square waveform struggles to control electro­phoretic movement. The strong electrostatic interactions of multivalent ions necessitate gradual field changes to prevent accumulation; the abrupt polarity shifts of the square waveform inhibit ion relaxation, allowing clustering. Consequently, the sine waveform at 1 Hz out­performs the square waveform. At 5 Hz, however, the square waveform provides better ion control, resulting in a more gradual flux decline, indicative of a sustained het­erogeneous nucleation stage, with flux declining at an FDR of 6 % per hour.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "l, resulting in a more gradual flux decline, indicative of a sustained het­erogeneous nucleation stage, with flux declining at an FDR of 6 % per hour. For the sine waveform at 5 Hz, multivalent ions experience more relaxation time, leading to two stages of gradual flux decline, suggesting periods of rapid homogeneous nucleation in between. At 10 Hz, the rapid polarity shifts of both waveforms produce a rapid flux decline, although the sine waveform demonstrates slightly better ion control. In all experiments, permeate conductivity and salt rejection were moni­tored, revealing that M6-2 maintains salt rejection above 99 % across conditions, except for a slight drop to 97.5 % in the multivalent salt solution with no electric field, likely due to scale formation on the membrane. These findings highlight the potential of AC electric fields in reducing scaling with brine solutions containing both monovalent and multivalent salts and underscore the importance of optimizing AC waveform and frequency. The electrical conductivity of the membrane M6-2 was measured after a 6-h operation under both 3V DC and 1V AC potentials, as presented in Table S6, showing that the membrane’s conductivity remained stable at approximately 142 ± 1.5 S/cm, with no significant changes observed after 6 h of operation under the tested conditions.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "conductivity remained stable at approximately 142 ± 1.5 S/cm, with no significant changes observed after 6 h of operation under the tested conditions. To evaluate the long-term performance of the M6-2 membrane, an 18-h test was conducted under the optimized AC test condition of 5 Hz/ 1 V (square wave) using a monovalent salt solution containing 200,000 mg/L NaCl. Fig. S11 illustrates the normalized flux over time, revealing a minimal flux decline after each 6-h run. The flux decline rate (FDR) was 0.93 %/hr during the first 6 h, increasing to 1.16 %/hr after 12 h and 1.35 %/hr after 18 h. These findings highlight the potential of applying AC potential for mitigating inorganic salt scaling over extended periods, outperforming scenarios with no electric field or DC potential. Additionally, the surface morphology and elemental composition of the M6-2 membrane before and after the long-term test were analyzed using FESEM and EDS. As shown in Fig. S12, the surface morphology of the LIG structure remained unchanged, and no salt deposition was detected after cleaning the membrane with cross-circulating water. In contrast, traces of Na (3.42 %) and Cl (2.74 %) were observed without cleaning. Overall, the results demonstrate that the membrane’s flux can be effectively restored through simple cleaning, and its morphology re­mains stable even when exposed to high concentrations of salt solution during long-term operation. 4.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "d through simple cleaning, and its morphology re­mains stable even when exposed to high concentrations of salt solution during long-term operation. 4. Conclusion This study successfully developed a novel membrane distillation (MD) membrane with an in-situ conductive layer created from laserinduced graphene (LIG) engraved on polyamide-imide (PAI), reported here for the first time. An independent hydrophobic structure was then fabricated to create a multifunctional membrane. This approach over­comes the high porosity challenges of LIG structures while avoiding coating techniques that typically reduce membrane flux. Optimized membrane parameters achieved a flux of 11.3 ± 0.56 LMH and a rejection rate of 99.77 ± 0.1 %, making it well-suited for MD operations and comparable to values reported in the literature. The membrane exhibited a high electrical conductivity of 142 ± 1.5 S/cm, confirmed through electrochemical impedance spectroscopy (EIS) and linear sweep voltammetry (LSV) analyses. Applying an electric field significantly improved the membrane’s resistance to wetting and pore-blocking, even with a critical micelle concentration (0.5 mM SDS) of surfactant solution and a 1000 ppm nhexadecane oil-water emulsion. Additionally, cathodic and anodic DC potentials verified the membrane’s electrochemical activity under an applied electric field.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "oil-water emulsion. Additionally, cathodic and anodic DC potentials verified the membrane’s electrochemical activity under an applied electric field. Importantly, this study explored mineral scale mitigation strategies and scaling mechanisms under both DC and AC electric fields, with a detailed analysis of AC parameters suggesting that optimizing AC frequency is crucial for preventing scaling and enhancing water treatment performance. Results indicate that 5 Hz AC outperforms 10 Hz in mitigating mineral scaling for both monovalent and multivalent salt solutions. The longer relaxation time at 5 Hz allows ions to move more effectively away from the surface, reducing nucleation. Electrophoretic mixing is more pronounced at this frequency, creating localized turbulence that pre­vents ion accumulation and prenucleation clustering. Additionally, the slower frequency optimally disrupts the electric double layer (EDL), preventing stable ion buildup near the membrane surface. In contrast, the faster switching at 10 Hz provides less time for effective ion displacement, leading to partial accumulation and increased scaling. Future studies could examine its efficiency in degrading organic con­taminants, antibiofouling properties, and optimized conditions for various contaminant feed solutions. CRediT authorship contribution statement Farah Rahman Omi: Writing – original draft, Methodology, Inves­tigation, Formal analysis, Data curation, Conceptualization.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "hip contribution statement Farah Rahman Omi: Writing – original draft, Methodology, Inves­tigation, Formal analysis, Data curation, Conceptualization. Masoud Rastgar: Writing – review & editing, Methodology, Investigation, Formal analysis, Conceptualization. Afrouz Yousefi: Methodology, Investigation. Mojtaba Mohseni: Writing – review & editing, Method­ology, Investigation. Waralee Dilokekunakul: Methodology, Investi­gation. Matthias Wessling: Writing – review & editing, Supervision, Resources, Funding acquisition. Mohtada Sadrzadeh: Writing – review & editing, Supervision, Resources, Project administration, Investigation, Funding acquisition, Conceptualization. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[22] Y. Zhou, R. Azumi, Carbon nanotube based transparent conductive films: progress, challenges, and perspectives, Sci. Technol. Adv. Mater. 17 (2016) 493–516.[23] R. Ye, D.K. James, J.M. Tour, Laser-induced graphene: from discovery to translation, Adv. Mater. 31 (2019) 1803621.[24] R. Ye, D.K. James, J.M. Tour, Laser-induced graphene, Acc. Chem. Res. 51 (2018) 1609–1620.[25] X. Li, W. Cai, K.S. Teh, M. Qi, X. Zang, X. Ding, Y. Cui, Y. Xie, Y. Wu, H. Ma, Highvoltage flexible microsupercapacitors based on laser-induced graphene, ACS Appl. Mater. Interfaces 10 (2018) 26357–26364.[26] S. Beikzadeh, A. Akbarinejad, J. Taylor, S. Swift, D. Simonov, J. Ross, J. Perera, P. A. Kilmartin, J. Travas-Sejdic, Charged laser-induced graphene electrodes exhibit strong capacitance-based antibacterial and antiviral properties, Appl. Mater. Today 31 (2023) 101753.[27] S.P. Singh, Y. Li, A. Be’er, Y. Oren, J.M. Tour, C.J. Arnusch, Laser-induced graphene layers and electrodes prevents microbial fouling and exerts antimicrobial action, ACS Appl. Mater. Interfaces 9 (2017) 18238–18247.[28] D. Wang, J. Li, Y. Wang, F. Liu, G. Wang, X. Ding, S. Luo, G. Chen, Laser-induced graphene papers with tunable microstructures as antibacterial agents, ACS Appl. Nano Mater. 5 (2022) 6841–6851.[29] T.D. Le, H. Phan, S. Kwon, S. Park, Y. Jung, J. Min, B.J. Chun, H. Yoon, S.H. Ko, S. Kim, Recent advances in laser-induced graphene: mechanism, fabrication, properties, and applications in flexible electronics, Adv.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". Yoon, S.H. Ko, S. Kim, Recent advances in laser-induced graphene: mechanism, fabrication, properties, and applications in flexible electronics, Adv. Funct. Mater. 32 (2022) 2205158.[30] J. Zhang, C. Zhang, J. Sha, H. Fei, Y. Li, J.M. Tour, Efficient water-splitting electrodes based on laser-induced graphene, ACS Appl. Mater. Interfaces 9 (2017) 26840–26847.[31] A. Gupta, C.P. Sharma, C.J. Arnusch, Simple scalable fabrication of laser-induced graphene composite membranes for water treatment, ACS ES&T Water 1 (2021) 881–887.[32] N.H. Barbhuiya, A. Kumar, S.P. Singh, A journey of laser-induced graphene in water treatment, Transactions of the Indian National Academy of Engineering 6 (2021) 159–171.[33] J. Nasser, J. Lin, L. Zhang, H.A. Sodano, Laser induced graphene printing of spatially controlled superhydrophobic/hydrophilic surfaces, Carbon N Y 162 (2020) 570–578, https://doi.org/10.1016/j.carbon.2020.03.002.[34] X. Sun, X. Liu, F. Li, Sulfur-doped laser-induced graphene derived from polyethersulfone and lignin hybrid for all-solid-state supercapacitor, Appl. Surf. Sci. 551 (2021) 149438.[35] S.P. Singh, Y. Li, J. Zhang, J.M. Tour, C.J. Arnusch, Sulfur-doped laser-induced porous graphene derived from polysulfone-class polymers and membranes, ACS Nano 12 (2018) 289–297.[36] A.K. Thakur, S.P. Singh, M.N. Kleinberg, A. Gupta, C.J. Arnusch, Laser-induced graphene–PVA composites as robust electrically conductive water treatment membranes, ACS Appl. Mater.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Kleinberg, A. Gupta, C.J. Arnusch, Laser-induced graphene–PVA composites as robust electrically conductive water treatment membranes, ACS Appl. Mater. Interfaces 11 (2019) 10914–10921.[37] Y.Z. Tan, M.S.R.S. Kapavarapu, J.Z. Oor, C.S. Ong, J.W. Chew, Laser-induced graphene Janus membrane for electrothermal membrane distillation, Desalination 540 (2022) 115994, https://doi.org/10.1016/j.desal.2022.115994.[38] T. Horseman, Y. Yin, K.S.S. Christie, Z. Wang, T. Tong, S. Lin, Wetting, scaling, and fouling in membrane distillation: state-of-the-art insights on fundamental mechanisms and mitigation strategies, ACS ES&T Engineering 1 (2020) 117–140.[39] M. Afsari, H.K. Shon, L.D. Tijing, Janus membranes for membrane distillation: recent advances and challenges, Adv. Colloid Interface Sci. 289 (2021) 102362, https://doi.org/10.1016/j.cis.2021.102362.[40] M. Lou, L. Meng, J. Li, F. Li, Review of designing anti-surfactant wetting Janus membranes for membrane distillation: mechanisms, methods and challenges, Desalination 599 (2025) 118448, https://doi.org/10.1016/j.desal.2024.118448.[41] Z. Wang, S. Lin, Membrane fouling and wetting in membrane distillation and their mitigation by novel membranes with special wettability, Water Res. 112 (2017) 38–47.[42] J.A. Kharraz, M.U. Farid, D. Jassby, A.K. An, A systematic study on the impact of feed composition and substrate wettability on wetting and fouling of omniphobic and janus membranes in membrane distillation, J. Membr. Sci.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "impact of feed composition and substrate wettability on wetting and fouling of omniphobic and janus membranes in membrane distillation, J. Membr. Sci. 641 (2022) 119873.[43] Z. Wang, S. Lin, Membrane fouling and wetting in membrane distillation and their mitigation by novel membranes with special wettability, Water Res. 112 (2017) 38–47.[44] L. Meng, X. Chen, T. Cai, X. Tong, Z. Wang, Surface energy-induced anti-wetting and antifouling enhancement of Janus membrane for membrane distillation, Water Res. 263 (2024) 122176.[45] Y. Liu, T. Xiao, C. Bao, Y. Fu, X. Yang, Fabrication of novel Janus membrane by nonsolvent thermally induced phase separation (NTIPS) for enhanced performance in membrane distillation, J. Membr. Sci. 563 (2018) 298–308, https://doi.org/ 10.1016/j.memsci.2018.05.067.[46] U. Rao, A. Iddya, B. Jung, C.M. Khor, Z. Hendren, C. Turchi, T. Cath, E.M. V Hoek, G.Z. Ramon, D. Jassby, Mineral scale prevention on electrically conducting membrane distillation membranes using induced electrophoretic mixing, Environ. Sci. Technol. 54 (2020) 3678–3690.[47] J. Kim, L. Tijing, H.K. Shon, S. Hong, Electrically conductive membrane distillation via an alternating current operation for zero liquid discharge, Water Res. 244 (2023) 120510.[48] F.R. Omi, M. Rastgar, M. Sadrzadeh, Synergistic effect of thermal dehydrating on the emerging contaminants removal via Electro-Fenton, J. Clean. Prod. 356 (2022) 131880, https://doi.org/10.1016/J.JCLEPRO.2022.131880.[49] F.R. Omi, M.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e emerging contaminants removal via Electro-Fenton, J. Clean. Prod. 356 (2022) 131880, https://doi.org/10.1016/J.JCLEPRO.2022.131880.[49] F.R. Omi, M. Rastgar, M. Mohseni, U. Singh, W. Dilokekunakul, R. Keller, D. Wishart, M. Wessling, C.D. Vecitis, M. Sadrzadeh, Removal of emerging contaminants from water using novel electroconductive membranes in a hybrid",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "F.R. Omi et al. Journal of Membrane Science 722 (2025) 123916 membrane distillation and electro-Fenton process, Sep. Purif. Technol. (2024) 130083.[50] Y. Wang, L. Jiang, T. Matsuura, T.S. Chung, S.H. Goh, Investigation of the fundamental differences between polyamide-imide (PAI) and polyetherimide (PEI) membranes for isopropanol dehydration via pervaporation, J. Membr. Sci. 318 (2008) 217–226, https://doi.org/10.1016/j.memsci.2008.02.033.[51] S. Movaghgharnezhad, P. Kang, Laser-induced graphene: synthesis advances, structural tailoring, enhanced properties, and sensing applications, J Mater Chem C Mater 12 (2024) 6718–6742.[52] L. Huang, J. Su, Y. Song, R. Ye, Laser-induced graphene: en route to smart sensing, Nano-Micro Lett. 12 (2020) 1–17.[53] J. de la Roche, I. L´opez-Cifuentes, A. Jaramillo-Botero, Influence of lasing parameters on the morphology and electrical resistance of polyimide-based laserinduced graphene (LIG), Carbon Lett. 33 (2023) 587–595.[54] G. Duan, S. Liu, S. Jiang, H. Hou, High-performance polyamide-imide films and electrospun aligned nanofibers from an amide-containing diamine, J. Mater. Sci. 54 (2019) 6719–6727.[55] G. Dhiman, K. Kumari, B.-H. Koo, F. Ahmed, N.M. Shaalan, S. Dalela, P.A. Alvi, R. K. Brajpuriya, R.K. Brajpuriya, S. Kumar, Electrochemical performance of a symmetric supercapacitor device designed using laser-induced multilayered graphene, N. Carbon Mater. 39 (6) (2024) 1128–1143.[56] Y. Gao, F. Dong, K. Ju, Q. Li, X. Ling, L. Ma, N.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ce designed using laser-induced multilayered graphene, N. Carbon Mater. 39 (6) (2024) 1128–1143.[56] Y. Gao, F. Dong, K. Ju, Q. Li, X. Ling, L. Ma, N. Wang, B. Xiao, F. Ren, Laser direct writing of flexible large-area graphene sheet for electrical impedance tomography based multimode sensing purposes, IEEE Sens. J. 24 (1) (2023) 750–756.[57] X. Liu, R. Wang, C. Wang, H. He, J. Wei, J. Yin, Research and development of double layer P-doped laser induced graphene thin film electrode for flexible microsupercapacitor applications, Int. J. Electrochem. Sci. 19 (2024) 100653.[58] H. Yu, M. Gai, L. Liu, F. Chen, J. Bian, Y. Huang, Laser-induced direct graphene patterning: from formation mechanism to flexible applications, Soft Sci. 3 (2023), https://doi.org/10.20517/ss.2022.26.[59] S. Han, C. Liu, N. Li, S. Zhang, Y. Song, L. Chen, M. Xi, X. Yu, W. Wang, M. Kong, Z. Wang, One-step fabrication of nitrogen-doped laser-induced graphene derived from melamine/polyimide for enhanced flexible supercapacitors, CrystEngComm 24 (2022) 1866–1876, https://doi.org/10.1039/d1ce01608c.[60] R. Zhang, C. Deng, X. Hou, T. Li, Y. Lu, F. Liu, Preparation and characterization of a janus membrane with an “integrated” structure and adjustable hydrophilic layer thickness, Membranes 13 (2023), https://doi.org/10.3390/membranes13040415.[61] J.A. Kharraz, M.U. Farid, D. Jassby, A.K.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "adjustable hydrophilic layer thickness, Membranes 13 (2023), https://doi.org/10.3390/membranes13040415.[61] J.A. Kharraz, M.U. Farid, D. Jassby, A.K. An, A systematic study on the impact of feed composition and substrate wettability on wetting and fouling of omniphobic and janus membranes in membrane distillation, J. Membr. Sci. 641 (2022) 119873, https://doi.org/10.1016/j.memsci.2021.119873.[62] Y.Z. Tan, S. Velioglu, L. Han, B.D. Joseph, L.G. Unnithan, J.W. Chew, Effect of surfactant hydrophobicity and charge type on membrane distillation performance, J. Membr. Sci. 587 (2019) 117168.[63] N. Helali, M. Rastgar, M.F. Ismail, M. Sadrzadeh, Development of underwater superoleophobic polyamide-imide (PAI) microfiltration membranes for oil/water emulsion separation, Sep. Purif. Technol. 238 (2020) 116451.[64] J. Kim, H.-W. Kim, L.D. Tijing, H.K. Shon, S. Hong, Elucidation of physicochemical scaling mechanisms in membrane distillation (MD): implication to the control of inorganic fouling, Desalination 527 (2022) 115573.[65] V. Karanikola, C. Boo, J. Rolf, M. Elimelech, Engineered slippery surface to mitigate gypsum scaling in membrane distillation for treatment of hypersaline industrial wastewaters, Environ. Sci. Technol. 52 (2018) 14362–14370.[66] U. Rao, A. Iddya, B. Jung, C.M. Khor, Z. Hendren, C. Turchi, T. Cath, E.M.V. Hoek, G.Z. Ramon, D. Jassby, Mineral scale prevention on electrically conducting membrane distillation membranes using induced electrophoretic mixing, Environ.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". Ramon, D. Jassby, Mineral scale prevention on electrically conducting membrane distillation membranes using induced electrophoretic mixing, Environ. Sci. Technol. 54 (2020) 3678–3690, https://doi.org/10.1021/acs.est.9b07806.[67] W. Duan, A. Dudchenko, E. Mende, C. Flyer, X. Zhu, D. Jassby, Electrochemical mineral scale prevention and removal on electrically conducting carbon nanotube–polyamide reverse osmosis membranes, Environ Sci Process Impacts 16 (2014) 1300–1308.[68] Y. Yin, W. Wang, A.K. Kota, S. Zhao, T. Tong, Elucidating mechanisms of silica scaling in membrane distillation: effects of membrane surface wettability, Environ. Sci. 5 (2019) 2004–2014.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002297-main",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  }
+]

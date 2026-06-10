@@ -1,0 +1,816 @@
+[
+  {
+    "content": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes Mehryar Jafari a, Christina Tzirtzipi b, Ali Molaei Aghdam c , Nima Mikaeili Chahartagh d, Bernardo Castro Dominguez a,* a Department of Chemical Engineering, University of Bath, Bath, BA2 7AY, United Kingdomb Mott Macdonald, Renaissance House, 12 Dingwall Rd, Croydon, CR0 2NA, United Kingdomc Department of Chemical Engineering, Auburn University, Auburn, AL, 36849, USAd Department of Chemical Engineering, Amirkabir University of Technology (Tehran Polytechnic), Tehran, 15875-4413, Iran\n\nA R T I C L E I N F O Keywords:Forward osmosisMicropollutantsArtificial intelligenceOptimizationWater fluxRejection rate",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Membrane technology is a simple, energy-saving, and high-performance separation process that can satisfy the high demand for water purification and separation of high-value products, such as dyes, pharmaceuticals, and therapeutical proteins. Despite all the recent progress in this field, serious issues remain unaddressed. High energy requirement and fouling in Reverse Osmosis (RO) membranes, concentration polarization, and reverse solute flux (RSF) for Forward Osmosis (FO) are among these. Recently, a number of Artificial Intelligence (AI) techniques, have been increasingly applied to optimize membrane performance by predicting and simulating the filtration process for a broad range of membranes and feed material. During this project, we try to harness the capabilities of different AI techniques namely Artificial Neural Networks (ANN) and Gradient Boosting Regressor (GBR) to first predict the performance of commercial FO membranes in removing various micropollutants with high accuracy and then use the best model available to develop a web-application accessible to public and re­searchers in order to estimate the water flux (Jw) and rejection rate (R%) they can obtain from a certain FO membrane removing a certain micropollutant without the need for costly and tedious experimental campaigns.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Nomenclature AbbreviationsAdaBoostAdaptive BoostingAIArtificial IntelligenceANFISAdaptive Neuro-Fuzzy Inference SystemANNArtificial Neural NetworkBATBagged TreesBLRBayesian Logistic RegressionBPNNBack Propagation Neural NetworkCATBoostCategorical BoostingCFMFCrossflow MicrofiltrationCNNConvolutional Neural NetworkCPConcentration PolarizationDLDeep LearningDNNDeep Neural NetworkDSDraw SolutionDTDecision TreesEDElectrodialysisERTExtremely Randomized Trees\n\n(continued on next column) (continued) FIEFlux Improvement EfficiencyFOForward OsmosisFSFeed SolutionGAGenetic AlgorithmGBDTGradient Boosting Decision TreeGBRGradient Boosting RegressorGPGaussian ProcessGPRMGaussian Process Regression ModelGUIGraphical User InterfaceKNNK-Nearest Neighbors AlgorithmLRLinear RegressionLSTMLong Term Short Term MemoryMAEMean Absolute ErrorMARTMultiple Additive Regression TreesMBRMembrane BioreactorMDMembrane DistillationMDPMarkov Decision ProcessMFMicrofiltrationMLMachine Learning\n\n(continued on next page)\n\n* Corresponding author.E-mail address: bcd28@bath.ac.uk (B.C. Dominguez).\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 733 (2025) 124346\n\nAvailable online 20 June 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(continued) MLPMultilayer PerceptionMLRMultiple Linear RegressionMPNNMessage-Passing Neural NetworksMSEMean Square ErrorNFNano FiltrationOCTOptical Coherence TomographyOSNOrganic Solvent NanofiltrationPLSPartial Least-SquaresPSOParticle Swarm OptimizationQSARQuantitative Structure-Activity RelationshipRFRandom ForestRhBRhodamine BRMSERoot Mean Square ErrorROReverse OsmosisRSFReversal Solute FluxRSMResponse Surface MethodologySLSupervised LearningSMILESSimplified Molecular-Input Line-Entry SystemSVMSupport Vector MachineSVRSupport Vector RegressorTDSTotal Dissolved SolidsTMPTrans Membrane PressureTOCTotal Organic CarbonTSSTotal Suspended SolidsUFUltra FiltrationXGBoostExtreme Gradient BoostingSymbolsyiSample data meanPiPredicted output of the modelyiActual outputξiSlack variable ξ*iSlack variable R2Coefficient of The DeterminationCAdjustment factorbIntercept of the regression functionnNumber of data pointsεNon-sensitivity coefficientωDirection vectorϕ(xi)Higher-dimensional hyperspace for the input vector xi.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Rapid population growth, industrialization, and climate change have exacerbated the water scarcity crisis [1]. This scarcity is going to affect vulnerable countries and regions more in the future following the cur­rent trend [2,3]. Due to this increase in water demand, the exploration of new water sources has become crucial. In the context of a circular economy, it is necessary to recognize treated wastewater as a novel water resource [4]. However, Untreated effluents containing pathogens and emerging Micropollutants (MPs) contribute to the pollution of surface and groundwater. This contamination renders water unsafe for drinking purposes, hinders industrial water usage, and poses adverse health effects on both human populations and aquatic environments [5]. Organic micropollutants constitute a diverse group of organic com­pounds, encompassing pharmaceutical active compounds (PhACs), personal care products (PCPs), pesticides, endocrine-disrupting chem­icals (EDCs), and industrial compounds [2]. The advancement in med­ical technology and improved living conditions have led to the inevitable release of various OMPs into aquatic environments [6]. Consequently, these contaminants often find their way into wastewater treatment plant effluents, posing threats to human and wildlife health. Conventional water treatment methods, such as biological degradation, demonstrate suboptimal rejection rates [7].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "hreats to human and wildlife health. Conventional water treatment methods, such as biological degradation, demonstrate suboptimal rejection rates [7]. Membrane technologies with their high separation capabilities have been reported as effective in successfully removing emerging MPs. Among membranes, forward osmosis (FO) and integrated systems such as FO and membrane bio­reactors (FOMBR) are at the center of attention [8,9]. Despite the acceptable performance observed from forward osmosis in treating MPs, most studies are limited to a certain number of pollut­ants and membrane types which does not give a comprehensive view of the applicability potential of FO. For instance, Mendoza et al. (2023) investigated the removal efficiency of 23 organic MPs under different operating conditions reporting an average rejection efficiency of 98.5 % [10]. In another study, the rejection of caffeine, atrazine, and atenolol was investigated using a FOMBR system showing a rejection efficiency of >95 % [11]. Likewise, Zhu et al. (2018) conducted a FO experiment involving eight distinct MPs and observed a removal efficiency ranging from approximately 90 %–100 % [12]. The complexity of Forward Osmosis transport mechanisms involves membrane and OMP properties, demanding optimization of multiple factors for practical application [13].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Forward Osmosis transport mechanisms involves membrane and OMP properties, demanding optimization of multiple factors for practical application [13]. One-factorial design experimental procedures in FO membrane treatment struggle to consider all influen­tial factors simultaneously, while modeling procedures offer a faster and more efficient approach. Lab experiments assessing FO rejection face challenges with limited knowledge of OMP structural information, making models valuable for rejection assessment. However, the tradi­tional mechanistic models often oversimplify real-world scenarios as well [14]. AI modeling, particularly machine learning (ML) techniques, offers a powerful solution to address the complex nature of FO processes. These advanced algorithms excel at capturing the intricate interplay between multiple factors such as concentration polarization, reverse salt flux, and various membrane and MP properties. By leveraging AI’s capacity to analyze multidimensional data, researchers can more accurately predict and optimize FO performance for MP removal, overcoming the limita­tions of traditional modeling approaches [15]. Recent applications of AI modeling in environmental science, such as FO processes, offer a powerful and efficient means to analyze complex processes by consid­ering a broader range of influencing factors [16]. Ibrar et al.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "processes, offer a powerful and efficient means to analyze complex processes by consid­ering a broader range of influencing factors [16]. Ibrar et al. (2022) investigated the ability of several AI algorithms such as ANN, XGBoost, CatBoost, RF, and LR in accurate prediction of internal CP with superior performance observed for CatBoost in terms of RSME and R2 (0.92). The process of 97 MPs removal by FO membrane was recently studied by Viet and Jang leading to the discovery that FO has a very low rejection capability for MPs with low molecular weight (2–80 %) with a notice­ably precise rejection prediction from the modifier ANFIS method (R2 =0.99 and RMSE = 0.56 %) [8]. Up to now, simulations of MPs rejection in FO systems have focused mostly on a limited number of MPs under perfect laboratory conditions. Consequently, it’s not feasible to apply these models broadly to different MPs or actual wastewater treatment scenarios. To enhance our understanding of MPs rejection in the FO process, machine learning models should incorporate a variety of MPs, different FO membrane types, and a wider range of experimental con­ditions in order to give accurate predictions of not only rejection but also other key factors of FO operation such as water flux (Jw) and reverse solute flux (Js). This enriched understanding will enable us to optimize MPs rejection before conducting physical experiments.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "r flux (Jw) and reverse solute flux (Js). This enriched understanding will enable us to optimize MPs rejection before conducting physical experiments. Recent expert reviews have underscored several critical points for advancing machine-learning (ML) in polymer-membrane separations. Xu and Jiang (2022) [17] emphasize the need for (i) a comprehensive ‘Membrane Separation Genome’ that amalgamates standardized, high-quality data on polymer chemistry, membrane architecture, and experimental performance; (ii) rich, multiscale featurization strategies capturing both molecular identity and mesoscale morphology; and (iii) integration of ML with high-throughput simulation and process opti­mization workflows. Likewise, Ignacz et al. (2025) [18] advocate for (i) systematic data curation of both laboratory and industrial facilities; (ii) rigorous model interpretability via feature-importance and latent-space analyses; and (iii) the development of user-friendly, web-based infor­matics platforms to democratize access to predictive tools.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nce and latent-space analyses; and (iii) the development of user-friendly, web-based infor­matics platforms to democratize access to predictive tools. In the present study, we meet these critical points by (1) assembling a unified database of 642 forward-osmosis experiments across 17 commercial and lab-­fabricated membranes and 102 micropollutants—with standardized descriptors for membrane chemistry, drawand feed-solution proper­ties, and operating conditions; (2) employing hierarchical featurization that combines RDKit Morgan fingerprints with physicochemical pa­rameters and process variables; (3) developing both gradient-boosting",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "M. Jafari et al. Journal of Membrane Science 733 (2025) 124346 and neural-network models whose predictions are interpreted through SHAP-value analyses to elucidate feature contributions at molecular and system levels; and (4) embedding our optimized GBR model within a publicly accessible Streamlit web application (Mem-brain) for on-de­mand flux and rejection estimates. By holistically integrating data curation, multiscale featurization, interpretable ML, and practical deployment, our work directly addresses and extends the road map laid out in these two recent guides. This study presents a comprehensive analysis of FO membrane per­formance for micropollutant removal using advanced ML techniques. The research encompasses a diverse dataset of 102 micropollutants and 17 FO membrane types, leveraging 642 data instances from previous studies. By employing robust feature engineering methods, including molecular fingerprints generated via the RDKit library, the study de­velops predictive models for water flux and rejection rate. The topperforming models, identified through rigorous evaluation, include GBR and ANN. Furthermore, the study optimizes the GBR model’s hyperparameters, comparing PyCaret’s default settings with manually developed and optimized parameters (Table S3), to enhance predictive accuracy. In contrast to prior studies, the user’s work offers a more comprehensive and dual-target modeling approach for FO membranes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nce predictive accuracy. In contrast to prior studies, the user’s work offers a more comprehensive and dual-target modeling approach for FO membranes. Earlier ML models for FO either focused on rejection of a limited set of micropollutants or on single aspects of performance. For instance, Viet & Jang [8] achieved very high accuracy (R ~ 0.99) in predicting FO rejection efficiency using a specialized ANFIS model, and Zhu et al. [9] reached R2 ~ 0.98 with an XGBoost model by considering many input features. However, those models were confined to predicting rejection under specific conditions or required complex tuning (e.g. fuzzy clus­tering) for peak performance. By contrast, the present study’s ANN model generalizes across a broad range of MPs and operating conditions, simultaneously predicting water flux and MP rejection with high accu­racy (R2 ~ 1.0 for flux, 0.89 for rejection). This integrated approach is novel, as it bridges two critical FO performance metrics in one frame­work, enabling more holistic optimization. Moreover, the user’s opti­mized ANN outperforms other tested algorithms (including GBR) on the extensive dataset, indicating that a well-tuned deep learning model can deliver comparable or superior performance without the need for exotic hybrid techniques.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ataset, indicating that a well-tuned deep learning model can deliver comparable or superior performance without the need for exotic hybrid techniques. The study also provides new insights into FO behavior – for example, revealing key input factors via SHAP analysis – and delivers practical value through a public web application for FO performance prediction. In summary, the user’s work not only matches state-of-the-art accuracy from earlier studies, but does so across a wider application scope, thereby advancing the predictive capabilities and usability of AI in FO membrane technology. which not only advances the understanding of FO membrane performance but also provides a prac­tical tool for estimating Jw and R% without extensive experimental campaigns, potentially accelerating research and development in water treatment technologies. 2. Methodology 2.1. Data collection In AI studies, one of the necessary steps is learning based on data [19,20]. The data used to build the model comes from literature, published from the year 2011–2023, that falls within the scope of this work; the data were collected and used to analyze the performance of membranes. Keywords such as “FO” and “micropollutants”, were used to search in Scopus, Google Scholar, and Web of Science platforms to find reference papers. Only peer-reviewed articles from high-ranked journals and reliable sources were selected in this work.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "of Science platforms to find reference papers. Only peer-reviewed articles from high-ranked journals and reliable sources were selected in this work. In the next step, papers that did not report an adequate amount of data that can be used as either input or output of the AI model were neglected. Data was extracted from remaining sources by using reported data or “Plot Digitizer”, a software package designed to extract data points from graphs and figures [21]. Then it was logged in a spreadsheet with columns for different parameters. Input variables are selected based on the interactions be­tween membranes and micropollutants including membrane charac­teristics (i.e., membrane type, Contact Angle (◦), Zeta Potential (mV)), process variables (i.e., Micropollutant, MP Category, MP Molecular Weight (g.mol-1), MP Concentration, Draw Solution, DS Molecular weight (g mol-1), DS Concentration (M), Water flux Jw (L.m-2.h-1), Reverse salt flux Js (g.m-2.h-1) and Removal Rate (%)), and operating conditions (i.e., Operating Time (h), Crossflow velocity (cm/s), Tem­perature (0C)). 511 data points were collected from commercial mem­branes and 131 data points from lab fabricated membranes resulting in a total number of 642 data points for 17 types of FO membranes and 102 types of micropollutants as shown in Fig. 1a and b. Furthermore, Table 1represents a statistical summary of data inputs gathered. 2.2.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "mbranes and 102 types of micropollutants as shown in Fig. 1a and b. Furthermore, Table 1represents a statistical summary of data inputs gathered. 2.2. Data preprocessing Data preprocessing is a crucial and foundational step in machine learning, as it lays the groundwork for effective model training and accurate predictions [22]. This process involves cleaning, transforming, and organizing raw data into a format that is suitable for analysis and machine learning algorithms [23]. Data preprocessing tasks typically include handling missing values, removing duplicates, scaling or normalizing features, encoding categorical variables, and splitting the dataset into training and testing subsets [24,25]. The goal is to ensure that the data is consistent, relevant, and free from noise or in­consistencies, allowing machine learning models to extract meaningful patterns and relationships [26]. Effective data preprocessing not only enhances the performance of machine learning models but also con­tributes to more robust and reliable outcomes in various real-world applications, from image recognition to natural language processing [27]. Datasets for various reasons may have missing values or empty re­cords, often encoded as blanks or NaN. Most machine learning algo­rithms cannot deal with values that are missing or blank [28].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ng values or empty re­cords, often encoded as blanks or NaN. Most machine learning algo­rithms cannot deal with values that are missing or blank [28]. Removing samples with missing values is a basic strategy that is sometimes used, but it comes with the cost of losing probable valuable data and the associated information or patterns [29]. A better strategy is to impute the missing values [30]. In the present work, PyCaret iterative imputa­tion strategy was used with a default iteration number of 5. One particularly important step in preprocessing the available data is generating molecular fingerprints for chemical substances present in the data set either as micropollutants or draw solutes to incorporate the physicochemical characteristics of micropollutants and draw solutes into the decision-making process of the ML model [31]. There are multiple ways to convert the substances into fingerprints but in this study, we have used the RDKit library to generate Morgan fingerprints. Each encoding technique generates a fixed-length binary vector repre­sentation for each molecule, with each bit in the vector corresponding to a unique molecular substructure [32]. The presence or absence of a substructure in a compound determines the value of the corresponding bit in its fingerprint vector. The Morgan fingerprint captures local sub­structures around each atom in the molecule by generating circular substructures up to a specified radius [33]. As demonstrated in Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ures local sub­structures around each atom in the molecule by generating circular substructures up to a specified radius [33]. As demonstrated in Fig. 1c, RDKit first converts substance names into Simplified Molecular Input Line Entry System (SMILES) and then transforms the SMILE into a unique binary code that is useable for training the ML model. 2.3. Model development Several AI algorithms have been developed and tested against the prepared dataset in order to identify the best-performing one to be used for the consequent objectives. For this purpose, PyCaret, a low-code machine learning library was implemented first. This library is capable of carrying out preprocessing the data, encoding the categorical data (using One-Hot encoding method [34]), the train-test split of the dataset, setting up the model, generating, comparing, and ranking the",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "M. Jafari et al. Journal of Membrane Science 733 (2025) 124346 algorithms based on their accuracy judged by various Performance metrics including MAE, MSE, RMSE, and R2 [35,36]. Based on the pre­liminary results obtained from PyCaret, GBR was chosen for further individual development and optimization. Furthermore, ANN was developed in parallel as the most used and reliable deep learning method for membrane studies [37] for a comparison of ML and DL performance. 2.3.1. Gradient Boosting Regressors GBRs belong to the ensemble methods category, akin to bagging techniques like decision trees and random forests [38]. However, they differ from bagging methods in that they enhance prediction accuracy through sequential learning [39]. Data scientists and engineers often utilize popular boosting methods such as AdaBoost, CatBoost, Gradient Boosting (GB), and Extreme Gradient Boosting (XGBoost) [40].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In boosting, models are constructed sequentially to minimize errors from previous models while amplifying the impact of high-performing models [41]. To minimize errors in sequential models, gradient boost­ing incorporates a gradient descent algorithm. GB employs parallel processing, tree pruning, handling of missing values, and regularization to mitigate overfitting and bias, yielding superior results with fewer computational resources and in less time [42]. Gradient boosting trees, as depicted in Fig. 2a, consist of decision nodes represented by red and blue circles. These nodes split into two sub-nodes based on input variables (e.g., MWCO or MCA thresholds) from the training dataset. X and T indicate the input data and target labels, respectively. W is the weight of each tree. Red circles indicate decision nodes categorizing input data, while blue circles represent decision nodes for different input variables. Each decision tree aims to",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. a) Number of times a specific membrane has appeared in the dataset. b) Number of times a specific micropollutant has appeared in the dataset. c) Flowchart of transforming chemical substances in a dataset into molecular fingerprints using RDKit library. M. Jafari et al. Journal of Membrane Science 733 (2025) 124346 reduce residual errors from the preceding one. The weighted products of predicted values from each tree are summed to yield final predictions [43]. Unlike traditional gradient boosting trees, GBR employs secondorder Taylor expansion for optimizing the objective function, novel learning techniques for sparse data, parallel and distributed computing, and out-of-core computation. GBR’s state-of-the-art performance has been evident in numerous data science competitions [44]. As shown in Fig. 2b, Data was partitioned into training, validation, and testing sets. Model optimization utilized 9-fold cross-validation, with one group for validation and four for training. R2 and RMSE from nine iterations guided parameter and hyperparameter optimization over iterations. Python, along with Scikit-Learn [45] and GBR [46] packages were employed for model implementation. All computations were con­ducted on Google Colab [47] for efficiency. 2.3.2. Artificial neural network A highly effective and presently popular method for predicting and simulating a process involves employing an ANN [48].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Artificial neural network A highly effective and presently popular method for predicting and simulating a process involves employing an ANN [48]. An ANN is engineered to emulate the workings of the human brain, featuring neurons and weights utilized to model and predict various parameters [49]. Neurons within an ANN communicate with each other through these weights [50]. This neural network type operates as a black box model, meaning it is not constrained by physical laws, and its parameters may lack physical significance. The primary objective of an ANN is to establish a connec­tion between independent input variables and dependent output vari­ables [39]. This connection is established through a learning process, where the network is fed a dataset, making it a data-driven model. ANN’s popularity has grown due to its capability to swiftly and accu­rately map nonlinear relationships between system inputs and outputs, resulting in reduced computational time [51]. The training of an ANN typically falls into one of three main learning paradigms: supervised, unsupervised, or hybrid. Among these, the Multilayer Perceptron (MLP) stands out as a powerful ANN method [52]. An MLP consists of distinct layers, including an input layer, at least one hidden layer, and an output layer, as depicted in Fig. 3. The number of neurons or nodes in each layer is adjusted to match the number of input and output parameters.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "d an output layer, as depicted in Fig. 3. The number of neurons or nodes in each layer is adjusted to match the number of input and output parameters. Depending on the optimal ANN model archi­tecture, hidden layers may contain multiple neurons [51] During the training phase, weights for each neuron in the hidden and output layers are calculated and assigned. Additionally, a bias or threshold value is integrated as a weighted unit input for each neuron in the hidden and output layers [53]. Optimizing the number of hidden layers and neurons is crucial, as it significantly impacts the performance of ANN models. While a higher number of layers and neurons can enhance training performance, it might increase the risk of overfitting, rendering the ANN models less applicable to test data [54]. Moreover, there is not a universal approach for selecting the right layers and neurons that work well for all datasets. Consequently, to optimize the ANN model’s performance across training, validation, and testing datasets, various values were consid­ered. The dataset was randomly divided, with 80 % allocated for training and 20 % for testing. Modeling was conducted for each ANN configuration, with R2 and RMSE calculated for evaluation. 2.3.3.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "0 % allocated for training and 20 % for testing. Modeling was conducted for each ANN configuration, with R2 and RMSE calculated for evaluation. 2.3.3. Correlation coefficients and Shapley Additive Explanations for feature selection and model interpretation In order to further enhance the accuracy, the developed model feature selection was carried out with the help of a correlation coeffi­cient matrix between input parameters. This matrix serves as a concise representation of the relationships between variables in a dataset. Each entry in the matrix quantifies the degree and direction of linear associ­ation between two features, typically computed using Pearson’s corre­lation coefficient. This matrix is of paramount importance in feature selection because it helps identify redundant or highly correlated",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 1 Statistical summary of parameters included in the dataset. Concentration of MP (mg/L)Compound MW (g/mol)Compound ChargeLog D (pH =6.5–7) pKaInitial FS pHMB Contact Angle (ˆA◦) DS MW (g mol1) DS Concentration (M) Operating Time (h)Velocity (cm/s)Water Flux, Jw (LMH) Reverse Salt Flux, Js (gMH) Temperature (◦C)Removal Rate (%) count641641641641625596565641641551593467311554636 mean75.09236.30-0.161.416.706.2757.8670.971.0812.9510.9911.534.4123.0486.02 std296.8294.610.611.864.5401.1314.3154.270.5516.117.614.753.643.7117.83 min5.00E-0774-1-3.03-3.9326.458.440.250.331.2540.07203.8 25 %0.002199-1-0.222.565.87558.358.440.72.597.6422281.37 50 %0.01236.301.547.86.56458.4418911.0142393.5 75 %0.25266.3402.69.86766.758.4412012155.772597.38 max2000821.1416.8915.7979.5430.182.59658.829.3416.1186.375100 M. Jafari et al. Journal of Membrane Science 733 (2025) 124346 features. Features that exhibit strong correlations with one another may not provide much additional information to a machine learning model, and including them can lead to issues like multicollinearity [55]. By analyzing the correlation coefficient matrix, we were able to make de­cisions about which features to retain, discard, or combine, ultimately improving model interpretability and performance. Additionally, Shapley Additive Explanations (SHAP) was used for feature selection and model interpretation which is based on the coop­erative game theory that can explain the contribution of each player (i.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "sed for feature selection and model interpretation which is based on the coop­erative game theory that can explain the contribution of each player (i. e., input variable) to the output values by measuring the importance of each variable [56]. In SHAP, the models are retrained with all possible variable subsets, and the prediction differences of models including and excluding a variable of interest are calculated. A weighted average of the prediction differences from all possible combinations of variables is defined as the SHAP value, which is the average marginal contribution of the variables to the predictions [57,58]. SHAP values for all the variables used in this study were measured in order to reveal the effects of variables on each training data point.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.4. Model performance evaluation Ultimately, regardless of the type and size of data, implementation of multiple methods that have been proven effective in prior membrane studies such as ANN, RF, SVM, and GBR and comparing their perfor­mance could be a positive action in helping the researchers to identify the most suitable method for the respective study. In comparing the models, it is highly important to consider relevant indicators of model accuracy in predicting the output. Coefficient of the determination (R2), RMSE (Root Mean Square Error), mean square error (MSE), and MAE (Mean Absolute Error) are the most commonly used indicators or per­formance for AI algorithms carrying out regression and as shown in Equations (2)–(5) [59]: R2 = ∑ni=1(Pi -yi)2∑ni=1(yi -yi)2(2)\n\n[ФОРМУЛА: [FORMULA_ID: ef9a7a16-55f6-4b7c-b8ff-79d43a191dc3] RMSE = ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ ∑ n i=1 (Pi -yi)2 n √ √ √ √ √ (3)]\n\n[ФОРМУЛА: [FORMULA_ID: c10be489-fecb-468a-9de6-7c2d595197c1] MSE = ∑ n i=1 (Pi -yi)2 n (4)]\n\n[ФОРМУЛА: [FORMULA_ID: e6057a95-8981-4bb2-8fa9-e849b114eed6] MAE = ∑ n i=1 |Pi -yi| n (5)]",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Where n is the number of data points, Pi represents the predicted output of the model, yi denotes the sample data mean, and yi is the actual output. Ranging from 0 to 1, a higher R2 value indicates a better-fitted model [60]. 3. Results and discussions 3.1. Dataset exploration Data exploratory analysis (EDA) is an essential initial step when it comes to AI research, and it comprises visualizing the dataset to uncover the patterns and outliers and calculating and visualizing the correlation coefficients [61]. Fig. 4a shows the original water flux curve with removal rate, extracted from the dataset with a slightly positive correlation between them. The same goes for Fig. 4b illustrating the removal rate with the compound molecular weight. It must be noted that the terms removal rate and rejection rate are interchangeable throughout this paper and both describe the percentage of micropollutants removed from feed solution by the membrane. This observation is backed by Pearson’s correlation coefficient matrix depicted in Fig. 5. Furthermore, it can be perceived from Fig. 5 which includes the correlation coefficients for all the parameters in the dataset. Some of these parameters are strongly correlated such as FS pH with DS pH and membrane contact angle with membrane zeta potential which can lead to problems in the modeling.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s are strongly correlated such as FS pH with DS pH and membrane contact angle with membrane zeta potential which can lead to problems in the modeling. Hence, DS pH and membrane zeta potential are dropped from the dataset which results in leading to a matrix with considerably lower correlation coefficients between parameters as seen in Fig. 6.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. A typical single hidden layer MLP architecture with 4 inputs, 4 hidden, and 3 output neurons.\n\nFig. 4. a) Water flux vs removal rate b) Removal rate versus MP molecular weight.\n\nM. Jafari et al. Journal of Membrane Science 733 (2025) 124346\n\n3.2. Performance analysis of ML models using PyCaret After preprocessing the dataset and running different ML models on the dataset, models were automatically sorted by PyCaret based on their prediction accuracy. Fig. 7 exhibits the top 5 models for predicting a) water flux (Jw) and b) rejection rate (R%). As presented in Table S2, almost all models show acceptable accu­racy in predicting water flux value, however, XGBoost and GBR demonstrate outstanding performance with average R2 = 0.97, 0.97, and RMSE = 0.59, 0.6 respectively after 9 repetitions. On the other hand, GBR and LightGBM exhibit superior accuracy in rejection rate prediction with R2 = 0.71, 0.70, and RMSE = 10.69, and 10.87 respectively as the average of 9 repetitions.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7,
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Development of GBR model Considering that GBR outperformed other models in almost all cat­egories in the prediction of two target outputs, it was decided to develop and optimize a GBM model independently to further increase the pre­diction accuracy. To determine the best fit GBR model in addition to steps taken previously for data preprocessing and training and testing such as 9-fold cross-validation and grid search [62,63] a range of values were introduced for the GBR model parameters and prediction accu­racies were compared. The average prediction accuracy/error of the best performing GBR variant is presented in Table 2. No oblivious improve­ment is observed in the prediction accuracy of water flux compared to results offered by PyCaret, meaning that the model most probably has reached the maximum possible accuracy with the default model pa­rameters set for GBR by PyCaret. Nonetheless, the rejection rate expe­riences a considerable increase in R2 and a reduction in all error",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. Pearson’s correlation coefficient matrix of input parameters in the dataset. The correlation coefficient varies from -1 (indicating complete negative cor­relation between two parameters) to +1(indicating complete positive correlation between two parameters), with zero indicating two parameters are completely unrelated to each other. M. Jafari et al. Journal of Membrane Science 733 (2025) 124346 measurements by modifying the default GBR hyperparameters as shown in Table 2. Fig. 7c and d demonstrates how much the developed GBR model was able to capture values in the test dataset correctly. It can be perceived that GBR was almost completely successful in predicting water flux values correctly in the entire range. On the other hand, some discrep­ancies can be spotted in rejection rate prediction, especially in extremely high or low values. These plots were used to help understand the impact of the different input features on the models’ results. SHAP values allowed the evalua­tion of the importance of each feature, by assigning model predictions to each feature. The summary violin plots display how each feature posi­tively or negatively influenced the prediction with negative SHAP values indicating negative influence and likewise, positive values indicating the positive influence of the features on the model [39]. The width of violin plots at a specific SHAP value reflects the density of data points for the feature corresponding to that SHAP value [64].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "el [39]. The width of violin plots at a specific SHAP value reflects the density of data points for the feature corresponding to that SHAP value [64]. Wider violin plots indicate that the feature’s data points are more spread out and singular points at specific SHAP values might indicate outliers. The color map­ping seen in the plots corresponds to the feature’s value, where dark red corresponds to high values and blue to low feature values [65]. Looking at the violin plots the scale of significance and the direction of the sig­nificance of each parameter as well as the range and distribution of the SHAP values for each parameter indicate the variability in sample in­fluence [39]. Fig. 8a identifies three features (membrane type, feed-solution pH, and draw-solution concentration) as the dominant contributors to water-flux (Jw) prediction. Membrane Type: The SHAP analysis shows that different FO mem­brane chemistries and structures yield markedly different baseline fluxes (high-SHAP values for certain commercial membranes). This is consistent with the fact that membrane materials (e.g., CTA versus TFC) exhibit distinct intrinsic water permeability and internal con­centration-polarization behavior. In practice, a CTA-based mem­brane typically exhibits lower fouling propensity, but also lower",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. Pearson’s correlation coefficient matrix of input parameters in the datasetafter removing redundant and over-correlated features. M. Jafari et al. Journal of Membrane Science 733 (2025) 124346 permeability compared to thin-film composite (TFC) membranes; therefore, when the model “sees” a TFC membrane label (high SHAP contribution), it predicts a higher base flux. Feed-Solution pH (FS pH): High SHAP values associated with elevated FS pH indicate that alkaline conditions enhance water flux, which agrees with reported increases in membrane hydration and altered ion speciation at higher pH (e.g., deprotonation of carboxyl or amine groups on the membrane surface). Under alkaline condi­tions, reduced concentration polarization and enhanced osmotic driving force often boost Jw. Conversely, at low pH (blue points in Fig. 8a), SHAP contributions become negative, reflecting the exper­imentally observed suppression of water flux due to increased cake formation or protonation of functional groups that reduce effective pore size. Draw-Solution Concentration (DS Conc.): As DS concentration in­creases, the osmotic driving force rises, leading to higher water flux; SHAP values correspondingly shift positive at high DS Conc. (dark red) and negative at low DS Conc. (blue).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "force rises, leading to higher water flux; SHAP values correspondingly shift positive at high DS Conc. (dark red) and negative at low DS Conc. (blue). The SHAP distribution also highlights saturation effects—beyond a threshold (~1.5 M, depending on DS chemistry), further increases yield diminishing SHAP gains, mirroring the diminishing incremental osmotic pressure in heavily concentrated draw solutions. In contrast, for rejection-rate (R%) prediction (Fig. 8b), the three most influential features are micropollutant molecular weight (MP MW), water flux (Jw), and membrane type. Micropollutant Molecular Weight: Higher MP MW (dark red points) consistently produce positive SHAP contributions toward an increased rejection rate. This is physically intuitive: larger molecules are more effectively sieved by the membrane’s pore-size distribution and more likely to be retained via size-exclusion. Lower MW com­pounds (blue points) correspond to negative SHAP contributions, indicating that the model predicts lower rejection for small, diffus­ible species. Water Flux: Interestingly, high water flux (dark red) correlates with a negative SHAP contribution for rejection; this reflects the trade-off between high permeation rates and solute back-diffusion (i.e., increased reverse solute flux at high flux conditions can reduce net rejection).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "de-off between high permeation rates and solute back-diffusion (i.e., increased reverse solute flux at high flux conditions can reduce net rejection). Conversely, at lower Jw (blue), SHAP contributions to R% are positive, aligning with experimental observations that moderate fluxes often optimize selectivity. Membrane Type: Just as certain membranes allow high flux, they may also exhibit lower selectivity—so when the feature “membrane type” indicates a highly permeable (but less selective) membrane, SHAP values for R% become negative. Conversely, membranes known to be selectively tight (e.g., CTA variants) have positive SHAP contributions for high rejection.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. Prediction accuracy/error of top 5 ML models developed by PyCaret, sorted based on overall performance in predicting c) water flux d) rejection rate (*MSE values in Fig. 7a and b are normalized by a factor of 10 to be visually comparable to other parameters in the figure). Regression plot of predicted vs actual data for the GBR model predicting (a) water flux and (b) removal rate.\n\nTable 2 Average prediction accuracy/error of the best GBR model of water flux and rejection rate. PERFORMANCE METRIC REJECTION RATE (R%) PREDICTION\n\nWATER FLUX (JW) PREDICTION\n\nR20.8090.976RMSE7.6540.537MAE4.5610.217MSE61.4910.357 M. Jafari et al. Journal of Membrane Science 733 (2025) 124346",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3.1. Mem-brain: web-application We developed a web-based application that provides an automated graphical user interface (GUI) for predicting water flux and membrane performance in removing micropollutants under varying experimental conditions. The application is integrated with the optimized GBR model, enabling researchers to input custom experimental parameters and receive accurate predictions without requiring physical laboratory ex­periments. This tool bridges the gap between computational modeling and practical application, offering a streamlined, user-friendly platform for membrane performance analysis. The Mem-brain web application is accessible via following link: https://mem-brain.streamlit.app/ The application allows users to explore the effects of different operational conditions on water flux and micropollutant removal effi­ciency, facilitating data-driven decision-making in membrane research. By automating the prediction process, the tool reduces the time, cost, and effort associated with traditional experimental setups. This inno­vation not only enhances accessibility for researchers but also supports reproducibility and scalability in membrane technology studies. 3.4. Development of ANN model We implemented a feed-forward ANN to predict the removal effi­ciency of micropollutants in forward osmosis. The model development and optimization followed a structured, reproducible workflow. 3.4.1.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "removal effi­ciency of micropollutants in forward osmosis. The model development and optimization followed a structured, reproducible workflow. 3.4.1. Data preparation Raw experimental data included physicochemical descriptors (e.g., molecular weight, charge, pKa), operational variables (e.g., cross-flow velocity, water flux), and binary molecular fingerprints (MP_Bit fea­tures). Observations with missing target values (Removal Rate, %) were excluded. All predictors were standardized (zero mean, unit variance) to ensure numerical stability during network training. 3.4.2. ANN architecture design We employed scikit-learn’s ’MLPRegressor’ to construct a multilayer perceptron with a variable number of hidden layers and nodes. Activation functions tested were Rectified Linear Units (ReLU) and hy­perbolic tangent (Tanh). L2 regularization (α) penalizes large weights to reduce overfitting. The solvers compared include the adaptive moment estimation algorithm (Adam) and the quasi-Newton L-BFGS optimizer. 3.4.3. Model training and hyperparameter optimization A comprehensive grid search evaluated combinations of architec­tural and solver settings. We used nine-fold cross-validation to estimate the generalization error for each candidate. The loss function was MSE, with negative MSE as the scoring metric. The hyperparameter grid is listed in Table S4. The best estimator was refit on the full training set and assessed on a held-out test partition.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "etric. The hyperparameter grid is listed in Table S4. The best estimator was refit on the full training set and assessed on a held-out test partition. Final result of actual vs predicted data along with related R2 is plotted for both water flux and removal rate in Fig. 9a and b, respectively. To further investigate the goodness of fit of the predicted data using an initial number of 17 parameters, the effect of hidden layer and neuron numbers was also investigated in terms of the adjusted R2 value which is important due to the use of many input neurons [66]. The Adjusted-R2 values presented in Fig. 10 are a modified calculation of the R2 value, which takes into consideration the number of independent variables used to produce the prediction outputs and penalizes the model accu­racy on the inclusion of any unnecessary variables in the model [59]. As can be seen from these results, the adjusted R2 values tend to behave in the same way as the R2 value but at much lower values with the highest value achieved by the models being 0.9972 and 0.7134 for water flux and rejection rate predictions respectively. The lower adj-R2 results observed by both models compared to their R2 values indicate that some of the input parameters used to train the models do not have a significant contribution to explaining the variance in dependent variables, thus the removal of these less significant inde­pendent variables could result in the improvement of model’s accuracy.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ariance in dependent variables, thus the removal of these less significant inde­pendent variables could result in the improvement of model’s accuracy. In order to improve model accuracies, an investigation between the input and output parameter correlations had to be conducted to deter­mine which parameters are most significant to the model and could potentially result in model accuracy improvement. 3.4.4. Input parameters importance analysis and tailoring To visualize the correlation between input and target variables, the summary plot of the SHAP values was generated for the two models as seen in Fig. 11. The SHAP value results presented showcase how the two predictive",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 8. SHAP value plots featuring input importance in output determination for a) water flux b) rejection rate. M. Jafari et al. Journal of Membrane Science 733 (2025) 124346 models are affected by the input parameters, the most significant pa­rameters are presented as; zeta potential, temperature, membrane type, system operating time, compound MW, membrane contact angle, initial pH, compound charge, and MP category, in order of significance for the R% predictive model and temperature, DS concentration, initial con­centration, zeta potential, type of MB, contact Angle, cross flow velocity,\n\nFig. 9. Correlation between predicted and test results (a) Water Flux, (b) Removal rate.\n\nFig. 10. Effect of the number of hidden layers and number neurons on Adjusted R2 for prediction of (a) Water Flux and (b) Rejection rate.\n\nFig. 11. SHAP values for (a) Water Flux (b) Rejection rate prediction model.\n\nM. Jafari et al. Journal of Membrane Science 733 (2025) 124346",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "DS molecular weight, Fingerprint DS, Initial pH in order of significance for the Jw predictive model. These parameters affect both models to different degrees, many of which seem to have similar degrees of sig­nificance in both models. Various experimental investigations in literature have attempted to simulate and understand how these parameters affect the FO membrane operations and its rejection abilities. Each of these parameters have been proven to affect the FO membrane behavior in different ways while under varying membrane systems, some are considered more dominant than others in some operations. The significant parameters for water flux prediction are in high agreement with experimental reports found in literature where the parameters such as membrane characteristics, feed and draw solution concentrations [67,68], temperature and DS char­acteristics are some of the most dominant FO membrane system pa­rameters that influence water flux. Similarly, rejection rate operation in FO membranes is influenced by several operational parameters such as membrane characteristics, feed solution characteristics (e.g., concen­tration and pH), temperature, and operating parameters (e.g., cross-flow velocity, operating time). Temperature is a parameter which according to the SHAP value re­sults, has a high significance in both predictive models.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "w velocity, operating time). Temperature is a parameter which according to the SHAP value re­sults, has a high significance in both predictive models. According to experimental literature, the FS and DS temperatures greatly affect FO processes with the rise in temperature from 20 ◦C to 35 ◦C, thus sup­porting the high significance of this parameter on the model. This temperature increase has been proven to result in a great increase in membrane water flux as well as reverse salt flux and specific salt flux [69]. These significant performance changes, observed under increasing temperatures, are expected to also affect the MP transport mechanism, as an increase in reverse salt flux could hinder the transport of com­pounds such as organic MPs with higher MW [70]. Most experimental studies for MP rejection have been conducted within the optimum FO membrane operating temperature range of 25–30 ◦C [69]. Moreover, the FS pH value is another parameter that is of high sig­nificance in both models, along with various pH-dependent parameters such as the membrane zeta potential and compound charge. The effects of pH change on the membrane system and membrane performance have also been widely studied in the literature. In a study conducted by Xie et al. (2012) it was observed that water flux was pH dependent and as the FS pH increased the water flux also increased [71]. Similarly, Jin et al. (2012) investigated the rejection mechanism of micropollutants under varying pH conditions.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the water flux also increased [71]. Similarly, Jin et al. (2012) investigated the rejection mechanism of micropollutants under varying pH conditions. Their study concluded that acidic condi­tions promote the adsorption of a greater number of compounds on the membrane surface. This, combined with size exclusion and hydrophobic interactions between the chemicals and the membrane, enhances com­pound rejection. These mechanisms are dominant in commercial CTA-based FO membranes [72]. However, under alkaline circum­stances, deprotonated molecules are removed as a result of both elec­trostatic repulsion and size exclusion which can be attributed to the increase of the membrane’s zeta potential and a more negatively charged membrane surface [72]. These results mostly apply to charged compounds, however, in the absence of electrostatic interactions be­tween MP compounds and the membrane surface, such as in the rejec­tion of neutral compounds, the rejection mechanism is dominated by size exclusion, and the rejection rate increases as the MPs’ MW increases [73]. These results by experimental literature show not only the pH but also how various membrane and compound pH-dependent characteris­tics such as zeta potential, compound charge and even the non-dependent MW dominate the membrane permeation and rejection mechanisms. Numerous studies have examined the effects of draw solution (DS) type and concentration on the rejection mechanisms of forward osmosis (FO) membranes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Numerous studies have examined the effects of draw solution (DS) type and concentration on the rejection mechanisms of forward osmosis (FO) membranes. Certain DSs have demonstrated significant potential in enhancing water flux and micropollutant (MP) rejection efficiency. For instance, research on using fertilizers as draw solutions in FDFO mem­branes revealed that three fertilizers (KCl, MAP, and DAP) achieved comparable water fluxes. However, variations in reverse salt flux, pH values, and the interaction between the DSs and the physicochemical properties of organic MPs (e.g., hydrophobicity and surface charge) influenced the rejection mechanisms. These differences not only affected MP rejection but, in some cases, improved it [70]. The experimental studies for the FO membrane rejection mechanism oftentimes agree with the SHAP value results presented in Section 4.2.2 thus these results can be used for optimization of the model using the most significant model parameters as model inputs. 3.4.5. Effects of the input dataset on model performance Considering the results presented in section 3.1.1 the two models were investigated using an ANN architecture with 10 input neurons in order to determine if model accuracy improved when the 10 most sig­nificant parameters of each model were used for model training. Fig. 12presents the R2 and RMSE values of the water flux and rejection rate prediction rates using 10 input neurons.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "del were used for model training. Fig. 12presents the R2 and RMSE values of the water flux and rejection rate prediction rates using 10 input neurons. The 10 input parameter models were investigated with the same number of neurons and hidden layers as the 17 input parameter model architectures, in order to similarly investigate the effect of the number of neurons and hidden layers on model accuracy. The R2 values for the water flux models do not seem to follow a similar increasing trend with the increase of the number of neurons, as was observed with the 17parameter model. Instead, all varying architectures consistently per­formed at accuracies with R2 values higher than 0.999. Similarly, the RMSE values for all model architectures did not seem to follow a decreasing trend as was expected with the increase in the number of neurons, but their values were consistently lower than 0.1, which also indicates a high accuracy between predicted and target outputs. On the other hand, the rejection rate model results showed an increasing and decreasing trend for the R2 and RMSE values respectively, as the number of hidden layers increased, compared to the increasing and decreasing trends being more dominant as the number of neurons was increased in the previous model.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n layers increased, compared to the increasing and decreasing trends being more dominant as the number of neurons was increased in the previous model. The evaluation metric results, clearly indicate that the reduction in input parameters significantly improved model predictions with the R2 values reaching 1 and 0.9001 for the water flux and rejection rate pre­dictive models respectively, while the RMSE values of the two models also observed significant reduction with the values dropping to 0.0224 and 5.8685 for the water flux and rejection rate models respectively. The R% model’s highest R2 and lowest RMSE values were observed at 6 hidden layers and 80 neurons in each layer, while the Jw model reached its highest R2 and lowest RMSE value at 2 hidden layers and 10 neurons in each layer. Both models required less complex network ar­chitectures to reach peak prediction accuracy compared to the model with higher input parameter count. 3.5. Determination of best fit ANN The two feed-forward models designed in this study achieved very high accuracy in predicting target outputs. Some of these studies are also presented in Table 3. Furthermore, comparing the results of models with 10 inputs instead of 17 proves the importance of proper feature selection and engineering in machine learning which in this case tailoring them and ignoring the unnecessary input data leads to a more accurate pre­diction of outputs. 4.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ring in machine learning which in this case tailoring them and ignoring the unnecessary input data leads to a more accurate pre­diction of outputs. 4. Conclusions In this project, key performance parameters of micropollutant removal using forward osmosis membranes were simulated and pre­dicted using several machine learning algorithms in various conditions to achieve an optimal model capable of predicting water (permeate) flux and micropollutant rejection rate with the highest accuracy possible. For this purpose, an extensive dataset of experimental data was gathered from literature including a broad range of micropollutants and FO membranes in different operating conditions. The developed models",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "M. Jafari et al. Journal of Membrane Science 733 (2025) 124346 were optimized by changing their structure and hyperparameters and in the best-case scenario among machine learning models GBR was capable of producing results with R2 = 0.98, 0.81, and RMSE = 0.54, 7.65 for water flux and rejection rate respectively; while, ANN exhibited a better overall performance producing results with R2 = 1, 0.89 and RMSE =0.22, 5.99 and predicting water flux and rejection rate respectively. Additionally, it was confirmed that in this study, ANN as a deep learning model outperforms other ML models in all categories showing very high accuracies in predictions. Furthermore, the reason that rejection rate prediction accuracy is lower than the water flux could be attributed to the fact that water flux in FO membranes is connected to a certain group of physical parameters, especially to FS and DS concentrations and membrane permeability [74], thus making it easier for AI algorithms to uncover the pattern and predict water flux more accurately based on input. On the other hand, the rejection rate is much more complicated and not easily related to certain parameters which would make it a lot difficult for AI to make connections between inputs and the output.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "complicated and not easily related to certain parameters which would make it a lot difficult for AI to make connections between inputs and the output. This fact, however, makes the work done in this study more valuable and offers possibilities for researchers to simulate and get a trustable prediction of their membrane performance in removing certain micropollutants without the need for costly and tedious experimental campaigns. CRediT authorship contribution statement Mehryar Jafari: Writing – original draft, Methodology, Investiga­tion, Formal analysis, Data curation, Conceptualization. Christina Tzirtzipi: Investigation. Ali Molaei Aghdam: Software, Formal anal­ysis, Data curation. Nima Mikaeili Chahartagh: Investigation, Formal analysis, Data curation. Bernardo Castro Dominguez: Writing – review & editing, Writing – original draft, Supervision, Resources, Investigation. Data availability Dataset used in this study has been made available in the supple­mentary documents (Dataset.csv). Furthermore, the python scripts of AI models used can be accessed through following link: https://github. com/ChemEngML/MP_FO_ML.git. Declaration of competing interest The authors declare the following financial interests/personal re­lationships which may be considered as potential competing interests: Mehryar Jafari reports financial support was provided by Engineering and Physical Sciences Research Council.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 12. Effect of the number of hidden layers and number neurons on R2 for 10 input parameters (a) water flux and (c) rejection rate prediction models and RMSE value for (d) water flux and (d) rejection rate prediction models.\n\nTable 3 Summary of performance of the different developed ANN algorithms. ModelsPredictionNumber of input parameters\n\nEvaluation Metrics R2RMSEAdj - R2",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[26] H. Cos, et al., Predicting outcomes in patients undergoing pancreatectomy using wearable technology and machine learning: prospective cohort study, J. Med. Internet Res. 23 (3) (2021) e23595.[27] E. Ibrahimi, et al., Overview of data preprocessing for machine learning applications in human microbiome research, Front. Microbiol. 14 (2023).[28] M.H. Huque, et al., A comparison of multiple imputation methods for missing data in longitudinal studies, BMC Med. Res. Methodol. 18 (1) (2018) 168.[29] T. Emmanuel, et al., A survey on missing data in machine learning, J. Big Data 8 (1) (2021) 140.[30] T. Shadbahr, et al., The impact of imputation quality on machine learning classifiers for datasets with missing values, Commun. Med. 3 (1) (2023) 139.[31] S. Lee, et al., Novel solubility prediction models: molecular fingerprints and physicochemical features vs graph convolutional neural networks, ACS Omega 7 [ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] (2022) 12268–12277.[32] Y. Yang, et al., DeepIDC: a prediction framework of injectable drug combination based on heterogeneous information and deep learning, Clin. Pharmacokinet. 61 [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] (2022) 1749–1759.[33] H.L. Morgan, The generation of a unique machine description for chemical Structures-A technique developed at chemical abstracts service, J. Chem. Doc.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "H.L. Morgan, The generation of a unique machine description for chemical Structures-A technique developed at chemical abstracts service, J. Chem. Doc. 5 (2) (1965) 107–113.[34] H. Li, Y. Wang, Y. Wang, Machine learning for predicting the dynamic extraction of multiple substances by emulsion liquid membranes, Separ. Purif. Technol. 313 (2023) 123458.[35] J.O.Q. Quispe, et al., Analysis and selection of multiple machine learning methodologies in PyCaret for monthly electricity consumption demand forecasting, Mater. Proc. 18 (1) (2024) 5.[36] G. Westergaard, et al., Time series forecasting utilizing automated machine learning (AutoML): a comparative analysis study on diverse datasets, Information 15 (1) (2024) 39.[37] M. Jafari, C. Tzirtzipi, B. Castro-Dominguez, Applications of artificial intelligence for membrane separation: a review, J. Water Process Eng. 68 (2024) 106532.[38] J.T. Hancock, T.M. Khoshgoftaar, CatBoost for big data: an interdisciplinary review, J. Big Data 7 (1) (2020) 94.[39] A.V. Ponce-Bobadilla, et al., Practical guide to SHAP analysis: explaining supervised machine learning model predictions in drug development, Clin Transl Sci 17 [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] (2024) e70056.[40] S.M. Ganie, et al., An ensemble learning approach for diabetes prediction using boosting techniques, Front. Genet.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "}\\end{equation}] (2024) e70056.[40] S.M. Ganie, et al., An ensemble learning approach for diabetes prediction using boosting techniques, Front. Genet. 14 (2023) 1252159.[41] S. Ma, et al., Effect of different draw solutions on concentration polarization in a forward osmosis process: theoretical modeling and experimental validation, Ind. Eng. Chem. Res. 62 (8) (2023) 3672–3683.[42] M. Yasukawa, et al., Effect of molecular weight of draw solute on water permeation in forward osmosis process, Ind. Eng. Chem. Res. 54 (33) (2015) 8239–8246.[43] Y. Matsuzaka, et al., Prediction model of aryl hydrocarbon receptor activation by a novel QSAR approach, DeepSnap–Deep learning, Molecules 25 (6) (2020) 1317.[44] S. Waqas, et al., SVM and ANN modelling approach for the optimization of membrane permeability of a membrane rotating biological contactor for wastewater treatment, Membranes 12 (9) (2022) 821.[45] F. Pedregosa, scikit-learn: machine learning in python [cited 2024 3 March 2024]; Available from: https://scikit-learn.org/dev/index.html, 2010.[46] J. Yuan, xgboost/python-package [cited 2023 12 December 2023]; Available from: https://github.com/dmlc/xgboost/tree/master/python-package/, 2021.[47] Google, Google colab [cited 2024 23 April 2024]; Available from: https://colab.res earch.google.com/, 2022.[48] S. Wang, et al., State-of-the-Art review of artificial neural networks to predict, characterize and optimize pharmaceutical formulation, Pharmaceutics 14 (1) (2022).[49] H.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "-of-the-Art review of artificial neural networks to predict, characterize and optimize pharmaceutical formulation, Pharmaceutics 14 (1) (2022).[49] H. Yu, et al., Prediction of the particle size distribution parameters in a high shear granulation process using a key parameter definition combined artificial neural network model, Ind. Eng. Chem. Res. 54 (43) (2015) 10825–10834.[50] M.R.S. Emami, M.K. Amiri, S.P.G. Zaferani, Removal efficiency optimization of Pb2 + in a nanofiltration process by MLP-ANN and RSM, Kor. J. Chem. Eng. 38 (2) (2021) 316–325.[51] J. Jawad, A.H. Hawari, S. Javaid Zaidi, Artificial neural network modeling of wastewater treatment and desalination using membrane processes: a review, Chem. Eng. J. 419 (2021) 129540.[52] D. Saad, On-line Learning in Neural Networks, Cambridge University Press, 1999.[53] N. Muttil, K.-W. Chau, Neural network and genetic programming for modelling coastal algal blooms, Int. J. Environ. Pollut. 28 (3–4) (2006) 223–238.[54] J.-J. Qin, et al., Experimental studies and modeling on concentration polarization in forward osmosis, Water Sci. Technol. 61 [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] (2010) 2897–2904.[55] Z. Noroozi, A. Orooji, L. Erfannia, Analyzing the impact of feature selection methods on machine learning algorithms for heart disease prediction, Sci. Rep. 13 (1) (2023) 22588.[56] Z.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", Analyzing the impact of feature selection methods on machine learning algorithms for heart disease prediction, Sci. Rep. 13 (1) (2023) 22588.[56] Z. Cao, et al., Machine learning in membrane design: from property prediction to AI-Guided optimization, Nano Lett. 24 [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (2024) 2953–2960.[57] J. Yang, et al., Machine learning enables interpretable discovery of innovative polymers for gas separation membranes, Sci. Adv. 8 (29) (2022) eabn9545.[58] S. Lundberg, A unified approach to interpreting model predictions, 2017.[59] E. Asadi Shamsabadi, et al., Machine learning-based compressive strength modelling of concrete incorporating waste marble powder, Constr. Build. Mater. 324 (2022) 126592.[60] S. Yadav, et al., Preparation of novel high permeability and antifouling polysulfone-vanillin membrane, Desalination (2020) 496.[61] R. Shahouni, et al., Utilising artificial intelligence to predict membrane behaviour in water purification and desalination, Water 16 (20) (2024) 2940.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "M. Jafari et al. Journal of Membrane Science 733 (2025) 124346\n\n[62] S.-W. Chung, S.-S. Hong, B.-K. Kim, Hyperparameter tuning technique to improve the accuracy of bridge damage identification model, Buildings 14 [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (2024) 3146.[63] A.A. Mahamat, et al., Decision tree regression vs. gradient boosting regressor models for the prediction of hygroscopic properties of borassus fruit fiber, Appl. Sci. 14 (17) (2024) 7540.[64] X. Li, et al., Efficient shapley explanation for features importance estimation under uncertainty, Med Image Comput Comput Assist Interv 12261 (2020) 792–801.[65] N. Jeong, et al., Exploring the knowledge attained by machine learning on ion transport across polyamide membranes using explainable artificial intelligence, Environ. Sci. Technol. 57 (46) (2023) 17851–17862.[66] M. Mahmoudi, et al., Predictive modeling of membrane reactor efficiency using advanced artificial neural networks for green hydrogen production, Sci. Rep. 14 (1) (2024) 24211.[67] S. Ma, et al., Effect of different draw solutions on concentration polarization in a forward osmosis process: theoretical modeling and experimental validation, Ind. Eng. Chem. Res. 62 (8) (2023) 3672–3683.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15,
+        16
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[68] M. Yasukawa, et al., Effect of molecular weight of draw solute on water permeation in forward osmosis process, Ind. Eng. Chem. Res. 54 (33) (2015) 8239–8246.[69] D.D. Winfred Rufuss, Y. Wu, P.A. Davies, Effects of feed and draw solution temperature on the performance of aquaporin HFFO.6 membrane in forward osmosis, Mater. Today Proc. 77 (2023) 295–299.[70] Y. Kim, et al., Understanding the organic micropollutants transport mechanisms in the fertilizer-drawn forward osmosis process, J. Environ. Manag. 248 (2019).[71] M. Xie, W.E. Price, L.D. Nghiem, Rejection of pharmaceutically active compounds by forward osmosis: role of solution pH and membrane orientation, Separ. Purif. Technol. 93 (2012) 107–114.[72] X. Jin, et al., Rejection of pharmaceuticals by forward osmosis membranes, J. Hazard Mater. 227–228 (2012) 55–61.[73] A.A. Alturki, et al., Removal of trace organic contaminants by the forward osmosis process, Separ. Purif. Technol. 103 (2013) 258–266.[74] A. Tiraferri, et al., A method for the simultaneous determination of transport and structural parameters of forward osmosis membranes, J. Membr. Sci. 444 (2013) 523–538.\n\nM. Jafari et al. Journal of Membrane Science 733 (2025) 124346",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006593-main",
+      "title": "AI-assisted prediction and optimization of micropollutants removal with forward osmosis membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  }
+]

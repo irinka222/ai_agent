@@ -1,0 +1,883 @@
+[
+  {
+    "content": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance Bar Avneri a,b,1, Kejing Li a,1, Mikhail Stolov a, Mathias Ulbricht c,*, Viatcheslav Freger a,b,d,** a Wolfson Department of Chemical Engineering, Technion Israel Institute of Technology, Haifa, Israelb The Nancy & Stephen Grand Technion Energy Program (GTEP), Technion Israel Institute of Technology, Haifa, Israelc Lehrstuhl für Technische Chemie II and Center for Water and Environmental Research (ZWU), Universit¨at Duisburg-Essen, 45117, Essen, Germanyd Grand Water Research Institute, Technion Israel Institute of Technology, Haifa, Israel",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Polyelectrolyte complexes (PECs) have emerged as a promising platform for new types of nanofiltration (NF) membranes. While water-soluble polyelectrolytes are usually employed, the recently proposed alternative of using amphiphilic ionomers to form an insoluble first layer, subsequently converted to PEC, offers a simpler two-step preparation. This study investigates PEC formation via this route and, specifically, kinetics and stoichiometry of complexation between the anionic ionomer Nafion and the polycations polyallylamine hydrochloride (PAH) and polydiallyldimethylammonium chloride (PDADMAC). Using ATR-FTIR spectroscopy, we analyzed polycations diffusion from solution into Nafion films and resulting PEC stoichiometry. We observed that the apparent polycation diffusivity increases in more concentrated solutions and the observed kinetics does not fit the model of a purely diffusive transport, likely due to PAH electromigration as additional transport mechanism. The kinetics even become non-monotonic at higher solution concentrations and lower pH, which is attributed to structural rearrangement of the Nafion matrix triggered by complexation that occurs alongside PAH transport. In addition, lower PAH uptake was unexpectedly observed at higher pH, despite lower PAH ionization that should require more PAH for intrinsic charge compensation in the PEC.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "uptake was unexpectedly observed at higher pH, despite lower PAH ionization that should require more PAH for intrinsic charge compensation in the PEC. This result is explained by competition between PAH with Na+ counterions, resulting in more extrinsic charge compensation in the film. Finally, based on these findings and conditions supposed to ensure complete complexation, thin-film composite PEC membranes were fabricated via a two-step procedure and tested for separation performance. Flux and rejection measurements demonstrate that nanofiltration performance can be effectively tuned by adjusting the polycation-to-ionomer ratio. This work provides mechanistic insights and a methodology for designing and tuning ionomer-based PEC-NF membranes for water purification.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Water is essential for life and a critical economic and social resource, increasingly depleted and stressed by growing populations and rising living standards [1,2]. The scarcity of freshwater underscores the need for sustainable water management [3]. Reuse of wastewater, currently underutilized, offers a viable solution for providing potable and irriga­tion water, especially in water-stressed regions. However, even when wastewater salinity is not an issue, conventional secondary treatment alone is still insufficient to remove persistent organic micropollutants of anthropogenic origin, whose increasing presence in water sources and wastewater raises concerns and requires more advanced treatment technologies [4]. Nanofiltration (NF) is a promising and energy efficient approach to micropollutant removal, yet existing NF membranes, mainly based on mildly hydrophobic polyamide films designed to remove salts, often require further optimization to enhance selectivity for effective wastewater treatment. Polyelectrolyte complexes (PECs) formed by oppositely charged soluble polyelectrolytes (PE) have gained significant attention as a new promising type of NF membrane materials [5,6]. In general, formation of PECs is driven by electrostatic and hydrophobic interactions as well as entropic gain resulting from the release of counterions [7,8].",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "l, formation of PECs is driven by electrostatic and hydrophobic interactions as well as entropic gain resulting from the release of counterions [7,8]. Their tunability, owing to strong dependence of the resulting PEC character­istics on the type of polyelectrolytes and preparation conditions, enables optimization of membrane performance. PEC behavior and character­istics depend on factors such as ionic strength, pH, and polyelectrolyte-specific interactions [8–10] and PECs may display complex dynamics, widely varying in relaxation timescales [11,12]. These factors may strongly affect the NF performance of PEC films and have to be considered during membrane preparation.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "* Corresponding author.** Corresponding author. Wolfson Department of Chemical Engineering, Technion Israel Institute of Technology, Haifa, Israel.E-mail addresses: mathias.ulbricht@uni-essen.de (M. Ulbricht), vfreger@technion.ac.il (V. Freger). 1 equal contribution.\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 735 (2025) 124510\n\nAvailable online 13 August 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC license ( http://creativecommons.org/licenses/bync/4.0/ ).",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Three primary techniques have been reported for preparation of PEC-based NF membrane. The first and most common has been the layer-by-layer (LbL) coating technique, in which a substrate is alter­nately exposed to positively and negatively charged polyelectrolytes, forming polyelectrolyte multilayers (PEMs) of controllable thickness. This process, most suitable for soluble polyelectrolytes forming an insoluble complex, produces thin, selective membranes with adjustable charge and selectivity [5,13,14]. In the LbL method, the applied indi­vidual layers are extremely thin, allowing for rapid complexation upon contact without the need for prolonged inter-polymer diffusion. How­ever, significant drawbacks of this approach is its labor-intensive nature, requiring multiple steps, as well as the PEC’s limited stability under high ionic strengths and extreme pH conditions [7,8,15]. The second approach, salt dilution-induced phase inversion, generates an asym­metric PEC membrane by extrusion of a homogeneous dope containing PEC solubilized in a concentrated solution of a suitable through a single-orifice spinneret. Contact with the aqueous bore fluid and coag­ulation bath (low-salt environment) induces phase separation, resulting in an asymmetric membrane structure, with much optimization required to control the selective layer thickness [15–17]. The present study focuses on the method reported by Zelner et al.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e, with much optimization required to control the selective layer thickness [15–17]. The present study focuses on the method reported by Zelner et al. [18], as a new attractive and straightforward approach for preparing tunable, selective, and stable NF membranes. The method bears con­ceptual similarity to LbL technique but employs a water-insoluble ion­omer instead of one of soluble polyelectrolytes and requires only two steps. First, an ionomer, such as anionic Nafion, is coated on a porous substrate to form a water-insoluble film, whose thickness determines the final membrane thickness. Once this layer solidifies after drying, at the second step, an oppositely charged soluble polyelectrolyte coating is applied, ultimately allowing the polyelectrolyte to diffuse into the ion­omer layer and converting it to PEC [18,19]. A critical condition to success of such preparation is that the time and conditions used during the second step ensure that the soluble polyelectrolyte diffuses suffi­ciently fast into the ionomer layer and achieves a required degree of complexation. Quantitative understanding of the complexation mecha­nism and its dynamics and control of polyelectrolyte-ionomer ratio may greatly benefit the design and preparation of ionomer-based PEC membranes. The characteristics of PECs were shown to strongly depend on time and solution characteristics such as polyelectrolyte concentra­tion, presence of added salts, and pH [9,20,21].",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "were shown to strongly depend on time and solution characteristics such as polyelectrolyte concentra­tion, presence of added salts, and pH [9,20,21]. Unfortunately, such information on the complexation dynamics and structure of polyelectrolyte-ionomer complexes is virtually non-existent, although the observed charge reversal and significant variation of rejection properties after second step strongly indicated a successful complexation [18,19]. To this end, in this study, we report an approach for studying the kinetics of ionomer-polyelectrolyte complexation. We focus on Nafion, one of the widely used ionomers with many unique characteristics and investigate its complexation with polyallylamine hydrochloride (PAH) solutions of varying concentrations and pH for different durations. PAH is a commercially available weak polycation with a linear hydrocarbon backbone. It is already in use for fabricating selective NF membranes and demonstrates potential for forming dense PEC films with a high micropollutant rejection [5,21–23]. Additionally, its high charge den­sity of 10.7 mmol/g in a fully charged state may also be beneficial for pollutant rejection and resistance to fouling. To monitor and quantify PAH diffusion into Nafion we adopt an approach based on ATR-FTIR spectroscopy [24–26], a surface-sensitive technique that may yield both the diffusion coefficient and PAH/Nafion stoichiometric ratio at the saturation, i.e., in equilibrium with solution.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ive technique that may yield both the diffusion coefficient and PAH/Nafion stoichiometric ratio at the saturation, i.e., in equilibrium with solution. These data are subse­quently used to prepare composite PEC-NF membranes, ensuring com­plete and uniform complexation, and analyze their performance and selectivity in actual NF separation. The results offer new general insights into the formation of PEC membranes from ionomers and poly­electrolytes, as well for their design and tuning, towards the ultimate goal of achieving competitive performance for potentially promising applications, such as wastewater treatment and reuse. 2. Materials and methods 2.1. Materials Flat-sheet poly(ether sulfone) (PES) ultrafiltration (UF) membranes of molecular weight cutoff 10 kDa, used as support membranes in this study, were purchased from SUEZ. This substrate was used in our pre­vious work that demonstrated successful formation of Nafion-polyamine PEC layers on this type of supporting membrane; therefore, it was adopted here [18,19]. Nafion N117, Nafion N211 membranes films and Nafion solution containing 15 % Nafion, 40 % water, and 45 % w/v mixed alcohols were purchased from Ion Power. Polyallylamine hy­drochloride (PAH) aqueous solution (40 % PAH, Mw ~150 kDa) was purchased from Polysciences. Polydiallyldimethylammonium chloride (PDADMAC) aqueous solution (20 % PDADMAC, Mw ~200–350 kDa) was purchased from Sigma-Aldrich. Glycerol, NaOH, HCl and inorganic salts were purchased from Aldrich.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "queous solution (20 % PDADMAC, Mw ~200–350 kDa) was purchased from Sigma-Aldrich. Glycerol, NaOH, HCl and inorganic salts were purchased from Aldrich. Deionized (DI) water was used throughout. 2.2. Kinetic measurements of Nafion-polyamine complexation using Nafion 117 films Fig. 1 schematically illustrates the kinetic experiments, which ulti­mately compared the quantitative results of the ATR-FTIR spectroscopy (step V) versus the complexation time (step II). Before coating, Nafion 117 film coupons were soaked overnight in a 1 M HCl solution to remove soluble components and ensure reproducible initial state. They were then washed and soaked in DI water at least three times to eliminate residual acid. An aqueous PAH solution was prepared by diluting the initial 40 % PAH solution with DI water and adjusting the pH using HCl or NaOH. The solutions were stirred for at least 2 h. The Nafion 117 films of ~0.5 cm2 area were immersed in 5 mL of PAH solutions at varying concentrations (5, 20, 50, 80 g/L) and pH for different times. Finally, the membranes were conditioned in 5 mL of a 5 mM NaCl solution at pH 6 for 10 min, dried and analyzed using attenuated total reflection (ATR)- Fourier-transform infrared (FTIR) spectroscopy. To ensure no significant pH change during the process, pH was measured before and after the soaking and conditioning steps.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rared (FTIR) spectroscopy. To ensure no significant pH change during the process, pH was measured before and after the soaking and conditioning steps. For each PAH concentration and pH, the rate of PAH diffusion and complexation with Nafion versus immersion time was quantified using ATR-FTIR. The spectra were recorded on an A225/Q Platinum FTIR spectrometer (Bruker) in the mid-IR range (400–4000 cm-1) with a single 45o reflection diamond ATR accessory. The diffusion coefficient D of polycation (polyamine) in Nafion and the ultimate degree of neutralization (stoichiometric ratio of polyamine and Nafion) were deduced from the variation the intensities of characteristic bands of polyamine, quantified as integrated peak areas, with immersion time t. Since the absolute intensity of IR bands in ATR-FTIR spectra is prone to variations due to uncertain contact area that may vary with sample geometry, roughness, applied pressure etc., we used as a more robust measure of polyamine concentration the ratio of the intensities of its characteristic band (integrated area over 1367-1557 cm-1 range for PAH and 1367–1540 cm-1 for PDADMAC) to that of non-overlapping bands of Nafion (1025–1362 cm-1) (see Section 3.1). In this manner, the effect of uncertain contact area is cancelled out and the resulting ratio of integrated band areas A(t) may be converted to actual PAH/ Nafion stoichiometry after calibration (Section 3.1).",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "celled out and the resulting ratio of integrated band areas A(t) may be converted to actual PAH/ Nafion stoichiometry after calibration (Section 3.1). The equilibrium stoichiometric ratio was determined from the value of A corresponding to the saturation plateau attained at long times, A∞= A(t = ∞). The diffusion coefficient was determined by fitting A(t) to the following equation (see Section S1 in Supplementary materials for derivation): A(t)A∞ = 1 -exp(Dtd2 )erfc(̅̅̅̅̅Dt√ d ),(1)",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "B. Avneri et al. Journal of Membrane Science 735 (2025) 124510 where d is the IR penetration depth of the selected IR band, given by the relation [24–26] d =λ 4π ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅n21 sin2(45◦) -n22√,(2) where λ is the wavelength of the specific band, n1 = 2.4 and n2 = 1.38 are refractive indices of the ATR crystal and of the PEC sample, respectively, and 45o is the incidence angle of the used ATR attachment. The refractive index of the PEC was assumed to be equal to that Nafion and poly(allylamine), both having an identical index 1.38, also similar for both PAH aqueous solution and pure PAH [27,28]. Since d depends on the wavelength and slightly differs for the selected bands of Nafion and polyamine, the average penetration depth of the selected bands was used. In cases where A(t) showed deviations, thus eq. (1) could not fit the entire data (see Section 3.2), the diffusion coefficient was determined by fitting eq. (1) to the initial rising part of A(t), up to the maximum, using both D and A∞ as fitting parameters (see Section 3.2). The intensity ratio A(t) was calibrated versus PAH/Nafion stoichio­metric ratio using solid complexes of the two polymers with the ratios 10/1, 3/1, 2/1, 1/1, 1/2, and 1/3 prepared by mixing a 5 % (w/w) solution of Nafion in ethanol with 5 % (w/w) solution of poly(allyl­amine) (PAH) in water in prescribed proportions.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "/3 prepared by mixing a 5 % (w/w) solution of Nafion in ethanol with 5 % (w/w) solution of poly(allyl­amine) (PAH) in water in prescribed proportions. The mixtures were dried to yield a total 100 mg of solid complex, which was then ground into a fine homogeneous powder for FTIR analysis based on average of 6–7 analyzed spectra for each ratio. 2.3. Fabrication of PEC composite membranes and testing of separation performance The Nafion-EtOH coating solution was prepared by diluting the initial 15 % Nafion solution with ethanol to a final concentration of 0.06 %. The aqueous PAH solution was prepared by diluting the initial 40 % PAH solution with deionized (DI) water and adjusting the pH with HCl or NaOH. All the solutions were stirred for at least 2 h. Fig. 2 illustrates the two-step preparation of composite PEC-NF membranes. Before coating, flat-sheet PES UF support membrane cou­pons were soaked overnight in a 50 g/L aqueous glycerol solution to remove soluble components and enhance support stability. Thereafter, the coupons were dried, while glycerol stayed trapped in the pores and prevented pore collapse during drying, and then mounted in a frame of diameter 14 cm, capable of holding a solution up to a 0.5 cm height for coating. For the first Nafion coating, the mounted PES membrane was coated with 20 mL of the Nafion solution of a concentration that would yield the desired Nafion thickness after solvent evaporated.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "d PES membrane was coated with 20 mL of the Nafion solution of a concentration that would yield the desired Nafion thickness after solvent evaporated. The frame was placed on a shaker at 120 rpm for 60 min to ensure evenly distributed coating. The solvent was allowed to evaporate at room temperature, and thereafter the membrane was left to dry completely for 24 h. Notably, the previously trapped glycerol remained in the system and could re-enter the pores and prevent pore collapse upon drying; this was previously found not to interfere with Nafion coating formation [18]. The nominal Nafion coating thickness was calculated based on a Nafion density of 1.98 g/L. For the second coating step, the aqueous PAH solution was poured over the membrane and left to stand overnight, which was presumed sufficient to ensure complete complexation. The membranes were then soaked in DI water until testing. Membrane separation performance was tested using a laboratoryscale crossflow nanofiltration system (MMS FS100 system) equipped with a cross-flow cell of an active membrane area of 100 cm2 and channel height 3 mm. Feed solution was circulated from a 10 L feed tank with a feed pump and circulated through the system using another, circulation pump that controlled the circulation flow rate within the test cell. The feed pressure in the cell was 6 bar, and the circulation rate was set to 40 L/h, corresponding to a tangential velocity 0.5 m/s.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "in the test cell. The feed pressure in the cell was 6 bar, and the circulation rate was set to 40 L/h, corresponding to a tangential velocity 0.5 m/s. Single-salt feed solutions, each containing 1 g/L of salt at pH ~6, were circulated through the system for at least 1–2 h to ensure steady-state performance before measuring flux and rejection. The three feed solutions used in tests were those of pure magnesium chloride, pure sodium sulfate, and sulfadiazine with added 0.01 M sodium phosphate buffer to maintain pH 7. The concentrations were determined based on conductivity mea­surements for salts and UV spectroscopy for the micropollutant. The rejections (R) were calculated using the following equation: R =(1 -Cp Cf )▪100%,(3) where Cp and Cf represent the concentrations in the total collected permeate and the initial feed, respectively.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Illustration of Nafion 117 coupon membranes fabrication and testing procedure: I. A pristine Nafion coupon. II. Complexation in PAH solution. III. pH conditioning, washing. IV. PAH-coated coupon. V. ATR-FTIR surface analysis.\n\nFig. 2. Illustration of PEC composite NF membranes fabrication: I. Evaporation coating using a Nafion solution. II. Complexation in a PAH solution for a prescribed time, followed by washing. III. Composite membrane with a PEC top layer. B. Avneri et al. Journal of Membrane Science 735 (2025) 124510",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.4. Structural characterization of PEC coupons and composite membranes In addition to ATR-FTIR analysis, the morphology and surface composition of the Nafion 117 coupons after long immersion in PAH solutions of different concentration and pH was examined by energydispersive X-ray spectroscopy detectors (EDS) using a Prisma E Scan­ning Electron Microscope (E-SEM) (Thermo Fisher Scientific) equipped with EDS analyzer and software (Ultim Max, Oxford). Prior to imaging, samples were dried at room temperature for at least 24 h. An acceler­ating voltage of 4 kV was employed, resulting in an interaction volume depth of approximately 250–350 nm in EDS analysis. The EDS results were analyzed based on PAH/Nafion atomic ratios, calculated from the known atomic composition of each polymer. Nitrogen (N) was used as a quantitative marker for PAH, with contains one nitrogen atom per amine charge, while fluorine (F) was used to quantify Nafion, which contains 39 fluorine atom per sulfonic charge. The EDS measurements provided the atomic percentages for each sample, from which the N/F atomic ratio was determined. This ratio was then converted to PAH/Nafion charge stoichiometry in the probed surface region. For small-angle X-ray scattering (SAXS) analysis, thinner 25.4 micron-thick coupons of Nafion 211 membrane were used. Before con­version to complexes, they were soaked overnight in a 1 M HCl solution to remove soluble components.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "pons of Nafion 211 membrane were used. Before con­version to complexes, they were soaked overnight in a 1 M HCl solution to remove soluble components. Afterward, they were thoroughly rinsed and soaked in deionized (DI) water at least three times to eliminate remaining acid. An aqueous PAH solution was prepared by diluting a 40 % stock PAH solution with DI water, and the pH was adjusted using HCl or NaOH. The solutions were stirred for a minimum of 2 h. Nafion 211 films (~0.5 cm2) were then immersed in 10 mL of 50 g/L PAH solutions at pH 6 and pH 8.5 and incubated for 72 h at 90 ◦C to accelerate PAH diffusion into Nafion and ensure full complexation. Following incuba­tion, the membranes were washed at least three times with DI water, dried, and subjected to SAXS analysis. It was separately verified that this procedure insignificantly alters the structure of pristine Nafion 211 coupons. SAXS measurements were performed for pristine Nafion and PAH/Nafion complexes, using a Xeuss 3.0 from Xenocs (USA) equipped with GeniX3D beam delivery system (Cu Kα high-intensity X-ray beam, wavelength λ = 1.5419 Å-1, 50 kV, 0.6 mA) and EIGER2 R 1 M DECTRIS detector (75 μm pixel size). The scattering vector was calculated as q =(4π /λ) sin θ, where 2θ is the scattering angle. Nafion and PAH/Nafion sheets were fixed onto a metal plate with holes for beam passage. Each sample was scanned for 2 h at a 550 mm distance to the detector. Silver behenate was used for calibrating the q scale.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "th holes for beam passage. Each sample was scanned for 2 h at a 550 mm distance to the detector. Silver behenate was used for calibrating the q scale. The scattering intensity was normalized to the acquisition time, solid angle, primary beam in­tensity, and the Thompson factor. The morphology and atomic composition of the top surface and cross-section of PEC composite membranes was characterized using a high-resolution scanning electron microscope (Ultra-Plus HRSEM, Carl Zeiss, Germany), equipped with secondary electron (SE) and energydispersive X-ray spectroscopy (EDS) detectors and Carl Zeiss imaging and analysis software. Prior to imaging, membrane samples were dried at room temperature for a minimum of 24 h. The samples were then freeze-fractured in liquid nitrogen and, for EDS analysis, coated with a 3 nm layer of iridium using a Safematic coating system to enhance con­ductivity. Uncoated samples were used for SEM imaging. Elemental analysis was performed using an XFlash EDS detector (Bruker, Germany) integrated within the HRSEM system. Spectra and elemental distribution maps were acquired at an accelerating voltage of 4 kV using the Quantax software (Bruker, Germany), enabling direct assessment of the mem­brane’s elemental composition. 3. Results and discussion 3.1.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4 kV using the Quantax software (Bruker, Germany), enabling direct assessment of the mem­brane’s elemental composition. 3. Results and discussion 3.1. FTIR analysis of PAH/Nafion stoichiometry ATR-FTIR is a surface-probing technique that is uniquely capable of differentiating and quantifying chemical groups specific to each poly­mer using characteristic IR absorption bands. For this reason, it was selected in this study for accurately measuring and monitoring the complexation kinetics, including both diffusivity of PAH in Nafion and their resulting stoichiometry. Selection of distinct non-overlapping bands and calibration of their intensity versus polymer concentration was essential for subsequent analysis. Fig. 3a displays ATR-FTIR spectra in the “fingerprint” range of each polymer, PES, Nafion, and PAH, as well as Nafion-PAH PEC. PES has strong bands at ~1658, ~1580, ~1480, ~1240, and ~1150 cm-1 [26] that overlap with the charac­teristic bands of Nafion at 1220, 1150 and 1055 cm-1, assigned to its sulfonate groups [29], and of PAH at ~1600 and ~1500 cm-1 [30]. It is seen that the PEC spectrum is a superposition of the Nafion and PAH spectra, in which the Nafion bands in 1100–1365 cm-1 range are well separated from those of PAH at 1365-1570 cm-1. These bands were used for measuring the PAH/Nafion stoichiometric ratio in PEC using FTIR. The bands used for the quantitative analysis are indicated with arrows in Fig. 3a.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "or measuring the PAH/Nafion stoichiometric ratio in PEC using FTIR. The bands used for the quantitative analysis are indicated with arrows in Fig. 3a. Unfortunately, these bands overlap with very strong bands of PES, which overwhelm entirely the weaker bands of Nafion and PAH in the spectra of composite membranes. We then opted for a different, PES support-free approach and employed coupons of a 177-μm thick Nafion 117 film, that were immersed in different PAH solutions for different times to monitor and quantify complexation kinetics. Since the intensity of a band measured by ATR-FTIR is sensitive to contact area between the sample and ATR sensor and may be affected by the kind of sample, geometry, roughness and rigidity as well as applied pressure, it alone does not provide a sufficiently precise and reproduc­ible quantitative measure of polymer concentration. However, the ratio of respective band intensities can measure the ratio of two polymers fairly robustly and was best suitable for the present purpose. This ratio for the 1367–1557 cm-1 bands of PAH and 1025–1362 cm-1 bands of Nafion was calibrated using several Nafion/PAH complexes of weight ratios from 10/1 to 1/3 (see Experimental). Fig. 3b shows the resulting calibration curve that displays a reasonably good linear relation in the entire range. and analyzed using FTIR. Given the very different equiv­alent weights of Nafion (1100) and PAH (94.56), the 1/1 charge stoi­chiometry corresponds to a weight ratio 11.6/1.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "IR. Given the very different equiv­alent weights of Nafion (1100) and PAH (94.56), the 1/1 charge stoi­chiometry corresponds to a weight ratio 11.6/1. This means that, near charge stoichiometry, even weak bands of Nafion in the range selected for PAH could affect the results; the above spectral ranges were found to ensure minimal overlap and yield a good linear correlation for the two polymers. 3.2. FTIR results: complexation kinetics in the PAH-Nafion system Fig. 4 displays the progress of Nafion-PAH complexation with time, as measured by ATR-FTIR, after Nafion coupons were immersed in PAH solution of different PAH concentration and pH. Initially, we hypothe­sized the complexation process should be governed mainly by PAH diffusion, driven by the polyelectrolyte interaction with Nafion’s charges and release of counter-ions. Linearization of eq. (1) predicts an approximately linear dependence on square root of time, t1/2, at small times t ≪ d2/D, as typical of semi-infinite diffusion. For this reason, the apparent stoichiometric ratio, representing concentration of PAH in the surface region of Nafion probed by ATR-FTIR, is plotted vs. t1/2 rather than time to highlight diffusion as the rate-determining mechanism. Here, the spectroscopic penetration depth d serves as a natural reference length scale (thickness) of the probe region. In the present case, its value averaged for the above bands of PAH and Nafion was d = 650 nm, far below the Nafion film thickness, 177 μm.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "obe region. In the present case, its value averaged for the above bands of PAH and Nafion was d = 650 nm, far below the Nafion film thickness, 177 μm. When the diffusion progresses beyond this length (t ≫ d2/D) thus the probed region attains saturation, the measured intensity A(t) plateaus, which is indeed observed at longer times. This transition is what allows D to be determined by fitting. As anticipated, at low PAH concentrations (Fig. 4c and d), the observed trend aligns with expected diffusion-controlled behavior, characterized by a monotonic increase in the PAH/Nafion stoichio­metric ratio until the IR-probed volume reaches equilibrium. However,",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "B. Avneri et al. Journal of Membrane Science 735 (2025) 124510 at higher PAH concentrations (Fig. 4a and b), especially at lower pH 6, the trend deviates significantly. After the initial linear rise, the observed PAH/Nafion stoichiometry reaches a maximum and starts decreasing, ultimately stabilizing at a lower ratio. Eq. (1) then cannot fit the entire dataset for pH 6; moreover, although the ratio for pH 8.5 increases monotonically with time, the fit is unable to reproduce both the initial slope and the plateau. This failure suggests there is yet another mech­anism that operates concurrently with diffusion and affects overall ki­netics and final stoichiometry. Nevertheless, the effective diffusion coefficient may be evaluated by fitting eq. 1 to a partial dataset, specifically, the initial rising part of the data. Since the numerical value of the saturation level A∞ has a signif­icant impact on the fitted diffusion coefficient, we examined several ways of evaluating A∞ for partial datasets. We presume that the soundest fitting is obtained by using the data points up to the maximum and redefining A∞ as another fitting parameter, unrelated to the longtime plateau. Thus, fitted values of D and A∞, as well as actual plateau values of A∞ are presented in Fig. 5 and also summarized in Table S1 in Supplementary materials.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "fitted values of D and A∞, as well as actual plateau values of A∞ are presented in Fig. 5 and also summarized in Table S1 in Supplementary materials. The fitted diffusivity is sensitive to the magnitude of the final plateau and thus are subject to errors, but the order of magnitude and the trends may be determined with certainty. We find that thus fitted D values drop substantially from high to low PAH concentrations, i.e., the diffusion coefficient appears to be concentration-dependent, as shown in Fig. 5a. The fitted diffusivities are also consistently higher at pH 8.5. Fig. 5b further shows that, at pH 6, A∞ fitted to initial rising part and converted to PAH/Nafion stoichiometric ratio, varying between about 2.1 and 3.6, turns out to be much higher than the actual final plateau values in Fig. 4, ranging between 1.7 and 2.2. In contrast, at pH 8.5 there are minor differences between the two, both varying between about 1 and 1.6; hence, saturation depends on",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. (a) ATRFTIR spectra of raw PES, Nafion, PAH and of Nafion + PAH complex. (b) Calibration curve of the ratio of the intensities of PAH and Nafion bands as integrated band areas (PAH/Nafion area) versus their weight ratio (PAH weight fraction). The measurements were conducted using samples with PAH/Nafion weight ratios 10/1, 3/1, 2/1, 1/1, 1/2, and 1/3. (see text for more details).",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. PAH/Nafion stoichiometric ratio measured by ATR-FTIR versus immersion time for Nafion membranes soaked in PAH solutions of pH 6 and pH 8.5 and PAH concentrations: (a) 80 g/L, (b) 50 g/L, (c) 20 g/L, and (d) 5 g/L. B. Avneri et al. Journal of Membrane Science 735 (2025) 124510 specific pH but varies relatively little with PAH concentrations at a specific pH (see Fig. 5b and Table S1 in Supplementary material). We hypothesize that the additional mechanism that modifies the overall complexation kinetics and makes it strongly deviate from eq. (1)in a concentration-dependent manner and even become non-monotonic may be relaxation and rearrangements of the Nafion structure, after it is altered by complexation. Pristine Nafion is known to have a microphaseseparated morphology, featuring a few nanometers wide aqueous ag­gregates or channels surrounded with hydrophobic matrix [31,32]. Within pristine Nafion structure, PAH was driven towards and would have reached a much higher stoichiometric ratio, had the pristine structure been preserved. Apparently, in pristine Nafion channels, PAH can diffuse relatively fast and readily overcharge Nafion, especially, in more concentrated PAH solutions (see next). The difference between fitted and actual A∞ in Fig. 5b at pH 6 suggests PAH was driven towards and could have reached a much higher stoichiometry, had the Nafion structure remained un­changed.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "∞ in Fig. 5b at pH 6 suggests PAH was driven towards and could have reached a much higher stoichiometry, had the Nafion structure remained un­changed. However, once degree of complexation becomes significant, it may trigger rearrangement of the Nafion structure that expels the excess of PAH, modifies the driving force, and slows down PAH diffusion. Thus, in more concentrated PAH solutions and at lower pH, the steeper initial slope and the observed maximum indicate PAH diffusion within pristine Nafion structure is initially faster. PAH then more rapidly fills the region probed by ATR-FTIR, roughly a half of micron thick, and produces a stronger transient overcharging, i.e., a larger stoichiometric excess of PAH (A∞≫1). This triggers polymer relaxation and slows down the PAH diffusion before the probed region saturates and diffusion front moves deeper into Nafion, beyond the region sensed by ATR-FTIR. The initially observed increase of PAH/Nafion ratio then reverses and eventually stabilizes at a lower equilibrium ratio. Conversely, at low PAH concen­trations and higher pH, the probed range gets saturated with PAH more slowly thus relaxation keeps up with diffusion and a monotonic increase is the observed that slows down until the final stoichiometry is reached. Rearrangement and resulting changes of the nanoscale morphology in ionomer films could be detected by small angle X-ray spectroscopy (SAXS) and atomic force microscopy (AFM) [32–35].",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ges of the nanoscale morphology in ionomer films could be detected by small angle X-ray spectroscopy (SAXS) and atomic force microscopy (AFM) [32–35]. The latter is more suitable for surfaces and thin films; however, the surface morphology of ionomers may significantly differ from the inner structure [29,34,35]. In contrast, SAXS genuinely represents the bulk structure but usually re­quires thicker films. We therefore used SAXS to examine 25.4 μm thick Nafion 211 films; their thickness was sufficient for SAXS investigation and yet small enough to complete complexation within reasonable time. Fig. 6 displays SAXS spectra of pristine Nafion 211 and PAH/Nafion complexes prepared using 50 g/L PAH solutions at pH 6 and 8.5. The “matrix knee” peak at wavenumber q ~0.06–0.07 Å -1, corresponding to ca. 10 nm large super-structures within the Teflon-like hydrophobic matrix of Nafion, remains virtually unchanged. On the other hand, the so-called “ionomer” peak at ca. 0.2 Å -1, assigned to ca. 3–4 nm wide ion-rich conductive domains or channels segregated from the matrix, increases in intensity and shifts to a somewhat smaller q upon complexation. This change indeed indicates structural rearrangement, resulting in widening of the ion channels and increased contrast between the matrix and ionic domains.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ange indeed indicates structural rearrangement, resulting in widening of the ion channels and increased contrast between the matrix and ionic domains. Faster diffusion into and faster overcharging of the probed region within Nafion films at higher external PAH concentrations, triggering relaxation at earlier times, as strongly suggested by the results in Figs. 4 and 5, is not obvious and warrants explanation. Formally, the charac­teristic diffusion time of a regular neutral solute that displays a linear partitioning between the solution and ionomer phases would not depend on the concentration. The probed region would then saturate after about the same time, regardless of the solution concentration. However, in the present case, PAH is charged and its ultimate content in the saturated probed region, i.e., measured A∞, is dictated mainly by charge stoichi­ometry. It depends on the solution concentration to a much lesser de­gree, regardless of whether it is taken as the final plateau or the fitted transient value (cf. 16 times difference in PAH concentrations vs. only 30–70 % difference in final A ∞). PAH partitioning is then non-linear and partitioning coefficient decreases with concentration. In such a case, higher solution concentration is not converted to a larger con­centration gradient in the Nafion phase. Instead, it generates a larger driving force in the form of electric potential gradient that drives",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. Dependence on concentrations and pH of (a) fitted diffusion coefficient D and (b) the values of PAH/Nafion stochiometric ratios at saturation (A∞), measured as the long-time plateau and fitted to the initial rising portion of the kinetic data in Fig. 4 using eq. (1).\n\nFig. 6. SAXS spectra of pristine Nafion 211 and its complexes with PAH pre­pared using 50 g/L PAH solution at pH 6 and 8.5.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "B. Avneri et al. Journal of Membrane Science 735 (2025) 124510 electromigration of charged PAH, in addition to regular diffusion. This potential gradient and resulting migration rate should increase at higher concentration, which is likely why the probed region fills up faster and apparent diffusivity increases with external PAH concentrations. The contribution of electromigration could also explain why PAH penetrates into Nafion faster at pH 8.5, compared with pH 6; presumably, presence of Na+ ions in the solution at this pH modifies the potential gradients in a way that enhances PAH migration (see next). 3.3. Impact of PAH concentration and pH on PAH-Nafion stoichiometry The results in Fig. 4 indicate that the ultimate stoichiometry of the PAH/Nafion, apparently reflecting both interactions between the two polymers and structural relaxation of Nafion, shows a fairly small sensitivity to PAH concentration. While the examined concentration range spans well over an order of magnitude, the stabilized PAH/Nafion ratios vary within up to 70 %. The dependency on pH appears to be stronger and the PAH/Nafion stoichiometric ratio at saturation is 30–125 % lower at pH 8.5, compared with pH 6. This result is somewhat surprising, since PAH is completely protonated, i.e., fully ionized at pH 6, while it is only partly ionized at pH 8.5, close to the pKa of the amino groups of PAH, reported to between 8 and 9 [36].",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "i.e., fully ionized at pH 6, while it is only partly ionized at pH 8.5, close to the pKa of the amino groups of PAH, reported to between 8 and 9 [36]. It could be expected that, for lower ionization, more PAH would be required to compensate the Nafion charge. Previous studies on the layer-by-layer (LBL) indicate that, as the fraction of charged units or charge densities of weak poly­electrolytes decreases, the adsorbed mass of multilayers increases and they transition from thin, flat layers to significantly thicker adsorbed layers [36–38]. These observations suggest that reduced charge density would enhance PAH adsorption in the present case, opposite to the present results. To confirm the higher equilibrium PAH/Nafion ratio at lower pH and rule out artefacts of ATR-FTIR measurements, we further quantified the PAH content in Nafion film fabricated at different pH using N and F atomic fractions measured by EDS analysis that probes the surface composition to a similar depth of about a half of micron. Compared with ATR-FTIR, the EDS results, presented in Fig. 7 and included in Table S1in Supplementary materials as well, indicate a somewhat lower PAH/ Nafion ratio, especially at low concentrations, where it drops under 1, while ATR-FTIR data display overcharging, i.e., ratios above 1 for all concentrations and pH. Likely, this might be an artifact of EDS due to small N fractions (1–2 %) hence relatively large error that propagates to N/F and PAH/Nafion ratios.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". Likely, this might be an artifact of EDS due to small N fractions (1–2 %) hence relatively large error that propagates to N/F and PAH/Nafion ratios. Nevertheless, EDS fully corroborates the trend observed by FTIR findings and demonstrate a consistently higher PAH concentration in membranes prepared at pH 6 compared with pH 8.5 and moderate monotonic increase with PAH concentration. Apparently, the effect of pH on PAH/Nafion stoichiometry is not related to the state of PAH itself, but to the presence in solution of other charged species, in particular small ions that may induce extrinsic charge compensation (polymer fixed charge neutralization with small mobile counter-ions) along with intrinsic compensation, i.e., direct pairing be­tween fixed charges of PAH and Nafion. We may hypothesize that the counter-intuitive effect of pH may be related to the presence of the free Na+ ions, introduced after pH adjustment to 8.5 with sodium hydroxide. The Na+ ions should partition to Nafion alongside PAH and compete for sulfonic acid groups, resulting in extrinsic compensation of their nega­tive charges, as opposed to intrinsic compensation by the PAH’s amino group’s positive charges. Differences in interaction or affinity of Na+ and PAH+ to sulfonic acid groups may outweigh the smaller charge of PAH+ at pH 8.5 and reduce the equilibrium PAH content in the resulting complex.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "a+ and PAH+ to sulfonic acid groups may outweigh the smaller charge of PAH+ at pH 8.5 and reduce the equilibrium PAH content in the resulting complex. More extrinsic compensation should also better preserve the original Nafion channel-in-matrix morphology and induce less rear­rangement and relaxation. This is consistent with the maximum observed at pH 6 for higher PAH concentration in Fig. 4, which is not observed at pH 8.5 thus the trend becomes monotonic. It is less likely that chloride ions, present at about the same con­centration in solution at both pH and also excluded from Nafion, could explain the effect of pH. However, they might explain the moderate effect of PAH (hence also Cl-) solution concentration on the final PAH/ Nafion stoichiometry and degree of overcharging, observed in Fig. 4(according to FTIR) and Fig. 7 (according to EDS). Indeed, more chloride uptake is expected from more concentrated solutions and it might in­crease the uptake of PAH, by acting as its counter-ion compensating PAH charge. Presence of Na+ at pH 8.5 should reduce this chargecompensating effect of Cl-and reduce PAH uptake, compared with pH 6 for the same PAH concentration.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.4. Preparation and separation performance of PEC membranes As the present study was motivated by preparation of PEC-NF membranes, we used the above insights into the behavior of the PAHNafion system to prepare such membranes using two-step coating under different conditions and examine their separation performance. In particular, the present results help understand the time required at the 2nd step to ensure full complexation and manipulate the charge by varying the PAH/Nafion stoichiometry through PAH solution composi­tion. Admittedly, the structure of thin Nafion films may vary between bulk samples and thin supported films, since presence of adjacent sub­strates, interfaces or nanoconfinement were shown to promote aligned structures and modify transport characteristics [29,34,35,39]. Never­theless, the main nanostructural features, such as the microphase sep­aration and dimensions of ionic domains, are usually well preserved, and the resulting variations are moderate and no major differences in diffusivity should be expected. The above kinetic data indicates that apparent diffusivity of PAH in Nafion is of the order 10-17-10-16 m2/s. We can then estimate the time it takes to fully convert to PAH-Nafion complex a Nafion film of thickness L as the characteristics diffusion time tD tD ≈L2/2D.(4) For a 300 nm thick film, this time ranges from approximately 102 to 104 s, i.e., from about a minute to a few hours, depending on the con­centration and pH.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "300 nm thick film, this time ranges from approximately 102 to 104 s, i.e., from about a minute to a few hours, depending on the con­centration and pH. This indicates the required time may be brought down to under a minute in industrial membrane manufacturing with an appropriate choice of polymers, film thickness, and concentrations. In",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. Stoichiometric PAH/Nafion ratios measured using EDS at the surface of Nafion coupons immersed in PAH solutions of different PAH concentrations at pH 6 and pH 8.5. Immersion time was 72 h 5 g/L and 24 h for 20 g/L, 50 g/L, 80 g/L. The PAN/Nafion stoichiometric ratio was deduced from the atomic fractions of N and F measured by EDS. B. Avneri et al. Journal of Membrane Science 735 (2025) 124510 the present study, overnight exposure to the appropriate PAH solution must be totally sufficient for the 300 nm thickness of the Nafion film coated on the PES UF support membrane used in the present experiments. Representative top and cross-section SEM images of Nafion-PAH membrane and EDS elemental map of fluorine, present only in the se­lective layer, are displayed in Fig. 8. The selective layer on top of the PES porous support is readily differentiated from the supporting membranes, indicating a good adhesion yet a negligible interpenetration of Nafion and PES, consistent with previous observations [18]. The final mixed-charge polymer film appears to be dense, uniform, structurally featureless, and defect-free. Fig. 9 presents the measured separation performance and its dependence on complexation conditions, including pure water per­meance (PWP) and rejection of divalent salts and a micropollutant sul­fadiazine (SDZ).",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "dependence on complexation conditions, including pure water per­meance (PWP) and rejection of divalent salts and a micropollutant sul­fadiazine (SDZ). PWP is relatively low, in the range of approximately 2–3 LMH/bar; it is consistent with the relatively large thickness and the known behavior of PAH that tends to form a denser complex with smaller effective pore sizes, thereby reducing PWP [22]. Notably, all membranes exhibited similar fluxes, with only minimal effect of the solution pH, and a slight increase in flux observed at higher pH. This suggests that progressive overcharging at higher pH makes the mem­brane structure slightly more open and less selective, indicating a po­tential opportunity for performance tuning. However, more PAH in the hydrophilic channels of the Nafion film should actually lead to partial blocking of those pores; without a rearrangement of the polymer structure, this should lead to lower flux. Nevertheless, as the employed 300 nm thickness exceeds the typical selective layer thickness of NF membranes by about an order of magnitude, there is potential of significantly increased PWP by reducing the thickness of the Nafion layer and thus the overall membrane thickness. The rejection of salts containing divalent ions, MgCl2 and Na2SO4, is a common way to estimate the net membrane charge [18].",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "erall membrane thickness. The rejection of salts containing divalent ions, MgCl2 and Na2SO4, is a common way to estimate the net membrane charge [18]. Since both ion repulsion and attraction by membrane charge are stronger for divalent ions [40], higher rejection of MgCl2 relative to Na2SO4 in­dicates a positive charge, and a reverse relation points to a negative charge. Rejection of MgCl2 relative to Na2SO2 in Fig. 9 shows that the membranes become less negatively charged or more positively charged at higher pH 8.5. Notably, when both salts are rejected similarly (Fig. 9a), i.e., the net membrane charge is near zero, the SDZ rejection exceeds that of salts, which is potentially attractive for wastewater pu­rification [5]. Although the observed OMP/salt selectivity may be insufficient, further optimization may be achieved by selecting alter­native polycations or adjusting the molecular weight of the polycations used. At first glance, the membrane becoming less negatively charged or more positively charged at higher pH 8.5 seems to contradict the ATRFTIR results, which show a lower PAH/Nafion ratio hence a less posi­tive charge of membranes prepared at pH 8.5. Currently, we do not have a conclusive explanation for this discrepancy, but we presume that testing conditions, different from preparation ones, could produce changes in PAH ionization and result in the observed charge selectivity.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "esume that testing conditions, different from preparation ones, could produce changes in PAH ionization and result in the observed charge selectivity. Indeed, compared with the preparation conditions, ~pH 6 for single salt solutions and pH 7 for micropollutant solutions used in the performance tests should increase the PAH charge compared with pH 8.5 and decrease or stay about the same compared with pH 6, which could make the net fixed charge become more positive and more negative, respec­tively. Another possible explanation could be related to polymer rear­rangement. The results in Fig. 6 indicate that an increased microscopic phase segregation is likely to occur during complexation and relaxation, where certain regions become enriched in PAH. This segregation could lead to variations in local density within the resulting complex, ulti­mately influencing membrane performance. The present findings then warrant further investigation in future studies, where SAXS and AFM could provide further insights [33]. 3.5. Extension of the analysis to PDADMAC-Nafion system To verify the present approach is not restricted to the PAH/Nafion system, we tested how it would apply to complexation of Nafion with another polycation, a strong amine polyelectrolyte PDADMAC. This polymer was selected due to its relevance in NF membrane development based on LbL and phase-inversion approaches [5,41] and presence of characteristics bands, non-overlapping with those of Nafion, in its IR spectrum.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 8. Cross-section and top-view of Nafion-PAH mixed charge NF membranes: (a) cross-section SEM image of membrane cross-section, showing a distinct PEC layer on top of porous support, (b) top-view SEM image of the PEC layer, (c) EDS fluorine (F) map of cross-section, highlighting F-rich PEC layer on top of fluorine-free support, (d) top-view EDS fluorine map of the PEC layer. B. Avneri et al. Journal of Membrane Science 735 (2025) 124510 selection of specific bands and calibration of polyamine/Nafion ratio versus IR intensities (see Section S3 and Fig. S1 in Supplementary ma­terials), was extended to the Nafion–PDADMAC system. Fig. 10 illus­trates the progression of Nafion–PDADMAC complexation with time, as monitored by ATR-FTIR spectroscopy following immersion of Nafion film coupons in a 50 g/L PDADMAC solution at pH 6. As expected for a diffusion-controlled process, the PDADMAC/Nafion stoichiometric ratio exhibits a monotonic increase over time. The absence of a plateau in­dicates that equilibrium had not been reached, though the decreasing slope of the curve suggests the system was approaching equilibrium. Fitting eq. (1) to the full dataset yields an effective diffusion coefficient D = 4.23 * 10-17m2/s, which is approximately one orders of magnitude lower than that observed under identical conditions for PAH (Fig. 5a).",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "oefficient D = 4.23 * 10-17m2/s, which is approximately one orders of magnitude lower than that observed under identical conditions for PAH (Fig. 5a). Given the higher molecular weight of PDADMAC (~200–350 kDa) compared to PAH (~150 kDa), a slower diffusion rate was anticipated, explaining a longer time required to attain saturation. Practically, two orders of magnitude slower diffusivity would translate to correspond­ingly longer times required to fully convert an ionomer film to a com­plex, which may be feasible, subject to other limitations, to compensate by reduced thickness and solution composition. These results confirm that the present approach may be extended and is suitable for studying other analogous polyelectrolyte systems, pro­vided non-overlapping characteristic FTIR absorption bands of ionomer and polyelectrolyte may be found. They also suggest the importance and potential benefits of reducing the molecular weight of the poly­electrolyte for faster and more complete complexation using the present approach.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Conclusion This study aimed to provide a quantitative mechanistic under­standing of the kinetics of complexation of water-insoluble ionomer films with a water-soluble polyelectrolyte. ATR-FTIR spectroscopy enabled accurate, time-resolved monitoring of polycation diffusion into anionic ionomer and resulting stoichiometry, revealing a strong dependence on both polycation concentration and pH. The present re­sults for the Nafion/PAH system suggest that the process involves two parallel mechanisms: diffusion/migration of polyelectrolyte and struc­tural relaxation of the film. This best explains the results in more concentrated solutions and at lower pH, whereby the initial rapid in­crease in the PAH/Nafion ratio as result of PAH diffusion into Nafion is followed by a decrease, presumably due to relaxation. At lower PAH concentrations and higher pH, the system approaches saturation more slowly and monotonically, allowing relaxation to keep up with diffusion. A higher pH, when PAH was less charged, surprisingly led to a lower PAH/Nafion concentrations, which was attributed to competition be­tween protonated PAH and mobile Na+ ions present at higher pH. Using these insights, composite PEC membranes were fabricated via a two-step coating process, achieving full complexation with tunable rejection and flux. Membrane performance was closely linked to the polycation-to-ionomer ratio, where overcharging at high PAH concen­trations rendered membranes more open and less selective.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "was closely linked to the polycation-to-ionomer ratio, where overcharging at high PAH concen­trations rendered membranes more open and less selective. Interest­ingly, membranes prepared at higher pH appeared to have a more positive charge, in contrast to ATR-FTIR findings, a discrepancy that warrants further investigation. The presented tunable two-step approach offers several important advantages over common LbL approach, though the rejection charac­teristics of resulting PEC-NF membranes may still not be competitive for water treatment solutions. Some routes to tuning overall performance have been shown in previous work [18], and further improvement may be achieved through better understanding of their relation to chemistry and preparation conditions, wider pool of ionomers and polyelectrolytes with varying molecular weights, and reduced thickness and complexa­tion time. The progress along these lines may greatly benefit from the analytical approach introduced here. CRediT authorship contribution statement Bar Avneri: Writing – review & editing, Writing – original draft, Visualization, Investigation, Formal analysis, Data curation. Kejing Li: Writing – review & editing, Writing – original draft, Visualization, Investigation, Formal analysis, Data curation. Mikhail Stolov: Writing – review & editing, Visualization, Investigation, Formal analysis, Data curation.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "vestigation, Formal analysis, Data curation. Mikhail Stolov: Writing – review & editing, Visualization, Investigation, Formal analysis, Data curation. Mathias Ulbricht: Writing – review & editing, Project administration, Methodology, Funding acquisition, Conceptualization. Viatcheslav Freger: Writing – review & editing, Writing – original draft, Supervision, Resources, Project administration, Methodology, Investigation, Funding acquisition, Formal analysis, Data curation, Conceptualization.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 9. Pure water permeance (PWP) and rejections of sulfadiazine (SDZ) as well as MgCl2 and Na2SO4 salts for Nafion-based PEC composite membranes of nominal thickness 300 nm, membranes were soaked in PAH solution at pH 6 and pH 8.5 with varying PAH concentrations: (a) 5 g/L, (b) 20 g/L, (c) 50 g/L. The performance tests were conducted at the feed pressure 6 bar and pH ~6 for single salt solutions and pH 7 for SDZ solutions.\n\nFig. 10. Stoichiometric ratio of PDADMAC/Nafion at different immersion times. Nafion membranes were immersed in PDADMAC solutions at pH 6 with a concentration of 50 g/L. B. Avneri et al. Journal of Membrane Science 735 (2025) 124510",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[14] W.A. Jonkers, W.M. De Vos, E. Te Brinke, Asymmetric polyelectrolyte multilayer membranes: influence of bottom section polycation on layer growth and retention mechanisms, J. Membr. Sci. 698 (2024) 122577, https://doi.org/10.1016/j. memsci.2024.122577.[15] S. Emonds, J. Kamp, J. Borowec, H. Roth, M. Wessling, Polyelectrolyte complex tubular membranes via a salt dilution induced phase inversion process, Adv. Eng. Mater. 23 (2021) 2001401, https://doi.org/10.1002/adem.202001401.[16] C.V. Gherasim, T. Luelf, H. Roth, M. Wessling, Dual-charged hollow fiber membranes for low-pressure nanofiltration based on polyelectrolyte complexes: one-step fabrication with tailored functionalities, ACS Appl. Mater. Interfaces 8 (2016) 19145–19157, https://doi.org/10.1021/acsami.6b05706.[17] M.A. Restrepo, S. Emonds, A. Zhao, F. Karakas, J. Kamp, H. Roth, M. Wessling, Selfsupporting biocatalytic polyelectrolyte complex hollow fiber membranes via saltdilution induced phase separation, J. Membr. Sci. 689 (2024) 122157, https://doi. org/10.1016/j.memsci.2023.122157.[18] M. Zelner, P. Jahn, M. Ulbricht, V. Freger, A mixed-charge polyelectrolyte complex nanofiltration membrane: preparation, performance and stability, J. Membr. Sci. 636 (2021) 119579, https://doi.org/10.1016/j.memsci.2021.119579.[19] M. Zelner, M. Stolov, T. Tendler, P. Jahn, M. Ulbricht, V. Freger, Elucidating ion transport mechanism in polyelectrolyte-complex membranes, J. Membr. Sci.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lner, M. Stolov, T. Tendler, P. Jahn, M. Ulbricht, V. Freger, Elucidating ion transport mechanism in polyelectrolyte-complex membranes, J. Membr. Sci. 658 (2022) 120757, https://doi.org/10.1016/j.memsci.2022.120757.[20] A. Dobrynin, M. Rubinstein, Theory of polyelectrolytes in solutions and at surfaces, Prog. Polym. Sci. 30 (2005) 1049–1118, https://doi.org/10.1016/j. progpolymsci.2005.07.006.[21] S. Ilyas, J. De Grooth, K. Nijmeijer, W.M. De Vos, Multifunctional polyelectrolyte multilayers as nanofiltration membranes and as sacrificial layers for easy membrane cleaning, J. Colloid Interface Sci. 446 (2015) 386–393, https://doi.org/ 10.1016/j.jcis.2014.12.019.[22] M.A. Junker, W.M. De Vos, J. De Grooth, R.G.H. Lammertink, Relating uncharged solute retention of polyelectrolyte multilayer nanofiltration membranes to effective structural properties, J. Membr. Sci. 668 (2023) 121164, https://doi.org/10.1016/ j.memsci.2022.121164.[23] I.J. Gresham, D.M. Reurink, S.W. Prescott, A.R.J. Nelson, W.M. De Vos, J. D. Willott, Structure and hydration of asymmetric polyelectrolyte multilayers as studied by neutron reflectometry: connecting multilayer structure to superior membrane performance, Macromolecules 53 (2020) 10644–10654, https://doi. org/10.1021/acs.macromol.0c01909.[24] G.T. Fieldson, T.A. Barbari, Analysis of diffusion in polymers using evanescent field spectroscopy, AIChE J. 41 (1995) 795–804, https://doi.org/10.1002/ aic.690410406.[25] M. Bass, V.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ysis of diffusion in polymers using evanescent field spectroscopy, AIChE J. 41 (1995) 795–804, https://doi.org/10.1002/ aic.690410406.[25] M. Bass, V. Freger, Facile evaluation of coating thickness on membranes using ATR-FTIR, J. Membr. Sci. 492 (2015) 348–354, https://doi.org/10.1016/j. memsci.2015.05.059.[26] S. Belfer, R. Fainchtain, Y. Purinson, O. Kedem, Surface characterization by FTIRATR spectroscopy of polyethersulfone membranes-unmodified, modified and protein fouled, J. Membr. Sci. 172 (2000) 113–124, https://doi.org/10.1016/ S0376-7388(00)00316-1.[27] J.S. Santos, I.M. Raimundo, C.M.B. Cordeiro, C.R. Biazoli, C.A.J. Gouveia, P.A. S. Jorge, Characterisation of a nafion film by optical fibre fabry–perot interferometry for humidity sensing, Sensor. Actuator. B Chem. 196 (2014) 99–105, https://doi.org/10.1016/j.snb.2014.01.101.[28] N. Kumawat, P. Pal, M. Varma, Diffractive optical analysis for refractive index sensing using transparent phase gratings, Sci. Rep. 5 (2015) 16687, https://doi. org/10.1038/srep16687.[29] T.J. Zimudzi, M.A. Hickner, Signal Enhanced FTIR Analysis of Alignment in NAFION Thin Films at SiO2 and Au Interfaces, ACS Macro Lett. 5 (2016) 83–87, https://doi.org/10.1021/acsmacrolett.5b00800.[30] S. Kaja, D.P. Damera, A. Nag, A metal-enhanced fluorescence sensing platform for selective detection of picric acid in aqueous medium, Anal. Chim. Acta 1129 (2020) 12–23, https://doi.org/10.1016/j.aca.2020.07.001.[31] D.J. Galperin, P.G. Khalatur, A.R.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "f picric acid in aqueous medium, Anal. Chim. Acta 1129 (2020) 12–23, https://doi.org/10.1016/j.aca.2020.07.001.[31] D.J. Galperin, P.G. Khalatur, A.R. Khokhlov, Morphology of nafion membranes: microscopic and mesoscopic modeling, Device and Materials Modeling in PEM Fuel cells (2009) 113, https://doi.org/10.1007/978-0-387-78691-9.[32] K. Kreuer, G. Portale, A critical revision of the nano-morphology of proton conducting ionomers and polyelectrolytes for fuel cell applications, Adv. Funct. Mater. 23 (2013) 5390–5397, https://doi.org/10.1002/adfm.201300376.[33] L. Fischer, S.S. Hartmann, A. Maljusch, C. D¨aschlein, O. Prymak, M. Ulbricht, The influence of anion-exchange membrane nanostructure onto ion transport: adjusting membrane performance through fabrication conditions, J. Membr. Sci. 669 (2023) 121306, https://doi.org/10.1016/j.memsci.2022.121306.[34] M. Bass, A. Berman, A. Singh, O. Konovalov, V. Freger, Surface structure of nafion in vapor and liquid, J. Phys. Chem. B 114 (2010) 3784–3790, https://doi.org/ 10.1021/jp9113128.[35] M. Bass, A. Berman, A. Singh, O. Konovalov, V. Freger, Surface-induced micelle orientation in nafion films, Macromolecules 44 (2011) 2893–2899, https://doi. org/10.1021/ma102361f.[36] J. Choi, M.F. Rubner, Influence of the degree of ionization on weak polyelectrolyte multilayer assembly, Macromolecules 38 (2005) 116–124, https://doi.org/ 10.1021/ma048596o.[37] S.W. Cranford, C. Ortiz, M.J.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n on weak polyelectrolyte multilayer assembly, Macromolecules 38 (2005) 116–124, https://doi.org/ 10.1021/ma048596o.[37] S.W. Cranford, C. Ortiz, M.J. Buehler, Mechanomutable properties of a PAA/PAH polyelectrolyte complex: rate dependence and ionization effects on tunable adhesion strength, Soft Matter 6 (2010) 4175, https://doi.org/10.1039/ c0sm00095g.[38] L. Kolarik, D.N. Furlong, H. Joy, C. Struijk, R. Rowe, Building assemblies from high molecular weight polyelectrolytes, Langmuir 15 (1999) 8265–8275, https://doi. org/10.1021/la990413h.",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "B. Avneri et al. Journal of Membrane Science 735 (2025) 124510\n\n[39] J Li, JP Singh, V Neklyudov, M Stolov, Z Yuan, Y Schilt, U Raviv, D. Dekel, V. Freger, Anisotropic membrane with high proton conductivity sustaining upon dehydration, Sci. Adv. 10 (43) eadp1450, https://www.science.org/doi/full/10. 1126/sciadv.adp1450.[40] V. Freger, Dielectric exclusion, an ´eminence grise, Adv. Colloid Interface Sci. 319 (2023) 102972, https://doi.org/10.1016/j.cis.2023.102972.\n\n[41] E.N. Durmaz, S. Sahin, E. Virga, S. De Beer, L.C.P.M. De Smet, W.M. De Vos, Polyelectrolytes as building blocks for next-generation membranes with advanced functionalities, ACS Appl. Polym. Mater. 3 (2021) 4347–4374, https://doi.org/ 10.1021/acsapm.1c00654.\n\nB. Avneri et al. Journal of Membrane Science 735 (2025) 124510",
+    "citation": {
+      "authors": [
+        "This C."
+      ],
+      "paper_id": "1-s2.0-S0376738825008233-main",
+      "title": "Polyelectrolyte-ionomer complex nanofiltration membranes: complexation stoichiometry, kinetics, and separation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10,
+        11
+      ]
+    },
+    "type": "chunk"
+  }
+]

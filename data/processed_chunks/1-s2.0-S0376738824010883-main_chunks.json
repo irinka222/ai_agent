@@ -1,0 +1,1103 @@
+[
+  {
+    "content": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density Jack Ledingham a,*, Jonathan R. Howse a, Alasdair N. Campbell a, Ben in ‘t Veen b, Lucas Keyzer b, Kyra L. Sedransk Campbell a a Department of Chemical and Biological Engineering, The University of Sheffield, Sheffield, S1 4AA, United Kingdomb Shell Global Solutions International B.V., RIJSWIJK, the Netherlands",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Flow maldistribution between channels in electrodialysis has previously been simulated and is predicted to have a substantial impact on the limiting current density (LCD) and thus constitutes a barrier to industrial implementation. Using computational fluid dynamics (CFD) simulations and a 1-D circuit-based model, it was previously concluded that maldistribution is both prevalent in electrodialysis and adversely affects operation through a reduction of the LCD. In this work, the presence and impact of maldistribution are confirmed experimentally using red-blue particle image velocimetry (PIV) and through measuring the LCD as a function of the degree of maldistribution, respectively. In the PIV experiments, 50 μm particles were suspended and were flowed through a glass flow cell with the same ge­ometry as those used in the CFD simulations. These spheres were imaged using a single exposure photograph and two pulsed LED bursts and their velocities sub­sequently calculated. The imaging of many particles demonstrated significant maldistribution in line with what had been previously predicted. The effect of maldistribution on operation was experimentally validated by measuring the LCD of an electrodialysis stack as a function of the degree of maldistribution. The degree of maldistribution was independently controlled by varying the flow rate and the number of cell pairs while accounting for confounding effects.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "degree of maldistribution was independently controlled by varying the flow rate and the number of cell pairs while accounting for confounding effects. The measured LCD was found to decrease with an increasing degree of maldistribution. A further CFD study was performed, comparing the degree of maldistribution in U and Z configuration stacks. It was demonstrated that while at low flow rates, maldistribution is worse for U-type geometries, at high flow rates, it is worse for Z-type geometries. Overall, the results presented in this work conclusively demonstrate that maldistribution exists within electrodialysis and significantly affects the LCD. This consequently validates previous modelling results and highlights maldistribution as an important phenomenon in electrodialysis that should be considered when optimisation is performed.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Electrodialysis (ED) is an emerging electromembrane salt separation technology which uses an electric field to drive the transport of ions from one stream to another [1]. There are myriad potential applications for ED in desalination, wastewater treatment, and resource recovery [2]. Global water resources are dwindling rapidly as a result of over-extraction and excessive pollution [3]. Consequently, ecological and humanitarian disasters are likely to transpire unless significant re­visions to anthropological intrusions on the water cycle are made [4]. Increased water treatment, with an eventual goal of zero liquid discharge industrial operation, is necessary to prevent the depletion of existing freshwater reservoirs. Further, an increase in desalination ca­pabilities will ensure new sources of potable water are unlocked. The development of effective and inexpensive water treatment technologies is paramount to achieve this. Reverse osmosis (RO), a pressure driven membrane separation technology, is presently the most common method of desalination and comprises an overall majority of installed capacity [5]. The relative simplicity of RO membranes and the ability to form spiral-wound membrane modules are key advantages of RO. However, there are many inherent benefits that ED has over RO, including a higher rate of separation, lower membrane fouling, a higher recovery ratio, and lower energy consumption for low salinity feeds [6].",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "r RO, including a higher rate of separation, lower membrane fouling, a higher recovery ratio, and lower energy consumption for low salinity feeds [6]. These stem from the fact that in ED, it is the salt which is transported rather than the solvent. However, there are several barriers to industrial implementation of ED, primarily stemming from its immaturity and the complexity of the transport phenomena involved. One major obstacle is a lack of optimi­sation which drives up costs and results in ED being commercially inviable. In ED, two types of ion exchange membrane (IEM), cation exchange membranes (CEM) and anion selective membranes (AEM), are layered in a repeating pattern between two electrodes. This layered arrangement comprises the unit known as an ED stack. Two salt solutions, the diluate",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 14 November 2024 0376-7388/ 2024 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). and concentrate, are fed to alternate channels between the membranes, the structure and geometry of which are defined by membrane spacers (Fig. 1a). An electric field generated by the electrodes drives the trans­port of ions from the diluate, through the appropriately selective IEM and into the neighbouring concentrate channel, where they are then blocked from migrating further by the oppositely selective IEM. This results in an overall transport of the salt from the diluate to the concentrate. As such, the agnostic nature of ED means it has incredibly broad applications from large-scale desalination and purification to the selective transport of charged ion complexes [7,8]. An important phenomenon in ED, and for this work, is the limiting current density (LCD) [9]. Salt concentration gradients form in the boundary layers adjacent to the membranes in a process known as concentration polarisation. The concentration decreases from the bulk electrolyte to the membrane surface in the diluate boundary layers and increases in the concentrate. This occurs because transport by diffusion is required to ensure continuity of flux is maintained with the turbulent mixing in the channel bulk and rapid electromigration in the mem­branes.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ion is required to ensure continuity of flux is maintained with the turbulent mixing in the channel bulk and rapid electromigration in the mem­branes. As current density is increased, the required rate of diffusion increases and thus the magnitude of the concentration polarisation in­creases. This trend continues until the salt concentration at the diluate-membrane interface vanishes, at which point the LCD has been reached. At this point, the rate of salt transport cannot be increased further without incurring large energy penalties to promote electro­convection [10]. Furthermore, water splitting occurs to provide the ions necessary to increase the current density further, consuming additional energy, reducing the overall efficiency, and undesirably altering the stream pH. As such, the LCD functions as an effective upper bound on operation for many applications. It should be noted that the LCD is a localised phenomenon and will be reached wherever ion depletion oc­curs first within the stack. This would be expected to be at the end of the slowest channel. The LCD (ilim) is typically modelled using empirical equations which consider the salt concentration (C) and flow superficial velocity (u) [11], typically of the form: ilim = a1 ua2Ca3[1] where a1, a2, and a3 are empirical parameters.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lt concentration (C) and flow superficial velocity (u) [11], typically of the form: ilim = a1 ua2Ca3[1] where a1, a2, and a3 are empirical parameters. Consequently, the LCD is often not known precisely until experiments are conducted, severely hindering process design and optimisation, as well as significantly limiting the transferability of any insights gained to alternative systems. Further, the use of these highly empirical equations indicates that fundamental drivers of the LCD are yet to be fully understood. A ubiquitous assumption in ED process models is that of channel uniformity, where every channel behaves identically. From this, only one channel need be modelled, and the overall stack operation found by considering an arbitrary number of channels in parallel. However, in previous work [12], it was determined that this is not a justified assumption. Computational fluid dynamics (CFD) simulations of a typical lab scale stack geometry demonstrated that there is a significant degree of maldistribution between channels in ED. It was shown that in a standard lab scale stack with ten cell pairs and a flowrate of 45 L/h, the flowrate in the channel closest to the inlet and outlet was twice that of the channel furthest away. Several aspects of the design including the channel width, distributor angle, number of channels, number of man­ifolds, and overall flow rate were varied to investigate the effect on",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. a) A schematic representation of a single repeating unit of ED stack, with n being the number of cell pairs. Flow enters and exits from the left-hand side and is distributed to every other channel through open spacer distributors. For simplicity, the concentrate stream is not shown, this would enter through the right-hand side. b) Fitted values of the maldistribution number (✖, left y-axis) and a box-and-whisker diagram showing the distribution of the velocity across the stack (right y-axis) for simulations where the inlet velocity was changed. Targets (◉) give the median velocity, boxes represent the interquartile range, and lines show the overall range of velocity. c) A graph of the scaled limiting current density (LCD) as a function of the maldistribution number. The LCD is normalised to a case of uniform flow distribution (m = 0) to remove the effects of confounding variable such as inlet concentration and current efficiency. Figures adapted from [12]. J. Ledingham et al. Journal of Membrane Science 716 (2025) 123494 maldistribution. An analytical maldistribution model developed initially for a plate and frame heat exchanger by Bassiouny and Martin [13,14] was applied to the velocity distribution results for the ED stack due to the analogous geometry. This model considers the geometry and flow­rate of the stack and represents the degree of maldistribution in a single dimensionless number, m.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ometry. This model considers the geometry and flow­rate of the stack and represents the degree of maldistribution in a single dimensionless number, m. A model for the flow velocity in each channel (Uc) is derived from mass and momentum balances around the junction between the manifold and channels. For a U-type geometry (where the entrance and exit are located on the same side of the manifold) this model is the following Uc = W0 ( Am nAc ) m cosh(m (1 -Z/L))sinh(m)[2] Here, W0 is the inlet velocity, Am is the flow area of the manifold, n is the number of channels, Ac is the flow area of the channel, L is the length of the manifold, and Z is the axial distance along the manifold (varies from zero to L). The dimensionless maldistribution number (m) is defined as m2 =(nAc Am )21ζ[3] where ζ is the general friction coefficient, which can be found by ζ = 2ΔPmc ρU2mc",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Here, ΔPmc is the mean channel pressure drop, ρ is the fluid density, and Umc is the mean channel velocity. This model was found to represent the maldistribution well and explained the trends observed in the case study investigations where the geometrical design was altered. The case studies demonstrated that maldistribution was worsened when the channel pressure drop was lowered, or the manifold velocity was increased. The largest impact on the degree of maldistribution was found to be the number of cell pairs in the stack. Consequently, it is expected that maldistribution in ED will be worse upon scaleup where many hundreds of cell pairs are used compared to the order of ten used in lab-scale stacks. Two significant contributors to this conclusion are the overall flowrate and the number of cell pairs. A larger flow rate led to a wider distribution of flowrates between channels and consequently a higher maldistribution number (Fig. 1b). The number of channels is directly proportional to m according to equation (3), and thus more cell pairs is associated with a greater degree of maldistribution. The impact that maldistribution has on operation was numerically investigated through the stack electrical resistance and LCD. The resis­tance was computed using a circuit-based, one-dimensional model of ED, aggregating the resistances of many channels with distinct flow rates.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "he resis­tance was computed using a circuit-based, one-dimensional model of ED, aggregating the resistances of many channels with distinct flow rates. To compute an estimate for the LCD, the concentration profile was modelled as having a bulk mixed region and boundary layers adjacent to the membranes. Consequently, the LCD was computed as a function of the slowest channel velocity (us): ilim = Fϕ Ci us β̅̅̅̅̅̅̅usd√+ β Ld[5] Here, F is the Faraday constant, ϕ is the current efficiency, Ci is the inlet concentration, d is the intermembrane distance, L is the channel length, and β is a collection of physical parameters, defined as β ≡0.29̅̅̅2√̅̅̅ρμ 6√D 23[6] where μ is the viscosity and D is the salt diffusivity. Although this is a simplified model, it is useful to demonstrate the magnitude of the effect that maldistribution will have on the LCD. The slowest channel velocity is a non-linear function of the overall solution flow rate, and thus con­tributes to the form of empirical LCD models such as equation (1).",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "It was found that the impact on the resistance was not significant, with the maldistribution contributing to only a 2 % increase for a standard lab scale stack where m is around 1.3. However, the impact on the LCD was substantial. Fig. 1c shows the LCD as a function of the maldistribution number, m. In this figure, the LCD is scaled relative to a case of uniform flow distribution in order to eliminate confounding variables. There is a significant decrease in the LCD as m is increased, where the standard lab-scale case which had a computed m of 1.3 is associated with a 23 % decrease in the LCD relative to a stack with no maldistribution. The disparity between the resistance and LCD is because the electrical resistance is a function of the environment across the entire stack, whereas reaching the LCD is a localised phenomenon. The faster and slower channels mostly balance each other out when it comes to resistance, but the LCD is always dependent on the slowest channel. Greater maldistribution means a lower flowrate in the slowest channel (proportional to m/sinh(m)) and thus a lower current density is required to achieve ion depletion. The conclusions reached in the previous work concerning the exis­tence and impact that maldistribution has on the LCD have significant consequences for the future of ED development. However, these con­clusions were based solely on numerical models, and thus require experimental validation.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "quences for the future of ED development. However, these con­clusions were based solely on numerical models, and thus require experimental validation. In this work, both the existence and the impact that maldistribution has on the LCD are experimentally investigated. The presence of maldistribution within a standard laboratory ED stack geometry with a 45 L/h water flowrate is evaluated experimentally using red-blue particle image velocimetry (PIV). The velocity of each channel is determined by measuring the distance travelled by particles flowing through the channel between a red and blue pulse of light with a known time delay. These results are then analysed to identify maldis­tribution and compared to the CFD simulations. To investigate maldistribution’s impact, the LCD is measured as a function of the degree of maldistribution within the ED stack. Maldis­tribution is manipulated by changing the overall flow rate and the number of cell pairs while maintaining a constant average salt flow rate within each channel to eliminate any confounding effects. This ensures that if no maldistribution is present, all experimental results will show the same LCD. However, if maldistribution is present, the LCD should decrease as the flowrate and number of cell pairs is increased. The magnitude of this decrease is then compared to model predictions. One important distinction between this and the previous work is the variation between the U and Z-type geometries.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "then compared to model predictions. One important distinction between this and the previous work is the variation between the U and Z-type geometries. The flow cell used for PIV experiments was built in the U-configuration, where the inlet and outlet are on the same side of the stack and designed to match the ge­ometry used in CFD simulations. However, the ED stack used to measure the LCD was a Z-type geometry where the inlet and outlet are on opposite sides of the stack. The difference between maldistribution in U and Z configuration stacks is explored in this work using CFD and the maldistribution model of Equation (2). Comparisons between experi­mental and simulated results in this work are conducted based on the appropriate configuration. 2. Method 2.1. Measuring channel flow velocities using red-blue PIV The core experimental method employed in this section is red-blue PIV [15]. This method allows for visualisation of a flow velocity field within a single image, using equipment which is inexpensive relative to traditional PIV. Reflective spherical particles are introduced to a flow which then pass through a transparent flow cell. A region of interest is focused upon by a camera with a short focal depth. This ensures that only the particles within a narrow plane are in focus, circumventing the need for a laser light sheet, as used in traditional PIV.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". This ensures that only the particles within a narrow plane are in focus, circumventing the need for a laser light sheet, as used in traditional PIV. It is essential that the density of the spheres is close to that of the carrying fluid to minimise buoyant forces and ensure the particles track the flow. During the experiment, all sources of background light are removed,",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "J. Ledingham et al. Journal of Membrane Science 716 (2025) 123494 and a single long-exposure photograph is captured. During this expo­sure, red and blue light emitting diode (LED) light sources are briefly pulsed sequentially with a known time delay between them. For each particle captured by the camera, this leaves two bright impressions on the image, one for each light pulse. Due to the Bayer filter present over the CCDs in modern digital cameras, the red and blue images are effectively captured on different sensors, and their brightnesses are recorded separately. Therefore, they can be separated and processed as two temporally distinct images. The distance between the particles on the red and blue images can be measured using image processing soft­ware and divided by the pulse time delay to compute a velocity. 2.1.1. Experimental setup A glass flow-cell with the same geometry as the domain used in CFD simulations (Fig. 2a) was constructed by layering 1 mm thick glass sheets. The cell has ten channels, each of which has dimensions of 8 cm by 8 cm by 1 mm. Distributors of angle 90◦connect the channels to four 5 mm diameter manifolds. As with the CFD simulations this work is attempting to replicate, the geometry was designed to be representative of a PCCell ED 64004 stack with 1 mm wide blank channels. The flow cell was constructed by cutting the various layers out of 1 mm thick glass with a water jet cutter and joining them with UV-activated glue.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". The flow cell was constructed by cutting the various layers out of 1 mm thick glass with a water jet cutter and joining them with UV-activated glue. This had the unforeseen effect of slightly increasing the width of each channel above the desired 1 mm to about 1.15 mm. Despite this, the resultant flow cell had geometrically uniform channels and was trans­parent. For simplicity, channels will be referred to hereafter by number, with channel one being that closest to the inlet and outlet, and channel ten being farthest away. White polyethylene microspheres of diameter 45–53 μm and density 1.00 g/cm3 (Cospheric) were used for particle tracking. Their size was optimum as it meant they would be clearly visible within the camera’s region of interest (imaged spheres have a ~18-pixel diameter) without being so large as to significantly affect flow patterns. Their white colour and opaque nature were ideal for this PIV application as they were highly reflective of both the red and blue light. A precise diameter sphere was not crucial for this work. A particle concentration of 0.01 g/L was found to work well as it resulted in just a single particle being captured in most photographs. This corresponds to ~150 particles per mL. The flow was pumped around a circuit by a water strider centrifugal pump and the flowrate controlled by a rotameter (Georg Fischer) to be 45 L/h.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "mL. The flow was pumped around a circuit by a water strider centrifugal pump and the flowrate controlled by a rotameter (Georg Fischer) to be 45 L/h. A Pixelink digital camera with Navitar Resolv4K zoom lens and fixed 4* magnification microscope lens (Nikon) was employed for capturing the images. A calibration image found a distance conversion factor of 326 pixels per millimetre. The camera was mounted on a uni­directional translation stage with micrometer thread to accurately adjust the focal plane and ensure it was set to the middle of each channel. The focal length of the lens is ~18 mm. This is less than the total width of the entire flow cell, and so not all channels can be imaged from the same direction. To overcome this, channels one through six are imaged from the top (the same side as the inlet and outlet), and then ten through four are imaged from the bottom. The overlapping of channels four, five, and six allows for comparison between the data to demon­strate that the orientation of the stack does not affect the maldistribu­tion. The coinciding data taken from both ends of the stack were similar, demonstrating that gravitational body forces do not significantly affect maldistribution. A circuit diagram for the LED setup can be seen in Fig. 2b. Three red LED arrays and two blue LED arrays (each with four LEDs on them, from Intelligent LED Solutions) were used for the illumination.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "in Fig. 2b. Three red LED arrays and two blue LED arrays (each with four LEDs on them, from Intelligent LED Solutions) were used for the illumination. The different number of LED arrays for each colour ensures that each parallel branch has a similar electric resistance and therefore similar current as they are powered with the same power supply (Keysight technologies). A two-channel signal generator (AIM-TTI Instruments) was config­ured to send two 2 ms pulsed signals with a delay of 15 ms between them. Each of these pulses activates a solid-state relay (Omron), closing one branch of the circuit and activating one colour of LED for the duration of the pulse. A short pulse width is desirable as this prevents captured particles turning into streaks. However, a short pulse also produces a smaller amount of light, increasing the proportion of noise in the image. Excessively short pulses can also be hampered by the ‘turn on time’ of the relay. The focal depth of the lens used was ~500 μm. This meant that there were particles in focus that were not in the channel centreline, nor could their distance from the channel wall be discerned to determine what the centreline velocity would be. Resultantly, a more stochastic approach was taken where several hundred images of each channel were be taken to capture the distribution of the velocity.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ultantly, a more stochastic approach was taken where several hundred images of each channel were be taken to capture the distribution of the velocity. The maximum particle ve­locities seen (which would be present in the centre of the channel) could then be compared to the CFD computed channel centreline velocities. Images taken were initially screened by hand to remove those with no particles present or where particles were out of focus, and the remaining images were processed automatically to discern their velocities.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.1.2. Image processing Over six thousand images were generated, of which approximately 1500 were appropriate for measuring particle velocities. An automated image processing method was developed to determine the velocities of the captured particles for a batch of raw images. A program in MATLAB R2023a was written to remove all background noise and the presence of stationary particles that had become stuck to a wall. Further, the pro­gram automatically recognises the difference between multiple transit­ing particles and calculates their individual velocities. The details of this program are outlined below. First, all the raw images from a single image batch are imported. These bitmap images are stored as 2048 by 2448 by 3 three-dimensional matrices. Each element is a value between zero and 255 and denotes the brightness of a single colour (red, green, or blue, the third dimension of the matrix) of each pixel of the 2048 by 2448 image. The matrices are looped over with the following procedure applied to each: Background subtraction is performed by simply subtracting the RGB values of the background image (an image with no particles which otherwise would have been discarded in the pre-screening) from the image being processed. This leaves just the transitory particles and a small amount of noise. The image is then separated into its red and blue counterparts (The green image is not used any further) which are then processed individually.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "noise. The image is then separated into its red and blue counterparts (The green image is not used any further) which are then processed individually. The ‘imadjust’ function is used to increase the brightness and contrast of the red and blue images. This removes most of the lowbrightness noise remaining after the background subtraction and makes the particles clearer. The images are then segmented based on their morphology to remove any regions too small to fit a circle with a radius of 7 pixels in. Large, connected regions with an area greater than 1200 pixels are then removed. This takes care of any out of focus par­ticles in neighbouring channels which were captured in the image. Example processed images can be found in the supplementary infor­mation document. The resultant processed red and blue images are binary and should contain only transiting particles. The ‘regionprops’ function is used to discern the particle centroids. These centroids are recorded, and the displacement vectors between all red and blue particle pairings are stored in an array, where the columns and rows are different red and blue particles, respectively. When multiple transiting particles are pre­sent, the correct pairings between the red and blue images can be found by filtering using the magnitude and phase angle of the displacement vector.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e­sent, the correct pairings between the red and blue images can be found by filtering using the magnitude and phase angle of the displacement vector. This process is then repeated for all images within the batch, after which the transit distances are converted into real distances using a conversion factor of 326 pixels per millimetre, and then to a velocity by dividing by the pulse delay time of 15 ms. 2.2. Measuring how the limiting current density varies with maldistribution 2.2.1. Method overview The fundamental aim of the work presented in this section of the study is to experimentally discern whether maldistribution in ED leads to a reduction in the LCD. One problem when devising an experiment to investigate this is that maldistribution itself cannot be directly influ­enced. Instead, the degree of maldistribution is a function of the geo­metric design and hydrodynamic environment of the ED stack, and so must be indirectly influenced by changing various experimental pa­rameters. In previous work it was numerically established that maldis­tribution is affected by the geometry of the channel through the distributor angle, intermembrane distance, and length-to-width ratio. These are set by the geometry of the membrane spacer and are not simple to control precisely experimentally. Further, since they impact the degree of maldistribution through the channel pressure drop, quantifying the maldistribution of individual experiments is prohibi­tively difficult.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "he degree of maldistribution through the channel pressure drop, quantifying the maldistribution of individual experiments is prohibi­tively difficult. Consequently, these geometric parameters were not changed in this study. However, the solution flow rate and number of cell pairs were also identified as key drivers of the degree of maldistri­bution. Controlling these accurately is much easier and thus are used in this study to affect the degree of maldistribution. The number of cell pairs and volumetric flowrate were varied over a range where the expected difference in the degree of maldistribution is significant (m varies from 1 to 4.5). The average flow rate within one channel is varied over the range of 1–9 L/h for both a stack of ten and twenty cell pairs. It was vital to ensure that these changes would have no confounding effect on the LCD which is influenced primarily through the salt molar flowrate. To achieve this, when the number of cell pairs was increased from ten to twenty, the overall flow rate was doubled. This maintains the same average channel volumetric flow rate and thereby guarantees the same LCD if no maldistribution is present. However, a more complex approach is required when varying the flow rate. If no other variables were manipulated, increasing the flow rate would in­crease the LCD as the amount of salt removed in a single pass is reduced, and thus a higher current density is required to achieve ion depletion.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "d in­crease the LCD as the amount of salt removed in a single pass is reduced, and thus a higher current density is required to achieve ion depletion. To offset this, as the flow rate is increased, the salt concentration is reduced. This is done in such a way that it maintains a constant salt flow rate and thus should maintain a constant LCD if no maldistribution is present. In summary, if no maldistribution exists, or if it has no impact on the LCD, then all experiments should show the same LCD. Conversely, since increasing the flow rate and the number of cell pairs have been shown to increase the degree of maldistribution, it is expected that the LCD should consequently decrease. The LCD was measured by gathering currentvoltage response data and identifying the point at which the electric resistance significantly increased. 2.2.2. Experimental setup All experiments were performed on the MEGA P EDR-Z/4 * 1_17 (MemBrain) electrodialysis unit with ED 64004 stack (PC Cell). Fuji-12 AEM and CEM membranes (Fujifilm) and spacers of width 1000 μm with the net cut out were used to comprise the membrane stack. This ensured that the conditions of the experiments were as similar as possible to the CFD simulations. Solution flow rates were controlled automatically using the unit’s inbuilt pumps and control system, ensuring a constant volumetric flow rate was maintained. A sodium chloride solution was used, the concentration of which was varied with the solution flow rate.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "constant volumetric flow rate was maintained. A sodium chloride solution was used, the concentration of which was varied with the solution flow rate. Experiments at the median flowrate of 4.5 L/h per cell pair used a salt concentration of 46.5 mol/m3, resulting in a salt flowrate of 0.21 mol/h per cell pair. This molar flow rate was constant throughout all experi­ments when the number of cell pairs or solution volumetric flow rate was changed so as to remove confounding effects on the LCD. The flow configuration was setup to ensure a steady state operation (Fig. 3a). Here, the outlet of the diluate stream was fed into the concentrate reservoir and vice versa. As such, the fluid travels in a loop through both the diluate and concentrate channels. Consequently, there is no overall change to either the diluate or concentrate concentration, and a steady state is established. Conductivity probes (Endress +Hauser) are present on the inlets and outlets of each stream and are monitored to establish when a steady state has been achieved. The built-in power supply of the MEGA unit was used to control the voltage applied over the entire stack (Vap) and measure the current (Fig. 3b). Platinum probe electrodes were inserted into the end cham­bers either side of the stack, held against the end membranes and used to measure the potential drop across the membranes and channels only (Vmem).",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "am­bers either side of the stack, held against the end membranes and used to measure the potential drop across the membranes and channels only (Vmem). This removed the confounding current-voltage behaviour of the electrode reactions and overpotential, making discerning the LCD much easier. The experimental procedure is as follows. The solutions are loaded into the (cleaned) diluate and concentrate reservoirs and the pumps are activated. Once a desired steady flow rate has been achieved, the power supply is activated, and the applied voltage set to 3 V. This corresponds to a measured membrane voltage of ~0.5 V. Once a steady state has been achieved, the power supply voltage, measured membrane voltage, and current are recorded, and the voltage increased by 0.5 V. This procedure",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "J. Ledingham et al. Journal of Membrane Science 716 (2025) 123494 is repeated for applied voltages up to ~30 V, or until a very clear overlimiting region is seen in the current-voltage response curve. After an experiment, the solutions are drained, and the reservoirs flushed with the next experiment’s solution to remove any residual fluid. To measure the LCD from the current-voltage response curve, the Isaacson and Sonin method [16] was employed. Linear regression was performed on the underlimiting and overlimiting regions of the current-voltage polarisation curve, and the LCD was calculated from the intersection of these lines. 2.3. Using CFD to compare the flow in U and Z-configuration stacks In previous work, 3D CFD simulations were conducted on a range of geometries and flow rates representative of an ED stack in the U configuration (Fig. 2a) [12]. In this work, the same method is employed to compare the flow profiles of U and Z configuration stacks. Ansys Fluent 2023 R2 was used to generate 3D flow profiles on geometry representative of an ED stack with ten cell pairs over a range of flow rates up to 10 L/h per cell pair. The laminar Navier-Stokes equations were solved, using a no-slip boundary condition at the wall, setting the inlet velocity equal to the appropriate value for the desired flow rate, and the outlet pressure to zero. More information on the details of the CFD simulations can be found in Section 2.1 of the previous work. 3. Results and discussion 3.1.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ssure to zero. More information on the details of the CFD simulations can be found in Section 2.1 of the previous work. 3. Results and discussion 3.1. Validating the presence of flow maldistribution in ED 3.1.1. Channel velocity measurements In this section, the velocities of measured particles are compared to CFD simulation results. Fig. 4a shows the centreline (maximum) velocity measured in CFD simulations as horizontal blue lines. The maldistri­bution of flow is clearly visible, with the flow rate of channel one (closest to the inlet and outlet) being almost twice as fast as that of channel ten. Individual experimentally measured velocities are shown as white points within the same column, and the black bars indicate the maximum experimentally measured velocity. A perfect validation result would be one in which the black bars and blue lines match exactly. In total, over 1000 velocities were measured and populate this graph. Clear maldistribution can be seen in the experimentally measured maximum velocities, showing a similar qualitative trend to that of the simulated results. However, an important disparity can be seen, where there is a lower-than-expected velocity for all channels. A lower velocity with the same volumetric flow rate is characteristic of an increased flow area. It is believed that the channels are slightly wider than the expected 1 mm as a result of the UV activated glue used to bind glass sheets together during the construction of the flow cell.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lightly wider than the expected 1 mm as a result of the UV activated glue used to bind glass sheets together during the construction of the flow cell. The channel expansion was measured by placing a micrometer across the entire flow cell width. It was hence concluded that the channel widths were increased by ~15 % and explains the lower-than-expected velocities.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The desired width of 1 mm was initially selected to coincide with existing simulations. A re-calculated distribution of velocities can be seen in Fig. 4a where equation (2) was implemented with a channel width of 1.15 mm. A significantly better agreement between experi­mental and simulated results is seen, with an average relative difference of only 4.5 %. The remaining disparity can be attributed to the sources of error in\n\nFig. 3. Experimental schematics. a) The stream confguration of the ED stack and reserviours. The diluate outlet stream is fed to the concentrate reserviour and vice versa. Pumps and conducivity measurement probes are shown also. b) The different voltages measured. The stack voltage is set by the power supply over the entire stack. The membrane voltage is measured by platinum probe electrodes inserted into the end chambers in contact with the end CEMs.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "J. Ledingham et al. Journal of Membrane Science 716 (2025) 123494 the experiment, the largest of which is likely that of the volumetric flow rate. This was measured and set using a rotameter with a precision of 5 L/h and validity at only 20 ◦C. Increases in temperature over the experiment would reduce the viscosity of the water and thus a higher actual flowrate would be required to maintain the float at the same level. The temperature was seen to increase by ~4 ◦C over the experiment time. This rise in temperature corresponds to a 10 % reduction in the viscosity which could be responsible for the discrepancies seen [17]. The heat produced from the pump is the likely source of this temperature increase. Further, it can be seen that the channels of greatest disparity are 5, 6, and 7. These channels would have been the ones imaged last during each experiment and so greater increases in the temperature could have transpired. There is a distinct lack of particles encountered with low velocities, made apparent by the gap in the black bars between zero and the lowest measured velocity. Although its presence does not affect the comparison to the centreline velocities, it should be investigated, nonetheless. Due to the parabolic velocity profile of the laminar flow within the channel, the particles moving slowest will be those closest to the wall.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "theless. Due to the parabolic velocity profile of the laminar flow within the channel, the particles moving slowest will be those closest to the wall. Therefore, they are farthest away from the focal plane and will be more out of focus, and thus more likely to be removed during image processing. A potentially impacting phenomenon that warrants investigation is the lateral lift forces experienced by particles, well known in the field of inertial microfluidics. The first of these forces arises due to the parabolic flow profile imposing a shear gradient on the particles, causing them to migrate towards the wall (Fig. 4b) [18]. A further ‘wall effect’ force can provide lift in the opposite direction, driving particles away from the wall. As such, in microfluidics systems, particles can be seen to migrate to ‘equilibrium positions’ where these forces balance. The channel length required for particles to migrate to equilibrium positions can be calculated using a method outlined by Di Carlo [18] and was found for this work to be ~3 m. This far exceeds the channel length used in this work of 8 cm (or 4 cm to where the particles where photographed), and so it can be concluded that particles do not significantly migrate laterally from streamlines due to these forces. However, if the shear gradient force dominates the wall effect force it could be responsible for causing particles near to the wall to migrate on to the wall where they become stuck.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "orce dominates the wall effect force it could be responsible for causing particles near to the wall to migrate on to the wall where they become stuck. Despite the imperfections seen in the experimental results, this study has demonstrated that maldistribution between channels exists within ED. Further, it corroborates evidence from previous work that both CFD and a simple analytical model can accurately capture the degree of maldistribution within ED. 3.1.2. Statistical analysis The evidence presented for the presence of maldistribution in the previous section is a velocity distribution collected in a method com­parable to a Monte Carlo simulation, and thus is inherently subject to a certain amount of randomness. Many data points were collected to achieve an accurately represented distribution. However, a question remains as to whether enough particles were captured to ensure accu­rate representation or if any bias was present in the data collection method. Here, a statistical model of the data collection procedure based on the Poisson distribution is presented and used to compare the ex­pected velocity distribution to the one experimentally measured. Full detail of the derivation of the probability density function (PDF) for the velocity may be found in the supplementary information docu­ment.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "red. Full detail of the derivation of the probability density function (PDF) for the velocity may be found in the supplementary information docu­ment. The final model is: f(u|C2) = η u1̅̅̅̅̅̅̅̅̅̅̅1 -u√(1 -uum )[7] where f(u|C2) is the probability density of a particle having a dimen­sionless velocity u (velocity relative to the maximum within a channel) given that it has been photographed correctly, C2 (where both pulses of light occur when the particle is within the photographed region). The parameter um is the maximum velocity that would allow for both pulses of light to occur while the particle is transiting the photographed region. As such, its value is the length of the photographed region in the di­rection of travel for the particles divided by the pulse delay time. The parameter of η is a probability normalisation factor. The derivation and final form of equation (7) reveals that there are three influences on the velocity PDF, captured in the three terms of the equation. The first term, simply u, is illustrative of the fact that particles that travel faster are photographed more often. The second term, 1/̅̅̅̅̅̅̅̅̅̅̅1 -u√is representative of the parabolic flow profile associated with laminar flow. There are a greater proportion of streamlines that have faster flow rates, and thus it is more likely to see a particle on a faster streamline.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "flow. There are a greater proportion of streamlines that have faster flow rates, and thus it is more likely to see a particle on a faster streamline. The final term accounts for the fact that very fast flowing particles are more difficult to capture because of the higher risk that one of the two pulses will be outside of the photographed region. The parameter um is an upper bound on the velocity, as a particle travelling this speed could only be captured with one pulse as it barely enters the photographed region and the other pulse as it barely leaves. As with the dimensionless velocity, it is scaled relative to the maximum velocity in each channel and thus the minimum practical value is one. Fig. 5a shows the dimensionless velocity PDF for a range of values of the maximum transit velocity parameter, um, from 1.1 to 3. Further changes to the shape of PDF above a um of 3 are negligible. In this figure, all PDFs have been scaled using the η parameter to ensure a total inte­grated area of unity. It can be seen that the probability density for all um blows up to infinity as the dimensionless velocity approaches one (i.e. the maximum velocity in the channel). Mathematically, this arises from the 1/̅̅̅̅̅̅̅̅̅̅̅1 -u√term and is not an issue as the bounded area (total prob­ability) remains finite. It indicates that high velocity particles are significantly preferred as the PDF is localised around u being 1.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "a (total prob­ability) remains finite. It indicates that high velocity particles are significantly preferred as the PDF is localised around u being 1. How­ever, as um is decreased, the probability of seeing very high velocity particles decreases in favour of lower velocity ones as the chances of a fast particle straddling the boundary of the photographed region increases. The overall distribution of normalised particle velocities is shown in a histogram in Fig. 5b. Here, as with the PDF, velocities on the x-axis are normalised relative to the maximum velocity seen in each channel to eliminate the effect maldistribution has. In the limit of infinitesimally thin bins and an infinite number of data points, a histogram approaches an empirical form of the PDF, and thus the two graphs in Fig. 5 can be compared based on their shape. The experimental histogram does show a similar trend to the predicted PDF for a low value of um (~1.2). More particles of a higher velocity are captured, but the increase in the height of the bars decreases for faster particles. An up-tick in the height of the final bar is also seen, which is reflected in the calculated PDF. A notable caveat is that there are far fewer particles of a low velocity (<0.4) relative to what is predicted. However, this is not unexpected due to the issues with those particles being out of focus and interacting with the channel wall.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "to what is predicted. However, this is not unexpected due to the issues with those particles being out of focus and interacting with the channel wall. The expected value of um based on the actual size of the photo­graphed region is ~1.8, slightly higher than the value of 1.2 seen in the closest matching PDF. Nevertheless, the trend observed demonstrates that the experimental methodology accurately captures the velocity distribution, and thus no bias is present.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. The impact of maldistribution of the limiting current density An example of the current-voltage polarisation curves used to find the LCD can be seen in Fig. 6 where current density is plotted against both the stack voltage and membrane voltage. A clear decrease in gradient is seen in both data trends at a current density of about 60 A/ m2, corresponding to the LCD. This decrease in the gradient results from an increase in the electrical resistance associated with achieving ion depletion. However, this change is seen much more clearly when current density is plotted against membrane voltage than against stack voltage.\n\nJ. Ledingham et al. Journal of Membrane Science 716 (2025) 123494",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "For a given current density, the difference between these two voltages is a summation of the electrode equilibrium potential, electrode over­potential, and the voltage drop across the end chamber. While the equilibrium potential is constant (1.2 V), the overpotential and end chamber voltage increase as a logarithmic (Tafel equation, ~1 V) and linear (Ohm’s law, resistance = 0.01 Ωm2) function of the current density, respectively. The additional resistances associated with these potential drops reduces the proportional increase in the resistance when transitioning above the LCD, making the change in gradient more difficult to see. Further, while the current-membrane voltage curve in­tersects the origin, the current-stack voltage data does not. This is attributed to the electrode equilibrium potential (~1.2 V) which must be exceeded for electrode reactions to occur and current to flow. This again makes linear regression less accurate making it harder to discern the LCD. Consequently, plotting current density against stack voltage obfus­cates the increase in resistance associated with operating above the LCD. As such, in this work it is the membrane voltage data that was used for linear regression and to discern the LCD. The dimensionless maldistribution number, m, determined through simulation, for the different experimental conditions can be seen in Fig. 7a.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the LCD. The dimensionless maldistribution number, m, determined through simulation, for the different experimental conditions can be seen in Fig. 7a. As expected, the value of m and the degree of maldistribution increases with a higher flow rate and a greater number of cell pairs. The measured LCD as a function of the flow rate for both the ten and twenty cell pair stacks can be seen as points in Fig. 7b. If maldistribution did not affect the LCD, it would be expected that all points lie on a horizontal line at about 90 A/m2. However, it is very clear that this is not what is seen in the experimental results. The LCD decreases as the flow rate increases for the experiments performed on both the ten and twenty cellpair stacks. Since the molar flowrate of the salt was held constant, the only phenomenon which changes with flow rate is the degree of mal­distribution. Since maldistribution is predicted to worsen at a higher flow rate, this is a clear qualitative validation of the impact of maldis­tribution on the LCD. However, the quantitative agreement between the predicted and measured LCD is limited. The predicted decrease in the LCD is somewhat higher than experimentally measured, although the magnitude of the measured and calculated LCD values is similar. This is probably due to the simplicity of the model used to calculate the LCD. The model considers only a bulk mixed region and linear concentration gradients within boundary layers adjacent to the membrane.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "to calculate the LCD. The model considers only a bulk mixed region and linear concentration gradients within boundary layers adjacent to the membrane. The pre­dicted LCD is very sensitive to the thickness of these boundary layers, which is computed using a Sherwood number correlation for plate flow. The validity of this correlation for the specific geometry used is un­known and so errors may be introduced here. Nevertheless, the observed trend of a decrease in LCD with greater maldistribution from an increased flowrate is clear and validates previous work. When changing the flowrate, there is an inherent source of error present arising from the method of reducing the salt concentration while increasing the flowrate to negate the effect on the LCD. The LCD is notoriously difficult to predict as there are many confounding phe­nomena which obfuscate the transport processes occurring at and above the limiting point. Therefore, it is possible that the impacts of increasing the flowrate and decreasing the concentration did not fully negate the confounding impact on the LCD, reducing the reliability of the results already mentioned. However, many of the additional phenomena arising from an increased velocity have the opposite effect as maldis­tribution. Turbulence, electroconvection, and boundary layer thinning all increase the LCD and are more prominent at higher flow rates [19].",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "as maldis­tribution. Turbulence, electroconvection, and boundary layer thinning all increase the LCD and are more prominent at higher flow rates [19]. Hence, these effects would reduce the impact of maldistribution and could potentially be responsible for the change in the measured LCD with velocity being lower than predicted. However, the difference be­tween the results on ten and twenty cell pairs does not suffer from the confounding effects mentioned. The LCD measured on the twenty cell-pair stack is consistently lower than that measured on the ten cell-pair stack for all flowrates. For two points on the graph at the same horizontal position, the experiments have the same average flow rate per cell pair and the same salt con­centration. That is, the overall flowrate for the twenty cell-pair stack is twice that of the ten cell-pair stack, a variable that is trivial to control",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. An example of a current-voltage plot used to discern the LCD. Shown are the current densities plotted against the membrane (measured) voltage and applied stack voltage, with a change in gradient indicating the LCD. J. Ledingham et al. Journal of Membrane Science 716 (2025) 123494 with the unit’s built-in pump control schemes. Therefore, the number of cell pairs and the degree of maldistribution is the only distinction be­tween the points. As such, the observed trend of a reduction in the LCD at an increased number of cell pairs is a very strong indication that the presence of maldistribution reduces the LCD. Further, the quantitative agreement between the model and experimental results is stronger, showing a very similar ratio of 1.3–1.5 for the LCD between the ten and twenty cell pair stacks. One potentially confounding phenomenon from increasing the number of cell pairs comes from parasitic currents, also known as shunt currents [20]. Parasitic currents are current paths which bypass the membranes and flow through the distributors and manifolds instead. This reduces the apparent current efficiency, the ratio between the useful current which results in a transfer of salt from the diluate to the concentrate, and the total current measured. However, for lab-scale ED stacks, the major contributor to a non-ideal current efficiency comes from back-migration of salt from the concentrate to the diluate resulting from an imperfect membrane permselectivity.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n-ideal current efficiency comes from back-migration of salt from the concentrate to the diluate resulting from an imperfect membrane permselectivity. Nevertheless, it has been reported that an increasing number of cell pairs increases the amount of parasitic current as there are more conductive pathways for the current to take. A lower current efficiency from an increased parasitic current would result in an increase in the measured LCD. This is because the LCD is dependent on the concentration polarisation which results from the transmembrane current. Parasitic current increases the measured cur­rent without affecting the transmembrane current, and thus will in­crease the apparent LCD. This is the opposite of the expected effect from increasing the degree of maldistribution. Therefore, any parasitic cur­rents would reduce the difference between the ten cell-pair and twenty cell-pair measured LCD, appearing to offset the effect of maldistribution. Since the difference between the ten and twenty cell pair measurements is stark, it is apparent that the effect of maldistribution is much greater than that of parasitic currents. 3.3. Comparing maldistribution in U and Z-configuration stacks The analysis presented in previous work and the PIV experiments were performed on the so-called U-type geometry, where the entrance and exist of a given stream are on the same side of the stack.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the PIV experiments were performed on the so-called U-type geometry, where the entrance and exist of a given stream are on the same side of the stack. However, many commercially available ED stacks, including the PC Cell stack used in this work to measure the LCD, operate in the Z-configuration, where the entrance and exit are on opposite sides (Fig. 8a). A question arises as to how the degree of maldistribution differs between these two config­urations. To investigate this, CFD simulations of both a U and Zconfiguration stack were performed over a range of inlet flow rates using the standard lab-scale stack geometry. The degree of maldistribution was quantified by fitting the maldistribution models of Bassiouny and Martin [13,14] and computing dimensionless maldistribution numbers. Fig. 8b shows the centreline velocities for a Uand Z-configuration ten-cell pair stack operated at 45 L/h (4.5 L/h per cell pair). While the shapes of the flow distributions are very similar, their directions are opposite. It can be seen that from channel 1 to channel 10, the velocity for the U-type geometry decreases whereas for the Z-type it increases. As such, for both configurations, the channel closest to the stack outlet has the greatest flow rate.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "y decreases whereas for the Z-type it increases. As such, for both configurations, the channel closest to the stack outlet has the greatest flow rate. This trend is also seen in the maldistribution models for the dimensionless channel velocity, uc ( = Uc/W0): U-type : uc =( Am n Ac ) m cosh(m(1-Z))sinh(m)[8] Z -type : uc =( Am n Ac ) m cosh(mz )sinh(m)[9] with the notable difference being the hyperbolic cosine function of the dimensionless manifold axial distance, z ( = Z/L). This function de­creases with z for the U-type geometry but increases for the Z-type. The reason for this difference can be found in the derivation of the models, and in particular from the pressure drop. Combination of the mass and momentum balances around the manifold-channel junctions reveals the relationship between the dimensionless pressure, p, and manifold ve­locity, w for the inlet manifold: dpdz = -w dwdz[10] and the outlet manifold: dp* dz = -2 w*dw* dz[11] The factor of two arises from the turning losses incurred and the asterisks (*) indicate variables for the outlet manifold. For the U-type configuration, dw/dz and dw*/dz are equal and are both negative. Flow in the manifold is greatest nearest to the entrance/exit and decreases away from it as z increases Therefore, pressure increases along the manifold in the direction of increasing channel number for both the inlet and outlet. However, the pressure in the outlet manifold increases more than for the inlet due to the factor of 2 present.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "l number for both the inlet and outlet. However, the pressure in the outlet manifold increases more than for the inlet due to the factor of 2 present. Hence, the manifold pressures are converging, reducing the pressure drop of higher numbered channels and thus, decreasing their flow rate. For Z-type geometries, dw/dz and dw*/dz have opposite signs. For the inlet mani­fold, w decreases in the direction of increasing channel number but for the outlet manifold w* increases. Thus, while dp/dz is positive, dp*/dz is",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. a) The calculated maldistribution number against average channel flow rate for a CFD simulated stack of both ten and twenty cell pairs. b) The experimentally determined and mathematically predicted limiting current density as a function of average channel flow rate for both a stack of ten and twenty cell pairs. If mal­distribution does not impact the LCD, then a horizontal straight line is expected. Predicted LCD values are calculated using a method outlined in previous work [12]. J. Ledingham et al. Journal of Membrane Science 716 (2025) 123494 negative, and the manifold pressures diverge. This increases the pressure drop of channels with higher channel numbers (closer to the outlet) and thus increases their flow rates. The inlet and outlet manifold pressures measured in Fluent at a flow rate of 4.5 L/h per cell pair are shown in Fig. 8e and f for the Z-type and U-type geometries. A diverging and converging pressure drop is clearly seen for the Z and U-type geometries, respectively. Fig. 8c shows that the degree of maldistribution for a Z-type geom­etry is greater than for U-type at higher flow rates and smaller at lower flow rates. Further, for very low flow rates, the maldistribution number appears to tend to a lower value for the Z-type geometry (0–0.4) than the",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "U-type (about 0.7). This leads to a situation where the Z-configuration is preferred at low flow rates and the U-configuration is preferred at high flow rates. A classical approach to predicting the degree of maldistri­bution using the Darcy friction and equation (3) factor can be used to directly predict the maldistribution number from system parameters. ξ = 64Re Ldh\n\n[12] m2 =(nAc Am )2d2hL ρum μ[13]\n\nFig. 8. a) The Fluent 3D geometries used in CFD simulations demonstrating the difference between U and Z type geometries. b) the distribution of centreline ve­locities for a U and Z-configuration stack with a flow rate of 4.5 L/h per cell pair c) The dimensionless maldistribution number, m, as a function of the average channel flow rate for both U and Z-type geometries. e) The manifold pressure profile calculated in Fluent for the Z-configuration geometry. e) The manifold pressure profile calculated in Fluent for the U-configuration geometry for a flow rate of 4.5 L/h per cell pair. J. Ledingham et al. Journal of Membrane Science 716 (2025) 123494\n\nJ. Ledingham et al. Journal of Membrane Science 716 (2025) 123494",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        10,
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[4] The State of Food and Agriculture 2020, The state of food and agriculture 2020. htt ps://doi.org/10.4060/CB1447EN, 2020.[5] A. Yusuf, A. Sodiq, A. Giwa, J. Eke, O. Pikuda, G. De Luca, J.L. Di Salvo, S. Chakraborty, A review of emerging trends in membrane science and technology for sustainable water treatment, J. Clean. Prod. 266 (2020), https://doi.org/ 10.1016/j.jclepro.2020.121867.[6] J. John, A. Gopikumar, G.P. Gayathry, A. Vincent, N.J. Kaleekkal, Enhanced recovery using membrane-based zero liquid discharge systems, concept of zero liquid discharge: innovations and advances for sustainable wastewater management, 129–161, https://doi.org/10.1016/B978-0-323-91745-2.00004-8, 2023.[7] H.B. Vibbert, A.W.S. Ooi, A.H.A. Park, Selective recovery of cerium as high-purity oxides via reactive separation using CO2-responsive structured ligands, ACS Sustain. Chem. Eng. 12 (2024) 5186–5196, https://doi.org/10.1021/ ACSSUSCHEMENG.3C08103/ASSET/IMAGES/LARGE/SC3C08103_0007.JPEG.[8] A. Abou-Shady, C. Peng, J. Almeria O, H. Xu, Effect of pH on separation of Pb (II) and NO 3from aqueous solutions using electrodialysis, Desalination 285 (2012) 46–53, https://doi.org/10.1016/j.desal.2011.09.032.[9] V. V Nikonenko, A. V Kovalenko, M.K. Urtenov, N.D. Pismenskaya, J. Han, P. Sistat, G. Pourcelly, Desalination at overlimiting currents: state-of-the-art and perspectives. https://doi.org/10.1016/j.desal.2014.01.008, 2014.[10] Y. Kim, D.F.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "urcelly, Desalination at overlimiting currents: state-of-the-art and perspectives. https://doi.org/10.1016/j.desal.2014.01.008, 2014.[10] Y. Kim, D.F. Lawler, Overlimiting current by interactive ionic transport between space charge region and electric double layer near ion-exchange membranes, Desalination 285 (2012) 245–252, https://doi.org/10.1016/J. DESAL.2011.10.009.[11] M. La Cerva, L. Gurreri, M. Tedesco, A. Cipollina, M. Ciofalo, A. Tamburini, G. Micale, Determination of limiting current density and current efficiency in electrodialysis units, Desalination 445 (2018) 138–148, https://doi.org/10.1016/ J.DESAL.2018.07.028.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[12] J. Ledingham, K.L. Sedransk Campbell, B. In ’t Veen, L. Keyzer, A.N. Campbell, Barriers to electrodialysis implementation: maldistribution and its impact on resistance and limiting current density, Desalination 531 (2022) 115691, https:// doi.org/10.1016/J.DESAL.2022.115691.[13] M.K. Bassiouny, H. Martin, Flow distribution and pressure drop in plate heat exchangers—II Z-type arrangement, Chem. Eng. Sci. 39 (1984) 701–704, https:// doi.org/10.1016/0009-2509(84)80177-3.[14] M.K. Bassiouny, H. Martin, Flow distribution and pressure drop in plate heat exchangers—I U-type arrangement, Chem. Eng. Sci. 39 (1984) 693–700, https:// doi.org/10.1016/0009-2509(84)80176-1.[15] J. Stefanini, G. Cognet, J.C. Vila, B. Merite, Y. Brenier, A colored method for PIV technique. https://doi.org/10.1007/978-94-011-2690-8_14, 1992.[16] M.S. Isaacson, A.A. Sonin, Sherwood number and friction factor correlations for electrodialysis systems, with application to process optimization, Ind. Eng. Chem. Process Des. Dev. 15 (1976) 313–321, https://doi.org/10.1021/I260058A017/ ASSET/I260058A017.FP.PNG_V03.[17] The Engineering ToolBox, Water - dynamic (absolute) and kinematic viscosity vs. Temperature and pressure [online] Available at: https://www.engineeringtoolbox. com/water-dynamic-kinematic-viscosity-d_596.html, 2004. (Accessed 21 August 2024).[18] D. Di Carlo, Inertial microfluidics. https://doi.org/10.1039/b912547g, 2009.[19] V.V. Nikonenko, A.V. Kovalenko, M.K. Urtenov, N.D. Pismenskaya, J.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "8] D. Di Carlo, Inertial microfluidics. https://doi.org/10.1039/b912547g, 2009.[19] V.V. Nikonenko, A.V. Kovalenko, M.K. Urtenov, N.D. Pismenskaya, J. Han, P. Sistat, G. Pourcelly, Desalination at overlimiting currents: state-of-the-art and perspectives, Desalination 342 (2014) 85–106, https://doi.org/10.1016/J. DESAL.2014.01.008.[20] A. Culcasi, L. Gurreri, A. Zaffora, A. Cosenza, A. Tamburini, A. Cipollina, G. Micale, Ionic shortcut currents via manifolds in reverse electrodialysis stacks, Desalination 485 (2020), https://doi.org/10.1016/j.desal.2020.114450.",
+    "citation": {
+      "authors": [
+        "Howse R.",
+        "Campbell N.",
+        "Sedransk L.",
+        "In D.",
+        "This D."
+      ],
+      "paper_id": "1-s2.0-S0376738824010883-main",
+      "title": "Experimental validation of the presence of flow maldistribution in electrodialysis stacks and its effect on the limiting current density",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  }
+]

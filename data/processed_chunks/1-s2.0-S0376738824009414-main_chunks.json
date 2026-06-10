@@ -1,0 +1,822 @@
+[
+  {
+    "content": "Contents lists available at ScienceDirect\n\nJournal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nMicropollutant removal via nanofiltration: The effect of salt concentration —Theory and experimental validation S. Castaño Osorio a,b, I.I. Ryzhkov c,d, E. Spruijt e, A. van der Wal b,f, P.M. Biesheuvel a,J.E. Dykstra b,∗ a Wetsus, European Centre of Excellence for Sustainable Water Technology, Oostergoweg 9, 8911 MA Leeuwarden, The Netherlandsb Environmental Technology, Wageningen University & Research, Bornse Weilanden 9, 6708 WG Wageningen, The Netherlandsc Institute of Computational Modeling SB RAS, Akademgorodok 50-44, 660036 Krasnoyarsk, Russiad Siberian Federal University, Svobodny 79, 660041 Krasnoyarsk, Russiae Institute for Molecules and Materials, Radboud University, Heyendaalseweg 135, 6525 AJ Nijmegen, The Netherlandsf Evides Water Company, Schaardijk 150, 3063 NH Rotterdam, The Netherlands\n\nA R T I C L EI N F O Keywords:Micropollutant rejectionNanofiltrationSolution frictionModeling",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Nanofiltration guarantees high water recovery and low energy consumption in removing micropollutants (MPs).In this study, we derive a concise model to describe MP removal with nanofiltration membranes. We comparethe results from the model with experimental data for the removal of 7 MPs with 5 salt concentrationsusing the NF270 membrane. Our findings indicate that the model accurately describes MP transport throughnanofiltration membranes. Furthermore, we evaluate the effect of salt concentration on MP rejection. Theresults show that salt concentration impacts MP rejection differently based on MP charge and size. Increasingsalt concentration decreases the rejection of counter-charged MPs that are small and increases the rejection ofcounter-charged MP that are large.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Reverse osmosis (RO) and nanofiltration (NF) are leading technologies in the production of drinking water. In RO, the membranesprovide a superior ion rejection. Therefore, RO membranes are usedfor seawater and brackish water desalination [1–3]. Conversely, NFmembranes exhibit lower ion rejection compared to RO membranes.However, NF membranes are efficient in removing larger moleculessuch as organic matter and (organic) micropollutants (MPs) [4,5]. ForMP removal, NF is often considered as an alternative to RO because ofthe higher water recovery, which is the ratio of the purified water thatis produced over the feed water that is consumed, along with the lowerenergy requirements. Compared to RO, NF membranes have a higherporosity and larger pores which allows higher water and solute fluxes.To predict and understand the removal of micropollutants (MPs)using nanofiltration under various conditions, accurate transport models are required. Several models have been proposed to study andunderstand the transport and rejection of MPs using membranes. For instance, Kim et al. implemented a modeled to compare the contributionsof diffusion and convection to the transport of pharmaceuticals anddisinfection by-products [6]. Nghiem et al. studied the effect of stericexclusion on rejection and used a hydrodynamic approach to model",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "∗Corresponding author.E-mail address: jouke.dykstra@wur.nl (J.E. Dykstra). the transport of neutral MPs through cylindrical pores [7]. Wang et al.investigated the rejection and transport of neutral and charged MPsusing the Donnan Steric Pore Model & Dielectric Effect (DSPM&DE)model [8]. Moreover, other researchers have also addressed the effectsof physico-chemical phenomena on the rejection of MPs and proposedmodels to include these phenomena. For instance, some studies havefocused on the effects of solute–membrane interactions on the rejectionof MPs [9–11] as well as the effects of biofouling [12].Although several studies have focused on implementing and extending existing models to study MP removal, some of these models remaincomplex, mostly because multiple fitting parameters are required tocapture all the different properties of the MP and the membrane.There is a need for a model that captures the key transport mechanisms: diffusion, convection, and electromigration, and that is easyto implement, allowing for comparison with experimental datasets onmembrane performance. Such a model has been developed based onsolution-friction (SF) theory and has been compared with data sets forhighly charged and uncharged reverse osmosis (RO) membranes [13].Our goal is to extend this simple model to nanofiltration (NF) andinclude the removal of MPs. The extended model will allow for accurate\n\nJournal of Membrane Science 713 (2025) 123347",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Overview of the phenomena considered to study the removal of MPs. (A) On both sides of the membrane, the size and charge of the solute affect the partitioning equilibriabetween membrane and solutes. Concentration 𝑐f is of the solute in the feed and 𝑐p in the permeate. (B) The flux of solutes across the membrane is the result of diffusion due toconcentration gradients, 𝛥𝑐, electromigration, due to potential differences, 𝛥𝜙, and convection due to water flux, 𝑣w. (C) Solutes are rejected by the membrane due to steric andcharge exclusion. prediction of MP removal and can be used to assess the performance ofNF modules and further improve water purification processes.In this study, we introduce a novel equation for MP flux andrejection in NF processes. This equation can estimate rejection withoutcomplex numerical solutions, making it particularly advantageous fordesigning treatment processes in real-life applications. Implementingthis equation is straightforward, requiring only two parameter valuesfor each MP that is considered: the mass transfer coefficient within themembrane and a characteristic transport parameter unique to each MPand specific membrane. These parameters can be determined throughstandard filtration experiments conducted at the laboratory scale.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "r unique to each MPand specific membrane. These parameters can be determined throughstandard filtration experiments conducted at the laboratory scale. Accurate identification of these parameters facilitates realistic predictionof MP rejection.In addition to developing this novel equation, we conducted filtration experiments with 7 micropollutants to estimate the model parameters that yielded accurate predictions of MP rejection. The modelwas employed to investigate the impact of salt concentration on MPrejection and to explore the relevance of charge exclusion and electromigration for MP rejection.The model in the present work is based on the SF theory andconsiders the partitioning of solutes at the membrane–solution interfaceand the transport due to diffusion, convection, and electromigration.Two assumptions are incorporated in the model; first, the MPs are tracesolutes that do not affect the removal of the main solutes present athigh concentrations, which are the salt ions; and second, the potential𝜙m across the membrane is independent of the MP concentration inthe membrane, which can also be justified by the relatively low concentrations (compared to the salt ions) of the MPs. The model results ina modified Hertz equation for the flux of MPs through the membranethat is dependent on the potential difference across the membrane. Inthe model, this potential difference is solely affected by the rejectionof the salt ions.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "dependent on the potential difference across the membrane. Inthe model, this potential difference is solely affected by the rejectionof the salt ions. Furthermore, we defined a modified Peclet number,which captures the operational conditions, and a transport number thatis characteristic to each micropollutant for a specific membrane. Anoverview of phenomena that are included in our model is depicted inFig. 1; namely, solute partitioning at the membrane–solution interface,size and charge based rejection, and transport through the membranepores due to diffusion, convection, and electromigration.Experiments were conducted to validate the proposed model andcompare theoretical calculations with the rejection data of 7 MPs.Within the experimental work, we explore the impact of salt concentration on the removal of MPs. Generally, the effect of salt concentrationon removal has been associated with electrostatic interactions [14,15].For instance, Nghiem et al. studied the effect of NaCl concentration onthe rejection of ibuprofen and sulfamethoxazole, finding that increasingsalt concentration decreases the removal of both micropollutants [16].Similarly, Rutten et al. investigated the effect of salt concentration anddominant salt on the removal of MPs with hollow fiber nanofiltration membranes [17]. They found that the effect of salt concentration on MPremoval depends on the charge of the MP, the type of membrane used,and the dominant salt in solution. In terms of modeling, Fini et al.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "entration on MPremoval depends on the charge of the MP, the type of membrane used,and the dominant salt in solution. In terms of modeling, Fini et al. useda purely steric model to study the effect of water matrix on the rejectionof pesticides [18], while Rutten et al. employed the Donnan stericpore model, including dielectric exclusion, to qualitatively predict theremoval of 4 micropollutants [17].In summary, the present manuscript introduces a model designed toanalyze and predict micropollutant removal via NF. We present a detailed derivation of the model and a comparison with experimental datato establish its validity. Furthermore, this work explores the impact ofsalt concentration on the removal efficiency of several micropollutants.Through this research, we aim to advance our understanding of MPremoval with NF. 2. Theory 2.1. Micropollutant rejection In this section, we outline the theoretical framework for the removalof MPs with NF membranes. From this point onward, we will usethe term rejection instead of removal. Based on the SF theory, wederive transport equations to determine the flux and rejection of MPs.The resulting equations capture the effects of operating conditions,ionic strength, and the intrinsic properties of both the MPs and themembranes on MP rejection.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "g equations capture the effects of operating conditions,ionic strength, and the intrinsic properties of both the MPs and themembranes on MP rejection. We consider charged and neutral MPs.The theoretical framework relies on the extended Nernst–Planck (ENP)equation, describing the flux of MPs by convection, diffusion, andelectromigration 𝐽𝑖= 𝐾f,𝑖𝑐𝑖𝑣w -𝐾f,𝑖𝑘m,𝑖 (𝜕𝑐𝑖 𝜕𝑥+ 𝑧𝑖𝑐𝑖𝜕𝜙𝜕𝑥",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ")(1) where the friction factor 𝐾f,𝑖represents the friction of MPs with themembrane matrix, 𝑐𝑖is the concentration of MPs, and 𝑣w is the transmembrane water flux in m/s which can be translated to a unit L/m2/h,commonly abbreviated as LMH. The transmembrane water flux depends on the water permeability of the membrane 𝐴m in LMH/bar,salt concentration, and operating pressure. In the SI, we present theequation used to determine 𝑣w. The mass transfer coefficient is givenby 𝑘m,𝑖= 𝐷𝑖𝜖∕𝐿m (LMH), where 𝐷𝑖is the diffusion coefficient insolution and factor 𝜖accounts for the reduction of diffusion inside themembrane because of porosity and tortuosity effects. The thicknessof the membrane, 𝐿m, is used to normalize the position 𝑥across themembrane. The dimensionless electric potential, denoted by 𝜙, can beconverted to a dimensional voltage by multiplying it by 𝑅𝑇∕𝐹, where𝐹is the Faraday constant, 𝑅the universal gas constant, and 𝑇thetemperature. To study MP rejection with NF membranes, we assumethat the electrical potential across the membrane is only affected by Journal of Membrane Science 713 (2025) 123347",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S.C. Osorio et al. the transport of salt ions that are present at relatively high concentrations. Therefore, the concentrations and fluxes of salt ions acrossthe membrane affect the rejection of MPs, but MPs do not affect therejection and transport of ions. The aforementioned assumption enablesus to define a transport parameter and derive a new expression forcalculating MP rejection without compromising the model’s accuracywhile eliminating the need for complex numerical solutions. The theory presented in this work is valid for a solution withmonovalent ions and constant charge density across the membrane.Therefore, any effect of ions on the membrane charge is not considered.Considering these assumptions and integrating Eq. (1) from the feedsolution – membrane boundary to the membrane – permeate solutionboundary, we arrive at the following relation of the flux of a MPthrough the membrane 𝐽𝑖= 𝐾f,𝑖𝑘m,𝑖Pemod,𝑖𝑐m,f,𝑖exp(Pemod,𝑖) -𝑐m,p,𝑖 exp(Pemod,𝑖) -1(2) of which a full derivation is given in the supplementary information(SI). Here, 𝑐m,f,𝑖and 𝑐m,p,𝑖are the concentrations of MPs just inside themembrane. Subscript f refers to the upstream (feed) side and subscriptp to the downstream (permeate) side. We define a modified Pecletnumber Pemod,𝑖=𝑣w𝑘m,𝑖+𝑧𝑖𝜙m, where 𝜙m corresponds to the difference inelectrical potential across the membrane (upstream-downstream). Forneutral MPs, Eq. (2) leads to the Hertz equation (Eq.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rresponds to the difference inelectrical potential across the membrane (upstream-downstream). Forneutral MPs, Eq. (2) leads to the Hertz equation (Eq. 21 from [19]).We do not consider the effect of concentration polarization (CP) in themain calculations. However, in the SI, we present the correspondingequations including CP and illustrate the effect of CP on the rejectionof MPs and NaCl. The concentration inside the membrane at bothsides, feed and permeate, can be calculated based on the Donnanequilibrium. Using the feed side as an example, the concentration insidethe membrane is given by 𝑐m,f,𝑖= 𝑐f,𝑖𝛷𝑖exp(-𝑧𝑖𝜙f ).(3) The partitioning coefficient 𝛷𝑖includes any contribution except forcharge effects, and 𝜙f is the difference in electrical potential acrossthe membrane–feed interface, which is a function of the membranecharge density, 𝑋, and the salt concentration at the membrane–feedinterface. The membrane charge density can be positive or negativedepending on the type of membrane. Moreover, the solution pH canaffect the membrane charge and the ionization of solutes such asMPs or amphoteric ions. Models that consider the effect of pH onmembrane charge and ionization degree of charged solutes can befound in literature [3,20,21] . Although, pH can strongly affect MPrejection [22], pH is close to pH = 7 in situations that are applicablefor drinking water production, and therefore, in the experimental andtheoretical sections of this work, pH is set to 7.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "situations that are applicablefor drinking water production, and therefore, in the experimental andtheoretical sections of this work, pH is set to 7. In the case of a solutionwith a symmetric salt, 𝜙f is calculated as 𝜙f = asinh(𝑋2 𝑐int,𝑖𝛷 ).(4) Considering the low water recovery limit, the concentration of MPsin the permeate is related to the MP flux by 𝑐p,𝑖= 𝐽𝑖∕𝑣w. In membranemodules, the low water recovery limit suggests that the concentrationon the feed side, 𝑐f, remains relatively constant along the channel. Thislimit is also valid in experimental conditions, such as when a membranecoupon is placed in a cross-flow cell for filtration experiments or indead-end filtration experiments. Considering this relation and replacing𝑐m,f,𝑖in Eq. (2) we can define the flux of a MP as function of theconcentration in the feed 𝐽𝑖= 𝑃𝑖Pemod,𝑖𝑣w 𝑐f,𝑖𝛼mod,𝑖exp(-zi𝜙f) 𝑣w (𝛼mod,𝑖-1) + 𝑃𝑖Pemod,𝑖(exp(-zi𝜙p))(5) where 𝑃𝑖= 𝐾f,𝑖𝑘m,𝑖𝛷𝑖is a empirical transport parameter (LMH) thatdepends on the properties of the MPs and the membrane that is used.For instance, the size of the MP and the porous structure of themembrane determine the mass transfer coefficient inside the membrane and the friction factor between the MP and the membrane matrix.Moreover, 𝑃𝑖is function of the partitioning coefficient, 𝛷𝑖, which cancapture the effect of the membrane charge, the MP charge, and thesolute–membrane interactions. The electrical potential at membrane–solution interface in the permeate side is given by 𝜙p is.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e, the MP charge, and thesolute–membrane interactions. The electrical potential at membrane–solution interface in the permeate side is given by 𝜙p is. Additionally,we define 𝛼mod,𝑖= exp(Pemod,i). The flux of charged MPs through themembrane is dependent on the electrical potential at the interfaceand across the membrane. This potential is intricately related to boththe ionic strength and the transport of ions through the membrane.Consequently, to calculate MP transport and rejection, an accurateestimation of ion transport across the membrane is required. As part ofthe supplementary material for this work, we provide an Excel file anda manual for estimating the rejection of a monovalent salt with RO andNF membranes using the SF model [13]. The file employs a numericalsolution and the Excel Solver extension to calculate salt rejection andthe electrical potential values needed to estimate MP flux and rejectionacross the membrane. Considering the low water recovery limit, rejection is given by 𝑅𝑖= 1 -𝐽𝑖𝑐f,𝑖𝑣w.(6) By combining Eqs. (5) and (6), we have derived a new equation forMP rejection. This equation encompasses the key phenomena involvedin MP rejection while maintaining simplicity through a limited set ofmodel parameters. In the following sections, we evaluate the validity ofthis new equation by comparing model calculations with experimentaldata.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "set ofmodel parameters. In the following sections, we evaluate the validity ofthis new equation by comparing model calculations with experimentaldata. The novel equation for MP rejection is then 𝑅𝑖= 1 -𝑃𝑖Pemod,𝑖𝛼mod,𝑖exp(-zi𝜙f) 𝑣w (𝛼mod,𝑖-1) + 𝑃𝑖Pemod,𝑖(exp(-zi𝜙p)) .(7) For neutral MPs, Pemod,𝑖reduces to the conventional Peclet numberPe𝑖= 𝑣w∕𝑘m,𝑖and 𝛼Pe,𝑖= exp(Pe𝑖). Therefore, the rejection of a neutralMP is given by 𝑅𝑖= 1 -𝑃𝑖Pe𝑖𝛼Pe,𝑖𝑣w (𝛼Pe,𝑖-1) + 𝑃𝑖Pe𝑖.(8) Eqs. (7) and (8), which are derived, for MP rejection with NF,are also applicable to RO membranes. These equations are based onthe general ENP equation, which accounts for transport by diffusion,convection, and electromigration, and is applicable to RO membranesas well. The primary difference in MP rejection with RO membraneslies in the order of magnitude of the transport parameter and the masstransfer coefficient for the MPs. Additionally, in some cases, the equations presented in this work may be simplified for scenarios involvingRO membranes, where convection and electromigration contribute lesssignificantly to MP rejection.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2. Ion rejection To calculate MP rejection, Eq. (7), one must know the electricalpotential difference across the membrane, 𝜙m, and the potential at thefeed, 𝜙f, and permeate, 𝜙p, interface, which are determined by thesalt concentration, membrane charge density, and the transport of ionsacross the membrane. Therefore, an accurate model to predict ion fluxand rejection is crucial. In this work, the SF model is employed to studythe rejection of ions, incorporating the effects of leakage through themembrane resulting from imperfections. The flux of ions through the membrane is calculated using Eq. (1),which, assuming mass conservation, 𝜕𝑐𝑖\n\n𝜕𝑥= -𝜕𝐽𝑖 𝜕𝑥, and steady state and no chemical reactions, 𝜕𝑐𝑖 𝜕𝑡= 0, leads to 0 = 𝐾f,𝑖𝑣w𝜕𝑐𝑖 𝜕𝑥-𝐾f,𝑖𝑘m,𝑖𝜕𝜕𝑥 (𝜕𝑐𝑖 𝜕𝑥+ 𝑧𝑖𝑐𝑖𝜕𝜙𝜕𝑥\n\n).(9)\n\nThe concentration of ions inside the membrane at both sides, feedand permeate, are also calculated based on the Donnan equilibrium Journal of Membrane Science 713 (2025) 123347",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S.C. Osorio et al. Eq. (3). Furthermore, we consider local electroneutrality and zeroelectric current at all positions in the membrane according to ∑ 𝑖𝑧𝑖𝑐𝑖+ 𝑋= 0[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] and ∑ 𝑖𝑧𝑖𝐽m,𝑖= 0.[ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] In the model for salt rejection, we include the effect of leakagethrough the membrane. Polymeric membranes do not have a uniformand perfect structure leading to imperfections that in practice behaveas leakages (membrane sections with higher flux) [23,24]. Leakagesthrough the membrane can also originate from physical damage ofthe polyamide layer during the experimental work [25], or by thepressure exerted by the spacers that are normally used in membraneconfigurations [26]. Therefore, we define the total flux of ions throughthe membrane, 𝐽T, as the sum of the flux due to leakages, 𝐽L,𝑖, andacross the intact membrane, 𝐽m,𝑖which is given by Eq. (1). The fluxdue to leakages is defined as 𝐽L,𝑖= 𝐴L𝑐f𝛥𝑃h,∞[ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] where 𝐴L is a permeability leakage factor in LMH/bar, 𝑃h,∞is thepressure difference between feed and permeate [13].",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "{4} z_i C_i\\tag{12}\\end{equation}] where 𝐴L is a permeability leakage factor in LMH/bar, 𝑃h,∞is thepressure difference between feed and permeate [13]. Moreover, thetotal water flux including leakage, 𝑣w,T, must be used to calculate theconcentration of ions in the permeate according to 𝑐p,𝑖= 𝐽T∕𝑣w,T. In theSI, we present how the total water flux including leakage is calculated. 3. Materials and methods 3.1. Chemicals and membrane The micropollutants used in this study are atrazine (ATZ), paracetamol (PCT), metformin (MTF), atenolol (ATN), sulfamethoxazole (SMX),ibuprofen (IBF), and aspirin (ASP). The properties of the MPs areprovided in the supplementary information (SI). All chemicals werepurchased in analytical grade with >98% purity. These MPs wereselected for their diverse charges and their representation of a broadrange of relevant MP sizes (129–266 g/mol). Selecting appropriatemodel compounds is essential for evaluating the influence of specificphenomena on MP rejection. With representative model compounds,valuable insights into the mechanisms driving MP rejection can begained. Given our hypothesis that salt concentration impacts MP rejection based on charge, charge was a key factor in the selection.Size was also considered, as the significance of Donnan exclusion andelectromigration varies with MP size. By working with these seven MPs,we aim to assess the effects of MP size and charge on rejection underdifferent salt concentrations.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ries with MP size. By working with these seven MPs,we aim to assess the effects of MP size and charge on rejection underdifferent salt concentrations. The commercial membrane NF270 (DOW-DuPont) was used in thefiltration experiments. This polyamide thin film composite membranehas a molecular weight cut-off between 200–400 g/mol [27–30]. TheNF270 was selected for this study because it is widely used for drinkingwater treatment and has been used in previous studies on MP removaland the effect of salt concentration. This enables a direct comparisonof our results with existing data. The membrane was purchased fromLenntech, Delft, The Netherlands. 3.2. Filtration experiments Filtration experiments were conducted to validate our model andto elucidate the impact of the sodium chloride (NaCl) concentrationon the rejection of 7 MPs. The salt NaCl was used because of theanticipated weak interaction between MPs and the membrane with Na+ and Cl– ions. The experimental NaCl concentrations used during theexperiments were 2, 5, 10, 50 and 100 mM and the concentration ofMPs was set between 0.08 and 0.13 μM. Not all MPs were jointly testedin the same filtration experiment; instead, the MPs were divided intotwo groups. group 1: MTF (+) and ATN (+). group 2: ATZ, PCT, SMX (-), IBF (-), and ASP (-). The experiments were performed using a cross-flow (lab-scale)membrane filtration system connected to two stainless steel membranecells that were placed in series.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nts were performed using a cross-flow (lab-scale)membrane filtration system connected to two stainless steel membranecells that were placed in series. The temperature of the feed solutionwas kept between 𝑇= 20-21 ◦C using a heat exchanger, and the pHof the feed solution was kept between pH = 6.8-7.2 by bubbling N2gas to control the N2∕CO2 ratio in solution [31]. Membrane couponsof ∼40 cm2 of the membrane NF270 (DOW) were used. Coupons werecut after opening the spiral wound NF module. Before the filtrationexperiment, the coupons were soaked in deionized water for at least24 h. Subsequently, the membrane was pretreated at high pressure(20 bar) for 4 h using deionized water. Following the pretreatment with water, the filtration system wasoperated with the feed solution at pH = 7 for at least 24 h at 15 barto ensure a steady state during the sampling. The same membranecoupons were consistently used throughout all experiments to avoid introducing other membranes with different degrees of imperfection thatimpact the leakage flux, 𝐽L,𝑖. During the experiments, we controlled thefeed flow rate at 60 l/h while increasing the pressure from 2 to 10 bar.Following the adjustment of the pressure, we allowed the system tostabilize for a minimum of one hour before taking samples from thefeed and permeate tanks. Every sample was analyzed to measure ionand MP concentrations and to calculate rejection. 3.3.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "before taking samples from thefeed and permeate tanks. Every sample was analyzed to measure ionand MP concentrations and to calculate rejection. 3.3. Analytical methods MP concentrations in the feed tank and permeate samples weremeasured to determine MP rejection. The MP measurement was doneusing an LC-MS/MS 6420 Triple Quad Mass Spectrometer (Agilent,USA) equipped with a UHPLC guard Zorbax Eclipse Plus C18 1.8 μm,2.1 * 5 mm as pre-column and a Zorbax Eclipse Plus C18 RRHD 1.8 μm,50 * 2.1 mm column (Agilent). For all MPs the same eluents were usedexcept for ASP, which required different eluents for the analysis. Theacid eluent (A) was a solution with neutral buffer of 10 mM ammonia,10.4 mM formic acid, and 0.04 mM oxalic acid, and eluent B wasmethanol. For ASP analysis, eluent A was acetic acid (0.1%+) andeluent B was acetonitril. Detailed information regarding the ionizationmethod, the precursor, product ions, and the time segment, are outlinedin the SI. 4. Results 4.1. Salt rejection The salt rejection was measured at 5 salt concentrations (2, 5, 10,50, and 100 mM). In practical situations, the salt concentration may notreach values as high as 100 mM. However, this wide range of concentrations was chosen to have more confidence in the experimental resultsand the conclusions made about the effect of salt concentration on MPrejection.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "trations was chosen to have more confidence in the experimental resultsand the conclusions made about the effect of salt concentration on MPrejection. By evaluating such a wide range of salt concentrations, a significant effect on rejection could be observed and we could corroboratethat our model is a good alternative to predict MP rejection. Moreover,the measurements of NaCl rejection were conducted to estimate modelparameters that were used in this study and to determine the valuesof the electrical potential difference across the membrane, 𝜙m, andthe potential at the feed, 𝜙f, and permeate, 𝜙p, interface for each saltconcentration. Transport properties of Na+ and Cl– were fitted andestimated using experimental data; specifically, the friction factor, 𝐾F,the mass transfer coefficient, 𝑘m, and the partition coefficient 𝛷, whichwe assume to be the same for both ions. Furthermore, with the data forsalt rejection, we also determined values for membrane charge density,𝑋, water permeability, 𝐴m, and the permeability leakage factor, 𝐴L,which are parameters that depend on the membrane used during theexperiments. In case a different membrane than the NF270 is used, it Journal of Membrane Science 713 (2025) 123347",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S.C. Osorio et al. Table 1Model parameters that were estimated by fitting the experimental data for NaClrejection. ParameterValueUnit 𝐾f0.065–𝛷1–𝑋-53mM𝐿m100nm𝑘m1040LMH𝐴m a13.5LMH/bar𝐴L1.1LMH/bar a 𝐴m is the water permeability of the membrane and 𝐴L is the permeability leakagefactor. would be necessary to identify the specific membrane and transportparameters that are characteristic of that membrane. However, thedescribed theory is applicable to any NF membrane. The values ofthese parameters used in this work are given in Table 1. The waterpermeability, 𝐴m, of the commercial NF270 membrane falls withinthe range reported in the literature (5.5–17 LMH/bar) for the NF270membrane [29,30]. To compare the ion parameters listed in Table 1,we define a salt transport parameter, 𝑃NaCl= 𝑘m𝛷𝐾f, which hasbeen established using a large set of experimental data for differentRO membranes (0.015–0.95 LMH) [13]. In our study with NF, thistransport parameter is two orders of magnitude larger than that forRO membranes, with a value of 𝑃= 67.6 LMH. This is consistent withthe fact that NF membranes generally offer lower rejection than ROmembranes. Similarly, the ion parameters can be compared with those definedin the Spiegler and Kedem (SK) model, a classical version of the SFmodel. In the SK model, the reflection coefficient, 𝜎, and the transportparameter, 𝜔, are defined. These parameters relate to those in ourmodel as follows: 𝜎= 1 -𝛷𝐾f and 𝜔= 𝑘m𝛷𝐾f.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "eflection coefficient, 𝜎, and the transportparameter, 𝜔, are defined. These parameters relate to those in ourmodel as follows: 𝜎= 1 -𝛷𝐾f and 𝜔= 𝑘m𝛷𝐾f. In the present work,these values correspond to 𝜎= 0.935 and 𝜔= 67.6 LMH. For theNF270 membrane, the reported ranges for the model parameters are𝜎= 0.18 -0.59 and 𝜔= 26 -168 LMH [32–36]. Fig. 2 depicts the results for salt rejection. The results show that saltconcentration clearly affects rejection, which is in agreement with literature [37,38]. However, with the current model the data correspondingto the experiment with 50 mM NaCl was not accurately predicted.The model shows that the effect of salt concentration on rejectionreaches a plateau at high concentration, and therefore the rejectionwith 50 mM and 100 mM are similar. These results are in line withprevious studies on the effect of salt concentration on the rejectionof monovalent salts [39,40]. However, experimentally the differenceon rejection between these two concentrations is still significant. Thevalues of the electrical potential difference across the membrane, 𝜙m,and the potential at the feed, 𝜙f, and permeate, 𝜙p, that were derivedfrom the model calculations for salt rejection are necessary to estimateMP rejection. Since the experimental data corresponding to 50 mMNaCl was not accurately predicted, we include and analyze the removalof MPs with 50 mM NaCl separately in the SI.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.2. MP rejection\n\nThe rejection of MPs was calculated using Eqs. (7) and (8) forcharged and neutral MPs. In both cases, rejection is a function of thetransport parameter 𝑃𝑖and the mass transfer coefficient 𝑘m, whichare characteristic of each MP and depend on the MP and membraneproperties. In our model, these parameters were adjusted to have agood agreement between the experimental data and. The values forthese parameters are given in Table 2. Besides, in the SI, we compareand discuss the values of these transport parameters based on MPproperties, demonstrating their dependence on MP size and charge.\n\nFig. 2. Data and theory for salt rejection with different NaCl concentrations and waterflux, 𝑣w. The lines show the results from the model calculations. The parameters usedin these calculations are given in Table 1.\n\nTable 2Model parameters that were used to calculate MP rejection with Eqs. (7) and (8). ChargeMicropollutant𝑘m (LMH)𝑃i (LMH) NeutralAtrazine (ATZ)1904.5NeutralParacetamol (PCT)25667PositiveMetformin (MTF)2594.1PositiveAtenolol (ATN)1733.4NegativeSulfamethoxazole (SMX)1897.1NegativeIbuprofen (IBF)2167.3NegativeAspirin (ASP)2388.6",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.2.1. Neutral MPs In this study, we consider the effect of salt concentration on MPremoval. Our model captures the impact of salt concentration on Donnan exclusion and electromigration inside the membrane. However, theeffect of salt concentration on NF performance can go beyond thesecharge-based phenomena. For instance, increasing salt concentrationcan lead to pore swelling and lower the rejection of solutes [41–44].High salt concentrations in the solution generally lead to a higherconcentration of counter-ions inside the membrane. The presence ofthese counter-ions leads to a stronger repulsive force that can ultimatelyresult in pore swelling. Experimentally, we observed that the rejectionof neutral MPs (ATZ and PCT) is not influenced by the NaCl concentration. Therefore, with the experimental conditions of this study, weconclude that salt concentration only impacts MP rejection throughcharge-based phenomena. In Fig. 3, the results for ATZ and PCT are depicted. The rejection ofthese MPs is solely determined by steric exclusion. Both experimentalresults and theoretical calculations indicate that the rejection of ATZ(𝑀w ∼215 g/mol) is higher than of PCT (𝑀w ∼151 g/mol). For paracetamol, the experimental results show significant deviation in rejectionvalues, likely due to the limitations of the analytical method used. Thesmall size and neutral charge of paracetamol present challenges forthis method, which depends on fractionating molecules based on bothpolarity and size. 4.2.2.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e and neutral charge of paracetamol present challenges forthis method, which depends on fractionating molecules based on bothpolarity and size. 4.2.2. Charged MPs The selection of micropollutants (MPs) plays a crucial role in studying and understanding the phenomena that impact MP rejection. In thisstudy, we investigated and compared the effects of salt concentration Journal of Membrane Science 713 (2025) 123347",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S.C. Osorio et al.\n\nFig. 3. Data and theory for the rejection of neutral MPs with different NaCl concentrations and water flux, 𝑣w. (A) Rejection of atrazine (ATZ). (B) Rejection of paracetamol(PCT). The line shows the results from the model calculations. The markers represent the NaCl concentration: ♢2 mM, # 5 mM, □10 mM, ▵50 mM, and ∗100 mM. The modelcalculations are not dependent on the NaCl concentration, since the rejection of neutral MPs is not influenced by the NaCl concentration, Eq. (8). The parameters used in thesecalculations are given in Tables 1 and 2.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. Data and theory of metformin (MTF) rejection as function of the water flux, 𝑣w, (A) and the NaCl concentration (B). The lines show the results from the model calculationsusing Eq. (7). The parameters used in these calculations are given in Tables 1 and 2. on the rejection of positively and negatively charged MPs. Furthermore,we strategically chose MPs with varying sizes to determine whethersalt concentration affects the rejection of small and large contaminantsdifferently. This choice enables us to explore size-dependent rejectionand, simultaneously, assess the potential interplay between size-basedand charge-based effects in specific scenarios. In the study of positively charged MPs, we examined MTF (𝑀w ∼129 g/mol) and ATN (𝑀w ∼266 g/mol). The results indicate distincteffects of salt concentration on the rejection of each MP. An increasein NaCl concentration has two significant impacts on rejection andtransport mechanisms. Firstly, the decrease in the electrical potentialat the feed interface, 𝜙f, diminishes the effect of Donnan exclusionof co-charged MPs and the attraction of counter-charged MPs. Secondly, the reduction in the electrical potential across the membrane,𝜙m, influences the transport of charged MPs due to electromigration.For positively charged MPs, higher salt concentration leads to lowerelectrostatic attraction at the membrane–solution interface.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e to electromigration.For positively charged MPs, higher salt concentration leads to lowerelectrostatic attraction at the membrane–solution interface. The data and calculations for MTF rejection as function of NaClconcentrations and water flux, 𝑣w, are presented in Fig. 4. The rejection of MTF as function of 𝑣w is given in Fig. 4A. The trend indicates thatincreasing NaCl concentration lowers MTF rejection. Given its smallsize and high mobility, with 𝑃MTF = 4.08 LMH, MTF is minimally affected by lowering electrostatic attraction. This MP passes through themembrane, despite the Donnan effect, because of its small size. On theother hand, increasing NaCl concentration decreases electromigrationwhich for positive MPs goes from permeate to feed, and therefore therejection increases. Furthermore, in Fig. 4B, the rejection of MTF is plotted as functionof NaCl concentration for three values of water flux, 𝑣w. The markersin this plot are interpolated values of rejection using the experimentaldata. The impact of NaCl concentration on the rejection of MTF diminishes with increasing NaCl concentration, reaching a plateau value after50 mM NaCl. Similar behavior in rejection has been reported in studiesinvestigating the effect of salt concentration on the rejection of singlesalts [39,40]. The case for ATN is somehow different from MTF. We observed thatincreasing NaCl concentration can have both effects, harm and improveATN rejection.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S.C. Osorio et al.\n\nFig. 5. Data and theory for atenolol (ATN) rejection as function of the NaCl concentration and water flux, 𝑣w. (A) The rejection with 2 mM and 5 mM NaCl; in this case, rejectionis decreased due to the higher electromigration. (B) ATN rejection with 10 and 100 mM NaCl; with these concentrations, ATN rejection increases with NaCl concentration due tothe lower concentration of ATN inside the membrane. (C) ATN rejection as function of salt concentration. The parameters used in these calculations are given in Tables 1 and 2.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. Data and theory for the rejection of negatively charged MPs at different NaCl concentrations as function of water flux, 𝑣w: (A) sulfamethoxazole (SMX), (B) ibuprofen(IBF), and (C) aspirin (ASP). The colored section corresponds to the rejection range calculated with 2 and 100 mM NaCl. The markers represent the NaCl concentration: ♢2 mM,# 5 mM, □10 mM, ▵50 mM, and ∗100 mM. Two data points from literature are included for comparison, these data points correspond to experimental work with membraneNF270 and similar operating conditions. The parameters used in these calculations are given in Tables 1 and 2. The data represented by a D is from Fujioka et al. (20 mM NaCl,pH = 8, and T = 20 ◦C) [45]. The data point represented by a ⋆is from Nghiem et al. (20 mM NaCl, pH = 7, and T = 20 ◦C) [46]. results in lower rejection of ATN (Fig. 5A). In this concentration range,the effect of salt concentration on ATN rejection is dominated by electromigration. Although ATN is a larger molecule than MTF with a lowermobility within the membrane, 𝑃ATN = 3.42 LMH, electromigrationremains the dominating effect. However, this effect is counterbalancedby the Donnan effect at higher NaCl concentrations (Fig. 5B). Thereduced electrostatic attraction, i.e., the reduction of electrical potentialat the feed, 𝜙f, combined with the size exclusion of ATN decreases theconcentration of ATN inside the membrane, according to Eq. (3).",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ctrical potentialat the feed, 𝜙f, combined with the size exclusion of ATN decreases theconcentration of ATN inside the membrane, according to Eq. (3). This,in turn, improves the rejection of ATN at NaCl concentrations higherthan 5 mM. In Fig. 5C, the rejection of ATN is depicted as function of saltconcentration. It is shown that the rejection of ATN decreases to a minimum value within the NaCl concentration range of 9–12 mM. Furtherincreases in NaCl concentration lead to higher rejections. These resultsfor ATN illustrate the interplay between size effects and charge-basedeffects on MP rejection. In this study, three negatively charged MPs were selected: SMX, IBF,and ASP. These MPs were used because they are representative of awide size range [180–256 g/mol]. Based on previous studies [16,45],it was expected that salt concentration would have a weaker effect onthe rejection of SMX and IBF, due to their large size. In the case ofASP, rejection can be more influenced by salt concentration because ofthe small size of this MP, i.e., the rejection of small MPs relies moreon Donnan exclusion and electromigration. Based on our experimentalresults, we cannot conclude that salt concentration impacts the rejection of any of these negatively charged MPs, Fig. 6. We acknowledgesome experimental limitations in our work; for instance, we could notuse lower operating pressures. With pressures below 2 bar, the impactof the NaCl concentration on rejection would be more clear.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "instance, we could notuse lower operating pressures. With pressures below 2 bar, the impactof the NaCl concentration on rejection would be more clear. Moreover, the analytical method used to measure the concentration of negativelycharged MPs may not be sensitive enough at high salt concentrationsdue to the interference of the water matrix during the measurementsor the further dilution that was needed for the samples. Compared to the experimental data, our model predicts that increasing salt concentration leads to a small decrease in the rejection of allthree MPs. In Fig. 6, instead of presenting the model results for eachNaCl concentration we show a range of rejection that corresponds tothe model results with 2 (upper limit) and 100 (lower limit) mM NaCl.Although the model does not predict the data perfectly, it providesa good qualitative description of the data. Therefore, we still believethat the model proposed in this work to estimate the rejection of MPs,Eqs. (7) and (8), is a useful and accurate model, especially because themodel captures the main mechanism involved in the rejection of MPsbut remains easy to be implemented with only a few model parametersthat can be found experimentally. Furthermore, we compared ourmodel prediction and experimental data for SMX and IBF rejectionwith the work of Nghiem et al. [46] and Fujioka et al. [45]. Theirexperimental results are similar to ours, with IBU rejection between90%–97% and SMX rejection between 83%–92%.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "al. [46] and Fujioka et al. [45]. Theirexperimental results are similar to ours, with IBU rejection between90%–97% and SMX rejection between 83%–92%. These values fall inthe rejection range predicted by our model. 5. Conclusions We derived a new model to study the rejection of MPs with NFmembranes that is derived from the SF model. This model captures themain mechanisms influencing MP rejection with NF, namely convection, diffusion, and electromigration. Moreover, the implementation ofthe model remains simple due to the reduced number of parametersneeded to estimate MP rejection. The mass transfer coefficient 𝑘m,𝑖 Journal of Membrane Science 713 (2025) 123347",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S.C. Osorio et al. and the transport parameter 𝑃𝑖for each micropollutant can be easilyidentified for specific membranes, provided that the rejection of ionsand the membranes properties are known. Additionally, we present a robust experimental dataset that wasused to validate the model described in this work. The results fromour model are in agreement with the experimental data. However, forthe implementation of this model, one must know the membrane’sperformance in terms of salt rejection and identify key membranesproperties such as the membrane charge density. Experimentally, we used several NaCl concentrations to investigatethe effect of water composition on the rejection of MPs with differentproperties. We found that effect of salt concentration on MP rejectiondepends on MP charge and size. In the case of counter-charged andsmall MPs (MTF), high salt concentrations increase electromigration ofMPs across the membrane which reduces rejection significantly. On theother hand, with counter-charged and large MPs (ATN), high salt concentration can increase rejection due to a lower electrostatic attractionof ATN by the membrane, resulting in a lower MP concentration andtransport inside the membrane. Experimentally, we could not concludewhether the rejection co-charged MPs (SMX, IBF, and ASP) is stronglyinfluenced by salt concentration. However, our model provides a goodqualitative description of experimental data.\n\nCRediT authorship contribution statement",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S. Castaño Osorio: Writing – original draft, Methodology, Conceptualization. I.I. Ryzhkov: Writing – review & editing, Methodology,Conceptualization. E. Spruijt: Writing – review & editing, Methodology, Conceptualization. A. van der Wal: Writing – review & editing,Funding acquisition. P.M. Biesheuvel: Writing – review & editing,Methodology, Conceptualization. J.E. Dykstra: Writing – review &editing, Supervision, Resources, Project administration, Methodology,Funding acquisition, Conceptualization.\n\nDeclaration of competing interest\n\nThe authors declare that they have no known competing financial interests or personal relationships that could have appeared toinfluence the work reported in this paper.\n\nData availability\n\nData will be made available on request.\n\nAcknowledgments\n\nThis work was performed in the cooperation framework of Wetsus,European centre of Excellence for Sustainable Water Technology (www.wetsus.nl). Wetsus is co-funded by the Dutch Ministry of EconomicAffairs and Ministry of Infrastructure and Environment, the Provinceof Fryslân, the Northern Netherlands Provinces, and The NetherlandsOrganization for Scientific Research. The authors like to thank the participants of the Advanced Water Treatment theme for fruitful discussionand financial support.\n\nAppendix A. Supplementary data\n\nSupplementary material related to this article can be found onlineat https://doi.org/10.1016/j.memsci.2024.123347.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S.C. Osorio et al. [26] C. Lee, I.S. Kim, Osmotic membrane under spacer-induced mechanical compression: Performance evaluation and 3D mechanical simulation for moduleoptimization, J. Membr. Sci. 641 (2022) 119875.[27] B.M. Xaba, S.J. Modise, B.J. Okoli, M.E. Monapathi, S. Nelana, Characterization of selected polymeric membranes used in the separation and recovery ofpalladium-based catalyst systems, Membranes 10 (2020) 166.[28] M. Dalwani, N.E. Benes, G. Bargeman, D. Stamatialis, M. Wessling, A method for characterizing membranes during nanofiltration at extreme pH, J. Membr. Sci.363 (2010) 188–194.[29] A. Ramdani, A. Deratani, S. Taleb, N. Drouiche, H. Lounici, Performance of NF90 and NF270 commercial nanofiltration membranes in the defluoridationof Algerian brackish water, Desalination Water Treat. 212 (2021) 286–296.[30] O.P. Crossley, R.B. Thorpe, D. Peus, J. Lee, The effect of salinity on the pressure susceptibility of the NF270 membrane, Desalination 564 (2023) 116804.[31] M. Pranić, E.M. Kimani, P.M. Biesheuvel, S. Porada, Desalination of complex multi-ionic solutions by reverse osmosis at different pH values, temperatures,and compositions, ACS Omega 6 (2021) 19946–19955.[32] H. Kelewou, A. Lhassani, M. Merzouki, P. Drogui, B. Sellamuthu, Salts retention by nanofiltration membranes: Physicochemical and hydrodynamic approachesand modeling, Desalination 277 (2011) 106–112.[33] R.R. Nair, E. Protasova, S. Strand, T.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ration membranes: Physicochemical and hydrodynamic approachesand modeling, Desalination 277 (2011) 106–112.[33] R.R. Nair, E. Protasova, S. Strand, T. Bilstad, Implementation of Spiegler– Kedem and steric hindrance pore models for analyzing nanofiltration membraneperformance for smart water production, Membranes 8 (2018) 78.[34] H.Al-Zoubi,W.Omar,Rejectionofsaltmixturesfromhighsalinebynanofiltration membranes, Korean J. Chem. Eng. 26 (2009) 799–805.[35] N. Zouhri, M. Igouzal, M. Larif, M. Hafsi, M. Taky, A. Elmidaoui, Prediction of salt rejection by nanofiltration and reverse osmosis membranes using SpieglerKedem model and an optimisation procedure, Desalination Water Treat. 120(2018) 41–50.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[36] S. Bason, O. Kedem, V. Freger, Determination of concentration-dependent transport coefficients in nanofiltration: Experimental evaluation of coefficients, J.Membr. Sci. 326 (2009) 197–204.[37] L. Han, J. Tian, C. Liu, J. Lin, J.W. Chew, Influence of pH and NaCl concentration on boron rejection during nanofiltration, Sep. Purif. Technol. 261 (2021) 118248.[38] J. Tanninen, M. Mänttäri, M. Nyström, Effect of salt mixture concentration on fractionation with NF membranes, J. Membr. Sci. 283 (2006) 57–64.[39] S. Bandini, C. Mazzoni, Modelling the amphoteric behaviour of polyamide nanofiltration membranes, Desalination 184 (2005) 327–336.[40] Z. Wang, K. Xiao, X. Wang, Role of coexistence of negative and positive membrane surface charges in electrostatic effect for salt rejection by nanofiltration,Desalination 444 (2018) 75–83.[41] X. Wang, C. Zhang, P. Ouyang, The possibility of separating saccharides from a NaCl solution by using nanofiltration in diafiltration mode, J. Membr. Sci. 204(2002) 271–281.[42] M. Nilsson, G. Trägårdh, K. Östergren, The influence of pH, salt and temperature on nanofiltration performance, J. Membr. Sci. 312 (2008) 97–106.[43] A. Escoda, P. Fievet, S. Lakard, A. Szymczyk, S. Déon, Influence of salts on the rejection of polyethyleneglycol by an NF organic membrane: Pore swelling andsalting-out effects, J. Membr. Sci. 347 (2010) 174–182.[44] J. Luo, Y.",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the rejection of polyethyleneglycol by an NF organic membrane: Pore swelling andsalting-out effects, J. Membr. Sci. 347 (2010) 174–182.[44] J. Luo, Y. Wan, Effect of highly concentrated salt on retention of organic solutes by nanofiltration polymeric membranes, J. Membr. Sci. 372 (2011) 145–153.[45] T. Fujioka, S.J. Khan, J.A. McDonald, L.D. Nghiem, Nanofiltration of trace organic chemicals: A comparison between ceramic and polymeric membranes,Sep. Purif. Technol. 136 (2014) 258–264.[46] L.D. Nghiem, A.I. Schäfer, M. Elimelech, Pharmaceutical retention mechanisms by nanofiltration membranes, Environ. Sci. Technol. 39 (2005) 7698–7705. Journal of Membrane Science 713 (2025) 123347",
+    "citation": {
+      "authors": [
+        "Casta S.",
+        "Ryzhkov I.I.",
+        "Spruijt E.",
+        "Biesheuvel P.M.",
+        "Dykstra J.E."
+      ],
+      "paper_id": "1-s2.0-S0376738824009414-main",
+      "title": "Micropollutant removal via nanofiltration: The effect of salt concentration — Theory and experimental validation",
+      "year": "2024",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  }
+]

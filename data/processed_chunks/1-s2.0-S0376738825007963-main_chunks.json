@@ -1,0 +1,1086 @@
+[
+  {
+    "content": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning Bastian S. Kirkebæk a , Marina Artemeva b\n\n, Javier Lopez Navas b , Anna H. Danielak b\n\n, David B. Pedersen b, Aamer Ali c, Cejna A. Quist-Jensen a,* a Center for Membrane Technology, Department of Chemistry and Bioscience, Aalborg University, Fredrik Bajers Vej 7H, 9220 Aalborg East, Denmarkb Department of Civil and Mechanical Engineering, Technical University of Denmark, Kgs. Lyngby, Produktionstorvet 427A, 2800, Denmarkc AAU Energy, Aalborg University, Pontoppidanstræde 111, Aalborg East, 9220, Denmark\n\nA R T I C L E I N F O Keywords:Membrane synthesisPolymerization induced phase separationHydrophobicityMechanical strengthThermal resistance,Vat photopolymerizationStereolithography",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T 3D printing presents significant advantages for membrane fabrication, offering unprecedented control over ge­ometry. Vat photopolymerization (VPP) combined with polymerization-induced phase separation (VPP-PIPS) is a promising method for 3D printing of polymeric membranes, enabling the rapid fabrication of geometrically complex structures. VPP-PIPS utilizes thermoset materials, expanding the range of applicable polymers and providing unique properties such as high chemical and thermal stability. However, the inherent brittleness of thermosets poses a challenge for membrane applications. This study demonstrates that copolymerizing hydroxyethyl methacrylate (HEMA)-based membranes with varying amounts of polyurethane acrylate (PUA) significantly and progressively enhances thermal stability, tensile strength, and hydrophobicity in a tuneable manner, surpassing that of conventional membranes. The thermal stability increases from 260 ◦C to 345 ◦C, tensile strength improves from 1.95 MPa to 21.20 MPa, and the contact angle rises from 44.3◦± 4.0◦–66.2◦±3.2◦. As the physicochemical properties of VPP-PIPS membranes evolve, membrane characteristics such as porosity, permeability, and pore size also change. With increasing PUA content, porosity decreases from 0.65 ±0.01 to 0.47 ± 0.03, mean pore size reduces from 171 nm to 46 nm, and permeability drops from 180 ± 19.07 LMH/bar to 0.52 ± 0.14 LMH/bar.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s from 0.65 ±0.01 to 0.47 ± 0.03, mean pore size reduces from 171 nm to 46 nm, and permeability drops from 180 ± 19.07 LMH/bar to 0.52 ± 0.14 LMH/bar. Additionally, substituting HEMA with tert-butyl acrylate further increases the contact angle to 108.8 ± 2.6◦, while the introduction of 3D micropillars further elevates it to 136.8 ± 1.0◦, resulting in a full tuneable range from 44.3◦to 136.8 ± 1.0◦. These findings highlight the versatility of VPP-PIPS for fabricating membranes with highly customizable properties, paving the way for improved performance in various separation processes.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction 3D printing or additive manufacturing, is a method for computermade designs to be generated into a physical object. 3D printing is unparalleled when it comes to the freedom of generating 3D models and can make complex shapes that are difficult by other conventional means [1]. One area where 3D printing has recently gained significant interest is in membrane fabrication, where precise control over geometries can significantly enhance performance in various separation processes [2]. It is widely recognized that fabricating membranes with complex shapes can improve their efficiency by enhancing mass and heat transport across the membrane [3], mitigating fouling [4–6], promoting cell adhesion [7–9], and modifying the membrane’s wettability, whether to increase or decrease it [10,11]. In order to fabricate membranes via 3D printing, a high resolution is needed. The printing method needs to able to create details <10 μm in order to make pores small enough to be considered microfiltration(MF). The 3D printing method with the highest resolution is generally vat photopolymerization (VPP) also commonly referred to as stereolithography (SLA or SL) [12]. VPP is a 3D printing method in which a UV source will project an illuminated area (commonly by a mask or direct laser) on to a vat of unhardened resin or ink consisting of polymerizable polymers, oligomers, or monomers, which are usually mixed with a photoinitiator.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This article is part of a special issue entitled: Early Career Membrane Scientists published in Journal of Membrane Science. * Corresponding author.E-mail address: cejna@bio.aau.dk (C.A. Quist-Jensen).\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 735 (2025) 124483",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 28 July 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). determine the thickness of each layer. The build plate will then move to generate some space for another layer on top of the previous one, layer by layer generating a full 3D structure [13,14]. Recent advancements within 3D printing have made it possible to obtain resolution down to 200 nm commercially or 9 nm via a VPP method coined two-photon polymerization (TPP), which will make it possible to generate MF/UF membranes [15–17]. However, limited laser spot size of TPP makes it impractical for large-scale membrane pro­duction, as its high resolution comes at the cost of extremely slow printing speeds [18]. For example, the typical buildplate size of 1 mm2–10 mm2 commonly cited in literature, fabricating a 1 m2 mem­brane with a thickness of 250 μm would currently take approximately 1.5 months [15–17]. An alternative approach involves printing materials that inherently possess porosity. The most common printing method which produces porous prints is Selective laser sintering (SLS). SLS uses particle sintering techniques to create structures, thereby creating porous structures with a porosity and pore size largely dependent on particle size.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rticle sintering techniques to create structures, thereby creating porous structures with a porosity and pore size largely dependent on particle size. Therefore, despite its potential, SLS is limited by its relatively low resolution and formation of typically large pore sizes caused by the limitations of the particle size and sintering [3,19]. While this allows for the fabrication of large-area porous components, the resulting pore sizes typically range from 10 to 800 μm, making them unsuitable for most membrane sepa­ration processes [20–22]. Another emerging porous printing method is VPP coupled with a less well-known phase inversion method, polymerization induced phase separation (VPP-PIPS) [23]. PIPS distinguishes itself from other phase inversion techniques by lowering the solubility of the polymer by rapidly increasing the polymer molecular weight as explained by Flory-Huggins and Cahn-Hillard [24,25]. This mechanism is therefore possible to be coupled with commercial MSLA VPP printers (Fig. 1), shown by Kirkebæk et al. [26] who further demonstrated that mem­branes were possible to be printed by this VPP-PIPS method with a high tune ability in properties such as porosity, pore size and thickness, by controlling parameters as porogen concentration, UV-irradiation and temperature.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e ability in properties such as porosity, pore size and thickness, by controlling parameters as porogen concentration, UV-irradiation and temperature. These membranes would have porosities in the 80 %–60 % range and pore sizes from 0.6 μm down to 0.1 μm making VPP-PIPS a likely method for printing membranes with a range from MF (10μm–0.1 μm) to UF (0.1μm–0.01 μm) (see Fig. 2). The combination of VPP and PIPS opens the possibility to 3D print complex shapes with the high resolution provided by the VPP methods while chemically generating nanometer pore sizes previously only achievable by TPP [23]. This opens up for 3D printing of porous mem­branes with similar properties as conventional phase inversion mem­branes while having considerably faster printing and high-resolution printing which was limiting for SLS and TPP [27,28]. While VPP-PIPS offers a promising approach for directly printing membranes, it is limited to UV-polymerizable monomers such as acry­lates, thiols, and epoxides, which typically form highly crosslinked polymers [29,30]. These materials are tough, brittle, solvent-resistant, and lack a melting point compared to thermoplastics (non-crosslinked polymers), due to their dense crosslinked structure [31]. However, this brittleness is a major drawback for membrane applications, as it can lead to breakage during practical use [32–34].",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nked structure [31]. However, this brittleness is a major drawback for membrane applications, as it can lead to breakage during practical use [32–34]. This brittleness is a recognized problem with VPP printing and efforts have been made to increase the flexibility of the polymer to mitigate the tough and brittle effects inherent to this method. These efforts include copolymerizing long-chained oligomers or polymers with high free mobility such as polypropylene glycol acrylates [35], or polyurethane acrylates (PUA) [36,37]. Furthermore, copolymerization has shown to greatly influence polymer physicochemical properties other than mechanical strength such as thermal stability, hydrophilicity/hydrophobicity, etc. thereby making it possible to tune these physicochemical properties with a near unlimited number of new polymers [38–40]. Being able to change the physicochemical properties can greatly benefit membranes processes. For example, hydrophobicity/hydrophilicity of membranes have been linked to anti fouling properties depending on the target compounds [41–43]. In special membrane processes such as membrane distillation, highly thermally stable, hydrophobic membranes are needed to avoid membrane failure and the feed to pass into the permeate stream [44]. However, considering when changing the monomers, parameters affecting the PIPS process such as solubility and molecular mobility may change and is likely to change the outcome of the phase inversion pro­cess [24,25,45,46].",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e PIPS process such as solubility and molecular mobility may change and is likely to change the outcome of the phase inversion pro­cess [24,25,45,46]. Therefore, in this work, we address the inherent material brittleness of VPP-PIPS membranes while exploring the possi­bility of tuning membrane physiochemical properties via copolymeri­zation. This was done by making VPP-PIPS printed membranes by copolymerizing either hydrophilic HEMA or hydrophobic tert-butyl acrylate with a flexible ink based on PUA. The printed VPP-PIPS mem­branes were then characterized in terms of changes in mechanical strength, thermal stability, and water contact angle. Furthermore, the effect of change in ink composition on the membrane properties such as porosity, pore size and water permeability was investigated. 2. Materials and method 2.1. Ink compositions Membranes were synthesized via co-polymerization of three inks:Ink One (HEMA-based): 76 % 2-Hydroxyethyl methacrylate (HEMA), 19 % Trimethylolpropane triacrylate, 5 % Irgacure 819. Ink Two (PUA-based): Commercial Flex resin containing 20 % PUA, 42 % AcM, 13 % Tripropylene glycol diacrylate, 19 % Ethoxylated",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Illustration of the commonly available VPP method utilizing a monochromatic screen and a UV-LED light source to generate a projection, called MSLA. B.S. Kirkebæk et al. Journal of Membrane Science 735 (2025) 124483 trimethylpropane triacrylate, 2.4 % Phosphine oxide, and 0.6 % 4Methoxyphenol. Ink Three (t-Butyl-based): 76 % tert-Butyl acrylate, 19 % Trime­thylolpropane triacrylate, 5 % Irgacure 819. Ink One and Ink Two were combined in seven different ratios, while\n\nInk Two and Ink Three were mixed in five ratios (see Table 1). Each composition was further blended with Decan-1-ol as a porogen in 60/40 (w/w%) ratios.\n\nFig. 2. Top: Illustration of synthesis method for the 3D printed membrane. Bottom; illustration of compositions of either the HEMA-based ink(ink one) or PUA-based (ink two). Subsequent 3D printed membranes. B.S. Kirkebæk et al. Journal of Membrane Science 735 (2025) 124483",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2. Membrane synthesis The membranes were made in the shape of 25 mm diameter discs with a 3 mm thickness which were drawn using Fusion 360 and sliced in Chitubox. These discs were processed using the Creality ld-002H MSLA printer. The UV irradiation time was set to 8s per layer and the layer height was 50um per layer. After 3D printing the membranes, the pieces were submerged in an acetone bath for 24 h twice to remove any residue decan-1-ol and un-polymerized ink, this procedure was followed by another 24 h of DI-water bath done twice to remove the acetone. 3 mm thickness was chosen since smaller membranes would cause structural damage when separating the membranes from the build plate with the specific printer used in this study printer. Thinner membranes are however possible as shown in Kirkebæk et al. [26] where the synthesis of membranes with thicknesses <200 μm was demonstrated. 2.3. Micro pattern membrane synthesis To further increase the contact angle, a micron sized topology was made with composition B100 by utilizing a high resolution resin 3D printer, using Masked projection vat photopolymerization, developed by M.M. Ribo [47] and A.H. Danielak [48] owned by the AM group at Technological institute Denmark (DTU). The layer height was set to 5 μm the UV exposure was set to 1600 ms, 800 ms, 400 ms, and 200 ms respectively.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "t Technological institute Denmark (DTU). The layer height was set to 5 μm the UV exposure was set to 1600 ms, 800 ms, 400 ms, and 200 ms respectively. A 10 mm * 20 mm with a 1 mm thickness membrane with a 0.5 mm pillar shaped topology of 70 μm diameter with a space in between of 70 μm were made by repeating jpeg images for each layer.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.4. Characterization of physicochemical properties of the membranes IR spectrometry was done using Bruker Tensor II ATR-FTIR spec­trometer. The output was normalized to the largest peak at 1724 cm-1. The thermal resistance was analyzed with thermal gravity analysis (TGA) (TA SDT650), and the analysis was done with a temperature ramp of 10 K/min under an air atmosphere. The contact angle measurements were performed with DI-water by a Biotic Scientific Attention Theta Lite optical tensiometer. Small discs without any porogen were made to investigate the contact angle while neglecting any capillary forces that would occur with a porous mem­brane piece. Water absorption time was done by dropping a 5 μL DI-water drop on top of the 3D printed porous membranes while their contact angle was measured as a function of time until the drop was completely absorbed. Tensile strength was done on 3D printed tensile specimens as seen on Fig. 3. The pieces were drawn in a CAD program and 3D printed with a 0.3 cm height, 1 cm with, 7.5 cm length and a 0.5 cm with at the neck. The pieces were dried prior strength test. The pieces were made with the same UV irradiation time and layer height as the 3D printed membranes in order for them to be similar. The membranes were observed through a Zeiss evo 60 scanning electron microscope (SEM). The membrane samples were coated in a thin gold layer by plasma sputtering. The membrane thickness was measured with a Mitutoyo 543-391B micrometer.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". The membrane samples were coated in a thin gold layer by plasma sputtering. The membrane thickness was measured with a Mitutoyo 543-391B micrometer. The thickness was triple determined on three separate membranes. Membrane topography of the 3D printed pieces were analyzed by a Olympus OLS 4000 LEXT laser confocal microscope, with the software MountainsSPIP (Digital Surf).",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.5. Membrane properties 2.5.1. Membrane porosity Porosity was measured by completely wetting the membranes with demineralized water and subsequent evaporation by drying the wetted membrane at 100 ◦C for 48h. The mass difference before and after evaporation corresponded to the total mass of water in the pores, which can be converted to the total void volume. Porosity was then calculated by the following equation (1): Φ = Vvoid VTotal =dmevap⋅ρwaterdmevap⋅ρwater +(dmtot -dmevap\n\n)⋅ρpoly (1) where Φ is the porosity, Vvoid is pore volume, Vtotal is the membrane volume, dmevap is the mass loss from evaporation, mtot is the total sample mass, ρwater is water density set to 1.00 g/ml and ρpoly is the polymer\n\nTable 1 Membrane reference and corresponding mass percentages of either ink one, ink two or ink three. Membrane Label Ink one [m%]Ink two [m%]Ink three [m%] F010000F2080200F4060400F5050500F6040600F8020800F10001000 B001000B2507525B5005050B7502575B1000 %0 %100 %",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. 3D printed tensile specimen, made with same CAD file. Corresponding membranes with corresponding compositions underneath the specimen. B.S. Kirkebæk et al. Journal of Membrane Science 735 (2025) 124483 density. Since the membrane polymer would vary with ink composition used, the density was measured via buoyancy change. This was done by submerging dry pieces of membrane into an ethanol bath and the mass change was measured on a microscale. The results can be found in Fig. 5. The porosity was triple determined on three separate membranes. 2.5.2. Membrane pore size Pore size was analyzed by capillary porometry with complete wet­ting of the membranes in propan-2-ol. The mean pore diameter and biggest pore size (determined as bubble point) was found with a Pore lux 1000. 2.5.3. Water permeability The water permeability was tested by a 3D printed dead-end setup made specifically for the membrane discs. Water permeability was measured under three different pressures of 1, 1.5 and 2 bar. The total membrane area was 3.14 ⋅ 10-4 m2. The permeability was calculated by eq (2). Jw = Q⋅ρwater Amem⋅t⋅P(2) Where dm, Amem, dt, and P are the permeated mass through the mem­brane, the membrane area, time increment and pressure, respectively. The permeability was triple determined on three separate membranes. Membranes undergo hydraulic resistance from the membrane when no fouling is present. The proposed equation for membrane permeability can be seen at eq: 3 Jw = ΔP μ⋅Rm\n\n(3)",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Here ΔP is the trans membrane pressure, μ is the dynamic viscosity of water and Rm is the hydraulic resistance. The membrane thickness can then be subtracted from the hydraulic resistance by adding a specific resistance term α [49], and Rm can thereby be simplified as such eq: 4. Rm = α⋅L(4) This makes it possible to estimate hydraulic resistance and in turn permeability of the 3D printed membranes while mitigating the effect caused by variation in thickness. The specific resistance (α) contains all other physical parameters such as friction, morphology, porosity (Φ)and pore size (Dp). Multiple methods of calculating this specific resis­tance have been proposed and most are based around either cylindrical pore model Hagen-Poiseuille or the packed bed based model KozenyCarmen [50]. In this work one relationship for Hagen-Poiseuille and one for Kozeny-Carmen will be used for comparison of the membranes as seen in eq: 5 and 6. This makes it possible to compare the 3D printed membranes in the form of a Hagen-Poiseuille constant KHP or an Kozeny-Carmen constant KCP and therefore taking into account porosity and pore size as well as membrane thickness when comparing the membrane performance [51,52]. αHP = KHP D2p⋅Φ(5) αKC = KKC⋅(1 -Φ)2 D2p⋅Φ3(6) 3. Results and discussion 3.1. Polymer composition Small membrane discs were fabricated as described in Table 1. To ensure a successful copolymerization, ATR-FTIR analysis was done on all membranes and can be seen in Fig. 4.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. ATR-FTIR results of F100 to F0 going from top to bottom. Characteristic functional groups are highlighted by a colored dotted line, for example HEMA’s characteristic –OH group is highlighted by a green dotted line and Polyurethanes –NH by a red dotted line. B.S. Kirkebæk et al. Journal of Membrane Science 735 (2025) 124483 peak at 1724 cm-1 of which the graph is normalized, corresponds to the C––O group in the poly acrylate groups which is the main reactive group responsible for fast polymerization and is present in both the HEMA based (ink one) and PUA based (ink two). When comparing changing membrane compositions, four peaks seem to drastically change. Those are the broad peak at 3416 cm-1, 2864 cm-1, 1642 cm-1, 1534 cm-1 and 1465 cm-1, which correspond to –OH, CH2 stretching vibration, C––O(AcM only), –NH and respectively [54,55]. It is here obvious that increasing the amount of ink two (going from F0 til F100) decreases the –OH since HEMA is the only compound containing a hydroxyl group. This resonates with the fact that the peak at 3416 cm-1 lowers dramatically. The residue of the 3416 cm-1 vibrational peak in F100 likely stems from –NH stretching vibration which is only found in PUA. The four residue peak increases are from functional groups exclusively stemming from AcM or PUA.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "–NH stretching vibration which is only found in PUA. The four residue peak increases are from functional groups exclusively stemming from AcM or PUA. The gradual decrease of HEMA peaks and increase of PUA/AcM peaks together with the fact that both IR signa­tures are present in membranes with combined PUA and HEMA ink (Flex 20 % to Flex 80 %) the membrane compositions can be said to be suc­cessfully a copolymerization of both Ink one and Ink two tuned by the blend composition during the synthesis.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Membrane properties In order to illustrate that the 3D printed membranes actually func­tion as membranes, their properties as porosity, pore diameter and permeability were investigated and are shown in Fig. 5. Results indicate that ink composition significantly affects membrane characteristics. Shrinkage, a common issue in resin 3D printing (typically 3–5 %), which is more pronounced in porous polymer objects [56], here increases from 27.2 % ± 1.1 % (F0) to 39.6 % ± 3.4 % (F100) with higher PUA based ink, likely due to pore collapse and leading to densification of the membrane. Together with shrinkage porosity decrease from 0.65 ± 0.01 (F0) to 0.47 ± 0.03 (F100), alongside a drop in effective largest pore size from 319 nm to 119 nm and mean pore diameter from 171 nm to 46 nm which further suggests more PUA ink densify the membrane. Conse­quently, the membrane transitions from microporous(MF) to meso­porous(UF) solely by altering ink composition towards PUA based. This tuned pore size makes the membranes suitable for MF/UF processes such as cell perfusion filtration (0.4 μm) [57] or micelle separation in dairy (0.5μm–0.05 μm) [58] to large virus retention filtration (50 nm-35nm) [59]. A previous study achieved pore sizes between 100 and 600 nm using epoxy resin through different parameters such as printer settings and porogen concentration [26].",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "udy achieved pore sizes between 100 and 600 nm using epoxy resin through different parameters such as printer settings and porogen concentration [26]. This suggests that by adopting such methods, even finer pore sizes may be attainable, potentially extending applications beyond microand ultrafiltration. The impact of polymer composition on membrane water permeability was evident in perme­ability trends. Membrane permeability decreased dramatically by increasing PUA concentration from 179.95 LMH/bar ±19.07 to 0.52 LMH/bar ±0.14 for F0 to F100, correlating with increased density, reduced pore size, and shrinkage effects. The membranes were then characterized by electron microscopy to",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. Left top, mean pore diameter compared to concentration of PUA based ink. Top right, the biggest pore diameter based on bubble point compared to con­centration of PUA based ink. Bottom left, shrinkage and porosity for different concentrations of PUA ink. Bottom right, Permeability, of different 3D printed membranes going from HEMA based membrane to PUA based. B.S. Kirkebæk et al. Journal of Membrane Science 735 (2025) 124483 study their porous structure. The surface pictures can be seen in Fig. 6. The morphology of the membranes is porous in nature, with a charac­teristic phase inversion pattern as would be expected from this process [60,61]. The SEM pictures confirm the porosity and pore size in the MF to UF range shown in Fig. 5. It likewise shows the gradual densification that happens from F0 to F100. The reason for the densification of the membranes is not completely clear however as suggested by Kirkebæk et al. [26], densification of the membrane matrix likely occur in the de-mixing process of the polymer. It was suggested by Cahn-Hillard ki­netics and Flory-Huggins theory that molecular mobility, time before solidification and polymer solubility greatly influences the overall pore size and shapes of membranes produced via phase separation. These parameters are likely to change with different ink choice. Furthermore, Micro-sized surface defects are present across all membrane compositions, though they diminish towards F0.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nge with different ink choice. Furthermore, Micro-sized surface defects are present across all membrane compositions, though they diminish towards F0. These are likely due to pixel-induced uneven polymerization in MonochromaticVPP printing. While challenging to eliminate, alternative VPP methods may mitigate them [62]. Interestingly, these defects could be beneficial, enhancing membrane roughness, which has been linked to improved flux and membrane adhesion which is potentially advantageous for some membrane processes [63–65]. Another, other than the pixel effect on the membrane surface, defects can be found in the membrane cross section as the layers of the membranes are clearly visible of about 35 μm layer size, which would be due to the layer by layer method. This layer defect, further suggests a possible limit membrane thickness of 35 μm by stopping the printing process and exchanging the resin might give a inhomogeneous effect throughout the membrane. Regardless of the defects posed from the VPP method, the SEM clearly showed porous structure and tested membrane characteristics showed the membranes to be indeed fully functional UF-MF membranes on par with phase inversion membranes based on more conventional phase inversion techniques.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Membrane permeability decreased F0 to F100, correlating with increased density, reduced pore size, and shrinkage effects. To compare membrane permeability, the Hagen-Poiseuille and Kozeny-Carman models (Section 2.4.3) were applied. As shown in Table 2, hydraulic resistance (Rm) and specific resistance (α) increase from F0 to F100, aligning with the expected permeability decline. However, when ac­counting for porosity and pore size, the differences between membranes become less distinct, with no clear trend between KHP and KKC. Notably, F60, F80, and F100 exhibit a sharp rise in membrane resistance, sug­gesting that increasing ink two beyond 50 % significantly hinders permeability due to something other than porosity, membrane thickness and pore size (see Table 3). Internally between the membranes the membrane performance could be tuned however ultimately the permeability of the 3D printed membranes is lower compared to UF-MF membranes found in literature with similar porosity and pore size [49]. This is likely due to their increased thickness of roughly 3000 μm while conventional membranes usually are <250 μm. However, since permeability is strongly influenced by membrane thickness, α was used to estimate water permeability for thinner 3D printed membranes proposed here (Fig. 7), with thicknesses\n\nFig. 6. SEM pictures of cross section and membrane top for F0, F50 and F100.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 2 Table of calculated membrane resistance in form of RM, α, KKC and KHP for the different 3D printed membranes. Rm [m-1]α [m-2]KKC [unitless]KHP [unitless] 2.00 ⋅ 10128.74 ⋅ 101459.4216.765.19 ⋅ 10122.41 ⋅ 101579.1328.445.44 ⋅ 10122.56 ⋅ 101545.4221.756.69 ⋅ 10123.17 ⋅ 101534.3019.292.73 ⋅ 10131.29 ⋅ 101699.4269.121.28 ⋅ 10146.06 ⋅ 1016235.62219.336.92 ⋅ 10143.51 ⋅ 1017272.68345.10",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "B.S. Kirkebæk et al. Journal of Membrane Science 735 (2025) 124483 ranging from 50 to 1000 μm. The results highlight the significant impact of thickness, F0 permeability dramatically drops from 8241 LMH/bar at 50 μm to 412 LMH/bar at 1000 μm. Further accounting for porosity (0.65) and pore size (100 nm), permeability was estimated using the KKC and KHP models. Both models confirm that as membrane thickness de­creases, permeability increases substantially. However, F100, F80, and F60 exhibit significantly lower permeability in these simulations, sup­porting earlier findings that high ink two concentrations impede filtra­tion performance when taking porosity and pore size into account. In contrast, F0 to F50 compositions show promising results, with estimated permeabilities ranging between 2039 and 4706 LMH/bar (KKC) and 1645–2792 LMH/bar (KHP). Although these estimations are subject to variations in membrane homogeneity, they indicate that optimizing membrane thickness could substantially enhance performance. These findings suggest that further refinement of membrane fabrication, including controlled thickness and pore size adjustments, could make 3D printed membranes more competitive with conventional UF-MF mem­branes [49,66]. 3.3. Physicochemical properties The membrane properties were greatly influenced and tunable through copolymerization.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tional UF-MF mem­branes [49,66]. 3.3. Physicochemical properties The membrane properties were greatly influenced and tunable through copolymerization. However, other than permeability, pore size and porosity, it is also important to assess whether other physico­chemical properties, such as thermal stability, mechanical strength, and contact angle, can be similarly controlled. 3.3.1. Thermal stability Membranes used in high-temperature applications, such as catalytic processes or membrane distillation, require excellent thermal stability. This stability is influenced by bond dissociation energy, which depends on the chemical structure of the polymer [67]. Since copolymerization alters the membranes′ chemical structure, its thermal stability is ex­pected to change accordingly. Thermogravimetric analysis (TGA) was performed on membranes from F0 to F100, and the results are presented in Fig. 8 that reveals a clear trend: increasing PUA content enhances thermal stability. Beyond the initial 0–100 ◦C mass loss (likely due to residual water), the temperature at which 10 % mass loss occurs rises from 260 ◦C (F0) to 345 ◦C (F100), while complete degradation shifts from 562 ◦C to 664 ◦C. These values align with literature, where HEMA",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 3 Critical temperatures of thermal degradation of the 3D printed membranes. 10 % weight loss indication the approximate initial decomposition temperature of the membranes and second column is 100 % weight loss indication total decom­position of the membranes. MembraneTemperature [◦C] (Δw = 10 %)Temperature [◦C] (Δw = 100 %) F0260562F20295584F40303591F50303600F60311628F80335661F100345664",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. Top, permeability at different membrane thickness estimated based on α for all compositions of 3D printed membranes. Bottom, permeability at different membrane thickness based on KKC and KHP with a hypothetical pore diameter of 100 nm and a porosity of 0.65. Estimated for all 3D printed membranes. B.S. Kirkebæk et al. Journal of Membrane Science 735 (2025) 124483 degrades around 200–300 ◦C [68], PUA around 300 ◦C [69], and poly (AcM) around 350 ◦C [53]. Differential TGA shows that thermal degradation initiates at approximately 240 ◦C across all samples, sug­gesting bond dissociation starts at this temperature, likely due to the acrylate bonds present in both inks. While PUA copolymerization im­proves overall thermal stability, these bonds essential for the fast poly­merization process in VPP 3D printing still limit degradation resistance. Nevertheless, a thermal threshold of 240 ◦C is more than sufficient for most water-based membrane processes, which typically operate below 100 ◦C, making these membranes suitable for a range of common and new filtration applications [70]. 3.3.2. Mechanical strength The tensile strength of 3D printed membranes (F0 to F100) was tested and the resulting stress-strain curve (Fig. 9) and mechanical properties (Table 4) show a clear trend as increasing PUA content significantly enhances both strength and flexibility.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "curve (Fig. 9) and mechanical properties (Table 4) show a clear trend as increasing PUA content significantly enhances both strength and flexibility. HEMA-based F0 exhibits brittle behaviour, with minimal plastic deformation due to its short-chain monomers and high crosslinking density. F20 and F40 also show brittleness but display higher fracture stress, increasing from 1.95 MPa (F0) to 6.68 MPa (F40). Around F50, ductility becomes more apparent, with increased plastic deformation before failure. This shift occurs as PUA (ink two) dominates, reducing crosslinking density and introducing longer polymer chains. Between F50 and F100, both ductility and fracture stress continue to rise, from 7.04 MPa (F50) to 21.20 MPa (F100). Interestingly, stiffness also increases with PUA con­tent, Young’s modulus grows from 1.89 MPa (F0) to 13.03 MPa (F100), indicating that the material becomes not just more flexible but also tougher. These findings confirm that copolymerization with PUA significantly enhances mechanical performance, making the membranes more resilient and adaptable for filtration applications [71,72]. The fracture stress increased significantly from 1.95 MPa (F0) to 21.20 MPa (F100), making it comparable to commonly used polymer membranes such as PSf (3.88 MPa), PP (25 MPa), and PVDF (2.19 MPa) [73–75]. However, the fracture strain increased only moderately, from 1.02 % to 20.27 %, which remains lower than conventional membranes (Table 4).",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "a) [73–75]. However, the fracture strain increased only moderately, from 1.02 % to 20.27 %, which remains lower than conventional membranes (Table 4). This is expected, as VPP-printed thermosets have significantly more crosslinking than traditionally fabricated membranes, which typically have minimal or no crosslinking. Despite this limitation, PUA copoly­merization substantially improved the mechanical performance, making the membranes more comparable to conventional ones. This suggests potential for further enhancements, particularly by incorporating pre-polymerized long-chain acrylates into the VPP-PIPS ink, potentially Fig. 8. Left TGA results of different 3D printed membranes. Left, differential TGA of F100 to F0 going from top to bottom. Fig. 9. Tensile stress strain curves of 3D printed porous membrane ten­sile specimen.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 4 Tensile fracture stress, fracture strain and Youngs modulus of different 3D printed membranes as well as reported conventional PVDF, PP and PSf membranes. MembraneFracture stress [MPa] Fracture strain [%]Young modulus [MPa] F01.951.021.89F202.341.422.20F406.682.513.95F507.043.064.33F609.476.304.61F8012.237.375.41F10021.2020.2713.03PVDF3.8844.214.3PP25512.7PSf2.1924.1164.8",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "B.S. Kirkebæk et al. Journal of Membrane Science 735 (2025) 124483 optimizing both strength and flexibility. However, as could be seen with the increased (KKC) and (KHP), increasing the PUA concentration beyond 40 % (≥F60) will lead to decreased water permeability. Therefore, simply increasing the PUA monomer content will lead stronger mem­branes but worse performing membranes in terms of flux. Therefore, a trade tradeoff between high mechanical strength and flux is expected for exists when considering the overall performance of these membranes. 3.3.3. Contact angle Copolymerization alters the chemical properties of polymers, which as discussed earlier, had a large impact on both thermal and mechanical properties of the membranes. Since membrane hydrophobicity is dependent on functional groups, the ratio of monomers significantly impacts material characteristics. To assess surface tension, the contact angle was measured on dense discs instead of porous membranes, as the latter either absorb or repel DI water due to increased surface area and air-water interaction. Fig. 10 presents the DI-water contact angle results. The nearly pristine PHEMA in 0F exhibits a highly hydrophilic contact angle of 44.3◦± 4.0◦, consistent with literature attributing this to the –OH groups increasing surface tension energy [76]. In contrast, PUA-containing ink (F100) has a higher contact angle of 66.2◦± 3.2◦, aligning with previously reported values for PUA-based polymers [77].",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n contrast, PUA-containing ink (F100) has a higher contact angle of 66.2◦± 3.2◦, aligning with previously reported values for PUA-based polymers [77]. As the ink two concentration increases, hydrophobicity rises until pla­teauing at 60F, with a peak contact angle of 79.5◦± 3.7◦. Water penetration time was afterwards analyzed on porous mem­brane samples in Fig. 10(B and C). The data was consistent with the contact angle found on the dense discs, that the retention would only increase as the polymer consisted of the more hydrophobic PUA. The water retention time would exponentially increase gradually from F0 (1.4s) to F100(755s). However, beyond F60, though the contact angle would slightly decrease the water absorption time would still show exponential in­crease to F80 and F100. This is likely due to the denser nature of the F80 and F100 membranes having a higher impact on water retention than material hydrophobicity. Nevertheless, this shift in hydrophobicity hydrophilicity as a func­tion of ink composition affects membrane properties, influencing capillary forces, fouling adhesion, and adsorption, crucial aspects of membrane filtration [78]. 3.3.4. Enhanced hydrophobicity Monomers act as building blocks, where HEMA enhances hydro­philicity, while hydrophobic monomers like t-Butyl increase hydro­phobicity. Replacing HEMA with t-Butyl led to a rising contact angle, from 70.4◦± 0.4◦–108.8◦± 2.6◦(Fig.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rophobic monomers like t-Butyl increase hydro­phobicity. Replacing HEMA with t-Butyl led to a rising contact angle, from 70.4◦± 0.4◦–108.8◦± 2.6◦(Fig. 11A), demonstrating the poten­tial to tune membranes from hydrophilic to hydrophobic. Studies by Hussein et al. and Ni et al. [41,42] show that hydrophilic membranes reduce fouling in solutions with phenols and bovine serum albumin, whereas Choo and Lee [43] found hydrophobic PVDF membranes more effective against anaerobic digestate fouling. While the superiority of hydrophilic or hydrophobic membranes depends on specific applica­tions, their tunability significantly impacts membrane performance. With contact angle exceeding 90◦, these membranes are suitable for membrane distillation (MD) [79]. Combined with high thermal stability",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 10. A: Contact angle of different 3D printed dense discs produced without porogen with composition corresponding to F0 going from left to F100 to the right. B: a graph of contact angle over time for a 5um di-water drop on top of porous 3D printed membranes. C: graph of total time of submergence of droplet on different 3D printed membranes going from F0 from the left to F100 to the right. B.S. Kirkebæk et al. Journal of Membrane Science 735 (2025) 124483",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(>100 ◦C) and the absence of toxic PFAS, they present a viable alter­native to PTFE and PVDF membranes, which may face future regulatory bans [80]. According to the Wenzel and Cassie-Baxter theories, apparent contact angle depends on overall material structure, explaining why porous hydrophobic surfaces exhibit higher contact angle due to air pockets (contact angle approaching 180◦). Li et al. [56] demonstrated via simulations that small pillar structures enhance hydrophobicity. Since in 3D printing, we have the option to make geometries in a highly controlled fashion, we explored the possibility to increase the membrane hydrophobicity by 3D printed micro topology as suggested by Li et al. This was done by using a high-resolution resin printer developed at DTU to print 1 mm thick square membranes with the di­mensions 10 mm * 20 mm, the micro topology was printed on top as pillars in rows (0.07 mm diameter, 0.07 mm spacing). Due to over­curing, the topology would experience different degrees of resolution, and the topology was therefore printed with different layer curing times of 1600 ms, 800 ms, 400 ms and 200 ms. Fig. 11B shows that the resulting contact angle increase from 97.8◦ ± 1.4◦(plain surface) to 136.8◦± 1.0◦(lowest UV exposure time) from the pillar variations shown in Fig. 11D and E. The highest contact angle was observed on membranes with topology with the lowest layer curing time and would decrease with increasing curing time.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "E. The highest contact angle was observed on membranes with topology with the lowest layer curing time and would decrease with increasing curing time. This trend is attributed to reduced printing resolution at longer exposure times, which results in poorly defined pillar structures. The diminished topo­graphical contrast causes the surface to resemble that of an unpatterned membrane, thereby lowering the hydrophobic effect and reducing the contact angle. Fig. 10C illustrates a Wenzel state, where water penetrates the pillars rather than resting atop them (Cassie-Baxter state), likely due to the pillar spacing being too large for sufficient liquid entry pressure. Reducing spacing could further enhance contact angle [81]. These findings confirm that resin printing effectively increases con­tact angle (from 97.8◦to 136.8◦) and align with Li’s simulations [82]. Membrane roughness significantly affects crystallization, nucleation rate, adhesion, and wetting [83,84]. Thus, precise control over micro-scale topology, hydrophobicity, and hydrophilicity could opti­mize adhesion, fouling resistance, and crystallization in membrane applications. 4. Conclusion Membranes were successfully fabricated using VPP-PIPS with vary­ing compositions of HEMA, tert-butyl acrylate, and PUA. This proposed process has enabled tunable pore sizes ranging from 171 nm down to mesoporous scales of 43 nm, followed by an increased shrinkage and densification.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "d process has enabled tunable pore sizes ranging from 171 nm down to mesoporous scales of 43 nm, followed by an increased shrinkage and densification. However, increasing the concentration of PUA in the ink composition led to a drastic decrease in membrane permeability from 180 LMH/bar ±19.07 LMH/bar to 0.52 LMH/bar ±0.14 LMH/bar. Even when taking the densification and decreased pore size into account, the PUA-based membranes exhibited significantly higher resistance, indi­cating that compositions exceeding 50 % PUA severely compromise filtration performance. The physicochemical properties of the membranes were notably influenced by the degree of copolymerization between HEMA and PUA. Transitioning from HEMA-to PUA-based compositions resulted in a progressive and tunable increase in thermal stability (from 260 ◦C to",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 11. A: graph of contact angle depending on the composition of ink two and three. B: contact angle as a function of UV exposure time per layer. C: picture of a water droplet on pillar topological 3D printed membrane with pillar topology and 200 ms UV exposure per layer D, E F and G are microscope pictures of 3D printed membranes of no topology for D and 1600 ms, 800 ms, 400 ms and 200 ms UV exposure time per layer respectively. B.S. Kirkebæk et al. Journal of Membrane Science 735 (2025) 124483",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[7] N. Lu, W. Zhang, Y. Weng, X. Chen, Y. Cheng, P. Zhou, Fabrication of PDMS surfaces with micro patterns and the effect of pattern sizes on bacteria adhesion, Food Control 68 (2016) 344–351, https://doi.org/10.1016/J. FOODCONT.2016.04.014.[8] S. Hou, H. Gu, C. Smith, D. Ren, Microtopographic Patterns Affect Escherichia coli Biofilm Formation on Poly(Dimethylsiloxane) Surfaces, vol. 27, 2011, pp. 2686–2691, https://doi.org/10.1021/la1046194.[9] Y. Ding, J. Sun, H.W. Ro, Z. Wang, J. Zhou, N.J. Lin, M.T. Cicerone, C.L. Soles, L. G. Sheng, Thermodynamic underpinnings of cell alignment on controlled topographies, Adv. Mater. 23 (2011) 421–425, https://doi.org/10.1002/ ADMA.201001757.[10] M. Ochs, R. Mohammadi, N. Vogel, A. Andrieu-Brunsen, M. Ochs, A. AndrieuBrunsen, R. Mohammadi, N. Vogel, Wetting-controlled localized placement of surface functionalities within nanopores, Small 16 (2020) 1906463, https://doi. org/10.1002/SMLL.201906463.[11] K.Y. Kim, R.P. Srivastava, D.Y. Khang, Oleophilic to oleophobic wettability switching of isoporous through-hole membranes by surface structure control for low-voltage electrowetting-based oil-water separation, J Memb Sci 646 (2022), https://doi.org/10.1016/J.MEMSCI.2022.120281.[12] F. Zhang, L. Zhu, Z. Li, S. Wang, J. Shi, W. Tang, N. Li, J. Yang, The recent development of vat photopolymerization: a review, Addit. Manuf. 48 (2021) 102423, https://doi.org/10.1016/J.ADDMA.2021.102423.[13] B.C. Gross, J.L. Erkal, S.Y. Lockwood, C. Chen, D.M.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ation: a review, Addit. Manuf. 48 (2021) 102423, https://doi.org/10.1016/J.ADDMA.2021.102423.[13] B.C. Gross, J.L. Erkal, S.Y. Lockwood, C. Chen, D.M. Spence, Evaluation of 3D printing and its potential impact on biotechnology and the chemical sciences, Anal. Chem. 86 (2014) 3240–3253, https://doi.org/10.1021/AC403397R/ASSET/ IMAGES/LARGE/AC-2013-03397R_0009. JPEG.[14] A. Jandyal, I. Chaturvedi, I. Wazir, A. Raina, M.I. Ul Haq, 3D printing – a review of processes, materials and applications in industry 4.0, Sustainable Operations and Computers 3 (2022) 33–42, https://doi.org/10.1016/J.SUSOC.2021.09.004.[15] P. Fiedor, J. Ortyl, A new approach to micromachining: High-Precision and innovative additive manufacturing solutions based on photopolymerization technology, Materials 13 (2020) 2951, https://doi.org/10.3390/MA13132951, 13 (2020) 2951.[16] Y. Bougdid, Z. Sekkat, Voxels optimization in 3D laser nanoprinting, Sci. Rep. 10 (2020) 1–8, https://doi.org/10.1038/S41598-020-67184-2. SUBJMETA=1075,1080,624,639;KWRD=LASER+MATERIAL+PROCESSING, OPTICS+AND+PHOTONICS.[17] K.B. Fritzler, V.Y. Prinz, 3D printing methods for microand nanostructures, Phys. Usp. 62 (2019) 54–69, https://doi.org/10.3367/UFNE.2017.11.038239/XML.[18] Z.X. Low, Y.T. Chua, B.M. Ray, D. Mattia, I.S. Metcalfe, D.A.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ctures, Phys. Usp. 62 (2019) 54–69, https://doi.org/10.3367/UFNE.2017.11.038239/XML.[18] Z.X. Low, Y.T. Chua, B.M. Ray, D. Mattia, I.S. Metcalfe, D.A. Patterson, Perspective on 3D printing of separation membranes and comparison to related unconventional fabrication techniques, J Memb Sci 523 (2017) 596–613, https://doi.org/10.1016/ J.MEMSCI.2016.10.006.[19] How to choose the most appropriate technology: FDM, SLA and SLS, (n.d.). https:// filament2print.com/gb/blog/92_3d-printing-fdm-sla-sls-technology.html (accessed April 3, 2023).[20] S. Yuan, D. Strobbe, X. Li, J.P. Kruth, P. Van Puyvelde, B. Van der Bruggen, 3D printed chemically and mechanically robust membrane by selective laser sintering for separation of oil/water and immiscible organic mixtures, Chem. Eng. J. 385 (2020) 123816, https://doi.org/10.1016/J.CEJ.2019.123816.[21] G. Flodberg, H. Pettersson, L. Yang, Pore analysis and mechanical performance of selective laser sintered objects, Addit. Manuf. 24 (2018) 307–315, https://doi.org/ 10.1016/J.ADDMA.2018.10.001.[22] S.M.H. Hojjatzadeh, N.D. Parab, W. Yan, Q. Guo, L. Xiong, C. Zhao, M. Qu, L. I. Escano, X. Xiao, K. Fezzaa, W. Everhart, T. Sun, L. Chen, Pore elimination mechanisms during 3D printing of metals, Nat. Commun. 10 (2019) 1–8, https:// doi.org/10.1038/S41467-019-10973-9. TECHMETA=123; SUBJMETA=1023,1026,1032,301,639,930;KWRD=DESIGN.[23] Z. Dong, H. Cui, H. Zhang, F. Wang, X. Zhan, F. Mayer, B. Nestler, M. Wegener, P. A.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ECHMETA=123; SUBJMETA=1023,1026,1032,301,639,930;KWRD=DESIGN.[23] Z. Dong, H. Cui, H. Zhang, F. Wang, X. Zhan, F. Mayer, B. Nestler, M. Wegener, P. A. Levkin, 3D printing of inherently nanoporous polymers via polymerizationinduced phase separation, Nat. Commun. 12 (1) (2021) 1–12, https://doi.org/ 10.1038/s41467-020-20498-1, 12 (2021.[24] F. Wang, L. Ratke, H. Zhang, P. Altschuh, B. Nestler, A phase-field study on polymerization-induced phase separation occasioned by diffusion and capillary flow—a mechanism for the formation of porous microstructures in membranes, J. Sol. Gel Sci. Technol. 94 (2020) 356–374, https://doi.org/10.1007/S10971-02005238-7/FIGURES/15.[25] S.C. Leguizamon, J. Powers, J. Ahn, S. Dickens, S. Lee, B.H. Jones, Polymerizationinduced phase separation in rubber-toughened amine-cured epoxy resins: tuning morphology from the Nanoto macro-scale, Macromolecules 54 (2021) 7796–7807, https://doi.org/10.1021/ACS.MACROMOL.1C01208/ASSET/ IMAGES/LARGE/MA1C01208_0008.JPEG.[26] B.S. Kirkebæk, A. Ali, C.A. Quist-Jensen, Masked stereolithography and polymerization induced phase separation for 3D printing of membranes, Sci. Rep. 15 (2025) 1–12, https://doi.org/10.1038/S41598-025-03527-1. SUBJMETA=166,455,638,639,898,959;KWRD=CHEMICAL+ENGINEERING, POLYMERIZATION+MECHANISMS.[27] P. Lakkala, S.R. Munnangi, S. Bandari, M.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1598-025-03527-1. SUBJMETA=166,455,638,639,898,959;KWRD=CHEMICAL+ENGINEERING, POLYMERIZATION+MECHANISMS.[27] P. Lakkala, S.R. Munnangi, S. Bandari, M. Repka, Additive manufacturing technologies with emphasis on stereolithography 3D printing in pharmaceutical and medical applications: a review, Int J Pharm X 5 (2023), https://doi.org/ 10.1016/J.IJPX.2023.100159.[28] V. Hahn, P. Kiefer, T. Frenzel, J. Qu, E. Blasco, C. Barner-Kowollik, M. Wegener, Voxels: rapid assembly of small materials building blocks (Voxels) into large functional 3D metamaterials (Adv. Funct. Mater. 26/2020), Adv. Funct. Mater. 30 (2020) 2070166, https://doi.org/10.1002/ADFM.202070166.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[29] A. Bagheri, J. Jin, Photopolymerization in 3D printing, ACS Appl. Polym. Mater. 1 (2019) 593–611, https://doi.org/10.1021/ACSAPM.8B00165/ASSET/IMAGES/ LARGE/AP-2018-00165Y_0007. JPEG.[30] S.C. Ligon, R. Liska, J. Stampfl, M. Gurr, R. Mülhaupt, Polymers for 3D printing and customized additive manufacturing, Chem Rev 117 (2017) 10212–10290, https:// doi.org/10.1021/ACS.CHEMREV.7B00074/ASSET/IMAGES/LARGE/CR-201700074G_0037. JPEG.[31] C.D. Han, Rheology and processing of polymeric materials: volume 2: polymer processing, Rheology and Processing of Polymeric Materials: Volume 2: Polymer Processing, https://doi.org/10.1093/OSO/9780195187830.001.0001, 2006.[32] S. Van Buggenhout, R. Verbeke, D.M. Davenport, I.F.J. Vankelecom, Drying polymer membranes for preservation: a review, J Memb Sci 731 (2025) 124190, https://doi.org/10.1016/J.MEMSCI.2025.124190.[33] G.S. Prihandana, S.S. Maulana, R.S. Soedirdjo, V. Tanujaya, D.M.A. Pramesti, T. Sriani, M.F. Jamaludin, F. Yusof, M. Mahardika, Preparation and characterization of Polyethersulfone/Activated carbon composite membranes for water filtration, Membranes 13 (2023) 906, https://doi.org/10.3390/ MEMBRANES13120906, 13 (2023) 906.[34] P. Xu, M. Qiu, K. Fu, X. Chen, Y. Fan, Enhancing performance of ceramic membrane in CO2 membrane absorption: Single-to multi-channel, J Memb Sci 687 (2023) 122013, https://doi.org/10.1016/J.MEMSCI.2023.122013.[35] A. Pongwisuthiruchte, S.T. Dubas, C. Aumnate, P.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "gle-to multi-channel, J Memb Sci 687 (2023) 122013, https://doi.org/10.1016/J.MEMSCI.2023.122013.[35] A. Pongwisuthiruchte, S.T. Dubas, C. Aumnate, P. Potiyaraj, Mechanically tunable resins based on acrylate-based resin for digital light processing (DLP) 3D printing, Sci. Rep. 12 (1) (2022) 1–10, https://doi.org/10.1038/s41598-022-24667-8, 12 (2022.[36] L. Liu, D. Xiang, Y. Wu, Z. Zhou, H. Li, C. Zhao, Y. Li, Conductive polymer composites based flexible strain sensors by 3D printing: a mini-review, Front Mater 8 (2021) 337, https://doi.org/10.3389/FMATS.2021.725420/BIBTEX.[37] T.S.R. Naiwi, M.M. Aung, A. Ahmad, M. Rayung, M.S. Su’ait, N.A. Yusof, K.Z. W. Lae, Enhancement of plasticizing effect on bio-based polyurethane acrylate solid polymer electrolyte and its properties, Polymers 10 (2018) 1142, https://doi. org/10.3390/POLYM10101142, 10 (2018) 1142.[38] P. Hu, T. Jiang, H. Ni, P. Ye, Z. Han, Z. Zhao, C. Zhu, X. Lu, Synthesis, characterization and antifouling performance of ABC-type fluorinated amphiphilic triblock copolymer, Polym. Bull. 73 (2016) 1405–1426, https://doi.org/10.1007/ S00289-015-1554-6.[39] H. Sun, T. Lei, J. Liu, X. Guo, J. Lv, Physicochemical properties of water-based copolymer and zeolite composite sustained-release membrane materials, Materials 15 (2022) 8553, https://doi.org/10.3390/MA15238553, 15 (2022) 8553.[40] U.S. Waware, A.M.S. Hamouda, D.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ustained-release membrane materials, Materials 15 (2022) 8553, https://doi.org/10.3390/MA15238553, 15 (2022) 8553.[40] U.S. Waware, A.M.S. Hamouda, D. Majumdar, Synthesis, characterization and physicochemical studies of copolymers of aniline and 3-nitroaniline, Polym. Bull. 77 (2020) 4469–4488, https://doi.org/10.1007/S00289-019-02957-Y/FIGURES/ 9.[41] L. Ni, Q. Shi, M. Wu, J. Ma, Y. Wang, Fouling behavior and mechanism of hydrophilic modified membrane in anammox membrane bioreactor: role of gel layer, J Memb Sci 620 (2021) 118988, https://doi.org/10.1016/j. memsci.2020.118988.[42] T.K. Hussein, N.A. Jasim, A.-S.T. Al-Madhhachi, The performance of microfiltration using hydrophilic and hydrophobic membranes for phenol extraction from a water solution, ChemEngineering 7 (2023), https://doi.org/ 10.3390/chemengineering7020026.[43] K.-H. Choo, C.-H. Lee, Effect of anaerobic digestion broth composition on membrane permeability, Water Sci. Technol. 34 (1996) 173–179, https://doi.org/ 10.1016/S0273-1223(96)00801-3.[44] M.R.S. Kebria, A. Rahimpour, M.R.S. Kebria, A. Rahimpour, Membrane distillation: basics, advances, and applications. Advances in Membrane Technologies, 2020, https://doi.org/10.5772/INTECHOPEN.86952.[45] S. Ghaffari, P.K. Chan, M. Mehrvar, Long-Range surface-directed polymerizationinduced phase separation: a computational study, Polymers 13 (2021) 256, https://doi.org/10.3390/POLYM13020256, 13 (2021) 256.[46] Y.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ed polymerizationinduced phase separation: a computational study, Polymers 13 (2021) 256, https://doi.org/10.3390/POLYM13020256, 13 (2021) 256.[46] Y. Liu, Polymerization-induced phase separation and resulting thermomechanical properties of thermosetting/reactive nonlinear polymer blends: a review, J. Appl. Polym. Sci. 127 (2013) 3279–3292, https://doi.org/10.1002/APP.38721.[47] M.M. Ribo, Vat Photopolymerization Process Chain, Technical University of Denmark, 2020, in: https://orbit.dtu.dk/en/publications/vat-photopolymerization -process-chain. (Accessed 19 May 2025).[48] A.H. Danielak, Design, Optimization and Production of Smart Surfaces by Additive Manufacturing for Medical Applications, Technical University of Denmark, 2021. https://orbit.dtu.dk/en/publications/design-optimization-and-production-of-sma rt-surfaces-by-additive. (Accessed 19 May 2025).[49] W. Li, W. Xing, N. Xu, Modeling of relationship between water permeability and microstructure parameters of ceramic membranes, Desalination 192 (2006) 340–345, https://doi.org/10.1016/J.DESAL.2005.07.042.[50] P. Xu, B. Yu, Developing a new form of permeability and Kozeny–Carman constant for homogeneous porous media by means of fractal geometry, Adv. Water Resour. 31 (2008) 74–81, https://doi.org/10.1016/J.ADVWATRES.2007.06.003.[51] D.M. Kanani, W.H. Fissell, S. Roy, A. Dubnisheva, A. Fleischman, A.L.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "er Resour. 31 (2008) 74–81, https://doi.org/10.1016/J.ADVWATRES.2007.06.003.[51] D.M. Kanani, W.H. Fissell, S. Roy, A. Dubnisheva, A. Fleischman, A.L. Zydney, Permeability–selectivity analysis for ultrafiltration: effect of pore geometry, J Memb Sci 349 (2010) 405–410, https://doi.org/10.1016/J. MEMSCI.2009.12.003.[52] A.A. Merdaw, A.O. Sharif, G.A.W. Derwish, Water permeability in polymeric membranes, Part I, Desalination 260 (2010) 180–192, https://doi.org/10.1016/J. DESAL.2010.04.042.[53] H. Efe, M. Bicen, M.V. Kahraman, N. Kayaman-Apohan, Synthesis of 4-acryloyl­ morpholine-based hydrogels and investigation of their drug release behaviors,",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "J. Braz. Chem. Soc. 24 (2013) 814–820, https://doi.org/10.5935/01035053.20130107.[54] H. Bakhshi, H. Yeganeh, A. Yari, S.K. Nezhad, Castor oil-based polyurethane coatings containing benzyl triethanol ammonium chloride: synthesis, characterization, and biological properties, J. Mater. Sci. 49 (2014) 5365–5377, https://doi.org/10.1007/S10853-014-8244-X/FIGURES/7.[55] G. Trovati, E.A. Sanches, S.C. Neto, Y.P. Mascarenhas, G.O. Chierice, Characterization of polyurethane resins by FTIR, TGA, and XRD, J. Appl. Polym. Sci. 115 (2010) 263–268, https://doi.org/10.1002/APP.31096.[56] A. Dukle, D. Murugan, A.J. Nathanael, L. Rangasamy, T.H. Oh, Can 3D-Printed bioactive glasses Be the future of bone tissue engineering? Polymers 14 (2022) 1627, https://doi.org/10.3390/POLYM14081627, 14 (2022) 1627.[57] M.H. Veje, M. Quir´os, P. Kristensen, M.K. Jørgensen, Investigation of fouling in perfusion cell culture processes using alternating tangential flow filtration, J Memb Sci 701 (2024) 122764, https://doi.org/10.1016/J.MEMSCI.2024.122764.[58] Application of microfiltration (MF) in dairy industries. https://www.researchgate. net/publication/375238523_Application_of_Microfiltration_MF_in_Dairy_Industries. (Accessed 9 July 2025).[59] H. Shirataki, L. Gudex, S.R. Wickramasinghe, Modeling virus filtration: materials, applications, and mechanism, iScience 28 (2025) 111533, https://doi.org/ 10.1016/J.ISCI.2024.111533.[60] A.M. Bazargan, Z. Gholamvand, M. Naghavi, M.R. Shayegh, S.K.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nd mechanism, iScience 28 (2025) 111533, https://doi.org/ 10.1016/J.ISCI.2024.111533.[60] A.M. Bazargan, Z. Gholamvand, M. Naghavi, M.R. Shayegh, S.K. Sadrnezhaad, Phase inversion preparation and morphological study of polyvinylidene fluoride ultrafiltration membrane modified by nano-sized alumina, Functional Materials Letters 2 (2009) 113–119, https://doi.org/10.1142/S1793604709000648.[61] W. Pu, X. He, L. Wang, C. Jiang, C. Wan, Preparation of PVDF–HFP microporous membrane for Li-ion batteries by phase inversion, J Memb Sci 272 (2006) 11–14, https://doi.org/10.1016/j.memsci.2005.12.038.[62] H. Quan, T. Zhang, H. Xu, S. Luo, J. Nie, X. Zhu, Photo-curing 3D printing technique and its challenges, Bioact. Mater. 5 (2020) 110–115, https://doi.org/ 10.1016/J.BIOACTMAT.2019.12.003.[63] B. Nagendra, A. Cozzolino, C. Daniel, P. Rizzo, G. Guerra, High surface area nanoporous-crystalline polymer films, Macromolecules 55 (2022) 2983–2990, https://doi.org/10.1021/acs.macromol.2c00271.[64] S. Zhang, Surface roughness and membrane fouling, Nature Water 1 (2023) 132, https://doi.org/10.1038/s44221-023-00045-0.[65] Z. Zhong, D. Li, B. Zhang, W. Xing, Membrane surface roughness characterization and its influence on ultrafine particle adhesion, Sep. Purif. Technol. 90 (2012) 140–146, https://doi.org/10.1016/j.seppur.2011.09.016.[66] (PDF) microfiltration and ultrafiltration of tannery wastewaters, (n.d.).",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "echnol. 90 (2012) 140–146, https://doi.org/10.1016/j.seppur.2011.09.016.[66] (PDF) microfiltration and ultrafiltration of tannery wastewaters, (n.d.). http s://www.researchgate.net/publication/283288589_Microfiltration_and_ultrafiltrat ion_of_tannery_wastewaters (accessed April 15, 2023).[67] J.B. Huang, G.S. Zeng, X.S. Li, X.C. Cheng, H. Tong, Theoretical studies on bond dissociation enthalpies for model compounds of typical plastic polymers, IOP Conf. Ser. Earth Environ. Sci. 167 (2018) 012029, https://doi.org/10.1088/1755-1315/ 167/1/012029.[68] V.K. Thakur, E.J. Tan, M.F. Lin, P.S. Lee, Poly(vinylidene fluoride)-graft-poly(2hydroxyethyl methacrylate): a novel material for high energy density capacitors, J. Mater. Chem. 21 (2011) 3751–3759, https://doi.org/10.1039/C0JM02408B.[69] W. Wei, H. Xu, Q. You, Q. Cheng, C. Liu, L. Zou, X. Liu, J. Liu, Y.C. Cao, G. Zheng, Preparation of quantum dot luminescent materials through the ink approach, Mater. Des. 91 (2016) 165–170, https://doi.org/10.1016/J.MATDES.2015.11.077.[70] H.-R. Zuo, P. Shi, M. Duan, A review on thermally stable membranes for water treatment: material, fabrication, and application, Sep. Purif. Technol. 236 (2020) 116223, https://doi.org/10.1016/j.seppur.2019.116223.[71] S. Caycik, R.G. Jagger, The effect of cross-linking chain length on mechanical properties of a dough-molded poly(methylmethacrylate) resin, Dent. Mater. 8 (1992) 153–157, https://doi.org/10.1016/0109-5641(92)90073-L.[72] J. Huang, P. Fu, W. Li, L.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ugh-molded poly(methylmethacrylate) resin, Dent. Mater. 8 (1992) 153–157, https://doi.org/10.1016/0109-5641(92)90073-L.[72] J. Huang, P. Fu, W. Li, L. Xiao, J. Chen, X. Nie, Influence of crosslinking density on the mechanical and thermal properties of plant oil-based epoxy resin, RSC Adv. 12 (2022) 23048–23056, https://doi.org/10.1039/D2RA04206A.[73] J. Liao, N. Brosse, A. Pizzi, S. Hoppe, X. Xi, X. Zhou, Polypropylene blend with polyphenols through dynamic vulcanization: mechanical, rheological, crystalline, thermal, and UV protective property, Polymers 11 (2019) 1108, https://doi.org/ 10.3390/POLYM11071108, 11 (2019) 1108.[74] Y. Zhang, B. Yang, K. Li, D. Hou, C. Zhao, J. Wang, Electrospun porous poly (tetrafluoroethylene-: co -hexafluoropropyleneco -vinylidene fluoride) membranes for membrane distillation, RSC Adv. 7 (2017) 56183–56193, https:// doi.org/10.1039/C7RA09932K.[75] M. Hassan, R.E.A. Zeid, W.S. Abou-Elseoud, E. Hassan, L. Berglund, K. Oksman, Effect of unbleached rice straw cellulose nanofibers on the properties of polysulfone membranes, Polymers 11 (2019), https://doi.org/10.3390/ POLYM11060938.[76] M. Morra, E. Occhiello, F. Garbassi, On the wettability of poly(2hydroxyethylmethacrylate), J. Colloid Interface Sci. 149 (1992) 84–91, https:// doi.org/10.1016/0021-9797(92)90393-Z.[77] X. Song, X. Zhang, T. Li, Z. Li, H.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ethylmethacrylate), J. Colloid Interface Sci. 149 (1992) 84–91, https:// doi.org/10.1016/0021-9797(92)90393-Z.[77] X. Song, X. Zhang, T. Li, Z. Li, H. Chi, Mechanically Robust Hybrid POSS thermoplastic polyurethanes with enhanced surface hydrophobicity, Polymers 11 (2019), https://doi.org/10.3390/POLYM11020373.[78] M. Zhang, B. qiang Liao, X. Zhou, Y. He, H. Hong, H. Lin, J. Chen, Effects of hydrophilicity/hydrophobicity of membrane on membrane fouling in a submerged membrane bioreactor, Bioresour. Technol. 175 (2015) 59–67, https://doi.org/ 10.1016/J.BIORTECH.2014.10.058.[79] W. Wang, X. Du, H. Vahabi, S. Zhao, Y. Yin, A.K. Kota, T. Tong, Trade-off in membrane distillation with monolithic omniphobic membranes, Nat. Commun. 10 (2019) 3220, https://doi.org/10.1038/s41467-019-11209-6.",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "B.S. Kirkebæk et al. Journal of Membrane Science 735 (2025) 124483\n\n[80] X. Dauchy, Evidence of large-scale deposition of airborne emissions of perand polyfluoroalkyl substances (PFASs) near a fluoropolymer production plant in an urban area, Chemosphere 337 (2023) 139407, https://doi.org/10.1016/j. chemosphere.2023.139407.[81] A.J.B. Milne, A. Amirfazli, The cassie equation: how it is meant to be used, Adv. Colloid Interface Sci. 170 (2012) 48–55, https://doi.org/10.1016/j. cis.2011.12.001.\n\n[82] H. Li, X. Feng, K. Zhang, Study of the classical cassie theory and wenzel theory used in nanoscale, J Bionic Eng 18 (2021) 398–408, https://doi.org/10.1007/s42235021-0029-8.[83] M.A. Zaman, S. Wang, Experimental investigation of surface roughness/wettability pattern effect on crystallization fouling over falling-film flow, Desalination 575 (2024) 117324, https://doi.org/10.1016/j.desal.2024.117324.[84] E. Curcio, G. Di Profio, Continuous membrane crystallization, in: N. Yazdanpanah, Z.K. Nagy (Eds.), The Handbook of Continuous Crystallization, The Royal Society of Chemistry, 2020, p. 1, https://doi.org/10.1039/9781788013581-00321.\n\nB.S. Kirkebæk et al. Journal of Membrane Science 735 (2025) 124483",
+    "citation": {
+      "authors": [
+        "Kirkeb S.",
+        "Danielak H.",
+        "Pedersen B.",
+        "Quist A."
+      ],
+      "paper_id": "1-s2.0-S0376738825007963-main",
+      "title": "Tunable physicochemical properties of 3D printed membranes via copolymerization and micropatterning",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13,
+        14
+      ]
+    },
+    "type": "chunk"
+  }
+]

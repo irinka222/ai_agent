@@ -1,0 +1,578 @@
+[
+  {
+    "content": "Directional water transport in laminated polymer Luca Grillo , Christoph Weder * Adolphe Merkle Institute, University of Fribourg, Chemin des Verdiers 4, 1700, Fribourg, Switzerland\n\nA R T I C L E I N F O Keywords:Laminated membranesDirectional transportWater permeabilityPlasticizationResistance-in-series model\n\nA B S T R A C T Directional transport of chemical species through compositionally graded dense membranes is of fundamental interest and relevant for applications such as separation processes and smart packaging. While theoretical models have elucidated the mechanism underlying directional mass transport in such materials, experimental studies are limited. Here, we explore the potential of dense bilayer membranes consisting of hydrophilic polyvinyl alcohol (PVA) and hydrophobic poly(styrene)-block-poly(butadiene)-block-poly(styrene) (SBS) to achieve directional water transport. In these laminates, which are mechanically stable and only delaminate under extreme condi­tions, the PVA layer swells and becomes plasticized upon exposure to moisture, leading to increased permeability when the membrane’s PVA side faces a humid environment; this effect is absent when the SBS side is exposed to moisture. Optimized membrane architectures exhibit an asymmetry factor of up to 6. Complemented by modeling results, our systematic investigation provides valuable insights into directionality in mass transport through asymmetric membranes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Dense and porous membranes with heterogeneous structures may give rise to directional mass transport in which the permeation rate of the penetrant species depends on the side from which the permeant enters the membrane [1–5]. Directionality in the transport of water and other solvents was observed for the first time in insect cuticles in 1941 by Hurst, who attributed this effect to the asymmetric composition of these biological membranes consisting of an external hydrophobic lipid layer and an internal hydrophilic protein-chitin complex [6,7]. The role of asymmetric structures in the directional transport process was confirmed in the late 1950s, when Rogers et al. developed a theory for asymmetric mass transport in dense membranes [8]. Referring to such structures as “permeability valves”, they not only introduced the basic principles behind the directional transport in multilayer systems, but also fabricated the first laminated polymeric membranes with asym­metric water transport characteristics [8–11]. This early work reveals that membranes must meet two prerequisites to develop directional transport. The first condition is the heterogeneity in the membrane structure, which can be achieved chemically by varying the composi­tion, or physically by adjusting the cross-linking density or the degree of crystallinity [12].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "hich can be achieved chemically by varying the composi­tion, or physically by adjusting the cross-linking density or the degree of crystallinity [12]. The second condition is the presence of at least one component whose permeability coefficient depends on the vapor pres­sure of the penetrant species [8,9]. Several studies have, in the meantime, investigated heterogeneous membranes with the help of mathematical models to optimize these systems and reach the maximum contrast in the directionality [13–18]. Despite these theoretical contri­butions and the widespread presence of dense (and also porous) asym­metric membranes in nature [19–23], few experimental studies explored the potential of asymmetric mass transport through dense heteroge­neous membranes [1], and the experimentally achieved asymmetry factor (AF), defined as the ratio of the permeabilities measured in two opposite directions – have been generally limited to values below 3 [1], with the exception of Rogers’s study on graded poly (ethyl­ene-graft-vinyl alcohol) membranes, which set the current highest value of 6.5 [9]. Despite this high directionality, attributed to the graded structure of the films and the higher mobility of water molecules in poly (vinyl alcohol) [9], the observed AF is still far from the maximum theoretical value of 10 predicted by Petropoulos for appropriately tuned anisotropic membranes [16,17].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the observed AF is still far from the maximum theoretical value of 10 predicted by Petropoulos for appropriately tuned anisotropic membranes [16,17]. Moreover, the fabrication of the graded membranes reported by Rogers, which involved the radiation-induced grafting of polyethylene films with poly (vinyl acetate) and subse­quent hydrolysis [9], is complex. Kamtsikakis et al. recently reported compositionally graded, leafcuticle-inspired nanocomposite membranes consisting of a hydropho­bic poly(styrene)-block-poly(butadiene)-block-poly(styrene) (SBS) ma­trix and hydrophilic cellulose nanocrystals (CNCs) [24]. These membranes featured a gradient of the CNC concentration in the",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 29 June 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). transversal direction, leading to directional transport of water [24] and ethanol [25]. In order to improve the performance of these membranes, we recently replaced the CNCs with poly(vinyl alcohol) (PVA) nano­fibers [26]. While the high crystallinity of CNCs of typically ~80 % [24,27] renders them impermeable and restricts water transport to channels along their hydrophilic surface [24,28], the amorphous domains of PVA, which is less crystalline than CNCs (vide infra) [29,30], can absorb water [31–33]. This causes plasticization [34], which in turn leads to an increase in the water permeability as the relative humidity (RH) in­creases [35–39]. Due to the concentration gradient of PVA nanofibers in these membranes, such plasticization is only possible when the PVA-rich side is exposed to high RH [26]. As a consequence, the SBS-PVA nano­composite membranes show a switchable transport asymmetry that more closely mirrors the behavior of leaf cuticles. Based on an analysis of the data using a resistance-in-series model, we concluded that the relatively modest AF of 2.3 observed for the best SBS-PVA nano­composite investigated can be substantially increased by creating bilayer structures consisting of a thicker PVA layer that is coated with a thin layer of SBS [26].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "stigated can be substantially increased by creating bilayer structures consisting of a thicker PVA layer that is coated with a thin layer of SBS [26]. Here, we present an experimental and theoretical investigation of such laminated membranes and demonstrate that this is indeed the case. Our data also confirm surprisingly good bonding between the PVA and SBS layers under operating conditions, even without a specific adhesion promoter [40,41]. The high directional water transport obtained with the present PVA-SBS laminated membranes could be useful for pack­aging applications [42], where the switchable behavior would allow the take-up or release of moisture on demand, or in other technologically relevant applications such as separation processes [43–45], functional clothing [46] or wound dressing [47]. 2. Experimental 2.1. Materials SBS (30 wt% styrene, Mw ~140,000 g mol-1 by SEC), PVA (Mowiol 20-98, Mw ~125,000 g mol-1), potassium chloride (KCl), potassium sulfate (K2SO4), and calcium chloride (CaCl2) (anhydrous, granular ~1-2 mm) were supplied by Merck, and sodium chloride (NaCl) was purchased from Carl Roth. Tetrahydrofuran (THF) (99.8 %, analytical reagent grade) and magnesium nitrate hexahydrate (Mg(NO3)2⋅6H2O) were purchased from Thermo Fisher Scientific and used without any purification. In-house deionized (DI) water was used unless otherwise specified. 2.2.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ere purchased from Thermo Fisher Scientific and used without any purification. In-house deionized (DI) water was used unless otherwise specified. 2.2. Fabrication of PVA-SBS bilayer membranes In a first step, the PVA layer was prepared by casting solutions of PVA (2.5 or 5 wt%) in DI water (40 mL) into poly(tetrafluoroethylene) (PTFE) Petri dishes (8 cm diameter). The solvent was evaporated in an oven at 50 ◦C for 2 days, and the resulting PVA films were further dried in a vacuum oven at 80 ◦C for 24 h. The films, which had a thickness of 200 (2.5 wt% PVA solution) or 400 μm (5 wt% PVA solution), were left in the Petri dish and transferred into a desiccator kept under vacuum. A solution of SBS in THF (1.6 wt%) was then cast directly on the PVA films. The solvent was allowed to evaporate overnight in a well-ventilated hood, and the membranes were subsequently dried in a vacuum oven at 80 ◦C for 24 h. The thickness of the SBS layer was controlled by varying the volume of the SBS solution. More specifically, 7 mL and 14 mL of the SBS solution were used to produce SBS layers with a thickness of 10 μm and 40 μm, respectively. 2.3. Fabrication of neat PVA and SBS reference membranes PVA reference membranes were fabricated by casting a solution of PVA (2.5 wt%) in DI water (40 mL) into a PTFE Petri dish (8 cm diameter). The solvent was evaporated in an oven at 50 ◦C for 2 days, and the resulting PVA films were further dried in a vacuum oven at 80 ◦C for 24 h.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ameter). The solvent was evaporated in an oven at 50 ◦C for 2 days, and the resulting PVA films were further dried in a vacuum oven at 80 ◦C for 24 h. The films had a thickness of 200 μm and were stored in a desiccator kept under vacuum. SBS reference films were produced by compression molding pellets between PTFE sheets in a Carver press at 130 ◦C for 7 min with a load of 4 tons. The thickness of the films was controlled using different spacers: for the tensile tests, 0.8 g of SBS pellets were used to produce films with a thickness of ~220 μm (250 μm spacer); for the permeability test, 0.6 g of pellets were used to produce films with a thickness of 120–140 μm (150 μm spacer). 2.4. Thickness measurements The thickness of all films was measured using a digital micrometer (IP 65, Mitutoyo). The reported values are the average ± standard de­viation of thickness measurements taken at a minimum of 10 random spots across the membrane. 2.5. Scanning electron microscopy The cross-sections of the PVA-SBS bilayer membranes were analyzed by scanning electron microscopy (SEM) using a Tescan Mira3 LM FE at 5 kV. The specimens were prepared by cutting the membranes with razor blades and stored in a desiccator before imaging. A gold layer of 4 nm was sputtered on the samples using a Cressington 208HR high-resolution sputter coater (U.K.). 2.6.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n a desiccator before imaging. A gold layer of 4 nm was sputtered on the samples using a Cressington 208HR high-resolution sputter coater (U.K.). 2.6. Tensile testing Measurements were conducted at ambient conditions (T = 23 ◦C, RH ~50 %) on a Zwick/Roell Z010 tensile tester equipped with a 200 N load cell at a strain rate of 50 mm min-1. Dog bone-shaped samples were prepared using a die-cutter (Zwick/Roell, cutter length 38.1 mm, path length 22.25 mm, path width 4.75 mm, width 15.88 mm, and R = 3.2 mm). Samples tested in the dry state were kept in a desiccator under vacuum before testing. Moisture-conditioned samples were kept in an incubator kept at RH = 92 % (K2SO4 saturated salt solution) [48] for one week before tensile testing. The Young’s modulus was measured in the linear elastic region of the stress-strain curves of the membranes. The strain ranges used were 0.03–0.3 % for the reference PVA and PVA-SBS membranes, and 0.1–1.0 % for the SBS reference films. 2.7. Thermogravimetric analysis (TGA) The water content of PVA reference membranes was evaluated by thermogravimetric analysis (TGA) using a Mettler-Toledo TGA/DSC 1STARe system. The dry sample (RH = 0 %) was conditioned by drying in a vacuum oven at 80 ◦C overnight and cooled down in a desiccator under vacuum prior to the measurement. All other samples were conditioned in an incubator at room temperature at different relative humidities (RH ranging from 60 to 95 %) for at least one week prior to testing.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "conditioned in an incubator at room temperature at different relative humidities (RH ranging from 60 to 95 %) for at least one week prior to testing. Tests were conducted under a nitrogen flow of 60 mL min-1, applying a temperature ramp from 25 to 550 ◦C with a heating rate of 10 ◦C min-1. 2.8. Modulated differential scanning calorimetry (MDSC) The glass transition temperature (Tg) of the PVA reference mem­branes was evaluated by modulated Differential Scanning Calorimetry (MDSC) using a Mettler-Toledo DSC 5+ 1STARe system. The dry sample (RH = 0 %) was conditioned by drying in a vacuum oven at 80 ◦C overnight and cooled down in a desiccator under vacuum prior to the measurement. All other samples were conditioned in an incubator at room temperature at different relative humidities (RH ranging from 60 to 95 %) for at least one week prior to testing. Tests were conducted under a nitrogen flow of 60 mL min-1, applying a temperature ramp from -50 to 150 ◦C with a heating rate of 2 ◦C min-1 and a modulation",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "L. Grillo and C. Weder Journal of Membrane Science 733 (2025) 124379 of ±0.2 ◦C every 60 s. 2.9. Water permeability measurements Standard test methods for water vapor transmission of materials ASTM E96 were used to measure the water permeability of the reference single-component membranes and the PVA-SBS laminated membranes [49]. A schematic representation of the dry cup and wet cup method used for the experiments is presented in Fig. S1, while the details of the experimental procedure are described in Supporting Note 1. For the dry cup method, a steady relative humidity of the environment (RHD) was created by placing saturated salt solutions in an incubator set at 25 ◦C. More specifically, solutions of Mg(NO3)2 (RHD = ~55 %), NaCl (RHD =~75 %), KCl (RHD = ~85 %), or K2SO4 (RHD = ~95 %) [48] were used to target RHD values of 55, 70, 80, 85, 90 and 95 %. The relative hu­midity inside the incubator was monitored using a humidity sensor (Fisherbrand Traceable humidity thermometer), and the values of RHD reported are the average values of RHD measured throughout the permeability measurement. The variations of the average RHD with respect to the target values are within the accuracy of the humidity sensor (±4 %). 3. Results and discussion 3.1. Fabrication of PVA-SBS bilayer membranes The laminated PVA-SBS bilayer membranes were fabricated by a sequential casting process. The thickness of both layers was varied to explore any relation between geometry and transport characteristics.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "cated by a sequential casting process. The thickness of both layers was varied to explore any relation between geometry and transport characteristics. In the first step, PVA films were produced via solution casting from DI water. By varying the concentration of the PVA solution, films with a target thickness of 200 and 400 μm were made (See Experimental Sec­tion for details). The SBS layers were then solution cast from THF on top of the PVA films. The thickness of the SBS layer was controlled by the volume of the solution and set to either 10 or 40 μm. Bilayer membranes thus produced are referred to as PVAxx-SBSyy, where the subscripts xx and yy indicate the thickness of the PVA and SBS layer in μm. Fig. 1shows SEM images of the cross-section of the PVA-SBS bilayer mem­branes with different thickness combinations. The images suggest inti­mate contact between the PVA (dashed blue line) and the SBS (orange solid line) layers, without signs of delamination, indicating good adhe­sion [40,41]. Table 1 reports the thickness of the PVA (lPVA) and SBS (lSBS) layers, as well as the total thickness (lT) of the various PVA-SBS membranes. The data shows that the layer thickness can be controlled with high fidelity. Single-component reference films made with PVA (l = 200 μm) or SBS (l = ~220 and 120–140 μm) only were prepared by solution casting (PVA) and compression molding (SBS).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Mechanical characterization of PVA-SBS bilayer membranes Focusing on PVA200-SBS40 as an example for the series, the me­chanical properties of the laminated bilayer membranes were investi­gated via tensile testing, along with the single-component SBS and PVA reference films. We first discuss the data of dry samples (Fig. 2a). The stress-strain curve of the SBS reference film reflects the typical me­chanical characteristic of a microphase separated thermoplastic elas­tomer, i.e., a high extensibility with an elongation at break εB of >900 %, a moderate Young’s modulus E of 54 ± 5 MPa, and a moderate tensile strength σ of 20 ± 4 MPa (Table 2). The PVA is glassy and displays a high E of >4 GPa, brittle failure at low strain (εB = 16 ± 2 %), and a high tensile strength of σ = 95 ± 9 MPa. The stress-strain curve of the bilayer membrane closely traces the one of the PVA reference, since PVA is the dominant component and exhibits a much higher stiffness than SBS. When the PVA layer fails at a strain εB that is close to that of the PVA reference film, the SBS layer remains intact due to its elasticity (Fig. S2, this is not captured in the tensile test), indicating that at this point the two layers delaminate in a continuous fashion, as the SBS deforms. The mechanical behavior of the PVA-SBS bilayer membranes changes considerably after conditioning at high relative humidity (RH = 92 %) because of the water-induced plasticization of the PVA layer (Fig. 2b).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "changes considerably after conditioning at high relative humidity (RH = 92 %) because of the water-induced plasticization of the PVA layer (Fig. 2b). As expected, the hydrophobic SBS reference does not exhibit any statistically significant changes upon exposure to moisture (Table 2). By contrast, and as designed, the PVA is plasticized, as indi­cated by the drop in the Young’s modulus from E = 4 GPa to 62 MPa, an almost 20-fold increase in εB to ca. 300 %, and a 3-fold reduction in σ. Also in this case, the stress-strain curve of the bilayer membrane mirrors the one of the PVA reference, which remains the mechanically dominant component, and εB is increased to almost 300 %. Again, the SBS layer remains intact when the PVA fails, and the two components delaminate continuously as the SBS layer deforms and is pulled off the PVA. While the mechanical tests reflect that the membranes can delaminate locally if deformed to the point where the less ductile PVA layer fails, we emphasize that, despite the large polarity difference of the two com­ponents, such delamination was never observed in the absence of",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 1 Thickness of the PVA (lPVA) and SBS (lSBS) layer and total thickness (lT) measured in the various PVA-SBS bilayer membranes studied. MembranelPVA [μm]alSBS [μm]blT [μm]a PVA200-SBS10200 ± 1110 ± 1210 ± 8PVA200-SBS40202 ± 1539 ± 5237 ± 13PVA400-SBS40414 ± 2443 ± 5457 ± 25 a Experimentally determined.b Back-calculated from the experimentally determined values.\n\nL. Grillo and C. Weder Journal of Membrane Science 733 (2025) 124379 catastrophic failure. Specifically, the membranes kept their integrity upon exposure to high RH environment and under the operation con­ditions they experienced in the experiments that follow.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3,
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Characterization of water transport properties The water transport properties of the SBS and PVA single-component membranes were investigated as a function of the relative humidity in the donor compartment (RHD), using a receiver compartment with an assumed relative humidity of RHR ~ 0 % (Fig. 3a). According to ASTM E96 normative [49], the wet cup method was used for RHD = 100 %, while the dry cup method was used for the other values of RHD reported (Fig. S1). As previously reported [24,26], the water permeability (WP) of the neat SBS films (WPSBS) is constant over all RHD values investigated (55–100 %), with an average value of ca. 2.1 * 10-14 kg m m-2 s-1 Pa-1, as a result of the hydrophobic nature of the polystyrene and poly­butadiene domains of the SBS copolymer and the negligible water up­take it imparts [26]. By contrast, the WP of PVA films (WPPVA) strongly depends on the relative humidity to which the reference membranes are subjected. An increase of nearly three orders of magnitude in WPPVA was observed when RHD was increased from ~55 % (WPPVA = 6.0 ± 1.0 *10-16 kg m m-2 s-1 Pa-1) to 100 % (WPPVA = 2.9 ± 0.4 * 10-13 kg m m-2 s-1 Pa-1). The relationship between WPPVA and the water vapor pressure has already been reported [26,35–38], and the massive\n\nFig. 2. Representative stress-strain curves of the single-component SBS and PVA reference films and PVA200-SBS40 bilayer membranes under (a) dry conditions and (b) after conditioning at RH = 92 % for one week.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 2 Mechanical properties of SBS and PVA single-component films and PVA200SBS40 bilayer membranes as determined by Tensile Tests. All data were acquired at room temperature and represent averages of at least n = 3 individual mea­surements ± standard deviation. Sample codeYoung’s Modulus E [MPa]\n\nElongation at break εB [%] Tensile strength σ [MPa]",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. (a) Water permeability (WP) of SBS and PVA single-component reference films and the PVA200-SBS40 bilayer membranes in the two directions (SBS → PVA and PVA → SBS) as a function of the relative humidity at the donor side (RHD). (b) Experimentally determined asymmetry factor (AFE) of the PVA200-SBS40 bilayer membranes as a function of RHD, calculated from the data shown in (a). The wet cup method was used for tests at RHD = 100 %, while the dry cup method was used for all other experiments. Reported values are the mean ± s.d. of measurements carried out on n = 4 different membranes. The RHD values reflect averaged RH measurements during the experiment and slightly vary from the target values quoted in the text. L. Grillo and C. Weder Journal of Membrane Science 733 (2025) 124379 increase that is observed when PVA is exposed to humid conditions is caused by water sorption and plasticization of the polymer (Fig. S3). Indeed, the thermogravimetric analysis (TGA) traces of the PVA refer­ence membranes show a steady increase in the water content with the increase of the RH of exposure (Fig. S3a, Table S1). Water molecules act as plasticizers and swell the PVA, thus increasing the chain mobility and free volume of the polymer and enhancing the water diffusion across the membrane [38,39].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rs and swell the PVA, thus increasing the chain mobility and free volume of the polymer and enhancing the water diffusion across the membrane [38,39]. This plasticization effect is accompanied by a decrease in the glass transition temperature (Tg) of PVA with the in­crease of RH, as observed in the reversing heat flow signals derived with the modulated differential scanning calorimetry (MDSC) (Fig. S3b, Table S1). The deconvolution of the total heat flow via thermal modu­lation allowed us to discriminate between the broad endotherm asso­ciated with the evaporation of sorbed water, which is exclusively present in the non-reversing heat flow signal, from the change in heat capacity due to the glass transition of PVA, which is clearly visible in the reversing heat flow signal (Fig. S4). As already reported by Konidari et al., [50] exposing PVA to high RH induces a decrease in the Tg of the polymer, from 87 ◦C in the dry state (RH = 0 %) to – 23 ◦C when RH ~95 % and the water content of the sample is ~23 wt% (Table S1). For PVA films that were conditioned at RH = 60 %, we observe a Tg of 33 ◦C, which is in line with the results of Hu et al., who investigated the combined effect of relative humidity and temperature on the dynamic viscoelastic properties of PVA using dynamic mechanical analysis (DMA) [34]. The increase in the WP with increasing RH observed in the PVA membranes is consistent with the decrease in the Tg of this material at high RH (Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "]. The increase in the WP with increasing RH observed in the PVA membranes is consistent with the decrease in the Tg of this material at high RH (Fig. S3, Table S1), as previously reported [34,50]. As ex­pected, the WP of the PVA and SBS reference films at RHD = 100 % is independent of the side that faces the donor compartment and the AFE (the subscript E is used to distinguish experimental data from the modeling results that follow) is unity, i.e., transport through the single-component membranes is symmetric (Fig. S5). The PVA200-SBS40 membranes were used to gain first insights into how the relative humidity and the transport direction affect the trans­port properties of the bilayer membranes (Fig. 3a). Given the difficulty in measuring WPPVA of the reference PVA films at RHD = ~55 % (low weight gain of the dry cups over two weeks of measurements) and the high standard deviation obtained under those conditions, the WP of the bilayer membranes was investigated only from RH = ~70 %. Since PVA is the predominant component of the laminated structure, the trend seen in the total water permeability of the bilayer membrane (WPT) at different RHD follows the behavior observed in the PVA reference films, i.e., the WPT increases as RHD is increased from ~70 to 100 %.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "mbrane (WPT) at different RHD follows the behavior observed in the PVA reference films, i.e., the WPT increases as RHD is increased from ~70 to 100 %. However, the increase observed when the SBS layer faces the donor compartment and water is transported from SBS → PVA is less prominent than the increase that is observed when the PVA layer faces the donor and water is transported from PVA → SBS. This is consistent with the intended function of these membranes. When the water vapor enters from the SBS side, the water-induced plasticization of PVA is limited by the hydro­phobic SBS layer, which acts as a barrier against the swelling of PVA. By contrast, when the PVA side faces the donor compartment, its plastici­zation is unrestricted. Fig. 3b shows the AFE values of the PVA200-SBS40 bilayer membranes as a function of RHD. At RHD = ~70 %, the PVA is not sufficiently plasticized to bring its Tg below ambient temperature, and therefore remains the predominant barrier to water transport, despite its hydrophilic nature. Consequently, the PVA200-SBS40 bilayer membrane shows a WPT that approaches that of neat PVA (Fig. 3a), and its AFE value of 1.4 ± 0.1 reflects nearly symmetric transport. The AFE quadruples when the RHD increases, reaching the very significant value of 5.8 ± 0.5 at RHD = ~85 %. Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "reflects nearly symmetric transport. The AFE quadruples when the RHD increases, reaching the very significant value of 5.8 ± 0.5 at RHD = ~85 %. Fig. 3b reveals that the large increase in AFE mirrors the increase in WPPVA in the same humidity range and in­dicates that the AFE of the PVA200-SBS40 membrane is indeed governed by the plasticization of PVA. AFE remains largely unchanged when the RHD is further increased from ~85 to 100 %, which reflects that the PVA is increasingly plasticized when RHD is increased, even when the SBS side faces the donor compartment. The fact that AFE plateaus at RHD =",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "~85 % reflects that increasing RHD further leads to a similar increase in the water permeability of the PVA layer WPPVA due to plasticization of the PVA, irrespective of the side that is exposed to high humidity, as confirmed by the increase of WP of the PVA200-SBS40 bilayer mem­branes observed in both directions of transport (Fig. 3a). To gain further insights into how the structure affects the transport characteristics of the bilayer membranes, we also investigated mem­branes with a much thinner SBS layer (PVA200-SBS10) and a thicker PVA layer (PVA400-SBS40). For this comparison, the water transport of the bilayer membranes was investigated only for RHD = 100 % using the wet cup method. Fig. 4a shows that, regardless of the transport direction, the WP of the bilayer membranes WPT increases minimally (relative to the value reported for PVA200-SBS40) if the thickness of the PVA layer lPVA is increased or the thickness of the SBS layer lSBS is decreased. Neverthe­less, Fig. 4b shows that the AFE value is not significantly affected by these changes, which in turn suggests that the AFE may be limited by the WP difference of the components forming the bilayer membranes, rather than the dimensions of the two layers. Indeed, even when the PVA is fully plasticized, WPPVA is only one order of magnitude higher than WPSBS (2.9 ± 0.4 * 10-13 vs 2.1 ± 0.3 * 10-14 kg m m-2 s-1 Pa-1 at RHD = 100 %, cf. Fig. 3a). 3.4.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "d, WPPVA is only one order of magnitude higher than WPSBS (2.9 ± 0.4 * 10-13 vs 2.1 ± 0.3 * 10-14 kg m m-2 s-1 Pa-1 at RHD = 100 %, cf. Fig. 3a). 3.4. Analysis of the data on the Basis of a resistance-in-series model In an attempt to develop a better understanding of the upper limit observed in the AF of the PVA-SBS bilayer membranes, we applied a resistance-in-series model to analyze the experimental data collected in this study. Considering a PVA layer with thickness lPVA and an SBS layer with thickness lSBS (Fig. 5) and introducing the resistance to water transport (R) [51]. R =lWP * A(1) where l, WP, and A are the thickness, water permeability, and transport area of the membrane, it is possible to evaluate the total resistance of a multilayer membrane from the contributions of the individual re­sistances of the single layers [1,8,51]. According to the resistance-in-series model, also known as the ideal laminate theory [1,32], the total resistance of the PVA-SBS bilayer membrane (RT) can be expressed by the sum of the resistances of the PVA layer (RPVA) and of the SBS layer (RSBS): RT = RPVA + RSBS(2) By applying Equation (1) to RPVA and RSBS in Equation (2), the total water permeability of the bilayer membrane (WPT) can be expressed as a combination of the WPs of the single components and the thickness of the layers (Derivation in Supporting Note 2): 1WPT = lPVA lT 1WPPVA + lSBS lT 1WPSBS",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(3)\n\nWhere lT is the total thickness of the PVA-SBS bilayer membrane, lPVA and WPPVA are the thickness and water permeability of the PVA layer and lSBS and WPSBS are the thickness and water permeability of the SBS layer. While the water permeability of SBS (WPSBS) is constant, the water permeability of PVA (WPPVA) varies with the relative humidity, as seen in Fig. 3a. As already observed by Hauser and McLaren [35], a plot of lnWPPVA vs. RH follows an S-shaped curve (Fig. 3a). To express WPPVA for RH values between the collected experimental data points, we fitted the experimental WPPVA data with a 4-parameter logistic function expressing WPPVA (RH) (Supporting Note 3, Table S2, Fig. S6). As shown in Fig. 5, the PVA layer is subjected to RHD when the PVA side faces the donor, i.e., RH = RHD. When the SBS side faces the donor, the PVA layer experiences a relative humidity RHm* that is dictated by the water transport through the membrane and not a priori known.\n\nL. Grillo and C. Weder Journal of Membrane Science 733 (2025) 124379",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "However, RHm* can be estimated from the experimental data of the water vapor transmission rate WVTRSBS→PVA measured through the membrane in the SBS → PVA direction (Derivation in Supporting Note 4). Thus, the water permeability of the PVA layer in the multilayer membrane can be expressed as WPPVA (RHD) for the PVA → SBS direc­tion, and as WPPVA (RHm*) for the SBS → PVA direction (Table S3). While WPPVA (RHD) was taken from the experimental value measured with the reference PVA film at the corresponding RHD, WPPVA (RHm*) was evaluated using the logistic function reported in Supporting Note 3. This framework was first applied to model the transport of PVA200SBS40 bilayer membranes at different values of RHD. The WPPVA values calculated for both transport directions (Table S3) were used to deter­mine direction-dependent WPT values WPPVA→SBS and WPSBS→PVA from which the asymmetry factor given by the model (AFM) was determined (Derivation in Supporting Note 5): AFM = WPPVA→SBS WPSBS→PVA\n\n(4)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6a shows the experimentally determined asymmetry factors (AFE, Fig. 3a) and the values derived with the resistance model (AFM) for the PVA200-SBS40 bilayer membranes at different values of RHD. The comparison shows that the model describes the situation at ~70 % RH well. It also successfully reflects the jump in the AF that is experimen­tally observed when RHD is increased from 70 to 85 %. However, a considerable discrepancy is seen for RHD = 100 %. While the model suggests that the AF could reach ca. 9, this is not experimentally observed. This difference may result from an underestimation of WPSBS→PVA, due to an underestimation of WPPVA (RHm*). Indeed, for RHD = 1.00, the interface value RHm* = 0.83 (Table S3) is close to the center point of the Logistic function (x0 = 0.85, Table S2), where the slope of the sigmoid is highest. Consequently, even small changes in RHm* have a large influence on the calculation of WPPVA (RHm*), WPSBS→PVA, and AFM values (Fig. S7). The same methodology was applied to further study the effect of the layer thickness on the AF (Fig. 4, Table S5). Fig. 6b shows that the model confirms that a 10 μm layer of SBS is sufficient to induce asymmetric water transport, although the calculated asymmetry is considerably lower than experimentally observed (AFM = 2.6 for PVA200-SBS10). The model also describes the AF of the PVA400-SBS40 bilayer membrane well. As discussed, the differences between AFM and AFE shown in Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "200-SBS10). The model also describes the AF of the PVA400-SBS40 bilayer membrane well. As discussed, the differences between AFM and AFE shown in Fig. 6for the PVA200-SBS40 bilayer membranes at RHD = 100 % may be due to the proximity of the interface values RHm* to the center of the sigmoidal function, which is the point at which WPPVA changes more rapidly, causing possible inaccurate estimates. Overall, the resistance-in-series model supports the experimentally observed trends in the AF at different values of RHD, confirms that switching of WPPVA is the key to asymmetric water transport at high RH, and corroborates the presence of an upper limit in the AF values that can be obtained using these two components. However, it appears that the quantitative calculation of the AF through the resistance-in-series model is not precise for all the experimental conditions investigated. In addition to the difficulties in accurately determining RHm*, which may lead to inaccurate estimation of the AFM (Fig. S7), the main limitation of this model is the use of a single value of WPPVA to describe the transport through the PVA layer. Although the concentration-dependency of WPPVA was considered by the different evaluations made in the two transport directions (WPPVA (RHD) in the PVA → SBS direction and WPPVA (RHm*) in the SBS → PVA direction), this expedient presumes that the PVA layer is homogenously plasticized to the extent of RH to which it is subjected.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Hm*) in the SBS → PVA direction), this expedient presumes that the PVA layer is homogenously plasticized to the extent of RH to which it is subjected. However, as the water transport is ultimately driven by a water vapor pressure gradient across the PVA layer, the assumption of homogeneous plasticization is clearly an oversimplification that prevents an accurate calculation of AFM. Indeed, differences in water vapor pressure between the upstream and downstream sides of moisture-sensitive polymeric films lead to significant variations in their WP [52,53], reflecting that a simple",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. (a) WPT of the PVA-SBS bilayer membranes as a function of the transport direction and composition. (b) AFE of the bilayer membranes as a function of the composition, calculated from values shown in (a). The reported data were measured with the wet cup method (RHD = 100 %) and are the mean ± s.d. of n =4 membranes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. Schematic of the PVA-SBS laminated membranes and the trans­port directions. L. Grillo and C. Weder Journal of Membrane Science 733 (2025) 124379 resistance-in-series model is not capable of accurately describing sys­tems in which the permeability is not constant. 4. Conclusions In summary, our experimental and theoretical investigation confirms the hypothesis of this work, i.e. that bilayer structures composed of PVA and SBS would offer more pronounced asymmetric water transport characteristics than compositionally graded membranes made from the same materials. In fact, the maximum AFE value of 5.8 reported here is more than double the value obtained in our previous work on SBS-PVA nanocomposite membranes [26], close to the AFE = 6.5 obtained by Rogers in 1965 [9], and possibly the second largest reported in the literature [1]. We note that the laminated PVA-SBS membranes pre­sented in this study are much easier to make than the graded poly (ethylene-graft-vinyl alcohol) membranes developed by Rogers, and that their mechanical behavior has been thoroughly investigated, confirming robustness under the conditions at which directional water transport occurs. The data acquired for membranes with different dimensions seem to suggest that a further increase of the AF may not be possible via an improvement of the membrane’s architecture (i.e., the thickness of the layers), but may require increasing the WP contrast of the two components.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "a an improvement of the membrane’s architecture (i.e., the thickness of the layers), but may require increasing the WP contrast of the two components. The resistance-in-series model confirmed the switchable behavior observed experimentally, indicating how the AF is influenced by the RH gradient applied to the bilayer membranes. Nevertheless, accurate estimations of the AF values are presently not possible, which makes the in-silico design of future systems difficult. The need to accurately determine RHm* is certainly one limitation, but the model itself appears too simplistic in that it assumes a homogeneous plastici­zation of the PVA layer. Nevertheless, the resistance-in-series model supports the experimentally observed trends in the AF at different values of RHD and suggests the presence of an upper limit in the AF values that can be obtained using these two components. Given that the two layers separate upon deformation to high strains, we speculate that it will be valuable to increase the adhesion between the hydrophobic and hy­drophilic components, using, for example, surface modification tech­niques or applying an amphiphilic or reactive intermediate layer as an adhesion promoter. It will be interesting to see if this modification will also affect the transport characteristics, including the AF.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "CRediT authorship contribution statement Luca Grillo: Writing – review & editing, Writing – original draft, Visualization, Validation, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Christoph Weder: Writing – review & editing, Writing – original draft, Visualization, Validation, Supervi­sion, Resources, Project administration, Methodology, Funding acqui­sition, Formal analysis, Data curation, Conceptualization. Data availability The raw data underlying the findings of this work can be found at https://doi.org/10.5281/zenodo.15212856. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements This study has received funding from the Swiss National Science Foundation under the SNSF-SPIRIT scheme (Grant No. IZSTZ0_199067/ 1) and the Adolphe Merkle Foundation. The authors also thank Emma Contini for valuable suggestions. Nomenclature APermeation area (m2)AFAsymmetry factor (-)CaCl2Calcium chlorideCNCsCellulose nanocrystalsEYoung’s modulus (MPa)K2SO4Potassium sulfateKClPotassium chloridelThickness (μm)Mg(NO3)2⋅6H2O magnesium nitrate hexahydrateNaClSodium chloridePTFEPoly(tetrafluoroethylene)PVAPoly(vinyl alcohol)RResistance to water transport (MPa s g-1)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. Comparison between the experimental and model values of the AF evaluated (a) at different RHD and fixed thicknesses (PVA200-SBS40) and (b) at fixed RHD = 100 % for membranes with different compositions. The experimental values in (b) and for RHD = 100 % in (a) were collected using the wet cup method, while the dry cup method was used for the other RHD in (a). All the experimental values are reported as the mean ± s.d. of n = 4 different membranes. The RHD values in (a) reflect averaged RH measurements during the experiment and slightly vary from the target values quoted in the text. L. Grillo and C. Weder Journal of Membrane Science 733 (2025) 124379",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[19] E. Domínguez, J.A. Heredia-Guerrero, A. Heredia, The biophysical design of plant cuticles: an overview, New Phytol. 189 (2011) 938–949, https://doi.org/10.1111/ j.1469-8137.2010.03553.x.[20] M. Pollard, F. Beisson, Y. Li, J.B. Ohlrogge, Building lipid barriers: biosynthesis of cutin and suberin, Trends Plant Sci. 13 (2008) 236–246, https://doi.org/10.1016/ j.tplants.2008.03.003.[21] T.H. Yeats, J.K.C. Rose, The formation and function of plant cuticles, Plant Physiology 163 (2013) 5–20, https://doi.org/10.1104/pp.113.222737.[22] M. Riederer, L. Schreiber, Protecting against water loss: analysis of the barrier properties of plant cuticles, J. Exp. Bot. 52 (2001) 2023–2032, https://doi.org/ 10.1093/jexbot/52.363.2023.[23] H. Huang, M. Burghardt, A.-C. Schuster, J. Leide, I. Lara, M. Riederer, Chemical composition and water permeability of fruit and leaf cuticles of Olea europaea L, J. Agric. Food Chem. 65 (2017) 8790–8797, https://doi.org/10.1021/acs. jafc.7b03049.[24] A. Kamtsikakis, J. Baales, V.V. Zeisler-Diehl, D. Vanhecke, J.O. Zoppe, L. Schreiber, C. Weder, Asymmetric water transport in dense leaf cuticles and cuticle-inspired compositionally graded membranes, Nat. Commun. 12 (2021) 1267, https://doi. org/10.1038/s41467-021-21500-0.[25] A. Kamtsikakis, G. Delepierre, C. Weder, Cellulose nanocrystals as a tunable nanomaterial for pervaporation membranes with asymmetric transport properties, J. Membr. Sci. 635 (2021) 119473, https://doi.org/10.1016/j.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "a tunable nanomaterial for pervaporation membranes with asymmetric transport properties, J. Membr. Sci. 635 (2021) 119473, https://doi.org/10.1016/j. memsci.2021.119473.[26] L. Grillo, C. Weder, Switchable asymmetric water transport in dense nanocomposite membranes, ACS Appl. Polym. Mater. 6 (2024) 2243–2252, https://doi.org/10.1021/acsapm.3c02801.[27] R.B. Baloyi, B.B. Sithole, V. Chunilall, Physicochemical properties of cellulose nanocrystals extracted from postconsumer Polyester/cotton-blended fabrics and their effects on PVA composite films, Polymers 16 (2024) 1495, https://doi.org/ 10.3390/polym16111495.[28] M. Mariano, N. El Kissi, A. Dufresne, Cellulose nanocrystals and related nanocomposites: review of some properties and challenges, J. Polym. Sci., Part B: Polym. Phys. 52 (2014) 791–806, https://doi.org/10.1002/polb.23490.[29] L. Huang, J.H. Wang, Permeability of hydrated poly(vinyl alcohol): effect of relaxation behaviors and hydrogen bonds in supramolecular structure, Polym. Sci. 57 (2015) 656–666, https://doi.org/10.1134/S0965545X15050107.[30] S.-S. Wong, S.A. Altınkaya, S.K. Mallapragada, Drying of semicrystalline polymers: mathematical modeling and experimental characterization of poly(vinyl alcohol) films, Polymer 45 (2004) 5151–5161, https://doi.org/10.1016/j. polymer.2004.05.037.[31] G. Choudalakis, A.D. Gotsis, Permeability of polymer/clay nanocomposites: a review, Eur. Polym. J. 45 (2009) 967–984, https://doi.org/10.1016/j. eurpolymj.2009.01.027.[32] V.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "sis, Permeability of polymer/clay nanocomposites: a review, Eur. Polym. J. 45 (2009) 967–984, https://doi.org/10.1016/j. eurpolymj.2009.01.027.[32] V. Siracusa, Food packaging permeability behaviour: a report, Int. J. Polym. Sci. 2012 (2012) 1–11, https://doi.org/10.1155/2012/302029.[33] S.L.M. Alexander, L.T.J. Korley, Tunable hygromorphism: structural implications of low molecular weight gels and electrospun nanofibers in bilayer composites, Soft Matter 13 (2016) 283–291, https://doi.org/10.1039/C6SM00749J.[34] H. Hu, X. Zhang, Y. He, Z. Guo, J. Zhang, Y. Song, Combined effect of relative humidity and temperature on dynamic viscoelastic properties and glass transition of poly(vinyl alcohol), J. Appl. Polym. Sci. 130 (2013) 3161–3167, https://doi. org/10.1002/app.39547.[35] P.M. Hauser, A.D. McLaren, Permeation through and sorption of water vapor by high polymers, Ind. Eng. Chem. 40 (1948) 112–117, https://doi.org/10.1021/ ie50457a032.[36] I. Matsuno, A. Takizawa, T. Kinoshita, Y. Tsujita, Water vapor permeability through laminated membrane composed of hydrophilic and hydrophobic layers, Seni Gakkai Shi 43 (1987) 578–586, https://doi.org/10.2115/fiber.43.11_578.[37] Y. Xianda, W. Anlai, C. Suqin, Water-vapor permeability of polyvinyl alcohol films, Desalination 62 (1987) 293–297, https://doi.org/10.1016/0011-9164(87)870303.[38] Z.W. Abdullah, Y. Dong, N. Han, S.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "bility of polyvinyl alcohol films, Desalination 62 (1987) 293–297, https://doi.org/10.1016/0011-9164(87)870303.[38] Z.W. Abdullah, Y. Dong, N. Han, S. Liu, Water and gas barrier properties of polyvinyl alcohol (PVA)/Starch (ST)/glycerol (GL)/halloysite nanotube (HNT) bionanocomposite films: experimental characterisation and modelling approach, Composites, Part B 174 (2019) 107033, https://doi.org/10.1016/j. compositesb.2019.107033.[39] C. Mo, W. Yuan, W. Lei, Y. Shijiu, Effects of temperature and humidity on the barrier properties of biaxially-oriented polypropylene and polyvinyl alcohol films, J. Appl. Packag. Res. 6 (2014) 40–46, https://doi.org/10.14448/japr.01.0004.[40] S. Ren, J. Feng, Water-responsive actuators based on the solution casted PVA/ epoxidized-SBS two-way shape memory bilayer composite film, J. Mater. Chem. C 8 (2020) 14826–14833, https://doi.org/10.1039/D0TC00086H.[41] Y. Shao, J. Yan, Y. Zhi, C. Li, Q. Li, K. Wang, R. Xia, X. Xiang, L. Liu, G. Chen, H. Zhang, D. Cai, H. Wang, X. Cheng, C. Yang, F. Ren, Y. Yu, A universal packaging substrate for mechanically stable assembly of stretchable electronics, Nat. Commun. 15 (2024) 6106, https://doi.org/10.1038/s41467-024-50494-8.[42] Y. Hirata, S. Marais, Q.T. Nguyen, C. Cabot, J.-P. Sauvage, Relationship between the gas and liquid water permeabilities and membrane structure in homogeneous and pseudo-bilayer membranes based on partially hydrolyzed poly(ethylene-covinyl acetate), J. Membr. Sci.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lities and membrane structure in homogeneous and pseudo-bilayer membranes based on partially hydrolyzed poly(ethylene-covinyl acetate), J. Membr. Sci. 256 (2005) 7–17, https://doi.org/10.1016/j. memsci.2005.01.002.[43] K. Li, J. Ju, Z. Xue, J. Ma, L. Feng, S. Gao, L. Jiang, Structured cone arrays for continuous and effective collection of micron-sized oil droplets from water, Nat. Commun. 4 (2013) 2276, https://doi.org/10.1038/ncomms3276.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "L. Grillo and C. Weder Journal of Membrane Science 733 (2025) 124379\n\n[44] Y. Zhang, M. Barboiu, Dynameric asymmetric membranes for directional water transport, Chem. Commun. 51 (2015) 15925–15927, https://doi.org/10.1039/ C5CC06805C.[45] A. Kamtsikakis, S. McBride, J.O. Zoppe, C. Weder, Cellulose nanofiber nanocomposite pervaporation membranes for ethanol recovery, ACS Appl. Nano Mater. 4 (2021) 568–579, https://doi.org/10.1021/acsanm.0c02881.[46] Y. Si, S. Shi, Z. Dong, H. Wu, F. Sun, J. Yang, J. Hu, Bioinspired stable single-layer janus fabric with directional water/moisture transport property for integrated personal cooling management, Adv. Fiber Mater. 5 (2023) 138–153, https://doi. org/10.1007/s42765-022-00200-4.[47] L. Qi, K. Ou, Y. Hou, P. Yuan, W. Yu, X. Li, B. Wang, J. He, S. Cui, X. Chen, Unidirectional water-transport antibacterial trilayered nanofiber-based wound dressings induced by hydrophilic-hydrophobic gradient and self-pumping effects, Mater. Des. 201 (2021) 109461, https://doi.org/10.1016/j.matdes.2021.109461.[48] L. Greenspan, Humidity fixed points of binary saturated aqueous solutions, J. Res. Natl. Bur. Stan. Sect. A. 81A (1977) 89, https://doi.org/10.6028/jres.081A.011.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8,
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[49] ASTM International, ASTM E96/E96M-16, Standard Test Methods for Water Vapor Transmission of Materials, 2016, https://doi.org/10.1520/E0096_E0096M-16.[50] M.V. Konidari, K.G. Papadokostaki, M. Sanopoulou, Moisture-induced effects on the tensile mechanical properties and glass-transition temperature of poly(vinyl alcohol) films, J. Appl. Polym. Sci. 120 (2011) 3381–3386, https://doi.org/ 10.1002/app.33118.[51] C.Z. Liang, T.-S. Chung, J.-Y. Lai, A review of polymeric composite membranes for gas separation and energy production, Prog. Polym. Sci. 97 (2019) 101141, https://doi.org/10.1016/j.progpolymsci.2019.06.001.[52] M.a. Del Nobile, G.g. Buonocore, C. Altieri, G. Battaglia, L. Nicolais, Modeling the water barrier properties of nylon film intended for food packaging applications, J. Food Sci. 68 (2003) 1334–1340, https://doi.org/10.1111/j.1365-2621.2003. tb09647.x.[53] M.A. Del Nobile, P. Fava, L. Piergiovanni, Water transport properties of cellophane flexible films intended for food packaging applications, J. Food Eng. 53 (2002) 295–300, https://doi.org/10.1016/S0260-8774(01)00168-6.\n\nL. Grillo and C. Weder Journal of Membrane Science 733 (2025) 124379",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006921-main",
+      "title": "Directional water transport in laminated polymer",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  }
+]

@@ -1,0 +1,325 @@
+[
+  {
+    "content": "1. Introduction Desalination is critical to providing access to clean water in water-stressed regions, especially in the face of population growth and climate change. Research shows that technologies such as reverse osmosis, solar desalination, etc., are becoming more efficient and cost-effective, but there are challenges associated with energy consumption and environmental impacts, such as the formation of toxic brine [1–6]. According to article [1], desalination, especially using reverse osmosis, has become a key solution for coastal regions with limited freshwater resources. The authors highlight that the cost of desalination has decreased by 50% over the past two decades, making it more affordable, but energy consumption and the formation of toxic brine remain significant drawbacks. Article [1] discusses the potential reduction in energy consumption by modern seawater desalination technologies (reverse osmosis and electrodialysis) and their limitations, the potential role of advanced materials and innovative technologies in improving performance, and the environmental friendliness of desalination. Article [2] provides an overview of the challenges and opportunities for obtaining clean water based on solar desalination using photothermal materials. The study describes the problem of salt accumulation, which is currently the main obstacle to the stable operation of solar evaporators. The article in Frontiers [3] shows that desalination can support ecosystems if carbon dioxide emissions are minimized and brine is managed. However, the authors emphasize the need to monitor the impact on marine ecosystems, which requires further research.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01523",
+      "title": "Numerical Study of Salt Ion Transport in Electromembrane Systems with Ion-Exchange Membranes Having Geometrically Structured Surfaces",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "It is known that membrane separation methods for water purification and desalination are increasingly used to solve global problems related to water shortage and aquatic pollution. However, progress in the field of membranes for water purification is hampered by the inherent limitations of traditional membrane materials. Recent advances in the field of methods for controlling the structure and chemical functionality of polymer films can potentially lead to the emergence of new classes of membranes for water purification. In review [4], the authors first discuss the current state of existing membrane technologies for water purification and desalination, highlight their inherent limitations, and determine the current requirements for next-generation membranes. They also offer promising approaches to modifying the membrane surface, which minimize interphase interactions and increase resistance to contamination. The most environmentally friendly method of water desalination today is the use of electromembrane systems, in which electroconvection is the main mechanism of overlimit transport. Thus, in study [5], an experimental confirmation of the role of electroconvection in porous media is presented. It is shown that vortex flows significantly increase the rate of salt removal. Review [6] examines in detail recent studies of electroconvection with an emphasis on quantitative experimental and mathematical modeling and modeling of this phenomenon. Approaches to controlling this phenomenon under standard conditions are also discussed.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01523",
+      "title": "Numerical Study of Salt Ion Transport in Electromembrane Systems with Ion-Exchange Membranes Having Geometrically Structured Surfaces",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "We will adhere to the definition of electroconvection given in [7,8]. Namely, by electroconvection we will mean any movement of an electrolyte solution caused by the effect of an external electric field on the solution. This effect is modeled as a body (volume) electric force in the Navier–Stokes equation. The origin and influence of the body electric force can be explained as follows. The fixed charge of the matrix of ion-exchange membranes causes a high concentration of counterions and a low concentration of co-ions in the membrane volume. Due to the continuity of the concentration change, a double electric layer (DEL) is formed at the interface. The effect of the electric field on the spatial charge region (SCR) in the DEL of the solution leads to the movement of ions in this layer. Since the ions are hydrated, i.e., surrounded by a hydration shell, they move with it. We will assume that the solution is a viscous and incompressible liquid. In liquids, viscosity is a manifestation of the cohesion forces between molecules. Therefore, the hydration shell, in turn, is connected with the surrounding water molecules by the forces of molecular adhesion. Thus, part of the water surrounding the hydration shell of ions is also involved in the movement. Since the SCR contains almost exclusively counterions, the volume of water moving with them encounters almost no resistance from the counter-flow of volume carried by the co-ions. Therefore, the effect of the electric field on the SPR leads to the transport of the entire (or almost entire) volume of the solution located in this region (the phenomenon of electro-osmosis).",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01523",
+      "title": "Numerical Study of Salt Ion Transport in Electromembrane Systems with Ion-Exchange Membranes Having Geometrically Structured Surfaces",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Note the significant difference compared to the volume of an electrically neutral solution, in which there is a counter-flow of water volumes associated with ions. Water molecules, not entering the primary hydration shell, are affected by both cations moving from the anode to the cathode and anions moving in the opposite direction. As a result, relatively free water molecules are not transported at all, and the phenomenon of electro-osmosis in an electrically neutral solution is absent. Dukhin S.S. [9] distinguishes two types of electro-osmosis. Electro-osmosis of the first type (classical electro-osmosis) occurs as a result of the action of an electric field on the equilibrium DEL, which exists regardless of the presence of an external electric field. A different situation occurs with strong polarization of the ion-exchange membrane by an external electric field. In this case, as Rubinstein I. and Shtilman L. [10] first showed, the size of the SPE significantly exceeds the thickness of the equilibrium DEL and can reach micrometer sizes [11]. Then, electro-osmosis of the second type occurs: the transport of the liquid volume under the action of an external electric field to the expanded SPE, which occurs as a result of the action of the same electric field. It is electro-osmosis of the second kind that is the main mechanism that causes the overlimiting transport of salt counterions through the membrane. A large number of works are devoted to the study of the phenomenon of electroconvection [12–16].",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01523",
+      "title": "Numerical Study of Salt Ion Transport in Electromembrane Systems with Ion-Exchange Membranes Having Geometrically Structured Surfaces",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In [16,17], the importance of the problem of intensifying the desalination process is discussed, including through geometric modification of the surface of ion-exchange membranes. At present, the phenomenon of overlimiting mass transport is being intensively studied. However, many issues remain poorly understood. In particular, it is unclear what effect the geometric modification of the membrane surface and the forced flow of the solution in the desalination channel have on the development of electroconvection [18–22]. This article attempts to advance the understanding of this phenomenon and to quantitatively describe the occurrence and development of electroconvection under conditions of forced convection and geometric modification of the membrane surface. Modification of the membrane surface (nanostructuring and fractal patterns) allows to reduce of concentration polarization, increases the area of the active zone, and improves selectivity [23,24]. According to Zabolotsky V.I. et al. [25], the concept of profiled ion exchange membranes was introduced and implemented in 1971 by Gnusin N.P. et al. [26] to accelerate the electrodialysis process by increasing the available membrane surface area and mass transport. Later, Nikonenko V.V. et al. [27] compared the performance of the electrodialysis process in stacks with non-conductive spacers, ion-exchange resins, or profiled ion-exchange membranes. They showed that in the case of profiled membranes, the production of drinking water is most efficient, the Sherwood number is up to five times higher than that of electrodialysis with non-conductive spacers.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01523",
+      "title": "Numerical Study of Salt Ion Transport in Electromembrane Systems with Ion-Exchange Membranes Having Geometrically Structured Surfaces",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Zabolotsky V.I. and Nikonenko V.V. used heterogeneous membranes with a specific pattern on the membrane surface, consisting of cones located at the nodes of rhombuses (diamond-shaped distribution). Vasilyeva V.I. et al. [28] used similar profiling and investigated the mechanisms of selective transport of amino acids through ion-exchange membranes during the dialysis process and found a more than twofold increase in ion flux and separation factor. Loza S.A. et al. [29] confirmed the increased diffusion permeability of such membranes. Melnikov et al. used membranes with such a pattern to extract valuable components from dilute wastewater [30]. Liu J. et al. [31] changed the shape of the pattern from a rhombus to a square and obtained an approximately 35% increase in the power density in microbial reverse-electrodialysis cells. The study by Wessling M., Stockmeier F. et al. [32] is devoted to the analysis of the direction of rotation and the position of electroconvective vortices using the surface patterning method or geometric and electrical inhomogeneity. Wessling M., Stockmeier F. et al. [32] compared the development of electroconvection on two membranes modified with patterns of different surface charges. They analyzed the increase in the area of electroconvective vortices, the direction of their rotation and structural stability in a steady state, as well as the possibilities of controlling electroconvective vortices by introducing certain structural inhomogeneities of the membrane surface to reduce energy losses in the plateau region and more economical operation in EMS in overlimit modes, significantly increasing their efficiency. Recently, membranes with a fractal structure have been developed that increase the surface area by 300%. The efficiency of salt removal reached 99.5% at low pressure [33].",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01523",
+      "title": "Numerical Study of Salt Ion Transport in Electromembrane Systems with Ion-Exchange Membranes Having Geometrically Structured Surfaces",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This paper discusses the most promising type of single-sided profiled membranes, which will significantly intensify mass transport and increase the efficiency of electrodialysis (ED) systems. Possible optimization paths are shown using numerical simulation of such a model. The article considers two 2D models of non-stationary electroconvection during binary electrolyte transport in the desalination channel of the EMS under extreme current conditions based on a boundary value problem for the Nernst–Planck–Poisson and Navier–Stokes equations. The first model considers half of the ED desalination flow channel on a cation-exchange membrane (CEM) with geometrically structural heterogeneity of the surface. The second model is half of the channel with the same volumetric flow rate and concentration, but without structural heterogeneity of the membrane surface. We calculated the theoretical current-voltage characteristic and determined the main patterns of salt ion transport.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01523",
+      "title": "Numerical Study of Salt Ion Transport in Electromembrane Systems with Ion-Exchange Membranes Having Geometrically Structured Surfaces",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Mathematical Model of Electroconvection in Potentiodynamic Mode in Half of the Desalination Channel with an Ideally Selective Cation Exchange Membrane (CEM) with Modified Surface 2.1. Physical Statement: Solution Domain The potentiodynamic regime is modeled, and half of the channel at the CEM is considered. In the middle of the channel, the conditions of local electroneutrality are assumed to be fulfilled, and the concentrations are known. In addition, the initial velocity is given by half of the Poiseuille parabola. On the structured membrane surface, the no-slip condition is specified, and on the smooth surface, the velocity symmetry along the X axis is specified. In this paper, we will study the influence of only the first three forces (inertia, friction, and electric force) on the solution flow and their interaction. In doing so, we will adhere to the generally accepted approach when the body force f is singled out separately. Under this condition, the flow in a sufficiently wide range of pressure and force changes is adequately described by the Navier–Stokes equations.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01523",
+      "title": "Numerical Study of Salt Ion Transport in Electromembrane Systems with Ion-Exchange Membranes Having Geometrically Structured Surfaces",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "As bound conditions for the Navier–Stokes equations: (1) The conditions of solution adhesion on a solid boundary, namely on the curved surface of the cation-exchange membrane. In the depth of the solution, the velocity is considered constant. (2) At the inlet, we will assume the velocity along the Poiseuille parabola. (3) Since non-stationary vortices can arise in this problem, the boundary conditions for the velocity at the outlet can give computational artifacts. To solve this problem, we use two different methods. The first method is to extend the channel and extract data at some distance before the outlet. The second method considers the boundary to be open, and the normal voltage on it is taken to be zero. (4) The initial flow at the channel inlet will be assumed to be a Poiseuille flow. Initial and boundary conditions at corner points may, in some cases, be inconsistent. However, with a numerical solution, this is smoothed out fairly quickly, but they can initiate the emergence and development of electroconvective vortices that have a non-physical, i.e., artifactual, nature. To match the initial and boundary conditions at corner points, a method of smoothing out inhomogeneities was used by introducing an exponential weighting function.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01523",
+      "title": "Numerical Study of Salt Ion Transport in Electromembrane Systems with Ion-Exchange Membranes Having Geometrically Structured Surfaces",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The ion transport for a binary electrolyte in a desalination channel is adequately described by the system of Nernst–Planck and Poisson equations. We will consider the potentiodynamic regime: φ(H/2, y, t) = 0, φ(H, y, t) = dφ·t, t≥0, y∈[0,L]. Along with this condition, we will also use the following boundary conditions: (1) In the middle of the channel, we will consider the boundary concentrations of anions and cations to be known. (2) On the surface of the cation-exchange membrane, we will consider the boundary concentration of cations to be known, which is determined by its exchange capacity. (3) At the entrance to the channel, we will consider the ion concentrations to be given. Depending on the objectives of the study, they can be considered to be distributed either constantly or according to another law. If the concentrations at the entrance are not constant, we will consider that their distribution corresponds to the maximum current density and that the condition of electroneutrality is satisfied at the entrance. We will consider the potential distribution at the entrance to be linear. (4) At the exit, the tangential derivative of the potential is set to zero. The initial conditions at t=0, if possible, are consistent with the remaining boundary conditions.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01523",
+      "title": "Numerical Study of Salt Ion Transport in Electromembrane Systems with Ion-Exchange Membranes Having Geometrically Structured Surfaces",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The influence of transport processes on the flow of the solution is manifested through the electric force, the density of which is f = (1/ρ0) ε0 Δφ ∇φ. The system of equations was solved by the weak coupling method: at each time step, the velocity field was first calculated (Navier–Stokes); then, the distribution of concentrations and potential (Nernst–Planck–Poisson) was calculated. The iterations continued until convergence in the residual was achieved (<1e-5).",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01523",
+      "title": "Numerical Study of Salt Ion Transport in Electromembrane Systems with Ion-Exchange Membranes Having Geometrically Structured Surfaces",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Results of Numerical Analysis 3.1. Calculation Parameters Used for Numerical Solution To analyze the transport process, many different finite element calculations were performed with different parameters. The most typical results are given below. The width of the region under consideration is H = 2 mm (channel width 6 mm), channel length L = 4H mm, average linear velocity V0 = 1 mm/s, initial concentration C0 varied from 0.01 to 10 mol/m3, and potential scan rate 0.005 V/s. Additionally, the cation diffusion coefficient D1 = 1.331e-9 m2/s, the anion diffusion coefficient D2 = 2.051e-9 m2/s, the cation charge number z1 = 1, the anion charge number z2 = -1, ν = 0.89371e-3 Pas is the kinematic viscosity coefficient. The non-dimensional parameters are the Peclet number Pe = V0 H / D2 = 976, and the Reynolds number Re = V0 H / ν = 8. Numerical results show that the diffusion layer was formed. The Reynolds number (Re can take values from 0.1 to 10) and the visualization of the velocity profiles show that the hydrodynamic boundary layer does not reach a fully developed state under laminar flow conditions typical of electrodialysis.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01523",
+      "title": "Numerical Study of Salt Ion Transport in Electromembrane Systems with Ion-Exchange Membranes Having Geometrically Structured Surfaces",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Structure of the Solution Flow From the results, “stagnant” zones are formed in the valleys between the hills, where the flow velocity is significantly lower, but the main change in the direction of the flow is towards the membrane, and the flow disturbance is noticeable almost to the core of the flow. However, the zone of electroconvective vortices over most of the hill occupies a narrow strip. In the lower part of the hill and above the valley, the vortex zone significantly expands. Here, both electroconvective vortices and purely hydrodynamic vortices are formed. In the absence of electroconvection, a steady state is reached in the valley fairly quickly, and a purely stagnant zone is formed. In the presence of electroconvection, electroconvective vortices penetrate the “stagnant” zone in the valley, carrying with them a more concentrated solution, which is desalinated in the valley, and flows out of it, carrying out the desalinated solution, i.e., this zone is no longer stagnant. Electroconvective vortices and purely hydrodynamic vortices influence each other in a complex, nonlinear, and non-stationary manner; a change in the size and number of vortex structures, the formation of vortex clusters, and their bifurcation occur. Geometrical inhomogeneities (valleys) create zones where electroconvective vortices interact with hydrodynamic ones. This leads to enhanced mixing and accelerated removal of ions from the near-membrane region.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01523",
+      "title": "Numerical Study of Salt Ion Transport in Electromembrane Systems with Ion-Exchange Membranes Having Geometrically Structured Surfaces",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "From the analysis of flow structures, the general structure of the flow, if moving across the channel from the middle to the membrane, contains several regions: the flow core (R4) where the flow is practically not disturbed and is a Poiseuille flow; region R1 where the streamlines are the envelopes of the vortex zone and are directly adjacent to the vortex zone; the region of curved flow R2 which is enclosed between the envelopes and the flow core; and the region where the solution streamlines are gradually deformed from the envelope streamlines to the Poiseuille streamlines (R3). The structure of the flow directly above the hills and between the hills has a different characteristic in three different regions: in the upper slope of the hill, in the lower slope of the hill, and in the valley itself between the hills. In the upper part of the hill, there are no hydrodynamic vortices, and electroconvective vortices have the same structure as in the case of a membrane with a smooth surface. In the lower part of the hill slope and the valley itself, the flow has a different character with separation points. The flow above the valley itself is characterized by non-stationarity and instability, constant bifurcation of vortices due to the interaction of electroconvective and purely hydrodynamic vortices.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01523",
+      "title": "Numerical Study of Salt Ion Transport in Electromembrane Systems with Ion-Exchange Membranes Having Geometrically Structured Surfaces",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Comparing the distribution of concentrations and the solution streamlines for models with a structured surface and without modification at different moments in time, it is evident that from the very beginning, the region where concentrations change quite significantly is considerably wider at the surface of the modified membrane. This tendency is maintained further. Moreover, the concentration of the solution drops considerably faster at the surface of the modified membrane. Thus, it is possible to conclude about the intensification of electroconvection and, accordingly, about the increase in the efficiency of desalination due to the modification of the membrane surface, including the increase in the conductive surface of the cation exchange membrane, which occurs during the modification of the membrane surface.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01523",
+      "title": "Numerical Study of Salt Ion Transport in Electromembrane Systems with Ion-Exchange Membranes Having Geometrically Structured Surfaces",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. CVC and Its Description The theoretical current–voltage characteristic (CVC) of electromembrane systems is calculated based on the law of charge conservation in potentiodynamic mode. For a given t, the potential drop is determined φ(t,H,y)=dφ·t (dφ: speed of sweep of the potential drop). Solving the boundary value problem, we find the current density in the channel I(t,x,y). The total current i(t) consists of the averaged conduction current carried by ions and the averaged displacement current. Although the total current in the CVC calculation is not constant over time, its change can be made slow if the potential drop sweep rate is small. In this case, the displacement current is small, and when calculating the CVC, it is not necessary to take it into account. In Figure 6, the abscissa shows the values of the potential drop, and the ordinate shows the current density value, dimensionless by the limiting diffusion current according to Leveque. The CVC in both cases (structured and smooth surface) has a classical form—a linear ohmic section, a “plateau”, and a secondary over-limiting rise associated with the onset and development of electroconvection. For models with a structured surface, the CVC is higher than that of an unstructured (smooth) surface, and, accordingly, the mass transport is higher. A small convexity at the beginning of the “plateau” for the model with a structured surface is because it reacts more sensitively to changes in the potential sweep rate, i.e., it is more sensitive to non-stationarity effects.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01523",
+      "title": "Numerical Study of Salt Ion Transport in Electromembrane Systems with Ion-Exchange Membranes Having Geometrically Structured Surfaces",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.4. Verification of Results To verify the results, a comparison was made with the experiment described in [18]. Images of electroconvective vortices arising in a depleted solution near the membranes at a current of i = 2.4 mA and t = 22 ± 1 s show that the average size of the vortex structures of the unprofiled membrane is approximately 200 µm, while for the profiled membrane it is approximately one and a half times larger, i.e., about 300 µm. This is in good qualitative and quantitative agreement with the numerical results. Quantitative comparisons: (1) Electroconvective vortex sizes: Numerical result 280 ± 30 µm, Experiment 300 ± 40 µm (discrepancy 6.7%, within measurement error). (2) Steady-state mode establishment time: Numerical 120 s, Experimental 130 ± 10 s. (3) Concentration profile at the membrane: Coefficient of determination R2 = 0.92.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01523",
+      "title": "Numerical Study of Salt Ion Transport in Electromembrane Systems with Ion-Exchange Membranes Having Geometrically Structured Surfaces",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Conclusions The 2D mathematical model of the transport process in half of the desalination channel with the geometric modification of the surface by the cation-exchange membrane is constructed based on the boundary value problem for the coupled system of Nernst–Planck–Poisson and Navier–Stokes equations. A numerical modeling of the effect of geometric modification of the surfaces of ion-exchange membranes on the transport of salt ions was carried out, and the main patterns of salt ion transport were established, taking into account diffusion, electromigration, forced convection, and electroconvection. Using the current–voltage characteristics, it was shown that the geometric modification of the surface of ion-exchange membranes enhances the transport of salt ions. The geometric modification of the ion-exchange membrane surface (semicircular protrusions 200 µm high) increases the active zone area by 35%, which leads to the formation of stable electroconvective vortices. This reduces concentration polarization by 40% and increases the ion transport rate by 1.5 times compared to smooth membranes. The interaction of electroconvective and hydrodynamic vortices in the valleys between inhomogeneities destroys stagnant zones, reducing the desalination time by 28% (from 280 to 200 s for 90% purification). Structured membranes demonstrate a steeper rise in secondary current in the region of superlimit modes, which allows for a reduction in the operating voltage by 15% while maintaining productivity.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01523",
+      "title": "Numerical Study of Salt Ion Transport in Electromembrane Systems with Ion-Exchange Membranes Having Geometrically Structured Surfaces",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Recommendations for membrane design include the use of semicircular protrusions with a pitch of 500 µm and a height of 200 µm, which overall ensures a balance between efficiency and hydrodynamic resistance. Promising research areas include the following: - Study of the influence of three-dimensional structures (pyramids and spirals) on turbulence and mass transfer. - Analysis of the interaction of vortices in adjacent channels. - Development of machine learning algorithms (e.g., genetic algorithms) to find the optimal geometry taking into account conflicting requirements, such as the minimization of resistance, maximization of area, and resistance to contamination. - Accounting for the dissociation/recombination of water molecules.",
+    "citation": {
+      "authors": [
+        "Kirillova E.",
+        "Chubyr N.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "mathematics-13-01523",
+      "title": "Numerical Study of Salt Ion Transport in Electromembrane Systems with Ion-Exchange Membranes Having Geometrically Structured Surfaces",
+      "year": 2025,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  }
+]

@@ -1,0 +1,633 @@
+[
+  {
+    "content": "Contents lists available at ScienceDirect\n\nJournal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nIon uptake and pairing in membranes: The pore model Viatcheslav Freger Wolfson Department of Chemical Engineering, Technion - Israel Institute of Technology, Haifa, 32000, IsraelGrand Water Research Institute, Technion - Israel Institute of Technology, Haifa, 32000, IsraelGrand Technion Energy Program, Technion - Israel Institute of Technology, Haifa, 32000, Israel\n\nA R T I C L EI N F O Keywords:Ion-pairing in membranesIon uptakeTransport and conductancePore and primitive modelsAssociation constantDielectric exclusion",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Ion uptake plays a critical role in membrane separations used for water purification and electro-membraneprocesses. Although models of ion uptake usually consider free dissociated ions, ion-pairing was suggestedto play an important role as well and but its understanding in the context of membrane transport isstill insufficient. The paper systematically develops the pore model of ion-pairing in membranes, whichconsiders the membrane as a micro-heterogeneous system, composed of interspersed water-rich domains (poresaccommodating ions) and a low-dielectric matrix. It is shown that this picture significantly departs from thepredictions of the primitive model of the membrane as a uniform dielectric, in which dielectric exclusion andpairing of ions are rigidly related thus pairing of mobile ions is always negligible. Within the pore model,the effect of the ion-pairing constant enhanced by the low-dielectric properties of the matrix may outweighthe opposite effect of dielectric exclusion thereby mobile ions may be present within the membrane mainly asion-pairs rather than free ions. We discuss various implications of this result for salt and ion uptake, transport,and conductance in neutral and charged membranes and outline needs for further research towards predictivemodeling.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Ion uptake and transport play key role in many membrane separations, including reverse osmosis, nanofiltration, electrodyalysis, membrane electrolysis, and fuel cells [1,2]. Classical models of these processes, such as the Donnan and Poisson–Boltzmann-based chargednanopore models, mainly considered ions in membranes as free dissociated ions, in presumed analogy with aqueous solutions, where salts areusually strongly dissociated [1–5]. The dissociation is however knownto be incomplete even in solutions. Pairing or association of ions hasbeen introduced by Bjerrum with the purpose to resolve the inherentproblems of the Debye-Hueckel (DH) theory of ionic solutions [6–8]. Despite being an ad hoc concept, it proved a sound and usefulapproximation that could transparently address the limitations of theDH and other mean-field models. Its key feature is the view of ion-pairsof strong electrolytes as distinct species in equilibrium with free ions,similar to non-dissociated forms of genuine weak electrolytes such ascarboxylic acids. Ion-pairing effectively reduces the thermodynamic activity of ionsand their contribution to electrical conductance, which has been usedto quantify this phenomenon, especially, in organic solutions [6,9].For common inorganic ions in aqueous solutions, the high dielectricconstant of water weakens ion-ion interactions thus the entropy gain,of the order 𝑘𝐵𝑇, dominates, which is why salts tends to dissociate",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "E-mail address: vfreger@technion.ac.il. to free ions. The degree of ion-paring in water is then significantmainly for multivalent ions such as Ca2+, Mg2+, and SO2-4at highconcentrations, but it is fairly small for common monovalent ions suchas Na+, K+ and Cl-[9]. The situation, however, changes drasticallyin non-polar solvents, where substantially lower dielectric constantsenhance ion-ion interactions and promotes formation for ion-pairs andlarger associates [6,9]. This is the main reason behind low solubility ofinorganic salts in organic solvents. Most synthetic membranes used in desalination, electrodialysis, andfuel cells are made of organic polymers and share common featureswith organic media. However, they differ from organic liquids in twomain aspects. First, they often contain fixed charges and an equivalentamount of mobile counter-ion [1,10], enforcing a high ion concentration on a medium, in which ion solubility is inherently low. Fixedcharges in such membranes are then particularly prone to ion-pairing,affecting ion exclusion, diffusion, and conductance [11]. Second, toperform as selective barriers or adsorbents, membranes are usuallyrendered insoluble via crosslinking (resins) or a large content of hydrophobic units (ionomers) [1,10].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e barriers or adsorbents, membranes are usuallyrendered insoluble via crosslinking (resins) or a large content of hydrophobic units (ionomers) [1,10]. When swollen in water, both resinsand ionomers are prone to forming a micro-heterogeneous structure,in which water-rich inter-polymer domains, reminiscent of water-filledmolecular pores, are segregated from non-polar water-lean matrix, asillustrated in Fig. 1A [12–16].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. A schematic picture of the actual membrane structure and the two discussed models. (A) Two-phase membrane microstructure: matrix is black, pores are white, coloredin blue is a single pore. (B) The primitive model (PM) of a membrane: ions are charged balls and the membrane is a uniform continuum of dielectric constant 𝜖equal to theeffective average of the entire membrane phase. (C) The pore model: water-filled pores of dielectric constant 𝜖𝑝dispersed in a low-dielectric matrix; the dielectric constant of themedium surrounding the pore is the effective average of the entire membrane phase 𝜖𝑒. Ions are charged hard-spheres present within the pores. In panels (B) and (C), the colorshades depict the polarization energy density around ions and pairs. The above points and importance of ion-pairing in general wererecognized to various extent and ion-pairing was included in modelsof transport and partitioning already in early days of membrane science [17–19] and also more recently [20–23]. To the best of the authorsknowledge, with perhaps only one exception [19], most of these studiesmodeled pairing by viewing the membrane as a dielectric continuumor computing pairing in the pores based on association constant insolution. As shown below, both such assumptions miscalculate thestrength of pairing and its relative role, compared with free ions, inion uptake and transport in membranes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ow, both such assumptions miscalculate thestrength of pairing and its relative role, compared with free ions, inion uptake and transport in membranes. The present paper focuseson understanding how micro-heterogeneity affects ion-pairing, towardsthe ultimate goal of getting closer to predictive modeling. 2. Theory 2.1. Addressing ion-pairing in modeling Before considerin the physical picture in detail, it is expedient tooutline how, in general, models should incorporate ion-pairing. Forclarity, we address here only ion uptake and leave out permeation toavoid complications related to the effect of pairing on ion mobility, discussed in Section 3.2. The key point is that, unlike genuine molecules,ion-pairs do not ‘‘partition’’ between the solution and membrane phasesas a distinct species. Rather, they keep breaking up and reforming dynamically from free ions in each phase. Since the dynamics is reversibleand very fast, the uptake of ions, as interrelated uptake of free ions andpairs, needs to include the following equilibrium relations: (i) Partitioning of free ions between solution and membranes basedon the difference in (free) ion activity coefficients between the phases.This is ultimately expressed by the salt-injection coefficient 𝑆0 definedbelow; (ii) Equilibrium between free ions and all possible types of ion pairsin the membrane, including pairs formed by mobile ions (mobile pairs)and by fixed and mobile ions (fixed pairs).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ns and all possible types of ion pairsin the membrane, including pairs formed by mobile ions (mobile pairs)and by fixed and mobile ions (fixed pairs). For each type of pair, theequilibrium is expressed by means of a respective pairing constant 𝐾𝑚. (iii) electroneutrality of the membrane phase that requires the zerototal charge of unpaired fixed charged, free mobiles ions, and all typesof pairs. Notably, for multivalent ions, pairs may be charged and the resulting relations for charged membranes vary significantly, depending onthe type of the salt and pairs included in the model. For different typesof single salts, they were fully developed in a previous publication [24],viewing 𝑆0 and 𝐾𝑚’s as parameters. Here, for illustration, consider thesimplest case of a 1:1 salt, such as NaCl, in a non-charged membrane.The total measured salt concentration in the membrane, identical forcations and anions, will sum up the free salt and ion-pairs concentrations, 𝐶𝑚= 𝑆0𝐶𝑠and 𝐶𝑝𝑎𝑖𝑟= 𝐾𝑚𝐶2𝑚, respectively, and depend on thesalt concentration in solution 𝐶𝑠as follows 𝐶𝑚+ 𝐶𝑝𝑎𝑖𝑟= 𝑆0𝐶𝑠+ 𝐾𝑚(𝑆0𝐶𝑠)2.(1)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This relation shows that the contribution of pairs to salt uptake willincrease with 𝐶𝑠and the dependence of salt uptake on salt concentration may change from linear to quadratic between low and highconcentration ranges. This was indeed observed in early studies ofweakly charged cellulose acetate membranes [17–19]. Similarly, for charged membranes and high salt concentrations,pairing may affect the trend of salt uptake due to enhanced saltuptake as ion-pairs and Donnan exclusion weakened by reduced fixedcharge [25,26]. However, this requires that intra-membrane environment enhances 𝐾𝑚more significantly than it suppresses 𝑆0 (cf. Eq. (1)). Note Eq. (1) does not assume that ions form pairs in solution,emphasizing that ion-pairing in the membrane is not ‘‘partitioning’’of ion-pairs. If salts do form ion-pairs in solution, their solution concentration is 𝐾𝑠𝐶2𝑠, where 𝐾𝑠is the pairing constant in solution. Thusthe ratio of ion-pair concentrations in the membrane and solutionwill be (𝐾𝑚∕𝐾𝑠)𝑆20, yet we reiterate it is a not a genuine partitioningcoefficient, but a result of several equilibrium relations. Finally, we note that full modeling of ion uptake will require that 𝐾𝑚and 𝑆0 be known for each pair of ions, including fixed charges. Likely,the available experimental data may not allow a straightforward evaluation of these parameters [24].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ach pair of ions, including fixed charges. Likely,the available experimental data may not allow a straightforward evaluation of these parameters [24]. This is where the approach developedin this paper may help get closer to predicting them a priori using a fewknown physical characteristics of the ions and the membrane. 2.2. What controversy this study aims to resolve Usually, liquid solutions of salts are fairly homogeneous down tosingle-molecule scale, which suggests they may be reasonably modeledusing the so-called primitive model (PM) that views the solvent as adielectric continuum and ions as charged hard spheres (Fig. 1B) [27,28]. A subtle point highlighted recently is that, within PM, there isa strong inherent connection or coupling between ion solubility and ionpairing, whereby low-solubility inevitably precludes substantial pairing,as outlined next [11]. PM relates both solubility (solvation) and pairing to the dielectricconstant of the medium, 𝜖, conveniently represented by the Bjerrumlength 𝜆, defined as the distance, at which the energy of (monovalent)ion-ion interaction 𝑈equals the thermal energy 𝑘𝐵𝑇[8], i.e., 𝜆=𝑒2 4𝜋 𝜖0𝜖 𝑘𝐵𝑇,(2) where 𝑒is the electron charge and 𝜖0 is the permittivity of vacuum.On the other hand, the maximum absolute value of 𝑈upon pairing,𝑈𝑝𝑎𝑖𝑟, is reached when two ions come in contact, to the minimal interion distance 𝑏, equal to the sum of their radii.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "absolute value of 𝑈upon pairing,𝑈𝑝𝑎𝑖𝑟, is reached when two ions come in contact, to the minimal interion distance 𝑏, equal to the sum of their radii. The ratio between 𝑘𝐵𝑇and 𝑈𝑝𝑎𝑖𝑟or, equivalently, the two above distances defines the reducedtemperature 𝑇∗[27], as follows 𝑇∗= 𝑘𝐵𝑇 𝑈𝑝𝑎𝑖𝑟= 𝑏 𝜆.(3) Journal of Membrane Science 722 (2025) 123795",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Variation of salt permeabilities with salt concentration for NF270 nanofiltrationmembrane and single salts of different monoand divalent ions. Permeability variationwas deduced by fitting to filtration data for different applied pressure and feed solutionconcentrations. Adopted from reference [X]. The triangles indicate the theoretical slopespredicted by the Donnan model. showing variation of salt permeabilities with feed salt concentrationobserved in nanofiltration of different salts, strongly deviating fromthe Donnan-based trends. This rules out permeation controlled by freeions only and suggests that pairing, much stronger than the PM analysispredicts, may be involved. This conclusion and, specifically, the strongreduction of fixed charge by pairing (binding) of counter-ions to fixedcharged was also supported by modeling and measured conductance ofreverse osmosis and nanofiltration membranes [25,26,37]. Evidence of strong ion association was also obtained forion-exchange membranes, manifested in much lower that expectedion conductivity and osmotic pressure within membranes [38,39].Recently, it was specifically concluded that divalent SO2-4co-ions arepresent within such membranes as monovalent pairs such as HSO-4or NaSO-4 .",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "8,39].Recently, it was specifically concluded that divalent SO2-4co-ions arepresent within such membranes as monovalent pairs such as HSO-4or NaSO-4 . The conclusion was based in the observed concentrationdependence of sulfate partitioning in negatively charged ion-exchangemembranes, strongly deviating from the trend expected for divalentco-ions, but closely matching that for monovalent ones [24,40]. Despite much evidence, the physics behind excessive pairing ofmobile ions in membranes, contradicting the PM predictions, has remained elusive so far. In this paper, we will demonstrate that suchbehavior is, in fact, expected, once we depart from the PM pictureand consider micro-heterogeneity in the form of microscopic waterfilled dynamic ‘‘pores’’ or waterand ion-rich domains, dispersed ina relatively non-polar matrix, as illustrated in Fig. 1C. Recently, thispicture was successfully used to describe dielectric exclusion of ions inmembranes, offering significant improvement over PM (Eq. ((3))) [31,41]. The present paper utilizes the same physical picture - the pore model- to model ion pairing. 2.3. The pore model: dielectric exclusion of free ions Before proceeding to pairing, let us briefly recap the pore modelresults for dielectric exclusion [31]. In general, the strength of exclusion is affected by the pore shape and location of the ions withinthe pore [3,29,30].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "for dielectric exclusion [31]. In general, the strength of exclusion is affected by the pore shape and location of the ions withinthe pore [3,29,30]. The complete model then needs to average overpore geometries found in the membranes and possible ion locations.Yet, we will view the pores as spherical and consider ions or pairslocated at their center. As discussed previously [31], the approximation of spherical pores is reasonable when the pores and matrixare interspersed randomly and lack macro-scale anisotropy, which ismost common in polymeric membranes. Placing ions at the center is Journal of Membrane Science 722 (2025) 123795",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "V. Freger a sensible approximation too, since this position corresponds to theminimum energy and thereby has the largest statistical weight of allpossible states. Obviously, this somewhat overestimates the energy gainupon ion uptake but the required correction is fairly small [19,29].With these reservations in mind, the picture offers maximal simplicityand clarity and presumably captures most essential physics. In addition,we will also assume pores are small enough to contain at most onefree ion not counter-balanced by an oppositely charged one. That stillpermits presence of other ions in the pore, provided their total charge iszero and the pore content is water-like, i.e., behaves as a high dielectric. The partitioning of free ions from a solution (s) to a membrane pore(p), surrounded by an effective medium (e) composed of the membranematrix and all other pores (Fig. 1C), will be equal to the ratio ofrespective activity coefficients, 𝛾𝑠∕𝛾𝑝. Assuming they are dominated bysolvation (dielectric exclusion), this ratio will be determined by thedifference in the respective Born self-energies, 𝛥𝑊= 𝑊𝑝-𝑊𝑠, asfollows [31] ln( 𝛾𝑠 𝛾𝑝 )= -𝛥𝑊 𝑘𝐵𝑇= -𝑧2 (𝜆𝑒-𝜆𝑝 𝑟𝑝+𝜆𝑝-𝜆𝑠 𝑟𝑖 ),(7) where 𝜆’s are the Bjerrum lengths of respective media, and 𝑟𝑝and 𝑟𝑖are the pore and ion radii. Notably, Eq. (7) may not be used directly to calculate ion partitioning coefficient 𝑆, which would require adding to Eq.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "𝑟𝑖are the pore and ion radii. Notably, Eq. (7) may not be used directly to calculate ion partitioning coefficient 𝑆, which would require adding to Eq. (6) a termaccounting for a priori unknown inter-phase Donnan potential 𝜙𝐷.However, 𝜙𝐷is canceled out when one considers neutral combinationsof ions. For a M𝑧-A𝑧+ salt composed of 𝑧-cations M𝑧+ and 𝑧+ anionsA𝑧-, 𝜙𝐷will be canceled out in the free-ion concentration product𝐶𝑧-+ 𝐶𝑧+-. The salt injection coefficient 𝑆0 [11] is then defined based onthe ratio of such products in the pores and in the solution normalizedper ion, as follows ln 𝑆0 =1𝑧+ + 𝑧-ln (𝐶𝑧-+ 𝐶𝑧+-) 𝑝(𝐶𝑧-+ 𝐶𝑧+-) 𝑠=1𝑧+ + 𝑧-ln",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[(𝛾𝑠+𝛾𝑝+ )𝑧-(𝛾𝑠-𝛾𝑝- )𝑧+] .(8)\n\nIn the case of a non-charged membrane, 𝑆0 is identical with thepartitioning coefficient of the fully dissociated (free) salt betweenthe membrane and solution. As such, it expresses the affinity of themembrane to uptake of the salt as free ions. In a charged membrane, 𝑆0needs to combine with the electroneutrality and association equilibriato compute free-ion concentrations [24] (see Section 2.1). CombiningEqs. (7) and (8) yields ln 𝑆0 = -𝑧-𝛥𝑊+ + 𝑧+𝛥𝑊- (𝑧+ + 𝑧-)𝑘𝐵𝑇= -𝑧+𝑧-\n\n[𝜆𝑒-𝜆𝑝 𝑟𝑝+𝜆𝑝-𝜆𝑠𝑧+ + 𝑧- (𝑧+ 𝑟++ 𝑧- 𝑟- )]. (9)\n\nIn most membranes, 𝜆𝑒≫ 𝜆𝑝and, on the other hand, the poreand ion radii, 𝑟𝑝and 𝑟𝑖, usually do not differ as much and 𝜆𝑝-𝜆𝑠issmall. This suggests that the second terms in brackets in Eqs. (7) and(9), dependent on the ion sizes, is fairly small too. Therefore, as a firstapproximation, we can ignore it and simplify Eqs. (7) and (9) for thedielectric energy of the ion and for the salt injection coefficient 𝑆0 bykeeping the first term only, as follows ln( 𝛾𝑠 𝛾𝑝 )= -𝛥𝑊 𝑘𝐵𝑇≈ -𝑧2 2 𝐴,[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] ln 𝑆0 ≈ -𝑧+𝑧- 2𝐴,[ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] where 𝐴=𝜆𝑒-𝜆𝑝 𝑟𝑝",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] is a key dimensionless parameter of the membrane defining the strengthof dielectric exclusion in its pores. In membranes, 𝜆𝑒is of the order of5–10 nm and much larger than 𝜆𝑝and 𝑟𝑝, therefore, 𝐴 ≫1. Comparisonof Eqs. (4) and [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] suggests that 2∕𝐴may be seen as a modified 𝑇∗ of the pore model, replacing the 𝑇∗of PM defined by Eq. (3). Since 𝑆0is exponentially related to 𝐴, a small 𝐴is what makes the dielectricexclusion in membranes strong.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.4. The pore model: relations for ion-pairing constant In most membranes, the cut-off distance 𝑞= 𝑧+𝑧-𝜆𝑠∕2 ∼ (𝑧+𝑧-)0.35 nm that sets ion-pairs apart from free ions is not much below thecharacteristic pore radius and may even be above it. It may then be reasonable to re-define a pair as two oppositely charged ions in the samepore. The ion-paring then becomes equivalent to the transition from thesituation when two single ions, initially in different pores (free ions),move to the same pore (ion-pair), as illustrated in Fig. 3A. Computationof the pairing constant 𝐾𝑚, the main parameter of interest, needs tointegrate over the possible states of the pair weighed with their energy,as in Eq. (5). Intuitively, we could estimate the pairing energy by considering twocontributions: the change of the self-energy upon pairing (ion-solventinteraction), 𝛥𝑊𝑝𝑎𝑖𝑟, and the energy of ion-ion interaction, 𝑈(𝑥). Theformer should account for the fact that the pair has a smaller charge𝑧𝑝𝑎𝑖𝑟= 𝑧+ -𝑧-and polarizes the surrounding medium less than twoseparate free ions, as schematically indicated in Figs. 1B and C and 3Aby color shades representing polarization energy density around ionsand pairs. Note that this 𝛥𝑊𝑝𝑎𝑖𝑟contribution is absent in PM treatmentof association (Eq. (5) and Fig. 1B). Using approximate Eq.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "y density around ionsand pairs. Note that this 𝛥𝑊𝑝𝑎𝑖𝑟contribution is absent in PM treatmentof association (Eq. (5) and Fig. 1B). Using approximate Eq. [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] for bothions and the pair, the self-energy would change upon pairing by 𝛥𝑊𝑝𝑎𝑖𝑟 𝑘𝐵𝑇≈𝐴 2[(𝑧+ -𝑧-)2 -𝑧2+ -𝑧2-] = -𝑧+𝑧-𝐴.[ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] The second contribution, ion-ion interaction energy 𝑈(𝑥), varieswith the distance 𝑥between the ions and their position within the pore.To calculate it approximately, we simplify by placing one ion, say 𝑧-,at the center of a pore and consider the electric potential 𝜙(𝑥) inducedby this ion at distance 𝑥, thus 𝑈(𝑥) = 𝑧+𝑒𝜙(𝑥). By setting 𝜙(∞) = 0 andusing elementary electrostatics, we obtain for 𝑥≤𝑟𝑝 𝑈(𝑥) 𝑘𝐵𝑇≈ -𝑧+𝑧- (𝜆𝑒-𝜆𝑝 𝑟𝑝+𝜆𝑝 𝑥 )= -𝑧+𝑧-",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(𝐴+𝜆𝑝 𝑥 ).[ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}]\n\nThe sum of Eqs. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] and [ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] should approximates the total energy gain upon pairing. However, a more rigorous analysis showsthat, within the same-order approximation, such formal summationof Eqs. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] and [ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] would double-count the change of polarizationenergy expressed by the term -𝑧1𝑧2𝐴(e.g., see problem 3-30 in [42]).With this correction, the energy of pairing is given by Eq. [ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] only. Asin Eq. (5), the corresponding Boltzmann factor may be used to computethe pairing constant 𝐾by statistical integration over all paired states,𝑏≤𝑥≤𝑟𝑝, as follows 𝐾𝑚= ∫ 𝑟𝑝 𝑏exp(-𝑈(𝑥) 𝑘𝐵𝑇 )4𝜋 𝑥2𝑑 𝑥≈𝑒𝑧-𝑧+𝐴∫ 𝑟𝑝 𝑏exp(𝑧+𝑧-𝜆𝑝 𝑥 )4𝜋 𝑥2𝑑 𝑥. [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}]",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Inspection of Eq. [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] shows that, if within pores 𝜆𝑝≈𝜆𝑠, the integralin the last expression approximately represents the pairing constant forthe same ions in solution 𝐾𝑠, except that the upper limit is 𝑟𝑝instead of𝑞. The prefactor exp(𝑧-𝑧+𝐴) that multiplies the integral then expressesthe enhancement of association in pores, relative to solution, whichis a part of the ‘‘partitioning coefficient’’ of ion-pairs (Section 2.1),exponentially dependent on the same parameter 𝐴that controls thedielectric exclusion. To approximate how the last integral depends on 𝑟𝑝and deviates from 𝐾𝑠, since 𝑟𝑝differs from 𝑞, we may expand the integrand4𝜋 𝑥2 exp(2𝑞∕𝑥) around 𝑥= 𝑞and integrate between 𝑞and 𝑟𝑝whichultimately yields the following 2nd order approximation 𝐾𝑚≈𝑒𝑧-𝑧+𝐴(𝐾𝑠+ 4𝜋 𝑒2 [𝑞2(𝑟𝑝-𝑞) + 1\n\n3 (𝑟𝑝-𝑞)3]).(16)\n\nFig. 4 illustrates that the approximate expression in brackets worksreasonably up until 𝑟𝑝∼ 2𝑞for representative values of 𝑏, 𝜆𝑝, and𝑟𝑝. Note that 𝐾𝑠is known for many inorganic ions that associatenoticeably in solution, i.e., when 𝐾𝑠is substantial [9]. Presumably, theexperimental 𝐾𝑠𝑜𝑙may incorporate short-range water structure effects, Journal of Membrane Science 722 (2025) 123795\n\nV. Freger",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4,
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. (A) A sketch of the free ions/ion-pair equilibrium in the pore model. Free dissociated ions initially found in different pores reduce the total polarization energy by movingto the same pore to form an ion-pairs. 𝐾𝑚is the pairing constant. Color shades indicate the polarization energy density. (B) Schematic illustration of mobile counter-ion (red)hopping between fixed charges (blue) in different pores with transient dissociation of the counter-ion/fixed charge pair in the scenarios when the water microphase does and doesnot percolate.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. The variation of the pairing constant 𝐾𝑝𝑎𝑖𝑟, defined by Eq. [ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}], with thepore size 𝑟𝑝, based on numerical integration and approximation given by Eq. [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}].𝑟𝑝and 𝐾𝑝𝑎𝑖𝑟are made dimensionless by scaling with the ion-pair size 𝑏and with4𝜋 𝑏3𝑒𝐴, respectively. The parameters used in calculations are 𝑏= 0.3 nm, 𝜆𝑝= 0.9 nm,𝑧+ = 𝑧-= 1. The value of 𝐾𝑠𝑜𝑙scaled with 4𝜋 𝑏3, corresponding to 𝑟𝑝= 𝑞= 𝜆𝑝∕2 whereEqs. [ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] and [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] match exactly, is indicated. ignored in the present model. Thus, in Eq. (16), it may be expedientto use and correct the experimental 𝐾𝑠, rather than compute it byintegration using 𝑥= 𝑞as the upper limit. Also note that the termafter the prefactor exp(𝑧-𝑧+𝐴), i.e., the last integral in Eq. [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}], mustalways exceed the pore volume 𝑉𝑝= 4𝜋 3 𝑟3𝑝(minus the pair volume). Thismean 𝑉𝑝exp(𝑧-𝑧+𝐴) represents the lower bound for 𝐾𝑚, correspondingto weak ion-ion interactions, which will be used below.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(minus the pair volume). Thismean 𝑉𝑝exp(𝑧-𝑧+𝐴) represents the lower bound for 𝐾𝑚, correspondingto weak ion-ion interactions, which will be used below. 2.5. Ion-pair versus free-ion partitioning Previously, we saw that PM treatment predicts that ion-pairs always contribute negligibly to partitioning and transport of mobileions, except for association of counter-ions with fixed charges. Letus check whether the same holds true for the pore model. Considerpartitioning of a M𝑧-A𝑧+ salt, present in solution at concentration 𝐶 𝑠, toa non-charged membrane. Neglecting association in solution, free-ionconcentration in the membrane will be (𝐶+)𝑚 𝑧-= (𝐶-)𝑚 𝑧+= 𝑆0𝐶𝑠≈𝐶𝑠exp( 𝑧+𝑧-",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2𝐴).(17)\n\nSince the pairing constant is bound from below by 𝑉𝑝, the minimalamount of pairs in the membrane relative to concentration of free ions(paired fraction) may be estimated as follows (cf. Eq. (6)) 𝐶𝑝𝑎𝑖𝑟 𝐶𝑚≃𝐾𝑚(𝑆0𝐶𝑠)2 𝑆0𝐶𝑠= 𝐾𝑚𝑆0𝐶𝑠≃𝐶𝑠𝑉𝑝exp( 𝑧+𝑧-\n\n2𝐴).[ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}]\n\nIn stark contrast with Eq. (6), in the last expression, the exponentialterm of 𝐾𝑚is not canceled out entirely and only partly offset by that of𝑆0. As a result, in the pore model, dielectric exclusion (solvation) andpairing are no more coupled as rigidly as in PM, and strong ion exclusionno more precludes strong association within the membrane.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "For example, consider representative values 𝑐𝑠= 0.1 M, 𝑟𝑝= 0.3 nm,𝜆𝑒= 5 nm (𝜖𝑒= 10), and 𝜆𝑝= 1 nm, slightly above 𝜆𝑠= 0.7 nm. Thiscorresponds to 𝐶𝑠𝑉𝑝≃ 10-2 and 𝐴≃ 13.3. It is easily seen that, evenfor 𝑧+ = 𝑧-= 1 and this moderate 𝐶𝑠, the large exponential factorexp(𝐴∕2) ≃ 103 in Eq. [ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] will outweigh the 𝐶𝑠𝑉𝑝. This indicates thatthe mobile ions in the membrane will tend to form pairs in the presentsense, with only relatively few ions remaining free at this and highersalt concentrations. The salt uptake will then mainly occur as uptake ofpairs rather than free ions, with many consequences for salt transportand conductance (see Discussion). Obviously, this effect will becomestronger for more charged ions and at higher concentrations. However,the pore size effect may be more complex, since 𝑟𝑝enters both 𝑉𝑝and𝐴in Eq. [ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}]. The dependence of 𝐾𝑚𝑆0, hence the paired fraction, on𝑟𝑝is then not monotonic, showing a minimum at 𝑟𝑚𝑖𝑛= 1 6𝑧+𝑧-(𝜆𝑒-𝜆𝑝).For the above numbers, this corresponds to 𝑟𝑚𝑖𝑛= 0.7 nm, below whichthe degree of pairing will increase in smaller pores. 3. Discussion 3.1.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "𝑧-(𝜆𝑒-𝜆𝑝).For the above numbers, this corresponds to 𝑟𝑚𝑖𝑛= 0.7 nm, below whichthe degree of pairing will increase in smaller pores. 3. Discussion 3.1. Why the pore model differs from PM How can we understand the drastic difference between the poremodel and PM predictions? Essentially, it boils down to the fact that,in PM, pairing offsets only a fraction of the ion self-energy, e.g., exactlyone half for equally sized ions forming a neutral pair. The remaininghalf is mostly contained in the space between and very near the ions,where the field of the ions is not cancelled and remains strong. Incontrast, in the pore model, this residual energy is greatly reducedby high-dielectric environment within the pore. Thus the long-rangepolarization energy, substantial for free ions, vanishes or gets stronglyreduced when oppositely charged ions enter the same pore. Curiously, a similar situation arises when ions enter a narrow spaceenclosed by a conductor, such as a single-wall carbon nanotube (CNT).When a single ions enters the CNT interior, CNT walls acquire and delocalize the ion charge and polarize the surrounding medium. However,when two ions form a pair within a CNT, the charge vanishes andso does the polarization energy, which turns out to be the dominantfactor that promotes ion-pairing and ion uptake within CNT [43]. In thepresent case, the high polarizability of the water filling the pore makesit somewhat similar to a conductor.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ing and ion uptake within CNT [43]. In thepresent case, the high polarizability of the water filling the pore makesit somewhat similar to a conductor. Nevertheless, the equivalence isnot total, as the polarizing field around a neutral pair a conductingpore totally vanishes but is still finite around a dielectric pore. We can,however, estimate the magnitude of the residual polarization energy ofsuch a pair, with one ion at the center of the pore and the second ata distance 𝑏from it, as that of a dipole with a dipole moment 𝜇= 𝑒𝑏relative to the pore center using the methods developed for analysis ofmolecular polarization in dielectrics [44]. The result is 𝑊𝑑 𝑖𝑝𝑜𝑙 𝑒 𝑘𝐵𝑇= -𝜖𝑒-𝜖𝑝2𝜖𝑒+ 𝜖𝑝 𝜇2 4𝜋 𝜖0𝜖𝑝𝑘𝐵𝑇 𝑟3𝑝≈𝜆𝑝𝑏2 𝑟3𝑝.(19)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "V. Freger penalty that discourages pairing and, for completeness, should be addedto 𝑈(𝑥) in Eq. [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}]. However, note the last expression in Eq. (19) maybe presented as the product of 𝜆𝑝∕𝑟𝑝, which should be much smallerthan 𝐴≃𝜆𝑒∕𝑟𝑝(Eq. [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}]), and (𝑏∕𝑟𝑝)2, which is less than 1, as long asthe pore can accommodate a pair. Therefore, 𝑊𝑑 𝑖𝑝𝑜𝑙 𝑒should be alwayssmall compared with 𝑈(𝑥), whose absolute value is at least as large as𝐴𝑘𝐵𝑇(see Eq. [ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}]). Moreover, Eq. (19) overestimates this correction,since the assumed excentric position of the dipole does not correspondto the minimal energy. Thus it may be ignored as a first approximation. However, very small pores, such as ∼ 0.2 nm pores of reverseosmosis membranes [45], may be unable to accommodate pairs. Thepairing and pair uptake may then be strongly suppressed by stericexclusion while smaller free ions may still access the pores, in whichcase the present picture needs to be modified significantly. This pointwarrants further investigation in future research. 3.2.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "cess the pores, in whichcase the present picture needs to be modified significantly. This pointwarrants further investigation in future research. 3.2. Implications for ion uptake in charged membranes The extension of above analysis to charged membrane is fairlystraightforward and will only need to combine the expressions for𝐾𝑚and 𝑆0 with equilibrium relations reported previously for differentsalts [24]. Such full analysis is not pursued here, but it is expedient tomention briefly a few key points. In agreement with actual observation and in contrast with PMpredictions (Section 2.2), the pore model does allow 𝐾𝑚to be largeenough, compared with 𝑆0, to allow both effective elimination of thefixed charge via pairing with counter-ions and significant uptake ofsalt as mobile ion-pairs formed by two mobile ions (Section 2.4). Formultivalent counter-ions, such as Ca2+, the fixed charge may evenreverse, which is also precluded in PM but possible in the pore model.Once the free salt uptake exceeds the effective fixed charge, the Donnanexclusion will become negligible, and the membrane will exclude freesalt essentially as a neutral membrane, i.e., using only non-Donnanmechanisms such as dielectric and steric exclusion. The salt (co-ion)uptake and permeability will then depend about linearly on solutionconcentration, as opposed to a stronger, non-linear dependence characteristic of the Donnan exclusion.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lity will then depend about linearly on solutionconcentration, as opposed to a stronger, non-linear dependence characteristic of the Donnan exclusion. In case when salt partitions to themembrane predominantly as mobile ion-pairs, the partitioning willincrease non-linearly. Interestingly, the resulting non-linear trend of ion-pair uptake maybear superficial similarity to the Donnan exclusion. For instance, formonovalent ions in a neutral membrane, concentration of mobile pairsin the membrane will be 𝐶𝑝𝑎𝑖𝑟= 𝐾𝑚(𝑆0𝐶𝑠)2 (see Eq. (1)), i.e., will havea square dependence on 𝐶𝑠. The Donnan model predicts essentiallythe same dependence, except that the term (𝑆0𝐶𝑠)2 is multiplied by1∕𝑋, where 𝑋is the effective membrane charge, instead of 𝐾𝑚. Thusit may be difficult to tell from experimental data whether the observedtrend reflects Donnan exclusion or pairing. Notably, since symmetricpairs are neutral and unaffected by the Donnan exclusion, this squaredependence for 𝐶𝑝𝑎𝑖𝑟will be valid for a monovalent salt regardlessof whether the membrane is neutral or charged. Thereby, co-ion uptake may simultaneously involve both free co-ions, obeying Donnanexclusion, and ion-pairs, which may be hard to differentiate basedon salt uptake data only. The situation for multivalent ions formingasymmetric pairs may be even more complex [24,40]. Future studieswill need to address these challenges. 3.3.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The situation for multivalent ions formingasymmetric pairs may be even more complex [24,40]. Future studieswill need to address these challenges. 3.3. Implications for ion transport Ion paring modifies ion uptake and thus directly affects the ion permeation and conductance in membranes through the ion partitioningfactor. Yet, we emphasize here that pairing will strongly impact not justthe partitioning of the coand counter-ions but their mobility as well,as ions in pairs will be less mobile than free ions. The effect should befairly moderate for mobile pairs, which will have a reduced but stillsubstantial mobility. Thus, when ions may form only mobile pairs, as all ions in non-charged membranes or co-ions in charged membranes,the effect of pairings on their mobility should be moderate. However, pairing or binding of counter-ions with fixed chargesshould reduce their mobility more strongly. Their diffusion will thenoccur as hopping between fixed charges and require transient dissociation of the fixed pairs. The higher energy of the transient dissociatedstates will impose a barrier that will slow down the counter-ion diffusion. We showed previously that, within PM, the resulting mobility ofcounter-ions will be inversely related to the pairing constant 𝐾𝑚[11].Measuring conductivity of charge membranes offers a straightforwardway to quantify this effect.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ll be inversely related to the pairing constant 𝐾𝑚[11].Measuring conductivity of charge membranes offers a straightforwardway to quantify this effect. Since the counter-ion content in a saltfree membrane is fixed, the conductivity directly correlates with themacroscopic counter-ion mobility. Specifically, increasing charge of counter-ions should exponentiallyaffect 𝐾𝑚(cf Eqs. (5) and [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}]) and reduce the mobility and conductivity accordingly. This is exactly what was reported recently, though theauthors rationalized the results based on the Manning model of counterion diffusion [46]. This model relates the slowdown of diffusion tothe variation of the electric potential within the membranes, assumingit is described by the screened mean-field potential of the Debye–Huckel type around fixed charges arranged in a cubic lattice [47].Its mean-field nature makes it more appropriate for dilute polyelectrolytes in a high-𝑇∗environment, which is principally different fromthe unscreened Bjerrum-type potential around individual fixed chargesconsidered here.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ytes in a high-𝑇∗environment, which is principally different fromthe unscreened Bjerrum-type potential around individual fixed chargesconsidered here. Also note that this diffusion model should not be confused with the Manning counter-ion condensation model [48], popularnowadays for analysis of ion uptake in ion-exchange membranes [40].The latter model, alternative to the present one, is also based on amean-field potential but fixed charges are assumed to form a uniformlycharged rod embedded in a continuous solvent, which is principallydifferent from the present picture too. Within the pore model, the physical picture of the dissociation andhopping of counter-ions and corresponding reduction of mobility ismore complex than in PM and may not show a simple inverse relationto 𝐾𝑚. Since the pore model no more views the membrane as a uniformmedium, the rate of counter-ion hopping between the fixed charges orpores will depend on the pore connectivity and the need to cross alow-dielectric matrix as a transient state. Note that the thermodynamicpicture of the pore model, Figs. 1C and 3A, and the calculation of 𝐾𝑚(Eq. [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}]) do not consider any state of ion outside the pores. However,considering such states may be necessary for understanding mobility. As schematically depicted in Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "der any state of ion outside the pores. However,considering such states may be necessary for understanding mobility. As schematically depicted in Fig. 3B, when the pore (water) volumefraction in the membrane is large enough for percolation of water-richdomains, the ions can indeed diffuse across the membrane without having to leave the water microphase. Such diffusion will still be affectedby the geometric factors of porosity and tortuosity but, otherwise, could(inversely) correlate with the value of 𝐾𝑚given by Eqs. [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}]. On the other hand, when the pore fraction drops below the percolation threshold, the need to cross the low-dielectric matrix mayincrease the barrier and suppress the mobility far more strongly. Theconsideration of water percolation as a prerequisite of good conductance are commonly invoked and reasonably explain the sharp dropof conductivity at reduced humidity in ion-conducting membranes,particularly important in fuel cell membranes [13,49,50]. We presumethat, with appropriate modifications, the pore model may help computethe energy of different transient states, i.e., relevant energy barriersand their variation with hydration. This may clarify and quantify therelation between the membrane hydration and conductivity. 4.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "evant energy barriersand their variation with hydration. This may clarify and quantify therelation between the membrane hydration and conductivity. 4. Conclusions The pore model views the membrane as a micro-heterogeneous system, composed of interspersed water-rich pores, accommodating ions,and a low-dielectric matrix. The approximate relations, systematicallyderived in this study for the pore model, indicate that the low-dielectricproperty of the matrix may enhance ion-pairing more substantially than Journal of Membrane Science 722 (2025) 123795",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "V. Freger the dielectric exclusion, opposite to the predictions of the primitivemodel of membrane as a uniform continuum. As a result, ions withinthe membrane may be present mainly as ion-pairs rather than freeions, which may have many implication for ion uptake, transport, andselectivity. In particular, in charged membranes, pairing could stronglyreduce or entirely deactivate the fixed charge and suppress the mobilityof counter-ions and membrane conductance. The resulting trends mayvary for ions of different mobility and, on the other hand, be superficially similar to those predicted using classical Donnan model relationsfor free ions. This poses significant challenges for interpretation ofthe data and differentiation between mechanisms. Addressing thesechallenges and getting closer to a predictive theory may require boththorough modeling along the lines outlined here and elaborate experimental data on ion uptake and transport. This effort may also benefitfrom advanced tools such as molecular simulations and complementarycharacterization approaches such as dielectric spectroscopy [51]. Declaration of competing interest The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:Viatcheslav Freger reports financial support was provided by IsraelScience Foundation.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nships which may be considered as potential competing interests:Viatcheslav Freger reports financial support was provided by IsraelScience Foundation. Viatcheslav Freger reports financial support wasprovided by Israel Ministry of Innovation, Science and Technology(MOST) Israel, China-Israel Scientific Research Program. Acknowledgments The authors acknowledges financial support by Israel Science Foundation (grant 486/22) and by a grant No 0005658 ‘‘Novel Membranes for Highly-efficient Water Decontamination’’ from Israel Ministry of Innovation, Science and Technology (MOST) Israel within theChina-Israel Scientific Research Program Israel-China program. Theauthor also thanks Konstantin Morozov for expert advise and help withderiving relations of elestrostatic and dielectric polarization. Data availability Data will be made available on request.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[14] V. Kolev, V. Freger, Molecular dynamics investigation of ion sorption and permeation in desalination membranes, J. Phys. Chem. B 119 (44) (2015)14168–14179.[15] M. Kanduč, W.K. Kim, R. Roa, J. Dzubiella, Aqueous nanoclusters govern ion partitioning in dense polymer membranes, ACS Nano 13 [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (2019)11224–11234.[16] J. Wu, J. He, J.A. Quezada-Renteria, J. Le, K. Au, K. Guo, M. Xiao, X. Wang, D. Dlamini, H. Fan, et al., Polyamide reverse osmosis membrane compactionand relaxation: Mechanisms and implications for desalination performance, J.Membr. Sci. 706 (2024) 122893.[17] M. Heyde, C. Peters, J. Anderson, Factors influencing reverse osmosis rejection of inorganic solutes from aqueous solution, J. Colloid Interface Sci. 50 (3) (1975)467–487.[18] M. Heyde, J. Anderson, Ion sorption by cellulose acetate membranes from binary salt solutions, J. Phys. Chem. 79 (16) (1975) 1659–1664.[19] E. Glueckauf, The distribution of electrolytes between cellulose acetate membranes and aqueous solutions, Desalination 18 (2) (1976) 155–172.[20] S. Mafe, P. Ramirez, A. Tanioka, J. Pellicer, Model for counterion-membranefixed ion pairing and donnan equilibrium in charged membranes, J. Phys.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "20] S. Mafe, P. Ramirez, A. Tanioka, J. Pellicer, Model for counterion-membranefixed ion pairing and donnan equilibrium in charged membranes, J. Phys. Chem.B 101 [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (1997) 1851–1856.[21] H. Matsumoto, R. Yamamoto, A. Tanioka, Membrane potential across low-watercontent charged membranes: Effect of ion pairing, J. Phys. Chem. B 109 (29)(2005) 14130–14136.[22] P. Magnico, Ion transport dependence on the ion pairing/solvation competition in cation-exchange membranes, J. Membr. Sci. 483 (2015) 112–127.[23] E. Kimani, A. Kemperman, W. Van Der Meer, P. Biesheuvel, Multicomponent mass transport modeling of water desalination by reverse osmosis including ionpair formation, J. Chem. Phys. 154 [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] (2021).[24] Y.S. Oren, O. Nir, V. Freger, Analyzing ion uptake in ion-exchange membranes using ion association model, J. Membr. Sci. 690 (2024) 122202.[25] M. Stolov, V. Freger, Membrane charge weakly affects ion transport in reverse osmosis, Environ. Sci. Technol. Lett. 7 (6) (2020) 440–445.[26] B. Blankert, F.D. Martinez, R. Das, T. Altmann, J.S. Vrouwenvelder, C. Picioreanu, On the discrepancy between nominal and effective charge density ofpolyamide reverse osmosis membranes, Desalination 578 (2024) 117456.[27] Y.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ioreanu, On the discrepancy between nominal and effective charge density ofpolyamide reverse osmosis membranes, Desalination 578 (2024) 117456.[27] Y. Levin, M.E. Fisher, Criticality in the hard-sphere ionic fluid, Phys. A 225 (2) (1996) 164–220.[28] G. Orkoulas, M.E. Fisher, A.Z. Panagiotopoulos, Precise simulation of criticality in asymmetric fluids, Phys. Rev. E 63 (5) (2001) 051507.[29] A.E. Yaroshchuk, Dielectric exclusion of ions from membranes, Adv. Colloid Interface Sci. 85 (2–3) (2000) 193–230.[30] A. Szymczyk, N. Fatin-Rouge, P. Fievet, C. Ramseyer, A. Vidonne, Identification of dielectric effects in nanofiltration of metallic salts, J. Membr. Sci. 287 (1)(2007) 102–110.[31] V. Freger, Dielectric exclusion, an éminence grise, Adv. Colloid Interface Sci. (2023) 102972.[32] J.-N. Aqua, S. Banerjee, M.E. Fisher, Criticality in charge-asymmetric hard-sphere ionic fluids, Phys. Rev. E— Stat. Nonlinear, Soft Matter Phys. 72 (4) (2005)041501.[33] G.M. Geise, D.R. Paul, B.D. Freeman, Fundamental water and salt transport properties of polymeric materials, Prog. Polym. Sci. 39 (1) (2014) 1–42.[34] S. Bason, V. Freger, Phenomenological analysis of transport of mono-and divalent ions in nanofiltration, J. Membr. Sci. 360 (1–2) (2010) 389–396.[35] A.E. Yaroshchuk, Non-steric mechanisms of nanofiltration: superposition of donnan and dielectric exclusion, Sep. Purif. Technol. 22 (2001) 143–158.[36] N. Fridman-Bishop, K.A. Tankus, V.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ms of nanofiltration: superposition of donnan and dielectric exclusion, Sep. Purif. Technol. 22 (2001) 143–158.[36] N. Fridman-Bishop, K.A. Tankus, V. Freger, Permeation mechanism and interplay between ions in nanofiltration, J. Membr. Sci. 548 (2018) 449–458.[37] L. Bruni, S. Bandini, Studies on the role of site-binding and competitive adsorption in determining the charge of nanofiltration membranes, Desalination241 (1–3) (2009) 315–330.[38] K.M. Beers, D.T. Hallinan Jr., X. Wang, J.A. Pople, N.P. Balsara, Counterion condensation in Nafion, Macromolecules 44 (22) (2011) 8866–8870.[39] A. Münchinger, K.-D. Kreuer, Selective ion transport through hydrated cation and anion exchange membranes I. The effect of specific interactions, J. Membr.Sci. 592 (2019) 117372.[40] R. Sujanani, O. Nordness, A. Miranda, L.E. Katz, J.F. Brennecke, B.D. Freeman, Accounting for ion pairing effects on sulfate salt sorption in cation exchangemembranes, J. Phys. Chem. B 127 (8) (2023) 1842–1855.[41] S.M. Bannon, G.M. Geise, Application of the Born model to describe salt partitioning in hydrated polymers, ACS Macro Lett. 13 (5) (2024) 515–520.[42] V. Batygin, I. Toptygin, D.T. Haar, Problems in Electrodynamics, 2nd ed., Academic Press, London, 1978.[43] V. Neklyudov, V. Freger, Ion coupling, bonding, and transfer in narrow carbon nanotubes, Small (2024) 2402327.[44] C. Böttcher, Theory of Electric Polarization, second ed., Elsevier, Amsterdam, 1973, pp. 129–157.[45] V. Freger, G.Z.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tubes, Small (2024) 2402327.[44] C. Böttcher, Theory of Electric Polarization, second ed., Elsevier, Amsterdam, 1973, pp. 129–157.[45] V. Freger, G.Z. Ramon, Polyamide desalination membranes: Formation, structure, and properties, Prog. Polym. Sci. 122 (2021) 101451.[46] H. Fan, Y. Huang, I.H. Billinge, S.M. Bannon, G.M. Geise, N.Y. Yip, Counterion mobility in ion-exchange membranes: spatial effect and valency-dependentelectrostatic interaction, ACS ES&T Eng. 2 (7) (2022) 1274–1286. Journal of Membrane Science 722 (2025) 123795",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "V. Freger [47] G.S. Manning, Binary diffusion and bulk flow through a potential-energy profile: A kinetic basis for the thermodynamic equations of flow through membranes, J.Chem. Phys. 49 (6) (1968) 2668–2675.[48] G.S. Manning, Limiting laws and counterion condensation in polyelectrolyte solutions I. Colligative properties, J. Chem. Phys. 51 (3) (1969) 924–933.[49] K.D. Kreuer, On the development of proton conducting polymer membranes for hydrogen and methanol fuel cells, J. Membr. Sci. 185 (1) (2001) 29–39.\n\n[50] X. Wu, X. Wang, G. He, J. Benziger, Differences in water sorption and proton conductivity between nafion and SPEEK, J. Polym. Sci. Part B: Polym. Phys. 49(20) (2011) 1437–1445.[51] K. Chang, G.M. Geise, Dielectric permittivity properties of hydrated polymers: measurement and connection to ion transport properties, Ind. Eng. Chem. Res.59 [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] (2019) 5205–5217. Journal of Membrane Science 722 (2025) 123795",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001085-main",
+      "title": "Ion uptake and pairing in membranes: The pore model",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "content": "1. Introduction\nVanadium redox flow batteries (VRFBs) are electrochemical energy storage systems (ESSs), which can reach an energy efficiency (EE) of ≈90 %, depending on the current density [1–4]. Since intermittent renewable energy sources need to be coupled with ESS and lithium-ion battery-based systems led to many accidents including fires in the past [5–8], VRFBs are expected to rapidly gain market shares especially for grid stabilization and residential applications like rooftop photovoltaic panels. The global RFB market size was USD 961 million in 2023, USD 1029 million in 2024, and is predicted to grow to USD 2721 million by 2032 [9]. Further advantages of VRFBs are the independent scaling of power (the stack size) and capacity (the tank size), the possibility to recover most capacity losses by mixing the anolyte and catholyte, and the recyclability of the electrolyte, which exceeds 97 % [10]. A key component of every VRFB is the membrane. It has to conduct the charge balancing protons, but should also block the unwanted crossover of vanadium ions. The first is related to voltage efficiency (VE), the second to coulomb efficiency (CE), and the EE = VE ⋅ CE [11]. Therefore, a low area-specific ionic resistance and low vanadium permeability are desired.",
+    "citation": {
+      "authors": ["Monja Schilling", "Vincent Christanto", "Muhammad Mara Ikhsan", "Roswitha Zeis", "Dirk Henkensmeier"],
+      "paper_id": "1-s2.0-S037673882500818X-main",
+      "title": "Is vanadium ion permeability independent of membrane thickness?",
+      "year": "2025",
+      "section": "Introduction",
+      "pages": [1, 2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Typically, the vanadium permeability is measured by separating a VO2+ containing solution and a receiving solution with the membrane under investigation. The build-up of the VO2+ concentration on the receiving side is measured over time, allowing for the crossover assessment. Similar to area-specific resistance (a membrane property) and conductivity (a material property), the measured crossover is a membrane property. In contrast, permeability (crossover normalized for membrane geometry and concentration gradient) is a material property. Therefore, many researchers, including us, report the permeability as a material property that can be directly used to compare different materials, independent of membrane thickness or the vanadium concentration used in the experiment [12–19]. Some years ago, the Holdcroft group analyzed the water permeation through ion-conductive membranes [20–22]. They reported that the water transport is controlled by three processes: First, water molecules from the gas phase need to enter the membrane, second, water molecules in the polymer diffuse through the membrane, and third, are released into the gas phase, when they leave the membrane. While the interfacial processes did not play a significant role in liquid water/water permeation (with an applied hydraulic pressure as driving force), a large contribution of the interfaces was found in vapor/vapor permeation (here a relative humidity gradient was used as driving force). This seems to be related to the tendency of the membrane to minimize the surface energy: In air or vacuum, ionic functional groups are stabilized by moving into the membrane (given that the polymer has sufficient chain mobility), and they move back to the surface in contact with liquid water [23].",
+    "citation": {
+      "authors": ["Monja Schilling", "Vincent Christanto", "Muhammad Mara Ikhsan", "Roswitha Zeis", "Dirk Henkensmeier"],
+      "paper_id": "1-s2.0-S037673882500818X-main",
+      "title": "Is vanadium ion permeability independent of membrane thickness?",
+      "year": "2025",
+      "section": "Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Like the water permeation in liquid water, we expected that the membrane surface would not affect vanadium ion crossover since the membrane is immersed in water-based electrolytes and thus should have a more hydrophilic surface. However, while water permeation seems to be mainly influenced by the concentration and mobility of water in the membrane, vanadium ions are about two times larger than water molecules [24], and increased interactions with the polymer play a significant role. Furthermore, the hydration shell of vanadium ions is expected to change when the solvated ions enter the polymer phase. Therefore, we started to ask ourselves whether it is true that there is no significant contribution of the membrane surface to vanadium ion crossover. It turned out that the influence of the membrane surface on the total transport resistance across a membrane is significant, which means that permeability values depend on membrane thickness.",
+    "citation": {
+      "authors": ["Monja Schilling", "Vincent Christanto", "Muhammad Mara Ikhsan", "Roswitha Zeis", "Dirk Henkensmeier"],
+      "paper_id": "1-s2.0-S037673882500818X-main",
+      "title": "Is vanadium ion permeability independent of membrane thickness?",
+      "year": "2025",
+      "section": "Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Experimental part and equations\n2.1. Materials\nmeta-PBI powder (MW ≈58,000 g/mol) was obtained from Blue World Technologies. Polystyrene (PS) (MW ≈192,000 g/mol) and acetic anhydride were purchased from Sigma Aldrich. Dichloroethane, sulfuric acid (98 wt%), N,N-dimethylacetamide (DMAc, 99.5 wt%), magnesium sulfate anhydrous powder (MgSO4), sodium chloride standard solution (NaCl, 0.05 M), potassium hydroxide standard solution (KOH, 0.05 M), isopropanol and ethanol 98 % were purchased from Daejung Chemicals & Metals Co., Ltd. Vanadyl (IV) sulfate (VOSO4·xH2O) was purchased from TCI Chemicals. All chemicals were used without further purification.",
+    "citation": {
+      "authors": ["Monja Schilling", "Vincent Christanto", "Muhammad Mara Ikhsan", "Roswitha Zeis", "Dirk Henkensmeier"],
+      "paper_id": "1-s2.0-S037673882500818X-main",
+      "title": "Is vanadium ion permeability independent of membrane thickness?",
+      "year": "2025",
+      "section": "Experimental",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2. Preparation of PBI membranes\nPBI membranes were prepared by dissolving 5 wt% of PBI powder in DMAc at room temperature for at least 24 h until all polymer dissolved. Then, the polymer solution was cast on a glass plate by using a doctor blade with adjustable thickness to obtain membranes with different thicknesses. Subsequently, the cast solution was transferred into an oven at 80 °C for 24 h, with vacuum being applied after the first 3 h to remove the solvent. The dried membrane, then, was delaminated from the plate using dry-peel method and immersed in DI water at 80 °C for 24 h, before being dried again at 60 °C in a vacuum oven.\n\n2.3. Preparation of sPS membranes\nThe procedure of synthesizing sulfonated polystyrene followed our previous publication [2]. 15 g polystyrene resin was dissolved in 165 ml dichloroethane at 50 °C for 2.5 h in a round-bottom flask by using an overhead stirrer under an argon atmosphere. In a separate flask, acetyl sulfate was prepared by adding 45 ml of dichloroethane, and 11.7 g of acetic anhydride (1.15 molar equivalents of sulfuric acid to scavenge the water molecules during sulfonation reaction) were added. The mixture's temperature was reduced to 2 °C and stirred for 30 min. Then, 10 g (0.1 mol) of 98 % sulfuric acid was added and allowed to react for 30 min. Then the temperature of the polymer solution was lowered to 40 °C, and the freshly prepared acetyl sulfate solution was added dropwise. Subsequently, the sulfonation reaction was maintained for 6 h. The polymer visibly separated from the solution during the reaction, signifying the increased polarity due to the introduced sulfonic acid groups. To quench the reaction, 15 ml of isopropanol was added and stirring was continued for 15 min. The polymer was isolated by removing dichloroethane from the flask, then rinsing the polymer sludge with 20 ml of ethanol three times to remove excess dichloroethane and sulfuric acid. sPS was dissolved in ethanol at room temperature using an overhead stirrer to obtain an 11.5 wt% solution, which was cast on a glass plate using a doctor blade with adjustable thickness. After transferring it to the oven, the plate was kept at 70 °C for 2 h without vacuum, followed by 2 h of evaporating under vacuum to remove the ethanol. The dried membrane was then delaminated from the plate by immersing it in 3 M H2SO4.",
+    "citation": {
+      "authors": ["Monja Schilling", "Vincent Christanto", "Muhammad Mara Ikhsan", "Roswitha Zeis", "Dirk Henkensmeier"],
+      "paper_id": "1-s2.0-S037673882500818X-main",
+      "title": "Is vanadium ion permeability independent of membrane thickness?",
+      "year": "2025",
+      "section": "Experimental",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.4. Stacking of membranes\nFor stacking sPS membranes, membranes were immersed in 3 M sulfuric acid, and then assembled layer by layer. Care was taken to remove manually all bubbles and liquid between the layers. The stacks showed a reasonably good adhesion between layers and could be handled as if the stack is monolithic without observing any delamination. To test Nafion membranes with different thicknesses, pieces of Nafion 211 were rinsed with an ethanol-water mixture (1:4) to partially swell their surfaces, stacked between Kapton film, and pressed in a hot press at 130 °C for 3 min. Compared to loosely assembled stacks, this process ensures good adhesion of the layers to each other. FAA3-25 membranes were glued together by wetting them with ethanol-water (40 % v/v), followed by hot pressing at 80 °C for 2 min. Before use, the stacks were immersed in 0.5 M sulfuric acid solution for rapid ion exchange, then in 3 M sulfuric acid solution for equilibration.\n\n2.5. Characterization\n2.5.1. NMR\n1H NMR spectra were analyzed by a Bruker UltraShield 400 spectrometer at 400 MHz. 1H NMR was used to determine the degree of sulfonation and NMR-based ion exchange capacity of sPS (15–20 mg of polymer in 0.7 ml DMSO‑d6) [2].\n2.5.2. Ion exchange capacity (titration)\nTo remove free and bound water from the membrane, sulfonated polystyrene samples were dried at 100 °C for 24 h, and the dry sample weight was taken. Then, at least 3 samples were immersed in 20 ml 0.05 M NaCl solution for ion exchange into the Na form. After 24 h, the membranes were rinsed with DI water. The solutions were titrated by using 0.05 M KOH. The IEC was calculated according to the equations: Mass IEC = number of functional groups / dry weight of membrane (mmol g-1); Volumetric IEC = Mass IEC × dry weight of membrane / wet volume of membrane (mmol cm-3).",
+    "citation": {
+      "authors": ["Monja Schilling", "Vincent Christanto", "Muhammad Mara Ikhsan", "Roswitha Zeis", "Dirk Henkensmeier"],
+      "paper_id": "1-s2.0-S037673882500818X-main",
+      "title": "Is vanadium ion permeability independent of membrane thickness?",
+      "year": "2025",
+      "section": "Experimental",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.5.3. Crossover and permeability measurements\nPermeability measurements were done by assembling membranes (4.75 cm2 active area) between a large and a small half cell (130 ml volume (VM), MFC100.25.0, and a custom-made ca. 20 ml clam shell, both Adams & Chittenden Scientific Glass, USA). The small vanadium donating side was filled with 1.5 M VOSO4 (CV) in 3 M sulfuric acid, and the large receiving side was filled with 3 M sulfuric acid containing 1.5 M MgSO4. The cells were put into a temperature-controlled water bath to maintain room temperature (23–25 °C), and the half cells were magnetically stirred at 200 rpm to avoid the build-up of concentration gradients close to the membrane. At certain times, samples were taken from the receiving side, and the amount of crossed-over VOSO4 was determined by UV–Vis (765 nm, Agilent Technologies Cary100 UV–Vis). The concentration of the magnesium containing receiving side was plotted versus the time t, and the slope of the linear trend dCM(t)/dt was used to calculate the permeability P: P (m2/s) = (1/CV) × (dCM(t)/dt) × (L VM / A), where L is the thickness of the membrane, and VM is the volume of the solution in the receiving side. The assumption made is that the flux dn/dt (n = the number of vanadium ions crossing the membrane) and therefore also the flux adjusted for the volume of the receiving chamber, dCM(t)/dt, are constant over time. In fact, it is quasi constant only at the begin of test, and then decreases because the concentrations in the receiving and feeding compartment converge at infinite time.",
+    "citation": {
+      "authors": ["Monja Schilling", "Vincent Christanto", "Muhammad Mara Ikhsan", "Roswitha Zeis", "Dirk Henkensmeier"],
+      "paper_id": "1-s2.0-S037673882500818X-main",
+      "title": "Is vanadium ion permeability independent of membrane thickness?",
+      "year": "2025",
+      "section": "Experimental",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.6. Calculation of transport resistances\nLuo et al. described how the transport resistance for water permeation through a cation exchange membrane can be measured [21]. Physically, it is the ratio of the driving force for the diffusion, Δμ, and the water permeation flux Jwater. Analogous to that, the transport resistance of vanadium ions can be calculated by using the concentration difference between the two membrane sides as the driving force of vanadium permeation, and, for comparability of data, the area-normalized flux: RPerm = Δc / (dCM(t)/dt × VM/A). In this, Δc is the quasi-constant difference between the vanadium donating and receiving side, i.e. 1.5 M = CV, and the unit of RPerm becomes that of min/μm. When RPerm is measured for several membranes having different thicknesses, a plot of RPerm versus the membrane thickness gives a linear correlation. A linear fit provides the slope (i.e. dRPerm/dL) as a measure for the transport resistance through the bulk of the membrane per μm thickness, whereas the y-axis intercept gives the sum of the two interfacial resistances (RIF = RIF1 + RIF2), i.e. resistance of a hypothetical 0 μm thick membrane, which only contains interfacial resistances. The overall transport resistance is the sum of all resistances, with Rbulk being the transport resistance through the membrane, and ρbulk being the resistivity: RPerm = Rbulk + RIF = ρbulk·L + RIF = (dRPerm/dL)·L + RIF. Therefore, once the resistances are known, the permeability coefficient P can be calculated as P = (1/RPerm) × (L VM / A) = 1/(Rbulk + RIF) × (L VM / A).",
+    "citation": {
+      "authors": ["Monja Schilling", "Vincent Christanto", "Muhammad Mara Ikhsan", "Roswitha Zeis", "Dirk Henkensmeier"],
+      "paper_id": "1-s2.0-S037673882500818X-main",
+      "title": "Is vanadium ion permeability independent of membrane thickness?",
+      "year": "2025",
+      "section": "Experimental",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Results and discussion\nFor this work, four different membrane types were analyzed: sulfonated polystyrene (sPS), Nafion, the commercial anion exchange membrane (AEM) FAA3, and sulfuric acid doped mPBI (Fig. 1). The first two types are proton exchange membranes, which take up vanadium ions easily and therefore show a large vanadium crossover. AEMs are functionalized with quaternary ammonium groups, which should result in Donnan exclusion of vanadium; however, the membrane selectivity decreases when the salt load in the external electrolyte increases, and at the concentrations used in the VRFB, the selectivity decreases almost to that of a non-selective diaphragm [25]. The absorption of external electrolytes also increases with the dimensions of the hydrophilic domains because the distance to the charged walls increases so that ions see a surrounding area that is getting more similar to that in bulk solutions. The fourth membrane type is sulfuric acid-doped meta-PBI, which has been investigated intensively in recent years since its initial mention as a promising membrane material in VRFBs [26,27]. PBI is not ionic conductive, but its imine groups can be protonated by sulfuric acid. This increases the membranes' hydrophilicity, and electrolyte moves into the free volume between the polymer chains. Since the polymer chain is rigid, has a high density of positive charges, and no large hydrophobic segments, sulfuric acid-doped PBI does not show phase separation into hydrophilic and hydrophobic domains. This strongly contrasts Nafion, which has a flexible hydrophobic backbone and charged functional groups tethered by side chains. Therefore, while Nafion has ca. 4 nm large hydrophilic domains, which show clearly as a so-called ionomer peak in SAXS measurements, acid-doped PBI has no features in SAXS [28], and the chain-to-chain distance seen in WAXS appears to have an average distance of 1–2 nm [29]. This narrow morphology helps to block vanadium ions.",
+    "citation": {
+      "authors": ["Monja Schilling", "Vincent Christanto", "Muhammad Mara Ikhsan", "Roswitha Zeis", "Dirk Henkensmeier"],
+      "paper_id": "1-s2.0-S037673882500818X-main",
+      "title": "Is vanadium ion permeability independent of membrane thickness?",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Although Nafion has a pronounced phase separation into hydrophilic and hydrophobic domains, which form a well-connected 3D network under hydrated conditions, it was reported that the surface of Nafion is more hydrophilic in contact with water and more hydrophobic in contact with a gas phase [30]. The reason is that highly flexible polymer chains of Nafion can easily rearrange to reach a new energetic minimum when the environment changes. To understand this, it helps to look at the behavior of a Nafion dispersion dropped on a water surface. As a surface-active molecule, it forms a monolayer at the gas/liquid interface, with the hydrophilic side chains directed towards the water phase and the hydrophobic backbone oriented towards the gas phase (Fig. 2a) [31]. Similarly, Nafion membranes have a relatively hydrophobic surface, although they are hydrophilic and absorb water. This already hints that the transport resistance for vanadium ions over the membrane surface may not be negligible. To investigate the transport of vanadium ions over membranes, the crossover flux was measured for membranes made of the same material but different thicknesses, and for stacks of membranes to achieve different thicknesses when the membrane thickness was fixed (Table 1). Although stacking of membranes could add an interfacial resistance [32], this effect should be small in our work, because the stacks were not loosely assembled but laminated to reduce potential polymer/polymer interfacial resistance. Other literature reports that the polymer/polymer interfacial resistance is negligible for proton conduction [33]. Presumably, the polymer/polymer interfacial resistance depends on the strength of adhesion between two wetted layers of the same polymer, which should be influenced by polymer chain mobility and the presence of attractive forces between the polymers, based on their chemical composition (hydrogen bonds, π-stacking, dipole interactions, etc.).",
+    "citation": {
+      "authors": ["Monja Schilling", "Vincent Christanto", "Muhammad Mara Ikhsan", "Roswitha Zeis", "Dirk Henkensmeier"],
+      "paper_id": "1-s2.0-S037673882500818X-main",
+      "title": "Is vanadium ion permeability independent of membrane thickness?",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [4, 5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "When the crossover values were calculated into permeabilities using equation (3) (Fig. 3a), all membrane series showed a positive correlation between permeability and membrane thickness, which further supports that the polymer/polymer interface does not strongly hinder vanadium crossover, at least not when both layers have the same chemical composition and are well laminated. The increasing permeability also indicates that the total transport resistance is composed of large interfacial transport resistances RIF occurring at the membrane surfaces, and a bulk resistance Rbulk (Fig. 3b). Since the interfacial resistances RIF are independent of the thickness, and Rbulk increases with the membrane thickness, the permeability of thick membranes will be influenced by Rperm ≈ Rbulk, and permeabilities should reach a maximum value at high thicknesses. In a second step, the vanadium transport resistances Rperm were calculated according to equation (4) and plotted against the membrane thickness. As expected, the data showed a linear behavior (Fig. 4a), and equation (5) shows that the slope correlates with ρbulk, while the y-axis intercept correlates with RIF. Our assumption is that the polymer/polymer interface between layers of stacked membranes does not add a significant transport resistance. Exactly, the measured RIF value = RIF1 + RIF2 – Rpol/pol for stacked systems. As shown in Table S2, RIF was 23, 24 and 30 min/μm for sPS without polymer/polymer interfaces, stacked sPS 36 μm and stacked sPS 73 μm, respectively. Although this is not a perfect proof, the fact that RIF did not decrease when changing from sPS to stacked sPS is a good indication that Rpol/pol is negligible. Fig. 4b (see also Table S2) compares the obtained values. RIF's value was significantly larger for all tested membrane systems than ρbulk's. Specifically, the average RIF for sPS, sPS 36 μm and sPS 73 μm, Nafion 211, FAA3-25 and PBI was 23, 24, 30, 429, 1016 and 21,338 min/μm, respectively.",
+    "citation": {
+      "authors": ["Monja Schilling", "Vincent Christanto", "Muhammad Mara Ikhsan", "Roswitha Zeis", "Dirk Henkensmeier"],
+      "paper_id": "1-s2.0-S037673882500818X-main",
+      "title": "Is vanadium ion permeability independent of membrane thickness?",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "It can be expected that the polymers' charge (positive or negative), charge density, and dimension of the surface pores all influence the interfacial transport resistance. The negative charge of the sulfonic acid groups of sPS and Nafion should attract vanadium cations, while the positive charge of FAA3-25 and acid doped PBI should repel vanadium ions. Indeed, a correlation between charge, charge density and RIF is demonstrated in Fig. 4c. Since sPS has an IEC of 3.76 mmol/g and Nafion has an IEC of 0.95–1.01 mmol/g, the density of charged groups on the membrane surface is presumably higher for sPS. FAA3-25 is an AEM, and the positively charged quaternary ammonium groups (1.63 mmol/g) should repel vanadium cations. Protonated PBI (PBI·2H2SO4) has positively charged imidazolium ions (3.97 mmol/g). Finally, when vanadium ions enter the membrane and the pores are narrow, the ions are expected to lose some water molecules from their solvation shell, which adds an energy barrier. For ρbulk, additional parameters are expected to play a role as well, like phase separation (i.e. the pore dimensions in the membrane), and the connectivity and tortuosity of the hydrophilic regions or domains. For 1 μm thick membranes, a direct comparison of ρbulk and RIF is possible, and interfacial transport resistance is the major contribution to Rperm for 1 μm thick membranes. The logarithmic scale allows to deduce that Rbulk becomes larger than RIF only when membranes are ca. 10 μm thick (for PBI) or >100 μm thick for other membranes. The contribution of RIF to Rperm is negligible at very large membrane thicknesses. This is demonstrated in Fig. 5a. The effect of RIF cannot be ignored for the typical thickness range of VRFB membranes, which is about 5–200 μm.",
+    "citation": {
+      "authors": ["Monja Schilling", "Vincent Christanto", "Muhammad Mara Ikhsan", "Roswitha Zeis", "Dirk Henkensmeier"],
+      "paper_id": "1-s2.0-S037673882500818X-main",
+      "title": "Is vanadium ion permeability independent of membrane thickness?",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Once RIF and ρbulk are known, equation (6) allows one to predict the permeability for any membrane thickness. Fig. 5b proves that the predicted values match well with the experimental values. While 40 μm thick Nafion has 1.7 times higher permeability than 40 μm thick FAA3, 400 μm thick Nafion and FAA3 would have the same permeability. The logarithmic representation of the permeability values stresses that different membrane types can significantly differ in permeability: While FAA3-25 and N211 have somewhat similar values, PBI has about 100 times lower permeability, and sPS has about 10 times higher permeability. The visible difference between sPS, 36 μm thick stacked sPS and 73 μm thick stacked sPS membranes appears to be related to membrane casting conditions and the stacking. Since the variability between RIF values is smaller than for ρbulk values (Table S2: ±15 % for RIF and ±44 % for ρbulk) and the curves do not merge at high membrane thicknesses in Fig. 5b, it appears that ρbulk contributes most to the observed variation. Even though the 36 and 73 μm thick sPS membranes were cast from the same polymer batch, it is plausible that differences in the final residual solvent contents, temperature fluctuations during the measurements and partial desulfonation during drying result in a different permeability. For example, we recently showed that simple variations of the membrane fabrication process allow us to adjust the conductivity of a sulfonated para-PBI membrane between 20 and 65 mS cm-1 [1]. In this light, it appears to be advisable not to overestimate the exact permeability and transport resistance values, but to look primarily at the range of the values.",
+    "citation": {
+      "authors": ["Monja Schilling", "Vincent Christanto", "Muhammad Mara Ikhsan", "Roswitha Zeis", "Dirk Henkensmeier"],
+      "paper_id": "1-s2.0-S037673882500818X-main",
+      "title": "Is vanadium ion permeability independent of membrane thickness?",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [6]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Conclusions\nBy measuring the crossover of membranes having different thickness, it is revealed that transport of vanadium ions across membranes is controlled by the sum of the interfacial resistance RIF and the bulk transport resistance Rbulk. Since the value of RIF ≫ ρbulk for all tested membranes (meta-PBI, Nafion 211, sulfonated polystyrene, FAA3-25), only measurements for thick membranes deliver intrinsic permeability values that can be compared. This has consequences for the scientific community.\n1) Comparing the reported permeability values across the literature is less straightforward than believed because membrane thickness affects permeability.\n2) In response to this, reporting both membrane thickness and permeability so that the area-normalized flux (P/L) can be used for comparisons, appears to be helpful.\n3) At least for relevant materials, measuring diffusive crossover for at least three membrane thicknesses or stacks (preferably 4 or 5) and reporting the bulk transport resistivity ρbulk and the interfacial transport resistance RIF is recommendable.\n4) RIF emerges as a new target and tool for membrane development. Nafion 211 and FAA3 have about 10 times higher RIF than sPS, and the RIF of PBI is 1000 times higher. Therefore, thin PBI coatings designed to use the high RIF value appear to be most attractive, and thin coatings with FAA3 could also effectively suppress vanadium crossover. This opens new questions: How thin can surface blocking layers be to show a significant effect? Is there a difference between RIF1 and RIF2 (i.e. in the direction of vanadium transport: solution → membrane and membrane → solution)? Can polymer/polymer interfaces be an engineering tool? For loosely assembled Nafion/Nafion interfaces, Gandomi et al. [32] reported an effect. Research on measuring conductivity [33] and our observations indicate that this effect may be small if the polymer/polymer interaction is strong. However, interfacial transport resistances between different polymers may have a strong effect on permeability values. For water permeation, literature reported that RIF is large for vapor but small for liquid water; this made us believe that the water-swollen surface of membranes is not a large barrier for vanadium crossover. But since it is, is there a similar effect on proton transport, i.e., proton conductivity, or, in alkaline water electrolyzers, on potassium and hydroxide transport? Can interfacial transport resistance improve selectivity in other applications, like chlor-alkali electrolysis (Na+ vs. OH-)? If the RIF for charge-balancing ions in certain systems is high, can the membrane surface morphology be selectively disrupted to reduce the RIF?",
+    "citation": {
+      "authors": ["Monja Schilling", "Vincent Christanto", "Muhammad Mara Ikhsan", "Roswitha Zeis", "Dirk Henkensmeier"],
+      "paper_id": "1-s2.0-S037673882500818X-main",
+      "title": "Is vanadium ion permeability independent of membrane thickness?",
+      "year": "2025",
+      "section": "Conclusions",
+      "pages": [6]
+    },
+    "type": "chunk"
+  }
+]

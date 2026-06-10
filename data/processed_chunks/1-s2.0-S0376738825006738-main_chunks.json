@@ -1,0 +1,577 @@
+[
+  {
+    "content": "Contents lists available at ScienceDirect\n\nJournal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nSolution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments Viatcheslav Freger∗ Wolfson Department of Chemical Engineering, Technion - Israel Institute of Technology, Haifa, 32000, IsraelGrand Water Research Institute, Technion - Israel Institute of Technology, Haifa, 32000, IsraelGrand Technion Energy Program, Technion - Israel Institute of Technology, Haifa, 32000, Israel A R T I C L E I N F O Keywords:Solution-diffusion modelMechanical-transport couplingMolecular dynamics simulationsIrreversible thermodynamicsSpiegler-Kedem model",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T The solution-diffusion (SD) model has faithfully served membrane research for decades, however, recently reported discrepancies between molecular dynamics and experiments reignited a debate on its validity. This study places on a solid foundation the picture of SD as mechanical-transport coupling put forward recently. The full set of coupled relations is rigorously derived using a variational approach. The approach is also generalized to the case of coupled solvent and solute transport and the result is equivalent to the classical irreversible thermodynamics relations, the Spiegler-Kedem model, augmented with a pressure-stress relation. This suggests a more general interpretation of SD, whereby what differentiates SD form the pore-flow is the nature of the driving force or ‘‘solution’’, when the single-phase membrane phase exchanges both mechanical and chemical energy with the permeating solvent, rather than ‘‘diffusion’’, i.e., specific mechanism behind solvent-membrane friction. Using a numerical solution, the paper also analyzes the cases of the supported and open films, representative of experiments and molecular simulations. This demonstrates that MD simulations agree with the SD model predictions and the basis for its rejection is removed, once the transport and mechanical boundary conditions are aligned in both types of computations.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "edictions and the basis for its rejection is removed, once the transport and mechanical boundary conditions are aligned in both types of computations. The presented study then closes a critical gap between simulations and real-world processes and applications, opening opportunities for new insights, modeling, and design of next-generation materials.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction The solution-diffusion (SD) model has been instrumental to understanding, modeling, and designing membranes and membrane processes for over six decades, since it was put forward by Lonsdale et al. and revisited and refined in many follow-up studies [1–8]. It assumes a diffusive transport of solvent (e.g., water) driven by the full thermodynamic potential, including both pressure and concentration gradients. Obviously, the assumption that transport is diffusive is not universally correct and simple viscous ‘‘pore flow’’ may take over in more open porous membranes [7,9], such as ultrafiltration (UF), in which the porous matrix and pore fluid form distinct phases. However, diffusion presumably dominates in dense solvent-swollen membranes, which is where SD usually applies. In such membranes, the polymer matrix takes up the solvent, forming a single gel-like phase, thereby ‘‘pores’’ or free-volume elements occupied by the solvent molecules are formed dynamically, as a fluctuating equilibrium structure, responding to osmotic conditions. Molecular dynamics (MD) simulations have emerged in recentdecades as a tool offering unique opportunities to get insights into",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "∗Correspondence to: Wolfson Department of Chemical Engineering, Technion - Israel Institute of Technology, Haifa, 32000, Israel. E-mail address: vfreger@technion.ac.il. transport mechanisms at the molecular scale. Recently, they were employed to put the SD model and some of its established features under scrutiny [10–14]. Thus, unexpectedly, MD results displayed deviations from the predictions of the SD model under the classical assumption of a constant hydrostatic pressure in the membrane, which have been well justified and commonly made for supported membranes used in experiments. Specifically, under this assumption, the SD model predicts that for pressure-driven steady-state solvent permeation, the solvent concentration within the membrane (membrane swelling) should decrease towards the permeate side, as indeed observed in experiments [15–17]. Furthermore, as the swelling at the permeate side decreases with applied pressure and eventually approaches zero, the flux is expected to plateau at very high pressures, which was confirmed in experiments as well [2,6]. However, recent MD simulations demonstrate a different behavior, whereby pressure steadily decreases from feed to permeate side, solvent concentration varies insignificantly across the film, and the dependence of solvent flux on applied pressure remains linear and does\n\nJournal of Membrane Science 734 (2025) 124360",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "V. Freger not plateau at very high pressures [10–13]. As pore-flow mechanism should yield such behavior, MD results were interpreted as evidence of the pore-flow, ruling out SD. In addition, strong water clustering and correlated motion of water molecules observed in simulated dense membrane structures were presumed to contradict the diffusive transport mechanism [12,14]. In a recent publication, we put forward a general framework for analyzing the problem of transport coupled to mechanical stress within the film, which points to the straightforward extension of the ‘‘classical’’ features of SD to the unsupported films employed in MD demonstrates as the reason behind this controversy [18]. Specifically, in open unsupported films, the coupling of transport to mechanics takes a form distinctly different from that typical of experimental systems, featuring different pressure and concentration profiles. However, in some aspects, the arguments somewhat lacked rigor, therefore, one goal of this paper is to put the mechanical-transport coupling on a solid theoretical foundation and derive the full set of relations systematically using most general approach. Remarkably, this also establishes connection with other classical models, such as Spiegler–Kedem, and suggests that the present picture is amenable to generalization beyond simple diffusion transport of a solvent.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "al models, such as Spiegler–Kedem, and suggests that the present picture is amenable to generalization beyond simple diffusion transport of a solvent. Another related goal is to discuss and elaborate further, based on simulated limiting cases, the distinction between the systems employed in experiments and those common in MD simulations, which ultimately removes the controversy and reconciles all results with the SD model. 2. Theory 2.1. Governing equations The full coupled SD model is described by the following equations 𝐉= -𝐷(𝜙) 𝑉 𝑅𝑇𝜙(𝛱)1 -𝜙(𝛱) (∇𝑃-∇𝛱),(1) ∇⋅𝝈= ∇𝑃.(2) Here, 𝐷, 𝜙, and 𝑉 denote the diffusivity, volume fraction (concentration), and partial molar volume of the solvent, respectively, the factor 1 -𝜙 in the denominator is the bulk-flow correction [3], 𝑃 is the mechanical pressure, 𝛱 is the osmotic pressure, and 𝝈 is the tensor that describes the mechanical stress associated with the film deformation. The latter is obtained by solving the solid-mechanical problem for the supported membrane loaded with feed pressure, subject to appropriate boundary conditions. The first equation, in various forms, has been common in membrane science and describes the solvent diffusion in a gradient of the full thermodynamic potential, combining the mechanical and osmotic pressures as a net pressure 𝑃-𝛱 [3,7,18]. The second relation describes coupling between 𝑃 and 𝝈.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "amic potential, combining the mechanical and osmotic pressures as a net pressure 𝑃-𝛱 [3,7,18]. The second relation describes coupling between 𝑃 and 𝝈. It was derived by Doi in the context of dynamic solvent permeation in swollen gels [19] and previously used by the author to analyze the case of free-standing film (see [18] and its Supporting Material). Remarkably, Doi’s variational derivation simultaneously yielded both Eq. (2) and an analogue of Eq. (1) without osmotic gradient, since he considered only the case of a highly swollen gels exposed to a pure solvent, 𝛱= 0. However, membrane transport commonly deals with non-zero osmotic pressures and osmotic driving forces as well. Below, we demonstrate that Doi’s approach can be generalized to remove this limitation. Why does the pressure included in the driving force complicate modeling? For processes such as pervaporation or gas separation, where the transport is driven purely or mainly by osmotic gradients, SD has never been questioned [7,8]. However, the inclusion of mechanical pressure in the driving force has been a source of controversy, as it both couples transport to mechanics and makes it superficially similar to pore-flow. As a result, for pressure-driven processes, such as reverse osmosis or nanofiltration, doubts have been repeatedly raised [11,12,20].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Paul correctly presumed that the pressure 𝑃 should equal the average (hydrostatic) pressure in the solid, defined as 1 3 trace 𝝈𝑓, i.e., average of the three normal components of the full stress tensor 𝝈𝑓in the solid mechanics [3]. Indeed, as known from the theory of elasticity [19,21,22], thus defined solid pressure is associated with the volume change and therefore its gradient is what induces the volume flow of solvent. Eq. (2) states that, in order keep the mechanical balance in the solid, this pressure gradient has to be equal to the gradient of stress in the solid, not associated with the volume change. Correcting previous misinterpretation in Supporting Material of [18], this means 𝝈 in Eq. (2) should be understood as representing the deviatoric stress, obtained by subtracting 𝑃=13trace 𝝈𝑓 from each normal (diagonal) component of 𝝈𝑓, i.e., 𝝈= 𝝈𝑓-𝑃𝑰, after it is obtained from the mechanical equilibrium. Eq. (2) was apparently not considered by the ‘‘founding fathers’’ of the SD model and they had to resort to non-rigorous simplified arguments to infer how the mechanics affects transport. Fortunately, in practice, the problem often becomes simpler and correct mechanicaltransport coupling could be inferred in the specific case of a supported film. Indeed, membranes are usually supported by finely porous solid films, thus most of the selective layer rests on an impermeable solid support with a small fraction of open pores (see Fig. 1A).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "y finely porous solid films, thus most of the selective layer rests on an impermeable solid support with a small fraction of open pores (see Fig. 1A). In this case, the selective layer is approximately under a uniform pressure, equal to that of the feed, virtually all way down to the open permeate side.This constant pressure profile has often been viewed as synonymous to SD [4,8,11,12], however, this would be wrong in general. Notably, in their classical 1970 paper, Paul and Ebra-Lima presented the SD model as equivalent to Eq. (1), stressing that 𝑃 should, in general, be obtained by solving the problem of mechanics. Subsequently, they argued that a constant 𝑃 must be a sound approximation for supported films, which was nearly always the case at the time, before the advent of molecular simulations. To dissociate SD from this ad hoc approximation and extend its applicability to other possible cases, we will first rigorously derive Eqs. (1) and (2) as a set of general coupled equations. Since these equations do not include the solute transport and therefore are limited to the solvent transport in an ideally selective membrane or to that of a pure solvent, the derivation will be subsequently generalized to include the solute transport. Ultimately, we will illustrate the coupled relations at work by simulating and analyzing the two limiting cases, representative of the situations encountered in experiments and in MD simulations (Fig. 1).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "t work by simulating and analyzing the two limiting cases, representative of the situations encountered in experiments and in MD simulations (Fig. 1). This will highlight the crucial differences between the two. 2.2. Variational derivation of the full coupled SD model We begin by showing that Eq. (1) and, most importantly, Eq. (2), forming the full SD model including mechanical-transport coupling, remain valid for non-zero osmotic pressures and osmotic gradients as well. Following Doi [19], the derivation is based on minimization of the energy dissipation functional, subject to appropriate constraints addressed by introducing respective Lagrange multipliers. Since Doi considered a pure solvent and pressure gradients only, the sole constraint was the one on the total volume of polymer and solvent, for which the pressure 𝑃 becomes the appropriate Lagrange multiplier. This means the only reversible energy that may be conserved or dissipated in the system is the mechanical energy. Once again, viewing 𝑃as a Lagrange multiplier conserving the volume, i.e., representing the mechanical energy associated with the volume change, requires that 𝝈represents only the deviatoric stress, not producing a volume change. Non-zero osmotic pressure means the chemical energy is exchanged as well when solvent or polymer are added to or removed from a volume element, which adds two more constraints on the amounts of solvent and polymer.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "as well when solvent or polymer are added to or removed from a volume element, which adds two more constraints on the amounts of solvent and polymer. When the amounts are expressed as volumes, the appropriate Lagrange multipliers are the osmotic pressures of solvent, 𝛱, and of polymer, 𝛱𝑝. (Using the osmotic pressure of polymer is uncommon, but here, as for the solvent, it simply expresses the system’s Journal of Membrane Science 734 (2025) 124360",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "V. Freger free energy differentiated with respect to exchanged polymer volume instead of number of moles.) Following Doi, we also generalize the mobility by expressing it using a friction coefficient 𝜁 and the solvent and polymer velocities, 𝐯 and 𝐯𝑝, thereby 𝜁 2 (𝐯-𝐯𝑝)2 expresses the rate of energy dissipation per unit membrane volume. With these modifications, the full energy dissipation functional for solvent permeation, driven by both mechanical and osmotic pressures and integrated over the membrane volume, is = ∫𝑑3𝑥{𝜁 2 (𝐯-𝐯𝑝)2 + 𝝈∶𝐯𝑝-𝑃∇⋅(𝜙𝑝𝐯𝑝+ 𝜙𝐯) + 𝛱∇⋅(𝜙𝐯) + 𝛱𝑝∇⋅(𝜙𝑝𝐯𝑝)}.(3) Here, 𝑑3𝑥 is the differential volume element within the membrane, 𝜙𝑝= 1 -𝜙 is the polymer volume fraction, and the terms in curly brackets express the rates of the energy exchange due to dissipation, elastic deformation of the membrane, and changes of the total, solvent and polymer volumes, respectively. The general transport relations are obtained by functional minimization of  with respect to 𝐯 and 𝐯𝑝, i.e., requirement that 𝛿∕𝛿𝐯= 0 and 𝛿∕𝛿𝐯𝑝= 0. This yields, respectively, 𝜁(𝐯-𝐯𝑝) = -𝜙∇(𝑃-𝛱),(4) -𝜁(𝐯-𝐯𝑝) = ∇⋅𝝈-𝜙𝑝∇(𝑃-𝛱𝑝).(5) Essentially, Eqs. (4) and (5) express the total force balance for the solvent and polymer within the membrane, which is also possible to obtain more explicitly [9,19]. Under steady-state solvent permeation, 𝐯𝑝= 0 and the solvent flux 𝐉 and velocity 𝐯 are related as 𝐉= 𝜙𝐯. We see that Eq. (4) is equivalent to Eq. (1), with 𝐷= 𝜙(1-𝜙)𝑅𝑇∕𝑉𝜁. To obtain Eq.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "on, 𝐯𝑝= 0 and the solvent flux 𝐉 and velocity 𝐯 are related as 𝐉= 𝜙𝐯. We see that Eq. (4) is equivalent to Eq. (1), with 𝐷= 𝜙(1-𝜙)𝑅𝑇∕𝑉𝜁. To obtain Eq. (2), we use 𝜙+ 𝜙𝑝= 1 and the Gibbs–Duhem equation, relating the differential changes of the chemical potentials or, equivalently, osmotic pressures of solvent and polymer. Here, with volume fractions replacing molar concentrations and osmotic pressures replacing the regular per-mole chemical potentials, it takes the form 𝜙∇𝛱+𝜙𝑝∇𝛱𝑝=0. Combining these two identities with Eq. (5) and adding up Eqs. (4) and (5) yields Eq. (2). 2.3. Relation to irreversible thermodynamics and addition of a solute Eq. (1) and above derivation bear much similarity with the classical models of irreversible thermodynamics (IRT) [23,24]. This is not surprising, since IRT models originate from the principle of maximal entropy production, essentially equivalent to present minimization of the dissipation functional . Eq. (1) is then identical to the classical Spiegler–Kedem (SK) equation for the transport for pure solvent or in the limit of an ideally selective membrane, totally rejecting the solute. Yet, compared with this classical IRT framework, a new key element added in the present formulation is Eq. (2) that describes coupling to the mechanical state of the membrane. In the spirit of the SK model, it is fairly straightforward to generalize the present approach and include the solute transport and non-ideal selectivity as well.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "t of the SK model, it is fairly straightforward to generalize the present approach and include the solute transport and non-ideal selectivity as well. This adds in  two more variables, the concentration 𝜙𝑠 and velocity 𝐯𝑠 of the solute, thus the integrand in Eq. (3) needs to include (i) two more dissipation terms, solute-solvent 𝜁𝑠𝑠",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2 (𝐯-𝐯𝑠)2 and solute-polymer 𝜁𝑠𝑝 2 (𝐯𝑠-𝐯𝑝)2, with respective friction coefficients, 𝜁𝑠𝑠 and 𝜁𝑠𝑝, and (ii) one more constraint on the solute volume, adding the solute osmotic pressure 𝛱𝑠 as yet another associated Lagrange multiplier. Functional minimization of  uses now three conditions 𝛿∕𝛿𝐯= 0, 𝛿∕𝛿𝐯𝑝= 0, and 𝛿∕𝛿𝐯𝑠= 0. This yields three equations that can be rearranged in the same manner as Eqs. (4) and (5) using the threecomponent relations 𝜙+ 𝜙𝑝+ 𝜙𝑠= 1 and the Gibbs–Duhem equation 𝜙∇𝛱+ 𝜙𝑝∇𝛱𝑝+ 𝜙𝑠∇𝛱𝑠= 0. Ultimately, we recover Eq. (2) for the mechanical-transport coupling that remains unchanged and, in place of Eq. (4), two transport equations for the solvent and solute velocities, 𝑣and 𝑣𝑠.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "For given concentrations and friction coefficients, the velocities and driving forces are related as a system of linear equations. After converting velocities to solvent and solutes fluxes using 𝐉= 𝜙𝐯 and 𝐉𝐬= 𝜙𝑠𝐯𝑠, they become fully equivalent to the SK equations, linear as well [24]. The three coefficients of the SK model, the solvent and solute permeabilities and reflection coefficient, then emerge as combinations of the three friction coefficients 𝜁, 𝜁𝑠𝑠, and 𝜁𝑠𝑝 and solvent and solute concentrations. Though the expressions connecting the present parameters to those of the SK equation are fairly cumbersome, the equivalence robustly follows from the linearity of both sets of equations. In the same manner, the parameters may be also converted to those of equivalent alternative frameworks, such as Maxwell–Stefan [25] or Paul’s reformulation of SD [5]. In all cases, Eq. (2) emerges as an additional relation of mechanical-transport coupling that augments the transport equations for the solvent and solute. 3. Results and discussion 3.1. Modeling of the pressure, osmotic pressure and flux distribution in limiting cases First, we observe that, in general, integration of Eq. (1) requires that variation of osmotic pressure 𝛱 be known, since both the solvent fraction 𝜙 and mobility 𝐷 depends on it.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "eneral, integration of Eq. (1) requires that variation of osmotic pressure 𝛱 be known, since both the solvent fraction 𝜙 and mobility 𝐷 depends on it. In general, 𝜙 and 𝐷 also depend on 𝑃, but its effect is usually negligible due to similar partial molar volume of water in polymer and in solution, i.e., the system may be considered practically incompressible [2,18,26]. In experiments or simulations, the net pressure gradient ∇𝑃-∇𝛱 is dictated by the Journal of Membrane Science 734 (2025) 124360",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "V. Freger differences 𝛥𝑃 and 𝛥𝛱 applied across the film, yet this does not tell how each of 𝑃 and 𝛱 will vary. This is where the variation of pressure 𝑃, connected to the solid mechanics via Eq. (2), comes into play and helps deduce variation of 𝛱 from that of the full potential 𝑃-𝛱. To demonstrate how the transport-mechanical coupling works and depends on boundary conditions and, specifically, how much the permeate side is sealed or open, we will solve the model numerically for transport of pure solvent 𝛱= 0 in two limiting cases, sketched in Fig. 1. These cases will be referred to as ‘‘Exp’’ (experiments) and ‘‘MD’’. The solution will consider the unit cells in Fig. 1 as periodic and rotationally symmetric and employ cylindrical coordinates (𝑟, 𝑧), such that 𝑧= 0and 𝑧= 𝐿 corresponds to the permeate and feed sides, respectively, and the rotational axis, 𝑟= 0, passes through the center of the pore or fixed area of radius 𝑅. We take the outer radius of the simulated cell 𝑟𝑐to be equal to the film thickness, 𝐿, and take 𝑅= 0.05𝐿, one twentieth of the film thickness. The boundary conditions will require 𝛱= 0 at feed side and open permeate surfaces, and zero normal component of the flux, i.e., 𝒏⋅(∇𝑃-∇𝛱) = 0 at the impermeable support-permeate interface, as well as at 𝑟= 0 (symmetry) and 𝑟= 𝑟𝑐 (periodicity). Strictly speaking, a cylindrical unit cell may not be genuinely periodic.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "t-permeate interface, as well as at 𝑟= 0 (symmetry) and 𝑟= 𝑟𝑐 (periodicity). Strictly speaking, a cylindrical unit cell may not be genuinely periodic. However, for a small pore or fixed point, the normal components of flux at the boundary of the cylindrical region inscribed in a genuine periodic cell, e.g., hexagonal or square, will closely approach zero. Thus, within the inscribed cylindrical cell, the genuine periodic solution will differ insignificantly from the one for the present cell with cylindrical symmetry. It is then adopted here as a good approximation that conveniently reduces the 3D problem to a 2D one. To form a closed system of equations, note that, in a steady state, the solvent flux must obey the continuity equation ∇⋅𝐉= 0.(6) For simplicity, we assume the solvent permeability, i.e., the prefactor before the gradient terms in Eq. (1), is constant. This assumption is valid for small pressures and disregards the effect of pressure on the film’s permeability discussed below in Section 3.3. Still, this will demonstrate how osmotic pressure and net pressure gradient ∇𝑃-∇𝛱(hence the flux) vary across the film in each case. Combining Eqs. (1), (2) and (6), we obtain the following Poisson-type equation for the osmotic pressure 𝛱 ∇2𝛱= ∇2𝑃,(7) where ∇2𝑃 has to come from the solution of the mechanical problem.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "obtain the following Poisson-type equation for the osmotic pressure 𝛱 ∇2𝛱= ∇2𝑃,(7) where ∇2𝑃 has to come from the solution of the mechanical problem. The solution needs to employ the standard equilibrium relations for a stressed solid, constitutive relations between stresses and strains, and appropriate mechanical boundary conditions. The latter need to ensure (i) symmetry and periodicity mentioned above, (ii) zero shear stress and normal stress equal to the outside pressure at open feed and permeate surfaces, as required by solid mechanics [21], and (iii) the balance of the total force exerted by feed pressure above the film and the counterforce coming from the solid supporting areas. In general, this requires solution of a system of coupled differential equations for stress and strain, which will not be carried out here. Instead, we will make use of known analytical solutions for stress distribution in two cases (see Figs. 1C and D): (𝑎) an unperturbed free-standing planar film under two pressures applied at feed and permeate sides, and(𝑏) a concentrated point load 𝑄 applied to the surface of a semiinfinite medium, known as the Boussinesq problem [21,22,27]. As emphasized above, we may consider the film as mechanically incompressible, i.e., stress may deform it but does not change its volume and 𝜙. (This is not to be confused with osmotic compressibility, i.e., response of volume and 𝜙 to 𝛱).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ss may deform it but does not change its volume and 𝜙. (This is not to be confused with osmotic compressibility, i.e., response of volume and 𝜙 to 𝛱). We further assume the film behaves as a linearly elastic solid (valid for small deformations). The point load (b) may then be seen as a perturbation of unperturbed case",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(a) and their associated stresses may be superimposed to directly yield the stress distribution within the film and, subsequently, derive ∇2𝑃and used it in Eq. (7). Since only pressure gradients matter, we set 𝑃= 0 for the permeate pressure and have 𝑃𝑓= 𝛥𝑃 for the feed pressure. When the pressures at opposite sides are different, the film will bend and curve; the magnitude of bending will depend on the film’s rigidity, but this will not affect the stress distribution, as long as the radius of curvature is small compared with thickness and the approximation of linear elasticity holds. It is easily shown that in case (a) the unperturbed pressure 𝑃 will vary linearly across the film [22]. In the Exp case, the unperturbed support (without pores) will face the same pressure 𝑃= 𝑃𝑓 at the feed and permeate sides (Fig. 1C), thereby unperturbed pressure is constant and ∇𝑃= 0. Conversely, in the MD case (Fig. 1D), the two pressures faced by unperturbed film, open at both sides, are different, 𝑃= 𝑃𝑓 and 𝑃= 0. The unperturbed pressure then varies linearly as 𝑃= (𝑧∕𝐿)𝑃𝑓and its gradient has 𝑟and 𝑧-components (∇𝑃)𝑟= 𝜕𝑃∕𝜕𝑟= 0 and (∇𝑃)𝑧= 𝜕𝑃∕𝜕𝑧= 𝑃𝑓∕𝐿. The Boussinesq solution for an incompressible film yields the following relations for the three non-zero full stress components [22,27] 𝜎𝑓,𝑧𝑧= 3𝑄 2𝜋𝑧3 𝜌5 ;𝜎𝑓,𝑟𝑟= 3𝑄 2𝜋𝑟2𝑧 𝜌5 ;𝜎𝑓,𝑟𝑧= 3𝑄",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "These need to be added to the unperturbed pressure distribution within the film. Essentially, this modifies the pressure distribution given by Eq. (9) only in the MD case, by adding the unperturbed terms 𝑃𝑓∕𝐿 to 𝜕𝑃∕𝜕𝑧. It is straightforward to verify that 𝑃 and 𝝈= 𝝈𝑓-𝑃𝑰 satisfy Eq. (2). It is also readily verified that ∇2𝑃= 0, i.e., Eq. (7) is reduced to the Laplace equation ∇2𝛱= 0. However, its solution still requires specific expressions for pressure gradient ∇𝑃 to ensure the flux or, equivalently, the net pressure gradient ∇(𝛱-𝑃) has a zero normal component at all impermeable boundaries and axes of symmetry. The last necessary relation is that for the perturbing load 𝑄 in Eq. (9). In the Exp case, opening the pore area to zero permeate pressure is equivalent to applying a small negative force 𝑄= -𝜋𝑅2𝑃𝑓(Fig. 1C). In the MD case, the force over fixed area should exactly equal the load from the feed side (Fig. 1D). Given the feed area has radius 𝑟𝑐, the equivalent point load is positive and large, 𝑄= 𝜋𝑟2𝑐𝑃𝑓= 𝜋𝐿2𝑃𝑓. The resulting pressure gradients, Eq. (9), may now be used in Eq. (7). Admittedly, applying here the Boussinesq solution, Eqs. (8) and (9), involves two approximations. First, it considers a point-force load 𝑄 thus all stresses diverge at 𝑧= 𝑟= 0.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the Boussinesq solution, Eqs. (8) and (9), involves two approximations. First, it considers a point-force load 𝑄 thus all stresses diverge at 𝑧= 𝑟= 0. However, following the Saint-Venant’s principle [22,27], it becomes a sound and widely used approximation at distances exceeding the loaded area size, i.e., 𝑅 in the present case or the size of the fixed atoms in actual MD simulations. We then formally apply the load at the point 𝑧= 𝑟= 0, but remove from the film a small hemispherical volume of radius 𝑅, where the stress becomes excessively large, which affects the whole picture negligibly. More importantly, the Boussinesq solution applies to an infinite half-space and cannot satisfy the mechanical boundary conditions at feed side, vanishing normal and shear stresses at 𝑧= 𝐿, and the symmetry at 𝑟= 0. However, as a common remedy, we can readily convert Eqs. (8) and (9) to a finite-domain solution that satisfies the above boundary conditions in the 𝑟𝑧 plane by adding stress fields of virtual ‘‘image’’ loads of the same magnitude 𝑄 at 𝑧= ±2𝐿, ±4𝐿, ...and 𝑟= ±2𝑟𝑐, ±4𝑟𝑐, .... This is particularly straightforward in numerical simulations, since the partial sums converge rapidly and a finite-domain solution, accurate within a fraction of percent, is obtained using image terms until ±10𝐿. The full problem combining Eq.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rapidly and a finite-domain solution, accurate within a fraction of percent, is obtained using image terms until ±10𝐿. The full problem combining Eq. (7), reduced to the Laplace equation ∇2𝛱= 0, the resulting relations for ∇𝑃(𝑟, 𝑧), and all aforementioned boundary conditions for the Exp and MD cases was solved numerically in Mathematica. Journal of Membrane Science 734 (2025) 124360",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Computed pressure and osmotic pressure distribution and gradient fields for (A) the Exp case — a unit cell of a membrane on a solid support with small pores, and (B) the MD case — a unit cell of a membrane supported at fixed small distant points. The left panels show the pressure distribution (color scale) and pressure gradient -∇𝑃 (arrow lines). The right panels show osmotic pressure distribution (color scale) and the arrow lines indicate the net pressure gradient ∇(𝛱-𝑃), equivalent to the solvent flux streamlines. 3.2. Modeling results: pressure, osmotic pressure and flux profiles and their relation to boundary conditions Fig. 2 summarizes the results of the numerical solution. The left edge of each panel corresponds to the axis of symmetry in Fig. 1 (𝑟= 0) and the right edge to the outer unit cell boundary (𝑟= 𝑟𝑐= 𝐿). All stresses and pressures are scaled to the feed pressure (i.e., take 𝑃𝑓= 1), spatial coordinates to 𝐿 (i.e., 𝐿= 1), and the permeability is taken equal to 1 therefore the solvent flux is identical to the net pressure gradient ∇(𝛱-𝑃), whose streamlines are shown in the right panels. The left panels of Fig. 2 map the resulting pressure field and pressure gradient in both cases. In the Exp case, Fig. 2A, since 𝑅≪𝐿, the small negative point load perturbs only a small region thus pressure is approximately constant, 𝑃≈𝑃𝑓 and ∇𝑃≈0, everywhere except very near the pore. The net pressure gradient ∇(𝑃-𝛱) in Eq.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "y a small region thus pressure is approximately constant, 𝑃≈𝑃𝑓 and ∇𝑃≈0, everywhere except very near the pore. The net pressure gradient ∇(𝑃-𝛱) in Eq. (1) becomes simply the osmotic pressure gradient -∇𝛱 for most of the film. To satisfy the continuity, Eq. (6), the osmotic pressure then has to increase steadily towards the pore, as seen in the right panel of Fig. 2A. Essentially, Eq. (1) is reduced to a regular diffusion problem and is well approximated by removing 𝑃 from Eq. (1) entirely, which has been a common way of using SD model. In this manner, the applied pressure only enters through the ad hoc boundary condition at the membrane-permeate interface, across which the pressure is assumed to drop stepwise from the feed to permeate pressure. The left panel of Fig. 2A shows the actual drop occurs over a small but finite region next to support pores, yet the ad hoc boundary condition will indeed be a reasonable approximation. The applied mechanical pressure then simply translates to osmotic pressure within the membrane increasing from 𝛱= 0 at the feed side to 𝛱= 𝛥𝑃 at the permeate side. We reiterate this osmotic gradient is a direct consequence of flux continuity,",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Eq. (6), coupled with the relation for transport and mechanics, Eqs. (1) and (2). The result will remain qualitatively the same, if numerical solution incorporates the effect of 𝛱 on local solvent concentration and mobility. This is not attempted here, but appropriate relation, coupled to Eq. (1), may use models such as Flory–Rehner for 𝜙(𝛱) and Mackie–Meares for 𝐷(𝜙). The left panel of Fig. 2B shows that the picture changes drastically in the MD case. Here, the pressure is no more uniform and changes from 𝑃= 𝑃𝑓 at the feed side to 𝑃= 0 at the permeate side, except for the small fraction that rests on a fixed supporting area, as typical of MD simulations [11,12,28]. Around this area, the pressure, coming from the highly concentrated load that counter-balances the feed pressure on top is superimposed on this gradient and becomes much larger than the feed pressure (Fig. 1D). Yet, as seen in the right panel of Fig. 2B, the increased pressure in this region is exactly compensated by the increased osmotic pressure thereby it does not distort the gradient lines of the net pressure gradient ∇𝑃-∇𝛱. These lines, representing the solvent flux streamlines, connect the feed and permeate sides in a straight manner, as for a free-standing film, regardless of the highpressure region near the fixed supporting area.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "t the feed and permeate sides in a straight manner, as for a free-standing film, regardless of the highpressure region near the fixed supporting area. From mathematical viewpoint, this form of solution is exactly expected when both the feed and permeate boundaries are entirely open thus both osmotic and mechanical pressures are constant at each side and so is the net pressure 𝑃-𝛱. For such boundary conditions at top and bottom and symmetry at right and left boundaries, the solution of the Laplace equation for the net pressure ∇2(𝛱-𝑃) = 0 (Eq. (7)) yields a constant net pressure gradient or, equivalently, a flux 𝐉 that is constant throughout the film, regardless of the specific distribution of 𝑃. This solution aslso shows no polarization limit, as in the Exp case, and may only be distorted by a non-uniform permeability, as discussed next. Journal of Membrane Science 734 (2025) 124360",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. Illustration of solvent concentration (A) and flux (B) variations with applied pressure (𝑃) for supported and free-standing films, representative of experiments (Exp) and MD simulations, respectively. 3.3. How is the permeation rate expected to vary with pressure? Paul concluded and confirmed experimentally that the permeation rate in the Exp case varies non-linearly and tends to plateau at very high applied pressures. The plateau corresponds to zero solvent concentration or very high 𝛱 at the permeate surface, as schematically shown in Fig. 3A [2,29]. This conclusion, based on the approximate version of SD, i.e., Eq. (1) without pressure and above ad hoc boundary condition at the permeate side, is fully consistent with the present results. Indeed, Fig. 2A shows that flux is dictated mainly but the osmotic pressure gradient. Since 𝛱∼-𝑃𝑇ln 𝜙, where 𝑃𝑇= 𝑅𝑇∕𝑉 is the ‘‘thermal pressure’’, equal to about 130 MPa for water, it is straightforwards to show that the flux will increase approximately linearly at small applied pressures, much below 𝑃𝑇 [18]. However, much above 𝑃𝑇, the permeability will approach Paul’s limit. This is fully analogous to the limiting flux or current due to concentration polarization of the boundary layer, except that the membrane itself becomes fully polarized. Further increase of 𝛥𝑃 will be canceled out by increased 𝛱near the permeate side and the flux will not increase.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "brane itself becomes fully polarized. Further increase of 𝛥𝑃 will be canceled out by increased 𝛱near the permeate side and the flux will not increase. In contrast to experimental results, recent MD simulations find the flux remains linear and does not plateau at pressures much above 𝑃𝑇and concentration varies insignificantly across the film, which was interpreted as evidence against SD, in favor of the pore-flow mechanism [10–12,28]. Unfortunately, these MD results, obtained by simulating films essentially open the permeate side, were compared with the classical solution of SD model for a supported rather than open film, which - as demonstrated here - is not equivalent due to different mechanical and transport boundary conditions. If compared on the consistent basis, with the SD solution for the boundary conditions matching the MD simulations, the above MD results and the SD model would show no discrepancy. Accounting for this difference may then fully reconcile the apparent discrepancies between the MD results and experiments, as already pointed out recently [18]. At pressures well below 𝑃𝑇, the solvent concentration in the film will be negligibley perturbed by 𝛥𝛱≈𝛥𝑃. This is directly seen from the classical approximate solution for a supported films (Exp) [7,8]. It predicts that the concentration within the film at the permeate side is reduced by a factor exp(-𝛥𝑃∕𝑃𝑇) compared with the feed side.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s (Exp) [7,8]. It predicts that the concentration within the film at the permeate side is reduced by a factor exp(-𝛥𝑃∕𝑃𝑇) compared with the feed side. The drop is small for 𝛥𝑃≪𝑃𝑇 and, in the MD case, there is essentially no drop at the permeate side (cf. Fig. 2B). The permeability of both supported (Exp) and open (MD) films will vary insignificantly across the film thus the two cases will differ negligibly and the flux will vary linearly with the applied pressure. Yet, for larger pressures often used in MD, simulations will increasingly overestimate the permeability of a supported film, as illustrated in Fig. 3B. Indeed, in the Exp case, the high-𝛱 region near the pore comes in-series with respect to the rest of the film and the membrane eventually becomes fully polarized thus the flux will plateau. In the MD case, the high-P and high-𝛱 region around the fixed area in Fig. 2B may also reduce the local solvent content and permeability. This will also reduce the overall film permeability and make it deviate from linearity, however, not as much as in the Exp case. Unlike the supported film where the high-𝛱 region near the pore presents a genuine bottleneck (Fig. 2A), the flux in MD case can bypass the high-pressure region therough the regions nearer to the outer cell boundary, where the permeability is affected by pressure to a much smaller degree and remains approximately constant (Fig. 2B). Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "to the outer cell boundary, where the permeability is affected by pressure to a much smaller degree and remains approximately constant (Fig. 2B). Fig. 3A schematically illustrates how the concentration profile changes with pressure in each case, thereby linear variation extends to much higher pressures in MD (Fig. 3B). Since the present numerical solution in Fig. 2 employed a unit cell with 𝑟𝑐= 𝐿, one may ask whether the conclusions would change when 𝑟𝑐 and 𝐿 differ significantly, i.e., when the fixed points are spaced more sparsely or more closely. We maintain that, as long as fixed points occupy a small fraction of the permeate surface, the MD film will still not be polarized and will not deviate from linearity as much as in the supported case. Note that the high-pressure region around the fixed point extends to a distance 𝜌 where the Boussinesq pressure drops well below 𝑃𝑓. Since 𝑄= 𝜋𝑟2𝑐𝑃𝑓, Eq. (9) indicates this distance is of the same order as fixed-point spacing, 𝜌∼𝑟𝑐. For sparser spacing, 𝑟𝑐≫𝐿, 𝑄 will be larger, however, the highly stressed region will be bounded by film thickness, 𝜌∼𝐿 (see Fig. 2B). Thus, the unaffected bypass region, 𝐿< 𝑟< 𝑟𝑐, in which 𝛱 is small and permeability stays about constant, will increase and linearity will extend to even higher applied pressures. In the opposite case of denser spacing, 𝑟𝑐≪𝐿, the high-pressure region will shrink and extend only to a small distance 𝜌∼𝑟𝑐≪𝐿 from the permeate surface.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the opposite case of denser spacing, 𝑟𝑐≪𝐿, the high-pressure region will shrink and extend only to a small distance 𝜌∼𝑟𝑐≪𝐿 from the permeate surface. The situation in this region, up to the height 𝑧∼𝑟𝑐 will locally resemble the one in Fig. 2B. However, above it, for 𝑟𝑐< 𝑧< 𝐿, most of the film will keep an about constant permeability corresponding to 𝛱= 0. The deviations from linearity are then also expected at much higher pressures than in the supported case and only due to decreasing permeability rather attaining the polarization limit. 3.4. Discussion: What differentiates between SD and pore-flow? The parallels with the general equations of IRT, which do not imply any specific mechanism behind friction coefficients, suggest that Eq. (4) or its multicomponent extension (Section 2.3) are amenable to a more general interpretation than Eq. (1) suggests. Specifically, the friction coefficient 𝜁 does not have to reflect pure molecular diffusion (Brownian motion). It may as well involve collective motion of solvent molecules, as occurs when a solvent molecule diffuses in a bulk solvent, dragging a ‘‘wake’’ of other molecules, or when directional diffusion induces a convective bulk flow, reminiscent of pore-flow (cf. denominator 1 -𝜙in Eq. (1)). When the solvent concentration 𝜙 increases, the proportion of bulk flow increases and, in addition, the diffusion coefficient usually increases, approaching that in the bulk solvent.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "increases, the proportion of bulk flow increases and, in addition, the diffusion coefficient usually increases, approaching that in the bulk solvent. This reflects reduced friction with the membrane per solvent molecule and, as a result, their faster motion in response to both osmotic and mechanical pressure gradients. Similar decrease in friction may occur when the solvent molecules form clusters in the membrane [12,30–32]. The distinction Journal of Membrane Science 734 (2025) 124360",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "V. Freger between diffusion and convective flow is then fairly obscure and, in fact, inessential, as it is only the magnitude of the solvent-membrane friction and the solvent concentration 𝜙 that really matter. However, in order to keep the osmotic pressure part of the driving force, which is where SD differs from pore-flow, the membrane composition and structure need to respond to the osmotic pressure. This suggests the most essential feature of SD must be ‘‘solution’’, i.e., the fact that dense membranes form a single phase that exchanges both chemical and mechanical energy with the permeating solvent, rather than ‘‘diffusion’’, i.e., specific solvent-membrane friction mechanism. A counter-example when it is not the case is membranes with large permanent pores, such as UF. Since the solution in the UF pores forms a distinct phase, the moving solvent interacts with the membrane only mechanically thus Eq. (1) degenerates to simple viscous flow, described by the pore-flow model. Such flow will not generate osmotic gradients and will be decoupled from the membrane’s solid mechanics, in which case the SD model becomes irrelevant.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Conclusions In summary, we rigorously derived and demonstrated that Eq. (2) embodies the general connection between the mechanical stress in the membrane and the pressure gradients driving the transport. Its form does not depend on the osmotic conditions or presence of solutes. Since, apart from this relation, the present derivation also yields transport relations equivalent to the IRT-based models, the full SD model is amenable to a more general interpretation, whereby it is no more limited to pure molecular diffusion and may involve collective motion of molecules and bulk flow as well. This suggests that the key distinct feature of SD must be ‘‘solution’’, i.e., response of the membrane to the osmotic conditions or exchange of both chemical and mechanical energy between the membrane and solvent, rather than specific mechanism behind solvent-membrane friction (‘‘diffusion’’). As another aspect of this study, we also stress the distinction between the settings commonly employed in experiments and MD simulations. In particular, we demonstrate that, as a result of different transport and mechanical boundary conditions, the SD model solution for supported (Exp) and open (MD) films boil down to distinctly different distributions of concentration, pressure and flux within the film and different approximations, 𝑃≈𝑐𝑜𝑛𝑠𝑡 and 𝐉≈𝑐𝑜𝑛𝑠𝑡, respectively.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "istinctly different distributions of concentration, pressure and flux within the film and different approximations, 𝑃≈𝑐𝑜𝑛𝑠𝑡 and 𝐉≈𝑐𝑜𝑛𝑠𝑡, respectively. It is then critical that, for consistency, comparison between MD simulations and SD mechanism be based on the SD model solution for the openfilm boundary conditions. Unfortunately, recent report performed such comparison using the solution for the supported film, which led to discrepancies, increasing when trans-membrane pressure approaches and surpasses the thermal pressure 𝑃𝑇. On this basis, the SD mechanism was ruled out in favor of the pore-flow model. However, the present analysis demonstrates that the profiles observed in MD simulations become consistent with the SD model and the basis for its rejection is removed, once the boundary conditions are aligned in both types of computations. Appropriately addressing the mechanical-transport coupling then closes the gap and provides a crucial link between MD and real-world processes and applications, paving way for new insights, modeling, and design of next-generation materials using molecular simulation tools. Declaration of competing interest The authors declare the following financial interests/personal relationships which may be considered as potential competing interests: Viatcheslav Freger reports financial support was provided by Israel Ministry of Innovation Science & Technology and Israel Science Foundation.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Acknowledgments This work was financially supported by a grant No 0005658 ‘‘Novel Membranes for Highly-efficient Water Decontamination’’ from Israel Ministry of Innovation, Science and Technology (MOST) Israel within the China-Israel Scientific Research Program Israel-China program and by the Israel Science Foundation (grant 486/22). The author wishes to dedicate this work to Ora Kedem and thanks Guy Ramon, Menachem Elimelech, Cristian Picioreanu, Bastiaan Blankert, Eric Hoek, anonymous reviewers, and ChatGPT for many fruitful and inspiring discussions, suggestions, and criticism. Data availability Data will be made available on request.\n\nV. Freger [25] J. Wesselingh, R. Krishna, et al., Mass Transfer in Multicomponent Mixtures, vol. 203, Delft University Press Delft, 2000.[26] Hydraulic permeation-induced water concentration gradients in ion exchange membranes, J. Membr. Sci. 705 (2024) 122858.[27] K.L. Johnson, Contact Mechanics, Cambridge University Press, 1987.[28] M. Heiranian, R.M. DuChanois, C.L. Ritt, C. Violet, M. Elimelech, Molecular simulations to elucidate transport phenomena in polymeric membranes, Environ. Sci. Technol. 56 (6) (2022) 3313–3323.[29] D. Paul, Relation between hydraulic permeability and diffusion in homogeneous swollen membranes, J. Polym. Sci. Polym. Phys. Ed. 11 (2) (1973) 289–296.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7,
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[30] V. Kolev, V. Freger, Hydration, porosity and water dynamics in the polyamide layer of reverse osmosis membranes: A molecular dynamics study, Polymer 55 (6) (2014) 1420–1426.[31] M. Kanduč, R. Roa, W.K. Kim, J. Dzubiella, Nanochannels and nanodroplets in polymer membranes controlling ionic transport, Curr. Opin. Colloid Interface Sci. 56 (2021) 101501.[32] P.R. Irving, K.K. Reimund, E.S. Zofchak, N. Marioni, B.D. Freeman, V. Ganesan, Cellulose acetate membranes exhibit exceptional monovalent to divalent cation selectivities, J. Membr. Sci. 706 (2024) 122892. Journal of Membrane Science 734 (2025) 124360",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006738-main",
+      "title": "Solution-diffusion-mechanics model: Derivation, generalization, and non-equivalence of molecular simulations and experiments",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  }
+]

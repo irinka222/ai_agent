@@ -1,0 +1,442 @@
+[
+  {
+    "content": "1 Introduction\nReverse osmosis (RO) and electrodialysis (ED) are the two most applied membrane methodologies for water treatment and desalination (deionization) [1,2]. A brief schematic of both methods is presented in Fig. 1. Water treatment generally refers to cleaning water from contaminants other than salts, such as the removal of organic micropollutants (OMPs), whereas desalination and deionization refer to the removal of salts, thus of ions. RO is a method that uses pressure to drive water through a membrane, retaining on the retentate side most of the solutes (solutes a generic word referring to all possible molecules and ions in the water), producing freshwater on the permeate side. Nanofiltration (NF) is a companion technology of RO that uses lower pressures, and membranes with larger pore sizes than in RO [3]. In NF the retention of monovalent ions is much lower than of divalent ions and thus divalent ions are selectively removed. In ED, water flows through thin channels next to ion-exchange membranes (IEMs).",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "1. Introduction"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "An applied current pulls the ions from one set of channels through the IEMs. The theories that we present for RO and ED, and the relevant metrics that we define, also apply to NF and EDI and other related desalination methods. Though ED and RO are very different methods and use distinctly different physical mechanisms, our aim is to demonstrate that the underlying transport theory for flow of water and solutes is the same. As we will show, the effects of charge and current that are of key importance in ED, also play a role in RO. Similarly, in ED pressures develop which influence ion and water transport. Thus it is relevant to present a generalized treatment that applies to both process types. We also demonstrate that key performance indicators on the module level, of relevance for (economic) process optimization, are defined for RO and ED in very similar terms, and relate to one another in a similar fashion.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "1. Introduction"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In this review we focus on the theory of desalination of ionic solutions, i.e., how to use membranes to obtain freshwater from brackish water or seawater by RO and ED. In Section 2 we describe thermodynamic equations and metrics that apply to both methods. We continue in Section 3 with a discussion of simple models for RO that assume neutral solutes, and we show how the solution-diffusion (SD) model can be replaced by the more accurate solution-friction (SF) model. We also present results of a 2D flow calculation for an RO module and derive an analytical equation for the relevant advection-dominated limit. For ED we discuss in Section 4 a co-current plug flow model valid when several system properties are symmetric. Both for RO and ED we set up in these sections a method of cost calculation that demonstrates why the counter-intuitive result that 'inexpensive membranes have higher energy efficiency' holds true.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "1. Introduction"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In Section 5 we describe the general two-fluid model (TFM) and we apply the resulting equations to a novel data set for the osmosis experiment where we have counter-directional salt and water flow, and we explain the origin of the phenomenon of osmosis: why does water flow to a solution of high salinity? In Section 6, the theory for RO and ED that we set up earlier, is extended to describe several highly relevant cases. For RO we discuss in this section theory describing retention of ions and the associated effects of charge and current, and for ED we discuss the effect of flow geometry within the ED stack, and the effect of how multiple units can be stacked together. For ED, we also present results of a 3D cross-current calculation including concentration polarization.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "1. Introduction"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "We illustrate in Fig. 2 that RO and ED have many aspects in common with one another, which they also have in common with the phenomenon of osmosis. In all these processes, the same three features play a key role, as we discuss next. First, in all cases there are differences in concentration between the two sides of the membrane. Furthermore, there is a certain electrical current, and finally there is a pressure difference across the membrane. In certain cases, the electrical current will be zero, as in RO, and likewise the hydrostatic pressure difference will be (close to) zero in some cases, for instance in the osmosis experiment when the two sides are open to atmosphere and the liquid levels about equal. Nevertheless, in the transport theory, current and pressure being zero is a key part of the model structure.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "1. Introduction"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "And the same holds for the pressure difference, unless we do not care about pressure, and assume we know the value of the water velocity (zero or otherwise). Because of these similarities in the required theoretical description for RO, for ED and for osmosis, a combined discussion of these processes is important and insightful. In this review we necessarily can only address a limited number of topics, and must refer the reader to other literature for many other topics of relevance in RO and ED, such as: ion selectivity in multi-ionic mixtures [4], removal of organic micropollutants, module and stack design, fouling abatement, studies of membrane lifetime and robustness, membrane cleaning, the design of spacers and membrane geometries, and full system-level cost optimization.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "1. Introduction"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Thermodynamics and Metrics\nFor all water desalination methods, in all cases the same thermodynamic equations apply, and the same setpoints and metrics (performance indicators) can be used. It is useful to start the discussion with the topic of setpoints and metrics.\n\n2.1 Setpoints and Metrics for water desalination\nEvery water desalination process is defined by certain operational characteristics, i.e., objectives, or setpoints. These are the amount of water to be treated, the water recovery, and the extent of desalination (or salt removal). Different setpoints can be defined but in the end they describe how much freshwater is obtained from how much feedwater, and what is the salt concentration of the product water. These are considered as setpoints and are 'hard' objectives that must be attained.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "2. Thermodynamics and Metrics"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "After the setpoints of a process have been defined, metrics (or, equivalently, 'performance indicators') come into play. They describe optimized operation. Such metrics can be manifold. We can for instance have a measure of energy use (energy efficiency), the degree of removal of specific compounds (selectivity), or a measure of how well the membrane is retaining its integrity over time and able to handle fouling.\n\n2.1.1 Setpoints for water desalination\nSetpoints for a water desalination process are operational parameters that are 'hard', that must be attained. It is not the case that they are just 'nice to have', i.e., to be optimized in some direction. Instead, they define a certain desalination operation. They are also essential for a calculation of the theoretical minimum energy use (see Section 2.2).",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "2.1.1 Setpoints"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In practice, the aim is not that these setpoints are reached in an individual desalination unit (module, stack), but they will be the result of operation of a total desalination plant. So a first battery of units may desalinate to a certain percentage, and only in a next step the final salt concentration is reached. In that case, setpoints are only reached at the overall level of a full water desalination plant. The first setpoint that defines operation of a desalination plant or module, is how much freshwater (diluate, permeate) is obtained in m3/s, i.e., the freshwater flowrate, φv,p (where 'p' refers to permeate or product water). Now, even at this most basic level, caution is needed, because operation is generally not '24/7', i.e., not all-day, all-year-round.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "2.1.1 Setpoints"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Instead, any plant will – for one reason or another – change operational conditions during the day or year, for instance running only when electric energy is cheap. So even for the setpoint of productivity, it must be defined if this is 'peak productivity', or a value averaged over many days or longer. In this review we neglect such operational considerations, and focus on steady-state operation of one or two modules, with constant flow rates and setpoints. The second setpoint is water recovery, WR, which is the fraction of all feedwater that is turned into freshwater, thus WR = φv,p / (φv,p + φv,c) = φv,p / φv,f. The third setpoint is the extent of desalination, which one can define as the difference in salt concentration between feedwater and product water, ∆c = cf - cp. Salt retention, Ri, is defined as Ri = 1 - cp,i/cf,i.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "2.1.1 Setpoints"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Retention and rejection have the same meaning. The passage of a solute is Pi and is given by Pi = 1 - Ri. These definitions are particularly useful for RO, not so much for ED. In general, we can attain the second and third setpoints in any well-designed RO or ED module, but must then adjust the flowrates of the water treated. Besides the flowrates, in ED we can tune the current density (or voltage) applied to a stack. So in most cases, it will be possible to find an operational setting where the second and third setpoints are attained, for a given flow of water that is treated. The same is valid in RO, where we have two flow rates and a pressure difference that can be tuned.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "2.1.1 Setpoints"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The third setpoint, the degree of desalination, relates to a total or average desalination of the feedwater as a whole. In reality, most water sources contain many different salts, and we aim for a certain separation level of several critical salts amongst all salts. In practice, it is useful to treat desalination as a setpoint, for instance as a 'total ∆c' formulated as a summation over all ions, including perhaps a weighing to account that some ions are more relevant to remove than others. The degree of desalination for individual ions, related to ion selectivity, we relegate to the next category, of a metric. Thus, for a given module, we can arrive at setpoints for WR and ∆c, but this can only be achieved for one (maximum in the) flowrate of the water that is treated.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "2.1.1 Setpoints"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This can also be rephrased into the statement that the setpoints for WR and ∆c determine the ratio of system size (e.g., membrane area) over volume flowrate of the water to be treated (or to be obtained as freshwater). Let us call this factor the specific membrane area A, i.e., the total membrane area per m3/s of freshwater to be obtained. Typically, with more stringent setpoints for WR and ∆c (i.e, higher WR and ∆c), this factor A will increase, i.e., for a certain volume of freshwater to be obtained, the system size will have to increase (more membrane area). In addition, more energy will be required to attain higher WR and ∆c. When we know the factor A, then a simple calculation gives us the total system size (membrane area, or number of modules) that must be installed for a certain volumetric freshwater flowrate.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "2.1.1 Setpoints"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Thus, total membrane area in an installation = A · φv,p. Hence, the size of a system to be installed depends linearly on the required (peak) capacity, φv,p, and depends linearly on the factor A, which is the inverse of system 'compactness': a compact system is one that can do a lot for a certain membrane area. Often the primary aim is not so much the membrane area, but the financial costs of installing and running a desalination plant. We can imagine that these costs (both as investment and yearly replacement) depend linearly on the price of membranes, because membranes are one of the critical components of a desalination plant. We then arrive at costs of operation = a.m.u./m2 · A · φv,p, where a.m.u./m2 is the membrane purchase price in an arbitrary monetary unit per m2.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "2.1.1 Setpoints"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Thus, how to keep down the investment and operational costs of a desalination plant? Three factors must then be minimized: the purchase price of a square meter of membrane, the specific system size A (i.e., system efficiency or compactness, which is A^-1), and how much water needs to be produced. In reality there are many more factors of concern, including lifetime of membranes, costs of maintenance, cleaning and replacement, and energy costs [5]. Beyond membranes, there are multiple other cost factors related to plant operation, a discussion of which goes beyond the scope of this review.\n\n2.1.2 Metrics for water desalination\nMetrics, or performance indicators, are those factors that for a certain desalination process, defined by setpoints, are 'nice to have', that ideally have a value as high or as low as possible.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "2.1.2 Metrics"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A first metric tracks the specific removal of certain key compounds, and the more the removal of these, the better. So a metric could be a removal degree of one or several key ions, perhaps expressed as a single number summing over several key ions including a weighing factor. Another example is energy efficiency, η, which is the ratio of the theoretical minimum energy to achieve a certain desalination (defined by the setpoints) over the actual energy investment. [This metric is also called TEE, for 'thermodynamic energy efficiency'.] There are many possible definitions for η, depending on which energy contributions are included in the actual energy input. For instance, for ED we can limit analysis to the electrical energy input required for current to flow across the stack, but we can also include the (much smaller) costs of pumping water through the channels.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "2.1.2 Metrics"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In RO we can decide to include for a certain percentage the recovery of 'pressure energy.' We can take into account efficiencies of power sources and pumps, and of other electric equipment, for instance to convert (AC) electricity into pumping power, or into DC stack current [6]. So, a report detailing values of η must carefully lay out which energy factors are considered. Often, instead of an efficiency η, the inverse factor is reported, which then is the factor by which the actual desalination energy is 'above the minimum.' Values as low as two are considered very low, i.e., actual energy use is only a factor two above the thermodynamic minimum. In many cases, especially for low salinity water, this factor is much higher (5 or 10). Other metrics may refer to lifetime of membranes and track functionality over time. An overall metric is operational costs.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "2.1.2 Metrics"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2 Minimum energy of desalination\nFor given setpoints, we can calculate the theoretical minimum energy that must be invested to attain that particular degree of desalination. This minimum energy does not depend on what method is used to desalinate. Of course, both in RO and ED there are additional constraints that increase the minimum energy further: for instance, in an RO module we can only apply one pressure, which is then effective through the entire module. In an ED stack, there is one value of the cell pair voltage, which applies from inlet to exit of each channel. Modifications are possible to relax these system limitations, especially by working with multiple modules or stacks that operate at different conditions. But the thermodynamic minimum is system-independent and only depends on the composition of the water to be treated, temperature, and the process setpoints.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "2.2 Minimum energy"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This minimum energy that must always be invested to desalinate water, emin, can be calculated on the basis of a thermodynamic analysis of the energy in the three streams that are involved: feedwater 'f', obtained freshwater (permeate 'p' or diluate 'd'), and concentrate (retentate 'c'). In each stream there are multiple ions, each at a concentration ci, and all ions are used in the general equations.\n\n2.2.1 The thermodynamics of ideal solutions\nFor thermodynamically ideal solutions, the only contribution to the theoretical minimum energy of desalination, emin, is the decrease in ion entropy (Gibbs free energy of mixing), and thus emin = -T∆S where ∆S = Sp + Sc - Sf. The entropy of each stream is given by Sj = -R Σ_i (φv,j ci,j ln ci,j), where R is the gas constant, φv,j the volumetric flowrate, and ci,j the concentration of ion i in stream j.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "2.2.1 Ideal solutions"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This equation can be used for any mixture of ions, irrespective of how successfully each ion is separated. The complete calculation also includes a volumetric balance, φv,f = φv,p + φv,c, and a mass balance per solute type: φv,f cf,i = φv,p cp,i + φv,c cc,i. A calculation based on these equations is easily performed in spreadsheet software, and provides the energy in W=J/s to attain a certain separation in a steady-state process. We can define the minimum energy per m3 of freshwater produced, Emin, as Emin = emin/φv,p. An important result: for a 1:1 salt with 50% water recovery (WR=0.50), feed salt concentration c∞=525 mM, c∞,p=0 mM, and T=298 K, Emin=1.0 kWh per m3 freshwater produced.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "2.2.1 Ideal solutions"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2.2 Extensions for non-ideal solutions\nMore energy terms can be included in addition to ion entropy. This includes electrostatic Coulomb interactions between ions, which for a 1:1 salt can be described by the modified Bjerrum equation: felec = -3/2 kBT λB n∞^(4/3). This term can be evaluated for each stream, multiplied by φv, and added to emin. Another contribution is an ion volume (size) effect at higher concentrations, described by the Carnahan-Starling equation of state. For a 1:1 salt at 525 mM with hydrated ion size 0.5 nm, the minimum energy increases from 1.00 to 1.14 kWh/m3. Further extensions relate to ion-ion association and ion (de-)protonation [8], but are not discussed here.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "2.2.2 Non-ideal solutions"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2.3 Simplifications of the thermodynamic expressions\nVarious simplifications are possible. For a symmetric z:z salt, only the ideal entropic contribution is discussed. In the limit of very low WR and very low cp (complete salt removal), Emin = Πf (osmotic pressure of feed). For a perfectly selective membrane and WR→0, the energy efficiency of an RO membrane is ηRO = Πf / ∆Ph,∞ = 1/(α1α2), where α1,α2 are over-pressurization factors. For arbitrary WR and cp, Emin/(2RT) = (cf/WR) ln(cc/cf) - cp ln(cc/cp). When cp→0, Emin/(2cfRT) = -ln(1-WR)/WR. For a single neutral solute (not a 1:1 salt), the factor '2' is omitted. For non-zero cp and WR→0, Emin/2RT = cf - cp - cp ln(cf/cp).",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "2.2.3 Simplifications"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.3 Practical energy use in RO and ED\nThe main factors are the pressure required to pump fluid through channels (and in RO to press water through the membrane), while in ED we need energy to generate electrical current across the stack. In RO, the energy to pressurize a stream is ∆Ph times flowrate φv,j. At the end of a train, an energy recovery device (ERD) can recover ηERD ∆Ph φv,c. In RO with a single module and perfect retention, the minimum pressure is given by the retentate concentration cc = cf/(1-WR), so emin,prac = RT cf/(1-WR), and ηRO = ((1-WR)/WR)·ln(1-WR). In ED, the main energy input is electricity for current I and cell pair voltage Vcp, giving I·Vcp per cell pair. Donnan voltages are not resistances but consequences of thermodynamics. The largest Ohmic loss is in the low-salinity diluate channel. The energy invested is always larger than the thermodynamic minimum, so η<1.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "2.3 Practical energy use"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. One-and two-dimensional models for reverse osmosis with neutral molecules\n3.1 Flowrates and retention in a 1D model of RO for neutral solutes\nReverse osmosis removes solutes by pushing water through a membrane that largely blocks solutes. A key parameter is transmembrane water velocity vw ('filtration velocity'). For uncharged solutes, if vw is known and no special interactions, solutes can be treated separately. Based on a solute-water-membrane friction model, the flux of neutral species across a porous membrane is Ji = Kf,i cm,i vw - Kf,i Dm,i (∂cm,i/∂x), where Kf,i is a friction factor, Dm,i membrane-based diffusion coefficient, and concentrations per unit pore volume. For RO, Kf,i is less than 1 but not zero. Diffusion and advection must be considered jointly.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "3.1 RO for neutral solutes"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A partitioning equation follows from chemical equilibrium: Φi = Si = cm,i / c∞,i, where Φi is the partitioning coefficient (solubility). For RO with ions, an additional Donnan effect arises. The 'permeate equation' is cp,i = Ji / vw, which states that permeate concentration is the ratio of solute flux to water velocity. In the solution-diffusion (SD) model, advection is neglected (Kf,i=1, only diffusion). The SD model gives retention Ri = Pei/(Pei+Φi) with Pei = vw/km,i. The SD model predicts that retention approaches 100% at high vw, which is unrealistic because it neglects advection. A more accurate model is the solution-friction (SF) model, which includes advection, partitioning, and solute-membrane friction.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "3.1 RO for neutral solutes"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The SF model leads to Ji = Kf,i Φi vw (cf,i exp(Pei) - cp,i)/(exp(Pei)-1). The sieving coefficient σi = 1 - Kf,i Φi. Retention is Ri = 1 - [1 + (σi^-1 - 1)^-1 (1 - exp(-Pei))]^-1. For low vw, Ji ≈ (1-σi)(km,i(cf,i-cp,i) + 〈c〉vw), and Ri ≈ (σi/(1-σi))·(vw/km,i). For high vw (advection-dominated limit), Ji = (1-σi) cf,i vw and Ri = σi. Thus any RO membrane has a natural retention limit σi, determined by solute exclusion (Φi<1) and solute-membrane friction (Kf,i<1). If Φi=1 and Kf,i=1, retention is zero. The SD model does not predict this. Membrane thickness influences retention at low vw (thicker gives higher retention), but not at high vw.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "3.1 RO for neutral solutes"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2 A 1D model for RO of neutral solutes including concentration polarization\nA diffusion boundary layer (DBL) or concentration polarization layer is added on the upstream side. Eq. (24) applies to the DBL with Kf,i=1, Φi=1. The concentration at the DBL/membrane interface is obtained. Combining all equations gives a generalized retention equation including CP: Ri = 1 - [1 + ((1-σi)^-1 - 1)·exp(-Pedbl,i)(1-exp(-Pei))]^-1. When Pedbl,i→0 (sufficient stirring), it simplifies to Eq. (27). The maximum retention occurs at Pei = ln(1+w) with w = kdbl,i/km,i, and Rmax,i approaches σi for w→∞. Concentration profiles are strongly nonlinear, not straight lines as in the SD model.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "3.2 RO with CP"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3 Pressures and water flows in a 1D model of RO for neutral solutes\nWater flow is described by a force balance including gradients in hydrostatic and osmotic pressure, and friction with membrane and solutes. At the membrane interfaces, mechanical equilibrium gives invariance of total pressure (Ph - Π), so a step down in osmotic pressure upon entering the membrane (if Φi<1) translates into an equal step down in hydrostatic pressure. Inside the membrane, water velocity is given by vw = -k*_F-m (∂Ph,m/∂x - (1-Kf,i) ∂cm/∂x). Integration yields the classical result vw = k*_F-m (∆Ph,∞ - σi·∆Π∞). The applied pressure must compensate the osmotic pressure difference across the membrane, not just the upstream osmotic pressure. For a highly selective membrane (σi close to 1), a minimum pressure is needed before water flows.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "3.3 Pressures and water flows"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.4 Energy efficiency of RO with neutral solutes in 1D geometry\nEnergy efficiency ηRO = Emin/∆Ph,∞. It starts at zero at low vw and increases. For very high water-membrane permeability and no CP, ηRO can reach ~80% for σi=0.90. CP and lower water-membrane permeability reduce ηRO. Parameter β = k*_F-m Πf/km,i does not depend on membrane thickness; a thinner membrane lowers Pei, which can increase efficiency up to a point, but too thin makes the membrane leaky and reduces Emin and ηRO. The trade-off is complex.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "3.4 Energy efficiency 1D"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.5 2D model for an RO module for neutral solutes\nA 2D co-current flow model is set up with a dimensionless coordinate ξ from inlet to exit. Neglecting DBL, the solute and water flow equations are evaluated at each position. In the advection-dominated limit (Pei>>1), Ji = (1-σi) c vw, and water flowrate and upstream concentration are related by c/cf = (1/f)^σi, where f = φv/φv,f. Retention at module exit is Ri = 1 - (1-(1-WR)^(1-σi))/WR, which reduces to Ri = σi when WR→0. Thus high water recovery reduces retention. The applied pressure is solved from a differential equation. Minimum pressure is ∆Ph,∞,min = σi (cr - cp,exit) RT. Maximum efficiency for perfect retention (σi=1) is ηRO,max = -(1-WR)ln(1-WR) / (1-ηERD(1-WR)). For σi=0.95 and WR=80%, efficiency ~32%; at lower WR (55%) efficiency can reach 46%.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "3.5 2D RO module"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A simplified 〈c〉-model assumes cp is constant everywhere, leading to cp = (1-σi)〈c〉 and 〈vw〉 = k*_F-m (∆Ph,∞ - σi^2 〈c〉RT). Efficiency ηRO depends on specific productivity SP = φv,prod/(A k*_F-m Πf). ηRO decreases when SP increases. The cost optimization balances energy and material costs. The dimensionless cost factor α = (m1·CUE·k*_F-m·Πf^2·∆t)/(m2·CMP). Minimization gives SP|min = sqrt(WR/(α(1-ηERD(1-WR)))). When α increases (e.g., cheaper membranes), SP decreases and ηRO increases. Thus less expensive membranes lead to higher efficiency – a counter-intuitive result. For two RO modules in series, efficiency can improve at low SP, but at higher SP a single module may be better.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "3.6-3.7 Cost analysis"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. A simple model for electrodialysis for symmetrical cell pairs\nIn ED, feedwater flows into diluate (d) and concentrate (c) channels. Ions move from d- to c-channels driven by electrical current through anion-exchange membranes (AEMs) and cation-exchange membranes (CEMs). For a symmetric system with co-current flow, a plug flow model is used. Mass balance for a 1:1 salt gives vz ∂cj/∂z = ± aj λth (I/F), where λth is current efficiency. Adding balances for both channels and integrating yields φv,d (cd(z)-cf) + φv,c (cc(z)-cf)=0. The model can be transformed to a time-on-stream t* = z/vz: ∂cd/∂t* = -ad λth I/F. This also applies to batch operation. To solve, expressions for λth and I as functions of cd and Vcp are needed.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "4. ED model"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.1 Calculation of current and current efficiency in ED\nCell pair voltage Vcp relates to voltage drops across two channels, two membranes, and four Donnan potentials. For symmetric membranes with the same charge X and transport properties, Vcp/VT - 2[ln(cc/cd) - (cc^2-cd^2)/X^2] = (I/F)[1/(2kch)(1/cd+1/cc) + 2/(km|X|)]. Current efficiency λth = (Jm,+ + Jm,-)/(Jm,+ - Jm,-). Using Nernst-Planck and electroneutrality, λth = 1 - (km F ∆cT,m)/|I|, and for high |X|, λth = 1 - (2km F/(|X||I|))(cc^2 - cd^2). Thus λth depends on position (current and concentrations) and is not a fixed membrane property. Calculations show that λth drops to zero as desalination proceeds, defining a limiting diluate concentration for a given Vcp. The model also predicts divergence of Vcp at high current densities due to increased diluate resistance and Donnan potentials.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "4.1 Current and efficiency"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.2 Energy efficiency and cost optimization of an ED stack\nEnergy efficiency ηED = φv,d Emin / (〈I〉 A Vcp). Total costs TCED = m1 CUE 〈I〉 A Vcp + Σ_j (m2 CMPj Aj/∆tj). Assuming same cost for both membranes, dimensionless tcED = αED/ηED + 1/SP, with αED = (m1·CUE·Emin·∆t·km)/(2 m2·CMP) and SP = φv,d/(A km). From co-current ED model, ηED vs SP shows a maximum at low SP and decreases at higher SP. When membrane purchase costs go down (αED increases), the optimum shifts to lower SP (more membrane area, higher efficiency). Thus 'cheaper membranes are more efficient', analogous to RO.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "4.2 Energy efficiency and cost"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5. Fundamentals of ion and water transport across membranes\n5.1-5.2 Flow of solutes in the two-fluid model (TFM)\nThe two-fluid model includes driving forces (gradient of chemical potential) and frictions (with water and membrane). Chemical potential µi = µref,i + RT(ln ci + ziφ) + µaff,i + µexc,i + νi Ptot. For neutral solutes, partitioning Φi = exp(-(µaff,i+µexc,i)/RT). For ions, ci,in = ci,out Φi exp(-zi ∆φD). The force balance gives an extended Nernst-Planck equation: Ji = Kf,i ci vw - Kf,i Dm,i (∂ci/∂x + zi ci ∂φ/∂x). Kf,i = 1/(1+f*i-m/f*i-w) represents ion-membrane friction.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "5.2 TFM solutes"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5.3 Flow of water in the two-fluid model (TFM)\nA force balance on water gives -∂Ptot/∂x - f*_F-m vw + Σ_i f*i-w ci (vi - vw) = 0. For Kf,i=1, this simplifies to vw = -k*_F-m (∂Ph/∂x - X ∂φ/∂x). For uncharged membranes (X=0), this is Darcy's law. Mechanical equilibrium across interfaces requires that total pressure Ptot = Ph - Π is invariant, so a change in osmotic pressure equals a change in hydrostatic pressure. This explains why water flows to the high-salinity side in osmosis.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "5.3 TFM water"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5.4 Counterfluxes of salt and water in osmosis\nTFM accurately fits experimental data of water and salt flux in osmosis (no pressure, no current) where water flows to high salinity and salt flows opposite. For a cation-exchange membrane with X=-5.1 M, Lm=120 µm, Φi=0.82, Kf,i=0.51, km=0.31 µm/s, and k*_F-m=55 fm/Pa·s, the model describes the data very well. Inside the membrane, counterion velocity is ~13 nm/s opposite to water flow (~0.3 µm/s), while coion velocity increases dramatically (~31 mm/s) due to concentration drop. This validates TFM including chemical and mechanical equilibrium.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "5.4 Osmosis"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "6. Extended models for reverse osmosis and electrodialysis\n6.1 2D RO model for electrolyte solutions\nFor a 1:1 salt with equal diffusion coefficients and no diffusion (advection-dominated), salt flux J = ½ Kf,i vw (2cΦi)^2 / sqrt(X^2+(2cΦi)^2). When X >> cΦi, J = Kf,i vw (2c^2 Φi^2)/X; when X << 2cΦi, J = Kf,i Φi c vw (like neutral solutes). Water flow is vw = k* ∆Ph,m. A 2D module calculation for fixed productivity 10 LMH gives for brackish water (cf=50 mM) optimum pressure ~21 bar, WR~78%, cp~0.20 mM (retention 99.9%); for seawater (cf=500 mM) optimum pressure ~53 bar, WR~50%, cp~8 mM (retention 98.4%).",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "6.1 RO for electrolytes"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "6.2 2D cross-current ED model\nThree flow patterns are compared: co-current, counter-current, and cross-current. For desalination from 500 mM to 50 mM at WR=50%, counter-current gives the best efficiency for a given SP, followed by cross-current, then co-current. The differences are significant for SP between 3 and 10. At high SP (>15), all three give similar efficiency. The flow geometry matters when material costs are favourable (low SP), but not when energy costs dominate (high SP).\n\n6.3 Optimization of two equal ED modules in cross-current stacked differently\nTwo modules can be placed in parallel (same as one larger module), in series, or overall counter-current. At moderate SP (~3), series or counter-current stacking can improve efficiency by ~25% compared to a single module, provided cell voltages are chosen optimally. Further improvement (up to ~5% extra) is possible by making the first module 50% larger and the second smaller.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "6.2-6.3 ED multi-module"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "6.4 3D cross-current ED model with concentration polarization\nA full 3D model including CP (concentration polarization) shows that CP increases Donnan potentials and, more importantly, increases coion leakage, reducing current efficiency λ. To achieve the same salt removal, higher currents and voltages are needed, increasing energy consumption. For moderate salt removal (50%) and low SP, the energy ratio (energy with CP / energy without CP) is close to unity. For high salt removal (>80%) and high SP, the energy ratio can exceed 2. Thus CP is significant for deep desalination at high productivity.\n\n7. Conclusions and Outlook\nRO and ED are described by fundamental transport theory. The SF model for RO is more realistic than the SD model. The advection-dominated limit is relevant. For ED, new Donnan equations extend ideal expressions; current efficiency is a process parameter, not a material property. Cheaper membranes lead to higher efficiency in both technologies. CP in ED is important for deep desalination but negligible for seawater with <80% removal.",
+    "citation": {
+      "authors": ["Biesheuvel P.M.", "Porada S.", "Elimelech M.E.", "Dykstra J.E."],
+      "paper_id": "2110.07506v1",
+      "title": "Tutorial review of Reverse Osmosis and Electrodialysis",
+      "year": "2021",
+      "section": "6.4 CP and 7. Conclusions"
+    },
+    "type": "chunk"
+  }
+]

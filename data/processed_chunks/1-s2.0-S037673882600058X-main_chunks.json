@@ -1,0 +1,206 @@
+[
+  {
+    "content": "1. Introduction\nRenewable energy technologies are promoted as pathways to lessen reliance on conventional fossil fuels and to mitigate environmental issues associated with the use of fossil fuels including climate change. Yet, their widespread deployment is constrained by factors such as fluctuating energy output, significant upfront investment, and considerable land and water demands. In this context, producing biocrude from biomass stands out as a promising option, offering a renewable and potentially scalable energy resource [1]. Notably, hydrothermal liquefaction (HTL) has emerged as a highly effective method for transforming biomass into biocrude [2,3]. In contrast to carbonization and pyrolysis, HTL eliminates the need for energy-demanding dewatering or drying steps when processing wet biomass [1]. This characteristic makes HTL especially well-suited for algae which inherently has a high moisture content [4]. Algal feedstocks for HTL are commonly cultivated using urban wastewater as a nutrient source [5]. If HTL wastewater can be cleaned to a level where it resembles urban wastewater, it could be recycled and improve the process overall viability. Despite these benefits, HTL still faces notable challenges, especially concerning the by-products generated including the hydrothermal liquefaction aqueous phase (HTL-AP). HTL-AP is rich in heteroatom-containing organic compounds that create significant obstacles for HTL-AP reuse and disposal [1,5–8]. This hinders the development of a fully closed-loop process, thereby constraining the commercial economic viability and environmental sustainability of HTL.",
+    "citation": {
+      "authors": ["Soorena Gharibian", "Knud Villy Christensen", "Rime Bahij", "Morten Enggrob Simonsen", "Massimiliano Errico"],
+      "paper_id": "1-s2.0-S037673882600058X-main",
+      "title": "Nanofiltration of synthetic HTL-AP: rejection, fouling analysis, and membrane autopsy",
+      "year": 2026,
+      "section": "Introduction",
+      "pages": [1, 2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "To overcome these limitations, several valorization approaches for HTL-AP have been explored. These strategies involve recovering valuable compounds, including platform chemicals and struvite [3,8], or converting it into H2 and CH4 through processes such as anaerobic digestion (AD) [1] or hydrothermal gasification (HTG) [9]. Another strategy is to reuse HTL-AP directly, either as the reaction medium in subsequent HTL runs or as a nutrient source for cultivating algal feedstock [4]. However, the contaminants present in HTL-AP can suppress algal growth, and repeated reuse leads to their buildup, which further amplifies these inhibitory effects [8,10]. This creates a need for robust separation and detoxification methods to ensure that HTL-AP can be reused safely and efficiently.\nAmong the various proposed solutions, membrane filtration cascades have attracted interest due to their capacity to selectively remove contaminants from HTL-AP [11,12]. These technologies can effectively remove organic inhibitors, heavy metals, and other unwanted constituents, thereby improving the suitable reuse of HTL-AP [13]. Membrane-based processes can also concentrate the nutrient content of HTL-AP, improving its potential for use as a growth medium in algal cultivation [6,14]. However, as reported by Gharibian et al. [15] there are only few studies on the application of membrane-based processes for the treatment and valorization of HTL-AP.",
+    "citation": {
+      "authors": ["Soorena Gharibian", "Knud Villy Christensen", "Rime Bahij", "Morten Enggrob Simonsen", "Massimiliano Errico"],
+      "paper_id": "1-s2.0-S037673882600058X-main",
+      "title": "Nanofiltration of synthetic HTL-AP: rejection, fouling analysis, and membrane autopsy",
+      "year": 2026,
+      "section": "Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Zhang et al. [14] investigated nanofiltration (NF) of real HTL-AP (pH = 4.5) generated from swine manure and algae biomass. The real HTL-AP from different tests was accumulated and stored in drums for about six months. HTL-AP conductivity was 7.83 mS/cm. It contained significant concentrations of dissolved organic carbon (DOC, 11064 mg/L) and total phenols (2384 mg/L), composed largely of short-chain carboxylic acids (45 % of total organic carbon), phenolics, ketones, and aldehydes. Prior to NF using DuPont FilmTec NF90 at a transmembrane pressure (TMP) of 400 psi, several pretreatment methods were applied to HTL-AP to mitigate membrane fouling. pH adjustment using NaOH, thermal treatment, adsorption using granular activated carbon (GAC), and raw coal were investigated. In addition, pre/treatment by dead-end ultrafiltration (UF) using polyethersulfone (PES) membranes (with molecular weight cut off (MWCO) of 10000, 5000, and 1000 Da) was studied. The NF flux for HTL-AP(pH = 8) pre-treated by coal adsorption declined from an initial value of 43–53 to approximately 5 L/m².h as feed recovery increased to 80 wt%. DOC rejection averaged 74 %, with organic carbon mass recovery reaching up to 62 % at an 85 % feed recovery. NF fouling was due to the presence of humic-like compounds. The results suggest that integrating secondary separation processes can enhance the recovery and valorization of dissolved carbon in HTL-AP by recycling the NF concentrate back to the HTL feed slurry.",
+    "citation": {
+      "authors": ["Soorena Gharibian", "Knud Villy Christensen", "Rime Bahij", "Morten Enggrob Simonsen", "Massimiliano Errico"],
+      "paper_id": "1-s2.0-S037673882600058X-main",
+      "title": "Nanofiltration of synthetic HTL-AP: rejection, fouling analysis, and membrane autopsy",
+      "year": 2026,
+      "section": "Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In a recent study, Costa et al. [5] explored the use of NF (CR100, XLE, BW30 by DuPont FilmTec) to treat HTL-AP (TMP = 400 psi). Three algal sources, including wastewater-grown algae (pH = 8.7) and harmful algal blooms (pH = 5.5 and 4.6), were used as the source of HTL-AP. Up to 99 % of organics were recovered in the NF retentate. Increasing the feed temperature to 45 °C and pH to 11 improved permeate flux and nitrogen compound separation. Recirculating the concentrated HTL-AP (NF reject) boosted biocrude yield, reduced nitrogen content by up to 12 %, and enhanced carbon and energy recovery by 66 % and 68 %, respectively. Overall, NF effectively reduced HTL-AP volume (35 wt% concentration factor) and strength while improving both yield and quality of biocrude. In a similar research, Szkadłubowicz et al. [16] investigated the treatment of post-processing liquid from the hydrothermal carbonization of sewage sludge (HTCL, pH = 7) using a combination of struvite precipitation and membrane filtration (microfiltration (MF), UF, and NF). Three ceramic and eleven polymeric membranes were tested to evaluate their performance on both the original HTCL and the liquid obtained after struvite precipitation (HTCLS, pH = 8.9). The results showed that membrane type and MWCO significantly affected permeate quality, with lower MWCO achieving greater rejection but also more fouling. For HTCL, the NPO30P NF membrane achieved the best performance, reducing NH4⁺ and nitrogen compounds by 24.4 and 22 %, respectively, while for HTCLS, the PES 5 kDa membrane provided the highest reductions (68.8 % for NH4⁺ and 52 % for nitrogen compounds). Implementing struvite precipitation prior to filtration enhanced the removal of chemical oxygen demand (COD, 12–63 %), total nitrogen (Ntotal, 31–70 %), and phosphate-phosphorus (PO4–P, 51–81 %). It simultaneously improved membrane permeability by lowering fouling.",
+    "citation": {
+      "authors": ["Soorena Gharibian", "Knud Villy Christensen", "Rime Bahij", "Morten Enggrob Simonsen", "Massimiliano Errico"],
+      "paper_id": "1-s2.0-S037673882600058X-main",
+      "title": "Nanofiltration of synthetic HTL-AP: rejection, fouling analysis, and membrane autopsy",
+      "year": 2026,
+      "section": "Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In a practical study by Zhang et al. [12], the use of a dead-end NF process using DuPont FilmTec NF90 membrane to treat synthetic HTL-AP (pH = 2.6, as-is), with a focus on recovering carboxylic acids, was explored. The synthetic HTL-AP did not contain inorganic pollutants. Synthetic HTL-AP wastewater was created using compounds like acetic acid, propionic acid, isobutyric acid, etc. The NF experiments were conducted under acidic (pH = 2.6, as-is) and alkaline conditions (pH = 8, 9, and 10). 82.5 % DOC rejection under alkaline conditions (pH = 8), and up to 95 % rejection of isobutyric acid was achieved. Permeate flux under acidic conditions (pH = 2.6, as-is) ranged from 140 to 160 L/m².h, while alkaline conditions (pH = 8) showed reduced flux due to increased osmotic pressure. Rejections varied with pH; for example, the rejection of acetic acid reached 75 % at pH = 8, driven by charge exclusion rather than size exclusion alone. Recently, Sayegh et al. [17] examined oil and particles removal from HTL-AP (pH = 9) generated from municipal sewage sludge biomass. UF treatment of HTL-AP was performed using ceramic membranes (TiO2, Inopor, Germany) in crossflow mode. The 10 nm pore size membrane had the most stable performance, achieving a critical flux of 6.6 L/m² h bar at 25 °C and maintaining a permeability around 18 L/m² h bar. The 5 nm membrane suffered significant fouling, particularly from surfactant adsorption. Separation of oil emulsions was effective, with a 90 % rejection of long-chain fatty acids and significant retention of anionic surfactants (85–90 %). However, total organic carbon (TOC) rejection was 3, 6, and 15 % for 30, 10, and 5 nm pore sizes, respectively, This is due to the presence of low MW organics such as short-chain fatty acids (e.g., hexanoic acid) and cyclic compounds (e.g., 2-piperidone) in the HTL-AP that can pass the UF membrane. Although the effect of different cleaning methods was studied and it shed light on the fouling mechanism to some extent, a detailed membrane autopsy was not covered.",
+    "citation": {
+      "authors": ["Soorena Gharibian", "Knud Villy Christensen", "Rime Bahij", "Morten Enggrob Simonsen", "Massimiliano Errico"],
+      "paper_id": "1-s2.0-S037673882600058X-main",
+      "title": "Nanofiltration of synthetic HTL-AP: rejection, fouling analysis, and membrane autopsy",
+      "year": 2026,
+      "section": "Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "According to the few available studies on the treatment of HTL-AP using membrane processes, UF can remove only large oil micelles and droplets, but not small organic molecules and salts/ions. Reverse Osmosis (RO) can remove monovalent ions and will strip HTL-AP of nutrients that would be necessary for the growth of microalgae if the aim is to reuse the treated HTL-AP as algae growth medium. In addition, most studies lack detailed fouling mechanism evaluation and do not incorporate membrane autopsy. Moreover, the use of synthetic wastewater is a common strategy in wastewater treatment research to evaluate process performance and investigate underlying mechanisms under controlled conditions. In the context of HTL-AP, many studies focused on separation processes have either built costly HTL setups or relied on aged samples collected/unified from several HTL runs [5,14], highlighting a gap in the development of synthetic HTL-AP, which would shift the attention to the treatment process rather than the HTL-AP generation process. Therefore, building on the few available studies and the potential of membrane-based processes for the treatment/valorization of HTL-AP, the present study evaluates NF process performance for the treatment of a complex synthetic HTL-AP containing both organic and inorganic pollutants. DuPont FilmTec NF90, a thin film composite (TFC) polyamide membrane, was selected based on its proven ability to remove small pollutants such as NH4⁺ [18,19] (ca. 90 % rejection) at a significantly lower operating pressure than RO [20]. Compared to earlier studies the current study takes multiple new aspects into account including: i) introducing a complex synthetic HTL-AP model wastewater to represent inorganic ions, organic pollutants spanning a broad molecular-weight range, and surfactants found in real HTL-AP, ii) rejection performance evaluation of DuPont FilmTec NF90 using a more realistic matrix of complex synthetic HTL-AP under slightly acidic and basic pH conditions, and iii) detailed membrane fouling behavior monitoring and identification of the underlying fouling mechanisms at two different pH conditions, supported by membrane autopsy analysis. The results provide fruitful insights for future extended studies, especially for the treatment of real HTL-AP with a more complex wastewater matrix, by unraveling the complex operating/fouling mechanism of the NF process and improving the operation of multistage membrane-based systems for facile treatment/valorization of HTL-AP with low biodegradability and high toxicity. Moreover, synthetic HTL-AP is a high-strength model wastewater with a complex mixture of organic compounds, including those derived from lipid and oil fractions of biomass. This potentially makes it a model wastewater for NF treatment mimicking the behavior of oily wastewaters, thus providing broadly relevant insights for treating oily wastewater containing water-soluble organics, low amounts of emulsified oils, micelles, and mixed organic/inorganic pollutants.",
+    "citation": {
+      "authors": ["Soorena Gharibian", "Knud Villy Christensen", "Rime Bahij", "Morten Enggrob Simonsen", "Massimiliano Errico"],
+      "paper_id": "1-s2.0-S037673882600058X-main",
+      "title": "Nanofiltration of synthetic HTL-AP: rejection, fouling analysis, and membrane autopsy",
+      "year": 2026,
+      "section": "Introduction",
+      "pages": [2, 3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Materials and methods\nDeionized (DI) water (conductivity: <1 μS/cm) from a PURELAB Chorus 1 system (ELGA LabWater, Veolia Water Technologies, France) was used in all experiments. NaOH, MgSO4, cyclopentanone (≥99 %), methylpyrazine (≥99 %), 3-hydroxypyridine (98 %), levulinic acid (98 %), and (NH4)2HPO4 (≥98 %) were bought from Sigma-Aldrich (Germany). Acetic acid (99.9 %) was purchased from VWR (Denmark). NH4NO3, diiodomethane, and succinic acid (≥99 %) were purchased from Merck (Germany). Oleic acid (≥85 %) was purchased from TCI (Japan).\n2.1. Synthetic HTL-AP\nOrganic constituents of synthetic HTL-AP were selected based on the study by Madsen et al. [21]. The detailed rationale is presented in the Supplementary Information file, section 1. Moreover, the concentration of NH4⁺ and PO4³⁻ was selected based on the literature [1,22]. Tween-80, a non-ionic surfactant, was selected to create a homogenous single-phase solution similar to real HTL-AP. The presence of different surfactants in HTL-AP has been confirmed in previous studies [17,23]. Composition and general information about the synthetic HTL-AP are listed in Table 1. Two pH values of 4 and 8.5 were selected based on the literature [1,22] to cover both acidic and basic HTL-AP and different pH values reported in the literature. Initial/unadjusted pH level of the stock solution was 4 (as-is) while, pH = 8.5 was achieved by adding 2 M NaOH solution. The final conductivity of the synthetic HTL-AP (in the order of ca. 10 mS/cm) was similar to the values reported in the literature [11,16,24].",
+    "citation": {
+      "authors": ["Soorena Gharibian", "Knud Villy Christensen", "Rime Bahij", "Morten Enggrob Simonsen", "Massimiliano Errico"],
+      "paper_id": "1-s2.0-S037673882600058X-main",
+      "title": "Nanofiltration of synthetic HTL-AP: rejection, fouling analysis, and membrane autopsy",
+      "year": 2026,
+      "section": "Materials and methods",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2. Membrane filtration setup\nA MiniMem filtration setup (PS Prozesstechnik GmbH, Germany) was used for the treatment of synthetic HTL-AP. The flatsheet crossflow membrane module is equipped with a circular NF90 membrane (OD = 6 cm, A = 0.0028 m²). The volume of the NF module (feed + permeate chambers) is ca. 10 mL. Table 2 lists the general information about the NF90 membrane. Punching of NF90 membranes was performed without surface contact to prevent damage to the thin polyamide active layer (ca. 200 nm [25–27]). Membranes were not removed from the cell until the end of the whole test cycle to avoid any physical damage. Inside the membrane module at the feed side a magnetic stirrer is located with a ~2 mm space from the membrane active layer, which simulates the effect of crossflow shear stress in a large-scale spiral-wound membrane element. Feed is provided to the NF module from TK1 (working volume = 100 mL) using an analytical piston pump. The content of TK1 is homogenized by continuous stirring with the help of a magnetic stirrer and a stirrer bar. During normal operation (or flux measurement), the system is set to concentration (permeate recovery) mode, and the permeate is collected in an open vessel (atmospheric), which is weighed using an analytical balance (ML204, Mettler Toledo, Switzerland). Permeate flux was calculated according to Eq. (1) and the permeate recovery percent was calculated using Eq. (2). During pressure ramp-up and transient-state until reaching steady-state, the system is set to full recirculation mode. In all tests, V03 is regulated manually to create the required TMP in order to operate in a constant TMP (variable flux) mode of operation. During pressure ramp-up, V03 was slowly closed so that the pressure increase rate would be less than 0.1 bar/s to prevent hydraulic shock to the membrane [25]. At the end of the recovery test, samples were taken from the remaining retentate and the combined permeate for analysis. Rejection performance was calculated according to Eq. (3). To avoid biased performance comparison due to membrane compaction and irreversible fouling a new membrane was used for each test. All tests were conducted at room temperature.",
+    "citation": {
+      "authors": ["Soorena Gharibian", "Knud Villy Christensen", "Rime Bahij", "Morten Enggrob Simonsen", "Massimiliano Errico"],
+      "paper_id": "1-s2.0-S037673882600058X-main",
+      "title": "Nanofiltration of synthetic HTL-AP: rejection, fouling analysis, and membrane autopsy",
+      "year": 2026,
+      "section": "Materials and methods",
+      "pages": [3, 4, 5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.3. Membrane fouling analysis\nNF90 fouling was analyzed using Darcy's law of permeation and the resistance-in-series model [28] according to Eqs. (4)–(19). The total membrane resistance (RTotal feed) is the sum of membrane resistance (RMembrane), concentration polarization resistance (RConcentration polarization), gel layer resistance (RGel layer), resistance from adsorbed foulants/pore blockage (RAdsorbed foulants/pore blockage), and irreversible resistance (RIrreversible). RMembrane was determined from the initial pure water flux (J0) before HTL-AP treatment. RTotal feed was calculated using the steady-state flux (JFeed) during HTL-AP filtration after accounting for osmotic pressure (Δπ). Osmotic pressure was calculated using DuPont RO/NF manual equations (Eqs. (8)–(11)) [25,29]. CF/C is the average total dissolved solids (TDS) concentration of the feed-concentrate at 30 wt% recovery, CF is the average TDS concentration of the feed synthetic HTL-AP, Mi is molality calculated by converting the average permeate TDS to its equivalent NaCl molality. The DuPont RO/NF manual instructs a maximum 30 wt% permeate recovery per element to prevent membranes from extensive fouling [25]. After HTL-AP treatment, the membrane was flushed with DI water to measure J1, then with 0.01 wt% NaOH solution to measure J2 and J3. The resistance components were then isolated: RConcentration polarization = RTotal feed - RTotal water (where RTotal water is from DI water flux after HTL-AP treatment). RFouling = RTotal water - RMembrane. RGel layer = RTotal water - RAfter DI flushing. RAdsorbed foulants/pore blockage = RAfter DI flushing - RAfter NaOH flushing. RIrreversible = RAfter NaOH flushing - RMembrane. Each experiment was repeated 3 times, and the standard deviation (SD) is reported. Flushing time and cleaning chemicals were selected according to the DuPont RO/NF manual [25].",
+    "citation": {
+      "authors": ["Soorena Gharibian", "Knud Villy Christensen", "Rime Bahij", "Morten Enggrob Simonsen", "Massimiliano Errico"],
+      "paper_id": "1-s2.0-S037673882600058X-main",
+      "title": "Nanofiltration of synthetic HTL-AP: rejection, fouling analysis, and membrane autopsy",
+      "year": 2026,
+      "section": "Materials and methods",
+      "pages": [5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.4. Analytical methods\nDR3900 spectrophotometer (HACH, USA), LT200 heating block (HACH, USA), and HACH-Lange kits (Germany) were used for COD (LCK314, LCK014), PO4³⁻ (LCK049, LCK351), and NH4⁺ (LCK305, LCK502) measurement. High range kits were used for analyzing the feed and retentate, while low range kits were used for the permeate. A portable multimeter (HQ40d, HACH, USA) was used for measurement of pH, TDS, and conductivity. A high-performance liquid chromatography (HPLC) instrument (Dionex Ultimate 3000, Thermo Fisher Scientific, USA) equipped with a refractive index detector (RID) and a PL Aquagel-OH 20 size exclusion chromatography (SEC) column (Agilent, USA) was used to measure the apparent MW distribution of feed and treated samples [36]. The resolve range is from 100 to 20 kDa. The solvent was DI water with an elution rate of 1 mL/min, and the injection volume was 5 μL. The apparent MW distribution was calibrated (R² = 0.99) using ReadyCal polyethylene glycol Kits. An attenuated total reflectance-Fourier transform infrared spectroscopy (ATR-FTIR) instrument (Cary 630, Agilent, USA) was used to obtain FTIR spectra of synthetic HTL-AP, neat NF90, and used membranes (before any flushing and using fresh/not dried membrane samples). The spectrum was recorded in the range 650–4000 cm⁻¹ at 1 cm⁻¹ scan resolution (8 sample scans) in absorbance mode. A scanning electron microscope (SEM, Quanta200, FEI/Thermo Fischer, USA) was used for evaluation of membrane surface morphology at low vacuum mode with Large Field Detector (LFD) at 10 kV without metal coating. Simultaneous thermal analysis (STA), combining TGA with DSC, was performed (Alumina Crucible, 25–800 °C, 5 °C/min, N2 flow: 20 ml/min) on the neat and used membrane samples using the STA 449 F3 Jupiter device (NETZSCH, Germany). A DSA100S instrument (KRUSS, Germany) was used for water/diiodomethane droplet contact angle measurement with the sessile drop method. Total surface free energy was calculated using Owens–Wendt two-component surface energy equation [37,38]. A minimum number of 10 droplets (water 5 μL, diiodomethane 2 μL) were tested on each membrane sample. Relative density and viscosity of synthetic HTL-AP at both pH levels were measured at room temperature using a 25 mL pycnometer and a Cannon-Fenske opaque viscometer (size 75, Paragon Scientific, UK), respectively. Moreover, an HR20 Discovery Hybrid Rheometer (TA instrument, USA) with a 20.0 mm 0.994167° cone plate at 25 °C was used to validate results at varying shear rate from 1 to 100 s⁻¹.",
+    "citation": {
+      "authors": ["Soorena Gharibian", "Knud Villy Christensen", "Rime Bahij", "Morten Enggrob Simonsen", "Massimiliano Errico"],
+      "paper_id": "1-s2.0-S037673882600058X-main",
+      "title": "Nanofiltration of synthetic HTL-AP: rejection, fouling analysis, and membrane autopsy",
+      "year": 2026,
+      "section": "Materials and methods",
+      "pages": [5, 6, 7]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Results and discussion\n3.1. Rejection and synthetic HTL-AP treatment performance\nNF90 rejection performance was evaluated in terms of COD, NH4⁺, PO4³⁻, conductivity, and TDS (Fig. 3). Detailed mass balance data are gathered in the supplementary information section (Table S1). There was a significant difference in NH4⁺ rejection with a change in the pH level of synthetic HTL-AP. 94 ± 1 % NH4⁺ rejection was achieved for HTL-AP(pH = 4) in comparison to 83 ± 3 % for HTL-AP(pH = 8.5). The main mechanisms behind NH4⁺ rejection are Donnan exclusion (co-anions such as NO3⁻ and PO4³⁻ are repelled to preserve electroneutrality) together with steric exclusion from its comparatively large hydrated radius [18,19]. However, according to the NH4⁺ ↔ NH3 speciation equilibrium, at pH = 8.5, approximately 15 % of NH4⁺ is in the form of NH3 [26,39]. NH3 is volatile and can be lost to the headspace during pH adjustment or filtration. Since LCK305 and LCK502 kits are unable to detect NH3, the apparent loss of NH4⁺ was accounted for (ca. 3400 ppm NH4⁺ for HTL-AP(pH = 8.5) vs. 4000 ppm NH4⁺ for HTL-AP(pH = 4)). Smaller and charge-neutral NH3 has more permeability than the NH4⁺ form, matching the lower NH4⁺ rejection efficiency (ca. 83 %) and higher NH4⁺ concentration (ca. 590 mg/L) in the permeate for HTL-AP(pH = 8.5) in comparison to pH = 4 (ca. 94 % and 237 mg/L, respectively) [5,26].\nPO4³⁻ rejection was almost identical (ca. 99 %) at both feed pH values since rejection is dominated by steric (size) exclusion (large hydrated radius [40]) and the Donnan effect [18,41]; complexation with organics may also reduce PO4³⁻ permeability [41]. There was no significant difference between COD rejection (ca. 95 %) at both pH values, mainly due to size exclusion of organics and emulsified micelles/droplets, confirmed by SEC results and apparent MW distributions (Fig. 4). The remaining organic compounds in the NF permeate are mainly small compounds, e.g., organic acids [12,42]. NF90 had slightly higher TDS/conductivity rejection for synthetic HTL-AP(pH = 4) due to: 1) higher ionic strength and weakened Donnan exclusion because of membrane charge shielding [19,43]; NaOH used to adjust pH to 8.5 increased TDS/conductivity due to Na⁺ ions (Table S1); 2) higher permeability of neutral NH3 at pH = 8.5; 3) to some extent, fouling and therefore improved salt rejection [44]. Overall, the difference was not significant, and >85 % TDS/conductivity rejection was achieved.",
+    "citation": {
+      "authors": ["Soorena Gharibian", "Knud Villy Christensen", "Rime Bahij", "Morten Enggrob Simonsen", "Massimiliano Errico"],
+      "paper_id": "1-s2.0-S037673882600058X-main",
+      "title": "Nanofiltration of synthetic HTL-AP: rejection, fouling analysis, and membrane autopsy",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [7]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Apparent MW distribution (Fig. 4) shows a broad distribution for synthetic HTL-AP, consistent with real HTL-AP samples (range from just under 100 to over 10,000 Da) [14]. Fig. 4 shows a clear reduction of permeate peaks in comparison to feed and retentate, confirming rejection results. The peak at 100–1000 Da in the permeate might be attributed to micelles formed by organic molecules that passed NF90 (permeate COD ca. 1500 mg/L). The peak at around 10 Da corresponds to soluble salts and ions. The intensity of retentate peaks is not larger than the feed possibly because part of the pollutants remains attached to the surface (adsorbed foulants, pore blockage, and gel layer). Kizza and Eskicioglu [13] found that almost 90 % of HTL-AP constituents can be recovered/concentrated, and the rest is lost due to adsorption and gel layer fouling. Likewise, in the current study, mass balance closure was not possible. Overall, approximately 90 % pollutant rejection is achieved with slightly improved rejection at pH = 4. The permeate quality (e.g., COD ca. 1500 mg/L) is similar to untreated urban wastewater [5,45] used as a cultivation medium for algae. Accordingly, there is significant potential to close the water loop in the HTL process by reusing NF-treated HTL-AP directly without dilution.",
+    "citation": {
+      "authors": ["Soorena Gharibian", "Knud Villy Christensen", "Rime Bahij", "Morten Enggrob Simonsen", "Massimiliano Errico"],
+      "paper_id": "1-s2.0-S037673882600058X-main",
+      "title": "Nanofiltration of synthetic HTL-AP: rejection, fouling analysis, and membrane autopsy",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [7, 8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Flux behavior analysis\nThe permeate flux (Fig. 5) during HTL-AP recovery showed a significant difference with feed pH: pH = 8.5 gave a smaller J/Jinitial drop (ca. 22 %) than pH = 4 (ca. 43 %). This flux drop is associated with increased osmotic pressure at higher recovery and fouling. NF90 has a moderately hydrophobic polyamide active layer [20,46]; hydrophobic organics (e.g., oleic acid, high LogKow) exhibit strong hydrophobic interactions leading to adsorption and fouling. Compounds with low or negative LogKow are hydrophilic and show lower interaction. At pH > 4, the NF90 surface is negatively charged due to deprotonation of carboxyl and amide groups [20,26]; at pH = 8.5, the negative charge intensity is larger than at pH = 4 [12,47]. Moreover, weak organic acids and many other organic substances are mostly deprotonated (negatively charged) at pH = 8.5 (≫pKa) [12,25]. Therefore, electrostatic repulsion (Donnan exclusion) reduces adsorption/attachment of deprotonated organics on the membrane surface at higher pH [14,20,48]. Neutral organics (ketones, oleic acid, tween-80) can still interact via hydrophobic interactions. At pH = 4, organic compounds are mostly neutral/unionized (pH < pKa) [20,42], and the NF90 surface is at/near the neutral point [47,49]. Thus, hydrophobic interaction, hydrogen bonding, and van der Waals forces lead to more fouling [46,50], assisted by hydrophobic neutrals and non-ionic surfactants (e.g., Tween-80). Table S2 summarizes NF90 membrane charge, solute ionization status, pKa, LogKow, and interactions. Relative viscosity and density were 1.1±0.1 cP/995±8 kg/m³ and 1.23±0.07 cP/1004±5 kg/m³ for HTL-AP(pH=4) and pH=8.5, respectively (not statistically significant, p>0.05, n=5). The synthetic HTL-AP exhibited water-like behavior over the shear-rate range, confirming a dilute, well-dispersed emulsion. Hence, improved fouling performance at pH=8.5 cannot be attributed to bulk viscosity/density changes.",
+    "citation": {
+      "authors": ["Soorena Gharibian", "Knud Villy Christensen", "Rime Bahij", "Morten Enggrob Simonsen", "Massimiliano Errico"],
+      "paper_id": "1-s2.0-S037673882600058X-main",
+      "title": "Nanofiltration of synthetic HTL-AP: rejection, fouling analysis, and membrane autopsy",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "To elucidate fouling mechanisms, a systematic comparison of pure water flux was conducted (experimental protocol in Fig. 2). Total membrane fouling (RTotal feed - RMembrane) was higher for HTL-AP(pH=4) (9.8×10¹⁴ ± 8×10¹³ 1/m) than for pH=8.5 (5.5×10¹⁴ ± 5×10¹³ 1/m). The resistance-in-series model (Fig. 6) showed that at both pH levels, reversible fouling (concentration polarization, gel layer, and foulants adsorption/pore blockage) are the major contributors to flux decline. NaOH flushing almost restored the original pure water flux by increasing the negative charge of NF90 (deprotonation of carboxyl groups), enhancing electrostatic repulsion, and through foulant hydrolysis/dissolution [17,51]. Irreversible fouling (membrane compaction, highly persistent adsorbed foulants, irreversible pore blockage) was negligible. At pH=4, the share of gel layer resistance in total fouling was higher (ca. 32 %) than at pH=8.5 (14 %), matching the lower flux of NF90 with HTL-AP(pH=4) (Fig. 5). Concentration polarization had a higher share at pH=8.5 (ca. 24 %) than at pH=4 (13 %), matching the slightly lower rejection performance (Fig. 3). All used membranes showed ca. 98 % MgSO4 rejection after NaOH flushing, similar to the neat membrane. Compaction tests (Fig. 7) revealed some compaction at higher TMP values, but compacted NF90 membrane still showed ca. 98 % MgSO4 rejection.",
+    "citation": {
+      "authors": ["Soorena Gharibian", "Knud Villy Christensen", "Rime Bahij", "Morten Enggrob Simonsen", "Massimiliano Errico"],
+      "paper_id": "1-s2.0-S037673882600058X-main",
+      "title": "Nanofiltration of synthetic HTL-AP: rejection, fouling analysis, and membrane autopsy",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Membrane autopsy\nThe resistance-in-series model suggested the presence of a thin fouling gel layer on NF90 after synthetic HTL-AP treatment. Since pore blockage/persistent adsorbed foulants remained unchanged at both pH levels, and pore size distribution techniques (e.g., N2 adsorption–desorption) may not be applicable to dense TFC active layers, pore size distribution was not further investigated [51,52]. No visible fouling layer was observed on used membranes (Fig. S2). ATR-FTIR (Fig. 8) was used to compare used and neat NF90 membranes. The neat NF90 spectrum showed characteristic bands: carbonyl (C=O, amide I) at 1650 cm⁻¹, C–O at 1016, aromatic C=C at 1492, asymmetric/symmetric O=S=O (sulfone) at 1150/1320, N–H (overlapped with O–H) at 3200–3500, C–N (amide III) at 1220–1300, aromatic C–H bending at 700–900, amide II at 1550, and aliphatic bands at 2800–2900 [18,53–56]. Used membranes (before DI flushing, without drying) showed no new peaks and insignificant intensity changes (likely due to similar peaks of synthetic HTL-AP and NF90). The presence of sulfone groups (from the microporous support layer) in used membrane spectra confirms the thin nature of the fouling layer [53,57,58]. Since the fouling layer and polyamide active layer are extremely thin, IR light reached the polysulfone support layer beneath [26]. Thus, the resistance-in-series model's assumption of a thin fouling gel layer is confirmed (Fig. 6).",
+    "citation": {
+      "authors": ["Soorena Gharibian", "Knud Villy Christensen", "Rime Bahij", "Morten Enggrob Simonsen", "Massimiliano Errico"],
+      "paper_id": "1-s2.0-S037673882600058X-main",
+      "title": "Nanofiltration of synthetic HTL-AP: rejection, fouling analysis, and membrane autopsy",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [8, 9]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "SEM imaging (Fig. 9) of dried used membranes showed a smoother surface covered by a continuous and homogeneous fouling layer without discrete particles, consistent with gel-like fouling rather than rigid cake deposition [47,56,60]. Contact angle measurements (Fig. 10) gave 80±3° for neat NF90 (weak hydrophilicity, consistent with literature [20,46,54]). Used membranes gave 62±4° (pH=4) and 63±4° (pH=8.5), indicating a significant change in surface properties due to adsorption of hydrophilic organic foulants (especially Tween-80) as a thin gel layer, confirmed by FTIR and SEM. Total surface free energy increased from 35 mN/m (neat) to 48 and 49 mN/m for used membranes at pH=4 and pH=8.5, respectively, mainly due to an increase in the polar component, confirming more polar/hydrophilic functional groups and a thin gel layer [53,61].\nTGA profiles (Fig. 11a) showed first degradation step until 100 °C (moisture loss, negligible). The second stage (100–400 °C) is attributed to decomposition of foulants (gel layer, adsorbed foulants, pore blockage) and was more profound for used NF90 at pH=4. Two fast decomposition steps after 400 °C correspond to polyamide (≈400 °C) and polysulfone (≈500 °C) [54,62]. DSC (Fig. 11c) showed differences between neat and fouled membranes. Used NF90 at pH=8.5 showed minor deviation (slight broadening of polyamide peak, small early mass-loss shoulder, slightly lower residual mass), indicating negligible foulant. Used NF90 at pH=4 showed pronounced changes: clear low-temperature endothermic/DTG feature (≈200–250 °C), larger mass loss prior to polymer degradation, and lower final residual mass, indicating volatile and thermally active organic deposits requiring heat input (endothermic).",
+    "citation": {
+      "authors": ["Soorena Gharibian", "Knud Villy Christensen", "Rime Bahij", "Morten Enggrob Simonsen", "Massimiliano Errico"],
+      "paper_id": "1-s2.0-S037673882600058X-main",
+      "title": "Nanofiltration of synthetic HTL-AP: rejection, fouling analysis, and membrane autopsy",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [10, 11]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Conclusion\nIn this study, the treatment of synthetic HTL-AP using a DuPont NF90 polyamide NF membrane was evaluated with particular emphasis on membrane rejection and fouling behaviour analysis supported by membrane autopsy. Almost complete PO4³⁻ and COD removal were achieved. NH4⁺ rejection performance was better for synthetic HTL-AP (pH = 4) (94 ± 1 %) than pH = 8.5 (83 ± 3 %) due to the presence of a gel layer and the conversion of some NH4⁺ to NH3 (with better permeability). More than 85 % TDS/conductivity rejection was also achieved. The quality of the obtained permeate was similar to that of untreated urban wastewater used as a cultivation medium for algae biomass intended as feedstock for HTL. The apparent MW distribution from SEC confirmed the above-mentioned NF90 rejection performance. Flux monitoring and the resistance-in-series model revealed that irreversible fouling (due to membrane compaction, persistent adsorbed foulants, and pore blockage) was negligible. Reversible concentration polarization and gel layer fouling were the major contributors to NF90 fouling. Persistent foulants that were not removed by water flushing were efficiently removed by 0.01 wt% NaOH flushing. The contribution of the gel layer to total fouling was larger for synthetic HTL-AP(pH = 4) than at pH = 8.5 due to hydrophobic interaction of unionized organic compounds with the almost neutral NF90 at pH = 4. FTIR, SEM, TGA, and contact angle autopsy tests collectively confirmed the presence of a thin fouling gel layer on NF90. Since the synthetic HTL-AP model wastewater can be classified as oily wastewater, the results are broadly relevant to oily wastewater treatment involving water-soluble organics, low amounts of emulsified oils, oil micelles, and coexisting organic and inorganic pollutants, including real HTL-AP generated during biocrude production. As these results are promising, future studies should include: 1) Optimization of operational parameters in the allowable operating range (design pressure, temperature, and pH) for maximum rejection and lowest membrane fouling, 2) Extension of the number of synthetic HTL-AP fouling/cleaning cycles after NaOH washing (i.e., 5 cycles) to observe long-term performance, 3) Monitoring single-component rejection using liquid chromatography-mass spectroscopy (LC-MS), 4) Evaluating pore size distribution of used membranes as evidence of pore blockage, 5) Extension to real HTL-AP with more complex matrix and NF permeate toxicity assessment for feed biomass HTL algae cultivation, 6) Recirculation of NF reject stream back to HTL reactor or further valorization, 7) Scale-up using spiral-wound elements to reach higher recovery (70–75 %) using multistage systems.",
+    "citation": {
+      "authors": ["Soorena Gharibian", "Knud Villy Christensen", "Rime Bahij", "Morten Enggrob Simonsen", "Massimiliano Errico"],
+      "paper_id": "1-s2.0-S037673882600058X-main",
+      "title": "Nanofiltration of synthetic HTL-AP: rejection, fouling analysis, and membrane autopsy",
+      "year": 2026,
+      "section": "Conclusion",
+      "pages": [12]
+    },
+    "type": "chunk"
+  }
+]

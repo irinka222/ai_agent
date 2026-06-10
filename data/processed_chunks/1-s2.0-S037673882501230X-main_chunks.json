@@ -1,0 +1,422 @@
+[
+  {
+    "content": "1. Introduction\nThe significant decrease in freshwater resources has increased the importance of new ways to utilize non-traditional water sources, such as brackish groundwater, seawater, agricultural drainage water, and treated wastewater [1]. Pressure-driven membrane processes and thermal desalination technologies have shown the potential for treating these sources to a potable quality standard [2,3]. Among these technologies, reverse osmosis (RO) has proven to be one of the most efficient and is used in more than 50 % of desalination plants worldwide [4]. RO operates on the principle of generating high hydraulic pressure to overcome the osmotic pressure of saline feed water [5]. However, like many thermal desalination processes, the RO is power-intensive and results in increased greenhouse gas emissions [6]. Thus, it is essential to develop alternative desalination technologies with lower energy requirements. Forward osmosis (FO) is a membrane-based technology that has gotten a lot of attention in the last few years [7,8]. In FO, a semipermeable membrane separates two solutions with different salinity: a low-salinity feed solution (FS) and a high-salinity draw solution (DS) [9]. The difference in osmotic pressure between these two solutions causes water to move from the FS to the DS, while the membrane rejects dissolved solutes [10].",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Introduction",
+      "pages": [1, 2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Thin-film composite (TFC) membranes are among the best options for FO applications due to their excellent perm-selectivity, chemical stability over a wide pH range, and robust mechanical properties [11]. A typical TFC membrane has at least two different layers: (1) a porous sublayer that gives it strength, and (2) a thin, dense polyamide (PA) active layer that acts as a separation layer and is usually made by interfacial polymerization (IP) between m-phenylenediamine (MPD) and trimesoyl chloride (TMC) [12]. Internal concentration polarization (ICP), an undesired phenomenon that significantly reduces water flux, is one of the primary issues limiting the performance of TFC-FO membranes [13]. The main cause of ICP is the sublayer's hydrophobic and low-porosity characteristics, which hinder the diffusion of water and solutes within the membrane matrix [14]. TFC-FO membranes can operate in two configurations: (1) FO mode, in which the FS contacts the PA layer, and (2) pressure-retarded osmosis (PRO) mode, where the DS is in contact with the PA layer. In FO mode, the draw solute inside the sublayer is diluted by water permeating from the FS to the DS side, which lowers the DS concentration within the sublayer pores (also known as dilutive ICP). In contrast, concentrative ICP occurs when the solute concentration within the sublayer pores is higher than that of the FS bulk solution due to reverse salt diffusion from the DS to the FS [15]. Since ICP directly affects water flux and energy efficiency in FO processes, minimizing it is crucial to enhancing membrane performance. Sublayer structural modification is one of the best ways to reduce ICP [16].",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The intensity of ICP can be measured quantitatively through the structural parameter (S), which is determined by the thickness (l), porosity (ε), and tortuosity (τ) of the sublayer, as follows: S = l * τ / ε. To effectively mitigate ICP, it is essential to minimize the S parameter [18]. To achieve a low S value, a thin, hydrophilic, and highly porous sublayer is required [19]. In this regard, numerous studies have focused on optimizing the properties of the sublayer. Various strategies have been reported, including the incorporation of hydrophilic nanomaterials [20,21], hydrophilic polymers [22,23], and copolymers [24,25] into the sublayer matrix. Graft copolymers have become a popular choice for modifying sublayers among the various types of additives. A graft copolymer consists of a main polymer backbone with side chains (branches), allowing customization of material properties. When the backbone and side chains possess distinct hydrophilic and hydrophobic segments, the resulting structure is referred to as an amphiphilic graft copolymer. Blending amphiphilic graft copolymers with the hydrophobic base polymer of the sublayer dramatically enhances membrane performance. Compared to hydrophilic homopolymers, these copolymers provide enhanced stability, as they are less prone to leaching or migration from the membrane matrix [26].",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "During the non-solvent-induced phase separation (NIPS) process, the hydrophilic segments of the copolymer tend to migrate to the top surface of the membrane or the pore surface, thereby enhancing hydrophilicity. At the same time, the hydrophobic segments firmly entangle with the base polymer matrix, thereby enhancing the compatibility of the copolymer with the sublayer [27]. This improved compatibility not only enhances the mechanical stability of the membrane but also facilitates the formation of a highly porous and uniform sublayer with favorable morphology. In a recent study, Salehi et al. synthesized an amphiphilic graft copolymer consisting of a polysulfone (PSf) backbone and poly (2-(dimethylamino)ethyl methacrylate) (PDMA) side chains. Experimental findings revealed that the PSf-g-PDMA copolymer-modified sublayer has increased porosity, hydrophilicity, and a higher water flux compared to the control membrane. These improvements are attributed to the hydrophilic nature of the PDMA side chains [28]. In another study, Salehi et al. synthesized an amphiphilic graft copolymer of polysulfone-graft-poly(N-isopropylacrylamide) (PSf-g-PNIPAM) for modification of the PSf sublayer. Their results demonstrated significant improvements in the sublayer's structural properties, due to the hydrophilic nature of PNIPAM, which enhances the formation of larger pores and more favorable morphological characteristics [25].",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Building on our previous work, this study investigates the modification of the sublayer in TFC-FO membranes using polysulfone-graft-poly(2-hydroxyethyl methacrylate) (PSf-g-PHEMA) copolymer. Alkyne-terminated PHEMA is synthesized via atom transfer radical polymerization (ATRP), and PSf is functionalized with azide (N3) groups. The PHEMA was grafted on the PSf-N3 using a click reaction. The successful synthesis of PSf-g-PHEMA is confirmed by FTIR, 1H NMR, and TGA analyses. The presence of hydrophilic PHEMA side chains and a hydrophobic PSf backbone in the structure of PSf-g-PHEMA copolymer provides a unique combination of properties that enhance the performance of the FO membrane sublayer. The copolymer is blended with PSf at different weight ratios of 5 %, 10 %, and 15 %. Then, TFC-FO membranes are fabricated by using IP to form the PA active layer on these modified sublayers. It is expected that the reactive hydroxyl groups in PHEMA actively participate in the IP process by covalent bonding with TMC monomers. This interaction will strengthen the bonding between the PA active layer and the sublayer, improving the mechanical stability and durability of the membrane.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Experimental\n2.1. Materials\nPolysulfone (PSf, Ultrason S6010) is obtained from BASF and used in the fabrication of the FO membrane sublayer. Chloroform (CHCl3, 98.0 %), paraformaldehyde (96 %), chlorotrimethylsilane ((CH3)3SiCl, 99 %), and tin (IV) chloride (SnCl4, 99 %) are procured from Merck and employed in the synthesis of –CH2Cl functionalized PSf. Dimethylformamide (DMF, 99.0 %) and sodium azide (NaN3), also from Merck, are used for the preparation of PSf-CH2N3 polymer. Propargyl 2-bromoisobutyrate (PBiB, 98 %, Merck), 2-hydroxyethyl methacrylate (HEMA, 99.0 %, Merck), copper (I) bromide (CuBr, 99 %, Merck), and N,N,N′,N′,N″-pentamethyl diethylene triamine (PMDETA, 98 %, Merck) are utilized as the initiator, monomer, catalyst, and ligand, respectively, for the ATRP reaction. N-methyl-2-pyrrolidone (NMP, 98 %, Merck) serves as the solvent for the membrane casting solutions. For the fabrication of the PA active layer, m-phenylenediamine (MPD, >99 %) is used as the water-soluble monomer, while trimesoyl chloride (TMC, 98 %, Merck) acts as the oil-soluble monomer. Anhydrous n-hexane (99 %, Merck) is employed as the solvent for TMC, and deionized water is used to dissolve MPD. Sodium chloride (NaCl, Merck) is used to prepare the DS for FO performance evaluations.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Experimental",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2. Synthesis of PSf-CH2Cl\nThe chloromethylation of PSf is performed following a previously reported method [25]. Briefly, 30.0 g (0.48 mmol) of PSf is dissolved in 1.0 L of chloroform under stirring for 3 h until a clear solution is obtained. Subsequently, 20 g of paraformaldehyde, 70 mL of (CH3)3SiCl (550 mmol), and 0.5 mL (4.3 mmol) of SnCl4 are added to the solution. The reaction mixture is maintained at 50 °C and stirred for 3 days. Upon completion, the solvent is removed using a rotary evaporator to concentrate the mixture. The resultant viscous mixture is added to 4000 mL of methanol, resulting in the precipitation of a white solid. The precipitate is dissolved twice in chloroform and re-precipitated in methanol to further purify the product. Finally, the purified PSf-CH2Cl polymer is dried in a vacuum oven at 50 °C.\n2.3. Synthesis of PSf-CH2N3\nInitially, 10.0 g (0.16 mmol) of PSf-CH2Cl was dissolved in 250 mL of DMF, then 1.0 g of NaN3 (15.5 mmol) was added to the reaction mixture. The reaction mixture is stirred at 80 °C for 24 h. After cooling to room temperature, the polymer solution is poured into a 1:1 (v/v) mixture of deionized water and methanol, forming a precipitate that is subsequently filtered. To further purify the product, the polymer is redissolved in DMF and reprecipitated in DI water. The purified PSf-CH2N3 polymer is collected by filtration, washed with methanol, and dried under vacuum at 50 °C for 24 h.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Experimental",
+      "pages": [2, 3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.4. Synthesis of alkyne-terminated PHEMA homopolymer\nIn a three-neck flask equipped with a magnetic stirrer, 20 mL of dry DMF is added. Under a nitrogen atmosphere, 3.93 g (30 mmol) of HEMA monomer, 62.1 mg (0.30 mmol) of PBiB initiator, and 21.5 mg (0.15 mmol) of CuBr catalyst are added to the solvent. The reaction mixture is deoxygenated, and polymerization is initiated by adding 62.0 μL (0.30 mmol) of PMDETA under a nitrogen atmosphere. The reaction is then carried out at 80 °C for 8 h. After completion, the reaction solution is passed through an alumina column to remove residual CuBr catalyst, and then precipitated in ethyl acetate. The crude PHEMA product is dissolved in ethanol, concentrated via rotary evaporation to remove ethanol, and re-precipitated in ethyl acetate for further purification. The chemical structure and molecular weight of the alkyne-terminated PHEMA are characterized by 1H NMR spectroscopy.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Experimental",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.5. Synthesis of PSf-g-PHEMA amphiphilic graft copolymer\nThe PSf-g-PHEMA amphiphilic graft copolymer is synthesized via a copper-catalyzed azide-alkyne cycloaddition (click) reaction between PSf-CH2N3 and alkyne-terminated PHEMA. Initially, 1.0 g (0.016 mmol) of PSf-CH2N3 and 0.6 g (0.13 mmol) of alkyne-terminated PHEMA are dissolved in 20 mL of DMF. Subsequently, 15.6 mg (0.1 mmol) of CuBr catalyst and 19.2 mg (0.11 mmol) of PMDETA ligand are added to the solution. The reaction mixture is thoroughly deoxygenated by nitrogen purging combined with vacuum cycles and stirred at room temperature for 3 days to complete the click reaction. Upon completion, the solution is passed through an alumina column to remove the catalyst residues, followed by precipitation of the PSf-g-PHEMA copolymer in DI water. To purify the product, the precipitated copolymer is washed with ethanol to remove unreacted PHEMA, then filtered and dried under vacuum at 50 °C for 12 h.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Experimental",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.6. Preparation of sublayers\nPSf/PSf-g-PHEMA sublayers with varying concentrations of PSf-g-PHEMA are fabricated using the NIPS method. The polymers are dissolved in NMP under continuous stirring at 80 °C for 8 h until a clear solution is obtained. The compositions of the casting solutions are detailed in Table 1. After degassing, the casting solution is spread onto a clean glass plate using a 100 μm casting knife. The glass plate is then immersed in DI water for 30 min to facilitate solvent–nonsolvent exchange. Finally, the formed sublayer is thoroughly rinsed with DI water to remove residual solvents and stored in a DI water bath until further use.\n2.7. Construction of TFC-FO membranes\nThe PA active layer is formed on the various sublayers via the IP process. Initially, a 2.0 wt% aqueous MPD solution is applied to the sublayer surface and allowed to interact for 2 min within a Teflon ring. Excess MPD solution is then removed. Subsequently, a 0.1 wt% TMC solution in n-hexane is poured over the sublayer for 1.5 min to form the PA network. After draining the organic solution, the membranes are cured in an oven at 60 °C for 1 min. The resulting membranes are designated as TFC (for the unmodified sublayer) and TFC-PH5, TFC-PH10, and TFC-PH15, corresponding to sublayers containing 5 %, 10 %, and 15 % graft copolymer, respectively.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Experimental",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.8. FO performance measurements\nThe FO membrane performance is evaluated using a custom-designed cross-flow FO setup with a circular membrane cell (with a diameter of 2.5 cm and depth of 3 mm on each side). Sodium chloride solutions at concentrations of 0.5 M, 1.0 M, 1.5 M, and 2.0 M are employed as the draw solutions, while DI water is used as the FS. The cross-flow rate is maintained at 100 mL/min (crossflow velocity of 0.34 m/s), and the effective membrane surface area is 4.9 cm2. Membrane performance is tested in two configurations: with the active layer facing the FS (FO mode) and facing the DS (PRO mode). Water flux (Jw, LMH) and reverse salt flux (Js, gMH) are calculated as follows: JS = Δ(CtVt)/(AmΔt), Jw = ΔV/(AmΔt), where ΔV is the volume of water permeated through the FS over the time interval Δt (typically 1 h), Am is the effective membrane area, and Ct and Vt are the NaCl concentration and volume of the feed solution after the FO test, respectively. The NaCl concentration Ct is determined based on the correlation between ion conductivity and NaCl concentration.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Experimental",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.9. Membrane transport characteristics\nThe intrinsic separation parameters, including water permeability (A, LMH/bar), salt rejection (Rs, %), and salt permeability (B, LMH), are assessed using a dead-end RO setup. RO tests on the TFC membranes are conducted at 5 bar and room temperature, with an effective membrane area of 3.14 cm2. DI water and a 1000 ppm NaCl solution are used to determine A and B values, respectively, applying the following equations: J = ΔV/(Am × Δt × ΔP), (1-Rs)/Rs = B/[A(ΔP-Δπ)], RNaCl = (1 - Cp/Cf) × 100. Here, Cf and Cp are the salt concentrations in the feed and permeate solutions, respectively, and Δπ is the osmotic pressure difference. To better compare membrane performance under FO conditions, the S values are determined using: S = (Ds/JV) ln[(AπD + B)/(AπF + JV + B)], where Ds is the diffusion coefficient of salt in water (1.61 × 10-9 m2 s-1 at 25 °C), πf and πd are the osmotic pressures of the feed and draw solutions, respectively, and Jv is the water flux.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Experimental",
+      "pages": [4, 5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.10. Pure water permeability measurement of substrates\nThe pure water permeability (PWP) of the sublayers is measured using a custom-built cross-flow permeation cell with an effective membrane area of 4.9 cm2. All measurements are conducted at room temperature under an applied pressure of 2.0 bar. The PWP values are calculated using the following equation: PWP = V/(Am × Δt), where V is the volume of permeate water (L), Am is the membrane area (m2), and Δt is the permeation time (h). The average pore radius (rp, nm) of the sublayers is then determined using the Guerout-Elford-Ferry equation.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Experimental",
+      "pages": [5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.11. Characterizations\n2.11.1. Polymer and copolymer characterization\nThe chemical compositions of PHEMA, PSf-CH2Cl, PSf-CH2N3, and PSf-g-PHEMA are analyzed by attenuated total reflectance-Fourier transform infrared spectroscopy (ATR-FTIR, Jasco 4700, Japan). The chemical structures of the synthesized polymer and copolymer are further confirmed using proton nuclear magnetic resonance (1H NMR, Bruker Avance DSX 400). Thermal stability of the PSf-g-PHEMA copolymer is evaluated under an inert atmosphere at a heating rate of 10 °C/min using a Q600 thermogravimetric analyzer (TGA, TA Instruments, USA).\n2.11.2. Membrane characterization\nField emission scanning electron microscopy (FESEM, Apreo S LoVac system from Thermo Fisher Scientific) is employed to observe the surface morphology of the top and bottom surfaces, as well as the cross-sectional structure, of the fabricated sublayers and the PA top surface of the TFC-FO membranes. Before SEM imaging, the membranes were coated with a thin layer of gold to induce the conductivity properties. To survey the cross-sectional morphology of the membranes, the membrane was soaked in ultra-pure ethanol and then fractured in liquid nitrogen. The chemical compositions of both the sublayers and the PA active layers are analyzed using ATR-FTIR spectroscopy (Jasco 4700, Japan).",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Experimental",
+      "pages": [5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The surface topology of the PSf-based sublayers (top and bottom surfaces) and the PA active layers is investigated using atomic force microscopy (AFM, Asylum Research, Oxford Instruments), operated in tapping mode. Surface roughness (Ra, nm) is quantified through analysis with Gwyddion software. The surface chemical composition of sublayers and TFC-FO samples, as well as the crosslinking density (CD, %) of the PA active layers, is determined using X-ray photoelectron spectroscopy (XPS), with a Versa Probe II by Ulvac-Phi as the instrument. The photon source used is the Al-Kα X-ray at 1486.7 eV. During measurement, dual-beam charge compensation with electrons and slow-moving ions is employed. CD (%) is calculated as m/(m+n) × 100, where m and n represent the fractions of crosslinked and linear segments, respectively. Surface wettability is assessed by measuring the water contact angle (WCA) using a CAG-20 SE goniometer (JIKAN, Iran). In this test, a 1.0 μL drop of DI water is placed at five different locations on the dry membrane surface, and the average contact angle is reported as the membrane's hydrophilicity indicator. The sublayer porosities are estimated using the gravimetric method.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Experimental",
+      "pages": [5, 6]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Results and discussion\n3.1. Chemical composition of PSf-g-PHEMA copolymer\nThe amphiphilic graft copolymer is synthesized via a click reaction between the alkyne-terminated PHEMA, serving as the hydrophilic part, and the azide-functionalized PSf, serving as the hydrophobic part. ATR-FTIR spectroscopy is used to investigate the chemical structures of the synthesized polymers. All samples, except the PHEMA homopolymer, exhibited characteristic absorption bands of the PSf at 1583 and 1490 cm-1 (skeletal vibrations of the benzene ring), 1294 cm-1 (asymmetric stretching of the O=S=O bond), 1234 cm-1 (antisymmetric vibration of C–O–C), and 1382 cm-1 (bending vibration of –CH3) [28]. A new peak at 2110 cm-1 was observed in the spectrum of PSf–CH2–N3, attributed to the stretching vibration of the –N3 group, confirming the success of the azidation reaction [29]. The PHEMA homopolymer characteristic absorption peaks are observed at around 3374 cm-1 (O–H stretching), 2900 cm-1 (aliphatic –CH2 stretching), 1720 cm-1 (C=O stretching from ester groups), and 1450 cm-1 (-CH bending) [30]. In the graft copolymer, the appearance of a strong band at 1720 cm-1, attributed to ester C=O stretching, and a broad absorption around 3400 cm-1, ascribed to –OH stretching, provides strong evidence for the successful synthesis of the amphiphilic graft copolymer.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [6]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The chemical structures of the synthesized graft copolymer and its intermediates were confirmed by 1H NMR spectroscopy (Supporting Information Figs. S1–S5). In the spectrum of PSf, a characteristic signal was observed at 1.71 ppm, corresponding to the aliphatic –CH3 groups, while the aromatic protons (Ar–H) appeared in the range of 7–8 ppm. After the chloromethylation reaction, a new peak at 4.56 ppm was observed, attributed to the –CH2Cl groups. The degree of substitution based on the integral ratio of the –CH2Cl and the –CH3 peak is calculated to be approximately 5 %. After azidation, this peak shifted completely to 4.30 ppm, indicating the formation of –CH2N3 groups. The spectrum of PHEMA exhibited different peaks at 1.86 ppm (backbone –CH2), 0.93 ppm (-CH3), 3.60 and 3.90 ppm (-CH2 of pendant hydroxyethyl group). The degree of polymerization (DP) is calculated to be 35, based on the integration of the initiator signal at 4.67 ppm (HC≡C–CH2–O) relative to the –CH2 peak at 3.90 ppm. The characteristic peaks of both PSf and PHEMA are visible in the spectrum of the graft copolymer, indicating the successful grafting of PHEMA onto the PSf backbone. PHEMA content was determined by comparing the integrated peaks of the PHEMA segment, such as the -O–CH2– protons around 4.0 ppm, with those of the PSf segment, which display the –CH3 protons at 1.7 ppm. This method resulted in a PHEMA content of 34 % by weight. Based on the degree of substitution of PSf-N3 (5 %) and the DP of PHEMA (35), the grafted weight of PHEMA for an entirely successful click reaction is estimated to be approximately 39 %. This corresponds to an efficiency of the click coupling of 87 %. Overall, these results confirm the successful synthesis of the amphiphilic PSf-g-PHEMA graft copolymer.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [6]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Thermal stability of the PSf-g-PHEMA copolymer\nThe thermal stability of the PSf-g-PHEMA copolymer is studied using TGA under an inert atmosphere, from 25 to 800 °C. The first weight loss observed below 100 °C is attributed to the evaporation of physically absorbed water. The PSf exhibits high thermal stability, with significant weight loss at around 500 °C, attributed to degradation of the polymer backbone [28]. In contrast, the PSf-g-PHEMA copolymer exhibits significant weight loss between 284 and 450 °C, corresponding to the thermal decomposition of the grafted PHEMA chains [31]. Based on the TGA data, the content of grafted PHEMA in the PSf-g-PHEMA copolymer is estimated to be approximately 30 wt%, corresponding to an actual click reaction efficiency of around 80 %. The good agreement between the PHEMA content values obtained from two fundamentally different methods (34 wt% from NMR versus 30 wt% from TGA) provides solid and mutually confirming evidence of the copolymer composition.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [6, 7]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Impact of PSf-g-PHEMA copolymer on substrate properties\nChemical composition: The chemical composition of the sublayer significantly influences its surface hydrophilicity, which in turn impacts the formation of the PA active layer. ATR-FTIR spectra of the fabricated sublayers show that in the sublayers modified with PSf-g-PHEMA, a new band was observed at 1724 cm-1, attributed to the C=O stretching vibration of the PHEMA segment in the graft copolymer. In addition, the intensity of this peak increases with a rise of PSf-g-PHEMA content in the sublayer, confirming the successful incorporation of the graft copolymer into the PSf matrix. In addition to ATR-FTIR characterization, XPS analysis was used to determine the surface chemical composition of the fabricated sublayers (PSf-PH5 and PSf-PH15 as representative examples). Based on the XPS results (Table S1), the oxygen-to-carbon (O/C) ratio was 0.17 for the PSf-PH5 sublayer, increasing to 0.22 for the PSf-PH15 sublayer. The rise in the O/C ratio clearly indicates a higher surface concentration of oxygen-containing functional groups in the PSf-PH15 sublayer. Since the PHEMA segment of the PSf-g-PHEMA copolymer is rich in hydroxyl (-OH) groups, the higher O/C ratio indicates a greater presence of the PSf-g-PHEMA copolymer on the surface of the PSf-PH15 sublayer compared to the PSf-PH5 sublayer.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [7, 8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Surface hydrophilicity: The hydrophilicity of the sublayer plays a significant role in enhancing the PWP of the membrane and the formation of a uniform PA active layer [32]. WCA measurements were used to evaluate the surface hydrophilicity of PSf and PSf-g-PHEMA-modified sublayers. The pristine PSf sublayer exhibits the highest WCA, owing to its inherent hydrophobicity. Sublayers modified with PSf-g-PHEMA show significantly lower WCA values. This reduction is attributed to the presence of hydrophilic hydroxyl groups introduced by the PHEMA moieties in the graft copolymer [33,31]. As the PSf-g-PHEMA content increased, a lower WCA was observed in the modified sublayer, indicating a direct correlation between the copolymer content and hydrophilicity. During the NIPS process, the hydrophilic segments of the graft copolymer migrate to the surface of the sublayer, resulting in a hydrophilic interface that enhances wettability [34]. Meanwhile, the hydrophobic segments of PSf-g-PHEMA improve compatibility with the PSf matrix. This dual functionality allows the amphiphilic graft copolymer to effectively tailor surface properties while preserving the bulk characteristics of the sublayer, thereby contributing to the formation of high-performance sublayers.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Porosity and mean pore sizes: In the FO process, ICP mainly occurs within the sublayer of TFC membranes. Therefore, based on the S parameter equation, the porosity of the sublayer is a prominent factor that should be optimized [18]. The impact of PSf-g-PHEMA blending on sublayer porosity is assessed using the gravimetric method, and the results are presented in Fig. 6(b). The porosity increased from 75.9 % for pristine PSf to 85.6 % for the PSf-PH15 sublayer. The average pore sizes of the sublayers are also calculated using the Guerout-Elford-Ferry equation [25]. As shown in Fig. 6(c), the average pore sizes for the PSf, PSf-PH5, PSf-PH10, and PSf-PH15 sublayers are found to be 13.6 nm, 16.8 nm, 21.4 nm, and 21.7 nm, respectively. These results indicate that incorporating PSf-g-PHEMA into the PSf matrix increases the porosity and mean surface pore size of the sublayers. These enhancements are mainly attributed to the impact of the PSf-g-PHEMA copolymer on the NIPS rate. Specifically, the hydrophilic segment in PSf-g-PHEMA slows down the NIPS process by enhancing the affinity between the casting solution and water. This increased affinity results in delayed demixing, which allows for more gradual and controlled pore development [35]. Consequently, the resulting membrane structure exhibits higher porosity. These findings are consistent with prior studies, which have shown that blending hydrophilic polymers, such as sulfonated polysulfone (SPSU), into hydrophobic matrices, like PSf or poly(vinyl chloride) (PVC), can significantly enhance porosity and pore connectivity [23,36].",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [8, 9]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Water permeability: The PWP of the sublayers is evaluated using a cross-flow filtration setup. As shown in Fig. 6(d), the PWP enhanced significantly from 77.1 LMH/bar in the pristine PSf to 233.5 LMH/bar in the PSf-PH15 sample. The significant improvement in PWP can be attributed to the following synergistic effects: (1) Structural optimization: the modified sublayers exhibit a prominent finger-like morphology, as shown in the SEM images, which effectively shortens the water transport pathway [37]. (2) Increased porosity and pore size: the PSf-g-PHEMA-modified sublayers demonstrate higher porosity and larger average pore size, facilitating water passage through more open and interconnected channels [38]. These structural modifications enhance the water transport properties of the PSf-g-PHEMA blended sublayers, making them more suitable for the preparation of high-performance TFC-FO membranes.\nMorphology: The morphology of the sublayers, including their top surface, bottom surface, and cross-sectional morphology, is analyzed using SEM images. Cross-sectional images reveal that all sublayers exhibit an asymmetric structure, a characteristic of the NIPS process. However, blending the PSf-g-PHEMA copolymer with the PSf polymer significantly altered the sublayer morphology. The bare PSf sample exhibits a lanky finger-like morphology. In the PSf-g-PHEMA modified sublayers, the finger-like pores enlarge significantly and become straighter, with more interconnected structures. This enhancement confirms the observed increase in sublayer porosity, showing that PSf-g-PHEMA modification effectively enhances the porous structure. These morphological changes can be attributed to the reduced NIPS rate during sublayer fabrication [28]. According to Blanco's theory, a slower NIPS rate facilitates the extended growth and coalescence of the polymer-lean phase, resulting in larger finger-like pores and a more interconnected pore network [39].",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [9]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "SEM images indicate that the top surface of all sublayers is denser than the bottom, a common characteristic of membranes produced via the NIPS method. SEM images show that these top surfaces are free of fractures or defects, suggesting that incorporating the PSf-g-PHEMA copolymer does not compromise surface integrity. Compared to the unmodified PSf sublayer, the top surface of the modified sublayer with PSf-g-PHEMA displays numerous pores. This morphological change is likely due to increased hydrophilicity of the casting solution, conferred by the amphiphilic PSf-g-PHEMA copolymer. The hydrophilic segments of the copolymer reduce the NIPS rate, encouraging the formation of a more porous structure on the sublayer's top surface [40]. In the FO process, the bottom side of the membrane plays a crucial role as it directly affects solute diffusion from the DS side into the sublayer pores. Therefore, understanding the morphology of the bottom layer is essential. SEM analysis reveals that the bottom surfaces of the sublayers are porous, characterized by numerous well-defined macropores, in contrast to the dense top layer. The bare PSf sublayer exhibits the lowest porosity and the sparsest pore distribution. However, as the content of PSf-g-PHEMA copolymer increases, both the pore size and pore distribution on the modified sublayer become larger and more uniform. The PSf-PH15 sublayer has the highest porosity, along with a more uniform pore structure. Enhanced porosity on the bottom surface improves membrane performance by decreasing mass transfer resistance, effectively reducing ICP and increasing water flux.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [9, 10]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Bottom and top surface roughness: The surface roughness of the sublayers' top and bottom surfaces is measured using AFM, with images taken at specific scan sizes of 10 μm × 10 μm (bottom surface) and 30 μm × 30 μm (top surface). The results indicate that the Ra values of both surfaces increase with a rise in PSf-g-PHEMA copolymer content, which is attributed to the increased number and size of pores on these surfaces [25]. Additionally, the bottom surfaces exhibit greater roughness than the top surfaces, owing to the larger pore sizes on the bottom side of the sublayers. In summary, the characterization of the sublayer's physicochemical properties and morphology reveals that incorporating the PSf-g-PHEMA copolymer can (1) improve surface wettability and porosity, (2) enlarge pore size and enhance pore distribution on the sublayer's bottom surface, (3) optimize the cross-sectional morphology, and (4) improve the interconnection of pores within the sublayer bulk. These modifications, caused by the PSf-g-PHEMA copolymer, can effectively reduce ICP during the FO process, thereby greatly enhancing membrane separation performance.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [10]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.4. Characterization of TFC membranes: effect of graft copolymer on PA layer synthesis\nSurface functional group: The chemical functional groups on the TFC-FO membranes are analyzed using ATR-FTIR spectroscopy. The ATR-FTIR results show all characteristic peaks related to the PSf sublayer, indicating that the IR beam penetration depth exceeds the thickness of the PA active layer. In addition to the PSf characteristics peaks, three new peaks can be seen in the TFC-FO membrane spectra. These peaks, observed at 1608, 1539, and 1659 cm-1, correspond to the C=O stretching vibration, in-plane N–H bending, and amide I C=O stretching vibration, respectively, confirming the successful formation of the PA active layer [41].\nPA layer morphology: FE-SEM analysis shows a rough surface with ridge-and-valley morphology for the unmodified TFC membrane. In contrast, the PSf-g-PHEMA-modified membranes (TFC-PH5 and TFC-PH10) display a smoother, nodular-like morphology. However, with further increases in copolymer content (TFC-PH15), the ridge-and-valley structure reappears. These morphological changes are primarily caused by differences in sublayer properties, especially porosity and surface hydrophilicity, which play a crucial role in the formation of the PA layer [42].",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [10, 11]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "During IP, MPD molecules diffuse from the aqueous phase toward the organic phase and react with TMC to form the PA layer. The diffusion rate of MPD significantly affects the surface roughness of the PA layer: faster diffusion leads to a rougher morphology, while slower diffusion results in a smoother surface [43]. Typically, a sublayer with smaller surface pores restricts MPD diffusion, slowing the IP reaction and producing a smoother PA layer. Conversely, a sublayer with a larger surface pore size improves MPD diffusion, thereby increasing the IP reaction rate and surface roughness [44]. It is worth noting that the surface hydrophilicity also controls the monomer diffusion. In modified sublayers, the –OH groups of the PSf-g-PHEMA copolymer form hydrogen bonds with the –NH2 groups of MPD, thereby hindering MPD migration into the organic phase. This interaction slows the IP process, resulting in a thinner and smoother PA layer [45]. For the TFC-PH5 and TFC-PH10 membranes, although the surface pore size increases, the enhanced hydrophilicity is dominant and restricts the diffusion of MPD monomers, resulting in smoother PA layers. However, the TFC-PH15 membrane exhibits increased surface roughness, suggesting that porosity effects can dominate over hydrophilicity. This observation highlights the complex interplay between hydrophilicity and pore size in determining the morphology of the PA layer during the IP process.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [11]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "AFM characterization is performed to further examine the impact of PSf-g-PHEMA copolymer on the roughness of the PA layer. Based on the Ra values, the surfaces of the copolymer-modified TFC membranes become rough. The average Ra values for the TFC, TFC-PH5, TFC-PH10, and TFC-PH15 membranes are 95.6, 73.8, 65.4, and 88.3 nm, respectively. These differences in surface roughness arise from variations in surface hydrophilicity and porosity between the bare PSf and the PSf-g-PHEMA blended sublayers, which ultimately affect the morphology of the PA active layer. This study used the cross-sectional SEM images to assess PA thickness obtained during the IP process. Data show that adding the PSf-g-PHEMA copolymer significantly reduced the PA layer thickness. The active layer thicknesses for the TFC, TFC-PH5, TFC-PH10, and TFC-PH15 membranes were approximately 367 ± 31 μm, 274 ± 25 μm, 175 ± 20 μm, and 397 ± 140 μm, respectively. This decreasing trend up to TFC-PH10 is directly related to the amphiphilic PSf-g-PHEMA copolymer's role in controlling the IP reaction. The hydrophilic PHEMA segments affect the rate at which the aqueous monomer (MPD) diffuses into the organic phase. A slower diffusion rate promotes a more controlled, less turbulent interface reaction, resulting in a thinner and smoother PA active layer [32].",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [11]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "That the morphology and thickness for TFC-PH15 do not follow the trend and are actually similar to TFC points to another effect of the incorporated PHEMA segments. PHEMA forms strong hydrogen bonds with water molecules, thus the PSf-g-PHEMA modified sublayer can also retain a significant amount of water on its surface. Water can participate in interfacial reaction with TMC and thus compete with MPD. Although the high concentration of the aqueous solution yields a high MPD concentration at the membrane surface, a higher content of PHEMA (as proved by XPS) more restricts the diffusion of MPD by hydrogen bonding. For low PHEMA content this effect is dominating. For high PHEMA content, the competition of water with MPD in the reaction with TMC is dominating, causing the nascent PA film to form more loosely so that more amine monomer can diffuse, leading to a rougher, thick PA layer. In addition, as shown by sublayer AFM images, the PSf-PH15 has higher surface roughness than the other substrates. The increased surface roughness enlarges the reaction interface, thereby increasing monomer diffusion. However, due to the high PHEMA content, which led to high water adsorption, water molecules also participate in the reaction with TMC, resulting in decreased PA crosslinking density.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [11]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The WCA values of the TFC-FO membranes show a significant increase in surface hydrophilicity as the PSf-g-PHEMA content in the sublayers increases. The measured WCA for the TFC, TFC-PH5, TFC-PH10, and TFC-PH15 membranes were 68°, 64°, 59°, and 60°, respectively. This consistent decrease in WCA values results from chemical changes in the structure of the PA layer. As evoked above, PSf-g-PHEMA amphiphilic copolymer on the sublayer surface promotes hydrogen bonding with MPD slowing down its diffusion toward the organic phase. As a result, the restricted migration of MPD in the reaction zone increases the number of unreacted acyl chloride groups of TMC in the formed PA layer. These excess acyl chloride groups are then hydrolyzed when exposed to water, converting into hydrophilic carboxylic acid (-COOH) groups. The increased –COOH groups on the PA surface significantly enhance surface hydrophilicity [18,46,47]. XPS characterization was used to determine the cross-linking density (CD) of the PA active layer, a key factor affecting the salt rejection ability of TFC-FO membranes. The results indicated a significant decrease in the CD values from 98 % for the pristine TFC membrane to 87 % for the TFC-PH15 membrane modified with 15 wt% PSf-g-PHEMA copolymer in the sublayer. This decrease in CD value is likely due to the disruptive effect of the PSf-g-PHEMA copolymer during the IP reaction between MPD and TMC discussed above.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [11]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "To sum up, the PHEMA segments within the PSf-g-PHEMA amphiphilic copolymer are highly hydrophilic and therefore interact with MPD and water. Increasing PHEMA content at the sublayer surface has two effects. On the one hand, it causes reduced MPD diffusion rate leading to smoother and thinner PA layers; TFC-PH10 membrane has the lowest values. The PA cross-linking density will also be reduced. On the other hand, PHEMA segments can retain a significant amount of water. This leads to a competition with MPD yielding a PA with lower cross-linking density and higher carboxyl content [48], and the change of IP conditions will also yield rougher and thicker PA layers, as observed for TFC-PH15 membrane.\n3.5. Assessment of the intrinsic properties of TFC membranes\nThe intrinsic properties of the TFC membranes are evaluated using an RO system. The A value significantly increased from 1.2 LMH/bar for the unmodified TFC membrane to 2.6 LMH/bar for TFC-PH10. This improvement can be attributed to: (1) the formation of a thinner PA active layer, which reduces mass transfer resistance, and (2) morphological changes in the sublayer, including increased porosity, enhanced hydrophilicity, and better pore structure, which enable more efficient water transport. The salt rejection is another key parameter of membrane performance. There is a slight decrease in Rs from 95.2 ± 0.82 % in the unmodified TFC membrane to 94.8 ± 0.64 % and 94.3 ± 0.32 % for the TFC-PH5 and TFC-PH10 membranes, respectively. This reduction shows the typical trade-off between water permeability and salt rejection. A significant drop in salt rejection is observed with the TFC-PH15 membrane (90.2 %), likely due to a reduced crosslinking degree in the PA rejection layer.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [11, 12]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The S value of TFC-FO membranes indicates the level of ICP, with higher values signifying more severe ICP phenomena [49]. This parameter depends on the physical properties of the sublayer, including porosity (ε), thickness (l), and tortuosity (τ), according to equation (1). Therefore, reducing the S value is crucial in membrane design, as it helps reduce ICP effects and increase water flux, thereby improving overall performance. The data in Table 3 shows that the TFC membrane has the highest S value at 1965 μm, followed by TFC-PH5 at 1026 μm, TFC-PH15 at 741 μm, and TFC-PH10 at 478 μm. These results suggest that the unmodified TFC membrane is highly vulnerable to significant ICP, which could significantly impair its FO performance. Meanwhile, adding the PSf-g-PHEMA amphiphilic copolymer to the porous PSf sublayer considerably lowers the S parameter. The largest decrease was observed with a 10 wt% copolymer addition (TFC-PH10). This enhancement results from the synergistic effects of PSf-g-PHEMA modification. The copolymer enhances membrane hydrophilicity, boosts porosity, and forms more interconnected finger-like pores. These morphological and physicochemical improvements collectively reduce mass transfer resistance in the sublayer, effectively suppressing ICP and enhancing FO performance.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [12, 13]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.6. FO performance\nThe FO performance of the membranes as a function of PSf-g-PHEMA copolymer content shows that the unmodified TFC membrane exhibits a relatively low water flux of 10.1 LMH in the PRO mode and 5.8 LMH in the FO mode, with reverse salt fluxes of 3.4 and 1.6 gMH in the PRO and FO modes, respectively. However, all PSf-g-PHEMA-modified TFC-FO membranes exhibit enhanced water flux under both operating modes. As the copolymer concentration increases, water flux rises and reaches a maximum at 10 wt% PSf-g-PHEMA with values of 34.5 LMH (PRO) and 19.4 LMH (FO). This enhancement is attributed to improved active layer permeability and reduced ICP. The thin PA layer formed on the modified sublayers reduces mass transfer resistance, thereby facilitating water transport. Ultimately, the combined enhancements in sublayer morphology and PA layer properties synergistically improve the water flux performance of TFC-FO membranes. Unlike in the RO process, the support layer plays a crucial role in enhancing water flux in FO applications. Notably, the 334 % increase in Jw value is substantially larger than the 208 % improvement in A value, highlighting the substantial impact of reduced ICP in the sublayer. However, when the PSf-g-PHEMA content is increased from 10 to 15 wt%, a decline in water flux and a rise in reverse salt flux are observed. This phenomenon can be attributed to structural defects in the PA selective layer, which increase salt passage and thereby intensify the ICP.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [13]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Membrane orientation significantly influences FO performance because of the different ICP levels in FO and PRO modes. In FO mode, the sublayer faces the DS, where the draw solute must diffuse through the sublayer to provide an osmotic pressure gradient across the active layer. Due to limited diffusion and dilution by the permeated water from the FS side, the DS concentration within the sublayer pores is lower than in the bulk DS. The resulting concentration gradient reduces the effective osmotic driving force, thereby decreasing water flux. In contrast, in PRO mode, the sublayer is placed in contact with the FS. Here, concentrative ICP occurs as the reverse salt flux increases, thereby raising the solute concentration within the sublayer. Although this also diminishes the effective driving force, it does so to a lesser extent than dilutive ICP. As a result, PRO mode generally provides higher water flux than FO mode, due to the enhanced effective osmotic gradient across the active layer.\nThe Js trend of TFC-FO membranes as a function of PSf-g-PHEMA copolymer content shows that Js increases with Jw, reflecting the typical trade-off in membrane processes, where improved water permeability is associated with increased salt flux. For TFC-PH5 and TFC-PH10, the increase in Js is gradual. However, a noticeable rise is observed in TFC-PH15, which is attributed to structural defects in the PA selective layer. To accurately evaluate membrane efficiency, the specific salt flux (Js/Jw), which represents the ratio of solute to water flux, was measured. A lower Js/Jw value indicates improved membrane performance. The results show the specific salt flux of 0.21/0.34 for TFC, 0.25/0.29 for TFC-PH5, 0.16/0.18 for TFC-PH10, and 0.46/0.43 for TFC-PH15 FO/PRO modes. These results suggest that TFC-PH10 offers the best trade-off between permeability and selectivity, with the lowest Js/Jw values.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [13]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 13(a) illustrates the FO performance of the TFC and TFC-PH10 membranes as a function of DS concentration. Both membranes exhibit an increase in Jw with rising DS concentration. Notably, the TFC-PH10 membrane shows a significantly greater enhancement in Jw, with increases of 92 % in FO mode and 161 % in PRO mode as the DS concentration increases from 0.5 M to 2.0 M. In comparison, the TFC membrane shows a smaller improvement, with Jw rising by only 60 % in FO mode and 75 % in PRO mode. The incorporation of the PSf-g-PHEMA copolymer leads to a more hydrophilic and porous sublayer, which significantly reduces ICP. Therefore, the TFC-PH10 membrane can utilize the osmotic pressure gradient created by the DS more effectively, resulting in increased water flux across the membrane. In contrast, the unmodified TFC membrane, with its less porous and less hydrophilic sublayer, experiences more severe ICP. This reduces the effective osmotic driving force and, therefore, limits the increase in Jw, even as the DS concentration rises.\nLong-term Stability of the Modified Membranes: The performance of the optimized TFC-PH10 membrane was tested in the FO system over 48 h following 30 days of immersion in water. The water flux and reverse salt flux data of the best-performing TFC-PH10 membrane showed that after 30 days of immersion in pure water, there were no significant changes in either flux. This stability was attributed to two main factors: good compatibility between the PSf segment of PSf-g-PHEMA and the PSf, and the unique structure of the comb-shaped block polymer, which promoted effective chain entanglement between PSf-g-PHEMA and PSf.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [13, 14]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Conclusion\nIn this study, an amphiphilic PSf-g-PHEMA copolymer is successfully synthesized via a combination of ATRP and click reaction and used to modify the PSf sublayers of TFC-FO membranes. The incorporation of PSf-g-PHEMA significantly impacts both the sublayer and the PA layer characteristics of the TFC membranes. Modification of the sublayer results in increased porosity and hydrophilicity, alongside the development of more extensive finger-like pore structures, which effectively reduce ICP. For the PA layer, the incorporation of copolymer leads to a thinner layer with enhanced water permeability, while salt rejection remains largely unaffected. The TFC-PH10 membrane demonstrates superior FO performance, achieving a maximum Jw of 19.4 LMH (FO mode) and 34.5 LMH (PRO mode), coupled with low specific salt flux values (Js/Jw) of 0.16 (FO) and 0.18 (PRO), using DI water as the FS and 1.0 M NaCl as the DS. Structural parameter analysis reveals a marked reduction in the S value to 478 μm for TFC-PH10 compared to 1965 μm for the unmodified membrane, confirming the effective mitigation of ICP. Overall, these results highlight the PSf-g-PHEMA copolymer as an effective modifier for enhancing the structural and functional performance of TFC-FO membranes.",
+    "citation": {
+      "authors": ["Reza Razavi", "Alireza Shakeri", "Hasan Salehi", "Anupam Das", "Mathias Ulbricht", "Amir Jangizehi", "Sebastian Seiffert"],
+      "paper_id": "1-s2.0-S037673882501230X-main",
+      "title": "Mitigating internal concentration polarization in forward osmosis membranes via PSf-g-PHEMA amphiphilic graft copolymer-modified sublayer",
+      "year": 2026,
+      "section": "Conclusion",
+      "pages": [14]
+    },
+    "type": "chunk"
+  }
+]

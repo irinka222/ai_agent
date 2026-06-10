@@ -1,0 +1,1180 @@
+[
+  {
+    "content": "Revisiting the distinct concepts of critical flux and threshold flux Robert W. Field a,* , Jun Jie Wu b, A.G. Fane c a University of Oxford, Department of Engineering Science, Parks Road, Oxford, OX1 3PJ, UKb Aston University, College of Engineering and Physical Sciences, Birmingham, B4 7ET, UKc UNESCO Centre for Membrane Science and Technology, University of New South Wales, 2052 Sydney, NSW, Australia",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Classically the fouling of membranes has been categorised into four modes. Apart from the pore filling mode, the other three seek to model surface fouling be it the foundational layer on the membrane itself or the cake layer that may or may not be built up upon the initial layer. The assumptions are rigorously and critically reexamined. With more realistic assumptions, a new expression is derived for the foundational layer for both constant flux and constant pressure operation. Herein the virtues of assessing the evolution of overall resistance with time is emphasised and the usefulness of examining the evolution of resistance with respect to volume collected is illustrated with data from Membrane Bioreactors. Threshold flux is best defined with respect to rates of fouling and is the flux for a particular operation at which or below which a low and near constant rate of fouling occurs, but above which the rate of fouling increases markedly. When quoting a value for threshold flux, the length of operating is highly relevant. The definition for critical flux (strong form) remains as the flux at which the transmembrane pressure starts to deviate from the pure water line, i.e. the total resistance is identical to Rm, the resistance of the clean membrane. For the weak form, there is the assumption that following very modest rapid fouling on start-up, the flux–TMP relationship remains linear until the critical flux (weak form) is exceeded.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Membrane fouling is closely related to the concept of critical flux. Therefore, an examination of fouling models is necessary before we revisit the concepts of critical flux and threshold flux. Whilst originally introduced for constant pressure operation the concept of critical flux has more recently been found to be applicable to constant flux albeit under idealised conditions. Why this observation was made only rela­tively recently is a question that will be answered later. First it is observed that a JMS review paper in 2006 noted that over the previous ten years the literature had come to contain “many usages of the term “critical flux”, each constructed in order to satisfy a particular view of the author(s)” [1]. Believing that the idea had value (a view which we would endorse) they paraphrased Samuel Butler1 (1835–1902) by noting that “we must recognise that there is an idea, which is to be brought out of the wilderness and secured”. They went on to say that it is time to disentangle various concepts that have arisen around the critical flux postulate and repair the wall of its definition. Now 20 years on our aims are in part to perform a similar function and include a review of the concept of threshold flux that was introduced, in the context of fouling rates, a few years later by Field and Pearce [2]. Additionally the opportunity to revisit the fundamentals underlying Hermia’s models [3], which were adapted for crossflow filtration by",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Field et al. [4], has led to a more physically realistic expression for the initial foulant layer on the membrane surface together with further clarification of the critical flux concept. In contrast to Hermia’s assumption, the new expression does not assume that a layer of partic­ulate foulant completely prevents any flow through the projected area underneath the particles. The new model is labelled as a hindrance model, because the flow into the pores is hampered i.e. impeded. Section 3 includes derivations of the hindrance model for both constant flux and constant pressure operation. In advance of presenting the new work, a brief summary of the key expressions, which have been developed over the last 30+ years, is provided. At the outset a physical basis as to why there is a critical flux is revisited. In 1995, the first of two key papers to define the critical flux concept were published. Bacchin et al. [5] proposed a model that balanced surface interaction, diffusion and convection. This gave a physical explanation for the “colloid flux paradox”. Due consideration of other transport phenomena such as diffusion, shear induced diffusion and lateral migration had suggested that the flux of colloidal suspen­sions (particle size between 10 nm and 10 μm) is surprisingly high; hence the use of the word ‘paradox’. See Fig. 1.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "that the flux of colloidal suspen­sions (particle size between 10 nm and 10 μm) is surprisingly high; hence the use of the word ‘paradox’. See Fig. 1. This work suggested that the critical flux is the flux below which particle repulsion is sufficient to avoid accumulation on the membrane surface and above which the repulsion is insufficient and as a result coagulation on the surface occurs.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "* Corresponding author.E-mail address: robert.field@eng.ox.ac.uk (R.W. Field). 1 There was a typographical error and the surname was mistakenly spelt as Baker.\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 741 (2026) 124961\n\nAvailable online 17 November 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ).",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Although restricted to the filtration of colloidal systems, this definition has the clear merit of being linked to a physical mechanism and the “criticality” is the point at which the repulsive barrier is overcome. Although the second paper [4] took a purely empirical approach with regard to physical mechanisms, it included a mathematical analysis for constant pressure crossflow filtration, building upon the prior work of others [3,6] and the critical flux was defined as the “flux below which a decline of flux with time does not occur; above it fouling is observed”. Subsequently Field and Wu [7] introduced a set of equations explicitly linking the removal term to shear stress. As shown in Fig. 2, two distinct forms of critical flux were envisaged. The strong form of the critical flux is the flux at which the trans­membrane pressure starts to deviate from the pure water line, i.e. up until that point the relationship between flux and transmembrane pressure is not only linear but the gradient is the same as one would have for pure water and thus equivalent to Rm, the resistance of the clean membrane. For the weak form, there is the assumption that there is very modest rapid fouling on start-up and so the flux–TMP relationship is linear but below that of the pure water line. When concluding their JMS review paper on critical and sustainable fluxes Bacchin et al.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "relationship is linear but below that of the pure water line. When concluding their JMS review paper on critical and sustainable fluxes Bacchin et al. [1] observed that in addition to the original forms of critical flux, which were labelled as Jcs and Jcw a third usage, which was labelled as the critical flux for irreversibility Jci had arisen. Now twenty years later the third form might be beneficially linked to the concept of threshold flux in order to retain clarity of definition for the critical flux concept. They also noted that the strong form and weak form of the critical flux, Jcs and Jcw, must be evaluated via a check on whether or not the overall resis­tance has remained invariant. Herein a more general emphasis is placed upon the utility of examining resistance. The applicability of the critical flux theory or at least its ethos has been extended from microfiltration to ultrafiltration and nanofiltration. Indeed, one of us recalls that in the early 2000’s that an industrial consultant specialising in seawater desalination found the concept of a “critical” flux extremely useful. Whilst the concept of a true critical flux is only applicable when a true steady state is established, such as in a laboratory test cell operating under crossflow conditions, the concept of a threshold is crucial to understanding membrane operation in practice. For example, in the application of UF membranes in the water industry, dead-end (direct-flow) designs are used – see Fig. 3.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ne operation in practice. For example, in the application of UF membranes in the water industry, dead-end (direct-flow) designs are used – see Fig. 3. However direct-flow is a pseudo steady-state operation with different fouling characteristics to crossflow, and thus the critical flux concept has limited applicability for membrane modules which operate in this manner. Field and Pearce [2] introduced the concept of a threshold flux as that flux at or below which a low and near constant rate of fouling occurs but above which the rate of fouling occurs markedly. Although introduced with direct-flow systems to the fore, the concept of threshold flux can also be applicable to crossflow systems. In general terms the threshold flux can be taken to be the flux that divides a low fouling region from a high fouling region. It is linked to the concept of a sustainable flux which is the flux at which a modest degree of fouling occurs, providing a compromise between capital expenditure (which is reduced by using higher flux) and operating costs (which are reduced by restricting the fouling rate). Whilst the threshold flux can potentially be linked to physical phenomena alone, the sustainable flux also depends upon economic factors, such as local energy costs and land values etc, and is thus of a different nature to critical and threshold fluxes. The distinction between sustainable and threshold fluxes was expounded and illustrated elsewhere [2] but will not be discussed herein. 2.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "hold fluxes. The distinction between sustainable and threshold fluxes was expounded and illustrated elsewhere [2] but will not be discussed herein. 2. Insights from classical modelling of membrane fouling 2.1. General remarks regarding constant pressure operation It is instructive to revisit, for constant pressure operation, the deri­vation of the complete pore blocking and intermediate pore blocking models under crossflow conditions. Those interested in the details may wish to view Table A1 in the Appendix; it provides three sets of ex­pressions that have been developed at various point in the last 30 years, two of which are for constant pressure operation. The table includes mention of n values which originate with Hermia [3] and his analysis of dead-end filtration. Whilst the origins of the classical analysis dates back to the 1930’s, it is generally accepted that he was the first person to give a physical derivation of the expression for the intermediate blocking mode and to present a single unifying expression for the four modes – Equation (1). Although each mode is linked by Equation (1), it is important to note that the terms kn are dependent upon n and are rarely calculated. (The plural is deliberate as each kn and their dimensions vary with n). It is the slope of the data on a log-log plot that imparts insights into the fouling mechanism. d2tdV2 = kn ( dtdV )n",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(1) where t is time, V is filtrate volume, n is a fouling index (see Fig. 4) and kn is a constant that is dependent upon the mode of fouling. Now as dV/dt = AJ where A and J are the filter area and volumetric flux respectively, Equation (1) can, as shown originally in the Appendix of Field et al. [4], be written for constant pressure operation as: -dJdt = kʹ nJ3-n(2)",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Calculation of a critical flux induced by colloidal surface interaction and comparison with flux being obtained accounting for Brownian diffusion, shear induced diffusion, lateral migration and tubular pinch effect (from ref. Cohen and Probstein [30]). Calculations (Reynolds number of 1500) are compared to experimental value of flux for colloids (symbols). Surface interaction can be an explanation for the “colloid flux paradox” [Source: Bacchin et al. [1]. R.W. Field et al. Journal of Membrane Science 741 (2026) 124961 where kʹ n = knA2-n.Now with crossflow, there is material removal from the membrane surface (with n = 1 or n = 2) or the cake surface (n = 0). One can envisage either (a) that particulates are carried across the surface (and observation through the membrane would reveal no surface deposition), or (b) there is deposition but a steady state between the rate of depo­sition and the rate of removal is achieved, or (c) that the operating conditions eventually lead to an unsustainable accumulation necessi­tating cessation of operation. The equations for each mode are given in Table A1 in the Appendix. It will be noticed that in this table there are two contrasting expressions for constant pressure operation for the n = 2 mode; the difference between the two expressions for n = 2 is briefly addressed at the end of section 2.3.1 and in note (A) of Table A1.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "for the n = 2 mode; the difference between the two expressions for n = 2 is briefly addressed at the end of section 2.3.1 and in note (A) of Table A1. Firstly it is observed that the summary expression for crossflow [4] was given as: -dJdt = kʹ n(J -J*)J2-n for J > J*(3a) dJdt = 0 for J ≤J*(3b) For complete pore blocking, n = 2, the interpretation of the critical flux, J*, in equations (3a) and (3b) has to be that J* is the flux below which there is no commencement of fouling whatsoever i.e. the strong form of critical flux. One should also note that whilst the summary equation above has a generic critical flux, J*, those developing the ex­pressions given in Table A1 were careful not to infer that the ‘critical’ flux was the same for all modes of fouling. It can readily be envisage that an operating flux exceeds the critical value for the bare membrane but not one with a monolayer of foulant; this is illustrated in Fig. 2. For constant pressure operation it is instructive to rewrite Equation (3a) in terms of resistance because the time evolution of resistance is more distinctive for the four modes than the evolution of flux. Furthermore, examining the time evolution of resistance provides a common basis for comparison with constant flux operation. Combining Equation (3a) with the relationship between flux and resistance, namely:",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(5b) where R∞ is the asymptotic overall resistance for large time. It follows, for dead-end operation, that the term in parentheses in Equation (5a) is one. Researchers can gain insights into the fouling mechanism(s) by using Equation (5a). For example if the mechanism were to be inter­mediate blocking (or modelled as intermediate blocking) then (because n = 1) a plot of dR/dt vs R would provide a sound linear fit to the data with the intercept yielding a value of Kn and the gradient being -Kn/R∞. From our experience, it is common for this expression to adequately fit the data at early times but the trend in the data and the calculated value of R∞ are such as to often indicate a switch in fouling mechanism at later times. The use of resistance reveals a distinct difference between the four modes with dR/dt increasing with R for n > 1; continuously for dead-end filtration and initially for n = 2 as shown in Fig. 5. For n = 1 the variation of dR/dt with R is linear irrespective of the value of R∞ whilst for cake build-up (n = 0), the curves are concave up because dR/dt decreases with increasing R. These observations suggest that examination of the evolution of resistance may be particularly informative when seeking to differentiate the modes of fouling. 2.2.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tions suggest that examination of the evolution of resistance may be particularly informative when seeking to differentiate the modes of fouling. 2.2. General remarks regarding constant flux operation Regarding dead end filtration, Hlavacek and Bouchet [8] have pre­sented equations for the classical pore blockage, pore constriction (pore filling), and cake filtration models and applied them to bovine serum albumin (BSA) microfiltration data. The best agreement with experi­mental data was obtained with the intermediate pore blocking model.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Illustration of the two forms of critical flux as originally defined by Field et al. [4]. Adapted from Ref. [4]. PWF is defined as the pure water flux through an unfouled membrane. The schematic of the weak form of critical flux is intended to be illustrative and not definitive; it should be viewed as indicative of rapid and limited fouling that is unchanged up to Jcw. R.W. Field et al. Journal of Membrane Science 741 (2026) 124961",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Subsequently Ho and Zydney [9] developed a model combining pore blocking and cake filtration to represent their data on the evolution of transmembrane pressure profiles during constant flux microfiltration of BSA. Similarly, Bolton et al. [10] studied various combined models, each incorporating two fouling mechanisms, and discovered that a combined complete pore blocking and cake filtration model provided the closest conformity with the outcomes from IgG and BSA filtration experiments. However none of these models are able to describe constant flux crossflow filtration because there is no allowance for possible foulant removal by crossflow shearing forces. Moreover not only were the American Water Works Association (AWWA) able to note in 2008 that the modelling of fouling mechanisms in constant flux crossflow filtration is scarce [11] but the same was true until relatively recently. The first significant attempt to correct this omission, which is important because many industrial applications of membrane separations are operated in this manner, was by Kirschner et al. [12] whose equations are given in Table A1. It is simply noted that a rearrangement of Equation (4) clearly shows that for so-called constant flux operation (actually constant volumetric flow operation, and not constant local flux) the time evolution of resistance is equivalent to the time evolution of operating pressure because R/Rm = ΔP/ΔP0. Now for n = 2, the term σ as used in Kirschner et al.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n of resistance is equivalent to the time evolution of operating pressure because R/Rm = ΔP/ΔP0. Now for n = 2, the term σ as used in Kirschner et al. [12] was defined as “Blocked area per unit filtrate volume” with units of m-1 (which accords with [3]) whereas herein Σ (capital sigma) is defined as “Blocked area per unit mass of foulant” with units of m2 per kg. This modification allows us to clarify comments on the effect of changing foulant concentration, c, kg m-3. Clearly σ = Σc(6) Assuming constant flux operation is operating under n = 2 (‘com­plete’ blockage) conditions the relevant equation adapted from that in Table A1 is as follows: ΔPtΔP0 = RRm =[1 -ΣJcB (1 -exp(-Bt))]-1",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(7) where ΔPt is the operating pressure that changes to maintain a constant J, ΔP0 is the operating pressure at time, t = 0, Rm is the membrane resistance and R is the overall resistance that evolves with t. The term ΣJc is, for unit area, the rate at which area is covered by the convection of foulant towards the membrane surface and B is the per unit area foulant resuspension rate (from covered areas) with units of s-1. Owing to the nature of the foulant used in their study, Kirschner et al. [12] specified the term B as particle resuspension rate. Clearly in developing this and similar equations there is an implicit assumption that the fluid mechanics of operation are able to maintain an efficient dynamic bal­ance such that the cessation of flux and the maintenance of crossflow would restore the membrane to its original clean condition. When this is not so the dynamic balance is an approximation. Now if ΣJc/B > 1.0, the model predicts that there is a finite time to complete blockage of the whole membrane that is dependent upon the ratio ΣJc/B and the term B, as described in the Appendix (section A2). Up to, and only up to, the point of blockage is the model physical realistic. However the model is physically realistic for ΣJc/B < 1.0 for all t because complete blockage is not predicted. Equation (7) is plotted in Fig. 6(a) for a range of values of the ratio ΣJc/B.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "c for ΣJc/B < 1.0 for all t because complete blockage is not predicted. Equation (7) is plotted in Fig. 6(a) for a range of values of the ratio ΣJc/B. When this ratio is greater than one complete blockage would occur after a certain time as detailed in the Appendix, section A 2. However, when the ratio is less than one the asymptote of the operating pressure (and of the corresponding relative resistance) is finite. The latter behaviour is clearly illustrated in Fig. 6(b). The asymptote, for ΣJc/B < 1.0, is [1 -ΣJcB ]-1 e.g. for ΣJc/B = 0.6 the asymptote is 2.5 as shown in Fig. 6(b). Clearly if the concentration of the foulant is low the crossflow could be sufficient to give ΣJc/B = 0.2 and an asymptote of 1.25. As an aside it is interesting to ask why until relatively recently there was no interest in the possibility highlighted by Fig. 6(b), namely that under constant flux crossflow operation one can obtain a steady state even when the fouling is that of complete pore blocking provided ΣJc/B < 1.0. To be definitive about why something has not been found previously is impossible. However as far as we can ascertain the empirical evidence was neither there nor anticipated. Fortunately the Freeman laboratory adapted the method of flux stepping for constant flux crossflow fouling studies [13] and in due course this led to the unexpected result that one could achieve steady state with R/Rm > 1 for crossflow operation under constant flux conditions [12].",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ourse this led to the unexpected result that one could achieve steady state with R/Rm > 1 for crossflow operation under constant flux conditions [12]. The key paper [12] contains the statement that is equates to saying that ΣJc/B must “always lie between 0 and 1”. This needs qualification as it is only true if one is confining the modelling to a search for steady-state solutions. As already stated above, when the ratio ΣJc/B is less than one the asymp­tote of the operating pressure (and of the corresponding relative resis­tance, R/Rm) is finite. Furthermore, even when the ratio is equal to or greater than unity, operation could occur for a finite time up to the point of blockage (or the point when operating pressure reached a physical limit). With crossflow, the time to blockage is slower than that for dead-end filtration. As shown in the Appendix the rate can be modest particularly for low concentrations of foulants.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. Direct-flow process schematic. Note that during the feed cycle one end of the unit is closed. Courtesy of Pearce [31]. R.W. Field et al. Journal of Membrane Science 741 (2026) 124961\n\nFor the intermediate pore blocking (i.e. n = 1) mode and by incor­porating Equation (6) to capture the effect of concentration, the equa­tion in the righthand column of Table A1 can be re-written in refined form as: ΔPtΔP0 = RRm =[BB + ΣJc +(ΣJcB + ΣJc )exp(-Bt)]-1\n\n(8)\n\nEquation (8) is plotted in Fig. 7(a) and (b) for a range of values of the ratio ΣJc/B. Now unlike the situation for complete pore blocking, the operating pressure (and the corresponding relative resistance) asymp­totes for all finite values of ΣJc/B. This interesting finding led Kirschner et al. [12] to adopting Equation (8) over Equation (7).\n\n2.3. Derivations, definitions and their underlying assumptions 2.3.1. Complete pore blocking model When this model of complete pore blocking is adopted for membrane filtration, the assumption is that if a small area, say Δa, is covered by foulant, then all of the pores under that area Δa are completely blocked. This model strictly applies to straight through pores, so that a blocked pore delivers no flux. In practice most membranes are asymmetric with a ‘tight’ skin layer and a more porous interconnected substrate; blocked",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        4,
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. Schematic representation of Hermia’s fouling mechanisms: (a) Complete pore blocking; (b) Intermediate pore blocking; (c) Cake filtration; and (d) Pore filling. Source Kirschner et al. [12]. The values of the fouling index n associated with mechanisms (a) to (d) are, respectively, 2, 1, 0 and 1.5. Adsorption is not included.\n\nFig. 5. Illustrative plot of the variation of dR/dt with resistance R for constant pressure operation for Pore filling (standard model) and the three classical surface forms of fouling for two values of R∞. The resistance, R, is a multiple of the clean membrane resistance Rm and the numerical values in the legend refer to R∞ which is also expressed as a multiple of the clean membrane resistance. The value of Kn is chosen to give an initial value of 1.0 for dR/dt. As a sense-check note that for R∞=4Rm, dR/dt→0 as R→4. R.W. Field et al. Journal of Membrane Science 741 (2026) 124961\n\nFig. 6. Constant flux crossflow operation: Influence of the ratio ΣJc/B on the evolution with time of the relative resistance R/Rm assuming fouling is dominated by complete pore blocking (n = 2). (a) overview for full range of the ratio ΣJc/B. (b) detail for ΣJc/B ≤1.0. R.W. Field et al. Journal of Membrane Science 741 (2026) 124961",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        5,
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. Constant flux crossflow operation: Influence of the ratio ΣJc/B on the evolution with time of the relative resistance R/Rm assuming fouling is dominated by intermediate pore blocking (n = 1). (a) overview for full range of the ratio ΣJc/B. (b) detail indicating that the relative resistance asymptotes to finite values at long times even for ΣJc/B ≥1.0. R.W. Field et al. Journal of Membrane Science 741 (2026) 124961",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 8. Constant pressure crossflow operation: Influence of the ratio ΣJc/B on the evolution with time of the relative resistance R/Rm assuming fouling is dominated by complete pore blocking (n = 2). (a) overview for full range of the ratio ΣJc/B. (b) detail indicating that the relative resistance asymptotes to finite values at long times even for ΣJc/B ≥1.0. R.W. Field et al. Journal of Membrane Science 741 (2026) 124961 pores provide added resistance but flow paths are maintained in the interconnected substrate. This can be allowed for by a model that as­sumes flow into covered pores is impeded rather than blocked. A new model, the Hindrance model, with these features is introduced below (section 3). With both the complete pore blocking model and the in­termediate pore blocking model there is the assumption that the extent of the coverage is governed by a dynamic balance as developed, for example, in section A3 of the Appendix. Furthermore, with the complete pore blocking model there is an additional assumption that all of the foulant convected to the membrane surface blocks pristine areas and, for the period of operation where this mode of fouling holds, none is deposited upon areas previously fouled. Details for constant flux crossflow filtration including comprehen­sive derivations can be found elsewhere [12] and therefore the focus here is upon the application of the complete pore blocking model to constant pressure filtration.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "can be found elsewhere [12] and therefore the focus here is upon the application of the complete pore blocking model to constant pressure filtration. For constant pressure filtration the analysis in the Appendix resulted in Equation (A9) which shows that with n = 2 the relative resistance will evolve as follows: RRm =[BΣJ0c + B +(ΣJcΣJ0c + B )exp( -(ΣJ0c + B)t)]-1",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Equation (9) has been plotted in Fig. 8 for various values of the ratio ΣJc/B. Fig. 8(a) clearly shows that when ΣJc/B is less than unity, the asymptote in R/Rm is reached relatively rapidly particularly when B is significantly larger than ΣJ0c. Fig. 8(b) confirms illustratively that R/Rm has a theoretical plateau value of ΣJ0cB + 1 i.e. a finite value provided B >0. A comparison of Figs. 7 and 8 shows that constant pressure filtration subject to a compete blocking mode of fouling (n = 2) would have behaviour similar to constant flux filtration with an intermediate blocking mode of fouling (n = 1). In both cases a balance between foulant deposition and foulant removal will be achieved after a certain time; a balance that is dependent upon the ratio ΣJc/B. If the increase in overall resistance is small and rapidly stabilised (because ΣJ0c≪ B) then the evolution of R/Rm would accord with the original weak form of the critical flux hypothesis. In contrast to the behaviour in Fig. 8, the value ‘jc’ given in Table A1 corresponds to a strong form of the critical flux because volumetric flux J only remains at J0 if σ is zero i.e. the operating conditions are such that no fouling is initiated whatsoever. 2.3.2.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "flux because volumetric flux J only remains at J0 if σ is zero i.e. the operating conditions are such that no fouling is initiated whatsoever. 2.3.2. Intermediate pore blocking model For this mode of fouling all three papers made the same key assumption, namely that there is no bias for foulant to deposit upon the unfouled region of the membrane; the probability for foulant to deposit upon an area of clean membrane, rather than on an area previously fouled, is proportional to the instantaneous value of the area of clean membrane. Thus the rate of convection of new foulant onto unfouled membrane area is equal to aJcΣ, which contrasts with AJcΣ that is the equivalent term for complete pore blocking, n = 2. Under that mode, the incoming foulant “targets” pristine areas. Now as both modes of fouling (n = 1 and n = 2) assume that the fouled area is completely imperme­able, further deposition onto an already fouled area under the inter­mediate blocking mode of fouling (n = 1) is modelled to have no further effect.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e­able, further deposition onto an already fouled area under the inter­mediate blocking mode of fouling (n = 1) is modelled to have no further effect. When deposition is unbiased between clean and previously fouled areas, the net rate of change of unfouled membrane surface area, a, is -dadt = aJcΣ -B(A -a)[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] The only difference between Equations [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] and (A1) is the area accounted for in the deposition term on the right-hand side of the equations. This difference results in different solutions to the respective differential equations and is, as demonstrated by Figs. 6 and 7, conse­quential. The significant difference in outcome can be demonstrated by examining the theoretical predictions regarding the relative area covered at steady state, (a/A)ss. The intermediate pore blocking model predicts a steady-state solution for all B > 0.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ons regarding the relative area covered at steady state, (a/A)ss. The intermediate pore blocking model predicts a steady-state solution for all B > 0. At steady state when dadt = 0, Equation [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] yields: (aA ) ss =BΣJc + B[ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] Contrastingly from the Appendix (section A3), the complete pore blocking model only gives a physically realistic solution if B > ΣJc. See Equation (A10). Reflecting on their earlier paper [12] the authors, together with new co-authors, noted in their more recent work [14] that the intermediate pore blocking model does not predict the correct trends for changes in the TMP profile with changes in foulant concentrations and permeate flux at high concentration and high permeate flux. This led to a re-examination of the assumptions being made. To assume that the all of the pores underneath the latex particles were fully blocked and imper­meable to water was considered unreasonable This follows from a consideration of the respective size of the latex particles and the pore size of the UF membrane and the implied, unrealised high TMP values that are not found experimentally.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ective size of the latex particles and the pore size of the UF membrane and the implied, unrealised high TMP values that are not found experimentally. From the assumptions underlying the conventional models, such values would be predicted when the mem­brane surface is mostly covered by particles, which can readily occur at high foulant concentrations and high permeate flux values as illustrated in Fig. 9. To tackle this issue, complete blockage is not assumed, rather the coverage is assumed to lead to hindrance of the flow as illustrated in Fig. 10. Herein the label ‘hindrance’ is preferred to ‘coverage’ because ‘hindrance’ of the flow is assumed in contrast to blockage of the flow. Additionally, the coverage of the membrane at steady state may, as demonstrated later, only be partial. In section 3, the derivation for constant flux crossflow filtration will be reprised and the concept of ‘complete coverage’ challenged. Additionally, for the first time the derivation for constant pressure filtration is developed and the results of the two compared. Meantime to complete the current sub-section on Derivations, Definitions and their Underlying Assumptions a few pre­liminary remarks will be made about the strong form of critical flux and about threshold flux. Fig. 9. SEM image of the top surface of an ultrafiltration (UF) membrane fouled with high latex bead concentration. Fouling conditions: 200 ppm latex bead concentration, 40 LMH permeate flux, and 0.8 L/min crossflow rate.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e fouled with high latex bead concentration. Fouling conditions: 200 ppm latex bead concentration, 40 LMH permeate flux, and 0.8 L/min crossflow rate. UF membrane is a poly(ether sulfone) flat sheet membrane with a nominal mo­lecular weight cut-off of 10 kDa. The latex beads were polystyrene particles with an average diameter of 0.22 μm and a standard deviation of 0.007 μm. Source Cheng et al. [14].",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.3.3. Critical flux compared to threshold flux To infer that there is no fouling at all is a metrology challenge and one approach is to measure the rate of increase of TMP in order to establish whether or not it is essentially zero. Fig. 11 (a) from Ref. [15] illustrates this approach with respect to the microfiltration of algae (Chlorella sorokiniana). That paper also focussed upon the insights that can be gained from direct microscopic observation (DOTM) from the permeate side of the membrane surface. The membranes used in those experiments were Anopore inorganic membranes (Anodisc, Whatman) with a nominal pore size of 0.2 μm. These membranes are not only hy­drophilic but transparent when wet and this allows direct microscopic observation from the permeate side of the membrane surface. The rate of algal cell deposition observed by DOTM (expressed as the rate of membrane surface coverage) was compared to the rate of TMP rise. Findings from this study confirmed that the DOTM technique provided a more sensitive indicator of membrane fouling than the widely used TMP measurement method but it is limited not only to laboratory studies but is confined to the few membranes that are transparent when wet. The effect of shear-induced cross-flow velocity on algae deposition was clearly visualised and the results are displayed in Fig. 11(b).",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rent when wet. The effect of shear-induced cross-flow velocity on algae deposition was clearly visualised and the results are displayed in Fig. 11(b). The results can be viewed as suggesting a true critical flux (strong form) at low fluxes and a larger threshold flux (transition from lower fouling rate to higher fouling rate) at a higher flux, and that these values increase with increasing higher cross-flow velocities. The maximum flux at which the d(TMP)/dt remains low, is called ‘threshold’ flux instead of critical flux because this boundary marks the transition from low fouling rate to higher fouling rate rather than the transition between no fouling and fouling. 3. Hindrance model This new model does not assume that if an area, say Δa, is covered by foulant, then all of the pores under that area Δa are completely blocked. To be more precise it assumes that the flow into covered pores is impeded rather than blocked; hence the model is called the Hindrance model. It makes no prior assumptions as to the extent of the surface coverage and the extent depends upon the balance between deposition and removal assuming that the conditions for resuspension exist. If instead of a repulsive surface interaction there is an attractive one, then for the deposition of the first layer, the ‘B’ value will be zero. In the remainder of this section it is assumed that there is a finite value of ‘B’. 3.1.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "he deposition of the first layer, the ‘B’ value will be zero. In the remainder of this section it is assumed that there is a finite value of ‘B’. 3.1. Constant pressure filtration For constant pressure operation, the sum of permeate flow rates through the fouled, partially obstructed area and through the clean membrane area will be less than the initial value of the total permeate flow rate because fouling will increases the resistance to flow through the covered area (A -a) by a factor of f. However, the unfouled area presents only the membrane resistance to the flow, and as constant operating pressure is maintained, the local flux in the unfouled area is J0. Taken as a whole the new overall flux will be: J = A + a(f -1)AfJ0[ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] A steady state without a transition to cake filtration is theoretically possible, if prior to the development of any cake, there is a dynamic balance between convection of foulant to the surface and removal from the surface. Now, when this condition holds, the rate of change of unfouled area can be expressed in one of two paradigmatic ways dependent upon whether the foulants are preferentially deposited upon the unfouled regions (as with the classic n = 2 model) or in an unbiased fashion (as with the classic n = 1) model.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "are preferentially deposited upon the unfouled regions (as with the classic n = 2 model) or in an unbiased fashion (as with the classic n = 1) model. Both were explored but the former approach is a more severe test as to whether there is a steadystate solution because all of the mass inflow is assumed to foul a clean area. Under these conditions the mass inflow, JcA (where J is given by Equation [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}]), would cover an area (JcA)Σ and the removal would be B(A -a). So balancing these two terms and combining with Equation [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] yields:",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 11. Microfiltration of algae (Chlorella sorokiniana). (a) Required rate of change of operating pressure for various permeate fluxes and various cross-flow ve­locities (29 mg/L microalgae, Anopore membrane). (b) Comparison of microalgae deposition at various cross-flow velocities 0.1 m/s (top); 0.18 m/s (middle) and 0.24 m/s (bottom). Deposition starts at higher fluxes for high crossflow velocities. Source Wicaksana et al. [15]. R.W. Field et al. Journal of Membrane Science 741 (2026) 124961\n\n(aA ) ss =f -SR(1 + SR)f -SR",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        11,
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] where SR = ΣJ0c/B. Hence R∞Rm = J0 J = SR(f -1)f+ 1[ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] This is consistent with the observation made in section 2.3.1 for complete pore blocking because Equation [ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] shows that as f→ ∞ the resistance ratio would tend to SR + 1, provided B > 0, which is the asymptotic limit given in the aforementioned section. Results given in Figure A2(a) show that the fractional coverage of the surface increases for low values of f which indicates that when the deposited material provides little hindrance to flow the coverage will be somewhat higher. Physically realistic value of partial coverage are theoretically possible for SR > 1 provided f is not too low e.g. SR = 2 yields finite values of fractional coverage if f > 2. Figure A2(a) is in the Appendix because that is where the result for constant flux filtration is considered. 3.2. Constant flux filtration For constant flux operation, the sum of permeate flow rates through the fouled, partially obstructed area and through the clean membrane area will equal the initial value of the total permeate flow rate.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rates through the fouled, partially obstructed area and through the clean membrane area will equal the initial value of the total permeate flow rate. If fouling increases the resistance to flow through the covered area (A -a) by a factor of f, then constancy of flow rate yields: Jc (A -af+ a)= J0A[ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] where Jc is the volumetric flux through the clean area of a partially fouled membrane. Hence:",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 12. MBR data (a) Constant flux operation at three different fluxes. Variation of transmembrane pressure with time. Source Hwang et al. [17]. (b) Variation of resistance with time from further analysis of same data. Source Field et al. [22]. (c) Variation of resistance with volume of permeate accumulated. Source Field et al. [22]. (d) Variation of transmembrane pressure with volume of permeate accumulated. Further analysis is part of this paper.\n\nFig. 13. MBR data from Guglielmi et al. [23] (a) Constant flux operation at six different fluxes. Variation of transmembrane pressure with time. (b) Variation of resistance with volume of permeate accumulated indicating that optimal operation is for an intermediate flux.\n\nR.W. Field et al. Journal of Membrane Science 741 (2026) 124961",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Jc =fAA + (f -1)aJ0(16) where J0 is the initial volumetric flux through the bare unfouled mem­brane, Jc is the volumetric flux through the clean area of a partially fouled membrane and f is the dimensionless hindrance factor which raises the resistance of the fouled areas to fRm i.e. f is the ratio of local overall resistance to membrane resistance. The hindrance factor, f, is assumed to be independent of operating conditions and solely an intrinsic function of membrane/foulant properties. One should also take notice of the expression for the increase in operating pressure ΔPt. For the unfouled area, a, an increase in flux to fAA+(f-1)aJ0 implies that the operating pressure increases as follows: ΔPtΔP0 =f1 + (f -1)(a/A)(17) So only for complete coverage, when a→0, does ΔP→ fΔP0. So if, for example, at steady state (a/A)ss = 0.5 and the pressure ratio is 1.15, then the value of f is 1.35. Thus the complete coverage model [14] can be considered to be a special and approximated case of the hindrance model. For constant ‘flux’ operation and with for complete coverage, ΔP would approach fΔP0, rather than infinity as predicted by the classic fouling models. This is consistent with the experimental observations made; see Figs. 1 and 2 in Ref. [14]. It is important to notice that fractional deposition was determined experimentally by Chong et al. [16] who measured the quantity of particles convected to and finally deposited on the membrane surface.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "was determined experimentally by Chong et al. [16] who measured the quantity of particles convected to and finally deposited on the membrane surface. The fractional deposition constant, Φ, was strongly influenced by the crossflow velocity. At low crossflow (<0.1 m/s, shear rate <430 s-1) Φ = 1.0, but at 0.22 m/s (shear rate = 940 s-1) Φ decreased to about 0.1. The term ‘B’ in the model will increase with the crossflow velocity. 4. Observations of fouling in MBRs and in RO relevant to the threshold flux concept 4.1. MBR fouling The TMP profile in Fig. 12(a) for the low flux case is a classic ‘TMP jump’ where there is a relatively long and low rate of change in TMP followed by a rapid rise in TMP [17]. This behaviour is typical of MBRs (see Refs. [18,19] as well as other membrane applications including RO [20,21]. The TMP jump requires a constant flux operation and a rapid transition to ‘criticality’ in the foulant layer. It is a reproducible, flux-driven phenomena. Several possible mechanisms for the TMP jump in MBRs were advanced [18,19] and these included slow fouling by macromolecular and colloidal species that causes local area loss, pore loss, or pore narrowing that raises the local fluxes above the critical for the dominant foulant, or a critical suction condition that causes cake coagulation, or loss of percolation (inner cake connectivity). Now examining resistance vs volume is very relevant and instructive (see Figs. 12(c) and 13(b).",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ion, or loss of percolation (inner cake connectivity). Now examining resistance vs volume is very relevant and instructive (see Figs. 12(c) and 13(b). However particularly for submerged MBRs under suction, where the maximum TMP is constrained, the dependency that TMP has upon other variables is of practical importance; hence the inclusion of Fig. 12(d) illustrating the relationship between the increase in TMP and accumulation of permeate for various set fluxes. In com­menting upon the data used in Fig. 12 it was observed [22] that at the end of the low flux run – the one with the TMP jump – the Confocal Laser Scanning Microscopy had showed a high EPS content next to the membrane surface with a maximum fraction of EPS in excess of 0.4 which is double that for the other runs [17]. Field et al. [22] suggested that the high rate of increase in TMP after day 20 was due to the greater number of dead cells. Guglielmi et al. [23], whose data is in Fig. 13, also attributed the transition to bound and free forms of EPS. It has also been shown that sludge retention time (SRT) is an important factor in determining the time of operation before a TMP jump [19]. As longer",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "SRTs can lead to lower excess sludge production owing to dead and inactive microorganisms being consumed by other microbes, this finding corroborates the hypothesis that TMP jumps are caused by cell lysis. In reflecting on the fluid flow through a cake being clogged by cell debris, it is pertinent to note that the specific cake resistance is highly dependent upon porosity. For instance, the formula for the CarmanKozeny equation relates the specific cake resistance (α) with porosity (ε) as follows: α∝(1 -ε)2/ϵ3. Taking just one example it is readily computed that a change from a porosity of 0.3 to one of 0.2 would change the value of specific cake resistance by a factor of 4.4. 4.2. Fouling in RO Through combing electrical impedance spectrometry (EIS) and TMP measurements Ho et al. [21] showed that for their specific operating conditions generating biofouling, the TMP jump was due to a critical compositional change in the fouling layer. The interpretation made was that this was the point at which a biofilm starts to dominate; specifically extracellular polymeric substances (EPS) fill a matrix of bacteria. Such an observation is in accord with the comment made at the end of section 4.1. However as noted in the next section, some results originally inter­preted by us and others as being linked to a threshold flux are better understood as being linked to a critical flux. 5. Reflections 5.1. General remarks The terms critical flux and threshold flux have sometimes been confused.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "stood as being linked to a critical flux. 5. Reflections 5.1. General remarks The terms critical flux and threshold flux have sometimes been confused. For example, Ho et al. [21] used non-invasive electrical impedance spectrometry (EIS) to measure the conditions in the polar­isation layer of RO membranes experiencing colloidal fouling at con­stant flux. The conductance of the polarized layer had been identified as the main EIS parameter associated with membrane fouling. Conduc­tance rises as salt concentration rises and falls as colloid concentration rises (occupies space and reduces conducting pathway). EIS was measured along with TMP for flux steps made every 2 h from 15 to 40 LMH. A distinct transition was observed for both TMP and EIS conduc­tance. The gradient of the TMP measurements showed dTMP/dt rising from essentially zero to increasing values as flux increased and conductance showed a distinct minimum with flux; both transitions were at the same flux. The EIS data are consistent with transition from a flowing colloidal suspension polarized layer to a stagnant cake layer with growing cake enhanced concentration polarisation of salt solution of higher conductance. It should be noted that Ho et al. [21] interpreted the transition as threshold flux but re-evaluation of the data suggests that the data show Jcrit behaviour for RO and colloids.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "t al. [21] interpreted the transition as threshold flux but re-evaluation of the data suggests that the data show Jcrit behaviour for RO and colloids. Although the emphasis was upon determining the rate of fouling through examination of dTMP/dt, the transition was from essential zero fouling to fouling. Thus depending upon the value of the overall resistance, the transition point corresponded to either the strong form of the critical flux, Jcs, or to the weak form of the critical flux, Jcw. The term subcritical flux operation was originally coined by Howell [24] who discussed the complexities of mixtures in which different components have different critical fluxes. Sometimes cleaning is easier if one operates above the critical flux of one of the components that acts as a filter aid screening out a finer component with the ‘filter-aid’ component being something that is also readily removed. Nominally sub-critical operation discussed by Hughes and Field [25] but subse­quently the concept of a threshold flux has emerged and is discussed fully in section 5.2. Emphasis has just been placed upon the word ‘nominally’ because titles such as “Sub-critical fouling in a membrane bioreactor ...” are oxymoronic if sub-critical is deemed to refer to operation below a critical flux for fouling because fouling has already",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "R.W. Field et al. Journal of Membrane Science 741 (2026) 124961 occurred. Le Clech et al. [26] showed in that if a critical flux were to exist for MBRs then its value would be very low and certainly less than 5 L/m2/h. Now such low values are not used in practice and operation is certainly not sub-critical with respect to the strong form or weak form of the critical flux, Jcs or Jcw. 5.2. Threshold flux Field and Pearce [2] have provided a firm basis and definition of Jth. Three key criteria from that paper are selected and then a refinement will be suggested after considering some of the MBR data presented earlier. 1. “The threshold flux is that flux at which or below which a low and near constant rate of fouling occurs, but above which the rate of fouling increases markedly”;2. Focus is “on determining the threshold flux for a particular opera­ tion”; and3. “If there is a break point in the rate of fouling vs flux curve a threshold flux can be determined”. Now consider Fig. 12(a). For operating times of 10, 15, 20 days the low flux (13 L/m2/h) data indicates low fouling, whereas the middle and high fluxes show significant fouling rates as confirmed by Fig. 12(c). The apparent Jth is about 13 LMH using an operating period up to 20 days. This is a relatively long period of constant operation. However if the operation is allowed to continue for another 5 days the fouling rate (dTMP/dt) for low flux is also significant.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "of constant operation. However if the operation is allowed to continue for another 5 days the fouling rate (dTMP/dt) for low flux is also significant. This would change the determination of Jth if the ‘particular operation’ involved an operation period of ≥25 days. In other words the observed Jth is limited to a specific period, and this should be stated. Operation beyond the specific period may lead to unstainable TMP rise, or the ‘TMP jump’. The specific period is 20d for the data in Fig. 12 and around 18 days for the data in Fig. 13. All of the data in Fig. 13 displays TMP jumps with Fig. 13(b) suggests that an intermediate flux generates the superior performance. 5.3. Hurdles to development of successful membrane processes A brief summary of our reflections on the distinct concepts of critical flux and threshold flux are given in Table 1. It is also apposite to briefly examine their place in the development of a successful membrane pro­cess. As noted by Beuscher et al. [27] in their relatively recent paper titled “Membrane research beyond materials science” one can view the development of a successful process that has membranes at its core as having cleared four hurdles which will be listed as a sequence but “the hurdles ... require continuous iteration, backward as well as forward” [27]. The hurdles are (i) material to membrane; (ii) membrane to module; (iii) membrane module to membrane process; and (iv) integration of membrane process into an overall process.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ial to membrane; (ii) membrane to module; (iii) membrane module to membrane process; and (iv) integration of membrane process into an overall process. As they noted when discussing the third hurdle, research on the development of a membrane process often comprises the addressing of just one central issue: “how can the driving force required for the separation be opti­mized and leveraged sustainably?” [27]. The main tools for process design are multi-stage configurations and the selection of operating conditions. The range of options available is such that this stage offers scope for optimisation. To reduce the size of the design space that they need to consider, engineers designing membrane processes have generally put their faith in a few heuristic rules. One such rule was that to decrease membrane area (and thus capital cost) membrane flux should be increased by increasing the driving force. As Beuscher et al. [27] noted this rule was faithfully followed in microfiltration and ultrafiltration until the advent of the critical flux theory and they cited Field et al. [4]. Their concluding summary was that “by operating below the so-called critical flux, per­formance can be sustained on longer time scales, leading to long-term stable operation at a flux that is higher than the average flux that would have been obtained if the initial driving force had been higher. This is a great example of academic research with significant commer­cial impact” [27].",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ve been obtained if the initial driving force had been higher. This is a great example of academic research with significant commer­cial impact” [27]. Remarks on the constraints of module design and operation are also pertinent because the appropriate operating flux is module dependent. As explained in section 1, critical flux is linked to the balance between convection towards and back transport away from the membrane. The same is true of the degree of concentration polarisation. Now trium­phant articles suggesting that ‘ultrapermeable membranes’ (UPMs) including those incorporating aquaporins or carbon nanotubes or gra­phene materials will usher in a new era of cheap desalination generally overlook the limitations caused by concentration polarisation. Any quest to exploit improved membranes of higher permeance will be constrained by the ability (or inability) to control concentration polarisation [28]. This is particularly important with regard to RO as discussed elsewhere. As illustrated in section 2.2 of [28] there is the need for improved modules to match higher permeability RO membranes. As demonstrated such modules would need to have significantly higher mass transfer coefficients (ca 10x). This suggests that progress at the R&D stage will be best achieved if some thought is given to the boundary layer Peclet number which is defined as flux divided by boundary layer mass transfer coefficient [29].",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "hieved if some thought is given to the boundary layer Peclet number which is defined as flux divided by boundary layer mass transfer coefficient [29]. Such an approach will provide a link between two of the hurdles mentioned above. However for design engineers, the con­cepts of critical flux and threshold flux remain the most useful heuristics. 6. Conclusions 1. A critical flux of the strong form can exist when particle repulsion is sufficient to avoid accumulation on the membrane surface and above",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 1 Brief summary of our reflections on the distinct concepts of critical flux and threshold flux. Condition: nature of foulant/ process Possible transitionsComment Colloidal suspensionBehaviour compatible with strong form Jcs observedSee Fig. 1 and comments in section 1.Fully flowing particulate suspension Behaviour compatible with there being a critical flux ,Jcrit See [21] and section 5.1. Depending upon the value of the overall resistance at the transition point the Jcrit corresponds to either the strong form of the critical flux, Jcs, or to the weak form of the critical flux, Jcw.Deposit limited by dynamic balance Weak form Jcw might be observedSee Fig. 2 and comments in section 1. Monolayer of foulant (e.g. adsorbed species) Weak form of the critical flux, Jcw applies.See Fig. 2 and comments in section 1. Monolayer of foulant followed by cake formation. Critical fluxes not observed; Threshold fluxes are possible. The time evolution of the overall resistance vs volume filtered may show a change in the gradient in the shift from foundational monolayer to actual cake formation.Complex mixtures and/or operational times typical of industry Threshold flux needs to be established - sub threshold flux operation can have a defined operating period.\n\nThreshold flux delineates between conditions giving a low fouling rate and those giving a high fouling rate.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Direct flow processesOnly threshold flux is relevant.Threshold flux needs to be established for efficient operation. R.W. Field et al. Journal of Membrane Science 741 (2026) 124961 which the repulsion is insufficient and as a result coagulation on the surface occurs.2. The analysis of the complete pore blocking mode of fouling under crossflow operation showed that the development of the founda­tional layer is governed by the ratio SR = ΣJ0c/B. If the increase in overall resistance is small and rapidly stabilised (because ΣJ0c≪ B) then the evolution of R/Rm would accord with the original weak form of the critical flux hypothesis as there would be partial coverage of the surface and no transition to cake filtration.3. It is useful to introduce Σ, defined as “Blocked area per unit mass of foulant” with units of m2 per kg into the ratio SR as this permits foulant concentration, c, kg m-3, to be incorporated as an indepen­dent variable. Partial coverage is facilitated by low flux and low concentration.4. Threshold flux is best defined with respect to rates of fouling and it is the flux for a particular operation at which or below which a low and near constant rate of fouling occurs, but above which the rate of fouling increases markedly. When quoting a value for threshold flux, the cycle time or operating time is highly relevant.5. A novel model, the Hindrance model, was introduced.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "y. When quoting a value for threshold flux, the cycle time or operating time is highly relevant.5. A novel model, the Hindrance model, was introduced. Using more realistic assumptions, various expressions for both constant flux and constant pressure operation were obtained. The model holds promise for modelling the foundational layer prior to cake formation.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "CRediT authorship contribution statement Robert W. Field: Writing – review & editing, Writing – original draft, Investigation, Formal analysis, Data curation, Conceptualization. Jun Jie Wu: Writing – review & editing, Formal analysis. A.G. Fane: Writing – review & editing, Investigation. Authors statement We confirm that the manuscript has been read and approved by all named authors and that there are no other persons who satisfied the criteria for authorship. This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors. Declaration of competing interest We have noted that all authors must disclose any financial and per­sonal relationships with other people or organizations that could inap­propriately influence or bias their work and reassure you that we have no declaration to make.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "NOMENCLATURE SYMBOLDEFINITION & UNITS aunobstructed membrane surface area [m2]affouled areaAarea of filter [m2]Bfoulant resuspension rate [s-1]cconcentration of foulant unit volume of feedffactor in hindrance model - see Equation [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}]Jpermeate flux [m/s] See note (1)Jcflux through clean area of a partial fouled membranesee Equation [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}]J0permeate flux at time zeroJ*critical flux as introduced by Field et al.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "l^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}]J0permeate flux at time zeroJ*critical flux as introduced by Field et al. [4]knconstant dependent upon mode of blockagekʹ nconstants defined by Equation (2) - vary with mode of blockageKnconstant defined by Equation (5b) - vary with mode of blockagenindex characteristic of a particular mode of blockingΔPtransmembrane pressure [N/m2]ΔP0initial transmembrane pressure [N/m2]ΔPttransmembrane pressure at time t [N/m2]Roverall filter resistance [m-1]Rmresistance of clean membrane [m-1]R∞asymptotic resistance of fouled membrane [m-1]SRdimensionless ratio ΣJc/B – see Equation [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}]tfiltration time [s]Vfiltrate volume [m3]αcake specific resistance [m/kg]εcake voidageμfluid viscosity [N.s/m2]σblocked area per unit filtrate volume [m-1]Σblocked area per unit mass of foulant [m2 per kg]Subscriptssssteady-state Note (1): To avoid a proliferation of subscripts the symbol J has been used both for constant pressure operation when flux varies with t (i.e. one could have used J(t)) and for constant flux operation when the overall flux through the membrane is constant even though fouled and unfouled areas will have different local fluxes (i.e. J is invariant). R.W. Field et al. Journal of Membrane Science 741 (2026) 124961",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "APPENDIX The appendix consists of four parts, the first of which seeks to add perspective to our contribution by summarising the prior modelling of constant pressure and constant flux filtration. See Table A1. TABLE A1 Modelling of crossflow filtration: Comparison of equations used in previous works to represent the four traditional fouling modes. The nomenclature specific to these three papers is used in this table; the reader is referred to the original papers [4,7,12] if clarification is required. Mode of fouling Constant pressureConstant flux Original critical flux paper of 1995 [4]\n\nRe-Examination of Fundamental Fouling Equations [7]Fouling Mechanisms in Constant Flux Crossflow Ultrafiltration [12] The symbols in the columns below are identical to those in the original papers and differ in certain details from those in the rest of the paper. Complete n = 2J = (J0 -Jc)exp( -(σJ0 /∈0)t) +jc\n\nJ = C2τ D J0 +(1 -C2τ D )J0⋅exp(-Dt) (Note A refers)ΔPt =ΔP0(1 -σJB (1 -exp(-Bt)))\n\nIntermediate n = 1σt = 1ji [ln J0 -Ji J0 .jJ -ji ]Two sets of expressions were obtained for each of the modes influenced by crossflow. For one set, the removal term was assumed to be independent of flux which equates to the implicit assumption in the original critical flux paper [4]. The second set was based upon a model which explicitly assumed that removal was a function of both shear stress and flux.\n\nΔPt =ΔP0( 1Ki +(1 -1Ki )exp(-KiBt))\n\nCake n = 0Gt = 1j2s [ln( JJ0 .J0 -Js J -js )-js\n\n(1J - 1J0 )]",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[ФОРМУЛА: [FORMULA_ID: 344ea923-2200-4abc-800d-9c39fb168cd0] ΔPt = ΔP0(1 + KcJt)]\n\nPore filling n =1.5 1/J0.5 = 1/J0.50+(Kʹ s /2)A0.5t (Note B refers)\n\n[ФОРМУЛА: [FORMULA_ID: 93a9a79b-43b7-486d-b839-6290827bb01b] ΔPt = ΔP0 (1 -KsaoJt)2]\n\nNote: (A) The underlying reason for the difference between this expression for complete pore blocking and the earlier one from Ref. [4] (which is in the first column), is that the latter relates to the strong form of the critical flux (see the end of section 2.3.1) whilst the former does not (see section 3.1 of [7]).(B) In classic filtration and in the absence of crossflow, the equations are solved to show that fouling of this type yields a linear relationship between t and t/V. Historically the pore filling mode was labelled as Standard Model. The second part, section A2, gives a derivation of time to blockage for constant flux operation assuming n = 2 with ΣJc/B > 1.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. A1. Illustrative plot of the variation of Rm/R with time for constant flux operation under conditions of complete blockage (i.e. n = 2) for ΣJc/ B ≥1. Details of the parameters are given in Table A2. The third part, section A3, concerns the derivation of complete blocking relationship for constant pressure filtration. The fourth part, section A4, is concerned with the application of the Hindrance model particularly the dependency of the fractional area coverage at steady-state values, a/A, on the dimensionless parameters, ΣJ0cB and f. Derivations for constant flux operation are given in section A 4 whilst constant pressure operation is also consider in the main text. R.W. Field et al. Journal of Membrane Science 741 (2026) 124961\n\nFig. A2. Hindrance model. Dependency of the area covered at steady state upon the relative resistance of the fouled area, f, and the parameter ΣJ0cB for (a) Constant pressure filtration and (b) Constant flux filtration. Estimated dependency of the area covered at steady state upon the relative resistance of the fouled area, f, and the parameter ΣJ0cB . The label ‘C’ in the legend indicates a balance being made on the whole area.\n\nA 2. Constant flux operation",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        16,
+        17
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A 2.1. Physical interpretation for ΣJc/B < 1 Take the example of ΣJc/B = 0.6, where the asymptote value of R/Rmin is 2.5. The physical interpretation is that at any instance close to the asymptote 60 % of the surface is blocked and 40 % is open to filtration. However there is a dynamic balance between uncovering and covering. As the overall volumetric flowrate has been maintained at ‘constant flux operation’ the fixed flowrate is now passing through 40 % of the filter area, hence the two-and-a-half-fold increase in operating pressure and relative resistance. If the overall area of filter is A m2 then the amount of foulant arriving in a time interval of Δt covers an area of ΣJcAΔt (because the incoming mass is JAΔt.c and area covered per unit mass is Σ). Given the assumptions made for R.W. Field et al. Journal of Membrane Science 741 (2026) 124961 n = 2, which include that the incoming foulant falls upon uncovered membrane area, this value remains unchanged. Now removal (uncovering of area) is only from the covered (fouled) area, af, i.e. from (A -a). Thus once steady state has been achieved ΣJcAΔt = BafΔt i.e. ac/ A = ΣJc / B. So for a ratio of 0.6, the covered area is 60 % of the overall area and this cross-checks with the fact that 40 % is open. A 2.2.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        18
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ".e. ac/ A = ΣJc / B. So for a ratio of 0.6, the covered area is 60 % of the overall area and this cross-checks with the fact that 40 % is open. A 2.2. Derivation of time to complete blockage for n = 2 with ΣJc/B > 1.0 By inverting Equation (7) one can readily obtain the time to complete blockage because Rm/R→0 at the point of complete blockage ΔP0 ΔPt = Rm R = 1 -ΣJcB (1 -exp(-Bt))(A1) Rearrangement of Equation (A1) yields: exp(-Bt) = 1 -BΣJc = SR -1SR",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        18
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(A2) where SR = ΣJc/B Equation (A1) is plotted in Figure A1 for various values of the ratio SR.Table A1 provides further details and also gives the time to complete blockage, calculated from Equation (A2). It is readily seen that with increasing crossflow, but still with ΣJc/B > 1.0, the time to blockage is slower than that for dead-end filtration. Also by comparing the results for a fixed value of SR (there pairs for 1.1 and 1.5), it is clear that the rate can be modest particularly for low concentrations of foulants and/or low fluxes. Table A2 Parameters used to investigate the time evolution of Rm/R and time to blockage Convection to membraneB (s-1)ΣJc (s-1)SR ratioTime to blockage (min)Comment Dead-endBase case00.0003n/a55.6Function of ΣJc onlyExtremely low crossflowBase case0.00010.00033.067.6Very low crossflowBase case0.00020.00031.591.6Low crossflowBase case0.0002730.00031.1145.5Extremely low crossflowΣJc halved0.00010.000151.5183.1In Figure (A1) labelled as 1.5 low cExtremely low crossflowΣJc reduced further0.00010.000111.1399.6In Figure (A1) labelled as 1.1 low cΣJc and B equal; thus Rm/R independent of SR (=ΣJc/ B)0.00010.00011.0infinityFunction of B only",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        18
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A 3. Constant pressure operation: derivation of complete blocking relationship: importance of parametric ratio, ΣJc/B In accordance with earlier work [7,12] foulant removal is taken to be proportional to the blocked filtration area. It follows that the decrease in unobstructed membrane surface area is given by: -dadt = AJcΣ -B(A -a)(A3) where all symbols have been defined in the main text. Unlike the situation appertaining for Equations (7) and (8), the volumetric flux in equation (A3) is not constant; instead the operating pressure is constant. With the TMP being constant and with all of the flow being through the clean area, a, it follows that AJ = aJo(A4) Combining Equation (A3) and (A4), -dadt = a(ΣJ0c + B) -BA(A6) Integration of Equation (A6) yields aA =BΣJ0c + B +(ΣJcΣJ0c + B )exp( -(ΣJ0c + B)t)(A7) Remembering that the expression is for constant ΔP, and reordering Equation (A4) plus introducing resistance, it follows that aA = JJ0 = Rm R(A8) Hence for constant pressure filtration with n = 2 the relative resistance will evolve as follows: RRm =[BΣJ0c + B +(ΣJcΣJ0c + B )exp( -(ΣJ0c + B)t)]-1\n\n(A9)\n\nAt steady state when dadt = 0, Equation (A1) yields, for B > ΣJc, a physically realistic solution of the uncovered area at steady state: (aA ) ss = B -ΣJcB(A10) There are no physically realistic values of (a/A)ss for B < ΣJc. for this mode of fouling. R.W. Field et al. Journal of Membrane Science 741 (2026) 124961",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        18
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A4. Hindrance model evaluation of fractional area coverage a/A, at steady-state Herein instead of addressing the time evolution of a/A itself, the dependency of the steady-state values of a/A as a function of ΣJ0cB and f has been investigated for constant flux operation. The flux through the unfouled area is given by Equation (16). Now if the deposition is assumed to be unbiased (i.e. a proportionate share deposits on the already fouled area), the relevant equation for the rate of change of open area is: -dadt =fAA + (f -1)aJ0cΣ.a -B(A -a)(A11) When dadt in Equation (A11) is zero, fAJ0cΣ.a = B(A -a)[A + (f -1)a](A12) Rewriting Equation (A12): f J0cΣB .aA =(1 -aA )[1 + (f -1) aA ](A13) Hence (f -1)(aA )2 +(f J0cΣB+ 2 -f)(aA\n\n[ФОРМУЛА: [FORMULA_ID: 970d57ad-e728-4e98-ac7f-634f76c36f95] ) -1 = 0 (A14)]\n\nNow if f is very large Equation (A14) shows that ( aA )→1 -J0cΣB which is only physically plausible for J0cΣB <1.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        19
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Also as shown in Figure A2 (b), for J0cΣB = 0.5 the fraction coverage is tending towards 0.5 for large f but is close to 0.33 for very low f. This figure suggests that for constant flux filtration the dependency of area covered at steady state depends upon the value of the hindrance factor f and the parameter ΣJ0cB . Also a discussion of Fig. A2(a), see section 3.1 in the main text.Now as already noted the rate of change of unfouled area can be expressed in one of two paradigmatic ways. For relatively low values of f one might well assume that the foulants deposit in an unbiased fashion (as with the classic n = 1 model). This leads to the results displayed by the dashed lines in Figure A2 (b) which result from the calculation based upon the above analysis. However taking an approach equivalent to that in section 3.1 solutions based upon the asymptotic steady-state mass balance of foulant generates the results displayed by the solid lines which are labelled C 0.75, C 0.5, C 0.3 and C 0.2. It is only for low value of the ratio SR that there is agreement between the two approaches. Now to fully understand the significance of these ratios to the development of the overall resistance, the net accumulation of foulant across the whole membrane would also need to be calculated to establish whether there is a steady state in foulant accumulation, or whether there is a transition to cake filtration. Detailed development is outside the scope of this work.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        19
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[13] D.J. Miller, D.R. Paul, B.D. Freeman, A crossflow filtration system for constant permeate flux membrane fouling characterization, Rev. Sci. Instrum. 84 (2013) 035003.[14] Y.-H. Cheng, A.Y. Kirschner, J. J, M. Nassr, W.A. Sullivan, D.R. Paul, L.E. Katz, R. W. Field, B.D. Freeman, Complete coverage fouling model for constant flux crossflow ultrafiltration and experimental validation, J. Membr. Sci. (2025) 124132.[15] F. Wicaksana, A.G. Fane, P. Pongpairoj, R.W. Field, Microfiltration of algae (Chlorella sorokiniana): critical flux, fouling and transmission, J. Membr. Sci. 387–388 (2012) 83–92.[16] T.H. Chong, F.S. Wong, A.G. Fane, Implications of critical flux and cake enhanced osmotic pressure (CEOP) on colloidal fouling in reverse osmosis: experimental observations, J. Membr. Sci. 314 (2008) 101–111.[17] B.K. Hwang, W.N. Lee, K.M. Yeon, P.K. Park, C.H. Lee, I.S. Chang, A. Drews, M. Kraume, Correlating TMP increase with microbial characteristics in the bio-cake on the membrane surface in a membrane bioreactor, Environ. Sci. Technol. 42 (2008) 3963–3968.[18] B.D. Cho, A.G. Fane, Fouling transients in nominally sub-critical flux operation of a membrane bioreactor, J. Membr. Sci. 209 (2002) 391–403.[19] J. Zhang, H.C. Chua, J. Zhou, A.G. Fane, Factors affecting the membrane performance in submerged membrane bioreactors, J. Membr. Sci. 284 (2006) 54–66, https://doi.org/10.1016/j.memsci.2006.06.022.[20] Jia Shin Ho, L. N. Sim, J. Gu, R. D. Webster, Hans G.L. Coster.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        19
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rs, J. Membr. Sci. 284 (2006) 54–66, https://doi.org/10.1016/j.memsci.2006.06.022.[20] Jia Shin Ho, L. N. Sim, J. Gu, R. D. Webster, Hans G.L. Coster. A threshold flux phenomenon for colloidal fouling in reverse osmosis characterized by transmembrane pressure and electrical impedance spectroscopy. J. Membr. Sci. 500, 55-65.[21] J.S. Ho, J.H. Low, L.N. Sim, R.D. Webster, S.A. Rice, A.G. Fane, H.G.L Coster, Insitu monitoring of biofouling on reverse osmosis membranes: detection and mechanistic study using electrical impedance spectroscopy. J. Membr. Sci. 518, 229-242.[22] R.W. Field, K. Zhang, Z.F. Cui, B.K. Hwang, Flat sheet MBRs: analysis of TMP rise and surface mass transfer coefficient, Desalination Water Treat. 35 (2011) 82–91.[23] G. Guglielmi, D.P. Saroj, D. Chiarani, G. Andreottola, Sub-critical fouling in a membrane bioreactor for municipal wastewater treatment: experimental investigation and mathematical modelling, Water Res. 41 (2007) 3903–3914.[24] J.A. Howell, Sub-critical flux operation of microfiltration, J. Membr. Sci. 107 (1995) 165–171.[25] D. Hughes, R.W. Field, Crossflow filtration of washed and unwashed yeast suspensions at constant shear under nominally sub-critical conditions, J. Membr. Sci. 280 (2006) 89–98.",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        19
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "R.W. Field et al. Journal of Membrane Science 741 (2026) 124961\n\n[26] P. Le Clech, B. Jefferson, I.S. Chang, S.J. Judd, Critical flux determination by the flux-step method in a submerged membrane bioreactor, J. Membr. Sci. 227 (2003) 81–93.[27] U. Beuscher, E.J. Kappert, J.G. Wijmans, Membrane research beyond materials science, J. Membr. Sci. 643 (2022) 119902.[28] A.G. Fane, A grand challenge for membrane desalination: more water, less carbon, Desalination 426 (2018) 155–163.\n\n[29] R.W. Field, J.J. Wu, On boundary layers and the attenuation of driving forces in forward osmosis and other membrane processes, Desalination 426 (2018) 155–163.[30] R.D. Cohen, R.F. Probstein, Colloidal fouling of reverse osmosis membranes, J. Colloid Interface Sci. 114 (1986) 194–207.[31] Graeme K. Pearce, UF/MF Membrane Water Treatment: Principles and Design Water Treatment Academy, 2011.\n\nR.W. Field et al. Journal of Membrane Science 741 (2026) 124961",
+    "citation": {
+      "authors": [
+        "Field W.",
+        "Fane A.G."
+      ],
+      "paper_id": "1-s2.0-S0376738825012748-main",
+      "title": "Revisiting the distinct concepts of critical flux and threshold flux",
+      "year": "1995",
+      "section": "unknown",
+      "pages": [
+        19,
+        20
+      ]
+    },
+    "type": "chunk"
+  }
+]

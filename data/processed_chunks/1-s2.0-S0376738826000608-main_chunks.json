@@ -1,0 +1,850 @@
+[
+  {
+    "content": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water Ahmed M.A. Abdelsamad a,b,*\n\n, Ibrahim M.A. Elsherbiny c\n\n, Mathias Kühnert d, Marco Went d, Anett Georgi c , Stefan Panglisch c\n\n, Agnes Schulze d , Katrin Mackenzie a a Helmholtz Centre for Environmental Research – UFZ, Department of Technical Biogeochemistry, D-04318, Leipzig, Germanyb National Research Centre – NRC, Water Pollution Research Department, Environment and Climate Change Research Institute, 33 El Buhouth Street, P.O. Box, Cairo, 12622, Egyptc Chair for Mechanical Process Engineering & Water Technology, University of Duisburg-Essen, Lotharstraße 1, 47057, Duisburg, Germanyd Leibniz Institute of Surface Engineering (IOM), Permoserstr. 15, D-04318, Leipzig, Germany",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Perand polyfluoroalkyl substances (PFAS) are a major threat to human health and the environment due to their persistence and harmfulness. One of the most efficient and sustainable approaches for their separation from water is membrane technology. In this study, polyelectrolyte multilayered (PEM) nanofiltration membranes were developed through layer-by-layer assembly of poly(diallyldimethylammonium chloride)/poly(styrenesulfonate) (PDADMAC/PSS) on poly­ethersulfone (PES) ultrafiltration supports to remove two representative PFAS, perfluorooctanoic acid (PFOA) and perfluorohexanoic acid (PFHxA). The effects of bilayer number and electron beam (EB) surface modification of the PES support were systematically investigated. A membrane coated with two bilayers achieved a PFOA rejection of (90.0 ± 3.6)% with a pure water permeability of (19.6 ± 3.1) L m-2 h-1 bar-1 on unmodified PES, which improved to (94.5 ± 3.2)% and (25 ± 4) L m-2 h-1 bar-1 after EB modification. Increasing the coating to three bilayers further enhanced PFOA rejection to (99 ± 0.4)% with permeability of (16 ± 4.3) L m-2 h-1 bar-1, surpassing the commercial NF270 membrane with (94.6 ± 2.1)% and (15.7 ± 2.5) L m-2 h-1 bar-1). PFHxA rejection was slightly lower due to its smaller molecular size and lower hydrophobicity.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e with (94.6 ± 2.1)% and (15.7 ± 2.5) L m-2 h-1 bar-1). PFHxA rejection was slightly lower due to its smaller molecular size and lower hydrophobicity. The membranes maintained stable rejection across pH values, while salts, particularly MgSO4 with higher ionic strength, reduced rejection through charge screening and bilayer swelling, which also increased permeability. Overall, PEM membranes, especially those on EBmodified supports, provide a good balance between flux and selectivity and have great potential as scalable, energy-efficient methods of removing PFAS from water.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Perand polyfluoroalkyl substances (PFAS) are a type of chemicals that have been produced since the 1940s. Because of their remarkable amphiphilic properties, they are widely employed in a variety of in­dustries, including food packaging, firefighting foams, and oil/waterresistant surface coatings [1,2]. Their high chemical stability and ten­dency to bioaccumulate have led to widespread environmental contamination and increasing concerns regarding human health, particularly due to their presence in drinking water sources [3–7]. Conventional water treatment methods are generally ineffective for PFAS removal [8,9]. At technical scale, separation methods such as activated carbon adsorption, ion exchange, and membrane separation [10–12] prevail while several advanced oxidation processes such as electro-oxidation or plasma treatment reached at least pilot-scale levels [13]. However, adsorption-based techniques often suffer from limited efficiency towards short-chain PFAS and regeneration challenges [12,14,15], whereas, advanced oxidation techniques are energy-intensive and difficult to apply at environmentally relevant PFAS concentrations [10,16]. In contrast, because of their effectiveness in rejection of a broad spectrum of PFAS pollutants, membrane-based separations, particularly nanofiltration (NF) and reverse osmosis (RO) have become a potential approach for PFAS removal [1,17,18].",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ts, membrane-based separations, particularly nanofiltration (NF) and reverse osmosis (RO) have become a potential approach for PFAS removal [1,17,18]. However, NF membranes face several challenges when being employed for the elimination of PFAS. One key limitation is that while they offer acceptable PFAS rejection, they often exhibit limited water permeability, which can restrict throughput in practical applications [19,20]. Moreover, compared to long-chain PFAS, the reduced molec­ular size and higher mobility of short-chain PFAS often result in lower rejection rates by NF membranes, especially when compared to high-pressure RO membranes [17,21]. Additionally, the NF market is dominated by polyamide thin film composite (TFC) membranes which are obtained by an interfacial polymerization reaction between tri­mesoyl chloride and piperazine to form polyamide as the active layer on top of a porous support substrate [22,23]. This reaction requires large amounts of organic solvents which should be avoided for environmental",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "* Corresponding author. Helmholtz Centre for Environmental Research – UFZ, Department of Technical Biogeochemistry, D-04318, Leipzig, Germany.E-mail address: ahmed.abdelsamad@outlook.de (A.M.A. Abdelsamad).\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 744 (2026) 125180",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 19 January 2026 0376-7388/ 2026 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). reasons. Polyelectrolyte multilayered (PEM) membranes are examined as a substitute for conventional nanofiltration TFC polyamide membranes for PFAS removal from water [24,25]. PEM membranes are prepared using a layer-by-layer (LBL) assembly in which the substrate (usually UF membrane) is immersed consecutively into polycation and polyanion solutions [26] and the coating is maintained at least until the membrane is in the so-called layer-dominated regime, where the pores of the sup­port membrane are fully closed to cover all defects in the barrier layer [27,28]. Therefore, it offers incredible flexibility in controlling the properties of the deposited layer including thickness, composition, morphology, and surface charges of the membrane [6]. Nevertheless, the PEM membranes face some drawbacks related to the number of bilayers to achieve a relevant rejection. In case of a membrane with a low number of bilayers, a loose separating layer or a polymer network formed results in high permeabilities but low selec­tivity, which is unsuitable for the removal of small organic molecules [24]. In contrast, increasing the number of bilayers leads to a dense separating layer and therefore low permeability combined with high selectivity [27,29].",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n contrast, increasing the number of bilayers leads to a dense separating layer and therefore low permeability combined with high selectivity [27,29]. A low permeability imposes extra energy costs when using these membranes and is thus undesirable. According to the liter­ature, the number of polyelectrolyte bilayers typically ranges from 4 to 18, depending on the type of polyelectrolytes used [28]. The resulting selective layer can vary in thickness from a few nanometers to the micrometer range, influenced by factors such as the coating method, properties of the substrate, and experimental conditions including pH, polyelectrolyte type, and concentration [30,31]. Numerous investigations have concentrated on creating efficient membranes that utilize fewer coated bilayers to improve both perme­ability and selectivity [24,32,33]. Brinke et al. [34] developed asym­metric PEM membranes based on using a combination of PSS/PAH for creating a relatively open PEM layer and PAA/PAH for forming a dense top PEM layer with a thickness as thin as 4 nm. This structure achieved 98 % rejection of typical micropollutants while maintaining minimal sodium chloride rejection. This creative design enhances performance while eliminating the necessity for complex bilayer coatings, presenting a scalable solution for water purification uses.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "design enhances performance while eliminating the necessity for complex bilayer coatings, presenting a scalable solution for water purification uses. Among the commercially available PEM NF membranes are the hollow fiber NF membranes (dNF40) produced by NX Filtration which demonstrates high rejection of short-chain PFAS (>96 % for per­fluorohexanoic acid, PFHxA) [35]. However, its relatively low water permeability requires further tuning. In this work, we developed PEM NF membranes for PFAS removal from water using a LBL assembly in which a polyethersulfone (PES) UF support membrane was immersed consecutively into polycation and polyanion solutions until the desired number of layers was attained. The produced PEM membranes were tested for the removal of two PFAS compounds, PFOA as an example of long-chain PFAS and PFHxA as an example of PFAS with a shortened C6 chain. To achieve high water permeability without compromising mem­brane selectivity, the aim was to form an intact barrier layer with the lowest number of bilayers. Therefore, the modification of the support membrane surface using electron beam irradiation was investigated. In previous work [36], the electron beam-induced grafting was examined as a successful method for membrane surface modification.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ion was investigated. In previous work [36], the electron beam-induced grafting was examined as a successful method for membrane surface modification. Unlike conventional chemical grafting approaches, electron beam (EB) modi­fication can be performed in aqueous systems without the use of organic solvents, initiators, or catalysts, while enabling covalent immobilization of functional groups and preserving the intrinsic pore structure of the membrane. Moreover, EB modification is applicable to a wide range of membrane types and surface chemistries. Support pre-modification prior to layer-by-layer (LBL) coating has been reported previously, for example using sulfonated PES supports to enhance polyelectrolyte multilayer formation and stability [37]. To the best of our knowledge, the present study is the first to employ electron-beam (EB) modification of the support membrane as a decisive strategy to facilitate the fabrication of high-performance polyelectrolyte multilayer nano­filtration membranes for PFAS removal. Here, EB modification of the PES support is used as a key surface-engineering approach to enhance polyelectrolyte multilayer formation, enabling effective PFAS separa­tion with a reduced number of bilayers, thereby avoiding excessive multilayer buildup and the associated loss in water permeability. Accordingly, the following hypotheses are examined.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "yers, thereby avoiding excessive multilayer buildup and the associated loss in water permeability. Accordingly, the following hypotheses are examined. (i) EB modification of the support membrane facilitates improved polyelectrolyte multilayer formation and stability during layerby-layer assembly;(ii) EB-modified supports require fewer bilayers to achieve high PFAS rejection compared to unmodified supports; and(iii) PEM nanofiltration membranes with a reduced number of bi­ layers exhibit improved water permeability while maintaining high PFAS retention. 2. Materials and methods 2.1. Chemicals A commercially available PES UF membrane (NADIR UP150) with a nominal molecular weight cut-off of 150,000 Da (MANN + HUMMEL) was used as a support layer for PEM membrane preparation. PDADMAC, (20 wt% solution with a molecular weight of 200–350 kDa), PSS, (30 wt% solution with molecular weight of 200 kDa), 3-sul­fopropyl acrylate potassium salt, PFOA (≥95 %) and PFHxA (≥98.0 %) were purchased from Sigma Aldrich (Germany). NF-270 was used as a reference NF membrane. NaCl and MgSO4 were purchased from Carl Roth GmbH (Karlsruhe, Germany). All salts were of analytical grade. Deionized water (DI) (Milli-Q system from Millipore) was used to pre­pare polyelectrolyte solutions. 2.2. Preparation of PEM membranes 2.2.1. Preparation of PEM membranes based on unmodified PES support The overall membrane fabrication procedure is schematically illus­trated in Fig. 1.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ".2.1. Preparation of PEM membranes based on unmodified PES support The overall membrane fabrication procedure is schematically illus­trated in Fig. 1. The PEM membranes were obtained by LBL coating of polycations and polyanions on the surface of unmodified PES supports (effective membrane area: 85.5 cm2) using a SIMA-tec crossflow filtra­tion system (Cube 80-VA). First, PES supports were wet by immersing in a 25 % (v/v) isopropanol solution in DI water for at least 5 h before coating to open the pores and activate the membrane surface. In the LBL experiment, the polyelectrolyte solutions, including PDADMAC as a polycation and PSS as polyanion, were sequential coated on the mem­brane surface during filtration without applying pressure using a crossflow filtration cell. PDADMAC and PSS solutions were prepared in 0.1 M NaCl at a concentration of 1 g L-1. First, the PDADMAC solution flushed the membrane for 10 min. The excess solution was removed from the cell and kept for further use. Then the cell was cleaned from the residual solution by rinsing with 0.1 M NaCl solution and water for 40 min. During the rinsing step, the feed flow rate was maintained at 3.8 L h-1. During the coating process, the permeate opening was closed, and the retentate valve was kept open to enable full circulation of the coating solution through the system. The temperature of the system was kept constant at 22 ◦C ± 3. Similarly, the membrane is coated with the PSS to produce the first bilayer.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the system. The temperature of the system was kept constant at 22 ◦C ± 3. Similarly, the membrane is coated with the PSS to produce the first bilayer. One bilayer is formed when the PES is coated with one-layer polycation and one-layer polyanion, with a washing step in between, to avoid the formation of PDADMAC and PSS complexes. Then, the one-bilayer membrane was rinsed with 0.1 M NaCl and water to start coating the further bilayers as described before. The prepared membrane can be utilized for filtration experiments immediately after coating or kept in water for later use. 2.2.2. Preparation of PEM membranes based on EB-modified PES support The PES support membrane was subjected to electron-beam (EB)",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A.M.A. Abdelsamad et al. Journal of Membrane Science 744 (2026) 125180 chemical modification as described in an earlier publication [38]. Briefly, the PES membrane was immersed in a solution of 3-sulfopropyl acrylate potassium salt (2 g L-1) for 5 min. Subsequently, EB irradiation of the wetted membrane was performed in a N2 atmosphere with an irradiation dose of 150 kGy and the acceleration voltage was set to 160 kV in order to penetrate the whole membrane cross-section. Afterwards, the samples were washed three times with water for 30 min. The modified PES membrane was then used as support for PEM membrane preparation as described in section 2.2.1.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.3. Membrane characterization The surface chemistry of the membranes was characterized using attenuated total reflection Fourier transform infrared (ATR-FTIR) spec­troscopy, utilizing a Nicolet 4700 system from Thermo Electron Cor­poration equipped with a multi-reflection smart performer ATR accessory. Scanning electron microscopy (SEM) (Ultra 55 SEM, Carl Zeiss Ltd., G¨ottingen, Germany) was employed to characterize the surface morphology of the support, prepared PEM and NF-270 reference mem­branes. The samples were coated with a thin (30 nm) chromium layer using the Z400 sputtering system (Leybold, Hanau). The surface wettability of the membranes was investigated using a static contact angle measurement system (DSA 30 E, Krüss, Hamburg, Germany) through the sessile drop method and Young-Laplace fitting. The membranes were attached to a glass plate and water droplets with a volume of 5.5 μL were placed on the membrane surface. The measure­ments were taken at least five times at different sites of the membrane, and the values of three different samples were averaged. The surface charge of the membranes was investigated by measuring the zeta potential with an adjustable gap cell in the SurPASS system (Anton Paar, Graz, Austria). To balance the swelling and eliminate re­sidual compounds, the flat sheet membranes were submerged in MilliQ water for 24 h. They were then connected to the measuring electrodes and corrected on the stamps of the measuring cell.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ranes were submerged in MilliQ water for 24 h. They were then connected to the measuring electrodes and corrected on the stamps of the measuring cell. To enable the necessary pressure gradient, the gap between the two membranes was tuned to 100 μm. Before the measurement, the membrane was sub­merged in a 1 M KCl solution; thereafter, the pH value was changed",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Schematic illustration of the membrane fabrication process, showing the preparation of unmodified and electron-beam (EB)-modified PES supports, including rinsing and cleaning, and subsequent layer-by-layer (LBL) assembly of PDADMAC/PSS polyelectrolyte multilayers on both supports. A.M.A. Abdelsamad et al. Journal of Membrane Science 744 (2026) 125180 either by HCl or NaOH solutions. The measurements were conducted at pH ranges from 3 to 9 and the average of at least three membranes was considered. 2.4. Membrane performance evaluation 2.4.1. Adsorption experiment To investigate the potential effect of PFAS adsorption on their sep­aration behavior, adsorption experiments were conducted using PFOA as a representative compound. PFOA was selected because it is more hydrophobic and has a larger molecular size than PFHxA; therefore, its adsorption behavior provides a conservative estimate, as PFHxA would be expected to exhibit even lower adsorption on the membrane surface. To measure the quantity of PFOA adsorbed on the PEM membrane surface before filtration experiments, a rectangular piece of membrane (50 mm * 230 mm) was prepared. A 1 mg L-1 PFOA solution (100 mL) was adjusted to a pH between 3.5 and 4 using 0.1 M HCl prior to membrane addition. The membrane sample was then immersed in the solution, and the mixture was shaken for 24 h at 180 rpm and room temperature (22 ◦C ± 3). Afterwards, 1 mL of the suspension was taken for LC-MS analysis.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ion, and the mixture was shaken for 24 h at 180 rpm and room temperature (22 ◦C ± 3). Afterwards, 1 mL of the suspension was taken for LC-MS analysis. The PFOA removal (r, %) at equilibrium was calculated using Equation (1): r =(1Ct C0 )✕100Equation 1 Where r (%) is the removal percentage at equilibrium, C0 and Ct (mg L-1) are the concentrations of PFOA at the initial and equilibrium time, respectively. 2.4.2. Membrane filtration experiments A rectangular piece of membrane (50 mm * 230 mm) was put in the crossflow filtration system (Cube VA 80) and the feed tank was filled with at least 250 ml DI water for measuring the pure water permeability or PFAS (1 mg L-1 PFOA or 1 mg L-1 PFHxA) aqueous feed solutions for measuring water permeability. Before measuring the permeability, the examined PEM membrane was compacted by filtering pure water for 2 h at 8 bar. While the reference NF-270 membrane was compacted at 20 bar. After compaction, the applied pressure was reduced to 5 bar for 90 min before collecting the permeate volume. The water permeability (W in L m-2 h-1 bar-1) was calculated using Equation (2). W =md * A * t * ΔPEquation 2 Where m is the permeate mass (g), d is the liquid density (g L-1), A is the active membrane area (m2), t is the filtration time (h), and ΔP is the applied pressure difference across the membrane (bar). All filtration experiments were performed in a crossflow cell under constant pressure operation.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "pplied pressure difference across the membrane (bar). All filtration experiments were performed in a crossflow cell under constant pressure operation. The membranes thus operated at their intrinsic flux, which varied according to their permeability. In the case of the presence of salts in the feed solution, osmotic pressure is taken into account. The osmotic pressure for a salt solution in water is described by the Van't Hoff equation as follows (Equation (3)): Δπ = i * M * R * TEquation 3 where M is the molar concentration (mol L-1), R is the universal gas constant (0.08314 L bar mol-1 K-1), i is the van ’t Hoff factor and T is the absolute temperature (298 K for room temperature). For the feed solu­tions used in this study, containing either 1 g L-1 NaCl or 1 g L-1 MgSO4, the estimated osmotic pressures were approximately 0.84 bar for NaCl (i = 2) and 0.42 bar for MgSO4 (i = 2). In contrast, the contribution from 1 mg L-1 PFOA was negligible (≈0.00006 bar) due to its low concentra­tion. Therefore, in salt-containing feed solutions, the effective driving pressure was corrected by subtracting the estimated osmotic pressure from the applied pressure. The rejection (R, %) of PFAS (PFOA and PFHxA) or salt solutions",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(NaCl and MgSO4) was determined according to Equation 4 R =(1 -Cp Cf )* 100Equation 4 Cp is the solute concentration in the permeate and Cf is the solute con­centration in the feed. It should be noted that rejection was calculated using the bulk feed concentration (Cf). Reported values therefore represent apparent re­jections, as local concentration polarization effects at the membrane surface cannot be excluded under the applied flux conditions. Unless otherwise specified, all rejection experiments were conducted using feed solutions containing 1 mg L-1 of PFOA or PFHxA, and 1 g L-1 of NaCl or MgSO4, as described earlier in the permeability test section. 2.5. Analytical methods PFOA and PFHxA concentrations were analyzed using a liquid chromatography system coupled with a single-stage quadrupole mass spectrometer (LCMS-2020; SHIMADZU Corporation, Japan) equipped with electrospray ionization. The analytical method followed a vali­dated protocol detailed elsewhere [39]. Calibration for PFOA and PFHxA showed high linearity (R2 > 0.99) for concentrations below 1 mg L-1. Samples exceeding this concentration were diluted prior to analysis. Each sample was measured in duplicate, and the average concentration was reported. Analytical accuracy and precision were verified according to standard guidelines. 3. Results and discussion 3.1. Characterization of the prepared PEM membranes ATR-FTIR spectroscopy confirmed the successful LBL coating of the PEM membrane.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lts and discussion 3.1. Characterization of the prepared PEM membranes ATR-FTIR spectroscopy confirmed the successful LBL coating of the PEM membrane. With the final coating layer being PSS, Fig. 2a shows the ATR-FTIR spectra of the unmodified UF PES substrate and the PEM_3BL membrane including three bilayers (PDADMAC/PSS)3. The PEM membrane spectrum displays additional peaks at 1035 cm-1 and 2925 cm-1 which are absent in the PES spectrum. The peak at 1035 cm-1 (Fig. 2b) is attributed to both the sulfonate stretching of PSS and the C–N stretching of PDADMAC [40], therefore verifying the successful deposition of the bilayers. Furthermore, ascribed to the C–H stretching vibrations from the aliphatic chains of PDADMAC is the peak at 2925 cm-1 (Fig. 2c) [41]. The broad peak at 3440 cm-1 (Fig. 2c) indicated by O–H stretching shows the presence of adsorbed water due to the hy­drophilic properties of the polyelectrolyte layers. The absence of these spectrum fluctuations in the PES substrate confirms the formation of (PDADMAC/PSS) bilayers on the surface of the PES substrate. In order to compare the surface charge of the obtained PEM mem­branes, the zeta potentials of the uncoated PES, the commercial NF-270 membranes as well as the prepared PEM membranes with different bilayer numbers were determined, as shown in Fig. 3a. The PES support shows slightly negative zeta potential across the tested pH range, which remains relatively unchanged after PEM coating.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n in Fig. 3a. The PES support shows slightly negative zeta potential across the tested pH range, which remains relatively unchanged after PEM coating. This indicates that the polyelectrolyte multilayers did not significantly alter the overall surface charge, particularly in the case of PEM_1BL to PEM_3BL. Only a marginal decrease in zeta potential was observed with increased bilayers to five (PEM_5BL), possibly due to greater surface coverage and accumulation of fixed anionic groups. In contrast, the NF-270 membrane exhibits a strong pH dependence, with its surface charge becoming significantly more negative as the pH increases. This is attributed to the deprotonation of carboxyl functional groups present in the polyamide active layer, which increases the negative surface charge at higher pH [42]. On the other hand, PEM membranes maintain a sustainable negative surface charge over the entire pH range without crossing into the positive region. This supports the understanding that PEMs composed of strong polyelectrolytes",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(PDADMAC/PSS) remain permanently charged and do not exhibit an isoelectric point, unlike polyamide membranes. The slight increase in negativity from pH 3 to 9 can be explained by hydroxide ion adsorption, as reported by Junker et al. [43]. Fig. 3b shows the water contact angle measurements for the mem­branes with different polyelectrolyte bilayer numbers. The uncoated PES support membrane exhibited an average contact angle of 73◦, which is consistent with previous studies [44]. The contact angle slightly decreased for the PEM membranes prepared in this study which started with PDADMAC and terminated with relatively hydrophilic PSS polymer [45]. However, no significant difference in contact angle was observed among the PEM membranes, considering the experimental errors, regardless of the number of bilayers. In contrast, the control NF-270 membrane showed a much lower contact angle (25◦), indicating a hy­drophilic surface, which is consistent with the presence of ionizable carboxyl groups in its polyamide active layer that contribute to its negative surface charge at neutral to alkaline pH [46]. SEM was employed to study the morphologies of the prepared membranes. The top-view SEM image of the uncoated PES support membrane (Fig. 4a) reveals a relatively smooth surface morphology without notable surface aggregates. After deposition of PDADMAC/PSS bilayers (Fig.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "t membrane (Fig. 4a) reveals a relatively smooth surface morphology without notable surface aggregates. After deposition of PDADMAC/PSS bilayers (Fig. 4c), the PEM-coated membrane exhibits a rougher and more heterogeneous surface, with the presence of particulate-like ag­gregates. Similar morphologies have been reported in the literature for PSS–PDADMAC PEMs [47] and are often attributed to inhomogeneous charge distribution on the substrate, which promotes localized deposi­tion of the polyelectrolytes. Despite the apparent surface roughness, no visible defects were observed, suggesting that the PEM layer is robust, a finding further supported by the high PFOA and PFHxA rejection per­formance, as explained in section 3.2. Notably, SEM images in Fig. S1confirm that two bilayers are enough to obtain a dense and defect-free selective layer. Cross-section SEM images (Fig. 4b and d) do not allow for accurate estimation of the PEM layer thickness, since the coated material is compositionally similar to the PES support (Fig. S2), making the interface indistinct; literature reports indicate a thickness of ≈25 nm for similar PSS–PDADMAC coatings [47]. In comparison, Fig. 4e and f displays smooth morphology and uniform top surface typical of the commercial NF-270 polyamide TFC membrane, which is consistent with other works [48,49]. Low-magnification cross-sectional SEM image of the NF-270 membrane illustrating the overall membrane structure is also provided in Fig. S2.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Performance of PEM membranes 3.2.1. Effect of bilayer number The objective of this work was to improve the selective separation of PFAS. Thus, the effect of the number of bilayers on membrane perfor­mance was thoroughly explored to achieve the maximum PFAS rejection without compromising the water permeability. The pure water permeability of the PES membrane supports dropped noticeably from 300 L m-2 h-1 bar-1 to 55 L m-2 h-1 bar-1 after the deposition of the first bilayer (producing PEM_1BL membrane), as shown in Fig. 5a. This sharp decline is likely due to the rapid pore closure of the support layer and formation of relatively dense poly­electrolyte multilayers, which is attributed to the high ionic strength (0.1 M NaCl) of the coating solution [32]. After this initial rapid decline, the permeability decrease was rather less significant for the next bilayers until it reached 10.5 L m-2 h-1 bar-1 after 5 bilayers (producing PEM_5BL membrane). Adsorption experiments (detailed in Section 2.4.1) confirmed that the uptake of the adsorbate on the membrane surface is negligible (<5 % removal even at a high membrane area/solution volume ratios of 1150 cm² L⁻1) for NF-270 and all PEM membranes). This rules out adsorption as a dominant pathway for these membranes and ensures that the observed PFAS rejection is predominantly governed by charge and size exclusion mechanisms. The PES support membrane, however, showed a",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. a) zeta potential measurements and b) contact angle measurements of PES support, NF-270, and LBL-prepared PEM membranes. A.M.A. Abdelsamad et al. Journal of Membrane Science 744 (2026) 125180 measurable rejection of 30 % for PFOA and 20 % for PFHxA (Fig. 5). This rejection cannot be explained by size or charge effects, since PES has relatively large pores and weak surface charge. A more plausible explanation is the adsorption of PFAS molecules driven by hydrophobic interactions with the relatively hydrophobic PES surface, as well as adsorption within the near-surface pores, which can slow down solute transport. These hydrophobic and near-surface adsorption effects observed for the bare PES support are largely eliminated after PEM formation, as the polyelectrolyte multilayers fully cover the support surface. Such effects are stronger for PFOA than PFHxA due to its longer perfluorinated chain and higher hydrophobicity, resulting in slightly higher apparent rejection for PFOA. In contrast, as Fig. 5b and c indicate, the rejection of PFOA and PFHxA displayed a sharp increase following the coating of the first bilayer. The rejection of PFOA and PFHxA reached approximately 93 % and 89 %, respectively, after coating three bilayers, suggesting the formation of a dense active layer.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n of PFOA and PFHxA reached approximately 93 % and 89 %, respectively, after coating three bilayers, suggesting the formation of a dense active layer. One can ascribe the rejection of PFOA and PFHxA on the one hand to a combi­nation of both, size exclusion and electrostatic repulsion between the negatively charged PSS top layer and the anionic PFOA and PFHxA molecules, significantly limiting their transport through the membrane. On the other hand, the lower rejection values measured for PFHxA compared to PFOA at the same number of bilayers could be explained by the smaller molecular size of PFHxA (314.05 g mol-1) compared to PFOA (414.07 g mol-1). Correspondingly, the aqueous diffusion co­efficients at 25 ◦C are 7.8 * 10-6 cm2 s-1 and 4.9 * 10-6 cm2 s-1 for PFHxA and PFOA, respectively [50]. However, PEM_5BL was not included in the subsequent experiments, as its water permeability declined significantly without any improvement in PFOA or PFHxA rejection compared to PEM_3BL. The aim was to achieve the best per­formance with the lowest bilayer number.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2.2. Effect of pH The impact of pH on PFOA rejection by various membranes provides important understanding of the main separating mechanism. As shown in Fig. 6, PFOA rejection increases with increasing pH across all tested membranes. This behavior is particularly noticeable for NF-270, where the increasing density of negative surface charges at pH ≈4.5 (due to the deprotonation of the carboxylic groups on the membrane surface) enhanced the electrostatic repulsion of the PFOA molecules. PFOA exists essentially in its anionic form over the studied pH range since its pKa is close to zero [51]. At pH 3, which is close to the isoelectric point of NF-270 (≈pH 3.5 in this work; Fig. 3a), the surface charge density is strongly reduced and electrostatic repulsion is largely suppressed. As a consequence, NF-270 exhibits its lowest PFOA rejection under acidic conditions. In contrast, the PEM membranes maintain relatively high and stable PFOA rejection over the entire pH range, including at pH 3. This behavior is consistent with their comparatively stable zeta potential and indicates that PEM membrane performance is less sensitive to pH vari­ations. The strongly bound multilayers of strong polyelectrolytes form a fixed charge network that preserves charge exclusion capacity and provides an additional size exclusion contribution [52], allowing effective PFOA rejection even when electrostatic repulsion is weakened.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "capacity and provides an additional size exclusion contribution [52], allowing effective PFOA rejection even when electrostatic repulsion is weakened. A slight increase in PFOA rejection with increasing pH can still be observed for the PEM membranes, which may be attributed to minor changes in surface charge, as reflected by the gradual decrease in zeta potential with increasing pH (Fig. 3a). At higher pH values, NF-270 ultimately achieves higher PFOA rejection than the PEM membranes, which can be attributed to its higher density of negative surface charges at pH > 4.5. In addition to electro­static effects, structural factors such as pore size may also contribute to",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. Top surface and cross-section SEM images of (a, b) PES support membrane, (c, d) PEM_3BL membrane and (e, f) NF-270 membrane. A.M.A. Abdelsamad et al. Journal of Membrane Science 744 (2026) 125180 its separation performance. Although the molecular weight cut-off (MWCO) of the membranes was not determined in this study, earlier permeability results (Fig. 5) indicate that PEM membranes with two and three bilayers (PEM_2BL and PEM_3BL) exhibit water permeabilities comparable to that of NF-270. 3.2.3. Effect of ionic strength The presence of salts strongly influences the PFOA rejection and water permeability of the membranes. As shown in Fig. 7, the rejection of PFOA decreases in the presence of NaCl (1 g L-1) and MgSO4 (1 g L-1), with a more pronounced decline observed in the MgSO4 solutions. One contributing factor is the charge screening effect, where the increased ionic strength compresses the electric double layer of the membrane surface and reduces electrostatic repulsion between the negatively charged membranes and PFOA molecules. Although MgSO4 (1 g L-1) has a lower molar concentration (0.0083 M) compared to NaCl (0.0171 M), its ionic strength is nearly double (0.0332 M vs. 0.0171 M) due to the divalent charges of Mg2+ and SO42-. This higher ionic strength results in stronger charge screening, which more effectively reduces electrostatic repulsion and thus leads to a greater decrease in PFOA rejection",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. Performance of PEM membranes as a function of the number of bilayers. a) pure water permeability, b) water permeability and PFOA rejection and c) water permeability and PFHxA rejection. In all experiments, CPFOA = 1 mg L-1, CPFHxA = 1 mg L-1, Hydraulic pressure = 5 bar, feed solution pH = 6 ± 0.1, the feed flow rate = 14 L h-1 and temperature = (23 ± 2)◦C\n\nFig. 6. Effect of feed solution pH on PFOA rejection by different membranes. CPFOA = 1 mg L-1 in DI water. Hydraulic pressure = 5 bar, the feed flow rate = 14 L h-1 and temperature = (23 ± 2)◦C.\n\nFig. 7. Rejection of PFOA by PES, NF-270 and PEM membranes in DI water and in the presence of salts (NaCl and MgSO4). In all experiments, CPFOA = 1 mg L-1, the salt feed solution was prepared by dissolving 1g L-1 of NaCl or MgSO4 in DI water. Hydraulic pressure = 5 bar, feed solution pH = 6 ± 0.1, the feed flow rate = 14 L h-1 and temperature = (23 ± 2)◦C.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A.M.A. Abdelsamad et al. Journal of Membrane Science 744 (2026) 125180 compared to NaCl [53]. However, charge screening is not the only mechanism. The presence of salts also induces swelling of the polyelectrolyte multilayers, which enlarges the effective pore size of the PEM membranes and leads to both a reduction in PFOA rejection and an increase in water permeability. This behavior is supported by the permeability data (Table S1), which shows that the presence of salts increased the water permeability of the tested membranes. Such salt-induced swelling has also been reported in literature as a key stability concern for PEM membranes at elevated ionic strength [42,54]. Although PEM_1BL seems to be more affected by the presence of salts compared to PEM_2BL and PEM_3BL, this observation should be inter­preted with caution, since the relative changes in rejection and perme­ability could fall within the margin of experimental accuracy. In contrast, PEM_2BL and PEM_3BL, with denser and thicker multilayers, provide an additional size exclusion contribution that stabilizes their separation performance under high ionic strength. For comparison, NF270 also exhibits reduced PFOA rejection in saline feed, but its poly­amide active layer is less prone to swelling than PEMs, reflecting its structural robustness [55]. 3.2.4. Effect of EB modification Fig.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "but its poly­amide active layer is less prone to swelling than PEMs, reflecting its structural robustness [55]. 3.2.4. Effect of EB modification Fig. 8 compares the performance of PEM membranes fabricated on unmodified (PES) supports (used in the previous experiments) and those prepared on electron beam (EB)-modified PES supports (mPES) with the performance of the NF270 membrane for both PFOA and PFHxA rejec­tion. The results demonstrate that PEM membranes prepared on mPES supports (mPEM) have both, higher pure water permeability (Fig. 8a) and improved rejection for both PFOA and PFHxA (Fig. 8b and c) compared to PEM membranes based on unmodified PES supports. The PFOA rejection of the PEM_2BL membrane improved from (90.0 ±3.6)% to (94.5 ± 3.2)% after EB modification and the permeability improved from (19.6 ± 3.1) L m-2 h-1 bar-1 to (25 ± 4) L m-2 h-1 bar-1. Similarly, The PFOA rejection of the PEM_3BL membrane improved from (93 ± 4)% to (99.0 ± 0.4)% after EB modification and the permeability improved from (13.3 ± 2.5) to (16 ± 4.3) L m-2 h-1 bar-1. When compared with previously reported PDADMAC/PSS-based polyelectrolyte multilayer nanofiltration membranes [24,56,57], the present results demonstrate a competitive balance between PFAS rejection and water permeability. Comparable PFAS rejection has been reported using PDADMAC/PSS multilayers, in some cases with higher water permeability as reported by Zhi et al. [57].",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "omparable PFAS rejection has been reported using PDADMAC/PSS multilayers, in some cases with higher water permeability as reported by Zhi et al. [57]. However, such per­formance was achieved using different membrane architectures and preparation strategies, primarily relying on multilayer tuning rather than modification of the support membrane. In contrast, the present study achieves similarly high rejection with only two to three bilayers through electron-beam modification of the PES support, demonstrating the effectiveness of support modification in enhancing membrane per­formance while limiting the required number of polyelectrolyte bilayers. A quantitative comparison with representative literature data is sum­marized in Table 1. Since all experiments were conducted at constant pressure rather than constant flux, it should be noted that membranes with higher permeability naturally operate at higher water flux, which can affect apparent rejection values. In the worst-case scenario (assuming com­plete decoupling of water and solute fluxes), the rejection of higherpermeability membranes could be slightly overestimated. However, for NF-type membranes such as those studied here, fluxes are typically coupled, and even under worst-case assumptions, the observed im­provements in rejection after EB modification remain valid.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "here, fluxes are typically coupled, and even under worst-case assumptions, the observed im­provements in rejection after EB modification remain valid. Therefore, this improvement is due to the enhanced surface properties earned by electron beam modification, which grafts sulfonate functional groups onto the PES surface. These sulfonate groups improve the PES hydro­philicity (water contact angle = (49 ± 5)o compared to (73 ± 7)o before EB modification), promoting better water transport through the",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 8. PEM membrane performance before and after electron beam modifi­cation compared to NF-270 membrane. In all experiments, CPFOA = 1 mg L-1, CPFHxA = 1 mg L-1, hydraulic pressure = 5 bar, feed solution pH = 6 ± 0.1, the feed flow rate = 14 L h-1 and temperature = (23 ± 2)◦C.\n\nTable 1 Comparison of PFAS rejection and water permeability of PDADMAC/PSS-based PEM nanofiltration membranes reported in the literature and in this study. StudyNumber of Bilayers Water Permeability (L m-2 h-1 bar-1)\n\nPFOA Rejection (%)\n\nZhi et al. [57]318>99Chaudhary et al. [56] Wang et al. [24]611.890This work316>99This work22594.5 A.M.A. Abdelsamad et al. Journal of Membrane Science 744 (2026) 125180",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8,
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[9] M. Ateia, M. Arifuzzaman, S. Pellizzeri, M.F. Attia, N. Tharayil, J.N. Anker, T. Karanfil, Cationic polymer for selective removal of GenX and short-chain PFAS from surface waters and wastewaters at ng/L levels, Water Res. 163 (2019), https://doi.org/10.1016/j.watres.2019.114874.[10] ´A. Soriano, D. Gorri, A. Urtiaga, Efficient treatment of perfluorohexanoic acid by nanofiltration followed by electrochemical degradation of the NF concentrate, Water Res. 112 (2017) 147–156, https://doi.org/10.1016/J. WATRES.2017.01.043.[11] C.C. Murray, R.E. Marshall, C.J. Liu, H. Vatankhah, C.L. Bellona, PFAS treatment with granular activated carbon and ion exchange resin: comparing chain length, empty bed contact time, and cost, J. Water Proc. Eng. 44 (2021) 102342, https:// doi.org/10.1016/J.JWPE.2021.102342.[12] Z. Du, S. Deng, D. Liu, X. Yao, Y. Wang, X. Lu, B. Wang, J. Huang, Y. Wang, B. Xing, G. Yu, Efficient adsorption of PFOS and F53B from chrome plating wastewater and their subsequent degradation in the regeneration process, Chem. Eng. J. 290 (2016) 405–413, https://doi.org/10.1016/J.CEJ.2016.01.077.[13] J. Blotevogel, S.M. Thagard, S. Mahendra, Scaling up water treatment technologies for PFAS destruction: current status and potential for fit-for-purpose application, Curr. Opin. Chem. Eng. 41 (2023) 100944, https://doi.org/10.1016/J. COCHE.2023.100944.[14] H. Wan, R. Mills, K. Qu, J.C. Hower, M.A. Mottaleb, D. Bhattacharyya, Z.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "hem. Eng. 41 (2023) 100944, https://doi.org/10.1016/J. COCHE.2023.100944.[14] H. Wan, R. Mills, K. Qu, J.C. Hower, M.A. Mottaleb, D. Bhattacharyya, Z. Xu, Rapid removal of PFOA and PFOS via modified industrial solid waste: mechanisms and influences of water matrices, Chem. Eng. J. 433 (2022) 133271, https://doi.org/ 10.1016/J.CEJ.2021.133271.[15] Y. Qi, H. Cao, W. Pan, C. Wang, Y. Liang, The role of dissolved organic matter during per-and polyfluorinated substance (PFAS) adsorption, degradation, and plant uptake: a review, J. Hazard Mater. 463 (2022) 129139, https://doi.org/ 10.1016/j.jhazmat.2022.129139.[16] M.S. Samuel, M. Shang, J. Niu, Photocatalytic degradation of perfluoroalkyl substances in water by using a duo-functional tri-metallic-oxide hybrid catalyst, Chemosphere 293 (2022), https://doi.org/10.1016/j.chemosphere.2022.133568.[17] ´A. Soriano, D. Gorri, A. Urtiaga, Selection of high flux membrane for the effective removal of short-chain perfluorocarboxylic acids, Ind. Eng. Chem. Res. 58 (2019) 3329–3338, https://doi.org/10.1021/acs.iecr.8b05506.[18] Z. Abunada, M.Y.D. Alazaiza, M.J.K. Bashir, An overview of Perand polyfluoroalkyl substances (PFAS) in the environment: source, fate, risk and regulations, Water 12 (2020) 3590, https://doi.org/10.3390/W12123590.[19] Y. Ji, Y.J. Choi, Y. Fang, H.S. Pham, A.T. Nou, L.S. Lee, J. Niu, D.M. Warsinger, Electric field-assisted nanofiltration for PFOA removal with exceptional flux, selectivity, and destruction, Environ. Sci.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ee, J. Niu, D.M. Warsinger, Electric field-assisted nanofiltration for PFOA removal with exceptional flux, selectivity, and destruction, Environ. Sci. Technol. 57 (2023) 18519–18528, https://doi.org/10.1021/acs.est.2c04874.[20] C.Y. Tang, Q.S. Fu, C.S. Criddle, J.O. Leckie, Effect of flux (transmembrane pressure) and membrane properties on fouling and rejection of reverse osmosis and nanofiltration membranes treating perfluorooctane sulfonate containing wastewater, Environ. Sci. Technol. 41 (2007) 2008–2014, https://doi.org/ 10.1021/es062052f.[21] A. Safulko, T.Y. Cath, F. Li, B. Tajdini, M. Boyd, R.P. Huehmer, C. Bellona, Rejection of perfluoroalkyl acids by nanofiltration and reverse osmosis in a highrecovery closed-circuit membrane filtration system, Sep. Purif. Technol. 326 (2023) 124867, https://doi.org/10.1016/j.seppur.2023.124867.[22] A.M.A. Abdelsamad, A.S.G. Khalil, M. Ulbricht, Influence of controlled functionalization of mesoporous silica nanoparticles as tailored fillers for thin-film nanocomposite membranes on desalination performance, J. Membr. Sci. 563 (2018) 149–161, https://doi.org/10.1016/j.memsci.2018.05.043.[23] N. Misdan, W.J. Lau, A.F. Ismail, Seawater reverse osmosis (SWRO) desalination by thin-film composite membrane current development, challenges and future prospects, Desalination 287 (2012) 228–237.[24] Y. Wang, I. Zucker, C. Boo, M.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "thin-film composite membrane current development, challenges and future prospects, Desalination 287 (2012) 228–237.[24] Y. Wang, I. Zucker, C. Boo, M. Elimelech, Removal of emerging wastewater organic contaminants by polyelectrolyte multilayer nanofiltration membranes with tailored selectivity, ACS ES&T Eng. 1 (2021) 404–414, https://doi.org/10.1021/ acsestengg.0c00160.[25] Y. Zhi, X. Zhao, A. Shuai, Y. Jia, X. Cheng, S. Lin, F. Xiao, L. Han, H. Chai, Q. He, C. Liu, Enhancing rejection of short-chain perand polyfluoroalkyl substances by tailoring the surface charge of nanofiltration membranes, Water Res. 272 (2025) 122931, https://doi.org/10.1016/j.watres.2024.122931.[26] R. Niestroj-Pahl, L. Stelmaszyk, I.M.A. Elsherbiny, H. Abuelgasim, M. Krug, C. Staaks, G. Birkholz, H. Horn, T. Li, B. Dong, L. D¨ahne, A. Tiehm, S. Panglisch, Performance of layer-by-layer-modified multibore ultrafiltration capillary membranes for salt retention and removal of antibiotic resistance genes, Membranes 10 (2020) 1–17, https://doi.org/10.3390/membranes10120398.[27] W.A. Jonkers, W.M. de Vos, E. te Brinke, Asymmetric polyelectrolyte multilayer membranes: influence of bottom section polycation on layer growth and retention mechanisms, J. Membr. Sci. 698 (2024) 122577, https://doi.org/10.1016/j. memsci.2024.122577.[28] E.N. Durmaz, S. Sahin, E. Virga, S. De Beer, L.C.P.M. De Smet, W.M. De Vos, Polyelectrolytes as building blocks for next-generation membranes with advanced functionalities, ACS Appl.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S. De Beer, L.C.P.M. De Smet, W.M. De Vos, Polyelectrolytes as building blocks for next-generation membranes with advanced functionalities, ACS Appl. Polym. Mater. 3 (2021) 4347–4374, https://doi.org/ 10.1021/acsapm.1c00654.[29] F. Fadhillah, S.M.J. Zaidi, Z. Khan, M.M. Khaled, F. Rahman, P.T. Hammond, Development of polyelectrolyte multilayer thin film composite membrane for water desalination application, Desalination 318 (2013) 19–24, https://doi.org/ 10.1016/j.desal.2013.03.011.[30] B. Tieke, A. Toutianoush, W. Jin, Selective transport of ions and molecules across layer-by-layer assembled membranes of polyelectrolytes, p-sulfonato-calix[n] arenes and prussian Blue-type complex salts, Adv. Colloid Interface Sci. 116 (2005) 121–131, https://doi.org/10.1016/j.cis.2005.05.003.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[31] L. S´eon, P. Lavalle, P. Schaaf, F. Boulmedais, Polyelectrolyte multilayers: a versatile tool for preparing antimicrobial coatings, Langmuir 31 (2015) 12856–12872, https://doi.org/10.1021/ACS.LANGMUIR.5B02768/ASSET/ IMAGES/LARGE/LA-2015-027686_0005.JPEG.[32] R. Niestroj-Pahl, E. te Brinke, H. Roth, L. D¨ahne, W.M. de Vos, Symmetric and asymmetric ceramic-supported polyelectrolyte multilayer nanofiltration membranes, J. Membr. Sci. 713 (2025) 123366, https://doi.org/10.1016/j. memsci.2024.123366.[33] R.A. Ghostine, M.Z. Markarian, J.B. Schlenoff, Asymmetric growth in polyelectrolyte multilayers, J. Am. Chem. Soc. 135 (2013) 7636–7646, https://doi. org/10.1021/ja401318m.[34] E. te Brinke, D.M. Reurink, I. Achterhuis, J. de Grooth, W.M. de Vos, Asymmetric polyelectrolyte multilayer membranes with ultrathin separation layers for highly efficient micropollutant removal, Appl. Mater. Today 18 (2020) 100471, https:// doi.org/10.1016/J.APMT.2019.100471.[35] D. Sim, S. Byun, Y.S. Lee, J.O. Kim, S.Y. Nam, A.K. An, S. Jeong, Amplified efficacy of short-chain perfluoroalkyl substances removal with nanofiltration-magnetic activated carbon integration, J. Water Process Eng. 64 (2024) 105585, https://doi. org/10.1016/j.jwpe.2024.105585.[36] A. Schulze, M.F. Maitz, R. Zimmermann, B. Marquardt, M. Fischer, C. Werner, M. Went, I. Thomas, Permanent surface modification by electron-beam-induced grafting of hydrophilic polymers to PVDF membranes, RSC Adv.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "r, C. Werner, M. Went, I. Thomas, Permanent surface modification by electron-beam-induced grafting of hydrophilic polymers to PVDF membranes, RSC Adv. 3 (2013) 22518–22526, https://doi.org/10.1039/c3ra43659d.[37] K. Remmen, B. Müller, J. K¨oser, M. Wessling, T. Wintgens, Assessment of layer-bylayer modified nanofiltration membrane stability in phosphoric acid, Membranes 10 (2020), https://doi.org/10.3390/membranes10040061.[38] A. Schulze, B. Marquardt, S. Kaczmarek, R. Schubert, A. Prager, M.R. Buchmeiser, Electron beam-based functionalization of poly(ethersulfone) membranes, Macromol. Rapid Commun. 31 (2010) 467–472, https://doi.org/10.1002/ MARC.200900666.[39] N. Saeidi, F.D. Kopinke, A. Georgi, Understanding the effect of carbon surface chemistry on adsorption of perfluorinated alkyl substances, Chem. Eng. J. 381 (2020) 122689, https://doi.org/10.1016/J.CEJ.2019.122689.[40] T. Laakso, M. Kallioinen, A. Pihlajam¨aki, M. M¨antt¨ari, J.E. Wong, Polyelectrolyte multilayer coated ultrafiltration membranes for wood extract fractionation, Sep. Purif. Technol. 156 (2015) 772–779, https://doi.org/10.1016/J. SEPPUR.2015.10.075.[41] Z. Niavarani, D. Breite, M. Yasir, V. Sedlarik, A. Prager, N. Sch¨onherr, B. Abel, R. Gl¨aser, A. Schulze, Removal of endocrine disrupting chemicals from water through urethane functionalization of microfiltration membranes via electron beam irradiation, Front. Environ. Sci. Eng. 18 (2024) 1–14, https://doi.org/ 10.1007/S11783-024-1805-6/METRICS.[42] W.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ltration membranes via electron beam irradiation, Front. Environ. Sci. Eng. 18 (2024) 1–14, https://doi.org/ 10.1007/S11783-024-1805-6/METRICS.[42] W. Cheng, C. Liu, T. Tong, R. Epsztein, M. Sun, R. Verduzco, J. Ma, M. Elimelech, Selective removal of divalent cations by polyelectrolyte multilayer nanofiltration membrane: role of polyelectrolyte charge, ion size, and ionic strength, J. Membr. Sci. 559 (2018) 98–106, https://doi.org/10.1016/j.memsci.2018.04.052.[43] M.A. Junker, J.A. Regenspurg, C.I. Valdes Rivera, E. Te Brinke, W.M. de Vos, Effects of feed solution pH on polyelectrolyte multilayer nanofiltration membranes, ACS Appl. Polym. Mater. 5 (2023) 355–369, https://doi.org/10.1021/ acsapm.2c01542.[44] B. Polat, Y. Ozay, Z. Bilici, ˙I. Kucukkara, N. Dizge, Membrane modification with semiconductor diode laser to reduce membrane biofouling for external MBR system and modelling study, Sep. Purif. Technol. 241 (2020) 116747, https://doi.org/ 10.1016/j.seppur.2020.116747.[45] M.R. Moradi, A. Pihlajam¨aki, M. Hesampour, M. Figueira, M. Reig, J.L. Cortina, C. Valderrama, M. M¨antt¨ari, Polyelectrolyte multilayers modification of nanofiltration membranes to improve selective separation of monoand multivalent cations in seawater brine, J. Membr. Sci. 691 (2024) 122224, https:// doi.org/10.1016/j.memsci.2023.122224.[46] W.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e separation of monoand multivalent cations in seawater brine, J. Membr. Sci. 691 (2024) 122224, https:// doi.org/10.1016/j.memsci.2023.122224.[46] W. Tomczak, The application of the nanofiltration membrane NF270 for separation of fermentation broths, Membranes 12 (2022), https://doi.org/10.3390/ membranes12121263.[47] M.I. Baig, J.D. Willott, W.M. De Vos, Enhancing the separation performance of aqueous phase separation-based membranes through polyelectrolyte multilayer coatings and interfacial polymerization, ACS Appl. Polym. Mater. 3 (2021) 3560–3568, https://doi.org/10.1021/acsapm.1c00457.[48] A.A. Myint, W. Lee, S. Mun, C.H. Ahn, S. Lee, J. Yoon, Influence of membrane surface properties on the behavior of initial bacterial adhesion and biofilm development onto nanofiltration membranes, Biofouling 26 (2010) 313–321, https://doi.org/10.1080/08927010903576389.[49] K. Boussu, Y. Zhang, J. Cocquyt, P. Van der Meeren, A. Volodin, C. Van Haesendonck, J.A. Martens, B. Van der Bruggen, Characterization of polymeric nanofiltration membranes for systematic analysis of membrane performance, J. Membr. Sci. 278 (2006) 418–427, https://doi.org/10.1016/J. MEMSCI.2005.11.027.[50] C.E. Schaefer, D.M. Drennan, D.N. Tran, R. Garcia, E. Christie, C.P. Higgins, J. A. Field, Measurement of aqueous diffusivities for perfluoroalkyl acids, J. Environ. Eng. 145 (2019) 06019006, https://doi.org/10.1061/(ASCE)EE.19437870.0001585.[51] S. Rayne, K.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "eous diffusivities for perfluoroalkyl acids, J. Environ. Eng. 145 (2019) 06019006, https://doi.org/10.1061/(ASCE)EE.19437870.0001585.[51] S. Rayne, K. Forest, Theoretical studies on the pKa values of perfluoroalkyl carboxylic acids, J. Mol. Struct.: THEOCHEM 949 (2010) 60–69, https://doi.org/ 10.1016/j.theochem.2010.03.003.[52] J.A. Regenspurg, W.A. Jonkers, M.A. Junker, I. Achterhuis, E. te Brinke, W.M. de Vos, Polyelectrolyte multilayer membranes: an experimental review, Desalination 583 (2024) 117693, https://doi.org/10.1016/j.desal.2024.117693.",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A.M.A. Abdelsamad et al. Journal of Membrane Science 744 (2026) 125180\n\n[53] S. Casta˜no Osorio, P.M. Biesheuvel, J.E. Dykstra, E. Virga, Nanofiltration of complex mixtures: the effect of the adsorption of divalent ions on membrane retention, Desalination 527 (2022) 115552, https://doi.org/10.1016/j. desal.2022.115552.[54] X. Zhang, A.J.B. Kemperman, H. Miedema, E. te Brinke, W.M. de Vos, Crosslinking PDADMAC/PSS polyelectrolyte multilayer membranes for stability at high salinity, J. Membr. Sci. 725 (2025) 124007, https://doi.org/10.1016/j. memsci.2025.124007.[55] O.P. Crossley, R.B. Thorpe, D. Peus, J. Lee, The effect of salinity on the pressure susceptibility of the NF270 membrane, Desalination 564 (2023) 116804, https:// doi.org/10.1016/j.desal.2023.116804.\n\n[56] M. Chaudhary, M. Sela-Adler, A. Ronen, O. Nir, Efficient PFOA removal from drinking water by a dual-functional mixed-matrix-composite nanofiltration membrane, npj Clean Water 6 (2023), https://doi.org/10.1038/s41545-02300286-2.[57] Y. Zhi, X. Zhao, A. Shuai, Y. Jia, X. Cheng, S. Lin, F. Xiao, L. Han, H. Chai, Q. He, C. Liu, Enhancing rejection of short-chain perand polyfluoroalkyl substances by tailoring the surface charge of nanofiltration membranes, Water Res. 272 (2025), https://doi.org/10.1016/j.watres.2024.122931.\n\nA.M.A. Abdelsamad et al. Journal of Membrane Science 744 (2026) 125180",
+    "citation": {
+      "authors": [
+        "Abdelsamad M.A.",
+        "Elsherbiny M.A.",
+        "Box P.O."
+      ],
+      "paper_id": "1-s2.0-S0376738826000608-main",
+      "title": "Two-bilayer polyelectrolyte multilayered nanofiltration membranes for highly efficient removal of PFAS from water",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10,
+        11
+      ]
+    },
+    "type": "chunk"
+  }
+]

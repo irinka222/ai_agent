@@ -1,0 +1,1056 @@
+[
+  {
+    "content": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries Fernanda Brito dos Santos a,b,c, Alex Whitbeck a, Adel Jalaee a,b,c\n\n, Jongjit Chalitangkoon a,b,c\n\n, Orlando J. Rojas a,c,d,e , Elod Gyenge a, E. Johan Foster a,b,c,* a Department of Chemical and Biological Engineering, The University of British Columbia, 2360 E Mall, Vancouver, BC, V6T 1Z3, Canadab Advanced Materials Group, The University of British Columbia, 2360 E Mall, Vancouver, BC, V6T 1Z3, Canadac BioProducts Institute (BPI), The University of British Columbia, 2385 East Mall, Vancouver, BC, V6T 1Z4, Canadad Department of Wood Science, The University of British Columbia, 2424 Main Mall #2900, Vancouver, BC, V6T 1Z4, Canadae Department of Chemistry, The University of British Columbia, 2036 Main Mall, Vancouver, BC, V6T 1Z1, Canada\n\nA R T I C L E I N F O Keywords:CelluloseBio-based proton exchange membraneLayer-by-layerSilanizationRedox flow battery",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Electrochemical cells play a critical role across various sectors, enabling technologies in renewable energy generation and storage, environmental monitoring, and management. Among different options, redox flow batteries (RFBs) are gaining importance for large-scale energy storage applications due mainly to their decoupled power and energy outputs associated with easily scalable design. As part of acidic and neutral RFBs, proton exchange membranes (PEMs) are essential for transport of cations, preventing the mixing of anolyte and cath­olyte while still allowing high ion conductivity. However, many commercial PEMs are made of poly and per­fluoroalkyl substances (PFAS) and besides being expensive and petroleum feedstock-derived, they raise significant environmental concerns. In this work, we developed high-efficiency sulfonated nanocellulose mem­branes (S–CNF) incorporating layer-by-layer assembly silanization modification. The S–CNF membranes exhibited excellent thermal-oxidative stability (up to 250 ◦C), dimensional stability, and mechanical strength (Young’s modulus reaching 1.4 GPa and storage modulus exceeding 1.1 GPa). Additionally, they demonstrated high moisture-uptake (absorbing up to 90 % water after 48 h). A zinc-iodine redox flow battery (ZIRFB) assembled with S–CNF membranes achieved an average coulombic, voltage and energy efficiencies of 98 %, 66 %, and 65 %, respectively, at a current density of 20 mA cm-2.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "NF membranes achieved an average coulombic, voltage and energy efficiencies of 98 %, 66 %, and 65 %, respectively, at a current density of 20 mA cm-2. Overall, the S–CNF membranes developed in this study offer a bio-based, simple, cost-effective, and durable alternative to conventional PEMs, with promising scalability for energy storage applications in ZIRFBs.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction A proton exchange membrane (PEM), also referred to in a more general sense as a cation exchange membrane (CEM), is a semiperme­able membrane designed to selectively transport cations along its polymeric backbone. PEMs are used in different electrochemical sys­tems, such as in fuel cells (FCs), water electrolysis systems, or RFBs (redox flow batteries). In an RFB, the PEM can also prevent the mixing of anolyte and catholyte [1–4]. Among different types of RFBs, ZIRFBs (Zinc-iodine redox flow bat­teries) are developing rapidly and have become one of the promising options for large-scale energy storage, due to several inherent advan­tages [5]. Firstly, zinc is an abundant element and forms non-toxic, non-flammable aqueous electrolytes, with adequate ionic conductivity [6]. Additionally, the electrolyte made with I-/I3-has higher solubility (compared to other halide salts such as ZnCl2 and ZnBr2), and the standard cell potential of the Zn/I3-cell is 1.3 V at 298 K that minimizes the water electrolysis reactions. Furthermore, the ZIRFB has a higher theoretical energy density compared to Zn-Bromine and all-vanadium chemistries (~322 Wh L-1 at the solubility limit of ZnI2 in water (4500 g/L, 7.0 M) by assuming that all iodide species are fully converted into triiodide in the catholyte upon charging and that the anolyte does not participate in the redox reactions) [7,8].",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ide species are fully converted into triiodide in the catholyte upon charging and that the anolyte does not participate in the redox reactions) [7,8]. Although many benefits have been demonstrated, the ZIRFB system still presents several challenges, including zinc dendritic build-up in porous electrodes, polyiodide complexation and viscous layer formation",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "* Corresponding author. Department of Chemical and Biological Engineering, The University of British Columbia, 2360 E Mall, Vancouver, BC, V6T 1Z3, Canada.E-mail address: johan.foster@ubc.ca (E.J. Foster).\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 735 (2025) 124486",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 5 August 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license ( http://creativecommons.org/licenses/bync-nd/4.0/ ). on the positive electrode, flow limitations of high-concentration elec­trolytes in porous electrodes, and the crossover diffusion of iodine/io­dide species [9,10]. The latter, due to the low selectivity of the membrane, can promote self-discharge and capacity degradation [5,11]. Additionally, a satisfactory membrane should be strong enough to resist mechanical failure due to the zinc dendrite formation on its surface. Most RFB systems utilize polymers containing perand poly­fluoroalkyl substances (PFAS), like Nafion, which has a hydrophobic tetrafluoroethylene backbone interlaced with hydrophilic sulfonic acid groups mainly responsible for the ion transport [12]. However, PFAS membranes have some limitations in terms of their chemical and ther­mal durability [13], dimensional instability, and crossover of negative ions and neutral molecules [14]. Depending on the RFB system, PFAS membranes have moderate to low ion selectivity, are highly costly, and are dangerous for the environment. For instance, Nafion membranes are expensive (>$500 m-2 for commercial Nafion series) [15], and its degradation generates PFAS, which are highly toxic environmental pollutants [16].",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "are expensive (>$500 m-2 for commercial Nafion series) [15], and its degradation generates PFAS, which are highly toxic environmental pollutants [16]. These issues reaffirm the importance of designing alternative membranes that minimize these problems and guarantee the development of a stable and sustainable large-scale energy storage system. A variety of biopolymeric materials have been explored as alterna­tives to synthetic PEMs, including: cellulose nanofibrils (CNFs) [17,18]; Cellulose nanocrystals (CNCs) [19–21]; bacterial cellulose [22,23]; so­dium alginate [24,25]; lignin and chitosan [26–28]. Among these, cel­lulose and modified cellulose have gained significant attention due to their high wettability, good mechanical properties, thermal stability, and tunable porosity and thickness—all of which are critical for ion-exchange membranes (IEMs). Lander et al. (2022) [29] synthesized cross-linked sulfonated cellu­lose nanofibers (S–CNF) membranes for aqueous organic redox flow batteries (AORFBs). These membranes exhibited low porosity and water uptake and achieved a coulombic efficiency (CE) of ~84 % and a discharge capacity of 8 mAh at 4 mA cm-2. Similarly, Mukhopadhyay et al. (2019) [30] developed a stable, highly ion-selective membrane by incorporating proton-conductive cellulose nanocrystals (CNCs) into a hydrophobic poly(vinylidene fluoride-co-hexafluoropropylene) (PVDF-HFP) matrix.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "y incorporating proton-conductive cellulose nanocrystals (CNCs) into a hydrophobic poly(vinylidene fluoride-co-hexafluoropropylene) (PVDF-HFP) matrix. The resulting vanadium redox flow battery (VRFB) achieved a CE of 98.2 %, an energy efficiency (EE) of 88.2 %, and a voltage efficiency (VE) of 89.8 % at a current density of 100 mA cm-2. A few studies reported in the literature have explored the use of bio-based and non-bio-based membrane materials in ZIRFB systems to enhance battery performance. For example, Yang et al. (2020) [31] synthesized a multifunctional metal–organic framework (MOF) mem­brane (Zn-BTC), which provided simultaneous improvements to both the iodine cathode and the Zn anode in high-performance aqueous Zn–I2 batteries. The results showed that the battery assembled with the Zn-BTC membrane achieved a lifespan of 6000 cycles, a capacity retention of 84.6 %, and a CE of 99.65 %. Tangthuam et al. (2020) [32] prepared polyelectrolyte membranes from carboxymethyl cellulose (CMC) and polyvinyl alcohol (PVA), demonstrating that higher PVA content enhanced ionic conductivity but also increased iodine and pol­yiodide crossover. Another example is the work by Williams et al. (2023) [33], who fabricated sulfonated poly(ether ether ketone) (SPEEK) membranes. Their results showed a CE and EE of 92.9 % and 75.9 %, respectively, at 17 mA/cm2 when applied in a ZIRFB, which represents a 370 % increase in energy density compared to batteries using Nafion 212 membranes.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "pectively, at 17 mA/cm2 when applied in a ZIRFB, which represents a 370 % increase in energy density compared to batteries using Nafion 212 membranes. The study also reported a peak power density of 122 mW/cm2 at a current density of 166 mA/cm2 (compared to 98 mW/cm2 at 133 mA/cm2 for Nafion 212). In this study, we synthesized membranes based on sulfonated cel­lulose nanofibers (S–CNF membranes) and modified their surface by layer-by-layer (LbL) assembly and silanization. We hypothesize that these surface functionalization strategies would: (1) Enhance membrane ion selectivity, reducing iodine species diffusion; (2) improve battery efficiency, particularly in terms of CE, EE, and VE and, (3) increase discharge capacity, making the system more viable for large-scale en­ergy storage. This is the first study to explore the combined effects of LbL and silanization in bio-based PEMs for ZIRFB applications, offering a sustainable alternative to PFAS-based materials. Additionally, we comprehensively evaluated the morphology, mechanical and thermal stability, chemical structure, water uptake, ion exchange capacity (IEC), and proton conductivity of the developed membranes. 2. Experimental section 2.1. Materials Bleached eucalyptus kraft pulp was purchased from Fibria, Brazil (dry pulp sheets, cellulose content of 90 %, xylan content of 9.5 %, and lignin content of 0.5 %).",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lyptus kraft pulp was purchased from Fibria, Brazil (dry pulp sheets, cellulose content of 90 %, xylan content of 9.5 %, and lignin content of 0.5 %). Sodium hydroxide (NaOH ≥97.0 %, SigmaAldrich), sodium hypochlorite (NaClO 10–15 %, Sigma-Aldrich), so­dium bromide (NaBr ≥99 %, Sigma-Aldrich), sodium bisulfite (NaHSO3 ≥58.5–67.4 %, Thermo Fisher Scientific), hydrochloric acid (HCl 37 %, Sigma-Aldrich), TEMPO (2,2,6,6-tetrametylpiperidine-1-oxyl, C9H18NO, 98 %, Sigma-Aldrich), sodium periodate (NaIO4 ≥99.8 %, Sigma-Aldrich), isopropanol ((CH3)2CHOH ≥99.5 %, Sigma-Aldrich), zinc iodine (ZnI2 >98 %, Sigma Aldrich), trichloro(1H,1H,2H,2Hperuorooctyl)silane (97 %, Sigma-Aldrich), PDADMAC (poly(dia­llyldimethylammonium chloride, 35 wt% in H2O, Sigma Aldrich), and MMT (montmorillonite, Sigma Aldrich) were all used as received. 2.2. Precursor fiber processing Cellulose fibers were first fibrillated with a laboratory PFI mill. After dispersion at a solid content of 10 wt%, the pulp was refined for 10,000 revolutions, until reaching a value of 100 CSF according to ISO 5267-2 standard (68 ◦SR). The fibrillated fibers were then diluted to 1 wt% for further modification. The sulfonation of the fibers was performed following the method­ology described previously [34,35] and fibrillated into CNF using a M -110P microfluidizer (Microfluidics, USA) equipped with an 87 μm Z-type chamber for 5 passes with a gradually increasing pressure from 1700 bar to 2000 bar.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "microfluidizer (Microfluidics, USA) equipped with an 87 μm Z-type chamber for 5 passes with a gradually increasing pressure from 1700 bar to 2000 bar. Prior to the fibrillation, the sulfonated fibers were diluted to 0.63 wt% and the pH was adjusted to 8.0 with 3 M NaOH. The characterization of the S–CNF fibers can be found in our previous report [34]. 2.3. Membrane fabrication The sulfonated CNF (S–CNF) membranes were prepared by filtration and hot pressing using a previously outlined procedure [36]. The S–CNF suspension was diluted to 0.5 wt% and degassed under vacuum for 2 h to remove air. Homogenization ensured a complete mixing of the S–CNF fibers, using an Ultra-Turrax T-25 disperser (IKA, Germany) at 8000 rpm for 10 min. The suspension was then filtered with a 142 mm Büchner funnel equipped with a 0.22 μm PVDF membrane (Merck, Germany), until the S–CNF mat exhibited a semi-dry aspect (solid content of approx. 15 wt%). The following step used decompression filtration (Vacuubrand, Model: MD 4C NT + AK + EK at 1.5 mbar) to prepare all S–CNF modified membranes. The S–CNF mat was placed between the PVDF membrane on one side and a 1-μm nylon sieve (Sefar, Switzerland) on the other side, while blotting papers were added above it. This stack was then dried by hot pressing at 70 ◦C and 0.1 bar for 1h, until complete removal of water from the S–CNF mat was achieved. The resulting dry membranes were stored at 23 ◦C and 50 %RH for 48 h before characterization. 2.4.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e removal of water from the S–CNF mat was achieved. The resulting dry membranes were stored at 23 ◦C and 50 %RH for 48 h before characterization. 2.4. Surface modification The surface functionalization of the S–CNF membranes was per­formed by sequential LbL and silanization treatments (Fig. 1). LbL used a",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "F. Brito dos Santos et al. Journal of Membrane Science 735 (2025) 124486 cationic polyelectrolyte polymer (PDADMAC) and an anionic nanoclay (MMT) onto the membrane surface to create an additional barrier layer on the membrane surface [37]. The LbL build-up was performed by sequentially soaking the membrane in the polyelectrolyte solution and an MMT-dispersion for 5 min at different concentrations (0.1, 1, and 10 g/L) with an intermediate washing step in DI-water. This procedure resulted in bilayers of PDADMAC/MMT, the procedure was then repeated 10, 25, and 40 times. To obtain the hydrophobic layer, the S–CNF membranes were placed in a dry desiccator in the presence of a 0.1 mL silane contained in a 2-mL vial. The desiccator was evacuated at 30 mmHg pressure, sealed, and placed in an oven at 95 ◦C. After 50 min, the desiccator was removed from the oven and the samples were removed and tested for contact angle, diffusion, and battery perfor­mance [38]. The composition and acronyms for each S–CNF membranes are summarized in Table 1 below. 2.5. Modified S–CNF membrane properties 2.5.1. Fourier transform Infrared Spectroscopy (FTIR) The S–CNF membranes were analyzed separately with an IR spec­trophotometer Spectrum 100 (Bruker, DE), with attenuated total reflectance (ATR) attachment. Samples were measured at a spectral range of 4000-600 cm-1, with 64 scans, and a resolution of 4 cm-1. Analysis and discussion of the FTIR results (Fig.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.5.2. Membrane morphology The cross-sectional and surface images of the membranes were analyzed using scanning electron microscopy (SEM) (Helios NanoLab 650, FEI, Hillsboro, OR, USA) operated at an acceleration voltage of 1.0 kV. Accordingly, the cross-section of the samples was cut by employing the ultramicrotomy method using a diamond knife, placed on top of SEM holders vertically, and coated with 6 nm layer of iridium (Ir) using a Cressington sputter. 2.5.3. Thermal and mechanical properties Thermogravimetric curves were obtained for all S–CNF membranes to evaluate the temperature range that these membranes can operate before degradation begins. All samples were heated to 800 ◦C at 10 ◦C min-1, with a nitrogen flow rate of 20 cm3 min-1 over two repetitions (Fig. S2). Dynamic mechanical analysis (DMA) was performed with a TA Q850. The membranes were cut into 0.5 cm * 2 cm rectangles. The tests were carried out with a frequency of 1Hz, 1 N applied pre-force, and an oscillation amplitude of 10 μm. The storage modulus (E’) and tan delta were obtained at a heating rate of 3 ◦C min-1 in air with a temperature range from 20 to 280 ◦C, and in an oscillatory tensile mode with hu­midity control. Throughout the experiment, relative humidity was held constant at 90 %. The temperature was raised from 30 to ≈80 ◦C. This analysis was performed in duplicate (Fig. S2).",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "riment, relative humidity was held constant at 90 %. The temperature was raised from 30 to ≈80 ◦C. This analysis was performed in duplicate (Fig. S2). Tensile measurements (TA Instrument, DMTA-850) were run at 20 μm min-1 with an extension rate in displacement ramp control. For this test, the membranes were cut into rectangular shapes into 0.5 * 2 cm and tested at 25 ◦C. The results of this analysis can be found in the SI (Fig. S3) and repeated until obtaining 3 close measurements. 2.5.4. Water uptake (WU) The hydrophilic properties of all membranes were studied by measuring their water uptake in triplicate using deionized water at 25 ◦C and 40 ◦C following ASTM D570 [39]. In this method, a dry sample was weighed (m0), immersed in water for 48 h, and weighed again to obtain the maximum mass gain (mmax) of the samples. The water uptake was defined as the ratio between the absorbed water and the mass of the dried membrane as reported in Equation (1). % Water uptake (WU) = mmax -m0 m0",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[ФОРМУЛА: [FORMULA_ID: 1f9d2a47-1a7a-4a2b-87df-f3307409c284] * 100 (1)]\n\nFig. 1. Surface functionalized steps of the S–CNF membrane. Schematic illustration of the hypothetical stepwise process of hydroxyl groups reacting with trichloro (1H,1H,2H,2H-peruorooctyl)silane vapor to form hydrophobic particles on the S–CNF surface at 95 ◦C (adapted from Oyola-Reynoso et al., 2016) [38].\n\nTable 1 Composition, acronym, and thickness of each CNF membrane. Thickness was measured after 48 h of storage in the conditioned room (23 ◦C, 50 % RH). Sample treatmentAcronymThickness (μm) Sulfonated CNFS–CNF50 ± 1Sulfonated CNF – 0.1 g/L – 10 LayersS–CNF – 10L52 ± 1Sulfonated CNF – 0.1 g/L – 25 LayersS–CNF – 25L54 ± 2Sulfonated CNF – 0.1 g/L – 40 LayersS–CNF – 40L54 ± 2Sulfonated CNF – 1 g/L – 10 LayersS–CNF – 1 g/L52 ± 2Sulfonated CNF – 10 g/L – 10 LayersS–CNF – 10 g/L53 ± 1Sulfonated CNF – 0.1 g/L – 10 Layers hydrophobic\n\nS–CNF – Hydrophobic\n\nF. Brito dos Santos et al. Journal of Membrane Science 735 (2025) 124486",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.5.5. Oxidative test Following procedures based on prior literature [17,40] the chemical stability of the S–CNF membranes was investigated by using Fenton’s test. The samples were vacuum dried at 80 ◦C for 2 h, and then their dry weight was measured. The samples were then immersed into Fenton’s reagent (3 ppm FeSO4 in 3 % H2O2) at 80 ◦C for 1 h. Finally, the samples were vacuum dried again and their weight loss was determined. The residual weight (RW(%)) was calculated from the difference between the weight of the samples before (m0) and after treatment (mf) using Equation (2). This analysis was performed in duplicate. RW(%) = mf m0 * 100(2) 2.5.6. Ion exchange capacity (IEC) The IEC values of the prepared membranes were determined by potentiometric titration in triplicate. The dried membrane samples were weighed, and then immersed in 1 M NaCl solution for 24 h to liberate H+ ions. The exchanged protons within the solutions were then titrated with 0.1 M NaOH aqueous solution to pH 7. IEC values were calculated using the following Equation (3): IEC = CNaOH * VNaOH Wdry",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(3) where CNaOH and VNaOH are the concentration and volume of titrated NaOH solution and Wdry is the weight of the dry membrane. 2.5.7. Hydration number Hydration number, λ, defined by the number of water molecules associated per ionic group in the proton exchange membrane was calculated using the following Equation (4) [41]. λ = 10 * WUIEC * 18.02(4) where WU and IEC are the water uptake and ion exchange capacity, respectively, as described in the previous sections. 2.5.8. Proton conductivity The through-plane proton conductivity of all membranes was determined by AC Electrochemical Impedance Spectroscopy (EIS) (WaveDriver 200 Electrochemical Workstation, PINE research) by using a frequency response analyzer with a frequency range of 1000 to 1 * 107 kHz with an amplitude of 0.1 mV at room temperature and a through-plane conductivity test jig (MCJ1, WonAtech). Before per­forming the measurement, the membranes were fully hydrated for 24 h. Proton conductivity was calculated from the following Equation (5), where R is the resistance, L is the thickness, and S is the area of the tablet. This test was performed in triplicate on different parts of the membrane. The contact angle results can be found in Fig. S4. σ = LRS(5) 2.5.9. Contact angle Static water contact angle was measured using the sessile drop method with an optical tensiometer (Theta Flex, Biolin Scientific Oy, Finland).",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "t angle Static water contact angle was measured using the sessile drop method with an optical tensiometer (Theta Flex, Biolin Scientific Oy, Finland). A 5 μL drop was placed on the surface of the membranes and automatic measurement of the drop geometry was performed by the instrument. Contact angle measurements were calculated over a 2-min period. The average contact angle over this period was calculated for each sample and three measurements at different points were recorded. The contact angle results can be found in Fig. S5. 2.5.10. Gel permeation chromatography (GPC) To measure the molecular weight (MW) of the S–CNF, GPC analysis was conducted in this research. The cellulose tricarbanilates (CTCs) were obtained from sulfonated cellulose using the methodology pro­posed by Kaˇcík et al., 2009 [42]. 20 mg of dry S–CNF was mixed with 6 mL of dry pyridine for 24 h. Then, 1 mL of phenylisocyanate was added under nitrogen atmosphere to avoid the phenylisocyanate reacting with oxygen. This mixture was stirred for 48 h at 80 ◦C. The resulting clear yellow viscous solution was cooled; excess of phenylisocyanate was decomposed by adding 2 mL of methanol and then the final solution was slowly dropwise into rapidly stirred methanol. The precipitate was washed with water containing acetic acid to remove pyridine, and then with water and methanol and finally dried at 50 ◦C in a vacuum oven.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ipitate was washed with water containing acetic acid to remove pyridine, and then with water and methanol and finally dried at 50 ◦C in a vacuum oven. For gel permeation chromatography analyses, CTCs were dissolved in tetrahydrofuran (THF) and filtered 0.45 μm pore size filter. The GPC analysis was carried out on a system consisting of an automatic injector (Model HLC-8420 GPC, Tosoh Biotechnology Co) and a thermostat TSKgel Alpha-M (13 μm, 7.8 mm ID * 30 cm) column. The separation was performed at 40 ◦C with THF at a flow rate of 0.5 mL/min, injection volume of CTC was 5 μL, and concentration of sample was 1 mg mL-1. The system was calibrated with polystyrene standards. The results of this analysis can be found on SI (Fig. S6). 2.5.11. X-ray photo-electron spectroscopy (XPS) The XPS analyses were carried out with a Kratos AXIS Supra X-ray photoelectron spectrometer using a monochromatic Al Kα source (15 mA, 15 kV) only on the S–CNF and S–CNF – Hydrophobic membranes. The primary objective was to verify the Si signal following the silani­zation reaction. To ensure accuracy, the instrument work function was calibrated to give a binding energy (BE) of 83.96 eV for the Au 4f7/2 line for metallic gold and the spectrometer dispersion was adjusted to give a BE of 932.62 eV for the Cu 2p3/2 line of metallic copper. Survey scan analyses were carried out with an analysis area of 300 μm * 700 μm and a pass energy of 160 eV.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "for the Cu 2p3/2 line of metallic copper. Survey scan analyses were carried out with an analysis area of 300 μm * 700 μm and a pass energy of 160 eV. High-resolution analyses were carried out with an analysis area of 300 μm * 700 μm and a pass energy of 20 eV. Spectra have been charged corrected to the aliphatic carbon 1s signal set to 284.8 eV. Spectra were analyzed using CasaXPS software (version 2.3.26). The results of this analysis can be found on SI (Fig. S7). 2.5.12. Diffusion test Diffusion tests were performed to evaluate the I3-crossover over the time and identify the membrane with the lowest crossover for further application in a ZIRFB. For this test, two solutions were prepared: 50 mL of 0.1 M of ZnCl2 (acting as an anolyte and blank side) and 50 mL of 0.2 M KI with 0.01 M I2 (acting as a catholyte side). These solutions were used to fill two containers of an H-cell system and separated by different S–CNF membranes. The catholyte and anolyte were stirred over time and aliquots of the ZnCl2 solution (anolyte side) were taken at different periods of time to have their I3-concentration measured by using UV–vis and following the Beer–Lambert law (Equation (6)). A = εbC(5) where A is the absorbance, ε is the molar absorptivity, b is the length of light path, and c is the I3-concentration. 2.5.13.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "quation (6)). A = εbC(5) where A is the absorbance, ε is the molar absorptivity, b is the length of light path, and c is the I3-concentration. 2.5.13. Application of the modified CNF membrane in a ZIRFB: set-up for flow battery study The S–CNF membranes were tested in duplicate in a flow cell using an Electrocell Micro Flow Cell with an active area of 10 cm2. All tests were performed at room temperature using a solid zinc plate (5 mm, McMaster Carr, USA) as the anode and a 3.3 mm thick graphite felt (2.8 mm, AvCarb Material Solutions, USA) as the cathode. A 2 mm thick plastic mesh turbulence promoter was used on the anode side to ensure proper spacing of the zinc metal plate and a graphite current collector. A commercially available PEM, Nafion 212 (50 μm, Dupont, DE, USA) was applied as separator material, to be directly compared to the surface modified S–CNF membrane (60 μm thickness). The catholyte and ano­lyte in all experiments had equivalent volumes (50 mL each container)",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "F. Brito dos Santos et al. Journal of Membrane Science 735 (2025) 124486 of 1 M ZnI2, prepared by dissolving appropriate ZnI2 in Milli-Q water at room temperature. Each side of the flow cell was connected to glass vials to store excess anolyte and catholyte solutions through a peristaltic pump at a flow rate of 20 mL/min. Electrochemical tests were carried out using a potentiostat/galva­nostat (Metrohm, Autolab). All charge-discharge tests were conducted under constant current (CC) at a current density of 20 mA cm-2. The assembled Zn/I2 flow battery efficiencies such as the coulombic effi­ciency (CE), energy efficiency (EE), and voltage efficiency (VE) were calculated according to Equations (7)–(9) respectively. CE = ∫Iddt∫Icdc * 100%(7) EE = ∫VdIddt∫VcIcdc * 100%(8) VE = EECE * 100%(9) where Ic and Id are the charge current and discharge current, respec­tively, Vc and Vd are charge voltage and discharge voltage, respectively. The flow cell tests were conducted with charge and discharge cycles of 30 min each under CC, using an upper cut-off voltage of 1.7 V for charging and a lower cut-off voltage of 0.2 V for discharging. The battery tests were first performed over 20 cycles using the membranes that exhibited the lowest I3-crossover, as determined by the diffusion test results. The bio-based membrane with the best performance was then selected for the 100-cycle battery test. 3. Results and discussion 3.1. Membrane characterizations 3.1.1.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "membrane with the best performance was then selected for the 100-cycle battery test. 3. Results and discussion 3.1. Membrane characterizations 3.1.1. Modified CNF membranes A mostly fully bio-based PEM was synthesized in this research using S–CNF as the membrane matrix and two subsequent surface modifica­tions. The schematic structure of the S–CNF membrane, after LbL and silanization treatments, is shown in Fig. 1. As described by Oyola-Reynoso et al., 2016 [38], the silanization happens in four steps: (i) oligomerization of the alkyl silane vapor; (ii) self-assembly of the oligomeric silanes due to the presence of adsorbed water; (iii) attachment of the oligomeric alkyl silane (macromonomers) on the surface and (iv) an increase in the degree of polymerization with further crosslinking and particle growth to produce polymer particles (Fig. 1). Fig. 2 illustrates the final membrane after both surface treatments. The LbL acts as a barrier on the surface which ideally fills, either totally or partially, the pores on the surface and within the bulk of the",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. The structure of the S–CNF membrane after LbL and silanization modifications. The scheme shows how the functionalization increases the ion selectivity of the resulting membrane. F. Brito dos Santos et al. Journal of Membrane Science 735 (2025) 124486 membrane (Fig. 3). The silane in the hydrophobic layer on one side of the membrane reduces I3-crossover by repelling diffusion of water molecules that could carry solvated iodine. The sulfonation of CNF aims to improve the electrochemical prop­erties of the resulting bio-based PEMs by introducing SO3-groups that form hydrophilic domains upon hydration. Through these groups, the membrane’s nanostructure enables ionic conduction, allowing hydrogen ions to move freely in regions where sufficient water is present. Fig. 3 illustrates how LbL and hydrophobization treatments can reduce iodine diffusion. The PDADMAC and MMT molecules fill out the existing pores in the S–CNF scaffold and create an additional barrier layer on the membrane surface, which reduces the passive diffusion permeability of the membrane. Finally, the external layer, made of tri­chloro(octyl)silane molecules, is hydrophobic and acts as a waterrepellent coating. In this case, I3-diffusion is inhibited because water molecules cannot easily pass through the CEM, preventing them from transporting I3-to the other side of the battery cell.The surface (Fig. 4) and cross-section (Fig.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "t easily pass through the CEM, preventing them from transporting I3-to the other side of the battery cell.The surface (Fig. 4) and cross-section (Fig. 5) SEM images of the S–CNF membranes (Table 1) were used to determine any possible rupture or void spaces exist within the modified S–CNF membranes. According to Fig. 4, the membrane surface with a higher number of bilayers and increased concentrations of PDADMAC and MMT show rougher surfaces. It is also observed that these materials, especially PDADMAC, form a thicker and more non-homogeneous coating on the substrate at concentrations of 10 g/L and above. As observed in Fig. 5a–f, all membranes are compact and homoge­neous, due to the ability of the highly surface-modified short fibrils to pack closely into dense, homogeneous layers rather than interacting to form fibril bundles during the film formation process. The layered structure of S–CNF has been detected before and attributed to the pro­cess of fibril dewatering; the resulting anisotropy of the membrane also favors unidirectional swelling. The density of these membranes corre­lated with the absence of void spaces can contribute to effectively blocking I3-crossover, improving the battery efficiency (Lander et al., 2022) [29]. Although pores are not observed in the S–CNF – hydro­phobic membrane (Fig. 5g), it is clear that it is not as compact as the other ones.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", 2022) [29]. Although pores are not observed in the S–CNF – hydro­phobic membrane (Fig. 5g), it is clear that it is not as compact as the other ones. This may be caused by the silanization process, which in­volves atmospheric pressure and high temperature conditions. The mechanical tests also show that this less compact structure resulted in a more fragile membrane (Fig. S2). 3.1.2. Thermal and mechanical stability The thermogravimetric curves of the S–CNF membranes, obtained in an inert atmosphere, can be found in Fig. S2a for TGA and Fig. S2b for DTG. The S–CNF sample has 3 thermal stages while the other mem­branes present 2 thermal stages. The first stage of all samples is related to the evaporation of the residual moisture with a weight loss (WL) between 3 and 5 %, meanwhile the second and third peaks correspond to the sample degradation. Except for the S–CNF and S–CNF – hydrophobic membranes, all degradation peaks start and finish at similar tempera­tures, indicating that the LbL treatment increased the thermal stability of the final membrane. Although the S–CNF – hydrophobic sample has lower degradation onset temperature compared to other treated sam­ples, it is still higher than the unmodified sample. DMA analysis was carried out to evaluate the mechanical properties of the S–CNF membranes (Fig. 6c – f and Fig. S3). A deeper evaluation of the curves found in Fig. S2 can be found in the SI.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the mechanical properties of the S–CNF membranes (Fig. 6c – f and Fig. S3). A deeper evaluation of the curves found in Fig. S2 can be found in the SI. According to Table 2, almost all bio-based membranes have similar or higher mechanical and thermal stability than Nafion 212, showing potential application due to their mechanical and thermal stability at the studied temperature range. Both TGA and DMA analyses are essential for verifying whether the thermal and mechanical stability of the bio-based PEM align with Nafion’s operational conditions. According to the literature, Nafion’s maximum temperature efficiency typically ranges from 80 to 90 ◦C under fully hydrated conditions. Below 80 ◦C, proton conductivity de­creases due to reduced ion mobility, and water management becomes more challenging, potentially leading to flooding. Conversely, above 90 ◦C, the membrane begins to lose mechanical and chemical stability, and proton conductivity drops significantly due to dehydration (as Nafion relies on water molecules for proton conduction). Prolonged exposure to temperatures above 100 ◦C can cause chemical degradation of Nafion’s sulfonic acid groups, reducing its ion-exchange capacity and",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.1.3. Water interaction, conductivity, and oxidative behavior Fig. 6 shows the water uptake, IEC, proton conductivity, and hy­dration number for all S–CNF membranes. As seen in Fig. 6a, both water uptake and hydration number increase as the number of layers and the concentration of PDADMAC and MMT rise from 0.1 g/L to 10 g/L (with the number of layers held constant), considering the hydrophilic nature of both materials. A slight increase in these properties is observed when the concentration rises from 1 g/L to 10 g/L. However, a significant drop occurs when the sample becomes hydrophobic due to the silane external layer (see Fig. S5 for contact angle measurements). Except for the S–CNF–Hydrophobic membrane, there is no significant difference in proton conductivity and IEC for the other samples. As previously mentioned, the hydration number refers to the number of water molecules associated with each ionic group in the membrane. As shown in Figs. 1 and 2, even after sulfonation, the S–CNF still contains OH– groups in its molecular chain, and both groups can contribute to increasing the hydration number, water uptake, and con­ductivity. However, the proton conductivity of a PEM is also influenced by the dissociation constants of its ionic groups. For instance, the dissociation constant associated with the deprotonation of SO3-groups is higher than that of OH–, which means the pKa of SO3-groups is lower than that of OH-.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tion constant associated with the deprotonation of SO3-groups is higher than that of OH–, which means the pKa of SO3-groups is lower than that of OH-. As a result, the OH-groups do not have the same impact on the membrane’s conductivity as it has on the water uptake and hydration number. In addition, the lower conductivity of the biobased membrane can be attributed to the weaker acidic nature of the sulfonic acid groups in S–CNF compared with the super-acidic behavior of the fluorinated sulfonic acid side chains in Nafion [40]. According to Bayer et al. (2021) [40], this is due to the higher activation energy required for proton conduction in S–CNF (0.26 eV) compared to that in Nafion (~0.16 eV). The more hydrophobic nature of this sample reduced water inter­action, consequently decreasing its ability to transport cations through the membrane. The chemical stability of the S–CNF membranes was investigated using Fenton’s reagent for 1 h at 80 ◦C. All samples have oxidative stability higher than 80 % and the surface functionalization also contributes to increasing this property (Table 2). The higher con­ductivity of Nafion 212 (Table 2), compared to S–CNF, is directly related to the large amount and the high acidity of the sulfonic groups as well as the presence of more oriented confined channels between its hydro­phobic and hydrophilic domains. The difference between CNF and Nafion is likely due to the use of functional groups that are significantly less acidic [18].",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "and hydrophilic domains. The difference between CNF and Nafion is likely due to the use of functional groups that are significantly less acidic [18]. Additionally, a non-negligible fraction of the sulfonate groups may have been lost during the processing steps, most likely during vacuum filtration, where highly charged polymer chains on the fibril surfaces could have dissolved and escaped through the pores of the PVDF membrane. 3.1.4. Application of the S–CNF membrane in a zinc iodine redox flow battery All membranes, as described in Table 1, were used for the diffusion test to evaluate the I3-crossover over time (Fig. 7a). This species has a red color when dissolved in water, providing a visual indicator to determine whether iodine species cross the membrane during the experiment. Determining the level of I3-crossover is crucial because this anion reacts with the solid zinc electrode, causing a self-discharge effect that reduces cell capacity and efficiencies (CE, EE, and VE). Therefore, the membrane with the lowest crossover in this test is likely the best candidate for battery cycling. The results of this test are shown in Fig. 7b. Fig. 7b shows that the I3-crossover decreases as the number of bi­layers increases and the concentrations of PDADMAC and MMT changes from 0.1 g/L to 1 g/L. The PDADMAC and MMT molecules fill the pores on the surface of the S–CNF membranes and the spaces between the cellulose fibers in the bulk of the membrane.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "DADMAC and MMT molecules fill the pores on the surface of the S–CNF membranes and the spaces between the cellulose fibers in the bulk of the membrane. As more layers of both components are added, the I3-concentration in container 1 lowered during the charging step (Fig. 7b). However, when the concentrations of PDADMAC and MMT increase from 1 g/L to 10 g/L, I3-crossover rises significantly. At higher concentrations, these species form a weak film that creates channels and larger pores, which leads to cellulose separa­tion and increases I3-crossover. The S–CNF–Hydrophobic membrane shows the lowest crossover due to the silanization step following the LbL treatment (Fig. 7b). The hydrophobic silane acts as a water-repellent coating on the iodine side, preventing water molecules from bringing I3-through diffusion and solvation. Based on this initial study, the membrane with the potential for best performance in a ZIRFB is the hydrophobic PEM with 25 layers (since there is no significant difference between the 25-layer and 40-layer membranes) at a 1 g/L concentration of PDADMAC and MMT, labeled as S–CNF–25L–Hydrophobic. To further evaluate its effectiveness as a PEM for energy storage applications, the membrane was integrated into a ZIRFB configuration and tested. The charge and discharge curves of the ZIRFB setup using the S–CNF – 25L –Hydrophobic are shown in Fig. 8, where its performance can also be compared with that of the S–CNF–10L–Hydrophobic and Nafion 212 membranes.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 2 Properties of modified CNF membranes compared to Nafion 212. PropertyMembrane\n\nS–CNFS–CNF - 10L S–CNF - 25L\n\nS–CNF - 40L S–CNF - 1 g/ L S–CNF - 10 g/L\n\nS–CNF - Hydrophobic aNafion 212\n\n[ФОРМУЛА: [FORMULA_ID: 07d5b81b-b148-47bf-bd57-cb7538eb12f9] 1.21 ± 0.23 1.06 ± 0.17 1.09 ± 0.33]\n\n[ФОРМУЛА: [FORMULA_ID: 933a552a-8c1a-4381-b1c8-5f281ffcf2bb] 1.03 ± 0.15 0.98 ± 0.21 0.78 ± 0.25 95]\n\n[ФОРМУЛА: [FORMULA_ID: 0ab38d38-f473-42db-a4f8-b6fbd790bf00] Proton conductivity (mS/cm) at 25 ◦C and 100 % RH]\n\n[ФОРМУЛА: [FORMULA_ID: 4aa1a15d-814a-45a9-b626-1e8c70d78261] 1.77 ± 0.24 1.16 ± 0.23 1.13 ± 0.18]\n\n[ФОРМУЛА: [FORMULA_ID: e739d8f9-003e-45c6-aaeb-989fe4f9c30b] Oxidative degree (%) 83.12 ± 1.51]\n\n[ФОРМУЛА: [FORMULA_ID: 0820fd59-9cfc-4b85-947f-cd4c410749a6] 86.21 ± 2.01 88.09 ± 1.97 92.1 ± 1.45]\n\n[ФОРМУЛА: [FORMULA_ID: 9fdd0218-208c-482b-b89e-156ff68d2f3a] 84.56 ± 3.15 88.73 ± 2.97 85.6 ± 1.71 95.3]\n\n[ФОРМУЛА: [FORMULA_ID: 58a15983-1250-426e-8455-23ed833f672e] 4588 ± 38 4099 ± 55 3301 ± 31 2276 ± 42 250–266]\n\n[ФОРМУЛА: [FORMULA_ID: 1538d7ea-42a7-42bf-9d40-a86c5fb2ed15] Storage Modulus (MPa) at 80 ◦C 6971 ± 22 15303 ± 29]\n\n[ФОРМУЛА: [FORMULA_ID: a2bf7065-4131-481b-93a3-c855677c2d20] 5314 ± 41 5071 ± 47 4960 ± 42 2583 ± 48 –]\n\n[ФОРМУЛА: [FORMULA_ID: f628ef23-05e3-4ca3-a6f9-407977c433ae] Tensile Modulus (MPa) at 25 ◦C 1600 ± 23 13806 ± 22]\n\n[ФОРМУЛА: [FORMULA_ID: 967df961-a96b-4c2f-a181-2761b3fac04f] 9841 ± 31 3527 ± 25 457 ± 29 634 ± 20 96 ± 26 266]",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Tensile Strength (MPa) at 25 ◦C76 ± 9156 ± 9153 ± 1267 ± 892 ± 1177 ± 719 ± 932Elongation at break (%) at 25 ◦C10 ± 39 ± 38 ± 49 ± 310 ± 39 ± 22 ± 1343 a: [40,46–48]. F. Brito dos Santos et al. Journal of Membrane Science 735 (2025) 124486 cathode passivation, induce the formation of an iodine film, and contribute to the growth of zinc dendrites. The latter leads to the crea­tion of an isolated and electrochemically inactive zinc (“dead zinc”), which reduces the battery’s capacity, CE, and cycling stability. In addition, the hydrogen evolution reaction (HER) is aggravated, further decreasing the coulombic efficiency and promoting the formation of undesirable byproducts (e.g., nonconductive ZnO deposits) [5,50–52]. The diffusion tests have already shown that the 25-layer membrane reduces I3-crossover compared to the 10-layer sample. However, we decided to test the battery performance as well to further assess its impact on the battery efficiencies. The redox reactions involved in ZIRFBs can be found in Fig. 7d. The CE, EE, and VE for the battery assembled with the S–CNF–25L–Hydrophobic membrane were calculated over several cy­cles and are shown in Fig. 8. In the 20-cycle test, the S–CNF–10L–Hydrophobic membrane achieved CE, EE, and VE values of 95 %, 52 %, and 54 %, respectively (Fig. 8a), while the S–CNF–25L–Hydrophobic membrane achieved 97 %, 56 %, and 57 %, respectively (Fig. 8b). These results corroborate the trend observed in the diffusion tests (Fig.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "–Hydrophobic membrane achieved 97 %, 56 %, and 57 %, respectively (Fig. 8b). These results corroborate the trend observed in the diffusion tests (Fig. 7b and c), indicating that I3-crossover decreases as the number of bilayers increases at the same PDADMAC and MMT concentrations (1 g/L). As a result, the ZIRFB assembled with the S–CNF–25L–Hydrophobic membrane exhibits a higher CE than the one using the S–CNF–10L–Hydrophobic membrane. As mentioned in the methodology section, the battery tests were first performed over 20 cycles using the membranes that exhibited the lowest I3-crossover, as determined by the diffusion test results. The bio-based membrane with the best performance was then selected for the 100cycle battery test. As a result, Fig. 8c and e feature the same mem­brane but in different test durations. In the 100-cycle battery test, the bio-based membrane achieved CE, EE, and VE values of 98 %, 65 %, and 66 %, respectively (Fig. 8e). All efficiencies remained stable over 100 cycles, indicating that the mem­brane’s physical and chemical structures remained intact throughout the battery operation. The slight fluctuations observed in Fig. 8e (for the S–CNF–25L–Hydrophobic membrane between the 30th and 60th cycles for VE and EE) and Fig. 8f (for Nafion 212 between the 25th and 50th cycles) likely correspond to the battery’s stabilization phase. An improvement in EE and VE is noticeable after cycle 50 for Nafion (Fig.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5th and 50th cycles) likely correspond to the battery’s stabilization phase. An improvement in EE and VE is noticeable after cycle 50 for Nafion (Fig. 8f), while a slight increase occurs after cycle 80 for the S–CNF–25L–Hydrophobic membrane (Fig. 8e), both occurring after the battery’s stabilization phase. The CEs and discharge capacities of the bio-based membranes are comparable to Nafion (Tabel S1). The slight loss in efficiency can pri­marily be attributed to the crossover of iodine species during charge and discharge cycles. I3-species created from oxidation of I-in the posolyte solution cross the membrane into the negolyte solution, and react with the solid zinc electrode, creating a self-discharge effect, reducing the cell capacity. According to Fig. 7c, all membranes experience I3-crossover, indicating that after a certain number of cycles, this migration becomes",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. (a) Setup to measure the I3-crossover diffusion test at 25 ◦C. Container 1 contains 50 mL of 0.1 M of ZnCl2 and container 2 contains 50 mL of 0.2 M KI with 0.01 M I2. Over a period of 150 min, aliquots are collected from container 1 to measure the I3-concentration. (b) I3-concentration after the diffusion tests for the S–CNF membranes at 25 ◦C, (c) I3-concentration in the battery negolyte after battery cycling tests at 25 ◦C. (d) Reactions in the cathode and anode sides during the battery discharging cycle at 25 ◦C. F. Brito dos Santos et al. Journal of Membrane Science 735 (2025) 124486 inevitable. This small amount of crossover could be mitigated by asymmetric flow rates or electrolyte loadings, and further study is ongoing. Although all membranes suffered from I3-crossover, the results also demonstrate that after 100 cycles the crossover for Nafion was lower than for the bio-based membrane (Fig. 7c). Fig. 8d and e shows the charge and discharge curves for the bio-based and commercial membranes after 20 and 100 cycles, respectively.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "brane (Fig. 7c). Fig. 8d and e shows the charge and discharge curves for the bio-based and commercial membranes after 20 and 100 cycles, respectively. In both figures, the charge curve does not exhibit Nernstian behavior due to diffusion limitations caused by the local buildup of iodine on the electrode surface, zinc dendrite formation over multiple cycles, uneven ion distribution across the electrodes, side reactions in both the cath­olyte and anolyte, I3-crossover, and other factors such as the formation of an I2 passivation layer and short circuits caused by “dead zinc.” The S–CNF–25L–Hydrophobic membrane has a capacitance of 1.93 ± 0.15 Ah L-1, compared to 1.98 ± 0.21 Ah L-1 for Nafion and 1.90 ± 0.20 Ah L-1 for S–CNF–10L–Hydrophobic after 20 cycles (Fig. 8d). The capaci­tance of the same membrane increases to 1.97 ± 0.12 Ah L-1 after 100 cycles, compared to 1.99 ± 0.30 Ah L-1 for Nafion (Fig. 8g), with no statistically significant difference. In both cases, the efficiencies of the SCNF-25L-Hydrophobic membrane are less than 3% lower than the commercial Nafion, and higher than S–CNF – 10L – Hydrophobic PEM and other bio-based membranes reported in the literature (0.54 Ah L-1 for SPEEK/lignin applied in a vanadium redox flow battery [53], and 0.018 Ah L-1 for sulfonated cellulose applied in an all-quinone aqueous organic redox flow batteries [37].",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "in a vanadium redox flow battery [53], and 0.018 Ah L-1 for sulfonated cellulose applied in an all-quinone aqueous organic redox flow batteries [37]. Note that the capacity of any battery depends on several factors, such as the quantity of active material, the number and physical dimensions of the plates, and the specific gravity of the electrolyte, as well as the battery’s operational conditions. The latter includes the battery’s load, discharge rate, depth of discharge, cut-off voltage, temperature, and cycle history [54]. Therefore, the capacity values reported here or elsewhere cannot be solely attributed to the membrane as the only determining factor in battery performance. The performance of a PEM is critically influenced by both its bulk properties (e.g., ion conductivity, thickness, water uptake) and interfa­cial properties (e.g., surface roughness, hydrophilicity), which directly impact CE, EE, and VE. For instance, high proton conductivity in the bulk of the membrane ensures efficient ionic transfer, reducing resistive ohmic losses and improving CE, EE, and VE. On the other hand, the membrane’s thickness and porosity influence the crossover of reactants (e.g., hydrogen, oxygen, or other species). For example, a thicker membrane may reduce crossover but increase resistance (which reduces CE, EE, and VE), whereas a thinner membrane may increase crossover, leading to side reactions and lower CE. Another example involves the surface area and morphology of a PEM.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "a thinner membrane may increase crossover, leading to side reactions and lower CE. Another example involves the surface area and morphology of a PEM. In this case, a rough surface may increase the probability of reactant crossover (e.g., I3-crossover in a ZIRFB) or trapping of reactants, leading to side reactions and energy losses, which decrease CE and EE, respectively [55,56]. This research does not include a degradation study to determine how many cycles the membranes could withstand before needing replace­ment. Over the course of 100 cycles, the zinc dendrite formation was observed in the tubes and posolyte solution, which could lead to decay in battery efficiency. Zinc dendrites form due to the unequal distribution of active species and charges, resulting in the creation of dead zinc. This reduces the utilization efficiency of active species and negatively im­pacts on the cycle stability of the battery [51,57,58]. In summary, the cycle life was limited by the Zn side. Besides the zinc dendrite formation, the ZIRFB also suffers from accumulation of undissolved I2 that combined with dead Zn can punc­ture the membrane, and clog the flow cell inlets and outlets, causing the system to leak or rupture [6]. Thus, the lower concentrations (1 M) and shorter charge/discharge times (30 min each) were used to properly evaluate the membrane characteristics in this system, without the need to account for any experimental artefacts caused by these issues.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "d to properly evaluate the membrane characteristics in this system, without the need to account for any experimental artefacts caused by these issues. Although the hydrophobic sample presented weaker mechanical properties compared to the other PEMs (Table 1), it remained unde­graded after the battery tests, as shown in Fig. S8. The reason why the S–CNF membranes can achieve high water uptake (in some cases exceeding 100 % (Table 2) while still maintaining their mechanical integrity after the battery tests, is related to the nature of cellulose itself. Cellulose and modified cellulose membranes can absorb water and remain mechanically stable, primarily due to their semicrystalline structure and extensive hydrogen-bond network [59]. 3.1.5. Feasibility of the S–CNF membranes for a PEM in redox flow batteries As highlighted in our previous research (Brito dos Santos et al., 2024)",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 8. Electrochemical properties of S–CNF membranes applied in a ZIRFB using 1 M ZnI2 at a current density of 20 mA/cm2. Coulombic Efficiency, Voltage Ef­ficiency, and Energy Efficiency for the (a) S–CNF – 10L - Hydrophobic, (b) S–CNF – 25L - Hydrophobic, and (c) Nafion 212 membranes for 20 cycles. (d) Chargedischarge curves of the S–CNF – 10L - Hydrophobic, S–CNF – 25L - Hydrophobic, and Nafion 212 membranes at 20 cycles. Coulombic Efficiency, Voltage Efficiency, and Energy Efficiency for the (e) S–CNF – 25L - Hydrophobic, (f) Nafion 212 membranes for 100 cycles. (g) Charge-discharge curves of the S–CNF – 25L - Hy­drophobic and Nafion 212 membranes at 20 cycles. (h) Discharge capacity curves of the S–CNF – 25L - Hydrophobic and Nafion 212 membranes over 20 cycles. F. Brito dos Santos et al. Journal of Membrane Science 735 (2025) 124486",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[34], the modification of nanocellulose was needed to add ionic groups into its structure and improve its electrochemical properties for energy application. The incorporation of –SO3- groups was not enough to obtain membranes with high performance electrochemical properties (based on the results of IEC and proton conductivity), but the surface func­tionalization steps undertaken here, LbL and silanization, increased the ion selectivity of the bio-based PEM, and consequently, reduced the I3- migration (Figs. 2 and 3). All synthesized membranes exhibited excel­lent mechanical, thermal, and chemical stability as well as high hydro­philic and barrier properties when compared to a commercial membrane (Table 2). Based on the diffusion and battery results, the S–CNF–25L–Hydrophobic sample demonstrated a high energy storage capacity in terms of CE, EE, VE, and discharge capacity compared to the S–CNF–10L–Hydrophobic PEM. Although the membrane did not show the same or higher performance as Nafion, this bio-based material pri­marily composed of cellulose, exhibited values very close to Nafion, with differences of less than 2 % for some of the evaluated properties (Table S1) and with stable performance over the 100-cycle battery test. The modified CNF membranes developed in the present study display comparable values to some bio-based ion-exchange membranes re­ported in the literature, even at different test conditions, as outlined in Table 3.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lay comparable values to some bio-based ion-exchange membranes re­ported in the literature, even at different test conditions, as outlined in Table 3. Examples include membranes composed of bacterial cellulose and PFSA, which exhibit a CE of 89.03 %, a VE of 88.62 %, and an EE of 78.92 % at 80 mA/cm2, after 50 cycles in a vanadium redox flow battery with the upper and lower limits of the charging and discharging voltages fixed at 1.7 and 1.0 V, respectively [60]. Additionally, a sulfonated CNF membrane applied in an aqueous organic redox flow battery demon­strated a CE around 95 % at 4 mA cm-2 (Lander et al., 2022) [29]. Although some examples show better performance than the system proposed in this work, many of them rely on synthetic polymer back­bones (e.g. perfluorosulfonic acid, poly(ether ether ketone). Here, the bio-based PEM was essentially synthesized using cellulose with very low concentration of artificial materials (PDADMAC, MMT, and silane). The hypothesis proposed in this research is that the combination of two simple and straightforward modification steps, LbL and hydro­phobization, can reduce the iodine species crossover and improve the performance of a S–CNF membrane in terms of its capacity to storage energy as applied in a ZIRFB system. Essentially, the –SO3- groups alter the conductivity of the membrane, by providing more charge sites and channels for cation transport in the bulk of the membrane.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the –SO3- groups alter the conductivity of the membrane, by providing more charge sites and channels for cation transport in the bulk of the membrane. However, by creating an external hydrophobic layer, the I3-concentration on the opposite side of a ZIRFB decreases, resulting in a higher CE, VE, and discharge capacity. The findings presented in this research introduce a bio-based mate­rial with significant thermal, mechanical, and chemical stability (Table 2, Table S1, and Fig. 8), along with a superhydrophilic capacity that enables a PEM to absorb water while its conductivity progressively increases. Additionally, the S–CNF – 25L – Hydrophobic PEM showed comparable battery results to Nafion 212 membrane, reinforcing cellu­lose efficiency when also used in energy systems. Although the modified CNF membranes display comparable values to other bio-based systems listed in Table 3, we recognize that they still need to achieve higher energy efficiency and longer cycling lifespans, especially when the battery is operated at higher current densities. To address this, our research group is conducting ongoing studies to further enhance the membrane’s performance and stability in order to bring a bio-based PEM to a commercial level. As a potential research area, we emphasize the importance of incorporating cellulosic materials into PEM composition to address existing gaps in the current commercial membranes such as high costs and high environmental impact. 4.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "losic materials into PEM composition to address existing gaps in the current commercial membranes such as high costs and high environmental impact. 4. Conclusion This research proposes a simple yet effective approach for devel­oping a robust ion exchange membrane utilizing sulfonated cellulose nanofibrils (S–CNF) for zinc-iodine redox flow battery (ZIRFB) appli­cations. We found that organized 3D nanofiber networks facilitate pro­ton conduction by enabling intermolecular hydrogen bonding with water molecules, forming percolated ion transport channels, and leveraging the hydrophilic domains created by –SO3- groups. To enhance PEM selectivity, a novel and highly selective system was developed through S–CNF surface functionalization using layer-by-layer (LbL) and hydrophobization. These modifications effectively fill the surface and internal S–CNF matrix, forming a water-repellent barrier that reduces iodine species crossover and enhances PEM performance in ZIRFBs. The proposed PEMs demonstrated remarkable thermal stability up to 250 ◦C and durable mechanical properties, including a Young’s modulus of around 1.4 Gpa, a tensile strength of 160 Mpa, and a storage modulus of",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 3 Examples of partially and fully bio-based ion-exchange membranes reported in literature and compared with the present study. System componentsApplicationTest conditionPerformanceReference Sulfonated CNFZinc iodine redox flow battery\n\n20 mA cm-2CE of 98.8 %, EE of 65 %, and VE of 66 %.This work\n\nBacterial cellulose and poly(vinylidene fluoride-cohexafluoropropylene)\n\nVanadium redox flow battery 100 mA cm-2CE of 97.56 %, VE of 81.56 %, and EE of 79.49 %.[61]\n\nCellulose nanocrystals and poly(vinylidene fluoride-cohexafluoropropylene)\n\nAqueous organic redox flow battery 100 mA cm-2CE of 98.2 %, VE of 89.9 %, and EE of 88.2 %.[30]\n\nNanocellulose, sulfonated poly(ether sulfone) and silica.Vanadium redox flow battery\n\n40–140 mA cm-2 CE of 98.6 % at 140 mA cm-2, VE of 89.9 % 94.71 % at 40 mA cm-2, and EE of 83.3 %. at 100 mA cm-2\n\n[62]\n\nSulfonated CNFAqueous organic redox flow battery\n\n4 mA cm-2CE lower than 95 %[29]\n\nBiocellulose (Bacterial cellulose) and perfluorosulfonic acid (PFSA)\n\nVanadium redox flow battery 80 mA cm-2BC: CE of 69.51 %, VE of 83.73 %, and EE of 63.02 %. PFSA: CE of 89.03 %, VE of 88.62 %, and EE of 78.92 %.\n\n[60]\n\nRice paper and poly(ether ether ketone)Vanadium redox flow battery\n\n40 mA cm-2CE of 96.7 %, EE of 89 %. And VE of 92 %[63]\n\nSulfonated cellulose, montmorillonite, and poly (diallyldimethylammonium chloride)\n\nAqueous organic redox flow battery 4 mA cm-2CE of 95.82 %.[37]",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Sulfonated lignin nanoparticles and Polyvinyl alcoholZinc iodine redox flow battery\n\n20 mA cm-2CE of 91, EE of 68 %, and VE of 78 %.[64]\n\nLignin and nafionVanadium redox flow battery\n\n120 mA cm-2CE ~97.4 %, EE ~82.7 %, and VE ~84.9 %.[65]\n\nLignin and sulfonated poly (ether ether ketone)Vanadium redox flow battery\n\n120 mA cm-2CE of 99.5 %, EE over 83.5 %, and VE ~84 %.[53]\n\nLignin and sulfonated poly (ether ether ketone)Vanadium redox flow battery\n\n120 mA cm-2CE ~99.27 %, EE ~82.75 %, and VE ~83.3 %.[66]\n\nSulfonated Polyimide and Sulfonated Methylcellulose Composite\n\nVanadium redox flow battery 130 to 40 mA cm-2\n\nCE: 99.2–98 % and EE < 80 %.[67]",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[7] B. Li, Z. Nie, M. Vijayakumar, G. Li, J. Liu, V. Sprenkle, W. Wang, Ambipolar zincpolyiodide electrolyte for a high-energy density aqueous redox flow battery, Nat. Commun. 6 (1) (2015) 6303, https://doi.org/10.1038/ncomms7303.[8] Z. Pei, Z. Zhu, D. Sun, J. Cai, A. Mosallanezhad, M. Chen, G. Wang, Review of the I-/I3-redox chemistry in Zn-Iodine redox flow batteries, Mater. Res. Bull. 141 (2021) 111347, https://doi.org/10.1016/j.materresbull.2021.111347.[9] X. Zhang, Q. Shen, X. Lin, C. Luo, Y. Shen, X. Huang, Ion-confinement effect for zinc anode of aqueous zinc ion batteries, J. Energy Storage 73 (2023) 109085, https://doi.org/10.1016/j.est.2023.109085.[10] S.A. Thomas, Layered two-dimensional black phosphorous-based hybrid electrodes for rechargeable batteries, J. Energy Storage 73 (2023) 109068, https://doi.org/ 10.1016/j.est.2023.109068.[11] J. Zhang, G. Jiang, P. Xu, A. Ghorbani Kashkooli, M. Mousavi, A. Yu, Z. Chen, An all-aqueous redox flow battery with unprecedented energy density, Energy Environ. Sci. 11 (8) (2018) 2010–2015, https://doi.org/10.1039/C8EE00686E.[12] H. Kahraman, Y. Akın, Recent studies on proton exchange membrane fuel cell components, review of literature, Energy Convers. Manag. 304 (2024) 118244, https://doi.org/10.1016/j.enconman.2024.118244.[13] X. Yuan, C. Song, A. Platt, N. Zhao, H. Wang, H. Li, K. Fatih, D. Jang, A review of all-vanadium redox flow battery durability: degradation mechanisms and mitigation strategies, Int. J. Energy Res.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". Li, K. Fatih, D. Jang, A review of all-vanadium redox flow battery durability: degradation mechanisms and mitigation strategies, Int. J. Energy Res. 43 (2019) 6599–6638, https://doi.org/ 10.1002/er.4607.[14] H. Prifti, A. Parasuraman, S. Winardi, T.M. Lim, M. Skyllas-Kazacos, Membranes for redox flow battery applications, Membranes 2 (2) (2012) 275–306, https://doi. org/10.3390/membranes2020275.[15] S. Ahmad, T. Nawaz, A. Ali, M.F. Orhan, A. Samreen, A.M. Kannan, An overview of proton exchange membranes for fuel cells: materials and manufacturing, Int. J. Hydrogen Energy 47 (44) (2022) 19086–19131, https://doi.org/10.1016/j. ijhydene.2022.04.099.[16] M. Feng, R. Qu, Z. Wei, L. Wang, P. Sun, Z. Wang, Characterization of the thermolysis products of nafion membrane: a potential source of perfluorinated compounds in the environment, Sci. Rep. 5 (1) (2015) 9859, https://doi.org/ 10.1038/srep09859.[17] G. Zhao, X. Xu, Y. Di, H. Wang, B. Cheng, L. Shi, Y. Zhu, X. Zhuang, Y. Yin, Amino acid clusters supported by cellulose nanofibers for proton exchange membranes, J. Power Sources 438 (2019) 227035, https://doi.org/10.1016/j. jpowsour.2019.227035.[18] V. Guccini, A. Carlson, S. Yu, G. Lindbergh, R.W. Lindstr¨om, G. Salazar-Alvarez, Highly proton conductive membranes based on carboxylated cellulose nanofibres and their performance in proton exchange membrane fuel cells, J. Mater. Chem. A 7 (43) (2019) 25032–25039, https://doi.org/10.1039/C9TA04898G.[19] C. Huang, G. Zhao, Y. Song, C.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "oton exchange membrane fuel cells, J. Mater. Chem. A 7 (43) (2019) 25032–25039, https://doi.org/10.1039/C9TA04898G.[19] C. Huang, G. Zhao, Y. Song, C. Xie, S. Zhang, X. Li, Preparation of novel biodegradable cellulose nanocrystal proton exchange membranes for direct methanol fuel-cell applications, ACS Sustainable Chem. Eng. 10 (17) (2022) 5559–5568, https://doi.org/10.1021/acssuschemeng.2c00221.[20] S. Bano, Y.S. Negi, R. Illathvalappil, S. Kurungot, K. Ramya, Studies on nano composites of SPEEK/ethylene glycol/cellulose nanocrystals as promising proton exchange membranes, Electrochim. Acta 293 (2019) 260–272, https://doi.org/ 10.1016/j.electacta.2018.10.029.[21] C. Ni, Y. Wei, Q. Hu, X. Li, B. Liu, Q. Zhao, M. Zhang, Y. Li, W. Hu, Nanocystalline cellulose reinforced sulfonated fluorenyl-containing polyaryletherketones for proton exchange membranes, Solid State Ionics 297 (2016) 29–35, https://doi.org/ 10.1016/j.ssi.2016.09.027.[22] M. Ramírez-Carmona, M.P. G´alvez-G´omez, L. Gonz´alez-Perez, V. Pinedo-Rangel, T. Pineda-Vasquez, D. Hotza, Production of bacterial cellulose hydrogel and its evaluation as a proton exchange membrane, J. Polym. Environ. 31 (2023) 2462–2472, https://doi.org/10.1007/s10924-023-02759-4.[23] C. Vilela, A.C.Q. Silva, E.M. Domingues, G. Gonçalves, M.A. Martins, F.M. L. Figueiredo, S.A.O. Santos, C.S.R. Freire, Conductive polysaccharides-based proton-exchange membranes for fuel cell applications: the case of bacterial cellulose and fucoidan, Carbohydr.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "reire, Conductive polysaccharides-based proton-exchange membranes for fuel cell applications: the case of bacterial cellulose and fucoidan, Carbohydr. Polym. 230 (2020) 115604, https://doi.org/ 10.1016/j.carbpol.2019.115604.[24] S. Mohanapriya, S.D. Bhat, A.K. Sahu, A. Manokaran, R. Vijayakumar, S. Pitchumani, P. Sridhar, A.K. Shukla, Sodium-alginate-based proton-exchange membranes as electrolytes for DMFCs, Energy Environ. Sci. 3 [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] (2010) 1746, https://doi.org/10.1039/c0ee00033g.[25] P. Samoila, I. Grecu, M. Asandulesa, C. Cojocaru, V. Harabagiu, Bio-based ionically cross-linked alginate composites for PEMFC potential applications, React. Funct. Polym. 165 (2021) 104967, https://doi.org/10.1016/j. reactfunctpolym.2021.104967.[26] K. Divya, D. Rana, S. Alwarappan, M.S.S. Abirami Saraswathi, A. Nagendran, Investigating the usefulness of chitosan based proton exchange membranes tailored with exfoliated molybdenum disulfide nanosheets for clean energy applications, Carbohydr. Polym. 208 (2019) 504–512, https://doi.org/10.1016/j. carbpol.2018.12.092.[27] S.K. Nataraj, C. Wang, H. Huang, H. Du, L. Chen, K. Chen, Functionalizing biomaterials to be an efficient proton-exchange membrane and methanol barrier for DMFCs, ACS Sustain. Chem. Eng. 3 (2) (2015) 302–308, https://doi.org/ 10.1021/sc5005764.[28] O.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ient proton-exchange membrane and methanol barrier for DMFCs, ACS Sustain. Chem. Eng. 3 (2) (2015) 302–308, https://doi.org/ 10.1021/sc5005764.[28] O. Gil-Castell, R. Teruel-Juanes, F. Arenga, A.M. Salaberria, M.G. Baschetti, J. Labidi, J.D. Badia, A. Ribes-Greus, Crosslinked chitosan/poly(vinyl alcohol)- based polyelectrolytes for proton exchange membranes, React. Funct. Polym. 142 (2019) 213–222, https://doi.org/10.1016/j.reactfunctpolym.2019.06.003.[29] S. Lander, M. Vagin, V. Gueskine, J. Erlandsson, Y. Boissard, L. Korhonen, M. Berggren, L. Wågberg, X. Crispin, Sulfonated cellulose membranes improve the",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "F. Brito dos Santos et al. Journal of Membrane Science 735 (2025) 124486 stability of aqueous organic redox flow batteries, Adv. Energy Sustain. Res. 3 (9) (2022) 2200016, https://doi.org/10.1002/aesr.202200016.[30] A. Mukhopadhyay, Z. Cheng, A. Natan, Y. Ma, Y. Yang, D. Cao, W. Wang, H. Zhu, Stable and highly ion-selective membrane made from cellulose nanocrystals for aqueous redox flow batteries, Nano Lett. 19 [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] (2019) 8979–8989, https://doi. org/10.1021/acs.nanolett.9b03964.[31] H. Yang, Y. Qiao, Z. Chang, H. Deng, P. He, H. Zhou, A metal–organic framework as a multifunctional ionic sieve membrane for long-life aqueous zinc–iodide batteries, Adv. Mater. 32 (38) (2020) 2004240, https://doi.org/10.1002/adma.202004240.[32] P. Tangthuam, J. Pimoei, A.A. Mohamad, F. Mahlendorf, A. Somwangthanaroj, S. Kheawhom, Carboxymethyl cellulose-based polyelectrolyte as cationic exchange membrane for zinc-iodine batteries, Heliyon 6 [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (2020) e05391, https://doi. org/10.1016/j.heliyon.2020.e05391.[33] A.A. Williams, X. Wang, E.M. Davis, M.E. Roberts, Leveraging sulfonated poly (ether ether ketone) for superior performance in zinc iodine redox flow batteries, J.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s, X. Wang, E.M. Davis, M.E. Roberts, Leveraging sulfonated poly (ether ether ketone) for superior performance in zinc iodine redox flow batteries, J. Energy Storage 73 (2023) 108937, https://doi.org/10.1016/j.est.2023.108937.[34] F. Brito Dos Santos, J. Kaschuk, G. Banvillet, A. Jalaee, O.J. Rojas, E.J. Foster, Alternative proton exchange membrane based on a bicomponent anionic nanocellulose system, Carbohydr. Polym. 340 (2024) 122299, https://doi.org/ 10.1016/j.carbpol.2024.122299.[35] H. Liimatainen, M. Visanko, J. Sirvi¨o, O. Hormi, J. Niinim¨aki, Sulfonated cellulose nanofibrils obtained from wood pulp through regioselective oxidative bisulfite pretreatment, Cellulose 20 (2) (2013) 741–749, https://doi.org/10.1007/s10570-0139865-y.[36] G. Banvillet, G. Depres, N. Belgacem, J. Bras, Alkaline treatment combined with enzymatic hydrolysis for efficient cellulose nanofibrils production, Carbohydr. Polym. 255 (2021) 117383.[37] S. Lander, J. Pang, J. Erlandsson, M. Vagin, M.J. Jafari, L. Korhonen, H. Yang, T. Abrahamsson, P. Ding, V. Gueskine, A.Y. Mehandzhiyski, T. Ederth, I. Zozoulenko, L. Wågberg, R. Crispin, M. Berggren, Controlling the rate of posolyte degradation in all-quinone aqueous organic redox flow batteries by sulfonated nanocellulose based membranes: the role of crossover and michael addition, J. Energy Storage 83 (2024) 110338, https://doi.org/10.1016/j.est.2023.110338.[38] S. Oyola-Reynoso, I.D. Tevis, J. Chen, B.S. Chang, S. Çinar, J.-F. Bloch, M.M.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "torage 83 (2024) 110338, https://doi.org/10.1016/j.est.2023.110338.[38] S. Oyola-Reynoso, I.D. Tevis, J. Chen, B.S. Chang, S. Çinar, J.-F. Bloch, M.M. Thuo, Recruiting physisorbed water in surface polymerization for bio-inspired materials of tunable hydrophobicity, J. Mater. Chem. A 4 (2016) 14729–14738, https://doi. org/10.1039/C6TA06446A.[39] ASTM International, ASTM D570-98(2018): Standard Test Method for Water Absorption of Plastics, ASTM International, 2018, https://doi.org/10.1520/ D0570-98R18.[40] T. Bayer, B.V. Cunning, B. ˇSmíd, R. Selyanchyn, S. Fujikawa, K. Sasaki, S.M. Lyth, Spray deposition of sulfonated cellulose nanofibers as electrolyte membranes in fuel cells, Cellulose 28 (3) (2021) 1355–1367, https://doi.org/10.1007/s10570020-03593-w.[41] P.P. Sharma, D. Kim, A facile and sustainable enhancement of anti-oxidation stability of nafion membrane, Membranes 12 (2022) 521, https://doi.org/ 10.3390/membranes12050521.[42] F. Kaˇcík, D. Kaˇcíkov´a, M. Jablonský, S. Katuˇsˇc´ak, Cellulose degradation in newsprint paper ageing, Polym. Degrad. Stabil. 94 (9) (2009) 1509–1514, https:// doi.org/10.1016/j.polymdegradstab.2009.04.033.[43] M. Paidar, ˇs J. Mali, K. Bouzek, J. ˇZitka, Behavior of nafion membrane at elevated temperature and pressure, Desalination Water Treat. 14 (2010) 106–111, https:// doi.org/10.5004/dwt.2010.1015.[44] S.G. Avramov, E. Lefterova, H. Penchev, V. Sinigersky, E.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "re, Desalination Water Treat. 14 (2010) 106–111, https:// doi.org/10.5004/dwt.2010.1015.[44] S.G. Avramov, E. Lefterova, H. Penchev, V. Sinigersky, E. Slavcheva, Comparative study on the proton conductivity of perfluorosulfonic and polybenzimidazole based polymer electrolyte membranes, Bulg. Chem. Commun. 48 (2016) 43–50.[45] G. Xu, A. Ke, G. Xu, Y. Liu, Y. Zuo, X. Yang, Y. Dong, J. Wang, J. Zheng, J. Li, W. Cai, Enabling high-temperature application of nafion membrane via imitating ionic clusters in proton conduction channels, Int. J. Hydrogen Energy 56 (2024) 330–337, https://doi.org/10.1016/j.ijhydene.2023.12.190.[46] Nafion NR211 and NR212 Ion exchange Materials, Solution casting membranes. https://fuelcellearth.com/pdf/NRE-211_212.pdf?srsltid=AfmBOor4TsrGQIWfs veTDAXsEd8NXYGcJuCrKesAS7qBSnx5lz835B1w.[47] C. Feng, Y. Li, K. Qu, Z. Zhang, P. He, Mechanical behavior of a hydrated perfluorosulfonic acid membrane at meso and nano scales, RSC Adv. 9 (17) (2019) 9594–9603, https://doi.org/10.1039/C9RA00745H.[48] Eyu Safronova, Dyu Voropaeva, A.A. Lysova, O.V. Korchagin, V.A. Bogdanovskaya, A.B. Yaroslavtsev, On the properties of nafion membranes recast from dispersion in",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "N-Methyl-2-Pyrrolidone, Polymers 14 (23) (2022) 5275, https://doi.org/10.3390/ polym14235275.[50] S. Jin, Y. Shao, X. Gao, P. Chen, J. Zheng, S. Hong, J. Yin, Y.L. Joo, L.A. Archer, Designing interphases for practical aqueous zinc flow batteries with high power density and high areal capacity, Sci. Adv. 8 (39) (2022) eabq4456, https://doi.org/ 10.1126/sciadv.abq4456.[51] C. Zhai, D. Zhao, Y. He, H. Huang, B. Chen, X. Wang, Z. Guo, Electrolyte additive strategies for suppression of zinc dendrites in aqueous zinc-ion batteries, Batteries 8 [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (2022) 153, https://doi.org/10.3390/batteries8100153.[52] Y. Zuo, K. Wang, P. Pei, M. Wei, X. Liu, Y. Xiao, P. Zhang, Zinc dendrite growth and inhibition strategies, Mater. Today Energy 20 (2021) 100692, https://doi.org/ 10.1016/j.mtener.2021.100692.[53] J. Ye, Y. Cheng, L. Sun, M. Ding, C. Wu, D. Yuan, X. Zhao, C. Xiang, C. Jia, A green SPEEK/lignin composite membrane with high ion selectivity for vanadium redox flow battery, J. Membr. Sci. 572 (2019) 110–118, https://doi.org/10.1016/j. memsci.2018.11.009.[54] R. Satpathy, V. Pamuru, Chapter 7 – off-Grid solar photovoltaic systems, Solar PV Power (2021) 267–315, https://doi.org/10.1016/B978-0-12-817626-9.00007-1.[55] S.E. Oh, B.E.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Chapter 7 – off-Grid solar photovoltaic systems, Solar PV Power (2021) 267–315, https://doi.org/10.1016/B978-0-12-817626-9.00007-1.[55] S.E. Oh, B.E. Logan, Proton exchange membrane and electrode surface areas as factors that affect power generation in microbial fuel cells, Appl. Microbiol. Biotechnol. 70 (2) (2006) 162–169, https://doi.org/10.1007/s00253-005-0066-y.[56] M. Oliot, S. Galier, H. Roux De Balmann, A. Bergel, Ion transport in microbial fuel cells: key roles, theory and critical review, Appl. Energy 183 (2016) 1682–1704, https://doi.org/10.1016/j.apenergy.2016.09.043.[57] K. Wang, P. Pei, Z. Ma, H. Chen, H. Xu, D. Chen, X. Wang, Dendrite growth in the recharging process of zinc–air batteries, J. Mater. Chem. A 3 (45) (2015) 22648–22655, https://doi.org/10.1039/C5TA06366C.[58] C. Zhai, D. Zhao, Y. He, H. Huang, B. Chen, X. Wang, Z. Guo, Electrolyte additive strategies for suppression of zinc dendrites in aqueous zinc-ion batteries, Batteries 8 [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (2022) 153, https://doi.org/10.3390/batteries8100153.[59] A. Etale, A.J. Onyianta, S.R. Turner, S.J. Eichhorn, Cellulose: a review of water interactions, applications in composites, and water treatment, Chem Rev 123 (5) (2023) 2016–2048, https://doi.org/10.1021/acs.chemrev.2c00477.[60] G. Palanisamy, T. Sadhasivam, W.-S. Park, S.T. Bae, S.-H. Roh, H.-Y.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "em Rev 123 (5) (2023) 2016–2048, https://doi.org/10.1021/acs.chemrev.2c00477.[60] G. Palanisamy, T. Sadhasivam, W.-S. Park, S.T. Bae, S.-H. Roh, H.-Y. Jung, Tuning the ion selectivity and chemical stability of a biocellulose membrane by PFSA ionomer reinforcement for vanadium redox flow battery applications, ACS Sustainable Chem. Eng. 8 (4) (2020) 2040–2051, https://doi.org/10.1021/ acssuschemeng.9b06631.[61] A. Mukhopadhyay, Y. Yang, Z. Cheng, P. Luan, A. Natan, H. Zhu, Protonconductive membranes with percolated transport paths for aqueous redox flow batteries, Materials Today Nano 13 (2021) 100100, https://doi.org/10.1016/j. mtnano.2020.100100.[62] Y. Zhang, Y. Zhong, W. Bian, W. Liao, X. Zhou, F. Jiang, Robust proton exchange membrane for vanadium redox flow batteries reinforced by silica-encapsulated nanocellulose, Int. J. Hydrogen Energy 45 (16) (2020) 9803–9810, https://doi. org/10.1016/j.ijhydene.2020.01.188.[63] D. Mu, L. Yu, L. Liu, J. Xi, Rice paper reinforced sulfonated Poly(Ether ether ketone) as low-cost membrane for vanadium flow batteries, ACS Sustainable Chem. Eng. 5 (3) (2017) 2437–2444, https://doi.org/10.1021/acssuschemeng.6b02784.[64] F.B. Brito Dos Santos, P.S. McMichael, A. Whitbeck, A. Jalaee, E. Gyenge, E. J. Foster, Proton exchange membranes from sulfonated lignin nanocomposites for redox flow battery applications, Small 20 (24) (2024) 2309459, https://doi.org/ 10.1002/smll.202309459.[65] J. Ye, D. Yuan, M. Ding, Y. Long, T. Long, L. Sun, C.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "battery applications, Small 20 (24) (2024) 2309459, https://doi.org/ 10.1002/smll.202309459.[65] J. Ye, D. Yuan, M. Ding, Y. Long, T. Long, L. Sun, C. Jia, A cost-effective nafion/ lignin composite membrane with low vanadium ion permeation for high performance vanadium redox flow battery, J. Power Sources 482 (2021) 229023, https://doi.org/10.1016/j.jpowsour.2020.229023.[66] J. Ye, X. Lou, C. Wu, S. Wu, M. Ding, L. Sun, C. Jia, Ion selectivity and stability enhancement of SPEEK/lignin membrane for vanadium redox flow battery: the degree of sulfonation effect, Front. Chem. 6 (2018) 549, https://doi.org/10.3389/ fchem.2018.00549.[67] J. Long, H. Yang, Y. Wang, W. Xu, J. Liu, H. Luo, J. Li, Y. Zhang, H. Zhang, Branched sulfonated polyimide/sulfonated methylcellulose composite membranes with remarkable proton conductivity and selectivity for vanadium redox flow batteries, Chemelectrochem 7 (4) (2020) 937–945, https://doi.org/10.1002/ celc.201901887.",
+    "citation": {
+      "authors": [
+        "Rojas J.",
+        "Johan E."
+      ],
+      "paper_id": "1-s2.0-S0376738825007999-main",
+      "title": "Development of a robust ion-selective membrane from sulfonated cellulose nanofibers for zinc–iodine redox flow batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  }
+]

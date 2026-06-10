@@ -1,0 +1,888 @@
+[
+  {
+    "content": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport Hammed A. Balogun , Ryan P. Lively * School of Chemical and Biomolecular Engineering, Georgia Institute of Technology, Atlanta, GA, 30332, United States\n\nA R T I C L E I N F O Keywords:Solution-diffusion modelVapor permeationPervaporationOrganic solvent reverse osmosisMembrane transport",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T The solution-diffusion (SD) model remains the cornerstone framework for interpreting mass transport in nonporous polymeric membranes, yet its applicability has recently been scrutinized. In this study, we highlight that independent measurement of the SD parameters can be reliably utilized to make reasonable flux predictions across many different types of transport modalities; in this article, we highlight three: hydraulic permeation and organic solvent reverse osmosis (OSRO), pervaporation, and vapor permeation. First, independent measurements of sorption (equilibrium uptake under varying penetrant molecule fugacities) and diffusion (from pulsed field gradient nuclear magnetic resonance) were used to parameterize the SD model. Afterward, the SD predictions of membrane transport were compared with independent experimental permeation data. Our findings demonstrate that, when independently measured sorption and diffusion coefficients are used to calculate permeation rates, the resulting values align closely with those obtained through direct permeation experiments across all three processes for different organic molecules and water. Our analysis underscores that the SD model provides a physically consistent and quantitatively accurate description of transport phenomena in dense membranes. This work reinforces the broad utility of the SD model and provides a framework for its validation in current and emerging membrane technologies.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Selective separation of small molecules via the usage of nonporous dense membranes in application areas such as gas separations, perva­poration, seawater desalination, solvent recovery, crude oil fraction­ation, valuable solute and biochemical concentration, and others has been widely and accurately predicted by the solution-diffusion (SD) model for decades [1–8]. The solution-diffusion model (which itself is a special case of the more general sorption-diffusion model that is capable of also describing transport in microporous membranes) was first pro­posed by Thomas Graham in 1865 [9] and mathematically formulated by von Wroblewski in 1879 [10]. Since then, the SD model has gained acceptance due to its simplicity and accuracy in first predicting gas permeation processes and then later liquid phase solute/solvent permeation and separation. Complexities such as polymer swelling, non-ideal driving forces [11], non-constant diffusivities, non-linear isotherms, and others, which are not treated by the simplest formula­tion of the SD model, can also be handled in more rigorous forms of the SD model [11–14]. Importantly, correctly formulated SD models have been shown to accurately predict hydraulic permeances and vapor permeations through defect-free dense membranes, a point that we will underscore in this article.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "to accurately predict hydraulic permeances and vapor permeations through defect-free dense membranes, a point that we will underscore in this article. Recent studies have suggested that the solution-diffusion model does not apply to pressure-induced permeation of organic solvents in poly­meric membranes [15–17]. For instance, Fan et al., 2024 and He et al., 2024 put forth a solution-friction model and show evidence that solvent transport through polymer membranes occurs through a viscous flow mechanism [15,16]. However, the conclusions of these articles rely heavily on molecular simulations of polymeric systems, and polymeric systems are known to have long relaxation times. These long relaxation times, relative to the timescales available in computational molecular models, suggest that the validity of the solution-friction mechanism relies heavily on the initial structure of the polymer as well as the size of the simulation system, which is typically on the order of tens of nano­meters [18,19]. Moreover, the experimental evidence that is provided (such as the lack of curvature in flux vs pressure data) does not convincingly reject the solution-diffusion transport model, nor does it provide strong evidence of viscous flow (pore-flow) transport [4,20].",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "* Corresponding author.E-mail address: ryan.lively@chbe.gatech.edu (R.P. Lively).\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 737 (2026) 124731\n\nAvailable online 23 September 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ).",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Readers are referred to Refs. [11,20,21] for detailed mechanistic deri­vations of SD and how they give rise to phenomenological outcomes such as curved (or not curved) flux vs pressure data for hydraulic permeation experiments. In this article, we will reinforce experimental evidence of the underlying physics that govern solution-diffusion transport. Indeed, one key challenge with the solution-friction theory is the difficulty in measuring the frictional coefficients needed to parameterize the solution-friction model. There are no known techniques to measure these coefficients outside of permeation experiments themselves, and thus, using permeation techniques to support the solution-friction model is a somewhat circular argument (i.e., rate-based experimental tech­niques are utilized to extract rate parameters). Importantly, the parameters in the solution-diffusion model can each be measured independently using non-permeation techniques, and have been reliably used in predicting unary solvent permeation and multi­component mixture separation (including the accurate prediction of 400 components co-permeating through a membrane simultaneously in one recent example [22]) [4,13,23–30]. Fig. 1 summarizes the transport of organic solvents in a polymeric membrane under the solution-diffusion mechanism, which is the focus of our manuscript.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". 1 summarizes the transport of organic solvents in a polymeric membrane under the solution-diffusion mechanism, which is the focus of our manuscript. At its essence, the solution-diffusion permeation process involves a local thermodynamic equilibrium between the membrane interface and the adjacent fluid mixture. The non-equilibrium but steady state permeation process of molecules through the polymer structure involves random walk diffu­sive jumps via transient gaps that form between the polymer chains. Over sufficiently long time scales, these jumps will follow normal diffusion time scaling [31,32]. These gaps form as a result of thermal fluctuations of the polymer backbone, and the frequency at which a gap of size sufficient enough for the permeating molecule to take a diffusive jump is related to the size of that molecule. Importantly, the diffusive jumps are not oriented (provided the membrane is an isotropic me­dium), and the permeating molecules move in a random walk but with a net flux due to the chemical potential difference placed across the membrane to induce permeation. We re-emphasize these solution-diffusion fundamentals, as these two processes – thermody­namic partitioning from one phase to another, and random walk of a compound within a polymer – can be measured using equilibrium, non-permeation-based techniques.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ioning from one phase to another, and random walk of a compound within a polymer – can be measured using equilibrium, non-permeation-based techniques. The main point of this article is that both the sorption isotherm and the diffusion coefficient can be measured using equilibrium techniques, which reduces the significant uncertainties often associated with extracting kinetic rate constants from permeation experimentation. Af­terward, these two equilibrium-measured parameters can be combined using the appropriate form of the solution-diffusion expression. Here, we utilize the Maxwell-Stefan (MS) solution-diffusion formulation as orig­inally formulated by Krishna et al. [33,34] to predict the steady-state hydraulic flux through a dense membrane layer (Riberio et al. also developed a Maxwell-Stefan form of the solution-diffusion equations [35], but we find the Krishna form easier to implement). This MS formulation states that the penetrant flux through a dense selective layer is governed by the penetrant-polymer diffusion coefficients, sorption interaction within the membrane, and the membrane-phase volume fraction gradient (simplified from chemical potential gradient) across the membrane. In this paper, we highlight that with knowledge of the constitutive parameters involved in the solution-diffusion model, it is possible to verify the accuracy of the SD model in predicting experi­mental liquid and vapor permeation rates through dense membranes. 2.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Illustrative diagram of solvent’s chemical potential, μi, activity, ai, and concentration, ci, through a nonporous membrane in the solution-diffusion (SD) mechanism. The feed and permeate-side solvent properties are denoted with subscripts, 0 and ℓ, respectively. Hydraulic solvent flux, Ni, through the dense membrane, is influenced by a pressure-induced concentration gradient driving force. By this, the permeant molecules are first sorbed onto the membrane feed side due to chemical affinity with membrane polymer, then undergo diffusional jumps across the film thickness via random thermal motion of the polymer chains (inset). This process occurs until the penetrant molecule reaches the permeate side before being desorbed into bulk permeate. H.A. Balogun and R.P. Lively Journal of Membrane Science 737 (2026) 124731 in dense polymeric membranes is based on the combination of a com­ponent’s sorption coefficient, Si (note, many authors confuse sorption or solubility coefficients with Hansen or Hildebrandt solubility co­efficients) and its diffusion coefficient Di. The simplest form of the model is often represented as in Eq. (1), where the solvent permeability, Pi, (flux normalized by driving force and membrane thickness) is the product of these two coefficients. Pi = Di⋅Si(1) A key parameter of the SD model is the solvent diffusivity in the polymer.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "membrane thickness) is the product of these two coefficients. Pi = Di⋅Si(1) A key parameter of the SD model is the solvent diffusivity in the polymer. The diffusion coefficients of penetrant molecules in membrane polymers can be obtained from a variety of experiments: sorption kinetic studies (e.g., time lag measurement or dynamic vapor sorption), pure component constant pressure permeation, proton nuclear magnetic resonance (NMR), pulse field gradient-NMR (PFG-NMR), or empirical equations such as the Stokes-Einstein equation [29,36–39]. Similar to extracting frictional coefficients from a pure component permeation experiment in the solution-friction model, the constant-pressure permeation experiment is a cyclical approach to estimating pure component diffusivity – i.e., the flux data is fit to a model to extract a rate parameter. Importantly, the membrane is under nonequilibrium conditions during these permeation experiments, which can introduce confounding experimental biases resulting from situations such as pressure-induced plasticization or compaction, deswelling on the membrane’s downstream face, etc. However, in the PFG-NMR mea­surement, the membrane and the sorbed penetrant molecules are at equilibrium, and the technique allows for measurement of the displacement of the penetrant molecule within the polymer matrix in the absence of a permeation driving force.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "technique allows for measurement of the displacement of the penetrant molecule within the polymer matrix in the absence of a permeation driving force. PFG-NMR techniques enable measurement of penetrant self-diffusivities inside of a closed system at chemical equilibrium via the Einstein relation, 〈r2(t)〉= 6Di,selft(2) by measuring the mean squared displacement (〈r2(t)〉) of the guest such that it is smaller than the characteristic length of the membrane sample (i.e., the half-thickness) within the observation time, t. Di,self is the self-diffusion coefficient of the solvent species within the polymer phase. In the PFG-NMR experiment, a pair of magnetic field gradient pulses is applied to encode and decode the positions of diffusing nuclei. A signal attenuation arises due to molecular displacements during the diffusion time t, causing a dephasing of the nuclear spins. This attenu­ation of the NMR signal Ψ, follows an exponential decay given as [36,37,40]: Ψ =S(g)S(g ≈0) = exp(-Di,selfq2t)(3) Where Ψ is the PFG-NMR signal attenuation, S is the PFG-NMR signal intensity, q = 2γ*gδ is the wavevector, where γ* is the gyromagnetic ratio, g is the gradient pulse intensity (or gradient strength), and δ is the effective gradient pulse length. By varying g and measuring Ψ, Di,self can be extracted from the slope of the logarithmic attenuation curve.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "δ is the effective gradient pulse length. By varying g and measuring Ψ, Di,self can be extracted from the slope of the logarithmic attenuation curve. Solvent sorption in polymers is generally measured via the gravi­metric sorption method in dynamic vapor sorption instruments [4,41], quartz crystal microbalance equipment [42], or other custom-made sorption devices. Simplified soaking experiments are often utilized to estimate the mass and (sometimes) volume change of polymer films upon long-term immersion in liquid solvents. The solvent uptake in the polymer after long exposure times is treated as the equilibrium condition between the solvent and the polymer. The equilibrium mass fraction of the solvent in the membrane is directly estimated from gravimetric techniques, and the equilibrium volume fraction of the solvent in the membrane can be computed if corresponding dilatometry data are available or via reasonable assumptions of constant solvent molar vol­umes and isotropic dilation (if appropriate). Relating the solvent concentration in the membrane to the relative pressure of the solvent (i. e., the partial pressure of the solvent in a carrier gas relative to the saturated vapor pressure of the solvent at the testing temperature), the solvent activity, or the solvent fugacity provides the equilibrium sorp­tion isotherm for that solvent-polymer system.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "t the testing temperature), the solvent activity, or the solvent fugacity provides the equilibrium sorp­tion isotherm for that solvent-polymer system. The isotherm encapsu­lates all physical and chemical interactions between the solvent and polymer over the activity range from ~0 (infinitely dilute solvent) to 1.0 (polymer submerged in solvent, often referred to as the “unit activity” condition). The isotherms can be fit with various sorption models such as the Henry isotherm, Langmuir, Flory-Huggins (or Flory-Rehner), or dual-mode sorption isotherms. Parameters in these isotherms have been linked to molecular-scale phenomena such as sorption in packing defects between glassy polymer chains [43–46]. Fig. 2 provides an overview of the solution-diffusion model parameters and the methods of measuring each parameter independently of rate-based techniques. 3. Formulation of the solution-diffusion model Generally, the component molar flux, Ji, through a membrane is related to its chemical potential gradient driving force, dμi/dz, as shown below. Ji = -Li dμi dz(4) where z is the coordinate of net molecular transport across the mem­brane thickness and Li is the constant of proportionality.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "low. Ji = -Li dμi dz(4) where z is the coordinate of net molecular transport across the mem­brane thickness and Li is the constant of proportionality. Considering concentration and pressure gradients as the main contributors to the chemical potential driving force, dμi can be represented as: dμi = RT d ln(ai) + Vi dp(5) where ai is the activity (ai = γi xi), p is pressure, and γi, xi, and Vi are the activity coefficient, molar fraction, and partial molar volume of component i. Under the constant membrane pressure assumption of the SD model, Eq. (4) can be expressed as [47]: Ji = -RTLi xi dxi dz = -RTLi ci dci dz(6) where ci is the molar concentration of component i. Eq. (6) is similar to Fick’s law, and the component diffusivity can be defined as Di = RTLi ci , such that the flux equation becomes: Ji = -Di dci dz = -Di,Fick dci dz(7) Here, we formulate the solution-diffusion model using the twodimensional Maxwell-Stefan matrix form of Krishna [34] as follows:",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(Nv)1:n ∫l dz = -∫(ϕml )1:n (ϕmo )1:n [B]-1 [Γ] d(ϕm)1:n(8) where (Nv)1:n is the vector of n penetrants’ volumetric fluxes through a polymer membrane, ϕm is the (n +1) dimensional vector of component volume fraction in the membrane phase including n penetrants and the polymer itself, and [B] is the (n *n) dimensional matrix of the volumebased Maxwell-Stefan solvent-solvent (Ðv,mi,j ) and solvent-polymer dif­ fusivities (Ðv,mi,n+1) and is represented as: [B]ii =∑n j=1 j∕=i ϕmjÐv,mi,j + ϕmn+1Ðv,mi,n+1 , [B]ij,i∕=j = ϕmiÐv,mi,j\n\n(9)\n\nThe (n *n) dimensional sorption matrix, [Γ], describes the solventsolvent and solvent-polymer interactions and is defined as:\n\nH.A. Balogun and R.P. Lively Journal of Membrane Science 737 (2026) 124731\n\nΓij = d ln amid ln ϕmj = ϕmif mi df midϕmj",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3,
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] where ami is the sorbed solvent activity in the polymer phase and is defined as the ratio of the solvent fugacity in the membrane phase (fmi ) to the fugacity of saturated vapor at feed temperature (f0i ). In this article, we describe the solvent concentration in the membrane polymer by the Flory sorption isotherm with an extension by Rehner to account for the elastic contribution of swollen rubbery polymers. For single-component permeation, volumetric flux, Nv1, Eq. (8) is reduced to: ϕm1,o Ðv,m1,m(1 -ϕm1 ) ϕm1f m1 df m1dϕm1 dϕm1[ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}]",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The Fickian diffusivity of the penetrant molecules, D1m,Fick, in Eq. (7)is connected to the volume-based MS diffusivity, Ðv,m1,m, as defined in Eq. [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] [34]. D1m,Fick =11 -ϕm1 ⋅Γ⋅Ðv,m1,m[ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] Substituting Eq. [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] into Eq. [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] to introduce the Fickian diffu­sivity, which in the case of single solvent systems at unit activity, cor­responds to the self-diffusivity of the penetrant molecule (measured by PFG-NMR experiment), gives: where D1m,PFG-NMR is the penetrant-polymer diffusivity measured from the PFG-NMR experiment, and ϕm1,o and ϕm1,l are estimated from bulk and membrane phase activities via the sorption isotherms. Eq. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] is used in this work to estimate the solvent flux through polymer membrane in the organic solvent reverse osmosis (OSRO) process.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "g{13}\\end{equation}] is used in this work to estimate the solvent flux through polymer membrane in the organic solvent reverse osmosis (OSRO) process. While the usage of solvent phase fugacity is unambiguous, it is rarely utilized, and the activity of the solvent molecule in the upstream and downstream is typically used. A common approach to using the solventactivity-based driving force is to utilize the high-pressure side of the membrane as the reference state for the activity calculations (i.e., pref=phigh = po). Based on this, the thermodynamic equilibrium in chemical potentials on the upstream membrane face results in abulki,o= ami,o (equal to 1 for pure component OSRO process) and yield the estimate of the solvent activity on the downstream membrane face as: ami,l = abulki,lexp(-Vi (po -pl )RT )[ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] by assuming that a “pressure discontinuity” exists at the downstream",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Parameterization of the solution-diffusion model with experiments for each SD model parameter. (a) typical pulse field gradient-nuclear magnetic resonance (PFG NMR) experiment including signal attenuation plot for estimating the diffusion coefficient of organic solvent in membrane polymer, here MSD = mean squared displacement; (b) gravimetric vapor sorption experiment of polymer film to obtain sorption and sorption kinetics data at varying solvent fugacity (fsolv )or activity; the former data sets can be used to deduce the sorption coefficient, S; (c) steady-state solvent permeation experiment in thin film composite organics solvent reverse osmosis membrane. In the SD mechanism, organic solvent flux through a dense membrane under the influence of a fugacity gradient driving force can be directly predicted from the solvent sorption coefficient and the solvent diffusivity in the membrane. H.A. Balogun and R.P. Lively Journal of Membrane Science 737 (2026) 124731 membrane face (where Vi is the penetrant partial molar volume and pl as the downstream pressure). This pressure discontinuity is counterin­tuitive at first and appears to be problematic from a mechanical point of view; however, it ultimately makes sense in the context of mechanical force balances. By this, the polymer matrix carries normal stress since there is no neighboring liquid column to transmit hydrostatic pressure through the film as in a porous medium.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ymer matrix carries normal stress since there is no neighboring liquid column to transmit hydrostatic pressure through the film as in a porous medium. Thus, the interfacial force balances permit jumps in normal stress at phase boundaries provided the solid bears that load [48]. In addition, as demonstrated by Freger and Ramon 2024, in SD transport in thin-film composite membranes with thick active nonporous layers supported over narrow pores, the pressure across the membrane remains nearly uniform, and the solvent flux streamlines are evenly distributed [49]. Moreover, their calculations indicate that the pressure change is not a discontinuity but is instead a smooth function located near the downstream face of the membrane. This behavior emerges when the membrane film is uniformly loaded by feed pressure, and the influence of the support is confined to only a small near-pore region. The SD model thus remains physically consistent when mechanical equilibrium and realistic membrane support geometry are properly accounted for [49]. In the regime where the organic component’s relative saturation is below unity, transport behavior in dense polymer membranes deviates from the commonly assumed concentration-independent diffusivity model.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "turation is below unity, transport behavior in dense polymer membranes deviates from the commonly assumed concentration-independent diffusivity model. This deviation reflects a shift to concentration-dependent diffu­sion, which can be estimated using models such as the Mackie-Meares’ equation [50], Long’s equation [51], and Vrentas-Duda free volume theory [52], among others, in the absence of direct experimental Di vs ci or ai data (the latter of which is preferred, but rarely available). This observation is particularly relevant in vapor permeation and pervapo­ration processes, where the bulk feed and/or permeate phases are often in the vapor state or at sub-saturation levels. The Mackie-Meares’ equation is selected in this study due to its physical basis and low parameter needs (which enables its utilization via single-point diffu­sivity obtained from PFG-NMR measurement) [50]. According to the Mackie-Meares’ model, the diffusivity of organic vapor in a polymer membrane, Dmi , can be related to its volume fraction in the membrane phase as represented by Eq. [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] [50]: Dmi = Dm0i⋅ ( 1 -ϕmp1 + ϕmp )2 = Dm0i ⋅(ϕm12 -ϕm1",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ")2 [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] where Dm0i is the penetrant self-diffusivity in its organic or aqueous phase as polymer volume fraction, ϕmp approaches zero [52]. Substitut­ing Eq. [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] into Eq. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}], the SD model in Eq. (16) can be easily used to estimate unary pervaporation and vapor permeation fluxes, viz.,\n\nNv1 ∫l dz = -Dm01 ∫ϕm1,l ϕm1,o (ϕmi2 -ϕmi )2 dϕmi(16) For vapor permeation and pervaporation processes, the penetrant activities in the membrane phase can be estimated as in Eqs. (17) and [ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] using the saturation vapor pressure of the solvent, psat1 as reference state. am1,o = abulk1,o exp(-V1 (po -psat1 ) RT )(17) am1,l = abulk1,l⋅(p1l psat1 )⋅exp(-V1 (po -psat1",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ") RT )[ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] where the bulk-phase activities are the ratio of partial pressures to the saturation vapor pressure. Under a deep vacuum application or high sweep gas rate on the downstream side of the membrane, an approxi­mately zero downstream activity is achieved, and ϕm1,l ≪ ϕm1,0. A flow­chart is provided in the supplementary information together with worked examples showing the integration of these equations in flux prediction (Sections S5–6). Table 1 presents the physical properties of solvents considered in this study. Solvent partial molar volume in the membrane phase, V1 is assumed to be the same as the liquid molar volume, ̂V1, except for water in Nafion-117 (where V1 ≅17 cm3/mol). At low hydration, water is strongly contracted by ion–dipole interactions with sulfonate groups of the membrane and by confinement/elastic constraints inside the ionic domains; only at very high hydration does it behave nearly like bulk water [53]. 4. Solution-diffusion framework validated with independent experimental inputs Independently sourced experimental data were utilized for model parameterization and validation to evaluate the predictive capability of the solution-diffusion model.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "urced experimental data were utilized for model parameterization and validation to evaluate the predictive capability of the solution-diffusion model. Sorption isotherms were extracted from previously published literature [30,41,42,53–55] while self-diffusion coefficients were obtained from PFG-NMR measurements reported by Muzzalupo et al. [36]. The only choice for PFG-NMR diffusivity data for the organic solvents/PDMS system is the work of Muzzalupo et al. and are presented in Table S2. For the water/Nafion-117 system, the experimental data of Zawodzinski Jr. et al. [56] and Tsushima et al. [57] are used for comparison. The Arrhenius relation is used to adjust the water self-diffusivity of Zawodzinski Jr. et al. [56] to ambient temper­ature conditions as detailed in the Supplementary Information S3. We treat the unit-activity self-diffusion coefficients as the unit-activity Fickian diffusivities, and Eq. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] was used for flux estimation. Perme­ation (flux) data used for model validation originated from different sets of unrelated studies on organic solvents such as n-heptane, n-hexane, toluene, acetone, cyclohexane, p-xylene, and water permeating through thin film composite membranes [15,58–60].",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "solvents such as n-heptane, n-hexane, toluene, acetone, cyclohexane, p-xylene, and water permeating through thin film composite membranes [15,58–60]. The membrane polymer considered in these studies is crosslinked polydimethylsiloxane (PDMS), except for water where proton-exchange membrane Nafion-117 is used due to its wide application in electrochemical systems. PDMS was selected for our analysis because there is a wealth of sorption, perme­ation, and PFG-NMR diffusometry data collected by polymer and membrane scientists over the last 30–40 years. The equilibrium data – sorption isotherms and PFG-NMR diffusion measurements of pure sol­vents – are taken from studies focusing on thick films (350–3500 μm) [30,41,42,53–55]. The Flory isotherm fittings of sorption data are pre­sented in the Supplementary Information S1. To demonstrate the robustness of the solution-diffusion model, the predictions from the model with these independently measured equilibrium physical phe­nomena on thick films are compared against nonequilibrium but steady-state permeation data on thin film (1.5–3.0 μm active layer) composites and self-supporting films (180 - 200 μm). This approach was taken not only to minimize potential bias but also to test the robustness of the solution-diffusion framework when applied across heterogeneous",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 1 Physical properties of organic solvents and water usesd in this study at ambient conditions (~24 ◦C). SolventsMolecular weight, Mw (g/mol) Density, ρ (kg/ m3)\n\nBulk liquid molar volume, ̂V (cm3/ mol) Partial molar volume, V (cm3/ mol) Saturation vapor pressure, psat (kPa)\n\nToluene92.14867.0106.27106.273.60Acetone58.08784.074.0874.0828.07n-Heptane100.20679.5147.46147.465.80n-Hexane86.18660.6130.45130.4518.48Cyclohexane84.16779.0108.04108.0412.43p-Xylene106.16856.7123.92123.9210.52Water18.02998.018.0517.002.80\n\nH.A. Balogun and R.P. Lively Journal of Membrane Science 737 (2026) 124731 datasets. The transmembrane chemical potential or transmembrane fugacity – not the transmembrane pressure – was used to derive the SD fluxes (Eqs. (4)–(7)) as shown in Section 3, and a constant membrane pressure assumption was used as shown in Eq. (6). The dry membrane thicknesses provided in the literature were adjusted to account for the dimensional change upon swelling by using the relationship originally developed by Paul [11], viz. Eq. (19). l |ϕm1 = l dry (1 -ϕm1,o )-1 /",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5,
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(19) where l dry is the dry membrane thickness and ϕm1,o is the solvent volume fraction on the upstream membrane face. Fig. 3 shows the hydraulic permeation flux of various organic sol­vents in PDMS membrane as a function of transmembrane pressure using independent literature data for solvent sorption isotherm and diffusivity estimation for SD parameterization. We find that the solution-diffusion model can accurately predict the experimental flux of toluene (Fig. 3(a)), acetone (b), and n-heptane (c), and p-xylene (f) without fitting flux data to extract transport parameters, as is required in the solutionfriction model. For n-hexane and cyclohexane (Fig. 3(d)–(e)), the experimental data lies closely outside the confidence interval of the SD prediction. Further details on the potential origin of this deviation from experimental data is provided in Section 5. We re-emphasize that the flux, diffusion, and sorption data are sourced from independent labs, each working on their own particular formulation of PDMS. Despite the diversity of data sources, research groups, and membrane samples, the SD model accurately predicts experimental flux behavior, underscoring the reliability of the solution-diffusion model in describing organic solvent permeation across dense polymeric membranes.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "flux behavior, underscoring the reliability of the solution-diffusion model in describing organic solvent permeation across dense polymeric membranes. Whilst the recently proposed solution-friction model relies on frictional coef­ficient fitting from the same permeation experiment, the uniqueness of the SD model lies in its ability to implement independent solubility and diffusivity parameters to predict new and existing experimental permeation trends as well as multicomponent separation performance. For instance, Lee and coworkers integrated a machine learning predictor of pure component solvent uptakes and diffusivities into the solutiondiffusion model and used the SD-based model for predicting the sepa­ration of a complex feed mixture containing up to 400 components through polymer membranes [22]. This was achieved with an excellent prediction accuracy (less than 8 % error) for crude oil fractionation. Fig. 4 presents water permeation predicted by the solution–diffusion",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. Hydraulic permeation flux of various organic solvents in PDMS membrane as a function of transmembrane pressure using independent literature data for solvent sorption isotherm and PFG-NMR diffusivity estimation for SD parameterization for (a) toluene –sorption isotherm data of Sun & Chen, 1994 [41] and experimental flux data are obtained from Stamatialis et al., 2006 [58], (b) acetone –sorption isotherm from Singh et al., 1998 [42] and pure component permeation data of Fan et al., 2024 [15], (c) n-heptane –unit activity sorption uptake from Soltane et al., 2013 [30] and experimental flux measurement of Robinson et al., 2004 [59], (d) n-hexane –sorption isotherm of Inoue et al., 2023 [54] and pure component permeation data of Robinson et al., 2004 [59], (e) cyclohexane –unit activity sorption uptake from Yang et al., 2000 [55], and pure component data of Robinson et al., 2004 [59], and (f) p-xylene –sorption isotherm data of Sun & Chen, 1994 [41] modified by unit activity sorption uptake from this present study, and pure component permeation data of Robinson et al., 2004 [59]. The sorption data were fitted to the Flory-Rehner isotherm, and the diffusion coefficients of the aromatic, aliphatic, cyclic aliphatic, and ketone compounds in PDMS films were obtained from the PFG-NMR measurement of Muzzalupo et al., 1999 [36].",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e aromatic, aliphatic, cyclic aliphatic, and ketone compounds in PDMS films were obtained from the PFG-NMR measurement of Muzzalupo et al., 1999 [36]. The shaded regions are based on the variability in the selective PDMS layer as obtained from the permeation studies, and where missing, a 20 % variation in film thickness is considered. H.A. Balogun and R.P. Lively Journal of Membrane Science 737 (2026) 124731",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(SD) framework using self-diffusivities from pulsed-field gradient NMR reported by two independent sources [56,57]. Despite the different data origins, both diffusivity inputs closely reproduce the measured water permeation rates through ionomer membranes, with deviations gener­ally within experimental uncertainty. This agreement indicates that the SD model is robust to modest variability in the diffusivity estimate and that PFG-NMR-derived values are transferable to membrane transport predictions without additional fitting. This underscores the internal consistency and predictive power of the SD model, reinforcing its role as a unifying framework for mass transport in dense membranes. Vapor permeation and pervaporation (PV) are other membrane transport processes that can be well-represented by the solutiondiffusion model. The vapor permeation and pervaporation experi­ments of toluene through dense membranes of thicknesses (20–180 μm) were modeled via the SD equations given in Eqn. (16) and (17). The earlier sorption isotherm fitting of experimental data of Sun and Chen, 1994 was used for the prediction of toluene concentration within the membrane phase [41]. Fig. 5 presents the SD prediction of toluene fluxes across polymer membranes in three different membrane modalities, including OSRO, vapor permeation, and pervaporation.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "SD prediction of toluene fluxes across polymer membranes in three different membrane modalities, including OSRO, vapor permeation, and pervaporation. The SD model provides compa­rable flux prediction to experimental data across different upstream toluene relative saturations under the vapor permeation experimental conditions of Lue et al., 2008 [61]. In a two-phase membrane process involving upstream organic liquid and downstream vapor (i.e. near zero downstream activity), the versatility of the SD model was exemplified by comparably predicting the toluene pervaporation data of Heymes et al., 2006, [62]. This demonstrates that the solution-diffusion model can be utilized to predict a wide variety of diffusion-based transport modalities, provided the underlying parameters are known.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5. Robustness of SD validation to varying sorption isotherm and uncertainty in swelling estimates The choice of sorption isotherm could substantially affect the fidelity of SD flux predictions. To assess this sensitivity, Fig. S4 compares SD predictions generated with multiple literature sources of sorption data, with details in Table S1. Across all organic solvents examined, pre­dictions based on full sorption isotherms show errors that are compa­rable to experiment, whereas the largest deviations arise when a single “unit activity” uptake value is used to create a surrogate isotherm. For toluene and acetone, isotherms that span a range of activities yield strong agreement and substantial overlap with measured fluxes, consistent with the need to capture nonlinearity in polymer–solvent interactions at intermediate activities. In contrast, for n-hexane, the increased deviation observed when using the full isotherm of Inoue et al., 2023 [54] likely reflects material and methodological differences, specifically the use of loosely crosslinked PDMS that was ground for uptake measurements, which can alter free volume, network dilation, and thus the sorption uptake of a solvent. For p-xylene, coupling the “partially-full” isotherm of Sun and Chen 1994 available up to a ≈0.5 [41] with our in-house unit-activity uptake produces predictions that are again consistent with experiment.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "f Sun and Chen 1994 available up to a ≈0.5 [41] with our in-house unit-activity uptake produces predictions that are again consistent with experiment. Overall, access to a full isotherm improves SD accuracy and should be considered essential for making precise SD predictions. In Fig. 6, we quantify how uncertainties in polymer swelling used to correct the dry-film thickness via Paul’s relationship (Eq. (19)) propa­gate into the solution–diffusion (SD) model validation. For each",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. Extension of the solution-diffusion (SD) model predictions to water transport through Nafion-117 membranes. The experimental data is that of Sujanani et al., 2024 with water flux through a 200 ± 40 μm thickness of the proton exchange membrane using custom-made hydraulic permeation setup at a transmembrane pressure of 34.5 bar [60]. The “one-point” (unit-activity) sorption fitting was done using uptake data from Sujanani et al., 2021 [53]. Two PFG-NMR measurement sources were considered for the water self-diffusivity in Nafion membranes (Zawodzinski Jr. et al. [56] and Tsushima et al. [57]) and are presented in Table S2 and section S3 of the supplementary information. The error bars in simulation results account for the influence of the membrane thickness variation on flux predictions.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "H.A. Balogun and R.P. Lively Journal of Membrane Science 737 (2026) 124731 penetrant, the root-mean-square percentage error (RMSPE) between predicted and measured fluxes was recalculated while systematically perturbing the baseline swelling estimate. The “U”-shape nature of the resulting error surfaces demonstrates strong sensitivity of SD predictions to the membrane swelling correction. Notably, the minima for the aro­matic and aliphatic hydrocarbons occur at positive deviations (~20–50 %) from the baseline swelling, indicating that the baseline application of Paul’s thickness correction [11], likely underestimates dilation for nonpolar penetrants (in other words, if the permeation data were fit to find the swollen membrane thickness, the thickness would be higher than that estimated by Paul’s equation). In contrast, polar penetrants (e. g., water, acetone) exhibit broader, shallower minima closer to the baseline (0–20 %), implying comparatively lower sensitivity consistent with their smaller volumetric uptake and stronger sorption–diffusion coupling in the polymer. Across all cases, mis-specifying swelling by more than ±25 % leads to rapid error growth, underscoring that accu­rate swelling quantification is also critical to SD prediction fidelity. 6. Conclusions In this work, the solution-diffusion transport model is examined for its suitability for organic solvent and water permeation in nonporous polymeric membranes.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ork, the solution-diffusion transport model is examined for its suitability for organic solvent and water permeation in nonporous polymeric membranes. This work seeks to shed more light on the as­sumptions and underlying mechanics of the SD model with a focus on testing its accuracy in predicting organic solvents and water transport using parameters from unrelated sources. Our analysis has shown that by combining two different equilibrium (sorption and diffusion) datasets for a wide range of organic solvents (linear and cyclic aliphatics, aro­matics, and ketones) and water in dense membrane films (and ionomer membranes) with permeation data through thin-film composite (or freestanding) membranes from independent labs, we were able to accurately estimate the membrane fluxes of these organic solvents and water during hydraulic permeation. Using a model that accounts for the concentration-dependence of the diffusion coefficient, we extend these predictions and comparisons to pervaporation and vapor permeation datasets, which also yield predictions with good accuracy. We also found out that Paul’s swelling relationship is likely within reasonable esti­mates of actual membrane swollen thickness under permeation condi­tions. We underscore that the availability of a full isotherm is critical for accurate sorption coefficient estimation.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ickness under permeation condi­tions. We underscore that the availability of a full isotherm is critical for accurate sorption coefficient estimation. This suite of comparisons and calculations – based on disparate experimental datasets for P (or flux), D, and S – underscores a key point of this manuscript: the fundamental mechanisms of transport in the solution-diffusion model can be inde­pendently measured, and broadly speaking, yield the result of P = D⋅S. Of course, non-idealities such as concentration-dependent diffusion co­efficients, non-linear isotherms, membrane dilation, and others must be properly taken into account to yield such a satisfying result, but the underlying mechanisms of solution-diffusion transport are wellunderstood and are – importantly – independently observable. That said, there are many open questions remaining on the nature of molecular transport in membrane materials, especially in materials that blur the boundary between diffusive and viscous transport. Examples include solvent-dilated polymers of intrinsic microporosity, large pore carbon molecular sieves, multi-layered covalent organic framework structures, and other types of microporous materials that often exhibit multiple sorption and diffusion environments. Where possible, mea­surements of transport phenomena independent of permeation tech­niques should be pursued to deconvolute the various ways in which molecules and fluids move through polymeric and microporous systems.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "permeation tech­niques should be pursued to deconvolute the various ways in which molecules and fluids move through polymeric and microporous systems. CRediT authorship contribution statement Hammed A. Balogun: Writing – review & editing, Writing – original draft, Validation, Software, Methodology, Investigation, Formal anal­ysis. Ryan P. Lively: Writing – review & editing, Writing – original draft, Validation, Supervision, Project administration, Funding acquisi­tion, Formal analysis, Conceptualization. Declaration of competing interest The authors declare no conflict of interest. Acknowledgments The authors thank Dr. Seoyul Kim for his assistance in improving the clarity and presentation of some of the figures. Valuable feedback on the manuscript was provided by Profs. Benny Freeman, Matthew Realff, and William Koros, and Dr. Hans Wijmans. This work was supported by the Thomas C. DeLoach Jr. Endowed Term Professorship.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Appendix A. Supplementary data Supplementary data to this article can be found online at https://doi.org/10.1016/j.memsci.2025.124731. Nomenclature aicomponent’s activity [dimensionless]Bdiffusional matrix [s m-2]cimolar concentration of component i [mol m-3] Fig. 6. The root mean square percentage error (RMSPE) of the solutiondiffusion (SD) model predictions for the organic and water permeation in membranes with variation in the assumption of Paul’s relationship for the estimation of selective layer swelling from the nominal thicknesses. The nega­tive variations from our baseline swelling estimates are ultimately bounded by the dry thickness of the membrane. H.A. Balogun and R.P. Lively Journal of Membrane Science 737 (2026) 124731",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Didiffusivity of component i [m2 s-1]Dm0icomponent i self-diffusivity in its organic or aqueous phase [m2 s-1]Di,selfself-diffusivity of component i [m2 s-1]Ðv,mvolume-based Maxwell-Stefan diffusivity [m2 s-1]ffugacity [Pa]ggradient pulse intensity [T m-1]Jimolar flux of component i [mol m-2 s-1]KGigas-phase sorption coefficient of component i [mol m-3 Pa-1]Niflux of component i [mol m-2 s-1]Nm1penentrant molar flux [mol m-2 s-1]Nv1volumetric flux of component i [m3 m-2 s-1]Pipermeability of component i [mol m-1 s-1 Pa-1]ppressure [Pa]pipartial pressure of component i [Pa]psatisaturated vapor pressure of component i [Pa]qwavevector [m-1]Rgas constant [J mol-1 K-1]Sisorption coefficient of component i [mol m-3 Pa-1]SPulse-field gradient-NMR signal intensity [a.u.]Ttemperature [K]ttime [s]ŝVibulk liquid molar volume of component i [m3 mol-1]Vipartial molar volume of component i [m3 mol-1]xmolar fraction (dimensionless)zspatial dimension across membrane thickness [m]δeffective gradient pulse length [m]lmembrane thickness [m]μicomponent i’s chemical potential [J mol-1]γactivity coefficient (dimensionless)γʹplasticizing coefficient [m3 mol-1]γ*gyromagnetic ratio [rad s-1 T-1]Γsorption matrix (dimensionless)ΨPulse-field gradient-NMR signal attenuation (dimensionless)ϕvolume fraction in the polymer phase (dimensionless) Subscripts0feed side of the membraneffeedmmembrane or polymernnumber of componentsppermeate",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[7] H. Strathmann, A.S. Michaels, Polymer-water interaction and its relation to reverse osmosis desalination efficiency, Desalination 21 (1977) 195–202, https://doi.org/ 10.1016/s0011-9164(00)80316-1.[8] J.G. Wijmans, The role of permeant molar volume in the solution-diffusion model transport equations, J Memb Sci 237 (2004) 39–50, https://doi.org/10.1016/j. memsci.2004.02.028.[9] T. Graham, On the absorption and dialytic separation of gases by colloid septa, Philos. Mag. 32 (1866) 401–420, https://doi.org/10.1098/rstl.1866.0018.[10] S. von Wroblewski, Ueber die Natur der Absorption der Gase, Ann Phys 244 (1879) 29–52, https://doi.org/10.1002/andp.18792440903.[11] D.R. Paul, Reformulation of the solution-diffusion theory of reverse osmosis, J Memb Sci 241 (2004) 371–386, https://doi.org/10.1016/j.memsci.2004.05.026.[12] D.R. Paul, The solution-diffusion model for swollen membranes, Separ. Purif. Rev. 5 (1976) 33–50, https://doi.org/10.1080/03602547608066047.[13] D. Fierro, A. Boschetti-de-Fierro, V. Abetz, The solution-diffusion with imperfections model as a method to understand organic solvent nanofiltration of multicomponent systems, J Memb Sci 413–414 (2012) 91–101, https://doi.org/ 10.1016/j.memsci.2012.04.027.[14] E.A. Mason, H.K. Lonsdale, Statistical-mechanical theory of membrane transport, J Memb Sci 51 (1990) 1–81, https://doi.org/10.1016/s0376-7388(00)80894-7.[15] H. Fan, J. He, M. Heiranian, W. Pan, Y. Li, M.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ry of membrane transport, J Memb Sci 51 (1990) 1–81, https://doi.org/10.1016/s0376-7388(00)80894-7.[15] H. Fan, J. He, M. Heiranian, W. Pan, Y. Li, M. Elimelech, The physical basis for solvent flow in organic solvent nanofiltration, Sci. Adv. 10 (2024), https://doi.org/ 10.1126/sciadv.ado4332.[16] J. He, H. Fan, M. Elimelech, Y. Li, Molecular simulations of organic solvent transport in dense polymer membranes: Solution-diffusion or pore-flow mechanism? J Memb Sci 708 (2024) 123055 https://doi.org/10.1016/j. memsci.2024.123055.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[17] T. Matsuura, M.D. Guiver, W.J. Lau, A.F. Ismail, Transport in reverse osmosis membranes : observations and comments on the pore fl ow model versus the solution ‒ diffusion model. https://doi.org/10.3389/frmst.2025.1513591, 2025.[18] R. Vickers, T.M. Weigand, O. Coronell, C.T. Miller, Water transport mechanisms during pressure-driven transport through polyamide nanogaps, Phys. Fluids 37 (2025), https://doi.org/10.1063/5.0248257.[19] W.G. Gray, C.T. Miller, Introduction to the Thermodynamically Constrained Averaging Theory for Porous Medium Systems, Springer International Publishing, Cham, 2014.[20] V. Freger, G.Z. Ramon, The solution-diffusion model: “rumors of my death have been exaggerated,”, Journal of Membrane Science Letters 4 (2024) https://doi. org/10.1016/j.memlet.2024.100084.[21] J.G. (Hans) Wijmans, R.W. Baker, The solution-diffusion model: a unified approach to membrane permeation, in: Membrane Technologies and Applications, Second, John Wiley & Sons, Ltd, 2011, pp. 159–189, https://doi.org/10.1002/ 0470020393.[22] Y.J. Lee, L. Chen, J. Nistane, H.Y. Jang, D.J. Weber, J.K. Scott, N.D. Rangnekar, B. D. Marshall, W. Li, J.R. Johnson, N.C. Bruno, M.G. Finn, R. Ramprasad, R.P. Lively, Data-driven predictions of complex organic mixture permeation in polymer membranes, Nat. Commun. 14 (2023) 1–12, https://doi.org/10.1038/s41467-02340257-2.[23] R. Mathias, D.J. Weber, K.A. Thompson, B.D. Marshall, M.G. Finn, J.K. Scott, R. P.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "mun. 14 (2023) 1–12, https://doi.org/10.1038/s41467-02340257-2.[23] R. Mathias, D.J. Weber, K.A. Thompson, B.D. Marshall, M.G. Finn, J.K. Scott, R. P. Lively, Framework for predicting the fractionation of complex liquid feeds via polymer membranes, J Memb Sci 640 (2021) 119767, https://doi.org/10.1016/j. memsci.2021.119767.[24] D. Peshev, A.G. Livingston, OSN Designer, a tool for predicting organic solvent nanofiltration technology performance using aspen one, MATLAB and CAPE OPEN, Chem. Eng. Sci. 104 (2013) 975–987, https://doi.org/10.1016/j.ces.2013.10.033.[25] D. Zedel, M. Kraume, A. Drews, Modelling and prediction of organic solvent flux and retention of surfactants by organic solvent nanofiltration, J Memb Sci 544 (2017) 323–332, https://doi.org/10.1016/j.memsci.2017.09.041.[26] Y. Ren, H. Ma, J. Kim, M. Al Otmi, P. Lin, C. Dai, Y.J. Lee, Z. Zhai, W.J. Jang, S. Yang, A. Sarswat, Y. Feliachi, J. Sampath, M.J. Realff, R.P. Lively, S. Guo, Fluorine-rich poly(arylene amine) membranes for the separation of liquid aliphatic compounds, Science 387 (2025) 208–214, https://doi.org/10.1126/science. adp2619.[27] H.A. Balogun, J.M. Cowie-Williams, Y. Ren, R. Haghpanah, D. Katsoulis, J. Rose, A. Sarswat, K.S. Walton, W.J. Koros, R.P. Lively, Membrane separation of cyclic siloxanes from silicone fluid, J Memb Sci 703 (2024) 122833, https://doi.org/ 10.1016/j.memsci.2024.122833.[28] S. Darvishmanesh, A. Buekenhoudt, J. Degr`eve, B.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rom silicone fluid, J Memb Sci 703 (2024) 122833, https://doi.org/ 10.1016/j.memsci.2024.122833.[28] S. Darvishmanesh, A. Buekenhoudt, J. Degr`eve, B. Van der Bruggen, General model for prediction of solvent permeation through organic and inorganic solvent resistant nanofiltration membranes, J Memb Sci 334 (2009) 43–49, https://doi. org/10.1016/j.memsci.2009.02.013.[29] L. Ma, L. Gutierrez, M. Vanoppen, D.N. Lorenz, C. Aubry, A. Verliefde, Transport of uncharged organics in ion-exchange membranes: experimental validation of the solution-diffusion model, J Memb Sci 564 (2018) 773–781, https://doi.org/ 10.1016/j.memsci.2018.07.029.[30] H. Ben Soltane, D. Roizard, E. Favre, Effect of pressure on the swelling and fluxes of dense PDMS membranes in nanofiltration: an experimental study, J Memb Sci 435 (2013) 110–119, https://doi.org/10.1016/j.memsci.2013.01.053.[31] D. Hofmann, L. Fritz, J. Ulbrich, D. Paul, Molecular modelling of amorphous membrane polymers, Polymer (Guildf.) 38 (1997) 6145–6155, https://doi.org/ 10.1016/S0032-3861(97)00176-6.[32] E. Tocci, A. Gugliuzza, L. De Lorenzo, M. Macchione, G. De Luca, E. Drioli, Transport properties of a co-poly(amide-12-b-ethylene oxide) membrane: a comparative study between experimental and molecular modelling results, J Memb Sci 323 (2008) 316–327, https://doi.org/10.1016/j.memsci.2008.06.031.[33] R. Krishna, J.A. Wesselingh, The maxwell-stefan approach to mass transfer, Chem. Eng. Sci.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "316–327, https://doi.org/10.1016/j.memsci.2008.06.031.[33] R. Krishna, J.A. Wesselingh, The maxwell-stefan approach to mass transfer, Chem. Eng. Sci. 52 (1997) 861–911, https://doi.org/10.1016/S0009-2509(96)00458-7.[34] R. Krishna, Describing mixture permeation across polymeric membranes by a combination of maxwell-stefan and flory-huggins models, Polymer (Guildf.) 103 (2016) 124–131, https://doi.org/10.1016/j.polymer.2016.09.051.[35] C.P. Ribeiro, B.D. Freeman, D.R. Paul, Modeling of multicomponent mass transfer across polymer films using a thermodynamically consistent formulation of the Maxwell–Stefan equations in terms of volume fractions, Polymer (Guildf.) 52 (2011) 3970–3983, https://doi.org/10.1016/j.polymer.2011.06.042.[36] R. Muzzalupo, G.A. Ranieri, C. Golemme, E. Drioli, Self-diffusion measurements of organic molecules in PDMS and water in sodium alginate membranes, J. Appl. Polym. Sci. 74 (1999) 1119–1128, https://doi.org/10.1002/(SICI)1097-4628 (19991031)74:5<1119::AID-APP8>3.0.CO;2-U.[37] G. Pag`es, V. Gilard, R. Martino, M. Malet-Martino, Pulsed-field gradient nuclear magnetic resonance measurements (PFG NMR) for diffusion ordered spectroscopy (DOSY) mapping, Analyst 142 (2017) 3771–3796, https://doi.org/10.1039/ c7an01031a.[38] S.J. Berens, A. Yahya, J. Fang, A. Angelopoulos, J.D. Nickels, S.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "OSY) mapping, Analyst 142 (2017) 3771–3796, https://doi.org/10.1039/ c7an01031a.[38] S.J. Berens, A. Yahya, J. Fang, A. Angelopoulos, J.D. Nickels, S. Vasenkov, Transition between different diffusion regimes and its relationship with structural properties in nafion by high field diffusion NMR in combination with small-angle",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "X-ray and neutron scattering, J. Phys. Chem. B 124 (2020) 8943–8950, https://doi. org/10.1021/acs.jpcb.0C07249.[39] W.N. Wu, O. Boloki, S. Vasenkov, Z.P. Smith, Macroscopic and microscopic gas diffusivity measurements for PIM-COOH/UiO-66-NH2 composite membranes, J Memb Sci 732 (2025) 124246, https://doi.org/10.1016/j.memsci.2025.124246.[40] E.O. Stejskal, J.E. Tanner, Spin diffusion measurements: spin echoes in the presence of a time-dependent field gradient, J. Chem. Phys. 42 (1965) 288–292, https://doi.org/10.1063/1.1695690.[41] Y. Sun, J. Chen, Sorption/desorption properties of ethanol, toluene, and xylene in poly(dimethylsiloxane) membranes, J. Appl. Polym. Sci. 51 (1994) 1797–1804, https://doi.org/10.1002/app.1994.070511014.[42] A. Singh, B.D. Freeman, I. Pinnau, Pure and mixed gas acetone/nitrogen permeation properties of polydimethylsiloxane [PDMS], J. Polym. Sci. B Polym. Phys. 36 (1998) 289–301, https://doi.org/10.1002/(SICI)1099-0488(19980130) 36:2<289::AID-POLB8>3.0.CO;2-M.[43] T. Kanaya, M. Teraguchi, T. Masuda, K. Kaji, Local mobility of substituted polyacetylenes measured by quasielastic neutron scattering and its relationship with gas permeability, Polymer (Guildf.) 40 (1999) 7157–7161, https://doi.org/ 10.1016/S0032-3861(99)00257-8.[44] V.P. Shantarovich, I.B. Kevdina, YuP.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ith gas permeability, Polymer (Guildf.) 40 (1999) 7157–7161, https://doi.org/ 10.1016/S0032-3861(99)00257-8.[44] V.P. Shantarovich, I.B. Kevdina, YuP. Yampolskii, A.Yu Alentiev, Positron annihilation lifetime study of high and low free volume glassy polymers: effects of free volume sizes on the permeability and permselectivity, Macromolecules 33 (2000) 7453–7466, https://doi.org/10.1021/ma000551+.[45] J. Weber, J. Schmidt, A. Thomas, W. B¨ohlmann, Micropore analysis of polymer networks by gas sorption and 129Xe NMR spectroscopy: toward a better understanding of intrinsic microporosity, Langmuir 26 (2010) 15650–15656, https://doi.org/10.1021/la1028806.[46] T. Suzuki, H. Yoshimizu, Y. Tsujita, Analysis of gas transport properties of PPO/PS blends by 129Xe NMR spectroscopy, Polymer (Guildf.) 44 (2003) 2975–2982, https://doi.org/10.1016/S0032-3861(03)00191-5.[47] R.W. Baker, Membrane Technologies and Applications, second ed., John Wiley & Sons, Ltd, 2011 https://doi.org/10.1002/0470020393.[48] J.C. Slattery, L. Sagis, E.S. Oh, Interfacial Transport Phenomena, second ed., Springer, New York, USA, 2007 https://doi.org/10.1007/978-0-387-38442-9.[49] V. Freger, G.Z. Ramon, The solution-diffusion model: “rumors of my death have been exaggerated,”, Journal of Membrane Science Letters 4 (2024) https://doi. org/10.1016/j.memlet.2024.100084.[50] J.S. Mackie, P. Meares Katchalsky, The diffusion of electrolytes in a cationexchange resin membrane I.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ps://doi. org/10.1016/j.memlet.2024.100084.[50] J.S. Mackie, P. Meares Katchalsky, The diffusion of electrolytes in a cationexchange resin membrane I. Theoretical, Proc R Soc Lond A Math Phys Sci 232 (1955) 498–509, https://doi.org/10.1098/rspa.1955.0234.[51] R.B. Long, Liquid permeation through plastic films, Industrial and Engineering Chemistry Fundamentals 4 (1965) 445–451, https://doi.org/10.1021/ i160016a015.[52] J.S. Vrentas, J.L. Duda, H.C. Ling, Free-volume equations for polymer-penetrant diffusion, J Memb Sci 40 (1989) 101–107, https://doi.org/10.1016/s0376-7388 (00)80915-1.[53] R. Sujanani, L.E. Katz, D.R. Paul, B.D. Freeman, Aqueous ion partitioning in Nafion: applicability of Manning’s counter-ion condensation theory, J Memb Sci 638 (2021) 119687, https://doi.org/10.1016/j.memsci.2021.119687.[54] T.A. Zawodzinski, M. Neeman, L.O. Sillerud, S. Gottesfeld, Determination of water diffusion coefficients in perfluorosulfonate ionomeric membranes, J. Phys. Chem. 95 (2002) 6040–6044, https://doi.org/10.1021/j100168a060.[55] S. Tsushima, K. Teranishi, S. Hirai, Water diffusion measurement in fuel-cell SPE membrane by NMR, Energy 30 (2005) 235–245, https://doi.org/10.1016/j. energy.2004.04.013.[56] D.F. Stamatialis, N. Stafie, K. Buadu, M. Hempenius, M. Wessling, Observations on the permeation performance of solvent resistant nanofiltration membranes, J Memb Sci 279 (2006) 424–433, https://doi.org/10.1016/j.memsci.2005.12.033.[57] J.P. Robinson, E.S. Tarleton, C.R.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "esistant nanofiltration membranes, J Memb Sci 279 (2006) 424–433, https://doi.org/10.1016/j.memsci.2005.12.033.[57] J.P. Robinson, E.S. Tarleton, C.R. Millington, A. Nijmeijer, Solvent flux through dense polymeric nanofiltration membranes, J Memb Sci 230 (2004) 29–37, https://doi.org/10.1016/j.memsci.2003.10.027.[58] M. Inoue, E. Ismail, S. Samitsu, H. Kanoh, I. Ichinose, High hexane sorption capacity of loosely crosslinked PDMS rubbers at low temperatures: macromolecular and physicochemical elucidation for VOC recovery, Sep. Purif. Technol. 306 (2023) 122634, https://doi.org/10.1016/j.seppur.2022.122634.[59] H. Yang, Q.T. Nguyen, Y. Ding, Y. Long, Z. Ping, Investigation of poly(dimethyl siloxane) (PDMS)–solvent interactions by DSC, J Memb Sci 164 (2000) 37–43, https://doi.org/10.1016/s0376-7388(99)00187-8.[60] R. Sujanani, K.K. Reimund, K.L. Gleason, B.D. Freeman, Hydraulic permeationinduced water concentration gradients in ion exchange membranes, J Memb Sci 705 (2024) 122858, https://doi.org/10.1016/j.memsci.2024.122858.[61] S.J. Lue, W.W. Chen, S.Y. Wu, L.D. Wang, C.H. Kuo, Vapor permeation modeling of multi-component systems using a poly(dimethylsiloxane) membrane, J Memb Sci 311 (2008) 380–389, https://doi.org/10.1016/j.memsci.2008.01.001.[62] F. Heymes, P.M. Demoustier, F. Charbit, J.L. Fanlo, P. Moulin, Recovery of toluene from high temperature boiling absorbents by pervaporation, J Memb Sci 284 (2006) 145–154, https://doi.org/10.1016/j.memsci.2006.07.029.",
+    "citation": {
+      "authors": [
+        "Balogun A.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738825010440-main",
+      "title": "Independent experimental measurements of diffusion, sorption, and permeability support the solution-diffusion model of membrane transport",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  }
+]

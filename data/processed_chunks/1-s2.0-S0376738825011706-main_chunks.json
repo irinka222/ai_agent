@@ -1,0 +1,647 @@
+[
+  {
+    "content": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions Zhaohui Fei a, Beata Malczewska a,b, Swapnali Hazarika c\n\n, Xianshe Feng a,* a Department of Chemical Engineering, University of Waterloo, Waterloo, Ontario, N2L 3G1, Canadab Faculty of Environmental Engineering and Geodesy, Wroclaw University of Environmental and Life Sciences, Wroclaw, Polandc Chemical Engineering Group and Centre for Petroleum Research, CSIR-North East Institute of Science and Technology, Jorhat, 785006, Assam, India\n\nA R T I C L E I N F O Keywords:PerstractionFibroinChitosanMercury removalResistance-in-series model",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Mercury (Hg(II)) contamination of water poses a significant environmental threat due to its high toxicity and bioaccumulation. In this study, fibroin/chitosan blend membranes were developed for efficient removal of Hg(II) from aqueous solutions via perstraction using thiourea as a stripping agent at the downstream side to enhance Hg (II) removal. A resistance-in-series model was used to quantify and analyze the contributions of the individual resistance component in the overall mass transfer process. The research findings emphasized that while the membrane imparted a significant resistance to perstractive Hg(II) removal, the external mass transfer resistances (i.e., liquid phase boundary layer resistances, interfacial mass transfer resistance for Hg(II) release from the membrane at the downstream side) were also significant. The latter aspect was especially important when a thin membrane was used. While the liquid boundary effects could be reduced by proper management of the liquid phase hydrodynamics, the use of thiourea as a stripping agent was shown effective to facilitate Hg(II) release from the membrane, thereby minimizing the mass transfer resistance to Hg(II) perstraction at the downstream side of the membrane. This work offers a sustainable eco-friendly approach to valorization of renewable bio­polymers derived from biomass wastes for the treatment of Hg(II) containing wastewater.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Water scarcity has become a major constraint to sustainable devel­opment across the world [1], while water contaminations, such as those caused by heavy metals, have further intensified the pressure on limited freshwater resources. Wastewater containing heavy metals is generated from various industrial processes (e.g., electrolysis, battery manufacturing, electroplating, and metal smelting), posing significant risks to both human health and ecological systems [2]. Among various heavy metal pollutants, mercury has received particular attention due to its high toxicity and bioaccumulation, even at trace concentrations [3,4], and the World Health Organization has set a maximum permissible concentration of 6 μg/L in drinking water [5,6]. Technologies for removing mercury from wastewater include adsorption, coagulation, chemical precipitation, membrane separation, and electrochemical methods [7]. Among these approaches, sorption is widely applied due to its operational simplicity and high removal efficiency. However, when the sorbent became exhausted over time, regeneration or replacement of the sorbent is required, which not only represents additional operating costs but often produces secondary pollution [8]. Perstraction, a membrane-based separation technique, has emerged as an effective alternative to sorption.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "but often produces secondary pollution [8]. Perstraction, a membrane-based separation technique, has emerged as an effective alternative to sorption. It enables efficient separation and enrichment of pollutants through a membrane-mediated, selective mass transfer process, which is equivalent to a continuous sorption/desorp­tion process. As shown in Fig. 1, in a perstraction system, the target solute molecules in the feed selectively pass through the membrane and are transferred to the stripping phase. In general, nonporous polymer membranes with suitable solubility and/or diffusivity to the target molecules are used to selectively extract the solutes from the feed mixture [9,10]. Mass transfer is driven by the chemical potential dif­ference between the feed and the stripping phases. Compared to tradi­tional sorption methods, perstraction not only reduces the usage of sorbents but also improves separation efficiency as sorption (for contaminant removal from feed) and desorption (for contaminant release from membrane for regeneration) occur concurrently. Huang et al. [11] described a supported ionic liquid membrane (SILM)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This article is part of a special issue entitled: 50th Anniversary JMS published in Journal of Membrane Science. * Corresponding author.E-mail address: xfeng@uwaterloo.ca (X. Feng).\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 738 (2026) 124857",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 22 October 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). perstraction system for ethanol recovery from dilute aqueous solutions, using an ionic liquid (IL105) with a low viscosity and good sorption capacity for ethanol as the extractant. Cao et al. [10] investigated the removal of phenolic compounds (including phenol, 4-methylphenol, 4-nitrophenol, and 4-chlorophenol) from dilute solutions using an organophilic poly(ether-b-amide) (PEBA) membrane. Merlet et al. [12] performed perstraction to recover butanol from aceto­ne–butanol–ethanol (ABE) solutions using polydimethylsiloxane (PDMS) films with hydrophobic ionic liquids being used as extractants. However, to the best of our knowledge, studies on the treatment of heavy metal-contaminated wastewater via perstraction remain lacking. Although perstractive separation has been explored for various po­tential applications, existing studies predominantly focus on evaluating the overall separation performance based on such global quantity in­dicators as removal efficiency or permeation flux, while offering limited insight into the internal mass transfer steps involved.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "h global quantity in­dicators as removal efficiency or permeation flux, while offering limited insight into the internal mass transfer steps involved. Most current work rarely distinguishes the contributions of different steps to the overall mass-transfer resistance, and a quantitative analysis of individual pro­cess steps (e.g., membrane interfaces, intramembrane permeation, and liquid-phase boundary layer effects) is lacking. Moreover, the effects of operating parameters (e.g., feed concentration, membrane thickness, liquid phase hydrodynamics) on the relevant individual step resistances has yet to be fully elucidated. The resistance-in-series model has been widely used to analyze mass transfer behavior in membrane separation processes [13,14]. As illustrated in Fig. 2, the mass transfer in a typical liquid/membrane/liquid system may be considered to be the sum of five sequential steps: (1) diffusion of the solute from the bulk feed solution to the membrane/feed interface; (2) solute sorption/partitioning at the membrane surface; (3) diffusion of the solute through the membrane matrix; (4) desorption of the solute at the membrane interface, which may be facilitated via an appropriate extractant; and (5) diffusion of the solute from the membrane surface to the bulk extractant phase [15].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", which may be facilitated via an appropriate extractant; and (5) diffusion of the solute from the membrane surface to the bulk extractant phase [15]. By quantifying the mass transfer resistance associated with each step, the rate-limiting step of the overall process can be identified, thereby providing a theoretical basis for membrane design and process optimization. In recent years, with the advancement of green separation technol­ogies, there has been a growing demand for renewable and environ­mentally friendly membrane materials. Natural polymers have attracted increasing attention due to their abundant availability, biodegrad­ability, and environmental compatibility [16–19]. Among them, fibroin and chitosan are of particular interest owing to their excellent biocom­patibility and rich functional groups [20–22]. Fibroin may be extracted from discarded silkworm cocoons through simple chemical treatments, while chitosan is derived from the shells of crustaceans [23,24]. The use of these two materials for fabricating value-added membranes not only offers sustainability and eco-friendliness but also represents resource recovery from agricultural and aquacultural wastes. Fibroin and chito­san are rich in such functional groups as amino, carboxyl, and hydroxyl (as shown in Fig. S1), which exhibit strong complexation and sorption capabilities toward various heavy metals.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "roups as amino, carboxyl, and hydroxyl (as shown in Fig. S1), which exhibit strong complexation and sorption capabilities toward various heavy metals. Because of these characteris­tics, removal of heavy metal contaminants from water with fibroin/­chitosan blend membranes via perstraction is expected to be a niche application. In this study, perstraction was used for the removal of Hg(II) from wastewater. Silk fibroin/chitosan blend membranes were fabricated via blending and chemical crosslinking. Chitosan contributed to improved membrane flexibility, while silk fibroin enhanced structural stability in aqueous environments. Glutaraldehyde was used as a crosslinking agent to further improve membrane stability under acidic conditions. The perstraction performance of the blend membrane for Hg(II) removal was systematically evaluated. The resistance-in-series model was applied to analyze mass transfer characteristics in the liquid/membrane/liquid system, allowing for quantification of individual resistance contributors in the overall transport process. In addition, a mixture of thiourea and hydrochloric acid was employed as the stripping agent at the down­stream side to enhance perstractive removal of Hg(II) in order to facil­itate desorption of Hg(II) from the membrane, ultimately improving the overall separation performance. 2. Material and methods 2.1. Chemicals and materials Silk fibroin was obtained by degumming silkworm Bombyx mori co­coons.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "all separation performance. 2. Material and methods 2.1. Chemicals and materials Silk fibroin was obtained by degumming silkworm Bombyx mori co­coons. Sodium carbonate, lithium bromide, formic acid, and ethanol used for fibroin preparation were all purchased from Sigma-Aldrich. Chitosan flakes (Flonac N) (CAS No. 9012-76-4) were provided by Kyowa Techno Co., Japan. Glutaraldehyde, sodium hydroxide (NaOH), thiourea, hydrochloric acid (HCl), and mercuric chloride (HgCl2) used in the perstraction process were also obtained from Sigma-Aldrich. Deionized (DI) water was used in all experiments involving aqueous solutions. 2.2. Preparation of fibroin/chitosan blend membranes The membrane fabrication process was illustrated in Fig. 3. Fibroin was extracted from silkworm cocoons via chemical degumming and dissolution. Predetermined amounts of fibroin and chitosan were first dissolved in 98 % formic acid at a concentration of 2 wt% each. The solution was stirred at 30 ◦C for 24 h, followed by addition of 1 mL of 0.25 wt% glutaraldehyde aqueous solution, and the mixture was then stirred at 40 ◦C for 30 min. Glutaraldehyde was used as a crosslinking agent in order to enhance the membrane stability under acidic",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Schematic of perstraction for heavy metal removal.\n\nFig. 2. Schematic of the resistance-in-series model applied to membrane per­straction. The concentration profile is shown for purpose of illustration: CF is the bulk concentration in the feed solution, CF,S is the solute concentration at the interface between the feed solution and the membrane, CP is the bulk concentration in the stripping solution, and CP,S represents the solute concen­tration at the interface between the membrane and the stripping solution. Z. Fei et al. Journal of Membrane Science 738 (2026) 124857 environments. The fibroin/chitosan blend membrane was fabricated by casting the solution onto horizontally placed Petri dishes, followed by solvent evaporation. After air drying, the membranes were immersed into a 0.8 M NaOH solution in a 1:1 (v/v) water/ethanol mixed solvent for 10 min to convert the protonated amine groups (-NH3+) of chitosan into water-insoluble primary amines (-NH2). After thorough rinsing with water, the membranes were stored in deionized water for subsequent use. Membranes of various thicknesses were fabricated by adjusting the volume of the casting solution.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.3. Perstraction The experimental setup used for the perstraction study was shown in Fig. 4. It was comprised of a feed compartment containing the heavy metal solution and a receiving compartment filled with 2 L of either deionized water or a thiourea/hydrochloric acid solution at given con­centrations. The membrane was fitted between the two compartments, and the effective membrane area for perstraction was 11.34 cm2. Note that the membrane was not on a porous support to avoid potential interference of the porous support on the mass transfer. At time zero, 100 mL of mercuric chloride solution at a given concentration was charged to the feed compartment. Both sides were stirred continuously to minimize boundary layer effects. The permeation of Hg(II) through the membrane was monitored using inductively coupled plasma (ICP) spectroscopy (Teledyne Leeman Labs Prodigy) after acidification of the samples with 5 % nitric acid. All experiments were conducted at 25 ◦C.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Other operating parameters were listed in Table S1. The pseudo steady state solute permeation flux (J) across the membrane was quantified: J = (C0 -Ct) * VA * t(1) where C0 is the initial solute concentration in the feed, Ct is the solute concentration in the feed solution at time t, V is the volume of the feed solution, and A is the effective membrane area for perstraction. During the permeation process, the volumes of the liquids in the feed and receiver compartments were largely constant. It may be mentioned that the receptor volume was much greater than the feed volume in order to maintain a Hg concentration in the stripping side (receptor) much lower than that on the feed side. 2.4. Sorption and desorption analysis Sorption of Hg(II) into the membrane and desorption of the dissolved Hg(II) from the membrane were carried out. For sorption experiments, the membranes were immersed in 100 mL of HgCl2 solution at an initial concentration of 300 ppm (by mass) at 25 ◦C for 48 h to ensure sorption equilibrium. The concentration of Hg(II) before and after sorption in the liquid phase was determined using an ICP spectrometer. The equilib­rium sorption amount (qe, mg/g) was calculated using the following equation: qe = (C0 -Ce) * Vm(2) where C0 and Ce are the initial and equilibrium concentrations of Hg(II) in solution, respectively, V is the volume of the solution, and m is the dry weight of the membrane.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "initial and equilibrium concentrations of Hg(II) in solution, respectively, V is the volume of the solution, and m is the dry weight of the membrane. Each sorption experiment was conducted in at least triplicate, with the results being averaged. After sorption equilibrium was reached, the membrane sample was removed from the solution and blotted gently and quickly with a filter paper to remove excess liquid on the membrane surface. The membrane sample was then immersed into 100 mL of either deionized water or a thiourea/hydrochloric acid mixture of known concentrations. The desorption was carried out under different agitation conditions using a magnetic stirrer at different speeds. The concentration of Hg(II) des­orbed to the liquid solution was monitored at predetermined time in­tervals to determine the desorption kinetics. The calculation details of the desorption rate constant were provided in the Supporting Information. 2.5. Resistance-in-series model In the liquid/membrane/liquid perstraction system, the mass trans­port of Hg(II) was described by an overall mass transfer coefficient (KO) and an concentration gradient across the membrane as the driving force. Given that the amount of Hg(II) sorbed within the membrane was negligible compared to the total amount of the solute in the system, the variation of Hg(II) concentration in the feed solution could be used to estimate K0 based on the following mass balance equation [10]: -VdCF = KOA(CF -CP)dt(3) Fig. 3.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. Schematic setup of perstraction for heavy metal transport across the membrane. Z. Fei et al. Journal of Membrane Science 738 (2026) 124857 where V (L) is the volume of the feed solution, A (cm2) is the effective membrane area, CF (mg/L) is the instantaneous concentration of mer­cury on the feed side, and CP is the mercury concentration in the re­ceptor (which is much lower than CF because of the large receptor volume used compared to the feed volume, i.e., CP ≪ CF). Considering the initial condition CF––C0 at t = 0, the integrating Eqn (3) yields ln CF C0 = -AVKOt(4) Assuming that the solubility and diffusion coefficient of Hg(II) in the membrane are independent of its concentration, the overall mass transfer resistance (1/KO) at steady state mass transport can be expressed as the sum of the resistance components: 1KO = R1 + R2 + Rm + R3 + R4(5) where R1 and R4 represent the mass transfer resistances in the boundary layers on the feed and permeate sides, respectively; R2 and R3 corre­spond to the mass transfer resistances due to sorption at the feed/ membrane interface and desorption at the membrane–permeate inter­face, respectively. Rm denotes the resistance to Hg(II) permeation within the membrane, which is equal to the reverse permeance of the mem­brane (L/P).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ace, respectively. Rm denotes the resistance to Hg(II) permeation within the membrane, which is equal to the reverse permeance of the mem­brane (L/P). Then, Eqn (5) may be re-written as 1KO = LP + (R1 + R2 + R3 + R4)(6) Thus, under fixed external hydrodynamic conditions, plotting the overall mass transfer resistance 1/KO against membrane thickness L will yield a straight-line with a slope of (1/P) and an intercept of total external resistance. The detailed calculation methods for each resistance component were provided in the Supporting Information. Note that the actual hydrated thickness of the membrane was used in determining the resistance of the membrane to mass transfer, and the membrane permeability was also based on the actual membrane thickness. 3. Results and discussion 3.1. Perstraction of Hg(II) using water as the stripping phase To investigate the fundamental mass transfer behavior in the absence of a stripping agent on the permeate side, water was employed as the receiving liquid as well in the perstraction system for benchmark com­parisons. Fig. 5 shows the Hg(II) concentration in the feed compartment relative to its initial concentration over time at different agitation con­ditions. The sustained Hg(II) concentration gradient between the feed and stripping solutions, along with the inherent affinity of the fibroin/ chitosan blend membrane to Hg(II) [25,26], contributed to Hg(II) permeation through the membrane observed during the perstraction process.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "he fibroin/ chitosan blend membrane to Hg(II) [25,26], contributed to Hg(II) permeation through the membrane observed during the perstraction process. It was shown that the normalized concentration (CF/C0) vs. time at different initial Hg(II) concentrations all fell onto essentially a single line, suggesting a consistent mass transfer mechanism. A linear fitting of all the data points yielded a single profile with a high correlation (R2 =0.995), indicating that the overall mass transport kinetics was inde­pendent of the initial Hg(II) concentration. Nevertheless, a higher initial Hg(II) concentration provides a greater driving force for Hg(II) perme­ation through the membrane, leading to a higher permeation flux. The chitosan/fibroin blend membranes were found to be nonporous, and the solution-diffusion model was applied to the perstractive mass transfer through the membrane [27,28]. The solute HgCl2 molecules are considered to migrate through transient free volume elements formed by the segmental motion of polymer chains [29], and a macroscopic approach is typically employed to evaluating the overall mass transfer rate. In this context, the overall mass transfer resistance (1/KO) served as a key parameter, representing the combined effects of molecular diffu­sion, interfacial partitioning, and boundary layer resistances. In the present study, 1/KO was determined from the slope of the fitted line in Fig. 5.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "sion, interfacial partitioning, and boundary layer resistances. In the present study, 1/KO was determined from the slope of the fitted line in Fig. 5. To quantify the effects of membrane thickness on the perstractive mass transfer rate, additional perstraction experiments were carried out with membranes of different thicknesses, and the results were shown in Fig. 6. As expected, under given liquid agitation conditions on the two sides of the membrane, the total mass transfer resistance (1/KO) increased linearly with an increase in the membrane thickness, consis­tent with the resistance-in-series model. The slope of the fitted line in Fig. 5 corresponded to the inverse of the permeability coefficient (P), while the y-intercept represented the combined external mass transfer resistances, including the resistances due to boundary layer effects and interfacial partitioning effects (R1 + R2 + R3 + R4). At a low agitation on the downstream side (i.e., stirring speed 100 rpm), the total external Fig. 5. Hg(II) concentration in the feed solution vs time. For convenience, the Hg(II) concentration was plotted relative to its initial concentration, which showed that all the data fell onto essentially a single line. Membrane thickness (L) 0.29 mm; temperature 25 ◦C; downstream side stripping agent, deionized water (stirring speed 100 rpm).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Z. Fei et al. Journal of Membrane Science 738 (2026) 124857 mass transfer resistance was determined to be 1.1 * 105 s/m, indicating that non-membrane resistance was significant to the mass transport. Even for a rather thick membrane (e.g., 0.89 mm), the external resis­tance still accounted for about 42 % of the overall mass transfer resis­tance. These results underscored the importance of the liquid phase mass transfer outside the membrane (particularly on the downstream strip­ping side) to the overall mass transport [30], primarily due to liquid phase agitation being insufficient to make the hydrodynamic boundary layer near the membrane surfaces negligible. Previous work on perstraction with liquid membranes and mem­brane based solvent extraction also showed that the liquid boundary layer resistance could account for a substantial portion of the total mass transfer resistance and should not be neglected [31,32]. The boundary layer effect is an inherent occurrence that cannot be eliminated completely. Intensifying the liquid hydrodynamic conditions appeared to be a practical approach to reducing the boundary layer effects. As shown in Fig. S2, the overall mass transfer coefficient was increased with an increase in the agitation speed on the downstream stripping side.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ts. As shown in Fig. S2, the overall mass transfer coefficient was increased with an increase in the agitation speed on the downstream stripping side. However, further increasing the agitation speed beyond 800 rpm did not lead to additional improvement, suggesting that the downstream side liquid boundary layer effect became insignificant at such a high stirring speed (i.e., 800 rpm). Under these conditions, the total external mass transfer resistance decreased significantly to 0.62 * 105 s/m, indicating that the intensified convective mixing had effectively reduced the thickness of the liquid boundary layer. It was worth noting that the slopes of straight-lines in the plot of 1/KO vs membrane thickness remained constant (Fig. 6), indicating that the membrane permeability was essentially independent of the hydrodynamic conditions of the liquid phases. This was not unexpected in view of the intrinsic nature of the membrane, as permeability is governed primarily by the diffusivity and partitioning coefficients of the penetrant within the membrane matrix. Nevertheless, even with the substantial reduction in the boundary layer resistance on the downstream side, the non-membrane resistance still accounted for 31 % of the total mass transfer resistance in the case of the 0.89 mm-thick membrane. This highlighted the needs for exploiting additional effective strategies to minimize other resistance components within the perstraction system, which will be addressed below. 3.2.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "exploiting additional effective strategies to minimize other resistance components within the perstraction system, which will be addressed below. 3.2. Perstraction of Hg(II) using thiourea/HCl as the stripping agent The perstractive separation is derived from the strong affinity of the membrane matrix to Hg(II), and the membrane permselectivity is based mainly on solubility selectivity. The above results showed that in spite of the reduction in the boundary layer effects through intensified agitation of the liquid phases, a considerable portion of non-membrane mass transfer resistance remained. The strong affinity between the membrane and mercury hindered mercury desorption from the membrane once it reached to the downstream side of the membrane, affecting perstractive removal of mercury. To mitigate this limitation, a chemical stripping agent with a strong affinity due to complexation or other interactions was considered. It has been known that organosulfur compounds can bind mercury (II) strongly via coordination, which may be exploited to effectively strip Hg(II) off the membrane. Thiourea was chosen to serve as the stripping agent in this study because it is a small organosulfur molecule with a high sulfur density. Hg(II) is a soft acid, and thiourea is a soft base.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ipping agent in this study because it is a small organosulfur molecule with a high sulfur density. Hg(II) is a soft acid, and thiourea is a soft base. The strong interactions between thiourea and Hg(II) may be explained with the hard-soft acid-base theory, and the sulfur atoms in thiourea can readily coordinate with Hg(II) to forming complexes, thereby facilitating desorption of Hg(II) from the membrane [33,34]. Thiourea is a known extraction agent that can bind mercury in acidic chloride solutions, and this has been exploited to enhance mercury removal in this study by using thiourea in combination with HCl (mass ratio 1:1) as the stripping agent. To gain an insight into this aspect, Hg (II) desorption from mercury pre-loaded fibroin/chitosan blend mem­branes with the aid of thiourea/HCl was investigated.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7a shows the desorption kinetic behavior of Hg(II) from fibroin/ chitosan blend membranes. The membrane had a Hg(II) sorption uptake of 16.8 g/kg-polymer at a mercury concentration of 300 ppm in the feed, and this Hg-loaded membrane was used in the desorption experiments at various stripping agent concentrations. As expected, the concentration of thiourea affected Hg(II) desorption significantly. In the absence of thiourea/HCl (i.e., pure water), mercury desorption was rather slow and a significant portion of Hg(II) was retained in the membrane even after a prolonged duration, which was consistent with the strong affinity be­tween the membrane and Hg(II). With an increase in thiourea concen­tration, mercury desorption from the membrane improved significantly in terms of both desorption rate and the degree of mercury stripping. This may be attributed to the formation of soluble Hg(II)-thiourea complexes, which facilitates the release of Hg(II) from the membrane matrix. At a thiourea concentration of 0.04 M and above, an almost complete mercury desorption from the membrane could be achieved, and the Hg(II) desorption was accelerated further with an increase in thiourea concentration. To balance effective Hg(II) desorption and the membrane stability in acidic media, subsequent perstraction experi­ments were carried out at a thiourea concentration up to 0.06 M. To quantify the desorption kinetics, the desorption data was fitted to a pseudo-second order kinetic model (Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "thiourea concentration up to 0.06 M. To quantify the desorption kinetics, the desorption data was fitted to a pseudo-second order kinetic model (Fig. S3), and the desorption rate constant was plotted in Fig. 7b against thiourea concentration. Clearly, increasing the thiourea concentration increased Hg(II) desorption rate constant significantly; at thiourea/HCl of 0.06 M, a high desorption rate of 0.028 g/(mg.min) was achieved. This confirmed that thiourea was an effective stripping agent to remove Hg(II) from the membrane, which would help improve the mass transfer efficiency in perstraction when used to facilitate Hg(II) desorption on the downstream side. Fig. 7c il­lustrates the effects of agitation on Hg(II) desorption at different thio­urea concentrations. At 0.005 M thiourea, increasing the stirring speed from 100 to 800 rpm notably improved both the desorption rate and the quantity of Hg(II) removed; At 0.06 M, the desorption rate also increased with an increase in the stirring speed, while complete Hg(II) desorption was achieved eventually under either agitation conditions. Subsequently, thiourea was used as the stripping agent in the receiving compartment in the perstraction system, and a series of per­straction experiments was conducted using membranes of a fixed thickness to assess the impact of Hg(II) stripping from the membrane on the overall perstractive mass transfer performance.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "using membranes of a fixed thickness to assess the impact of Hg(II) stripping from the membrane on the overall perstractive mass transfer performance. It was found that the overall mass transfer coefficient increased with an increase in thiourea concentration and eventually leveled off when thiourea concentration was sufficiently high (Fig. S4). It was believed that Hg(II) was com­plexed quickly with thiourea upon entering the downstream side of the membrane when thiourea concentration was high enough, which helped maximize the concentration gradient of Hg(II) across the membrane and thus the driving force for mass transfer. To further investigate the effects of using thiourea as a Hg(II) strip­ping agent on the membrane transport behavior, the overall mass transfer resistance was analyzed as a function of membrane thickness at different thiourea concentrations. As shown in Fig. 8a, the overall mass transfer resistance maintained a linear relationship with membrane thickness when different concentrations of thiourea were used as the stripping agent. With an increase in thiourea concentration at the downstream side, the Y-intercept gradually decreased, indicating reduced downstream mass transfer resistance during mercury desorp­tion. As mentioned before, the strong complexation of Hg(II) with thiourea facilitated removal of Hg(II) from the membrane at the downstream side. This observation will be further elaborated later.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ion of Hg(II) with thiourea facilitated removal of Hg(II) from the membrane at the downstream side. This observation will be further elaborated later. The permeability coefficient of mercury through the fibroin/chitosan blend membrane was determined from the slopes of the straight lines in Fig. 8a, and the results were presented in Fig. 8b. As the thiourea/HCl concentration in the stripping solution increased from 0 (i.e., pure water) to 0.06 M, the mercury permeability coefficient experienced a moderate increase and then became constant at high thiourea concen­trations. Typically, the membrane permeability was expected to be",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Z. Fei et al. Journal of Membrane Science 738 (2026) 124857 independent of external parameters, as it was primarily governed by the intrinsic properties of the membrane. This observed moderate increase in Hg(II) permeability could be attributed to the enhanced solubility and diffusivity of mercury within the membrane phase due to facilitated release from the membrane at the downstream side by thiourea in the presence of hydrochloric acid [35–37]. Based on the solution-diffusion mechanism, the permeability coefficient is determined by the diffu­sivity (Dm) and partition (S) coefficients of the permeant in the mem­brane. As an approximation, P = Dm⋅S, and thus Dm could be estimated if the partition coefficient was known. The effects of enhanced stirring of thiourea solution at the down­stream side on the mass transfer performance were evaluated at two thiourea concentration levels (0.005 and 0.06 M), and the results were shown in Fig. 8c. Increasing the stirring speed to 800 rpm led to a markable reduction in the overall mass transfer resistance, similar to the trend observed before when water was used as the receiving agent. The straight lines in Fig. 8c had essentially the same slopes, suggesting that the external liquid hydrodynamic conditions had little impact on the intrinsic permeability of Hg(II) in the membrane. 3.3.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "me slopes, suggesting that the external liquid hydrodynamic conditions had little impact on the intrinsic permeability of Hg(II) in the membrane. 3.3. Effects of thiourea on reducing downstream mass transfer resistance To have a better understanding of the role of thiourea in facilitating Hg(II) mass transfer during the perstraction process, we looked into how varying thiourea concentrations influenced the external mass transfer resistance, particularly at the interface between the membrane and the receiving solution at the downstream side of the membrane. The downstream mass transfer resistance consisted of this interfacial mass transfer resistance for Hg(II) desorption from the membrane surface (R3) and the boundary layer resistance in the stripping liquid phase (R4). Due to the strong affinity of fibroin/chitosan to mercury, mercury desorption from the membrane was inherently hindered, making the interfacial mass transfer resistance R3 an important factor to the overall mass transfer. However, adding a small amount of thiourea in the receiving solution at the downstream side would significantly reduce the resis­tance to mass transfer at the downstream side, as shown in Fig. 9a. This indicated that chemical complexation between thiourea and mercury effectively facilitated the mercury release from the membrane surface, and the enhancement in mercury release became more pronounced at higher thiourea concentrations.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "itated the mercury release from the membrane surface, and the enhancement in mercury release became more pronounced at higher thiourea concentrations. The enhancement effects of thiourea on perstractive mass transfer performance was measured in terms of enhancement factor defined as the percentage increase in the overall mass transfer coefficient due to thiourea in comparison to the overall mass transfer coefficient at zero thiourea concentration (i.e., pure water). That is, Enhancement Factor (%) = (KO,thiourea/KO,water – 1) * 100 %. As shown in Fig. 9b, the enhancement factor increased significantly with an increase in thiourea concentration, and the enhancement became more remarkable for thinner membranes. This was easy to understand because of thinner membranes have lower intrinsic membrane resistances, making the external mass transfer resistances more significant on a relative scale. When the external resistances were reduced effectively by stripping with thiourea, the increase in the enhancement factor became more sub­stantial. Obviously, thin membranes are preferred for practical",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. (a) Desorption kinetics of Hg(II) from Hg(II) preloaded fibroin/chitosan blend membranes by thiourea solutions of varying concentrations (agitation speed 100 rpm); (b) Desorption rate constants as a function of thiourea concentration; (c) Comparison of desorption kinetics at a low (100 rpm) and high (800 rpm) agitation speeds at given thiourea concentrations (0.05 M and 0.06 M).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 8. (a) Effects of membrane thickness on the overall mass transfer resistance of Hg(II) at different thiourea concentrations at the downstream side (100 rpm); (b) Influence of thiourea concentration on the membrane permeability for perstraction of Hg(II); (c) Overall mass transfer resistance to Hg(II) perstraction vs membrane thickness at different thiourea concentrations (0.005 and 0.06 M) and agitations (100 rpm and 800 rpm) to illustrate the effects of stripping agent concentration and agitation conditions. Z. Fei et al. Journal of Membrane Science 738 (2026) 124857 applications provided that their mechanical stabilities are sufficient. However, for a given membrane thickness, a plateau in the enrichment factor was reached if the thiourea concentration was high enough that Hg(II) was quickly released from the membrane surface by thiourea complexation. 3.3.1. Resistance analysis To quantify the significance of individual resistance component in the overall mass transport process, Hg(II) perstraction data with two membranes of different thicknesses (0.29 and 0.59 mm) under identical operating conditions were analyzed, and the results were summarized in Table 1. The contribution of individual resistance component to the overall mass transfer resistance was shown in Fig. 10.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "results were summarized in Table 1. The contribution of individual resistance component to the overall mass transfer resistance was shown in Fig. 10. Between the boundary layer resistances (R1 and R4), the stripping side (R4) was more dominant at weak hydrodynamic mixing conditions (100 rpm), indi­cating that vigorous stirring on the downstream side was needed. The interfacial mass transfer resistance due to Hg(II) sorption onto the membrane (R2) was relatively low, reflecting the strong affinity of the membrane to bind mercury for effective removal of Hg(II) from the feed solution to the membrane phase. In contrast, the interfacial mass transfer resistance (R3) for Hg(II) desorption from the membrane to the receiving solution at the downstream side was notably higher, indicating that Hg(II), once sorbed in the membrane, was difficult to release. This reinforced the necessity of employing such strong stripping agents as thiourea to overcome this resistance and facilitate Hg(II) removal from the membrane to the receiving solution. For the purpose of resistance analysis, the membranes used were rather thick, and the membrane resistance (Rm) constituted the largest fraction of the total resistance, accounting for 36 % and 47 % for the two membranes (0.29 and 0.59 mm), respectively.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ce (Rm) constituted the largest fraction of the total resistance, accounting for 36 % and 47 % for the two membranes (0.29 and 0.59 mm), respectively. This also suggests that when a much thinner mem­brane is used for practical perstraction application, reducing the external mass transfer resistances will be increasingly important in order for the membrane to work out to its full potential. The external mass transfer resistance (R1+R2+R3+R4) was in prin­ciple independent of membrane thickness under given liquid hydrody­namic conditions. However, a slightly higher (ca. 17 %) value in (R1+R2+R3+R4) was observed with the thicker membrane. This devia­tion might be attributed to localized concentration polarization at the feed/membrane interface that was intensified by the strong capacity of Fig. 9. (a) Effects of thiourea concentration in the stripping solution on downstream mass transfer resistance (represented by 1/K3+1/K4); (b) Enhancement factor of Hg(II) transport across the membranes of different thicknesses at different thiourea concentrations.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 1 Individual mass transfer resistances in the perstraction system. Membrane thickness 1/K (105 s/ m) 1/K1 (105 s/ m)\n\nFig. 10. Distribution of mass transfer resistance for perstraction of Hg(II) using membranes with thicknesses of (a) 0.29 mm and (b) 0.59 mm, with deionized water as the stripping solution. The pie charts illustrate the relative contribu­tions of different resistance components.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Z. Fei et al. Journal of Membrane Science 738 (2026) 124857 the membrane to bind mercury, causing solute accumulation near the membrane surface that impeded effective transport from the bulk phase. 3.3.2. Correlation of hydrodynamics conditions with mass transfer performance in perstraction To facilitate implementation and process design, the influence of liquid hydrodynamic conditions on the overall mass transfer coefficient was further investigated. Instead of looking into the effects of stirring speeds on the feed and downstream sides, the hydrodynamic data were analyzed in terms of Reynolds number (Re), a dimensionless parameter that reflects fluid hydrodynamics suitable for general analysis and pro­cess scale-up. The Reynolds numbers on both the feed and stripping sides were estimated based on the experimentally determined steady-state mass transfer coefficients. Fig. 11 shows the overall mass transfer co­efficient as a function of Reynolds number on both the feed and down­stream sides of the membrane, highlighting the importance of liquid hydrodynamic conditions on Hg(II) perstraction performance. It should be noted that beyond a certain level of the Reynolds number, the overall mass transfer coefficient tended to approach a constant when the external mass transfer resistances became negligible, and in this case the membrane would be dominant to the mass transport.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "roach a constant when the external mass transfer resistances became negligible, and in this case the membrane would be dominant to the mass transport. These correlations would serve as a practical reference for predicting KO based on available process parameters, which was especially useful for process scaleup and performance prediction beyond laboratory conditions. 3.4. Effects of fibroin/chitosan blend ratio Fibroin and chitosan are renewable biopolymers derived from biomass wastes (i.e., silkworm cocoons and crustacean shells, respec­tively). While chitosan (derived from chemical deacetylation of chitin) is favorable for its excellent film-forming properties and functional versatility, fibroin valorization bears less impact to the environment due to its easy extraction. From a material science point of view, it would be of interest to evaluate the membranes with different fibroin/chitosan blend ratios for Hg(II) perstraction. However, it was found that when the fibroin content exceeded approximately 70 % (e.g., fibroin/chitosan mass ratios of 80:20, 90:10, 100:0), the resulting membranes displayed poor mechanical integrity, and frequent breakage occurred during membrane fabrication (Fig. S5). Consequently, perstraction experiments were conducted only for membranes with a fibroin/chitosan ratio of 70:30, 60:40, and 50:50.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rication (Fig. S5). Consequently, perstraction experiments were conducted only for membranes with a fibroin/chitosan ratio of 70:30, 60:40, and 50:50. Interestingly, the perstraction performance of these three membranes was found to be quite similar in terms of overall mass transfer resistance, as shown in Fig. 12. Chitosan has a higher density of amino and hydroxyl groups, and it generally has a strong affinity to heavy metals. On the other hand, increasing fibroin content in the blend membrane will help constrain membrane swelling in aqueous solutions. While membrane swelling favors penetrant permeability, the membrane permeance may be compromised if the enhanced permeability coefficient is insufficient to compensate the increased length of passageway for penetrant permeation. The enhanced stability of fibroin-containing membranes against water could be attributed to the unique molecular structure of fibroin, which has a highly ordered and compact arrangement that imparts good mechanical strength and dimensional stability to the membrane matrix [38]. The strong inter­molecular hydrogen bonding and hydrophobic interactions among fibroin chains help reduce membrane swelling and dimensional change in aqueous solutions [39–41]. It should be mentioned that HgCl2 dissolved in water stays largely as molecules since it is a covalent compound that does not dissociate readily into ions in water.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "entioned that HgCl2 dissolved in water stays largely as molecules since it is a covalent compound that does not dissociate readily into ions in water. While Hg(II) sorption into the membrane is considered to occur via molecular complexation, more fundamental studies are needed to look into the sorption mechanism, which is beyond the scope of the present study that focused on the perstractive removal of Hg(II) from water. In addition, potential regeneration of the thiourea/ Hg complex formed in the stripping solution, which was not addressed in this study, is also an important consideration. Because of the low Hg concentration (typically ppm levels) in the feed, the thiourea con­sumption is unlikely to be a significant economic factor as thiourea is an inexpensive chemical available readily. However, if deemed necessary, regeneration of thiourea from the mercury(II) chloride-thiourea com­plexes may be done via decomplexation by, for example, displacing the",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 11. Effects of (a) downstream and (b) upstream Reynolds number on the overall mass transfer coefficient during perstraction. Conditions: L = 0.29 mm, temperature 25 ◦C, stripping agent thiourea concentration 0.06 M.\n\nFig. 12. Hg(II) depletion in the feed solution during perstraction using fibroin/ chitosan blend membranes with different blend ratios. Deionized water was used as the stripping solution in the experiments.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Z. Fei et al. Journal of Membrane Science 738 (2026) 124857 thiourea ligand with a stronger complexing agent (e.g., hydrogen sul­fide, or sodium sulfide). 4. Conclusions Fibroin/chitosan blend membranes were fabricated for perstractive removal of Hg(II) from water. It was found that thiourea was an effective stripping agent to remove Hg(II) from the membrane at the downstream side, significantly reducing the downstream mass transfer resistance. The contributions of individual resistance components to the overall mass transfer resistance were analyzed. It was found that while the in­ternal mass transfer within the membrane was a major barrier to the perstraction of Hg(II) from water, the externals mass transfer resistances (i.e., liquid phase boundary layer resistances, interfacial mass transfer resistance for Hg(II) release from the membrane at the downstream side) were also significant. The latter aspect was especially important when a thin membrane was used. As fibroin and chitosan are renewable bio­polymers derived from silkworm cocoons and crustacean shells, respectively, the blend membranes for Hg(II) perstraction represent a sustainable eco-friendly approach to valorization of biomass wastes for treatment of wastewater containing Hg(II), a highly toxic and bio­accumulative heavy metal contaminant. CRediT authorship contribution statement Zhaohui Fei: Writing – original draft, Investigation, Formal analysis, Data curation.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "eavy metal contaminant. CRediT authorship contribution statement Zhaohui Fei: Writing – original draft, Investigation, Formal analysis, Data curation. Beata Malczewska: Writing – review & editing, Inves­tigation, Formal analysis. Swapnali Hazarika: Writing – review & editing, Investigation, Formal analysis. Xianshe Feng: Writing – review & editing, Supervision, Project administration, Methodology, Formal analysis, Conceptualization. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments Research support from the Natural Sciences and Engineering Research Council (NSERC) of Canada and the India-Canada Centre for Innovative Multidisciplinary Partnerships to Accelerate Community Transformation and Sustainability (IC-IMPACTS) is acknowledged. We would also like to thank Profs. Andrew Zydney, Young Moo Lee and Matthias Wessling for invitation to contribute to the Special Issue of the Journal commemorating its 50th anniversary. Appendix A. Supplementary data Supplementary data to this article can be found online at https://doi. org/10.1016/j.memsci.2025.124857.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "h anniversary. Appendix A. Supplementary data Supplementary data to this article can be found online at https://doi. org/10.1016/j.memsci.2025.124857. Nomenclature AEffective membrane area, m2C0Initial feed concentration, mol/LCeSolute concentration at sorption equilibrium, mol/LCFBulk feed concentration, mol/LCF,SSolute concentration at membrane upstream surface, mol/LCPBulk solute concentration in stripping liquid, mol/LCP,SSolute concentration at membrane downstream surface, mol/ LCtSolute concentration in feed solution at time t, mol/LDmDiffusivity coefficient in membrane, m2/sJMercury permeation flux, mol/(m2.s)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[21] D. Xu, S. Hein, K. Wang, Chitosan membrane in separation applications, Mater. Sci. Technol. 24 (9) (2008) 1076–1087.[22] A.K. Azad, N. Sermsintham, S. Chandrkrachang, W.F. Stevens, Chitosan membrane as a wound-healing dressing: characterization and clinical application, J. Biomed. Mater. Res. B Appl. Biomater. 69 (2) (2004) 216–222.[23] Z. Wang, H. Yang, W. Li, C. Li, Effect of silk degumming on the structure and properties of silk fibroin, J. Text. Inst. 110 (1) (2019) 134–140.[24] J.B. Dima, C. Sequeiros, N. Zaritzky, Chitosan from Marine Crustaceans: Production, Characterization and Applications, Biological Activities and Application of Marine Polysaccharides, 2017, pp. 39–56.[25] S. Rastogi, B. Kandasubramanian, Progressive trends in heavy metal ions and dyes adsorption using silk fibroin composites, Environ. Sci. Pollut. Control Ser. 27 (1) (2020) 210–237.[26] J. Wang, S. Zhuang, Removal of various pollutants from water and wastewater by modified chitosan adsorbents, Crit. Rev. Environ. Sci. Technol. 47 (23) (2017) 2331–2386.[27] J.H. Sandoval-S´anchez, R. Ramos-Zú˜niga, S. Luquín de Anda, F. L´opez-Dellamary, R. Gonzalez-Casta˜neda, J.D.l.C. Ramírez-Jaimes, G. Jorge-Espinoza, A new bilayer chitosan scaffolding as a dural substitute: experimental evaluation, World Neurosurg. 77 (3) (2012) 577–582.[28] S. Yao, Y. Xie, L. Xiao, L. Cai, Z. Ma, Porous and nonporous silk fibroin (SF) membranes wrapping for achilles tendon (AT) repair: which one is a better choice? J.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e, L. Xiao, L. Cai, Z. Ma, Porous and nonporous silk fibroin (SF) membranes wrapping for achilles tendon (AT) repair: which one is a better choice? J. Biomed. Mater. Res. B Appl. Biomater. 107 (3) (2019) 733–740.[29] R.W. Baker, Membrane Technology and Applications, John Wiley & Sons, 2023.[30] P.R. Brookes, A.G. Livingston, Aqueous-aqueous extraction of organic pollutants through tubular silicone rubber membranes, J. Membr. Sci. 104 (1–2) (1995) 119–137.[31] ˇS. Schlosser, I. Rothov´a, H. Frianov´a, Hollow-fibre pertractor with bulk liquid membrane, J. Membr. Sci. 80 (1) (1993) 99–106.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[32] ˇS. Schlosser, E. Sabolov´a, R. Kert´esz, L. Kubiˇsov´a, Factors influencing transport through liquid membranes and membrane based solvent extraction, J. Separ. Sci. 24 (7) (2001) 509–518.[33] C. El Khoueiry, F. Giusti, E. Lelong, G. Arrachart, B. Nsouli, I. Karame, S. PelletRostaing, Thiourea adsorbent for efficient removal of mercury (II), ChemistrySelect 8 (44) (2023) e202303015.[34] A.M. Donia, A.A. Atia, A.M. Heniesh, Efficient removal of Hg(II) using magnetic chelating resin derived from copolymerization of bisthiourea/thiourea/ glutaraldehyde, Sep. Purif. Technol. 60 (1) (2008) 46–53.[35] J. Ostrowska-Czubenko, M. Gierszewska, M. Pier´og, pH-responsive hydrogel membranes based on modified chitosan: water transport and kinetics of swelling, J. Polym. Res. 22 (8) (2015) 153.[36] H. Matsuyama, H. Shiraishi, Y. Kitamura, Effect of membrane preparation conditions on solute permeability in chitosan membrane, J. Appl. Polym. Sci. 73 [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] (1999) 2715–2725.[37] N.D. Aljbour, M.D.H. Beg, J. Gimbun, Acid hydrolysis of chitosan to oligomers using hydrochloric acid, Chem. Eng. Technol. 42 (9) (2019) 1741–1746.[38] N. Drnovˇsek, R. Kocen, A. Gantar, M. Drobniˇc-Koˇsorok, A. Leonardi, I. Kriˇzaj, A. Reˇcnik, S. Novak, Size of silk fibroin β-sheet domains affected by Ca2+, J. Mater. Chem. B 4 (40) (2016) 6597–6608.[39] X. Li, G. Deng, L. Ma, X.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A. Reˇcnik, S. Novak, Size of silk fibroin β-sheet domains affected by Ca2+, J. Mater. Chem. B 4 (40) (2016) 6597–6608.[39] X. Li, G. Deng, L. Ma, X. Lu, Interchain overlap affects formation of silk fibroin secondary structures on hydrophobic polystyrene surface detected via achiral/ chiral sum frequency generation, Langmuir 34 (32) (2018) 9453–9459.[40] D. Tian, T. Li, R. Zhang, Q. Wu, T. Chen, P. Sun, A. Ramamoorthy, Conformations and intermolecular interactions in cellulose/silk fibroin blend films: a solid-state NMR perspective, J. Phys. Chem. B 121 (25) (2017) 6108–6116.[41] S. Shang, L. Zhu, J. Fan, Intermolecular interactions between natural polysaccharides and silk fibroin protein, Carbohydr. Polym. 93 (2) (2013) 561–573.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011706-main",
+      "title": "Fibroin/chitosan blend membranes for perstractive removal of Hg(II) from aqueous solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "content": "Introduction\n\nIon transport has a crucial role in water purification and desalination, membrane separation processes, Chlor-alkali industry, electrodialysis (ED), fuel cells and batteries, to name the most common applications [1–3]. ED is a well-proven electrochemical separation method for water treatment by using ion-selective membranes and electric current [4]. ED has also contributed to other fields, which cannot be ignored, including industrial waste treatment [5], chemical process industries, food industries [6,7], pharmaceutical industries [7], galvanic industries [8], and salt production from seawater [9,10]. The essential aspects in this field have been summarised by, e.g. Tanaka [11]. With the recent development of membranes, it can be anticipated that applications of membrane processes are going to become increasingly important. This is one reason for the intensive research to solve the critical aspects of this process.\n\nTo understand the charge transfer in the membranes as a function of current density, a suitable mathematical approach is required [12–18]. Simulation work on membranes has drawn attention of the researchers for decades. Nowadays, mathematical modelling is a complementary approach to verify the exact mechanism of mass transfer across the membranes.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Introduction",
+      "pages": [1,2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The most rigorous approach to transport is via thermodynamics of irreversible processes that takes explicitly into account the coupling of component fluxes [19]. Yet, the number of unknown parameters makes applying it rather unpractical. Therefore, the almost exclusively applied approach to ionic transport is the Nernst-Planck equation that formally ignores the coupling of fluxes, but via the electroneutrality condition and the definition of electric current, the coupling remains very strong [20–23]. Coupling of electroosmosis with ionic fluxes can formally be taken into account via a convective term that must be separately determined [24]. Regardless of its apparent simplicity, the Nernst-Planck equation is not solvable in closed form in a charged membrane because of the fixed charge of the membrane that leads to transcendental equations already in the simplest cases, i.e. homogeneous membrane charge, binary system, 1D geometry.\n\nThe theory of ion transport has naturally been subject to various studies and books [25–27]. A detailed review of the various ion transport theories inside the membranes was already published by Buck in 1983 [28].",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Concerning electrodialysis of strong electrolytes, Bouzek et al. [29,30] investigated ion transport in the membrane with and without convection in their models. They presented the transfer of Na+, OH-, and Cl- in the membrane in the current density range of 0 to 250 mA cm-2 for a very high concentration of the electrolytes. They discussed the performance of an ion exchange membrane (IEM) under different conditions with the effect of the diffusion boundary layers on ion transfer. Moon et al. [31,32] studied ion transfer in a continuous and batch mode electrodialysis (ED) process with 1D and 2D models. In 2D, they clarified the effect of the flow rate and the current density on ionic concentrations in the membrane and the electrolyte compartments. Fidaleo and Moresi [33] and Tanaka [32] have also modeled mass transfer and limiting current density in continuous ED of NaCl [33] or seawater [32]. In the previous simulations [33], the maximum product concentration reached ca. 1.7 mol dm-3, which can be utilized in scaling up from a lab-scale or pilot scale to an industrial-scale.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Introduction",
+      "pages": [2,3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The transport of weak electrolytes poses an extra degree of difficulty because, in the presence of concentration gradients, dissociation equilibria shift along the concentration profile. The fluxes of weak electrolyte ions are consequently no more spatially constant, and ionic constituent fluxes must be considered instead. The transport of phosphoric and carbonic acid [34], carbonates [35] and phosphates [36] has been studied both theoretically and experimentally, taking dissociation equilibria into account. Concerning the sulfate-bisulfate system that is also our interest, rather confusing results are reported in the literature. Pourcelly et al. [37] explored the leakage of protons through anion exchange membranes (AEMs) in-depth in HCl and H2SO4 systems. They suggested that although bisulfate balances the membrane charge, it does not carry the charge across an AEM but sulfate is the main charge carrier. Koter et. al [38] also studied the transport of H2SO4 through different AEMs in the presence of electric current. The results were found in accordance with Pourcelly et al. [32,34].",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Introduction",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Ionic mobilities in ion exchangers is yet another issue that complicates the analysis of transport. Kamcev et al. [39] calculated the mobilities of ionic species across the IEMs from experimental ion sorption, salt permeability, and the ionic conductivity data. They concluded that counter-ions can exist either as a 'condensed' phase, i.e. tightly bound to the fixed charges of the membrane, between which they move with a hopping mechanism, or as a 'free' phase where ions move with Brownian motion in the interstitial space. As a consequence, the apparent mobility of counter-ions in the condensed phase was 2-2.5 fold to that in the free aqueous phase of the membrane, whereas the mobility of co-ions was predicted equivalent to its aqueous value. [39]\n\nPurely geometrical effects have also an effect on the mobility. In narrow pores found in ion-exchange membranes, Brownian motion is hindered, which can be taken into account via the Renkin correction [40]. For example, with the solute to pore radii ratio of 0.4 (the upper limit of the Renkin correction validity), the effective diffusion coefficient is only 10% of its value in a solution.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Introduction",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The fast development of the computational power of personal computers has made numerical solutions of all kinds of scientific problems accessible to researchers without the need to resort to mainframe computers and software. Also, in modern software no actual coding is any more needed, but a user can define the problem with an interactive graphical interface; certain knowledge of physics and chemistry is of course needed to be able to set-up a problem. COMSOL Multiphysics® that is based on the Finite Element Method (FEM) is a fine example of such a software. Using COMSOL Multiphysics®, we have solved the problem of multi-ionic electrodiffusion in charged membranes in 1D, taking into account all above mentioned issues, and compared simulations to experimental results. The objective of this work is to understand the relative proportions of the different transport mechanisms of ions in ion-exchange membranes as a function of the bathing solution concentrations, the amount of fixed membrane charge and electric current density.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Introduction",
+      "pages": [3,4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Two different systems are studied: (i) a cation exchange membrane flanked between Na2SO4 and NaOH solutions, and (ii) an anion exchange membrane flanked between Na2SO4 and H2SO4 solutions. The proportions of each ionic species in carrying electric current are evaluated, as described below. The reason for choosing these particular systems is an effort to convert waste Na2SO4 to acid and base via electrodialysis using bipolar membranes. A particular focus is to identify the charge carrying species in an anion exchange membrane soaked in sulfuric acid solutions.\n\nTheory\n\nIon transport is described with the Nernst-Plank equation that reads\nj_k = j_k,diffusion + j_k,migration + j_k,convection = -D_k ∇c_k - D_k z_k f c_k ∇φ + v c_k; f = F/RT (1)\nwhere j_k is the flux density (mol/cm²s), D_k is the diffusion coefficient of ion 'k', z_k its valence and c_k its molar concentration, and v is convection velocity; φ is the Galvani potential of the solution ('electrolyte potential' in COMSOL).",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Theory",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In the membrane, counter-ions, i.e. ions with the opposite sign to that of the membrane charge are the main charge carriers via migration, while the co-ions with the like charge are minor charge carriers, moving mainly by diffusion in the interstitial space between the fixed charges [25]. The electroneutrality in the membrane is maintained by the fixed-charge sites as well as the counter-ions and co-ions in the membrane: Σ_k z_k c_k + z_M c_M = 0 (2) where z_M and c_M are the valence of the fixed charge group and their amount expressed as molar concentration, respectively. The current density (I) is defined as: I/F = Σ_i z_i j_i (3).\n\nIn systems including sulfuric acid, the dissociation equilibrium between bisulfate and sulfate is also taken into account. The first dissociation is always complete: H2SO4 → H+ + HSO4- (4). The dissociation of bisulfate HSO4- ⇌ H+ + SO4^2- (5) has the pKa value of ca. 2. As pH can vary significantly across the membrane, also the ionic product of water needs to be taken into account: K_w = [H+][OH-] (6).",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Theory",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In the case of weak electrolytes, ionic fluxes are necessarily not constant due to dissociation equilibria. Therefore, ionic constituents need to be considered instead, here, the hydrogen and sulfate constituents: J_H = j_H+ + j_HSO4- ; J_S = j_HSO4- + j_SO4^2- (7). Simulations show that the constituent fluxes are, indeed, constant, and it is possible to express the electric current density with the constituent fluxes. The integral transport number (current efficiency) is calculated as T_k = (z_k F j_k)/I (8) or in terms of the constituent fluxes (see Results). It should be noted that ionic fluxes consist of diffusion and migration and, therefore, T_k cannot be considered as the pure migration transport number.\n\nThe dissociation constant of reaction (5) has the thermodynamic pKa of ca. 2, i.e. it is expressed in terms of activities, not concentrations. In transport equations, however, concentrations are considered. Therefore, we have to correct for the thermodynamic dissociation constant with the activity coefficients.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Theory",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fortunately, this issue has already been discussed in literature [41,42], and we are able to write down the concentration equilibrium constant, using the data of ref. [41], as K_c = [H+][SO4^2-]/[HSO4-] = K_a (γ_HSO4-)/(γ_SO4^2- γ_H+) (9). As anticipated, K_c depends on the concentration of sulfuric acid. For example, in 0.5 M sulfuric acid, K_c ≈0.24 M, hence 24-fold to K_a. In Supporting Information, the dependence of K_c on the acid concentration is presented, as well as the concentrations of the ions.\n\nThere still remains a couple of issues to be considered: First, the value of K_c within a membrane is probably different from that in an aqueous solution due to the existence of fixed charge groups. We present these calculations in Supporting Information; we chose K_c = 0.25 M in the membrane. Second, during electrolysis, concentration polarization takes place at the membrane-solution interface so that, strictly speaking, K_c varies also in the flanking aqueous solutions. Taking into account concentration polarization would require an iterative process that is not easily doable in COMSOL.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Theory",
+      "pages": [4,5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In this work, however, concentration polarization is quite moderate and we calculated that in the worst case – lowest concentration, highest current density – the deviation of K_c from the given parameter value is only ca. 5%. Hence, we ignored this issue.\n\nIn COMSOL, the Donnan equilibrium can be chosen by activating this option in the menu defining the ion-exchange membrane properties. Alternatively, the Poisson-Boltzmann equation can be solved assigning fixed charge density in the membrane; we checked that both options gave identical results. The membrane phase is assumed homogeneous, i.e. the porosity of the membrane or its microstructure are not seen in the Donnan equilibrium, and it is assumed to be aqueous because no chemical partition coefficient, i.e. difference in the standard chemical potentials between the aqueous and membrane phases exists in the expression of the Donnan potential: Δφ_D = (RT/(z_k F)) ln(c_k^w / c_k) ⇔ c_k = c_k^w e^{-z_k f Δφ_D} (10).",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Theory",
+      "pages": [5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In the above equation that applies to all ions in the system separately, c_k is the concentration of ion k in the aqueous (w) and membrane phases, respectively, and z_k is its charge. The Donnan potential is calculated from the electroneutrality condition, Eq. (2), and it applies also when current is flowing. Flux continuity in the entire simulation domain is assumed, if not specifically otherwise defined. Hence, Neumann condition is valid at the solution-membrane boundaries. The advantage of Comsol simulations is that no explicit definitions of the boundary conditions are needed from a user, just selecting appropriate ones from menus.\n\nExperiments\n\nA single electrodialysis cell (Micro Flow Cell, Electrocell, Denmark) is assembled either with two AEMs and one CEMs or two CEMs and one AEM, as well as Pt coated Ti anode and cathode, Figure 1. The active membrane and electrode area is 10 cm² and the membrane spacing is 3 mm. The CEM and AEM characteristics are given in Table 1.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Experiments",
+      "pages": [5,6]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The flow rate was 100 mL/min for each liquid channel (width 3 mm) and was controlled by peristaltic pumps (Watson Marlow 323). Sodium sulfate (Fluka, purity >99.0%. (Germany)), sulfuric acid (Merck KGaA with MQ 100 (Germany)), NaOH (Merck KGaA pellets p.a. grade EMSURE® (Germany)) are used as received. The concentrations of dialysate compartment is varied from 0.1 M to 0.5 M in CEMs and AEMs experiments, as shown in Tables 2 and 3. The purpose of experiments 1-3 in Table 3 is to identify the mobile species inside the AEM. Conductivities of permeate solutions are measured by WTW TetraCon 925 conductometer. Conductivities are then converted to concentrations with the data from CRC Handbook of Chemistry and Physics [44]. The concentration of feed and products are also verified by titration with Titrette® 25mL class A precision.\n\nThe theoretical rate of the permeate concentration increase was calculated from: Δn_k/Δt = Δ(V c_k)/Δt = T_k I / (z_k F) (11) where V is the volume of the permeate, c_k the concentration of the permeate, T_k the integral transport number, and z_k the valence of permeating ion (H+ or OH-); I is the current crossing the membrane and F the Faraday constant.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Experiments",
+      "pages": [6]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Simulations\n\nThe cell is divided into three simulation domains. The center domain represents the ion selective membrane. The domain on the left is the salt or dialysate compartment. Third domain on the right is for either for base or acid, named as the permeate or acid and base compartment where the ion concentration increases during the electrodialysis Fig. 1. The dialysate domain is fed with electrolyte consisting of 0.5 M Na2SO4, whereas the concentration and the electrolyte of the permeate compartment is varied.\n\nThe following assumptions are made in the simulations: (a) a stationary state; (b) Donnan equilibrium between the membrane and the bathing electrolyte solutions; (c) homogeneous membranes in terms of its charge density and porosity; (d) no convection. The model is solved increasing the membrane fixed charge gradually to facilitate the convergence of the simulation, with varying values of current density and concentrations. The direction of current is set from right to left, Fig. 1.\n\nSimulations are carried out with COMSOL Multiphysics® 5.6 software applying Tertiary Current Distribution physics.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Simulations",
+      "pages": [6]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The free variables are the ionic concentrations and the electrolyte potential; one of the ions is solved from the electroneutrality condition. The dissociation of bisulfate is taken into account with a reaction term in the transport equations. At steady state, ∂c_i/∂t = D_i [∇²c_i + z_k f ∇c_k·∇φ] ± R = 0, R = k_d c_3 - k_a c_2 c_4; i=2,3,4 (12) where c_2 = [proton], c_3 = [bisulfate] and c_4 = [sulfate]; plus sign for proton and sulfate and minus sign for bisulfate; species 1 is Na+ that does not participate in the reaction. The reaction is brought at equilibrium by assuming an arbitrarily high value for k_d = 100 s⁻¹ and then k_a = k_d/K_c. In calculating the boundary concentrations, this equilibrium is naturally included. It must be emphasized that the calculation of three transport equations with the reaction term is quite challenging, while in Comsol it does not pose a problem.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Simulations",
+      "pages": [6]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "All the initial values including physical and chemical properties of the feed solutions as well as geometric characteristics of the membrane are imported from the experimental laboratory setup. All the diffusion coefficients, electrolyte volume fraction and electrolyte tortuosity values are taken from the reported literature [45–47], Table 4. Note that the diffusion coefficients are those in an aqueous solution at infinite dilution, which will be discussed later on. Membrane charge was varied in order to see its effect on transport characteristics. The thickness of the diffusion boundary was estimated from similar system in the literature [48,49] these calculations are presented in Supporting Information.\n\nMeshing is a crucial issue in FEM. Mesh points were inserted in the form of a geometric series (element ratio 25) with the smallest elements close to phase boundaries. The total number of mesh elements was 250. The default solver, Direct PARDISO was used to solve the problem.\n\nResult and discussion\n\nIn this section we describe the results of the COMSOL simulations and discuss them in the light of experimental results.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Result and discussion",
+      "pages": [6,7]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "During the simulations, the concentrations of the electrolytes are fixed at the limits of the simulation domain. The electrolyte potential is fixed to zero at the left limit, and current density is defined at the right limit, hence we simulate a galvanostatic experiment. Since the model is 1D, the current density is continuous across the entire system. The amount of fixed charge in the membrane, the electrolyte concentration at the limit of the permeate compartment (right limit) and the current density are systematically varied in the simulations. Nernst-Planck equation is solved under the electroneutrality condition. As a result, the concentration profiles and fluxes of all species, as well as the electrolyte potential profile are obtained. Furthermore, ionic fluxes are split to diffusion, migration and convection contributions; the last contribution is zero in our simulations. The continuity of the fluxes and electric current at the membrane-solution interfaces are implicitly taken care of. At these interfaces, the Donnan potential boundary condition is applied, which is seen as an abrupt jump of ionic concentrations.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Result and discussion",
+      "pages": [7]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The values of the ionic diffusion coefficients within an ion-exchange membrane are known to be lower than in the free aqueous solutions, as we discussed above. In the very rigorous paper by Bui et al. [50], explicit formulae are given to calculate diffusion coefficients in an ion-exchange membrane; we estimated that they were ca. 60% lower than in an aqueous solution. The disadvantage is that their model does not account for the membrane charge and do not discern counter-ions from co-ions. The model by Kamcev [39] lowers the diffusion coefficients by ca. 90%, and it also addresses the membrane charge as well as counter-ions and co-ions. But both these models concern a binary system with strong electrolytes. Therefore, their use in our systems with a weak electrolyte is not straightforward.\n\nWe made several diffusion experiments that will be published later because, for example, the question of how to interpret the electrolyte diffusion coefficient in terms of three species, proton, bisulfate and sulfate is unclear.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Result and discussion",
+      "pages": [7]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Yet, we found, in accordance of Kamcev et al. [39], that the salt diffusion coefficients were ca. 10% of their aqueous values. Hence, all the simulations were done with the values of diffusion coefficients of 10% of their aqueous values in Table 4, except 60% for proton, to account for its high mobility.\n\nCEM simulations\n\nAs mentioned in Introduction, simulations with a cation exchange membrane were carried out in the system where the dialysate compartment was initially a 0.5 M Na2SO4 solution and the permeate compartment NaOH at variable concentrations. The system thus contains three ionic species, Na+, OH- and SO4^2-. The thickness of the diffusion boundary layers flanking the membrane are set to 50 µm (Table 4). The concentrations at their outer boundaries are kept constant. Fig. 2a shows the concentration profiles of all species throughout the cell. The concentration is decreased in the dialysate compartment and increased in permeate compartments due to concentration polarization, which comes from the ion-selectivity of the membrane, i.e. enhanced rate of the counter-ions transport in the membrane.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "CEM simulations",
+      "pages": [7]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The high concentration of the counter-ions in the membrane is naturally due to the Donnan equilibrium. The non-zero concentrations of co-ions in the membrane reflect the Donnan failure and, thus, the leakage of OH- through a CEM Fig. 2 a); sulfate anions are expelled almost completely from the membrane. Fig. 2b shows the diffusion and migration contributions of the Na+ flux. The total flux is ca. 7.4×10⁻⁷ mol cm⁻² s⁻¹ that corresponds to ca. 70 mA cm⁻². Since the total current density was 100 mA cm⁻², the OH- flux is ca. 30 mA cm⁻². Hence, the current efficiency of Na+ is ca. 70%, which is quite plausible at this high electrolyte concentrations. As can be anticipated, in the membrane, the Na+ flux is almost entirely migrational although it has a concentration difference of 0.5 M over the membrane. The total flux of Na+ (and other ions as well) is constant across the system as it naturally must be at steady state.\n\nAEM simulations\n\nIn the case of AEM simulations, the dialysate compartment was the same as earlier, 0.5 Na2SO4, but the permeate compartment was sulfuric acid at variable concentrations; boundary conditions are the same as with CEMs.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "AEM simulations",
+      "pages": [7,8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The bisulfate-sulfate equilibrium (5) has been taken into account with the equilibrium constant K_c, Eq. (9) that has different values in the solution and membrane (see Supporting Information). Now the system consists of four ionic species, Na+, H+, HSO4- and SO4^2-. Concentration profiles are shown with current density of 50 mA cm⁻² in Fig. 3a. Although in 0.5 M sulfuric acid the majority (74%) of anions is in the bisulfate form, the major component in the membrane is sulfate. Fig. 3b shows that the ionic fluxes are no more constants. In the right hand side compartment, bisulfate carries most of the current but in the membrane and in the Na2SO4 containing compartment, sulfate is the charge carrier, which agrees with ref. [37]. Since ionic fluxes are not spatially constant we must to resort to ion constituent fluxes, Eq. (7). Combining Eqs. (3) and (7), it is obtained that I/F = j_Na+ + J_H - 2 J_S (13). Hence, the integral transport number of the sulfate constituent is T_S = -2F J_S / I (14).",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "AEM simulations",
+      "pages": [8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3b proves that the fluxes of the ionic constituents are, indeed, constant. The proton leakage is also calculated from the total flux of the proton constituent: T_H = F J_H / I (15). The behavior is found very similar to hydroxyl ion leakage in CEM. However, the proton constituent leakage is somewhat higher than the hydroxyl ion leakage because of the smaller size and high mobility of the proton, insets in Fig. 3.\n\nCurrent efficiency\n\nFig. 4a shows the effect of membrane charge on the current efficiency of Na+ (see Eq. 8) at different concentrations of the permeate compartment. The current efficiency is found to be higher at higher membrane charge and lower concentrations of the permeate. Hydroxyl ion leakage is also calculated from its total flux that is converted to current density and plotted against various concentrations of permeate compartments, inset Fig. 4a. The leakages is observed to increase linearly as the concentration of the permeate increases. At high NaOH concentrations, the share of OH- transport of the total current seems surprisingly high, i.e. the selectivity of the CEM would be very low, but it must be realized that Na+ resides on the both sides of the membrane, making its diffusion contribution quite small, while there is a steep concentration gradient of OH-, facilitating its transport. Hence, this behavior is a result of the definition of the current density, Eq. 8.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Current efficiency",
+      "pages": [8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Similarly Fig. 4b is the current efficiency of the sulfate constituent in AEM. The current efficiency is found lower in AEMs than in CEMs in similar conditions of concentrations and membrane charges. The reason is the higher proton leakage rate in AEM than hydroxy leakage in CEM, inset Fig. 4b, due to the smaller size and high mobility of the protons.\n\nZero current simulations in AEM\n\nIf the two solutions flushing a membrane are not identical, diffusion potential, φ_diff, is developed across the system, Fig. 5b. Therefore, even in the absence of net electric current, migration of ions takes place, although the sum of total ionic fluxes via Eq. (3) remains zero. The diffusion potential is given as [25] φ_diff = - (RT/F) ∫ Σ_k (t_k/z_k) d ln c_k (16) where t_k is the transport number and c_k the concentration of species k. While in the binary aqueous solutions the transport numbers are constants, the concentrations in the membrane (see Figs. 2a and 3a) and thus the transport numbers vary along it. This is why the integral in Eq. (16) above cannot be solved in closed form. Fortunately, the potential profiles (Fig. 5), the flux components (Fig. 6a) and concentrations (Fig. 6b) can be evaluated with Comsol across the system.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Zero current simulations in AEM",
+      "pages": [8,9]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The trend in the total potential drop, Fig. 5b, is a bit surprising. The highest diffusion potential is found in the case of a neutral membrane. This is, however, understandable realizing that in an AEM the concentration of proton, that has the highest mobility, is the lower the higher is the membrane charge. Therefore, the difference in the transport numbers, which is the origin of the diffusion potential, gets gradually smaller.\n\nAs can be seen in the Fig. 6a above, migration does take place even in the absence of electric current because diffusion potential is its driving force. The flux of the proton constituent cancels out this flux, making the total current zero.\n\nFig. 6b replies to the dilemma in the paper of Pourcelly et al. [37] who stated that in the absence of current bisulfate is the major species in the membrane, although sulfate is the charge carrier. This disagrees with our result, showing that sulfate prevails in the membrane when the concentration-based equilibrium constant, K_c, is used. Although their statement is based on experiments, it is hard to understand why bisulfate would not carry electric current, unless its mobility in the membrane is very low. If we used the thermodynamic dissociation constant K_a = 0.01 M, bisulfate would prevail in the membrane, but also carry current. Using instead the concentration dependent K_c, no contradictions appear.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Zero current simulations in AEM",
+      "pages": [9]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Validation of simulation\n\nAccording to Eq. (11), bisulfate (z = -1) should convey sulfur twice as fast as sulfate (z = -2). When H2SO4 is used as the dialysate, bisulfate is the main anion in liquid phase, while sulfate is the only anion in Na2SO4. Therefore, the rate of increase of the permeate concentration in the experiments with H2SO4 feed (Experiments 1-3 in Table 3) should be ca. twice as high as with the Na2SO4 feed (Experiments 4-6 in Table 3) if bisulfate would carry the charge in the AEM. However, according to our experiment, the rate of the permeate concentration increase is equal within experimental error when equal concentrations of H2SO4 or Na2SO4 are used as the dialysate (Supporting information Fig. 2). Moreover, the experiment shows that also water is transferred from dialysate to permeate by electroosmosis (Supporting information Table 1 and Table 2) which cannot be accounted for in our 1D model. However, the experimental current efficiency calculation is corrected for the volume change, Eq. (17): Δn_permeate = (V_permeate c_permeate)_{t=2h} - (V_permeate c_permeate)_{t=0} (17) and sulfate is assumed to be the main charge carrier in the AEM, as simulated and also confirmed in the literatute [32,34].",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Validation of simulation",
+      "pages": [9]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The experimental results of the CEM system corresponds to the simulation results with a 3 M fixed charge of the membrane, Fig. 7a, although in Table 1 the membrane fixed charge is given as 1.23 M, but if we take into account that the free volume (porosity) if the membrane is 40% the charge that an ion feels actually is ca. 3 M.\n\nTransport under zero current conditions was studied in a two-compartment cell setup where the permeate and dialysate compartment are separated by an AEM. The permeate concentration is set to be fixed at 0.01 M H2SO4, whereas dialysate concentration is varied from 0.1 M to 0.6 M H2SO4. The same setup is simulated with COMSOL, and the simulated and experimental results are shown in Fig. 8. It appears, quite surprisingly, that the membrane charge does not have that great an effect.\n\nConclusions\n\nThe transport of ions across ion exchange membranes is studied with the Finite Element Method, using COMSOL Multiphysics and compared with laboratory-scale experiments. The aim of the study was to understand the effect of the membrane fixed charge density, electric current density and the solution concentrations on the efficiency of the electrodialysis process where Na2SO4 is converted to acid and alkaline.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Conclusions",
+      "pages": [9,10]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In a multi-ionic case, despite of the simplicity of the system (1D), it is not possible to have a closed form solution of the Nernst-Planck equation that forms the basis of the study. With COMSOL, however, the concentrations profiles and fluxes of all species, as well as the potential profile across the system can be achieved with relative ease. Furthermore, it is possible to separately analyze the diffusion and migration contributions to the total ionic fluxes. Donnan equilibrium was assumed at the solution-membrane interfaces, and electroneutrality throughout the system.\n\nIt was found that, in order to reach an agreement with experiments, the thermodynamic dissociation constant of bisulfate had to be replaced with one expressed in terms of ionic concentrations, viz taking the activity coefficients into account. In the case of weak electrolyte transport, ionic fluxes are no more constant, which requires the consideration of the hydrogen and sulfate constituent fluxes. In the previous literature, it has been suggested that during the sulfuric acid electrolysis across an anion exchange membrane, sulfate ions are the major charge carriers in the membrane, although in the absence of current, mainly bisulfate balances the membrane fixed charge. In our simulations, however, the concentration of bisulfate in the membrane is always quite low, which explains the fact that sulfate carriers the majority of charges.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Conclusions",
+      "pages": [10]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The mobilities of the ion within the ion-exchange membranes were set to 10% of their aqueous values at infinite dilution, which agrees with literature. Only for the proton 60% of its aqueous mobility was used due to its small size and consequently high mobility.The current efficiencies of the counter-ions or ion constituents were evaluated in varying conditions mentioned above. Quite good an agreement with experiments were achieved, considering that atomic scale modelling, through which specific membrane properties could be implemented, is not possible with COMSOL. Also, the rate of the co-ion leakage (H+ in AEMs and OH- in CEMs) was very close to experimental ones. We can conclude that COMSOL provides a modern means to study ion transport in a way that has not been possible earlier. In particular, splitting total flux to diffusion and migration contributions is very illustrative and clarifies their roles in the membrane selectivity. The study continues with 2D modelling which makes it possible to involve also convection via electroosmosis.",
+    "citation": {
+      "authors": ["Kuldeep", "Kauranen P.", "Pajari H.", "Pajarre R.", "Murtomäki L."],
+      "paper_id": "1-s2.0-S2666821121000855-main",
+      "title": "Electrodiffusion of ions in ion exchange membranes: Finite element simulations and experiments",
+      "year": 2021,
+      "section": "Conclusions",
+      "pages": [10]
+    },
+    "type": "chunk"
+  }
+]

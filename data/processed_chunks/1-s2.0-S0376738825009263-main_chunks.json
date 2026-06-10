@@ -1,0 +1,610 @@
+[
+  {
+    "content": "Selectivity control in organic solvent nanofiltration–membranes or process? Ludmila Peeva , Adam Oxley , Andrew G. Livingston 1,* School of Engineering and Materials Science, Queen Mary University of London, Joseph Priestley Building, 2.20 Mile End Road, London, E1 4NS, UK\n\nA R T I C L E I N F O Keywords:Organic solvent nanofiltration (OSN)Mass transferConcentration polarisationPolyethylene glycolsMolecular architectureMulti-arm star",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T This study investigates how hydrodynamic conditions, solute concentration, and solute molecular architecture influence organic solvent nanofiltration (OSN) performance using polyethylene glycols (PEGs) of different mo­lecular weights and structures. First, a fixed PEG concentration (10 g/L) in acetonitrile was used to evaluate the impact of hydrodynamic conditions by varying feed spacer thickness in a SEPA cell at 10 bar. Rejections ranged from near 0 % (open channel) to nearly 100 % (with spacers) using the same membrane, attributed primarily to differences in concentration polarisation. Film theory-based models closely matched experimental data, con­firming mass transfer limitations as key rejection determinants. Additional experiments with varying flow rates and spacer-membrane combinations reinforced these findings. Next, the effect of PEG concentration was examined. As concentration increased, flux became highly nonlinear and approached limiting values above 20 g/L, consistent with concentration polarisation-driven limiting flux. Mass transfer coefficients decreased with increasing PEG molecular weight and revealed a stronger-than-expected dependence on viscosity, reinforcing the significance of viscosity variation in the boundary layer. Finally, the impact of PEG molecular architecture was studied by comparing linear, 4-arm, and 8-arm starshaped PEGs of equivalent molecular weight (~10 kDa).",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", the impact of PEG molecular architecture was studied by comparing linear, 4-arm, and 8-arm starshaped PEGs of equivalent molecular weight (~10 kDa). While intrinsic membrane rejections were similar, branched PEGs exhibited significantly higher apparent rejections and reduced sensitivity to concentration polarisation. This improved performance was attributed to lower solution viscosity and more compact molecular structure, which enhanced mass transfer. Overall, the study highlights the dominant role of mass transfer and solute properties in OSN membrane separations and emphasizes the need to control flow conditions and experimental design.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "* Corresponding author.E-mail address: a.livingston@qmul.ac.uk (A.G. Livingston). 1 Present address: Queen Mary University of London Joseph Priestley Building, 2.20 Mile End Road, London, E1 4NS, UK.\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 737 (2026) 124613",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 27 August 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). configurations. The dataset (NF–10K) contains 9996 membrane entries (rows) and 21 parameters (columns). These parameters can be catego­rized into four sets: process parameters (pressure, permeance, temper­ature, role of separation, and process configuration); membrane parameters (membrane type, MWCO, zeta potential, and water-drop contact angle); solvent parameters (chemical structure, surface ten­sion, solvent molecular weight, diameter, viscosity, density, dipole moment, dielectric constant, Hildebrand solubility parameter, water/ octanol partitioning coefficient, and Hansen solubility parameters (δD, δH, δP)); and solute parameters (chemical structure) [1]. These features were used to train and test machine learning models. The objective was to predict solute rejection in nanofiltration by training a machine learning model based on inputs from the dataset. However, no param­eters related to solute concentration, concentration polarisation or fouling are included in the database - mainly due to data unavailability. A reasonable question to ask is - how accurate can these predictions be if these important parameters are omitted from the training datasets? Polyethylene glycols (PEGs) are one of the most common solutes used for membrane characterisation.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "parameters are omitted from the training datasets? Polyethylene glycols (PEGs) are one of the most common solutes used for membrane characterisation. For many commercial membranes MWCOs are reported in terms of the Molecular Weight (MW) of PEG with a rejection of 90 %. PEGs have also been used in chemical synthesis as soluble anchors for various kinds of polymers [5–10], where they aid in solubilising growing polymers and presenting high MW species more readily separated from the reacting system. In our membrane charac­terisation studies we have also used a mixture of PEGs with different MWs to evaluate the MWCO in organic solvents and understand per­formance in chemical synthesis. While evaluating membrane perfor­mance we came across some interesting phenomena connected to concentration polarisation which led us to question the reliability of MWCO studies. Concentration polarisation phenomena have been widely investigated in aqueous applications, and various theories have been developed to describe transport in the presence of concentration polarisation, ranging from film theory, the osmotic pressure model, the gel layer model and various combinations of these [11]. However, in Organic Solvent Nanofiltration (OSN) these phenomena have hardly been studied, with only a limited number of publications pointing out the importance of mass-transfer limitations [12–17].",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "these phenomena have hardly been studied, with only a limited number of publications pointing out the importance of mass-transfer limitations [12–17]. In this work we will demonstrate again that the liquid mass transfer phenomenon plays a crucial role, leading to changes in the observed solute rejection profile, and bringing into question the utility of the rejection concept for describing membrane performance. We also aim to evaluate whether the mass transfer equations derived from similarity theory are sufficient to describe the observed phenomena. Finally, we seek to demonstrate that a detailed study and modelling of membrane permeation performances common in the literature should be complemented by investigation of mass transfer and concentration polarisation, which as we show may be the dominant features of many separations. 2. Materials and methods PEG (400, 1000, 2000, 8000 and 35000 g mol-1) and acetonitrile were purchased from Sigma Aldrich (UK). The molecular weight dis­tributions provided by the supplier were as follows: PEG 400 Mn = 380420; PEG1000 Mn = 950-1050; PEG2000 Mn = 1900-2200; PEG8000 Polydispersity index = 1.14; PEG35000 Polydispersity index = 1.27. Linear and multi-arm amino-PEGs 10000 g mol-1 were purchased from JenKem Technology USA Inc. (USA). Purity of multi-arm amino PEGs was indicated as ≥95 % and polydispersity of 4 arms ≤1.05; 8 arms ≤1.08 by supplier’s GPC measurements.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "USA Inc. (USA). Purity of multi-arm amino PEGs was indicated as ≥95 % and polydispersity of 4 arms ≤1.05; 8 arms ≤1.08 by supplier’s GPC measurements. Polybenzimidazole membrane was prepared following the procedure described by Oxley et al. [18] and is referred as membrane M97.5 in the publication. Membrane performance was determined by cross-flow filtration ex­periments. Two types of cross-flow rigs were used. For the first set of experiments the cross-flow rig was equipped with stainless steel Sepa CF Med/High Foulant Cell from Sterlitech corporation with working area of 140 cm2 (Fig. 1). Sepa Cell provides an approximation to the feed channels of a small membrane module and was used to investigate performance with a variety of spacers and flow rates. Pure solvent permeances were measured first, followed by the addition of 2 g.L-1 each of five poly(ethylene glycol) (PEG) compounds with varying mo­lecular weights: PEG 400, 1000, 2000, 8000, and 35000 Da. The total solute weight in the system was 20 g in 2 L of solvent. In the second set of experiments the effect of PEG concentration and effect of PEG shape was investigated using a two-cell circular cross-flow rig, with membrane discs having an active area of 54 cm2. In both systems, cross-flow ve­locity was supplied by a diaphragm pump (Wanner Hydracell), and pressure was maintained by a back pressure regulator.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". In both systems, cross-flow ve­locity was supplied by a diaphragm pump (Wanner Hydracell), and pressure was maintained by a back pressure regulator. Each system was equipped with a heat exchanger and a chiller, which automatically maintained the temperature at 25 ± 3 ◦C for the SEPA cell experiments and 30 ± 3 ◦C for the circular cells experiments. Further details about the rig configuration can be found in our previous publication [19]. The samples were analysed using an Agilent HPLC coupled with an evapo­rative light scattering detector (ELSD Varian-385). A reversed phase Hichrom Ace column (C18-300, 250 mm 4.6 mm I.D.) was used main­tained at temperature of 30 ◦C. Two mobile phases were utilized. Mobile phase A - 5 mM ammonium acetate aqueous solution and mobile phase B",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. A - Image of Sepa Cell; The cell provides an approximation to the feed channels in a small membrane module (1,6 – Cell body; 2 – Membrane; 3 – O-rings; 4shim, 7 permeate and 8 retentate spacer; B - 1.8″ membrane module; C – Various spacers used in the Sepa cell. All dimensions are in millimetres. Figures A and C modified from [STERLITECH Corporation, Sepa Cell, Crossflow; Spacer Assortment Pack for Sepa. [Online]. [Accessed 9th of May 2025]. Available from https:// www.sterlitech.com/]. L. Peeva et al. Journal of Membrane Science 737 (2026) 124613",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "- 4:1 (v:v) acetonitrile-methanol mixture. A flow rate of 1 mL min-1 was applied with the following gradient: 2 min isocratic 90 % A, followed by a linear ramp to 5 % A over 23 min. The system was then decreased back to 90 % A over 2 min and re-equilibrated with 90 % A for 5 min prior to the next injection. The ELSD evaporator was set at 40 ◦C and the nebulizer at 55 ◦C. 3. Results and discussion 3.1. Effect of crossflow velocity on rejection The first set of experiments was performed using a fixed concentra­tion solution of PEGs (2 g.L-1 each, 10 g.L-1 total) while varying the hydrodynamic conditions by adjusting the combination of shim and spacer placed in the SEPA cell. Operating pressure was maintained at 10 bar. The characteristics of the spacers are shown in Table 1. Results from these experiments were interesting. As can be seen from Fig. 2A the PEG rejections varied in a very broad range from nearly 0 % with an open channel to close to 100 % when feed spacers were used. Although the Reynolds numbers for channels with spacers appeared to be slightly lower than that for the open channel, their effect as turbu­lence promoters is well established [20]. The pressure drop across the channel was also measured and in all cases was below 0.5 bar, Fig. 2B (less than 5 % of the applied 10 bar pressure) ensuring negligible vari­ation of transmembrane pressure for the filtration process.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "w 0.5 bar, Fig. 2B (less than 5 % of the applied 10 bar pressure) ensuring negligible vari­ation of transmembrane pressure for the filtration process. The results were reproducible as can be seen from two separate experiments with open channel (the second experiment was performed immediately after the 31mil spacer experiment). Rejection results were attributed to the existence of concentration polarisation phenomena, which would be considerably worse with an open channel. It is interesting to evaluate if the above effects could be explained by the film theory. We applied existing correlations from the literature (Eqs. (1)–(5)) [21] to estimate individual mass transfer coefficients for different PEGs. Diffusion coef­ficient for PEGs was estimated using empirical correlation from litera­ture [22], where the diffusion was corrected using viscosity of PEG solution (see supporting information). Sh = 1.85 *(Re * Sc * dh l )0.33 Open channel(1) Sh = 0.065 * Re0.875 * Sc0.25Channel with spacer(2) Sh = k * dh DSherwood number(3)",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Sc = ν DSchmidt number(4) Re = ρ * v * dh ηReynolds number(5) After estimating the mass transfer coefficients, it was possible to calculate the polarisation modulus (also known as boundary layer Peclet number) defined by Eq. (6). Jki = ln(ci,FM -ci,p ci,F -ci,p )⇨Polarisation modulus = Jki RInt = 1 -Ci,PCi,FM RApr = 1 -Ci,P Ci,F RApr =1(1 +( 1RInt -1)* e Jki )9 Where: k – mass-transfer coefficient [m.s-1]; dh – hydraulic diameter [m]; D – diffusion coefficient [m2.s-1]; v – flow velocity [m.s-1]; ν – kinematic viscosity [m2.s-1]; η – dynamic viscosity [kg.m-1.s-1]; ρ – density [kg.m-3]; J – flux [m.s-1]; Ci – concentration [g.L-1]; Indexes P – permeate; F – feed; FM – feed at the membrane surface. We can define the Intrinsic and Apparent rejections by Eqs. (7) and (8) and by combining them derive Eq. (9). It is now possible to plot apparent rejection as a function of polarisation modulus at fixed value of intrinsic rejection. As can be seen from Fig. 2C the theoretical curves follow experimental results reasonably well. We acknowledge that these results are not unique; similar behaviour (although less extreme) has been observed with PEG aqueous solutions by other researchers, pri­marily when varying the applied pressure [23,24], as well as with aqueous solutions of dextrans [25]. To the best of our knowledge there are no experimental studies of these type performed in organic solvents.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s with aqueous solutions of dextrans [25]. To the best of our knowledge there are no experimental studies of these type performed in organic solvents. The uncertainty of the interpretation of MWCO of organic solvent nano/ultrafiltration membranes have been correctly pointed out by Zwijnenberg et al. [17]. Our study underlines again the importance of the experimental conditions employed for membrane characterisation. The membrane was replaced, and a second set of experiments was performed, where this time the flow rate was varied, while keeping the same spacer. Two additional PBI membranes and spacers were investi­gated of 0.7 (27.6 mil) and 1.28 (50.4 mil) mm thickness. Using Eq. (2)the mass transfer coefficient and polarisation modulus were calculated for each PEG. Comparison between experimental and calculated re­jections (using the same intrinsic rejection values as in Fig. 2C) are shown in Fig. 3. Results are similar to the ones obtained by varying the spacers with a single membrane under the same flow rate. Notably, the theoretical model deviates from the experimental data at higher polar­isation modulus values. In this work we applied a relatively simple approach, assuming constant viscosity and diffusion coefficient. Diffu­sion coefficients were calculated using correlations from the literature, where data are available primarily for aqueous solutions.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "coefficient. Diffu­sion coefficients were calculated using correlations from the literature, where data are available primarily for aqueous solutions. A correction for the viscosity of the PEG solutions was introduced; however, the ef­fects of temperature, concentration, and possible solvent-induced conformational changes were not considered. We acknowledge that this introduces a degree of uncertainty into our calculations and could contribute to the discrepancies between experimental and calculated values. In reality, the viscosity within the boundary layer likely deviates significantly from the bulk value and increases gradually across the layer especially at high polarisation modulus values. In addition the PEG so­lution may exhibit non-Newtonian behavior under certain combinations of shear and concentration.The molecular weight distribution may also have some influence on the rejection, and using PEGs with different",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "74.8/1.91000.233.7310720.361.3065/1.65 diamond 870.311.806751.315.55 47/1.19 diamond 760.491.217402.128.96 47/1.19 parallel 760.491.217402.128.96 31/0.78 diamond 900.631.048192.6911.40 27.6/0.70850.221.042901.084.5627.6/0.70850.311.044081.456.1527.6/0.70850.421.045411.867.8727.6/0.70850.791.0410334.5613.8527.6/0.70851.211.0415744.7320.0250.4/1.28830.131.862900.612.5650.4/1.28830.221.865050.984.1650.4/1.28830.421.869811.767.4450.4/1.28830.681.8615702.6611.22 L. Peeva et al. Journal of Membrane Science 737 (2026) 124613 distributions could slightly affect the rejection results. However, this is unlikely to change the overall conclusions. Despite these limitations, the simple model provides a reasonably good estimation of the results. Further refinements could incorporate the concentration-dependent variations in viscosity, diffusion, and mo­lecular conformation. Nevertheless, we deliberately kept the model simple to demonstrate its value as a first approximation, particularly for providing rapid estimates in potential industrial process scalability. 3.2. Effect of PEG concentration on membrane performance The second part of our study was focused on the effect of PEG con­centration on membrane performance. The PBI membrane was investi­ gated using increasing concentration of PEGs with different MW (each PEG was investigated separately). As could be expected the concentra­tion had a significant effect on both flux and rejection of PEGs.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ferent MW (each PEG was investigated separately). As could be expected the concentra­tion had a significant effect on both flux and rejection of PEGs. As ex­pected, the flux decreased with increasing concentration for all three PEG molecular weights. It is unlikely that this sharp decline is driven by the osmotic pressure of the PEG solutions, at least when considering the bulk concentrations. Several studies on the osmotic pressures of PEGs in aqueous solutions indicate that, at concentrations around ~50 g.L-1 (as in our study), the osmotic pressure does not exceed 1 bar. Moreover, the osmotic behaviour of PEG is markedly non-ideal, with osmotic pressure decreasing as molecular weight increases at a fixed weight concentra­tion [26–29]. The flux increase with pressure was highly non-linear (Fig. 4). Beyond a certain concentration, the flux became independent",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. AEffect of cross-flow rate varied by inserting different spacers into the cell on rejection at fixed concentration (acetonitrile with 2 g.L-1 each PEG); B – Pressure drop measured across the cell using different spacers; C – Comparison between experimental and calculated rejection using polarisation modulus approach. The temperature for these experiments was maintained at 25 ± 3 ◦C. L. Peeva et al. Journal of Membrane Science 737 (2026) 124613 of pressure in all cases, suggesting that it approached the limiting flux. A closer examination of Fig. 4a–c shows that the effect of pressure was completely diminished at different concentrations for each PEG: ~45 g. L-1 for 10 kDa PEG, ~25 g.L-1 for 20 kDa PEG, and ~11 g.L-1 for 35 kDa PEG. Interestingly, the ratios of these concentrations (4:2.2:1) are nearly inversely proportional to the ratios of the PEG molecular weights (1:2:3.5). Under limiting flux conditions, solvent permeance decreased by more than 50 %, indicating that solvent diffusion was hindered by the formation of a denser and thicker boundary layer (see Fig. S3 in SI). As expected, this effect was most pronounced for 35 kDa PEG at 20 bar. We speculate that the slower diffusion of larger PEG molecules causes the greatest hindrance to mass transfer. Existence of limiting flux is well known and has been attributed to concentration polarisation phenom­ena.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "es the greatest hindrance to mass transfer. Existence of limiting flux is well known and has been attributed to concentration polarisation phenom­ena. There are various theories aiming to explain limiting flux, including osmotic pressure and gel layer models [30]. Song and Elimelech [31] introduced an important dimensionless filtration number NF =4πr3pΔP/3 kT (r-particle radius [m]; P applied pressure [Pa]; k 1.38 *10-23 [J.K-1]; T-temperature [K]). According to their theory there is a critical value of the filtration number for a given suspension and oper­ational conditions. When the filtration number is smaller than the crit­ical value, a polarisation layer exists directly over the membrane surface and the membrane surface particle concentration is determined by the pressure and temperature. Although this theory was developed for colloidal suspensions of hard spherical (non-interacting) particles, it is also considered applicable to macromolecules and other “soft” particles. However, in these cases, both the thickness and the specific resistance of the cake (or gel) layer may vary with the applied pressure [32]. At higher filtration numbers, a cake layer of retained particles forms be­tween the polarisation layer and the membrane surface. Without going into detailed calculations using this theory a rough estimation of filtration number in our system suggests values > 15 (PEG radius values from Ref.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "g into detailed calculations using this theory a rough estimation of filtration number in our system suggests values > 15 (PEG radius values from Ref. [23] and Table S1 in SI) thus somewhat at the boundary be­tween polarisation layer and cake layer formation. In any case our sys­tem appears to be dominated by mass-transfer limitations. If we now go back to Equation (9), it can be linearised in the form of Equation [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}], with a slope 1/k and intercept Ln((1-RInt)/RInt). Ln 1 -RApr RApr = Jk + Ln 1 -RInt RInt Thus, for each PEG concentration mass transfer coefficient can be determined as illustrated in Fig. 5A. Table 2 summarises the results obtained from the linear fit (Eq. [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}]) for the mass transfer coefficient of different molecular weight PEGs. Calculated intrinsic rejections for all PEGs were above 99.999 %, and are not shown in the table. The results appear to be consistent with mass transfer coefficient decrease due to increasing MW. To understand these results better, we measured the viscosity of the 35K PEG solution. A logarithmic plot of mass transfer coefficient against 1/measured viscosity (Fig. 5B) in­dicates the line has a slope of ~2, well above the typical Sherwood correlation exponent.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ansfer coefficient against 1/measured viscosity (Fig. 5B) in­dicates the line has a slope of ~2, well above the typical Sherwood correlation exponent. It should be noted that the measured viscosity corresponds to the bulk concentration and does not account for the increased concentration in the boundary layer. Several previous publi­cations point out the importance of boundary layer solution viscosity on the process performance. Gill et al. [33] have shown the existence of experimental conditions where there is a sharp increase in concentration polarisation, and where there is significant difference between the constant and variable viscosity model, with the variable viscosity having a strong pronounced effect on concentration polarisation. They also pointed out that for many ultrafiltration systems variations in viscosity",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. Comparison between experimental and calculated rejection using polarisation modulus approach for 0.7 mm spacer (A) and 1.28 mm spacer (B). Polarisation modulus was manipulated by varying the cross-flow rate with fixed spacer in the cell. Each spacer was utilized with a new membrane piece. The temperature for these experiments was maintained at 25 ± 3 ◦C. L. Peeva et al. Journal of Membrane Science 737 (2026) 124613 are much larger than those in diffusivity, and the variations in density are negligible. Aimar and Field [34] presented a model based on the viscosity de­pendency of the mass transfer coefficient. According to their model, based upon a development of film theory, the variation of viscosity with concentration will, by its very nature, lead to a limiting flux and the limiting flux would be observed without a gel layer formation and/or membrane fouling. At the limiting flux, any increase in diffusion po­tential would be exactly balanced by a decrease in the mass transfer coefficient. They concluded that the limiting membrane surface con­centration (for limiting flux) is a function of the bulk concentration, the hydrodynamic conditions and the physicochemical properties of the solution. Similar conclusions have been drawn earlier by Jonsson [35] who showed experimentally, using dextran and whey proteins solutions, that at constant membrane surface concentration the solution is not a gel, and the mass transfer coefficient decreases when the pressure (i.e.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "utions, that at constant membrane surface concentration the solution is not a gel, and the mass transfer coefficient decreases when the pressure (i.e. the polarisation) increases. They concluded that the results could be explained by the osmotic pressure model. The aim of our study is not to determine which specific theory should be applied, but rather to high­light the importance of mass transfer phenomena in OSN and emphasize the need for more extensive research in this area. Our results indicate that, under certain conditions, the OSN separation process is governed primarily by mass transfer rather than intrinsic membrane properties. The impact of mass transfer, however, depends on the specific mem­brane–solute combination and the experimental conditions.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Effect of PEG shape on membrane performance In the first two parts of the paper, we evaluated the effect of PEG molecular weight while maintaining a consistent linear molecular structure. In the final part of this study, we assess the effect of molecular branching while keeping the molecular weight constant. It has been previously shown that using branched vs linear PEGs for membrane characterisation can result in substantially different MWCO values [36]. For PTMSP, the MWCO in ethanol using linear PEG is 1550 Da, while using 3-arm branched PEGs (trimethylolpropane ethoxylates) resulted in an MWCO of 1270 Da. In contrast, using polystyrene markers gave a MWCO of 880 Da, although this measurement was made in acetone. Kim et al. [6] also compared linear versus branched PEG rejection by PBI membranes. Linear PEG rejections, regardless of their molecular weight, did not exceed 95 %. In contrast, branched PEG compounds (3-arm star-shaped PEG with a benzene core) exhibited higher rejections, approaching 100 % for molecular weights above 3000 Da. Similar ob­servations have been reported by Zwijnenberg et al. [17], when comparing MWCO determined using polystyrene (rigid) and poly­isobutylene (flexible) markers. Here we extend the study by comparing linear versus 4 and 8 arm star shaped PEGs of the same MW ~10 kDa. PEG molecules and their rejection as a function of Flux/Flow rate ratio (stage-cut) is illustrated in Fig. 6a–f.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "r shaped PEGs of the same MW ~10 kDa. PEG molecules and their rejection as a function of Flux/Flow rate ratio (stage-cut) is illustrated in Fig. 6a–f. Since the experiments were performed using circular cells, it is challenging to estimate the linear flow rate and flow pattern within the cell. However, the flux/flow rate ratio (stage-cut) provides a reasonable approximation of the concentration polarisation conditions. Our reasoning behind this statement is that concentration polarisation is typically characterized by the polarisation modulus, defined as the ratio between the membrane volumetric flux and the mass transfer coeffi­cient, J/k. Stage cut, by definition, is the ratio of the permeate flow rate to the feed flow rate. For a fixed membrane area, the permeate flow rate is linearly proportional to the membrane volumetric flux J in the polarisation modulus expression. On the other hand, the mass transfer coefficient k is related (though not linearly) to the feed linear velocity through the Sherwood–Reynolds number correlation, and thus scales with the feed flow rate. Therefore, if all other parameters in the Sher­wood correlation are held constant and only the feed flow rate changes, variations in stage cut will, to some extent, reflect changes in the polarisation modulus. The closer the Reynolds number exponent in the",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. Effect of solute concentration at fixed cross-flow rate. The performance of PBI membranes was determined at different PEG concentrations in acetonitrile. The circular cell cross-flow rig was operated at 2 kg min-1 cross-flow rate, 30 ◦C, and 10, 15, and 20 bar. Top row - The permeate flow rate (flux) with concentration of linear (a) PEG 10 kDa, (b) PEG 20 kDa, (c) PEG 35 kDa. Bottom row - The change in PEG rejection with concentration of (d) PEG 10 kDa, (e) PEG 20 kDa, (f) PEG 35 kDa. The temperature for these experiments was maintained at 30 ± 3 ◦C. L. Peeva et al. Journal of Membrane Science 737 (2026) 124613",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Sherwood correlation is to unity, the more accurate this approximation becomes. Nevertheless, while stage cut is related to concentration polarisation, it cannot be considered a direct measure of it. As can be seen from the figure the 8 arm PEG rejection is nearly independent of the concentration polarisation, followed by the 4 arm PEG, where a minimal effect is observed, whether for the linear PEG a 50 % drop in rejection is observed at high polarisation conditions. If we apply Eq. [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] to the data, the mass transfer and intrinsic rejection of linear and 4 arm PEGs could be estimated (Table 3). The rejection of the 8-arm PEG remained ~100 % at all experimental conditions applied and no meaningful linearisa­tion of the data could be performed. As can be seen from the results, intrinsic membrane rejections for both PEGs are similar (the linear PEG intrinsic rejection is even slightly higher, this could be expected since with increase of branching, the size of the molecule decreases). The estimated mass transfer coefficient of 4-arm PEG however is substan­tially higher than the linear PEG which could explain the higher apparent rejection. g = ηbranched ηlinear Let’s now look again at the viscosity of the PEG solutions. Star sha­ped polymers are distinguished from linear polymers by their smaller size and therefore their higher segment density.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "y of the PEG solutions. Star sha­ped polymers are distinguished from linear polymers by their smaller size and therefore their higher segment density. The degree of contraction, g (Eq. [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}]), can be normalized by comparing it to the size of a linear polymer with the same molecular weight as the star polymer and so could be the intrinsic viscosities of the star and linear polymer [37]. For a 4-arm hub the degree of contraction was estimated as ~0.63. Assuming an inverse square dependence of the mass transfer coefficient on viscosity, as estimated in the previous experiments, one could expect kbranched/klinear ~0.39. The average ratio of mass transfer coefficients branched/linear is 0.37 (Table 3). To verify this, we measured the viscosity of the linear and the 4-arm 10K PEGs in acetonitrile at different concentrations (see supporting in­formation). At concentrations above 10 g.L-1 an obvious difference in viscosities was observed with the 4-arm PEG being ~0.6 times less viscous than the linear counterpart which is in a good agreement with the prediction. We speculate that again the difference in the mass transfer coefficient and observed rejection could be attributed to the viscosity. Of course there could be other reasons for the apparent rejection behaviour.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "coefficient and observed rejection could be attributed to the viscosity. Of course there could be other reasons for the apparent rejection behaviour. It has been noted in literature that large polymer chains can deform in response to a velocity gradient. When subjected to elongational flow into membrane pores, the polymer molecules can stretch, reducing their transverse dimensions. This allows them to pass through much smaller pores than rigid spherical molecules of similar molecular weight would be able to. This is particularly true for linear polymers. However other findings suggest that there is no evidence of any molecule deformation (study on dextrans) even at fluxes as high as 10-4 m.s-1 [38]. Guillot et al. [39] studied the diffusion of large flexible polymer chains (polystyrenes dissolved in ethyl acetate) through model porous membranes (polycarbonate). Their findings are interesting. At low polymer concentrations, the key parameter governing the diffusion of the chains is their hydrodynamic radius, RH. For RH > RP, diffusion is significantly hindered. As the concentration increases, their results reveal the emergence of a new transport regime in which chains with RH > RP can diffuse through the membrane with an effective diffusion co­efficient, Deff, that is two orders of magnitude larger than in the dilute concentration regime.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e through the membrane with an effective diffusion co­efficient, Deff, that is two orders of magnitude larger than in the dilute concentration regime. They attributed the enhanced diffusion to the concentration-dependent partition coefficient between the bulk solution and the pores, which is also linked to the flexibility of the chains. This is in good agreement with the expected increase of concentration in the membrane boundary layer due to concentration polarisation. By comparing the results in Tables 2 and 3, we observe variability in the mass transfer coefficient for the 10 kDa linear PEG. At a flow rate of 2 kg min-1 and a concentration of 24.3 g L-1, the determined mass transfer coefficient is 7.81 * 10-6 m s-1 (Effect of PEG concentration study). However, in the later experiment (Effect of PEG shape study), at the same flow rate and a concentration of 25 g L-1, the mass transfer coefficient is more than twice as high, at 1.85 * 10-5 m s-1. It is important to note that the intrinsic rejection was >99.99 % in the first case, whereas in the second, it was approximately 99.92 %. This",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. A - Linear fit of Eq. [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] at different PEG concentrations for PEG 10 kDa (PEG concentrations from right to left on the graph in [g.L-1]: 10.9; 18.8; 24.3; 27.5; 33.2; 39.2; 44.7; B - Logarithmic dependence of mass transfer coefficient on viscosity. The slope of the curve is approximately 2, indicating an inverse square dependence of the mass transfer coefficient on viscosity, which is un­usually high for the Sherwood correlation.\n\nTable 2 Mass transfer coefficient for different MW PEGs obtained from linear fit (Eq. [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}]). PEG 10 kDaPEG 20 kDaPEG 35 kDa Conc. [g. L-1] k x 106 [m. s-1] Conc. [g. L-1] k x 106 [m. s-1] Conc. [g. L-1] k x 106 [m. s-1]",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "10.914.4112.85.0911.21.9518.811.0521.12.6917.01.1424.37.8127.42.0622.01.0027.55.1432.92.3526.00.8333.24.2837.71.2629.80.4339.24.5847.61.3038.90.3244.73.5953.21.0044.40.16 L. Peeva et al. Journal of Membrane Science 737 (2026) 124613 difference is substantial, as higher rejection would result in more severe concentration polarisation, leading to higher concentration and viscos­ity in the boundary layer. While the membranes used were identical, the difference in results could be attributed either to membrane inconsis­tency or to the fact that the concentration study was conducted at higher pressures (>10 bar, specifically 10, 15, and 20 bar), while in the second set of experiments, the pressure was maintained below 12 bar. The higher pressures applied in the first case could have caused membrane compaction, thereby increasing the intrinsic rejection. Such increases in intrinsic rejection with higher applied pressures have been reported by other researchers [40]. Additionally, the amino-group functionality of the linear PEG used for the shape studies may contribute to the different rejection and hydrodynamic behaviour. 4. Conclusions We have demonstrated that, similarly to aqueous systems, in OSN hydrodynamic conditions in a cross-flow membrane system may have dramatic effect on the process performance, in some cases completely dominating over the separation properties of the membrane.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "mbrane system may have dramatic effect on the process performance, in some cases completely dominating over the separation properties of the membrane. This phe­nomenon is particularly explicit at high solute concentrations, which is exactly the scenario of many practical applications. Development of",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 3 Summary of results obtained via linear fit for the mass transfer coefficient of linear and 4-arm PEGs. PEG 10 kDa linearPEG 10 kDa 4 armskbranched/ klinear Flow rate [kg. min-1] k x 105 [m. s-1] RInt [%] k x 105 [m. s-1] RInt [%] [-]\n\n0.751.0499.731.8299.860.5710.9299.963.1799.820.291.41.4299.906.6799.680.211.752.3399.725.4899.880.4221.8599.92–– L. Peeva et al. Journal of Membrane Science 737 (2026) 124613",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[24] N. Jaya, G. Arthanareeswaran, D. Mohan, M. Raajenthiren, P. Thanikaivelan, Studies on permeation, rejection, and transport of aqueous poly(ethylene glycol) solutions using ultrafiltration membranes, Separ. Sci. Technol. 42 (2007) 963–978, https://doi.org/10.1080/01496390701206231.[25] H. de Balmann, R. Nobrega, The deformation of dextran molecules. Causes and consequences in ultrafiltration, J. Membr. Sci. 40 (1989) 311–327, https://doi.org/ 10.1016/S0376-7388(00)81153-9.[26] J. Li, M. Turesson, C.A. Haglund, B. Cabane, M. Skep¨o, Equation of state of PEG/ PEO in good solvent, Comparison between a one-parameter EOS and experiments, Polymer 80 (2015) 205–213, https://doi.org/10.1016/j.polymer.2015.10.056.[27] N.P. Money, Osmotic pressure of aqueous polyethylene glycols 1: relationship between molecular weight and vapor pressure deficit, Plant Physiology 91 (1989) 766–769, https://doi.org/10.1104/pp.91.2.766.[28] C.B. Stanley, H.H. Strey, Measuring osmotic pressure of poly(ethylene glycol) solutions by sedimentation equilibrium ultracentrifugation, Macromolecules 36 (2003) 6888–6893, https://doi.org/10.1021/ma034079e.[29] N.O. Chahine, F.H. Chen, C.T. Hung, G.A. Ateshian, Direct measurement of osmotic pressure of glycosaminoglycan solutions by membrane osmometry at room temperature, Biophys. J. 89 (2005) 1543–1550, https://doi.org/10.1529/ biophysj.104.057315.[30] J.G. Wijmans, S. Nakao, C.A.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "embrane osmometry at room temperature, Biophys. J. 89 (2005) 1543–1550, https://doi.org/10.1529/ biophysj.104.057315.[30] J.G. Wijmans, S. Nakao, C.A. Smolders, Flux limitation in ultrafiltration: osmotic pressure model and gel layer model, J. Membr. Sci. 20 (1984) 115–124, https:// doi.org/10.1016/S0376-7388(00)81327-7.[31] L. Song, M. Elimelech, Theory of concentration polarization in crossflow filtration, J. Chem. Soc., Faraday Trans. 91 (1995) 3389–3398, https://doi.org/10.1039/ FT9959103389.[32] L. Song, A new model for the calculation of the limiting flux in ultrafiltration, J. Membr. Sci. 144 (1998) 173–185, https://doi.org/10.1016/S0376-7388(98) 00057-X.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[33] W.N. Gill, D.E. Wiley, C.J.D. Fell, A.G. Fane, Effect of viscosity on concentration polarization in ultrafiltration, AIChE J. 34 (1988) 1563–1567, https://doi.org/ 10.1002/aic.690340919.[34] P. Aimar, R. Field, Limiting flux in membrane separations: a model based on the viscosity dependency of the mass transfer coefficient, Chem. Eng. Sci. 47 (1992) 579–586, https://doi.org/10.1016/0009-2509(92)80008-Z.[35] G. Jonsson, Boundary layer phenomena during ultrafiltration of dextran and whey protein solutions, Desalination 51 (1984) 61–77, https://doi.org/10.1016/00119164(84)85053-5.[36] A. Yushkin, R. Borisov, V. Volkov, A. Volkov, Improvement of MWCO determination by using branched PEGs and MALDI method, Separation and Purification Technology 211 (2019) 108–116, https://doi.org/10.1016/j. seppur.2018.09.043.[37] M.P. N Hadjichristidis, H. Iatrou, P. Driva, G. Sakellariou, M. Chatzichristid, 6.03 polymers with star-related structures: synthesis, properties, and applications. v6 aspects of macromolecular architecture and discrete nano-objects, in: K. Matyjaszewski, M. M¨oller (Eds.), Polymer Science: a Comprehensive Reference, Elsevier, Amsterdam, 2012, pp. 29–111.[38] S. Mochizuki, A.L. Zydney, Dextran transport through asymmetric ultrafiltration membranes: Comparison with hydrodynamic models, J. Membr. Sci. 68 (1992) 21–41, https://doi.org/10.1016/0376-7388(92)80147-C.[39] G. Guillot, L. Leger, F.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ranes: Comparison with hydrodynamic models, J. Membr. Sci. 68 (1992) 21–41, https://doi.org/10.1016/0376-7388(92)80147-C.[39] G. Guillot, L. Leger, F. Rondelez, Diffusion of large flexible polymer chains through model porous membranes, Macromolecules 18 (1985) 2531–2537, https://doi. org/10.1021/ma00154a030.[40] G.B. van den Berg, I.G. R´acz, C.A. Smolders, Mass transfer coefficients in cross-flow ultrafiltration, J. Membr. Sci. 47 (1989) 25–51, https://doi.org/10.1016/S03767388(00)80858-3.",
+    "citation": {
+      "authors": [
+        "Livingston G."
+      ],
+      "paper_id": "1-s2.0-S0376738825009263-main",
+      "title": "Selectivity control in organic solvent nanofiltration–membranes or process?",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  }
+]

@@ -1,0 +1,374 @@
+[
+  {
+    "content": "1. Introduction\nGlobal nitrate contamination in water supplies has emerged as a significant environmental and public health concern due to its association with conditions such as methemoglobinemia in infants and its contribution to eutrophication [1,2]. Intensive agricultural practices have resulted in elevated nitrate concentrations in both surface and groundwater in certain regions of Germany, exceeding the permissible limits of 50 ppm [3–5]. In this context, nanofiltration (NF) membranes present a promising solution for selective ion separation owing to their tunable performance, ability to handle complex water streams, and low operational costs compared to other nitrate removal methods such as reverse osmosis or ion exchange [6–11]. However, NF membranes frequently encounter the trade-off between selectivity and permeability, which may limit their practical implementation. Recent studies indicate that controlling membrane fabrication conditions can further refine this trade-off [12–16].",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Introduction",
+      "pages": [1, 2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Thin-film composite (TFC) membranes fabricated by interfacial polymerization (IP) are highly sensitive to the characteristics of the monomers, including functional groups, spatial configuration, size, and reactivity. These factors significantly influence both the membrane formation and its ultimate performance [6,8]. For instance, aqueous-phase monomers with slower diffusion rates and lower reactivity, like polyphenols, tend to produce thicker polyester selective layers with increased porosity and reduced crosslinking [17]. In contrast, more reactive monomers, like piperazine (PIP), typically result in denser and thinner polyamide selective layers [18]. Additionally, the membrane’s net charge is determined by the ionizable moieties in the selective layer [19], which originate from the monomers and their concentrations during IP. For example, replacing PIP with polyethylenimine as the aqueous-phase monomer can lead to a membrane with a higher positive charge owing to the protonation of multiple amine groups [20]. Furthermore, increasing the PIP concentration can decrease a membrane’s negative charge, thereby enhancing cation selectivity [21,22]. Even subtle changes in monomer structure can significantly influence membrane performance [23].",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Since membrane performance is governed by its physicochemical properties, variations in membrane morphology and charge density can affect how specific ions, such as nitrate, permeate through the membrane [24]. Of all aqueous-phase monomers, PIP is the most successful and widely utilized for TFC NF membrane fabrication. The PIP-derived monomers, aminoethylpiperazine (AEP) and 1,4-bis(3-aminopropyl)piperazine (DAP) were chosen in this study owing to their distinct chemical structures. AEP contains both a primary amine on its side chain and a secondary amine in the PIP ring, while DAP has two primary amines on alkyl chains. These structural differences influence the balance between diffusion and crosslinking during IP, resulting in polyamide (PA) selective layers with distinct thicknesses, pore sizes, and charge densities [8,23,25–28]. For instance, the presence of these additional amines allows AEP and DAP to generate PA layers with tunable, often positive, surface charge compared to conventional PIP-based membranes. However, although the structure of the monomer provides the basis for certain membrane properties, the resulting thickness, pore size, and charge density are also dependent on the interplay of IP reaction conditions and support properties [6]. Understanding how monomer structure, along with IP reaction conditions, affects the membrane properties that govern ion transport is important for optimizing both permeance and selectivity.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "To shed light on these phenomena, we use the Donnan-Steric Pore Model with Dielectric Exclusion (DSPM–DE) [14]. This model provides a mechanistic understanding of ion transport, by accounting for the exclusion mechanisms at the bulk-solutions/membrane interfaces while breaking down total transmembrane ion flux into advective, electromigrative, and diffusive contributions [14,22,24,29–32]. This approach can elucidate the influence of physicochemical characteristics of the membranes on selective nitrate transport. Our previous work on PIP-based membranes [24] was focused on the impact of monomer concentration on nitrate removal, emphasizing the role of dielectric exclusion and diffusion. Although PIP membranes exhibited relatively high nitrate selectivity, the influence of the aqueous-phase monomer’s molecular structure on nitrate separation performance remains to be explored. More importantly, no studies have ever reported the influence of monomer structure on the underlying mass transport mechanisms responsible for the separation of nitrate or any other ions by NF membranes. Although previous studies on AEP or DAP-based membranes have established how monomer selection and IP reaction conditions alter membrane charge and permeability, they relied exclusively on experimental observations and did not systematically examine the fundamental transport mechanism governing ion separation [8,23,25–28]. This study addresses that gap by focusing on AEP and DAP monomers, investigating their impact on the trade-off between permeability and selectivity and providing insights into mass transport mechanisms responsible for selective transport of nitrate.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In this study, we systematically examined the role of the aqueous-phase monomer in determining NF membrane performance, emphasizing the interplay between membrane physicochemical characteristics and nitrate-selective transport. Unlike our previous study on PIP-based membranes, which focused on the effect of monomer concentration, this work explored how structural differences between AEP and DAP affect nitrate separation using the DSPM-DE model. We fabricated five membranes at varying concentrations of each monomer, resulting in a total of ten membranes. The morphological properties of these membranes were characterized through scanning electron microscopy (SEM) and atomic force microscopy (AFM) analyses, and their separation performance was evaluated through water permeance, PEG 200, and both single- and mixed-salts retention tests targeting nitrate-selective separation. The DSPM-DE model was subsequently applied to elucidate the mechanisms governing ion transport. Finally, we analyzed how these variations shape the trade-off between flux and selectivity. Overall, this study broadens our mechanistic understanding of selective nitrate transport in NF membranes and contributes to the development of advanced membrane materials tailored for targeted water treatment applications.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Materials and methods\n2.1. Materials\nAll chemicals were used as received without additional modification. 1-(2-aminoethyl)piperazine (AEP, >99 %), 1,4-bis(3-aminopropyl)piperazine (DAP, >99 %), trimesoyl chloride (TMC), and n-heptane were purchased from Sigma-Aldrich Chemie GmbH (Germany). Microporous polyacrylonitrile (PAN) membrane, produced via nonsolvent induced phase separation at Helmholtz-Zentrum Hereon, served as the support. Poly(ethylene glycol) (PEG, average molecular weight 200 Da) was obtained from VWR International GmbH, while the salts NaCl (>99.5 %), Na2SO4 (>99 %), and NaNO3 were purchased from Merck KGaA, Carl Roth GmbH, and Honeywell Specialty Chemicals Seelze GmbH, respectively.\n\n2.2. Methods\n2.2.1. Fabrication of TFC NF membranes\nTFC membranes were prepared by interfacial polymerization (IP) on PAN supports. The aqueous (AEP or DAP) and organic phase monomers (TMC) were dissolved in ultrapure DI water and HPLC-grade n-heptane, respectively. The PAN supports were first soaked in ultrapure deionized (DI) water for 24 h before membrane synthesis. Excess water was gently removed from the surface of the soaked PAN supports by a 1-min rubber rolling followed by dust-free Kim wipes to avoid any droplets on the surface of the support. The PAN support was then immersed in a 350-mL aqueous solution of either DAP or AEP at one of five concentrations for 6 min. Next, the same rolling and wiping procedure was applied again to remove any residual aqueous solution from the surface of the soaked support.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Materials and methods",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The soaked PAN supports were fixed onto a 5.1 cm × 15.9 cm glass plate comprising a nitrile rubber layer and a PTFE frame. A 0.30 %w-w TMC solution was then poured over the surface of the AEP- or DAP-soaked supports to start the IP reaction for 90 s. To stop the reaction, 150 mL of pure n-heptane was poured over the membrane surface. The resulting TFC membranes were then air-dried at room temperature for 30 min, heat-treated at 60 °C under vacuum for 30 min, and finally stored in ultrapure DI water at room temperature. At least three membranes were fabricated under each IP condition. To systematically assess the effect of monomer concentration on membrane performance, a ten-fold range of concentration for each monomer was explored. Preliminary tests showed that, when using identical concentration values, DAP-based membranes exhibited excessively low permeance, whereas AEP-based membranes were too thin to form a defect-free selective layer. Accordingly, we selected three overlapping concentrations (0.10, 0.30, and 0.50 % w-w) to enable direct comparison, with two additional lower concentrations for DAP (0.05 and 0.075 % w-w) and two higher concentrations for AEP (0.70 and 1.00 % w-w). In total, five well-spaced concentrations were evaluated for each monomer, yielding membranes with adequate flux and reproducible morphology across the entire series.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Materials and methods",
+      "pages": [2, 3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2.2. Morphology characterization\nThe surface and cross-sectional morphologies of the membranes were analyzed using scanning electron microscopy (SEM). Samples were first dried under vacuum at 60 °C for at least 72 h, sputter-coated with a 1.0–1.5 nm platinum layer, and imaged using a Zeiss Merlin SEM operating at 1.5–3 kV. Atomic force microscopy (AFM) was used to analyze the topography of the membrane surfaces. AFM measurements were carried out in tapping mode on a Bruker MultiMode 8 instrument over scan areas of 3 μm × 3 μm using RTESPA-150 probes (tip radius ≈8 nm); roughness parameters (Rq and Ra) were computed with NanoScope Analysis software. Rq, also called RMS roughness, is the root mean square average of height deviations taken from the mean image data plane.\n\n2.2.3. Performance evaluation\nMembrane performance was assessed via pure water permeance and retention experiments using a stirred dead-end filtration cell (effective area = 2.14 cm2) supplied by Millipore. The pure water permeance (PWP) was calculated with the data recorded during the water compaction step, which comprised ultrapure DI water permeation for at least 2 h at 4 bar and room temperature, using the equation PWP = Δm/(δH2O·Amb·Δt·ΔP), where Δm is the change of mass, δH2O is the density of liquid water at room temperature, Amb is the effective membrane area, Δt is the elapsed time, and ΔP is the transmembrane pressure.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Materials and methods",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2.4. Ion retention\nAfter the water compaction procedure, the membranes were evaluated via ion retention tests using both single and mixed salt solutions. To minimize concentration polarization, the cell was stirred at 300 rpm, and all experiments were repeated at least three times. Salt solutions were added into the stirred dead-end filtration cell. Single salt retention tests were performed with 200 ppm aqueous solutions of NaCl, NaNO3, and Na2SO4. For mixed salt experiments, equimolar mixtures containing 200 ppm of NO3- and SO42- or NO3- and Cl- were prepared using combinations of NaCl + NaNO3 and NaNO3 + Na2SO4. The transmembrane pressure was consistently maintained at 3 bar. To ensure steady state had been reached, permeate samples collected during the first 2 h were discarded. Then, 1 mL retentate and permeate samples were collected. As the retentate concentration varies with time in dead-end mode, the retention (Ri,obs) was computed using the average concentration of the feed and retentate solution: Ri,obs = 1 - (2ci,p)/(ci,f+ci,r), where ci,p, ci,f, ci,r are the concentrations of species i in the permeate, feed, and retentate solutions, respectively. These concentrations were quantified with an Ion Chromatograph (Dionex ICS600, Thermo Fisher Scientific Inc., USA). The ideal selectivity, S*a/b, from single salt retention tests and the real selectivity, Sa/b, from mixed salt retention tests were computed with the equation: S*a/b or Sa/b = (1-Ra,obs)/(1-Rb,obs).",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Materials and methods",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2.5. PEG retention\nPEG 200 retention experiments were performed under different transmembrane pressures (0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, and 4.0 bar) to determine the retention at different flow rates. The flow rates were computed with Jv = Δm/(δH2O·Amb·Δt). The PEG concentration was measured with Gel Permeation Chromatography (GPC) (VWR-Hitachi 2130 pump, Hitachi, Darmstadt, Germany).\n\n2.2.6. DSPM-DE model\nTo simulate ion transport through the membranes via the DSPM-DE model, the model’s input parameters, namely thickness-to-porosity ratio (Δxe), pore radius (rpore), pore dielectric constant (εpore), and membrane charge density (cx), were calculated by fitting experimental retention data. Retention tests with PEG 200 were used to determine rpore and Δxe, while mixed salt experiments for estimating εpore and cx. A dual annealing optimization algorithm, implemented in Python using the SciPy library with the Nelder-Mead method as local optimizer (with a convergence tolerance of 10-6), was used to perform the parameter fitting. Details of the fitting are described elsewhere [24].",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Materials and methods",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Results and discussion\n3.1. Morphology and baseline properties\nThe structural differences between AEP and DAP significantly impact the IP process with TMC [23]. In addition to influencing the diffusion rates of aqueous-phase monomers, these differences lead to distinct interface reactivities with TMC and differences in incipient PA layer densities. When the two phases come into contact in the IP process, a fast polycondensation reaction occurs at the interface, forming a polymer barrier that restricts the further diffusion of aqueous-phase monomers into the organic phase. It is well established that the IP reaction primarily takes place in the organic phase (in close vicinity to the interphase) due to the higher partition coefficient of the amine monomers in the organic phase [33]. Consequently, from this point onward, the polymerization reaction depends on a continuous supply of monomers, coupling the kinetics of the chemical reaction with the diffusion of the aqueous-phase monomer through the incipient PA layer [33]. To capture this complex interdependence, the Eyring activation state theory is used, which integrates diffusion rates with reaction kinetics by considering the energy required for reactants to pass through a high-energy transition state (TS) to transform into products: k = (kBT/h) exp(-ΔG‡/RT), where the activation free energy is ΔG‡ = ΔH‡ - TΔS‡ [34,35].",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "AEP bears one primary amine on its side chain and a secondary amine in the piperazine ring, which provides a higher electron density for nucleophilic attack on TMC and can also adopt ring conformations that favorably influence ΔS‡. This combination effectively lowers ΔH‡ and helps stabilize the TS, thereby resulting in a reduced ΔG‡ and faster IP reaction (i.e., increased rate of both molecular diffusion and chemical reaction). Conversely, DAP’s primary amines, located on longer propyl side chains, exhibit lower nucleophilicity, which increases ΔH‡ and potentially limits entropic freedom at the TS. This leads to a higher ΔG‡ and slower IP process. Consequently, AEP rapidly forms a dense, incipient layer that limits further monomer penetration, thereby “locking in” a comparatively denser crosslinked network. On the other hand, DAP forms a less dense, more open incipient PA layer that allows further monomer diffusion into the organic phase [36,37], as schematically represented in Fig. 1A. Therefore, the chemical structure of the monomer alters TS stabilization, directly influencing the overall surface morphology and thickness of the resulting PA layer [8].",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [3, 4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "SEM analysis confirms these trends. In the case of DAP-based membranes, SEM top-surface micrographs of DAP0.05, DAP0.075, and DAP0.1 reveal an uneven and incomplete coverage of the PA layer on top of the PAN support. At higher DAP concentrations, membranes DAP0.3 and DAP0.5 display a more uniform, fully developed and smoother PA layer. In contrast, AEP membranes consistently yield a rough PA layer across all investigated concentrations. PA layer thickness generally increases with higher aqueous-phase monomer concentrations due to self-limited diffusion growth [24,33]. DAP membranes show a continuous increase in PA thickness with increasing DAP concentration, attributed to the more open incipient PA layer formed by DAP, which facilitates further monomer diffusion into the organic phase and continued layer growth. In contrast, AEP membranes exhibit a similar thickness increase at lower concentrations but reach a plateau beyond 0.3 % w-w. Under comparable concentration conditions, AEP membranes exhibit slightly thicker selective layers than DAP membranes at 0.1 and 0.3 % w-w. However, when the DAP concentration increases from 0.3 to 0.5 % w-w, the membrane thickness increases almost four-fold. Notably, despite AEP’s smaller molecular size, DAP demonstrates greater sensitivity to monomer concentration variations, influencing PA layer growth more significantly.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "We attribute the abrupt thickness increase observed for DAP between 0.3 and 0.5 % w-w to a concentration-triggered transition in the IP growth regime. Because DAP forms a more open, less crosslinked incipient PA layer, increasing the DAP concentration promotes (i) coalescence from patchy to fully continuous coverage together with a smoother topography and (ii) a transient stage in which the nascent film remains sufficiently permeable to sustain enhanced DAP diffusion through the layer. The resulting non-linear increase in monomer supply to the organic phase enables the reaction front to penetrate deeper before densification stabilizes the structure, thereby producing the step-change in thickness at 0.5 % w-w. Surface roughness measurements analyses further evidence the influence of DAP concentration. Membranes fabricated at lower DAP concentrations (0.05–0.1 % w-w) exhibit increasing RMS roughness with increasing monomer concentration, like AEP membranes. However, at higher DAP concentrations (0.3–0.5 % w-w), these nodular features coalesce into a much smoother surface. This smoother topography is evidence of DAP’s lower reactivity. In contrast, AEP membranes develop rough, nodular surfaces due to rapid, diffusion-limited PA layer formation, a characteristic typically observed in PA layers formed by highly reactive monomers, such as PIP [8,14,23]. These results demonstrate the significant role of monomer structure in dictating PA layer morphology and thickness. Tailoring the molecular structure of monomers, such as switching from a single ethyl side group (AEP) to double propyl side groups (DAP), can influence the balance between diffusion-limited growth and interface-localized reaction, ultimately determining the performance of the membrane.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Membrane performance characteristics\nThe surface morphology of the PA membranes significantly influences their water transport properties. A pronounced drop in pure water permeance (PWP) is observed as DAP concentration increases from 0.05 to 0.5 % w-w, aligning with the increase in PA layer thickness. In contrast, AEP membranes show a more intricate response: as AEP concentration increases from 0.1 to 0.3 % w-w, PWP initially increases before decreasing again at 1.0 % w-w. Unlike DAP membranes, the thickness of AEP membranes does not directly correlate with PWP, suggesting that factors beyond thickness influence PWP [22]. Notably, at comparable concentrations (0.1, 0.3, and 0.5 % w-w), AEP membranes exhibit higher PWP than their DAP counterparts even though AEP membranes also appear thicker. To better understand these results, we calculated the thickness-to-porosity ratio, Δxe, through PEG 200 retention tests. This ratio serves as an average metric of the morphological features that collectively govern mass transport resistance (larger Δxe values indicate higher resistance) [22,24]. Across all membranes, PWP and Δxe display a negative covariance. For DAP membranes, Δxe consistently decreases with increasing DAP concentration, indicating that the large increase in thickness dominates the overall resistance. In contrast, the relationship between AEP concentration and mass transport resistance is less straightforward, suggesting that multiple morphological features, such as the roughness of the PA active layer, play a significant role. This is consistent with our previous findings for PIP-based membranes [22].",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Building on the previous analysis of membrane morphology and PWP, we next examine the single-salt ion retention behavior to further elucidate how differences in AEP and DAP structures influence membrane performance. As expected, anion retention typically decreases with increasing solution flux, indicative of either thinner or less crosslinked PA layers resulting from lower monomer concentrations. The NO3-/Cl- ideal selectivity decreases with increasing flux, consistent with a typical permeability-selectivity trade-off. For negatively charged nanofiltration (NF) membranes, electrostatic and steric effects typically lead to stronger retention of sulfate (SO42-) compared to nitrate (NO3-) or chloride (Cl-). Yet DAP0.1, DAP0.3, and DAP0.5 membranes show lower SO42- than NO3- retention, resulting in an ideal selectivity below unity. This selectivity increases at higher DAP concentrations, suggesting that the thicker, more uniform layers observed in those membranes render a stronger size and charge-based exclusion effect. In contrast, AEP membranes consistently exhibit higher SO42- retention across all tested AEP concentrations, implying that electrostatic and steric effects are more pronounced in these highly crosslinked PA layers. An unexpected trend emerges with increasing flux: the NO3-/SO42- ideal selectivity tends to increase, suggesting that reduced mass-transfer resistance at high flux may increase the influence of electrostatic repulsion at the feed-solution/membrane interface. From a practical point of view, neither AEP nor DAP membranes go beyond rather small selectivity values in the range 0.4–1.6 for NO3-/SO42- or NO3-/Cl-, suggesting only modest ion separation under the tested conditions.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [4, 6]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "We further investigated two multi-ion systems: Na+/Cl-/NO3- and Na+/NO3-/SO42- to understand how AEP and DAP membranes respond under more complex filtration conditions. Retention of all ions decreases with flux in both systems, consistent with the hypothesis that less crosslinked PA layers facilitate higher permeation rates. In the Na+/Cl-/NO3- system, no separation between Cl- and NO3- is observed, as their selectivity values range around 1. For the Na+/NO3-/SO42- system, SO42- retention consistently exceeds that of NO3- across all the membranes, indicating a preferential transport of NO3- into the permeate. Some membranes (AEP0.1, DAP0.05, DAP0.075) even show negative rejections of NO3-, indicating a larger NO3- concentration on the permeate than the feed side. This phenomenon, observed in membranes fabricated at low monomer concentrations, suggests a coupled transmembrane ion transport [24]. In general, AEP membranes exhibit a higher ion retention than DAP membranes, likely due to smaller pore size or higher charge density. The resulting NO3-/SO42- selectivity follows a typical permeability-selectivity trade-off, i.e., less permeable membranes achieve higher selectivity. This implies a correlation between preferential transport of NO3- over SO42- with the mass transport resistance of the membranes.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [6]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Consistent with our previous study on PIP-based TFC membranes [24], these observations indicate that diffusion appears to govern NO3- transport, though the extent of this mechanism differs between AEP and DAP membranes. Specifically, AEP membranes exhibit higher NO3-/SO42- real selectivity but experience a steeper decline with increasing flux, while DAP membranes maintain a more stable selectivity trend despite exhibiting larger changes in mass transport resistance as quantified by Δxe. These observations suggest that applying the DSPM-DE model could provide further insights into the interplay between membrane properties and mass transport in these ion systems. Additionally, data from our previous study on PIP-based membranes display a higher NO3-/SO42- selectivity compared to both AEP and DAP membranes, thereby further illustrating the significant impact of monomer structure on ion-selective membrane performance.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [6]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Mechanistic insights\nThe DSPM-DE model was used to simulate Na+/NO3-/SO42- mixed-salt retention tests, providing a mechanistic comparison between AEP and DAP membranes. The model’s input parameters, thickness-to-porosity ratio (Δxe), pore radius (rpore), pore dielectric constant (εpore), and membrane charge density (cx), as well as the method for obtaining them, have been thoroughly described in our previous publication [24]. Specifically, Δxe quantifies the mass transport resistance of the membrane, rpore determines steric exclusion. εpore governs ion solvation energy barriers due to pore confinement, and cx affects electrostatic interactions with ions. Consistent with our earlier work [24], we assumed that εpore varies only with rpore, while its reduction, compared to the dielectric constant of water in the bulk solution (εbulk), stems from a single layer of water molecules next to the pore walls, whose thickness is dH2O. This layer is characterized by a distinct dielectric constant (ε*), which arises from the interaction of water molecules with the pore wall’s functional groups [14]. As there are no experimental methods to determine ε*, previous studies have relied on arbitrary values [39]. Consequently, in this study, ε* was assumed to depend only on the aqueous-phase monomer (AEP or DAP).",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [7]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3.1. Exclusion phenomena\nThe exclusion phenomenon at the feed-solution/membrane interface is described by the exclusion or partitioning coefficients, which depend on the physicochemical characteristics of the membranes, represented by the model’s input parameters. These coefficients quantify individual contributions of steric, dielectric, and electrostatic effects, enabling us to interpret the experimental differences in NO3- and SO42- selectivity observed between AEP and DAP membranes. The steric exclusion coefficient ΦS,i = (1 - ri/rpore)^2 represents the size-based barrier to ions entering the pore. The dielectric exclusion coefficient ΦDE,i = exp( (zi^2 e0^2)/(8πε0 ri kBT) · (1/εbulk - 1/εpore) ) quantifies the effect of pore confinement on ion solvation energies. The Donnan exclusion coefficient Φx=0,D,i = exp( - (zi F)/(RT) ΔΨD,f ) captures the impact of electrostatic interactions.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [7]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "DAP membranes achieve larger rpore values under similar fabrication conditions, consistent with the less dense PA layer fabricated with DAP. Notably, increasing the monomer concentration tenfold reduces rpore from 0.69 nm to 0.62 nm in AEP membranes (~11.6 % decrease), whereas DAP membranes experience a more pronounced ~27.3 % reduction (from 0.83 nm to 0.65 nm). AEP membranes show slightly stronger steric and dielectric exclusions, aligned with their generally smaller rpore values. As expected, the steric exclusion coefficients of Na+, NO3-, and SO42- follow the anticipated trend based on ion size, with SO42- exhibiting the highest exclusion (i.e. the smallest coefficient). Meanwhile, the dielectric exclusion coefficients decrease with decreasing pore dimensions, reflecting the smaller εpore values and larger solvation energy barrier within confined pores. The decline is most pronounced for SO42- due to its divalent charge and ion size. Therefore, the difference between the dielectric exclusion coefficient of NO3- and SO42- widens with decreasing rpore. For instance, there is a difference of approximately two orders of magnitude for AEP1 membrane, which attains the smallest rpore. Although the magnitude of rpore differs between AEP and DAP membranes, both sets of data follow the same trend in dielectric exclusion owing to the same ε* for both membrane types. Thus, differences in dielectric exclusion between AEP and DAP membranes are driven only by rpore rather than monomer chemical structure.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [7, 8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The electrostatic interactions between membranes and ions exhibit distinct differences between AEP and DAP membranes. The Donnan exclusion coefficients for Na+, NO3-, and SO42- as functions of the membrane charge density (cx) derived from the DSPM-DE model show that increasing the amine concentration (AEP or DAP) increases cx, thereby intensifying electrostatic interactions. However, AEP and DAP membranes respond differently: a tenfold rise in AEP concentration results in over a 2000 % increase in cx (from +0.07 mM to +1.54 mM), whereas similar increase in DAP yields only ~258 % growth in cx (from -0.18 mM to +0.17 mM). This disparity arises from DAP’s lower reactivity, which promotes a more voluminous network formation and yields thicker but less charged membranes, whereas AEP forms comparatively thinner, highly charged PA layers. As the membrane’s positive cx increases, Na+ experiences stronger electrostatic repulsion (Donnan coefficient <1), while anions (NO3- and SO42-) are increasingly attracted (Donnan coefficient >1). Among the anions, SO42- shows the steepest response to increasing cx owing to its divalent negative charge, with the difference in Donnan exclusion between NO3- and SO42- growing nearly an order of magnitude under the most highly charged conditions (AEP1 membrane). These findings reveal how variations in membrane cx, driven by monomer chemistry and concentration, control the electrostatic partitioning of ions, a key factor in the selective transport behavior of charged NF membranes.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The overall exclusion (or partitioning) coefficients, which integrate steric, dielectric, and Donnan contributions, are functions of cx for both AEP and DAP membranes. This confirms that the main driver of overall ion partitioning is cx at the feed-solution/membrane interface. Therefore, AEP membranes display more extreme changes in overall exclusion than DAP membranes, reflecting their larger cx. As cx increases with higher AEP or DAP concentrations, the electrostatic repulsion of Na+ intensifies, while anions (NO3- and SO42-) experience weaker exclusion. In particular, the steep variation of Donnan exclusion with cx largely dictates the total exclusion trend, overshadowing dielectric effects. This behavior contrasts with our earlier findings using PIP monomer, where dielectric effects had a more pronounced impact [24]. This interplay yields interesting results for NO3- and SO42- separation. While increasing amine monomer concentration does increase SO42- dielectric exclusion (due to smaller pore sizes), it also increases positive cx values, enhancing the electrostatic attraction of SO42- even more. Consequently, membranes fabricated at higher AEP or DAP concentrations exhibit smaller differences in NO3- and SO42- overall exclusion, despite increased differences in dielectric exclusion coefficient. In contrast, membranes prepared with lower concentrations, having weaker positive cx, display larger NO3-/SO42- exclusion differences because Donnan interactions do not compete as strongly with dielectric exclusion. These observations demonstrate that membrane chemistry and morphology (AEP vs. DAP) fundamentally tune the balance of steric, dielectric, and electrostatic interactions. Modulating membrane charge through monomer concentration and chemical structure is the dominant factor for tuning ion partitioning, with dielectric exclusion playing a secondary, but significant role in NO3- and SO42- separation.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [8, 9]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3.2. Transmembrane molar fluxes\nIn steady state, the extended Nernst-Planck equation describes the transport of each ion, i, through the membrane’s active layer by considering its contributions: advection, electromigration, and diffusion. The total molar flux Ji = Jv ci,p = Ji,adv + Ji,elec + Ji,diff. The advective contribution (driven by solvent flow) is Ji,adv = Ki,a ci Jv. The electromigrative contribution (driven by the electrical potential gradient) is Ji,elec = - (zi F ci Ki,d Di,∞)/(RT) dΨ/dx. The diffusive contribution (driven by the concentration gradient) is Ji,diff = - Ki,d Di,∞ dci/dx. The advective flux is closely related to the overall exclusion, which is governed by cx. This relationship stems from ion concentration inside the membrane’s active layer, where a higher concentration (i.e., larger overall exclusion coefficient) leads to a larger advective flux. Consequently, strongly negative charged membranes (e.g., PIP-based membranes) favor Na+ partitioning and advective transport, whereas strongly positive AEP- or DAP-based membranes promote greater anion advective flux. Notably, AEP membranes show steeper variations in advective flux with changing cx, as they generally attain higher positive charges. In contrast, DAP membranes, being closer to neutral, display more moderate changes in advective flux, even when the solution flux varies more steeply, aligning with larger variation of Δxe. This underscores the critical role of cx in determining the advective flux, exceeding the influence of the solution flux through the membrane’s active layer.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [9]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The electromigrative flux does not follow a uniform monotonic trend across all membranes; its direction and magnitude are strongly dependent on whether an ion acts as a coion or a counterion, which in turn is governed by the sign and magnitude of cx. Counterions exhibit negative electromigrative fluxes that counterbalance their large advective fluxes, thereby preventing excessive accumulation in the permeate (i.e., breaking electroneutrality condition). Hence, in negatively charged PIP membranes, Na+ has a larger negative electromigrative component, while in positively charged AEP or DAP membranes, the anions NO3- and SO42- assume that role. Across all monomer types, increased |cx| intensifies these electromigrative effects, as stronger membrane charges enhance coions exclusion more effectively while driving larger counterion fluxes through stronger electric fields. In other words, coion electromigrative fluxes remain less sensitive to cx, as their concentrations in the membrane’s active layer are already low. Overall, these results demonstrate that cx remains the primary factor regulating the advective-electromigrative interplay in Na+/NO3-/SO42- transport, with the specific sign and magnitude of cx dictating which ions experience the most significant effects.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [9]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Diffusion is driven by the concentration gradient across the membrane’s active layer but modulated by hindrance effects that limit ion transport through the membrane pores. Although increasing Δxe values reduce diffusion [22], the extent of this decline is strongly influenced by the physicochemical properties of each membrane. Compared to AEP membranes, DAP membranes tend to yield more open porous structures, i.e., larger rpore and less hindrance [40,41]. Consequently, DAP membranes exhibit larger diffusive fluxes at comparable Δxe values. This behavior is consistent with their lower overall retention of NO3- and SO42-. For instance, DAP0.05 membrane combines the smallest Δxe and largest rpore, allowing both anions to diffuse similarly and yielding the second lowest NO3-/SO42- selectivity among the tested membranes. Moreover, DAP0.05 membrane, displaying a slightly negative cx, can exhibit negative retention. This result agrees with our previous observations in negatively charged PIP membranes [24], where Na+ diffusion drives a large concurrent NO3- diffusive flux to maintain electroneutrality [42]. Because SO42- is more strongly excluded at the feed-solution/membrane interface in a negatively charged membrane, NO3- and Na+ must diffuse together through similar concentration gradients, making diffusion the dominant mechanism for NO3- transport. Consequently, NO3- concentration in the permeate exceeds that in the feed, thereby yielding negative retention.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [10]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "On the other hand, AEP membranes are generally denser (i.e., smaller rpore and diffusive fluxes) but can develop stronger positive cx, reducing anion exclusion and enhancing attraction at the feed-solution/membrane interface. For instance, the AEP1 membrane shows the highest NO3-/SO42- selectivity, consistent with the large difference in the diffusive (and total) fluxes of these anions at larger Δxe values. Similarly, the AEP0.1 membrane has a negative NO3- retention, reflecting its large NO3- total flux (including a significant diffusive contribution) but weakest overall NO3- exclusion at the feed-solution/membrane interface (i.e., smallest net cx of AEP membranes). These examples demonstrate that the interplay of smaller rpore and greater positive cx values within AEP membranes, as a function of monomer concentration, can alter the diffusive and total fluxes of specific ions. As a result, NO3- and SO42- exhibit larger differences in fluxes, leading to the higher NO3-/SO42- selectivity observed for AEP membranes. When examining the total flux (the sum of advective, electromigrative, and diffusive contributions), the structural and charge-driven differences between AEP and DAP become more evident. For DAP membranes, smaller changes in cx keep advective and electromigrative contributions relatively stable as Δxe varies with changing DAP concentration. Thus, decreasing diffusive flux with increasing Δxe dominates the overall transport.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [10]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "AEP membranes also exhibit diffusive-driven trends: as Δxe increases, their total flux decreases similar to their diffusive flux. However, AEP membranes’ broad variation in cx might intensify or mitigate these Δxe-based diffusion effects, leading to a stronger or weaker overall exclusion of NO3- and SO42-. In other words, AEP membranes’ total flux trends are still driven mainly by diffusion, but may deviate from a simple correlation with Δxe, particularly when electrostatic interactions intensify, resulting in increased NO3-/SO42- selectivity at specific AEP concentrations. Owing to relatively stable cx values, NO3- and SO42- remain relatively close in total flux values, explaining the lower NO3-/SO42- selectivity observed for DAP membranes. In contrast, AEP membranes yield broader variations in cx, increasing the differences between NO3- and SO42- fluxes, as illustrated by the large NO3- total flux of AEP0.1 and the strong NO3-/SO42- separation in AEP1. These observations align with the observed trade-off between flux and selectivity. On one hand, larger, more open pores (DAP membranes) render higher overall transmembrane fluxes but weaker NO3-/SO42- separation. On the other hand, smaller, more highly charged pores (AEP membranes) can attain higher NO3-/SO42- selectivity, particularly at extreme monomer concentrations, at the expense of total flux. This interplay of pore hindrance, cx, and ion-specific exclusion explains why some AEP membranes (e.g., AEP1) achieve high selectivity, while others (e.g., AEP0.1) demonstrate negative NO3- retention.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [10]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Conclusion\nThis study explored the impact of two structurally distinct piperazine-based monomers, AEP (aminoethylpiperazine) and DAP (1,4-bis(3-aminopropyl)piperazine), on the morphology and performance of TFC membranes for NO3- and SO42- separation. By systematically varying the aqueous-phase monomer concentrations and employing experimental characterization with DSPM-DE modeling, we elucidated how membrane properties – pore size (rpore), thickness to porosity ratio (Δxe), and charge density (cx) – determine its ability to reject these anions. Our results indicate that the structural differences between AEP and DAP significantly impact the IP process with TMC. AEP, which bears a primary amine on its side chain and a secondary amine within the ring, exhibited greater reactivity and generally produced thinner active layers with smaller pores. It also displayed broader changes in net positive charge, creating large shifts in electrostatic interactions. By comparison, DAP produced thicker active layers with more open pores, resulting in higher diffusive fluxes and smaller changes in cx. In terms of water flux, AEP membranes did not always exhibit a direct correlation between PA layer thickness and permeance, thereby highlighting the influence of additional morphological factors. Meanwhile, DAP’s reduced overall reactivity (owing to its two 3-aminopropyl groups) produced thicker, smoother, and less permeable layers at equivalent concentrations.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Conclusion",
+      "pages": [10]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Applying the DSPM–DE model enabled us to break down the transmembrane fluxes into advective, electromigrative, and diffusive contributions, elucidating how thickness, pore size, and membrane charge each contribute to NO3-/SO42- separation. For DAP membranes, smaller changes in cx keep advective and electromigrative contributions relatively stable across changes in Δxe; therefore, diffusion becomes the dominant factor in total transmembrane molar fluxes. This led to NO3- and SO42- exhibiting similar total transmembrane molar fluxes, resulting in lower selectivity. In contrast, AEP membranes develop larger positive cx values, which can intensify or mitigate Δxe-based diffusion effects through increased ion partitioning at the feed-solution/membrane interface. This mechanistic difference accounts for phenomena such as negative NO3- retention (when cx approaches zero or is slightly negative) and improved selectivity in highly charged AEP membranes (e.g., AEP1) at the expense of reduced solution flux. By comparing diffusive and total transmembrane molar fluxes, we explained why DAP’s larger pores and smaller charge changes exhibit larger fluxes and reduced anion separation. On the other hand, AEP membranes yield generally smaller pores (i.e., stronger steric hindrance) and stronger electrostatic effects. This significantly alters the fluxes of individual ions, causing larger differences between NO3- and SO42-, as observed for AEP1 membrane. Although the resulting selective transport often reduces the overall flux, it improves NO3-/SO42- separation. These findings confirm the typical trade-off between flux and selectivity and demonstrate how targeted monomer design can modulate membrane morphology and charge characteristics to meet specific separation objectives.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Conclusion",
+      "pages": [10, 12]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In conclusion, even subtle modifications in monomer chemistry and concentration can profoundly impact PA layer formation and ion transport. Utilizing DSPM–DE modeling to elucidate flux contributions and partitioning, we clarified why certain membranes achieve high NO3- selectivity (AEP1), negative NO3- retention (DAP0.05, DAP0.075, and AEP0.1), or intermediate behavior. In addition to elucidating the interplay between pore size, charge density, and flux-selectivity trade-offs, this work uniquely demonstrates that the chemical structure of the aqueous-phase monomer, beyond its concentration, serves as an important variable for tuning NF membrane performance. By comparing two structurally distinct piperazine derivatives (AEP and DAP) within the same DSPM-DE model, we show for the first time that aqueous-phase monomer identity controls the balance of dielectric and Donnan exclusion, enabling systematic decoupling of solvation and electrostatic effects. This mechanistic understanding departs from our previous PIP-only studies, where dielectric exclusion dominated. These insights provide a framework for the rational design of next generation charged TFC membranes tailored for specific NO3- separation. While this study exclusively focuses on the effect of the aqueous-phase monomer, we note that systematic variation of the organic-phase monomer chemistry could likewise influence PA layer formation and membrane performance and thus presents an important direction for future research.",
+    "citation": {
+      "authors": ["Nicolás Cevallos-Cueva", "Md. Mushfequr Rahman", "Hluf Hailu Kinfu", "Volker Abetz"],
+      "paper_id": "1-s2.0-S037673882500955X-main",
+      "title": "Effect of piperazine-based monomer structure on nanofiltration membrane selectivity: A DSPM-DE analysis of nitrate transport",
+      "year": "2025",
+      "section": "Conclusion",
+      "pages": [12]
+    },
+    "type": "chunk"
+  }
+]

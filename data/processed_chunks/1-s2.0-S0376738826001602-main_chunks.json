@@ -1,0 +1,859 @@
+[
+  {
+    "content": "A B S T R A C T Understanding, modeling, and predicting transfer in membrane processes remain major challenges, as they involve several coupled phenomena occurring in concentrated, non-ideal phases. Current models often treat hydrodynamic, colloidal, and interfacial effects separately, making it difficult to link microscopic in­teractions to macroscopic behavior such as permeation, selectivity, and fouling. This work proposes an interaction-based framework that describes membrane transport through the fundamental couplings between the fluid, colloid, and membrane phases. By reformulating transport equations in terms of these interactions, the approach reveals the minimal set of ingredients and interactions required to capture the essence of membrane transfer phenomena — the ultimate reduction before losing physical meaning. The resulting framework provides a continuous description from dilute dispersions to concentrated or consolidated states, bridging thermodynamic and me­chanical regimes. Finally, the framework is applied to three representative cases illustrating how interaction complexity shapes separation. Beyond offering a new way to model transfer, this perspective helps recover the physical sense of membrane separation: connecting intuition, equations, and mechanisms into a coherent view of how membranes actually operate.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ver the physical sense of membrane separation: connecting intuition, equations, and mechanisms into a coherent view of how membranes actually operate. Finally, controlling interactions in three dimensions — within and across the membrane structure — emerges as a promising route toward the next generation of selective and energy-efficient membranes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Understanding transfer in membrane processes remains a central challenge in separation science. Mass transport through a membrane involves multiple coupled phenomena — hydrodynamic flow, diffusion, colloidal, and interfacial interactions — occurring in concentrated, nonideal environments. Despite decades of research, modeling and pre­dicting these coupled mechanisms remain difficult, as they bridge vastly different scales in space, time, and physical nature. At the core of membrane processes lie interactions between three fundamental components: the fluid, the colloids -we will use the term colloids here to refer to all types of Brownian objects (solute, macro­molecules, particles) exerting osmotic pressure-, and the membrane. These interactions in aqueous dispersion may arise from electrostatic, electro-steric, van der Waals, or hydration forces, each acting over characteristic length scales ranging from several hundred nanometers to a few nanometers. Their importance stems from a geometrical coinci­dence: the characteristic size of membrane pores is often comparable to that of the species being separated. Consequently, these interaction forces play a dominant role in shaping transport, accumulation, and selectivity within confined geometries. The significance of such interactions was already underlined in the",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1990s by Cohen and Probstein [1], who formulated the flux paradox in colloidal filtration: the experimentally observed permeate flux could not be explained solely by hydrodynamics and convection–diffusion coupling. This paradox led to the definition of the critical flux [2,3], corresponding to the convective intensity required to overcome surface repulsion and initiate particle deposition. Since then, membrane trans­port phenomena have been described through distinct theoretical frameworks — mechanical, hydrodynamic, or thermodynamic — each focusing on specific regimes such as concentration polarization or cake/gel formation. However, these compartmentalized descriptions often lack a unified physical representation linking microscopic in­teractions to macroscopic transfer and selectivity. A continuous under­standing of interaction-driven states, from dilute dispersions to condensed and solid phases, is essential to predict and control process performance. Building on this historical foundation, the present paper presents an approach that revisits the importance of interactions in membrane transfer such as those encountered in Reverse-Osmosis, Nanofiltration, Ultrafiltration or in Forward Osmosis and Pressure Retarded Osmosis. Rather than starting from equations, it begins with physical intuition: identifying how the couplings induced by colloid–colloid and col­loid–membrane interactions govern transport. From this intuitive basis,\n\nE-mail address: patrice.bacchin@utoulouse.fr.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 13 February 2026 0376-7388/ 2026 The Author. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license ( http://creativecommons.org/licenses/bync-nd/4.0/ ). formal models can then be developed to capture the associated transfer phenomena in a coherent and rigorous manner. The approach proposed here is deliberately reductionist and peda­gogical. It starts from a simple triptych — fluid, colloid, and membrane — the essential ingredients of a good separation recipe. Within this framework, five pairwise fundamental interactions emerge: fluid–fluid, colloid–colloid, colloid–fluid, fluid–membrane, and colloid–membrane (Section 2). Yet, as in gastronomy, having the right ingredients is not enough: what truly defines the success of the recipe is how these in­gredients combine and interact. An interaction-centered formulation is then developed to reformulate the transport equations in terms of ex­change terms between the three ingredients (Section 3). The “cooking” begins where these interactions shape the behavior of the ingredients, giving rise to the physical mechanisms of permeation, polarization, partition, and osmosis (Section 4). The final section explores how the non-idealities of the ingredients enrich the recipe (Section 5), enabling continuous modeling from dilute to solid phases and opening perspec­tives for the design of advanced membrane materials with threedimensional control of interactions (Section 6). 2.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "to solid phases and opening perspec­tives for the design of advanced membrane materials with threedimensional control of interactions (Section 6). 2. Membrane processes: a matter of interactions in a three ingredients recipe The mechanisms controlling transfer in membrane processes are inherently complex, as they involve several coupled phenomena occurring within highly non-ideal, often concentrated, phases. To distill this complexity down to its essential ingredients, three phases must be considered. - F: the fluid that flows through the membrane (e.g., water),- C: the colloid dispersed in the fluid (a generic term used to represent solutes or particles with surface interactions),- M: the membrane, which interacts specifically with both the fluid and the solute. These three ingredients form the base of the “recipe” for any mem­brane process. The richness — and the beauty — of membrane science come from the intricate entanglement of multiple interactions among these three phases. To embrace this complexity with enthusiasm rather than fear, we might recall the words of the French geneticist Albert Jacquard [4]:“Interactions induce an increase of complexity that can be the source of unexpected performances.” This statement resonates deeply in membrane science: interactions are the true source of the “magic” behind the surprising behaviors of membranes, whether biological or artificial.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "y in membrane science: interactions are the true source of the “magic” behind the surprising behaviors of membranes, whether biological or artificial. Mastering membrane pro­cesses means understanding the interplay between these interactions and the coupled phenomena of hydrodynamics, diffusion, and interfa­cial forces. For many membranologists, the Graal is to harness this complexity — not to simplify it away — to unlock new opportunities in separation. 2.1. Inter-phase interactions: where the recipe begins A convenient way to visualize these interactions is through a ternary diagram (Fig. 1), whose vertices represent the three fundamental phases: Membrane (M), Fluid (F), and Colloid (C). This representation, also known to describe membrane formation by non-solvent phase inversion, provides an intuitive framework to grasp how the different interactions control mass transfer. Three major inter-phase interactions shape the behavior of membrane processes. - FM: Fluid–Membrane interactions Describe the friction of the fluid along the membrane thickness (active and support layers) and are expressed macroscopically through the membrane permeability. - CF: Colloid–Fluid interactions Govern the relative motion between colloids and the surrounding fluid -this relative motion is the basis of separation-, thus defining the transport properties of the suspension.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "etween colloids and the surrounding fluid -this relative motion is the basis of separation-, thus defining the transport properties of the suspension. - CfM: Colloid–Membrane interactions Mediated by the interstitial fluid (f), they describe the selective role of the membrane active layer: exclusion of one component or controlled selectivity among several. 2.2. Intra-phase interactions: the internal quality of the ingredients Beyond the interfaces, interactions also occur within each phase. These intra-phase interactions reflect what could be seen as the internal quality of the ingredients themselves — how cohesive, structured, or responsive each component is under stress or concentration. - FF: Fluid–Fluid molecules interactions Represented by the fluid pressure; in a FF gradient, they define the driving force for the convective transport of the solvent. - CfC: Colloid–Colloid interactions (mediated by the fluid) Give rise to osmotic pressure, which governs the diffusive flux of colloids and represents the collective effects due to the concentration. 2.3. Optional direct interactions: when direct contact is made Under some conditions, direct mechanical (m) contact between phases or particles adds another layer of complexity. - MmC: direct Colloid–Membrane interactions Occur when colloids adsorb or attach to the membrane surface, leading often to irreversible fouling or internal clogging. Fig. 1.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "embrane interactions Occur when colloids adsorb or attach to the membrane surface, leading often to irreversible fouling or internal clogging. Fig. 1. The three different phases involved in membranes processes (Mem­brane, Fluid, Colloid) plotted as a ternary diagram to show inter-phase in­teractions (in black), intra-phase interactions (pressure and osmotic pressure) and their main consequences on transport and performance (in red).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "- CmC: direct Colloid–Colloid interactions Become relevant when colloids aggregate or form multilayer de­posits. These are characterized by the cake yield stress, a mechanical extension of osmotic pressure that describes the compressibility of a deposit. These interactions become essential once an adsorption layer or deposit forms on the membrane (see Section 5.1). However, they are not required to describe the initial coupling of interactions that govern mass accumulation and the emergence of counter-osmotic pressure, as observed during concentration polarization. 2.4. Putting it all together: a recipe for complexity In summary, operating a membrane process involves three main ingredients (M, F, C), five essential interactions (FM, CF, CfM, FF, CfC), and two optional direct contact (MC, CC) that enrich the picture when contact occurs. This simple yet comprehensive framework already cap­tures the core of complexity inherent to membrane science. And just like in gastronomy, ingredients alone do not make the recipe: it is the way they bind internally (intra-phase) and interact across phases (inter-phase) that ultimately controls the efficiency of the process (Fig. 2).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s the way they bind internally (intra-phase) and interact across phases (inter-phase) that ultimately controls the efficiency of the process (Fig. 2). - The fluid–membrane interaction (FM) determines the frictional resistance and thus the membrane permeability.- The colloid–membrane interaction (CfM) defines the selectivity, through affinity or exclusion mechanisms.- The colloid–fluid interaction (CF) governs the drag force acting on colloids, leading to particle accumulation and additional flow resistance. But this qualitative “taste” of interactions is only the first step. To move toward a predictive understanding, one must describe how these interactions quantitatively balance each other; since their equilibrium determines whether a separation process succeeds or fails. With this framework in mind, we can now transition from the qualitative recipe to the quantitative formulation; where physics, equations, and intuition come together to model and understand transfer through membranes. 3. From interactions to equations It is quite intuitive to imagine how interactions govern transfer through membranes. Yet, to progress from intuition to control and prediction, we need to see how these interactions can be translated into equations. Interactions manifest as forces (Section 3.1), which in turn give rise to transport phenomena (Section 3.2).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "actions can be translated into equations. Interactions manifest as forces (Section 3.1), which in turn give rise to transport phenomena (Section 3.2). These can finally be integrated into field equations (Section 3.3), linking the microscopic picture of interactions to the macroscopic performance of the process. 3.1. Interactions: conversion into force balances To keep the conceptual simplicity of the previous section, we can consider the five fundamental interactions as forces acting between phases. Each force applied to one phase has a reciprocal reaction on the other, according to Newton's third law. These reciprocal actions between phases are illustrated in Fig. 2, where the number of lines directed toward a phase corresponds to the number of forces acting upon it. For instance, in the second row of Table 1, the three forces acting on the colloidal phase are: from the fluid (drag force, CF), from other colloids (colloid–colloid interaction, CfC), and from the membrane (colloid–membrane interaction, CfM). A force balance can thus be written for each phase. By convention, a phase X is influenced by all interactions whose notation contains the letter X. Because every interaction implies a reciprocal exchange, the force applied by one phase is balanced by an opposite reaction on the other.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "he letter X. Because every interaction implies a reciprocal exchange, the force applied by one phase is balanced by an opposite reaction on the other. This approach, considering each phase as a continuum exchanging forces with the others, is the foundation of the Suspension Balance Model (also known as the mixture model or two-fluid model) [5–8]. In this framework, the mixture velocity (that of the dispersion) is defined as the volume-averaged velocity of the colloids and the fluid molecules: uF+C = ϕuC + (1 -ϕ)uF(1) where ϕ is the colloidal volume fraction. For convenience all equation will be written using volume fraction but they can be converted to molar concentration, cm, or mass concentration, cw, by considering that ϕ = cwρc = Mw cm ρc where ρc and Mw are the density and the molecular weight of colloids. The balance of forces on the fluid and colloidal phases can be combined to obtain the global force balance for the mixture, F + C, which determines the flow of the dispersion. It should be noted that the sum of the force on the membrane (line M) is not equal to zero because the reaction force of the membrane - which does not flow-must be added. A subtlety concerns the colloid–colloid interaction mediated by the fluid, CfC, which involves forces exchanged through the fluid-colloid mixture. Because colloids exhibit Brownian motion, the fluctua­tion–dissipation theorem links their random motion (diffusion) to viscous dissipation in the surrounding fluid.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s exhibit Brownian motion, the fluctua­tion–dissipation theorem links their random motion (diffusion) to viscous dissipation in the surrounding fluid. The most famous expression of this link is Einstein's relation, which connects the diffusion coefficient of a Brownian particle to the fluid viscosity, illustrating how the force exerted by the fluid on a colloid (leading to its diffusion) is exactly balanced by the frictional force dissipated in the fluid. It is important to note that this CfC term vanishes in the global balance of the mixture, since it represents internal exchanges between the colloidal and fluid phases. Nevertheless, it plays a key role in describing the relative motion and momentum exchange between these two phases — particularly near the membrane, where slip conditions occur because colloids are repelled or excluded from the membrane surface. In such interfacial regions, the colloid-colloid interaction contributes to local gradients in velocity and concentration, shaping both concentration polarization and osmotic",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Representation of the main interactions between the three phases (Membrane, Fluid, Colloid). Inter-phase interactions drive key force exchanges affecting process efficiency: (i) Fluid–Membrane, FM, friction leading to membrane permeability, (ii) Colloid–Membrane interactions, CfM, defining selectivity, and (iii) Fluid-Colloid, FC, drag causing particle accumulation and additional flow resistance. Intra-phase molecules Fluid-Fluid interactions, FF, and Colloid-Colloid interactions CfC, leads to fluid pressure and osmotic pres­sure respectively. P. Bacchin Journal of Membrane Science 747 (2026) 125280 counter-pressure. Each force listed in Table 1 can be expressed mathematically, allowing their integration into the momentum and mass balance equa­tions (Sections 3.2 and 3.3).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Interactions: conversion into transport phenomena The forces per unit volume associated with the interactions described above are summarized in Table 2, following the Suspension Balance Model [5–8]. These forces give rise to transport phenomena that have a major impact on the dynamics of the process (last column in Table 2). More precisely, the forces can be driven by pressure gradients. - the molecular fluid-fluid interaction, FF, generates a gradient of fluid pressure, -∇pFF, the origin of the filtration flow,- the colloid-fluid-colloid interaction, CfC, leads to a gradient of the osmotic pressure, -∇ΠCfC, driving both colloid diffusion (via the Stokes Einstein generalized law, Eq. (9)) and osmotic flow Velocity and relative velocities give rise to frictional forces. - the colloid-fluid, FC, leads to a drag force, ϕ(uF+C-uC)VCm(ϕ) , where VC is the colloid volume and m(ϕ) is the colloid mobility, often expressed as K(ϕ)/6πμa with K(ϕ) the hindered settling coefficient- the fluid and the membrane interaction, FM, expresses the frictional resistance of the fluid through the membrane, -ηkMuF+C,where kM is the membrane permeability Finally, the colloid-membrane (CfM) interaction generates also a force acting on the colloids that determines selectivity and contributes to fouling as a side-effect. It can be described by an interaction potential or energy barrier, ΠCfM, depending on the distance from the membrane [9,10].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "fouling as a side-effect. It can be described by an interaction potential or energy barrier, ΠCfM, depending on the distance from the membrane [9,10]. It represents the energy required for a colloid to approach the membrane or to pass through it later (as detailed later in section 5.2). The associated force on one colloid is given by the gradient of this en­ergy barrier, -∇ΠCfM, and for a dispersion, by multiplying this force by the volume fraction (the number of colloids per unit of volume), -ϕ∇ΠCfM. Such mathematical expressions can be introduced in the field equa­tion to determine the flow and the mass transfer.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Interactions: conversion into field equations To describe the macroscopic consequences of these microscopic forces on the process dynamics, force balances equations are written for each phase. This decomposition, treating each phase separately but with force exchanges, is the key principle of mixture (or two-fluid) model [5–8] providing a more accurate representation of dispersion dynamics. When the forces listed in Table 2 are introduced in the balances summarized in Table 1, one obtains four field equations: three for the individual phases (F, C and M) and one the mixture (F + C). Since each interaction involves an equal and opposite pair of forces, only two independent balances are necessary to describe the three-body system (membrane–fluid–colloid). Traditionally, one applies the colloidal force balance and the mixture force balance which becomes the momentum balance: ϕ(uF+C -uC)VCm(ϕ)-∇ΠCfC -ϕ∇ΠCfM = 0(2) -∇pFF -ηkM uF+C -ϕ∇ΠCfM = 0(3) These are complemented by the continuity equations for the mixture and for the colloids: ∇.uF+C = 0(4) ∂ϕ ∂t = -∇.j = -∇.(uCϕ)(5) Here uF+C is the overall velocity of the dispersion (Eq. (1)), governed by Eq. (2) (the analogue of Navier Stokes equations) and j is the mass flux of colloids given by j = uCϕ and governed by Eq. (3). This compact system of four general equations (Eqs. (2)–(5)) rigor­ously describes the variety of transfer in membrane processes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "governed by Eq. (3). This compact system of four general equations (Eqs. (2)–(5)) rigor­ously describes the variety of transfer in membrane processes. In the next section, we will simplify these general couplings to illustrate the physical meaning of each term and show how the model reproduces key membrane phenomena such as selectivity, fouling, and osmosis. 4. From interactions to mechanisms: when physics starts cooking The interplay between interactions — what we might call level-2 complexity (interactions squared!) — gives rise to the main physical mechanisms observed during membrane filtration.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.1. Pair coupling of interactions The five fundamental interactions described previously (Table 2) combine in specific ways to produce five key couplings (Fig. 3), each underlying one of the major transport mechanisms in membrane science (summarized in Table 4). In the following, these five couplings and the associated mechanisms are discussed from the most intuitive to the most subtle. 4.1.1. FM vs FF – permeation The first and most intuitive coupling is between fluid–membrane friction (FM) and fluid–fluid pressure interactions (FF). This balance\n\nTable 1 Schematic representation of the balance of forces acting on each phase. Each row corresponds to one phase (F, C, or M), and each column to an interaction between phases. Reciprocal forces have opposite signs. Phase InteractionsFFFCCfCFMCfM F:FF+FC+CfC+FM= 0C:-FC-CfC+CfM= 0M:-FM-CfMMix F + C:FF+FM+CfM= 0",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 2 Mathematical expressions of the interaction forces per unit of fluid volume (N/ m3). Each line corresponds to an interaction represented in Fig. 2 and Table 1, with the corresponding physical meaning and the associated mechanisms and consequences in membrane processes. Abb.InteractionsFormulaMechanismMain consequence FFFluid-Fluid-∇pFFPressureDriving forceCfCColloid-fluidColloid ∇ΠCfCOsmotic pressure Diffusion OsmosisFCFluid-Colloidϕ(uF+C -uC)VCm(ϕ) Drag forceRelative mass flux - slippingFMFluid-Membrane-ηkM uF+CFrictionPermeability CfMColloid-fluidMembrane -ϕ∇ΠCfMEnergy mapSelectivity - Fouling P. Bacchin Journal of Membrane Science 747 (2026) 125280 defines the permeation mechanism: fluid–fluid interactions (the applied pressure) must overcome fluid–membrane friction to drive flow through the membrane. In other words, the energy stored in fluid pressure (line 1 in Table 2) by interactions between the molecules in the fluid, FF, is dissipated as friction within the membrane (line 4 in Table 2). This relationship forms the basis of the classical Darcy law for pure solvent, expressed as: ∇pFF + η kM uF+C = 0(6) 4.1.2. FC vs CfC – concentration polarization The second coupling connects fluid-colloid friction (FC) with colloidfluid-colloid interactions (CfC) corresponding to the first two terms in Eq. (2).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The second coupling connects fluid-colloid friction (FC) with colloidfluid-colloid interactions (CfC) corresponding to the first two terms in Eq. (2). This competition between these two forces leads to: ϕ(uF+C -uC)VCm(ϕ)-∇ΠCfC = 0(7) From this relationship, the colloidal mass flux, j, can be expressed as: j = uCϕ = uF+Cϕ -VCm(ϕ)∇ΠCfC(8) This describes the mass flux as a combination of a convective term due to the mixture velocity and to a mass flux associated to the gradient in osmotic pressure. Using the Stokes Einstein generalized law for the diffusion coefficient, D(ϕ): D(ϕ) = VCm(ϕ) dΠCfC dϕ(9) We recover the classical convection-diffusion equation: j = uCϕ = uF+Cϕ -D(ϕ)∇ϕ[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] This formulation, first introduced in membrane science by Petsev et al. (1993) [11] and later extended in Refs. [12–16] establishes a clear physical link between hydrodynamics, colloid interactions, and mass transfer. 4.1.3. FC vs CfM – critical flux The third coupling, between colloid–membrane interaction (CfM) and colloid–fluid friction (FC), leads to the concept of the critical flux.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "itical flux The third coupling, between colloid–membrane interaction (CfM) and colloid–fluid friction (FC), leads to the concept of the critical flux. A drag force, FC, is required to the repulsive energy barrier between the colloid and the membrane, CfM: ϕ(uF+C -uC)VCm(ϕ)-ϕ∇ΠCfM = 0[ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] A net (positive) flux of colloids toward the membrane occurs, uC > 0 , only when the mixture velocity exceeds the interaction barrier between the colloid and the membrane, defining a critical condition: uF+C > uF+C|crit = -VC (m(ϕ)∇ΠCfM",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This concept of critical flux, introduced in 1995 [2,17] and reviewed in Ref. [3] marks the threshold between reversible concentration po­larization and irreversible fouling or deposition [18]. It should be noted that this balance of forces combines in Eq.(2) with colloid-colloid in­teractions and thus expresses the collective effects and therefore of concentration on the critical flux such as the ‘interaction-pushing effect’ [19–21]. 4.1.4. CfM vs CfC – partition and selectivity The next level of coupling involves colloid–membrane (CfM) and colloid–colloid (CfC) interactions, which describe membrane-induced colloid partitioning and thus define membrane selectivity. At equilibrium, the balance of osmotic and interaction forces (Eq. (2)) reads: ∇ΠCfC + ϕ∇ΠCfM = 0[ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] For an ideal dispersion, ΠCfC = kT ϕVC (Van't Hoff equation), this leads directly to the Boltzmann equation: ∇ϕϕ = -VC kT∇ΠCfM[ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] ϕ∝e-VC kT∇ΠCfM[ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] This simple yet powerful relationship links the partition coefficient, K, to the membrane-induced energy landscape: K = e-VC kTΠCfM [9,10].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "equation}] This simple yet powerful relationship links the partition coefficient, K, to the membrane-induced energy landscape: K = e-VC kTΠCfM [9,10]. In other words, selectivity emerges naturally from membrane interaction energetics (as detailed later in section 5.2). 4.1.5. CfM + CfC vs FF + CfM – osmosis and interfacially driven flow Finally, the interplay between colloid–membrane, colloid–colloid, and fluid–fluid interactions underlies osmosis and other interfacially driven transport phenomena. The previous balance, CfM vs CfC (Eq. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}]) can be combined with the balance between the fluid pressure FF and the membrane-colloid interaction, CfM (Eq. (3)) at equilibrium: ∇ΠCfC + ϕ∇ΠCfM = ∇pFF + ϕ∇ΠCfM = 0(16) The second equality expresses how colloid-membrane interactions modify the local pressure field [22], driving diffusion-osmotic [23] or Marangoni flows depending on wether colloids are repelled or attracted by the membrane walls [24]. These flows persist until equilibrium is reached, such as osmosis equilibrium, which is described by equal fluid pressure and osmotic pressure gradients: ∇ΠCfC = -ϕ∇ΠCfM = ∇pFF(17) This final relation is pedagogically illuminating: osmotic pressure (left term) can only be converted into a fluid pressure (right term) through the mediation of the membrane via CfM interactions.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ing: osmotic pressure (left term) can only be converted into a fluid pressure (right term) through the mediation of the membrane via CfM interactions. The colloid-membrane interaction, CfM, initiates the dynamics of osmotic flow [25–29]. It formalizes the intuitive statement that osmotic pressure has no effect without a membrane! 4.2. Full coupling of interactions The full coupling of these all pairwise interactions can be analysed by solving Eqs. (2) and (3). In this framework, the mechanisms previously",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 3 Force balances for each phase and for the dispersion (F + C). Only two inde­pendent equations are needed to describe the system. FFFCCfCFMCfM F:-∇pFF -ϕ(uF+C -uC)VCm(ϕ)\n\n[ФОРМУЛА: [FORMULA_ID: f6e7799f-c272-46d0-a5a3-58f0510591a5] + ∇ΠCfC - η kM uF+C = 0 C: ϕ(uF+C -uC) VCm(ϕ) - ∇ΠCfC]\n\n[ФОРМУЛА: [FORMULA_ID: fb02a90f-e9a8-4b64-adf1-7f0fe3da5a62] - ϕ∇ΠCfM = 0]\n\nM:+\n\n[ФОРМУЛА: [FORMULA_ID: 84f11aeb-b24a-4059-b2d4-62e2e261b549] η kM uF+C + ϕ∇ΠCfM]\n\n[ФОРМУЛА: [FORMULA_ID: 12b5855d-2f2a-424a-b22b-6d25e65d62af] F + C: - ∇pFF]\n\n[ФОРМУЛА: [FORMULA_ID: d34dfbe5-ae71-4961-a881-97ca7a20c68e] - η kM uF+C - ϕ∇ΠCfM = 0]",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 4 Interplay between interactions and the associated mechanisms. Interaction interplayMechanisms FM vs FFPermeationFC vs CfCPolarizationFC vs CMCritical fluxCfC vs CfMPartitionCfC –CfM vc FFOsmosis P. Bacchin Journal of Membrane Science 747 (2026) 125280 discussed (section 4.1) are automatically captured. These equations can be solved for different geometries (1D, 2D, or 3D), boundary conditions, and physico-chemical properties. Python codes allowing the numerical resolution of the equations—either by partial differential equation solvers (in 2D or transient 1D) or by analytical solutions in 1D at steady state—are provided in Supporting Information SI 2. In one dimension across the membrane (coordinate x) and at steady state, the equations can be rewritten in a form more commonly used by the membrane community by expressing the mass flux, j and the permeate flux J: j = Jϕ -Vpm(ϕ)(dΠCfC(ϕ)dx+ ϕ dΠCfM(x)dx\n\n)[ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}]",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "J = -kp(x) η (dpFF(x)dx+ ϕ dΠCfM(x)dx )(19) It is interesting to note that by considering a Van't Hoff law for the colloid osmotic pressure, ΠCfC, and a linear spatial variation for the membrane energy landscape, ΠCfC the integration of these equations over a composite multilayers system -composed of boundary layers and a membrane domain where ΠCfM applied-leads to an analytical solution. The mathematical details and corresponding Python code are provided in Supporting Information SI 3. Fig. 4 illustrates an example of the results obtained: (a) the permeate flux as a function of the transmembrane pressure and (b) the associated concentration profiles. The calculation are based on the following data: a membrane partition coefficient (Eq. [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}]), K = 0.01, a permeability, Lp η , of 1 L/(h m2 bar) and mass transfer coefficients, k, for the five different layers (Fig. 4b) of 10-6, 10-5, 5 10-6, 10-5, 10-6 m/s. The concentra­tions of the drawing solution are 25, 50, 100 (curve in red) 200, 400, 800 mol m-3. These results show how the main mechanisms described in Fig. 3 are manifested. The advantages of this interaction-based modelling approach are multiple. The framework is physically well grounded and captures the main coupling phenomena.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "- The model describes the two-way interplay between membrane selectivity and permeability. It naturally accounts for the Staverman coefficient [30] (gap between the red line and the red star in Fig. 4a), which reduces the contribution of counter-osmotic pressure due to partial selectivity, as well as for the effect of concentration polari­zation on membrane selectivity.- The same set of equations can describe negative or positive con­ centration polarization (Fig. 4b) and their consequences on perme­ability (Fig. 4a) and selectivity in forward osmosis, reverse osmosis [31], nanofiltration, or ultrafiltration processes.- Interfacially driven transport mechanisms (e.g., osmosis or Mar­ angoni flows) are inherently included in the framework.- The framework can describe the dynamics of osmosis [25], a prob­ lem that is not trivial to address using classical macroscopic filtration laws based solely on a counter-osmotic pressure. The framework is highly versatile and can be readily adapted to a wide range of applications. - The same set of equations is used to describe mass transport both in the boundary layers and inside the membrane, eliminating the need for explicit boundary conditions at the membrane surface.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ibe mass transport both in the boundary layers and inside the membrane, eliminating the need for explicit boundary conditions at the membrane surface. Section 5.1 will show how gel or deposit layer formation can be continuously incorporated into this framework.- In an original manner, the membrane is represented by an energy barrier that can be adapted to describe different types of interactions (Section 5.2) along the membrane thickness. The same formalism can be applied in 1D or 2D configurations (in 2D, the 1D col­loid–membrane energy landscape is replaced by colloid–wall in­teractions; see Section 6.2), and to both transient and steady-state problems.- The formalism can be easily implemented in in-house codes (exam­ ples are provided in SI 2) or in commercial and open-source computational fluid dynamics software by adding appropriate force terms to the Navier–Stokes equations and mass balance equations.- Numerical solutions can be validated against analytical solutions obtained at steady state for simplified forms of ΠCfC, and ΠCfM 5. Refining interactions to approach complexity The previous section introduced the key ingredients needed to describe membrane filtration. These ingredients can now be refined to better capture the specific nature of each interaction. Interactions between colloids (CfC) can be detailed further to include attractive or repulsive forces, as well as contacts that arise at high concentrations (Section 5.1).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "colloids (CfC) can be detailed further to include attractive or repulsive forces, as well as contacts that arise at high concentrations (Section 5.1). Likewise, colloid–membrane interactions (CfM) can be refined to consider different types or spatial heterogene­ities along a pore (Section 5.2). A similar refinement could be applied to fluid–membrane interactions (FM) to include hydrophobic or hydro­philic effects and their consequences on slippage length [32,33] (this will not be discussed here). These refinements pave the way toward improved models — and, ultimately, toward the design of membranes with enhanced functionality. 5.1. Equation of state for colloid/colloid interactions and phase transitions Colloid–colloid interactions underpin several key phenomena that strongly affect membrane processes. - Repulsion between colloidal particles limits over-concentration near the membrane, since repelling particles are harder to compress.- Attraction can lead to phase transitions and gel formation when cohesive forces overcome the repulsive barrier.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. Storyline of interactions giving rise to filtration mechanisms. Schematic illustration of how the interactions between fluid (F), colloids (C), and mem­brane (M) combine to produce distinct transport mechanisms (Table 4). The pressure gradient (FF) drives permeation (FM) but when filtering colloids the advection leads to fluid-colloid interactions (FC) that in turn lead to a colloid polarization at the membrane (CfC). This polarization can evolve depending on colloid–membrane interactions (CfM), giving rise to the critical flux concept: a balance between FC drag forces and CfM repulsion. Polarization also affects membrane partitioning through MC interactions. The osmotic flux plays on the permeation through the osmotic pressure resulting of CfC interactions via a diffusio-osmosis phenomena due to the repulsion at the membrane (CfM). P. Bacchin Journal of Membrane Science 747 (2026) 125280\n\n- Reversibility of accumulation depends on interaction strength: attractive systems tend to form less reversible deposits.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6,
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5.1.1. Extension of the equation of state to solid phase These phenomena can be captured through a common descriptor; the colloid pressure, acting as an equation of state (EOS) for the full con­centration range of colloidal dispersions: ΠC = ΠCfC + ΠCmC(20) Two sub-contributions describe the behavior across the concentra­tion range (Fig. 5). - Osmotic pressure, ΠCfC, below the critical volume fraction, ϕcrit. In this thermodynamic regime, colloids are separated by the continuous fluid phase. Their CfC interactions are described by the dispersion's osmotic pressure: ideal at low ϕ and expressed by the Van't Hoff low (gas-like phase) and non-ideal at higher ϕ when colloid-colloid interactions become significant (liquid-like phase) - Compressive yield stress, ΠCmC, above ϕcrit.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In this mechanical regime, particles are in contact and lose their Brownian nature (solid-like phase). The CmC (Colloid-Colloid interac­tion mediated by mechanical contact) interactions arise from mechani­cal friction or cohesive forces such as van der Waals attraction. The resulting network resists deformation, characterized by the compressive yield stress [36] which expresses the gel or deposit compressibility and links microscopic chains of forces to macroscopic consolidation. This EOS concept enables a continuous description of all states encountered at a membrane surface, from dilute dispersion to condensed gel, and can even be related to phase transition models [37]. 5.1.2. Continuous description of gas/liquid/solid colloidal phases accumulation The EOS has direct consequence on the way colloids accumulates at the surface. At steady state in crossflow filtration, the colloid mass flux is constant along the direction normal to the membrane. Integrating Eq. [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] across the boundary layer yields the concentration profile, ϕ(x)(Fig. 6). JxD0 = Vp kT ∫ϕ ϕ0 m(ϕ)m0 (dΠP dϕ ) dϕϕ(21) For dilute systems, this leads to a classical exponential profile. As concentration increases, repulsive CfC interactions limit compression. At even higher, ϕ, attractive interactions dominate, promoting a rapid",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. a) Permeate flux, J, vs transmembrane pressure, TMP in the osmosis and reverse osmosis regimes. The red curve corresponds to a feed concentration of 100 mol/m3 (the associated osmotic pressure is indicated with a red star). Grey curves correspond to other colloid concentrations. b) Concentration profiles corre­sponding to the permeate fluxes indicated by circles with the same colour in a) Grey shading indicates the position of membrane (dark) and of the exclusion layers (light).\n\nFig. 5. Equation of state (EOS) for colloids: colloid pressure vs volume fraction. The EOS captures successive states: gas-like (ideal, Van't Hoff law, blue dotted line), liquid-like (non-ideal dispersion), phase transition (short-range attrac­tion), and gel-like (solid) regimes. Experimental data for silica particles from Ref. [34] and fitted by EOS in Ref. [35].\n\nFig. 6. Evolution of the concentration profile perpendicularly to the membrane surface. Computed from the colloid pressure of Fig. 5 using Eq. (19). Adapted from Ref. [35].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "P. Bacchin Journal of Membrane Science 747 (2026) 125280 concentration rise that marks the transition from a diffuse polarization layer to a condensed gel. Beyond this critical point, the compressive yield stress governs the layer's compressibility up to close packing [38]. The two contributions, osmotic and compressive, thus allow a continuous description of colloid phases but differ fundamentally. - Osmotic pressure is thermodynamic and reversible: energy brought by the fluid is returned to the flow without external dissipation.- Compressive yield stress is mechanical and dissipative: energy is lost as frictional heat. 5.1.3. Consequences on forces exchanges Because of these differences, the mechanisms of momentum ex­changes differ between polarized and gel (or deposit) layers (Fig. 7). - In the polarized layer, particles remain diffusive: fluid–colloid fric­ tion forces are balanced by random colloidal forces, leading to a reversible fluctuation–dissipation exchange [39].- In the gel phase, colloids are arrested: friction forces propagate through the particle network, exerting stress on the membrane and dissipating energy as heat. The momentum exchange previously depicted in Table 3 must therefore be modified as shown in Table 5. Contrary to the CfC interactions, exchanged between the fluid and the colloid phase, the CmC interactions are exchanged between the fluid and the membrane through the colloidal deposit. As a results, Eq.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "he fluid and the colloid phase, the CmC interactions are exchanged between the fluid and the membrane through the colloidal deposit. As a results, Eq. (3) is modified and the term CmC appears in the force balance of the mixture. -∇pFF -ηkM uF+C -ϕ∇ΠCfM + ∇ΠCmC = 0(22) These differences explain why a pressure drop appears in gels but not in polarized layers [25,40–42]: Eq. (22)describes a classical resistance-in series model. They also determine layer reversibility: gel relaxation and redispersion upon pressure release can be captured by models including phase transitions in the EOS [37] (as detailed later in section 6.1). The originality of this modelling model approach is to introduce in the equation all the interactions between the colloids, the membrane and the fluid. Beyond these refinements, one can go further by consid­ering how the different types of pressures (or stresses) — static, osmotic, mechanical, and interfacial — emerge from and couple through the same underlying interactions. For instance, in Brownian sheared dis­persions, shear-induced collisions generate an additional contribution known as the shear induced pressure [43–45]. This contribution can be naturally integrated within the broader concept of colloid pressure, ΠC, in Eq. (20) [46]. Altogether, these results reveal that the colloidal pressure and the associated interaction forces cannot be considered in isolation from the membrane structure.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "these results reveal that the colloidal pressure and the associated interaction forces cannot be considered in isolation from the membrane structure. The transition from bulk-like colloidal behavior to confined interfacial regions introduces new physical regimes where colloid–membrane interactions dominate. The colloid–membrane in­teractions defines a new level of the interaction hierarchy which will be examined in Section 5.2. 5.2. Energy landscape for colloid/membrane interactions Colloid–membrane interactions are central to separation, selectivity, and fouling, yet often underestimated. They govern. - Selectivity, via exclusion mechanisms (steric or electrostatic) [47, 48];- Fouling and critical flux, through the balance of drag and repulsion [3].- Osmotic flow, which arises from colloid-membrane interaction [25]. These interactions appears as an interfacial pressure term, ϕ∇ΠCfM, in both the colloid (Eq. (2)) and momentum (Eq. (3)) balances, reflecting their dual role on mass transport and local pressure [22]. Depending on pore geometry and surface composition, the strength of these interactions varies along the membrane depth. This variation can be represented as an energy landscape: the potential barrier a colloid experiences when approaching or traversing the membrane. Like mountaineers crossing a pass, colloids must overcome or bypass these barriers (a topographic map of elevation), and external driving (the “wind”) can help them through.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ing a pass, colloids must overcome or bypass these barriers (a topographic map of elevation), and external driving (the “wind”) can help them through. This property can then represent (Fig. 8) different membrane type (2D membrane, asymmetric membrane, dou­ble skin membrane ...). Simplified 1D potentials with linear variation of the energy barrier at the pore inlet/outlet enable analytical solutions [49]. Fig. 9 illustrates that interaction stiffness strongly affects transmission and counter-osmotic pressure. - Steep exclusion ramps reduce transmission but increase counterpressure;- Soft ramps lower counter-osmotic pressure by distributing accumu­ lation more smoothly. Asymmetric interactions thus lead to direction-dependent transfer properties as already evidenced by experiments on plasmid DNA transmission [50] in forward and reverse filtration. Extending to 2D or 3D, energy landscapes can capture both pore geometry and surface heterogeneity by simulations (section 6.1.1). Refining these interactions — in both simulations and experiments — is key for innovation in membrane science and in microfluidics/nano­fluidics fields [51–53]. Implementing interfacial pressure fields (in 1D–3D Eulerian models) opens the path to engineered pore architec­tures. Such design strategies could mimic biological pores, where nanoscale mosaics of attractive and repulsive regions create selective and energy-efficient pathways [31,54].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "gies could mimic biological pores, where nanoscale mosaics of attractive and repulsive regions create selective and energy-efficient pathways [31,54]. New separation pathways can result from a nanoscale mosaic of attractive and repulsive interactions along the pore deepness combining then the advantages of membrane and chromatography. 5.3. From pressures induced by colloids, fluid and membrane to transfer driving forces Within the fluid–colloid–membrane triptych, each interaction gives rise to a specific form of pressure that contributes to the overall balance of forces. A comprehensive discussion of how these various pressure terms interrelate is provided in the Supplementary Information (Section S1). If these concepts sound somewhat abstract, there's a simple analogy: membranes, like humans, experience many kinds of pressure and stress. What really makes the difference is the ability to convert these pressures",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. Momentum exchange in polarized vs gel layers. In polarized layers, reversible fluctuation–dissipation governs momentum transfer; in gels, fric­tional dissipation dominates. P. Bacchin Journal of Membrane Science 747 (2026) 125280 into driving forces, the ones that make things move forward. These four pressures (fluid–fluid, FF, colloid–fluid–colloid, CfM, colloid–colloid, CmC, and colloid–fluid–membrane; CfM) do not act in isolation: their spatial gradients combine in Eqs. (2) and (19) to define the driving forces that ultimately govern mass transfer and selectivity across the membrane (Fig. 10). 5.3.1. Colloid driving pressure (CfC + CfM) The gradient of the colloid osmotic pressure, ∇ΠCfC, induces diffu­sion of colloids and drives their accumulation near the membrane. This same term also governs the reversibility of this accumulation during relaxation. In parallel, the gradient of the interfacial pressure, ϕ∇ΠCfM, induces migration of particles away from the membrane due to col­loid–membrane interactions. Together, these two contributions define the relative motion of colloids with respect to the fluid mixture, i.e. the colloid–mixture motion [25]; a difference of velocity that drives the selectivity. uC -uF+C = -Vp m(ϕ)ϕ(∇ΠCfC + ϕ∇ΠCfM\n\n)(23)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5.3.2. Mixture driving pressure (FF + CfM) The interfacial pressure gradient, ϕ∇ΠCfM, also acts on the solvent phase, giving rise to osmosis at the membrane interface, while the fluid pressure gradient, ∇pFF, drives permeation through the membrane. Their combined effect determines the mixture flow across the interface — the mixture–interface motion — which directly links to the pro­ductivity of the process [25]. uF+C = -kp η (∇pFF + ϕ∇ΠCfM )(24) 5.3.3. Deposit driving pressure (FF + CmC) Within a deposited or gel layer, the fluid pressure gradient, ∇pFF, still drives solvent filtration, while the compressive yield stress gradient, ∇ΠCmC, characterizes the resistance of the deposit to compaction. The interplay between these two pressures governs the filtration dynamics and mechanical consolidation of the deposit, i.e. the mixture–deposit motion. uF+C = -kp η (∇pFF + ∇ΠCmC)(25) Overall, these three coupled driving forces control both the pro­ductivity (mixture velocity with the effect of counter osmotic pressure and fouling layers) and the selectivity (relative motion of colloids vs. mixture) in the general case where concentration polarization and de­posit formation coexist. However, these three driving forces act simultaneously and are often tightly coupled in membrane processes. They interact and redistribute in space, especially once the membrane interface is considered beyond a single dimension.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "oupled in membrane processes. They interact and redistribute in space, especially once the membrane interface is considered beyond a single dimension. To describe how membrane selectivity, osmotic flow, and clogging emerge from this coupled behaviour, it becomes necessary to rely on numerical or multiscale modeling tools as developed in Sec­tion 6. 6. How interactions complexity can shape separation? The refinement introduced in the previous section provides the tools to approach the inherent complexity of mass transfer through mem­branes. To illustrate this, three examples are developed here, each addressing a distinct question on how interactions govern separation mechanisms, and each relying on specific numerical recipes [55] adapted to the constraints of the problem. - How colloid-colloid phase transition influence the relaxation of an accumulated phase? This question is examined through the refine­ment of the colloid equation of state (a refined CfC, section 5.1) using open source CFD simulations to highlight the role of the dis­persion–gel transition in fouling and lumen plugging in hollow fibers.- How do pore-scale interactions lead to the establishment of os­ motic fluxes? This point is explored using a 2D energy landscape describing colloid–membrane interactions (a refined CfM, section 5.2), in order to characterize the local dynamics that generate os­motic flow.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 5 Force balance for the different phases. FFFCCfCFMCfMCmC F:-∇pFF-ϕ(uF+C -uC)VCm(ϕ)\n\n[ФОРМУЛА: [FORMULA_ID: c182964d-3eda-45db-9673-54c7ea0d8a26] + ∇ΠCfC - η kM uF+C + ∇ΠCmC = 0]\n\nC:ϕ(uF+C -uC)VCm(ϕ)\n\n[ФОРМУЛА: [FORMULA_ID: d86a5a98-56ca-4fde-be25-9338113910af] - ∇ΠCfC - ϕ∇ΠCfM = 0]\n\nM:+ η\n\n[ФОРМУЛА: [FORMULA_ID: 05e2a201-8912-43de-9a73-7158b79ca566] kM uF+C + ϕ∇ΠCfM - ∇ΠCmC]\n\n[ФОРМУЛА: [FORMULA_ID: 3803687f-1d25-4e53-b69d-2727b46e32ef] Mix C + F: - ∇pFF - η kM]\n\n[ФОРМУЛА: [FORMULA_ID: 6a5eaba8-c4c3-4463-b396-a49779000c24] uF+C - ϕ∇ΠCfM + ∇ΠCmC = 0]\n\nFig. 8. Membrane considered as a barrier interaction energy that colloids must pass. In 1D perpendicular to the membrane surface, the potential barrier can already describe various kind of membrane. P. Bacchin Journal of Membrane Science 747 (2026) 125280\n\n- How do combined colloid–colloid and colloid–membrane in­ teractions control pore clogging? The final example combines CfC and CfM interactions in a 3D Lagrangian framework to describe the evolution and structure of pore clogging phenomena.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        9,
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "6.1. How colloid-colloid phase transition can lead to membrane plugging? The way the dispersion–gel transition operates at the membrane interface, and its consequences on fouling reversibility, are still under investigation [56]. The main difficulty lies in the complexity of the phase transition and in its proper integration into modeling approaches [57]. During this transition, attractive colloidal forces dominate and can produce specific diffusion behaviors [37], possibly explaining the reversible nature of the process. The relaxation of gel layers was investigated in a hollow-fiber configuration using 2D axi-symetrical model in CFD simulations (OpenFOAM). The phase transition physics was incorporated into the diffusion term [58] through a concentration-dependent diffusion coef­ficient, following the equation of state (Fig. 5) via a generalized Sto­kes–Einstein relation (Eq. (9)). Simulations show in Fig. 11 that gel layer relaxation results from a combination of slow diffusive removal and rapid expansion of the compressed gel once the applied pressure is released [35]. Under certain conditions, this expansion can block the lumen of hollow fibers, leading to severe membrane plugging.\n\nFig. 9. Effect of colloid-membrane interaction profile on colloid transmission through the membrane and counter osmotic pressure (reproduced from Ref. [17]).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 10. Schematic representation of the pressure fields acting within the fluid–membrane–colloid system. Their combinations generate the effective driving forces that determine productivity (mixture flow versus the interface) and the selectivity (relative mixture-colloid motion). P. Bacchin Journal of Membrane Science 747 (2026) 125280\n\nThis observation is consistent with experimental reports [59] and supports practical recommendations. (i) avoid filtration conditions leading to thick gel layers, and(ii) do not stop filtration abruptly without maintaining an axial flow to prevent lumen plugging.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10,
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "6.2. How colloid-membrane interactions establish osmotic fluxes? Osmotic fluxes are generally described macroscopically as solvent flows induced by concentration difference. However, the local dynamics that drive their development within membrane pores remain poorly understood [26,60]. To elucidate this, it is essential to investigate how colloid–membrane interactions (CfM) combine with hydrodynamic flow to trigger local diffusio-osmotic effects, which collectively give rise to macroscopic osmotic fluxes (yellow pathway in Fig. 3). Simulations based on a one-dimensional representation of CfM in­teractions (Section 5.2) can describe how these mechanisms govern osmotic flux dynamics when a concentration gradient approaches the membrane [25]. Replacing the 1D colloid–membrane energy landscape by 2D colloid–wall interaction map [23] allows a detailed visualization of how osmotic fluxes originate at the pore scale and how their distri­bution evolves under the influence of local mass accumulation patterns near the pore entrance (Fig. 10). Results from simulations [23,61] (python code is given in SI 2) reveal how accumulation patterns evolve with the filtration P´eclet number and identify a critical Pe marking the transition between plug formation and wall accumulation (Fig. 12a). The associated local concentration gra­dients generate osmotic backflows and secondary circulations within narrow constrictions (Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tion (Fig. 12a). The associated local concentration gra­dients generate osmotic backflows and secondary circulations within narrow constrictions (Fig. 12b), demonstrating the strong coupling be­tween accumulation, hydrodynamics, and counter-osmotic pressure at the pore scale. Such models also open the way to investigating how pore geometry",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "6.3. How colloids clogs change according colloid-colloid and colloidmembrane interactions? Recent advances in microfluidics have provided valuable insights into colloidal accumulation and fouling dynamics in pore networks mimicking membranes [63–67]. These operando observations reveal the complexity of local clogging events and offer a benchmark to assess whether simulation ingredients can reproduce such behavior. A realistic description of pore clogging must account for both col­loid–colloid (CfC) and colloid–membrane (CfM) interactions. To pre­serve particle discreteness -rather than relying on averaged concentration fieldsand to properly address the complexity of ternary membrane–colloid–fluid interactions, 2D or 3D Lagrangian simulations are required [20,68]. In this framework, the fluid flow is solved from the momentum equation (Eq. (19)), while mass transport is replaced by tracking individual colloids subjected to CfC and CfM forces. This can be achieved, for instance, through iterative coupling between flow field computation (e.g., via the Force Coupling Method, FCM) and the calculation of particle trajectories [20,69]. Different interaction strengths produce distinct clogging morphol­ogies (Fig. 13). When both colloid–colloid and colloid–wall repulsions are strong, no deposit forms; when they decrease, deposits emerge above a critical flux (from top right to bottom left in Fig. 13).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "id–wall repulsions are strong, no deposit forms; when they decrease, deposits emerge above a critical flux (from top right to bottom left in Fig. 13). Depending on the CfC/CfM balance, the simulated clogs exhibit varying structures—from dense arches and monolayers adhering to the surface (dominant CfC repulsion) to loosely bound aggregates detached from the wall (domi­nant CfM repulsion). These simulations clearly illustrate that both the spatial structure of",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 12. Coupling between colloid accumulation and osmotic flows at a pore entrance. (a) Evolution of the filtration P´eclet number as a function of transmembrane pressure (solid red line) with accumulation patterns (insets) influencing counter-osmotic pressure. The dashed line represents the filtration of pure solvent; (b) emergence of secondary flows induced by local osmotic gradients (Pe = 3). Adapted from Ref. [23]. P. Bacchin Journal of Membrane Science 747 (2026) 125280 the clog and the kinetics of its formation are tightly coupled to the interplay between surface interactions and hydrodynamics, offering a refined mechanistic scenario of pore clogging [70,71]. 7. Conclusions The physical recipe presented here reformulates membrane transport as the result of a structured interplay between interactions. By dis­tinguishing the roles of fluid, colloid, and membrane phases — and explicitly accounting for their mutual interactions — we reveal a mini­mal yet complete set of couplings that explain key membrane phe­nomena. The approach offers a simple and pedagogical entry point into the membrane science field, starting from the intuition of the interaction and delaying as much as possible the painful conversion into equations. By explicitly representing these interactions in the governing equa­tions, a minimal yet comprehensive set of couplings is identified, capable of describing permeation, polarization, fouling, selectivity, and osmotic phenomena within a unified framework.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "et of couplings is identified, capable of describing permeation, polarization, fouling, selectivity, and osmotic phenomena within a unified framework. This unified, interaction-based formulation also bridges several classical quantities of membrane science (pressure, flux, selectivity) into a single physically consistent language from diluted to solid phases. This interaction-based perspective highlights that complexity in membrane systems arises from the subtle hierarchy of interactions acting between phases. Understanding, quantifying these interactions offers a route to control and predict membrane transfer. Examples of simulations highlight how the combination of interaction-based modeling and numerical tools can reproduce experimentally observed features and guide practical design strategies for fouling mitigation and performance optimization. By designing and manipulating the in­teractions in 3D, one can envision tailored pores that combine the ad­vantages of membranes and chromatographic systems, mimicking biological architectures. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[21] M. Kim, A.L. Zydney, Particle–particle interactions during normal flow filtration: model simulations, Chem. Eng. Sci. 60 (2005) 4073–4082, https://doi.org/ 10.1016/j.ces.2005.01.029.[22] J.L. Anderson, Colloid transport by interfacial forces, Annu. Rev. Fluid Mech. 21 (1989) 61–99, https://doi.org/10.1146/annurev.fl.21.010189.000425.[23] P. Bacchin, Interfacially driven transport in narrow channels, J. Phys.: Condens. Matter. 30 (2018) 294001, https://doi.org/10.1088/1361-648X/aacb0c.[24] P. Bacchin, K. Glavatskiy, V. Gerbaud, Interfacially driven transport theory: a way to unify Marangoni and osmotic flows, Phys. Chem. Chem. Phys. 21 (2019) 10114–10124, https://doi.org/10.1039/C9CP00999J.[25] P. Bacchin, Colloid-interface interactions initiate osmotic flow dynamics, Colloids Surf. A Physicochem. Eng. Asp. (2017), https://doi.org/10.1016/j. colsurfa.2017.08.034.[26] S.S.S. Cardoso, J.H.E. Cartwright, Dynamics of osmosis in a porous medium, R. Soc. Open Sci. 1 (2014) 140352, https://doi.org/10.1098/rsos.140352.[27] J.L. Anderson, D.M. Malone, Mechanism of osmotic flow in porous membranes, Biophys. J. 14 (1974) 957–982, https://doi.org/10.1016/S0006-3495(74)85962X.[28] E.M. Kramer, D.R. Myers, Osmosis is not driven by water dilution, Trends Plant Sci. 18 (2013) 195–197, https://doi.org/10.1016/j.tplants.2012.12.001.[29] P.H. Nelson, Osmosis and thermodynamics explained by solute blocking, Eur. Biophys. J. 46 (2017) 59–64, https://doi.org/10.1007/s00249-016-1137-y.[30] A.J.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Nelson, Osmosis and thermodynamics explained by solute blocking, Eur. Biophys. J. 46 (2017) 59–64, https://doi.org/10.1007/s00249-016-1137-y.[30] A.J. Staverman, The theory of measurement of osmotic pressure, Recl. Trav. Chim. Pays-Bas 70 (1951) 344–352, https://doi.org/10.1002/recl.19510700409.[31] L. Wang, J. He, M. Heiranian, H. Fan, L. Song, Y. Li, M. Elimelech, Water transport in reverse osmosis membranes is governed by pore flow, not a solution-diffusion mechanism, Sci. Adv. 9 (2023) eadf8488, https://doi.org/10.1126/sciadv. adf8488.[32] J.-L. Barrat, L. Bocquet, Large slip effect at a nonwetting fluid-solid interface, Phys. Rev. Lett. 82 (1999) 4671–4674, https://doi.org/10.1103/PhysRevLett.82.4671.[33] Z. Li, S. Galindo-Torres, A. Scheuermann, L. Li, Mesoscopic approach to fluid-solid interaction: apparent liquid slippage and its effect on permeability estimation, Phys. Rev. E 98 (2018) 052803, https://doi.org/10.1103/PhysRevE.98.052803.[34] J. Chang, P. Lesieur, M. Delsanti, L. Belloni, C. Bonnet-Gonnet, B. Cabane, Structural and thermodynamic properties of charged silica dispersions, J. Phys. Chem. 99 (1995) 15993–16001, https://doi.org/10.1021/j100043a045.[35] A. Ferreira, P. Bacchin, P. Aimar, P. Carvin, A. Hip´olito, M. Abbas, Plugging of hollow fiber lumen by a gel: threshold operating conditions unraveled by simulations, Chem. Eng. Sci. 278 (2023) 118903, https://doi.org/10.1016/j. ces.2023.118903.[36] R. Buscall, L.R.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "old operating conditions unraveled by simulations, Chem. Eng. Sci. 278 (2023) 118903, https://doi.org/10.1016/j. ces.2023.118903.[36] R. Buscall, L.R. White, The consolidation of concentrated suspensions. Part 1.—The theory of sedimentation, J. Chem. Soc. Faraday Trans. 1 Phys. Chem. Condens. Phases 83 (1987) 873–891, https://doi.org/10.1039/F19878300873.[37] A. Ferreira, M. Abbas, P. Carvin, P. Bacchin, Colloid dynamics near phase transition: a model for the relaxation of concentrated layers, Colloids Surf. A Physicochem. Eng. Asp. 640 (2022) 128222, https://doi.org/10.1016/j. colsurfa.2021.128222.[38] P. Bacchin, M. Meireles, P. Aimar, Modelling of filtration: from the polarised layer to deposit formation and compaction, Desalination 145 (2002) 139–146, https:// doi.org/10.1016/S0011-9164(02)00399-5.[39] R. Kubo, The fluctuation-dissipation theorem, Rep. Prog. Phys. 29 (1966) 255, https://doi.org/10.1088/0034-4885/29/1/306.[40] M. Elimelech, S. Bhattacharjee, A novel approach for modeling concentration polarization in crossflow membrane filtration based on the equivalence of osmotic pressure model and filtration theory, J. Membr. Sci. 145 (1998) 223–241.[41] J.G. Wijmans, S. Nakao, J.W.A. Van Den Berg, F.R. Troelstra, C.A. Smolders, Hydrodynamic resistance of concentration polarization boundary layers in ultrafiltration, J. Membr. Sci. 22 (1985) 117–135, https://doi.org/10.1016/S03767388(00)80534-7.[42] S.S.L. Peppin, J.a.W. Elliott, M.G.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ary layers in ultrafiltration, J. Membr. Sci. 22 (1985) 117–135, https://doi.org/10.1016/S03767388(00)80534-7.[42] S.S.L. Peppin, J.a.W. Elliott, M.G. Worster, Pressure and relative motion in colloidal suspensions, Phys. Fluids 17 (2005) 053301, https://doi.org/10.1063/ 1.1915027.[43] Y. Yurkovetsky, J.F. Morris, Particle pressure in sheared Brownian suspensions, J. Rheol. 52 (2008) 141–164, https://doi.org/10.1122/1.2807443.[44] G.K. Batchelor, Brownian diffusion of particles with hydrodynamic interaction, J. Fluid Mech. 74 (1976) 1–29, https://doi.org/10.1017/S0022112076001663.[45] H.M. Vollebregt, R.G.M. van der Sman, R.M. Boom, Suspension flow modelling in particle migration and microfiltration, Soft Matter 6 (2010) 6052, https://doi.org/ 10.1039/c0sm00217h.[46] A. Deboeuf, G. Gauthier, J. Martin, Y. Yurkovetsky, J. Morris, Particle pressure in a sheared suspension: a bridge from osmosis to granular dilatancy, Phys. Rev. Lett. 102 (2009), https://doi.org/10.1103/PhysRevLett.102.108301.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[47] P. Dechadilok, W.M. Deen, Electrostatic and electrokinetic effects on hindered convection in pores, J. Colloid Interface Sci. 338 (2009) 135–144, https://doi.org/ 10.1016/j.jcis.2009.06.018.[48] M.M. Rohani, A.L. Zydney, Role of electrostatic interactions during protein ultrafiltration, Adv. Colloid Interface Sci. 160 (2010) 40–48, https://doi.org/ 10.1016/j.cis.2010.07.002.[49] P. Bacchin, Membranes: a variety of energy landscapes for many transfer opportunities, Membranes 8 (2018) 10, https://doi.org/10.3390/ membranes8010010.[50] Y. Li, E.E. Borujeni, A.L. Zydney, Use of preconditioning to control membrane fouling and enhance performance during ultrafiltration of plasmid DNA, J. Membr. Sci. 479 (2015) 117–122, https://doi.org/10.1016/j.memsci.2015.01.029.[51] L. Bocquet, E. Charlaix, Nanofluidics, from bulk to interfaces, Chem. Soc. Rev. 39 (2010) 1073–1095, https://doi.org/10.1039/B909366B.[52] P. Bacchin, J. Leng, J.-B. Salmon, Microfluidic evaporation, pervaporation, and osmosis: from passive pumping to solute concentration, Chem. Rev. 122 (2022) 6938–6985, https://doi.org/10.1021/acs.chemrev.1c00459.[53] H.B. Park, J. Kamcev, L.M. Robeson, M. Elimelech, B.D. Freeman, Maximizing the right stuff: the trade-off between membrane permeability and selectivity, Science 356 (2017), https://doi.org/10.1126/science.aab0530 eaab0530.[54] S. Gravelle, L. Joly, F. Detcheverry, C. Ybert, C. Cottin-Bizonne, L.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ivity, Science 356 (2017), https://doi.org/10.1126/science.aab0530 eaab0530.[54] S. Gravelle, L. Joly, F. Detcheverry, C. Ybert, C. Cottin-Bizonne, L. Bocquet, Optimizing water permeability through the hourglass shape of aquaporins, Proc. Natl. Acad. Sci. 110 (2013) 16367–16372, https://doi.org/10.1073/ pnas.1306447110.[55] W.H. Press, S.A. Teukolsky, W.T> Vetterling, B.P. Flannery, Numerical Recipes, third ed.The art of scientific computing, Camb. Univ. Press Assess, 2007.[56] J. Lohaus, F. Stockmeier, P. Surray, J. L¨olsberg, M. Wessling, What are the microscopic events during membrane backwashing? J. Membr. Sci. 602 (2020) 117886 https://doi.org/10.1016/j.memsci.2020.117886.[57] M. Doi, Gel dynamics, J. Phys. Soc. Jpn. 78 (2009) 052001, https://doi.org/ 10.1143/JPSJ.78.052001.[58] J.D. Sherwood, Initial and final stages of compressible filtercake compaction, AIChE J. 43 (1997) 1488–1493, https://doi.org/10.1002/aic.690430612.[59] A. Lüken, J. Linkhorst, R. Fr¨ohlingsdorf, L. Lippert, D. Rommel, L. De Laporte, M. Wessling, Unravelling colloid filter cake motions in membrane cleaning procedures, Sci. Rep. 10 (2020) 20043, https://doi.org/10.1038/s41598-02076970-x.[60] C. Lee, C. Cottin-Bizonne, R. Fulcrand, L. Joly, C. Ybert, Nanoscale dynamics versus surface interactions: what dictates osmotic transport? J. Phys. Chem. Lett. 8 (2017) 478–483, https://doi.org/10.1021/acs.jpclett.6b02753.[61] G.A. Zampogna, P.G. Ledda, F.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "what dictates osmotic transport? J. Phys. Chem. Lett. 8 (2017) 478–483, https://doi.org/10.1021/acs.jpclett.6b02753.[61] G.A. Zampogna, P.G. Ledda, F. Gallaire, Transport across thin membranes: effective solute flux jump, Phys. Fluids 34 (2022) 083113, https://doi.org/ 10.1063/5.0101621.[62] C. Lee, C. Cottin-Bizonne, A.-L. Biance, P. Joseph, L. Bocquet, C. Ybert, Osmotic flow through fully permeable nanochannels, Phys. Rev. Lett. 112 (2014) 244501, https://doi.org/10.1103/PhysRevLett.112.244501.[63] Z.B. Sendekie, P. Bacchin, Colloidal jamming dynamics in microchannel bottlenecks, Langmuir 32 (2016) 1478–1488, https://doi.org/10.1021/acs. langmuir.5b04218.[64] A.M. Kalde, J. Lohaus, S. Musholt, M. Wessling, On the balance of hydrophilicity and electrostatic interactions during particle filtration and backwash at microfiltration pores, J. Membr. Sci. 680 (2023) 121640, https://doi.org/10.1016/ j.memsci.2023.121640.[65] G.C. Agbangla, ´E. Climent, P. Bacchin, Experimental investigation of pore clogging by microparticles: evidence for a critical flux density of particle yielding arches and deposits, Sep. Purif. Technol. 101 (2012) 42–48, https://doi.org/10.1016/j. seppur.2012.09.011.[66] E. Dressaire, A. Sauret, Clogging of microfluidic systems, Soft Matter 13 (2017) 37–48, https://doi.org/10.1039/C6SM01879C.[67] N. Delouche, Flow decline during pore clogging by colloidal particles, Phys. Rev. Fluids 7 (2022), https://doi.org/10.1103/PhysRevFluids.7.034304.[68] Y.J. Lee, D.Y.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ow decline during pore clogging by colloidal particles, Phys. Rev. Fluids 7 (2022), https://doi.org/10.1103/PhysRevFluids.7.034304.[68] Y.J. Lee, D.Y. Kim, K.H. Ahn, Particulate fouling simulation in unit micropore using a hydrodynamically coupled Lagrangian framework, Desalination 593 (2025) 118255, https://doi.org/10.1016/j.desal.2024.118255.[69] G.C. Agbangla, ´E. Climent, P. Bacchin, Numerical investigation of channel blockage by flowing microparticles, Comput. Fluids 94 (2014) 69–83, https://doi. org/10.1016/j.compfluid.2014.01.018.[70] A. Elrahmani, R.I. Al-Raoush, T.D. Seers, Clogging and permeability reduction dynamics in porous media: a numerical simulation study, Powder Technol. 427 (2023) 118736, https://doi.org/10.1016/j.powtec.2023.118736.[71] S. Mondal, C.-H. Wu, M.M. Sharma, Coupled CFD-DEM simulation of hydrodynamic bridging at constrictions, Int. J. Multiph. Flow 84 (2016) 245–263, https://doi.org/10.1016/j.ijmultiphaseflow.2016.05.001.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738826001602-main",
+      "title": "Membrane transport explained with a colloidal interaction-based framework",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  }
+]

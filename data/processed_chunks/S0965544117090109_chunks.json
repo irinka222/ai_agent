@@ -1,0 +1,236 @@
+[
+  {
+    "content": "INTRODUCTION\nFurther progress in the development of electromembrane technologies is associated with the intensification of electromembrane processes and the transition to overlimiting current regimes of electrodialysis. Under these conditions, the dominant mechanism of ion transport is electroconvection [1]. The foundations of the theory of electroconvection have been laid down in the works of Dukhin and Mishchuk [2, 3] and Rubinstein and coauthors [4–6]. In those studies using mathematical modeling, electroconvection in membrane systems is considered to be due to the interaction of an electric field with the space charge induced by this field localized at the membrane/solution interface in a desalted solution.\n\nIn this study, we investigate electroconvection under conditions of forced hydrodynamic convection when the linear velocity of flow of an electroconvection-unperturbed solution is nonzero. Allowance for the effect of forced hydrodynamic convection on electroconvection in channels with heterogeneous membranes is another step in building dynamic models for describing ion transport in overlimiting current regimes when electroconvection is the dominant mechanism of ion transport in an electromembrane system. Studying electroconvection is also important for better understanding of the mechanisms of the overlimiting current and enhancement of mass transfer in electrodialysis devices.",
+    "citation": {
+      "authors": [
+        "Zabolotsky V.I.",
+        "Novak L.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Urtenov M.H.",
+        "Lebedev K.A.",
+        "Zabolotskya I.",
+        "Novakb L.",
+        "Kovalenkoa V.",
+        "Nikonenkoa V.",
+        "Urtenova H.",
+        "Lebedeva A.",
+        "Yu A."
+      ],
+      "paper_id": "S0965544117090109",
+      "title": "PetrChem1709010Zabolotskii.fm",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. CAUSES OF HETEROELECTROCONVECTION\nWhen a solution adheres to solid boundaries, any non-hydrodynamic process affects the flow of the solution through a spatial (volume, mass, ponderomotive) force f in the Navier–Stokes equation [7, 8]. If this is a potential force (rot f = 0), i.e., there exists a function ψ such that f = ∇ψ, then by introducing a new pressure P' = P + ψ we obtain that the flow of the solution is not changed by the action of this force. Thus, the cause of electroconvection is the vortex nature of the force (rot f ≠ 0). In the case of electromembrane systems, the spatial force is electric force acting on the space charge: f = ρE, where ρ is the charge distribution density and E is the electric field strength. The electric field is potential, since E = −∇ϕ and, therefore, rot E = 0. Hence, it follows that rot f = rot (ρE) = ∇ρ × E + ρ rot E = ∇ρ × E. From this relationship it is clear that the vortex character of the electric force is determined by the gradient of charge density.\n\nThe formation of space charge is associated with the selectivity of ion-exchange membranes, because of which the concentration of counterions in the solution near them under overlimiting current regimes is significantly higher than the concentration of coions. The space charge near a cation- or anion-exchange membrane is formed by cations or anions, respectively, with the solution being locally (pointwise) electrically neutral in the flow core far from the membranes.\n\nElectroconvection in electromembrane systems with homogeneous ion-exchange membranes is determined by the counterion concentration gradient caused by uneven desalination of the solution along the length of the desalting channel of the electrodialysis apparatus [8]. Because of the difference in charge numbers and diffusion coefficients of cations and anions, the values of rot f are different near the anion-exchange and cation-exchange membranes, and consequently the flow of the solution will be asymmetric. For a symmetrical electrolyte (z1 = z2) with close diffusion coefficients D1 and D2, for example for KCl, the flow of the solution is symmetrical. This mechanism of electroconvection was theoretically studied in the works of Rubinstein et al. [4–6]. Electroconvection has a threshold character and appears when a certain critical value of the electric potential jump is reached. In electromembrane systems (EMS) with heterogeneous membranes, the mechanism of electroconvection is different. These membranes are prepared by hot molding (www.n-azot.ru) or rolling (www.mega.cz) of dispersed ion exchange resins with a particle size of 10 to 100 μm and the inert binder polyethylene.\n\nThe structure and surface of heterogeneous membranes are nonuniform (Fig. 1). There are alternating conducting areas (ion exchanger grains) and inert polyethylene areas on the surface of the membranes. The share of the active surface depends on the membrane fabrication technology: it is θ = 0.62–0.85 in the membranes manufactured by hot molding at ShchekinoAzot (Russia) or θ = 0.3 for membranes produced by hot rolling on Mega a.s. (Czech Republic) [9–11]. On an electrically nonuniform surface, current lines become closer together in conductive areas (“funnel” effect). As a result, the electric field at the surface of a heterogeneous membrane becomes nonuniform. The concentration at the surface of the conducting areas decreases more rapidly than at the surface of nonconducting areas (concentration of the solution near nonconducting areas of the surface of a heterogeneous membrane changes because of the appearance of the normal component of the electric field [12, 13]). As a result, the gradient of space-charge density at i > ilim is distributed extremely nonuniformly over the membrane surface. It has the highest value at the surface of the conducting areas and the lowest value at the surface of the nonconducting areas. The charge density gradient ∇ρ abruptly changes near the transition region between the conducting and nonconducting areas of the heterogeneous-membrane surface. As a result, at overlimiting electric current densities, a vortex electric force leading to the emergence of electroconvective vortices appears in the system. We will call this type of electroconvection heteroelectroconvection. The mechanism of genesis of heteroelectroconvection was first studied by Dukhin and Mishchuk [2, 3]; they showed that this mechanism does not have a threshold value of the potential jump and appears at substantially lower values of electric current density than in systems with homogeneous membranes.\n\nThus, in order to describe ion transport in systems with heterogeneous membranes, it is necessary to take into account two spatial coordinates and build two-dimensional mathematical models for the transfer of a binary electrolyte in the desalting compartment enclosed between heterogeneous anion-exchange and cation-exchange membranes in an electrodialysis apparatus. In this paper, we propose a model in the form of a boundary-value problem for the coupled system of Nernst–Planck–Poisson and Navier–Stokes equations.",
+    "citation": {
+      "authors": [
+        "Zabolotsky V.I.",
+        "Novak L.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Urtenov M.H.",
+        "Lebedev K.A.",
+        "Zabolotskya I.",
+        "Novakb L.",
+        "Kovalenkoa V.",
+        "Nikonenkoa V.",
+        "Urtenova H.",
+        "Lebedeva A.",
+        "Yu A."
+      ],
+      "paper_id": "S0965544117090109",
+      "title": "PetrChem1709010Zabolotskii.fm",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. MATHEMATICAL MODEL OF ELECTROCONVECTION DUE TO HETEROGENEITY OF ION-EXCHANGE MEMBRANES\nTo derive the two-dimensional mathematical model, various variants of placing conducting and nonconducting areas in the membrane were considered. For convenience of analysis, let us first consider ion-exchange membranes that have only two conducting areas (Fig. 2), with the rest of the membrane surface being inert (polyethylene). To exclude calculation errors caused by the boundary conditions at the inlet and outlet to the membrane channel, the conducting areas are located in the middle part of the channel.\n\nLet H and L be the width and length of the desalting compartment, respectively, and V0 be the initial (linear) rate of pumping of the solution, where x = 0 corresponds to the conditional anion-exchange membrane/solution interface, x = H correspond to the cation-exchange membrane/solution interface, y = 0 at the inlet to the membrane channel, and y = L at the exit. The length of the conducting areas is l = [l01, l02] = [l03, l04] = [l11, l12] = [l13, l14], and that of the nonconducting sections is l = [l02, l03] = [l12, l13].\n\nTo simulate the electroconvection, we will use a system of Nernst–Plank–Poisson [7] and Navier–Stokes [8] equations, taking into account the spatial force that couples them.\n\nThis system in vector notation for a binary electrolyte in the absence of chemical reactions has the form:\n(1) j_i = -z_i D_i F/RT C_i ∇ϕ - D_i ∇C_i + C_i V, i=1,2\n(2) ∂C_i/∂t = -div j_i, i=1,2\n(3) εΔϕ = -F(z_1 C_1 + z_2 C_2)\n(4) I = F(z_1 j_1 + z_2 j_2)\n(5) ρ_0 (∂V/∂t + (V·∇)V) = -∇P + ρ_0 ν ΔV + f\n(6) div V = 0\nwhere ∇ is the gradient, Δ is the Laplace operator, E = -∇ϕ is the electric field strength, V is the flow rate of the electrolyte solution, ρ_0 is the density of the solution, P is the pressure, ε is the dielectric permittivity of the electrolyte, ν is the kinematic viscosity coefficient, F is Faraday’s constant, R is the gas constant, T is the absolute temperature, and t is the time. Here C_1, C_2, ϕ, P, V are unknown functions that depend on time t and coordinates x, y. In the system of Eqs. (1)–(6), equations (1)–(4) describe electrochemical fields and Navier–Stokes equations (5) and (6) describe the motion of the solution under the action of the spatial electric force f = F(z_1 C_1 + z_2 C_2)(-∇ϕ).\n\nWe will consider the potentiostatic regime, assuming that the conductive surfaces of the ion-exchange membranes are equipotential, except for the nonconducting phase:\nϕ(0,y,t) = ϕ_0, ϕ(H,y,t) = ϕ_1 = const, at y ∈ [l_00,l_01] ∪ [l_10,l_11], t≥0.\n\nLet us write down the boundary conditions for heterogeneous membranes:\n(1) On the conductive areas of the surface of the anion-exchange membrane, the boundary concentration of the anions C_m will be taken equal to the concentration of fixed ions (exchange capacity): C_2(0,y,t) = C_am, t≥0, y∈[l_00,l_01]∪[l_10,l_11]. In addition, the anion-exchange membrane is supposed to be ideally selective, i.e., impermeable to cations: (∂C_1/∂x + (z_1 F C_1/RT) ∂ϕ/∂x) = 0 at x=0, y∈[0,L], t≥0.\n(2) On the surface of the conducting areas of the cation-exchange membrane, the boundary concentration of cations is taken equal to the concentration of fixed groups (C_cm): C_1(H,y,t) = C_cm, t≥0, y∈[l_00,l_01]∪[l_10,l_11]. Like the anion-exchange membrane, the cation-exchange membrane is also assumed to be ideally selective, i.e., impermeable to anions: (∂C_2/∂x - (z_2 F C_2/RT) ∂ϕ/∂x) = 0 at x=H, y∈[0,L], t≥0.\n(3) On the nonconducting areas of the surface of ion-exchange membranes, the boundary conditions for the concentrations will be the condition of impermeability of anion and cation streams: n·j_i = 0, i=1,2. From this condition it follows that n·I = 0 and, accordingly, the following condition is obtained for the potential: n·∇ϕ = 0. Since the electroneutrality condition holds in the solution in the region of nonconducting areas, this ratio is simplified to: n·∇ϕ = 0.\n(4) For the velocity of the solution at the surface of the ion-exchange membranes, we use the sticking condition: V_x(0,y,t)=0, V_y(0,y,t)=0, V_x(H,y,t)=0, V_y(H,y,t)=0, y∈[0,L], t≥0.\n(5) At the entrance to the desalting channel, the concentration of ions and the flow rate of the solution are preset. Depending on the purpose of the study, they can be considered constant or distributed according to another law, for example, the concentration can be taken constant and the flow at the entrance to be a Poiseuille flow: C_i(0,y,t)=C_i0, V_x(x,0,t)=0, V_y(x,0,t)=6V_0 (x/H)(1 - x/H). Assume that the concentrations at the inlet satisfy the electroneutrality condition. Hence, it follows that there is no current flowing at the channel inlet, i.e. n·I=0, and the condition defined by Eq. (12) is obtained for the potential at the inlet.\n(6) At the exit from the region under consideration, y=L, x∈[0,H], t≥0, the condition that the ions are drawn out of the channel only by convective flow will be used for the concentration: -D_i ∂C_i/∂y - z_i D_i F/RT C_i ∂ϕ/∂y + C_i V_y = 0, i=1,2. For the potential, we use condition ∂ϕ/∂y=0, which means that there is no current at the exit from the channel. Since this problem allows for the emergence of nonstationary vortices, the boundary conditions for the velocity at the exit from the desalting channel can give computational artifacts at the inlet and outlet of the membrane channel. To solve this problem, the nonconductive and conductive areas are located at some distance from the entrance to and exit from the channel. In this case, it can be assumed that the flow at the exit from the channel is a Poiseuille flow as well: V_x(x,L,t)=0, V_y(x,L,t)=6V_0 (x/H)(1 - x/H).\n(7) The initial conditions at t = 0 conforming to the boundary conditions are written in the following form: C_i(x,y,0)=C_i0, V(x,y,0)=0, ϕ(x,y,0)=ϕ_0(1 - x/H).\n\nThe set of Eqs. (1)–(17) makes it possible to describe the emergence and the dynamics of development of heteroelectroconvection in a membrane channel with heterogeneous membranes. However, in this paper we confine ourselves to the quasi-stationary problem suggesting that electroconvective vortices have already been established (t → ∞) and depend only on spatial coordinates. The consideration of the nonstationary dynamic problem is the subject of our further research.",
+    "citation": {
+      "authors": [
+        "Zabolotsky V.I.",
+        "Novak L.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Urtenov M.H.",
+        "Lebedev K.A.",
+        "Zabolotskya I.",
+        "Novakb L.",
+        "Kovalenkoa V.",
+        "Nikonenkoa V.",
+        "Urtenova H.",
+        "Lebedeva A.",
+        "Yu A."
+      ],
+      "paper_id": "S0965544117090109",
+      "title": "PetrChem1709010Zabolotskii.fm",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. VORTEX ELECTROCONVECTION STRUCTURES ON MODEL MEMBRANES WITH TWO CONDUCTING AREAS\nWe carried out numerical experiments for an NaCl solution in a wide range of parameters, such as initial concentration, solution pumping rate, intermembrane distance, length, electrical potential jump, and lengths of conductive (l) and nonconductive (l) areas on ion exchange membrane surfaces and determined the main trends in the distribution of electrochemical (concentration, electric field strength, etc.) and hydrodynamic fields.\n\nA membrane channel with model cation-exchange and anion-exchange membranes having two conducting areas each is sketched in Fig. 2.\n\nFigures 3–5 present the results of simulation of vortex structures in the membrane channel with two conducting areas for different values of the linear velocity of the solution V0 = 0.1 mm/s and V0 = 0.5 mm/s and different values of the potential jump on the membrane channel (Δϕ = 0.3 V and Δϕ = 3 V). The electric potential jump Δϕ on the membrane channel does not include the ohmic potential jump on the cation-exchange and anion-exchange membranes.\n\nAs can be seen from Fig. 3, two vortices due to heterogeneity of the membrane surface are formed near each membrane at Δϕ = 0.3 V. The vortices are formed in front of the inert area and rotate clockwise at the cation-exchange membrane and counterclockwise at the anion-exchange membrane. The vortices near the cation-exchange membrane do not interact with those at the anion-exchange membrane.\n\nIn contrast, a variety of vortices are formed at Δϕ = 3 V, including vortices due to the interplay of the vortices at the anion-exchange membrane with the vortices near the cation-exchange membrane.\n\nAs the velocity of the forced flow of the solution increases, the dimensions of the electroconvective vortices decrease. As can be seen from Fig. 4, the convective vortices generated by the cation-exchange and anion-exchange membranes do not interact with each other even at a electric potential jump of Δϕ = 3 V, since the channel width is relatively large.\n\nNumerical calculations show that as the linear flow velocity of the solution V0 increases, the electric potential jump in the membrane channel at which electroconvective vortices arise increases. This relationship is nonlinear and close to quadratic.",
+    "citation": {
+      "authors": [
+        "Zabolotsky V.I.",
+        "Novak L.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Urtenov M.H.",
+        "Lebedev K.A.",
+        "Zabolotskya I.",
+        "Novakb L.",
+        "Kovalenkoa V.",
+        "Nikonenkoa V.",
+        "Urtenova H.",
+        "Lebedeva A.",
+        "Yu A."
+      ],
+      "paper_id": "S0965544117090109",
+      "title": "PetrChem1709010Zabolotskii.fm",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. VORTEX STRUCTURES IN MEMBRANE CHANNEL WITH ALTERNATING CONDUCTIVE AND INERT AREAS ON ION-EXCHANGE MEMBRANES\nA schematic of the membrane channel with alternating conducting and inert areas is shown in Fig. 5a. In the numerical simulation of heteroelectroconvection in this system, the number of conducting and inert areas on each of the membranes was 120. The total length of an area unit (l + l) was 100 μm. The length of conducting (l) and inert (l) areas varied from l = 0.9995 and l = 0.0005 to l = 0.5 and l = 0.5. The fractional surface of inert sites (polyethylene) varied from θ = 0.0005 to θ = 0.5. The possibility of such modeling of microheterogeneity of real membranes was shown in [1, 9, 11]. The results of numerical simulation of heteroelectroconvection on heterogeneous membranes were compared with relevant results calculated for a homogeneous membrane (l = 100 μm, θ = 0).\n\nFigure 5b shows the distribution of streamlines for a selected fragment of the channel. As can be seen from the figure, the electric and hydrodynamic fields of each membrane become periodic in the case of alternation of conducting and nonconducting areas. Electroconvective vortices arise in both membranes, but the size of the vortices is much larger at the cation-exchange membrane. This asymmetry of the fields is due to the difference in diffusion coefficients between the cations (D_Na+ = 1.33 × 10^–9 m^2/s) and anions (D_Cl– = 2.05 × 10^–9 m^2/s). When the diffusion coefficients are equal (e.g., in the case of KCl solution), the streamlines in the channel become symmetrical. At a high velocity of forced flow of the solution and a small electrical potential jump between the membranes (as in the case of a model membrane with two conducting areas), the electroconvective vortices do not interact with one another in each membrane (this case is shown in Fig. 5b).\n\nAs the voltage (Δϕ) across the membrane channel increases and the velocity of forced flow of the solution (V0) decreases, the size of vortices at each membrane increases and interaction between the vortices begins. These electroconvective vortices occupy the entire membrane channel. The observed picture of the distribution of electroconvective vortices in the membrane channel is qualitatively the same as the one shown in Fig. 3b.",
+    "citation": {
+      "authors": [
+        "Zabolotsky V.I.",
+        "Novak L.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Urtenov M.H.",
+        "Lebedev K.A.",
+        "Zabolotskya I.",
+        "Novakb L.",
+        "Kovalenkoa V.",
+        "Nikonenkoa V.",
+        "Urtenova H.",
+        "Lebedeva A.",
+        "Yu A."
+      ],
+      "paper_id": "S0965544117090109",
+      "title": "PetrChem1709010Zabolotskii.fm",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5. CURRENT–VOLTAGE CHARACTERISTICS OF HETEROGENEOUS AND HOMOGENEOUS MEMBRANES\nThe insight into the structure of vortex flows in the channel with heterogeneous membranes in Sections 3 and 4 shows that at a low voltage on the membrane channel and a high flow velocity of the solution, the electroconvective vortices in each of the membranes are formed independently and do not interact with each other. Thus, it becomes possible to investigate heteroelectroconvection in solution individually at each of the membranes that form the channel. In simulation of the current–voltage characteristic (CVC), half of the membrane channel is considered and equipotential surfaces are defined on the surface of the conducting areas of the membrane studied and on the plane passing through the center of the channel.\n\nFigure 6 depicts current–voltage curves calculated for heterogeneous anion-exchange membranes with different ratios of nonconducting (l) and conducting (l) areas and, hence, different surface fractions of inert areas θ = l/(l+l). For comparison, the CVC of a homogeneous anion-exchange membrane is shown in the same figure. The ohmic potential jump Δϕ_ohm is excluded from the potential Δϕ of the membrane/solution system.\n\nAs can be seen from Fig. 6, the CVC curve for the homogeneous membrane has three segments: the initial linear portion up to Δϕ = 0.2 V, the nearly horizontal portion from 0.2 to 0.9 V corresponding to the limiting current, and the portion due to overlimiting current when electroconvection develops in the system. Current oscillations due to the formation and development of electroconvective vortices are seen in this region for the homogeneous membrane. A detailed analysis of the CVC and structure of vortex flows in systems with a homogeneous membrane is given in [14]. In contrast to the homogeneous membrane, there is no limiting current plateau in the range of potential jumps from 0 to 0.6 V on the CVCs of the heterogeneous membranes with a nonconducting surface fraction in the range of 0.01–0.3.\n\nThe value of the current density at the overlimiting portions of the CVC curves strongly depends on surface morphology of the heterogeneous membranes (in the model, on the length of the inert l and conducting l areas and the surface fraction of the inert areas θ = l/(l+l)). At a large value of Θ > 0.3, mass transfer through the homogeneous membrane is higher than through the heterogeneous membranes. In this case, the effect of shielding the heterogeneous membranes by inert areas (polyethylene) is higher than the contribution of heteroelectroconvection. At a 40 : 60 percentage ratio of the nonconducting and conductive areas (θ = 0.4), the mass transfer through the homogeneous and heterogeneous membranes is almost the same. At θ < 0.3, mass transfer through the heterogeneous membrane exceeds that through the homogeneous membrane (with the same “apparent” membrane area) as a result of the development of heteroelectroconvection.\n\nFigure 7 shows the dependence of the current density on the surface fraction of nonconducting sites θ for various values of electric potential jump Δϕ. The period step size was kept the same l + l = 100 μm throughout. For real membranes, this corresponds to a constant degree of dispersion of the ion exchange resin and polyethylene. The maximum transfer of salt ions at this step size is observed for the heterogeneous membranes with a polyethylene surface fraction of θ = 0.01 (about one percent of the total surface). With a change in the degree of dispersion of the ion exchange resin and polyethylene, the value of θ corresponding to the maximum mass transfer through the heterogeneous membrane will be different.\n\nThus, the mathematical model developed for heteroelectroconvection in membrane channels with heterogeneous membranes can be the theoretical basis for targeted modification of surface morphology of ion-exchange membranes and creation of next-generation heterogeneous membranes having heteroelectroconvection as the main mechanism of transport of electrolyte ions through them at high current densities. By optimizing the morphology, it will be possible to provide a significant increase in mass transfer in electrodialyzers with heterogeneous membranes.",
+    "citation": {
+      "authors": [
+        "Zabolotsky V.I.",
+        "Novak L.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Urtenov M.H.",
+        "Lebedev K.A.",
+        "Zabolotskya I.",
+        "Novakb L.",
+        "Kovalenkoa V.",
+        "Nikonenkoa V.",
+        "Urtenova H.",
+        "Lebedeva A.",
+        "Yu A."
+      ],
+      "paper_id": "S0965544117090109",
+      "title": "PetrChem1709010Zabolotskii.fm",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "6. EXPERIMENTAL: CURRENT–VOLTAGE CHARACTERISTICS OF HOMOGENEOUS AND HETEROGENEOUS MEMBRANES\nAs has been shown in Sections 3–5, at high flow velocities of the solution in the membrane channel and at not very high electrical potential jumps, electroconvective vortices are formed independently of one another at the cation-exchange and anion-exchange membranes and do not interact with each other. This circumstance makes it possible to investigate the features of emergence and development of heteroelectroconvection on individual membranes. In the present study, the rotating membrane disk (RMD) method was used for this purpose [15, 16]. The method made it possible to set a thickness δ of the diffusion layer (unperturbed by heteroelectroconvection) by varying the membrane disk rotation speed ω in accordance with Levich’s formula:\nδ = 1.61 D^{1/3} ν^{1/6} ω^{-1/2}\ni_lim = 0.62 z_i F C_0 D_i^{2/3} ν^{-1/6} (T_i - t_i) ω^{1/2}\nHere, D is the ion average diffusion coefficient, T_i and t_i are respectively the effective transport numbers of ions in the membrane and in the solution, C_0 is the concentration of the electrolyte solution, ν is the kinematic viscosity, δ is the thickness of the diffusion layer, and ω is the angular velocity of rotation of the membrane disk.\n\nIn these experiments, the current–voltage characteristics and the Hittorff transport numbers of ions were simultaneously determined. The procedure is detailed in [18, 19].\n\nIt is well known [11, 19, 20] that the electroconvection is strongly affected by the dissociation of water, which proceeds in an electromembrane system under overlimiting current conditions simultaneously with electroconvection. Since water dissociation has not yet been taken into account in the presented theory describing heteroelectroconvection, the experimental strong-base AMH membranes were surface-modified with a copolymer of dimethyldiallylammonium chloride with acrylonitrile according to the procedure described in [21]. Surface-modified membranes AMH-M do not contain in the surface layer functional groups that are catalytically active in the water dissociation reaction. As a result, water dissociation on these membranes does not occur until the electric potential on the membrane drops to Δϕ = 3 V [11]. The results of the investigation of AMH-M membranes by the RMD technique are plotted in the Levich coordinates in Fig. 8.\n\nFigure 6 shows the results of the RMD study of homogeneous AMX membranes of Japanese production. For comparison, the plots of the limiting electrodiffusion current for the homogeneous membrane AMX and the heterogeneous membrane AMH-M, as calculated according to Levich formula (19) and the equation derived by Baltrunas and coworkers taking into account the heterogeneity of the membrane [1], are also given for comparison:\ni_lim = (F C_0 D_i / δ) (T_i - t_i) [1 + (0.27 ln(1-Θ))/Θ] (for heterogeneous membrane)\n\nThe contribution of the electroconvective component of the limiting current measured for the homogeneous membrane AMX and the modified heterogeneous membrane AMH-M can be estimated by comparing the experimental limiting currents with the calculated electrodiffusion limiting currents for the homogeneous (solid line) and the modified heterogeneous (dash-dotted line), respectively. The contributions of the electroconvective component for the membranes under study are given in the Table 1. It can be seen that heteroelectroconvection on the heterogeneous membranes AMH-M, which is developed as electroosmosis of the second kind [2, 3], is substantially higher than electroconvection on the homogeneous membrane AMX (first-order electroosmosis [5, 6]). At high current densities (i > i_lim), heteroelectroconvection becomes the dominant mechanism of ion transport.",
+    "citation": {
+      "authors": [
+        "Zabolotsky V.I.",
+        "Novak L.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Urtenov M.H.",
+        "Lebedev K.A.",
+        "Zabolotskya I.",
+        "Novakb L.",
+        "Kovalenkoa V.",
+        "Nikonenkoa V.",
+        "Urtenova H.",
+        "Lebedeva A.",
+        "Yu A."
+      ],
+      "paper_id": "S0965544117090109",
+      "title": "PetrChem1709010Zabolotskii.fm",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "CONCLUSIONS\nUse of the mathematical approaches presented in this paper has made it possible to investigate the emergence of vortices directly at each of the test membranes, excluding their interplay.\nSurface modification of heterogeneous anion-exchange membranes can increase the contribution of the electroconvective component of the limiting current to the total mass transfer in comparison with a homogeneous membrane.",
+    "citation": {
+      "authors": [
+        "Zabolotsky V.I.",
+        "Novak L.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Urtenov M.H.",
+        "Lebedev K.A.",
+        "Zabolotskya I.",
+        "Novakb L.",
+        "Kovalenkoa V.",
+        "Nikonenkoa V.",
+        "Urtenova H.",
+        "Lebedeva A.",
+        "Yu A."
+      ],
+      "paper_id": "S0965544117090109",
+      "title": "PetrChem1709010Zabolotskii.fm",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ACKNOWLEDGMENTS\nThis work was supported the Ministry of Education and Science of the Russian Federation, project no. 10.3091.2017/PCh and the Russian Foundation for Basic Research, project no. 14-08-00663_a.",
+    "citation": {
+      "authors": [
+        "Zabolotsky V.I.",
+        "Novak L.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Urtenov M.H.",
+        "Lebedev K.A.",
+        "Zabolotskya I.",
+        "Novakb L.",
+        "Kovalenkoa V.",
+        "Nikonenkoa V.",
+        "Urtenova H.",
+        "Lebedeva A.",
+        "Yu A."
+      ],
+      "paper_id": "S0965544117090109",
+      "title": "PetrChem1709010Zabolotskii.fm",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  }
+]

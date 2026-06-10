@@ -1,0 +1,206 @@
+[
+  {
+    "content": "1. Introduction\nThe carbon dioxide (CO2) molecule, a principal contributor to global warming due to its role in greenhouse gas emissions, is a product associated with various processes, including the combustion of fossil fuels [1]. The removal, capture and storage of this acid gas can be conducted with the use of conventional technologies such as adsorption, absorption or cryogenic distillation. These present certain disadvantages, comprising elevated energy consumption and substantial environmental impact. Therefore, new improved separation processes are necessary with a greater efficiency, simplicity and smaller footprint [2]. The utilization of membranes for the separation of CO2 has been proposed as a novel alternative for the capture of CO2 in post-combustion processes as well as in other processes related to sustainability such as biogas upgrading. This separation proposal offers several advantages, including cost savings in processing, energy efficiency, simplified mechanics and compact designs [3]. Among the various types of membranes (organic, metallic or inorganic), polymeric membranes are particularly promising, due to their flexibility, cost-effectiveness and ease of preparation [4]. Moreover, the acquisition of membranes that exhibit enhanced selectivity for CO2 over gases such as N2 and CH4 is possible, based on the differences in solubility and diffusivity of these gases within the membrane matrix [5].",
+    "citation": {
+      "authors": ["Lucía Carrillo-Sánchez", "Carlos Téllez", "Joaquín Coronas"],
+      "paper_id": "1-s2.0-S037673882501021X-main",
+      "title": "Membrane preparation assisted by integration of machine learning and response surface methodology for CO2 separation",
+      "year": "2025",
+      "section": "Introduction",
+      "pages": [1, 2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In these cases, a variety of polymer types are employed, including the PEBA (polyether block amide) series, with the Pebax commercial brand being the most prominent, which has demonstrated efficacy in the treatment of these gases [6,7]. PEBA is a thermoplastic elastomer that is formed by block copolymers: a \"hard\" block of aliphatic polyamide (PA), that contributes to mechanical stability, and a \"soft or flexible\" block of amorphous polyether (PE), that enables high permeation flow and selective CO2 transport. In fact, PEBA has demonstrated a high degree of affinity for CO2, due to its polar ether group. The variation in the proportion of each block, as well as their intrinsic composition, causes differences in separation and physical properties [8]. Specifically, the polymer called Pebax 1657, with suitable properties for CO2 separation [9], composed of polyethylene oxide (PEO) and PA in a mass ratio of 60:40, is employed in this study. In these polymeric membranes, the efficiency of the gas separation process is determined by the selectivity and the permeability of the membrane material. In addition, according to selectivity and flux density, they can be classified as: porous and non-porous or dense, among others. The most common preparation methods for dense membranes are melt extrusion and solution casting [10]. In this study, the second mentioned method is used, which consists of the preparation of the membrane from a polymer solution with a specific solvent. Subsequently, the deposition or casting of the solution on a surface is carried out, in such a way that the membrane will be formed after the complete evaporation of the solvent. During membrane fabrication, it is important to consider the parameters that influence this process, since they can affect the structure of the membrane and its properties. Some of these parameters or variables may be the type of polymer, concentration of the solution, type of solvent and its volatility, the material of the casting surface, operating times (casting and solution) and the casting temperature [11].",
+    "citation": {
+      "authors": ["Lucía Carrillo-Sánchez", "Carlos Téllez", "Joaquín Coronas"],
+      "paper_id": "1-s2.0-S037673882501021X-main",
+      "title": "Membrane preparation assisted by integration of machine learning and response surface methodology for CO2 separation",
+      "year": "2025",
+      "section": "Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Achieving the highest possible performance from the use of these membranes as well as their optimization requires a detailed study of the experimental variables that are part of the synthesis and preparation of the membranes, in combination with the gas separation conditions. This is a complex task that involves an important investment of resources, including high cost and significant effort in terms of time and experimental work, usually carried out through a trial-and-error strategy. Consequently, the use of artificial intelligence (AI), due to its capacity to emulate human learning and reasoning abilities, is growing exponentially among society and its application and potency is increasing in different fields, such as medicine or materials technology, among others. Specifically, within the domain of AI, there are tools known as \"machine learning (ML)\", which can generate models that, upon undergoing training, exhibit the capacity to discern between classes or predict a desired property. This capability arises from their ability to capture nonlinear relationships between the input variables and the output variable, producing the desired result [12,13]. Therefore, ML techniques facilitate a rapid examination of the variables and the optimization of processes, allowing the evaluation of the object problem. This results in a reduction of required resources and an enhancement in efficiency. To achieve this objective, a ML model can be integrated with other resources, such as the design of experiments with a response surface method [14], molecular design [15] and molecular simulation [16].",
+    "citation": {
+      "authors": ["Lucía Carrillo-Sánchez", "Carlos Téllez", "Joaquín Coronas"],
+      "paper_id": "1-s2.0-S037673882501021X-main",
+      "title": "Membrane preparation assisted by integration of machine learning and response surface methodology for CO2 separation",
+      "year": "2025",
+      "section": "Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Moreover, ML has been previously used in the field of gas separation membranes [17–19] to gain insight into the prediction of the polymer characteristics and discover new ones [20,21], predict the separation properties of a given polymer (e.g. polyimide) [22], find a rapid assessment of MOF based mixed matrix membranes (MMMs) [16], estimate missing values of permeabilities of gases using exiting values for certain gases [23], and aid to choose the best ionic liquid@MOF composite to produce a MMM for CO2 separation [24], among others. Some works try to use the knowledge obtained with ML to prepare MOF-based MMMs that separate CO2 [11]. However, most of these approaches lack experimental exploitation and optimization of the knowledge gained from the ML. The main objective of this work is to use ML to identify the key parameters affecting the preparation of dense membranes of polymer Pebax 1657 and then apply the information gathered to improve their separation performance. Thus, the work seeks to design a model for the selectivity of membranes of Pebax 1657, based on experimental variables and considering their respective effects on these membranes. This implies the configuration of a specific database related to Pebax 1657 membranes from the literature including relevant information on their synthesis and separation behavior, the development of a model able to predict selectivity values based on previous experiments and, therefore, the estimation of the selectivity performance of newly synthesized membranes. Using the AI-generated model, design of experiments (DOE) with the response surface method (RSM) is used to obtain optimal membrane preparation conditions to maximize the separation selectivity. Membranes were therefore subsequently prepared in the laboratory under different conditions, including optimal conditions, and tested for CO2 separation, validating the methodology. This is the first time that AI has been integrated with DOE-RSM in the tangible membrane preparation for gas separation. In addition, the database was revamped with the additional experiments performed. In short, this approach accelerates the identification of the most influential membrane preparation conditions by optimizing the parameters that lead to optimal selectivity values.",
+    "citation": {
+      "authors": ["Lucía Carrillo-Sánchez", "Carlos Téllez", "Joaquín Coronas"],
+      "paper_id": "1-s2.0-S037673882501021X-main",
+      "title": "Membrane preparation assisted by integration of machine learning and response surface methodology for CO2 separation",
+      "year": "2025",
+      "section": "Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Materials and methods\n2.1. Materials\nPebax MH 1657 copolymer (60 wt% polyethylene oxide (PEO) and 40 wt% aliphatic polyamide 6 (PA6)) in pellet shape was kindly supplied by Arkema, France. Regarding the solvent, absolute ethanol and deionized water were purchased from Gilca, Spain. Additionally, gases used for gas permeation measurements (i.e., CO2, N2, CH4, He) were supplied by Linde S.A, Spain. These gases were of a purity level greater than 99.9 %, a standard that ensures their quality and reliability for scientific applications.\n\n2.2. Preparation of the membranes\nA specific quantity of Pebax MH 1657 pellets (0.36 g) was dissolved in a mixture of ethanol and deionized water (70:30 wt%) by stirring at several temperatures in the 70–140 °C range for 3 h to obtain solutions of this polymer at different polymer concentrations (in 1.8–10 wt% range). The amount of polymer added was constant to ensure a similar thickness (approximately 60–80 μm) in all membranes under comparison. However, the amount of solvent varied. After cooling, solutions were poured into a Petri dish and dried for one or two days at room temperature or a higher temperature (always less than 60 °C) and under controlled evaporation, until the solvent was almost completely dissipated. Subsequently, membranes were placed in a vacuum oven as a conditioning step from 30 to 60 °C for 4 h–6 h to ensure the complete elimination of any residual solvents that may be present in them. The membrane thickness is measured using a digital disk micrometer (Digimatic Micrometer Quickmike, Mitutoyo Corp.), and five measurements are taken at different points on each membrane, with the thickness being calculated as the average of those measurements. The synthesized membranes are designated as P1657DM_CX, where X denotes specific working conditions.",
+    "citation": {
+      "authors": ["Lucía Carrillo-Sánchez", "Carlos Téllez", "Joaquín Coronas"],
+      "paper_id": "1-s2.0-S037673882501021X-main",
+      "title": "Membrane preparation assisted by integration of machine learning and response surface methodology for CO2 separation",
+      "year": "2025",
+      "section": "Materials and methods",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.3. Gas permeation measurements\nMembranes were cut with an area of 12.6 cm2 and placed in a module consisting of two pieces of stainless steel and a porous support disk (Mott Co.) with a nominal pore size of 20 μm, being gripped inside with Viton o-rings. Gas separation measurements were conducted using feed mixtures of CO2/N2 (15:85 cm3 (STP)·min-1) and CO2/CH4 (50:50 cm3 (STP)·min-1) which were controlled by two Alicat Scientific mass flow controllers at a pressure of 3 bar on the feed side and different temperatures (25, 35 and 50 °C). The temperature of experiments is controlled by a UNE 200 Memmert oven in which the module is placed. Moreover, the permeate side of the membranes was swept with 10 cm3 (STP)·min-1 of He at a pressure of 1 bar, which was also controlled by a mass flow controller. Regarding the concentrations of CO2, N2 and CH4 in the output stream, they were measured online using an Agilent 990 micro-gas chromatograph. The permeability value was calculated in Barrer and the selectivity was determined as the ratio of the permeabilities of the gases in the mixture.",
+    "citation": {
+      "authors": ["Lucía Carrillo-Sánchez", "Carlos Téllez", "Joaquín Coronas"],
+      "paper_id": "1-s2.0-S037673882501021X-main",
+      "title": "Membrane preparation assisted by integration of machine learning and response surface methodology for CO2 separation",
+      "year": "2025",
+      "section": "Materials and methods",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.4. Data preparation and machine learning models\n2.4.1. Data collection from literature\nThe aim of this section is to analyze and compile the information available in the literature that is related to the study of dense membranes for separation of CO2 from other gases (N2 or CH4) with the selected Pebax 1657 polymer. This will allow the constitution of a database to be exploited through a machine learning (ML) model. It is important to examine the conditions and methodologies during the fabrication and measurement processes, as these factors will define the behavior of each membrane, and it will allow future research to improve the results. For this purpose, academic and scientific collections such as Web of Science and Google Scholar were used through keywords such as \"CO2 separation\", \"Pebax 1657\" and \"Membrane\". A total of 55 articles were collected, representing 109 samples or entries into our database. Initially, the total collected data consisted of 1846 entries corresponding to 139 samples, of which 30 samples were eliminated, and 218 entries were presented as missing values, representing 22 % of samples and 12 % of data entries, respectively. The main variables where gaps existed were the percentage of CO2 in the gas mixture, the membrane thickness and temperature and time of the conditioning step. Data were subjected to several preprocessing steps, which included the imputation of missing values using the mean of the corresponding variable and the implementation of normalization to enhance the interpretation of the data by the model.",
+    "citation": {
+      "authors": ["Lucía Carrillo-Sánchez", "Carlos Téllez", "Joaquín Coronas"],
+      "paper_id": "1-s2.0-S037673882501021X-main",
+      "title": "Membrane preparation assisted by integration of machine learning and response surface methodology for CO2 separation",
+      "year": "2025",
+      "section": "Materials and methods",
+      "pages": [3, 4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.4.2. Machine learning algorithms and models\nSupervised learning algorithms of growing complexity were used for regression tasks. Multiple linear regression seeks the connection between dependent and independent variables. The decision tree combines simple numerical tests. Each node contains a test that classifies a feature, and the branches extend from the parent nodes to the child nodes. Finally, random forest is an ensemble of decision trees that solves the overfitting problem typically associated with decision tree models [79]. In this study, 13 input variables were selected to estimate the CO2 selectivity (CO2/N2 and CO2/CH4 separation selectivities, called CO2/X throughout the study) for dense membranes obtained from polymer Pebax 1657. Selectivity was the output variable of the models. Both CO2/N2 and CO2/CH4 selectivities are integrated in the output of the model which can therefore differentiate between the two studied mixtures. The input characteristics are listed in Table 1. The selected solvents were ethanol/water, DMF and butanol. The selected gas mixtures were CO2/N2 and CO2/CH4.",
+    "citation": {
+      "authors": ["Lucía Carrillo-Sánchez", "Carlos Téllez", "Joaquín Coronas"],
+      "paper_id": "1-s2.0-S037673882501021X-main",
+      "title": "Membrane preparation assisted by integration of machine learning and response surface methodology for CO2 separation",
+      "year": "2025",
+      "section": "Materials and methods",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.4.3. Performance metrics and data normalization\nTo evaluate the usefulness and operation of the models, the metrics used were the root mean square error (RMSE) and the coefficient of determination (R2). RMSE indicates how far the predictions of the model are, on average, from the real value. R2 describes the proportion of variance of the output variable explained by the model. Normalization is a data preprocessing technique that adjusts the characteristics of data within a specific range to facilitate the results interpretation. Min-max scaler normalization for numerical input was employed. In the case of categorical inputs, the transformation of the data into numerical values was achieved through the implementation of the label encoding technique.",
+    "citation": {
+      "authors": ["Lucía Carrillo-Sánchez", "Carlos Téllez", "Joaquín Coronas"],
+      "paper_id": "1-s2.0-S037673882501021X-main",
+      "title": "Membrane preparation assisted by integration of machine learning and response surface methodology for CO2 separation",
+      "year": "2025",
+      "section": "Materials and methods",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.5. Study of variables that affect synthesis and measurement processes\nThe integration of ML models with design of experiments (DOE) enables the optimization of variables to maximize the selectivity value. DOE is a statistical technique used to optimize a process through a simultaneous study of different factors. This optimization is achieved through a multivariate analysis using a Box-Behnken design (BDD) with Statgraphics Centurion software. The variables of polymer concentration (2–6 wt%), thickness (30–90 μm), polymer solution temperature (70–140 °C), casting temperature (25–75 °C) and conditioning temperature (30–100 °C) were analyzed using the response surface methodology (RSM). 46 combinations of experimental conditions were obtained, whose selectivity values were calculated with the optimum machine learning model. For the optimization, the remaining variables were maintained constant: solution time (3 h), casting time (48 h), conditioning time (4 h), gas separation temperature (35 °C), pressure (3 bar) and CO2 percentage in the feed (15 %). Ethanol/water (70:30 wt%) was selected as polymer solvent and CO2/N2 mixture for gas separation.",
+    "citation": {
+      "authors": ["Lucía Carrillo-Sánchez", "Carlos Téllez", "Joaquín Coronas"],
+      "paper_id": "1-s2.0-S037673882501021X-main",
+      "title": "Membrane preparation assisted by integration of machine learning and response surface methodology for CO2 separation",
+      "year": "2025",
+      "section": "Materials and methods",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Results and discussion\n3.1. Correlations between input variables\nThe Pearson correlation coefficients between the variables of the model for selectivity are low (less than 0.7), indicating an insufficient correlation between the input variables proposed in the models. There are high values that are close to this limit, such as the relationship between the solvent and the solution preparation conditions, which is logical since these conditions are related to the boiling point of each solvent and its ability to dissolve the polymer. Another case is the inverse relationship between the casting conditions, since if a higher temperature is used to evaporate the solvent, less time will be required to obtain the membrane. These variables are interconnected, but it is important that they participate in the model.",
+    "citation": {
+      "authors": ["Lucía Carrillo-Sánchez", "Carlos Téllez", "Joaquín Coronas"],
+      "paper_id": "1-s2.0-S037673882501021X-main",
+      "title": "Membrane preparation assisted by integration of machine learning and response surface methodology for CO2 separation",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Comparison of selected algorithms\nThree distinct models (multiple linear regression, decision tree and random forest) were constructed. The dataset was divided into training set (80 % of the data) and test set (20 %). The multiple linear regression model gave R2 = 0.833 and RMSE = 7.10 for training, and R2 = 0.824 and RMSE = 6.89 for testing. The decision tree model gave R2 = 0.999 and RMSE = 0.56 for training and R2 = 0.655 and RMSE = 9.12 for testing. The random forest model gave R2 = 0.973 and RMSE = 2.85 for training and R2 = 0.962 and RMSE = 3.20 for testing. The random forest model demonstrates better performance metrics in comparison to the other two models. This is because the random forest algorithm manages both continuous and categorical data, and captures complex and non-linear relationships [85,86]. The decision tree is affected by overfitting (nearly perfect in training, poor in test). The multiple linear model does not explain non-linear relationships. The random forest model generalizes more appropriately to unknown data and combats overfitting by averaging the predictions of several decision trees trained with random subsets [89].",
+    "citation": {
+      "authors": ["Lucía Carrillo-Sánchez", "Carlos Téllez", "Joaquín Coronas"],
+      "paper_id": "1-s2.0-S037673882501021X-main",
+      "title": "Membrane preparation assisted by integration of machine learning and response surface methodology for CO2 separation",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [5, 6]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Importance analysis of input features\nThe degree of importance of each input variable for the estimation of selectivity is as follows: 1. Gas mixture, 2. Separation temperature, 3. Solution temperature, 4. Solvent, 5. CO2 percentage, 6. Thickness, 7. Pressure, 8. Solution time, 9. Conditioning time, 10. Polymer concentration, 11. Casting time, 12. Conditioning temperature and 13. Casting temperature. The variable with the greatest weight is the gas mixture composition, because gases (N2 and CH4) do not have the same diffusivity and solubility capacity through the membrane. The separation temperature affects the permeability (increase in temperature decreases selectivity due to a decrease in CO2 solubility). The solution temperature influences the complete dissolution of the polymer, the viscosity of the solution and the structure and morphology of the membrane. Variables with lower importance (casting conditions, conditioning temperature, polymer concentration) have limited impact under controlled conditions.",
+    "citation": {
+      "authors": ["Lucía Carrillo-Sánchez", "Carlos Téllez", "Joaquín Coronas"],
+      "paper_id": "1-s2.0-S037673882501021X-main",
+      "title": "Membrane preparation assisted by integration of machine learning and response surface methodology for CO2 separation",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [6, 7]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.4. Study and optimization of the procedure for the best conditions\nThe analysis of the results using response surface methodology revealed that selectivity increases at low polymer concentrations, with intermediate-to-high membrane thicknesses and low-to-intermediate solution temperatures. Combinations involving casting and conditioning temperatures yielded a nearly uniform response, indicating their limited impact. The optimal values derived from the multivariate analysis included a polymer concentration of 2.3 wt%, a membrane thickness of 70 μm, a solution temperature of 80 °C, a casting temperature of 45 °C, and a conditioning temperature of 30 °C. These conditions were selected for the purpose of future studies.",
+    "citation": {
+      "authors": ["Lucía Carrillo-Sánchez", "Carlos Téllez", "Joaquín Coronas"],
+      "paper_id": "1-s2.0-S037673882501021X-main",
+      "title": "Membrane preparation assisted by integration of machine learning and response surface methodology for CO2 separation",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [7, 8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.5. Experimental measurements and comparison with model estimation\nSeveral membranes were prepared under the optimal conditions suggested by RSM and in other experimental conditions. The comparison of experimental values with predicted values from the model showed favorable predictive performance, with metrics of R2 = 0.945 and RMSE = 3.08. The selectivity values proposed by design of experiments (45.8) and by the model (44.5) are close to the experimentally obtained value of 43.5. The proposed conditions by RSM enabled the highest selectivity to be achieved. The accuracy of the predictions in comparison to the experimental selectivity measurements was determined to be 3.5 % on average, as indicated by the relative standard deviation.",
+    "citation": {
+      "authors": ["Lucía Carrillo-Sánchez", "Carlos Téllez", "Joaquín Coronas"],
+      "paper_id": "1-s2.0-S037673882501021X-main",
+      "title": "Membrane preparation assisted by integration of machine learning and response surface methodology for CO2 separation",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.6. Comparative with other membranes in literature\nThe optimized membranes (P1657DM_C6) were compared with literature data for Pebax 1657 membranes. The proposed conditions by RSM resulted in prepared membranes with CO2 permeability and CO2/X selectivity values of 115 Barrer and 43.5 for CO2/N2, and 132 Barrer and 16.4 for CO2/CH4 at 35 °C; and at 25 °C: 89 Barrer and 47.8 for CO2/N2, and 97 Barrer and 18.9 for CO2/CH4. The optimized membrane exceeded approximately 79 % of comparable literature data for CO2/N2 and 92 % for CO2/CH4. On average, the membranes developed in this work outperformed the performance of 85 % of previously published results in terms of the permeability-selectivity trade-off.",
+    "citation": {
+      "authors": ["Lucía Carrillo-Sánchez", "Carlos Téllez", "Joaquín Coronas"],
+      "paper_id": "1-s2.0-S037673882501021X-main",
+      "title": "Membrane preparation assisted by integration of machine learning and response surface methodology for CO2 separation",
+      "year": "2025",
+      "section": "Results and discussion",
+      "pages": [8, 9]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Conclusions\nThis work describes an approach for the development of a machine learning (ML) model, which can be used to predict membrane separation selectivity values from the preparation conditions of polymer membranes. The purpose of this ML model is to determine the most suitable values of an experiment of membrane preparation for a given gas separation application, before conducting it. The employment of variable analysis tools facilitates the determination of the optimal experimental conditions leading to the improvement of membrane preparation procedures. The method was applied to dense Pebax 1657 membranes for the gas separation of CO2/N2 and CO2/CH4 mixtures. Among the three ML models applied (multiple linear regression, decision tree and random forest), the use of the random forest model elucidated the significance of the variables that influence the process, as well as the capacity to predict selectivity values more accurately. Moreover, the implementation of a multivariate analysis through the design of experiments with a response surface methodology (DOE-RSM) resulted in the determination of the values of specific experimental variables that enhanced the membrane selectivities obtained. In other words, the integration of the random forest ML model with the RSM suggested a set of experimental conditions for the membrane preparation and successive application to gas separation mixtures which led to good theoretical-experimental matching and high reproducibility.",
+    "citation": {
+      "authors": ["Lucía Carrillo-Sánchez", "Carlos Téllez", "Joaquín Coronas"],
+      "paper_id": "1-s2.0-S037673882501021X-main",
+      "title": "Membrane preparation assisted by integration of machine learning and response surface methodology for CO2 separation",
+      "year": "2025",
+      "section": "Conclusions",
+      "pages": [9, 10]
+    },
+    "type": "chunk"
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "content": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis Vitaliy Pipich a, Thomas Starc b, Winfried Petry c, Yoram Oren d,*, Dietmar Schwahn b,** a Jülich Centre for Neutron Science (JCNS) at Heinz Maier-Leibnitz-Zentrum (MLZ), Forschungszentrum Jülich GmbH, D-85747, Garching, Germanyb JCNS-1/ICS-1: Neutron Scattering and Soft Matter, Forschungszentrum Jülich GmbH, D-52425, Jülich, Germanyc Heinz Maier-Leibnitz-Zentrum (MLZ), Technische Universit¨at München, Lichtenbergstr. 1, D-85748, Garching, Germanyd Zuckerberg Institute for Water Research, Jacob Blaustein Institutes for Desert Research, Ben-Gurion University of the Negev, Sede Boqer Campus, 84990, Israel\n\nA R T I C L E I N F O Keywords:Reverse osmosisConcentration polarizationGadolinium chlorideNeutron transmissionPermeate flux",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Concentration polarization (CP) is determined by neutron transmission in a reverse osmosis (RO) system con­sisting of two cells, one with and the other without an RO membrane, to get the net neutron response for the feed solution in front and far from the membrane separately. The aqueous feed was a dilute solution of NaCl and GdCl3. The special feature of these experiments is that GdCl3 can be selectively determined with neutrons, since the neutron absorption cross-section of Gd is larger orders of magnitude compared to other elements such as Na, Cl, and water, and therefore has a strong influence on the overall transparency of the sample for neutrons. It is therefore the transmission of neutrons through both cells (one with and the other without membrane), by which the concentration and CP of GdCl3 can be determined. Transmission and small-angle scattering (SANS) were measured in parallel, demonstrating the performance of this method as an in-situ method for determining CP as a function of time under near-realistic conditions. The neutron experiments are complemented by measurements of permeate flux and electrical conductivity of the feed, which were used to determine the salt concentrations, the osmotic pressure and the concentration polarization of the two salts individually and of a mixture of both.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "to determine the salt concentrations, the osmotic pressure and the concentration polarization of the two salts individually and of a mixture of both. The CP results of this study are in good agreement with the values presented in the literature, determined mainly from flux data under a wide variety of conditions.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Reverse osmosis (RO) is a widely used technology to produce water for domestic applications from sea and brackish water and water re­covery from wastewater [1,2]. The optimization of the process is still a subject of intensive research. A major approach is the search for the causes of fouling and scaling of the membrane surface and methods for their prevention, which can significantly affect the transmembrane flux and thus, the economic efficiency of the process [3]. Concentration polarization (CP) is a phenomenon resulting from the accumulation of dissolved and partially permeable components at the solution-membrane interface, that are driven to the feed side of the membrane surface by the permeate flux. CP results in increased energy demand for attaining a desired permeate flux and may enhance scaling and fouling by the increased concentration of the associated solutes. Monitoring the concentration profile in reverse osmosis (RO) and nanofiltration (NF) systems is challenging. In a recent review [4] the authors discuss the different techniques that have been used for observing CP. Among these, Raman Spectroscopy [5], Holographic Interferometry [6] and Laser-Induced Fluorescence [7] are listed for the optical methods while NMR [8] and Electrochemical Impedance spec­troscopies are mentioned for non-optical methods. While the last tech­nique has been used so far for ion exchange membranes, it is mentioned as relevant also for pressure driven processes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "al methods. While the last tech­nique has been used so far for ion exchange membranes, it is mentioned as relevant also for pressure driven processes. In another article [9], Neutron Radiography is used for determining concentration profiles on the two sides of a forward osmosis (FO) membrane. In this study, we take advantage of the strong absorption crosssection of Gd ions to neutrons in an aqueous solution of GdCl3 and NaCl, to follow the increase in concentration adjacent to a RO mem­brane due to CP using the transmission of thermal neutrons. This approach, demonstrated here for the first time, enables non-destructive operando transmission and SANS (small-angle neutron scattering) ex­periments to determine the average GdCl3 concentration far and near the feed side of a RO membrane. The crossflow high-pressure setup",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 13 November 2025 0376-7388/ 2025 The Author(s). Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). required for operando neutron transmission RO experiments is described in detail in our previous publication [10]. The neutron transmission coefficient (T) is determined by following the attenuation of the neutron beam by the sample. The transmission of feed and membrane is dominated by the macroscopic absorption cross-section Σabs of Gd [11] from which the average GdCl3 volume fraction of the feed in front and far from the membrane can be determined and thus obtaining an average CP at different conditions. At this point it should be noted that the method of Neutron Radi­ography described in Ref. [9] fits well with the case of FO where the requirement for high concentrations in the draw-solution is crucial. The high LiCl concentration used in Ref. [9] is a tradeoff for its low cross-section for neutron absorption which is ~50 times less than for GdCl3. Due to its limited solubility, GdCl3 could not be used for FO purposes but fits well for RO as in this study. However, the main dif­ference between the two studies is that in Ref. [9] transmission is measured in slices parallel to the membrane surface and thus the con­centrations are averaged accordingly, while in this study this is currently done perpendicular to the membrane surface.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "brane surface and thus the con­centrations are averaged accordingly, while in this study this is currently done perpendicular to the membrane surface. In this paper, the term “transmission” refers to cross-membrane neutron propagation perpendicular to the membrane surface. This article is structured as follows: In the main part, the GdCl3 con­centration is determined for increasing pressures in the range of 2–27 bar at a constant crossflow, followed by the application of varying crossflows up to 18 L/h at a constant pressure. Parallel to the neutron absorption measurements, the permeate flux (JW) and the specific electrical con­ductivity (κ) of the membrane-far feed were determined. Both parameters are relevant auxiliary quantities to the neutron measurements. Comple­mentary experimental data of permeate flux, electric conductivity (partly without neutrons) and transmission are given in Appendix A and B, whereas Appendix C presents data on relevant parameters used for the analysis of neutron transmission and permeate flux. 2. Experimental and methods 2.1. Neutron transmission and operando equipment Transmission experiments were performed at the KWS3 instrument for very-small neutron scattering angles (VSANS) operated at the Heinz Maier-Leibnitz Zentrum (MLZ), Garching, Germany [12]. KWS3 covers a",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. (a) Schematic view of RO-MC, showing the neutrons pathway. (b) Photo of the RO-MC and RO-EC cells as used in the desalination experiments. The transmission experiments were conducted exclusively in the central sapphire window. (c) Flow diagram of the system for delivering the feed to RO-MC and RO-EC cells at fixed pressure and crossflow while maintaining a constant feed composition. The solid and dashed lines represent stainless steel pipes for the supply solutions and lines for electrical connections, respectively. V. Pipich et al. Journal of Membrane Science 740 (2026) 124884 range of the scattering vector ⃒⃒Q⃒⃒between 10-4 and 2.5 * 10-3 Å-1 allowing the analysis of scattering particles in the μm range [13]. The equipment and the functioning of the operando experiments are described in detail in Ref. [10]. Fig. 1(a) shows the design of the neutron transmission pressure cell which includes the RO-TFC membrane, the supporting mesh at the permeate side and sapphire windows that are fully transparent for neutrons. This cell is hereinafter referred to as RO-MC. A second pressure cell of identical design but without mem­brane and spacer (designated hereinafter RO-EC) is connected in series to the feed circuit of RO-MC. In this way, we can determine salt con­centrations of the feed near the membrane surface and in the bulk so­lution, from which CP can be determined. Fig. 1 (b) shows a photo of the RO-MC and RO-EC cells as used in the desalination experiments. Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e bulk so­lution, from which CP can be determined. Fig. 1 (b) shows a photo of the RO-MC and RO-EC cells as used in the desalination experiments. Fig. 1(c) also shows the setup of feed delivery to RO-MC and RO-EC at con­stant pressure or crossflow. The feed solution is circulated by a crossflow pump. The electrical conductivity (EC) of the feed provides information about the bulk salt concentration but also serves for controlling the operation of two valves for pushing the deionized water and the feed solution pistons, to ensure constant feed concentration. This control process is necessary because salt-free water is permanently lost from the feed solution due to permeation through the membrane [10]. Each pressure cell is equipped with three pairs of sapphire windows for neutron transmission [15]. Only the middle window was used in this study, thus determining the neutron transmission in the central section of the membrane, where the fully developed flow is expected. The GdCl3 concentration was determined within the 1.5 * 1.5 cm2 neutron beam cross-section, located at the center of the total membrane area of 4.5 *13.7 cm2 = 61.7 cm2. The beam area is determined by an aperture made of neutron absorbing material in front of a RO cell. The GdCl3 concen­tration is determined from the ratio of the neutron intensity IT behind the sample and the incident intensity I0 according to T = IT/I0, as shown schematically in Fig. 1(a).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rom the ratio of the neutron intensity IT behind the sample and the incident intensity I0 according to T = IT/I0, as shown schematically in Fig. 1(a). Since the absorption of thermal neutrons in­creases with λ, a particular long wavelength of λ = 12.8 Å was used for all neutron measurements [11]. 2.2. Membrane and feed solutions The membrane used in this study is the RO98 pH t by Alfa Laval (Lund, Sweden). All measurements started with compaction of a pristine membrane sample whose pore structure was characterized in previous SANS experiments [14–16]. The experiments were done with deionized water (DI-H2O) as well as with a solution containing 1.06 g/L GdCl3 and 4.69 g/L NaCl. The neutron experiments were mainly carried out with 18 L/h crossflow and trans membrane pressures up to 27 bar. 2.3. Determination of GdCl3 concentration by neutron transmission The neutron transmission coefficient (T) is the relevant parameter for determining the salt concentration in the feed. The transmission is determined by the macroscopic cross-section of the feed Σ (salt solution or H2O) and the cell depth dS according to Eq. (1). It should be noted that the cell depth, dS, changes under applied pressure due to the construc­tion material’s elasticity. Albeit small, these changes can be detected by neutron transmission when salt-free D2O is used. The variation of dS with pressure is presented in Figure C1(a) and has been considered in the evaluation of the transmission measurements.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2O is used. The variation of dS with pressure is presented in Figure C1(a) and has been considered in the evaluation of the transmission measurements. In the RO-EC with the thickness dS the macroscopic cross-sections of water ΣH2O = -ln(TH2O)/dS is calculated directly from the water transmission TH2O, whereas the ΣNaCl and ΣGdCl3 were evaluated from the absorption cross-sections for the neutron wavelength of λ = 12.8 ˚A [11] as compiled in Table C1. The transmission ratio of the salt solution relative to pure water TGdCl3-H2O/TH2O delivers the GdCl3 volume fraction Φ as shown in Eq. (2). In case of the RO-MC cell we also must consider ΣM = ΣMem + ΣSpacer, i.e. the macroscopic cross-sections of membrane and spacer according to -ln(TMC-GdCl3-H2O )= dM * ΣM + (dS -dM) *{Φ * ΣGdCl3 + (1 -Φ) *",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ΣH2O }. The ratio of TMC-GdCl3-H2O/TMC-H2O results in Eq. (3), consid­ering the membrane plus spacer thickness (dM = 0.058 cm), which corresponds to a feed channel height of ΔdS = (dS – dM) (Figure C1(c)). The neutron transmission of membrane plus spacer, expressed as TM =exp( -ΣM *dM), is eliminated by the ratio of (TMC-GdCl3-H2O *TM )/ (TMC-H2O *TM) and does not affect the neutron transmission of the feeds, i.e., the degree of salinity in the same pressure cell (Eq. (3)). This procedure illustrates neutron transmission measure­ments: (i.) neutrons easily transmit through the sample and entire sample environment, thereby enabling operando experiments, (ii.) extraction of the pure signal of the salt solution is achieved by dividing the transmission of the entire cell filled with salt solution by the identical cell filled with DI-H2O, (iii.) the transmission of the RO-MC and RO-EC are determined separately by independent measurements. The calculated transmission ratios TGdCl3-H2O/TH2O of Eq. (2) are plotted in Fig. 2 as a function of GdCl3 concentration. As mentioned above, the neutron path length through the cell (dS) is affected by the applied pressure, which in turn influences the transmission ratio. This is shown in Fig. 2 for the RO-MC and RO-EC cells at ΔP = 0 and 27 bar, highlighting the sensitivity of neutron absorption at wavelength of 12.8 Å to the determination of GdCl3 concentration.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "EC cells at ΔP = 0 and 27 bar, highlighting the sensitivity of neutron absorption at wavelength of 12.8 Å to the determination of GdCl3 concentration. In these plots, the contribution of NaCl can be neglected as it is practically transparent to neutrons with a transmission of 0.998. The GdCl3 concentration in Eq. (3) was determined by assuming zero GdCl3 concentration in the membrane and spacer. T = IT / I0 = exp(-Σ * dS)(1) -ln(TGdCl3-H2O /TH2O ) /dS = Φ *(ΣGdCl3 -ΣH2O",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[ФОРМУЛА: [FORMULA_ID: a80d1750-3ddb-4ff4-9410-79a9af5a633d] ) ≃Φ * ΣGdCl3 (2)]\n\n-ln(TMC-GdCl3-H2O /TMC-H2O ) /(dS -dM) = Φ *(ΣGdCl3 -ΣH2O\n\n[ФОРМУЛА: [FORMULA_ID: 3ccdecd9-ce5a-4a68-80a9-5d06b8d8dd40] ) ≃Φ * ΣGdCl3 (3)]\n\n3. Results of RO operando neutron transmission experiments In this section, we investigate the pressure induced increase of GdCl3 concentration at the solution-membrane interface, by following neutron\n\nFig. 2. Ratio of neutron transmissions vs. concentration of GdCl3 in H2O in the RO-EC and RO-MC cells of λ = 12.8 Å neutrons at ΔP = 0 and 27 bar (Eqs. (2) and (3)).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "V. Pipich et al. Journal of Membrane Science 740 (2026) 124884 transmission in the RO-MC and RO-EC cells. Simultaneously, the permeate flux (Jw) and the electrical conductivity (κ) of the feed were measured. The time dependence of electrical conductivity, permeate flux, neutron transmission and scattering intensity (dΣ/ dΩ(Q)) is pre­sented in Appendix A. These measurements were carried out over 21 and 37 h for salt-free water and salt solution, respectively, at ΔP = 27 bar and crossflows of 18, 12 and 6 L/h. 3.1. Permeate flux and feed electrical conductivity Fig. 3(a) and (b) show the permeate flux (JW) and electrical con­ductivity (κ) of DI-H2O and the salt solution as functions of trans­membrane pressure, from which the water permeabilities were determined. The permeate flux was measured with a crossflow of 18 L/h, corresponding to a flow velocity of v ≃9.4 cm/s for the channel crosssection of 0.53 cm2 at 27 bar, i.e. 4.5 cm channel width and 0.118 cm channel height above the membrane (Figure C1). Under these condi­tions, the Reynolds number (Re ≃216) supports the assumption of laminar flow (Appendix C4). In Fig. 3(b), a constant conductivity of (8.10 ± 0.07) mS/cm is measured for ΔP larger than 10 bar. The slight increase of κ in DI-H2O results from small contamination possibly from the membrane as discussed in Ref. [15]. Fig. 3(a) shows a linear increase of the permeate flux with the transmembrane pressure for DI-H2O and the GdCl3 + NaCl solution, in accordance with Eq.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ig. 3(a) shows a linear increase of the permeate flux with the transmembrane pressure for DI-H2O and the GdCl3 + NaCl solution, in accordance with Eq. (4). According to Eq. (4), the permeate flux is proportional to the permeability (A) times the hydrostatic pressures ΔP and ΔP* for the aqueous salt-free and salt solutions, respectively [17,18]. The osmotic pressure differences Δπf and Δπmf are defined as Δπf =( πf -πp )and Δπmf =( πmf -πp )with πp the osmotic pressure on the permeate side. The osmotic pressure at the membrane surface Δπmf is determined from the difference of ΔP* and ΔP between and at the same flux according to JW (ΔP) = JW (ΔP*), i.e. Δπmf = ΔP* -ΔP as indi­cated by the green arrow in Fig. 3(a). CP is determined by the concen­trations of the salts on the membrane surface in relation to the feed far from the membrane (section 3.2) and is determined by CP = Δπmf / Δπf [17]. For quantitative analysis, the permeate fluxes of DI-H2O and salt water in Fig. 3(a) were fitted using Eq. (4) obtaining the water perme­abilities of AH2O = (0.507 ± 0.015) and Asalt = (0.405 ± 0.003) in units of L/(m2 h bar), and the osmotic pressure of the feed Δπf =(2.19 ± 0.15) bar determined at JW = 0. At JW (ΔP) = JW (ΔP*) both pressures are related by ΔP* = Δπf +(AH2O /ASalt)* ΔP, which allows to express the osmotic pressure Δπmf and CP as function of ΔP* in Eqs. (5) and (6).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ressures are related by ΔP* = Δπf +(AH2O /ASalt)* ΔP, which allows to express the osmotic pressure Δπmf and CP as function of ΔP* in Eqs. (5) and (6). At ΔP* = 27 bar we determine the osmotic pressure Δπmf = (7.06 ± 0.51) bar and a polarization factor of CP = (3.24 ± 0.31) (Fig. 7 and Table 1). JW = AH2O * ΔP and JW = Asalt *(ΔP* -CP * Δπf",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ")(4)\n\nΔπmf =(Asalt /AH2O)* Δπf +(1 -Asalt /AH2O)* ΔP*(5) CP = Δπmf /Δπf =(Asalt /AH2O)+{(1 -Asalt /AH2O) /Δπf\n\n}* ΔP*(6)\n\n3.2. Salt concentration and concentration polarization A typical course of concentration c(x) of dissolved nonpermeable substances in RO is shown schematically in Fig. 4. Eq. (7) describes the diffusion and convection transport of salts at the membrane interface via mass balance [19]. JW δ/Ds is the Peclet number and DS/δ, the feed-side mass transfer coefficient, kf. The CP of the salt is derived from the ratio of the salt concentrations at the membrane surface (cmf) and of bulk (cf), i.e. CP = cmf/cf assuming cf and cmf ≫ cp. Typical values in the literature are in the range below 3, as shown in Section 4. At ΔP = 27 bar, we determine for both salts a mass transfer coefficient kf = (2.41 ± 0.19) *10-6 m/s from CP = (3.24 ± 0.31) (Fig. 7) and JW = (10.2 ± 0.1) L/(m2 h) (Fig. 3(a)). Using a diffusion coefficient DS for salts in water at 25 ◦C, which is generally given in the range of 1.5 * 10-5 cm2/s [19], we es­timate a boundary layer thickness of (0.64 ± 0.05) mm as compiled data in Table 1. This implies a CP interface thickness occupying about 1/2 of the actual channel height. JW c(x) -Ds * dc(x)/dx = JW cp and cmf -cp cf -cp ≡Δcmf Δcf = exp(JW δ / Ds) (7)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The variation of electrical conductivity (κ) in DI-H2O and the salt solution with ΔP is shown in Fig. 3(b) as measured in the RO-EC cell. For DI-H2O, a slight increase of κ in the range of μS/cm is observed, while κ for the GdCl3 + NaCl solution shows ≃12 % increase between 0 and 10 bar and remains constant at κ = (8.10 ± 0.07) mS/cm for ΔP > 15 bar (Table 1) and corresponds to (84 ± 5) % of the nominal GdCl3 + NaCl concentration.\n\nFig. 3. (a) Permeate flux vs. pressure at crossflow of 18 L/h. The green double arrow indicates the osmotic pressure Δπmf(ΔP) at 27 bar (Eq. (5)). The larger error bars for DI-H2O are due to the availability of short beam time. (b) Corresponding electrical conductivity of DI-H2O and GdCl3 + NaCl solution vs. pressure. V. Pipich et al. Journal of Membrane Science 740 (2026) 124884",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Neutron transmission as a function of pressure and feed flux rate In this section neutron transmission and flux measurements are analyzed. This will allow an independent determination of GdCl3 con­centration changes. Fig. 5(a) shows the neutron transmission data of DIH2O and the aqueous GdCl3 + NaCl solution measured in the RO-EC and RO-MC cells as a function of hydrostatic pressure at a cross flow of 18 L/ h. Fig. 5(b) shows the transmission at a constant pressure of 27 bar for an increasing crossflow rate. The transmission of salt solutions always shows smaller values compared to those for DI-H2O due to the strong absorption cross-section of Gd towards neutrons. The transmissions in Fig. 5(b) show a change of about 2 % increase and decrease for the ROMC and RO-EC, respectively, for a crossflow up to 18 L/h. 3.4. Concentration polarization of GdCl3 The GdCl3 concentrations determined from the neutron transmission data in Fig. 5(a) are shown in Fig. 6(a) as a function of the applied pressure for RO-EC and RO-MC. The average GdCl3 concentration of the feed solution far from the membrane (i.e. in the RO-EC) is between 0.77 and 1.2 g/L in the given pressure range, which corresponds to a factor of 0.73–1.13 of the nominal GdCl3 concentration of 1.06 g/L. These values show good agreement with a nominal GdCl3 + NaCl concentration with a (16 ± 1) % lower value. The increase of κ from 7.15 to 8.10 mS/cm in",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 1 Permeate flux data accompanied by SANS experiments and control experiments without neutrons performed at constant crossflow of 18 L/h. ParameterMeasurements with neutrons (27 bar)Measurements without neutrons (24 bar)\n\nMembrane sample 1Membrane sample 2\n\n[ФОРМУЛА: [FORMULA_ID: 2a89f139-8cba-427e-8501-e03efb20db48] 8.12 ± 0.06 9.98 ± 0.29]\n\nMeasured Concentration [g/ L] –1.05 ± 0.045.05 ± 0.06–1.64 ± 0.03–4.69 ± 0.046.33 ± 0.13 Permeability A [L/(m2 h bar)] 0.507 ± 0.0150.405 ± 0.0031.64 ± 0.011.37 ± 0.032.71 ± 0.071.72 ± 0.051.43 ± 0.05 Δπf [bar]––2.19 ± 0.15–0.90 ± 0.12–1.95 ± 0.562.67 ± 0.24Δπmf [bar]––7.06 ± 0.51–4.83 ± 0.62–10.7 ± 0.9514.0 ± 1.1JW13.5 ± 0.6–10.2 ± 0.140.2 ± 0.931.4 ± 0.262.5 ± 0.237.8 ± 0.131.4 ± 0.1kf [10-6 m/s]––2.41 ± 0.19–5.17 ± 0.61–6.19 ± 0.995.26 ± 0.64δ [mm]––0.64 ± 0.050.29 ± 0.04–0.24 ± 0.040.29 ± 0.040.29 ± 0.04CP———————1.97 ±0.18\n\n[ФОРМУЛА: [FORMULA_ID: 16aa9182-d050-45f1-8c39-dd2e069bea0d] 3.24 ± 0.31 ——————— 5.39 ± 1.06]\n\n[ФОРМУЛА: [FORMULA_ID: cb53fb89-000f-4638-90f7-f8de5468854c] ——————— 5.46 ± 1.50 5.24 ± 0.63]\n\nFig. 4. Schematic view of salt concentration profiles at the RO membranesolution interfaces showing salt CP. JS and JW are the permeate flux of the solutes and water, respectively.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. Transmission data of DI-H2O and Gd3Cl + NaCl in H2O for the RO-EC and RO-MC cells, (a) at crossflow of 18 L/h vs. pressure and (b) at constant hydrostatic pressure of 27 bar vs. crossflow. Transmission decreases with pressure due to the increase of the channel width with pressure. V. Pipich et al. Journal of Membrane Science 740 (2026) 124884",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3(b) is accompanied by an increase in salt concentrations caused by the control of the operando apparatus (Fig. 1(c). The higher GdCl3 concentration in the RO-MC cell near the membrane surface shows a significantly increasing GdCl3 concentration from about 30 % to 91 % with increasing pressure from 2.2 to 27 bar, which corresponds to a CP increase of 1.3 to (1.91 ± 0.18). 4. Discussion and summary In this work, neutron transmission was measured along with permeate flux and electrical conductivity of a two-component aqueous salt solution near and far from the membrane surface in real-time RO desalination experiments, to finally determine CP as a function of hy­drostatic pressure. A GdCl3 + NaCl solution was used as a feed, with the special feature that neutron transmission is sensitive only to the con­centration of GdCl3, while the permeate flux and electrical conductivity are affected by the total salt concentration. To determine the individual effect of each of the salts, we conducted a separate series of experiments with no neutron transmission involved. For that purpose a new RO98 pH t membrane sample was tested with solutions containing GdCl3 and NaCl separately and as a mixture. The results are discussed below, and the relevant data are given in Appendix B. The permeability (A) and osmotic pressure of the solutions (Δπf) shown in Table 1 were determined from the flux rates (JW) in Fig. 3(a) and B1 applying Eq. (4).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "bility (A) and osmotic pressure of the solutions (Δπf) shown in Table 1 were determined from the flux rates (JW) in Fig. 3(a) and B1 applying Eq. (4). At JW = 0, Δπf was determined for the GdCl3 and NaCl solutions in Figure B1(a) and (b) as well as for the GdCl3 +NaCl solutions in Fig. 3(a) and B1(b), indicating a nominal GdCl3 con­centration of 1.06 (Fig. 3) and 1.5 g/L (Figure B1), respectively. The first mentioned concentration is close to the concentration derived from the neutron transmission measurements in Fig. 6(a). A third parameter for following the total concentration of the GdCl3 + NaCl feed solution is the electrical conductivity (κ). The results from neutron experiments in Fig. 3(b) show a κ = (8.10 ± 0.07) mS/cm for the GdCl3 + NaCl solution at ΔP > 10 bar, which is about 16 % smaller than the value evaluated from the nominal concentrations shown in Appendix C. Fig. 7 shows the osmotic pressure and CP of the GdCl3 + NaCl mixture as a function of ΔP, as obtained from the flux data (JW) using Eq. (5). At ΔP =27 bar, we find Δπmf = (7.06 ± 0.51) bar and CP = (3.24 ± 0.31) (Table 1). CP of GdCl3 in Fig. 6(b) derived from the neutron transmission data and presented again for comparison, shows a continuous increase with pressure up to 56 % of the CP value of the two salts at ΔP = 27 bar. The values of Δπmf and CP from the flux experi­ments in Fig. 3(a) and B1, are depicted in Fig. 8 as a function of permeate flux as formulated in Eq. (8).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "values of Δπmf and CP from the flux experi­ments in Fig. 3(a) and B1, are depicted in Fig. 8 as a function of permeate flux as formulated in Eq. (8). The osmotic pressure (Δπf) of the feed solution far from the membrane surface is determined at zero permeate flux and increases near the membrane surface (Δπmf) with the hydro­static pressure ΔP due to accumulation of salt molecules. The permeate flux of DI-H2O and salt solution is described in good approximation in Eq. (4) [19]. The parameters of the permeabilities AH2O and Asalt as well as the osmotic pressure of the salt solutions Δπf are summarized in Table 1 for the SANS data and flux data. The permeate flux of the feed solution of the membrane used in the neutron transmission experiments, extrapolated to 24 bar, is about 9 L/(m2 h), while the corresponding flux of membranes 2 is 31 L/(m2 h) as shown in Fig. 3(a) and B1(b). Δπmf (JsaltW )= Δπf +[(1/Asalt -1/AH2O)]* JsaltW(8) The channel width (dS) in the center of the cell increases with pres­sure, which in turn has a strong influence on the flow velocity (Figure C1 (b)). In this context, the boundary thickness δ and CP at the membrane surface are affected (Fig. 4, Eq. (7), Table 1). The neutron transmission experiments show a δ = (0.64 ± 0.05) mm at ΔP = 27 bar (Table 1), which must be compared with the corresponding channel height δ8dS = 1.18 mm (Figure C1). We found with δ/ΔdS ≃0.54 a boundary thickness of about half the channel height.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "red with the corresponding channel height δ8dS = 1.18 mm (Figure C1). We found with δ/ΔdS ≃0.54 a boundary thickness of about half the channel height. On the other hand, due to the larger permeate flux and CP of the corresponding GdCl3 + NaCl flux experiment in Figure B1(b) (Table 1) a boundary thickness of δ = 0.29 ± 0.04) mm is derived at ΔP = 24 bar thus covering with δ/ΔdS ≃0.25 only a quarter of the feed channel. These estimates provide an indication of the degree of averaging of salt concentration in determining CP. Finally, we would like to look at other, published methods used for determining CP in RO systems. The challenge is that there are relatively few publications on this topic, and the measurements were carried out under different parameters. For a fair comparison, we have therefore",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. (a) GdCl3 concentration as a function of pressure determined from the transmission data of the RO-MC and RO-EC cells at a crossflow of 18 L/h. The nominal concentrations of GdCl3 and NaCl are 1.06 g/L and 4.69 g/L, respec­tively. (b) CP for GdCl3.\n\nFig. 7. Osmotic pressure Δπmf and CP versus pressure at CF = 18 L/h. Osmotic pressure (blue line) and CP (green line) of the GdCl3 + NaCl mixture were determined from flux experiments (JW), while the CP for GdCl3 (red line) was determined from neutron transmission.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "V. Pipich et al. Journal of Membrane Science 740 (2026) 124884 also indicated the parameters under which the work was carried out. In the introduction we already mentioned several articles [4–9]. Here we discuss the results of the following methods on a more quantitative basis. (i.) Digital Holographic Interferometry (DHI) visualized the shape of the CP layer of Na2SO4 and NaCl feed solutions showing a close relationship between permeate flux, polarization layer and crossflow velocity [6]. (ii.) In another study [20], CP was determined from permeate flux ex­periments for several aqueous feed solutions of NaCl, MgCl2, CaCl3, and Na2SO4 at the surface of a BW30XFR membrane. For example, the permeate flux of a 100 mM NaCl solution was determined for hydro­dynamic pressures between 7 and 26 bar and a crossflow velocity of 1 gallon per minute. This very large crossflow of 227 L/h exhibits turbu­lent flow behavior (Reynolds number Re = 3220), in contrast to the neutron experiments performed with a maximum crossflow of 18 L/h (Re ≃216), which are clearly in the range of laminar flow. The authors determined a CP module between 1.1 and 1.8 depending linearly on permeate flux and corresponds to a pressure range between 7 and 26 bar. (iii.) Similar flow experiments were conducted in Ref. [21]. CP shows a time evolution of approximately 1.2–1.7 for two crossflow ve­locities of 4 and 11 cm/s.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "milar flow experiments were conducted in Ref. [21]. CP shows a time evolution of approximately 1.2–1.7 for two crossflow ve­locities of 4 and 11 cm/s. For two membranes (XLE and BW), a CP decrease from 1.8 to 1.6 and from 1.6 to 1.3 with increasing crossflow was measured. (iv.) In Ref. [22] the CP module based on numerical finite element model calculations is discussed. The local CP modulus of a CaCl2 feed solution increases from about 1.3 to 2.6 with decreasing Reynolds number from 489 to 48.9. The above-mentioned articles show a CP range of 1.0–2.6 for a wide range of conditions, which is in good agreement with the values deter­mined by neutron transmission for GdCl3 (Fig. 6). However, the CP values from our “no neutron” flux experiments of GdCl3 + NaCl show a larger CP of around 6.5 for a permeate flux of 40 L/(m2h) (Fig. 8). Similar permeate flux experiments in Ref. [22] show a significantly smaller CP between 1.5 and 1.8 for a hydrostatic pressure of 26 bar (corresponds to 80 L/(m2h)), which, however, was subjected to much larger crossflow of 227 L/h with turbulent flow behavior. There is no doubt that determining a CP profile perpendicular to the membrane surface would provide a more detailed view of the CP at the membrane-feed interface as was achieved from DHI in Ref. [6]. How­ever, this lack of neutron transmission is offset by the determination of the quantitative salt concentration and CP under realistic RO conditions.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ow­ever, this lack of neutron transmission is offset by the determination of the quantitative salt concentration and CP under realistic RO conditions. The combination of neutron transmission, permeate flux and electrical conductivity is a particular strength of our method, as it allows a comprehensive analysis of CP formation under realistic wastewater desalination conditions. CRediT authorship contribution statement Vitaliy Pipich: Investigation, Formal analysis, Data curation. Thomas Starc: Investigation. Winfried Petry: Writing – review & editing, Visualization, Supervision, Conceptualization. Yoram Oren: Writing – review & editing, Visualization, Supervision, Investigation, Conceptualization. Dietmar Schwahn: Writing – review & editing, Writing – original draft, Validation, Methodology, Investigation, Formal analysis, Conceptualization. Funding No funding Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments SANS experiments were performed at, respectively, the KWS3 and KWS1 at the Heinz Maier-Leibnitz Zentrum (MLZ), Garching, Germany. D.S. would like to thank Prof. Dr. Stephan F¨orster, head of the Jülich Center for Neutron Science (JCNS-1) and Institute for Complex systems (ICS-1) at the Forschungszentrum Jülich GmbH for his hospitality.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 8. (a) Osmotic pressure at the membrane surface versus permeate flux as determined from the flux data in Figure B1(a) and (b) (see also Table 1). (b) CP versus permeate flux. (Symbols: GdCl3 (green line), NaCl (blue line), and (GdCl3 + NaCl) (red line). The symbols (black star) and (black rhombus) represent the CP of GdCl3 and GdCl3 + NaCl as determined from neutron transmission and permeate flux (Fig. 3(a)) at ΔP = 27 bar (Table 1). V. Pipich et al. Journal of Membrane Science 740 (2026) 124884",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Nomenclature NeutronsTNeutron transmissiondΣ/dΩ(Q) Differential macroscopic cross-sectionΣH2OTotal macroscopic cross-section of H2OΣabsMacroscopic absorption cross-sectiondΣ/dΩinc: Incoherent scattering cross-sectionΘ:Scattering angleλWavelength of neutronkWavenumber of neutron (2π/λ)QMomentum transfer defined as Q = 4π/λ sin(δ /2)ΩMVolume of molecule “M″ρMCoherent scattering length density of molecule “M” (ρM = Σ bi/ΩM)RgRadius of gyration RO-Membranes and desalinationRO-ECPressure cell without membraneRO-MCPressure cell with membranePAPolyamide (PA) selective layerPSUPolysulfone support layerPPPolypropylene, fabric layerTFCThin Film Composite membranedMThickness of membrane plus spacerdSChannel height of the feed in RO-ECΔdS = (dS -dM) Channel height of the feed in RO-MCκSpecific electrical conductivityΛmMolar conductivityKKohlrausch coefficientJWPermeate flux [L/(m2 h)]APermeability [L/(m2 h bar)]cfSalt concentration of the feedπfOsmotic pressure of the feedΦOsmotic coefficientcpSalt concentration of the permeateπpOsmotic pressure of the permeatecmfSalt concentration of the feed at the membrane surfaceπmfOsmotic pressure of the feed at the membrane surfaceΔπmf =(πmf - πp)ReReynolds numberCPConcentration polarizationDSSolution diffusion coefficient in waterδBoundary layer thickness of CPkf = DS/δ Mass transfer coefficient [m/s]JW/kfPeclet number Appendix A.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "izationDSSolution diffusion coefficient in waterδBoundary layer thickness of CPkf = DS/δ Mass transfer coefficient [m/s]JW/kfPeclet number Appendix A. Operando Experiments In the main text we have shown the data of neutron transmission and permeate flux as a function of pressure. Here we show the time behavior of the corresponding measurement data at a constant pressure of ΔP = 27 bar to track the history of the feed concentration over a longer period. A1. Permeate Flux, electrical Conductivity and Neutron Transmission of salt-free Water and GdCl3 + NaCl solution This section presents data from time-dependent experiments carried out at a pressure of 27 bar and a crossflow of 18 L/h. The permeate flux (JW) and electrical conductivity (κ) of salt-free H2O and a solution containing GdCl3 and NaCl are shown in Figure A1(a) and (b), respectively. The flux of DI-H2O reaches a stable value after about 10 h, while the salt solution does not reach a stable value even after 40 h of operation. The influence of crossflow was also tested in Figure A1(b), for the permeate flux as well as for the transmission in Figure A2(b). The κ in Figure A1(b) shows small oscillations around the control parameter of 7.5 mS/cm. Without the control of κ the concentration of the salts would continuously increase due to the permeate flux. Such an increase is prevented by feeding DI-H2O into the circuit by means of a constant κ value of 7.5 mS/cm. Further details on the controlling system can be found in Ref.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "evented by feeding DI-H2O into the circuit by means of a constant κ value of 7.5 mS/cm. Further details on the controlling system can be found in Ref. [10]. Figure A2 shows the time evolution of the corresponding transmission of the RO-MC and RO-EC cells with (a) DI-H2O and (b) GdCl3 + NaCl solutions at 27 bar. The data are stable after rapid equilibration. This means that the GdCl3 concentration does not change, i.e. salt accumulation on the membrane surface is the only phenomenon observed. V. Pipich et al. Journal of Membrane Science 740 (2026) 124884",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. A1. (a) Electrical conductivity (κ) and permeate flux (JW) of salt-free H2O and (b) salt mixture of GdCl3 and NaCl dissolved in DI-H2O.\n\nFig. A2. Transmission of RO-MC and RO-EC cells with (a) DI-H2O and (b) Solution of 1.06 g/L GdCl3 + 4.69 g/L NaCl at the given conditions.\n\nA2. Long duration Scattering Data (dΣ/dΩ(Q)) of a GdCl3 + NaCl Solution In parallel with neutron transmission, the corresponding small-angle scattering (SANS) were also determined, which reveal the temporal behavior of the membrane pores of the two support layers, as described in detail in Ref. [14]. Figure A3(a)shows the scattering intensity as a macroscopic cross-section dΣ/dΩ(Q) in absolute units of cm-1 as a function of the momentum transfer Q measured at the time point after 13.2 h of the operando experiment together with the parameters and the radius of gyration (Rg) of the PSU and PP membrane support layers during a 40-h operando SANS experiment at 27 bar and variable crossflows of 18, 12 and 6L/h. The parameters dΣ/dΩ(0) and Rg in Figures A3(b) and (c) were obtained from fitting the scattering equation as elaborated in Ref. [14]. Within statistical uncertainty, the scattering data show no change over time, even though the crossflow was reduced from 18 L/h to 6 L/h in consistence with the data on membrane compaction in Ref. [15]. V. Pipich et al. Journal of Membrane Science 740 (2026) 124884",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. A3. (a) Scattering pattern of the RO98 pH t membrane. (b) and (c) show the corresponding parameters of the membrane scattering exposed to the GdCl3 + NaCl aqueous solution feed. The constant electrical conductivity (κ) over time (Figure A1(b)) and neutron transmission (Figure A2(b)) indicate a constant average GdCl3 polarization of CP = (1.71 ± 0.09). This value represents the averaged value over the feeding height of the membrane, which is somewhat lower than the value observed in Fig. 6 for short-term CP = (1.97 ± 0.18) measurements. Only the permeate flux in Figure A1(b) shows a steady decrease from 10 to 8.4 L/(m2 h), or 16 % (0.4 % per hour), over nearly 40 h. Appendix B Water permeation from aqueous Solutions of NaCl, GdCl3, and their Mixture.This section serves as an appendix to section 3.1. In the neutron transmission experiments, an aqueous mixture of NaCl and GdCl3 was examined to determine the GdCl3 concentrations in the feed far upstream and at the vicinity of the membrane surface (Fig. 6). A selective determination of the GdCl3 concentration was possible due to the strong neutron absorption cross-section of Gd. As in the other experiments, these were accompanied by measurements of membrane permeability and electrical conductivity (Fig. 3).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ross-section of Gd. As in the other experiments, these were accompanied by measurements of membrane permeability and electrical conductivity (Fig. 3). Here we show the results of further experiments on permeability for the individual salts and for their mixture at the nominal concentrations of 1.5 g/L GdCl3 and 4.69 g/L NaCl, but without neutron transmission mea­surements. They were also carried out with the same equipment under the same external and hydrodynamic conditions as those with neutron transmission. Fresh RO98 pHt membrane samples were used in these experiments. As shown in Figure B1 these membranes have higher permeability compared to the previous ones. Figure B1(a) shows the permeate flux of membrane sample 1 of DI-H2O and the GdCl3 solution, represented by blue spheres and red squares, respectively. Figure B1(b) shows the flux data of membrane sample 2 for DI-H2O and the solutions with NaCl and GdCl3 + NaCl. As shown, the permeability of membrane sample 2 for DI-H2O is 65 % larger than that for membrane sample 1. In comparison to the permeate flux with the membrane used in the neutron experiment (Fig. 3(a)) even a 3 to 4 time increase in flux is observed for this new membrane batch, demonstrating relatively strong fluctuations in membrane properties within the same production batch. The electric conductivities, salt concentrations, perme­abilities and the osmotic pressures Δπf of the salt solutions are compiled in Table 1.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "batch. The electric conductivities, salt concentrations, perme­abilities and the osmotic pressures Δπf of the salt solutions are compiled in Table 1. As mentioned in Appendix A the salt concentration had to be constantly checked by κ because of the continuous loss of salt-free water due to the permeate flux. This is the reason for the slightly increased salt content compared to the nominal values, resulting from the conductivity control. The osmotic pressure Δπf of the aqueous NaCl (4.69 g/L) solution is obtained from flux experiments in Figure B1(b) as Δπf(NaCl) = (1.95 ± 0.56) bar. πf(NaCl) as formulated in Eq. (C3) gives Δπf(NaCl) = 3.63 bar [26]. The permeate has a NaCl concentration of 1.17 g/L, as can be seen from the chemical analysis in Table B1, which corresponds to a rejection rate of 74.5 % and leads to a πp = 0.91 bar and thus a Δπf(NaCl) = 2.72 (Fig. 4). This value is slightly larger than our experimental value. V. Pipich et al. Journal of Membrane Science 740 (2026) 124884",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. B1. Permeate flux results of the salt solutions together with DI-H2O. (a) The flux of the GdCl3 salt solution (red squares) depicted together with the DI-H2O (blue dots) data were performed with membrane sample 1. (b) Shows the flux measurements of the NaCl and the mixture of NaCl + GdCl3 solutions performed with membrane sample 2. In Figure B2 the time dependence of the permeate flux measured at ΔP = 24 bar and CF = 18 L/h is shown. In our experience, the permeate flux generally follows an exponential law of the form. JW = JW,0 + A exp( -t /τ), as also observed in Figure A1(a) and in our previous Operando-SANS studies [14]. Of particular interest are the two flux data of the GdCl3 solution in Figure B2 measured at ΔP = 24 bar and 12 L/h. The first mea­surement (blue sphere) was immediately started after completion of the preceding measurement at 24 bar and 24 L/h, while the second measurement (red triangle) was only started after the system had relaxed for about 5 min at ambient pressure and a CF of 12 L/h. The data of the first run shows a comparable low permeate flux with a slower decline with time to 28 L/(m2 h). The data after flushing at 1 bar (red triangle) show an enhanced flux of more than 34 L/(m2 h) followed by a fast decline to its steady state value of about 28 L/(m2 h), very similar to the value of the first run.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "d flux of more than 34 L/(m2 h) followed by a fast decline to its steady state value of about 28 L/(m2 h), very similar to the value of the first run. The development of CP is particularly marked by the time courses of JW in Figures B2(b) and (c), as indicated by the black arrows starting at 34.5 L/(m2 h) and 42.4 L/(m2 h) near the flux of DI water at about 40 L/(m2 h) (Figure B2(a)), i.e. at nearly zero CP. The concentrations of Na and Gd in the permeate as determined by ICP-OES are summarized in Table B1. This clearly shows that before starting a new experiment the prevailing CP layer in front of the membrane must be cleaned - here by flushing - before starting with changed parameter sets. The rejection with respect to the nominal salt con­centrations of the feed is for Gd about 90 and 95 % at 20 and 10 bar, respectively, and for Na by about 74.5 % at ΔP = 24 bar, while for the salt mixture of NaCl and GdCl3, both elements, Na and Gd, are rejected within 1 % to about 86 % [23]. Table B1 shows a GdCl3 concentration in the permeate of about 10 % of the feed concentration. An estimate of the GdCl3 concentration in the membrane and the spacer results in a value of about 0.5 % of the corresponding feed volume fraction, which can safely be neglected. V. Pipich et al. Journal of Membrane Science 740 (2026) 124884",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. B2. Permeate flux measurements. (a) Compaction: JW and κ at CF = 18 L/h versus time of deionized H2O. (b) Start of experiment after: (1.) ΔP = 24 bar; CF =24 L/h and (2.) ΔP = 0 bar; CF = 12 L/h, whereas (c) NaCl and (d) the mixture of NaCl + GdCl3 were exposed to membrane sample 2 showing a larger permeability of about 65 %.\n\nTable B1 Concentration of Na and Gd ions in the permeates and their rejection compared to the nominal salt concentrations [23]. Pressure [bar]25252010252010 Nominal c [g/L] (Feed)c [mg/L] (Permeate)Rejection [%] NaCl (Na)GdCl3 (Gd)NaGdNaGd –1.5 (1.2)––131.1 ± 1.164.4 ± 0.4––89.194.14.69 (2.98)–747 ± 13–––74.9–––4.69 (2.98)1.5 (1.2)402 ± 7175.3 ± 1.3––86.585.4––",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Appendix C. Relevant Parameters for Analysis C1. Effect of pressure on feed channel height (dS) and membrane thickness as determined from the transmission of salt-free D2O The channel height (dS) is a relevant parameter to determine the scattered neutron intensity in absolute units (Figure A3) and thereby determine the salt concentration from transmission. In particular, the dependence on pressure must be known. Figure C1(a) shows dS of RO-EC plotted against pressure ΔP as determined from transmission of salt-free D2O (Eq. (1)). D2O is suited for this measurement because deuterium has a strong coherent but low incoherent scattering cross-section compared to hydrogen (2.05 and 80.27 b, respectively), i.e. good scattering signal and negligible multiple scattering. The channel height of the cell for ambient pressure by cell design is dS = 0.136 cm delivering Σ(D2O) = (1.42 ± 0.01) cm-1 (Eq. (1)). The relevant height for the feed on top of the membrane is ΔdS = (dS - dM) with the membrane plus spacer thickness of dM = 0.058 cm at large ΔP (Figure C1(c)). The spacers are typically made of the same material as the fabric support layer. The mesh size of the spacer and the membrane have no influence on the determination of the GdCl3 concentration from neutron transmission. This means that a constant crossflow of, for example, 18 L/h will exhibit a variation of the crossflow velocity with pressure due to the change in channel height, as shown in Figure C1(b). V. Pipich et al.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. C1. (a) RO-EC channel height (dS) versus pressure as determined from transmission of salt-free D2O. Design and measurement at ambient pressure gives channel height dS = 0.136 cm. (b) Crossflow velocity in [cm/s] of the feed above the membrane versus pressure of 18 L/h. (c) Dimensions of Alfa Laval RO-MC cell: Channel height of feed ΔdS = (dS – dM) as well as the total thickness dM of membrane and spacer shown as a blue area. C2. Neutron relevant Parameters Table C1 shows the interaction parameters of the GdCl3 and NaCl salt molecules with neutrons such as the coherent scattering length density ρ and the macroscopic absorption cross-section Σabs [cm-1] for the actual λ = 12.8 Å. The molecular Σabs is obtained from σabs divided by the volume of GdCl3 and NaCl. The huge gadolinium absorption cross-section is the relevant property for the determination of low GdCl3 concentrations in the order of 1 g/L or Φ = 0.22 * 10-3 vol fraction [11]. Table. C1 Neutron relevant parameters of GdCl3 and NaCl. MoleculeMolar Mass [g/mol] Mass density [g/cm3]Molar volume [cm3/mol]Solubility in H2O [g/cm3] (25 ◦C)ρ [1010 cm-2]Σabs [cm-1] (λ = 12.8 Å) GdCl3263.614.5258.320.95 * 10-24.0163.68 £ 103 NaCl58.442.16 (25 ◦C)27.060.36 * 10-22.945.42",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "C3. Relevant Parameters from Literature of the Salt Concentrations, electric Conductivity, and Osmotic Pressure To determine the salt concentrations, we need the relationship of the electrical conductivity (κ) of aqueous GdCl3 and NaCl as a function of their salt concentration, which we have taken from the literature [24] (GdCl3) and [25,26] (NaCl) and which are plotted in Figure C2. Since κ is not known for GdCl3 at the low concentrations of 1.06 and 1.5 g/L, we have determined the required values by extrapolation using the Kohlrausch equation in Eq. (C1). The calculated results for GdCl3 and NaCl according to the Kohlrausch equation are shown in Figure C2(a). Λm describes the molar electrical conductivity (Λm = κ /C) of strong electrolytes well for low concentrations [25]. The units of the conductivity and of the molar conductivity are [κ] =mS/cm and [Λm = κ / C] = (mS/cm)/mM), respectively. The Kohlrausch coefficient [K] = (mS/cm)/(mM)3/2 mainly depends on the stoichiometry of the specific salt in solution [27]. The conductivities in Figure C2(b) were fitted with κ = Λ0m C -K C3/2 showing the κ of the nominal 4.02 mM and 5.69 mM GdCl3 and 80.3 mM NaCl salt solutions as arrows and summarizes all parameters from the fits in Table C2. For comparison, the transmission data, i.e. the concentration of GdCl3 from transmission measurements (Fig. 6(a)) and from the electric conductivity of the two salts (Fig. 3(b)) are shown in Table C2.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ncentration of GdCl3 from transmission measurements (Fig. 6(a)) and from the electric conductivity of the two salts (Fig. 3(b)) are shown in Table C2. The κ of both salts determined by Kohlrausch for the conditions of the neutron experiments is (9.7 ± 0.5) mS/cm and is about 20 % larger than the value of (8.10 ± 0.07) mS/cm determined by the neutron experiments. V. Pipich et al. Journal of Membrane Science 740 (2026) 124884",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. C2. (a) Molar conductivity Λm of aqueous GdCl3 (blue sphere Supporting information Table II [24]) and of NaCl (red square p. 30, Tables 2–2 [25]) and [26] (red rhombus) as a function of the square root of concentration. The data in the diagram were fitted using the Kohlrausch function Eq. (C1) and in (b) using the expression κ = Λ0m C -K C3/2 discussed in the text. The green arrow indicates the experimental conductivity of the electrolytic solution. Λm = Λ0m -K̅̅̅C√(C1) Table C2 Electrolyte concentration and conductivity of aqueous GdCl3 and NaCl at T = 25 ◦C and the concentrations c and C of our samples from neutron transmission and literature [24–26]. Moleculesc nominal",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "C nominalc Fig. 6(a) Λ0mK (Kohlrausch)κκ Fig. 3(b) [g/L][mM][g/L][(S/(cm M)][(mS/cm)/(mM)3/2][mS/cm][mS/cm] GdCl3Section 31.064.02(1.05 ± 0.04)334 ± 4- (7.17 ± 0.5)1.28 ± 0.05Appendix B1.55.691.80 ± 0.05NaCl4.6980.3–126 ± 0.2- (2.33 ± 0.06)8.43 ± 0.33GdCl3 + NaCl–9.7 ± 0.58.10 ± 0.07 The osmotic pressure (πf) in Eq. (4) is described by a modified van’t Hoff equation displayed in Eq. (C2). The osmotic pressure is proportional to the number of dissociating ions (i), the osmotic coefficient (Φ), the salt concentration c in [g/L], the gas constant (R), and absolute temperature (T), and is inversely proportional to the molecular weight MW in [g/mol] [26]. This reference gives πf of a NaCl aqueous solution as a function of concentration (c) in [g/L] as shown in Eq. (C3) and depicted in Figure C3. An osmotic pressure of πf(NaCl) = 3.63 bar is evaluated for 4.69 g/L NaCl solution and a Δπf(NaCl) = 2.69 bar if considering a rejection rate of 74.5 % as determined from chemical analysis in Table B1. The experimental value from flux experiment in Figure B1(b) and Table 1 determined a slightly smaller value of Δπf(NaCl) = (1.95 ± 0.56) bar, whereas the SANS data shows with Δ πf = (2.19 ± 0.15)bar (Fig. 3(a) and Table 1) a value in between. πf = i Φ c R T/MW(C2)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. C3. Osmotic pressure πf of NaCl versus concentration determined from Ref. [24]. Δπf(NaCl) determined from πf of the nominal NaCl concentration of 4.69 g/L (πf = 3.63 bar) and of the 25.5 % NaCl concentration of the effluent of 1.19 g/L (Table B1) delivering πf = 0.943, thereby giving a Δπf = 2.69 bar. V. Pipich et al. Journal of Membrane Science 740 (2026) 124884 πf(NaCl) = K Φ(c) c = 0.848 *(3.14 * 10-6 c2 + 2.13 * 10-4 c + 0.917)* c(C3) C4. Determination of the Reynolds Number The crossflow of 18 L/h corresponds to crossflow velocities between 14.6 and 9.4 cm/s based on the channel thickness for the hydrostatic pressure ΔP between 0 and 27 bar (Figure C1). Under these conditions, laminar flow prevails, as the largest Reynolds number of Re = 216 is smaller than the critical Re number, which is given in the literature as 2320 for smooth round pipes. The Reynolds number defined as Re = v * L /μ is proportional to the crossflow velocity v and the characteristic length L interpreted as the hydraulic diameter (L = 2 (a * b)/(a + b), a = 4.5 cm, b = 0.118 cm at 27 bar) of 0.23 cm, and inversely proportional to the kinematic viscosity of water given as μ = 1.002 * 10-2 cm2/s at 20 ◦C.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[13] KWS-3: Very small-angle scattering diffractometer with focusing mirror, Journal of large-scale research facilities, 1, A31. https://doi.org/10.17815/jlsrf-1-28.[14] V. Pipich, M. Dickmann, H. Frielinghaus, R. Kasher, Ch Hugenschmidt, W. Petry, Y. Oren, D. Schwahn, Morphology of thin film composite membranes explored by small-angle neutron scattering and positron-annihilation lifetime spectroscopy, Membranes 10 (2020) 48, https://doi.org/10.3390/membranes10030048.[15] V. Pipich, Th Starc, R. Kasher, W. Petry, Y. Oren, D. Schwahn, The porous system of RO membrane supporting layers - operando studies with small-angle neutron scattering, Chem. Eng. J. 495 (2024) 153304.[16] V. Pipich, K. Schlenstedt, M. Dickmann, R. Kasher, J. Meier-Haack, Ch Hugenschmidt, W. Petry, Y. Oren, D. Schwahn, Morphology and porous structure of standalone aromatic polyamide films as used in RO membranes – an exploration with SANS, PALS, and SEM, J. Membr. Sci. 573 (2019) 167–176.[17] S. Whitaker, Flow in porous media I: a theoretical derivation of Darcy’s law, Transport Porous Media 1 (1986) 3–25.[18] D.B. Dorhjie, R. Yusupov, V. Krutko, A. Cheremisin, Deviation from darcy law in porous media due to reverse osmosis: pore-scale approach, Energies 15 (2022) 6656.[19] R.W. Baker, Membrane Technology and Applications, fourth ed., John Wiley & Sons, 2023, 978-1-119-68598-2.[20] E.S. Jang, W. Mickols, R. Sujanani, A. Helenic, T.J. Dilenschneider, J. Kamcev, D. R. Paul, B.D.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ed., John Wiley & Sons, 2023, 978-1-119-68598-2.[20] E.S. Jang, W. Mickols, R. Sujanani, A. Helenic, T.J. Dilenschneider, J. Kamcev, D. R. Paul, B.D. Freeman Paul, Influence of concentration polarization and thermodynamic non-ideality on salt transport in reverse osmosis membranes, J. Membr. Sci. 572 (2019) 668–675, https://doi.org/10.1016/j. memsci.2018.11.006.[21] T.Y. Qiu, P.A. Davies, Concentration polarization model of spiral-wound membrane modules with application to batch-mode RO desalination of brackish water, Desalination 368 (2015) 36–47, https://doi.org/10.1016/j. desal.2014.12.048.[22] E. Lyster, Y. Cohen, Numerical study of concentration polarization in a rectangular reverse osmosis membrane channel: permeate flux variation and hydrodynamic end effects, J. Membr. Sci. 303 (2007) 140–153, https://doi.org/10.1016/j. memsci.2007.07.003.[23] The Chemical Analysis Was Carried out at the Central Institute of Engineering, Electronics and Analytics (ZEA-3) of the Forschungszentrum Jülich Gmbh, D52425 Jülich.[24] F.H. Spedding, J.A. Rard, V.W. Saeger, Electric conductances of some aqueous rare Earth electrolyte solutions at 25 ◦C. II. Rare Earth chlorides, J. Chem. Eng. Data 19 (4) (1974) 373–378 (Supporting information, Table II).[25] C.H. Hamann, W. Vielstich, Elektrochemie I, Verlag Chemie, Weinheim, 1985.[26] Downloaded from Horiba (Water & Liquids).[27] P.W. Atkins, The Elements of Physical Chemistry, third ed., Oxford University Press, 2001, 0-19-879290-5.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011974-main",
+      "title": "Neutron transmission studies with GdCl3 for tracing concentration polarization in reverse osmosis",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  }
+]

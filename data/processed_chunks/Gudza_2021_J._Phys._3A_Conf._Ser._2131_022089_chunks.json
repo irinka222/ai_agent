@@ -1,0 +1,138 @@
+[
+  {
+    "content": "1. Introduction Until now, the only way to study the CVC was to analyze the experimental data. The study of experimental fluctuations of the CVC in the works of Budnikov E. Yu., Kolganov V. I., Kolyubin A.V. by the methods of Fourier analysis [6], wavelet analysis [7], shows the complex, non-stationary and unstable behavior of the CVC. For the theoretical study of this behavior of CVC, it is necessary to use special mathematical methods and models. We have made attempts to calculate the theoretical CVC and analyze them [8]. It should be noted that without the use of the latest mathematical methods and models, such as machine learning methods and artificial intelligence systems, it becomes more and more problematic to move forward in the development of the theory and application of membrane systems, since models are becoming more and more complex and become so complex that the compilation of algorithms and numerical solutions, engineering calculations of membrane systems are made disproportionately time-consuming, expensive, multiscale, as shown by V. Pham, Z. Li, J. White, J. Han and other foreign researchers [4, 5]. However, the study and prediction of theoretical and experimental CVC of membrane systems by machine learning and artificial intelligence methods has not yet been conducted.",
+    "citation": {
+      "authors": [
+        "Gudza I.V.",
+        "Kovalenko A.V.",
+        "Urtenov M.Kh.",
+        "Pismenskiy A.V."
+      ],
+      "paper_id": "Gudza_2021_JPhysConfSer_2131_022089",
+      "title": "Artificial intelligence system for the analysis of theoretical and experimental current-voltage characteristics",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Suggested approaches and methods Previously, almost the only means in the arsenal of researchers of CVC and other characteristics, such as chronopotentiograms, chronogalvanograms and electrochemical noises, was the hardware Fourier transform, when a filter with a narrow bandwidth was connected to the system - source of electrical noise, which allowed measuring the noise power at a given frequency [6, 9], wavelet analysis [7, 10-13], the methods of dynamic chaos [14]. The result of these experiments is the power spectrum of the noise signal. The frequency range in which the measurements were made was 50 Hz-1 kHz. CVC studies are constrained by the lack of adequate theoretical models suitable for interpretation of experimental data and understanding of the processes underlying CVC changes. In this article, we have investigated theoretical and experimental CVC and created a CVC database containing more than 100 theoretical and 20 experimental CVC.",
+    "citation": {
+      "authors": [
+        "Gudza I.V.",
+        "Kovalenko A.V.",
+        "Urtenov M.Kh.",
+        "Pismenskiy A.V."
+      ],
+      "paper_id": "Gudza_2021_JPhysConfSer_2131_022089",
+      "title": "Artificial intelligence system for the analysis of theoretical and experimental current-voltage characteristics",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "For the numerical calculation of the CVC, we used a modification of the basic mathematical model [15], which consists in the development and use of an algorithm for calculating the CVC. This model is used to create training and control sets for a certain set of input parameters. To generate and analyze CVC for arbitrary input parameters, we have created neural networks and artificial intelligence systems in the Matlab and Statistica Neural Network environments. Experimental CVC was obtained for flow-through membrane cells under the conditions of the combined action of the main processes occurring in the EDA desalination channels. We analyzed the obtained results, found a number of regularities, for example, the presence of several CVC sites with different behavior patterns, and explained the fluctuations of CVC, as well as verification and refinement of the obtained models.",
+    "citation": {
+      "authors": [
+        "Gudza I.V.",
+        "Kovalenko A.V.",
+        "Urtenov M.Kh.",
+        "Pismenskiy A.V."
+      ],
+      "paper_id": "Gudza_2021_JPhysConfSer_2131_022089",
+      "title": "Artificial intelligence system for the analysis of theoretical and experimental current-voltage characteristics",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The study was carried out at various values of input parameters, for example, the initial velocity of forced convection, the initial concentration, current density values, potential jump, etc. We have determined the main patterns of salt ion transport in the EDA desalination channel, for example, the occurrence and development of the spatial charge, electroconvection, etc., using the created artificial intelligence system. To implement the task of predicting new CVC based on input parameters using neural networks, various deep learning neural networks were created (multilayer perceptron, radial basis, convolutional, recurrent neural networks trained by gradient descent, Levenberg-Markar, etc. with Cross - Batch Statefulness [16]. For training neural networks \"Deep Neural Network\" databases of experimental and theoretical CVC were created, containing all possible characteristic parameters of desalination channels of electromembrane systems for theoretical and experimental CVC.",
+    "citation": {
+      "authors": [
+        "Gudza I.V.",
+        "Kovalenko A.V.",
+        "Urtenov M.Kh.",
+        "Pismenskiy A.V."
+      ],
+      "paper_id": "Gudza_2021_JPhysConfSer_2131_022089",
+      "title": "Artificial intelligence system for the analysis of theoretical and experimental current-voltage characteristics",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "We analyzed more than 100 theoretical and 20 experimental current-voltage characteristics, and determined the most general patterns of various characteristic parameters of desalination channels of electromembrane systems. For example, we studied the dependence of the CVC on the channel length, on the pumping rate of the solution, on the presence and absence of spacers and their different shapes and sizes. The following parameters were fed to the input of the \"Deep Neural Network\" neural networks: x1 – initial concentration, x2 – solution pumping rate, x3 – length and width of the EDA desalination channel. And at the output, we received critical values of the CVC such as: y1 – potential jump corresponding to the limiting current; y2 – potential jump corresponding to the beginning of electroconvection in CEM; y3 – potential jump corresponding to the beginning of electroconvection in AEM; y4 – potential jump corresponding to the beginning of the interaction of electroconvective vortices in AEM and CEM; y5 – the critical value of the current corresponding to the beginning of electroconvection in CEM (ICEM); y6 – the critical value of the current corresponding to the beginning of electroconvection in AEM (IAEM).",
+    "citation": {
+      "authors": [
+        "Gudza I.V.",
+        "Kovalenko A.V.",
+        "Urtenov M.Kh.",
+        "Pismenskiy A.V."
+      ],
+      "paper_id": "Gudza_2021_JPhysConfSer_2131_022089",
+      "title": "Artificial intelligence system for the analysis of theoretical and experimental current-voltage characteristics",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "According to the obtained six indicators, the new CVC (\"restored\" CVC) was approximated and compared with the existing ones. The CVC approximation was based on the following principles. First, the ohmic section of the CVC corresponding to the prelimiting current (before the potential jump y1) is a linear function with the corresponding slope angle. Secondly, the section of the CVC corresponding to the \"plateau\" (before the potential jump y2) is also a linear function, but with a different angle of inclination. The remaining sections of the CVC (up to potential jumps y2, y3, y4) are approximations of linear functions with the addition of fluctuations corresponding to random fluctuations in time series (\"white\" noise and \"gray\" noise). The created neural networks were trained by deep machine learning (Deep learning) in the Python development environment, using the OpenCV, TensorFlow, and Keras libraries.",
+    "citation": {
+      "authors": [
+        "Gudza I.V.",
+        "Kovalenko A.V.",
+        "Urtenov M.Kh.",
+        "Pismenskiy A.V."
+      ],
+      "paper_id": "Gudza_2021_JPhysConfSer_2131_022089",
+      "title": "Artificial intelligence system for the analysis of theoretical and experimental current-voltage characteristics",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The created artificial intelligence system for the analysis of theoretical and experimental current-voltage characteristics in electromembrane systems \"AI CVC 0.1\" allows, using the created neural networks, to obtain critical values and images of those CVC for which the calculated parameters are \"unacceptable\", i.e., too high concentration or the pumping speed of the solution, or the cell size. The calculation of such \"unacceptable\" conditions in the computer simulation environment of physical processes COMSOL Multiphysics 5.5 can take up huge computational resources. The created artificial intelligence system \"AI CVC 0.1\" allows us to obtain critical values of the CVC, to identify the trend and amplitude of vibrations of various parts of the CVC, to determine the main and accompanying frequencies of vibrations of various parts of the CVC, using the results obtained to record the \"restored\" CVC and compare it with the real one.",
+    "citation": {
+      "authors": [
+        "Gudza I.V.",
+        "Kovalenko A.V.",
+        "Urtenov M.Kh.",
+        "Pismenskiy A.V."
+      ],
+      "paper_id": "Gudza_2021_JPhysConfSer_2131_022089",
+      "title": "Artificial intelligence system for the analysis of theoretical and experimental current-voltage characteristics",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The created artificial intelligence system \"AI CVC 0.1\" allows you to calculate the critical values of currents (ICEM, IAEM, etc.), Hurst indicators for each section of the CVC, associated frequencies, oscillation amplitudes, tilt angles in the first and second sections. The created neural networks \"Deep Neural Network\" of deep machine learning (Deep learning), allow to determine the critical values and recreate the CVC, using the approximation method described above. All created programs that make up the software package have certificates of state registration [17-19].",
+    "citation": {
+      "authors": [
+        "Gudza I.V.",
+        "Kovalenko A.V.",
+        "Urtenov M.Kh.",
+        "Pismenskiy A.V."
+      ],
+      "paper_id": "Gudza_2021_JPhysConfSer_2131_022089",
+      "title": "Artificial intelligence system for the analysis of theoretical and experimental current-voltage characteristics",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  }
+]

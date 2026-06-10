@@ -1,0 +1,932 @@
+[
+  {
+    "content": "Hydrogen dissociation and diffusion through molten metal alloy membranes Michael Dongwook Byun a\n\n, Juhi Srivastava b, Rami Jubeili a\n\n, Vishal Agarwal b\n\n, D. Chester Upham a,* a Department of Chemical and Biological Engineering, University of British Columbia, Vancouver, BC, V6T 2G9, Canadab Department of Chemical Engineering, India Institute of Technology Kanpur, Kanpur, Uttar Pradesh, 208016, India\n\nA R T I C L E I N F O Keywords:Hydrogen separationHydrogen dissociationHydrogen diffusionMolten metal alloy",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Existing dense metallic hydrogen separation membranes deactivate above 823 K (550 ◦C). Recently, hightemperature molten gallium membranes were reported to have hydrogen diffusion coefficients 10 times greater than solid palladium; however, the overall hydrogen flux falls short of state-of-the-art palladium-based membranes due to slow dissociative adsorption of hydrogen. To increase this rate, we investigate molten alloys of transition metals for the first time. Rates of hydrogen dissociation on 15 top candidate molten metal alloys were quantified using the H2-D2 isotopic exchange reaction. Alloys exhibited higher dissociative adsorption rates than pure metals. For instance, the experimentally determined apparent activation energy for hydrogen dissociation significantly decreased from 187 kJ/mol for pure molten bismuth to 91 kJ/mol for molten Cu0.03Bi0.97. Density functional theory (DFT) calculations corroborated these findings, indicating considerably lower barriers for H2 dissociation on Cu0.03Bi0.97 versus pure bismuth. Experimentally determined hydrogen diffusion, obtained using a Sievert’s apparatus, were similar for Bi, Cu0.03Bi0.97, and Ni0.03Bi0.97. This suggests that the primary benefit of alloying transition metals with low-melting metals is to increase the rate of dissociative adsorption rather than diffusion. Ab initio molecular dynamics (AIMD) calculations indicated that Cu atoms prefer to be in the bulk over the surface of Cu0.03Bi0.97.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "er than diffusion. Ab initio molecular dynamics (AIMD) calculations indicated that Cu atoms prefer to be in the bulk over the surface of Cu0.03Bi0.97. Copper atoms solvated by bismuth take electrons from bismuth to become negatively charged. We propose this electronic modification of bismuth by sub-surface copper leads to bismuth acting as the active sites for homolytic hydrogen dissociation, thereby improving performance.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Hydrogen separation using palladium (Pd) based dense metallic membranes have an upper limit of 823 K (550 ◦C) of long-term operating due to sintering and fouling at higher temperatures [1,2]. Separation of hydrogen at higher temperatures would be a welcome addition to the field, for example in steam methane reformers (SMR) (≥1023 K or 750 ◦C), gasifiers (≥873 K or 600 ◦C), and methane pyrolysis (MePy) reactors (≥1173 K or 900 ◦C). Separating hydrogen under reaction conditions would allow for improved equilibrium conversion and pro­cess intensification by eliminating costly heat exchange and compres­sion. Therefore, there is a need for materials that are both selectively permeable to hydrogen with high diffusion rates, and that are stable for extended periods at temperatures exceeding 1173 K (900 ◦C). Hydrogen dissolution in metals has been studied for over a century, and models have been developed extensively, especially palladium membranes [3–8]. Hydrogen dissolution in molten metals specifically has also been studied, with focus on metallurgical metals such as copper and iron [9,10]. Molten metal membranes were recently reported to have up to 10 times greater hydrogen diffusion coefficients than state-of-the-art palladium-based membranes [11]. Indium (In) and gal­lium (Ga) were reported, and the concept of a thin molten metal coating that has the potential to be stable for use at high temperatures was demonstrated.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(Ga) were reported, and the concept of a thin molten metal coating that has the potential to be stable for use at high temperatures was demonstrated. However, the rates of hydrogen dissociation were very low in both metals reported. This resulted in an overall hydrogen flux through molten Ga membranes of about 1/7 that of palladium-based membranes. Modeling work compared Ga, In, and Pd fluxes under conditions where Pd is operable [12]. The work supported the conclu­sion that hydrogen dissociation would be limiting, and despite their lower cost, Ga and In would not surpass Pd, when operable, without an improvement in dissociation rates. To the best of our knowledge, no other molten metal membranes have been reported, and no large-scale",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 19 December 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC license ( http://creativecommons.org/licenses/bync/4.0/ ). industrial applications have been implemented using similar technologies. Other recent work has demonstrated that molten transition metal alloys have significantly improved rates of dissociation of carbon diox­ide, methane, and nitrogen [13–15]. This motivated the present work to investigate hydrogen dissociation catalyzed by molten alloys. In the present work, hydrogen membranes were made of alloyed transition metals and low melting metals to improve the slow dissociative adsorption observed over gallium and indium while maintaining good permeability above 823 K (550 ◦C). Five criteria were used for candidate molten metal alloy selection: (1) low vapour pressure, (2) oxide insta­bility under hydrogen, (3) toxicity, (4) molten state at 823 K, and (5) cost. In order to separately quantify rates of dissociation and diffusion, hydrogen isotopic exchange experiments were used to quantify the dissociation rate, and a Sievert’s apparatus was used to quantify diffu­sion rates. Ab initio molecular dynamic (AIMD) simulations were per­formed on the best selected molten metal alloy membrane to understand the role of alloying on the hydrogen dissociation reaction. The degree of surface segregation, the electronic structure and Bader charges, and barriers for H2 dissociation were computed. 2.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ssociation reaction. The degree of surface segregation, the electronic structure and Bader charges, and barriers for H2 dissociation were computed. 2. Experimental 2.1. Quantification of hydrogen dissociation Characterization of the dissociative adsorption of hydrogen onto surfaces of different molten metal alloys was performed via hydrogendeuterium (H2-D2) isotopic exchange reaction. H2-D2 isotopic ex­change reaction has been used to understand the kinetics of hydrogen adsorption and desorption on metal surfaces. The metal surface is exposed to controlled volumetric flows of molecular hydrogen and deuterium under various temperatures, with the rate of hydrogen deu­teride (HD) being measured with mass spectrometry for obtaining initial rates [16–21]. Rates of H2 and D2 dissociation on molten metal surfaces were compared to each other at the same ratio of H2:D2 (1:1). H2-D2 isotopic exchange reaction pathways can be broken down into dissociation of (1) hydrogen molecules to hydrogen atoms (H*) and (2) deuterium molecules to deuterium atoms (D*), upon adsorption onto active sites (*) on surface, and association of (3) hydrogen atoms with deuterium atoms, (4) hydrogen atoms with hydrogen atoms and (5) deuterium atoms with deuterium atoms, upon desorption from active sites (*) on surface. Conversion of hydrogen and deuterium would have a theoretical maximum of 0.5 based on the probabilities for association of hydrogen and deuterium atoms.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nversion of hydrogen and deuterium would have a theoretical maximum of 0.5 based on the probabilities for association of hydrogen and deuterium atoms. Dissociative adsorption H2 + 2* ↔2H*(1) D2 + 2* ↔2D*(2) Associative desorption H* + D* ↔HD + 2*(3) H* + H* ↔H2 + 2*(4) D* + D* ↔D2 + 2*(5) Measurements of conversion of either hydrogen or deuterium to hydrogen deuteride at different temperatures were used in a custom reactor to determine the reaction order, rate constant, Arrhenius preexponential, and activation energy. Minimization of volumetric flow rates of H2, D2 and Ar was necessary for accurate measurement of conversion. Mass spectra cannot distinguish between hydrogen or deuterium molecules that never reacted with the surface and hydrogen or deuterium molecules that dissociated into atoms and associated with the atoms of same isotope. As a result, ensuring that all the hydrogen and deuterium in the inlet stream react with molten metal surface was needed, which could be achieved by either increasing the residence time or decreasing the volumetric inlet flow. Nevertheless, designing a new reactor with larger diameter to increase the surface area to increase residence time could not be justified because material cost would in­crease and the furnace dimensions would be limiting. Hence, decreasing the volumetric flow rates through mass flow controllers (Brooks 5800 series + Brooks 0254 Readout) as low as possible was the chosen method.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ecreasing the volumetric flow rates through mass flow controllers (Brooks 5800 series + Brooks 0254 Readout) as low as possible was the chosen method. Mass spectrometers (SRS RGA 200) were able to read flow rates as low as 1 standard cubic centimetre per minute (sccm), hence H2, D2, Ar would be flown into the reactor at 1:1:2 sccm. 2.1.1. Sample preparation and loading To synthesize the samples, metal powders of different elements were ordered from Sigma-Aldrich Canada (bismuth: <325 μm, 99.99 %; co­balt: <150 μm, 99.9 %; copper: <45 μm, 99.7 %; indium: 99.99 %; molybdenum: <150 μm, 99.9 %; nickel: <150 μm, 99.99 %; tin: <45 μm, 99.8 %; palladium: <1 μm, 99.9 %). Then, they were weighed precisely to meet the target composition for each alloy. Conversion between mol% and wt% was necessary because the sample alloys of interest were based on mol% and the measurements were done in wt%. Metal powders were then put together in a vial and shaken for 5 min to ensure uniformity in the mixture. Then, the mixed metal powder was placed inside a quartz crucible of inner diameter of 10 mm and height of 10 mm. The powder was heated under 236 standard cubic centimetres per minute (sccm) of H2 and 50 sccm of Ar for an hour. Then, the sample was cooled down under the same environment until room temperature.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "centimetres per minute (sccm) of H2 and 50 sccm of Ar for an hour. Then, the sample was cooled down under the same environment until room temperature. If the metal sample was not occupying the entire volume of the quartz crucible, more powder was added on top of the synthesized metal and the same process was repeated until the crucible was entirely filled with the metal alloy. Prepared samples were placed inside the surface reactor for testing. Top and bottom parts of the surface reactor (SandFire Scientific) were then sealed using Molykote high-vacuum grease (DuPont) in their 28/15 ball joint and clamped together for the assembly. Assembled surface reactor was placed inside the furnace (TF55030 Lindberg/Blue M Mini-Mite Tube from Thermo Fisher Scientific). Inlet and outlet ¼” quartz tubes of the reactor were then connected to ¼” Ultra-Torr fittings. 10 sccm of Ar was subsequently introduced into the reactor system to remove any nitrogen or oxygen that could react with the molten metal alloy sample. Flow rates were adjusted to 2 sccm each for H2 and Ar and held until the stabilization of the reactor system. Furnace temperature was increased to 1073 K from room temperature and held for at least 1 h to melt the samples and reduce any oxides formed during the transport of the sample. Inlet flowrates were then adjusted to 1:1:2 sccm for H2:D2: Ar and held until the stabilization.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "any oxides formed during the transport of the sample. Inlet flowrates were then adjusted to 1:1:2 sccm for H2:D2: Ar and held until the stabilization. Temperatures were than adjusted from 823 K to 923 K using the programmable controller (Eurotherm 3216) built inside the furnace. Each temperature was held for 30 min. Pressure vs time plot was generated on the RGA software over the course of the experiments. To interpret the pressure signals of individual species from the mass spectra, several steps were involved. First, baselines for different gas species were subtracted from the raw mass spectra. Then, hydrogen, deuterium, and hydrogen deuteride signals were normalized against argon (inert gas) signal. Next, the initial volumetric flow rates were accounted for. Because the initial volumetric flow rate for argon (inert gas) was double the initial volumetric flow rates of hydrogen and deuterium, hydrogen and deuterium signals were doubled. Then, the pumping factor was determined. Pumping factor of deuterium to argon (PFD2/Ar). Going back to the raw mass spectra, pumping factors of in­dividual gas species to corresponding species were multiplied. Conver­sion of deuterium (XD2) was then calculated using the change to initial volumetric flow rate of deuterium. A few molten metal alloys would be selected for further hydrogen sorption and permeation tests based on a few factors such as decrease in activation energies. Fig. 1 (a) shows a schematic of the surface reactor.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "M.D. Byun et al. Journal of Membrane Science 741 (2026) 125078\n\n2.2. Determination of intrinsic reaction regime External mass transfer (diffusion across the surface) was estimated to ensure that the reaction rates derived from the measurements were indeed the rates of dissociative adsorption of hydrogen. Using the known inlet flow conditions, Reynolds number (Re) in the reaction zone was first determined to be 2.78, indicating laminar flow. Reynolds number was calculated by multiplying the gas density (ρ) by gas velocity (u) by diameter (d) and dividing by the gas viscosity (μ). Boundary layer thickness (δ) was then calculated to be 0.012 m, using the length start from the stagnation point (L), which is equivalent to the radius of the catalyst surface. Mass transfer coefficient (kC) of 0.035 m/s was deter­mined by dividing the diffusivity coefficient of argon in hydrogen (DAB) by the boundary layer thickness. Rate of mass transfer (rMT) was calculated by multiplying the mass transfer coefficient and the concen­tration of deuterium, which ended up being 0.128 mol/m2⋅s. Hence, when the rate of mass transfer, 0.128 mol/m2⋅s, is much faster than the rate of reaction measured in our experiments, the measurements are in the intrinsic rates regime of dissociative adsorption of hydrogen on the surface. Re = ρ ⋅u ⋅d μ(6) δ ≈5 * L̅̅̅̅̅Re√(7) kC = DAB δ(8) rMT = kC ⋅[D2](9)",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.3. Quantification of hydrogen sorption Hydrogen sorption into the bulk of different molten metal alloys was measured using a Sievert’s apparatus (Setaram PCTPro 2000), a volu­metric measurement technique. Hydrogen sorption into bulk metal oc­curs in the following mechanism: [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] hydrogen molecules are adsorbed onto the metal surface and dissociated into hydrogen atoms (refer to equations (1) and (2)), [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] adsorbed hydrogen atoms are penetrated into the sub-surface, and [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] hydrogen atoms are diffused through the bulk (or thickness of the membrane) until reaching the other end. Sub­scripts r and p refer to retentate and permeate, whereas S and X refer to surface and bulk, respectively. Molten metal samples in quartz crucibles were subjected to pressurized aliquots of H2. The geometry of the samples represent a membrane with infinite thickness which was assumed for the following Sievert’s experiments.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ed aliquots of H2. The geometry of the samples represent a membrane with infinite thickness which was assumed for the following Sievert’s experiments. H2,r + 2Sr ↔2H⋅Sr[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] H⋅Sr + Xr ↔H⋅Xr + Sr[ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] H⋅Xr + Xp ↔H⋅Xp + Xr[ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] Validation of Sievert’s apparatus was first performed using ~ 1 g of solid palladium powder. Formation of palladium hydride at 443 K was benchmarked against the reference provided by the manufacturer. Pressure-composition-isotherm (PCI) was generated in which equilib­rium pressure of hydrogen vs. concentration in terms of wt% of hydrogen in palladium was plotted. Sievert’s samples were prepared in a very similar manner to those of H2-D2 exchange reaction, except for the diameter of the quartz crucible of 4 mm due to the size limitations of the sample holder.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "r manner to those of H2-D2 exchange reaction, except for the diameter of the quartz crucible of 4 mm due to the size limitations of the sample holder. Eight bulk bismuth samples were synthesized inside a horizontal quartz tube in a furnace by melting ~ 0.6 g of metal powder in a quartz crucible of ¼” OD, 4 mm ID, and 8 mm of height each, under 236 sccm of hydrogen and 50 sccm of argon at 973 K for 30 min and freezing to room temperature. Loss of mass during the synthesis was negligible despite the observation of some vaporization of bismuth due to its relatively high vapour pres­sure. Prepared samples were then placed inside the sample holder and sealed tightly using VCR gaskets. Evacuation and purging of sample holder under helium gas was performed and secondary reduction for 2 h under hydrogen at 773 K was followed to eliminate any possible oxides formed during the transport of prepared samples. Desorption was per­formed to remove any absorbed hydrogen from the bulk for 100 min. Dead-space volume calibration was performed for every time a new sample was placed inside the sample holder. Calculation of dead-space volume (space between the surface of the sample and the sample valve) was crucial for accurate measurement of hydrogen sorption because of the non-ideality in volumetric analysis used by the software (Setaram - HyData 5.0).",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "crucial for accurate measurement of hydrogen sorption because of the non-ideality in volumetric analysis used by the software (Setaram - HyData 5.0). Dead-space volume was calculated by taking the average of 3 replicates after dosing helium at 5 bar from a reservoir with a known volume and monitoring the pressure drop. Hydrogen gas was introduced into the reservoir of 7.6 mL of volume at 23–25 bars followed by stabilization for 3 min. Hydrogen gas was then introduced into the bulk molten metal alloy by opening the sample valve and the hydrogen pressure was measured and monitored for 3–6 h of absorption of H2. Desorption of H2 was then followed for 2–5 h to evacuate the sample completely of hydrogen. Measurement of hydrogen sorption was performed 3 times in the same temperature and tempera­tures were varied randomly up to 773 K (maximum operating temper­ature of the apparatus) to reduce bias as much as possible. Fig. 1 (b)shows a schematic of the Sievert’s apparatus.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.4. Computational methods Ab initio molecular dynamics (AIMD) simulations were performed to model the dissociative adsorption of H2 on a free-standing film of molten metal or molten alloy surfaces. A simulation cell of dimensions 12 * 12 * 48 Å3 was constructed, containing a total of 100 atoms—100 Bi atoms for the pure Bi system, and 97 Bi atoms with 3 Cu atoms for the alloy system. Periodic boundary conditions were applied in all three spatial directions. The cell length along the z-axis (48 Å) was chosen to ensure the presence of a vacuum region exceeding 15 Å throughout the simu­lation, thereby preventing interaction between periodic images in the slab geometry. The cell dimensions and atom count were carefully chosen to ensure that the simulated molten systems possess a welldefined bulk region within the slab. Initial guess configurations were manually constructed and subjected to constant-temperature ab initio molecular dynamics (AIMD) simulations for approximately 40 ps to achieve equilibrium. This was followed by an additional 30 ps of simulation in the equilibrated state for subsequent structural and dynamical analysis. The cumulative energy plots from the equilibration runs are provided in Fig. S4 of the Supplementary Information. No evaporation or loss of Bi or Cu atoms was observed during the simula­tion.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "libration runs are provided in Fig. S4 of the Supplementary Information. No evaporation or loss of Bi or Cu atoms was observed during the simula­tion. Electronic structure calculations were subsequently used to opti­mize and evaluate the geometries and energies of the initial, transition, and final states, allowing for the determination of activation barriers associated with the dissociative adsorption process on the molten surfaces. The quantum mechanical calculations were carried out using the projector-augmented wave (PAW) [22] pseudopotentials and a plane-wave basis set, as implemented in the Vienna Ab initio Simulation Package (VASP) [23–25]. Exchange–correlation effects were treated using the generalized gradient approximation (GGA) formulated by Perdew, Burke, and Ernzerhof (PBE) [26], while dispersion interactions were accounted for using the DFT-D3 [27] van der Waals correction scheme. For constant-temperature AIMD simulations, a plane-wave kinetic energy cutoff of 350 eV was employed, with an electronic energy convergence criterion of 10-4 eV, and calculations were performed at the Γ-point. The system temperature was maintained at 873 K using a Nos´e–Hoover thermostat [28–30], with a time integration step of 1 fs. This simulation temperature was chosen as it lies within the mid-range of the experimental temperature window.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", with a time integration step of 1 fs. This simulation temperature was chosen as it lies within the mid-range of the experimental temperature window. For the electronic structure calculations used to determine activation barriers, a higher kinetic en­ergy cutoff of 400 eV was used, along with a tighter convergence threshold of 10-5 eV. Brillouin zone sampling for these computations were performed using a Monkhorst-Pack k-point grid of 3 * 3 * 1. During AIMD simulations, non-spin-polarized calculations were used to model the molten film geometry, whereas spin-polarized calculations were employed for all structural optimizations and energy evaluations associated with electronic structure analysis. The nudged elastic band (NEB) [31] method was employed to determine the minimum energy reaction pathway (MEP) between the reactant and product states, and to subsequently identify the transition state (TS) and the corresponding activation barrier. Product configura­tions were generated by placing dissociated hydrogen atoms at various nearby sites on the molten surface, followed by structural optimization. The configuration with the lowest total energy was selected as the final product geometry. To construct the reactant configuration, the H atoms were brought closer together and optimized to form a molecularly adsorbed H2 species on the surface.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "construct the reactant configuration, the H atoms were brought closer together and optimized to form a molecularly adsorbed H2 species on the surface. Intermediate images between the reactant and product were generated through linear interpolation, and the pathway was optimized using the NEB [31] method until the maximum NEB force on any image was less than 0.02 eV/Å. A spring constant of 5 eV/Å2 was applied to enforce elastic coupling between the images. The improved tangent NEB (ITNEB) [32] scheme, combined with the FIRE [33] optimization algorithm, was used to obtain a more accurate estimate of the local path tangent, and the climbing image NEB",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(CINEB) [34] approach employed the L-BFGS [35] optimizer to refine the transition state by driving the highest-energy image to the saddle point. 3. Results and discussion 3.1. Quantification of hydrogen dissociation using H2/D2 isotopic exchange reaction The criteria used to select which molten metal alloys to screen were: (1) vapour pressure, (2) oxide stability, (3) toxicity, (4) melting point, and (5) cost [36–40]. Supplemental section S1 describes the application of this selection criteria, with the aid of Table S1 and Fig. S1 for melting point determination and cost analysis. 15 molten metal alloys met these criteria and were screened for H2 dissociation rates using H2-D2 exchange. In order to measure the rates of hydrogen dissociation and recom­bination on the surface, H2 and D2 (deuterium or heavy hydrogen) were passed together over the surface and hydrogen deuteride (HD) was observed. A reaction-rate limited differential surface reactor was used to flow H2 and D2 over a molten metal surface for measuring the product gas with a mass spectrometer capable of differentiating H2, D2, and HD as in previous work [15]. In this way, dissociation rates could be measured independent of diffusion rates. Fifteen different molten metal systems were tested. Each molten metal system was tested from 823 K to 923 K with a temperature interval of 20 K. Each temperature was held for 30 min. Conversion D2 to HD was used for the characterization of different molten metal systems.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ature interval of 20 K. Each temperature was held for 30 min. Conversion D2 to HD was used for the characterization of different molten metal systems. Conversion of D2 was first measured on a blank reactor, which had an empty quartz crucible inserted upside down to ensure that the difference in activity is solely due to the catalyst surface. Conversion of D2 on a blank reactor was then subtracted to only account for the surface activity of different molten metal systems. After the subtraction, the maximum conversion of deuterium plateaued at ~50 % for all trials. These results stick to the initial hypothesis that when molecular hydrogen and deuterium are introduced at 1:1 ratio, the final yield at maximum conversion would be 1:2:1 for hydrogen, hydrogen deuteride, and deuterium. Out of 15 different molten metal systems, 13 exhibited deuterium conversion above the blank. A kinetic isotope effect (KIE) would result in a slower dissociative adsorption rate of deuterium compared to hydrogen due to difference in zero-point energy (ZPE), and we report the rates of HD formation in our experiments. This HD formation rate is used as a proxy for the rate of dissociation of hydrogen in a molten metal alloy. We note that at 823 K, thermal energy (~10.3 kJ/mol) becomes large enough to offset the differences in the ZPE (~7.7 kJ/mol), suppressing the kinetic isotopic effect [41,42]. 3.1.1. Copper systems Results of alloys of 3 mol% copper with 97 mol% low melting metals were analyzed (Fig.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "sing the kinetic isotopic effect [41,42]. 3.1.1. Copper systems Results of alloys of 3 mol% copper with 97 mol% low melting metals were analyzed (Fig. 2 a). Copper-bismuth alloy (Cu0.03Bi0.97) had a deuterium conversion of 16.6 % at 823 K, with a gradual increase in the trend until reaching 50 % at 923 K. Because of relatively high deuterium conversion at 823 K for Cu0.03Bi0.97, lower temperature range was also tested and studied to investigate whether the trend withholds or not. Almost gradual trend in the increase in deuterium conversion was observed from the melting point of ~723 K for Cu0.03Bi0.97 to 823 K. Deuterium conversion on copper-tin alloy (Cu0.03Sn0.97) was initially close to zero at 823 K and increased to the theoretical maximum con­version of 50 % by 843 K. A very similar trend in deuterium conversion vs. temperature to pure tin (Sn) was observed. The only observable difference was that the temperature at which the exponential increase is observed was lowered from 863 K to 833 K when 3 mol% of copper was added to tin. 3.1.2. Nickel systems Results of alloys of 3 mol% nickel with 97 mol% low melting metals",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "M.D. Byun et al. Journal of Membrane Science 741 (2026) 125078 were analyzed (Fig. 2). Nickel-indium (Ni0.03In0.97) exhibited a very similar trend in deuterium conversion vs. temperature to pure indium (In). Nevertheless, the temperature at which a sharp exponential in­crease in trend occurred was lowered from 853 K to 833 K. Nickelbismuth (Ni0.03Bi0.97) also exhibited a very similar trend to pure bis­muth (Bi), with a relatively small increase in deuterium conversion from 33.1 % to 35.4 % at 923 K. Nickel-tin (Ni0.03Sn0.97) was not included in the testing because its melting point is greater than 823 K. Recently, 1.3 wt% of molybdenum (Mo) was reported to have been added to molten nickel-bismuth alloy (NiMo–Bi), decreasing the apparent activation energy of methane pyrolysis from 208 kJ/mol to 81.2 kJ/mol from the temperature range of 723–1073 K [43]. In order to investigate the benefit of adding molybdenum to nickel-bismuth alloys to hydrogen dissociation, nickel-molybdenum-bismuth ternary alloy of the same composition (Ni0.076Mo0.026-Bi0.898 – in mol%) was synthe­sized and tested. Compared to Ni0.03Bi0.97, deuterium conversion was improved from 2.30 % to 3.98 % at 823 K. Nevertheless, the increase in deuterium conversion vs. temperature was not as great. Ni0.076Mo0.026-Bi0.898 reached the final deuterium conversion of 11.65 % at 923 K, which was about a third of Ni0.03Bi0.97 or Bi.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "re was not as great. Ni0.076Mo0.026-Bi0.898 reached the final deuterium conversion of 11.65 % at 923 K, which was about a third of Ni0.03Bi0.97 or Bi. Ni0.14Bi0.86, nickel-bismuth alloy with the maximum nickel content with molten state at 823 K, was also synthesized and tested in the in­terest of potential applicability of molten nickel-bismuth to various other reactions. Ni0.14Bi0.86 exhibited almost the same deuterium con­version at 823 K as Ni0.03Bi0.97 and Ni0.076Mo0.026-Bi0.898. The catalysts with higher Ni and Mo concentrations exhibited lower slopes with increasing temperature, indicative of lower activation energies. Fig. 2 (b) lists all the tested nickel alloy systems in terms of deuterium con­version vs. temperature.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.1.3. Cobalt and palladium systems A few other systems outside nickel and copper that were included for testing were studied. Cobalt-tin alloy (Co0.03Sn0.97) exhibited a very similar trend to pure tin (Sn) in terms of deuterium conversion vs. temperature trend. Nevertheless, the temperature at which exponential increase in the trend started increased from 863 K to 883 K. Presence of cobalt in the alloy was likely limited to the sub-surface due to surface segregation caused by huge difference in surface tension between cobalt and tin. Results of Co0.03Sn0.97 and Pd0.03Bi0.97 were visualized in Fig. 2 (c). Palladium-bismuth alloy (Pd0.03Bi0.97) had a relatively high deuterium conversion of 11.29 % at the temperature of 823 K compared to the other tested systems, reaching maximum theoretical conversion at 883 K. Similar to Cu0.03Bi0.97, temperature range was expanded to include 723–823 K to further investigate the trend. Pd0.03Bi0.97 exhibited a very similar close to gradual increase in deuterium conversion vs. tempera­ture as Cu0.03Bi0.97. 3.1.4. In, Sn, and Bi metal systems Pure bismuth exhibited a higher conversion and a steeper increase in conversion with temperature than either Bi0.50In0.50 or Bi0.50Sn0.50. At least 3 data points were collected under differential reactor conditions for bismuth, because bismuth alloys resulted in the highest conversion at the lowest temperature. The screening results from Fig.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "l reactor conditions for bismuth, because bismuth alloys resulted in the highest conversion at the lowest temperature. The screening results from Fig. 2 were used to select the most active metals for hydrogen dissociation. Cu0.03Bi0.97, Ni0.03Bi0.97, Pd0.03Bi0.97 and In0.50Sn0.50 had the lowest temperature activity and the most gradual change in conversion with temperature (i.e. lowest activation energy). In order to quantify the intrinsic reaction parameters for these catalysts, at least 3 data points under differential conditions at",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Characterization of surface activity based on conversion of H2 and D2 to HD vs temperature for (a) copper alloys, (b) nickel alloys, (c) palladium and cobalt alloys, and (d) low melting metals. The total pressure was 1 atm with 1:1:2 sccm H2:D2:Ar, and constant 0.5 cm2 surface area for each catalyst. Subscripts represent mol%. M.D. Byun et al. Journal of Membrane Science 741 (2026) 125078 conversions less than 10 % were collected to ensure differential reactor conditions were satisfied [44]. The other catalysts were not considered further. Arrhenius plots (Fig. 3) were then constructed to extract the activation energy and pre-exponential factor from the most active cat­alysts (Table 1). 3.2. Arrhenius plot & activation energy Rate of dissociative adsorption (rdiss) was developed and calculated in terms of the surface area of the molten metal alloy in the quartz crucible. It was observed that the reaction rate was in the 1st order, which allowed the derivation of an expression for the deuterium con­version (XD2) as a function of the surface area (SA). Steady-state flow reactor mass balance was used to derive the mass balance equation involving rate constant (k), concentration of deuterium ([D2]), Arrhe­nius pre-exponential (A), activation energy of dissociation (Ediss), molar flow rate of deuterium (FD2), fraction change (ε), partial pressure of deuterium (PD2), and partial pressure of hydrogen deuteride (PHD).",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "diss), molar flow rate of deuterium (FD2), fraction change (ε), partial pressure of deuterium (PD2), and partial pressure of hydrogen deuteride (PHD). rdiss = k⋅[D2][molm2⋅s ][ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] k = A⋅e-Ediss R⋅T [ Lm2⋅s ][ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] dFD2 = -FD2,0⋅dXD2 = -rdiss⋅dSA[ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] dXD2 dSA = k⋅[D2]FD2,0 = k [D2]0 FD2,0 ⋅(1 - XD2)(1 + εXD2)(16) It was assumed that the reverse reaction would be appreciable at deuterium conversion (XD2) of 10 % or higher. Most molten metal alloy systems experienced a relatively small increase in below 10 % conver­sion range, which would be used for determining activation energy eventually. Hence, rate of dissociative adsorption (rdiss) was calculated using a differential method. rdiss = (PD2,in - PD2,out ) R⋅T⋅SA=PHD2⋅R⋅T⋅SA [molm2⋅s",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "For Cu0.03Bi0.97 at 823 K, rate of dissociative adsorption was 4.91 *10-3 mol/m2⋅s, which was 1/26 the rate of gas-phase diffusion through the boundary layer surface of 0.128 mol/m2⋅s, making the mass transfer (gas-phase diffusion) effect negligible. Hence, the rate of dissociative adsorption measured using the surface reactor was used as the rate of dissociative adsorption of hydrogen on the surfaces of molten metal alloys. Rate constant (k) was calculated using the deuterium conversion at different temperatures. Rate constants (k) were calculated using the following equations, assuming 1st order reaction: k = -ln(1 - XD2)⋅vD2,0 SA [ Lm2⋅s ][ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] Fig. 3 is an Arrhenius plot showing the linear relationship between ln (k) and 1/(RT) for select molten metal alloy systems. Linearity in the relationship indicated that the combined dissociative adsorption and associative desorption reaction is a first-order reaction. Trendlines for Cu0.03Bi0.97 and Pd0.03Bi0.97 were positioned towards the top right of the plot, whereas the trendlines for other molten metal systems were posi­tioned towards the bottom left. Slopes of different trendlines were translated into the activation energy of hydrogen dissociation (Ediss) and tabulated in Table 1, along with the Arrhenius pre-exponentials.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lines were translated into the activation energy of hydrogen dissociation (Ediss) and tabulated in Table 1, along with the Arrhenius pre-exponentials. Pure bismuth (Bi) exhibited the highest activation energy of hydrogen dissociation at 187 kJ per mole. Among the 3 different bis­muth alloys with 3 mol% transition metals, Pd0.03Bi0.97 attributed to the biggest decrease in activation energy of hydrogen dissociation to 64 kJ/ mol. Cu0.03Bi0.97 also decreased the activation energy of hydrogen dissociation to 91 kJ/mol, whereas Ni0.03Bi0.97 did not exhibit a signif­icant change in the activation energy. With the increase in the nickel content to 14 mol% however, the activation energy dropped to 92 kJ/ mol. The methane pyrolysis active Ni0.076Mo0.026-Bi0.898 exhibited an even bigger drop in the activation energy to 71 kJ/mol [43]. Cu0.03In0.97 and In0.50Sn0.50 had activation energies of hydrogen dissociation of 127 kJ/mol and 176 kJ/mol, respectively. Direct comparisons of activation energies were not achievable due to insufficient data for pure indium (In) and tin (Sn). Compared to the pure hydrogen bond-dissociation energy of 436 kJ/mol in gas phase, all the listed molten metal systems resulted in improvements in the catalytic surface activity [47]. Arrhe­nius pre-exponentials were also calculated for different molten metal systems.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "resulted in improvements in the catalytic surface activity [47]. Arrhe­nius pre-exponentials were also calculated for different molten metal systems. Based on the results from H2-D2 exchange, copper alloys were further investigated using Sievert’s apparatus to determine diffusion rates, because of the huge drop in activation energy with 3 mol% addition to pure bismuth and relatively high deuterium conversion compared to other systems at lower temperature. 3.3. Quantification of hydrogen sorption and diffusion 3.3.1. Hydrogen sorption into bismuth alloys Five bismuth samples were tested at temperatures between melting and 768 K to study the H2 sorption rate in molten state. Three different H2 sorption measurements were made for each sample, with 100 min of desorption in between each measurement to allow for sufficient time to vacate hydrogen from bulk bismuth. Hydrogen sorption rates were determined using the slope of change in concentrations of hydrogen against time. Hydrogen concentrations based on pressure drop were determined using the real gas law with a temperature correctional",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. Arrhenius plot for different molten metal systems all exhibit linear re­lationships in ln k vs 1/T. The total pressure was 1 atm with 1:1:2 sccm H2:D2: Ar, and constant 0.5 cm2 surface area for each catalyst. Subscripts represent mol%.\n\nTable 1 Activation energies of dissociation and pre-exponentials for select molten metal systems based on the results in Fig. 3. Molten Metal AlloyEdiss (kJ mol-1)A (L m-2 s-1)Ref Gas-phase436–[45]Bi1863.40 * 109This workNi0.03Bi0.971651.80 * 108This workCu0.03Bi0.97913.65 * 104This workPd0.03Bi0.97645.15 * 102This workNi0.14Bi0.86925.27 * 103This workNi0.076Mo0.026-Bi0.898714.17 * 102This workPd (s)11.6–[46]",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "M.D. Byun et al. Journal of Membrane Science 741 (2026) 125078 factor. In order to have direct comparisons with hydrogen dissociation rates at atmospheric pressure, the slope was divided by the area of the sample and the pressure of hydrogen at which hydrogen was dosed into the samples. rsorption = dCdt⋅1SAcat ⋅1PH2,Sieverts [molm2⋅s ](19) An average of three trials for each sample was taken to study the effect of temperature in sorption rate. Pure Bi was tested at five tem­peratures in the liquid state. Three bismuth samples were tested at temperatures between 376 K and 520 K to study the H2 sorption in solid state. Both liquid and solid Bi exhibited a linear increase in sorption rate with the increase of temperature. Nevertheless, the slope of linear trend for solid phase bismuth was smaller than in molten phase. For molten phase, increase in hydrogen sorption rate corresponded to 1.29 * 10-7 mol/m2⋅s/K, which was about 24 % greater than the increase in hydrogen sorption rate of 1.04 * 10-7 mol/m2⋅s/K for solid phase. Additionally, when trends for both phases were extrapolated to the melting point of bismuth of ~543 K, there was a step increase of hydrogen sorption of 3.95 * 10-6 mol/m2⋅s from 3.19 * 10-5 mol/m2⋅s to 3.58 * 10-5 mol/m2⋅s.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "point of bismuth of ~543 K, there was a step increase of hydrogen sorption of 3.95 * 10-6 mol/m2⋅s from 3.19 * 10-5 mol/m2⋅s to 3.58 * 10-5 mol/m2⋅s. These two findings are in agreement with other previously reported literatures, where the step increase of hydrogen sorption occurred at the melting points of each metal due to increase in interstitial space with the phase change allowing wider path for hydrogen atoms’ sorption [11]. Molten nickel-bismuth alloys of three different concentrations (Ni0.03Bi0.97 (l), Ni0.06Bi0.94 (l), Ni0.09Bi0.91 (l)) were then studied. Molten Ni0.03Bi0.97 was tested at its melting temperature of 689 K, 737 K, and the Sievert’s apparatus maximum operating temperature of 771 K, using the same procedure. At 689 K, Ni0.03Bi0.97 (l) exhibited a hydrogen sorption rate of 5.89 * 10-5 mol/m2⋅s, which was about 0.45 * 10-5 mol/m2⋅s greater than the hydrogen sorption rate through Bi of 5.44 *10-5 mol/m2⋅s at the same temperature. The temperature dependence on the sorption rate also increased, corresponded to 4.67 * 10-7 mol/ m2⋅s/K, which was about 3.63 times greater than for Bi (l). Similarly, Ni0.06Bi0.94 was tested at 726 K, 744 K, and 762 K. Hydrogen sorption rate for Ni0.06Bi0.94 (l) at 726 K of 7.94 * 10-5 mol/ m2⋅s was higher than that of Ni0.03Bi0.97 of 7.66 * 10-5 mol/m2⋅s and that of Bi (l) of 5.86 * 10-5 mol/m2⋅s.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "6Bi0.94 (l) at 726 K of 7.94 * 10-5 mol/ m2⋅s was higher than that of Ni0.03Bi0.97 of 7.66 * 10-5 mol/m2⋅s and that of Bi (l) of 5.86 * 10-5 mol/m2⋅s. Increase in hydrogen sorption rate into Ni0.06Bi0.94 was 1.31 * 10-6 mol/m2⋅s/K, which was 2.79 times greater than increase in hydrogen sorption rate for Ni0.03Bi0.97 (l) and 10.13 times greater than increase in hydrogen sorption rate for Bi (l). Hydrogen has greater binding energy to nickel than bismuth according to a volcano plot for hydrogen evolution reaction [48]. Since there is a large difference in surface tension between nickel and bismuth, surface segregation may have occurred, with nickel atoms in the sub-surface and in the bulk. Hydrogen sorption into Cu0.03Bi0.97 (l) was tested at 743 K, 758 K, and 771 K to study the effect of alloying a same amount (mol%) of different transition metal to bismuth. Hydrogen sorption rates for Cu0.03Bi0.97 of 5.35 mol/m2⋅s at 743 K and 5.75 mol/m2⋅s at 758 K were lower than those of Bi at the same temperatures. Nevertheless, hydrogen sorption rate of 6.89 * 10-5 mol/m2⋅s at 771 K was higher than that for Bi at the same temperature. Plus, the increase in hydrogen sorption rate into Cu0.03Bi0.97 (l) was 5.57 * 10-7 mol/m2⋅s/K, which was 4.3 times higher than pure bismuth. Rates of hydrogen sorption through all tested bismuth and its alloys were relatively similar, staying within the same order of magnitude.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ure bismuth. Rates of hydrogen sorption through all tested bismuth and its alloys were relatively similar, staying within the same order of magnitude. The advantage of alloying transition metals to improve hydrogen dissociation was more significant than to improve hydrogen diffusion. Compiled results from the four different alloys were plotted in Fig. 4. 3.3.2. Derivation of rate of diffusion and the rate limiting step Rates of sorption measured using Sievert’s apparatus were compared to rates of dissociative adsorption calculated for H2-D2 isotopic exchange reaction to study which elementary step would be rate limiting for hydrogen sorption. Sievert’s experiments were short time sorption measurements measuring initial sorption only. Mass of each sample used for Sievert’s experiments was converted to surface area basis as a result. To compare the rates at 823 K, Sievert’s rates were extrapolated. The rates of H2-D2 were a magnitude or two greater than the rates of sorption, indicating diffusion was rate-limiting for thick molten metal samples in the Sievert’s Apparatus. Rates of both H2-D2 and Sievert’s for Bi, Ni0.03Bi0.97, and Cu0.03Bi0.97 are summarized in Table 2. For Bi, dissociative adsorption was about 7.5 times faster than the combined dissociative adsorption and diffusion. For Ni0.03Bi0.97, dissociative adsorption was about 5.3 times faster than the combined dissociative adsorption and diffusion.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "dsorption and diffusion. For Ni0.03Bi0.97, dissociative adsorption was about 5.3 times faster than the combined dissociative adsorption and diffusion. For Cu0.03Bi0.97, dissociative adsorption was about 51 times faster than the combined dissociative adsorption and diffusion. 3.3.3. Diffusion coefficients and solubility In Section 3.1, we noted higher rates of hydrogen dissociation on alloy catalysts compared to single component metals; however, higher dissociation rates can result from stronger M -H binding energy, and result in lower permeability (QH2) (Eqn. (20)), QH2 = DH⋅KS(20) where DH is the diffusion coefficient and KS is the Sievert’s constant defined according to Sievert’s Law (Eqn. (21)) (CS = saturation solubi­lity, P = initial pressure), CS = KS ̅̅̅P√(21) In order to compare permeation rates of hydrogen into the top can­didates identified above with previously reported Ga and In, a Sievert’s apparatus was used. In the experiments, hydrogen was contacted with a Fig. 4. Rate of hydrogen sorption vs. temperature for bismuth and its alloys. Initial pressure was introduced at 23–25 bar and monitored for 3–6 h for adsorption and 2–5 h for desorption. Measurements were repeated 3 times with randomly varied temperatures between replicates.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "M.D. Byun et al. Journal of Membrane Science 741 (2026) 125078 quartz crucible filled with molten at least three different temperatures for Bi, Cu–Bi, and Ni–Bi alloys and the initial change in hydrogen was measured as a function of time. In these short time experiments, a semiinfinite pool model was used to model how hydrogen diffuses into the melt, as developed by Depuydt and Parlee for Sievert’s measurements [10]. The calculations are detailed in Supplemental Section S2 and result in the following equation (Eqn (22)), which represents a metric that includes the saturation solubility and diffusion coefficient, similar to permeability. The symbols used in Eqn (22) are volume of absorbed hydrogen (V), elapsed time (t), density of hydrogen (ρH2), density of metal (ρM), and diameter of sample (d). CS⋅DH½ CS ⋅DH½ = dVd̅̅t√⋅200ρH2 d2ρM ̅̅π√(22) CS⋅DH½ for Bi, Cu0.03Bi0.97, Ni0.03Bi0.97, and Ni0.06Bi0.94 were calcu­lated and compared to literature values for Pd, Ga, and In from 623 K to 773 K in Fig. 5 [4,6,49]. Tested molten metal alloys exhibit comparable values to Ga and In, within the same order of magnitude, and about two orders of magnitudes greater than Pd. For Pd, the solubility of H has been reported to decrease from 1.9 * 10-4 at 623 K to 1.1 * 10-4 at 773 K, resulting in a modest change in permeability with temperature, and relatively low permeability at 773 K [6,11].",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "10-4 at 623 K to 1.1 * 10-4 at 773 K, resulting in a modest change in permeability with temperature, and relatively low permeability at 773 K [6,11]. This is consistent with the prior reports that molten Ga and In have higher permeability than Pd at elevated temperatures [11]. 3.4. Simulation results Based on the experimental results from H2-D2 exchange reaction and hydrogen sorption measurements performed using Sievert’s apparatus, we found that the addition of just 3 mol% Cu to pure Bi resulted in a significant reduction in the activation energy, along with enhanced deuterium conversion at lower temperatures compared to other transi­tion metal alloys. These findings identified Cu–Bi alloys as promising candidates for further investigation. Additionally, the results indicated that alloying with transition metals has a more pronounced impact on enhancing the dissociative adsorption of hydrogen than on facilitating its bulk diffusion. The unexpectedly large drop in the activation barrier upon such a small % of Cu addition raises important questions. In particular, it is of interest to determine whether this effect arises from the surface segregation of Cu atoms, which may increase the density of active sites and thereby enhance dissociative adsorption. Guided by these insights, the computational part of this study focuses primarily on the dissociative adsorption step of H2.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e dissociative adsorption. Guided by these insights, the computational part of this study focuses primarily on the dissociative adsorption step of H2. Specifically, we investigate the Cu0.03Bi0.97 alloy and compare its behavior with that of pure molten Bi to understand the role of alloying in reducing the activation barrier and to identify the underlying factors contributing to the enhanced surface reactivity. The molten membranes were modeled as infinite liquid films, with lateral dimensions chosen to provide a sufficiently large surface area for studying the dissociative adsorption of H2, and a slab thickness adequate to represent a well-defined bulk region. Representative snapshots of each system after equilibration are shown in Fig. 6 (a) and 6 (c). The corresponding number density profiles for the two systems are presented in Fig. 6 (b) and 6 (d). These profiles were obtained by dividing the liquid slab into discrete bins along the z-direction, counting the total number of atoms within each bin throughout the AIMD trajectory, averaging over time, and normalizing by the bin volume to yield the number density distribution. The number density was evaluated by excluding the initial 40 ps of simulation data to ensure that only equil­ibrated configurations were considered.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". The number density was evaluated by excluding the initial 40 ps of simulation data to ensure that only equil­ibrated configurations were considered. The number density profiles for Bi atoms in both the systems along the slab thickness are approximately symmetric with respect to the center and clearly demonstrates the presence of a well-defined bulk region. Upon careful examination of the AIMD trajectory and the asso­ciated number density profile for molten Cu–Bi alloy system, it was observed that Cu atoms occasionally appear at the upper surface during the simulation. However, the time-averaged number density distribu­tion (Fig. 6 (d)) does not indicate any significant surface segregation, suggesting that Cu atoms do not preferentially accumulate at the surface rather prefers to be solvated by the Bi atoms. In a study by Palmer et al., number density profiles of molten Cu–Bi alloys with various bulk com­positions (Cu0.45Bi0.55, Cu0.20Bi0.80, and Cu0.10Bi0.90) showed significant surface segregation of Bi atoms across all compositions [14]. Our ob­servations are consistent with this behaviour: the melt surface is pre­dominantly enriched in Bi, while Cu atoms remain solvated within the bulk region. The liquid (molten) surface is inherently dynamic, exhibiting a continuously evolving atomic configuration that can present a variety of active sites at different spatial locations over time.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "dynamic, exhibiting a continuously evolving atomic configuration that can present a variety of active sites at different spatial locations over time. Ideally, to capture the average catalytic behavior of such a fluctuating surface, one should sample multiple approximately uncorrelated snapshots following equilibration. However, due to computational constraints, we have selected and analyzed two representative configurations for each sys­tem. It may be fortuitous that calculated activation barriers from these two snapshots were found to be in close agreement with the experi­mental results. It is difficult to emulate experimental conditions on a computer, and therefore, we focus on qualitative results and comparisons. Transition state calculations were performed by constraining approximately 75 % of the atoms, while the remaining 25 % were allowed to undergo local atomic relaxation during geometry optimiza­tion. This approach was employed to maintain the disordered, glassy liquid-like structure characteristic of the molten slab. Subsequently, a hydrogen atom was placed on the free liquid surface at various adsorption sites, including top sites (above Bi or Cu atoms), bridge sites, and hollow sites, followed by full geometry optimization. Among these configurations, hydrogen was found to preferentially bind to top sites, and the structure with the lowest total energy was selected.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tion. Among these configurations, hydrogen was found to preferentially bind to top sites, and the structure with the lowest total energy was selected. A second hydrogen atom was then introduced in the vicinity of the first, with its position sampled across various nearby surface sites, followed by a ge­ometry optimization. The two hydrogen atoms were observed to pref­erentially bind either to adjacent Bi atoms or to the same Bi atom. The configuration with the minimum energy was identified as the final product geometry and was used for further evaluation of the dissociation barriers using the NEB method. To construct the corresponding reactant geometry, the two hydrogen atoms were brought close enough to form a",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. CS ⋅ DH½ for different metals vs temperature is plotted where CS is the saturation solubility and DH is the diffusion coefficient for hydrogen. Large diamonds represent current work and squares and triangles represent literature values [6,49]. Initial pressure was introduced at 23–25 bar. Error bars represent the standard deviation of 3 replicates with randomly varied temperatures be­tween replicates. M.D. Byun et al. Journal of Membrane Science 741 (2026) 125078 bond, such that upon optimization, the system relaxed into a configu­ration representing an H2 molecule weakly adsorbed on the molten surface. This optimized structure was taken as the reactant geometry for that particular snapshot. The various configurations involving one and two hydrogen atoms, explored during the thermodynamic calculations for a representative snapshot of each system, with their corresponding relative energies are provided in the Supplementary Information (Fig. S5).\n\nFig. 6. Representative snapshots of the molten liquid slabs and the corresponding atomic number density profiles (atoms per Å3, averaged over the AIMD trajectory) along the slab length for (a–b) pure molten Bi and (c–d) the molten Cu0.03Bi0.97 alloy. In the number density plots, the vertical axis represents the length of the liquid slab, while the horizontal axis represents the atomic number density.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The potential energy surfaces for H2 dissociation on two distinct configurations of pure molten Bi and the molten Cu0.03Bi0.97 alloy are presented in Figs. 7 and 8, respectively. Both configurations within each system exhibit comparable dissociation energies and activation barriers. The fluctuations may not be accurately captured by such a small sample as obtaining a statistically meaningful average and standard deviations are computationally prohibitive. The activation barriers for H2 dissoci­ation on molten Bi are found to be in the range of 181–191 kJ/mol, while for the Cu–Bi alloy, the barriers lie between 106 and 111 kJ/mol. The computations suggest a large reduction in activation barriers on doping with Cu—a result which is consistent with the experimental findings. The dissociation of H2 is facilitated by electron transfer from the molten Bi and Cu–Bi alloy surfaces, as illustrated in Figs. 7 and 8 (b–d), which depict the reactant state with adsorbed H2 molecule, the transition state, and the final product state with dissociated H atoms bonded to the molten surface for one representative configuration. Bader charges on the H atoms and the involved Bi atoms are indicated in red. It is generally expected that in the alloys of low-melting metals with transition metals, the transition metal sites serve as the primary active centers for pyrolysis reactions. However, in the case of the Cu–Bi alloy, our observations deviate from this trend.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "sites serve as the primary active centers for pyrolysis reactions. However, in the case of the Cu–Bi alloy, our observations deviate from this trend. Specifically, configurations in which hydrogen atoms are adsorbed directly on Cu sites were not found to be energetically favorable. Furthermore, regardless of the position of Cu atoms—whether located at the surface or embedded within the bulk—we observed comparable activation barriers for H2 dissociation. This finding suggests that the effect of Cu is not purely geometric or local but rather arises from a collective electronic modification of the melt, which enhances the surface reactivity of Bi. Upon approach to the sur­face, the H–H bond weakens as electron density is transferred from Bi atoms into the σ* anti-bonding orbital of H2. The resulting dissociated H atoms preferentially bind to neighboring Bi atoms [as shown in Fig. 8",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(d)], rather than Cu, with an angular spacing that likely reduces elec­trostatic repulsion. Interestingly, in pure Bi, both H atoms tend to adsorb onto the same Bi atom (Fig. 7 (d)), leading to higher local charge buildup and possibly greater structural distortion, which might contribute to a higher energy barrier for H2 dissociation. To gain deeper insight into the charge redistribution induced by Cu incorporation, we computed the Bader charges on Cu and Bi atoms within the slab geometry and examined their variation along the length of the Cu0.03Bi0.97 slab. The slab was divided into spatial bins of 1 Å width, and time-averaged charges for each atomic species within each bin were calculated over the equilibrated AIMD trajectory. Fig. 9 pre­sents the spatial variation of the atomic Bader charges on Cu and Bi atoms across the length of the Cu0.03Bi0.97 alloy slab. For comparison, the corresponding Bader charges on Bi atoms in the pure molten Bi system are also included in the plot (shown in cyan). The Cu atoms were found to be located between ~19 and 36 Å along the slab length, consistent with the number density profile shown earlier in Fig. 6 (d). This spatial distribution is primarily a consequence of the initial atomic configuration and does not imply any preferential segregation of Cu atoms toward specific regions or surfaces. The analysis reveals that Cu atoms acquire a net negative charge of approximately -0.12 to -0.14 e.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n of Cu atoms toward specific regions or surfaces. The analysis reveals that Cu atoms acquire a net negative charge of approximately -0.12 to -0.14 e. Bi atoms remain nearly neutral in the bulk region, exhibit slightly pos­itive charges in the sub-surface region, and become marginally negative at the slab surfaces. Notably, the surface region in proximity to Cu atoms is slightly more negative compared to the corresponding region in the pure Bi system (as shown in the right side of the plot). Although this additional surface negativity is relatively small and unlikely to cause substantial property changes on its own, we nonetheless observe a sig­nificant reduction in the activation barrier for H2 dissociation. These results suggest that enhanced reactivity is more likely a consequence of a more global electronic modification of the system, rather than from",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "However, NEB calculations noted a significant decrease in the barriers for H2 dissociation (106 and 111 kJ/mol for Cu0.03Bi0.97 vs 181 and 191 kJ/mol for Bi). Configurations with hydrogen atoms adsorbed directly on Cu were not energetically favoured (of 13 configurations), and when hydrogen atoms adsorbed to surface Bi atoms, H2 dissociation barriers were found to be similar regardless of the position of Cu atoms. These findings suggest that Cu atoms are solvated in Bi while electronically modifying the melt to reduce H2 dissociation barriers. In summary, Cu–Bi exhibited the lowest experimentally observed apparent activation energy for hydrogen dissociation, which was significantly lower than for pure Bi. Simulations supported a lower barrier for dissociation on Cu–Bi than Bi with a minimal change in Hbinding energy that could affect bulk diffusion rates. Hydrogen was found to dissociate as hydrides on electronically modified Bi sites in Cu–Bi and hypothesized to diffuse as hydride ions through the melt, similar to the case of pure Bi. CRediT authorship contribution statement Michael Dongwook Byun: Writing – review & editing, Writing – original draft, Methodology, Investigation, Formal analysis, Data cura­tion, Conceptualization. Juhi Srivastava: Writing – review & editing, Writing – original draft, Investigation, Formal analysis, Data curation, Conceptualization. Rami Jubeili: Writing – review & editing, Method­ology, Formal analysis, Data curation.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "estigation, Formal analysis, Data curation, Conceptualization. Rami Jubeili: Writing – review & editing, Method­ology, Formal analysis, Data curation. Vishal Agarwal: Writing – re­view & editing, Supervision, Project administration, Investigation, Funding acquisition, Conceptualization. D. Chester Upham: Writing – review & editing, Supervision, Project administration, Funding acqui­sition, Conceptualization. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements This work was graciously supported by joint funding among Mitacs Accelerate, Noram Engineering & Constructors Ltd., Vancouver, BC, and BC Research Inc., Richmond, BC [grant number IT35806]. Dr. Anwu Li, Dr. Andres Mahecha-Botero, and Mr. James Lockhart at BCRI are gratefully acknowledged for their insights on state-of-the-art hydrogen membranes and data interpretation. This work was financially sup­ported by the National Sciences and Engineering Council of Canada’s (NSERC) Discovery Grants program, NSERC Alliance International Collaboration program, and Global Centers initiative; Canada Founda­tion for Innovation (CFI-JELF); and the BC Knowledge Development Fund. V.A. acknowledges financial support from the Science and Engi­neering Board (SERB), grant no. SERB/CHE/2023759.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "and the BC Knowledge Development Fund. V.A. acknowledges financial support from the Science and Engi­neering Board (SERB), grant no. SERB/CHE/2023759. The authors acknowledge the support of the Digital Research Alliance of Canada and UBC’s ARC Sockeye for providing Advanced Research Computing re­sources, as well as the Department of Science and Technology (DST), Government of India, for supporting the High-Performance Computing facilities (HPC2013 and Paramsanganak) at IIT Kanpur.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Glossary\n\nAIMDAb initio molecular dynamics CINEBClimbing image nudged elastic band DFTDensity functional theory\n\n(continued on next page)\n\nFig. 9. Time-averaged Bader charges on Cu and Bi atoms along the length of the molten Cu0.03Bi0.97 slab, computed over 350 snapshots sampled at 0.1 ps intervals during the AIMD simulation. The slab is divided into spatial bins of 1.0 Å width along the length direction, and the average charge per atom in each bin is reported. For comparison, average Bader charge on Bi atoms in the pure molten Bi system is also included in the plot. M.D. Byun et al. Journal of Membrane Science 741 (2026) 125078\n\n(continued) AIMD Ab initio molecular dynamics CINEB Climbing image nudged elastic band DFT Density functional theory FIRE Fast Inertial Relaxation Engine GGA Generalized gradient approximation FIREFast Inertial Relaxation Engine GGAGeneralized gradient approximation ITNEBImproved tangent nudged elastic bandL-BFGSLimited memory Broyden–Fletcher–Goldfarb–Shanno algorithmMEPMinimum energy reaction pathwayNEBNudged elastic bandPAWProjector-augmented wavePBEPerdew, Burke, and ErnzerhofPCIPressure-composition-isothermTSTransition stateVASPVienna ab initio simulation package\n\nAppendix A. Supplementary data Supplementary data to this article can be found online at https://doi.org/10.1016/j.memsci.2025.125078.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11,
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[16] E. Wicke, G.H. Nernst, Zustandsdiagramm und thermodynamisches Verhalten der Systeme Pd/H2 und Pd/D2 bei normalen Temperaturen; H/D-Trenneffekte, Ber Bunsenges Phys Chem 68 (3) (Apr. 1964) 224–235, https://doi.org/10.1002/ bbpc.19640680303.[17] M. Boudart, Catalysis by supported metals, in: Advances in Catalysis, vol. 20, Elsevier, 1969, pp. 153–166, https://doi.org/10.1016/S0360-0564(08)60271-0.[18] J.T. Yates, P.A. Thiel, W.H. Weinberg, The chemisorption of hydrogen on Rh(111), Surf. Sci. 84 (2) (June 1979) 427–439, https://doi.org/10.1016/0039-6028(79) 90146-8.[19] J.T. Yates, C.H.F. Peden, J.E. Houston, D.W. Goodman, Subsurface penetration of chemisorbed hydrogen isotopes into the Ru(0001) crystal surface, Surf. Sci. 160 (1) (Sept. 1985) 37–45, https://doi.org/10.1016/0039-6028(85)91024-6.[20] C.P. O’Brien, J.B. Miller, B.D. Morreale, A.J. Gellman, The kinetics of H2 –D2 exchange over Pd, Cu, and PdCu surfaces, J. Phys. Chem. C 115 (49) (Dec. 2011) 24221–24230, https://doi.org/10.1021/jp2076885.[21] N. Golio, I. Sen, Z. Guo, R. Railkar, A.J. Gellman, Kinetic parameter estimation for catalytic H2–D2 exchange on Pd, Catal. Lett. 153 (1) (Jan. 2023) 1–18, https://doi. org/10.1007/s10562-022-03961-0.[22] G. Kresse, D. Joubert, From ultrasoft pseudopotentials to the projector augmentedwave method, Phys. Rev. B 59 (3) (Jan. 1999) 1758–1775, https://doi.org/ 10.1103/PhysRevB.59.1758.[23] G. Kresse, J.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "entials to the projector augmentedwave method, Phys. Rev. B 59 (3) (Jan. 1999) 1758–1775, https://doi.org/ 10.1103/PhysRevB.59.1758.[23] G. Kresse, J. Furthmüller, Efficient iterative schemes for Ab initio total-energy calculations using a plane-wave basis set, Phys. Rev. B 54 (16) (Oct. 1996) 11169–11186, https://doi.org/10.1103/PhysRevB.54.11169.[24] G. Kresse, J. Hafner, Ab initio molecular dynamics for liquid metals, Phys. Rev. B 47 (1) (Jan. 1993) 558–561, https://doi.org/10.1103/PhysRevB.47.558.[25] G. Kresse, J. Furthmüller, Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set, Comput. Mater. Sci. 6 (1) (July 1996) 15–50, https://doi.org/10.1016/0927-0256(96)00008-0.[26] J.P. Perdew, K. Burke, M. Ernzerhof, Generalized gradient approximation made simple, Phys. Rev. Lett. 77 [ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] (Oct. 1996) 3865–3868, https://doi.org/10.1103/ PhysRevLett.77.3865.[27] S. Grimme, Semiempirical GGA-type density functional constructed with a longrange dispersion correction, J. Comput. Chem. 27 [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] (Nov. 2006) 1787–1799, https://doi.org/10.1002/jcc.20495.[28] G.J. Martyna, M.L. Klein, M.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] (Nov. 2006) 1787–1799, https://doi.org/10.1002/jcc.20495.[28] G.J. Martyna, M.L. Klein, M. Tuckerman, Nos´e–Hoover chains: the canonical ensemble via continuous dynamics, J. Chem. Phys. 97 (4) (Aug. 1992) 2635–2643, https://doi.org/10.1063/1.463940.[29] S. Nos´e, A molecular dynamics method for simulations in the canonical ensemble, Mol. Phys. 52 (2) (June 1984) 255–268, https://doi.org/10.1080/ 00268978400101201.[30] Wm G. Hoover, Nos´e–Hoover nonequilibrium dynamics and statistical mechanics, Mol. Simul. 33 (1–2) (Jan. 2007) 13–19, https://doi.org/10.1080/ 08927020601059869.[31] B.J. Berne, G. Ciccotti, D.F. Coker, Classical and quantum dynamics in condensed phase simulations, in: Classical and Quantum Dynamics in Condensed Phase Simulations, LERICI, Villa Marigola, WORLD SCIENTIFIC, June 1998.[32] G. Henkelman, H. J´onsson, Improved tangent estimate in the nudged elastic band method for finding minimum energy paths and saddle points, J. Chem. Phys. 113 (22) (Dec. 2000) 9978–9985, https://doi.org/10.1063/1.1323224.[33] E. Bitzek, P. Koskinen, F. G¨ahler, M. Moseler, P. Gumbsch, Structural relaxation made simple, Phys. Rev. Lett. 97 (17) (Oct. 2006) 170201, https://doi.org/ 10.1103/PhysRevLett.97.170201.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[34] G. Henkelman, B.P. Uberuaga, H. J´onsson, A climbing image nudged elastic band method for finding saddle points and minimum energy paths, J. Chem. Phys. 113 (22) (Dec. 2000) 9901–9904, https://doi.org/10.1063/1.1329672.[35] D.C. Liu, J. Nocedal, On the limited memory BFGS method for large scale optimization, Math. Program. 45 (1–3) (Aug. 1989) 503–528, https://doi.org/ 10.1007/BF01589116.[36] ASM International, ASM Handbook ; Volume 3. Alloy phase diagrams/Volume editors: Hiroaki Okamoto (Professor Emeritus, Asahi University), Mark E. Schlesinger (Missouri University of Science and Technology), Erik M. Mueller (National Transportation Safety Board) ; ASM international Staff: Amy Nolan (Content developer) [und 9 andere] ; editorial assistance: Jo Hannah Leyda, Buz Riley, ASM International, Materials Park, Ohio, 2016.[37] K. Ishida, T. Nishizawa, The Co-Sn (Cobalt-Tin) system, JPE 12 (1) (Feb. 1991) 88–93, https://doi.org/10.1007/BF02663681.[38] Daily metal price: free metal price tables and charts. https://www.dailymetalprice. com/. (Accessed 24 February 2025).[39] FactWeb. https://www.crct.polymtl.ca/factweb.php. (Accessed 14 January 2025).[40] TU Wien: Institut für Angewandte Physik, “Vapor Pressure Calculator [IAP/TU Wien],” vapor pressure calculator. https://www2.iap.tuwien.ac.at/www/surface/ vapor_pressure. (Accessed 14 January 2025).[41] L.J. Gillespie, W. Richard Downs, The palladium-deuterium equilibrium, J. Am. Chem. Soc. 61 (9) (Sept.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[42] B.W.J. Chen, M. Mavrikakis, How coverage influences thermodynamic and kinetic isotope effects for H2/D2 dissociative adsorption on transition metals, Catal. Sci. Technol. 10 (3) (2020) 671–689, https://doi.org/10.1039/C9CY02338K.[43] L. Chen, et al., Ternary NiMo-Bi liquid alloy catalyst for efficient hydrogen production from methane pyrolysis, Science 381 (6660) (Aug. 2023) 857–861, https://doi.org/10.1126/science.adh8872.[44] P.B. Weisz, C.D. Prater, Interpretation of measurements in experimental catalysis, in: Advances in Catalysis, vol. 6, Elsevier, 1954, pp. 143–196, https://doi.org/ 10.1016/S0360-0564(08)60390-9.[45] J.R. Rumble (Ed.), CRC Handbook of Chemistry and Physics, 102nd edition, CRC Press, Boca Raton London New York, 2021, 2021-2022.[46] S. Wang, et al., Universal transition state scaling relations for (de)hydrogenation over transition metals, Phys. Chem. Chem. Phys. 13 (46) (2011) 20760, https:// doi.org/10.1039/c1cp20547a.[47] Y.-R. Luo, Comprehensive Handbook of Chemical Bond Energies, CRC Press, Taylor & Francis, Boca Raton London New York, 2007.[48] S. Trasatti, Work function, electronegativity, and electrochemical behaviour of metals, J. Electroanal. Chem. Interfacial Electrochem. 39 (1) (Sept. 1972) 163–184, https://doi.org/10.1016/S0022-0728(72)80485-6.[49] N.D. Deveau, P.-S. Yen, R. Datta, Evaluation of hydrogen sorption and permeation parameters in liquid metal membranes via Sieverts’ apparatus, Int. J. Hydrogen Energy 43 (41) (Oct.",
+    "citation": {
+      "authors": [
+        "Chester D."
+      ],
+      "paper_id": "1-s2.0-S0376738825013912-main",
+      "title": "Hydrogen dissociation and diffusion through molten metal alloy membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "content": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration Sk Md Ali Zaker Shawon a, Penelope Fries a , Longqian Xu b, Ruoyu Wang b, G. Kane Jennings a, Shihong Lin a,b,* a Department of Chemical and Bimolecular Engineering, Vanderbilt University, Nashville, TN, 37235-1604, USAb Department of Civil and Environmental Engineering, Vanderbilt University, Nashville, TN, 37235-1831, USA\n\nA R T I C L E I N F O Keywords:PervaporationEthanol dehydrationPermselectivityPartitionDiffusion",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Pervaporation is a membrane-based separation process capable of breaking azeotropes, where permselectivity arises from both sorption and diffusion contributions. However, conventional pervaporation measurements rarely distinguish between these two factors. In this study, we decouple the contributions of sorption and diffusion selectivity in ethanol–water separation using crosslinked polyvinyl alcohol membranes. By conducting separate sorption and pervaporation experiments across a range of feed compositions, we reveal that sorption selectivity exhibits a monotonic trend governed by the dynamic interplay between membrane swelling and feed water content. At intermediate ethanol concentrations, enhanced water uptake leads to peak sorption selectivity. In contrast, at high ethanol content—most relevant to ethanol dehydration applications—membrane swelling is suppressed, and diffusion selectivity becomes the dominant factor driving overall transport selectivity. These findings provide mechanistic insights into the composition-dependent separation behavior in pervaporation and offer a rational framework for optimizing membrane performance in industrial dehydration processes.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Bioethanol is increasingly recognized as a pivotal renewable energy source, with its production and use being driven by the need to reduce greenhouse gas emissions and reliance on fossil fuels [1,2]. Anhydrous ethanol is a key product of biofuel production, particularly for blending with gasoline to create E85 fuel. Dehydrated ethanol has a higher energy content and is less corrosive, making it suitable for use in internal combustion engines [3]. However, the dehydration of ethanol to achieve the high purity required for fuel applications is challenging as formation of azeotropes with water complicates the separation process [4]. Over­coming azeotrope separation is essential for producing anhydrous ethanol suitable for fuel use. Various methods have been developed to address the limitations of azeotropic distillation in dehydrating bio­ethanol. These include adsorption processes, extractive distillation, catalytic dehydration, and hybrid techniques, which all aim to effi­ciently separate ethanol-water systems beyond the azeotropic threshold [5,6]. These methods strive to balance energy consumption with the need for high-purity ethanol. Pervaporation is a membrane-based separation process in which a multi-component liquid mixture contacts one side of a selective mem­brane while the other side is maintained under vacuum or swept with a carrier gas [7,8].",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "component liquid mixture contacts one side of a selective mem­brane while the other side is maintained under vacuum or swept with a carrier gas [7,8]. The pervaporation membrane preferentially allows certain components to permeate through, thereby achieving selective separation. The driving force for transport in pervaporation is the transmembrane chemical potential difference, corresponding to the partial pressures of the permeating components across the membrane. The permeated components are continuously removed as vapor, pre­venting equilibrium limitations and allowing separation of azeotropic mixtures that cannot be separated by conventional distillation. Pervaporation has emerged as a promising solution for ethanol dehydration [9–12], offering advantages in terms of energy efficiency and selectivity. For instance, recently, a hybrid process combining distillation and pervaporation dehydration was reported to significantly reduce energy consumption compared to a conventional distillation and azeotropic distillation processes [13]. In addition to dehydration of aqueous–organic mixtures [14–16], pervaporation has also been used for removal of trace volatile organic compounds from aqueous solution [17–19], and separation of organic–organic solvent mixtures [20,21]. Despite extensive research in pervaporation-based alcohol",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "* Corresponding author. Department of Chemical and Bimolecular Engineering, Vanderbilt University, Nashville, TN, 37235-1604, USAE-mail address: shihong.lin@vanderbilt.edu (S. Lin).\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 738 (2026) 124744",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 23 September 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). dehydration over the years, the primary obstacle hindering the commercialization of pervaporation membranes has been the low permeation flux. In 1982, a German company developed a thin layer polyvinyl alcohol (PVA) membrane for ethanol dehydration through the pervaporation [22,23]. Recently, several studies have explored the use of various polymers for pervaporation-based ethanol dehydration. These polymers include polyimides, poly (acrylonitrile), poly (acrylic acid), polystyrene, cellulose, hydroxyethyl cellulose, chitosan, and sodium alginate, etc. [24–27]. Still, PVA stands out as one of the most widely used polymers in pervaporation so far, particularly for the ethanol dehydration [28–32]. The prevalence of PVA is largely due to its high hydrophilicity and remarkable chemical stability. The presence of hy­droxyl functional groups and their interactions with water molecules through hydrogen bonds or dipole-dipole interactions contributes to the hydrophilicity of PVA. Additionally, its simple preparation method, good flexibility, low cost, suitable elongation ability, thermal resistance, and excellent film-forming ability have made PVA the most widely studied polymer in pervaporation [33–36].",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ble elongation ability, thermal resistance, and excellent film-forming ability have made PVA the most widely studied polymer in pervaporation [33–36]. The successful application of this membrane in ethanol dehydration has encouraged many re­searchers to explore different ways for the modification of PVA-based membranes for this separation [22,23,37–40]. The hydrophilicity of PVA also leads to its propensity to swelling by water when it is in contact with ethanol-water mixtures [30,41]. The degree of swelling can affect both the selectivity and flux, as it alters the membrane’s structure and separation characteristics [41]. Excessive swelling may lead to a decrease in selectivity, as the membrane polymer matrix expands and becomes more permeable to other components in the mixture [42]. However, a certain degree of swelling is necessary to facilitate the transport of water through the membrane during perva­poration [30]. The challenge in optimizing a pervaporation membrane lies in controlling the degree of swelling to balance permeability and selectivity for efficient separation. Techniques such as crosslinking, grafting, blending, and incorporation of fillers can be employed to control the swelling behavior of PVA membranes and enhance their stability in aqueous environments [41]. Understanding and managing the swelling of PVA membranes is essential for their effective use in pervaporation processes for applications like the dehydration of organic solvents.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e swelling of PVA membranes is essential for their effective use in pervaporation processes for applications like the dehydration of organic solvents. Crosslinking in PVA membranes leads to a reduction in crystallinity and free volume. As crosslinking occurs, the formation of a threedimensional network disrupts the regular packing of polymer chains—reducing their ordered, crystalline arrangement and shifting the structure toward a more amorphous state. Additionally, the network constraints limit the mobility of the chains, resulting in tighter packing. The denser crosslinked structure results in less free volume for molecular movement, which can in turn influence properties important to trans­port and selectivity [43]. While PVA can be crosslinked through non-chemical approaches, these methods generally do not provide suf­ficient long-term stability or robustness required for ethanol dehydra­tion applications. [44]. The prevalent approach for crosslinking PVA involves a crosslinking agent, such as glutaraldehyde (GA) [35], various carboxylic acids [44], maleic acid [45], citric acid [46], amic acid [47], sulfur succinic acid [48], and formaldehyde [44], among others. The process of insolubilizing PVA through crosslinking with GA has been extensively studied across the literature [49–51].The structural changes induced by crosslinking directly influence pervaporation performance by affecting both sorption and diffusion processes.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "49–51].The structural changes induced by crosslinking directly influence pervaporation performance by affecting both sorption and diffusion processes. To understand these effects, it is essential to examine the underlying transport mechanisms. The currently most widely adopted theoretical framework for per­vaporation is the solution-diffusion theory which states that a species first partitions from the feed solution to the membrane and then diffuses across the membrane under a chemical potential gradient [52,53]. While the solution-diffusion theory has been challenged in pressure-driven liquid permeation through a membrane [54–57], it re­mains the only mainstream theory to date in pervaporation. Under the solution-diffusion framework, selective transport of a component in pervaporation can be interpreted in three consecutive steps: (i) differ­ential sorption of the components into the membrane at the feed/­membrane interface, (ii) differential diffusion across the membrane under chemical potential gradients of individual components, and (iii) desorption from the membrane to become part of a mixed vapor at the membrane/vapor interface [52,53]. A recent study showed that species may undergo a liquid-to-gas transition while migrating across a perva­poration membrane, challenging the notion that “diffusion” is the sole trans-membrane transport mechanism.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s transition while migrating across a perva­poration membrane, challenging the notion that “diffusion” is the sole trans-membrane transport mechanism. For consistency with convention, we continue to use the term “diffusion” in this article, while acknowl­edging that more complex mechanisms may also be involved regarding trans-membrane species migration [58]. Here, the rate of sorption and desorption at the membrane interfaces are deemed to be much higher than the rate of diffusion, and sorption and desorption are therefore described by equilibrium [8]. The ratio between the permeabilities of different species, known as permselectivity, is an important perfor­mance metric in pervaporation that can be experimentally measured. Because the desorption step has no selectivity in a steady-state perva­poration process driven by vacuum, permselectivity is determined by the combined impacts of sorption selectivity, which is governed by thermodynamics, and migrational selectivity, which is determined by differential transport of species across the membrane [59]. As permse­lectivity is governed by selectivity in both sorption and diffusion, decoupling the sorption selectivity and diffusion selectivity can provide insights into how solution composition affects the overall selectivity. In this study, we aim to understand the decoupled contributions of sorption and diffusion selectivity to the overall permselectivity of crosslinked PVA membranes in ethanol-water mixture separation.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "d contributions of sorption and diffusion selectivity to the overall permselectivity of crosslinked PVA membranes in ethanol-water mixture separation. By conducting separate sorption and pervaporation experiments, we analyze the behavior and impact of the respective selectivities across a range of feed compositions. PVA membrane is chosen as the material platform because it has been proven highly effective in ethanol-water separation, and its relatively simple fabrication procedure helps to maximize consistency between different membrane samples. Our goal is to provide deeper insights into the membrane’s performance, which can aid in the development of membranes for more selective and efficient separations using pervaporation processes. 2. Materials & methods 2.1. Chemicals Polyvinyl alcohol (PVA) with a molecular weight ranging from 89K to 98K was purchased from Sigma Aldrich, USA. The PVA has a degree of hydrolysis of 99 %. Glutaraldehyde, in a 25 wt% aqueous solution, was also purchased from Sigma Aldrich. Hydrochloric acid (1 N) was pur­chased from Fisher Scientific, USA. Other solvents, including methanol, ethanol, and acetone, were also purchased from Sigma Aldrich. Milli-Q water was used in the experiments. All the chemicals were used as received, without any further purification. 2.2. Fabrication and crosslinking of PVA membranes The PVA membranes were fabricated using a solution casting method (Fig. 1a).",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "further purification. 2.2. Fabrication and crosslinking of PVA membranes The PVA membranes were fabricated using a solution casting method (Fig. 1a). In this process, PVA powders were dispersed in hot Milli-Q water (10 wt% PVA) at 80 ◦C with continuous stirring. The mixture was maintained at this temperature for 8 h to ensure complete dissolu­tion, resulting in a clear PVA dispersion. This dispersion was then cast onto glass plates with controlled thickness using a film-casting knife (BYK 4302). The glass plates with the PVA casting were placed in an oven at 40 ◦C and left to dry for at least 48 h. After drying, the PVA films were carefully peeled off the glass plates for the crosslinking process. The PVA films were crosslinked using glutaraldehyde (GA) via a solution-based technique involving an acetalization reaction (Fig. 1b) [60]. The dried films were immersed in a crosslinking solution con­taining GA, and water in acetone as the reaction medium with a",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S.M.A.Z. Shawon et al. Journal of Membrane Science 738 (2026) 124744 volumetric ratio of GA: H2O: Acetone of 10: 27: 63. Hydrochloric acid (1 N HCl) served as the catalyst to maintain the solution pH between 1.5 and 2. This crosslinking reaction process was carried out at 40 ◦C for 6 h, after which the PVA membranes were subjected to a solvent exchange with methanol at 40 ◦C for another 6 h. Finally, the membranes were vacuum-dried and stored for subsequent sorption and pervaporation experiments. 2.3. Characterization methods Fourier transform infrared spectroscopy (ATR-FTIR) was conducted using a ThermoFisher Nicolet 6700 FT-IR spectrometer equipped with a liquid nitrogen-cooled mercury–cadmium–telluride (MCT) detector. Spectra of samples were collected from 4000 to 600 cm-1 through 256 scans at a 2 cm-1 resolution. FTIR was used to assess the crosslinking of PVA membranes based on spectral changes, particularly monitoring the decrease in hydroxyl group absorbance upon reaction with glutaralde­hyde. Thermogravimetric analysis (TGA) of the non-crosslinked and crosslinked PVA membranes was conducted using a TGA-1000 analyzer. Approximately 5 mg of each sample was heated from 25 ◦C to 900 ◦C at a rate of 20 ◦C per minute under a nitrogen atmosphere to evaluate the thermal stability and degradation profiles of the membranes. Surface morphology of the membranes (Fig.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ute under a nitrogen atmosphere to evaluate the thermal stability and degradation profiles of the membranes. Surface morphology of the membranes (Fig. S2 in Appendix) was characterized using a Zeiss Merlin scanning electron microscope (SEM) equipped with an Everhart–Thornley secondary electron detector. Prior to imaging, membrane samples were gold-sputtered for 10 s in an argon environment to enhance conductivity and prevent charging. Atomic Force Microscopy (AFM) analysis included DMT (Derjaguin-MullerToporov) modulus measurements to quantify membrane surface me­chanical stiffness and assess crosslinking effects on mechanical properties. 2.4. Sorption experiment The crosslinked PVA membranes were immersed in closed containers containing ethanol-water mixtures with different compositions (namely: 50:50, 60:40, 70:30, 80:20, 90:10, and 95:5 mass ratios of EtOH: H2O mixtures) for 48 h at 50 ◦C until reaching equilibrium. The swollen PVA membranes were then removed from the ethanol-water mixtures with the residual liquid on the surface gently removed via blotting with Kimwipes. The masses of the dry membrane (Md) and the swollen membrane (Ms) were measured, from which the degree of swelling (S) at equilibrium can be determined:",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S(%) = Ms -Md Md * 100%(1) Hydrophilic PVA membranes preferentially absorb water over ethanol from the feed solutions, leading to a reduction in the density of the feed solutions after immersion. This change in the density of the feed solution, along with the weight gain of the membrane after sorption, was used to determine the composition of ethanol and water in the mem­brane after sorption (Section S1, Appendix). 2.5. Pervaporation experiment The pervaporation experiments were conducted using a bench-scale crossflow cell made of PTFE (Sterlitech, model CF016P). The experi­mental setup comprises a pervaporation cell with an active membrane area of 20.6 cm2, a diaphragm pump for recirculating a heated feed stream, and a vacuum pump drawing the permeate to a liquid nitrogen cold trap (Fig. 2). The pervaporation experiments were performed using mixtures of various ethanol/water ratios (wt/wt) as the feed solutions. Permeate samples were collected from the liquid nitrogen cold trap. The cold trap, connected to a vacuum pump, maintained a steady vacuum pressure (~3 kPa). The permeate samples obtained from the pervapo­ration experiments were collected in air-tight vials and analyzed using refractive index measurements. A minimum of 0.3 mL of condensed permeate was required for analysis using an Atago PAL-34S refractom­eter (resolution: 0.5 wt% ethanol) to determine the ethanol mass percentage. 2.6.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "permeate was required for analysis using an Atago PAL-34S refractom­eter (resolution: 0.5 wt% ethanol) to determine the ethanol mass percentage. 2.6. Theory Flux of component “i” (water or ethanol in our case) in the perva­poration process can be expressed by the solution diffusion model as following [61]: Ji = -Ci DiRT dμi dx(2) where Ji , Di, and μi are the flux, diffusion coefficient, and chemical potential of component “i”, respectively; R and T are the ideal gas con­stant and absolute temperature. In general, the change in chemical po­tential can be written in terms of the changes in concentration, pressure (P), and temperature: dμi = RTdln(γiCi) + vidP + sidT(3)",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. (a) Schematic of the membrane fabrication process. PVA films were cast from a 10 wt% PVA solution in water. The membranes underwent a crosslinking reaction for 6 h at 40 ◦C, followed by solvent exchange for the same duration and temperature. Finally, the membranes were vacuum dried to obtain the finished membranes for experiments. (b) Crosslinking reaction of PVA with GA in an acidic environment. The pH of this reaction is maintained between 1.5 and 2.0. S.M.A.Z. Shawon et al. Journal of Membrane Science 738 (2026) 124744 where vi and si are the partial molar volume and partial molar entropy of component “i”, respectively. We note that despite the elevated temper­ature used in most pervaporation experiments, there is a negligible temperature difference across the membrane because (1) the heat flux in pervaporation is generally small, and (2) the partial vacuum in the permeate chamber provides sufficient thermal insulation. Therefore, the impact of elevated temperature is only on the chemical potentials of the components in the feed solution and the transport process can be approximated as an isothermal process. Additionally, if we adopt the solution-diffusion model, the pressure inside the membrane is constant and the same as the pressure of the datafeed stream. For these two reasons, the chemical potential gradient across the membrane can be expressed as the gradient of solvent activity (γiCi).",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tafeed stream. For these two reasons, the chemical potential gradient across the membrane can be expressed as the gradient of solvent activity (γiCi). Thus, the flux equation can be expressed in terms of molar concentrations of compo­nent “i” at the feed-membrane interface and permeate side. Combining equations (2) and (3) and integrating over the thickness of the membrane flux of component “i”: Ji = Di Cʹ i -Cʹʹ il(4) where Cʹ i & Cʹʹ i is the concentrations (in the membrane) right near the feed-membrane interface and permeate-membrane interfaces, respec­tively, and l is the membrane thickness. Equation (4) suggests that transport in pervaporation follows a Fickian diffusion for each compo­nent. The concentration at the feed-membrane interface is determined by the liquid-phase sorption coefficient, which accounts for the equi­librium between the feed liquid and the membrane. On the permeate side, the concentration is described using the gas-phase sorption coef­ficient, reflecting the equilibrium between the permeate vapor and the membrane. To express these concentrations on both sides of the mem­brane in partial pressure and correlate both of these sorption co­efficients, we can consider an imaginary vapor phase in equilibrium with its liquid feed solution at the feed-membrane interface [62]. In this way, we can express the flux in terms of the partial pressure and sorption coefficient: Ji = DiKi l(pʹ i -pʹʹ i )(5) where Cʹ i = Kipʹ i, and Cʹʹ i = Kipʹʹ i .",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "an express the flux in terms of the partial pressure and sorption coefficient: Ji = DiKi l(pʹ i -pʹʹ i )(5) where Cʹ i = Kipʹ i, and Cʹʹ i = Kipʹʹ i . Here, Ki is the sorption-coefficient, pʹ i and pʹʹ i are the partial vapor pressures of component i in the feed and permeate side, respectively. Equation (5) can also be expressed in terms of mole fractions: Ji = Pi l (γixipʹ isat -yipʹʹ)(6) where Pi ( = DiKi) is referred to as the permeability of component i, quantifying the ability of i to permeate through the membrane [63]; xi, and yi are the liquid phase mole fraction of component “i” in the feed, and gas phase mole fraction of component “i” in the permeate, respec­tively; and pʹ isat and pʹʹ are the pure component vapor pressure (calcu­lated using the Antoine equation) of component i and the total permeate pressure, respectively. For a given binary mixture of i & j, the permselectivity (or simply selectivity) of the pervaporation process towards i can be defined as the ratio of their permeabilities, i.e., αP = Pi Pj = Di Dj KiKj = αDαK(7) Here, αD and αK is the diffusion selectivity and effective sorption selec­tivity, respectively. Ki, and Kj is the sorption coefficient of i and j, respectively. Effective sorption selectivity αK, is the ratio of Ki and Kj (αK = Ki/Kj), obtained from sorption experiments. Sorption coefficients of components i and j were calculated based on the uptake of the respective components as measured using the approach described in Section 2.4.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(8)\n\nA similar equation is used to determine the sorption coefficient Kj. Here, xi is the mole fraction of component “i” in the feed solution during the sorption experiment and xim is the mole fraction of component “i” in the membrane after it reaches sorption equilibrium. γi is the activity coefficient of the component in the feed solution under specified feed temperature, calculated via Aspen Plus V11, using the Non-Random Two Liquid (NRTL) model [64]. On the other hand, αD is the ratio of Di and Dj (αD = Di/Dj). Pervaporation selectivity (αP) was calculated using the permeate mole fractions obtained experimentally. Using these experi­mentally obtained αK and αP values, diffusion selectivity αD was calcu­lated using equation (7). A more intuitive and commonly used parameter to quantify separa­tion performance is the separation factor (β), defined as the ratio of the concentrations of components in the permeate to that in the feed, i.e., β =(yi /yj )/(xi /xj ). The separation factor is a readily measurable parameter, defined solely by the feed and permeate compositions. In contrast, permselectivity (αP) is a more intrinsic property, as it accounts for the driving forces and operating conditions. Therefore, permse­lectivity is more useful for comparing performance data across different studies in the literature [63,65].",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Schematic of the PV setup. An ethanol-water mixture as feed is charged to the PV membrane module at 50 ◦C. A crosslinked PVA membrane is loaded in the PV cell. The membrane module is connected to a liquid nitrogen cold trap where the permeate is condensed and collected during sampling. The permeate side is kept under vacuum (~3 kPa) using a vacuum pump. S.M.A.Z. Shawon et al. Journal of Membrane Science 738 (2026) 124744",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Results & discussion 3.1. Membrane characterization Fourier transform infrared spectroscopy (FTIR) was used to assess the crosslinking of PVA membranes based on spectral changes (Fig. 3a). The crosslinking of a PVA membrane is expected to result in a decrease in the absorbance of the peak at ~3230 cm-1 arising from the disap­pearance of the hydroxyl groups upon their reaction with GA [51]. Such a reaction leads to the formation of covalent bonds, known as acetal bridges, which link the polymer chains. The relative change of this peak was recorded and compared to the characteristic methylene stretching peak in PVA at 2940 cm-1. The relative absorbance ratio between the two peaks (A3230/2940) decreases from 1.42 for the pristine (non-­crosslinked) membrane to 1.22 upon crosslinking after 6 h. The thermogravimetric analysis (TGA) of the non-crosslinked and crosslinked PVA membranes reveals distinct thermal degradation pro­files for these two types of PVA, highlighting the significant impact of chemical crosslinking on the thermal stability of the polymer (Fig. 3b). Both the non-crosslinked and GA-crosslinked PVA samples exhibit similar initial thermal behavior up to around 170 ◦C, with minimal weight loss due to moisture evaporation. This initial stability is char­acteristic of PVA’s strong intermolecular hydrogen bonding network [66].",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nimal weight loss due to moisture evaporation. This initial stability is char­acteristic of PVA’s strong intermolecular hydrogen bonding network [66]. For non-crosslinked PVA, the primary degradation event occurs between 200 ◦C and 450 ◦C, exhibiting a sharp weight loss with maximum degradation rate around 250 ◦C. This corresponds to the elimination of hydroxyl groups and the formation of conjugated polyene structures [67], consistent with known PVA thermal degradation mechanisms involving deacetylation and loss of –OH groups from PVA chains [68,69]. In contrast, GA-crosslinked PVA demonstrates enhanced thermal stability with a shifted degradation onset to higher temperatures (~350 ◦C) and a more gradual weight loss profile. The improved thermal stability in crosslinked samples is attributed to acetal and ester cross­links that restrict polymer chain mobility and inhibit thermal degrada­tion processes [67,68,70]. The crosslinked network structure effectively delays the elimination reactions that characterize PVA thermal decomposition. The atomic force microscopy (AFM) analysis reveals significant morphological and mechanical differences between the non-crosslinked (Fig. 3c) and GA-crosslinked (Fig. 3d) PVA membranes. The noncrosslinked membrane exhibits a highly heterogeneous surface (also confirmed by SEM in Fig. S2a in the Appendix) with distinct phase separation, characterized by extensive dark regions indicating softer domains sprinkled with lighter, stiffer regions.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e Appendix) with distinct phase separation, characterized by extensive dark regions indicating softer domains sprinkled with lighter, stiffer regions. This heterogeneity re­flects the inherent polymer chain flexibility and non-uniform density distribution in pristine PVA films. In contrast, the crosslinked membrane displays a more homogeneous surface morphology (also confirmed by SEM in Fig. S2b in the Appendix) with predominantly lighter regions, indicating increased mechanical stiffness throughout the polymer ma­trix. The crosslinking process creates a more uniform network structure by forming covalent bonds between polymer chains, reducing local mobility, and creating a more coherent mechanical framework, which has been reflected in this AFM characterization. The quantitative DMT modulus measurements confirm this morphological observation, showing a substantial increase from ~25 GPa for the uncrosslinked membrane to ~40 GPa for the crosslinked system (~60 % improvement) in mechanical stiffness. This homogeneous, stiffer morphology observed in crosslinked membranes indicates reduced swelling capacity, as the covalent crosslink network resists deformation and volume expansion when exposed to penetrant molecules. This mechanical constraint pre­vents excessive membrane swelling that would otherwise compromise selectivity by creating non-selective pathways.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ules. This mechanical constraint pre­vents excessive membrane swelling that would otherwise compromise selectivity by creating non-selective pathways. The structural integrity maintained through crosslinking thus enables the membrane to preserve its discriminating properties even under varying feed compositions and temperatures, explaining the excellent water/ethanol selectivity",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. (a) FTIR spectra from pristine PVA and crosslinked PVA after reaction with the crosslinking agent glutaraldehyde. (b) Thermogravimetric Analysis (TGA) curve of non-crosslinked and crosslinked PVA membranes. Upon crosslinking the degradation onset shifted to higher temperature. (c) The non-crosslinked and (d) crosslinked membranes are characterized to get insights about their stiffness or their resistance to deformation characteristics using Atomic Force Microscopy (AFM). DMT modulus of non-crosslinked (~25 GPa) and crosslinked PVA membranes (~40 GPa) reflects that the stiffness in the membrane increases upon crosslinking as expected. S.M.A.Z. Shawon et al. Journal of Membrane Science 738 (2026) 124744 observed using crosslinked PVA membranes in the pervaporation experiments. 3.2. Swelling and selective sorption The crosslinked PVA membranes were used for sorption experiments as described in Section 2.4. These membranes were immersed in ethanol-water mixture with different compositions, and the membranes, due to hydrophilicity, underwent swelling that increased the membrane mass and volume (Fig. 4a). The larger change in membrane thickness (~14 %) after immersion in pure water compared to that in pure ethanol (~2.5 %) is another indication of the PVA membranes’ stronger affinity towards water over ethanol (Fig. 4b). The degree of swelling was calculated using the dry and wet membrane weights.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e PVA membranes’ stronger affinity towards water over ethanol (Fig. 4b). The degree of swelling was calculated using the dry and wet membrane weights. With an increasing ethanol concentration in the bulk feed, the degree of swelling decreases roughly linearly (Fig. 4c), as higher water content in the bulk induces a plasticization effect on the PVA polymer chains [52,71]. Therefore, immersing the PVA membrane in a mixture with a higher water content increased the free volume within the membrane, allowing the mem­brane to accommodate more water and ethanol. The dependence of the relative water mass uptake of the PVA membrane on the liquid mixture composition (Fig. 5a) aligns consis­tently with the dependence of the swelling behavior on liquid mixture composition (Fig. 4c). With a lower water content, PVA membranes absorbed less water per mass of dry membrane (Fig. 5a). Unlike water uptake, ethanol uptake first decreases with increasing ethanol content in the mixture (from 50 % to 70 % mass fraction) and then slightly in­creases as the ethanol content in the mixture continues to increase (from 70 % to 95 % mass fraction). The declining ethanol uptake when the ethanol mass fraction in the liquid mixture increases from 50 % to 70 % is primarily attributable to the reduced membrane swelling as water content decreases. The uptake of ethanol by the membrane is enhanced in the presence of water, as ethanol and water can form dimers in mixtures with a higher water content [72].",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ke of ethanol by the membrane is enhanced in the presence of water, as ethanol and water can form dimers in mixtures with a higher water content [72]. As the ethanol mass fraction in the mixture exceeds 70 %, the impact of increasing ethanol content in the liquid mixture is comparable to, or slightly outcompetes, the impact of reducing membrane swelling on ethanol uptake. As a result of competitive uptake between ethanol and water and the declining overall uptake (as ethanol content in the mixture increases), the water mass fraction of the mixed solvent sorbed in the membrane peaks at ~80 % when the ethanol mass fraction in the bulk liquid mixture is 70 % and drops to only ~30 % with 95 % ethanol in the bulk liquid mixture (Fig. 5b). Effective sorption selectivity (αK) quantifies a membrane’s capacity to preferentially absorb one component over another in a mixture. For the PVA membrane’s interaction with an ethanol-water mixture, an effective sorption selectivity value greater than one, represents prefer­ential absorption of water over ethanol. Throughout the tested range of composition (50–95 wt% of ethanol), αK is consistently over one, indi­cating that the PVA membranes preferentially absorb water from the ethanol-water mixtures (Fig. 5c). At lower ethanol concentrations (50–60 wt%), higher water content in the feed induces greater mem­brane swelling due to water’s plasticization effect on PVA chains.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ol concentrations (50–60 wt%), higher water content in the feed induces greater mem­brane swelling due to water’s plasticization effect on PVA chains. This increased swelling creates larger free volume, allowing both water and ethanol to be accommodated more readily. However, as ethanol con­centration increases toward 70 wt%, the membrane swelling continues to decrease (Fig. 4c). The formation of ethanol-water dimers [72] in higher water content mixtures enhances ethanol solubility in the membrane, but this effect diminishes as water content decreases. Additionally, the decreased membrane swelling and reduced available free volume preferentially hinders the uptake of larger ethanol mole­cules compared to smaller water molecules. The combination of reduced swelling, decreased dimer formation, and size-selective restriction leads to the observed increase in water selectivity up to 70 wt% ethanol. The highest sorption selectivity is observed at a feed concentration of 70 wt% ethanol (Fig. 5c), a point where the membrane composition also exhibits the highest water mass percentage (Fig. 5b). Beyond 70 wt% ethanol, further reduction in membrane swelling continues to restrict pore access. However, at these high ethanol con­centrations, the chemical potential driving force for ethanol sorption becomes significantly higher, partially compensating for the reduced membrane free volume. This results in a slight increase in ethanol up­take (Fig.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "becomes significantly higher, partially compensating for the reduced membrane free volume. This results in a slight increase in ethanol up­take (Fig. 5a) and consequent decrease in sorption selectivity. The transition point at 70 wt% ethanol represents the optimal balance where membrane swelling restriction maximally favors water over ethanol, indicating that the membrane is most selective for water for sorption (highest sorption selectivity) at this concentration. 3.3. Pervaporation separation performance Crosslinked PVA membranes, fabricated in the same way as those used in the sorption step, were tested in PV experiments with a heated feed solution and a partial vacuum to extract permeate. All experiments were conducted using the same range of feed concentrations and tem­perature (50 ◦C) as the sorption experiments. After 4 h, samples were collected from the condensed permeate and analyzed using a refrac­tometer to determine the condensate composition. The pervaporation experiments yielded mass fluxes (kg m-2 h-1) for both water and ethanol, from which we can evaluate the permeability, permselectivity, and separation factor using equations (6) and (7). Throughout the range of the tested feed composition, water flux dominates the total flux (Fig. 6a). As the mass fraction of ethanol",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. (a) Schematic of sorption in PVA membrane. Hydrophilic PVA membranes were immersed in various feed concentrations of ethanol-water mixtures at 50 ◦C. Due to their hydrophilic nature, PVA membranes tend to sorb more water than ethanol from the feed solution, resulting in membrane swelling. (b) Thickness change of the PVA membranes after immersion in pure water and ethanol at 50 ◦C. (c) Degree of PVA membrane swelling in various feed conditions at 50 ◦C after 48 h. Dry PVA membranes gain weight after swelling in the feed solution. After carefully removing the surface liquid from the swelled membranes, the percentage mass gain was calculated relative to the dry membrane weight and is plotted here with respect to various feed concentrations. S.M.A.Z. Shawon et al. Journal of Membrane Science 738 (2026) 124744 increases in the feed solution, both the water and ethanol fluxes declined, leading to the decline of the total flux. Such flux decline was mainly attributable to the reduced degree of swelling as the PVA membrane was exposed to a feed solution with decreasing water con­tent. Despite the declining water flux, the separation factor of water vs. ethanol (βw/e) increases by more than an order of magnitude as the ethanol content in the feed solution increases from 50 to 95 % (Fig. 6b). The separation factor is the ratio of feed concentration-normalized fluxes between water and ethanol.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ed solution increases from 50 to 95 % (Fig. 6b). The separation factor is the ratio of feed concentration-normalized fluxes between water and ethanol. When the ethanol mass fraction is above 90 %, which is the composition most relevant to the context of pervaporation-based ethanol dehydration, βw/e exceeds 200 (~20 fold increase), suggesting that the pervaporation process is effective in selectively removing water from the ethanol-water mixture [60]. The permselectivity of water vs. ethanol (αw/e) follows a similar trend as the separation factor when the ethanol content in the feed solution increases (Fig. 6b). The αw/e increases exponentially from ~90 at 50 wt% ethanol to over 4, 500 (~50 fold increase) at 95 wt% ethanol. While βw/e quantifies the flux ratio between water and ethanol as normalized by their concentration ratio in the feed, αw/e quantifies the permeability ratio between water and ethanol, which is their flux ratio normalized by the ratio of their respective driving forces expressed in transmembrane partial pressure differences. Both metrics exhibit steeper increases above 80 wt% ethanol, indicating enhanced selectivity at conditions most relevant for ethanol dehydration applications. The more dramatic in­crease in permselectivity compared to the separation factor reflects the normalization for driving force differences between water and ethanol.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "We also performed additional pervaporation experiments at 60 ◦C. The results demonstrated that elevated temperature maintains the same fundamental trends, with both permselectivity (αw/e) and separation factor (βw/e) increasing with ethanol concentration while total flux continues to decline, confirming the robustness of the membrane’s se­lective transport behavior across different thermal conditions (Fig. S3, Appendix). The fundamental distinction between permselectivity (αP) and sep­aration factor (β) lies in whether they account for the difference in thermodynamic driving forces for different components. Specifically, αP represents an intrinsic membrane property defined as the ratio of component permeabilities (equation (7)). From equations (6) and (7), (pʹ i -pʹʹ i ), and (pʹ j -pʹʹ j )represent the respective driving forces for com­ ponents i and j [61,63]. The normalization of flux ratios by their respective driving forces makes αP independent of operating conditions and allowing more meaningful comparison across different studies and process conditions. In contrast, β is defined as the ratio of component enrichments [β =(yi /yj )/(xi /xj )] between permeate and feed without accounting for differences in driving forces [73]. While β is practically relevant and easily measured, it is strongly influenced by operating conditions such as temperature, vacuum level, and component volatil­ities.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ically relevant and easily measured, it is strongly influenced by operating conditions such as temperature, vacuum level, and component volatil­ities. In PV, this distinction is particularly important because water and ethanol have very different volatilities. At 50 ◦C, ethanol’s vapor pres­sure (~30 kPa) is nearly 2.5 times of water’s (~12 kPa), creating inherently different chemical potential gradients. While β is affected by these unequal natural driving forces, αP reveals the membrane’s intrinsic",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. (a) Relative mass uptake of water and ethanol (in grams) per gram of dry membrane weight. Here, mW, and mEtOH represent the total mass of water and ethanol sorbed by the membrane, respectively, after sorption, and mmem is the mass of the dry membrane before sorption. The relative mass uptake of water and ethanol is recorded after the sorption experiment at the given feed concentrations. The sorption experiments were carried out at 50 ◦C. (b) The percentage of water in the total sorbed mass is presented in this figure. Unlike panel (a) where uptake is normalized by dry membrane mass, mW (%) represents the water fraction of the total sorbed mass: mW (%) = mW/(mW + mEtOH) * 100 %. (c) Effective sorption selectivity (αK) of PVA membrane in various feed concentrations at 50 ◦C. αK is the ratio of the calculated sorption coefficients of water vs. ethanol (Kw/Ke). Using the relationship expressed in equation [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}], water and ethanol sorption coefficients can be calculated using the experimental data obtained from sorption experiments.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. (a) Total flux, water flux and ethanol flux obtained from the PV experiments at various feed concentrations. (b) Permselectivity (α) and separation factor (β) of the membrane. S.M.A.Z. Shawon et al. Journal of Membrane Science 738 (2026) 124744 selectivity after normalizing for the driving force differences [74,75]. Therefore, αP provides a more fundamental measure of membrane selectivity and is preferred for performance comparisons in pervapora­tion literature [63,76].",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.4. Diffusion selectivity dominates the overall permselectivity Within the framework of solution-diffusion theory, permselectivity is governed by both sorption selectivity and diffusion selectivity (Fig. 7a). The sorption selectivity (αK), defined as the ratio between sorption co­efficients of water vs. ethanol (Kw/Ke), quantifies the relative propensity for water to partition into the PVA membrane matrix as compared to that for ethanol. The sorption selectivity is dependent on the relative affinity of different feed components with the membrane, which varies with feed composition that affects the degree of membrane swelling. On the other hand, the diffusion selectivity, defined as the ratio between the diffusion coefficients of water vs. ethanol (Dw/De), quantifies the rela­tive rate of different components to diffuse across the membrane. The diffusion coefficients of water and ethanol are influenced not only by their molecular sizes and interactions with the polymer matrix, but also by selfand cross-plasticization effects, which can enhance polymer chain mobility and affect transport behavior. The recent discovery of phase transition within a pervaporation membrane further complicates the interpretation of selectivity break­down, as the trans-membrane species migration is unlikely a simple diffusion process [58].",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "further complicates the interpretation of selectivity break­down, as the trans-membrane species migration is unlikely a simple diffusion process [58]. The so-called “diffusion selectivity” may not only depend on diffusion coefficients but also on the location of phase tran­sition within the membrane and how species migrate as liquid preceding phase transition. However, in the absence of a comprehensive model that accounts for the complex behavior in pervaporation, we here still adopt the framework of diffusion selectivity as if both water and ethanol molecules diffuse across the membrane. Decoupling the sorption and diffusion selectivities is crucial to the understanding of the separation mechanism. By integrating the results from sorption and pervaporation experiments, we perform a first order approximation to deconvolute the overall permselectivity (αP) into sorption selectivity (αK = Kw /Ke)and diffusion selectivity (αD =Dw /De), following equation (7). With the measured sorption selectivity (Fig. 5c) and permselectivity (Fig. 6b), which are now summarized in Fig. 7b, the diffusion selectivity is estimated for different feed compo­sitions. Up to 80 % of ethanol mass fraction, the sorption selectivity and diffusion selectivity are relatively constant (in log scale) and comparable (~10).",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". Up to 80 % of ethanol mass fraction, the sorption selectivity and diffusion selectivity are relatively constant (in log scale) and comparable (~10). At 90 % ethanol mass fraction and beyond (the relevant composition for ethanol dehydration), diffusion selectivity dramatically increases and becomes at least an order of magnitude higher than the sorption selectivity, dominating the contribution to the overall perm­selectivity. This sizable increase of diffusion selectivity at higher ethanol mass fraction is likely due to the reduced swelling of PVA matrix, which decreases the polymer’s free volume. The reduction in free volume fa­vors the transport of the smaller water molecules while restricting the diffusion of larger ethanol molecules. In this less swollen state, the diffusion within the membrane becomes more dependent on the shape and size of the molecules [77,78], enhancing water selectivity by limiting ethanol’s diffusion path [79]. Furthermore, the diffusion behavior in a binary liquid mixture is often governed by self-plasticization, where the penetrant weakens the intermolecular forces in the polymer matrix, increasing chain mobility and making the polymer more flexible around the penetrant, and crossed plasticization, where one type of penetrant in the polymer ma­trix enhances the mobility of another type of penetrant [77,80].",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "penetrant, and crossed plasticization, where one type of penetrant in the polymer ma­trix enhances the mobility of another type of penetrant [77,80]. The observation of a strong positive correlation between mass flux and water mass fraction in the feed suggests the importance of self-plasticization in water transport. In comparison, the ethanol transport appears to be governed by crossed plasticization with water. At higher ethanol mass fraction, the impact of crossed plasticization diminishes, hindering the transport of ethanol molecules while allowing the smaller water mole­cules to permeate through. 4. Conclusions and prospect In this work, we investigated the performance of crosslinked PVA membranes for ethanol dehydration using pervaporation with the aim to elucidate the impacts of sorption and diffusion on the overall waterethanol permselectivity. The decoupling of sorption and diffusion se­lectivities appears to suggest that diffusion selectivity can vary to a much greater extent than sorption selectivity as the feed composition changes. Achieving very high water-ethanol permselectivity (αw/e) mainly relies on the very high diffusion selectivity (αD) attained when the ethanol mass fraction is high. The reduced water uptake at high ethanol mass fraction minimizes swelling and maintains small pores (or free volume) that promotes preferential diffusion of water molecules over ethanol molecules.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "fraction minimizes swelling and maintains small pores (or free volume) that promotes preferential diffusion of water molecules over ethanol molecules. Fortunately, pervaporation-based ethanol dehydration is typically applied at very high ethanol mass fraction when the system approaches the azeotropic point where fractional distillation is no longer effective. The analysis of this work is based on the most widely used framework of the solution-diffusion theory with several simplifications. One key simplification is the assumption of constant diffusion coefficient across the membrane, which is based on the implicit assumption that the membrane is homogeneous in the flux direction. Such an assumption of homogeneity is questionable due to the varying degree of swelling across the membrane, especially considering that one side of the mem­brane is in contact with the feed solution, whereas the opposite side is exposed to vacuum. It may even be possible that liquid-to-vapor phase transition occurs inside the membrane instead of at the feed/membrane interface, as implicitly assumed in the solution-diffusion model. Future research to unveil the spatial distributions of membrane and penetrant properties requires a more comprehensive model framework and/or advanced techniques for operando and in-situ characterizations of the membrane during pervaporation.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[26] P. Grzybek, Ł. Jakubski, P. Borys, S. Kołodziej, C. ´Slusarczyk, R. Turczyn, G. Dudek, Sep. Purif. Technol. 281 (2022) 119897.[27] R. Castro-Mu˜noz, E. Gontarek-Castro, J. Karczewski, R. Cabezas, G. Merlet, C. Araya-Lopez, G. Boczkaj, J. Mol. Liq. 360 (2022) 119499.[28] B. Bolto, M. Hoang, Z. Xie, Chem. Eng. Process. Process Intensif. 50 (2011) 227–235.[29] X. Zhao, L. Lv, B. Pan, W. Zhang, S. Zhang, Q. Zhang, Chem. Eng. J. 170 (2011) 381–394.[30] M. Dmitrenko, A. Penkova, A. Kuzminova, A. Missyul, S. Ermakov, D. Roizard, Polymers 10 (2018) 571.[31] Z. Zhao, G. Zhao, G. Tang, Y. Liu, P. Li, Advanced Membranes 3 (2023) 100073.[32] G.-S. Lin, Y.-R. Chen, T.-H. Chang, T.-C. Huang, G.-L. Zhuang, W.-Z. Huang, Y.- C. Liu, H. Matsuyama, K.C.-W. Wu, K.-L. Tung, J. Membr. Sci. 621 (2021) 118935.[33] L. Wang, J. Li, Y. Lin, C. Chen, J. Membr. Sci. 305 (2007) 238–246.[34] L. Zhang, P. Yu, Y. Luo, Sep. Purif. Technol. 52 (2006) 77–83.[35] P.S. Rao, B. Smitha, S. Sridhar, A. Krishnaiah, Sep. Purif. Technol. 48 (2006) 244–254.[36] D.A. Devi, B. Smitha, S. Sridhar, T. Aminabhavi, Sep. Purif. Technol. 51 (2006) 104–111.[37] K.J. Kim, S.H. Park, W.W. So, S.J. Moon, J. Appl. Polym. Sci. 79 (2001) 1450–1455.[38] Q.G. Zhang, Q.L. Liu, Z.Y. Jiang, Y. Chen, J. Membr. Sci. 287 (2007) 237–245.[39] B. Sun, J. Zou, Ann. N. Y. Acad. Sci. 984 (2003) 386–400.[40] G. Li, W. Zhang, J. Yang, X. Wang, J. Colloid Interface Sci. 306 (2007) 337–344.[41] S. Chaudhari, Y. Kwon, M. Shon, S. Nam, Y.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "84 (2003) 386–400.[40] G. Li, W. Zhang, J. Yang, X. Wang, J. Colloid Interface Sci. 306 (2007) 337–344.[41] S. Chaudhari, Y. Kwon, M. Shon, S. Nam, Y. Park, RSC Adv. 9 (2019) 5908–5917.[42] W. Yave, L. Leva, Journal of Membrane Science and Research 8 (2022).[43] S. Chaibi, D. Benachour, M. Merbah, M. Esperanza Cagiao, F.J. Balt´a Calleja, Colloid Polym. Sci. 293 (2015) 2741–2752.[44] B. Bolto, T. Tran, M. Hoang, Z. Xie, Prog. Polym. Sci. 34 (2009) 969–981.[45] J. Li, C. Chen, B. Han, Y. Peng, J. Zou, W. Jiang, J. Membr. Sci. 203 (2002) 127–136.[46] M. Burshe, S. Netke, S. Sawant, J. Joshi, V. Pangarkar, Separ. Sci. Technol. 32 (1997) 1335–1349.[47] R. Huang, C. Yeom, J. Membr. Sci. 58 (1991) 33–47.[48] J.-W. Rhim, H.B. Park, C.-S. Lee, J.-H. Jun, D.S. Kim, Y.M. Lee, J. Membr. Sci. 238 (2004) 143–151.[49] T. Hirai, H. Maruyama, T. Suzuki, S. Hayashi, J. Appl. Polym. Sci. 45 (1992) 1849–1855.[50] E. Immelman, R. Sanderson, E. Jacobs, A. Van Reenen, J. Appl. Polym. Sci. 50 (1993) 1013–1034.[51] C.-K. Yeom, K.-H. Lee, J. Membr. Sci. 109 (1996) 257–265.[52] S.K. Yong, W.L. Sang, Y.K. Un, S.S. Jyong, J. Membr. Sci. 51 (1990) 215–226.[53] P. Schissel, R.A. Orth, J. Membr. Sci. 17 (1984) 109–120.[54] L. Wang, J. He, M. Heiranian, H. Fan, L. Song, Y. Li, M. Elimelech, Sci. Adv. 9 (2023) eadf8488.[55] H. Fan, J. He, M. Heiranian, W. Pan, Y. Li, M. Elimelech, Sci. Adv. 10 (2024) eado4332.[56] P.M. Biesheuvel, S. Porada, M. Elimelech, J.E. Dykstra, J. Membr. Sci. 647 (2022) 120221.[57] H.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". Li, M. Elimelech, Sci. Adv. 10 (2024) eado4332.[56] P.M. Biesheuvel, S. Porada, M. Elimelech, J.E. Dykstra, J. Membr. Sci. 647 (2022) 120221.[57] H. Fan, M. Heiranian, M. Elimelech, Desalination 580 (2024) 117575.[58] S.-H. Li, H. Mao, Y.-N. Feng, L.-H. Xu, H. Qi, Z.-P. Zhao, Nat. Commun. 16 (2025) 7404.[59] M. Mulder, T. Franken, C. Smolders, J. Membr. Sci. 22 (1985) 155–173.[60] K.-J. Kim, S.-B. Lee, N.W. Han, Polym. J. 25 (1993) 1295–1302.[61] J.G. Wijmans, R.W. Baker, J. Membr. Sci. 107 (1995) 1–21.[62] J. Wijmans, R. Baker, J. Membr. Sci. 79 (1993) 101–113.[63] R.W. Baker, J. Wijmans, Y. Huang, J. Membr. Sci. 348 (2010) 346–352.[64] S. van Wyk, A.G.J. van der Ham, S.R.A. Kersten, Chem. Eng. Process. Process Intensif. 130 (2018) 148–159.[65] W. Zhang, C. Xia, L. Li, Z. Ren, J. Liu, X. Yang, RSC Adv. 4 (2014) 14592–14596.[66] A. Ahmad, N. Yusuf, B. Ooi, Desalination 287 (2012) 35–40.[67] K.C. Figueiredo, T.L. Alves, C.P. Borges, J. Appl. Polym. Sci. 111 (2009) 3074–3080.[68] A.P. Nambiar, R. Pillai, Y. Vadikkeettil, M. Sanyal, P.S. Shrivastav, Mater. Chem. Phys. 291 (2022) 126752.[69] I. McNeill, J. Anal. Appl. Pyrolysis 40 (1997) 21–41.[70] R. Rudra, V. Kumar, P.P. Kundu, RSC Adv. 5 (2015) 83436–83447.[71] C. Yeom, S. Lee, J. Lee, J. Appl. Polym. Sci. 79 (2001) 703–713.[72] P. Radovanovic, S.W. Thiel, S.-T. Hwang, J. Membr. Sci. 48 (1990) 55–65.[73] X. Feng, R.Y. Huang, Ind. Eng. Chem. Res. 36 (1997) 1048–1066.[74] P. Shao, R. Huang, J. Membr. Sci.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S.-T. Hwang, J. Membr. Sci. 48 (1990) 55–65.[73] X. Feng, R.Y. Huang, Ind. Eng. Chem. Res. 36 (1997) 1048–1066.[74] P. Shao, R. Huang, J. Membr. Sci. 294 (2007) 213–215.[75] F. Lipnizki, R.W. Field, P.-K. Ten, J. Membr. Sci. 153 (1999) 183–210.[76] P.D. Chapman, T. Oliveira, A.G. Livingston, K. Li, J. Membr. Sci. 318 (2008) 5–37.[77] C.H. Lee, W.H. Hong, J. Membr. Sci. 135 (1997) 187–193.[78] J. Pal, A. Patla, R. Subramanian, Chemosphere 272 (2021) 129846.[79] R. Castro-Mu˜noz, J. Buera-Gonz´alez, O. de la Iglesia, F. Galiano, V. Fíla, M. Malankowska, C. Rubio, A. Figoli, C. T´ellez, J. Coronas, J. Membr. Sci. 582 (2019) 423–434.[80] C. Yeom, R. Huang, J. Membr. Sci. 67 (1992) 39–55.",
+    "citation": {
+      "authors": [
+        "Kane G."
+      ],
+      "paper_id": "1-s2.0-S0376738825010579-main",
+      "title": "Decoupling the influence of sorption and diffusion on membrane permselectivity in pervaporation for ethanol dehydration",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  }
+]

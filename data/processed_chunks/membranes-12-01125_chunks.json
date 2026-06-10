@@ -1,0 +1,290 @@
+[
+  {
+    "content": "1. Introduction Electrodialysis is actively used for the production of drinking water in the food and pharmaceutical industries [1,2]. The functioning of electrodialysis systems is determined by the selective properties of ion exchange membranes, which mainly pass ions of one sign (counterions) and prevent the movement of ions of another sign (coions) [3]. One of the methods of electrodialysis system research is chronopotentiometry, that is, studying the change in the potential jump in the system over time under the action of DC current. Based on the analysis of the results of chronopotentiometry, the mechanisms of mass transfer processes and the properties of ion exchange membranes are investigated [4–8].",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01125",
+      "title": "Theoretical Analysis of Electroconvection in the Electrodialysis Desalination Channel under the Action of Direct Current",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A typical chronopotentiogram (ChP) of a single ion exchange membrane consists of the following sequence of characteristic sections [4–8]: (1) an initial, almost vertical section, defined by the initial ohmic resistance of the solution; (2) a region of slow growth of the potential jump, which is associated with a decrease in the concentration in the depleted solution near the membrane surface as a result of electrodiffusion processes; (3) at overlimiting current densities, an inflection point of the ChP curve is noted, which is associated with the appearance of another ion transport mechanism [4]; thus, the third transition region of the ChP corresponds to the development of additional ion transport mechanisms; (4) a section where the system is in a stationary or quasi-stationary state (when the potential jump oscillates about a certain fixed value).",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01125",
+      "title": "Theoretical Analysis of Electroconvection in the Electrodialysis Desalination Channel under the Action of Direct Current",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Experimental studies [4,5] have shown that for dilute solutions of electrolytes, electroconvection is an additional mechanism responsible for the increase in the intensity of mass transfer and the appearance of an inflection point on the ChP. Electroconvection is understood as the movement of an electrolyte solution under the action of an electric field on a space charge [9–12]. The difference in the behavior of ions of opposite signs in an ion exchange membrane leads to the formation of a space charge region in a depleted solution near membrane surface, which extends with an increase in the flowing current density [13]. Therefore, at overlimiting current densities, electroconvection significantly affects the transfer of ions in membrane systems with dilute electrolyte solutions [11,14–19].",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01125",
+      "title": "Theoretical Analysis of Electroconvection in the Electrodialysis Desalination Channel under the Action of Direct Current",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The theoretical calculation of the ChP for a layer of a dilute electrolyte solution near the surface of a homogeneous ion exchange membrane, taking into account the development of electroconvection, which qualitatively coincides with the experimental data, was performed in [20]. On the calculated ChP, all the characteristic areas described above are distinguished (indicated by numbers in Figure 1). It is shown that the appearance and increase in the electroconvective mixing layer (the plot of this layer thickness in Figure 1 is denoted by dec) in the region near the membrane surface corresponds to the transition region of the ChP. Slipping of vortices and vortex complexes along the channel under the action of forced flow causes oscillations in the potential jump. In a quasi-stationary state (in which the potential jump oscillates about certain fixed value), the thickness of the electroconvective mixing layer also becomes quasi-stationary [20]. It was numerically shown that the development of electroconvection significantly reduces the potential jump in the quasi-stationary state of the electrolyte layer near the ion exchange membrane.",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01125",
+      "title": "Theoretical Analysis of Electroconvection in the Electrodialysis Desalination Channel under the Action of Direct Current",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Since the ChP was calculated for the electrolyte layer near the surface of a single ion exchange membrane, the outer boundary of this layer is taken as the core of the flow with constant uniform distributions of ion concentrations, flow velocity, and electric potential [20]. This assumption causes the onset of a stationary or quasi-stationary state at any value of the current density, without taking into account the possibility of reducing the concentration in the core of the flow. In this work, numerical simulation of the mass transfer process in the desalination channel formed between the anion exchange (AEM) and cation exchange (CEM) membranes is carried out. The conditions for the establishment of a quasi-stationary state in the desalination channel under the action of DC current are considered, and an analytical estimate of the threshold current density for the transition of the system to the quasi-stationary state is obtained. The ChPs of the desalination channel and the thickness of the electroconvective mixing layer are calculated for both pre-threshold and, for the first time, supra-threshold values of the current density.",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01125",
+      "title": "Theoretical Analysis of Electroconvection in the Electrodialysis Desalination Channel under the Action of Direct Current",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Mathematical Model Consider a binary electrolyte solution in an electrodialysis desalting channel formed between two ion exchange membranes (AEM and CEM), which is pumped at the average velocity V0 (Figure 2). Let x and y be the normal and tangent coordinates to the membrane surfaces, respectively; x = 0 and x = H correspond to the interfaces of the electrolyte solution with AEM and CEM; and y = 0 and y = L correspond to the inlet and outlet from the channel (Figure 2). The non-stationary process of transfer of binary electrolyte ions in membrane systems in the absence of chemical reactions taking into account electroconvection is described by the following equations (given in dimensionless form): ∂V/∂t + (V·∇)V = -∇p + (1/Re)ΔV + Kel Δφ ∇φ, div V = 0; j_n = -z_n D_n c_n ∇φ - D_n ∇c_n + Pe c_n V, n=1,2; ∂c_n/∂t = -(1/Pe) div j_n, n=1,2; -ε Δφ = z_1 c_1 + z_2 c_2. Here, time t is scaled by H/V0; spatial coordinates x,y by H; velocity V by V0; pressure p by ρV0^2; concentration c_n by c0; electric potential φ by RT/F; diffusion coefficient D_n by the electrolyte diffusion coefficient D = D1D2(z1-z2)/(D1z1-D2z2); ion flux j_n by Dc0/H. Re = V0H/ν is the Reynolds number, Pe = V0H/D is the Peclet number, ε = RTε0εr/(c0F^2H^2) and Kel = ε0εrR^2T^2/(ρ0V0^2F^2H^2) are dimensionless parameters [21]; z_n is the charge number of the n-th ion; F is the Faraday constant; R is the gas constant; T is absolute temperature; ε0 is the electrical constant; εr is the relative permittivity of the solution; ρ0 is the density; ν is kinematic viscosity.",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01125",
+      "title": "Theoretical Analysis of Electroconvection in the Electrodialysis Desalination Channel under the Action of Direct Current",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The quantities V, p, j1, j2, c1, c2, φ are unknown functions of time t and spatial coordinates x,y. The Navier–Stokes equations describe the velocity field under the action of a forced flow and a force of the electric field. The Nernst–Planck, material balance, and Poisson equations describe the concentration of ions and the electric potential. Equation (5) defines the total current density i, including the Faraday current (conduction current) i_F = z1 j1 + z2 j2 and charging current (displacement current) i_c = -ε Pe ∂/∂t (∇φ) [22]: i = z1 j1 + z2 j2 - ε Pe ∂/∂t (∇φ). When modeling the DC current mode, the conditions of constancy of the average current density at the solution/membrane interfaces, i_av, must be satisfied [23]: i_av = (1/L) ∫_0^L i_x(0,y,t) dy = (1/L) ∫_0^L i_x(1,y,t) dy. The vector field of the total current density is solenoidal, div i = 0, so the electric current function η can be defined as: i_x = ∂η/∂y, i_y = -∂η/∂x [23].",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01125",
+      "title": "Theoretical Analysis of Electroconvection in the Electrodialysis Desalination Channel under the Action of Direct Current",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "On the basis of Equations (2), (5) and (7), an equation was obtained which makes it possible to determine the current density distribution in the DC current mode [20]. The numerical solution of the boundary value problem of the model requires the definition of the boundary conditions for Equations (1), (3), (4) and (8). Let us set boundary conditions similar to the conditions in [20] with the difference that the entire desalination channel from AEM to CEM is considered. At the channel inlet (x∈[0,1], y=0), the parabolic Poiseuille velocity profile is taken; for ion concentrations, the Dankwerts conditions are taken; and the condition for the electric potential is obtained from Equations (2) and (6) taking into account the zero density of the tangential current. At the channel outlet (x∈[0,1], y=L), the \"soft\" boundary conditions are accepted [24]; tangential derivatives of ion concentrations and potential are set equal to zero. At the solution/CEM interface (x=1, y∈[0,L]), the no-slip condition is applied; the counterion concentration c1 is set as a constant value that is Nc times greater than the input concentration of solution [13]; continuous flux of coions is described using the transfer numbers of ions in membranes, TnA and TnC [25]; the normal derivative of the electric field potential is given as a function of the electric current density [26]. Similar conditions are accepted for the velocity and concentrations of ions at the solution/AEM interface (x=0, y∈[0,L]).",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01125",
+      "title": "Theoretical Analysis of Electroconvection in the Electrodialysis Desalination Channel under the Action of Direct Current",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In the system of equations, the electric potential enters only in the form of derivatives on spatial coordinates; therefore, only the potential jump is significant. For the convenience of calculations, we set the zero potential on the left boundary, φ(0,y,t)=0. At the initial time t=0, the flow is parabolic; the electrical neutrality condition is satisfied at all points of the desalination channel, and the ion concentrations are equal to the initial electrolyte concentration c0; the potential is zero everywhere.",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01125",
+      "title": "Theoretical Analysis of Electroconvection in the Electrodialysis Desalination Channel under the Action of Direct Current",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Results and Discussion 3.1. The Condition for the Transition of the System to a Quasi-Stationary State To determine the condition for the transition of the electrolyte solution in the desalination channel to a quasi-stationary state, we perform a sequence of transformations of the equation for the cation concentration. After integration over the considered region and applying boundary conditions, we obtain an expression relating the partial current of cations through the boundaries. The condition for the transition of the system to a stationary (or quasi-stationary) state is the equality to zero (or smallness) of the right side of the resulting equation. This leads to the expression for the threshold current density itr = z1 Pe / (L (1 - T2C - T1A)), or in dimensional form i_tr^d = (z1 F c0 V0 H) / (Ld (1 - T2C - T1A)). Thus, Equation (34) defines the threshold current density: at current density less than itr the system goes into the stationary (or quasi-stationary at overlimiting currents) state, and when the current density exceeds itr, the electrolyte is completely depleted and the potential jump increases rapidly.",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01125",
+      "title": "Theoretical Analysis of Electroconvection in the Electrodialysis Desalination Channel under the Action of Direct Current",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Equation (32) also makes it possible to estimate the current efficiency (CE) and the energy per ion removal (EPIR) in the DC current mode. CE shows how efficiently the current is used to remove ions [27]: CE = (Pe ∫_0^1 [z1 j1y(x,0,t) - z1 j1y(x,L,t)] dx) / (i_av L). EPIR is determined by EPIR = (i_av L Δφ) / (Pe ∫_0^1 [z1 j1y(x,0,t) - z1 j1y(x,L,t)] dx) [27]. For a quasi-stationary state, taking into account Equation (32), it can be written: CE = 1 - T2C - T1A, EPIR = Δφ / (1 - T2C - T1A), where Δφ is the potential jump in the stationary state or the time-averaged value in the quasi-stationary state. Thus, in the quasi-stationary state of desalination by DC current CE < 1 due to imperfect membrane selectivity, EPIR is determined by the potential jump and ion transport numbers in membranes.",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01125",
+      "title": "Theoretical Analysis of Electroconvection in the Electrodialysis Desalination Channel under the Action of Direct Current",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Numerical Simulation The numerical solution of the problem is found by the finite element method [28]. The calculations are performed for the NaCl solution at dimensionless numbers Re = 0.112, Pe = 62, ε = 7.6·10^{-8}, Kel = 0.047, T1A = T2C = 0.03, which corresponds to the following values: c0 = 10^{-2} mol/m^3, H = 0.5·10^{-3} m, V0 = 2·10^{-4} m/s, D1 = 1.33·10^{-9} m^2/s, D2 = 2.05·10^{-9} m^2/s. The limiting current density ilim is defined by the Leveque equation [29] with t1 = 0.395 [30]. The threshold current density itr ≈ 1.76 ilim for channel length L = 8. Figure 3 shows ChPs calculated for current densities i_av/i_lim = 1, 1.1, 1.5, 1.6, 1.7, 1.8, 1.9.",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01125",
+      "title": "Theoretical Analysis of Electroconvection in the Electrodialysis Desalination Channel under the Action of Direct Current",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "At the limiting current density i_av = i_lim, on the ChP there is a successive change in the initial ohmic region by a region of slow growth of the potential jump (associated with a decrease in concentration near both membranes) and a transition to a stationary state without electroconvection (Figure 4). At current densities above i_lim, electroconvection develops in the region near the CEM, and an electroconvective mixing layer is formed (Figure 4). The boundary of the electroconvective mixing layer was determined as a point at which the difference in the root-mean-square velocity in calculations with and without electroconvection exceeds 15% of V0 [31]. For a channel with two membranes, the thickness dec is calculated separately for the CEM (dec CEM) and AEM (dec AEM), Figure 3c,d.",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01125",
+      "title": "Theoretical Analysis of Electroconvection in the Electrodialysis Desalination Channel under the Action of Direct Current",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "On the ChPs for 1.1 i_lim and 1.5 i_lim, at the moment of development of the electroconvective mixing layer near CEM, a decrease in the growth rate of the potential jump and a transition to a quasi-stationary state, accompanied by an increase in dec CEM, are observed. The shapes of these curves differ significantly in the transition region, since as the current density approaches the limiting state at AEM, the effect of desalination in this region increases. The ChPs for current densities exceeding the limiting value for CEM but less than the limiting current for AEM differ from the underlimiting and limiting ChPs by the appearance of a transition section corresponding to an increase in dec before the transition to the quasi-stationary state. Thus, the ChPs for i_lim < i_av < i_lim (T1C - t1)/(T2A - t2) contain all the regions characteristic of a single membrane [4–8].",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01125",
+      "title": "Theoretical Analysis of Electroconvection in the Electrodialysis Desalination Channel under the Action of Direct Current",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "On the dec CEM curve for 1.1 i_lim, there are periodic oscillations of small amplitude (≈0.001 in the quasi-stationary state), associated with the movement of single electroconvective vortices along the membrane surface. For 1.5 i_lim, oscillations have a more complex shape and larger amplitude (≈0.012), due to larger vortex complexes. At current densities of 1.6 i_lim, 1.7 i_lim, 1.8 i_lim, and 1.9 i_lim (exceeding the limiting state at AEM), electroconvection also develops near the AEM surface (Figures 3d and 4), and a second slowdown in potential jump growth appears on the ChPs. Thus, for i_lim (T1C - t1)/(T2A - t2) < i_av < i_tr, the transition state is divided into two fragments: one associated with electroconvection near CEM, the other near AEM. With increasing current density, vortex complexes increase, and the amplitude of dec fluctuations grows.",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01125",
+      "title": "Theoretical Analysis of Electroconvection in the Electrodialysis Desalination Channel under the Action of Direct Current",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "At current densities exceeding the threshold itr (1.8 i_lim and 1.9 i_lim), all characteristic sections of ChPs are observed except the quasi-stationary state. Desalination continues until complete depletion (Figure 3b), while the potential jump increases. Changes in the electroconvective flow structure for 1.9 i_lim are shown in Figure 5. Electroconvection near CEM appears almost simultaneously along the entire membrane surface due to longitudinal homogeneity of depletion. Near AEM, electroconvection appears later, and due to large concentration gradients, it develops earlier near the channel inlet. Depletion near the outlet is accompanied by destruction of space charge regions and attenuation of electroconvection (Figure 5f) [32,33].",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01125",
+      "title": "Theoretical Analysis of Electroconvection in the Electrodialysis Desalination Channel under the Action of Direct Current",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "On all ChPs for current density above the limiting value, potential jump oscillations appear almost simultaneously with the development of electroconvection (Figure 3a,c,d). This is due to the non-stationary dynamics of vortices, which cause fluctuations in ion concentration and space charge density, determining fluctuations in the potential jump. Similar fluctuations were recorded in direct experimental studies of electroconvection [34]. Figure 6 shows EPIR calculations (by Equation (39)) with and without electroconvection for i_av/i_lim = 0, 0.1, ..., 1.7. EPIR increases with current density. Exceeding the limiting density without electroconvection is accompanied by a sharp EPIR increase. The appearance of electroconvection first at CEM (at i_lim) and later at AEM (at 1.6 i_lim) significantly reduces EPIR. Therefore, the development of electroconvection significantly reduces the energy spent on ion removal.",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01125",
+      "title": "Theoretical Analysis of Electroconvection in the Electrodialysis Desalination Channel under the Action of Direct Current",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Conclusions The study of the desalination process of the electrolyte solution in the electrodialysis desalination channel under the action of DC current by means of numerical simulation is carried out. The model makes it possible to describe the development of electroconvection caused by the action of an electric field on the space charge formed near the surface of ion exchange membranes, taking into account the process of desalting the electrolyte solution. The analytical estimate of the threshold current density of the transition to a quasi-stationary state is derived. ChPs calculated for pre-threshold current densities are characterized by a transition to a quasi-stationary state over time. The thickness of the electroconvective mixing layer under these conditions is also a quasi-stationary quantity. The ChP for supra-threshold current densities reflects an unlimited growth of the potential jump with a gradual depletion of the ion concentration. In supra-threshold current modes, electroconvection covers the entire channel over time. The depletion of the electrolyte concentration causes the destruction of the space charge regions and the attenuation of electroconvection. It is shown that in pre-threshold current regimes, the development of electroconvection significantly reduces the energy spent on ions’ removing.",
+    "citation": {
+      "authors": [
+        "Uzdenova A.",
+        "Kovalenko A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01125",
+      "title": "Theoretical Analysis of Electroconvection in the Electrodialysis Desalination Channel under the Action of Direct Current",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  }
+]

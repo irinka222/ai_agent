@@ -1,0 +1,716 @@
+[
+  {
+    "content": "Contents lists available at ScienceDirect\n\nJournal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nDeveloping and validating a high-throughput robotic system for the accelerated development of porous membranes Hongchen Wang a, Sima Zeinali Danalou b, Jiahao Zhu b, Kenneth Sulimro b, Chaewon Lim c, Smita Basak d, Aimée Tai a, Usan Siriwardana d, Jason Hattrick-Simpers a,∗, Jay Werber b,∗ a Department of Materials Science and Engineering, University of Toronto, 27 King’s College Cir, Toronto, M5S 1A1, ON, Canadab Department of Chemical Engineering, University of Toronto, 27 King’s College Cir, Toronto, M5S 1A1, ON, Canadac Department of Engineering Science, University of Toronto, 27 King’s College Cir, Toronto, M5S 1A1, ON, Canadad Department of Mechanical Engineering, University of Waterloo, 200 University Ave W, Waterloo, N2L 3G1, ON, Canada A R T I C L E I N F O Keywords:Nonsolvent-induced phase separationPorous polymeric membranesSelf-driving labsAutomationCompression testingPolymer solutions",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T The development of porous polymeric membranes remains a labor-intensive process, often requiring extensive trial and error to identify optimal fabrication parameters. In this study, we present a fully automated platform for membrane fabrication and characterization via nonsolvent-induced phase separation (NIPS). The system integrates automated solution preparation, blade casting, controlled immersion, and compression testing, allowing precise control over fabrication parameters such as polymer concentration and ambient humidity. The modular design enables reproducible sample handling to improve consistency and can be adapted for future parallel processing to further reduce experimental time. Compression testing is introduced as a sensitive mechanical characterization method for estimating membrane stiffness and as a proxy to infer porosity and intra-sample uniformity through automated analysis of stress–strain curves. As a proof of concept to demonstrate the effectiveness of the system, NIPS was carried out with polysulfone, the green solvent PolarClean, and water as the polymer, solvent, and nonsolvent, respectively. Experiments conducted with the automated system reproduced expected effects of polymer concentration and ambient humidity on membrane properties, namely increased stiffness and uniformity with increasing polymer concentration and humidity variations in pore morphology and mechanical response.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s, namely increased stiffness and uniformity with increasing polymer concentration and humidity variations in pore morphology and mechanical response. The developed automated platform supports highthroughput experimentation and is well-suited for integration into self-driving laboratory workflows, offering a scalable and reproducible foundation for data-driven optimization of porous polymeric membranes through NIPS.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Porous polymeric membranes are widely used in separation processes, including ultrafiltration (UF), gas separation, and as support layers for thin-film composite (TFC) membranes used in nanofiltration (NF) and reverse-osmosis (RO) [1–4]. Emerging high-pressure reverse osmosis (HPRO) processes extend the operation to pressures of 120+ bar, requiring support membranes that can withstand substantial compressive stresses [5]. As a result, developing porous membranes with robust and tunable mechanical properties is essential to ensure reliable performance in pressure-driven separation processes [5]. Currently, most commercial porous membranes are manufactured using nonsolvent-induced phase separation (NIPS) due to its processing simplicity, scalability, and cost-effectiveness [6,7]. In the NIPS process, polymer solution is cast onto a substrate and immersed in a nonsolvent",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "∗Corresponding authors. E-mail addresses: jason.hattrick-simpers@utoronto.ca (J. Hattrick-Simpers), jay.werber@utoronto.ca (J. Werber). bath to initiate the solvent-nonsolvent exchange and subsequent phase separation to form a solid membrane [7,8]. Despite its advantages, the process is highly sensitive to changes in composition, environmental conditions, and processing parameters, often resulting in substantial variability in membrane structure and performance [9–11]. The kinetics of this demixing process strongly influence the resulting membrane structure [9]. Specifically, rapid demixing typically forms finger-like macrovoids, which offer high flux but poor mechanical performance, while delayed demixing forms sponge-like structures, which are mechanically robust but less permeable [9]. Key fabrication parameters, including polymer concentration, solvent and nonsolvent types, temperature, humidity, and casting thickness, play critical roles in governing membrane morphology and performance [9,12,13]. While many studies have examined how these fabrication param-\n\nJournal of Membrane Science 738 (2026) 124804\n\nAvailable online 24 October 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "H. Wang et al. eters influence membrane structure and performance [10,11,14–16], optimizing these variables through traditional experimentation remains slow and labor-intensive. Manual workflows are often inconsistent and difficult to reproduce, particularly given the complex and sensitive dynamics of NIPS [9,17]. Furthermore, membrane characterization often involves multiple time-consuming steps, such as filtration testing and scanning electron microscopy (SEM) imaging [18,19]. These limitations present a significant barrier to rapid iteration and systematic exploration of the NIPS fabrication space. To overcome challenges similar to those faced in NIPS, highthroughput experimentation (HTE) and self-driving laboratories (SDLs) have emerged as promising paradigms for accelerated materials development [20,21]. HTE enables rapid and systematic exploration of large combinatorial design spaces by automating the fabrication and/or characterization of samples under a wide range of conditions [20]. While we are not aware of a high-throughput system for NIPS, notable innovations in HTE for membrane science have been demonstrated in areas such as diafiltration, dead-end filtration, and membrane electrode assembly [22–24]. SDLs take automated experimentation one step further by integrating HTE with real-time data analysis and algorithmic decision-making to iteratively synthesize, test, and optimize material systems with minimal human intervention [21,25,26].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ta analysis and algorithmic decision-making to iteratively synthesize, test, and optimize material systems with minimal human intervention [21,25,26]. In other words, SDLs close the loop during automated materials research and development, which can dramatically accelerate materials development and optimization for design spaces with many dimensions where brute-force HTE would be onerous and inefficient. For example, Snapp et al. [27] demonstrated an SDL framework that autonomously performed over 25,000 compression tests on 3D-printed polymer structures, efficiently exploring an 11-dimensional design space via robotic experimentation and Bayesian optimization to identify structures with exceptional energy absorption properties. This approach highlights how integrating closedloop automation with compression testing can yield rapid, data-rich insights into structure–property relationships, even in complex, highdimensional materials systems. Interest in SDLs has increased markedly in recent years, with applications now developed in pharmaceuticals, catalysis, and materials discovery [28–30]. This manuscript presents our work towards a NIPS-based SDL for the accelerated development of porous membranes. In particular, we have developed an automated NIPS fabrication and testing platform (i.e., an HTE system for NIPS) that integrates liquid handling, robotic blade casting, controlled environmental conditions, and mechanical testing into a single automated system.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S) that integrates liquid handling, robotic blade casting, controlled environmental conditions, and mechanical testing into a single automated system. By combining automated sample preparation with rapid mechanical compression testing, the system allows systematic exploration of the membrane design space under controlled and reproducible conditions. A key innovation of this platform is the use of compression testing as a high-throughput proxy for membrane performance. Drawing from previous research on porous mechanical systems [31–33], we interpret the stress–strain response of membrane samples to extract two performance-relevant metrics: (1) elastic modulus as a measure of stiffness and (2) normalized plateau length as a proxy for porosity. As a proof-of-concept exploration using the automated NIPS fabrication platform, we investigate how polymer concentration and ambient humidity influence membrane morphology and mechanical performance, using polysulfone (PSf), the green solvent PolarClean, and water as the polymer, solvent, and nonsolvent, respectively. Multiple tests across each membrane demonstrate intrasample consistency, with comparisons to manually fabricated membranes used to validate the membrane uniformity achieved through automation. The presented system is now capable of high-throughput synthesis and characterization of porous membranes through NIPS, achieving a throughput of less than an hour per sample from formulation to mechanical testing.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Materials and methods 2.1. Materials The chemicals used in this study are polysulfone (PSf) (SigmaAldrich, 𝑀𝑤 - 35000) and PolarClean (Rhodiasolv PolarClean). The commercially available tools used to build the automated platform are a liquid handling robot (Opentrons OT-2), a robotic arm (Ufactory xArm7), and a compression tester (TestResources 140). 2.2. Membrane fabrication Membranes were fabricated from PSf-PolarClean solutions. Initially, stock solutions were manually prepared by dissolving PSf pellets in PolarClean at 80 ◦C with continuous stirring overnight, ensuring complete dissolution. The prepared polymer solution was sonicated for 30 min and allowed to rest for several hours to eliminate air bubbles. The mixed polymer solution was then dispensed into a uniform line onto a clean stainless steel coupon. A doctor blade was slid across the coupon to cast the polymer solution into a uniform film at a controlled speed of 1 cm/s. Humidity control was managed by introducing laminar flow of dry nitrogen from a nitrogen blower positioned above the freshly cast films. If further analyses were needed, the fabricated and tested membranes were immersed in fresh deionized (DI) water and stored in the refrigerator to prevent bacterial growth. This procedure shows the general workflow used in both manual and automated fabrication. Detailed descriptions of the robotic automation are provided in Section 3.1. 2.3.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the general workflow used in both manual and automated fabrication. Detailed descriptions of the robotic automation are provided in Section 3.1. 2.3. Scanning electron microscopy characterization Scanning electron microscopy (SEM) was used to evaluate the microstructure of membranes fabricated under different experimental conditions. Both cross-sectional and top-view images were obtained to assess internal pore morphology and surface features. All SEM imaging was performed using a Hitachi SU7000 scanning electron microscope. Membrane samples were prepared by the freeze-fracturing method to preserve their internal morphology and minimize deformation artifacts. Before fracturing, the membranes were subjected to a sequential solvent exchange treatment to ensure pore preservation: samples were immersed in DI water for 10 min, then transferred to 25% isopropyl alcohol (IPA) for 10 min, pure IPA for 5 min, and finally hexane for 10 min. The sample was then firmly clamped and immersed in liquid nitrogen for 1 min to 2 min and fractured to obtain a clean cross-sectional surface. The fractured samples were subsequently trimmed to suitable dimensions and mounted on SEM stubs using conductive carbon tape. The corners were dabbed with carbon paint to minimize the charging effect during imaging.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "sions and mounted on SEM stubs using conductive carbon tape. The corners were dabbed with carbon paint to minimize the charging effect during imaging. A thin platinum layer (1.8 nm to 3 nm thick) was deposited on the exposed cross-sectional or top surfaces using a Leica ACE600 system, preventing charging and enhancing image clarity during SEM imaging. Imaging was carried out at an accelerating voltage of 1 kV to 1.5 kV, using appropriate magnifications to clearly visualize the thickness, pore morphology, and structural characteristics of the membranes. 2.4. Pore size distribution analysis Pore segmentation was performed using Fiji/ImageJ (v1.54f) and the Trainable Weka Segmentation plugin, followed by watershed separation. Image enhancement and binarization followed a previously published protocol developed by our group [34]. To correct for pore narrowing caused by sputter coating and estimate the uncoated pore size, a 1.8 nm dilation (corresponding to the applied coating thickness on the top surfaces) was applied to the binary pore masks, as described in our previous work [34]. Pore size distributions (PSD) were calculated Journal of Membrane Science 738 (2026) 124804",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Planned workflow for a NIPS-based self-driving lab (SDL). This workflow demonstrates an iterative process between a liquid handling robot, a temperaturecontrolled coagulation bath, and a compression tester, interconnected by a robotic arm. The liquid handling robot transfers and mixes the precursor solutions. The robotic arm performs blade casting and sample transferring between the different modules. NIPS takes place in the coagulation bath. Once a membrane is fabricated, the compression tester performs a series of tests on the sample to characterize its intra-sample consistency and mechanical properties. Upon postprocessing and analysis, the next set of experiments can be initiated and operated iteratively. from three replicate SEM images per sample. Area-weighted histograms were generated by assigning each pore a circular area, binning the diameters at 0.5 nm intervals, and normalizing by the total image area. The mean distribution across replicates was reported with the corresponding standard error. 3. Results 3.1. Design of automated NIPS system Fig. 1 provides an overview of the automated NIPS platform. The integrated robotic system consists of three key modules: a liquid handling robot for polymer solution preparation, a temperature-controlled coagulation bath for NIPS, and a compression tester for mechanical characterization.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "robot for polymer solution preparation, a temperature-controlled coagulation bath for NIPS, and a compression tester for mechanical characterization. These modules are interconnected by a robotic arm, which performs blade casting and transfers samples, minimizing human intervention and ensuring reproducibility and consistency. Initially, stock solutions (i.e., polymer solutions, solvents) are manually prepared and loaded into the liquid handling robot. The robot is programmed to mix polymer solutions of targeted compositions, after which the robotic arm casts the prepared solution into a film using a doctor blade. The cast film is then immersed in the coagulation bath, where phase inversion occurs. Following NIPS, the robotic arm transfers the membrane to the compression tester to obtain the stress–strain curves. Mechanical properties such as stiffness and pore fraction are extracted using our designed data-processing pipeline. The entire robotic system operates within a ductless fume hood, minimizing exposure risks and ensuring operational safety. All equipment used for the system is listed in the Supplementary Materials. Detailed descriptions of each experimental module are provided in Fig. 2. Fig. 2A shows the overall layout of the system inside a ductless fume hood. Fig. 2B shows the layout of the liquid handling robot.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "provided in Fig. 2. Fig. 2A shows the overall layout of the system inside a ductless fume hood. Fig. 2B shows the layout of the liquid handling robot. Upon loading the stock solutions and solvents, the liquid handling robot is programmed to prepare polymer solutions at precisely controlled concentrations ranging from 10 to 17 wt%, with polymer concentration serving as a critical controllable parameter that impacts membrane morphology and mechanical properties. The system incorporates heated sample vials to maintain the homogeneity of the polymer solution. The polymer solution is dispensed onto a sample coupon by the liquid handling robot, after which the robotic arm picks up the doctor blade and performs a speed-controlled blade casting operation to produce uniform polymer films. The nitrogen blower positioned next to the casting station delivers laminar dry nitrogen flow, reducing the ambient humidity and thereby controlling the pre-immersion conditions. Although only dry nitrogen was used in this study, the relative humidity of this inlet gas stream can be readily tuned by mixing dry and wet gases to adjust the humidity of the film environment. A dedicated blade cleaning stage ensures that residual polymer solution on the doctor blade is removed between each casting step, minimizing cross-contamination and enhancing reproducibility. Fig. 2C shows the temperature-controlled coagulation bath.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ed between each casting step, minimizing cross-contamination and enhancing reproducibility. Fig. 2C shows the temperature-controlled coagulation bath. The bath is designed with two compartments: (1) an outer bath containing a copper cooling coil connected to a circulating chiller and (2) an inner bath where phase separation occurs. Temperature control of the coagulation bath enables systematic exploration of the effect of temperature on the morphology and performance of the membranes. In this study, the bath temperature was held constant; future work will incorporate temperature variation along with optimization of other processing parameters. After blade casting, the robotic arm transfers the sample into the inner bath, where phase inversion occurs. For the samples in this study, membrane formation occurs for approximately 30 min in the bath. In future work, two baths will be used for initial coagulation and full solvent removal, respectively. The automated NIPS workflow can be viewed in the video in the Supplementary Materials. Fig. 2D shows the setup of the compression tester module. To accurately assess the mechanical properties of membrane samples, the tester uses a 5 mm diameter flat punch connected to a load cell to measure the applied force. Due to the thinness (50 μm to 120 μm) and mechanical sensitivity of the membranes, displacement is measured using an external linear variable differential transformer (LVDT).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "μm to 120 μm) and mechanical sensitivity of the membranes, displacement is measured using an external linear variable differential transformer (LVDT). The LVDT offers a high-resolution measurement range of ±1270 μm with a linearity of ±3 μm to ensure detection of subtle differences in the mechanical responses of the membranes. After placing the sample on the bottom platen, a triggering signal automatically sent from the computer initiates the test, generating a detailed force–displacement dataset, which is later converted to stress–strain (stress = force / compression pin area; strain = displacement / thickness). This data is Journal of Membrane Science 738 (2026) 124804",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Experimental setup used for automated membrane fabrication and mechanical testing. (A) Overall system in a ductless fume hood. (B) The liquid handling robot is configured for polymer solution preparation. It uses pipette tips to transfer and mix the precursor solutions into the vials. The well plate can be heated to achieve more homogeneous mixing. The nitrogen blower introduces a laminar dry nitrogen flow over the cast film to reduce the humidity. The blade cleaning stage holds and cleans the doctor blade after each blade casting. (C) The temperature-controlled coagulation bath uses a copper coil that is cooled by a circulating chiller to achieve temperature control during phase separation. (D) The compression tester uses a 5 mm diameter flat punch to characterize the mechanical properties of the fabricated membranes. It is equipped with a load cell for force measurement and an external linear variable differential transformer (LVDT) for precise measurement of small displacement. automatically processed using our in-house noise reduction and feature extraction algorithm, which will be discussed in Section 3.2. 3.2. Compression testing for mechanical proxy characterization Compression testing was used as a proxy measurement for rapid assessment of membrane homogeneity and mechanical properties.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "cal proxy characterization Compression testing was used as a proxy measurement for rapid assessment of membrane homogeneity and mechanical properties. While traditionally used in the study of foams and porous ceramics [35,36], this approach has also been applied to polymeric membranes to infer porosity and mechanical integrity from the bulk mechanical response [37–39]. This method efficiently captures subtle variations in membrane structure by analyzing their mechanical responses to compressive loading. As illustrated in Fig. 3A, a typical stress–strain curve of a porous material exhibits three distinct regions: (1) elastic, (2) plateau, and (3) densification, correlated with specific mechanical behaviors and microstructural deformations at different stages under compressive loading [32,35,37,39]. A creep region is also observed if a creep test (constant force over time) is performed. Initially, the elastic region characterizes the effective stiffness of the membrane, quantifying its resistance to deformation under compressive loading. A higher modulus indicates greater resistance to compaction, helping the membrane maintain its pore structure and, consequently, its permeability under operating conditions [40,41]. After the elastic limit, the membrane enters the plateau region, where a lower slope is observed due to progressive pore deformation and collapse.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1]. After the elastic limit, the membrane enters the plateau region, where a lower slope is observed due to progressive pore deformation and collapse. Once the pores are fully collapsed, the curve enters the densification region, where the stress increases sharply as the solid matrix and substrate dominate the load-bearing behavior. Pore fraction, in this study, is identified as the strain at which the linear fits to the plateau and densification regions intersect, serving as a proxy for the membrane’s bulk porosity. Higher pore fractions generally correlate with greater bulk porosity and, therefore, higher permeabilities [40], although hydraulic permeabilities also depend on surface porosity [42], which is not directly captured in this test. Modulus and pore fraction together serve as a quick proxy for compaction resistance and permeability, which are two key metrics of membrane performance. Throughout the rest of this study, we use pore fractions estimated by compression testing as a proxy of membrane porosity, as opposed to bulk porosity measurements through traditional gravimetric approaches. Previous studies have demonstrated the validity of this approach for membranes and other porous materials [38,40,43]. SEM images inset in Fig. 3A visually show the morphological changes in the membrane before and after compression.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "d other porous materials [38,40,43]. SEM images inset in Fig. 3A visually show the morphological changes in the membrane before and after compression. To characterize the intrasample homogeneity and mechanical consistency, multiple compression tests are performed at different positions across the membrane sample area. Fig. 3B details the automated data-processing pipeline developed to systematically analyze the compression data. The pipeline involves four key stages: (1) data preprocessing, including unit conversion and curve alignment; (2) curve segmentation using spline fitting, derivative Journal of Membrane Science 738 (2026) 124804",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. Demonstration of the automated stress–strain curve analysis. (A) Automatic segmentation of a stress–strain curve (engineering stress and engineering strain) using a designed pipeline in Python to identify key mechanical regions: elastic (blue), plateau (orange), densification (green), and creep (red). This segmentation enables estimation of the elastic modulus and pore fraction of the membrane, which for this sample are 166.1 bar and 0.57, respectively. Inset SEM images show the microstructure of a membrane before and after compression. (B) Data-processing pipeline for mechanical property extraction, consisting of four key stages: (1) Data Preprocessing, including unit conversion and curve alignment; (2) Curve Segmentation, where breakpoints are computed using derivatives and piecewise regression; (3) Property Extraction, determining elastic modulus, yield strength, densification, and creep properties; and (4) Quality Assessment, evaluating the quality and intra-sample consistency through statistical metrics such as the coefficient of variance (CV) and fitting success criteria. analysis, and piece-wise regression to identify distinct mechanical regions; (3) property extraction, calculating key properties such as elastic modulus, yield strength, pore fraction, and creep strain from segmented curves; and (4) quality assessment, evaluating the intra-sample consistency through statistical metrics like coefficient of variance (CV) and fitting success criteria.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "uality assessment, evaluating the intra-sample consistency through statistical metrics like coefficient of variance (CV) and fitting success criteria. These extracted mechanical parameters subsequently serve as key inputs for selecting the next set of experimental parameters. The automated curve segmentation and statistical evaluation allow systematic assessment of membrane stiffness, pore fraction, and intra-sample uniformity, providing actionable feedback for iterative optimization in SDL workflows. The full Python code for this pipeline is provided in the Supplementary Materials. 3.3. Validation of automated NIPS system The automated NIPS platform improves experimental throughput by streamlining solution preparation and parallelizing key fabrication steps. In manual workflows, each polymer solution must be prepared separately by weighing out polymers and solvents, followed by continuous stirring and heating on a hotplate to fully dissolve the polymer, and then degassing, often requiring 12–24 h of overnight processing for each batch. In contrast, the automated system uses a dilution-based approach, where a single concentrated polymer stock solution is first prepared manually. The liquid handling robot then performs iterative aspiration and dispensing cycles to shear-mix and dilute the solution into lower concentrations. The pipetting parameters and workflow were optimized to achieve homogeneous mixing while minimizing air bubble formation.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n into lower concentrations. The pipetting parameters and workflow were optimized to achieve homogeneous mixing while minimizing air bubble formation. Full details are provided in the Supplementary Materials. This dilution-based approach eliminates the need to manually prepare and process each concentration individually, enabling rapid and reproducible preparation of different compositions in approximately 40 minutes per sample. Moreover, conventional membrane characterization relies on filtration experiments to evaluate performance metrics such as compaction behavior and permeability, which can take several hours to days to complete [18,19]. In our system, rapid compression testing provides a meaningful proxy for membrane performance, delivering early-stage insights in under five minutes per sample. This will enable highthroughput screening to quickly rule out less promising membranes, while reserving more time-intensive filtration and SEM analyses for only the most relevant candidates. The entire process from solution preparation to membrane mechanical testing takes less than an hour per sample. Ultimately, the system is designed for future multi-threaded control of the solution preparation, casting, and testing modules, which will enable true parallel processing of multiple samples to further increase the throughput. Intra-sample consistency reflects how uniform a membrane’s mechanical response is across different regions.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "amples to further increase the throughput. Intra-sample consistency reflects how uniform a membrane’s mechanical response is across different regions. For each membrane, multiple compression tests were performed at different locations, and the CV of the curves was calculated as a quantitative measure of intra-sample consistency. Compared to crude measurements such as thickness and porosity and qualitative approaches such as visual comparison of cross-sectional SEM images, CV provides more granular detail of local mechanical heterogeneity. It was calculated by first interpolating all strain-stress curves to a common stress axis, then calculating the average standard deviation of strain across all stress points, normalized by the mean strain. Lower CV values indicate more homogeneous membrane structures and mechanical properties. Fig. 4 compares the CV values of three preparation methods: (1) Manual Premixed, (2) Auto Premixed, and (3) Auto Mixed. In the Manual Premixed condition, both solution preparation and casting were performed manually, with each concentration prepared by the conventional dissolution method. In the Auto Premixed condition, the polymer solutions were prepared manually by dissolution but were cast and processed using the automated platform. In Auto Mixed, both solution mixing (via dilution from precursors) and casting were performed entirely by the robotic system.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the automated platform. In Auto Mixed, both solution mixing (via dilution from precursors) and casting were performed entirely by the robotic system. The Auto Mixed condition is, of course, the required fabrication pathway for a NIPS-based SDL, as the fabrication process in this approach is fully automated, except for the manual preparation of the initial stock solutions. Among these groups, the Auto Premixed condition yielded the lowest median CV, indicating high intra-sample consistency when human-prepared solutions were paired with automated fabrication. The Manual Premixed group showed higher variability, indicating inconsistencies of manual casting and immersion steps. The Auto Mixed group exhibited longer whiskers and a broader spread of CV values, particularly at lower polymer concentrations, indicating increased variability in intra-sample consistency under this condition. Ultimately, the relative similarities of CV between the three conditions, Manual Premixed, Auto Premixed, and Auto Mixed, validate Journal of Membrane Science 738 (2026) 124804",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. Intra-sample consistency analysis using the coefficient of variance (CV). (A) Box plot showing the CV of stress–strain curves across three fabrication methods: (1) Manual Premixed (manual solution preparation and fabrication), (2) Auto Premixed (manual solution preparation with automated fabrication), and (3) Auto Mixed (fully automated mixing and fabrication). The horizontal line inside each box marks the median CV; the box itself spans the inter-quartile range (IQR) (25%–75%); the ‘‘whiskers’’ extend to 1.5 * IQR; points beyond the whiskers are outliers. Each dot represents a sample, colorcoded by polymer concentration (wt%). The number of samples (n) for each category is specified in parentheses. Examples of stress–strain curves with (B) a low CV obtained from a high polymer concentration sample and (C) a high CV obtained from a low polymer concentration sample. the ability of the system to reproducibly fabricate porous membranes from a target NIPS condition using a fully automated fabrication pathway. The relatively broad spread in CV for the desired Auto Mixed fabrication pathway is almost entirely confined to the low polymer concentration samples (i.e., 10 wt%), and is likely due to the challenge of mixing solutions with a large difference in viscosity [44]. In preparation of solutions with low polymer concentrations, the robot mixes more equal volumes of high-viscosity polymer solution and lowviscosity solvent.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "paration of solutions with low polymer concentrations, the robot mixes more equal volumes of high-viscosity polymer solution and lowviscosity solvent. This disparity in viscosity can compromise mixing uniformity, leading to local composition gradients or incomplete homogenization [44]. These inconsistencies can translate into structural and mechanical heterogeneity in the fabricated membrane. Although not implemented in this study, a likely solution for future work is to replace the solvent with a dilute polymer solution (e.g., mix 17 wt% polymer solution with 10 wt% polymer solution to target an intermediate concentration) to reduce the difference in viscosity of the precursors. 3.4. Interpretation from stress-strain behavior The above validation of the system to reproducibly generate porous membranes while varying NIPS conditions (e.g., polymer concentration) suggests that the system is ready for high-throughput experimentation and self-driving lab methodologies. As a proof of concept, we",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. Properties extracted from the stress–strain curves using the automated curve segmentation algorithm. (A) Elastic Modulus vs. Polymer Concentration and (B) Pore Fraction vs. Polymer Concentration across different humidity conditions: (1) 𝑅𝐻≥49% (blue), (2) 𝑅𝐻< 49% (orange), and (3) with dry nitrogen exposure (green). RH refers to the ambient humidity for experiments that did not use dry nitrogen during NIPS. Each error bar represents the standard deviation of measurements taken at different locations on the same sample. Lines of best fit are drawn as a guide to the eye, and shaded regions represent the standard deviation under each condition. used the system to explore the PSf/PolarClean/water NIPS system, centering on compression testing as the main membrane characterization methodology. Fig. 5 shows the effect of polymer concentration and ambient humidity on mechanical stiffness and pore fraction of PSf membranes. While the automated system was used for film casting and NIPS of all samples, the presented data includes samples prepared using manual and automated mixing processes. Both plots show noticeable scatter, likely due to initial experimental variability during the optimization of robotic pipetting parameters and sample handling processes, as well as inherent stochasticity associated with the NIPS process itself. Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ization of robotic pipetting parameters and sample handling processes, as well as inherent stochasticity associated with the NIPS process itself. Fig. 5A shows a consistent increase in elastic modulus with higher polymer concentration across all humidity conditions, indicating that higher polymer content leads to denser, mechanically stronger membranes. The membranes cast under dry nitrogen (green) exhibited the highest modulus, while those prepared under high humidity (𝑅𝐻≥49%, blue) showed the lowest, reflecting greater porosity and reduced mechanical strength. Intermediate humidity conditions (𝑅𝐻< 49%, orange) resulted in the modulus between these extremes. Journal of Membrane Science 738 (2026) 124804",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. SEM cross-sectional images (A–D) and corresponding stress–strain curves from multiple compression tests (E–H) of membranes fabricated at varying polymer concentrations: (A, E) 10 wt%, (B, F) 12 wt%, (C, G) 15 wt%, and (D, H) 17 wt% at a relative humidity of 64 RH%. The extracted elastic modulus is annotated in red in each stress–strain plot. SEM images reveal clear structural transitions from highly porous membranes containing large macrovoids at lower concentrations (10 wt% and 12 wt%) to denser, sponge-like structures at higher concentrations (15 wt% and 17 wt%). The stress–strain curves (E–H) demonstrate increasingly uniform mechanical responses and enhanced mechanical stiffness as the polymer concentration increases. Shown in Fig. 5B, pore fractions estimated from stress–strain curvefitting tend to decrease with increasing polymer concentration, supporting the formation of denser membranes at higher polymer content. Values above 1 at low concentrations likely result from lateral slippage of the compression pin on soft, low-friction samples, which rotates the cantilever and further compresses the LVDT. Significant scatter and overlap are observed among the different humidity conditions. Unlike the clear humidity-dependent trends observed in elastic modulus, it is difficult to conclude whether there is a correlation between pore fraction and ambient humidity from current data.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "observed in elastic modulus, it is difficult to conclude whether there is a correlation between pore fraction and ambient humidity from current data. This suggests that pore formation may be sensitive to subtle localized variations in solvent-nonsolvent exchange kinetics, potentially amplified by minor fluctuations in experimental parameters and processing steps. Overall, these observations confirm key established behaviors in membrane fabrication using NIPS: higher polymer concentrations consistently produce stiffer and generally less porous membranes, while humidity can also significantly influence the resulting mechanical properties and pore structure [45,46]. However, its effect on porosity may be more variable and cannot be reflected from the current compression data, which may exhibit large variance due to continuous system tuning. A more in-depth analysis will be presented in Section 3.6. 3.5. Effect of polymer concentration on membrane morphology and mechanics Given the observed trend of polymer concentration on the mechanical properties and pore structure of membranes, a detailed examination is warranted. Fig. 6 presents the effect of polymer concentration on membrane morphology and mechanical performance. All samples were fabricated using the automated platform, including polymer solution preparation via the dilution-based approach. Cross-sectional SEM images show a clear morphological transition with increasing polymer concentration.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n preparation via the dilution-based approach. Cross-sectional SEM images show a clear morphological transition with increasing polymer concentration. At 10 wt% and 12 wt%, the membranes exhibit large macrovoids at the bottom, which are a characteristic outcome of rapid demixing during NIPS. As the concentration increases to 15 wt% and 17 wt%, the morphology becomes pure sponge-like as expected from the slower demixing. Shown in Fig. 6 (E–H), these morphological differences are reflected in the mechanical behavior of the membranes. Stiffness, as indicated by the slope of the elastic region, increases with polymer concentration. Compressibility, defined as the extent of deformation under load, decreases, which is consistent with reduced porosity at higher concentrations. The 10 wt% membrane exhibits noticeable variability among the curves, with this intra-sample variability likely due to structural heterogeneity and the presence of large macrovoids. In contrast, membranes fabricated at higher polymer concentrations show more tightly aligned curves, indicating high intra-sample uniformity. These results also reproduce the strong influence of polymer concentration on membrane morphology and mechanical behavior. Lower concentrations lead to rapid phase separation and highly porous morphologies that may enhance water permeability but introduce mechanical variability and weakness [6].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ad to rapid phase separation and highly porous morphologies that may enhance water permeability but introduce mechanical variability and weakness [6]. Higher concentrations may prevent macrovoid formation and promote denser, more uniform structures with greater stiffness and lower compressibility, which are favorable for high-pressure applications, although potentially at the cost of permeability [6]. The ability of the automated platform to reproduce these well-established structure–property relationships further demonstrates its effectiveness and reliability for systematic membrane development. 3.6. Effect of humidity on membrane morphology and mechanics To illustrate the effects of humidity during casting and to demonstrate the ability of the system to control the environmental humidity, Fig. 7 shows the membrane morphologies and the corresponding stress–strain curves under three distinct casting conditions: (1) immediate immersion into the coagulation bath, (2) exposure to ambient humidity at 68% RH for 10 min before immersion, and (3) exposure to a dry nitrogen flow for 10 min before immersion. Higher-magnification images of the compressed membranes, included to better visualize the deformed structures, are provided in the Supplementary Materials for comparison. For membranes directly immersed without intermediate treatments (Fig. 7A–D), the pristine cross-section shows a dense sponge-like morphology without any observable macrovoids (Fig. 7A).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "hout intermediate treatments (Fig. 7A–D), the pristine cross-section shows a dense sponge-like morphology without any observable macrovoids (Fig. 7A). The absence of macrovoids is attributed to pre-existing moisture absorption within the polymer solution, resulting in slower and more uniform demixing upon immediate immersion [47]. After compression (Fig. 7B), the sponge-like porous structure is uniformly compacted without noticeable structural collapse or localized deformation. The top-view SEM image (Fig. 7C) shows a relatively smooth membrane surface but with no visible pores; a small amount of particulate debris is observed. Stress–strain curves (Fig. 7D) show moderate stiffness (modulus 175.9 bar) with a gradually sloping plateau region, suggesting continuous pore collapse without distinct structural transitions. Exposure to high ambient humidity (68 RH%, Fig. 7E–H) significantly alters membrane morphology by premature phase separation of Journal of Membrane Science 738 (2026) 124804",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. SEM images of membrane cross-sections and top views and stress–strain curves under different fabrication conditions with 17 wt% solution: (A–D) direct immersion into the coagulation bath, (E–H) exposure to 68 RH% for 10 min before immersion, and (I–L) nitrogen blowing for 10 min before immersion. (A, E, I) Pristine cross-section images of membranes fabricated. (B, F, J) Cross-section images after compression testing to a maximum stress of 150 bar, (C, G, K) Top-view SEM images reveal surface morphology and pore structures. (D, H, L) Stress–strain curves obtained from compression testing with extracted elastic moduli annotated in red. the polymer solution prior to immersion, as evidenced by the polymer film turning opaque during the humidity exposure step. The pristine cross-section (Fig. 7E) reveals a highly porous cellular structure. This cellular morphology arises from the premature moisture absorption in the polymer solution film, initiating a slow phase separation process [48]. Under compression (Fig. 7F), the cellular pores deform uniformly without localized collapse. The top-view SEM image (Fig. 7G) shows no visible surface pores; the white debris present is likely due to surface contamination. Stress–strain curves (Fig. 7H) exhibit a stiffer elastic region (modulus 286.0 bar) followed by a distinctively flat plateau region, indicative of uniform pore collapse and low structural resistance of the large cellular pores.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "0 bar) followed by a distinctively flat plateau region, indicative of uniform pore collapse and low structural resistance of the large cellular pores. Membranes subjected to dry nitrogen exposure (Fig. 7I–L) exhibit the formation of finger-like macrovoids beneath a dense sponge-like skin layer (Fig. 7I). Dry nitrogen treatment effectively removes residual moisture from the polymer film, promoting faster solvent evaporation and facilitating rapid solvent-nonsolvent exchange upon immersion [6,49]. Post-compression cross-sectional imaging (Fig. 7J) reveals that structural deformation predominantly occurs within these macrovoid regions, which collapse adjacently and stack under compressive load. This pore collapse mechanism may create localized resistance, redistributing the stress and concentrating it at curved or folded pore boundaries. Additionally, the lateral collapse and buckling of fingerlike pores may redirect compressive forces into in-plane shear. Such stress concentration and redistribution can likely enhance local stiffness (modulus 272.2 bar) and overall mechanical strength, as suggested by the corresponding stress–strain curves (Fig. 7L). This observation is contradictory to the established notion that macrovoids typically degrade mechanical performance under high-pressure conditions [50]. The top-view SEM image (Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "y to the established notion that macrovoids typically degrade mechanical performance under high-pressure conditions [50]. The top-view SEM image (Fig. 7K) reveals a highly uniform porous membrane surface, indicating that the reduced humidity from dry nitrogen treatment promotes desirable surface porosity, which is beneficial for enhancing membrane permeability in filtration applications. These results highlight the critical impact that humidity has on the membrane morphology and corresponding mechanical properties during NIPS fabrication. Immediate immersion without intermediate treatments results in dense, sponge-like membranes with generally high stiffness but limited surface porosity. Exposure to elevated humidity promotes premature phase separation, forming large cellular pores but reducing mechanical stiffness. In contrast, pre-treatment with dry nitrogen rapidly removes existing moisture in the film, leading to the formation of finger-like macrovoids under a sponge-like skin layer, unexpectedly improving mechanical stiffness despite conventional expectations of macrovoid-induced structural weaknesses. However, this measured stiffness primarily reflects the membrane’s short-term resistance to deformation; long-term performance under sustained high-pressure operation will also depend on time-dependent creep and compaction behavior.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "stance to deformation; long-term performance under sustained high-pressure operation will also depend on time-dependent creep and compaction behavior. Understanding how these localized deformation mechanisms influence membrane durability under operational stress could inform new design strategies that leverage pore geometry for performance optimization. 3.7. Surface pore size distribution of nitrogen-treated membranes Knowing that nitrogen-treated membranes yield desirable surface pore structures, we further quantified how polymer concentration affects these features by conducting a pore size distribution (PSD) analysis. Nitrogen-treated PSf membranes were synthesized using the fully automated platform, which integrates automated dilution and casting steps to ensure precise and consistent sample preparation. For each concentration (10 wt%, 12 wt%, and 15 wt%), PSD measurements were taken at three different surface locations to capture spatial variability. As shown in Fig. 8, the PSD curves consistently shift towards larger diameters and broaden with decreasing polymer concentration. This indicates that membranes made from more dilute polymer solutions tend to exhibit larger and more heterogeneous surface pores, consistent with prior observations in the literature [45]. In addition to PSD, surface porosity was also quantified from the thresholded SEM images (Table 1), showing a systematic decrease with increasing polymer concentration.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", surface porosity was also quantified from the thresholded SEM images (Table 1), showing a systematic decrease with increasing polymer concentration. The consistency of the observed trends across different regions of each membrane highlights the spatial uniformity of the pore formation process under controlled nitrogen exposure and fabrication processes, further demonstrating the reliability and repeatability of the automated platform in maintaining controlled fabrication conditions. Journal of Membrane Science 738 (2026) 124804",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "H. Wang et al.\n\nFig. 8. Surface PSD analysis of nitrogen-treated PSf membranes. (A) Surface PSD of PSf membranes fabricated at 10, 12, and 15 wt% polymer concentrations under 10 min dry nitrogen blow using the automated platform. Each condition includes three measurements taken from different regions. The plot approximates the uncoated pore sizes by correcting for sputter-coatinginduced pore narrowing [34]. The solid lines represent the mean PSD for each condition, and the shaded regions indicate the standard deviations. Surface SEM images of membranes fabricated at (B) 10 wt%, (C) 12 wt%, and (D) 15 wt% polymer concentrations. Binary images of the surface pore structures are presented in the Supplementary Materials. Table 1Surface porosity from SEM images (mean ± standard error; 𝑛= 3). Uncoated values corrected for 1.8 nm sputter coating thickness. Polymer conc.CoatedUncoated 10 wt%11.0 ± 0.218.7 ± 0.5 12 wt%9.2 ± 0.816.9 ± 1.5 15 wt%8.7 ± 0.317.0 ± 0.5",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Conclusion This work presents the development and validation of a highthroughput, fully automated NIPS platform that enables reproducible fabrication and mechanical characterization of polymer membranes. By integrating liquid handling, controlled casting, environmental modulation, and compression testing, the system streamlines membrane synthesis from solution preparation to rapid mechanical screening with minimal human intervention. The modular architecture of the platform allows for precise control over critical fabrication parameters such as polymer concentration and ambient humidity, and supports parallel processing to further increase experimental throughput. Compression testing is used as a practical and sensitive proxy for assessing internal structure and mechanical consistency. The automatic segmentation of stress–strain curves enables extraction of key descriptors such as elastic modulus and pore fraction, which correlate with observed structural features and porosity. Although this method does not directly assess the filtration performance, it provides high-resolution mechanical data that are indicative of membrane uniformity and pore structure. Key findings from this study reproduce established works in which polymer concentration and humidity strongly influence membrane morphology and mechanical properties.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "m this study reproduce established works in which polymer concentration and humidity strongly influence membrane morphology and mechanical properties. Higher polymer concentrations lead to denser sponge-like structures with increased stiffness and uniformity, while humidity impacts pore structure by altering phase separation kinetics. Notably, membranes exposed to dry nitrogen during casting exhibited finger-like macrovoids yet surprisingly high stiffness and strength, suggesting complex micro-mechanical interactions or localized densification during compression. These results highlight the importance of controlling both the formulation and environmental factors to achieve the targeted membrane performance. The platform’s capability for closed-loop experimentation lays the foundation for accelerated membrane development. Its compatibility with algorithmic optimization workflows, including machine learning and active learning strategies, positions it as a valuable tool for exploring complex fabrication spaces. Future work will focus on exploring more fabrication parameters and integrating predictive modeling to guide experimental planning and decision-making, reducing human intervention and biases, and moving towards a fully autonomous system for membrane discovery and optimization. CRediT authorship contribution statement Hongchen Wang: Writing – review & editing, Writing – original draft, Software, Methodology, Investigation, Formal analysis.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "hip contribution statement Hongchen Wang: Writing – review & editing, Writing – original draft, Software, Methodology, Investigation, Formal analysis. Sima Zeinali Danalou: Methodology, Formal analysis. Jiahao Zhu: Methodology. Kenneth Sulimro: Software, Methodology, Investigation. Chaewon Lim: Software, Methodology, Investigation. Smita Basak: Software, Methodology, Investigation. Aimée Tai: Methodology, Investigation. Usan Siriwardana: Software, Methodology, Investigation. Jason Hattrick-Simpers: Writing – review & editing, Supervision, Funding acquisition, Conceptualization. Jay Werber: Writing – review & editing, Supervision, Funding acquisition, Conceptualization. Declaration of Generative AI and AI-assisted technologies in the writing process During the preparation of this work, the authors used ChatGPT (OpenAI) in order to assist with language refinement, rewording, and improving readability. After using this tool, the authors reviewed and edited the content as needed and take full responsibility for the content of the published article. Declaration of competing interest The authors declare the following financial interests/personal relationships which may be considered as potential competing interests: Jay Werber reports financial support was provided by Natural Sciences and Engineering Research Council of Canada (NSERC). Jay Werber is a member of the Early Career Editorial Board for JMS. Given his role, J.W.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Sciences and Engineering Research Council of Canada (NSERC). Jay Werber is a member of the Early Career Editorial Board for JMS. Given his role, J.W. had no involvement in the peer review of this article and had no access to information regarding its peer review. Full responsibility for the editorial process for this article was delegated to another journal editor. All other authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments This work is financially supported by NSERC, Canada through the Alliance Missions program. The authors thank Steve Harrold and Andrew Back of Veolia Water Technology & Solutions for valuable technical feedback. The authors acknowledge the Open Centre for the Characterization of Advanced Materials (OCCAM) at the University of Toronto for providing instrumental support for SEM characterization in this study. The authors thank William Luecke for helping interpret the compression test results and for revising the manuscript. The authors thank Yingxi Wang for refining the graphical abstract. Appendix A. Supplementary data Supplementary material related to this article can be found online at https://doi.org/10.1016/j.memsci.2025.124804. Journal of Membrane Science 738 (2026) 124804",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[21] E. Stach, B. DeCost, A.G. Kusne, J. Hattrick-Simpers, K.A. Brown, K.G. Reyes, J. Schrier, S. Billinge, T. Buonassisi, I. Foster, C.P. Gomes, J.M. Gregoire, A. Mehta, J. Montoya, E. Olivetti, C. Park, E. Rotenberg, S.K. Saikin, S. Smullin, V. Stanev, B. Maruyama, Autonomous experimentation systems for materials development: A community perspective, Matter 4 (9) (2021) 2702–2726, http://dx.doi.org/10.1016/j.matt.2021.06.036.[22] J.A. Ouimet, X. Liu, D.J. Brown, E.A. Eugene, T. Popps, Z.W. Muetzel, A.W. Dowling, W.A. Phillip, DATA: Diafiltration apparatus for high-throughput analysis, J. Membr. Sci. 641 (2022) 119743, http://dx.doi.org/10.1016/j.memsci.2021.119743.[23] P. Vandezande, L.E. Gevers, J.S. Paul, I.F. Vankelecom, P.A. Jacobs, High throughput screening for rapid development of membranes and membrane processes, J. Membr. Sci. 250 (1) (2005) 305–310, http://dx.doi.org/10.1016/j.memsci.2004.11.002.[24] T. Kose, C.P. O’Brien, J. Wicks, J. Abed, Y.C. Xiao, B. Sutherland, A. Sarkar, S.A. Jaffer, E.H. Sargent, D. Sinton, High-throughput parallelized testing of membrane electrode assemblies for CO2 reduction, Catal. Sci. Technol. 12 (2022) 6239–6245, http://dx.doi.org/10.1039/D2CY00873D.[25] G. Tom, S.P. Schmid, S.G. Baird, Y. Cao, K. Darvish, H. Hao, S. Lo, S. PabloGarcía, E.M. Rajaonson, M. Skreta, N. Yoshikawa, S. Corapi, G.D. Akkoc, F. Strieth-Kalthoff, M. Seifrid, A. Aspuru-Guzik, Self-driving laboratories for chemistry and materials science, Chem. Rev.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "wa, S. Corapi, G.D. Akkoc, F. Strieth-Kalthoff, M. Seifrid, A. Aspuru-Guzik, Self-driving laboratories for chemistry and materials science, Chem. Rev. 124 (16) (2024) 9633–9732, http://dx.doi.org/10.1021/acs.chemrev.4c00055, PMID: 39137296.[26] M. Abolhasani, E. Kumacheva, The rise of self-driving labs in chemical and materials sciences, Nat. Synth. 2 (2023) 483–492, http://dx.doi.org/10.1038/s44160-022-00231-0.[27] K.L. Snapp, B. Verdier, A.E. Gongora, S. Silverman, A.D. Adesiji, E.F. Morgan, T.J. Lawton, E. Whiting, K.A. Brown, Superlative mechanical energy absorbing efficiency discovered through self-driving lab-human partnership, Nat. Commun. 15 (2024) 4290, http://dx.doi.org/10.1038/s41467-024-48534-4.[28] S.M. Mennen, C. Alhambra, C.L. Allen, M. Barberis, S. Berritt, T.A. Brandt, A.D. Campbell, J. Castañón, A.H. Cherney, M. Christensen, D.B. Damon, J.E.D. Diego, S. García-Cerrada, P. García-Losada, R. Haro, J. Janey, D.C. Leitch, L. Li, F. Liu, P.C. Lobben, D.W. Macmillan, J. Magano, E. McInturff, S. Monfette, R.J. Post, D. Schultz, B.J. Sitter, J.M. Stevens, I.I. Strambeanu, J. Twilton, K. Wang, M.A. Zajac, The evolution of high-throughput experimentation in pharmaceutical development and perspectives on the future, Org. Process. Res. Dev. 23 (2019) 1213–1242, http://dx.doi.org/10.1021/acs.oprd.9b00140.[29] Z. Ma, P. Cui, X. Wang, L. Li, H. Xu, A. Fisher, D.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ture, Org. Process. Res. Dev. 23 (2019) 1213–1242, http://dx.doi.org/10.1021/acs.oprd.9b00140.[29] Z. Ma, P. Cui, X. Wang, L. Li, H. Xu, A. Fisher, D. Cheng, The integration of artificial intelligence and high-throughput experiments: an innovative driving force in catalyst design, Chin. J. Chem. Eng. (2025) http://dx.doi.org/10.1016/j.cjche.2025.04.012.[30] N. Szymanski, B. Rendy, Y. Fei, R. Kumar, T. He, D. Milsted, M. McDermott, M. Gallant, E. Cubuk, A. Merchant, H. Kim, A. Jain, C. Bartel, K. Persson, Y. Zeng, G. Ceder, An autonomous laboratory for the accelerated synthesis of novel materials, Nature 624 (2023) 1–6, http://dx.doi.org/10.1038/s41586-023-06734-w.[31] A.E. Gongora, B. Xu, W. Perry, C. Okoye, P. Riley, K.G. Reyes, E.F. Morgan, K.A. Brown, A Bayesian experimental autonomous researcher for mechanical design, Sci. Adv. 6 [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] (2020) eaaz1708, http://dx.doi.org/10.1126/sciadv.aaz1708.[32] H. Costa, M. Rocha, G. Andrade, E. Barbosa-Stancioli, M. Pereira, R. Orefice, W. Vasconcelos, H. Mansur, Sol–gel derived composite from bioactive glass–polyvinyl alcohol, J. Mater. Sci. 43 (2008) 494–502, http://dx.doi.org/10.1007/s10853-007-1875-4.[33] Y. Feng, X. Li, Q. Zhang, D. Ye, M. Li, R. You, W.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lyvinyl alcohol, J. Mater. Sci. 43 (2008) 494–502, http://dx.doi.org/10.1007/s10853-007-1875-4.[33] Y. Feng, X. Li, Q. Zhang, D. Ye, M. Li, R. You, W. Xu, Fabrication of porous silk fibroin/cellulose nanofibril sponges with hierarchical structure using a lithium bromide solvent system, Cellulose 26 (2019) 1013–1023, http://dx.doi.org/10.1007/s10570-018-2149-9.[34] S.Z. Danalou, D. Yu, N.R. Sarker, H. Chamani, J.Y. Howe, P.C. Lee, J.R. Werber, From coated to uncoated: Scanning electron microscopy corrections to estimate true surface pore size in nanoporous membranes, 2025, arXiv:2509.16471.[35] R. Thiyagarajan, M.S. Kumar, Enhanced electromagnetic interference shielding effectiveness of an eco-friendly cenosphere-filled aluminum matrix syntactic foam, J. Electron. Mater. 51 (2022) 6951–6963, http://dx.doi.org/10.1007/s11664-022-09925-9.[36] Z. Chen, Nanoindentation of macro-porous materials for elastic modulus and hardness determination, in: Applied Nanoindentation in Advanced Materials, Wiley, 2017, pp. 135–156, http://dx.doi.org/10.1002/9781119084501.ch6.[37] M. Aghajani, S.H. Maruf, M. Wang, J. Yoshimura, G. Pichorim, A. Greenberg, Y. Ding, Relationship between permeation and deformation for porous membranes, J. Membr. Sci. 526 (2017) 293–300, http://dx.doi.org/10.1016/j.memsci.2016.12.048.[38] M. Aghajani, M. Wang, L.M. Cox, J.P. Killgore, A.R. Greenberg, Y. Ding, Influence of support-layer deformation on the intrinsic resistance of thin film composite membranes, J. Membr.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "J.P. Killgore, A.R. Greenberg, Y. Ding, Influence of support-layer deformation on the intrinsic resistance of thin film composite membranes, J. Membr. Sci. 567 (2018) 49–57, http://dx.doi.org/10.1016/j.memsci.2018.09.031.[39] L.J. Gibson, Cellular solids, MRS Bull. 28 (4) (2003) 270–274, http://dx.doi.org/ 10.1557/mrs2003.79.[40] C. Xu, Z. Wang, Y. Hu, Y. Chen, Thin-film composite membrane compaction: Exploring the interplay among support compressive modulus, structural characteristics, and overall transport efficiency, Environ. Sci. Technol. (2024) http://dx.doi.org/10.1021/acs.est.4c01639. Journal of Membrane Science 738 (2026) 124804",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "H. Wang et al. [41] W. Ding, K. Ma, A.E. Childress, Compaction of pressure-driven water treatment membranes: Real-time quantification and analysis, Environ. Sci. Technol. 58 (41) (2024) 18404–18413, http://dx.doi.org/10.1021/acs.est.4c05865, PMID: 39360939.[42] W. Lee, P.K. Kang, A.S. Kim, S. Lee, Impact of surface porosity on water flux and structural parameter in forward osmosis, Desalination 439 (2018) 46–57, http://dx.doi.org/10.1016/j.desal.2018.03.027.[43] R. Miralbes, N. Santamaria, N. Correia, D. Angulo, Influence of strain rate on the Ashby-Gibson parameters of sheet diamond lattice structures, Dyna 98 (2023) 466–473, http://dx.doi.org/10.6036/10721.[44] M. Mcdermott, B. Hendriks, J. Wildberger, S. de Boer, Shaken or stirred? The inconsistencies of manual contrast media dilution in endovascular interventions, Invest. Radiol. Publish Ahead of Print (2023) http://dx.doi.org/10.1097/RLI.0000000000000994.[45] A. Zolfaghari, S.A. Mousavi, R.B. Bozarjomehri, F. Bakhtiari, Gas-liquid membrane contactors: Effects of polymer concentration and solvent type on pore size distribution, J. Membr. Sci. 563 (2018) 813–819, http://dx.doi.org/10.1016/j.memsci.2018.05.034.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[46] S.J. Bohr, F. Wang, M. Metze, J.L. Vukušić, A. Sapalidis, M. Ulbricht, B. Nestler, S. Barbe, State-of-the-art review of porous polymer membrane formation characterization—How numerical and experimental approaches dovetail to drive innovation, Front. Sustain. Volume 4 - 2023 (2023) http://dx.doi.org/10.3389/frsus.2023.1093911.[47] L. Padilha, C. Borges, PVC membranes prepared via non-solvent induced phase separation process, Braz. J. Chem. Eng. 36 (2019) 497–509, http://dx.doi.org/10.1590/0104-6632.20190361s20170132.[48] L. Macedo Baldo, M. Lenzi, D. Eiras, Water vapor permeation and morphology of polysulfone membranes prepared by phase inversion, Polímeros 30 (2020) http://dx.doi.org/10.1590/0104-1428.05820.[49] A. Dehban, F. Hosseini Saeedavi, A. Kargari, A study on the mechanism of pore formation through VIPS-NIPS technique for membrane fabrication, J. Ind. Eng. Chem. 108 (2022) 54–71, http://dx.doi.org/10.1016/j.jiec.2021.12.023.[50] N.Y. Yip, A. Tiraferri, W.A. Phillip, J.D. Schiffman, M. Elimelech, High performance thin-film composite forward osmosis membrane, Environ. Sci. Technol. 44 [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (2010) 3812–3818, http://dx.doi.org/10.1021/es1002555, PMID: 20408540. Journal of Membrane Science 738 (2026) 124804",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011172-main",
+      "title": "Developing and validating a high-throughput robotic system for the accelerated development of porous membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  }
+]

@@ -1,0 +1,857 @@
+[
+  {
+    "content": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters Sarthak Mehta , Hariharan Rajendran , Zandrie Borneman , Kitty Nijmeijer * Membrane Materials and Processes, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology, 5600 MB Eindhoven, the Netherlands\n\nA R T I C L E I N F O Keywords:Membrane dewateringElectro-osmosisElectric double layerPES membranes",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Membrane dewatering is a sustainable way to concentrate biomass without the phase-change penalty of thermal dewatering. Pressure driven dewatering induces fouling, severely reducing flux, and is unsuitable for shearand pressure-sensitive species. Electro-osmotically (EO) driven membrane dewatering circumvents this, but the role of membrane properties is hardly explored. This study investigates how membrane morphology and properties of commercial polyethersulphone (PES) membranes govern EO transport and dewatering performance using an electrical potential as driving force. Higher permeability is observed for feed solutions inducing the highest zeta potential and hydrophilicity at the membrane-liquid interface. As membrane pore radius and surface-to-volume ratio are interconnected, EO per­formance depends on a balance between both. The pore radius must be larger than the Debye length in the pores, but too large pores result in reduced S/V ratios thus inducing weaker interfacial effects. EO membrane dew­atering performance of feeds with dispersed solids (Na-CMC; model biomass) shows the presence of solids in the feed enhances EO flow due to the significantly increased solid-liquid interfacial area available for water trans­port. Depending on its properties, the membrane introduces additional transport resistance, emphasizing the importance of proper membrane selection.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s­port. Depending on its properties, the membrane introduces additional transport resistance, emphasizing the importance of proper membrane selection. When experimentally comparing pressure and electrically driven membrane dewatering, pressure driven dewatering shows severe flux decline with increasing biomass concen­tration due to membrane fouling. Conversely EO permeation accelerates with increasing biomass concentration and much higher concentration factors are obtained. This gives EO-based membrane dewatering a significant advantage over pressure driven processes for the dewatering of biomass-feeds or shearand pressure-sensitive species.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Dewatering is a unit operation commonly employed in the process industry to remove water from a feed solution, typically to concentrate suspended or dissolved solids [1–6]. Of the available dewatering tech­nologies [1,5–8], membrane-based dewatering processes are widely used due to their ability to concentrate products at a molecular level without the high energy penalty of phase transitions [3,9,10]. To make this concrete: A recent study comparing the concentration of potato fruit juice using thermal drying only or a hybrid process combining nano­filtration followed by thermal removal (i.e. evaporation) of the remaining water showed that an initial volume reduction of 53 % using nanofiltration reduces the total energy consumption of the process by 53 % as well [11]. In industrial plants producing dried starch, raising feed concentrations before any thermal step, resulted in 41–46 % reductions in steam demand [12]. Similarly in microalgae utilization studies, typical dryer energy demands are large (e.g., spray drying is roughly 55 kWh per kg dried biomass) [13]. Menon et al. showed that in several cases both energy demand as well as greenhouse gas footprint in an electrically driven electro osmotic dewatering process were both about an order of magnitude lower when compared to thermal dew­atering [14]. Many more examples of processes where membrane-based dew­atering is implemented can be found in e.g.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lower when compared to thermal dew­atering [14]. Many more examples of processes where membrane-based dew­atering is implemented can be found in e.g. food processing (concen­tration of whey [15–17], and fruit juice [17–19]); dewatering of microalgae [2,6,20]; concentration of solids from industrial wastewater [21,22] (water removal from cellulose [23–25]) and dewatering of cell suspensions [26]. Membrane-based dewatering of industrial feeds is achieved by employing different driving forces. This commonly includes pressure",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "* Corresponding author.E-mail address: d.c.nijmeijer@tue.nl (K. Nijmeijer).\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 737 (2026) 124759\n\nAvailable online 29 September 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[20,27] or concentration [2,10,19]. However, a high solid content in the feed causes severe concentration polarization [28,29] and membrane fouling [20,30] leading to a reduced permeability, lower recoveries, and often a lower product quality. Applying an external electric field as an alternative driving force can overcome these limitations: it enhances mass transport, reduces permeation resistance, and improves separation efficiency [23,25,26,31–35]. Furthermore, electrification of dewatering processes allows direct utilization of solar and wind energy, both sustainable sources, reducing greenhouse gas emissions and avoiding any transmission or conversion losses. Most importantly though, is that it avoids energy intensive water evaporation as electrically driven drying methods do not involve a phase transition, and water removal utilizes the movement of charge (ions). The enhancement in water transport under an applied electric field is governed by the phenomenon of electro-osmosis (EO) [14,36–39]. When an electric field is applied across a charged solid–liquid interface, the diffusive region of the electric double layer (EDL) migrates along the field lines. This migration induces a slip to the water layers adjacent to the charged surface, generating an EO flow (Fig. 1). In the context of industrial feeds, such solid-liquid interfaces are present at the membrane surface and around solids in a feed, enabling EO flow to occur across these charged surfaces.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "such solid-liquid interfaces are present at the membrane surface and around solids in a feed, enabling EO flow to occur across these charged surfaces. Since EO flow is induced by electromigration of the EDL, its prop­erties significantly impact the overall EO flow [37,38]. The EDL is composed of counterions from the aqueous medium that are attracted to the charged solid surface, which exerts an electric potential ϕo. The electric potential (Equation (1)) is commonly represented by the zeta potential ζ, which is often used as a figure of merit for EDL formation. ϕ(y) = ϕo⋅e -yλD and ϕ(y) = ζ at y = λD(1) Where ϕ is the electric potential (V) calculated at distance y (m) from the charged surface, ζ is the zeta potential (V) and λD is the Debye length (m), a decay constant for the electric potential. λD is calculated as (Equation (2)): λD = ̅̅̅̅̅̅̅̅̅̅̅̅ε⋅kB⋅T2⋅e2⋅I √",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Where ε is the electromagnetic permittivity (F/m) of the aqueous environment, kB is the Boltzmann constant (J/K), T is the temperature (K), e is the electronic charge (C), and I is the ionic strength of the surrounding solution (M). Following Equation (2), the ionic strength of the surrounding solu­tion inversely impacts the Debye length and the availability of ions in the aqueous medium is thus essential in EDL formation. A higher con­centration of ions in the feed results in the formation of an electrically and structurally denser EDL. This denser EDL can drag adjacent water layers more effectively thus enhancing the achieved EO flow [37]. The use of an electric field as a superimposed [25,26,31,32,35] or stand-alone [23,40,41] driving force has been reported to increase dewatering performance, attributed to the relativistic EO flow of water across charged surfaces. However, current studies that investigate EO driven membrane-based dewatering, still neglect the contribution of membrane properties on the overall dewatering performance, while this information is essential to implement EO driven membrane-based dewatering systems. On a neutral membrane e.g. polyethersulphone (PES), surface charges develop due to acid-base interactions between the components in solution and the functional groups on the membrane, as shown in Fig. 2 [42].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e charges develop due to acid-base interactions between the components in solution and the functional groups on the membrane, as shown in Fig. 2 [42]. This leads to EDL formation along the PES membrane-liquid inter­face, both at the surface and in the pores, with the mobile ions in the diffusive layer migrating along the applied electric field lines, inducing EO flow in the direction of the membrane pores (Fig. 3). The generated EO flow results in permeation of the aqueous medium from the feed side to the permeate side, successfully dewatering the feed solution. Analogous to EDL formation in membrane pores, EDL formation and the associated EO flow can also occur across dispersed micro and nanoscale solids (e.g. biomass) in the feed solution [14,25,36,39,43], as shown in Fig. 4. Unlike pressure driven permeation, EO permeation is less sensitive to membrane fouling and more suitable for shearand pressure-sensitive species as it only allows the relative movement of water without pushing the dispersed solids towards the membrane surface [31,32]. Electric field assisted membrane-based dewatering research shows that applying an electric field improves permeate flux and reduces fouling. For dispersed proteins and microbial feeds, superimposing an electric field over a pressure driven membrane-based dewatering system led to significant reduction in hydraulic resistance and increased permeation [26,32,34].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ield over a pressure driven membrane-based dewatering system led to significant reduction in hydraulic resistance and increased permeation [26,32,34]. Furthermore, superimposing an electric field over a forward-osmosis process for dewatering of microalgae mitigated concentration polarization and fouling [33]. EO dewatering was also highly effective for feeds comprising of dispersed cellulose [23–25]. The enhanced permeation was attributed to EO flow across the cellulose surface and the electrophoretic movement of cellulose in the opposite direction [23–25]. Cellulose fibres with a high degree of fibrillation enhance EO flow even more due to the higher charged surface area available [24]. Membrane modification with conductive carbon nano­tubes to increase the surface charge density also enhances EO flow [31]. Attempts to quantify the effect of membrane morphology and physical properties on EO flow are limited. Earlier work was performed for nucleopore membranes [44], with a well-defined cylindrical pore geometry, leading to a predictable flow. The study concluded that EO flow decreases in both very small pores, due to EDL overlap [45] and very large ones, due to reduced surface influence. However, the typical nucleopore membrane morphology [44], does not extend to most asymmetric commercial membranes prepared via phase separation that have complex interconnected pores, variable pore sizes and variable interfacial properties. Such systematic studies are lacking. Furthermore,",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Materials and methods 2.1. Materials Table 1 summarizes the main characteristics of the PES membranes as use in this study. The membranes were produced by Microdyn-Nadir GmbH (Wiesbaden, Germany) and purchased from Sterlitech Corpora­tion (Washington, USA). Using the molecular weight cutoff (MWCO), the pore radius of the selective layer of the UF membranes was calcu­lated using Equation (3) [48]: rselective = 0.02 ⋅MWCO0.53(3) Where rselective is pore radius of the selective layer (nm), calculated from the MWCO (Da) assuming an equivalent sphere. Unless described differently, before use all membranes were kept in a beaker positioned on a shaker and filled with an excess 1:1 ethanol: water solution for 16 h to remove preservatives. Subsequently, the membranes are thoroughly washed with ultrapure water (UPW) to remove any traces of ethanol. After that the membranes are stored in Ziplock bags with fresh UPW to prevent any pore collapse. Properties of the aqueous feed were varied following the overview provided in Table 2 (all experiments performed at room temperature). Potassium chloride (KCl) was used as salt and purchased from VWR International B.V. (Amsterdam, The Netherlands). Sodium carboxy­methylcellulose (Na-CMC; Merck Life Science N.V. (Amsterdam, The Netherlands)) with a substitution degree of 1.2 and a molecular weight of 250 kDa was used as model solid biomass.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "k Life Science N.V. (Amsterdam, The Netherlands)) with a substitution degree of 1.2 and a molecular weight of 250 kDa was used as model solid biomass. The pH was maintained using hydrochloric acid (HCl) and potassium hydroxide (KOH), both purchased from Fisher Scientific (Landsmeer, The Netherlands).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2. Membrane surface charge and hydrophilicity 2.2.1. Membrane zeta potential The membrane zeta potential was measured using a Zeta Potential Analyser (SurPASS 3, Anton Paar GmbH (Graz, Austria)). The mea­surements were performed with solutions at pH 4, pH 7 and pH 10 (Table 2). As background electrolyte 0.1 mM KCl was added to these solutions to have a minimum conductivity required for the measurements. After removal of preservatives, the membrane was prewetted with the measuring solution in a beaker for 16 h. Two rectangular membrane pieces (1 * 2 cm2) were placed opposite each other using double sided tape in the gap height cell that is connected to the analyser. The system was first rinsed with the measuring solution, during which the gap be­tween the two membrane pieces was fixed to a gap height of 110 μm\n\nFig. 2. Structure of polyethersulphone (PES) and corresponding charge formation in contact with an aqueous medium [42].\n\nFig. 3. Electromigration of the EDL formed along the negatively charged membrane pore walls (red) under an applied electric field, driving EO flow through the membrane pores.\n\nTable 1 Commercial PES membranes with different pore size and molecular weight cutoff (MWCO) used in this research. Accompanied with size of pores in the selective layer of UF membranes. MembraneTypeMWCO [kDa]Pore radius [nm] UP010UF102.7UP020UF203.9UP150UF15011.3MP050MF–25a a Datasheet Microdyn-Nadir.\n\nS. Mehta et al. Journal of Membrane Science 737 (2026) 124759",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(optimum conditions as suggested in the user manual). Subsequently, a twenty-cycle streaming current measurement was conducted for a pressure range between 200 and 600 mbar. After stabilization, the last five values were averaged to obtain a singular zeta potential reading for the membrane under investigation at specific solution pH. 2.2.2. Membrane contact angle Membrane contact angle measurements were conducted with the aqueous solutions of different pH (Table 2), to evaluate the interfacial interactions and their corresponding role in EO flow. To perform these measurements, circular pieces of the membranes under study (diameter = 20 mm) were cut and dried in a vacuum oven at 60 ◦C for 24 h. Subsequent contact angle measurements were conducted using a Goni­ometer DSA30 Standard (drop shape analyser) from Krüss GmbH (Hamburg, Germany). The dry membrane under investigation was placed in the system and a droplet with a volume of 2 μL was placed on the membrane surface using an actuator-controlled Hamilton syringe. The image of the droplet shape was captured and processed using the systems software (Advance; version 1.18) to determine the contact angle.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.3. Membrane morphology 2.3.1. Scanning electron microscopy Scanning electron microscopy (SEM) was used to visualize the membrane morphology. After removal of the preservatives using water/ ethanol and subsequent washing in water, the wet membranes were first submerged in liquid nitrogen, followed by cryogenic fracturing. Small membrane samples were cut and stuck on metal sample holders using carbon tape. The samples were then sputter-coated using a JFC-2300 HR sputter coater (JEOL Europe B.V., Nieuw-Vennep, The Netherlands) with Pt at 40 mA for 120s. The morphology of different membranes was analysed using a scanning electron microscope (JSM-IT100; JEOL Europe B.V., Nieuw-Vennep, The Netherlands) at an accelerating voltage of 10.0 kV. 2.3.2. Membrane specific surface area The specific surface area of the membranes was extracted from adsorption-desorption measurements. The measurements were per­formed using a Tristar II Plus (Micrometrics B.V. (Eindhoven, The Netherlands)). Circular pieces of the membranes (diameter = 20 mm) were cut. Prior to measurements, the membranes were dried in a vac­uum oven at 60 ◦C for 24 h and further degassed in the system at 80 ◦C for 2 h. Adsorption and desorption isotherms were recorded at 77 K using nitrogen gas (grade 5.0.) The Brunauer–Emmett–Teller (BET) theory was used to calculate the specific surface area (m2/g) [49] extracted from the linear regime of the physisorption isotherms. 2.3.3.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "eller (BET) theory was used to calculate the specific surface area (m2/g) [49] extracted from the linear regime of the physisorption isotherms. 2.3.3. Membrane volume porosity Membrane volume porosity was used to estimate the total pore volume of the membranes. UPW wet circular membranes pieces with a diameter of 20 mm were cut. The membranes were gently dried with a tissue to remove excess water. The wet thickness and weight of the membranes was recorded using a screw gauge and an analytical balance, respectively.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The wetted membranes were then placed in a vacuum oven at 60 ◦C for 24 h to remove all water from the membrane. After that, the dry thickness and dry weight of the membranes was recorded using a screw gauge and an analytical balance, respectively. The weight of the wet and the thickness and weight of the dried membrane was used to calculate the membrane volume porosity (%) using Equation (4): Volume porosity = Wwet -Wdry ρ⋅A⋅l⋅100(4) Where wwet (g) is the wet weight of the membrane, wdry (g) is the dry weight of the membrane, ρ (g/m3) is the density of water, A (m2) is the membrane area, and l (m) is the thickness of the dried membrane. The product of A and l represents the bulk volume of the membrane. The specific pore volume of the membranes (m3/g) can then be calculated using Equation (5): Specific pore volume = Volume porosity ⋅A ⋅lWdry\n\n(5)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Using the specific surface area as obtained from adsorptiondesorption measurements and the specific pore volume, the average pore radius (m) was calculated using Equation (6) assuming a cylindrical pore geometry. Average pore radius = 2⋅Specific pore volumeSpecific surface area(6) 2.4. Solution characteristics Solution pH and conductivity were measured using an Extech EC600 pH and conductivity meter purchased from Conrad Electronic SE (Hir­schau, Germany). A Dionex Aquion ion chromatography system (Thermo Fisher Scientific, Eindhoven, The Netherlands) was used to measure cation compositions of the feed and permeate solutions. In case of solutions with dispersed solids (Na-CMC), total organic carbon in the feed and the permeate was measured using a TOC-L pur­chased from Shimadzu (Den Bosch, The Netherlands), quantifying the effective concentration achieved due to EO dewatering. Similarly, the zeta potential of the dispersed solid solutions was also measured to quantify the surface charges on the polymeric chains. This was done using a zeta potential analyser (Litesizer 500; Anton Paar GmbH (Graz, Austria)). The measurement was conducted with an aqueous solution of pH 10 with solid (Na-CMC) concentrations of 0.0005, 0.001 and 0.005 wt%. The measurements were performed at these concentrations to exclude the effect of charge screening between polymeric chains sup­pressing surface charges, thereby deviating from the actual zeta poten­tial values.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "xclude the effect of charge screening between polymeric chains sup­pressing surface charges, thereby deviating from the actual zeta poten­tial values. All experiments were performed in triplicate and the average value of the three measurements was taken as the zeta potential. 2.5. Electro-osmotic dewatering performance The EO performance of the different membranes from the feed side (FS) to permeate side (PS) was investigated using the setup presented in Fig. 5. The membrane under investigation was placed in a ring insert with an inner diameter of 47 mm. The insert was then placed between two half cells both containing a platinised-titanium mesh electrode 5 mm apart from the membrane. These electrodes were connected to a DC power supply (PSW800–1.44; Good Will Instrument Euro B.V. (Veld­hoven, The Netherlands)) to apply the required potential. No mechan­ical pressure was applied. Due to the polarity of the EDL (explained in subsequent sections) EO flow occurred from cathode to anode and the cathodic half of the cell is thus referred to as feed side while the anodic half-cell is denoted as the permeate side. The two half cells were connected to the feed and permeate reser­voirs, each containing 500 mL of the selected aqueous solution. The solutions were circulated at a flow rate of 150 mL/min from the feed and",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 2 Composition and properties of the aqueous feed solutions used (in all cases, demineralized water was used to prepare the solutions). pHSolution descriptionDispersed solid concentration [wt.%] 40.1 mM HCl acid–7Demineralized water–100.1 mM KOH base–100.1 mM KOH base with Na-CMC0.05100.1 mM KOH base with Na-CMC0.1 S. Mehta et al. Journal of Membrane Science 737 (2026) 124759 permeate reservoirs to their respective half cells using a double headed Masterflex L/S pump to continuously refresh the feed and permeate solutions. In case of aqueous solutions without dispersed solids, both feed side and permeate side had the same aqueous solution to avoid any osmotic effect. When solutions with model dispersed biomass were used, the feed side was as mentioned and the permeate side was a pH 10 solution. To avoid pulsation or pressure spikes due to pumping, a double headed peristaltic pump was used to circulate the respective solutions, thus dampening the pulsating effect of the pumps. A blank measurement (i.e., without applying any electric potential) was run for 12 h, to ensure that there is no contribution of any transient pressure spikes to flow. Also, the feed and permeate tubings were connected to each of the heads of the double headed pump that operate in sync. Any pulsating effect generated would thus be simultaneously experienced in the feed and the permeate side, thereby nullifying its contribution on the EO flow.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ating effect generated would thus be simultaneously experienced in the feed and the permeate side, thereby nullifying its contribution on the EO flow. Lastly, while the electrodes were placed at a distance of 5 mm from the mem­brane, the cell depth is much larger, i.e. 25 mm. This cell was also connected to the outlet tubing that leads back to the reservoir which was at atmospheric pressure. The excess solution in the cell and its connec­tion to the outlet thus further dampen any pulsating effect. Following these precautions, no transient pressure gradients in the cell were observed and the effect of the pumps on the measured EO flow can be neglected. The permeate and feed reservoirs were weighed before each exper­iment. Furthermore, during the measurement, the weight of the permeate reservoir was continuously monitored. After 15 min of stabi­lization, a DC potential (100, 200, or 300 V) was applied and the cor­responding current values and permeation weight were recorded for 6 h using a computer. The corresponding concentration factors are calcu­lated as the ratio of the initial feed volume and the final feed volume. 2.6. Pressure driven dewatering performance A circular piece (diameter = 20 mm) of the selected membranes was placed in an in house made dead end stirred filtration cell. The cell was stirred at a speed of 400 rpm to establish a well-mixed solution. The cell was connected to a reservoir comprising the feed solution.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ll. The cell was stirred at a speed of 400 rpm to establish a well-mixed solution. The cell was connected to a reservoir comprising the feed solution. The cell and reservoir were pressurized at 3 bar using nitrogen gas. A solution con­taining model biomass (Na-CMC) was used as feed. The pressure driven permeability was monitored in time for 2 h reaching a constant permeability, which was reported. The subsequent concentration factor is calculated as the ratio of the initial feed volume and the final feed volume. 3. Results and discussion 3.1. Membrane surface charge, hydrophilicity and solution characteristics The zeta potential is an indirect way to quantify EDL formation at the membrane-aqueous interface [50]. It yields information about charge formation on a surface in contact with an aqueous medium of a certain pH. Higher zeta potential values can be interpreted as a well-developed EDL, enhancing EO flow. Like the zeta potential, the contact angle is an effective method to analyse (hydrophilic or hydrophobic) interfacial interactions at the solid-liquid interface. Such interactions occur due to the presence of surface charges on the membrane and the counterion in the aqueous medium [50]. A lower contact angle means a more hydrophilic surface that induces spreading and wetting of an aqueous medium over the membrane surface.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "medium [50]. A lower contact angle means a more hydrophilic surface that induces spreading and wetting of an aqueous medium over the membrane surface. Since EO flow is driven by the movement of water layers adjacent to the membrane surface, the spreading and structure of water layers has significant impact on the EO performance [51]. The measured zeta potentials and contact angles for the different PES membranes wetted with aqueous solutions at different pH values are reported in Table 3. Values reported in this table are for the UP150 membrane. Similar values are obtained for the other three membranes and are reported in Tables S1, S2, and S3 in the Supporting Information. The tables show that all membranes have similar zeta potential and contact angle values, despite possible differences in surface porosity and roughness of the different membranes. Obtained zeta potentials are negative, indicating negative surface charges and polarity of the mem­branes for all three pH values. This is attributed to the acid-base re­actions of the sulphone group in the membrane polymer structure (Fig. 2). The increasing trend in the absolute value of the zeta potential with increasing pH is attributed to a higher number of OH-ions present in the aqueous solution at higher pH [50,52]. This leads to increased surface adsorption of OH-on the membrane surface thereby increasing the surface charge formation and thus the zeta potential.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This leads to increased surface adsorption of OH-on the membrane surface thereby increasing the surface charge formation and thus the zeta potential. Similarly, the lowest contact angle is observed for the membranes wetted with a pH 10 solution (θ = 66◦), representing more hydrophilic interactions with the membrane compared to the lower pH solutions. The higher charge density on the solid surface (i.e. higher absolute zeta potential value) and of the wetting phase (i.e. ionic strength I = 0.1 mM for pH 10) at these conditions creates polar interactions due to Coulombic attraction, leading to lower (i.e. more hydrophilic) contact angles [51,53]. In case of pH 4 and 7, the contact angle values are relatively similar (θ = 76◦and θ = 82◦, respectively). While a pH 4 solution has a higher ionic strength (I = 0.1 mM), the corresponding absolute membrane zeta potential is low (ζ = -5.1 mV). Oppositely, in the case of a pH 7 solution, the ionic strength is low (I = 0.0001 mM), but the zeta potential is moderately high (ζ = -28.9 mV). This discrepancy between the ionic composition in the aqueous solution and the charge on the membrane surface reduces the polar interactions between the two phases. Due to the lack of membrane surface charges in case of pH 4 and the lack of ionic charges in the wetting liquid at pH 7, both show less hydrophilic",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S. Mehta et al. Journal of Membrane Science 737 (2026) 124759 behaviour at similar contact angle. 3.2. Membrane morphology To correlate the EO performance to the structural membrane char­acteristics, morphological membrane characterizations with the selected membranes were performed. Fig. 6 shows the cross-sectional SEM im­ages of the different membranes used. As generally known and visible in the SEM images, all membranes have a thin, denser, selective top layer and a porous membrane sub­structure. In addition, all membranes contain a polypropylene backing material (not visible in the SEM images) that sometimes hinders smooth cryogenic breaking of the membrane samples resulting in somewhat irregular cross sections (i.e. UP010 and UP020). Despite that, all mem­branes show a very similar morphology with, next to the top layer a significant amount of macrovoids present in the substructure. Table 4 reports quantitative characterization data of the different membranes as extracted from adsorption-desorption and volume porosity measurements. The experimental adsorption-desorption iso­therms used to extract the specific surface area are provided in Fig. S1 in the Supporting Information. Important to mention here is that the pore radius reported earlier (Table 1) is the pore radius obtained from the MWCO values and thus characterizes the selective part of the pores in the membrane.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "us reported earlier (Table 1) is the pore radius obtained from the MWCO values and thus characterizes the selective part of the pores in the membrane. The pore radius mentioned below in Table 4 is the average value of the pore radii of the total membrane, as calculated using Equation (6). A high interfacial area is essential to allow maximum EDL formation leading to higher electromigration and corresponding EO flow [38]. The interfacial area is reported as specific surface area. The highest specific surface area (10.3 m2/g) is measured for the UP010 membrane. This membrane also clearly has the smallest average pore radius relative to the other three membranes (to be discussed below). The specific surface area of the other three membranes is rather similar and no distinct trend can be observed. This most probably originates from the porous bulk structure omnipresent in all membranes, generating only small differences. The membrane volume porosity provides a similar perspective with clearly the lowest value obtained for the membrane with the smallest average pore size, while for the other membranes it increases with increasing pore size or MWCO, similar to literature [54], although dif­ferences are small. A high volume porosity implies more water is present in the membrane structure. Although intrinsically beneficial, it may reduce EO flow due to the dissipation of momentum imparted by the EDL slip to a larger volume of water [37].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Although intrinsically beneficial, it may reduce EO flow due to the dissipation of momentum imparted by the EDL slip to a larger volume of water [37]. To better interpret the com­bined influence of specific surface area (S) and specific pore volume (V), the S/V ratio is also reported in Table 4. Following the analysis of the specific surface area and specific pore volume data, the S/V ratio of the membrane with the smallest pore size has a distinctively higher S/V ratio than the other three membranes, which show similar S/V ratios. The S/V ratio, while of no significance to pressure or concentration-driven membrane permeation, is an essential property for EO flow in membrane pores. The S/V ratio quantifies the effective charged interfacial area available for the volume of water present in the porous membrane. A higher S/V ratio thus represents more efficient momentum transfer from electromigration of the EDL to the surrounding fluid [37]. Since EO flow occurs through membrane pores everywhere in the membrane (so not only in the selective membrane top layer), the average pore radius is a key parameter for assessing EO performance. Table 4 also shows the average pore radius of the different membranes investigated.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "erage pore radius is a key parameter for assessing EO performance. Table 4 also shows the average pore radius of the different membranes investigated. To clarify, the reported values are not representative for the actual pore radius of the selective top layer of the membranes: The average pore radii reported here are average values of all the pores in the total bulk membrane, thus covering the selective but also the support layer. Consequently, the average pore radius in Table 4 is at least an order of magnitude larger than the pore radius of the selective layer as characterized by e.g. the MWCO of a specific membrane (Table 1). Following the discussion above, as the average pore radius follows from twice the ratio of the specific pore volume and the specific surface area, the lowest average pore radius is reported for the UP010 mem­brane, which also has the lowest MWCO value. The highest average pore size is clearly calculated for the only microfiltration membrane in the series (MP050), whereas the other two membranes (UP020 and UP150) have very comparable values that are, due to the large contribution of the substructure, still rather close to that of the MP050 membrane. 3.3. Electro-osmotic dewatering performance 3.3.1. Effect of applied potential A negative membrane surface charge (as shown in Table 3) leads to a positively charged EDL at the solid-liquid interface.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Effect of applied potential A negative membrane surface charge (as shown in Table 3) leads to a positively charged EDL at the solid-liquid interface. Upon application of an electric field, the EDL electromigrates parallel to the surface in the direction of the electric field dragging adjacent water layers along leading to EO flow. Fig. 7 shows the generated EO flow expressed as electro-osmotic permeate volume at different applied electric potential values as a function of time for the porous UP150 membrane. As expected, the amount of EO permeate through the membrane increases in time. With increasing electrical potential, also the volume of permeate in time increases due to the higher driving force and with that enhanced electromigration of the EDL [14,38]. Obviously, the highest permeate volume in time is obtained when a potential of 300 V is used. The inclination of the volume-time curves quantifies the EO flowrate. For all three applied potentials, a steeper inclination in the first 15 min is observed, which tapers to a lower value for the remaining duration of the experiment. To analyse this effect, the K+ concentration was measured at 100, 200 and 300 V for pH 10 feed and permeate before and after the EO experiments. The K+ concentration was chosen as at pH 10 aqueous",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. Cross-sectional SEM images of selected membranes with a) UP010; b) UP020; c) UP150, and d) MP050. Magnification: 1000*.\n\nTable 4 Specific surface area, volume porosity, specific pore volume, surface to volume (S/V) ratio and average pore radius of the selected membranes. MembraneSpecific surface area (S) [m2/g] Volume porosity [%]\n\nUP01010.3280.5618.3109UP0203.1440.833.8532UP1504.7461.064.5449MP0503.2541.162.8723",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S. Mehta et al. Journal of Membrane Science 737 (2026) 124759 feeds containing KOH are used. The results are summarized in Table 5. Table 5 elucidates a loss of K+ ions from the feed and simultaneously a gain of K+ ions in the permeate, confirming the transport of K+ ions from feed to permeate in time. While at 300 V the mass balance fits, for lower voltages there is a significant difference between loss and gain. We assume this originates from adsorption of K+ ions on the charged membrane surface, which do not have sufficient momentum to desorb again due to the lower electrical driving force. To further investigate the transport of ions during EO, for the experiment performed at 300V, starting from a set initial pH value (4, 7 and 10) in feed and permeate, the final pH in feed and permeate was measured (Table 6). Since the membranes are negatively charged, K+ ions from the aqueous feed form the EDL at the membrane interface and are pulled along the electric field lines. The initially observed high inclination in slope for all three applied electric potentials is attributed to the startup phase where electromigration is driven by these K+ ions in the EDL. Continuous migration of K+ ions from feed to permeate leads to K+ ion depletion in the feed.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e electromigration is driven by these K+ ions in the EDL. Continuous migration of K+ ions from feed to permeate leads to K+ ion depletion in the feed. Simultaneously, the electrode reaction at the anode produces H+ ions that, under the influence of and electric po­tential, will, once produced, also migrate in the direction of the electric field lines towards the oppositely charged cathode. After depletion of K+ ions, EDL formation is thus taken over and governed by H+ ions. The EDL composition shifting from K+ ions to H+ ions also explains the change in slope visible in Fig. 6. This originates from the difference in EO drag coefficient between K+ and H+: Earlier work reveals that the electro-osmotic drag coefficient depends on the type of cation [55], with H+ ions having a significantly lower EO drag coefficient and conse­quently a lower amount of water being dragged than K+ ions. This excess of H+ ions in the feed after EO is also confirmed by the pH measurements (Table 6) showing that the feed solutions become more acidic. This highlights that EO performance not only depends on the applied electric potential but also on the type of ions available at the interface. A decrease in the local pH of the feed can also reduce the surface charge formation on the membrane and consequently, EO flow. This is further elaborated on in the subsequent section.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "feed can also reduce the surface charge formation on the membrane and consequently, EO flow. This is further elaborated on in the subsequent section. As a side note, to take into account any possible temperature effects of the applied electrical potential, the solution temperature before and after a 6-h experiment conducted at 300V was measured. At that voltage, the applied current was about 24 A/m2. An increase in tem­perature from 21 to 28 ◦C was monitored. This is well within the operational window that most biomass feeds can withstand and of the membranes used (the membrane data sheet of the supplier MicrodynNadir reports a maximum temperature of 95 ◦C for the membranes. 3.3.2. Effect of membrane surface charge EO flow in a porous membrane occurs due to electromigration of the EDL, which itself relies on the membrane surface charge. Since these surface charges are a function of the pH of the surrounding solution, solution properties thus indirectly also impact EO flow. Fig. 8 reports the EO permeability through a UP150 membrane at 300 V for aqueous so­lutions of different pHs. The highest EO permeability is observed for a feed with pH 10. Following the earlier characterizations (Table 3), at those conditions the membrane has both the highest absolute surface charge (ζ = -46 mV) and the strongest hydrophilic aqueous-surface interactions (θ = 66◦).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "onditions the membrane has both the highest absolute surface charge (ζ = -46 mV) and the strongest hydrophilic aqueous-surface interactions (θ = 66◦). As discussed earlier, this enhances EDL formation and spreading of water over the surface, inducing smoother inertial slip with higher EDL elec­tromigration, thus enhancing EO flow [51]. pH 4 and pH 7 feed solutions show similar EO permeation. For pH 4, this is attributed to the low absolute surface charge (ζ = -5 mV), despite the still reasonably hydrophilic membrane surface (θ = 76◦). For pH 7",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. Electro-osmotic permeate volume versus time at different potentials using an aqueous feed of pH 10 for a UP150 membrane.\n\nTable 5 Mass of K+ ions in total feed and permeate, before and after conducting a 6-h EO flow experiment with a UP150 membrane using a pH 10 aqueous feed at different potentials. Applied potential [V]Weight of ions in feed [mg]\n\nWeight of ions in permeate [mg] InitialFinalLossInitialFinalGain 1002.3502.352.353.771.412002.3502.352.354.131.783002.3502.352.354.712.36\n\nTable 6 pH of feed and permeate solutions, before and after conducting an EO flow experiment with a UP150 membrane for 6 h at 300V. pH InitialAfter electro-osmosis Feed/PermeateFeedPermeate 1051075843.57.5\n\nFig. 8. Electro-osmotic permeability through a UP150 membrane at an applied potential of 300 V for aqueous feeds with different pH values.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S. Mehta et al. Journal of Membrane Science 737 (2026) 124759 this originates from the less hydrophilic membrane surface (θ = 82◦), irrespective of the higher surface charge (ζ = -29 mV). Membrane zeta potential (surface charge) and contact angle (hydrophilicity) are thus critical metrics in selecting membranes for electro-osmotic dewatering, and at given pH and ionic strength, membranes with the highest zeta potential and most hydrophilic character are thus preferred. 3.3.3. Effect of membrane morphology As EDL formation and EO flow occur over charged surfaces, the morphology and structure in the membrane pores play a major role. The average pore radius, specific surface area (S) and volume porosity (V) as reported in Table 4 are tools to quantify these properties. Fig. 9 presents the relationship between the EO permeability (X-axis) and the average pore radius (left Y-axis) and S/V ratio (right X-axis) of the different membranes using an aqueous feed at pH 10 and an electrical potential of 300 V. Fig. 9 clearly elucidates a balance between average pore radius and S/V ratio in terms of EO permeability. For the membranes investigated, a small pore size (UP010) comes with a high S/V ratio, together resulting in a low EO permeability. For EO flow to occur, the ratio of the pore radius relative to the Debye length is critical. EDL overlap, i.e.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "her resulting in a low EO permeability. For EO flow to occur, the ratio of the pore radius relative to the Debye length is critical. EDL overlap, i.e. the overlap of the Debye length (λD [m]) and the pore radius (r [m]) occurs when the Debye length is comparable to or larger than the channel width. This is defined as the overlap condition (Equation (7)) [56]: rλD ≲1(7) For all membranes in contact with the aqueous solution of an ionic strength of 0.1 mM the EDL has an estimated Debye length of 30 nm (Equation (2)). For the UP010 membrane, this implies that r/λD = 3.6, which thus is close to the EDL overlap regime hindering EO flow. As the pore radius approaches the Debye length, the ions in the pore experience strong coulombic forces and steric exclusion which can reduce the mobility of ions [57]. This reduces electromigration of the EDL and consequently EO flow. The low EO permeability of the UP010 mem­brane is thus dictated by the small pore size. Only when r/λD > 10 effective bulk EO flow can occur [57–59]. The other three membranes all have an r/λD value well above 10 (UP020 =17.7; UP150 = 15.0; MP050 = 24.1), diverging away from the EDL overlap condition and minimizing reduction in ionic mobility. This is reflected in the significantly higher EO permeability for these mem­branes. The membrane with the largest average pore size (MP050) does not have the highest EO flow though: Due to its high average pore size, this membrane has a relatively low S/V ratio.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "t average pore size (MP050) does not have the highest EO flow though: Due to its high average pore size, this membrane has a relatively low S/V ratio. Due to this, the charged area available for EO flow is relatively low compared to the amount of volume occupied by the aqueous liquid. Furthermore, the electric po­tential exerted by the pore surface is not significant across the entire pore distance, both reducing the corresponding EO flow. For the highest EO flow through the membranes there thus exists a balance between average pore size and S/V ratio, as also well visible in Fig. 9 where the highest EO permeability is obtained for membranes with an intermediate average pore size and S/V ratio, i.e for the UP020 and UP150 membrane. It is important to note here that the ionic strength of the feed and permeate stream at the start of the experiment is indeed 0.10 mM giving a well-defined Debye length of 30 nm. Due to EO flow during the experiment, the ionic strength in the feed decreases, giving a higher Debye length, However, when calculating the Debye length, it is not possible to take into account the course of the experiment or local var­iabilities in ionic strength. If we resort to an ‘average’ ionic strength of the two solutions at the end of the experiment of 0.055 mM (feed: 0.01 mM; permeate 0.10 mM), the corresponding Debye length would be 40 nm. The ionic current represents the movement of ions from feed to permeate, accounting for electromigration of the EDL [14,36].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ye length would be 40 nm. The ionic current represents the movement of ions from feed to permeate, accounting for electromigration of the EDL [14,36]. The conclusions above are indeed confirmed when the current readings recorded for these experiments are considered (Fig. S3 in the Supporting Information): The current-time plots for the four membranes follow the same order, with the UP010 having the lowest current, followed by the MP050 and the UP020 membrane, and the UP150 membrane shows the highest current i.e. the highest ion transport. As a side note, it is relevant to mention here that in regular mem­brane processes with these PES membranes, separation is governed by the selective top layer pores (for example characterized by the MWCO; Table 1). These pores fall within the EDL overlap regime [56,58], and physically EO flow through these pores is thus restricted. As the mem­branes do show EO flow though, it is plausible that this is governed by the larger pores of the support layer and EO flow in the support layer draws water through the selective top layer. EO in the selective layer pores may still occur but is expected to be minor. The results demonstrate that EO performance is dependent on membrane morphology, with enhanced permeability observed for membranes with a high S/V ratio. Ideally this would thus mean a preference for many but small pores.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rphology, with enhanced permeability observed for membranes with a high S/V ratio. Ideally this would thus mean a preference for many but small pores. However, due to the dependency between S/V ratio and pore size, a high S/V ratio is simultaneously counteracted by EDL overlap, occurring in such very small pores. Membrane morphologies balancing these two aspects are thus preferred offering a high charged surface area and consequently EO flow while circumventing the negative effect of EDL overlap. 3.3.4. Effect of dispersed solids in the feed The primary goal of utilizing EO flow is to efficiently dewater and concentrate feeds with dispersed solids. While there are studies that report the influence of feed composition on the overall flow [14,24,32,36,60], the role of the membrane is not considered. Fig. 10 provides a comparative analysis of the EO performance for membranes tested with a pH 10 aqueous feed solution containing 0.1 wt% Na-CMC as model biomass at an applied potential of 200V. At that pH, the experimentally determined zeta potential of the membranes and Na-CMC is similar, i. e.-46 mV. For comparison, also the results for aqueous feeds without biomass at pH 10 and 200V are presented. A potential of 200V rather than 300V was chosen to prevent the current from exceeding the safe limit opera­tion of the power supply. Moreover, since the molecular weight of NaCMC is 250 kDa, only membranes with pore sizes smaller than that (i. e.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "EO permeability is much higher for feeds containing dispersed solids compared to those without solids. Obviously, the charged surfaces of the dispersed particles contribute very significantly to the total EO flow. To interpret this, it is important to realize that the surface charge of the Fig. 9. Electro-osmotic permeability for membranes with different pore radius at an applied potential of 300 V and for an aqueous feed of pH 10. S. Mehta et al. Journal of Membrane Science 737 (2026) 124759 membranes and the dispersed particles is similar, but that the particle surface area available due to the presence of biomass in the feed is much higher than that of the membrane. Considering that EO transport com­prises of a series of steps, i.e. first through the feed containing the dispersed solids (Fig. 4) and then through the charged membrane pores (Fig. 3), the latter stage can have a significant contribution. Ideally, the contribution of the membrane resistance to the total resistance against EO water transport would be 0 %. For the UP150 and UP020, this contribution is indeed only 5 % and 6 %, respectively, due to the balance between pore size and S/V ratio. For the UP010 membrane though, the resistance contribution of the membrane to EO transport is already 14 %, showing the importance of proper membrane selection for EO dew­atering. To maximize the biomass dewatering rate, the membrane with the highest EO permeability should thus be chosen.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "r membrane selection for EO dew­atering. To maximize the biomass dewatering rate, the membrane with the highest EO permeability should thus be chosen. State-of-art membrane dewatering is usually performed using pres­sure driven membrane processes (e.g. ultrafiltration). To make a first comparison between electrically driven membrane dewatering and a pressure driven counterpart, the experimental electrical dewatering performance at 200V is compared to the pressure driven dewatering performance at 3 bar for the UP150 membrane using a feed solution with a model biomass (Na-CMC) at pH10 and different biomass con­centrations (Fig. 11). In case of pressure driven dewatering, the permeability of water and consequently the dewatering efficiencies drop very significantly with increasing Na-CMC concentration. This is due to biomass involved in­teractions and subsequent fouling of the membrane [30,61], introducing an additional resistance to water transport. Conversely EO permeability increases with increasing concentration of Na-CMC. This is due to the increased charged surface area in the feed relative to the feed volume available for electro-osmotic flow [24]. This much lower deteriorating effect of fouling gives EO based membrane dewatering a significant advantage over pressure driven processes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "flow [24]. This much lower deteriorating effect of fouling gives EO based membrane dewatering a significant advantage over pressure driven processes. To further quantify the effectiveness of EO based dewatering compared to pressure driven water removal, Table 7 reports, amongst others, the concentration factor for both processes and the concentration of solids before and after dew­atering the feed using EO flow using a UP150 membrane at an applied potential of 200 V. Based on these experiments, the specific energy consumption for EO driven dewatering was calculated (Table 8). Depending on the exact biomass concentration, EO has a specific energy consumption of ~230 kWh/m3. This is of similar magnitude as electro-dewatering of e.g. sludge (i.e., ~80 to 400 kWh/m3 [62]). It is about 2 orders of magnitude higher though than that of pressure driven ultrafiltration (i.e., ~0.15 to 2 kWh/m3 [13]). However, EO-driven membrane dewatering can potentially achieve higher concentration factors, reducing reliance on thermal dewatering (with large energy demands of ~700 kWh/m3 [63]), thus leading to overall energy savings. Table 7 indeed shows that much higher volumes of water are removed when an electric potential is used as driving force (e.g. 449 versus 8 mL for an Na-CMC concentration of 0.1 wt%). In the current example a feed pressure of 3 bar was applied, and obviously higher pressures could be chosen to enhance water permeation.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "of 0.1 wt%). In the current example a feed pressure of 3 bar was applied, and obviously higher pressures could be chosen to enhance water permeation. However, that will also induce a stronger fouling tendency, further decreasing the relative water flux. Obviously, the results represent a model comparison to show the inherent advantage of electrical dewatering compared to pressure driven processes. In practice, there are still multiple parameters that need optimization and fine tuning to allow large scale optimization. For example, as reported, a change in pH was observed and, in some cases, we observed some electro-oxidation of feed at the anode. Also, gas evolution reactions at the electrode surface may occur in practice. These aspects can, in specific cases, have impact on the biomass (e.g. dena­turation [64] or changing biomass properties [65]). To prevent elec­trode degradation, the electrodes used in this study are made of platinised titanium. This material is commonly used in electrochemistry as an inert electrode that does not undergo any degradation [66,67]. Visual examination of the membrane after 6 h of operation revealed no damage to the membrane structure. All electrochemical reactions occur at the electrode interface which is, in our experiments, placed at a dis­tance of 5 mm from the membrane. However, in practice, such aspects need careful consideration and e.g. an optimized process design isolating electrode reactions from the biomass.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ne. However, in practice, such aspects need careful consideration and e.g. an optimized process design isolating electrode reactions from the biomass. In this study we characterized the model solids by measuring zeta potential and concentration in feed and retentate. These metrics were chosen as similar characterizations have been used to evaluate the po­tential of real biomaterials for application in EO dewatering. Studies report that dewatering of flax stem improves with increasing solution pH which impacts surface zeta potential [68]. Furthermore, increasing the surface area of biomaterials, directly translating to an increased number of surface charges enhances EO dewatering [24] Increasing biomaterials surface area is analogous to increasing concentration of biomaterials, since both correspond to an increase in charged surface area. Similarly, EO dewatering of sludge improves with increasing initial sludge solids concentration [69]. Obviously, using real biomass feeds comes with",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 10. Electro-osmotic permeability of membranes with different pore sizes for a pH 10 aqueous feed solution with dispersed solids (0.1 wt% Na-CMC) as model biomass at an applied electrical potential of 200 V. For comparison, the results for aqueous feeds without biomass at pH 10 and 200V are also shown.\n\nFig. 11. Electro-osmotic (200V) and pressure (3 bar) driven water permeability using a UP150 membrane for a feed with different Na-CMC concentrations at pH10.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S. Mehta et al. Journal of Membrane Science 737 (2026) 124759 additional challenges in terms of e.g. concentration dependent compressibility or agglomeration, which is, due to its complexity, not taken into account here. 4. Conclusions This study investigates how the morphology and properties of four commercial PES (UP010, UP020, UP150, MP050 (Microdyn Nadir)) membranes determine EO transport and dewatering performance using an electric field as driving force. EO permeation increases with increasing applied potential. A time-dependency was observed and re­veals a two-phase process originating from the type of ions in the EDL: Initially, K+ ions generate a high EO water flow. Upon K+ ion depletion, this is gradually taken over by H+ ions produced by water electrolysis that have a lower electro-osmotic drag coefficient resulting in lower EO water transport. EO water permeability is highest for a pH 10 solution that simulta­neously yields a high absolute zeta potential and high hydrophilicity of the membrane surface. An enhanced permeability is observed for membranes with a high S/V ratio (i.e. many small pores), but this is counteracted by EDL overlap occurring in very small pores. Membrane morphologies balancing these two aspects are thus preferred. Of the membranes used in this study, the UP150 membrane with an average pore size of 449 nm and an S/V ratio of 4.5⋅106 1/m has the highest EO permeability.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "membranes used in this study, the UP150 membrane with an average pore size of 449 nm and an S/V ratio of 4.5⋅106 1/m has the highest EO permeability. Due to the significantly increased solid-liquid interfacial area available for water transport, EO dewatering of feeds containing dispersed solids (Na-CMC) gives significantly higher water permeabilities. Comparison of pressure and electrically driven membrane dewater­ing shows that pressure driven dewatering experiences severe flux decline with increasing biomass concentration due to membrane fouling. EO is accelerated with increasing biomass concentration and much higher concentration factors can be obtained. CRediT authorship contribution statement Sarthak Mehta: Writing – review & editing, Writing – original draft, Visualization, Validation, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Hariharan Rajendran: Investigation, Formal analysis, Data curation. Zandrie Borneman: Writing – review & editing, Supervision, Resources, Project administration, Funding acquisition, Conceptualization. Kitty Nijmeijer: Writing – review & editing, Visualization, Supervision, Resources, Project administration, Funding acquisition, Data curation, Conceptualization.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 7 Feed concentration factor of Na-CMC solutions (pH10) before and after an electrically (200V) and pressure (3 bar) driven membrane dewatering after 2 h of operation. Initial Na-CMC concentration feed (wt.%)\n\nFinal Na-CMC concentration feeda (wt.%) Initial volume feed (mL)\n\nFinal volume feed (mL) Volume of water removed (mL)\n\nConcentration factor feed (-)\n\nElectrically driven water permeation00500374126–0.050.1345001863142.690.100.906500514499.10Pressure driven water permeation00500196304–0.050.051500487131.030.100.10250049281.02 a Experimentally determined from TOC (Total Organic Carbon) measurements.\n\nTable 8 Specific energy consumption for EO driven dewatering based on the experiments performed using model biomass (Na-CMC). Na-CMC concentration (wt.%)Specific energy consumption (kWh/m3) 0.052390.1221 S. Mehta et al. Journal of Membrane Science 737 (2026) 124759",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[11] M. Sj¨olin, P.T. Rajeevalochana, R. Ramesh, K. Johansson, F. Lipnizki, J. Thuvander, Concentration of potato fruit juice from the starch industry using nanofiltration membranes as pretreatment process upstream an evaporator for energy savings, Starch - St¨arke 77 (2025), https://doi.org/10.1002/star.70019.[12] K. Rausch, Starch Starke - 2002 - Rausch - Front End to Backpipe Membrane Technology in the Starch Processing Industry, (n.d.).[13] K.H. Min, D.H. Kim, M.-R. Ki, S.P. Pack, Recent progress in flocculation, dewatering, and drying technologies for microalgae utilization: scalable and lowcost harvesting process development, Bioresour. Technol. 344 (2022) 126404, https://doi.org/10.1016/j.biortech.2021.126404.[14] A. Menon, T.R. Mashyamombe, E. Kaygen, M.S. Mortazavi Nasiri, V. Stojceska, Electro-osmosis dewatering as an energy efficient technique for drying food materials, Energy Proc. 161 (2019) 123–132, https://doi.org/10.1016/j. egypro.2019.02.069.[15] P. Oymaci, P.E. Offeringa, Z. Borneman, K. Nijmeijer, Effect of osmotic pressure on whey protein concentration in forward osmosis, Membranes 11 (2021) 573, https://doi.org/10.3390/membranes11080573.[16] N. Haller, U. Kulozik, Separation of whey protein aggregates by means of continuous centrifugation, Food Bioprocess Technol. 12 (2019) 1052–1067, https://doi.org/10.1007/s11947-019-02275-1.[17] H.N. Blais, K. Schro¨en, J.T.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "continuous centrifugation, Food Bioprocess Technol. 12 (2019) 1052–1067, https://doi.org/10.1007/s11947-019-02275-1.[17] H.N. Blais, K. Schro¨en, J.T. Tobin, A review of multistage membrane filtration approaches for enhanced efficiency during concentration and fractionation of milk and whey, Int. J. Dairy Technol. 75 (2022) 749–760, https://doi.org/10.1111/ 1471-0307.12884.[18] Z. Ma, I.I. Noor, X. Wang, Y. Ren, J. Wang, Q. Wang, J. Gao, X. Gao, H. Liu, A comprehensive review on the recent advances in membrane-based processes for fruit juice concentration, Food Bioprod. Process. 145 (2024) 42–66, https://doi. org/10.1016/j.fbp.2024.02.010.[19] K. Nijmeijer, P. Oymaci, S. Lubach, Z. Borneman, Apple juice, manure and whey concentration with forward osmosis using electrospun supported thin-film composite membranes, Membranes 12 (2022) 456, https://doi.org/10.3390/ membranes12050456.[20] H. Jiang, Q. Zhao, P. Wang, M. Chen, Z. Wang, J. Ma, Inhibition of algae-induced membrane fouling by in-situ formed hydrophilic micropillars on ultrafiltration membrane surface, J. Membr. Sci. 638 (2021) 119648, https://doi.org/10.1016/j. memsci.2021.119648.[21] A.C. Bortoluzzi, J.A. Fait˜ao, M. Di Luccio, R.M. Dallago, J. Steffens, G.L. Zabot, M. V. Tres, Dairy wastewater treatment using integrated membrane systems, J. Environ. Chem. Eng. 5 (2017) 4819–4827, https://doi.org/10.1016/j. jece.2017.09.018.[22] R. Suthanthararajan, E. Ravindranath, K. Chits, B. Umamaheswari, T. Ramesh, S.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "g. 5 (2017) 4819–4827, https://doi.org/10.1016/j. jece.2017.09.018.[22] R. Suthanthararajan, E. Ravindranath, K. Chits, B. Umamaheswari, T. Ramesh, S. Rajamam, Membrane application for recovery and reuse of water from treated tannery wastewater, Desalination 164 (2004) 151–156, https://doi.org/10.1016/ S0011-9164(04)00174-2.[23] J. Wetterling, K. Sahlin, T. Mattsson, G. Westman, H. Theliander, Electroosmotic dewatering of cellulose nanocrystals, Cellulose 25 (2018) 2321–2329, https://doi. org/10.1007/s10570-018-1733-3.[24] A. Hjorth, A. Vøllo Kristiansen, H.H. Øvrebø, H. Theliander, Electro-assisted filtration of microfibrillated cellulose: the impact of the degree of fibrillation, Cellulose 30 (2023) 10097–10116, https://doi.org/10.1007/s10570-023-05517w.[25] N.K. Karna, A. Lid´en, J. Wohlert, H. Theliander, Electroassisted filtration of microfibrillated cellulose: insights gained from experimental and simulation studies, Ind. Eng. Chem. Res. 60 (2021) 17663–17676, https://doi.org/10.1021/ acs.iecr.1c03749.[26] C.-J. Chuang, C.-Y. Wu, C.-C. Wu, Combination of crossflow and electric field for microfiltration of protein/microbial cell suspensions, Desalination 233 (2008) 295–302, https://doi.org/10.1016/j.desal.2007.09.054.[27] R. Bhave, T. Kuritz, L. Powell, D. Adcock, Membrane-based energy efficient dewatering of microalgae in biofuels production and recovery of value added CoProducts, Environ. Sci. Technol. 46 (2012) 5599–5606, https://doi.org/10.1021/ es204107d.[28] S.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "in biofuels production and recovery of value added CoProducts, Environ. Sci. Technol. 46 (2012) 5599–5606, https://doi.org/10.1021/ es204107d.[28] S. Zhang, W. An, R. Li, X. Zhang, H. Ge, H. Liu, Optimization of forward osmotic dewatering on resource utilization of microalgae: a review, Cleanroom Technol. 7 (2025) 10, https://doi.org/10.3390/cleantechnol7010010.[29] A. Giacobbo, A. Moura Bernardes, M.J. Filipe Rosa, M.N. De Pinho, Concentration polarization in ultrafiltration/nanofiltration for the recovery of polyphenols from winery wastewaters, Membranes 8 (2018) 46, https://doi.org/10.3390/ membranes8030046.[30] C. Lu, Y. Bao, J.-Y. Huang, Fouling in membrane filtration for juice processing, Curr. Opin. Food Sci. 42 (2021) 76–85, https://doi.org/10.1016/j. cofs.2021.05.004.[31] S. Wei, L. Du, S. Chen, H. Yu, X. Quan, Electro-assisted CNTs/ceramic flat sheet ultrafiltration membrane for enhanced antifouling and separation performance, Front. Environ. Sci. Eng. 15 (2021) 11, https://doi.org/10.1007/s11783-0201303-4.[32] B. Sarkar, S. DasGupta, S. De, Effect of electric field during gel-layer controlled ultrafiltration of synthetic and fruit juice, J. Membr. Sci. 307 (2008) 268–276, https://doi.org/10.1016/j.memsci.2007.09.029.[33] X. Xu, H. Zhang, T. Gao, J. Teng, Impacts of applied voltage on forward osmosis process harvesting microalgae: filtration behaviors and lipid extraction efficiency, Sci. Total Environ. 773 (2021) 145678, https://doi.org/10.1016/j.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "process harvesting microalgae: filtration behaviors and lipid extraction efficiency, Sci. Total Environ. 773 (2021) 145678, https://doi.org/10.1016/j. scitotenv.2021.145678.[34] S. Oussedik, D. Belhocine, H. Grib, H. Lounici, D.L. Piron, N. Mameri, Enhanced ultrafiltration of bovine serum albumin with pulsed electric field and fluidized activated alumina, Desalination 127 (2000) 59–68, https://doi.org/10.1016/ S0011-9164(99)00192-7.[35] B. Venkataganesh, A. Maiti, S. Bhattacharjee, S. De, Electric field assisted cross flow micellar enhanced ultrafiltration for removal of naphthenic acid, Sep. Purif. Technol. 98 (2012) 36–45, https://doi.org/10.1016/j.seppur.2012.06.017.[36] S. Banerjee, S.E. Law, Electroosmotically enhanced drying of biomass, IEEE Trans. Ind. Appl. 34 (1998) 992–999, https://doi.org/10.1109/28.720439.[37] J.G. Santiago, Electroosmotic flows in microchannels with finite inertial and pressure forces, Anal. Chem. 73 (2001) 2353–2365, https://doi.org/10.1021/ ac0101398.[38] R. Saini, M. Kenny, D.P.J. Barz, Electroosmotic flow through packed beds of granular materials, Microfluid. Nanofluidics 19 (2015) 693–708, https://doi.org/ 10.1007/s10404-015-1594-0.[39] G. Chen, K.C.K. Lai, I.M.C. Lo, Behavior of electro-osmotic dewatering of biological sludge with salinity, Separ. Sci. Technol. 38 (2003) 903–915, https://doi.org/ 10.1081/SS-120017633.[40] W. Chen, J.-H. Yuan, X.-H.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ring of biological sludge with salinity, Separ. Sci. Technol. 38 (2003) 903–915, https://doi.org/ 10.1081/SS-120017633.[40] W. Chen, J.-H. Yuan, X.-H. Xia, Characterization and manipulation of the electroosmotic flow in porous anodic alumina membranes, Anal. Chem. 77 (2005) 8102–8108, https://doi.org/10.1021/ac0513055.[41] S.A. Miller, V.Y. Young, C.R. Martin, Electroosmotic flow in template-prepared carbon nanotube membranes, J. Am. Chem. Soc. 123 (2001) 12335–12342, https://doi.org/10.1021/ja011926p.[42] N.A. Alenazi, M.A. Hussein, K.A. Alamry, A.M. Asiri, Modified polyether-sulfone membrane: a mini review, Des. Monomers Polym. 20 (2017) 532–546, https://doi. org/10.1080/15685551.2017.1398208.[43] S. Visigalli, A. Turolla, P. Gronchi, R. Canziani, Performance of electro-osmotic dewatering on different types of sewage sludge, Environ. Res. 157 (2017) 30–36, https://doi.org/10.1016/j.envres.2017.05.015.[44] K. Kobayashi, M. Iwata, Y. Hosoda, H. Yukama, Fundamental study of electroosmotic flow through perforated membrane, J. Chem. Eng. Jpn. 12 (1979) 466–471, https://doi.org/10.1252/jcej.12.466.[45] S. Das, A. Guha, S.K. Mitra, Exploring new scaling regimes for streaming potential and electroviscous effects in a nanocapillary with overlapping electric double layers, Anal. Chim. Acta 804 (2013) 159–166, https://doi.org/10.1016/j. aca.2013.09.061.[46] L. B´egoin, M. Rabiller-Baudry, B. Chaufer, C. Faille, P. Blanpain-Avet, T. B´en´ezech, T.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3) 159–166, https://doi.org/10.1016/j. aca.2013.09.061.[46] L. B´egoin, M. Rabiller-Baudry, B. Chaufer, C. Faille, P. Blanpain-Avet, T. B´en´ezech, T. Doneva, Methodology of analysis of a spiral-wound module. Application to PES membrane for ultrafiltration of skimmed milk, Desalination 192 (2006) 40–53, https://doi.org/10.1016/j.desal.2005.10.010.[47] M. Rabiller-Baudry, M. Le Maux, B. Chaufer, L. Begoin, Characterisation of cleaned and fouled membrane by ATR—FTIR and EDX analysis coupled with SEM: application to UF of skimmed milk with a PES membrane, Desalination 146 (2002) 123–128, https://doi.org/10.1016/S0011-9164(02)00503-9.[48] A. Imbrogno, J.I. Calvo, M. Breida, R. Schwaiger, A.I. Sch¨afer, Molecular weight cut off (MWCO) determination in ultraand nanofiltration: review of methods and implications on organic matter removal, Sep. Purif. Technol. 354 (2025) 128612, https://doi.org/10.1016/j.seppur.2024.128612.[49] M. Naderi, BET surface area, in: Progress in Filtration and Separation, Elsevier, 2015, pp. 585–608, https://doi.org/10.1016/B978-0-12-384746-1.00014-8.[50] S. Salgın, U. Salgın, N. Soyer, Streaming potential measurements of polyethersulfone ultrafiltration membranes to determine salt effects on membrane zeta potential, Int. J. Electrochem. Sci. 8 (2013) 4073–4084, https://doi.org/ 10.1016/S1452-3981(23)14454-3.[51] H.S. Lee, K.H. Kim, J.K. Yu, S.K. Yoon, Y.W. Rhee, Effect of hydrophilicity on electrically driven flow in microchannels, Colloids Surf.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ")14454-3.[51] H.S. Lee, K.H. Kim, J.K. Yu, S.K. Yoon, Y.W. Rhee, Effect of hydrophilicity on electrically driven flow in microchannels, Colloids Surf. A Physicochem. Eng. Asp. 311 (2007) 77–82, https://doi.org/10.1016/j.colsurfa.2007.05.084.[52] W. Fu, L. Hua, W. Zhang, Experimental and modeling assessment of the roles of hydrophobicity and zeta potential in chemically modified poly(ether sulfone) membrane fouling kinetics, Ind. Eng. Chem. Res. 56 (2017) 8580–8589, https:// doi.org/10.1021/acs.iecr.7b02203.[53] S. Kert´esz, T.B. De Freitas, C. Hodúr, Characterization of polymer membranes by contact angle goniometer, Analecta Technica Szegedinensia 8 (2014) 18–22, https://doi.org/10.14232/analecta.2014.2.18-22.[54] F. Kong, L. You, D. Zhang, G. Sun, J. Chen, Facile preparation of dense polysulfone UF membranes with enhanced salt rejection by post-heating, Membranes 13 (2023) 759, https://doi.org/10.3390/membranes13090759.[55] F. Xu, S. Leclerc, D. Stemmelen, J.-C. Perrin, A. Retournard, D. Canet, Study of electro-osmotic drag coefficients in nafion membrane in acid, sodium and potassium forms by electrophoresis NMR, J. Membr. Sci. 536 (2017) 116–122, https://doi.org/10.1016/j.memsci.2017.04.067.[56] S. Das, S. Chakraborty, Steric-effect-induced enhancement of electrical-doublelayer overlapping phenomena, Phys. Rev. E 84 (2011) 012501, https://doi.org/ 10.1103/PhysRevE.84.012501.[57] D. Banerjee, S. Pati, P.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "electrical-doublelayer overlapping phenomena, Phys. Rev. E 84 (2011) 012501, https://doi.org/ 10.1103/PhysRevE.84.012501.[57] D. Banerjee, S. Pati, P. Biswas, Electroosmotic flow in a nanochannel with weak edl overlapping and the influence of magnetic field with hall current effect, 2025, pp. 461–475, https://doi.org/10.1007/978-981-97-7296-4_33.[58] M. Reshadi, M.H. Saidi, The role of ion partitioning in electrohydrodynamic characteristics of soft nanofluidics: inclusion of EDL overlap and steric effects, Chem. Eng. Sci. 190 (2018) 443–458, https://doi.org/10.1016/j.ces.2018.05.049.[59] C.E. McNamee, Effect of a liquid flow on the forces between charged solid surfaces and the non-equilibrium electric double layer, Adv. Colloid Interface Sci. 266 (2019) 21–33, https://doi.org/10.1016/j.cis.2019.02.001.[60] J. Wetterling, S. Jonsson, T. Mattsson, H. Theliander, The influence of ionic strength on the electroassisted filtration of microcrystalline cellulose, Ind. Eng. Chem. Res. 56 (2017) 12789–12798, https://doi.org/10.1021/acs.iecr.7b03575.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S. Mehta et al. Journal of Membrane Science 737 (2026) 124759\n\n[61] R. Honda, W. Rukapan, H. Komura, Y. Teraoka, M. Noguchi, E.M.V. Hoek, Effects of membrane orientation on fouling characteristics of forward osmosis membrane in concentration of microalgae culture, Bioresour. Technol. 197 (2015) 429–433, https://doi.org/10.1016/j.biortech.2015.08.096.[62] W. Yu, J. Yang, X. Wu, Y. Gu, J. Xiao, J. Yu, Y. Shi, J. Wang, S. Liang, B. Liu, H. Hou, J. Hu, Study on dewaterability limit and energy consumption in sewage sludge electro-dewatering by in-situ linear sweep voltammetry analysis, Chem. Eng. J. 317 (2017) 980–987, https://doi.org/10.1016/j.cej.2017.02.137.[63] H.S. EL-Mesery, S.E. El-khawaga, Drying process on biomass: evaluation of the drying performance and energy analysis of different dryers, Case Stud. Therm. Eng. 33 (2022) 101953, https://doi.org/10.1016/j.csite.2022.101953.[64] B. Cao, W. Zhang, Y. Du, R. Wang, S.P. Usher, P.J. Scales, D. Wang, Compartmentalization of extracellular polymeric substances (EPS) solubilization and cake microstructure in relation to wastewater sludge dewatering behavior assisted by horizontal electric field: effect of operating conditions, Water Res. 130 (2018) 363–375, https://doi.org/10.1016/j.watres.2017.11.060.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11,
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[65] C.P. Samaranayake, S.K. Sastry, In-situ pH measurement of selected liquid foods under high pressure, Innov. Food Sci. Emerg. Technol. 17 (2013) 22–26, https:// doi.org/10.1016/j.ifset.2012.09.006.[66] K. Du, R. Yu, M. Gao, Z. Chen, X. Mao, H. Zhu, D. Wang, Durability of platinum coating anode in molten carbonate electrolysis cell, Corros. Sci. 153 (2019) 12–18, https://doi.org/10.1016/j.corsci.2019.03.028.[67] R. Juchniewicz, J. Walaszkowski, W. Bohdanowicz, W. Sok´olski, A. Widuchowski, Influence of pulsed current on platinized titanium and tantalum anode durability, Corros. Sci. 26 (1986) 55–61, https://doi.org/10.1016/0010-938X(86)90123-X.[68] G. Raveendran Nair, A. Singh, J. Kurian, V. Raghavan, Electro-osmotic dewatering of high moisture flax stems, Biosyst. Eng. 133 (2015) 14–20, https://doi.org/ 10.1016/j.biosystemseng.2015.02.010.[69] L. Martin, V. Alizadeh, J. Meegoda, Electro-osmosis treatment techniques and their effect on dewatering of soils, sediments, and sludge: a review, Soils Found. 59 (2019) 407–418, https://doi.org/10.1016/j.sandf.2018.12.015.\n\nS. Mehta et al. Journal of Membrane Science 737 (2026) 124759",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825010725-main",
+      "title": "Electro-osmotic membrane dewatering: Influence of membrane morphology, surface charge and process parameters",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  }
+]

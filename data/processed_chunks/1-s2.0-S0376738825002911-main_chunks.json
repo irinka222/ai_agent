@@ -1,0 +1,885 @@
+[
+  {
+    "content": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation K. Vasilakos a, N. Thomas a,b, M. Hermassi a,c, P. Campo a, E. McAdam a,* a Cranfield Water Science Institute, Cranfield University, Cranfield, UKb Renewable and Sustainable Energy Research Center, Technology Innovation Institute (TII), Masdar City, Abu Dhabi, United Arab Emiratesc Research Institute on Mines and Environment, University of Qu´ebec in Abitibi-T´emiscamingue (UQAT), Canada\n\nA R T I C L E I N F O Keywords:ScalingCalcium sulphateBrineNucleation rateHeterogeneous and homogeneous",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T While the interfacial energy (σ) of a solute contributes toward the excess surface free energy requirement for nucleation, its role in determining scaling, nucleation and crystal growth processes within membrane distillation has yet to be described. Highly soluble salts (low σ) are generally understood to possess a low nucleation energy, where the limited relative supersaturation (Δc /c*) can favour a heterogeneous primary nucleation mechanism. This was indicated by scaling, which is generally presumed to occur in response to the membrane substrate lowering the critical Gibbs free energy requirement for nucleation (ΔG*). For less soluble salts (high σ), primary nucleation was not observed until Δc/c* exceeded a threshold of 1. It was postulated that the excess chemical potential available was sufficient to favour homogeneous primary nucleation in the bulk solution, which miti­gates scale formation on the membrane. In-situ characterisation methods also established how nucleation rate and crystal size could be directly attributed to the σ, which is compatible with the crystallisation literature on aqueous salts within a comparable range of solubilities. While crystallisation tends to be controlled by a com­bination of thermodynamic and kinetic processes, this study illustrates how interfacial energy (a thermodynamic quantity) can be used to anticipate nucleation and crystal growth mechanisms in membrane crystallisation.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Membrane distillation (MD) is a viable alternative to reverse osmosis for enhancing water recovery from hypersaline wastewater [1]. Solvent evaporation through the micropores of the hydrophobic membrane yields a high quality permeate, while concentrating the feed solution to reduce the brine volume for disposal. Once the feed concentration ex­ceeds the solubility limit of the solute, crystallisation can occur, which can be beneficial for enabling resource recovery, and for reducing the cost of brine management [2]. Membrane distillation crystallisation (MDC) therefore seeks to complement the thermal benefits of membrane distillation with control over crystallisation. The membrane interfacial area introduces well defined mass and heat transfer characteristics that deliver a homogeneous solvent removal rate, which is important for the regulation of supersaturation. The precise regulation of solvent removal rate creates a unique advantage for membrane distillation versus clas­sical crystallisers, which incur difficulties in the control of supersatu­ration due to complex mixing phenomena and poorly defined interfacial area for evaporation resulting from the decoupling of mass and heat transfer in design. This leads to poor control of size, size distribution and quality of the final crystal product ([3–5].",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "decoupling of mass and heat transfer in design. This leads to poor control of size, size distribution and quality of the final crystal product ([3–5]. It is also thought that the membrane contact angle contributes to reducing the Gibbs free energy barrier for nucleation (ΔG) ([3]; Ruiz Salm´on & Luis, 2018) through modifying the crystal-liquid interfacial energy (σ). This effect is proposed to arise by improving molecular orientation through substrate-molecule interactions, which lowers the activation energy for nucleation [3,6]. In principle, this heterogeneous primary nucleation mechanism presents an advantage to MDC as this can shorten induction time. However, in practice this mechanism is comparable to membrane scaling, which will reduce control over su­persaturation due to the loss in flux, potentially leading to eventual process failure [7–9]. While scaling has been observed with numerous aqueous salts in MD [10,11], Warsinger et al. [12] showed that intro­ducing filtration within the bulk solution sufficiently reduced the quantity of crystals visible on the membrane to sustain flux during crystallisation. Consequently, it is proposed that scaling proceeds by one of two distinct mechanisms: (i) adhesive growth in which crystallisation manifests as scaling on the membrane surface (heterogeneous primary",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 16 March 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). nucleation) (Zepeda-Ruiz and Gilmer, 2015); or (ii) deposition of crys­tals following formation in the bulk solution via a homogeneous primary nucleation mechanism [13]. Classical nucleation theory (CNT) can be used to describe the mechanisms for both scaling and crystallisation [14]. For a thermody­namically stable nucleus to form, the critical Gibbs free energy barrier for nucleation (ΔG*) must be exceeded. The height of the nucleation barrier is dependent upon the surface Gibbs free energy (Gs) which is determined by the crystal-liquid interfacial energy (σ) and is offset by the volume Gibbs free energy (Gv): ΔG* = ΔGs + ΔGv(1) As the size of the nucleus (r) increases, there is competition between ΔGs which favours dissolution, and ΔGv which favours growth (Fig. 1a) [15]. A critical size is reached once ΔG* approaches a limit that is energetically favourable for crystallisation. Interfacial energy is an important characteristic property of the crystallising substance in the nucleation process, as illustrated by its cubic contribution to ΔG* [16]. For aqueous salts, the interfacial energy is inversely related to solubility [17]. Therefore, sparingly soluble salts are characterised by high ΔGs, and require considerably greater ΔGv to enable formation of the critical nucleus (Fig.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "erefore, sparingly soluble salts are characterised by high ΔGs, and require considerably greater ΔGv to enable formation of the critical nucleus (Fig. 1b and c). Since considerable chemical potential must be achieved before nucleation, Mersmann and Kind [18] concluded that sparingly soluble salts would most likely favour a homogeneous primary nucleation mechanism, resulting in high nucleation rates. In contrast, aqueous salts, which are characterised by a low σ (and hence a greater solubility), require only a small ΔGv to instigate nucleation. This rela­tively small supersaturation driving force provides for a low nucleation energy where solute-solvent-solids interactions may be of greater importance to nucleation [18–20]. Accordingly, more soluble salts (e.g. sodium chloride) are likely to proceed through a heterogeneous primary nucleation mechanism, characterised by lower nucleation rates. While the relevance of σ to the nucleation of aqueous salts has been investi­gated, the implications for scaling, nucleation and crystal growth pro­cesses in membrane systems has yet to be examined. In this study, we therefore firstly seek to establish the role of crystalliquid interfacial energy in determining the probability for scaling, through characterising the primary nucleation pathway. A range of aqueous inorganic salts have therefore been purposefully selected for examination that possess interfacial energies over an order of magnitude in range.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ueous inorganic salts have therefore been purposefully selected for examination that possess interfacial energies over an order of magnitude in range. Their investigation was complemented with the use of tech­niques for the characterisation of induction time, which can be used to distinguish between homogeneous and heterogeneous primary nucle­ation mechanisms. Based on classical nucleation theory, we also propose that the crystal-liquid interfacial energy can be expected to modify nucleation rate and crystal growth rate due to the dependence of the critical Gibbs free energy on supersaturation. In this study, a noninvasive technique is also employed to count and size the particle pop­ulation to precisely estimate nucleation and crystal growth properties of the bulk crystal population. This will be used to establish the link be­tween crystal-liquid interfacial energy and nucleation and crystal growth processes to advance understanding for how to estimate and control crystallisation mechanisms in membrane distillation. 2. Material and methods 2.1. Experimental setup The reactor used for the introduction of the solution was a 500 mL Reactor Ready (Radleys, Essex, UK), equipped with a 4-blade impeller with a 45◦pitch (Fig. 2). The acrylic membrane distillation cell had an active membrane area of 140 cm2. The length, width and height of the feed channel were 145, 95 and 2 mm respectively.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "embrane distillation cell had an active membrane area of 140 cm2. The length, width and height of the feed channel were 145, 95 and 2 mm respectively. An ePTFE flat sheet membrane with a nominal pore size of 0.1 μm and thickness of 50 ± 20 μm was used in this study (Cobetter Filtration, Hangzhou, China), and",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(4) where ti is time (s) and Bi is the nucleation rate (# m-3 s-1). To enable comparison of nucleation rates between aqueous salts, it is useful to normalise the nucleation rate to compensate for the volumetric hold-up (θ) which is the total volume of the reactor occupied by the nucleation phase: θ = mT ρc\n\n(5) where mT is suspension density (kg m-3) and ρc is crystal density (kg m-3). The duration of the laser pulse is directly proportional to the width of the particle and recorded as a chord length, within a size range of 0.5–2000 μm. The chord length distribution (CLD) provides an overall size distribution. The cumulative number of the chord length measure­ments is obtained in total counts s-1 [23]: total counts s-1 =∑Ch i=1 NCh,i(2) where Ch is the number of channels in FBRM and NCh,i is the number of counts measured in an ith channel. Each channel corresponds to a spe­cific range of particle sizes or chord lengths being measured. For determination of the crystal size distribution as a CLD, the ‘macro’ chord selection model was used as this lowers the sensitivity to crystal edges when particles are close to each other. The raw chord length distribu­tions used for the particle size determinations were weighted. This in­creases the sensitivity in the coarse particle fraction, by applying length weightings (moments) to the chord distribution [22]: Ni,n = Ni,oCni,A(6) Fig. 2. Experimental set-up diagram.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "K. Vasilakos et al. Journal of Membrane Science 725 (2025) 123978 where Ni,n is number of n-weighted chord counts in the ith channel (μmn s-1), Ni,o is the raw unweighted chord count in the ith channel (s-1) and Ci,A is the geometric average length of the ith channel (μm), which is a product of the upper and lower boundary lengths of the ith channel (μm) (Ci,u * Ci,l)1/2. A square weighted (n = 2) chord distribution has been used since the square-weighting is effectively a cube (volume) weight­ing, comparable to volume-based distribution techniques [22]. Similar to previous investigators, a digital microscope was used for the in-situ determination of induction time for scaling at the membrane surface (Jikazana et al., m 2023). The high-definition digital microscope (UHM350, AmScope, UK) was positioned to focus on the feed side of the acrylic membrane cell, within its working distance, from which the rate of scaling can also be described. The wide-angle lens, long working distance and broad magnification range provide high resolution imaging sufficient to track crystal growth at the membrane from inception. Due to the supersaturation within the boundary layer, crystal growth rates for scaling are extremely fast (G often exceeding 3 μm s-1), which means that the crystal is consequently observable within a few seconds following formation, thus providing accurate determination of induction time and growth rate (Desarnaud et al., 2014; [25]).",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "able within a few seconds following formation, thus providing accurate determination of induction time and growth rate (Desarnaud et al., 2014; [25]). This method of detection can therefore be considered comparable to the widely employed backscatter technique [21]. Captured images were trans­formed into binary, 8-bit, black and white images and characterised for surface coverage (ImageJ software, NIH, US) at set time intervals to provide definition of induction time and scaling rate (Appendix A). Solutions of ammonium sulphate (NH4)2SO4, sodium chloride (NaCl), potassium sulphate (K2SO4), silver sulphate (Ag2SO4) and cal­cium sulphate (CaSO4) were prepared using stock anhydrous chemicals (≥99 % Alfa Aesar, Lancashire, UK). Feed solutions were prepared at a concentration equivalent to 75 % of the solubility limit with respect to the bulk feed temperature within MDC (Table 1). The solutions were prepared using ultrapure water (15 MΩ cm) (Purelab, Elga, UK) and heated to 55 ◦C overnight on a stirrer plate to ensure dissolution. Prior to use, each solution was filtered using a 0.45 μm Whatman filter (Camlab Ltd., Cambridge, UK) to remove any impurities, followed by confirma­tory check of the solution conductivity (Seven2Go Pro, Mettler Toledo, UK). At the end of each experiment, the feed solution was filtered through a pre-weighed 0.45 μm Whatman filter (Camlab Ltd., Cam­bridge, UK) and left to dry before measuring the weight.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the feed solution was filtered through a pre-weighed 0.45 μm Whatman filter (Camlab Ltd., Cam­bridge, UK) and left to dry before measuring the weight. Each membrane was also removed and left to dry within a desiccator before being subject to image analysis. Crystals were subjected to SEM (Scanning Electron Microscopy, VEGA3, Tescan, Czech Republic) imaging to evaluate crystal habit of each sample. The data presented graphically represents an average of the replicates undertaken for each set of conditions. 2.3. Mass and heat transfer analysis The water vapour flux (J) is [26]: J = CΔP(7) where C is the membrane permeability and ΔP is the vapour pressure difference. In MD, there is competition between the convective solute flux and the diffusive flux of rejected solutes which introduces concen­tration polarisation, where the subsequent solute build up at the mem­brane surface can be described by the concentration polarisation coefficient (CPC) [26]: CPC = cw cb = exp ( JρK )",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(8) where cw and cb are the solute concentrations at the membrane wall and bulk respectively. The solute mass transfer coefficient (k, m s-1) is: K = 1.62 Ddh ( V dh2 0.146 D )0.33\n\n(9) where D is the diffusion coefficient (m2 s-1), dh is the hydraulic diameter (m2) and V is the feed velocity (m s-1). Due to heat transport across the membrane through conduction and convection, a temperature differ­ence is instigated at the membrane surface which can be described by the temperature polarisation coefficient (TPC) [27]. TPC = Tfm -Tpm Tf -Tp\n\n[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] where Tf and Tp are the average temperatures of hot and cold sides of the membrane [28]. The temperature within the boundary layer was determined iteratively based on the following approach [26]: Tfm = Tf -(Tf -Tp )[1/hf(1/(hc + hv)) +(1/hf\n\n[ФОРМУЛА: [FORMULA_ID: 24b3a809-9515-4801-83f3-3bf3da937754] ) + ( 1 / hp ) ] (11)]\n\nAnd Tpm = Tp +(Tf -Tp )[1/hp(1/(hc + hv)) +(1/hf\n\n[ФОРМУЛА: [FORMULA_ID: 6429948b-4ab8-4308-9a2d-3f33eb4e4a26] ) + ( 1 / hp ) ] (12)]\n\nwhere h is the heat transfer coefficient (W m-1 K-1) and can be calcu­lated through the following equations [26]. The individual heat transfer coefficients including vapour heat transfer coefficient (hv), and con­duction heat transfer coefficient (hc) were calculated as: hv = J ΔHv ΔTm",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] hc = km δ[ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] hf = Nu kf dh\n\n[ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}]\n\n[ФОРМУЛА: [FORMULA_ID: 642a675f-0de5-48e4-b14f-63508fad294b] hp = Nu kp dh]\n\n(16) where km, kf and kp is the thermal conductivity of the membrane, the feed solution and the permeate solution (W m-1 K-1). Nu is the Nusselt number which can be calculated for this study based on laminar con­ditions [27]: Nu = 0.13 Re0.64 Pr0.38(17) where Re and Pr are the Reynolds number and Prandtl number, respectively. For further detail on the analytical method for the char­acterisation of concentration and temperature polarisation coefficients, see Jikazana et al. [29]. In this context, the CPC can be used to determine the solute concentration within the boundary layer, while the TPC can be used to determine the solubility limit (c*) within the boundary layer, thus enabling the boundary layer supersaturation to be described.\n\nTable 1 Physicochemical characteristics of the salts and the membrane. SaltSol.Initial concn.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "MWCrystal-liquid interfacial energy (g kg-1)a (g kg-1)b(g mol-1) (mJ m-2)c (NH4)2SO4812730.8132.18.3K2SO4148133.2174.323.1NaCl364327.658.427.6Ag2SO49.958.9311.854.5CaSO42.111.6136.172.1 Sol. – solubility; MW – Molecular weight. a Based on bulk temperature.b Initial concentration set within feed solution prior to MD experiment.c Estimated through the approach of Mersmann [17]. K. Vasilakos et al. Journal of Membrane Science 725 (2025) 123978\n\n2.4. Further supportive analysis for nucleation The critical Gibbs free energy requirement for nucleation can be described by: ΔG* = ΔGv + ΔGs[ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] on the basis that the critical cluster is small, the size can be approxi­mated to that of a sphere, and Eq. (19) becomes:\n\nΔG* = -(4πr3 3Vm )Δμ + 4πr2σ(19) where vm is molecular volume (m3 molecule-1), and Δμ is the chemical potential difference. This establishes competition between the two terms, where addition of solute (Δμ) will reduce the free energy requirement (ΔGv), while the subsequent addition to the surface",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4,
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. Membrane distillation crystallisation data for five aqueous salts that exhibit different crystal-liquid interfacial energy: (a) membrane flux data, operating conditions (Bulk): T, 44.3 ± 0.5 ◦C; ΔT 13.9 ± 2.5 ◦C; and (b) in-situ particle characterisation determines the first point at which bulk crystals are formed and is used to define induction time. K. Vasilakos et al. Journal of Membrane Science 725 (2025) 123978 component will increase the free energy requirement (ΔGs). A contri­bution to the right-hand term is the crystal-liquid interfacial energy (σ, J m-2) which for aqueous salts can be approximated by Ref. [17]: σ = 0.414kT( ρc NA M )2/3 ln(cs cL )(20) where k is the Boltzmann constant (J K-1), NA is the Avogadro constant (mol-1), M is the molar mass of the salt (kg mol-1) and c is the molar concentration of the components (mol m-3). The critical cluster size is identified by minimising the free energy between the volume and sur­face contributions, from which the nucleation work (W*) can be derived [30]: W* =16πv2oσ3 3(kT)2 ln3 S(21) The solute concentration and solubility constant within the boundary layer can be determined by taking into consideration both concentration and temperature polarisation phenomenon at induction. From these measurements, the supersaturation level in the boundary layer at induction can be determined (S = c/c*).",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "arisation phenomenon at induction. From these measurements, the supersaturation level in the boundary layer at induction can be determined (S = c/c*). For comparison be­tween aqueous salts of distinctive interfacial energy, it is also useful to consider characterisation of the metastable solution by the relative supersaturation: S = C -C* C*(22) where c represents the concentration of the solute in solution (kg m-3) while c* is the equilibrium solubility concentration of the solute at a given temperature (kg m-3). The approach of Nývlt [31] assumes that the maximum metastable zone width (MSZW), is dependent on the concentrating rate (R’ = dc/dt) of the crystallising solution. For MDC, this can be defined by Ref. [4]:",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. Evidencing the relationship between: (a) interfacial energy and solubility (dashed linear line presented to ‘guide-eye’); and (b) vapour pressure with interfacial energy. Operating conditions (Bulk): T, 44.3 ± 0.5 ◦C; ΔT 13.9 ± 2.5 ◦C. K. Vasilakos et al. Journal of Membrane Science 725 (2025) 123978\n\n[ФОРМУЛА: [FORMULA_ID: 34451609-1154-431f-b00a-063b330d30d2] Ln(Rʹ) = ln ( Fp Cw m0 - ∫t 0 Fp.dT )]",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6,
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(23) where Fp is the permeate flow rate of the experiment at a specific time (kg h-1), m0 is the initial mass of feed solution (kg). m0 is the feed so­lution mass (kg) and Cw is the equilibrium concentration (kg kg-1). The concentrating rate enables description of multiple conditional parame­ters (membrane area, flux, temperature difference, crystalliser volume, magma density) within a single term that can be correlated to the MSZW (ΔCw, mg g-1 solution) through a power-law relation (Ouda et al., 2024). 3. Results and discussion 3.1. The role of interfacial energy on mass transfer and concentrating rate Solutions comprised of aqueous inorganic salts with crystal-liquid interfacial energies ranging 8.3–72.1 mJ m-2 were concentrated within direct contact membrane distillation using bulk feed and permeate temperatures of 44.3 ± 0.5 and 30.4 ± 1.9 ◦C respectively (Fig. 3a). At steady state, the flux was highest for CaSO4 followed by Ag2SO4, K2SO4, NaCl and (NH4)2SO4 (Fig. 3), which is consistent with the order of their σ (Fig. 4a). As aqueous salts with higher σ are poorly soluble, the solution exerts a greater vapour pressure than more soluble compounds, leading to an increase in flux. A dependency is therefore established between vapour pressure and interfacial energy (Fig. 4b). Since MD was operated in batch mode, a slow decline in water vapour flux was observed as the feed became more concentrated due to the progressive reduction in vapour pressure.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "batch mode, a slow decline in water vapour flux was observed as the feed became more concentrated due to the progressive reduction in vapour pressure. This was more evident for (NH4)2SO4 and NaCl due to the higher solute concentration. Following the slow decline in flux, a steeper flux decline was observed for (NH4)2SO4, NaCl and to a lesser extent K2SO4. This rapid decline in flux is often used as a surrogate measure to define induction time in mem­brane distillation [21]. Use of FBRM enabled the onset of nucleation to be precisely determined, which was characterised by the rapid increase in particle count (# s-1) (Fig. 3b). Use of backscatter technique for measurement of induction time evidenced that bulk nucleation can occur well in advance of the rapid decline in flux, and in the case of the higher interfacial energy aqueous salts (CaSO4, Ag2SO4), induction oc­curs without an apparent decline in flux (Fig. 3a). Consequently, we suggest that flux decline is not mechanistically related to induction, as it cannot detect bulk nucleation or differentiate between scaling and deposition, which is critical to differentiating between heterogeneous and homogeneous primary nucleation mechanisms. The concentrating rate (LnR’) describes the rate at which the solute within the crystallising solution approaches supersaturation (Fig. 5a).",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "chanisms. The concentrating rate (LnR’) describes the rate at which the solute within the crystallising solution approaches supersaturation (Fig. 5a). This term therefore collectively describes the role of concentration, volume and mass and heat transfer processes, which can be directly related to nucleation (Ouda et al., 2024). While the water vapour flux was higher for aqueous salts that confer a greater interfacial energy, their low solubility results in smaller concentrating rates prior to nucleation (Fig. 5a). Consequently, the solute σ can be expected to be more critical to nucleation than the water vapour flux. This is illustrated by measurement of the metastable zone width measured at induction (the onset of nucleation) under the same temperature gradient which was wider for NaCl and narrower for CaSO4 (Fig. 5b). The width of the metastable zone determines the extent of supersaturation available for crystallisation and can determine the nucleation rate and induction time when the MSZW of a specific solute is kinetically controlled by adjust­ment of the concentrating rate [25]. However, the dominant factor that determines the MSZW in this study is the difference in σ imposed by each",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. Relating crystal-liquid interfacial energy to supersaturation: (a) Concentrating rate (or supersaturation rate) is greater for low interfacial en­ergy; (b) The absolute metastable zone width is greater for more soluble aqueous salts; (c) Supersaturation at induction is always greater for less soluble salts, and is driving force for nucleation (determined by ΔGv). Operating con­ditions (Bulk): T, 44.3 ± 0.55 ◦C; ΔT 13.9 ± 2.5 ◦C. K. Vasilakos et al. Journal of Membrane Science 725 (2025) 123978 aqueous salt. This is illustrated through characterisation of the dimen­sionless supersaturation (c c*-1) where an inverse trend between su­persaturation and crystal-liquid interfacial energy exists (Fig. 5c). Greater supersaturation is required for less soluble salts to offset the high ΔGs requirement that is introduced by an increase in σ. The physical relevance can be explained by the presence of fewer solute molecules with a greater distance between molecules for less soluble salts, resulting in number densities that are insufficient to raise the probability for a thermodynamically stable nucleus to form. A higher accumulation of solids in the solute therefore needs to be achieved before nucleation occurs, which leads to higher solute concentration prior to nucleation.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ation of solids in the solute therefore needs to be achieved before nucleation occurs, which leads to higher solute concentration prior to nucleation. Furthermore, since higher nucleation rates mean lower crystal growth rates, the growing crystals are less efficient due to higher diffusion rates, which causes the crystal to dissolve unless higher supersaturation can be maintained in the solution [32]. Supersaturation represents the driving force for nucleation and growth [33]. Consequently, higher nucleation rates are likely to occur for sparingly soluble salts (based on volumetric hold-up) which may reduce dependency on a heterogeneous substrate to overcome the critical free energy barrier for nucleation. 3.2. The role of crystal-liquid interfacial energy in determining scaling Digital microscopy was used to identify how crystal-liquid interfacial energy modified the onset and extent of surface scaling. Two periods of data were described: (i) scaling, which was characterised by the pro­gressive growth of crystals on the membrane surface prior to the mea­surement of crystals in the bulk solution (open shapes, Fig. 6); and (ii) deposition, where high numbers of crystals settled onto the membrane following nucleation in the bulk solution (closed shapes, Fig. 6). Scaling was greatest for (NH4)2SO4 followed by NaCl and K2SO4. Following bulk nucleation, substantial deposition was also observed.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "d shapes, Fig. 6). Scaling was greatest for (NH4)2SO4 followed by NaCl and K2SO4. Following bulk nucleation, substantial deposition was also observed. For Ag2SO4 and CaSO4, scaling was not observed prior to bulk induction, but after bulk nucleation, deposition was also observed. Scaling was therefore only noted for low σ aqueous salts where induction occurred at a compara­tively low level of supersaturation. The heterogeneous nucleation pathway presumes that a crystal phase would be instigated in advance of a bulk crystal phase in solution [3,34]. Consequently, the extent to which scaling had propagated across the membrane at the onset of bulk nucleation (induction) was charac­terised (Fig. 6). For this analysis, supersaturation was modified to the relative supersaturation form which normalises data for the relative differences in solubility limit between aqueous salts (Eq (22)). Scaling reduced to a minimum with an increase in the relative supersaturation achieved at bulk nucleation (Fig. 7a). The low crystal-liquid interfacial energy exhibited for highly soluble aqueous salts requires a relatively small supersaturation to create the driving force for the formation of a thermodynamically stable critical nucleus. It is this limit in the super­saturation that can be achieved for highly soluble salts that increases the probability for heterogeneous nucleation.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s. It is this limit in the super­saturation that can be achieved for highly soluble salts that increases the probability for heterogeneous nucleation. This is consistent with clas­sical nucleation theory and is supported by evaluation of the work of formation of the critical nucleus (W*/kT) (Fig. 7b), which illustrates how the greater the energy requirement for nucleation (and therefore the greater the requirement for supersaturation), the lower the de­pendency on heterogeneous primary nucleation. Consequently, primary nucleation becomes less dependent on a substrate to lower ΔGs as σ increases (Fig. 8). As such, for poorly soluble aqueous salts (e.g. CaSO4), scaling is most likely to proceed via a deposition mechanism following homogeneous primary nucleation in the bulk solution, while for more soluble aqueous salts (e.g. NaCl), scaling is mostly likely to proceed via adhesive growth on the membrane which can be described as a het­erogeneous nucleation mechanism.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. Quantifying the extent of scaling based on: (a) time and (b) supersat­uration. Direct observation also permits the differentiation between adhesive growth (classical scaling, open shapes) and deposition (following homogeneous nucleation in the bulk solution, closed circles). Operating conditions (Bulk): T, 44.3 ± 0.5 ◦C; ΔT 13.9 ± 2.5 ◦C.\n\nFig. 7. Demonstrating how interfacial energy: (a) determines the transition from heterogeneous to homogeneous nucleation as indicated by the extent of membrane scaling which precedes bulk nucleation; and (b) how the extent of membrane scaling at bulk induction relates to the work of formation. Operating conditions (Bulk): T, 44.3 ± 0.5 ◦C; ΔT 13.9 ± 2.5 ◦C.\n\nK. Vasilakos et al. Journal of Membrane Science 725 (2025) 123978\n\nFig. 8. Framework to describe the relative importance of heterogeneous primary nucleation (membrane scaling) based on the interfacial energy of the solute which sets the relative supersaturation required to initiate nucleation (building upon the early work of [18]).",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8,
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 9. Nucleation rate (measured using FBRM and normalised using volumetric hold-up): (a) increases under the same membrane operating conditions, due to interfacial energy; and (b) conforms to a similar trend for estimated nucleation rates from other aqueous salts crystallised by cooling, evaporation, salting out and reaction [18]. Operating conditions (Bulk): T, 44.3 ± 0.5 ◦C; ΔT 13.9 ± 2.5 ◦C. K. Vasilakos et al. Journal of Membrane Science 725 (2025) 123978",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. The role of interfacial energy in determining nucleation and growth kinetics The extent to which the crystal-liquid interfacial energy determines nucleation and growth rate of the crystal phase in the bulk solution was also investigated using FBRM (Fig. 9a). Nucleation rates were normal­ised based on volumetric holdup to improve comparison. The highest nucleation rate of 5 * 1011 m-3 s-1 was recorded for CaSO4. Nucleation rate progressively decreased with the reduction in crystal-liquid inter­facial energy to a minimum recorded for (NH4)2SO4 of 3 * 107 m-3 s-1. This confirms that nucleation rate will increase due to the critical free energy requirement (ΔG*) being dependent on σ, which necessitates a much greater chemical potential to initiate nucleation (Δμ = kTlnS) and is primarily achieved through the solution supersaturation [19,35,36]. The increase in nucleation rate with supersaturation is comparable to collated literature data estimated for a range of aqueous salts with a broad range of σ [18] (Fig. 9b). The nucleation rates observed for lower interfacial energy aqueous salts were below those of the reference literature. This may arise from the onset of scaling prior to bulk nucle­ation for these specific aqueous salts which will desaturate solution, therefore repositioning the system in a lower region of the metastable zone at the point of induction, inevitably reducing the primary nucleation rate.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "herefore repositioning the system in a lower region of the metastable zone at the point of induction, inevitably reducing the primary nucleation rate. Importantly, this comparative analysis corroborates the critical role of σ in determining the nucleation rate of aqueous salts which can be used to inform future crystallisation strategies in MDC. Median crystal sizes were also compared to evaluate how thermo­dynamic properties of the crystallising aqueous salt determine the properties of the final crystal product (Fig. 10). The high supersaturation demanded by the increase in interfacial energy led to smaller median crystal sizes. This is in accordance with classical nucleation theory where an increase in supersaturation is expected to favour higher nucleation rates and smaller crystal sizes [19,35]. In MDC, the meta­stable zone width can be increased for any discrete system by kinetically controlling the supersaturation at induction through an increase in temperature or ΔT [25]. In this study, the bulk temperature and tem­perature difference were maintained at comparable conditions for each salt and therefore the modification of relative supersaturation at in­duction is primarily due to the difference in crystal-liquid interfacial energy. The median crystal size range corresponded to those compiled from the literature for a range of aqueous salts [18].",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "crystal-liquid interfacial energy. The median crystal size range corresponded to those compiled from the literature for a range of aqueous salts [18]. Each aqueous salt possesses different surface chemistry, chemical reactivity, surface anisotropy and surface energy that can affect the crystal habit [15]. The crystallinity for each aqueous salt was confirmed through XRD, where the primary 2θ peaks were compared to a reference sample for confir­mation (Appendix B). Crystal structure (or habit) was confirmed using SEM (Fig. 11). The acicular growth of CaSO4 was analogous to the ‘needle-like’ scale typically found in water treatment by the precipita­tion of gypsum, i.e. calcium sulphate dihydrate [37]. Crystal habits for NaCl, K2SO4 and Ag2SO4 were as expected. The crystal structure for (NH4)2SO4 was more distinctive, which has been previously explained by the <001> and <100> faces growing at a second-order and first-order rate, respectively when subjected to modest supersaturation [38]. In MDC, the boundary layer may benefit crystallisation by setting conditions for nucleation within a localised region of supersaturation [25]. This is supported by this study, where determination of the relative supersaturation at induction based on the boundary layer properties is shown to enable estimation of the median crystal size produced from the crystallisation of aqueous salts in MDC. 4.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n the boundary layer properties is shown to enable estimation of the median crystal size produced from the crystallisation of aqueous salts in MDC. 4. Conclusions This study has demonstrated how the interfacial energy of a solute is a critical factor determining nucleation and crystal growth processes within membrane systems. The nucleation rate within any system is the sum of four contributions arising from homogeneous, heterogeneous (foreign material), surface (crystal) and secondary nucleation mecha­nisms. In an unseeded system such as this work, heterogeneous and homogeneous primary nucleation mechanisms dominate, and their relative contribution to the nucleation rate is determined by the ther­modynamic properties of the solute and the kinetics set within the",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 10. The impact of interfacial energy on crystal size: (a) size distributions measured by FBRM; and (b) crystal size (data presented as median (L50) related to supersaturation at induction and compared to literature crystal size data from a range of aqueous salts [18]. Inset to provide greater clarity of the reduction in crystal size with relative supersaturation. Operating conditions (Bulk): T, 44.3 ± 0.5 ◦C; ΔT 13.9 ± 2.5 ◦C.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 11. The impact of interfacial energy on crystal size: (a) size distributions measured by FBRM; and (b) crystal size (data presented as median (L50) related to supersaturation at induction and compared to literature crystal size data from a range of aqueous salts [18]. Inset to provide greater clarity of the reduction in crystal size with relative supersaturation. Operating conditions (Bulk): T, 44.3 ± 0.5 ◦C; ΔT 13.9 ± 2.5 ◦C. K. Vasilakos et al. Journal of Membrane Science 725 (2025) 123978 system. Through application of non-invasive techniques, the dominant primary nucleation pathway could be correlated to the interfacial en­ergy by determining the extent of scaling before a crystal phase was identified in the bulk solution. Based on the extent of scaling, the rela­tive contribution of the heterogeneous pathway to primary nucleation can be inferred. The limited nucleation energy fostered by more soluble salts with low interfacial energy, favoured heterogeneous primary nucleation. This is consistent with classical nucleation theory, but it does not imply that more soluble salts (e.g NaCl) possess stronger adhesion forces than classical scalants (e.g. CaSO4), simply that the mechanism of formation may be distinct.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "oluble salts (e.g NaCl) possess stronger adhesion forces than classical scalants (e.g. CaSO4), simply that the mechanism of formation may be distinct. In this study, an alternative mechanism is presented for less soluble salts (characterised by a higher interfacial energy), in which deposition is the predominant pathway for scaling following their formation via homogeneous primary nucleation in the bulk solution. This distinction is of significance to the development of effective scaling mitigation strategies. While the relative contributions of heterogeneous and homogeneous primary nucleation can be some­what kinetically controlled, the extent to which the relative supersatu­ration can be modified is thermodynamically dependent on the interfacial energy of the solute. Consequently, it can be considered that the shift in nucleation rate and crystal size observed across this envi­ronmentally relevant range of solubilities, were more critically depen­dent upon the crystal-liquid interfacial energy. This implies that interfacial energy maybe of use for the estimation of nucleation and crystal growth kinetics to underpin the design of future membrane crystallisation systems for inorganic salts. CRediT authorship contribution statement K. Vasilakos: Writing – original draft, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. N. Thomas: Writing – review & editing, Formal analysis, Data curation. M.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "thodology, Investigation, Formal analysis, Data curation, Conceptualization. N. Thomas: Writing – review & editing, Formal analysis, Data curation. M. Hermassi: Writing – review & editing, Methodology, Investigation, Formal anal­ysis, Data curation. P. Campo: Writing – review & editing, Supervision. E. McAdam: Writing – review & editing, Visualization, Supervision, Resources, Project administration, Funding acquisition, Formal analysis, Conceptualization.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements This research was financially supported through European Research Council Starting Grant, ‘Sustainable chemical alternatives for reuse in the circular economy’ (StG, SCARCE, 714080).\n\nAppendix A. An illustration of scaling characterisation where images are transformed through contrasting to aid numeration\n\nFig. A1. The onset (induction) of scaling observed on the PTFE membrane before induction in the bulk (homogeneous crystallisation) for NaCl (a) after the B/W image conversion using the Image J software contrary to the (b) real membrane images using non-invasive direct observation, real-time data collection can be used to determine the rate and progression of scaling. K. Vasilakos et al. Journal of Membrane Science 725 (2025) 123978",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Appendix B. Characterisation of the recovered crystal phase To compare differences between distributions, percentiles of the distributions were compared and the coefficient of variance calculated (Table B1). The L50, which represents the median of the chord length, is demonstrated to decrease with an increase in crystal-liquid interfacial energy, and is coincident with a decrease in CV. Table B1 Characterisation of chord length distributions (based on mean of replicates) CompoundCSD (μm)CVaCrystal structure L10L50L90(%)ExpectedObserved (NH4)2SO443.179.3125.121.9OrthorhombicRods & orthorhombicNaCl38.565.3125.118.7F–C cubicF–C cubicK2SO431.863.1232.412.9OrthorhombicOrthorhombicAgSO430.060.7101.83.2OrthorhombicOrthorhombicCaSO428.048.868.66.5OrthorhombicAcicular a CV based on: CV =SDsample mean x100; CSD, Crystal Size Distribution; F–C, Face-centred. Crystallography was undertaken to confirm crystal structure for each aqueous salt. Despite differences in observed crystal structure, XRD confirmed that a crystalline phase was produced for each aqueous salt, coincident with the origin of the salt. For example, the 2θ peaks of the calcium sulphate closely matched the reference sample for Gypsum (Figure B1) while (NH4)2SO4, NaCl, AgSO4 and K2SO4 closely matched peaks of reference spectra from mascagnite (a form of (NH4)2SO4), Halite, AgSO4 and arcanite respectively.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. B1. XRD spectra of calcium sulphate provided for illustration. Red peaks are reference spectra, and black peaks are the sample. The 2 theta peaks of the reference sample are a precise match to those of the sample, with this comparable diffraction pattern indicating an analogous crystal structure between sample and reference material.\n\nData availability The data underlying this paper can be accessed through the following DOI: https://doi.org/10.57996/cran.ceres-2746.\n\nK. Vasilakos et al. Journal of Membrane Science 725 (2025) 123978",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[4] X. Jiang, X. Ruan, W. Xiao, D. Lu, G. He, A novel membrane distillation response technology for nucleation detection, metastable zone width measurement and analysis, Chem. Eng. Sci. 134 (2015) 671–680.[5] X. Jiang, L. Tuo, D. Lu, B. Hou, W. Chen, G. He, Progress in membrane distillation crystallization: process models, crystallization control and innovative applications, Front. Chem. Sci. Eng. 11 (2017) 647–662.[6] J.W. Mullin, Crystallisation, fourth ed., Butterworth Heinemann, Oxford, UK, 2001.[7] M. Gryta, Fouling in direct contact membrane distillation process, J. Membr. Sci. 325 (2008) 383–394.[8] Y. Choi, G. Naidu, L.D. Nghiem, S. Lee, S. Vigneswaran, Membrane distillation crystallization for brine mining and zero liquid discharge: opportunities, challenges, and recent progress, Env, Sci. Water Res. Technol. 5 (2019) 1202.[9] H. Elcik, L. Fortunato, A. Alpatova, S. Soukane, J. Orfi, E. Ali, H. Alansary, T. Leiknes, N. Ghaffour, Multi-effect distillation brine treatment by membrane distillation: effect of antiscalant and antifoaming agents on membrane performance and scaling control, Desalination 493 (2020) 114653.[10] D.M. Warsinger, J. Swaminathan, E. Guillen-Burrieza, H.A. Arafat, J.H. Lienhard V, Scaling and fouling in membrane distillation for desalination applications: a review, Desalination 356 (2015) 294–313.[11] A. Abdel-Karim, S. Leaper, C. Skuse, G. Zaragoza, M. Gryta, P.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tillation for desalination applications: a review, Desalination 356 (2015) 294–313.[11] A. Abdel-Karim, S. Leaper, C. Skuse, G. Zaragoza, M. Gryta, P. Gorgojo, Membrane cleaning and pretreatments in membrane distillation – a review, Chem. Eng. J. 422 (2021) 129696.[12] D.M. Warsinger, J. Swaminathan, H.W. Chung, S. Jeong, J.H. Lienhard V, Effect of filtration and particulate fouling in membrane distillation, in: International Desalination Association World Congress on Desalination and Water Reuse, San Diego, US, September, 2015.[13] D.M. Warsinger, E.W. Tow, J. Swaminathan, J.H. Lienhard V, Theoretical framework for predicting inorganic fouling in membrane distillation and experimental validation with calcium sulfate, J. Membr. Sci. 528 (2017) 381–390.[14] T. Horseman, C. Su, K.S.S. Christie, S. Lin, Highly effective scaling mitigation in membrane distillation using a superhydrophobic membrane with gas purging, Environ. Sci. Technol. Lett. 6 (2019) 423–429.[15] D. Erdemir, A.Y. Lee, A.S. Myerson (Eds.), Handbook of Industrial Crystallisation, third ed., Cambridge University Press, Cambridge, UK, 2019.[16] J. Torrens-Serra, J. Rodriguez-Viejo, M.T. Clavaguera-Mora, Evaluation of the liquid-solid interfacial energy from crystallization kinetic data, Scr. Mater. 61 (2009) 879–882.[17] A. Mersmann, Calculation of interfacial tensions, J. Cryst. Growth 102 (1990) 841–847.[18] A. Mersmann, M. Kind, Chemical engineering aspects of precipitation from solution, Chem. Eng. Technol.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "sions, J. Cryst. Growth 102 (1990) 841–847.[18] A. Mersmann, M. Kind, Chemical engineering aspects of precipitation from solution, Chem. Eng. Technol. 11 (1988) 264–276.[19] L. Zhou, Z. Wang, M. Zhang, M. Guo, S. Xu, Q. Yin, Determination of metastable zone and induction time of analgin for cooling crystallization, Chin. J. Chem. Eng. 25 (2017) 313–318.[20] T. Zhou, C. Tu, Y. Sun, L. Ji, C. Bian, X. Lu, C. Wang, Determination of the metastable zone and induction time of thiourea for cooling crystallization, Chin. J. Chem. Eng. 31 (2021) 164–168.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[21] A. Ouda, Y. Baj´on Fern´andez, E. McAdam, Modifying supersaturation rate with membrane area to volume ratio: scaling reduction and improved crystal growth control in membrane distillation crystallisation, J. Membr. Sci. 683 (2023) 121838.[22] A.R. Heath, P.D. Fawell, P.A. Bahri, J.D. Swift, Estimating average particle size by focused beam reflectance measurement, Part. Part. Syst. Char. 19 (2002) 84–95.[23] J.W. Kim, J. Kim, K.-D. Lee, K.-K. Koo, Evaluation of nucleation rate by in-situ focused beam reflectance measurement in an unseeded batch cooling crystallisation, Cryst. Res. Technol. 48 (2013) 1097–1105.[24] N.A. Mitchell, P.J. Frawley, C.T. ´O’Ciardh´a, Nucleation kinetics of paracetamol–ethanol solutions from induction time experiments using Lasentec FBRM, J. Cryst. Growth 321 (2011) 91–99.[25] A. Jikazana, P. Campo, E.J. McAdam, Hydrodynamics (Reynolds number) determine scaling, nucleation and crystal growth kinetics in membrane distillation crystallisation, J. Membr. Sci. 685 (2023) 121909.[26] C.M. Tun, A.G. Fane, J.T. Matheickal, R. Sheikholeslami, Membrane distillation crystallization of concentrated salts-flux and crystal formation, J. Membr. Sci. 257 (2005) 144–155.[27] A. Ali, F. Macedonio, E. Drioli, S. Aljlil, O.A. Alharbi, Experimental and theoretical evaluation of temperature polarization phenomenon in direct contact membrane distillation, Chem. Eng. Res. Des. 91 (2013) 1966–1977.[28] L. Martinez-Diez, M.I.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n of temperature polarization phenomenon in direct contact membrane distillation, Chem. Eng. Res. Des. 91 (2013) 1966–1977.[28] L. Martinez-Diez, M.I. Vazquez-Gonzalez, Temperature and concentration polarization in membrane distillation of aqueous salt solutions, J. Membr. Sci. 156 (1999) 265–273.[29] A. Jikazana, K. Garg, K. Le Corre Pidou, P. Campo, E.J. McAdam, The role of mixing on the kinetics of nucleation and crystal growth in membrane distillation crystallisation, Sep. Purif. Technol. 353 (2025) 128533.[30] C.P.M. Roelands, J.H. ter Horst, H.J.M. Kramer, P.J. Jansens, Analysis of nucleation rate measurements in precipitation processes, Cryst. Growth Des. 6 (2006) 1380–1392.[31] J. Nývlt, Kinetics of nucleation in solutions, J. Cryst. Growth 3–4 (1968) 377–388.[32] D. Mangin, F. Puel, S. Veesler, Polymorphism in processes of crystallization in solution: a practical review, Org. Process Res. Dev. 13 (2009) 1241–1253.[33] A. Mersmann, M. Angerlh¨ofer, T. Gutwald, R. Sangl, S. Wang, General prediction of medial crystal sizes, Sep. Technol. 2 (1992) 85–97.[34] C. Charcosset, R. Kieffer, D. Mangin, F. Puel, Coupling between membrane processes and crystallization operations, Ind. Eng. Chem. Res. 49 (2010) 5489–5495.[35] M. Lenka, D. Sarkar, Determination of metastable zone width, induction period and primary nucleation kinetics for cooling crystallization of L-asparaginenohydrate, J. Cryst. Growth 408 (2014) 85–90.[36] L. Li, S. Zhao, Z. Xin, S.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nd primary nucleation kinetics for cooling crystallization of L-asparaginenohydrate, J. Cryst. Growth 408 (2014) 85–90.[36] L. Li, S. Zhao, Z. Xin, S. Zhou, Nucleation kinetics of clopidogrel hydrogen sulfate polymorphs in reactive crystallization: induction period and interfacial tension measurements, J. Cryst. Growth 538 (2020) 125610.[37] Y. Yan, T. Yu, H. Zhang, J. Song, C. Qu, J. Li, B. Yang, Co-deposition mechanisms of calcium sulfate and calcium carbonate scale in produced water, Crystals 11 (2021) 1494.[38] J.W. Mullin, Potassium sulfate crystal growth rates, J. Chem. Eng. Data 18 (1973) 217–220.",
+    "citation": {
+      "authors": [
+        "Vasilakos K.",
+        "Thomas N.",
+        "Hermassi M.",
+        "Campo P.",
+        "Mc E."
+      ],
+      "paper_id": "1-s2.0-S0376738825002911-main",
+      "title": "On the role of crystal-liquid interfacial energy in determining scaling, nucleation and crystal growth in membrane distillation crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  }
+]

@@ -1,0 +1,898 @@
+[
+  {
+    "content": "Contents lists available at ScienceDirect\n\nJournal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nElectric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study Rimon Dawidowicz a, Polina Tereshchuk a, Michael Patrascu a,b,c,∗ a Technion Israel Institute of Technology, Faculty of Chemical Engineering, Haifa 3200003, Israelb Technion Israel Institute of Technology, Grand Technion Energy Program, Haifa 3200003, Israelc Technion Israel Institute of Technology, The Resnick Sustainability Center for Catalysis, Haifa 3200003, Israel A R T I C L E I N F O Keywords:Membrane reactorsPalladium membranesHydrogenElectric fieldDFT",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Palladium based membranes hold significant promise for the efficient and compact production of high-purity hydrogen. However, their performance is often hindered by the co-adsorption of gas-phase species, particularly carbon monoxide (CO), which competes with hydrogen and limits flux through these costly membranes. In this study, we employ a multi-scale modeling framework to investigate the influence of an applied electric field (AEF) on Pd-based membrane separators and reactors. At the molecular scale, density functional theory (DFT) calculations are used to estimate the adsorption energies of CO and hydrogen on Pd surfaces under varying electric fields. These results are then integrated into unit-scale simulations of membrane systems. The DFT results show that AEFs significantly alter the adsorption energy of CO — due to its polar nature — while having negligible effect on nonpolar hydrogen. Specifically, a negative electric field of -1 V/Å reduces CO adsorption energy by 0.26 eV, whereas a positive field increases it, thereby negatively impacting hydrogen flux. In a simple membrane separator, applying a -1 V/Å field reduces CO surface coverage by up to 64 % and enhances transmembrane hydrogen flux by as much as 2.5 times. For membrane reactors, we evaluate the dual impact of AEFs on both competitive adsorption and equilibrium constant.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ogen flux by as much as 2.5 times. For membrane reactors, we evaluate the dual impact of AEFs on both competitive adsorption and equilibrium constant. Our simulations reveal that the spatial implementation of the electric field plays a critical role: when the AEF is applied only near the membrane surface, methane steam reforming conversion at 550 ◦C improves significantly—from 35 % to 70 %. However, if the AEF influences the entire reactor volume, it can reduce the equilibrium constant and thus lower overall conversion. These findings highlight the importance of reactor designs that localize electric fields at the membrane surface to maximize performance benefits.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Hydrogen has gained great attention as an emissions-free energy carrier, with global demand reaching 94 million tons in 2021 [1]. Its demand is expected to increase by 8-fold until 2050 [2]. There are various methods to produce hydrogen from different sources, the main ones are hydrocarbon reforming, water electrolysis and thermal conversion of biomass [3]. Among these, steam reforming, primarily utilizing methane, stands out as the predominant method for hydrogen production. In the United States, more than 95% of the hydrogen is produced by steam–methane reforming [4]. The process consists of two consecutive reactions, the steam–methane reforming reaction (SMR) Eq. (1) and the water–gas shift reaction (WGS) Eq. (2): CH4 + H2O ↔3H2 + CO(1) CO + H2O ↔H2 + CO2(2)\n\n∗Corresponding author. E-mail address: michael@technion.ac.il (M. Patrascu).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Steam reforming (of any hydrocarbon or alcohol) produces a hydrogen stream containing a high concentration of other components, such as CO and CO2. Therefore, several separation processes require processes to purify the hydrogen. PSA is the leading hydrogen purification technology in centralized production with a share of 85 % of global hydrogen purification [5,6]. Certain applications, like fuel cells (FC), require a feed of high-purity hydrogen, deeming efficient separation steps [7]. Membrane separation has various advantages over the conventional separation technology, in terms of low energy consumption, simplicity, high selectivity, and ease of scalability, which make membrane separation fit for small-scale distributed hydrogen production [8,9]. Potential materials for such membranes include polymeric, carbon, silica, MOFs, and dense metals [10]. Polymeric membranes are considered a low-cost solution, but due to the disorderly nature of polymeric materials, they suffer from low selectivity [11]. Carbon-based\n\nJournal of Membrane Science 736 (2025) 124657\n\nAvailable online 12 September 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license ( http://creativecommons.org/licenses/bync-nd/4.0/ ).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "R. Dawidowicz et al. membranes have excellent stability but variable size distribution pores, which causes low selectivity [9,12]. Metal–organic frameworks (MOFs) membranes can be a better alternative due to higher selectivity of the molecular sieve, but it is challenging to fabricate large, defect-free membranes [6,13]. Silica membranes can efficiently separate hydrogen, but hydrothermal instability is a significant issue [9]. Conversely, dense metal membranes, especially those made from Pd alloys, demonstrate exceptional selectivity, high diffusivity, and remarkable thermal stability. Their unique hydrogen separation process achieves the highest selectivity and permeation compared to other membranes through the solution–diffusion mechanism [14,15]. The hydrogen transport is initiated by dissociative adsorption of hydrogen molecule on the membrane’s surface, resulting in the formation of atomic hydrogen. This atomic hydrogen then diffuses through the metal lattice, driven by chemical potential gradient. On the other membrane side, atomic hydrogen is recombined into molecular hydrogen H2 and subsequently diffuses away from the metallic surface [16–18]. This mechanism renders metallic membranes highly selective for hydrogen, as no other gas can effectively dissociate and diffuse through the metal.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "8]. This mechanism renders metallic membranes highly selective for hydrogen, as no other gas can effectively dissociate and diffuse through the metal. Palladium-based membrane reactors (MRs) offer a promising solution for achieving high-purity hydrogen with low defectiveness and intensifying the process for small-scale production [19]. There are two main advantages of using MRs: MRs enable the removal of hydrogen from the reaction zone, which enhances the reaction conversion by shifting the equilibrium towards the product side at moderate temperatures. Furthermore, MRs produce high-purity hydrogen as the permeate in a single unit, eliminating the need for downstream conversion or separations steps [14,20–24]. The reaction side in palladium-based MRs often contains mixtures of methane, hydrogen, water, CO, CO2, and various other species, depending on the feed. Numerous studies have documented a substantial reduction in the hydrogen permeate flux upon the introduction of carbon monoxide into the feed stream. This decrease is attributed to the blocking of available sites on the Pd surface caused by the strong adsorption of CO, which hinders both hydrogen adsorption and dissociation [25–29]. Israni et al. noted that even in small concentrations, the presence of CO resulted in a notable decrease in hydrogen transmembrane flux, ranging from 30 % to 60 % [30].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "d that even in small concentrations, the presence of CO resulted in a notable decrease in hydrogen transmembrane flux, ranging from 30 % to 60 % [30]. Applied electric fields (AEF) has been suggested as a process intensification method to improve activity and selectivity of reactions [31]. An AEF above 0.1 V/Å has been found to influence the adsorption orientation and energy of molecules, reaction energies, and activation energy barriers for reactions, primarily due to a change in the distribution of electron density, polarization, or charge transfer [32]. Electric field can also significantly alter chemical equilibrium through two primary mechanisms: molecular polarization (induced dipoles) and orientation of permanent dipoles, which change the thermodynamic state of the system [33]. Testing the effect of an electric field on heterogeneous catalysts is challenging, mainly due to the challenge of achieving a consistently high electric field. In addition, Field strength can only be estimated rather than measured [32]. Experimental studies have revealed the impact of electric fields on catalysts through various reactor designs. Scanning tunneling microscope (STM) nanoreactors can operate with a high and consistent electric field, making them closely aligned with simulation results. In an STM reactor, the electric field is applied through a sharp probe, utilizing a low voltage (≈ 1 V) [34,35].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "sely aligned with simulation results. In an STM reactor, the electric field is applied through a sharp probe, utilizing a low voltage (≈ 1 V) [34,35]. However, this system operates in vacuum conditions and is irrelevant for large-scale reactions. Several configurations have been suggested for larger-scale reactors. The first is the probe–bed–probe (PBP) reactor, which features a traditional packed catalyst bed situated between two metallic probes, one on each side of the bed [36–38]. The PBP reactors operate at high voltages, ranging from hundreds to thousands of volts, due to the greater distance between the electrodes. When a high enough current is applied, this can lead to the creation of plasma [32]. Continuous-circuit reactors are a promising approach for establishing a uniform surface electric field. In this configuration, a conductive layer, such as catalysts or a metallic membrane, is integrated into an electrical circuit. Previous experimental work that applied electric fields by incorporating a conductive catalyst used only 200 V, resulting in surface electric fields estimated to be in the range of 0.01 to 0.1 V/Å [32,39]. Theoretical investigations using density functional theory (DFT) have explored the effects of AEFs on the adsorption of variousmolecules on transition metal (TM) surfaces (e.g., Pt, Ni, Pd) [32,39–43].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "theory (DFT) have explored the effects of AEFs on the adsorption of variousmolecules on transition metal (TM) surfaces (e.g., Pt, Ni, Pd) [32,39–43]. In the absence of an electric field, an H2O molecule prefers to adsorb nearly parallel to the on-top site of Ni(111) surface, however an electric field ranging from -1 V/Å to 1 V/Å can reorient it to an H-down structure under negative fields and an H-up structure under positive fields on both flat and stepped Ni surfaces [42]. An external electric field also significantly affects the stability of H2O on Ni surfaces, with a negative field destabilizing and a positive field enhancing adsorption, which can be explained by frontier molecular orbital theory [42]. A similar effect was observed for the adsorption of CH2OH and CH3OH on Ni(111), where the orientation of OH group shifted from an H-down to an H-up structure and adsorption energy increased (i.e. from -0.05 eV to -0.47 eV for CH3OH), as the electric field was increased from -1 V/Å to 1 V/Å [44]. Nonetheless, a comprehensive understanding of how AEFs influence adsorption properties of molecular species on TM remains incomplete. The adsorption of specific molecules on Pd surfaces under an AEF has been scarcely studied [45]. Yang et al. conducted a detailed investigation of methanol adsorption on Pd(111) under AEF. They found that in the absence of an electric field, methanol adsorbs through either the methyl or hydroxyl group with similar adsorption energies on Pd(111).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nd that in the absence of an electric field, methanol adsorbs through either the methyl or hydroxyl group with similar adsorption energies on Pd(111). However, as AEF intensity increases, the methyl configuration undergoes a slight change, with the angle between the C–O bond and Pd(111) decreasing to 1.9◦, while the hydroxyl configuration remains unaffected. The influence of AEFs on catalytic reactions has been explored in several studies. Che et al. demonstrated that on Ni-based surface in the presence of a positive field, CHx species are more likely to be oxidized by surface O atoms, whereas a negative field enhances oxidation by surface hydroxyl groups of CHx [46]. Earlier, the same group found that a negative electric field accelerates the water dehydrogenation reaction on Ni [42]. Both studies [42,46] employed AEF ranging from -1 V/Å to 1 V/Å. Yeh et al. investigated CH4 partial oxidation with O2on IrO2 surfaces, and revealed that electric fields ranging from -0.6 to 0.6 V/Å have minimal impact on methane dehydrogenation and C–O coupling reactions but significantly affect adsorption processes [47]. DFT combined with microkinetic modeling has been used to study the influence of AEFs on reaction rates and equilibrium constants [39,46]. Che et al. have studied the SMR reaction on Ni-based systems under AEF and showed that electric fields alter the rate and equilibrium constant of the reaction, leading to a slight change of SMR mechanism [39].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s under AEF and showed that electric fields alter the rate and equilibrium constant of the reaction, leading to a slight change of SMR mechanism [39]. Furthermore, they predicted a 27.6 % conversion in the absence of an electric field, which increased to 47.9 % under the application of a positive electric field at 1073 K and 1 bar. Although the experimental results showed lower conversions of 9.8 % without an electric field and 29.5 % with a positive electric field at the same temperature and pressure, the trends were consistent [39]. Moreover, catalytic steam reforming of methane at a low temperature of 423 K showed zero conversion in the absence of the electric field, while in the presence of the electric field, 40 % conversion was obtained [37]. Research on the impact of AEFs on hydrogen transport in Pd membranes is notably absent. The only relevant work is by Rivera and Muhich, who recently demonstrated that a strong negative electric field (below -1.5 V/Å) suppresses the adsorption of H2S, without affecting H2 adsorption on Pd membranes, potentially enhancing the hydrogen flux [43]. Hence, the impact of AEF on hydrogen transport in Pd-based membrane separators and reactors remains unexplored. This study aims to investigate the effects of AEF on the adsorption of CO and H2 Journal of Membrane Science 736 (2025) 124657",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "R. Dawidowicz et al. and on reaction equilibrium, and assess the resulting intensification of membrane separators and membrane reactors. In this work, we apply multi-scale modeling to assess the intensification of Pd membrane separators and reactors by AEF. The paper is divided into 3 parts. Each part introduces the relevant computational details first, before presenting the results and conclusions. First, we examine the influence of electric fields ranging from -1 to +1 V/Å on the adsorption energies of CO and H2 using DFT calculations. Next, we investigate how the impact of an electric field on co-adsorption of CO leads to intensification in the separation performance of a simple membrane separation unit. In the last section, we study a membrane reactor system conducting methane steam reforming for pure hydrogen production. In this case, we also consider the impact AEF has on the equilibrium constant of the MSR and WGS reactions. 2. The impact of AEF on adsorption energy 2.1. Computational details In order to determine the adsorption energy of CO and H2 on the surface of Pd(111), as well as the activation energy barriers for the diffusion of H atoms within the Pd layers, both in the absence and in the presence of an external electric field, we performed total energy calculations using density functional theory (DFT).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", both in the absence and in the presence of an external electric field, we performed total energy calculations using density functional theory (DFT). Our DFT calculations are based on the PBE exchange–correlation functional within the Generalized Gradient Approximation [48] and projector augmented wave (PAW) method [49,50] implemented in the Vienna Ab Initio Simulation Package (VASP) [51,52]. We used Monkhorst–Pack k-point mesh of 10 * 10 * 10 for bulk calculations, 4 * 4 * 1 for slab calculations and Gamma-points for molecules in gas-phase to sample the Brillouin zone and 500 eV as the cutoff energy for the plane wave basis set, which is sufficient for accurate DFT calculations. For slab calculations, we applied a dipole correction to obtain the correct values of the total energies of the slab. For atomic relaxations into their ground state structures, we applied the conjugate-gradient algorithm. We considered that the geometries achieve their equilibrium positions once the atomic forces were smaller than 0.010 eV/Å on each atom, and a total energy convergence was 10-6 eV. Pd bulk and surface. The initial geometry of bulk Pd with fcc structure were taken from Materials Project [53]. For the optimization of the bulk structure we applied a stress tensor and forces, allowing cell shape and volume to change. Our calculated equilibrium lattice parameter 𝑎 for Pd fcc bulk is 3.94 Å, which is in a good agreement with experimental results [54] and DFT findings [55].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lculated equilibrium lattice parameter 𝑎 for Pd fcc bulk is 3.94 Å, which is in a good agreement with experimental results [54] and DFT findings [55]. We created (111) 3 * 3 * 1 surface slab with 5 layers and about 15 Å of a vacuum region, which is enough to model the adsorption of small molecules. We optimized Pd(111) surface using VASP, in which we kept frozen two bottom Pd layers, while the remaining layers were allowed to move. Molecules in gas-phase. We created the initial structures of the H2, CO, CO2, CH4 and H2O molecules and put them in cubic boxes of the following sizes: 7 Å for H and H2 and 8 Å for CO, CO2, CH4 and H2O molecules. Adsorption of molecules on Pd(111). We prepared initial structures for hydrogen adsorption on the optimized Pd(111) surface by positioning a hydrogen atom at various sites, including on-top, bridge, and hollow sites. For CO and H2 adsorption on Pd(111), we applied a ‘‘design principle’’ by placing the molecules at reasonable positions above the surface. To construct the initial structures of H2 molecule on Pd(111), we also performed 𝐴𝑏𝐼𝑛𝑖𝑡𝑖𝑜 Molecular Dynamics (MD) simulations using the Nose–Hoover thermostat approach [56,57], in which we gradually reduced the temperature from 300 K to 0 K during 30 ps. The initial structural models were constructed by placing H2 molecule at random positions approximately 3 Å above the Pd(111) surfaces. All",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 1Adsorption energies (𝐸ad0 in eV) and bond lengths between the atom bound to Pd(111) and Pd(111) (𝑅(C/H–Pd) in Å) for CO, H, and H2 molecules on Pd(111). Adsorption energies are given by our results/literature GGA results. 𝑎 [65] 𝑏 [66] 𝑐 [67] 𝑑 [68] 𝑒 [43]. Molecule𝐸ad0 (our)𝐸ad0 (ref)𝑅(C/H–Pd) CO-1.99-1.96𝑎; -2.14𝑏2.06; 2.06; 2.06 H-2.84-2.80𝑐;-2.88𝑎,𝑑1.81; 1.81; 1.81 H2-0.25-0.25𝑒1.74; 1.74 created structures were optimized, and the most energetically favorable configurations were selected for further analysis. We investigated the electronic structure of clean and moleculeadsorbed Pd(111) surfaces by computing and analyzing the projected density of states (PDOS) for Pd(111) and the adsorbed species on Pd(111). We also calculated the d-band center (𝑑𝑏) for Pd bulk, Pd surface atoms, and Pd surface atoms bound to the molecules, following the Nørskov model [58], in which 𝑑𝑏 can be considered as a descriptor for the adsorption strength and catalytic activity of Pd atoms. We also computed Bader charges for each atom using an algorithm proposed by Henkelman et al. [59–61]. The charge on every atom is calculated as 𝑄= 𝑁ZVAL - 𝑄𝐵, where 𝑁ZVAL is the number of valence electrons and 𝑄𝐵 is Bader charge calculated by VASP. In order to study the impact of electric field, we employed the Neugebauer and Scheffler method implemented in VASP [62]. This method posits that a dipole sheet exists in the center of the vacuum layer, formed by opposing charged ends of the sheet slab.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nted in VASP [62]. This method posits that a dipole sheet exists in the center of the vacuum layer, formed by opposing charged ends of the sheet slab. Consequently, we inferred that a consistent electric field is present within the H/Pd interface. To evaluate the effect of electric field on the adsorption energy, we conducted DFT calculations for CO, H2, and H, on Pd(111) in the presence of electric fields in the range from -1 to +1 V/Å. Diffusion of H atom into Pd bulk. We positioned the H atom on the different sites in the Pd sublayers. For this simulations we kept frozen the middle Pd layer, and permit movement of other Pd layers. Then we optimized all the structures and identified the most energetically favorable structures. 2.1.1. Adsorption and activation energy We computed the adsorption energy of the systems using the total energy values obtained by VASP, as 𝐸𝑎𝑑,𝑖= 𝐸i on Pd -𝐸Pd -𝐸i,(3) where 𝐸i on Pd, 𝐸Pd, and 𝐸i are the total energies of molecule (or atom) on Pd slab, pure Pd slab, and molecule (or atom) in gas-phase, respectively. In order to identify the minimum energy paths and activation energy associated with the H diffusion within Pd bulk we applied Nudged Elastic Band (NEB) method [63,64]. The activation (𝐸𝑎) and reaction energies are defined as 𝐸𝑎= 𝐸TS -𝐸IS, 𝐸𝑟= 𝐸FS -𝐸IS,(4) where 𝐸IS, 𝐸TS, 𝐸FS are the total energies of initial, transition and final states of H within Pd, respectively. 2.2.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s 𝐸𝑎= 𝐸TS -𝐸IS, 𝐸𝑟= 𝐸FS -𝐸IS,(4) where 𝐸IS, 𝐸TS, 𝐸FS are the total energies of initial, transition and final states of H within Pd, respectively. 2.2. Adsorption and diffusion in the absence of an electric field The lowest energy structures for CO, H, H2 and dissociated H2molecules on Pt(111) are given in Fig. 1, while their adsorption energies compared with reported GGA-calculated values and bond lengths between the molecule/atom and Pd(111) are presented in Table 1. We found that the CO molecule adsorbs onto the Pd(111) surface via the carbon atom, oriented perpendicular to the surface at a hollow site, with an adsorption energy 𝐸ad0 of -1.99 eV, which is very close to the values and structures obtained in literature [43,65–68]. Journal of Membrane Science 736 (2025) 124657",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Projected density of states (PDOS) for the clean Pd(111) surface and the Pd(111) surface with adsorbed molecules. The vertical dashed line represents the Fermi level, set at 0 eV. Fig. 2 presents PDOS for clean and molecule-adsorbed Pd(111). For the clean Pd(111), PDOS is shown separately for surface and bulk Pd atoms. In the case of molecule-adsorbed Pd(111), we distinguish between unbound surface Pd atoms and those directly interacting with the adsorbates. The PDOS of the clean Pd(111) surface is dominated by Pd 4d states, which span from approximately -7 eV up to the Fermi level (set at 0 eV and indicated by a vertical dashed line). The calculated d-band center (𝑑𝑏) for surface atoms is -1.62 eV, which is 0.36 eV higher than that of bulk Pd (-1.98 eV), reflecting the increased reactivity of the under-coordinated surface atoms. Upon molecular adsorption, the interaction between the adsorbates and the Pd surface leads to a shift in the 𝑑-states of the Pd atoms directly involved in bonding. For instance, Pd atoms bonded to CO and H (green line) exhibit a slight shift in 𝑑𝑏 compared to clean surface Pd atoms (black line), with values of -1.25 eV and -1.50 eV, respectively. These shifts, particularly near the Fermi level, indicate electronic perturbations due to molecule–metal interactions. In the case of H2 adsorption, the shift is more pronounced: the 𝑑𝑏 of the Pd atom bound to H2 is -2.28 eV, compared to -1.62 eV for other surface Pd atoms.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e case of H2 adsorption, the shift is more pronounced: the 𝑑𝑏 of the Pd atom bound to H2 is -2.28 eV, compared to -1.62 eV for other surface Pd atoms. This larger shift can be attributed to coordination effects, as H2 adsorption saturates the Pd surface site, significantly altering its electronic structure. For the CO/Pd(111) system, the carbon and oxygen contributions, originating from 𝑝𝑥, 𝑝𝑦, and 𝑝𝑧 orbitals, appear around -8 eV and between -6 eV and 0 eV, indicating bonding interactions with Pd dstates. In contrast, for H and H2, the adsorbate-derived s-states appear at approximately -8 eV and -10 eV, respectively. The transport of hydrogen through metallic membranes follows a solution–diffusion mechanism [69,70]. It begins with the diffusion of H2 molecules from the gas phase to the Pd(111) surface, where they weakly adsorb onto Pd(111). We found that 𝐸𝑎𝑑0 of H2 is -0.25 eV. Upon adsorption, H2 dissociate into hydrogen adatoms. Our simulations show that H adatoms occupy hollow sites on the Pd(111) surface with a stronger binding, i.e. 𝐸𝑎𝑑0 of -2.84 eV. The dissociation process is characterized by a low activation energy (𝐸𝑎) of 0.14 eV and a favorable reaction energy (𝐸𝑟) of -0.80 eV. These results are consistent with values reported in the literature [43]. A hydrogen atom diffuses from the surface to the subsurface layers occupying hollow positions within Pd ( Fig. 3).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "es reported in the literature [43]. A hydrogen atom diffuses from the surface to the subsurface layers occupying hollow positions within Pd ( Fig. 3). The reaction energies are 0.36 eV and 0.20 eV for H diffusion from the surface to the first sublayer and from the first sublayer to the second sublayer, respectively. The activation energy barriers for these processes are 0.42 eV and 0.34 eV, respectively. Notably, our results closely align with experimental findings for bulk hydrogen diffusion, those measured value is 0.23 eV and well agree with the PBE calculations reported in [43]. The adsorption energies of H and the diffusion path of H through all the Pd layers along with activation energy barriers are shown in Fig. 3. The adsorption energies of hydrogen on Pd layers exhibit a paraboliclike behavior. The highest values of -2.84 eV and -2.82 eV are attained when hydrogen is bound to the surface, gradually decreasing to -2.28 eV for the second sublayer. This trend is attributed to the transition towards the bulk state, a phenomenon that occurs due to the freezing of all Pd layers. 2.3. Adsorption of molecules in the presence of an electric field We assume an ideal electric field perpendicular to the membrane’s surface; its direction determines if it is positive or negative, as illustrated in Fig. 4. Journal of Membrane Science 736 (2025) 124657",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The adsorption energies for CO, H2 and dissociated 2H on Pd(111) with respect to the intensity of the applied electric field are presented in Fig. 5. We observed different trends in the adsorption energy for CO, H2 and dissociated 2H on the Pd(111) surface. The adsorption energy increases (in absolute values) from -1.73 eV to -2.15 eV for CO and reduces from -0.32 eV to -0.14 eV for H2 in the range of -1 to +1 V/Å. These values correspond to a change from +0.26 to -0.16 eV in the adsorption energy of CO when compared to its values in the absence of an electric field, while this range is much smaller for H2, which is from -0.07 to +0.11 eV, and for dissociated 2H, it corresponds to the values of 0.00–0.04 eV. This suggests that the electric field has a greater influence on the adsorption energy of CO molecule, primarily because of its polar nature. H2, being a non-polar molecule, experiences a smaller effect. The least pronounced effect is observed in the case of dissociated 2H, which is the dominant adsorption mechanism of hydrogen. Therefore, applying an electric field of -1 V/Å, results in a reduction of the CO adsorption energy by 0.26 eV when compared to its value in the absence of an electric field. On the other hand, applying an electric field of -1 V/Å increases the adsorption energy of H2 by 0.07 eV, which can enhance the likelihood of H2 adsorption, while the adsorption of H is only minimally affected, changing by 0.04 eV.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "energy of H2 by 0.07 eV, which can enhance the likelihood of H2 adsorption, while the adsorption of H is only minimally affected, changing by 0.04 eV. Our results are consistent with existing literature regarding the limited impact of electric fields on non-polarized molecules [32,43]. For instance, 𝑅𝑖𝑣𝑒𝑟𝑎 et al. [43] demonstrated that electric fields have a minimal effect on the adsorption of H2 onto the Pd membrane. The influence of AEF on the adsorption properties of CO, H, and H2molecules on the Pd(111) surface was also analyzed through changes in the 𝑑𝑏 of Pd atoms. We found that applying an AEF of -1 V/Å and +1 V/Å resulted in only minor shifts in the 𝑑𝑏 for both clean and molecule-adsorbed Pd surfaces, ranging from 0.01 eV to 0.11 eV, suggesting that the AEF does not significantly alter the electronic structure of the systems. Fig. 6 illustrates the charge density difference and Bader charge for the lowest energy configurations of CO, H, and H2 adsorbed on Pd(111), highlighting only the topmost Pd layer. The key findings can be summarized as follows. There is a charge redistribution between Pd layers in the Pd slab in the absence of electric field: negative charge accumulates at the surface and bottom layers (total charge of -0.27𝑒 and -0.28𝑒, respectively), positive charges are at the submonolayers (+0.24𝑒and +0.25𝑒, respectively) and almost zero charge (+0.06𝑒) at the middle layer.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "-0.28𝑒, respectively), positive charges are at the submonolayers (+0.24𝑒and +0.25𝑒, respectively) and almost zero charge (+0.06𝑒) at the middle layer. Applying electric field results in the charge repartition on the surface and bottom Pd(111) layers that are extended to the vacuum, such as less negative charge of -0.02𝑒 at 𝐸ext of -1 V/Å and more negative charge of -0.52𝑒 at 𝐸ext of +1 V/Å. The bottom layers are charged accordingly, i.e. more negative (-0.52𝑒) at 𝐸ext of -1 V/Å and less negative charge (-0.01𝑒) at 𝐸ext of +1 V/Å. When molecules are adsorbed on Pd(111) in the absence of electric field, a negative charge accumulates on the CO molecule (-0.22𝑒) due to the higher electronegativity of C (2.55) and O (3.44) atoms compared to Pd (2.20). In contrast, there is an almost negligible charge on H/H2 -0.09𝑒/+0.05𝑒 due to the similar electronegativity of H and Pd. At that charges on the topmost and bottom layers of Pd(111) are also influenced. Applying electric field on molecule/Pd(111) system results in less negative charge on molecule at 𝐸ext of -1 V/Å and more negative charge at 𝐸ext of +1 V/Å, e.g. -0.15𝑒 and -0.34𝑒 for CO on Pd(111), respectively. Thus, the amount of charge on the molecule directly correlates with the variation in the adsorption energy both in the absence and in the presence of an electric field, i.e. a higher charge on CO corresponds to a higher change in the adsorption energy, e.g. CO shows a higher variation in charge and 𝐸ad0 compared to H2.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ".e. a higher charge on CO corresponds to a higher change in the adsorption energy, e.g. CO shows a higher variation in charge and 𝐸ad0 compared to H2. We found that the activation energy barriers for the diffusion of hydrogen atoms within Pd layers are not affected by electric fields. We observed the variations of the activation energy barriers for the diffusion of hydrogen atoms into Pd layers in a narrow range from 0.001 to 0.03 eV compared to the activation energy barriers calculated without electric fields. Thus, we conclude that electric fields have an insignificant impact on the diffusion of hydrogen. Journal of Membrane Science 736 (2025) 124657",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "R. Dawidowicz et al.\n\nFig. 5. The adsorption energy of CO, H2 and dissociated 2H atoms on Pd(111), without and with an applied electric fields ranging from -1 to 1 V/Å.\n\nFig. 6. The charge density difference and Bader charge of the lowest energy structures of CO, H and H2 on the topmost Pd layer, without and with an applied electric fields of -1 V/Å and 1 V/Å.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "To summarize this section, we found that the application of electric fields can manipulate the adsorption energy of polar species (specifically CO), however, these fields do not influence the adsorption energy of H2 or the diffusion of H within the Pd lattice. 3. Membrane separation of H2 from mixtures containing CO The transmembrane hydrogen flux, and thus the separation performance per membrane area, is affected by the adsorption of other species on the Pd surface, which decreases the surface area available for hydrogen [25,27,28,30,71]. In this section, we analyze the impact of an electric field on H2 separation from mixtures containing CO, using Pd membranes. 3.1. Adsorption and desorption kinetics To better understand the effect of an electric field on the adsorption of CO and H2, a surface coverage analysis was conducted in the presence of an electric field. The adsorption and desorption reactions can be presented by two elementary reactions: H2 + 2 ∗⇌2H∗,(5) CO+ ∗⇌CO∗,(6) where * represents a free surface site or adsorbed spices. The rate of the dissociative adsorption and desorption rate of H2onto/from the metal surface, Eq. (5), can be described by Eq. (7) and Eq.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "bed spices. The rate of the dissociative adsorption and desorption rate of H2onto/from the metal surface, Eq. (5), can be described by Eq. (7) and Eq. (8), respectively, assuming that hydrogen adsorption on metal surfaces follows a Langmuir adsorption isotherm for two sites: 𝑟𝑎𝑑𝑠H= 2 ⋅𝑘𝑎𝑑𝑠H⋅𝑝H2 ⋅𝜃2V ⋅𝑛𝑠,(7) 𝑟𝑑𝑒𝑠H= 2 ⋅𝑘𝑑𝑒𝑠H⋅𝜃2H,𝑖⋅𝑛𝑠,(8) where 𝜃V is the coverage of free sites, 𝑝H2 is the partial pressure of H2, 𝑛𝑠 is the total number of adsorption sites available on the palladium surface per area and 𝜃𝑖 represent the coverage fraction of species 𝑖. Similarly, adsorption and desorption rate per unit area of CO onto/from the metal surface can be described by Eqs. (9) and [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}], respectively: 𝑟𝑎𝑑𝑠CO = 𝑘𝑎𝑑𝑠CO ⋅𝑝CO ⋅𝜃V ⋅𝑛𝑠,(9) 𝑟𝑑𝑒𝑠CO = 𝑘𝑑𝑒𝑠CO ⋅𝜃CO ⋅𝑛𝑠,[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] where 𝑝CO2 is the partial pressure of CO. The rate coefficient for adsorption can be calculated based on statistical thermodynamic principles using Hertz–Knudsen kinetics [72] 𝑘𝑎𝑑𝑠𝑖=𝐴site√ 2𝜋𝑚𝑖𝑘𝐵𝑇,[ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] 𝑘𝑑𝑒𝑠i= 𝑘𝑏𝑇3 ℎ3𝐴site(2𝜋𝑚i𝑘𝑏) 𝜎𝜃rotexp(-𝐸ads,i 𝑅𝑇",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "),[ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] where 𝑚𝑖 is the mass of the molecule, 𝑘𝐵 is the Boltzmann constant, ℎ is the Planck constant, and 𝐴site is the area of a surface site. 𝐸𝑎𝑑𝑠,𝑖is the heat of adsorption for desorption, which is approximately the same as the binding energy and evaluated using DFT under different electric fields [16]. The symmetry number 𝜎 represents the number of indistinguishable orientations of a particular molecule. For CO, it is equal to one, and for hydrogen to two [73]. 𝜃rot is the rotational temperature used to simplify the rotational partition function. 3.2. The impact of AEF on the H2 and CO adsorption isotherms The adsorption isotherms presented in Fig. 7 demonstrate the adsorption behavior at temperatures of 450 ◦C, 550 ◦C, and 650 ◦C, under varying electric field strengths and concentrations of CO in the gas phase. These isotherms indicate two key points: First, lower temperatures enhance CO adsorption. In this model, non-activated adsorption was considered, leading to the expectation that higher temperatures would elevate the desorption rate Eq. [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}]. Second, as indicated by the DFT results, the application of a negative electric field reduces CO adsorption. 3.3.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "^{4} z_i C_i\\tag{12}\\end{equation}]. Second, as indicated by the DFT results, the application of a negative electric field reduces CO adsorption. 3.3. Membrane separator mathematical model The transport of hydrogen through the membrane is described by the hydrogen flux, 𝐽𝑚, which depends on the membrane’s permeance, 𝑄𝑚. Sieverts’ law is commonly used to describe the H2 flux in the case of Pd and Pd alloy membranes. According to Sieverts’ Law, the driving Journal of Membrane Science 736 (2025) 124657",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. The surface coverage of CO∗ on Pd(111) as a function of AEF strength and CO gas phase concentrations, at temperatures of 450 ◦C, 550 ◦C, and 650 ◦C. force for hydrogen permeation is the difference between the square root of the hydrogen partial pressure, Eq. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}]. 𝐽𝑚= 𝑄𝑚(√𝑝H2 -√ 𝑝𝑝H2 ), 𝑄𝑚= 𝐴𝑚⋅exp(-𝐸𝑚∕𝑅𝑇),[ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] where 𝑝H2 and 𝑝𝑝H2 represent the hydrogen partial pressure in the retentate and permeate, respectively. 𝐴𝑚 is the pre-exponential factor, which accounts for the membrane’s thickness 𝛿 through the relation 𝐴𝑚=𝐴0∕𝛿. 𝐸𝑚 is the activation energy for the hydrogen diffusion. Typical value for 𝐴𝑚 and 𝐸𝑚 range 0.3–3 mol/m2√ bar between 5–15 kJ/mol, respectively [22,28,74–76]. When a mixture of gases is present, the available surface area for hydrogen is reduced, which results in a lower flux. To account for this effect, it is proposed to include a term (𝜃𝑉+ 𝜃H) in the flux expression. This term accounts for the vacant surface and the hydrogen surface coverage [30]. When pure hydrogen is used as the feed, (𝜃𝑉+𝜃H) equals to one, and the expression is the same as Sieverts’ law.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nd the hydrogen surface coverage [30]. When pure hydrogen is used as the feed, (𝜃𝑉+𝜃H) equals to one, and the expression is the same as Sieverts’ law. This term is called the inhibition factor, 𝛩, and the hydrogen flux is expressed by 𝐽𝑚= (𝜃𝑉+ 𝜃H)𝑄𝑚(√𝑝H2 -√ 𝑝𝑝H2 )= 𝛩𝑄𝑚(√𝑝H2 -√ 𝑝𝑝H2 ).[ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}]",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The effect of an electric field on transmembrane hydrogen flux in the presence of CO is modeled by simulating a cylindrical membrane separator, where the outer tube is the retentate side and the inner tube is the permeate side, as illustrated in Fig. 8. The system is modeled by deriving a dimensionless one-dimensional isothermal component balance for hydrogen, Eq. (17), and two balances for CO and H2 coverage, Eqs. (19) and (20). Dimensionless variables defined for our work: ̃𝐹i = 𝐹i∕𝐹i, 0, Pe𝑚, and the dimensionless flux ̃𝐽𝑚. Pe𝑚 is the resulting key dimensionless parameter, and is defined as the ratio between the H2 feed flow rate and the maximal flow of H2 through the membrane. Pe𝑚=𝐹𝐻2,𝑖𝑛 𝜋𝐷𝑚𝑄𝑚(√ 𝑃𝑟-√ 𝑝𝑝H2 )𝑑𝑧[ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] We assume that the Pd membrane is only permeable to hydrogen. The model consists of two ODE and two algebraic equations resulting in a DAE system and solved using gPROMS. 𝑑̃𝐹H2𝑑Pe-1𝑚= ̃𝐽𝑚,(16) 𝑑̃𝐹total𝑑Pe-1𝑚= -𝑦𝐻2,0̃𝐽𝑚,(17) ̃𝐹i,(Pe-1𝑚=0) = 1,[ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] 𝐾𝐶𝑂=𝑘𝑎𝑑𝑠CO𝑘𝑑𝑒𝑠CO=𝜃CO𝑝CO ⋅𝜃V,(19)\n\n𝐾𝐻=𝑘𝑎𝑑𝑠H𝑘𝑑𝑒𝑠H=𝜃2H𝑝H2 ⋅𝜃2V.(20) where the dimensionless flux ̃𝐽𝑚 defined by:",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "̃𝐽𝑚= -𝛩 (√𝑝H2 -√ 𝑝𝑝H2 ) (√ 𝑃𝑟-√ 𝑝𝑝H2 )(21) Assuming ideal gases, Dalton’s law of partial pressures is used with the relation: 𝑝𝑖= 𝑦𝑖𝑃𝑟= 𝑦𝑖,0̃𝐹𝑖̃𝐹𝑡𝑜𝑡𝑎𝑙𝑃𝑟(22) where 𝑃𝑟 is the retentate side pressure. Using Langmuir adsorption, the inhibition factor 𝛩 can be expressed by [28,30]: 𝛩=1 +√ 𝐾H𝑝H 1 +√ 𝐾𝐻𝑝H + 𝐾CO𝑝CO.(23) The hydrogen recovery is calculated by: Recovery =̃𝐹H2,0 -̃𝐹H2 ̃𝐹H2,0(24) 3.4. The impact of AEF on a membrane separator Based on the obtained values for CO and H2 adsorption energy, as shown in Fig. 5, and the adsorption isotherms in Fig. 7 it is expected that CO will have a significant effect on the hydrogen flux and recovery. The separator model was solved to illustrate the impact of CO on hydrogen separation. We assume a constant temperature of 550 ◦C and a pressure of 30 bar in the feed, while the permeate is pure hydrogen at 1 bar, which are typical operating conditions of interest [77,78]. Fig. 9 shows the hydrogen recovery for two cases: (1) A feed mixture of H2/N2at a concentration of 30/70 %mol, respectively and (2) A feed mixture of H2/N2/CO at a concentration of 30/69/1 %mol, respectively. As shown in Fig. 9, higher values of Pe-1𝑚 (larger membrane area) result in increased H2 recovery, reaching up to 90 %. At this point, the hydrogen partial pressures in both the permeate and retentate are equal, leading to a lack of driving force for further separation. For a feed without CO this is achieved at Pe-1𝑚=5.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "th the permeate and retentate are equal, leading to a lack of driving force for further separation. For a feed without CO this is achieved at Pe-1𝑚=5. However, with 1 %mol of CO in the feed, at the same Pe-1𝑚 only 20 % recovery will be obtained. In a gas mixture, CO occupies the membrane’s surface area, reducing the available sites or H2. This leads to decreased H2 permeation, as explained by Sieverts’ law (Eq. [ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}]). Consequently, the presence of CO in the gas phase leads to significant increase in the cost of the system (larger membrane area), required to achieve the same level of recovery. Journal of Membrane Science 736 (2025) 124657",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "R. Dawidowicz et al.\n\nFig. 8. Schematic illustration of the separator system operating under an (positive) electric field perpendicular to the membrane surface.\n\nFig. 9. Hydrogen recovery through a standard Pd membrane separator as a function of the Pe-1𝑚 number for 2 feed compositions: H2/N2 30/70 %mol and H2/N2/CO, 30/69/1 %mol. Temperature is 550 ◦C, feed pressure is 30 bar, and the permeate is pure H2 at 1 bar.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "We demonstrated in the previous section that an electric field can affect the surface coverage significantly. To gain a better understanding of the electric field’s impact on a separator, we used the estimated binding energy to solve the model Eqs. (17)–(20) under conditions of 550 ◦C, 30 bar, feed of H2/N2/CO=30/69/1 %mol and Pe-1𝑚= 10. Fig. 10(a) illustrates the average surface coverage at electric field strengths ranging from -1 to 1 V/Å. Based on the DFT calculations, a negative electric field leads to a higher surface coverage of hydrogen and a reduced surface coverage of CO. The reduction in surface coverage of CO is significant, dropping from 𝜃CO = 0.89 in the absence of an electric field to 𝜃CO = 0.32 under a negative electric field of -1 V/Å, a 64 % reduction. As shown in Fig. 10(b), the highest hydrogen flux and recovery rates are observed at the most negative electric field, where the CO surface coverage is the lowest. This increases the flux by 2.5 times compared to normal operation. On the other hand, the flux and recovery rates decrease under a positive field due to the higher CO surface coverage. A more comprehensive analysis, including an examination of the effect of the Pe𝑚 number and temperature on the system’s performance (hydrogen recovery), is presented in Fig. 11 at three different temperatures: 450 ◦C, 550 ◦C and 650 ◦C. Higher temperature leads to better recovery.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(hydrogen recovery), is presented in Fig. 11 at three different temperatures: 450 ◦C, 550 ◦C and 650 ◦C. Higher temperature leads to better recovery. The way we have defined the Péclet number enables to analyze the performance of an isothermal membrane reactor without considering the temperature’s impact on permeance, which is temperature-dependent. Therefore, the main effect of temperature in the different cases is the surface coverage of competitive species, in this case CO. From the adsorption isotherm Fig. 7, it can be seen that higher temperatures result in lower CO surface coverage, with significant surface coverage of CO at 450 ◦C leading to negligible permeance and recovery. In all the three cases, a larger Pe-1𝑚 leads to higher recovery due to increased surface area for hydrogen transfer.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. The impact of AEF on a membrane reactor performance In this section, we address a membrane reactor for the intensification of the methane steam reforming reaction, as an example for a key process utilizing Pd membranes. In the case of a packed bed that utilizes a porous catalyst, the orientation of the electric field differs depending on the specific orientation of the catalyst particle. As a result, the AEF’s impact on the reaction kinetics may be largely offset [32]. The method of applying the electric field in a membrane reactor is crucial; whether throughout the entire reactor and affecting the reaction or only near the membrane surface, will impact reactor performance in different ways. As proposed, applying a current through a catalytic surface can create a high electric field [42,44,79]. This method may also be used to affect the metal membrane mainly while generating less influence on the catalyst and the reaction. In order to avoid the complexity of considering actual kinetics we assume that the reaction is at local equilibrium, which is a good assumption in the common case that the transmembrane flow is the limiting rate in the membrane reactor [80–82]. Therefore, we have analyzed two different models to account for the electric field’s impact on a membrane reactor. In the first model, we assume the reaction equilibrium, Eqs. (29) and (30), is unaffected by the field, and is based on parameters listed in Table 2.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In the first model, we assume the reaction equilibrium, Eqs. (29) and (30), is unaffected by the field, and is based on parameters listed in Table 2. In the second model, we consider the change in the thermodynamic equilibrium which may be caused by the electric field [33], by estimating the reactions 𝛥G using DFT calculations [46]. This may impact performance in locations where both the AEF and catalysts are present. 4.1. Formulation of the membrane reactor model In this section we also consider the adsorption of other molecules involved in the methane steam reforming reaction, namely CH4, CO2, and H2O, using published values for their adsorption. We neglect the effect of the electric field on these species, as their adsorption is considered weaker [30,71]. In this case there are five unknowns, the reaction coordinate of both MSR (𝑥1) and WGS (𝑥2), the coverage of H∗ (𝜃H) and CO∗ (𝜃CO), and the hydrogen molar flow rate FH2. We defined the system using dimensionless variables that represent flow rates, reaction coordinates, and length. The flow rates and reaction coordinates were defined in Journal of Membrane Science 736 (2025) 124657",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "R. Dawidowicz et al.\n\nFig. 10. Impact of AEF on hydrogen separation: (a) Hydrogen and CO average membrane surface coverage. (b) Hydrogen recovery and dimensionless hydrogen flux through the Pd membrane. Operating at a temperature of 550 ◦C, a pressure of 30 bar in the feed, with feed of H2/N2/CO=30/69/1 %mol and Pe-1𝑚= 10.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 11. Hydrogen recovery as a function of AEF strength and Pe-1𝑚 at temperatures of 450 ◦C, 550 ◦C, and 650 ◦C. relation to the maximum flow of hydrogen that can be achieved in the system based on the reaction stoichiometry (4𝐹CH4,0): ̃𝐹𝑖=𝐹𝑖4𝐹CH4,0,(25) ̃𝑥𝑖=𝑥𝑖4𝐹CH4,0,(26) These five unknowns ( ̃𝐹H2, ̃𝑥1, ̃𝑥2, 𝜃CO, and 𝜃H) are solved by a DAE system comprising of one ODE, Eq. (27), and four algebraic equations representing the equilibrium conditions (29)–(32). The relationship between the flows and the reaction coordinate was defined according to the stoichiometry of the reactions. This DAE system was solved using gPROMS due to its capability of solving high-index DAEs, by automatic index reduction: 𝑑̃𝐹H2𝑑Pe-1𝑚= 3 𝑑̃𝑥1 𝑑Pe-1𝑚+𝑑̃𝑥2𝑑Pe-1𝑚-̃𝐽𝑚,(27) ̃𝐹H2(0) = 3̃𝑥1(0) + ̃𝑥2(0),(28) 𝐾𝑒𝑞,MSR =𝑝CO𝑝3H2𝑝H2O𝑝CH4= 𝑒-𝛥𝐺MSR 𝑅𝑇,(29) 𝐾𝑒𝑞,WGS =𝑝CO2𝑝H2𝑝H2O𝑝CO= 𝑒-𝛥𝐺WGS 𝑅𝑇,(30) 𝐾𝑒𝑞,𝐶𝑂∗=𝜃CO𝑝CO𝜃V,(31) 𝐾𝑒𝑞,𝐻∗=𝜃2H𝑝H2𝜃2V.(32) where the dimensionless flux ̃𝐽𝑚 defined same as in the separator model Eq. (21). For all component flows excluding hydrogen, an explicit relation exists to the reaction coordinates, based on the stoichiometry of the reactions (assuming only hydrogen transports through the membrane): ̃𝐹CH4 = ̃𝐹CH4,0 -̃𝑥1,(33) ̃𝐹H2O = ̃𝐹H2O,0 -̃𝑥1 -̃𝑥2,(34) ̃𝐹CO = ̃𝑥1 -̃𝑥2,(35) ̃𝐹CO2 = ̃𝑥2,(36) ̃𝐹𝑡𝑜𝑡𝑎𝑙= ̃𝐹H2O,0 + ̃𝐹CH4,0 + 2̃𝑥1.(37) Assuming ideal gases, Dalton’s law of partial pressures is used with the relation: 𝑝𝑖= 𝑦𝑖𝑃𝑟=̃𝐹𝑖̃𝐹𝑡𝑜𝑡𝑎𝑙𝑃𝑟(38) where 𝑃𝑟 is the retentate side pressure.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Assuming ideal gases, Dalton’s law of partial pressures is used with the relation: 𝑝𝑖= 𝑦𝑖𝑃𝑟=̃𝐹𝑖̃𝐹𝑡𝑜𝑡𝑎𝑙𝑃𝑟(38) where 𝑃𝑟 is the retentate side pressure. Hydrogen recovery is calculated by: Recovery =𝐹H2 permeated 𝐹H2produced= 1 -̃𝐹H23̃𝑥1 + ̃𝑥2.(39) Under the assumption of Langmuir adsorption, the inhibition factor 𝛩 can be expressed by [28,30]: 𝛩=1 +√ 𝐾H𝑝H 1 +√ 𝐾𝐻𝑝H + 𝐾CO𝑝CO + 𝐾CO2𝑝𝐶𝑂2 + 𝐾H2O𝑝H2O +𝐾CH4 𝑝CH4√",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 12. The impact of AEF on MR through co-adsorption: Simulation results of the Pd-membrane surface coverage, dimensionless H2 flux and recovery, and methane conversion in a membrane reactor for Pe-1𝑚= 6. The feed steam/methane ratio is 3:1, the temperature is 550 ◦C, the reaction pressure is 30 bar, and the permeate is pure H2 at 1 bar. In the case of a membrane reactor, Pe𝑚 is defined by the ratio between the maximum H2 production and the maximum flow of H2through the membrane [28,80,84,85]: Pe𝑚=4𝐹CH4,in 𝜋𝐷𝑚𝑄𝑚(√ 𝑃𝑟-√ 𝑝𝑝H2 )𝑑𝑧.(41) 4.2. The impact of AEF due to coadsorption Here, we simulate and study the impact of AEF on a membrane reactor through its effect on coasdsorption of CO, and thus inhibition of the H2 flux through the Pd membrane. We have solved the reactor model by using Eqs. (27)–(32) with a feed ratio of steam/methane 3:1 ( ̃𝐹H2O,0 = 3∕4, ̃𝐹CH4,0 = 1∕4), at a temperature of 550 ◦C, reactor pressure of 30 bar, and Pe-1𝑚= 6. The permeate is pure H2 at 1 bar.The results of the reactor model are presented in Fig. 12, showing similar trends in surface coverage and hydrogen flux compared to the separator model. A negative electric field decreases the CO binding energy, which decreases the CO surface coverage and increases the hydrogen flux. Fig. 12c shows the impact of AEF of various strengths on the methane conversion. The red dashed line represents the equilibrium conversion in a standard PBR, without in-situ hydrogen separation.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "strengths on the methane conversion. The red dashed line represents the equilibrium conversion in a standard PBR, without in-situ hydrogen separation. By using a membrane in the reactor, hydrogen is removed from the system, causing the reaction to shift towards the products. Therefore, a higher hydrogen flux through the membrane should result in a greater conversion. When a negative electric field is applied, the model predicts an increase in conversion from 35 % up to 70 %. This improvement is due to the lower concentration of CO on the surface, which enhances the hydrogen flux, leading to a shift in the reaction towards the products. In a positive electric field, the high surface coverage of CO reduces the hydrogen flux, thereby decreasing the conversion to the equilibrium level. The effects of temperatures and Péclet on the reactor performance can be observed in Figs. 13 and 14. As per the separator model, the Péclet number is used to analyze the membrane-reactor’s performance. Given that the SMR reaction is endothermic, higher temperatures lead to increased conversion. Higher Péclet allows for higher flux due to the larger membrane surface area when comparing the same temperatures, leading to improved conversion and recovery. Applying a negative electric field enhances system performance compared to a case without an electric field. This improvement allows for a smaller membrane area to be used.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ectric field enhances system performance compared to a case without an electric field. This improvement allows for a smaller membrane area to be used. At 650 ◦C, a Pe-1𝑚= 3 is required to achieve a 90 % conversion under a negative electric field of -1 V/Å. In contrast, a Pe-1𝑚= 6.5 is needed to reach the same conversion in the absence of AEF. This indicates that more than twice the surface area is necessary to achieve the same conversion when the AEF is absent. A similar trend is observed at lower temperatures, with lower conversions. At 550 ◦C, the AEF reduces the required membrane area to achieve a 40 % conversion by 4.6 times.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "R. Dawidowicz et al.\n\nFig. 13. Methane conversion as a function of AEF strength and Pe-1𝑚 at reaction temperatures of 450 ◦C, 550 ◦C and 650 ◦C.\n\nFig. 14. The impact of AEF on hydrogen recovery in a membrane reactor as a function of Pe-1𝑚 at temperatures of 450 ◦C, 550 ◦C and 650 ◦C.\n\nFig. 15. Change in Gibbs free energy (𝛥G) for SMR and WGS reactions with applied electric fields. application of an AEF leads to a gradual increase in 𝛥G (and 𝛥H) for both reactions, with increases of 0.26 eV for SMR and 0.12 eV for WGS, respectively, at 1 V/Å. In Fig. 16 we present the simulation results, including the effect of the AEF on hydrogen and CO adsorption, as well as the impact on the Gibbs free energy change of reactions at the same condition as before (Fig. 12), 550 ◦C, 30 bar and Pe-1𝑚= 6. The permeate is pure H2 at 1 bar. It is important to note that the direction of the field, whether positive or negative, affects adsorption only. The adsorption energy used in the",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 3Enthalpy and Gibbs free energy change for SMR and WGS reactions under AEF of various strengths. AEF (V/Å)SMRWGS 𝛥H (eV)𝛥G (eV)𝛥H (eV)𝛥G (eV) 02.361.68-0.86-0.73 0.22.441.76-0.83-0.70 0.42.501.82-0.78-0.65 0.62.551.87-0.74-0.61 0.82.591.91-0.73-0.60 1.02.631.95-0.74-0.60 model is based on values calculated earlier (Fig. 5). In contrast, the Gibbs free energy in the model pertains to the components in the gas phase and is therefore not influenced by the direction of the field; thus, the Gibbs free energy is the same for both negative and positive fields, e.g 𝛥G(-1 V/Å) = 𝛥G(+1 V/Å). First, it can be seen in Fig. 16(a) that the same trend for CO coverage was obtained, with a decrease in coverage from a positive to a negative field, due to lower adsorption energy under negative AEF. In Figs. 16(b) and (c), the hydrogen flux and conversion are shown. It can be observed that the absence of an electric field achieves the highest conversion and flux, due to the impact of the AEF on the equilibrium conversion ( Fig. 15). Both graphs exhibit nearly symmetrical results regarding the directionality of the field, which can be attributed to the absence of directionality in the gas phase and the symmetrical characteristics of the Gibbs free energy values. The differences between the positive and negative results are associated to the effect of CO adsorption on the membrane.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the Gibbs free energy values. The differences between the positive and negative results are associated to the effect of CO adsorption on the membrane. In a negative electric field, the CO coverage fraction is reduced, resulting in a higher flux and greater conversion compared to the positive field. Journal of Membrane Science 736 (2025) 124657",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 16. The CO surface coverage, dimensionless H2 flux and methane conversion from the extended reactor model, including the effect of AEF on both adsorption and 𝛥G of reaction. Feed ratio of steam/methane 3:1, temperature is 550 ◦C, reaction pressure is 30 bar, Pe-1𝑚= 6 and the permeate is pure H2 at 1 bar. 5. Conclusions In this study, we employed a multi-scale modeling approach to investigate the influence of an applied electric field (AEF) on Pdbased membrane separators and reactors. At the molecular scale, DFT calculations were used to estimate key properties, including the adsorption energies of CO on Pd surfaces and the Gibbs free energies of the steam–methane reforming and water–gas shift reactions. These insights were integrated into unit-scale simulations through dimensionless component balances to model the behavior of Pd-membrane systems. Our DFT results revealed that the adsorption energy of polar CO molecules is significantly affected by the presence of an electric field, whereas nonpolar H2 remains almost unaffected. Specifically, a negative electric field of -1 V/Å relative to the Pd surface reduces the CO adsorption energy by 0.26 eV, while a positive field increases it, thereby hindering performance. Additionally, hydrogen diffusion within the Pd lattice was found to be insensitive to the electric field. These molecular-scale findings were incorporated into a onedimensional model of a membrane separator and reactor under an applied electric field.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "eld. These molecular-scale findings were incorporated into a onedimensional model of a membrane separator and reactor under an applied electric field. Under operating conditions of 550 ◦C, 30 bar, and a feed composition of H2/N2/CO = 30/69/1 %mol, with a dimensionless permeation parameter Pe-1𝑚= 10, the application of a -1 V/Å electric field reduced CO surface coverage by 64 % and enhanced hydrogen flux by a factor of 2.5. This improvement translates to more efficient utilization of the costly Pd membranes. In modeling the membrane reactor, we considered two key effects of the AEF: Competitive adsorption and its influence on reaction equilibrium constants. When only competitive adsorption is considered, the model predicts a substantial increase in conversion at 550 ◦C - from 35 % to 70 %. However, when the AEF’s impact on reaction Gibbs free energy is included, DFT results indicate a detrimental effect on SMR equilibrium conversion. This finding underscores that while AEFs can enhance membrane performance, they may simultaneously impair reactor efficiency if they alter reaction equilibria unfavorably. Therefore, we recommend exploring reactor designs that localize the electric field near the membrane surface, minimizing its influence on bulk reaction equilibria while maximizing its benefits for selective adsorption and hydrogen permeation.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "membrane surface, minimizing its influence on bulk reaction equilibria while maximizing its benefits for selective adsorption and hydrogen permeation. CRediT authorship contribution statement Rimon Dawidowicz: Writing – review & editing, Writing – original draft, Visualization, Investigation, Formal analysis. Polina Tereshchuk: Writing – review & editing, Writing – original draft, Validation, Methodology, Investigation, Formal analysis. Michael Patrascu: Writing – review & editing, Writing – original draft, Visualization, Validation, Supervision, Software, Resources, Project administration, Methodology, Investigation, Funding acquisition, Formal analysis, Conceptualization.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments This research was supported by the ISRAEL SCIENCE FOUNDATION (Grant No. 1063/20). Data availability Data will be made available on request.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "R. Dawidowicz et al. [15] D. Pacheco Tanaka, J. Medrano, J. Viviente Sole, F. Gallucci, Metallic membranes for hydrogen separation, in: Current Trends and Future Developments on (Bio-) Membranes, Elsevier, 2020, pp. 1–29.[16] T.L. Ward, T. Dao, Model of hydrogen permeation behavior in palladium membranes, J. Membr. Sci. 153 (2) (1999) 211–231.[17] A. Caravella, F. Scura, G. Barbieri, E. Drioli, Sieverts law empirical exponent for pd-based membranes: Critical analysis in pure H2 permeation, J. Phys. Chem. B 114 [ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] (2010) 6033–6047.[18] K. Atsonios, K. Panopoulos, A. Doukelis, A. Koumanakos, E. Kakaras, T. Peters, Y. van Delft, Introduction to palladium membrane technology, in: Palladium Membrane Technology for Hydrogen Production, Carbon Capture and Other Applications, Elsevier, 2015, pp. 1–21.[19] M. Patrascu, Process intensification for decentralized production, Chem. Eng. Process. - Process. Intensif. 184 (2023) 109291.[20] J. Shu, B.P. Grandjean, S. Kaliaguine, Methane steam reforming in asymmetric Pdand Pd-Ag/porous SS membrane reactors, Appl. Catal. A: Gen. 119 (2) (1994) 305–325.[21] M.A. Murmura, M. Patrascu, M.C. Annesini, V. Palma, C. Ruocco, M. Sheintuch, Directing selectivity of ethanol steam reforming in membrane reactors, Int. J. Hydrog. Energy 40 (17) (2015) 5837–5848.[22] M. Shoham Patrascu, M.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ch, Directing selectivity of ethanol steam reforming in membrane reactors, Int. J. Hydrog. Energy 40 (17) (2015) 5837–5848.[22] M. Shoham Patrascu, M. Sheintuch, Multi-fuel scaled-down autothermal pure H2 generator: Design and proof of concept, AIChE J. 62 (6) (2016) 2112–2125.[23] T.Y. Amiri, K. Ghasemzageh, A. Iulianelli, Membrane reactors for sustainable hydrogen production through steam reforming of hydrocarbons: A review, Chem. Eng. Process. - Process. Intensif. 157 (2020) 108148.[24] R. Dawidowicz, M. Patrascu, Methanol compared to other fuels for on-board hydrogen production in thermally balanced membrane reactors with internal recycle, Chem. Eng. Process. - Process. Intensif. 198 (2024) 109714.[25] F. Scura, G. Barbieri, G. De Luca, E. Drioli, The influence of the CO inhibition effect on the estimation of the H2 purification unit surface, Int. J. Hydrog. Energy 33 [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] (2008) 4183–4192.[26] J. Catalano, M. Giacinti Baschetti, G.C. Sarti, Hydrogen permeation in palladiumbased membranes in the presence of carbon monoxide, J. Membr. Sci. 362 (1–2) (2010) 221–233.[27] J. Boon, J. Pieterse, F. van Berkel, Y. van Delft, M. van Sint Annaland, Hydrogen permeation through palladium membranes and inhibition by carbon monoxide, carbon dioxide, and steam, J. Membr. Sci. 496 (2015) 344–358.[28] M. Patrascu, M.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ation through palladium membranes and inhibition by carbon monoxide, carbon dioxide, and steam, J. Membr. Sci. 496 (2015) 344–358.[28] M. Patrascu, M. Sheintuch, On-site pure hydrogen production by methane steam reforming in high flux membrane reactor: Experimental validation, model predictions and membrane inhibition, Chem. Eng. J. 262 (2015) 862–874.[29] M. Murmura, M. Sheintuch, Permeance inhibition of pd-based membranes by competitive adsorption of CO: Membrane size effects and first principles predictions, Chem. Eng. J. 347 (2018) 301–312.[30] S.H. Israni, M.P. Harold, Methanol steam reforming in pd-ag membrane reactors: Effects of reaction system species on transmembrane hydrogen flux, Ind. Eng. Chem. Res. 49 (21) (2010) 10242–10250.[31] N. Wang, L. Weatherley, Electric field-intensified chemical processes and reaction chemistry, Curr. Opin. Chem. Eng. 39 (2023) 100895.[32] F. Che, J.T. Gray, S. Ha, N. Kruse, S.L. Scott, J.-S. McEwen, Elucidating the roles of electric fields in catalysis: A perspective, ACS Catal. 8 (6) (2018) 5153–5174.[33] K. Wisseroth, H. Braune, Thermodynamic equilibrium in strong electric fields and field chemistry consequences, J. Physique 38 [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (1977) 1249–1255.[34] M. Alemani, M.V. Peters, S. Hecht, K.-H. Rieder, F. Moresco, L. Grill, Electric field-induced isomerization of azobenzene by STM, J. Am. Chem. Soc.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4] M. Alemani, M.V. Peters, S. Hecht, K.-H. Rieder, F. Moresco, L. Grill, Electric field-induced isomerization of azobenzene by STM, J. Am. Chem. Soc. 128 (45) (2006) 14446–14447.[35] A.C. Aragonès, N.L. Haworth, N. Darwish, S. Ciampi, E.J. Mannix, G.G. Wallace, I. Diez-Perez, M.L. Coote, Electrostatic catalysis of a diels–alder reaction, Nature 531 (7592) (2016) 88–91.[36] Y. Sekine, M. Haraguchi, M. Tomioka, M. Matsukata, E. Kikuchi, Lowtemperature hydrogen production by highly efficient catalytic system assisted by an electric field, J. Phys. Chem. A 114 [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] (2010) 3824–3833.[37] K. Oshima, T. Shinagawa, M. Haraguchi, Y. Sekine, Low temperature hydrogen production by catalytic steam reforming of methane in an electric field, Int. J. Hydrog. Energy 38 (7) (2013) 3003–3011.[38] T. Yabe, K. Mitarai, K. Oshima, S. Ogo, Y. Sekine, Low-temperature dry reforming of methane to produce syngas in an electric field over la-doped Ni/zro 2 catalysts, Fuel Process. Technol. 158 (2017) 96–103.[39] F. Che, J.T. Gray, S. Ha, J.-S. McEwen, Reducing reaction temperature, steam requirements, and coke formation during methane steam reforming using electric fields: A microkinetic modeling and experimental study, ACS Catal.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "team requirements, and coke formation during methane steam reforming using electric fields: A microkinetic modeling and experimental study, ACS Catal. 7 [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (2017) 6957–6968.[40] A. Lozovoi, A. Alavi, Vibrational frequencies of CO on pt(111) in electric field: A periodic DFT study, J. Electroanal. Chem. 607 (1–2) (2007) 140–146.[41] P. Deshlahra, J. Conway, E.E. Wolf, W.F. Schneider, Influence of dipole–dipole interactions on coverage-dependent adsorption: CO and NO on pt(111), Langmuir 28 (22) (2012) 8408–8417.[42] F. Che, J.T. Gray, S. Ha, J.-S. McEwen, Catalytic water dehydrogenation and formation on nickel: Dual path mechanism in high electric fields, J. Catalysis 332 (2015) 187–200.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[43] D.J. Rivera, C.L. Muhich, Preventing H2S poisoning of dense pd membranes for H2 purification using an electric-field: An ab initio study, Surf. Sci. 733 (2023) 122303.[44] F. Che, S. Ha, J.-S. McEwen, Elucidating the field influence on the energetics of the methane steam reforming reaction: A density functional theory study, Appl. Catal. B: Environ. 195 (2016) 77–89.[45] T. Yang, P. Li, C. Fu, Q. Zhou, X. Qi, DFT study on the effect of electric field on the adsorption of methanol on Pd(1 1 1), E3S Web Conf. 213 (2020) 01028.[46] F. Che, J. T. Gray, S. Ha, J.-S. McEwen, Improving Ni catalysts using electric fields: A DFT and experimental study of the methane steam reforming reaction, ACS Catal. 7 (1) (2016) 551–562.[47] C.-H. Yeh, T.M.L. Pham, S. Nachimuthu, J.-C. Jiang, Effect of external electric field on methane conversion on IrO2 (110) surface: A density functional theory study, ACS Catal. 9 (9) (2019) 8230–8242.[48] J.P. Perdew, K. Burke, M. Ernzerhof, Generalized gradient approximation made simple [phys. Rev. Lett. 77, 3865 (1996)], Phys. Rev. Lett. 78 (7) (1997) 1396–1396.[49] P.E. Blöchl, Projector augmented-wave method, Phys. Rev. B 50 (24) (1994) 17953–17979.[50] G. Kresse, D. Joubert, From ultrasoft pseudopotentials to the projector augmented-wave method, Phys. Rev. B 59 (3) (1999) 1758–1775.[51] G. Kresse, J. Hafner, Ab initio molecular dynamics for open-shell transition metals, Phys. Rev. B 48 (17) (1993) 13115–13118.[52] G. Kresse, J.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5.[51] G. Kresse, J. Hafner, Ab initio molecular dynamics for open-shell transition metals, Phys. Rev. B 48 (17) (1993) 13115–13118.[52] G. Kresse, J. Furthmüller, Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set, Phys. Rev. B 54 (16) (1996) 11169–11186.[53] A. Jain, S.P. Ong, G. Hautier, W. Chen, W.D. Richards, S. Dacek, S. Cholia, D. Gunter, D. Skinner, G. Ceder, K.A. Persson, Commentary: The materials project: A materials genome approach to accelerating materials innovation, APL Mater. 1 (1) (2013) 011002.[54] S. Pati, R.A. Jat, S. Mukerjee, S. Parida, X-ray diffraction study of thermal parameters of Pd, Pd–Ag and Pd–Ag–Cu alloys as hydrogen purification membrane materials, Phys. B 484 (2016) 42–47.[55] P. Haas, F. Tran, P. Blaha, Calculation of the lattice constant of solids with semilocal functionals, Phys. Rev. B - Condens. Matter Mater. Phys. 79 (8) (2009).[56] S. Nosé, A unified formulation of the constant temperature molecular dynamics methods, J. Chem. Phys. 81 (1) (1984) 511–519.[57] W.G. Hoover, Canonical dynamics: Equilibrium phase-space distributions, Phys. Rev. A 31 (3) (1985) 1695–1697.[58] J.K. Nørskov, F. Abild-Pedersen, F. Studt, T. Bligaard, Density functional theory in surface chemistry and catalysis, Proc. Natl. Acad. Sci. 108 (3) (2011) 937–943.[59] G. Henkelman, A. Arnaldsson, H. Jónsson, A fast and robust algorithm for bader decomposition of charge density, Comput. Mater. Sci.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2011) 937–943.[59] G. Henkelman, A. Arnaldsson, H. Jónsson, A fast and robust algorithm for bader decomposition of charge density, Comput. Mater. Sci. 36 (3) (2006) 354–360.[60] W. Tang, E. Sanville, G. Henkelman, A grid-based bader analysis algorithm without lattice bias, J. Phys.: Condens. Matter. 21 (8) (2009) 084204.[61] E. Sanville, S.D. Kenny, R. Smith, G. Henkelman, Improved grid-based algorithm for bader charge allocation, J. Comput. Chem. 28 (5) (2007) 899–908.[62] J. Neugebauer, M. Scheffler, Adsorbate-substrate and adsorbate-adsorbate interactions of Na and k adlayers on al(111), Phys. Rev. B 46 (24) (1992) 16067–16080.[63] D. Sheppard, P. Xiao, W. Chemelewski, D.D. Johnson, G. Henkelman, A generalized solid-state nudged elastic band method, J. Chem. Phys. 136 (7) (2012) 1769–1771.[64] D. Sheppard, G. Henkelman, Paths to which the nudged elastic band converges, J. Comput. Chem. 32 (8) (2011) 1769–1771.[65] J.A. Herron, S. Tonelli, M. Mavrikakis, Atomic and molecular adsorption on Pd(111), Surf. Sci. 606 (21–22) (2012) 1670–1679.[66] L. Xu, Y. Xu, Effect of pd surface structure on the activation of methyl acetate, Catal. Today 165 (1) (2011) 96–105.[67] M. Kauppinen, H. Grönbeck, Hydrogen adsorption on Pd–In intermetallic surfaces, Top. Catal. (2022).[68] P. Ferrin, S. Kandoi, A.U. Nilekar, M. Mavrikakis, Hydrogen adsorption, absorption and diffusion on and in transition metal surfaces: A DFT study, Surf. Sci. 606 (7–8) (2012) 679–689.[69] N.W. Ockwig, T.M.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ogen adsorption, absorption and diffusion on and in transition metal surfaces: A DFT study, Surf. Sci. 606 (7–8) (2012) 679–689.[69] N.W. Ockwig, T.M. Nenoff, Membranes for hydrogen separation, Chem. Rev. 107 [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (2007) 4078–4110.[70] S.P. Cardoso, I.S. Azenha, Z. Lin, I. Portugal, A.E. Rodrigues, C.M. Silva, Inorganic membranes for hydrogen separation, Sep. Purif. Rev. 47 (3) (2018) 229–266.[71] H. Abir, M. Sheintuch, Modeling H2 transport through a Pd or Pd/Ag membrane, and its inhibition by co-adsorbates, from first principles, J. Membr. Sci. 466 (2014) 58–69.[72] I.A. Filot, Introduction to microkinetic modeling, Technische Universiteit Eindhoven, 2018.[73] P. Atkins, J. de Paula, ATKINS’ PHYSICAL CHEMISTRY, eighth ed., W. H. Freeman and Company, 2006.[74] B.D. Morreale, M.V. Ciocco, R.M. Enick, B.I. Morsi, B.H. Howard, A.V. Cugini, K.S. Rothenberger, The permeability of hydrogen in bulk palladium at elevated temperatures and pressures, J. Membr. Sci. 212 (1–2) (2003) 87–97. Journal of Membrane Science 736 (2025) 124657",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "R. Dawidowicz et al. [75] T. Boeltken, M. Belimov, P. Pfeifer, T. Peters, R. Bredesen, R. Dittmeyer, Fabrication and testing of a planar microstructured concept module with integrated palladium membranes, Chem. Eng. Process.: Process. Intensif. 67 (2013) 136–147.[76] A. Alraeesi, T. Gardner, Assessment of sieverts law assumptions and ‘n’ values in palladium membranes: Experimental and theoretical analyses, Membranes 11 [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (2021) 778.[77] A. Giaconia, G. Iaquaniello, G. Caputo, B. Morico, A. Salladini, L. Turchetti, G. Monteleone, A. Giannini, E. Palo, Experimental validation of a pilot membrane reactor for hydrogen production by solar steam reforming of methane at maximum 550 ◦C using molten salts as heat transfer fluid, Int. J. Hydrog. Energy 45 (58) (2020) 33088–33101.[78] P. Yan, Y. Cheng, Design and operational considerations of packed-bed membrane reactor for distributed hydrogen production by methane steam reforming, Int. J. Hydrog. Energy 47 (86) (2022) 36493–36503.[79] J.T. Gray, F. Che, J.-S. McEwen, S. Ha, Field-assisted suppression of coke in the methane steam reforming reaction, Appl. Catal. B: Environ. 260 (2020) 118132.[80] M. Sheintuch, Design of membranal dehydrogenation reactors: the fast reaction asymptote, Ind. Eng. Chem. Res. 37 (3) (1998) 807–814.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[81] M. Patrascu, M. Sheintuch, Design concepts of a scaled-down autothermal membrane reformer for on board hydrogen production, Chem. Eng. J. 282 (2015) 123–136.[82] M. Murmura, S. Cerbelli, M. Annesini, M. Sheintuch, Derivation of an enhanced sherwood number accounting for reaction rate in membrane reactors. Steam reforming of methane as case study, Catal. Today 364 (2021) 285–293.[83] K. Hou, R. Hughes, The kinetics of methane steam reforming over a Ni/𝛼-al2o catalyst, Chem. Eng. J. 82 (1–3) (2001) 311–328.[84] W. Moon, Design guide of a membrane for a membrane reactor in terms of permeability and selectivity, J. Membr. Sci. 170 (1) (2000) 43–51.[85] S. Battersby, P.W. Teixeira, J. Beltramini, M.C. Duke, V. Rudolph, J.C. Diniz da Costa, An analysis of the peclet and damkohler numbers for dehydrogenation reactions using molecular sieve silica (MSS) membrane reactors, Catal. Today 116 (1) (2006) 12–17.[86] K. Wisseroth, Chemical reaction kinetics in strong electric fields, Chem. Ztg 100 (1976).[87] V. Wang, N. Xu, J.-C. Liu, G. Tang, W.-T. Geng, VASPKIT: A user-friendly interface facilitating high-throughput computing and analysis using VASP code, Comput. Phys. Comm. 267 (2021) 108033. Journal of Membrane Science 736 (2025) 124657",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825009706-main",
+      "title": "Electric field-driven intensification of palladium membrane separators and reactors: A multi-scale computational study",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  }
+]

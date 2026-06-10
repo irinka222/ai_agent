@@ -1,0 +1,1027 @@
+[
+  {
+    "content": "Contents lists available at ScienceDirect\n\nJournal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nGradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes Ian Keen Koo a, Meng Nan Chong b,c, K.B. Goh a,∗ a Department of Mechanical Engineering, School of Engineering, Monash University Malaysia, Jalan Lagoon Selatan, 47500 Bandar Sunway, Selangor, Malaysiab Department of Chemical Engineering, School of Engineering, Monash University Malaysia, Jalan Lagoon Selatan, 47500 Bandar Sunway, Selangor, Malaysiac Centre for Net-Zero Technology, Monash University Malaysia, Bandar Sunway, Selangor, Malaysia A R T I C L E I N F O Keywords:Thin film composite membraneFirst-principle modelWater-transport mechanismTransport-mechanics couplingMembrane compaction",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Water recovery through pressure-driven bilayer thin-film composite (TFC) membranes remains an open problem, with critical uncertainty centered on its driving forces, namely the hydrostatic pressure gradient, yet systematic investigation remains limited. Here, we present a poromechanics framework that explicitly accounts for the distinct mechanical, structural, and transport properties, elucidating the interplay between flow-induced compaction and water transport in a TFC membrane governing the transport upper limit performance. Our approach naturally splits the strain energy into two regions: (i) a linear-response selective layer and (ii) a non-linear supporting one, mechanically capturing the strain-hardening behavior as the compacted support layer transitions into its bulk polymer state. While the hydrostatic pressure distribution in the selective layer merely scales upward with the increasing applied transmembrane pressure, the distribution in the support layer, however, contorts from a zero slope to a linear one and finally to a non-linear slope, demonstrating how the water transport changes to a support layer-controlled system. Overall, we show how a cancellation between permeance and the hydrostatic pressure difference across TFC membranes drives the transition between (i) support layer-controlled and (ii) selective layer-controlled regimes.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Pressure-driven membrane technologies, particularly nanofiltration (NF) and reverse osmosis (RO), have become leading solutions for addressing water scarcity due to their comparatively efficient energy consumption in desalinating water resources [1–5]. At the core of these desalination processes are thin-film composite (TFC) membranes, which typically comprise two primary layers—(i) a selective layer, and (ii) a support layer—along with a secondary backing layer. The selective layer, with a thickness ranging from 15 to 300 nm [6,7], is composed of dense, crosslinked polyamide featuring sub-nanometer free volume elements that regulate water permeation and salt rejection [8,9], defining the permselectivity performance of these membranes. Adjacently, the support layer—an ultrafiltration membrane with a thickness of approximately 60 μm [10–12]—is typically made of polysulfone or polyethersulfone [13], providing a surface for interfacial polymerization [7] and structural integrity to the selective layer. Last, but not least important, the non-woven fabric-based backing layer provides further reinforcement, allowing these composite membranes to withstand highpressure loading. While the secondary backing layer is often ignored, being assumed to have a negligible direct role in influencing the",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "∗Corresponding author. E-mail address: kekboon.goh@monash.edu (K.B. Goh). selective layer’s transport performance, the same cannot be said for the support layer, whose influence on water permeance through composite membranes under different mechanical cues, in our opinion, remains incompletely understood. Despite extensive research on TFC membranes, the synergistic influence of the selective and support layers on the flow-induced compaction of the membranes remains unclear, particularly with regard to the spatial hydrostatic pressure distribution across these layers — which drives water transport — has largely been unexplored. As a result, optimizing performance-limiting factors, particularly the upper limit of water flow during operation, remains a persistent challenge. In operation, pressurizing the feed solutions of these membranes generates a transmembrane pressure (TMP), driving water flow through them and, concurrently, limiting water permeation as the membranes compact and densify, ultimately altering their morphology. Thus, this study is particularly important for high-pressure reverse osmosis (HPRO), where the operating pressure (≳ 100 bar [1]) is substantially higher than conventional RO and NF systems. We, as well as others, identify three categories in the reporting of deformation in commercial TFC membranes, particularly in the selective and support layers: (1) larger strain in the selective\n\nJournal of Membrane Science 727 (2025) 124023",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Schematic representation of our model’s thin-film composite (TFC) membrane (A) before and (B) after flow-driven compaction. Our TFC membrane comprises a bilayer structure (selective layer and support layer) sandwiched between feed and permeate water, and supported by a rigid permeable barrier at the membrane/permeate interface. Note that the selective and support layers are not drawn to scale due to the significant length difference (see SI: Table S1). The inset below (A) visualizes how we simplify the selective layer, characterized by a ‘‘ridge and valley’’ structure together with a denser nodular layer, into an equivalent selective layer with a thickness approximately equal to the intrinsic thickness (detailed explanation available in SI: Section S1). The inset below (B) provides an ideal illustration of the undeformed selective and support layers, both of which comprise water-saturated pores and a polymeric skeleton. The morphology of these layers is characterized by the average pore size, ̂𝑑𝑝, and the initial porosity (or water volume fraction), 𝜙o𝑤. Mathematically, 𝜙o𝑤 is defined as the total volume of pores divided by the total volume of the porous matrix (including both water and polymer). layer [14], (2) greater strain in the support layer [13,15], and (3) significant strain in both layers [11,16].",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ix (including both water and polymer). layer [14], (2) greater strain in the support layer [13,15], and (3) significant strain in both layers [11,16]. These contrasting observations suggest that the deformation may be influenced by factors such as membrane material properties, operating conditions, and the specific interactions between the layers during pressure application, leading to variations in hydrostatic pressure gradients within them at different feed solution pressurization intensities. To simulate water transport through TFC membranes, particle-based methods – especially molecular dynamics (MD) simulations at the atomistic level – are widely used to study the transport and compaction of the selective layer under varying crosslinking degrees, monomer compositions, and thicknesses [17–19]. Fully atomistic simulations, while detailed, require significant computational resources and cannot reach the time and length scales relevant to engineering applications. As a result, they are typically limited to analyzing the nanoscopic selective layer. This limitation prevents the observation of the plateau trend in the flux-pressure curve, which represents the upper limit of water flux, even when TMP is increased to 1500 bar [17–19], far exceeding current experimental TMP levels.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "curve, which represents the upper limit of water flux, even when TMP is increased to 1500 bar [17–19], far exceeding current experimental TMP levels. On the other hand, theoretical modeling, such as viscoelastic or poromechanics theories, accommodates the engineering length and time scales required to study the deformation of the coupled selective and support layers, albeit sacrificing atomistic detail. To elaborate, existing viscoelastic models [10,20,21] describe time-dependent compressive strain using spring–damper systems, where the components (springs and dampers) are arranged in a combination of series and parallel configurations. These models enable the prediction of real-time evolution of flux and spatially-averagedstrain in pressure-driven membranes. Conversely, poromechanics models [22–28] excel in quantifying the spatial distributions of hydrostatic pressure and porosity within pressure-driven membranes. These models are fundamentally characterized by a set of continuum-based governing equations that couple fluid flow and compaction phenomena. Generally, existing poromechanics models exhibit variations in strain response and water transport mechanisms. Two notable recent examples include: (1) Fan et al. [28], who adopted a stress–strain response inspired by the Flory–Rehner (FR) theory, emphasizing thermodynamic water-polymer interactions, and (2) Hegde et al.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "adopted a stress–strain response inspired by the Flory–Rehner (FR) theory, emphasizing thermodynamic water-polymer interactions, and (2) Hegde et al. [27], who employed a linear-elastic stress–strain response while integrating both pressureand concentration-driven transport mechanisms into their model. However, we question the tractability and suitability of the published poromechanics methods: (i) Flory–Rehner’s theory for deriving the stress–strain response, where the mixing free energy generates osmotic pressure, resulting in non-realistically large compacting stress in drier membranes, as the water-polymer interactions dominate over the deformation mechanics of hydrophobic polymer chain [24,28–30] (see SI: Subsection S2.3); (ii) the omission of the strain-hardening/densification effect [27]; and (iii) the failure to consider the direct coupling between Journal of Membrane Science 727 (2025) 124023",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "I.K. Koo et al. the selective and support layers when determining water permeance, as recently pointed out [31]. Here we present a framework that combines the transport of water and the mechanics of SW30-XLE TFC membranes, resolving the spatial hydrostatic pressure distribution across their selective and support layers, i.e., the water transport driving forces, at different TMPs. We couple Darcy’s law with our non-linear stress–stretch model, which captures the known yet often overlooked densification effects (due to the collapse of water-filled voids)—a material property change that membranes experience as they undergo severe (strain-hardening) deformation. While some models capture the exponential increase in compressive stress with compaction, their origin is rooted in thermodynamics rather than mechanics, leading to non-realistic flux behavior at high applied pressure (see SI: Subsection S2.4 for further discussion) [29]. Specifically, we aim to examine a specific scenario involving commercial TFC membranes, focusing on cases where the support layer is significantly more strained than the selective layer; otherwise, additional physics may need to be introduced. Although theoretical models/simulations have been developed for (point) zero-, one-, and even two-dimensional spaces, we adopt a 1D approach to conserve computational resources while mimicking experimental and simulation setups.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "one-, and even two-dimensional spaces, we adopt a 1D approach to conserve computational resources while mimicking experimental and simulation setups. This approach requires, at most, two categories of two property inputs for each membrane layer: (a) morphology—(i) porosities and (ii) pore sizes, and (b) stress–stretch—(iii) compressive moduli and (iv) strain-hardening factors. With these parameters, we can demonstrate how the hydrostatic pressure distribution changes in the membranes at various TMPs, transitioning from linear to non-linear behaviors. 2. Methodology Our poromechanics framework elucidates the interplay between water transport and mechanical deformation within TFC membranes. We model the membranes as a bilayer system: (1) a permeationcontrolling selective layer and (2) a porous support layer, in which each layer consists of two microphases: (a) polymeric skeleton and (b) water-saturated voids/free-volume elements. Applying TMP across the membranes causes water flow to compact them, reducing their thickness macroscopically and porosity microscopically, which together modulate their transport properties. To this end, our theory integrates non-linear frameworks for both (i) transport and (ii) mechanics to capture the interdependence between the membrane compaction and the decline in water permeability. Next, we explain the governing equations and then discuss the complementary boundary conditions. 2.1.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ompaction and the decline in water permeability. Next, we explain the governing equations and then discuss the complementary boundary conditions. 2.1. Governing equations: Coupling between transport and mechanics In this paper, we formulate our framework within the Lagrangian frame, a reference frame that is fixed in space. For simplicity, we coincide this reference frame with the pristine (undeformed) configuration of the TFC membrane. Consequently, the key space-dependent variables in our framework are nominal quantities, which are defined relative to the pristine (undeformed) configuration of the TFC membrane. To reduce our parameter space, we assume unidirectional (i) water flow and (ii) membrane deformation, with these and related quantities depending solely on the spatial coordinate in the thickness direction, denoted as, 𝑋. We begin with water transport, modeled using the pore-flow approach, where a pressure gradient drives the water flow through the TFC membrane. Classically, the Hagen–Poiseuille equation, a representative model for pore-flow transport derived from the no-slip interaction between water and the pore wall, ideally describes the water flux through a straight pore [32]. In this work, we adopt Darcy’s law, an expression analogous to the Hagen–Poiseuille equation that averages water flow over a volume containing numerous tortuous pores [32], to describe the water flux in our TFC membrane.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "en–Poiseuille equation that averages water flow over a volume containing numerous tortuous pores [32], to describe the water flux in our TFC membrane. Specifically, Darcy’s law dictates that volumetric water flux (also known as the superficial velocity) changes proportionally to the hydrostatic pressure gradient, written as 𝐽= -(1𝜆𝑋 )𝑘𝜂𝜕𝑃ℎ 𝜕𝑋(1) where 𝑘, 𝜂, 𝜆𝑋, 𝑃ℎ and 𝐽 are the Darcy’s permeability, water viscosity, local stretch ratio (compressed infinitesimal length/initial infinitesimal length), hydrostatic pressure, and the superficial velocity (i.e., the steady-state volumetric water flux), respectively. Eq. (1) differs slightly from the standard form [33,34], with the correction term 1∕𝜆𝑋 accounting for the membrane’s length change under compression. This correction, consistent with the one by Macminn et al. [26], effectively maps between the membrane’s initial configuration to its true compressed one [35], reflecting that water permeation occurs within the compressed state. To link the macroscopic flux, Eq. (1), with the microscopic properties, we allow the membrane’s morphology to modulate the water permeation. Reasonably, a highly porous support layer characterized by bigger porosity and pore size should demonstrate superior water permeation compared to a denser selective layer.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "porous support layer characterized by bigger porosity and pore size should demonstrate superior water permeation compared to a denser selective layer. Hence, we express the Darcy’s permeability as a function of porosity and pore size using a modified Carman–Kozeny expression (derivation in SI: Section S3), given as 𝑘=𝜙3𝑤32̂𝑑2𝑝(2) where 𝜙𝑤, and ̂𝑑𝑝 are void porosity (water volume fraction) and (effective) average pore size, respectively. We utilize Eq. (2) under the closed-packed spheres assumption [36], which inherently limits our ability to completely capture the morphological heterogeneity of the membrane. For example, the support layer comprises an irregular mixture of a (i) sponge-like dense region, alongside (ii) macrovoids (for instance, large finger-like pores) [11,13,21,37,38]. Significantly, finger-like pores in the support membrane would enhance membrane water permeation performance by reducing its local transport resistance compared to denser sponge-like regions [21]. In other words, under the same applied pressure and neglecting compaction effects, a support layer with a microstructure dominated by finger-like pores would demonstrate greater water flux than one primarily composed of sponge-like regions. Undoubtedly, for a morphologically heterogeneous TFC membrane, water flux at the molecular level varies sensitively with local changes in membrane microstructure.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "for a morphologically heterogeneous TFC membrane, water flux at the molecular level varies sensitively with local changes in membrane microstructure. However, since this work highlights the upper limit of water permeation performance at the macroscopic level, it necessitates an analytically tractable approach that accounts for the overall morphological influence of the bilayer TFC membrane. To achieve this, Eq. (2) represents the morphology of the selective and support layers using just two locally averaged quantities: ̂𝑑𝑝 and 𝜙𝑤. For example, a support layer with abundant finger-like pores can be represented by a large ̂𝑑𝑝 and 𝜙𝑤, while a less porous support layer with a mostly sponge-like region can be assigned a smaller ̂𝑑𝑝 and 𝜙𝑤. This enables us to capture the complex heterogeneous morphology of selective and support layers by just using a single expression, seamlessly predicting the upper-limit permeation performance of the bilayer TFC membrane. It is worth noting that, in addition to the morphology (e.g., pore size and porosity), other physicochemical factors, such as the composition and hydrophilicity, would indirectly influence the transport properties of the TFC membrane. For example, in the selective layer, adjusting the monomer concentrations for interfacial polymerization (IP) — typically m-phenylenediamine (MPD) and trimesoyl chloride (TMC) — would alter the polyamide crosslinking degree, ultimately affecting the water permeation performance [39,40].",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ine (MPD) and trimesoyl chloride (TMC) — would alter the polyamide crosslinking degree, ultimately affecting the water permeation performance [39,40]. Similarly, the support layer, when prepared under different conditions — such as varying polymer concentrations [38] and the inclusion of additives [41] Journal of Membrane Science 727 (2025) 124023",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "I.K. Koo et al. — can exhibit differences in hydrophilicity and surface pore size/porosity. These variations influence the formation of the polyamide layer during the IP process, ultimately affecting the overall performance of the TFC membrane. Nevertheless, since this work serves as a primer for investigating pressure distributions in pressure-driven desalination membranes, the consideration of these physicochemical properties is beyond the current work scope but could be explored in future research. Next, we describe how our membranes respond under applied hydrostatic pressure, when water flows across them. Specifically, during steady-state operation, we assume that the TFC membrane equilibrates with the flow-induced compacting stress. Thus, based on the principle of free energy minimization [30,42,43], the compacting stress can be written as 𝜎𝑐= -𝜕𝑊 𝜕𝜆𝑋",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(3) where 𝜎𝑐 and 𝑊 are the compacting stress and the Helmholtz free energy density, respectively. Physically, the compacting stress results from the change of the hydrostatic pressure in the membranes, and a mechanical equilibrium expression governs their relationship, namely[26–28] 𝜕𝑃ℎ 𝜕𝑋+ 𝜕𝜎𝑐 𝜕𝑋= 0.(4) The Helmholtz free energy, 𝑊, depends solely on a strain energy function, with flow-induced compaction decreasing the membrane thickness while increasing its strain energy. In other words, 𝜕𝑊∕𝜕𝜆𝑋 characterizes the membrane’s strain response toward the induced stress. To define the stress–stretch relationship (equation of state) for our bilayer membranes, we derive separate expressions for 𝜕𝑊∕𝜕𝜆𝑋for the selective and support layers, recognizing that their distinct morphologies and materials result in different deformation behaviors. For the selective layer, MD studies indicate that the polyamide selective layer compresses linearly with TMP up to 1500 bar [17–19], justifying our use of a linear stress–stretch response to express 𝜕𝑊∕𝜕𝜆𝑋, which can be written as 𝜕𝑊𝜕𝜆𝑋= 𝐾sel(𝜆𝑋-1),for 𝑋feed∕sel < 𝑋< 𝑋sel∕sup(5) where 𝐾sel denotes the selective layer’s compressive modulus, while 𝑋feed/sel and 𝑋sel/sup are the nominal coordinates for the feed/selective layer and selective layer/support layer interfaces, respectively.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lus, while 𝑋feed/sel and 𝑋sel/sup are the nominal coordinates for the feed/selective layer and selective layer/support layer interfaces, respectively. Conversely, experiments have shown that the support layer compresses less with increasing applied pressure [13,44,45], a behavior attributed to the densification of its porous matrix. Therefore, we phenomenologically propose an expression for its stretch response, written as",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "𝜕𝑊𝜕𝜆𝑋=𝐾osup𝛽1sinh [𝛽1(𝜆𝑋-1)] +𝜙o𝑤,sup 𝛽2[𝐾osup cosh (𝛽1𝜙o𝑤,sup) -𝐾fsup]( 1 -𝜆𝑋 𝜙o𝑤,sup )𝛽2, for𝑋sel∕sup < 𝑋< 𝑋sup∕perm (6) where 𝑋sup∕perm and 𝜙o𝑤,sup separately denote the support layer/permeate interface nominal coordinate and the support layer initial porosity, while 𝐾osup and 𝐾fsup are the support layer compressive moduli at pristine and fully-compacted states, respectively. In other words, 𝐾osupcharacterizes the stretch response of a water-saturated membrane with uncompacted polymer network, while 𝐾fsup describes the one for solid bulk polymer material. Notably, 𝛽1 and 𝛽2 numerically control the degree of strain-hardening caused by the densification of the support layer in the moderate and big compressive strain regimes, respectively. We direct readers to SI: Section S4 for a detailed derivation of Eq. (6) alongside the influence of each control parameter.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Having established the governing equations for the deformation mechanics and the water transport, we now couple these phenomena within our poromechanics model by utilizing an incompressibility constraint. By assuming a water-saturated pore space and neglecting the moisture effect, we can effectively enforce the incompressibility constraint by considering the finite volume occupied by water molecules and the polymeric skeleton in each layer (derivation presented in SI: Section S5), namely 𝜆𝑋= 1 -𝜙o𝑤+ 𝜌𝑤𝑣𝑤(7) where 𝜌𝑤 is the nominal water density (number per undeformed membrane volume) and 𝑣𝑤 is the water molecular volume. Altogether, 1-𝜙o𝑤and 𝜌𝑤𝑣𝑤 signify the nominal volume fraction (current component volume divided by undeformed membrane volume) of the polymeric skeleton and water, respectively. As a limiting case, Eq. (7) reduces to 𝜌𝑤𝑣𝑤= 𝜙o𝑤 for the porous matrix in the undeformed configuration (𝜆𝑋= 1). This recovery of the water volume fraction to the initial porosity reflects our water-saturated pore assumption. To reduce the degree of freedom in our framework, the nominal water density, 𝜌𝑤, is related to the true porosity, 𝜙𝑤, through the following expression 𝜙𝑤= 𝜌𝑤𝑣𝑤 𝜆𝑋.(8) Accordingly, Eqs. (7) and (8) serve as a mathematical linkage between the water permeation (dictated by the water volume fraction) and the porous matrix deformation (characterized by the stretch ratio), thereby reducing the parameter space of our poromechanics model.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2. Boundary conditions We impose three boundary conditions at the interfaces to acquire physically consistent numerical solutions within our computational domain (the selective and support layers). Firstly, we set the hydrostatic pressure at the support layer/permeate interface to the atmospheric level, namely 𝑃ℎ(𝑋sup∕perm) = 0.(9) Secondly, we assume continuity of hydrostatic pressure at the selective/support interface, given as 𝑃ℎ(𝑋-sel∕sup) = 𝑃ℎ(𝑋+sel∕sup)[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] where 𝑋-sel∕sup and 𝑋+sel∕sup represent the nominal locations marking the end of the selective layer and the beginning of the support layer, respectively. Thirdly and lastly, we assume zero compaction stress at thefeed/selective layer interface, expressed as 𝜎𝑐(𝑋feed/sel) = 0.[ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] In summary, Eqs. (1), (3), and (4), along with the constitutive Eqs. (2), (5), and (6), form the core of our poromechanics framework, collectively enabling us to describe the coupled deformation behavior and water transport characteristics of TFC membranes. We connect the mechanical and transport parameters via the relationship between water nominal density, porosity, and stretch ratio, defined by Eqs.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s. We connect the mechanical and transport parameters via the relationship between water nominal density, porosity, and stretch ratio, defined by Eqs. (7) and (8), ensuring proper constraint of all degrees of freedom. By incorporating the boundary and interface conditions (Eqs. (9), [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}], and [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}]), we obtain particular solutions that comprehensively describe the behavior of these membranes. Journal of Membrane Science 727 (2025) 124023",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "I.K. Koo et al. where 𝛥𝑃ℎ,i is the pressure difference across the (selective or support) layer, where 𝑖∈ sup (support) and sel (selective). In our framework, 𝐽 and 𝛥𝑃ℎ,i vary with TMP, as indicated by the non-idealized Darcy’s law (see Eq. (1)). Specifically, by solving Eq. (1), alongside Eqs. (3) and (4), we could obtain the hydrostatic pressure distribution across the selective and support layers for an arbitrary water flux (𝐽) value. This allows us to determine the pressure difference across each layer, namely 𝛥𝑃ℎ,sel = 𝑃ℎ(𝑋feed∕sel) -𝑃ℎ(𝑋sel∕sup) for the selective layer, and 𝛥𝑃ℎ,sup = 𝑃ℎ(𝑋sel∕sup) -𝑃ℎ(𝑋sup∕perm) for the support layer, where 𝑋feed∕sel, 𝑋sel∕sup, and 𝑋sup∕perm denote the spatial positions at the feed/selective, selective/support, and support/permeate interfaces, respectively. Furthermore, the TMP can be written as 𝛥𝑃ℎ,TFC =𝑃ℎ(𝑋feed∕sel) -𝑃ℎ(𝑋sup∕perm). Altogether, we could extract a consistent set of 𝐽, 𝛥𝑃ℎ,i, and 𝛥𝑃ℎ,TFC values from the mathematical solution of Eq. (1), enabling us to plot the permeance–TMP curve in Fig. 3. Now, let us guide the reader in interpreting Fig. 3 by elaborating on two instances with different TMP values. When TMP = 50 bar (linear flux regime), the selective and support layers exhibit permeances of 2.36 LMH/bar and 27.63 LMH/bar, respectively, with corresponding pressure differences of 46.13 bar and 3.94 bar.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "support layers exhibit permeances of 2.36 LMH/bar and 27.63 LMH/bar, respectively, with corresponding pressure differences of 46.13 bar and 3.94 bar. Collectively, the product of permeance and pressure difference for each layer leads to a common steady-state flux of 109 LMH. When TMP = 200 bar (plateauing flux regime), the selective and support layers exhibit permeances of 2.32 LMH/bar and 1.39 LMH/bar, respectively, with corresponding pressure differences of 74.89 bar and 125.11 bar. Collectively, the product of permeance and pressure difference for each layer leads to a common steady-state flux of 174 LMH. In Fig. 3(A), the selective layer’s permeance, Asel, remains nearly invariant (2.32 ∼ 2.43 LMH/bar) across the TMP range (0–200 bar). This implies that, intrinsically, the selective layer experiences minuscule compaction-induced permeation decline, as it possesses a GPa-order stiffness (see Table S1). Moreover, the dense selective layer possesses significantly lower permeance values than its support counterpart, especially in the low TMP regime. This demonstrates the permeationcontrolling role of the selective layer in the low TMP regime, as depicted by the linear flux-pressure regime in Fig. 2. In contrast, Fig. 3(B) shows that the support layer’s water permeation decreases with TMP, where Asup declines sigmoidally from 41 LMH/bar at pristine state, to about 1.4 LMH/bar at TMP = 200 bar, thus driving the flux plateau trend (support layer-controlled regime) shown in Fig.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "LMH/bar at pristine state, to about 1.4 LMH/bar at TMP = 200 bar, thus driving the flux plateau trend (support layer-controlled regime) shown in Fig. 2. As a result, to drive water transport through the support layer at high TMP, a higher hydrostatic pressure difference across the support layer, 𝛥𝑃ℎ,sup, is needed to balance the diminished water permeance, as dictated by Eq. [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}]. This demand causes the pressure distribution to follow a steep declining trend (which will be explained following subsection), satisfying the higher pressure difference requirement. As shown in Fig. 3(B), 𝛥𝑃ℎ,sup stays mostly constant for TMP below 80 bar. However, for TMP above 80 bar, 𝛥𝑃ℎ,sup increases linearly with TMP. In other words, the support layer consumes a substantial portion of the applied pressure within the high TMP regime. Furthermore, the plummet of support layer permeance also creates a bottleneck for the overall water permeation performance of the TFC membrane system. To demonstrate, 𝛥𝑃ℎ,sel in Fig. 3(A) increases linearly with TMP for values below 80 bar but plateaus thereafter, which indicates that the water-driving force in the selective layer is affected by the compaction-induced flux deterioration originating from the support layer. Collectively, the transitions of 𝛥𝑃ℎ,𝑖 and A𝑖 in Figs.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "er is affected by the compaction-induced flux deterioration originating from the support layer. Collectively, the transitions of 𝛥𝑃ℎ,𝑖 and A𝑖 in Figs. 3(A) and (B) illustrate how differently these two layers navigate the differing TMP values, providing insights into the interdependence in permeation performance between the selective and support layers. Notably, our results in Figs. 2 and 3 are consistent with both theoretical [24,26,27,50–52] and experimental [13,37,52,53] studies on pressure-driven membranes, which emphasize that flow-driven compaction causes the flux plateau phenomenon. Under high TMP, severe compaction leads to significant microstructural and macroscopic material deformation in the membranes. As a result, permeability declines, causing only a negligible increase in flux despite the rise in TMP. This offsetting effect, where the decrease in permeability counteracts the increase in TMP, will be further elucidated in the following subsection, where we explore how increased TMP enhances the support membrane water transport resistance. 3.2. Support layer: How the linearity of hydrostatic pressure gradient changes with increasing (inverse of permeance) transport resistance Here, we first quantify the overall TFC membrane permeance, ATFC, a prefactor that phenomenologically relates water flux intensity to TMP.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "resistance Here, we first quantify the overall TFC membrane permeance, ATFC, a prefactor that phenomenologically relates water flux intensity to TMP. We note that the inverse of the permeance represents its transport resistance [15], namely, ATFC = 1∕𝑅TFC, where we demonstrate how the permeance decreases non-linearly with increasing TMP. Fig. 4, derived from the flux and applied pressure in Fig. 2, shows a minimal decline in ATFC with TMP increases up to ∼80 bar, but ATFC significantly decreases as TMP increases further. Notably, the two distinct trends in the ATFC behavior – the minimal and substantial declines – correspond to the linear and plateauing water flux regimes, respectively, as seen in the flux-pressure relationship in Fig. 2. Altogether, we can see that the flow is phenomenologically constrained by the permeance, ATFC. As a reminder to the reader, the water flux (𝐽) is governed by the product of the permeance (ATFC) and the pressure difference across the TFC membrane (𝛥𝑃ℎ,TFC), as expressed by 𝐽=ATFC𝛥𝑃ℎ,TFC. While water flux is generally expected to increase with TMP, this expectation does not always hold, particularly at higher TMP values.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "𝐽=ATFC𝛥𝑃ℎ,TFC. While water flux is generally expected to increase with TMP, this expectation does not always hold, particularly at higher TMP values. As operating conditions transition from low to high TMP, the hydrostatic pressure difference across the TFC membrane does indeed increase; however, the significant decline in permeance accompanying this pressure increase, especially the support layer, restricts the rise in flux, ultimately resulting in a ceiling effect on water flux behavior. Nextly, we unveil the spatial distribution of hydrostatic pressure across the TFC membranes at increasing TMP to further investigate the decline in the permeance. Figs. 5(A)–(D) illustrate a monotonic decrease in hydrostatic pressure toward the permeate side, with water molecules moving down these slopes in accordance with Darcy’s law (Eq. (1)). Although the pressure drop within the selective layer is linear, the pressure drop in the support layer can exhibit more complex, non-linear behaviors, which ultimately govern the global hydrostatic pressure distribution, considering the spatial distance across the selective and support layers. At high TMP, these non-linear pressure trends arise to overcome the significant support layer transport resistance 𝑅supdue to the tight coupling between water transport and compaction mechanics at the local support layer level.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nt support layer transport resistance 𝑅supdue to the tight coupling between water transport and compaction mechanics at the local support layer level. As such, the support layer with elevated transport resistance demands a greater driving force for an increased water transport, which is realized by the steeper support layer hydrostatic pressure distribution, as visualized in Figs. 5(C) and (D). To further emphasize the importance of the support layer, we quantify its contribution to the membranes’ transport resistance by adopting a commonly employed resistance-in-series assumption [15,54–56]. We calculate the resistances of the selective and support layers, 𝑅sel and 𝑅sup, respectively, defined as the pressure drop across each layer per unit flux, following Aghajani et al. [15]. Based on this assumption, the total transport resistance, 𝑅TFC, is the sum of the resistances in the selective and support layers: 𝑅TFC = 𝑅sel +𝑅sup. Note that, for simplicity, we neglect water entrance resistance at the selective/support interface. This simplification is justified by our finding that, under high TMP conditions, the compacting stress at the support/permeate interface is significantly higher than at the selective/support interface (see SI: Figs. S13 and S14). Thus, the critical point, i.e., the point with highest local transport resistance, lies at the support/permeate interface, rather Journal of Membrane Science 727 (2025) 124023",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "To this end, maintaining a constant flux through the TFC membrane requires each layer to adjust its permeance in response to its hydrostatic pressure difference, ensuring that the product (water flux) remains consistent across the layers. When the applied pressure increases in the high TMP zone, the support layer imposes the dominant resistance to the overall water transport, with little to no improvement in its flux intensity. Consequently, this resistance affects the driving force within the selective layer, resulting in minimal adjustments to its hydrostatic pressure gradient to maintain a constant flux through the membrane system, thereby compensating for the slight flux changes in the support layer. Collectively, our poromechanics framework demonstrates the interplay between the transport resistance and driving forces of the support and selective layers, highlighting how changes in the support layer extrinsically influence the transport performance of the selective layer. To further understand this finding, the following two subsections will investigate how pressure-driven flow across the TFC membranes alters their thickness as well as morphology, concomitantly impacting their local permeability. 3.3.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "how pressure-driven flow across the TFC membranes alters their thickness as well as morphology, concomitantly impacting their local permeability. 3.3. How transmembrane pressure impacts TFC membrane porosity and local transport properties This subsection examines how flow-induced compaction alters the membrane’s void porosity, 𝛷, from the selective layer to the support layer and how these local structural changes affect water transport properties. For simplicity, we assume that 𝛷 also represents the water volume fraction, 𝜙𝑤, considering all voids or pores to be watersaturated (i.e., 𝛷= 𝜙𝑤). Here, we characterize local water transport using Darcy’s permeability, 𝑘, as defined in Eq. (2), which depends on the porosity 𝜙𝑤. Pressure-driven flow under TMP compacts the TFC membranes which leads to flux deterioration, and our framework quantifies this Journal of Membrane Science 727 (2025) 124023",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. The hydrostatic pressure, and its gradient, as a function of thickness-normalized nominal distance (relative to their initial lengths), at TMP of (A) 40 bar, (B) 80 bar, (C) 120 bar, and (D) 200 bar. Note that we adopt nominal coordinates, which is characterized by the membrane’s undeformed configuration, to present the spatially dependent quantities in (A)–(D). Unlike true coordinates, which incorporate local thickness variations due to membrane compaction, nominal coordinates allow us to systematically compare pressure distributions at different TMPs by eliminating the influence of thickness changes, as demonstrated in SI: Section S7. This facilitates a straightforward understanding of pressure drop development within the TFC membrane at various TMPs. compaction through changes in their length and porosity, demonstrating the tight coupling between water transport and membrane mechanics. To highlight the macroscopic effect of membrane compaction, we re-cast all space-dependent quantities in true spatial coordinates in Fig. 7, contrasting them with the nominal spatial coordinates used in Fig. 5. Specifically, we plot the true spatial distribution of porosity, 𝜙𝑤(𝑥), within the compacted membranes alongside the corresponding hydrostatic pressure distribution, 𝑃ℎ(𝑥). In solid mechanics, true coordinates (𝑥), also known as the deformed configuration, capture the local changes caused by membrane compaction and accurately represent the membrane in its compacted state.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n as the deformed configuration, capture the local changes caused by membrane compaction and accurately represent the membrane in its compacted state. In contrast, nominal coordinates (𝑋) represent the spatial positions in the undeformed membrane. The transformation from nominal to true coordinates can be obtained by solving the following expression, namely",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "𝜕𝑥𝜕𝑋= 𝜆𝑋.[ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] The intrinsic/local stretch, 𝜆𝑋, represents the ratio of the membrane’s infinitesimal length after compaction to its original one, which is related to the water volume fraction, 𝜙𝑤, through Eqs. (7) and (8). Mathematically, Eq. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] is constrained by a boundary condition given by Journal of Membrane Science 727 (2025) 124023\n\nI.K. Koo et al.\n\nI.K. Koo et al.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9,
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. The true spatial distribution of hydrostatic pressure and porosity (water volume fraction) in our TFC membrane at transmembrane pressure (TMP) of (A) 0 bar, (B) 50 bar, (C) 100 bar, and (D) 200 bar. Note that our selective and support layers are not drawn to scale due to the large disparity in thickness between them (see Table S1). However, the fractional change in thickness of both layers upon TMP application is determined exactly based on Eqs. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] and [ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}]. layer. As a result, a noticeable reduction in the support layer thickness and porosity is observed compared to its pristine state, as visualized in Figs. 7(A) and (B). Notably, our framework does not explicitly account for changes in effective pore size during compaction, which we address for each layer as follows. For the selective layer, Davenport et al. [13] found no significant changes in free volume element size using positron annihilation lifetime spectroscopy (PALS), consistent with our selective layer results in Figs. 7(B)–(D), which indicate minimal changes in porosity and limited compaction. For the support layer, Davenport et al. [13] conducted liquid-liquid porosimetry studies under TMPs of up to 150 bar, revealing consistent pore size distribution (PSD) profiles.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nport et al. [13] conducted liquid-liquid porosimetry studies under TMPs of up to 150 bar, revealing consistent pore size distribution (PSD) profiles. In its pristine state, the support layer exhibited a slightly positively skewed, binomial-like PSD. As TMP increased, the height of the PSD decreased, but its overall shape remained similar. Additionally, the dominant pore size range, approximately 5–10 nm, remained relatively constant across all TMPs tested. These findings suggest that support layer compaction – microscopically linked to a reduction in its porosity – is primarily driven by pore collapse mechanisms that reduce the number of pores rather than their individual sizes (see illustration in SI: Fig. S9). This justifies our constant support layer pore size assumption, allowing us to conveniently quantify changes in support layer porosity during membrane compaction. When TMP > 100 bar, the porosity and hydrostatic pressure of the support layer exhibit non-linear distributions, in contrast to the trends observed in the selective layer. As illustrated in Figs. 7(C) and (D), porosity and hydrostatic pressure transition minimally/linearly across the selective layer, while these quantities decrease more significantly Journal of Membrane Science 727 (2025) 124023",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "I.K. Koo et al. in the support layer, particularly near the support/permeate interface. This trend qualitatively aligns with experimental [23,67] and theoretical [22–28] findings, suggesting the presence of a more pronounced compacting stress at this interface. In this TMP regime, in addition to the stress transmitted by the selective layer, significant compacting stress arises within the densified support layer itself (see Figs. S13/14 (C) and (D)). The compaction increases toward the support/permeate interface, causing larger local shrinkage and lower local water permeability. Concurrently, to maintain water flow, a higher hydrostatic pressure gradient is necessary near the support/permeate interface, where water permeability declines greatly. Importantly, the pronounced local compaction near thesupport/permeate interface highlights how high-pressure reverse osmosis (HPRO) processes inherently require substantial pressure intensity from the feed side. For instance, at TMP = 200 bar, the compactioninduced pressure drop near the support/permeate interface accounts for approximately 50% of the total pressure drop across the TFC membrane. This significantly contributes to the support layer transport resistance (see Fig. 6) under operating conditions typical of HPRO systems (TMP ≳ 100 bar [1]), ultimately leading to the plateauing flux regime in Fig. 2.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tance (see Fig. 6) under operating conditions typical of HPRO systems (TMP ≳ 100 bar [1]), ultimately leading to the plateauing flux regime in Fig. 2. Nevertheless, it is worth noting that HPRO remains a promising technology for desalinating hypersaline brine, as it achieves higher water recovery compared to conventional RO and is more energy-efficient than thermal desalination methods [1,68,69]. To enhance the pressure resistance of TFC membranes, a stiffer support layer can be employed, though this often results in a less porous membrane [13,38]. Therefore, it is essential to achieve an optimal balance in the support layer’s poromechanical properties, specifically, between pore size/porosity and mechanical compressibility. This balance enables an effective trade-off between water permeance and compaction resistance, ultimately maximizing HPRO membrane performance under extreme applied pressures. Based on Figs. 7(C) and (D), we suggest a multilayered support layer with increasing stiffness toward the permeate side for pressure-resistant membranes. Particularly, a highly porous, less compressible sublayer can be placed near the selective/support layer interface, while stiffer, less porous sublayers can be used further away to counteract the elevated compacting stress. To this end, we have demonstrated how pore-flow-driven water transport impacts the membrane morphology (Fig. 7), which links to the permeance reduction (Figs. 3 and 4) and flux-limiting behavior (Fig. 2).",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "water transport impacts the membrane morphology (Fig. 7), which links to the permeance reduction (Figs. 3 and 4) and flux-limiting behavior (Fig. 2). To provide further context between different theoretical perspectives, we compare our pore-flow (PF)-based framework with the solution-diffusion (SD) theory in describing the permeation performance of pressure-driven desalination membranes. These two frameworks describe the driving force of water transport in membranes with distinct, mutually exclusive emphases: SD focuses on sorption, followed by diffusion down concentration gradients, while PF emphasizes pressure gradients and viscous flow through relatively distinct and interconnected pores [46,70,71]. While both models can quantify the plateauing flux behavior [70], the underlying mechanisms responsible for this behavior fundamentally differ. In the SD model, water transport driven by concentration gradients assumes uniform pressure within the membrane, treating the membranes similarly to liquids in how they transmit pressure. To account for the pressure difference between feed and permeate solutions, the model assumes an abrupt hydrostatic pressure drop at the membrane/permeate interface, similar to a piston mechanism [72]—an assumption inconsistent with the behavior of our system. The model assumes chemical equilibrium at the membrane/permeate interface to facilitate this abrupt pressure change, introducing an exponential factor in the expression for water flux [2,70].",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In the limit of small TMP, the SD water flux can be approximated as 𝐽SD ≈𝑤𝑤𝐶𝑤 (𝛽𝑣𝑤𝛥𝑃ℎ,TFC )∕𝐿, revealing a linear relationship between water flux (𝐽) and TMP (𝛥𝑃ℎ,TFC). This behavior resembles the selective layer-controlled regime described in our framework. In the context of SD framework, the linear flux-pressure regime indicates that the water concentration on the membrane’s permeate side decreases proportionally with applied pressure. This reduction establishes a concentration gradient, which drives water flow across the membrane. However, with further increment in TMP, the water concentration on the membrane’s permeate side would plummet exponentially, effectively reaching zero in the high TMP regime. In this regime, the driving force of the SD framework – the concentration gradient – would reach its maximum limit. Consequently, beyond the linear regime, SD theory predicts that the water flux would deviate from linearity and asymptotically approach 𝑤𝑤𝐶𝑤∕𝐿. This behavior is numerically analogous to the support layer-controlled regime illustrated in Fig. 2. Realistically, the theoretical aspects of the SD model used to describe the plateauing flux particularly the abrupt pressure change at the permeate interface — lack a solid physical foundation. This is because the membranes, in principle, behave more like solids than liquids, consuming pressure while TMP is transmitted across the membranes [30], unlike liquids.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "membranes, in principle, behave more like solids than liquids, consuming pressure while TMP is transmitted across the membranes [30], unlike liquids. In contrast, our PF-based poromechanics framework attributes the flux-limiting behavior to flow-induced compaction, particularly in the support layer. This compaction significantly alters the local porosity, creating substantial resistance to water transport. We can theoretically illustrate this using Eq. (1), where the water flux is locally dependent on two factors: the pressure gradient (𝜕𝑃ℎ∕𝜕𝑋), and Darcy’s permeability (𝑘). In the low TMP regime, the TFC membrane remains relatively uncompacted, resulting in an approximately constant 𝑘. Consequently, the flux increases proportionally with the pressure gradient, and the slope of the flux-TMP curve is governed by the dense selective layer. Conversely, under high TMP conditions, 𝑘 within the support layer decreases significantly due to compaction-induced porosity reduction. In response, our model self-consistently predicts a larger pressure gradient to drive water transport. However, this increasing pressure gradient also elevates the compacting stress (see SI: Figs. S13 and S14), leading to an effective cancellation between 𝑘 and 𝜕𝑃ℎ∕𝜕𝑋. As a result, further increases in TMP fail to produce a corresponding increase in water flux, leading to convergence and upper-limit water flux behavior.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "a result, further increases in TMP fail to produce a corresponding increase in water flux, leading to convergence and upper-limit water flux behavior. Interestingly, at high TMP, the support layer shows only a slight reduction in thickness with increasing pressure, as seen by comparing the membrane lengths at TMP = 100 and 200 bar in Figs. 7(C) and 7(D), respectively. This behavior is attributed to strain-hardening, where the support layer densifies under severe compaction with the collapse of voids. Next, we will quantify the local and cumulative changes in the support layer thickness due to flow-driven compaction to explore this further. 3.4. Strain response of TFC support membrane under flow-induced compaction pressure The previous subsection shows that the support layer compacts much more than the selective layer. To investigate this further, we quantify the change in the support layer’s length during compaction by plotting the global engineering stretch ratio 𝐿compsup ∕𝐿osup against TMP from 0 to 200 bar, where 𝐿osup and 𝐿compsup represent the initial and compacted support layer lengths, respectively. Fig. 8(B) compares our stretch 𝐿compsup ∕𝐿osup (dark blue line) with the experimental data from Davenport et al. (light blue hollow circles) [13]. We note that the experimental stretch characterizes only the irreversible deformation of the membrane, which may differ from the envisaged behavior captured by our framework.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ental stretch characterizes only the irreversible deformation of the membrane, which may differ from the envisaged behavior captured by our framework. When pressure is applied to the support layer, it exhibits both reversible and irreversible strains. The reversible strain allows for partial or full recovery of the Journal of Membrane Science 727 (2025) 124023",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "TFC membranes, compacted at pressures up to 150 and 200 bar, respectively, were re-operated at lower pressures. This suggests diminished post-compaction recovery and the dominance of irreversible strain at higher pressures. Therefore, in the absence of comprehensive realtime compaction measurements, our post-compaction measurementvalidated 𝐿compsup ∕𝐿osup offers a practical estimate for the upper limit performance of the TFC membrane, as the contribution of reversible strain is negligible under high-pressure conditions. With the global stretch 𝐿compsup ∕𝐿osup, Fig. 8(B) also presents the intrinsic stretch ratio, 𝜆𝑋 as a function of compacting stress, obtained from Eq. (6). Here, (i) 𝜆𝑋 characterizes the local stretch in response to localized compacting stress, defined as 𝜆𝑋= 𝜕𝑥∕𝜕𝑋; (ii) 𝐿compsup ∕𝐿osuprepresents the global stretch of the support layer. Mathematically, the compacted support layer length, 𝐿compsup , is calculated based on Eqs. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] and [ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}], expressed as 𝐿compsup= ∫𝑋sup∕perm𝑋sel∕sup𝜆𝑋𝑑𝑋, where 𝑋sel∕supand 𝑋sup∕perm are the nominal coordinates at selective/support and support/permeate interfaces, respectively. In the low-pressure regime, both the local (𝜆𝑋) and the global (𝐿compsup ∕𝐿osup) stretches decrease linearly with applied pressure.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "I.K. Koo et al. by the compressive modulus of the pristine support layer, 𝐾osup, where the support layer comprises a polymer-water mixture. We estimate a compressive modulus 𝐾osup of 12.5 MPa, which is an order of magnitude lower than the tensile modulus of commercial support membranes [11,73]. Nevertheless, our 𝐾osup value aligns with experimental observations of TFC membrane compaction reported by Ding et al. [45], who discussed the difference between the compressive and tensile strains of TFC membranes in great detail. In the high-pressure zone, strain-hardening causes the compressive stress to diverge exponentially as the membrane porosity decreases (see SI: Section S4), indicating an increase in membrane stiffness. This contrasts with tensile tests, where membranes typically (rubbery) yield and (glassy) fracture [73]. The strain-hardening behavior in our support layer stems from mechanisms similar to those in cellular materials under compression (e.g., foams), where bending and buckling of cell walls [74–76] cause void collapse [13], leading to densification (see Figs. 7(C) and (D)) and reduced compressibility due to tighter polymer packing. To relate, Aghajani et al. [56] found that pre-compacted membranes resist further compaction, showing less reduction in water permeability, which points to strain-hardening. Here, we capture this strain-hardening behavior phenomenologically by parametrically adjusting the coefficients 𝛽1 and 𝛽2 (see Eq.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "o strain-hardening. Here, we capture this strain-hardening behavior phenomenologically by parametrically adjusting the coefficients 𝛽1 and 𝛽2 (see Eq. (6)), which control the deviation of the stress–stretch relationship from linear behavior. As a limiting case, when 𝜆𝑋 reaches 1 -𝜙o𝑤,sup, the TMP increases asymptotically, as expected (see Fig. 8(B)). With low TMP, the support layer deforms uniformly, as indicated by the nearly constant 𝜆𝑋 in Fig. 8(C) . Correspondingly, the experimental stretch 𝐿compsup ∕𝐿osup coincides with its local intrinsic 𝜆𝑋 one in Fig. 8(B). We can demonstrate this correlation mathematically by writing 𝐿compsup= 𝜆𝑋∫𝑋sup∕perm𝑋sel∕sup𝑑𝑋= 𝜆𝑋𝐿osup, which yields 𝐿compsup ∕𝐿osup = 𝜆𝑋. When TMP is high, 𝜆𝑋 declines toward the support/permeate interface (see Figs. 8(D)–(F)), similar to how the porosity distribution changes (see Fig. 7). As 𝜆𝑋 exhibits a decreasing non-uniform distribution under this applied pressure, we have ∫𝑋sup∕perm𝑋sel∕sup𝜆𝑋𝑑𝑋≠𝜆𝑋𝐿osup,, which explains the numerical difference between the (global) experimental and (local) intrinsic stretch ratios plotted in Fig. 8(B). We further explain the local compaction trends in the support layer at various applied pressures by dividing it into five sublayers, as illustrated in Fig. 8(A), inspired by previous stacked membrane water permeation experiments [77–80]. At TMP = 200 bar, there is no visible difference in the macroscopic thickness between the five compacted sublayers (see Fig.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tion experiments [77–80]. At TMP = 200 bar, there is no visible difference in the macroscopic thickness between the five compacted sublayers (see Fig. 8(A)), despite the variations in 𝜆𝑋 distribution (see Fig. 8(F)). This is because, microscopically, the sublayers are already near or at their polymer packing limit. The trend in Fig. 8(A) slightly differs from experimental studies [23,77–80] and poromechanics models [22,23,26,27,81], which examine flow-induced compaction. As a comparison, these studies suggest minimal compaction near the feed solution, with porosity and stretch ratios close to the uncompacted state, whereas our bilayer results show severe compaction across the entire support layer, as evidenced by significant drops in porosity and stretch in Figs. 7 and 8. Nonetheless, both our work and other poromechanics frameworks reveal non-uniformly distributed stretch within the membrane, indicating the presence of a pressure gradient—a contrast to the uniform pressure distribution predicted by the SD model. To further clarify our support layer compaction trend in Figs. 8(A), 7(B) shows that under low applied pressure conditions (∼ 50 bar TMP), the selective layer transmits pressure to the support layer due to pressure continuity, resulting in noticeable and relatively uniform compaction.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "P), the selective layer transmits pressure to the support layer due to pressure continuity, resulting in noticeable and relatively uniform compaction. On one hand, this compaction triggers strain-hardening in the support layer, which increasingly resists further compression as the TMP rises, limiting the variation of morphological change across the support layer. On the other hand, attributed to compaction-induced transport resistance, non-linear hydrostatic pressure gradient arises within the support membrane, which tends to compact the region near the support/permeate interface more. Collectively, at 200 bar TMP, the interplay of strain-hardening and applied pressure leads to a non-linear stretch distribution, but less pronounced compared to the hydrostatic pressure one (see Figs. 5(D) and 7(D)), resulting in the approximately constant-thickness compacted sublayers observed in Fig. 8(A). 4. Conclusion and implications This study introduces a poromechanics framework that integrates non-linear mechanics with non-ideal pore-flow transport to unravel the complex interplay between pressure-driven (i) compaction and (ii) water transport in TFC membranes. By explicitly accounting for the distinct structural, mechanical, and transport properties of the selective and support layers, the framework realistically highlights their significant combined impact on the overall water permeation performance of TFC membranes. Based on their individual permeance values (see Fig.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s their significant combined impact on the overall water permeation performance of TFC membranes. Based on their individual permeance values (see Fig. 3), we demonstrate that the dense selective layer governs water transport at low TMP, whereas the support layer governs transport at high TMP due to its lower permeance. In the low TMP regime, as TMP increases, the permeation-controlling selective layer maintains a linear hydrostatic pressure distribution, which shifts upward with minimal change in its gradient. In contrast, in the high TMP regime, the support layer undergoes significant compaction (see Figs. 7 and 8), leading to increased transport resistance. This compaction consumes a substantial portion of the TMP, causing the support layer to exhibit a steep, nonlinear hydrostatic pressure distribution. Consequently, at high TMP levels, the TFC membrane transitions from a selective-layer-controlled water transport system to one limited by the support layer. These findings suggest that while current MD simulations excel in capturing atomistic details of water transport through the selective layer of a TFC membrane, they fall short of providing a complete understanding of the transport-limiting mechanisms without explicitly simulating the support layer. This limitation is particularly pronounced under high TMP operating conditions.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "t-limiting mechanisms without explicitly simulating the support layer. This limitation is particularly pronounced under high TMP operating conditions. Under flow-induced compaction, particularly at high TMP levels, experiments demonstrate that TFC support membranes exhibit strainhardening behavior, characterized by a steeper stress–stretch relationship where stress increases more rapidly than stretch [11,13,61], consistent with our prediction of support layer compaction. Although this behavior resembles the prediction of Flory–Rehner (FR) theory, which suggests an exponential increase in compacting stress with compressive stretch, FR theory significantly overestimates water flux at high TMP, predicting values several times greater than both our theoretical results and experimental observations. This discrepancy stems from the thermodynamic foundation of FR theory, which predicts unrealistically high compacting stress in fully-compacted membranes with very low water content due to the unphysical enlargement of osmotic pressure.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "unrealistically high compacting stress in fully-compacted membranes with very low water content due to the unphysical enlargement of osmotic pressure. In contrast, our stress–stretch relationship realistically captures the membrane deformation across the entire range, from the pristine state (𝜆𝑋= 1) to the fully-compacted one (𝜆𝑋= 1 -𝜙o𝑤,sup), by transitioning from the mechanical response of a hydrated membrane (water-polymer mixture) to that of a solid material (bulk polymer), enabling the capture of (i) selective and (ii) support layer-limited flux-pressure regimes corresponding to low and high TMPs, respectively, as illustrated in Fig. 2. In summary, this study elucidates the flow-induced compaction of a bilayer TFC membrane by quantifying the spatially dependent variables, such as the pressure and porosity distributions, which are challenging to measure experimentally. These findings underscore the individual influence of the support and selective layers, allowing us to understand further the intricate coupling between deformation and water permeation within the TFC membrane. However, it is important to note that the current model does not account for the influence of other membrane physicochemical properties, such as hydrophilicity and composition, which could alter the membrane behavior [7,40,60]. Journal of Membrane Science 727 (2025) 124023",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "I.K. Koo et al. In future work, expanding the model to incorporate these factors, along with multi-ionic salt transport [82–85] to mimic seawater/riverwater conditions, could offer a more comprehensive understanding of TFC membrane behavior under high pressure. CRediT authorship contribution statement Ian Keen Koo: Writing – review & editing, Writing – original draft, Visualization, Validation, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Meng Nan Chong: Writing – review & editing, Supervision, Project administration, Funding acquisition. K.B. Goh: Writing – review & editing, Writing – original draft, Visualization, Validation, Supervision, Software, Resources, Project administration, Methodology, Investigation, Funding acquisition, Conceptualization. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments KBG thanks the Ministry of Higher Education Malaysia through the Fundamental Research Grant Scheme (FRGS/1/2023/STG07/MUSM/03/2 ). Appendix A. Supplementary data Supplementary material related to this article can be found online at https://doi.org/10.1016/j.memsci.2025.124023. Data availability Data will be made available on request.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[12] G Battaglia, et al., Coupled mechanical and hydrodynamic 3D modelling to evaluate membrane intrusion impact on pressure drop in reverse osmosis permeate channels, Desalination 587 (2024) 117930.[13] Douglas M Davenport, et al., Thin film composite membrane compaction in high-pressure reverse osmosis, J. Membr. Sci. 610 (2020) 118268.[14] Kyoung Hoon Chu, et al., Variation of free volume and thickness by high pressure applied on thin film composite reverse osmosis membrane, Desalination 520 (2021) 115365.[15] Masoud Aghajani, Alan R. Greenberg, Yifu Ding, Thin film composite membranes: Does the porous support truly have negligible resistance? J. Membr. Sci. 609 (2020) 118207.[16] Yali Zhao, et al., Dissecting the structure-compaction-performance relationship of thin-film composite polyamide membranes with different structure features, J. Membr. Sci. 654 (2022) 120553.[17] Jishan Wu, et al., Polyamide reverse osmosis membrane compaction and relaxation: Mechanisms and implications for desalination performance, J. Membr. Sci. 706 (2024) 122893.[18] Jinlong He, et al., Molecular insights into the structure-property relationships of 3D printed polyamide reverse-osmosis membrane for desalination, J. Membr. Sci. 658 (2022) 120731.[19] Jinlong He, et al., Molecular mechanisms of thickness-dependent water desalination in polyamide reverse-osmosis membranes, J. Membr. Sci. 674 (2023) 121498.[20] Y¯oichi Kurokawa, M.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "echanisms of thickness-dependent water desalination in polyamide reverse-osmosis membranes, J. Membr. Sci. 674 (2023) 121498.[20] Y¯oichi Kurokawa, M. Kurashige, Norio Yui, A viscoelastic model for initial flux decline through reverse osmosis membrane, Desalination 52 (1) (1984) 9–14.[21] Chunyan Xu, et al., Thin-film composite membrane compaction: Exploring the interplay among support compressive modulus, structural characteristics, and overall transport efficiency, Environ. Sci. Technol. 58 (19) (2024) 8587–8596.[22] S.I. Barry, G.K. Aldis, Comparison of models for flow induced deformation of soft biological tissue, J. Biomech. 23 (7) (1990) 647–654.[23] Y. Lanir, S. Sauob, P. Maretsky, Nonlinear finite deformation response of open cell polyurethane sponge to fluid filtration, 1990.[24] Shawn A. Chester, Lallit Anand, A coupled theory of fluid permeation and large deformations for elastomeric materials, J. Mech. Phys. Solids 58 [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] (2010) 1879–1906.[25] Duncan R Hewitt, et al., Flow-induced compaction of a deformable porous medium, Phys. Rev. E 93 (2) (2016) 023116.[26] Christopher W. MacMinn, Eric R. Dufresne, John S. Wettlaufer, Large deformations of a soft porous material, Phys. Rev. Appl. 5 (4) (2016) 044020.[27] Varun H. Hegde, Michael F. Doherty, Todd M.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ohn S. Wettlaufer, Large deformations of a soft porous material, Phys. Rev. Appl. 5 (4) (2016) 044020.[27] Varun H. Hegde, Michael F. Doherty, Todd M. Squires, A two-phase model that unifies and extends the classical models of membrane transport, Science 377 (6602) (2022) 186–191.[28] Hanqing Fan, Menachem Elimelech, P.M. Biesheuvel, Theory of expansion and compression of polymeric materials: Implications for membrane solvent flow under compaction, J. Membr. Sci. 697 (2024) 122576.[29] Shi-Lei Xue, et al., A nonlinear poroelastic theory of solid tumors with glycosaminoglycan swelling, J. Theoret. Biol. 433 (2017) 49–56.[30] Barathan Rajendran, et al., How mechanical loading modulates non-ideal cosolute partitioning in hydrated polymeric membranes, J. Membr. Sci. 685 (2023) 121943.[31] Viatcheslav Freger, Guy Z. Ramon, The solution-diffusion model:‘‘Rumors of my death have been exaggerated’’, J. Membr. Sci. Lett. 4 (2) (2024) 100084.[32] Martin J. Blunt, Navier-Stokes equations, Darcy’s law and multiphase flow, in: Multiphase Flow in Permeable Media: A Pore-Scale Perspective, Cambridge University Press, 2017, pp. 219–314.[33] Jacob Bear, Yehuda Bachmat, Transport phenomena in porous media—basic equations, in: Fundamentals of Transport Phenomena in Porous Media, Springer, 1984, pp. 3–61.[34] Joel L. Plawsky, Transport Phenomena Fundamentals, CRC Press, 2020.[35] A.D. Drozdov, Swelling of pH-responsive cationic gels: Constitutive modeling and structure–property relations, Int. J.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "damentals, CRC Press, 2020.[35] A.D. Drozdov, Swelling of pH-responsive cationic gels: Constitutive modeling and structure–property relations, Int. J. Solids Struct. 64 (2015) 176–190.[36] Maryam Rehman, Muhammad Bilal Hafeez, Marek Krawczuk, A comprehensive review: Applications of the Kozeny–Carman model in engineering with permeability dynamics, Arch. Comput. Methods Eng. (2024) 1–13.[37] Mary Theresa M Pendergast, et al., Using nanocomposite materials technology to understand and control reverse osmosis membrane compaction, Desalination 261 (3) (2010) 255–263.[38] Jaewoo Lee, et al., Influence of the sublayer structure of thin-film composite reverse osmosis membranes on the overall water flux, Environ. Sci.: Water Res. Technol. 4 [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] (2018) 1912–1922.[39] Jing Wei, et al., Influence of monomer concentrations on the performance of polyamide-based thin film composite forward osmosis membranes, J. Membr. Sci. 381 (1–2) (2011) 110–117.[40] Zhe Yang, Hao Guo, Chuyang Y. Tang, The upper bound of thin-film composite (TFC) polyamide membranes for desalination, J. Membr. Sci. 590 (2019) 117297.[41] Asim K. Ghosh, Eric M.V. Hoek, Impacts of support membrane structure and chemistry on polyamide–polysulfone interfacial composite membranes, J. Membr. Sci. 336 (1–2) (2009) 140–148.[42] Jeffrey E. Bischoff, Ellen M.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ure and chemistry on polyamide–polysulfone interfacial composite membranes, J. Membr. Sci. 336 (1–2) (2009) 140–148.[42] Jeffrey E. Bischoff, Ellen M. Arruda, Karl Grosh, A new constitutive model for the compressibility of elastomers at finite deformations, Rubber Chem. Technol. 74 (4) (2001) 541–559. Journal of Membrane Science 727 (2025) 124023",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "I.K. Koo et al. [43] Shengqiang Cai, Zhigang Suo, Mechanics and chemical thermodynamics of phase transition in temperature-sensitive hydrogels, J. Mech. Phys. Solids 59 [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] (2011) 2259–2278.[44] Weijian Ding, Kexin Ma, Amy E. Childress, A novel method to quantify real-time compaction of water treatment membranes, Environ. Sci. Technol. Lett. 10 [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (2023) 955–960.[45] Weijian Ding, Kexin Ma, Amy E. Childress, Compaction of pressure-driven water treatment membranes: Real-time quantification and analysis, Environ. Sci. Technol. (2024).[46] Li Wang, et al., Water transport in reverse osmosis membranes is governed by pore-flow, not a solution-diffusion mechanism, Sci. Adv. 9 [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] (2023) eadf8488.[47] Boor Singh Lalia, et al., A review on membrane fabrication: Structure, properties and performance relationship, Desalination 326 (2013) 77–95.[48] Trisha R Nickerson, et al., Unlocking the potential of polymeric desalination membranes by understanding molecular-level interactions and transport mechanisms, Chem. Sci.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "et al., Unlocking the potential of polymeric desalination membranes by understanding molecular-level interactions and transport mechanisms, Chem. Sci. 14 (4) (2023) 751–770.[49] Jinlong He, Jeffrey R. McCutcheon, Ying Li, Effect of different manufacturing methods on polyamide reverse-osmosis membranes for desalination: Insights from molecular dynamics simulations, Desalination 547 (2023) 116204.[50] A. Peterlin, Joel L. Williams, Influence of compacting pressure on the permeability of vectorized membranes for liquids, J. Appl. Polym. Sci. 15 (6) (1971) 1493–1505.[51] Paul F. Fuls, Murray P. Dell, Ian A. Pearson, Non-linear flow through compressible membranes and its relation to osmotic pressure, J. Membr. Sci. 66 (1) (1992) 37–43.[52] Ryungeun Song, et al., Pressure-driven flow across a hyperelastic porous membrane, J. Fluid Mech. 871 (2019) 742–754.[53] Ronan Killian McGovern, Dillon McConnon, John H. Lienhard V, The Effect of Very High Hydraulic Pressure on the Permeability and Salt Rejection of Reverse Osmosis Membranes, International Desalination Association, 2015.[54] Haruhiko Ohya, An expression method of compaction effects on reverse osmosis membranes at high pressure operation, Desalination 26 (2) (1978) 163–174.[55] Darıo R. Machado, David Hasson, Raphael Semiat, Effect of solvent properties on permeate flow through nanofiltration membranes: Part II. Transport model, J. Membr. Sci.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "David Hasson, Raphael Semiat, Effect of solvent properties on permeate flow through nanofiltration membranes: Part II. Transport model, J. Membr. Sci. 166 (1) (2000) 63–69.[56] Masoud Aghajani, et al., Influence of support-layer deformation on the intrinsic resistance of thin film composite membranes, J. Membr. Sci. 567 (2018) 49–57.[57] Lin Lin, et al., Investigating the void structure of the polyamide active layers of thin-film composite membranes, J. Membr. Sci. 497 (2016) 365–376.[58] Lin Lin, et al., Relative importance of geometrical and intrinsic water transport properties of active layers in the water permeability of polyamide thin-film composite membranes, J. Membr. Sci. 564 (2018) 935–944.[59] Jason T. Arena, Kevin K. Reimund, Jeffrey R. McCutcheon, On the importance of selectivity and support layer compaction in pressure retarded osmosis, Desalination 498 (2021) 114804.[60] Lu Elfa Peng, et al., A critical review on porous substrates of TFC polyamide membranes: Mechanisms, membrane performances, and future perspectives, J. Membr. Sci. 641 (2022) 119871.[61] Jishan Wu, et al., Reverse osmosis membrane compaction and embossing at ultra-high pressure operation, Desalination 537 (2022) 115875.[62] Santanu Karan, Zhiwei Jiang, Andrew G.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "osmosis membrane compaction and embossing at ultra-high pressure operation, Desalination 537 (2022) 115875.[62] Santanu Karan, Zhiwei Jiang, Andrew G. Livingston, Sub–10 nm polyamide nanofilms with ultrafast solvent transport for molecular separation, Science 348 (6241) (2015) 1347–1351.[63] Olivia M McIntee, et al., Characterization of polyamide thin films by atomic force microscopy, Polymer 308 (2024) 127350.[64] Hui-An Tsai, et al., Mechanical properties of asymmetric polysulfone membranes containing surfactant as additives, Ind. Eng. Chem. Res. 40 (25) (2001) 5917–5922.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[65] Liang Yu, et al., Preparation and characterization of HPEI-GO/PES ultrafiltration membrane with antifouling and antibacterial properties, J. Membr. Sci. 447 (2013) 452–462.[66] Jiulong Yin, et al., Enhanced mechanical strength and performance of sulfonated polysulfone/Tröger’s base polymer blend ultrafiltration membrane, J. Membr. Sci. 625 (2021) 119138.[67] K.H. Parker, R.V. Mehta, C.G. Caro, Steady flow in porous, elastically deformable materials, 1987.[68] Tiezheng Tong, Menachem Elimelech, The global rise of zero liquid discharge for wastewater management: drivers, technologies, and future directions, Environ. Sci. Technol. 50 [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] (2016) 6846–6855.[69] A Benjamin Schantz, et al., Emerging investigators series: prospects and challenges for high-pressure reverse osmosis in minimizing concentrated waste streams, Environ. Sci.: Water Res. Technol. 4 (7) (2018) 894–908.[70] Mohammad Heiranian, et al., Mechanisms and models for water transport in reverse osmosis membranes: history, critical assessment, and recent developments, Chem. Soc. Rev. (2023).[71] Hanqing Fan, Mohammad Heiranian, Menachem Elimelech, The solutiondiffusion model for water transport in reverse osmosis: What went wrong? Desalination 580 (2024) 117575.[72] Richard W.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "enachem Elimelech, The solutiondiffusion model for water transport in reverse osmosis: What went wrong? Desalination 580 (2024) 117575.[72] Richard W. Baker, Membrane Technology and Applications, John Wiley & Sons, 2023.[73] Sajjad H Maruf, et al., Influence of nanoimprint lithography on membrane structure and performance, Polymer 69 (2015) 129–137.[74] Aijie Han, et al., Deformation of a nanoporous silica under compressive loading, J. Appl. Phys. 103 (8) (2008).[75] Foad Rahimidehgolan, William Altenhof, Compressive behavior and deformation mechanisms of rigid polymeric foams: A review, Compos. Part B: Eng. 253 (2023) 110513.[76] Lorna J. Gibson, Michael F. Ashby, Cellular solids: Structure and properties, in: Cambridge Solid State Science Series, second ed., Cambridge University Press, 1997.[77] Sang Nim Kim, Karl Kammermeyer, Actual concentration profiles in membrane permeation, Sep. Sci. 5 (6) (1970) 679–697.[78] D.R. Paul, O.M. Ebra-Lima, The mechanism of liquid transport through swollen polymer membranes, J. Appl. Polym. Sci. 15 (9) (1971) 2199–2210.[79] Richard Wm Tock, Jesse Yu Cheung, Robert L. Cook, Dioxane-water transport through nylon 6 membranes, Sep. Sci. 9 (5) (1974) 361–379.[80] Rahul Sujanani, et al., Hydraulic permeation-induced water concentration gradients in ion exchange membranes, J. Membr. Sci.",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "9 (5) (1974) 361–379.[80] Rahul Sujanani, et al., Hydraulic permeation-induced water concentration gradients in ion exchange membranes, J. Membr. Sci. 705 (2024) 122858.[81] Hanqing Fan, Ngai Yin Yip, Elucidating conductivity-permselectivity tradeoffs in electrodialysis and reverse electrodialysis by structure-property analysis of ion-exchange membranes, J. Membr. Sci. 573 (2019) 668–681.[82] EM Kimani, et al., Multicomponent mass transport modeling of water desalination by reverse osmosis including ion pair formation, J. Chem. Phys. 154 [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] (2021).[83] S Castaño Osorio, et al., Nanofiltration of complex mixtures: The effect of the adsorption of divalent ions on membrane retention, Desalination 527 (2022) 115552.[84] Xiao Chen, Barathan Rajendran, Qi-Min Liu, Xi-Qiao Feng, Kek Boon Goh, Divalent ion partitioning through dense ion exchange membranes, Journal of Membrane Science 687 (2023) 122077.[85] Zheng Jie Lim, Marcus Kho, Xiao Chen, KB Goh, Selective divalent/monovalent ion partitioning in cation exchange membranes, Separation and Purification Technology 356 (2025) 129833. Journal of Membrane Science 727 (2025) 124023",
+    "citation": {
+      "authors": [
+        "Goh K.B."
+      ],
+      "paper_id": "1-s2.0-S0376738825003369-main",
+      "title": "Gradient or no gradient: Spatial hydrostatic pressure distributions in bilayer thin-film composite membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  }
+]

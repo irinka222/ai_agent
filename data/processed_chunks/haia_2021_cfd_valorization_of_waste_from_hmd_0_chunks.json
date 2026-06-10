@@ -1,0 +1,182 @@
+[
+  {
+    "content": "1. Introduction Egypt’s annual share of the Nile water decreased by 7 billion cubic meters in 2020 because of the rising populations, water distribution, water resources misuse, inefficient irrigation techniques, rapid economic development in the Nile Basin countries, pollution, and environmental degradation [1]. Moreover, about 85% of the Nile’s water comes from Ethiopia. Currently, Ethiopia is establishing Africa’s largest dam, which can cause severe impacts on Egypt. Egypt’s water supply from the Nile is anticipated to drop by 25% over the next seven years. This drop will cause the country to face severe water scarcity soon. Thus, the government focuses on raising awareness of water usage practices, promoting water conservation, reforming the public water sector, investing in desalination plants, and upgrading irrigation infrastructure [2]. Additionally, there is a growing need in Egypt to explore desalination technologies to meet the need for water and follow other countries in the Middle East that depend on desalination [3]. Over 75% of the amount of worldwide desalinated water is produced in the Middle East and North Africa (MENA). About 70% of which is in the Arabian Gulf countries (Saudi Arabia, Kuwait, Qatar, Bahrain, Oman, and the United Arab Emirates) and 6% is in Libya and Algeria [4].",
+    "citation": {
+      "authors": [
+        "Elsayd H.M.",
+        "Ahmed T.S.",
+        "Abdel-Salam O.E.",
+        "Elshafei M.",
+        "Abdelghany A."
+      ],
+      "paper_id": "haia_2021_cfd_valorization_waste_hmd",
+      "title": "Numerical Investigation for The Valorization of Waste from HMD Cell Using Electrodialysis",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Desalination is removing dissolved salts from seawater to produce potable water. The desalination process feed can be seawater, brackish water, and inland water [5]. The three most widely used desalination technologies are Reverse Osmosis (RO), Multi-stage Flash (MSF), and Multi-Effect Distillation (MED). However, a new technique in the desalination field is called Hydro-magnetic desalination, based on ion separation by electromagnetic forces, which separates the salt in the form of ions from the water stream [6-7]. In this article, the electrodialysis (ED) technique produces valuable chemical products from the HMD process’s waste. The electrodialysis process is an electrochemical separation process used to transport salt ions from one solution (through ion-exchange membranes) to another solution under electric potential difference. The transport depends on dissolved salts in water that migrate towards electrodes with an opposite electric charge, either positively or negatively charged [7]. In HMD, the potential difference (generated from ions motion under magnetic field) is given by: E_m = B v L, where B is the magnetic field (in Tesla), v is the fluid velocity, and L is the channel width.",
+    "citation": {
+      "authors": [
+        "Elsayd H.M.",
+        "Ahmed T.S.",
+        "Abdel-Salam O.E.",
+        "Elshafei M.",
+        "Abdelghany A."
+      ],
+      "paper_id": "haia_2021_cfd_valorization_waste_hmd",
+      "title": "Numerical Investigation for The Valorization of Waste from HMD Cell Using Electrodialysis",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The HMD process’s waste consists of two brine streams with either a higher concentration of Na+ or Cl- ions [8]. HCl and NaOH from waste produced from the HMD process can be produced during the reaction of O2 and H2 at the anode and cathode, respectively, with the brine. The process requires only cation and anion exchange membranes separating three compartments: one for HCl production, one for NaOH production, and one for the circulation of a NaCl solution between the first two [9]. The anode and middle chambers are separated by an anion exchange membrane (AEM), and the cathode and middle chamber are separated by a cation exchange membrane (CEM) through which a concentrated NaCl solution is recirculated over the middle compartment. Therefore, HCl and NaOH can be produced simultaneously in the anode and cathode chambers [10-11]. In the current work, the ions concentration in the ED technique is simulated using COMSOL Multiphysics V.5.2 software as a preliminary step to produce valuable chemical products from the byproduct streams of the HMD process.",
+    "citation": {
+      "authors": [
+        "Elsayd H.M.",
+        "Ahmed T.S.",
+        "Abdel-Salam O.E.",
+        "Elshafei M.",
+        "Abdelghany A."
+      ],
+      "paper_id": "haia_2021_cfd_valorization_waste_hmd",
+      "title": "Numerical Investigation for The Valorization of Waste from HMD Cell Using Electrodialysis",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Modeling 2.1 Modeling of Electrodialysis In multiphysics modeling, physical models in different applications are coupled together for a comprehensive, accurate model. COMSOL Multiphysics is a simulation software designed to provide numerical results from multiphysics modeling [12]. The simulation aims to mimic the excessive experimental runs. Multiphysics modeling can provide accurate results; however, the key to successful simulations is to ensure the models’ experimental validation. Compared to experimental methods or testing prototypes, modeling allows a robust and cost-effective optimization of processes and devices [13]. Electrochemical systems with ion-exchange membranes like the electrodialysis process have found wide practical use [14]. For a suitable choice of an operation mode of electro-membrane systems, it is necessary to understand the distribution of electrical potential and concentration over the membrane and adjacent cells [15]. COMSOL Multiphysics V.5.2 software has been used for the simulation and numerical investigation of this system.",
+    "citation": {
+      "authors": [
+        "Elsayd H.M.",
+        "Ahmed T.S.",
+        "Abdel-Salam O.E.",
+        "Elshafei M.",
+        "Abdelghany A."
+      ],
+      "paper_id": "haia_2021_cfd_valorization_waste_hmd",
+      "title": "Numerical Investigation for The Valorization of Waste from HMD Cell Using Electrodialysis",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Nernst-Plank equation was used to describe ion flux and charge transport in the electrolyte solution. Also, secondary current distribution theory and the electroneutrality condition were used as the mathematical model. Finally, Donnan equations were used to provide the exact fulfillment of boundary conditions for constant voltage mode [16-17]. The cell consists of two ions selective membrane; the left is permeable to cations and the right to anions. The middle region is a free-flowing electrolyte region, where salt is to be removed. This region is named the dilute domain. The rightmost and leftmost domains are free-flowing electrolyte domains, where the ion concentration increases during cell operation [16]. These domains are called the concentrate domains. In the free electrolyte regions, the flow enters the bottom inlets and exits at the top outlets. The Nernst-Planck equation is used for ion flux and charges transport: N_i = -D_i ∇C_i - Z_i u_{mob,i} F C_i ∇φ_i + C_i u, where N_i is the diffusion, migration, and convection of species i (Na+ or Cl-), D_i is the diffusion coefficient, the migration term consists of charge number Z_i, mobility u_{mob,i}, and electrolyte potential φ, and the convection term denotes fluid velocity vector u.",
+    "citation": {
+      "authors": [
+        "Elsayd H.M.",
+        "Ahmed T.S.",
+        "Abdel-Salam O.E.",
+        "Elshafei M.",
+        "Abdelghany A."
+      ],
+      "paper_id": "haia_2021_cfd_valorization_waste_hmd",
+      "title": "Numerical Investigation for The Valorization of Waste from HMD Cell Using Electrodialysis",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The electrolyte current density is calculated using Faraday’s law, summing up the molar fluxes' contributions, multiplied by the species charges. The conservation of current is then used to calculate the electrolyte potential [16]: i_l = F Σ z_i (-D_i ∇c_i - z_i u_{m,i} F c_i ∇φ_l). ∇·i_l = F Σ (z_i R_i), where R_i are the reaction sources due to the porous electrode reactions. Tertiary Current Distribution is used in the electrodialysis module, Nernst-Planck interface solving the electrolyte potential in the free electrolyte and ion-selective membrane domains. In the free electrolyte domains, the ions present are Na+ and Cl-. The ion-selective membranes also contain additional ions fixed in a matrix. Therefore, the fixed space charge is added while calculating the sum of charges in the electroneutrality condition [16]: ρ_fix + F Σ (z_i c_i) = 0.",
+    "citation": {
+      "authors": [
+        "Elsayd H.M.",
+        "Ahmed T.S.",
+        "Abdel-Salam O.E.",
+        "Elshafei M.",
+        "Abdelghany A."
+      ],
+      "paper_id": "haia_2021_cfd_valorization_waste_hmd",
+      "title": "Numerical Investigation for The Valorization of Waste from HMD Cell Using Electrodialysis",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The selective membrane domains do allow for the transport of both Na+ and Cl-. The anion exchange membrane transports anions while the cation exchange membrane transports the cations. The fixed membrane charge sign is positive in the anion and negative in the cation exchange membrane domains [4]. The boundary conditions at the boundaries between the membrane and free electrolyte domains are: (1) The typical electrolyte current density is equal to the current density in the membrane [16]: n·i_{l,e} = n·i_{l,m}. (2) The ion flux for each species is continuous over the membrane-free electrolyte interface: n·N_{i,e} = n·N_{i,m}. (3) The relation between the potentials and the concentrations is the Donnan equation: φ_{l,m} = φ_{l,e} - (RT/(z_i F)) ln(c_{i,m}/c_{i,e}), where c_{i,m} is the species concentration in the membrane, c_{i,e} is the species concentration in the free electrolyte, and z_i is the corresponding charge.",
+    "citation": {
+      "authors": [
+        "Elsayd H.M.",
+        "Ahmed T.S.",
+        "Abdel-Salam O.E.",
+        "Elshafei M.",
+        "Abdelghany A."
+      ],
+      "paper_id": "haia_2021_cfd_valorization_waste_hmd",
+      "title": "Numerical Investigation for The Valorization of Waste from HMD Cell Using Electrodialysis",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Results The model is used to separate positive and negative ions to produce chemical products such as HCl and NaOH. Parameters used in the simulation calculations are: total potential drop 1 V, diffusion coefficients D_Na = 1.334e-9 m²/s, D_Cl = 2.032e-9 m²/s, temperature 298.15 K, inlet Cl concentration 500 mol/m³, membrane charge concentration 1000 mol/m³, average flow velocity 0.005 m/s, cell length 0.01 m, channel width 1 mm, membrane width 0.25 mm. A mapped mesh of 18000 elements was used for accurate numerical results and to obtain thinner elements in the free electrolyte close to the membrane surfaces. The ion concentration increases in the concentrate chamber and decreases in the dilute chamber. Close to the membrane’s surface, a boundary layer with a high concentration was formed. The electrolyte potential distribution shows potential losses in the membranes; the Donnan potential can be seen at the boundaries between the free electrolyte and membrane interface.",
+    "citation": {
+      "authors": [
+        "Elsayd H.M.",
+        "Ahmed T.S.",
+        "Abdel-Salam O.E.",
+        "Elshafei M.",
+        "Abdelghany A."
+      ],
+      "paper_id": "haia_2021_cfd_valorization_waste_hmd",
+      "title": "Numerical Investigation for The Valorization of Waste from HMD Cell Using Electrodialysis",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Ion concentration for different unit cell voltages (0.5, 1, and 1.5 V) shows that the concentration increases with higher potentials. Increasing the voltage increases the driving force, which leads to an increase in the separation. The diffusive fluxes in the free electrolyte for Cl- and Na+ are prominent close to the membrane boundaries because of high concentration and the migrative fluxes that govern the channels. Finally, validation results at 40°C and 55°C show good agreement between simulation results and experimental data from the literature [13].",
+    "citation": {
+      "authors": [
+        "Elsayd H.M.",
+        "Ahmed T.S.",
+        "Abdel-Salam O.E.",
+        "Elshafei M.",
+        "Abdelghany A."
+      ],
+      "paper_id": "haia_2021_cfd_valorization_waste_hmd",
+      "title": "Numerical Investigation for The Valorization of Waste from HMD Cell Using Electrodialysis",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Conclusions Our model is used to separate positive and negative ions to produce chemical products such as HCl and NaOH. A two-dimensional model of a rectangular electrodialysis desalination cell was developed. A mapped mesh of 18000 elements was used for accurate numerical results of the model and fair distribution to obtain thinner elements in the free electrolyte close to the membrane surfaces. The concentration increases in the concentrate chamber and decreases in the dilute chamber. Close to the membrane’s surface, a boundary layer with a high concentration was formed. The concentration increases with higher potentials. Increasing the voltage increases the driving force, and this, in turn, leads to an increase in the separation. The diffusive fluxes are prominent close to the membrane boundaries because of high concentration and the migrative fluxes that govern the channels. The modeling results were compared with the experimental values, which indicated that the simulation has acceptable accuracy.",
+    "citation": {
+      "authors": [
+        "Elsayd H.M.",
+        "Ahmed T.S.",
+        "Abdel-Salam O.E.",
+        "Elshafei M.",
+        "Abdelghany A."
+      ],
+      "paper_id": "haia_2021_cfd_valorization_waste_hmd",
+      "title": "Numerical Investigation for The Valorization of Waste from HMD Cell Using Electrodialysis",
+      "year": 2021,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  }
+]

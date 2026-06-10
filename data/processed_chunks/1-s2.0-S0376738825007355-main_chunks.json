@@ -1,0 +1,828 @@
+[
+  {
+    "content": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification Naresh Mameda a,b , Hyeona Park a\n\n, Jinwoo Kim c , Syed Salman Ali Shah c,d\n\n, Saifur Rahman c, Prajwal Sherugar a, Hosung Lee c, Kwang-Ho Choo a,c,e,* a Advanced Institute of Water Industry, Kyungpook National University, 80 Daehak-ro, Buk-gu, Daegu, 41566, Republic of Koreab Department of Chemistry, Koneru Lakshmaiah Education Foundation, Vaddeswaram, Guntur, Andhra Pradesh, 522302, Indiac School of Architectural, Civil, Environmental, and Energy Engineering, Kyungpook National University, 80 Daehak-ro, Buk-gu, Daegu, 41566, Republic of Koread Center for Water Research, Advanced Institute of Natural Sciences, Beijing Normal University, Zhuhai, Guangdong, 519087, Chinae Department of Environmental Engineering, Kyungpook National University, 80 Daehak-ro, Buk-gu, Daegu, 41566, Republic of Korea\n\nA R T I C L E I N F O Keywords:Electrocatalytic membraneElectrochemical reactionWater treatmentTi meshTiO2 nanowire",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T To overcome the limitations of conventional membranes that rely solely on size exclusion, we present an innovative strategy for fabricating functional nanowire membranes with integrated electrocatalytic properties. Starting from a titanium mesh, we employ an alkali hydrothermal process to dissolve and restructure it into layered titanate crystals (NaTi3O6(OH)⋅2H2O), which are subsequently converted into hydrogen titanate (H2Ti3O7) nanowires under acidic conditions. Calcination then yields anatase-phase TiO2 nanowires forming a robust, self-supporting membrane with a hierarchical submicron pore network. The incorporation of Sb-doped SnO2 as an electrocatalyst imparts high electrochemical activity, with the membrane achieving a charge den­sity of 140 mC/cm2 when loaded with 2.5 mg/cm2 of Sb–SnO2. Pore size can be precisely tuned by adjusting hydrothermal reaction parameters, such as pH, temperature, and duration, yielding a membrane with an average pore diameter of 0.28 μm. The resulting electrocatalytic microfilter demonstrates multifunctional water treat­ment capabilities in both batch and continuous operation modes, effectively removing turbidity (~90 %), organic contaminants (>50 %), and bacteria (>3 log removal) from secondary wastewater effluents through a synergistic combination of electrochemical oxidation and size-based filtration.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "acteria (>3 log removal) from secondary wastewater effluents through a synergistic combination of electrochemical oxidation and size-based filtration. Scavenger experiments reveal that reactive chlorine species and hydroxyl radicals (OH) are the dominant oxidants involved in organic degrada­tion, with hydrogen peroxide acting synergistically, and quantification results confirm that OH is the primary species contributing to the degradation process. In addition, the membrane exhibits reduced fouling propensity due to its ability to decompose organic matter, which contributes to organic fouling, and to inactivate bacteria, which are responsible for biofouling. This electrocatalytic nanowire membrane represents a significant advancement in next-generation filtration technologies, offering integrated separation and redox functions for enhanced water purification and sanitation in large facilities and home use.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Water scarcity and pollution caused by population expansion, climate change, and industrialization pose significant and pressing threats to sustainable development [1,2]. As a result, water reuse has gained popularity as a viable alternative, necessitating the development of highly robust treatment systems. Membrane processes are considered one of the most promising and feasible options for obtaining clean water from unconventional sources [3,4]. However, some critical challenges still need to be improved in their widespread adoption. Porous mem­branes have limitations in removing low molecular weight contaminants [5], while dense membranes can effectively reject dissolved substances at the cost of higher energy consumption [6]. Furthermore, membranes are susceptible to fouling due to the accumulation of organic and inor­ganic substances and microbes on their surfaces. This results in decreased water productivity and process stability [7–9], underscoring the need to develop novel membranes and their filtration system [10]. Conventional porous membrane filters, which act as selective\n\n* Corresponding author. Department of Environmental Engineering, Kyungpook National University, 80 Daehak-ro, Buk-gu, Daegu, 41566, Republic of Korea.E-mail address: chookh@knu.ac.kr (K.-H. Choo).\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 734 (2025) 124422",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 8 July 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). barriers, remove contaminants primarily through size exclusion mech­anisms [11]. Recently, electrochemically active membranes have been introduced to expand the capabilities of conventional membranes beyond physical separation [12–17]. Due to their electrical conductiv­ity, these membranes can be either positively or negatively charged [18]. This leads to various surface reactions, including (1) electrostatic interactions between charged substances and the membrane surface, facilitating the repulsive migration of like-charged contaminants away from the membrane surface [19,20]; (2) electrochemical redox reactions that can decompose organic contaminants [21], inactivate microor­ganisms [22], and clean the membrane [23]; and (3) electrophoresis, which can interfere with the formation of crystals on the membrane [24]. Conductive materials, such as carbons (e.g., carbon nanotube and graphene) [25], metals (stainless steel, Ni, and Ti) [26], metal oxides (e. g., Ti4O7) [12,27], and organic polymers (e.g., polyaniline and poly­pyrrole) [28], are used to create electroconductive membranes. Carbon nanotubes and Ti4O7 are among the most widely adopted materials due to their unique characteristics, such as high conductivity and substantial hydroxyl radical production.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "re among the most widely adopted materials due to their unique characteristics, such as high conductivity and substantial hydroxyl radical production. However, their fabrication and stability present limitations, such as harsh synthesis conditions, high costs, corrosion, and passivation [29–31]. A facile fabrication method that provides high porosity and electrochemical activity is needed to over­come these obstacles. Developing durable conductive membranes suit­able for removing contaminants at environmentally relevant concentration levels is thus attractive and imperative [32]. Titanium-based metal oxides show significant promise for water treatment applications. For instance, a TiO2 membrane was prepared by filtering and hot-pressing a suspension of TiO2 nanoparticles obtained through alkaline hydrothermal reactions [33,34]. Free-standing TiO2 nanowire membranes were fabricated by growing dense TiO2 nanowires on a Ti foil via hydrothermal methods and then cutting them with a razor blade [35]. However, their low mechanical strength and brittle­ness limit their practical use. Moreover, ensuring adequate electrical conductivity for electrocatalysis, which involves activating the catalysts, is essential. In this context, Sb-doped SnO2 (Sb–SnO2) electrocatalysts have emerged as a promising material for efficient pollutant degrada­tion. This is attributed to their high oxygen evolution potential, cost-effectiveness, and advantageous electrocatalytic properties [36].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tant degrada­tion. This is attributed to their high oxygen evolution potential, cost-effectiveness, and advantageous electrocatalytic properties [36]. Therefore, this study aims to design and fabricate a novel electro­catalytic membrane architecture by transforming a Ti mesh with several tens of micrometer pores into a robust nanowire membrane and subse­quently coating it with Sb–SnO2 composite electrocatalysts. We explored the strategy of adjusting the nanowire membrane’s pore size by varying hydrothermal conditions (e.g., NaOH concentration, reaction temperature, and reaction time). The membrane structure and charac­teristics were assessed using X-ray analysis, electron microscopy, cyclic voltammetry, and electrochemical impedance spectroscopy. Subse­quently, we investigated the applicability and performance of the fabricated electrocatalytic nanowire membrane, operated in a sub­merged lab-scale reactor for the removal of dissolved organic matter, particulate matter, and bacteria from real secondary wastewater effluent. Both batch and continuous electrocatalytic membrane filtration modes were examined. To assess membrane fouling, the transmembrane pressure (TMP) buildup was monitored over time with and without an electrical supply.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "des were examined. To assess membrane fouling, the transmembrane pressure (TMP) buildup was monitored over time with and without an electrical supply. Additionally, to elucidate the degradation mechanisms of organic contaminants and evaluate the system’s disinfection efficacy, we quantified the generation of reactive oxidants during electro­chemical operation, including reactive oxygen species (ROS) and reac­tive chlorine species (RCS). 2. Materials and methods 2.1. Chemicals and reagents Chemicals of analytical grades were used in the study, including",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "SnCl4⋅5H2O (99 %, Sigma-Aldrich, USA), SbCl3 (99 %, Sigma-Aldrich, USA), HCl (33 %, Daejung Chemicals, Korea), isopropyl alcohol (99 %, Daejung Chemicals, Korea), H2O2 (28 %, Duksan, Korea), and NaOH (97 %, Junsei Chemical, Japan). A porous Ti mesh with a 1.1 mm thickness and 79 % porosity (Bekaert, Japan) was the base material for fabricating a nanowire membrane. Stainless steel electrodes (2 mm thick) were sourced from Alfa Aesar (USA) and used as cathodes. Real wastewater effluent samples were collected from the Shincheon Municipal Wastewater Treatment Plant in Daegu, Korea, and the key characteristics of the secondary wastewater effluent can be found in Table S1. Briefly, the total organic carbon (TOC), turbidity, and total bacteria in the effluent sample were 6.39 mg/L, 1.10 NTU, and 1200-3050 CFU/mL, respectively. 2.2. Fabrication of electrocatalytic nanowire membranes Electrocatalytic nanowire membranes, specifically the Sb–SnO2/ TiO2 nanowire membrane, were fabricated through a series of steps, as illustrated in Fig. S1. Initially, a Ti mesh (Bekaert, Japan) measuring 58 mm in length, 44 mm in width, and 1.1 mm in thickness underwent surface cleaning as follows. The Ti mesh was first polished using 320-grit abrasive paper, immersed in acetone, and then subjected to 15 min of ultrasonic irradiation using a JAC Ultrasonic cleaner to remove organic residues [37,38].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "paper, immersed in acetone, and then subjected to 15 min of ultrasonic irradiation using a JAC Ultrasonic cleaner to remove organic residues [37,38]. Subsequently, the mesh was immersed in a boiling 5 % NaOH solution at 95 ◦C for 60 min and rinsed with deionized water. Following this, the mesh was treated with a 10 % oxalic acid solution at 95 ◦C for 90 min and then rinsed again with deionized water. Finally, the mesh was left to air-dry before being used to produce the nanowire membrane. After the pretreatment, the alkali hydrothermal process was applied to transform the mesh into an anatase TiO2 nanowire membrane (Fig. S1a) [35]. The pretreated mesh was secured within a Teflon frame (60 * 55 * 10 mm), placed in an autoclave containing a NaOH solution, and gradually cooled to room temperature (approximately 25 ◦C). The surface properties of the TiO2 nanowire membrane were examined by varying the NaOH concentration (10-14 M), reaction temperature (160-190 ◦C), and reaction time (6-24 h) to assess the effects of the hydrothermal reaction conditions. The resulting hydrothermal product was thoroughly rinsed with deionized water and underwent acid treat­ment (0.5 M HCl) with ultrasonication for 30 min to replace Na+ ions with H+. Subsequently, the acid-treated product was washed with deionized water and annealed in a muffle furnace at 500 ◦C for 2 h to obtain the anatase TiO2 nanowire membrane.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "acid-treated product was washed with deionized water and annealed in a muffle furnace at 500 ◦C for 2 h to obtain the anatase TiO2 nanowire membrane. The Sb–SnO2 coating of the TiO2 nanowire membrane was accom­plished by repeating the drop-casting and annealing procedure, as depicted in Fig. S1b. The coating solution was prepared as follows. Metal chloride salt precursors, specifically SnCl4⋅5H2O and SbCl3, were added to a mixture of isopropyl alcohol and HCl, with volume percentages of 96 and 4, respectively. The Sn(IV) concentration was maintained at 0.2 M, and Sb(III) at 0.2 M, with varying molar ratios (Sn(IV) = 0.95-0.8) in the range of 0.05–0.2. Using a micropipette, 1 mL of the precursor so­lution was carefully applied to the TiO2 nanowire membrane dropwise. Subsequently, the product was dried at 105 ◦C for 15 min, annealed at 550 ◦C for 10 min, and cooled to room temperature. This procedure was repeated sequentially until the total metal oxide loading (in mass) reached approximately 2.5 mg/cm2. Finally, the membrane was heated at 550 ◦C for 2 h to produce the electrocatalytic nanowire membrane, denoted as the Sb–SnO2/TiO2 nanowire membrane. Electrocatalytic membranes with different metal oxide coatings, ranging from approxi­mately 1.5 to 4.5 mg/cm2, were prepared using the same process described above, with the only variation being the coating amount. 2.3.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ng from approxi­mately 1.5 to 4.5 mg/cm2, were prepared using the same process described above, with the only variation being the coating amount. 2.3. Membrane characterization The membrane’s surface morphology and chemical composition were assessed using the field-emission scanning electron microscopyenergy dispersive X-ray spectroscopy (FESEM-EDX; Hitachi SU8220,",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Japan). To determine crystal structures, X-ray diffractometry (XRD) was performed with Cu Kα radiation (1.54 Å) at 40 kV, using a Rigaku D/ Max-2500V EMPYREAN instrument, with a scanning rate of 3◦/min. Chemical bonding and surface elements were identified through X-ray photoelectron spectroscopy (XPS) using a PHI Quantera SXM instrument from Thermo Scientific NEXSA. The data were subsequently analyzed and fitted using the CASA XPS program. All binding energies of elements were corrected with respect to the C 1s line at 284.6 eV. The pore size distribution and mean diameter of the membranes were determined using a PMI capillary flow porometer (Porous Mate­rials, USA), while porosity was evaluated using a mercury intrusion porosimeter (Micromeritics Autopore V 9600). The electrochemical properties of the membranes were assessed through cyclic voltammetry in a three-electrode cell using a potentio­stat/Galvanostat (Ametek, USA). In this setup, platinum wire, Ag/AgCl (saturated KCl), and the membrane were used as the counter electrode, reference electrode, and working electrode, respectively. Cyclic vol­tammograms were recorded in a 0.1 M Na2SO4 solution with a potential range from -0.5 to 2.5 V. Electrochemical impedance spectroscopy was conducted using an electrochemical instrument (WizEIS 1200Premium, WizMAC, Korea) to verify the electrical conductivity and charge transfer resistance of TiO2 nanowire membranes, both with and without the Sb–SnO2 active layer.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "orea) to verify the electrical conductivity and charge transfer resistance of TiO2 nanowire membranes, both with and without the Sb–SnO2 active layer. These tests were carried out in a 0.1 M KCl solution containing a 5 mM K3[Fe(CN)6]/K4[Fe (CN)6] redox couple, spanning a frequency range of 0.1–105 Hz with a potential amplitude of 10 mV. 2.4. Membrane performance tests A laboratory electrochemical membrane reactor was systematically designed and operated, as depicted in Fig. 1a. This membrane reactor consists of a 2-L rectangular tank, an electrocatalytic membrane cell, an air diffuser, and a DC power supply (DRP-503, Digital, Korea). The electrocatalytic nanowire membrane module was innovatively con­structed by integrating two individual membranes onto a U-shaped plastic frame (1 mm thick), with the open edge of the membrane frame inserted into a permeate tube (see Fig. 1b). Two stainless steel cathodes were precisely positioned, maintaining a 4-mm separation on both sides of the membrane module. To maintain a well-mixed reactor liquid, air was introduced into the",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Electrochemical membrane reactor configuration and electrocatalytic nanowire membrane module. (a) Schematic of the laboratory-scale reactor design with one electrocatalytic nanowire membrane anode and two stainless steel cathodes for water treatment applications. (b) Construction of electrochemical nanowire membrane module and photo. N. Mameda et al. Journal of Membrane Science 734 (2025) 124422 system at a rate of 0.5 L/min (equivalent to a velocity gradient of 51 s-1) through a diffuser located underneath the membrane cell. The mem­brane’s performance was evaluated based on its ability to remove organic matter, particulate matter, and bacteria from real secondary wastewater effluent, operated under an applied current density of 1 mA/ cm2 in both batch and continuous modes. Electrocatalytic membrane filtration was conducted in constant flux mode at a permeate withdrawal rate of 2.40 mL/min, corresponding to a flux of 30 L/m2-h. In batch tests, the permeate was recirculated back into the reactor, except for small aliquots (10 mL each) collected periodically for analysis. During continuous operation, the reactor was continuously fed, and permeate was withdrawn at the same rate (2.40 mL/min) using a suction pump. To reduce membrane fouling, a 1-min membrane relaxation was applied every 20 min. The reactor volume was maintained at 2.0 L using an electric level sensor.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "uce membrane fouling, a 1-min membrane relaxation was applied every 20 min. The reactor volume was maintained at 2.0 L using an electric level sensor. To simulate practical solids loading conditions [39], a small portion of reactor liquid (0.268 mL/min, approximately 10 % of the feed flow rate) was continuously withdrawn, resulting in a hydraulic residence time of approximately 13.1 h. The TMP was moni­tored over time using a pressure transducer (SMC ZSE40F, Japan) and recorded on a laptop computer with the assistance of a data logger (Graphtec Petit Logger GL100, USA). The cake layer resistance (Rc) at the end of membrane operation was determined using the resistance-in-series model under constant flux (J) conditions, based on Darcy’s law [40]: Rc = TMP μJ -Rm(1) Here, μ is the viscosity of the permeate and Rm denotes the intrinsic resistance of the membrane. The Rc value represents the hydraulic resistance of the cake layer formed during membrane filtration and serves as an indicator of membrane fouling caused by the accumulation of organics, particulates, and bacteria in the secondary wastewater effluent. 2.5.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rves as an indicator of membrane fouling caused by the accumulation of organics, particulates, and bacteria in the secondary wastewater effluent. 2.5. Oxidant scavenging tests To identify the oxidants involved in the degradation of organics, chemical scavengers including t-butanol ((CH3)3COH, Duksan, Korea), ammonium acetate (NH4CH3CO2, Daejung, Korea), sodium sulfite (Na2SO3, Yakuri, Japan), and sodium thiosulfate (Na2S2O3, Oriental, Korea) were used, consistent with methodologies described in the literature [41–44]. Each scavenging test was conducted in a batch-mode electrocatalysis reactor. The electrochemical cell comprised a Sb–SnO2/TiO2 nanowire membrane anode (10 * 30 mm) paired with a stainless steel cathode of identical dimensions, yielding an effective re­action area of 2 cm2 with an 11 mm gap. For each test, 50 mL of real secondary wastewater effluent and 1.5 equivalents of the quenching agent were added to the reactor and agitated at 220 rpm using a mag­netic stirrer. The electrode pair was tested for 1 h at a constant current density of 1.0 mA/cm2, supplied by a DC power source (DRP-503, Analog, Korea). Each experiment was duplicated, with results reported as the mean and one standard deviation. 2.6.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lied by a DC power source (DRP-503, Analog, Korea). Each experiment was duplicated, with results reported as the mean and one standard deviation. 2.6. Quantification of reactive species A synthetic feed was used to evaluate the in situ electrochemical production of reactive species, including RCS, hydroxyl radicals (OH), and hydrogen peroxide (H2O2), while maintaining the same conduc­tivity as the secondary wastewater effluent (0.653 mS/cm). To prepare the synthetic electrolyte solution, 100 mL of deionized water was mixed with a stock solution containing 4 mM Na2SO4 for the quantification of OH and H2O2. A chloride concentration of 7.72 mg/L, equivalent to that of the wastewater feed, was added for RCS generation. The final Na2SO4 concentration was adjusted to 2.5 mM to achieve the target conductivity. Electrocatalytic experiments were carried out in a 50 mL glass reactor for 1 h at a consistent current density of 1 mA/cm2. The anode consisted of the electrocatalytic nanowire membranes (effective area: 2 cm2), while a stainless-steel plate served as the cathode. All ex­periments were performed in duplicate. Hydrogen peroxide was quantified using MQuant peroxide test strips (Merck KGaA, Germany). The generation of hydroxyl radicals was assessed by employing p-nitrosodimethylaniline (RNO) as a probe, based on its characteristic bleaching behavior, with spectrophotometric anal­ysis conducted at 440 nm.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ying p-nitrosodimethylaniline (RNO) as a probe, based on its characteristic bleaching behavior, with spectrophotometric anal­ysis conducted at 440 nm. Free chlorine concentrations were determined using the DPD colorimetric method (Standard Method 4500-Cl), measuring absorbance at 515 nm. All measurements followed detailed analytical protocols as described in our previous study [45]. 2.7. Analytical methods Chemical oxygen demand (COD) levels were assessed through the dichromate method as outlined in Standard Methods [46]. TOC was measured using a Sievers 800 TOC analyzer. Measurements of conduc­tivity, pH, and turbidity were conducted after calibration using a con­ductivity meter (Cond 340i, WTW, Germany), a pH meter (4 STAR, Orion, USA), and a turbidity meter (Model 2100, Hatch, USA). To quantify the total bacterial count in colony-forming units during batch experiments, bacteria were cultivated on single-layer agar plates in an incubator (MIR-553, Sanyo, Japan) at 30 ± 2 ◦C for 24 h. The detailed procedure was reported elsewhere [47]. In brief, 2.5 g of Luria-Bertani agar medium was mixed with 97.5 mL of deionized water in a baffled flask, which was then autoclaved for 15 min at 121 ◦C. Subsequently, 10 mL of the agar medium solution was poured into each Petri dish (9 * 50 mm) and exposed to UV light for 10 min. Wastewater feed and permeate samples (10 μL each) were spread on the single-layer agar plates and incubated for 24 h.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "exposed to UV light for 10 min. Wastewater feed and permeate samples (10 μL each) were spread on the single-layer agar plates and incubated for 24 h. The cell counts were determined by manually counting the colonies on each agar plate. For bacterial enumeration in the continuous experiments, 3 M Petrifilm plates were used. First, a 10-fold serial dilution was per­formed by adding 1 mL of each sample (feed, permeate, and reactor liquid) to 9 mL of sterile saline solution (0.85 % NaCl). Then, 1 mL of the diluted sample was directly applied to a 3 M Petrifilm plate. The plates were incubated at 35 ◦C for 24 h, during which distinct red col­onies developed within the printed grid area. Following incubation, ImageJ software was used to convert the plate images into binary format, generate masks, and conduct particle analysis to quantify the bacterial colonies [48]. Following the electrocatalysis experiment with secondary effluent, the fluorescence excitation-emission matrix (FEEM) analysis was employed to evaluate the degradation of fluorescent dissolved organic matter in samples. The analysis used a spectrofluorophotometer (RF6000, Shimadzu, Japan) equipped with a 150 W xenon lamp. Compre­hensive methodologies are outlined in a previous report [42], including a parallel factor (PARAFAC) analysis of the excitation/emission (Ex/Em) peak matrices performed by an established tutorial [48,49].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rt [42], including a parallel factor (PARAFAC) analysis of the excitation/emission (Ex/Em) peak matrices performed by an established tutorial [48,49]. The analysis of fluorescent dissolved organic matter degradation was favored over TOC and COD due to introducing extraneous organic compounds by specific chemical scavengers into the secondary wastewater effluent, which complicates the accurate identification of radicals involved in organic matter degradation during quenching tests. To examine the surface morphology of the nanowire membranes, including bacterial attachment after continuous operation, we followed a sample preparation protocol adopted from the literature [47]. Mem­brane samples (with and without applied electricity) were cut into 1 cm * 1 cm pieces and fixed in a 2.5 % (v/v) glutaraldehyde solution for 2 h at 4 ◦C. After fixation, the membranes were rinsed three times in 0.1 M phosphate buffer (15 min each) to effectively remove excess glutaral­dehyde. The samples were then dehydrated through a graded ethanol series, with ethanol concentrations progressively increased from 30 % to 50 %, and finally to 100 %. Following dehydration, the membranes were freeze-dried overnight using an Eyela Freeze Dryer FD-1000 (Japan). The dried membranes were subsequently analyzed using a scanning",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "N. Mameda et al. Journal of Membrane Science 734 (2025) 124422 electron microscope (SEM; SU-8220, Hitachi, Japan). 3. Results and discussion 3.1. Transformation of a Ti mesh to a TiO2 nanowire membrane Fig. 2 illustrates densely interlaced titanate nanowire structures formed from a Ti mesh in a NaOH solution at elevated temperature and pressure. The FESEM-EDX analysis showcases the surface morphology and chemical composition of a porous Ti mesh and the TiO2 nanowires produced at various reaction phases (Fig. 2a). Initially, the porous Ti mesh consists of randomly oriented interwoven fibers with an approxi­mate diameter of 100 μm (Fig. 2a1). After the alkali hydrothermal re­action, the mesh’s surface morphology transforms into interlinked nanowire structures with an average diameter of 97.7 ± 21.9 nm (Fig. 2a2). The nanowire-like morphology is preserved despite the ion exchange reaction (i.e., replacing Na ions with protons). However, its thickness (i.e., the diameter of nanowires) slightly reduces to 77.7 ±16.6 nm, likely due to water loss from the sodium titanate’s layered structure (Fig. 2a3). Following a 2-h heat treatment at 500 ◦C, the nanowires exhibit a more uniform diameter of 51.0 ± 2.0 nm while maintaining the same structure (Fig. 2a4). In Fig. 2b, XRD patterns of the original porous mesh and the fabri­cated TiO2 nanowire products are presented. The distinctive diffraction peaks of the Ti substrate (JCPDF no.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "of the original porous mesh and the fabri­cated TiO2 nanowire products are presented. The distinctive diffraction peaks of the Ti substrate (JCPDF no. 01-089-3073) vanish, and new peaks emerge after the hydrothermal reaction (Fig. 2b1 and 2b2). These new peaks correspond to sodium hydroxotitanate dihydrate (NaTi3O6(OH)⋅2H2O) (JCPDF no. 04-018-2801), which possesses a",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Surface analysis during the transformation of a Ti mesh to a TiO2 nanowire membrane at the various stages of the alkali hydrothermal process. (a) FESEM images (a1) before the hydrothermal reaction (i.e., original Ti mesh); (a2) following the hydrothermal reaction (190 ◦C, 24 h, and 14 M NaOH); (a3) following ionexchange reaction (0.5 M HCl, 30 min); and (a4) following annealing reaction (500 ◦C, 2 h). (b) The corresponding XRD patterns were shown in b1-b4, with highmagnification images in the insets. N. Mameda et al. Journal of Membrane Science 734 (2025) 124422 monoclinic layered structure resembling sodium metatitanate (Na2Ti3O7), commonly found in layered titanates [50]. After the ex­change of Na+ ions with H+, new diffraction peaks appear (Fig. 2b3) and correspond to H2Ti3O7 (JCPDF no. 00-041-0192). Additionally, XPS scans confirm the near disappearance of the two prominent Na peaks (Na 1s and Na KLL) after the ion exchange process, confirming complete ion exchange (Fig. S2). The final structure of the titania nanowire, following annealing at 500 ◦C, can be identified as the tetragonal anatase TiO2 phase (JCPDS Card 21–1272) (Fig. 2b4). The EDX results also confirm the chemical composition of the nanowire structures (Fig. S3). After the hydrothermal process, the so­dium peak is observed, and the atomic ratio of Na/Ti is 1/2.32, indi­cating the formation of a NaTi3O6(OH)⋅2H2O structure (Fig. S3b).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "process, the so­dium peak is observed, and the atomic ratio of Na/Ti is 1/2.32, indi­cating the formation of a NaTi3O6(OH)⋅2H2O structure (Fig. S3b). After the ion exchange process, a significant decrease in the Na peak and the O-to-Ti ratio signifies the formation of H2Ti3O7 (Fig. S3c). Annealing at 500 ◦C led to a further decrease in the O/Ti ratio to ~1.7, suggesting the formation of stoichiometric TiO2 (Fig. S3d). Based on the above results, the conversion of a Ti mesh into TiO2 nanowires can be explained as follows. In the initial stage, Ti reacts with NaOH to produce octahedral ions of TiO6, which form zig-zag chain polymers, sharing their corners and containing Na+ ions and protons (H+). This leads to the formation of nuclei (Eq. (2)) [51]. As the reaction progresses, the crystal nuclei grow with a one-dimensional structure, eventually creating layered NaTi3O6(OH)⋅2H2O nanowires. The layered titanates facilitate the significant mobility of interlayered cations through the ion exchange process [52]. Subsequently, Na+ ions are replaced by H+ ions during ultrasonic acid treatment (0.5 M HCl, 30 min), resulting in the formation of hydrogen trititanate (H2Ti3O7) nanowires (Eq. (3)). Finally, an anatase TiO2 nanowire membrane filter is obtained by dehydrating the trititanate at 500 ◦C (Fig. S3d; Eq. (4)).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "i3O7) nanowires (Eq. (3)). Finally, an anatase TiO2 nanowire membrane filter is obtained by dehydrating the trititanate at 500 ◦C (Fig. S3d; Eq. (4)). 3Ti + NaOH + 8H2O →NaTi3O6(OH) ⋅2H2O + 6H2(2) NaTi3O6(OH) ⋅2H2O + 2HCl →H2Ti3O7 + 2NaCl + 2H2O(3) H2Ti3O7 →3TiO2 + H2O(4) In summary, the transformation of a Ti mesh into a TiO2 nanowire membrane filter is accomplished through a series of reactions involving alkali hydrothermal treatment, ion exchange, and annealing. The hy­drothermal conditions influence the pore size of the nanowire mem­brane filter, and further investigations on pore size control are discussed in the following section.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Adjusting membrane pore size by hydrothermal conditions Fine-tuning the pore size of a membrane is a pivotal consideration in the manufacturing process to ensure the effective separation of con­taminants. Our efforts were directed towards precisely controlling the pore size of the nanowire membrane by altering the hydrothermal re­action conditions (Fig. 3 and Fig. S4-S6). Fig. 3 illustrates the variations in the average pore diameter in response to variations in NaOH con­centration (ranging from 10 to 14 M), reaction temperature (160-190 ◦C), and reaction time (6-24 h). An evident trend emerges, with the pore size gradually decreasing from 10.65 ± 0.94 to 0.27 ±0.10 μm as the NaOH concentration and temperature increase (Fig. 3a and Fig. S4). This phenomenon is likely attributable to the densely in­terlaced growth of TiO2 nanowires, causing the gap between these nanowires to narrow, as is evident in the FESEM images (Fig. S5). Notably, a significant morphological transformation occurred, shifting from short nanowires to longer ones when the NaOH concentration exceeded 12 M. Additionally, the nanowire membrane filters exhibited increased density with higher NaOH concentration and reaction tem­perature. These results signify that elevated NaOH concentration and temperature foster the growth of longer and denser nanowires, as sub­stantiated by the pore size measurements (Fig. 3a).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "We also explored the influence of reaction time (ranging from 6 to 24 h) on the TiO2 nanowire membrane structure while maintaining a constant NaOH concentration (14 M) and reaction temperature (190 ◦C). As depicted in Fig. 3b, the pore size of the nanowire membrane diminished as the reaction time extended. The FESEM images exhibit variations in the TiO2 nanowires’ surface morphology at different re­action durations (Fig. S6). With prolonged reaction times (from 6 to 24 h), the formation of longer, thinner TiO2 nanowires led to the creation of highly dense networks, effectively reducing void space and pore size. A submicron membrane filter can be reliably produced under 14 M NaOH, 190 ◦C reaction temperature, and 24 h of reaction time. The increase in NaOH concentration (>12 M) effectively transitions short, isolated nanowires into extended, interconnected structures, while the elevated temperature (190 ◦C) facilitates the dense intertwining of TiO2 nano­wires. Additionally, the network density is enhanced by extending the reaction to 24 h, resulting in tightly packed nanowires with minimal voids and reduced pore sizes. Consequently, it is evident that fine control over membrane pore size can be achieved by regulating three key fac­tors: NaOH concentration, reaction temperature, and reaction duration. Fig. 3. Controlling TiO2 nanowire membrane pore size by adjusting alkali hydrothermal process parameters.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "reaction temperature, and reaction duration. Fig. 3. Controlling TiO2 nanowire membrane pore size by adjusting alkali hydrothermal process parameters. (a) Variation in mean pore size at various NaOH concentrations (10-14 M) and reaction temperatures (160-190 ◦C) with the same reaction time (24 h). (b) Variation in mean pore size at different re­action times (6-24 h) with constant NaOH concentration (14 M) and reaction temperature (190 ◦C).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Enhancing the electrochemical activity of the nanowire membrane To confer electrocatalytic activity to the nanowire membrane, we introduced the catalyst (SnO2) and dopant (Sb) through a drop-casting and annealing process (Fig. 4). Fig. 4a displays cyclic voltammograms of TiO2 nanowire membranes loaded with Sb–SnO2 with varying Sb contents (ranging from 5 to 20 mol%). Notably, the higher the Sb loading, the greater the peak current density observed, indicating enhanced electron transfer facilitated by increased Sb levels, resulting from substituting Sn4+ with Sb5+ [53]. A previous study has also re­ported that introducing Sb ions into the interstitial positions of the SnO2 structure improves its electroconductivity [54]. We further assessed the impact of Sb–SnO2 loadings (1.5-4.5 mg/cm2) on electrochemical ac­tivity, as depicted in Fig. 4b. With catalyst content rising from 1.5 to 2.5 mg/cm2, the peak current density increased from 7 to 19 mA/cm2, but it slightly decreased with higher Sb–SnO2 contents. This decrease may be attributed to increased heterogeneity, such as reduced crystallinity of the Sb–SnO2 catalysts and the influence of charge recombination from Sb5+ to Sb3+ [53]. To estimate the electrically active surface area, we determined the anodic charges by integrating the cyclic voltammograms [55], as illustrated in Fig. 4c and d.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the electrically active surface area, we determined the anodic charges by integrating the cyclic voltammograms [55], as illustrated in Fig. 4c and d. As anticipated, increased Sb doping percentages resulted in progressively greater surface charges, reaching a peak value at a total catalyst loading of 2.5 mg/cm2. The electrocatalytic nanowire membrane loaded with 2.5 mg Sb–SnO2 per cm2 and featuring 20 mol% Sb incorporation exhibits the highest catalytic activity. This topic will be explored in greater detail in the following section.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.4. Physicochemical characteristics of the electrocatalytic nanowire membrane Fig. 5 provides insights into the physicochemical properties of the Sb–SnO2-loaded TiO2 nanowire membrane. In Fig. 5a, the FESEM image reveals a uniform distribution of catalyst particles across the nanowire membrane, preserving the wire-like surface morphology observed in the TiO2 nanowire membrane (Fig. 2a). Moreover, transforming the pristine Ti mesh to the nanowire membrane shows a progressive morphological evolution that loses the metallic framework and forms a conformal nanowire architecture, confirming structural integration and stepwise fabrication underlying catalytic enhancement (Figs. 2 and 5). FESEM-EDX elemental microanalysis confirms the even presence of O, Sb, and Sn elements on the Ti backbone, as depicted in Fig. 5a. The FESEM-EDX spectrum further validates the initial molar ratio (~20:80) between Sb and Sn in the mixed metal oxide catalyst layer (Sb–SnO2) added during fabrication (Fig. S7). Fig. 5b displays the XRD profile of the Sb–SnO2/TiO2 nanowire membrane, including distinct SnO2 and anatase TiO2 crystal phases. Notably, the characteristic diffraction peaks at 31.69◦and 45.53◦align with cubic phase SnO2 reflections (Pa-3 structure) (JCPDF no. 033–1374) [56]. The presence of SnO2 peaks alongside anatase TiO2 XRD peaks confirms the existence of the catalyst coating layer on the TiO2 nanowires.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "33–1374) [56]. The presence of SnO2 peaks alongside anatase TiO2 XRD peaks confirms the existence of the catalyst coating layer on the TiO2 nanowires. Interestingly, the antimony oxide (Sb2O5) phase is notably absent, potentially due to Sb’s incorporation into the SnO2 lattice, as reported elsewhere [57]. Fig. 5c illustrates the XPS spectra of the Sb–SnO2/TiO2 nanowire membrane, showcasing prominent elemental peaks (Ti2p, Sn3d, and Sb3d). In the Ti2p spec­trum, two characteristic peaks at 458.5 eV and 464.2 eV, with a 5.7 eV",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. Electrochemical properties of nanowire membranes with various Sb doping and Sb–SnO2 loadings. Voltammograms (a) at different molar contents of Sb doping (5–20 %) with the constant total catalyst loading (2.5 mg/cm2 of Sb–SnO2) and (b) at various catalyst (Sb–SnO2) loadings with the constant 20 mol% Sb dopant. (c and d) Respective anodic surface charges in a and b. N. Mameda et al. Journal of Membrane Science 734 (2025) 124422 difference and a satellite peak, correspond to TiO2 [58]. The Sn3d doublets reveal a spin-orbit splitting of 8.4 eV (494.9 eV and 484.5 eV), consistent with Sn4+ ions bound to oxygen in SnO2 [37,58]. The peaks of Sb3d5/2 and O1s are separated, and Sb3d exhibits doublets with a peak intensity ratio of 1.45 and a splitting energy of 9.5 eV, attributed to antimony species (Sb5+), as reported previously [58,59]. In Fig. 5d, Nyquist impedance plots of the TiO2 nanowire membrane with and without the Sb–SnO2 catalyst layer are presented. Data fitting using the ZSimpWin software yielded the equivalent circuit (inset of Fig. 5d), with the circuit parameters listed in Table 1. The Sb–SnO2/TiO2 nanowire membrane exhibits an equivalent solution resistance (R1) of 141.5 Ω-cm2 and a charge transfer resistance (R3) of 54.4 Ω-cm2, significantly lower than those of the TiO2 nanowire membrane (469.8 and 252.1 Ω-cm2). This suggests that the semiconductive TiO2 nanowire membrane transformed into a conductive nanowire membrane upon Sb–SnO2 catalyst loading.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ".1 Ω-cm2). This suggests that the semiconductive TiO2 nanowire membrane transformed into a conductive nanowire membrane upon Sb–SnO2 catalyst loading. The active layer substantially reduced electrical resistance while enhancing charge transfer rates. Fig. 5e re­veals that the pore diameter (~0.28 μm) and porosity (~65 %) of the SnO2/TiO2 nanowire membrane remain nearly unchanged in compari­son to the TiO2 nanowire membrane (Fig. 2a4 and Fig. 5a), confirming the structural integrity of the membrane. In summary, the electro­catalytic nanowire membrane boasts multifunctionality with potential applications in water and wastewater treatment, including the degra­dation of organic pollutants, the separation of particulate contaminants, and bacterial disinfection. Further exploration of these applications will be discussed in the following section.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. Physicochemical properties of the Sb–SnO2/TiO2 nanowire membrane. (a) SEM images and their EDX mapping show the elemental distribution (Ti, O, Sb, Sn). (b) XRD profile. (c) Core-level XPS spectra of Ti2p, Sn3d, and Sb3d regions. (d) Electrochemical impedance spectra of the Nyquist plot recorded at 0.5 V vs. SCE. (e) Pore analysis. N. Mameda et al. Journal of Membrane Science 734 (2025) 124422 wastewater effluents, with emphasis on contaminant removal efficiency and overall treatment performance under both batch and continuous operation modes (Fig. S8 and Fig. 6). In batch experiments (Fig. S8), the membrane demonstrated substantial turbidity removal (~90 %), regardless of the application of electricity. This high removal efficiency is primarily attributed to the physical sieving effect, as the majority of particles in the secondary effluent (~1 μm) were larger than the mem­brane’s pore size (~0.28 μm), resulting in effective size-based rejection (Fig. S9). COD was significantly reduced (~53 %) within 1 h when electricity was applied, in contrast to negligible removal in the absence of electrical input. This enhancement in COD reduction indicates the electrochemical oxidation of organic matter in the effluent, likely facilitated by reactive chlorine or oxygen species (RCS or ROS) gener­ated during operation [45]. The membrane also exhibited excellent disinfection performance, achieving >3 log reduction of bacterial cells under the applied conditions.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tion [45]. The membrane also exhibited excellent disinfection performance, achieving >3 log reduction of bacterial cells under the applied conditions. This antibacterial effect can be attributed to two main mechanisms: (i) direct electron transfer from bacteria to the membrane surface, inducing oxidative stress and subsequent cell inac­tivation [22], and (ii) indirect oxidation via electrogenerated RCS or ROS. These oxidants are known to disrupt essential cellular components, including proteins and lipids, thereby impairing cell functionality and leading to inactivation [60,61]. Furthermore, the application of a low electric current (1 mA/cm2) resulted in a lower TMP level compared to operation without electricity, indicating reduced membrane fouling (Fig. S8d). This improvement is possibly due to the degradation of organic foulants and suppression of biofouling by the electrogenerated oxidants, which inhibit both organic deposition and bacterial growth, common challenges in secondary effluent treatment. To evaluate the long-term performance of the electrocatalytic membrane, continuous operation was conducted in parallel with and without applied electricity. Fig. 6 presents the removal efficiencies for turbidity, COD, and bacteria, along with the variation in TMP throughout the continuous run. As expected, high turbidity removal (~90 %) was achieved (Fig. 6a), with slight enhancement under an applied current of 1 mA/cm2, consistent with the batch test results (see Fig. S8a).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "l (~90 %) was achieved (Fig. 6a), with slight enhancement under an applied current of 1 mA/cm2, consistent with the batch test results (see Fig. S8a). The electrocatalytic nanowire membrane also demonstrated notable COD removal (~60 %) under electrical input (Fig. 6b), high­lighting its multifunctionality by integrating size-exclusion filtration with electrochemical oxidation. In contrast, filtration alone (without applied electricity) removed only ~10 % of COD, indicating that the enhanced removal was primarily due to the oxidative degradation of organics by reactive species generated at the membrane surface. The limited COD reduction suggests that a portion of the organic matter remained resistant to electrochemical oxidation, as previously reported [62]. Similarly, the membrane under electrical conditions exhibited excellent disinfection performance, achieving complete bacterial inactivation in the permeate and significant inactivation within the reactor (Fig. 6c). In comparison, substantial bacterial counts were observed in both the permeate and reactor in the absence of electricity. This enhanced disinfection is attributed to the synergistic effects of oxidation reactions and the localized acidic environment near the membrane surface, as described in a prior study [63]. Moreover, lower TMP values were recorded under electrical opera­tion, particularly in the later stages of the continuous run (Fig. 6d).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "or study [63]. Moreover, lower TMP values were recorded under electrical opera­tion, particularly in the later stages of the continuous run (Fig. 6d). The cake layer resistance (Rc) at the end of the operation was 3.06 * 109 m-1 without electricity but significantly reduced to 1.44 * 109 m-1 when electricity was applied. This indicates effective fouling mitigation by electrocatalytic activity, likely due to a combination of oxidative cleaning and antibiofouling. Further mechanistic insights are discussed in the following section. FESEM images reveal the morphological features of the membrane surface after continuous operation with and without applied electricity (Fig. 6e and f). Interestingly, substantial bacterial accumulation was observed on the membrane surface under electrochemical conditions (1 mA/cm2), whereas significantly lower bacterial attachment occurred in the absence of electricity. This contrast is likely due to electrostatic attraction between the positively charged membrane surface and the negatively charged bacterial cells [64]. Despite the higher accumula­tion, the generation of reactive species, such as ROS and RCS, along with the localized acidic environment at the membrane surface, likely contributed to the complete inactivation of the attached bacteria under electrical operation. These effects suppressed biofouling but still led to a gradual increase in TMP during the later stages of operation.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "teria under electrical operation. These effects suppressed biofouling but still led to a gradual increase in TMP during the later stages of operation. Therefore, further research aimed at preventing electrostatic bacterial attachment would be valuable for minimizing membrane fouling. 3.6. Mechanistic insights into organic degradation via oxidant scavenging and quantification The role of different reactive species in the degradation of dissolved organic matter was investigated by introducing specific scavengers targeting RCS (Cl, ClO, Cl2-), hydroxyl radicals (OH), hydrogen peroxide (H2O2), and ozone (O3). The effects of these scavengers on the fluorescence characteristics of the secondary effluent are shown in Fig. 7. The experiments were conducted using the Sb–SnO2/TiO2 nanowire membrane anode paired with a stainless-steel cathode. The two PARAFAC-derived fluorescent components exhibited distinct re­sponses to the presence of oxidant scavengers (Fig. 7a and b), high­lighting the complex interplay of reactive species during electrochemical treatment. Component 1 corresponds to humic-like or­ganics with excitation maxima at 235 nm and 300 nm and an emission maximum at 400 nm [65]. Component 2, showing excitation at ~280 nm and 365 nm and an emission maximum at 340 nm, indicates protein-like organics [66].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "maximum at 400 nm [65]. Component 2, showing excitation at ~280 nm and 365 nm and an emission maximum at 340 nm, indicates protein-like organics [66]. In the absence of scavengers, humic-like substances (Component 1) were significantly degraded, while protein-like substances (Component 2) showed minimal reduction, suggesting that humic-like organics were the primary degradation tar­gets. The addition of ammonium acetate (an RCS scavenger) notably suppressed the degradation of Component 1, indicating that RCS (e.g., Cl, ClO, Cl2-) play a critical role in humic-like substance oxidation. Interestingly, t-butyl alcohol (a OH scavenger) caused a greater reduction in humic-like matter degradation than ammonium acetate, suggesting that hydroxyl radicals are more influential than RCS in this context. The use of sodium sulfite, which scavenges both RCS and H2O2, further decreased degradation efficiency, underscoring the importance of both oxidants in the degradation process. However, sodium thiosul­fate (Na2S2O3), which quenches RCS, H2O2, and O3, had an effect comparable to sodium sulfite, implying that ozone plays a relatively minor role in this system. The data collectively suggest that organic degradation results from a synergistic contribution of electrochemically generated RCS and ROS (OH, H2O2), with limited involvement of O3. Notably, H2O2 also contributes to OH production via both anodic and",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 1 The parametric values obtained by fitting Nyquist plots of produced electrodes with the electric circuit model shown in Fig. 5d are summarized below. The electric circuit model could be fitted to an R1(R2C1) (R3C2)W-type equivalent circuit model with diffusion, in which R1 represents the solution resistance, C1 and R2 account for ionic migration phenomena within the membrane pores, and C2 and R3 describe the charge transfer process at the interface. W represents the Warburg diffusion elements inside the membrane. Yw is the corresponding Warburg constant. ParameterTiO2 nanowire membrane\n\nSb–SnO2/TiO2 nanowire membrane",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "R1 (Ω⋅cm2)469.8141.5Yw (mS⋅s-0.5 cm-2) 2.61 * 10-41.11 * 10-3 C1 (mF⋅cm -2)3.04 * 10-81.19 * 10-6 R2 (Ω⋅cm2)38893290C2 (mF⋅cm -2)1.12 * 10-44.47 * 10-4 R3 (Ω⋅cm2)252.154.4χ21.98 * 10-35.65 * 10-4 N. Mameda et al. Journal of Membrane Science 734 (2025) 124422 cathodic pathways [67]. Meanwhile, the presence of scavengers increased the fluorescence intensity of protein-like substances (Component 2). This observation suggests that partial degradation of humic-like matter may produce protein-like fluorophores, consistent with previous studies on photooxidation pathways [68]. These findings provide valuable mechanistic insight into the redox chemistry under­pinning electrochemical wastewater treatment and clarify the individual and synergistic roles of RCS and ROS in organic matter degradation. To further clarify the role of reactive species in the degradation of dissolved organic matter, quantitative analysis of electrogenerated oxi­dants was conducted alongside oxidant scavenging experiments (Fig. 7c). Assuming a stoichiometric 1:1 M ratio between hydroxyl radical (OH) formation and RNO degradation, the decrease in RNO concentration was used as an indirect indicator of OH production. A continuous reduction in RNO concentration was observed during elec­trocatalysis, reaching approximately 60 %, which corresponds to an estimated OH generation rate of 2.19 * 10-3 mol min-1⋅m-2.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "was observed during elec­trocatalysis, reaching approximately 60 %, which corresponds to an estimated OH generation rate of 2.19 * 10-3 mol min-1⋅m-2. The substantial presence of OH, highly reactive oxidants, underscores their critical role in COD reduction and microbial inactivation, establishing OH-mediated oxidation as a central mechanism in electrocatalytic wastewater treatment. In parallel, hydrogen peroxide (H2O2) concen­trations steadily increased and plateaued at around 5 mg/L after 30 min of electrocatalysis, suggesting its continuous formation via electro­chemical pathways [45]. RCS also gradually accumulated, ultimately reaching approximately 3.5 mg/L. Although RCS concentrations were slightly lower than those of H2O2, this difference is likely due to the",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. Performance of Sb–SnO2/TiO2 nanowire membranes in continuous-flow reactors treating secondary wastewater effluent, with and without applied elec­tricity. (a) Turbidity removal, (b) COD removal, (c) bacterial inactivation, and (d) TMP profiles. (e–f) SEM images of membrane surfaces after continuous operation: (e) with applied electricity and (f) without electricity. In panel (c), R denotes samples collected from the reactor, and P denotes samples from the membrane permeate. Error bars represent the standard deviation from duplicate measurements. N. Mameda et al. Journal of Membrane Science 734 (2025) 124422 relatively low chloride content in the feed solution (7.72 mg/L). In summary, the electrocatalytic nanowire membrane developed in this study exhibits multifaceted capabilities, including effective contaminant separation, organic degradation, microbial inactivation, and antifouling. These attributes underscore its strong potential for advanced water purification and sanitation applications. Further in­vestigations into optimizing the electrochemical activity of the nanowire membrane, particularly by incorporating tailored catalysts to enhance electrosorption and electrooxidation, would be a promising direction for future work. 4. Conclusions This study demonstrated the successful development of a selfassembled nanowire membrane functionalized with reactive mixed metal oxide catalyst layers, offering a promising approach for multi­functional water treatment.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nanowire membrane functionalized with reactive mixed metal oxide catalyst layers, offering a promising approach for multi­functional water treatment. We draw the following conclusions. 1) Transforming a Ti mesh into a TiO2 nanowire membrane via an alkaline hydrothermal process was investigated under various reac­tion conditions, effectively tuned to control the resulting pore size within the range of 0.2–1 μm. The membrane evolution pathway was elucidated by identifying key intermediate phases, including NaTi3O6(OH)⋅2H2O, H2Ti3O7, and ultimately, anatase TiO2.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2) To impart electrocatalytic functionality, the nanowire membrane was further modified with a uniform layer of Sb–SnO2 via dropcasting and annealing. This resulted in a high anodic charge den­sity (~140 mC/cm2 at 2.5 mg/cm2 catalyst loading), alongside favorable membrane properties including an average pore size of 0.28 μm, porosity of 65.3 %, and a charge transfer resistance of 53.24 Ω cm2. These physicochemical characteristics contributed to the membrane’s excellent performance in real wastewater treatment, achieving substantial removal of turbidity (~90 %), organic matter (>50 % COD reduction), and bacteria (>3 log reduction).3) The multifunctional performance was attributed to a synergistic ef­ fect between size-selective filtration and electrocatalytic oxidation. At the same time, electrochemical activity also played a role in mitigating organic fouling and biofouling. Scavenger-based mecha­nistic and quantification studies highlighted the dominant roles of reactive chlorine species and hydroxyl radicals in the oxidative degradation of organic matter, with additional contributions from hydrogen peroxide.4) Overall, this work presents a new class of electrocatalytic nanowire membranes that integrate separation and redox functions within a single architecture. The demonstrated performance and tunability underscore the membrane’s substantial potential for advanced water purification and sanitation applications.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. Quantification of fluorophores and reactive species. (a) Fluorescent components 1 and 2 identified by parallel factor analysis. (b) Effects of oxidant scavenger addition on fluorescence removal. (c) Time-dependent concentrations of RCS, H2O2, and RNO (C/C0) during electrochemical reactions. Error bars represent the standard deviation from duplicate experiments. N. Mameda et al. Journal of Membrane Science 734 (2025) 124422",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[13] Y. Qi, D. Li, S. Zhang, F. Li, T. Hua, Electrochemical filtration for drinking water purification: a review on membrane materials, mechanisms and roles, J. Environ. Sci. 141 (2024) 102–128, https://doi.org/10.1016/j.jes.2023.06.033.[14] J. Li, D. Li, C. Liu, W. Shi, J. Yu, M. Chen, J. Ma, A review of the flow-through electro-catalytic water treatment process, Separ. Purif. Technol. 365 (2025) 132545, https://doi.org/10.1016/j.seppur.2025.132545.[15] J.O. Eniola, J. Kujawa, A. Nwokoye, S. Al-Gharabli, A.K. Avornyo, A. Giwa, H. K. Amusa, A.O. Yusuf, J.A. Okolie, Advances in electrochemical membranes for water treatment: a comprehensive review, Desalination Water Treat. 319 (2024) 100450, https://doi.org/10.1016/j.dwt.2024.100450.[16] P. Gogoi, P. Bora, S. Hazarika, Electroconductive membrane for water treatment: a new paradigm for accessing clean water, Desalination 601 (2025) 118567, https:// doi.org/10.1016/j.desal.2025.118567.[17] M. Du, T.J. Malefetse, B. Mamba, J. Li, Recent advances in electrochemical membrane reactor based on cathodic carbon membrane for wastewater treatment: design, materials, application and mechanism, Separ. Purif. Technol. 360 (2025) 131133, https://doi.org/10.1016/j.seppur.2024.131133.[18] A. Ronen, S.L. Walker, D. Jassby, Electroconductive and electroresponsive membranes for water treatment, Rev. Chem. Eng. 32 (5) (2016) 533–550.[19] K. Wang, L. Xu, K. Li, L. Liu, Y. Zhang, J.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "conductive and electroresponsive membranes for water treatment, Rev. Chem. Eng. 32 (5) (2016) 533–550.[19] K. Wang, L. Xu, K. Li, L. Liu, Y. Zhang, J. Wang, Development of polyaniline conductive membrane for electrically enhanced membrane fouling mitigation, J. Membr. Sci. 570–571 (2019) 371–379, https://doi.org/10.1016/j. memsci.2018.10.050.[20] J. Huang, Z. Wang, J. Zhang, X. Zhang, J. Ma, Z. Wu, A novel composite conductive microfiltration membrane and its anti-fouling performance with an external electric field in membrane bioreactors, Sci. Rep. 5 (1) (2015) 9268, https://doi. org/10.1038/srep09268.[21] A.M. Zaky, B.P. Chaplin, Mechanism of p-substituted phenol oxidation at a Ti4O7 reactive electrochemical membrane, Environ. Sci. Technol. 48 [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (2014) 5857–5867, https://doi.org/10.1021/es5010472.[22] H. Liu, X.-Y. Ni, Z.-Y. Huo, L. Peng, G.-Q. Li, C. Wang, Y.-H. Wu, H.-Y. Hu, Carbon fiber-based flow-through electrode system (FES) for water disinfection via direct oxidation mechanism with a sequential reduction–oxidation process, Environ. Sci. Technol. 53 (6) (2019) 3238–3249.[23] X. Wang, M. Sun, Y. Zhao, C. Wang, W. Ma, M.S. Wong, M. Elimelech, In situ electrochemical generation of reactive chlorine species for efficient ultrafiltration membrane self-cleaning, Environ. Sci. Technol.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "limelech, In situ electrochemical generation of reactive chlorine species for efficient ultrafiltration membrane self-cleaning, Environ. Sci. Technol. 54 [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] (2020) 6997–7007.[24] W. Duan, A. Dudchenko, E. Mende, C. Flyer, X. Zhu, D. Jassby, Electrochemical mineral scale prevention and removal on electrically conducting carbon nanotube–polyamide reverse osmosis membranes, Environ. Sci. Process. Impacts 16 (6) (2014) 1300–1308.[25] J.J. Patil, A. Jana, B.A. Getachew, D.S. Bergsman, Z. Gariepy, B.D. Smith, Z. Lu, J. C. Grossman, Conductive carbonaceous membranes: recent progress and future opportunities, J. Mater. Chem. A 9 (6) (2021) 3270–3289, https://doi.org/ 10.1039/D0TA08928A.[26] Z. Pan, C. Song, L. Li, H. Wang, Y. Pan, C. Wang, J. Li, T. Wang, X. Feng, Membrane technology coupled with electrochemical advanced oxidation processes for organic wastewater treatment: recent advances and future prospects, Chem. Eng. J. 376 (2019) 120909.[27] G. Qi, X. Wang, J. Zhao, C. Song, Y. Zhang, F. Ren, N. Zhang, Fabrication and characterization of the porous Ti4O7 reactive electrochemical membrane, Front. Chem. 9 (2022) 833024.[28] F. Ahmed, B.S. Lalia, V. Kochkodan, N. Hilal, R.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "acterization of the porous Ti4O7 reactive electrochemical membrane, Front. Chem. 9 (2022) 833024.[28] F. Ahmed, B.S. Lalia, V. Kochkodan, N. Hilal, R. Hashaikeh, Electrically conductive polymeric membranes for fouling prevention and detection: a review, Desalination 391 (2016) 1–15, https://doi.org/10.1016/j.desal.2016.01.030.[29] L. Guo, Y. Jing, B.P. Chaplin, Development and characterization of ultrafiltration TiO2 magn´eli phase reactive electrochemical membranes, Environ. Sci. Technol. 50 (3) (2016) 1428–1436, https://doi.org/10.1021/acs.est.5b04366.[30] S. Liang, H. Lin, X. Yan, Q. Huang, Electro-oxidation of tetracycline by a magn´eli phase Ti4O7 porous anode: kinetics, products, and toxicity, Chem. Eng. J. 332 (2018) 628–636, https://doi.org/10.1016/j.cej.2017.09.109.[31] C. Trellu, B.P. Chaplin, C. Coetsier, R. Esmilaire, S. Cerneaux, C. Causserand, M. Cretin, Electro-oxidation of organic pollutants by reactive electrochemical membranes, Chemosphere 208 (2018) 159–175, https://doi.org/10.1016/j. chemosphere.2018.05.026.[32] L. Ren, J. Ma, M. Chen, Y. Qiao, R. Dai, X. Li, Z. Wang, Recent advances in electrocatalytic membrane for the removal of micropollutants from water and wastewater, iScience 25 (5) (2022).[33] X. Zhang, T. Zhang, J. Ng, D.D. Sun, High-performance multifunctional TiO2 nanowire ultrafiltration membrane with a hierarchical layer structure for water treatment, Adv. Funct. Mater. 19 (23) (2009) 3731–3736, https://doi.org/ 10.1002/adfm.200901435.[34] X.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "with a hierarchical layer structure for water treatment, Adv. Funct. Mater. 19 (23) (2009) 3731–3736, https://doi.org/ 10.1002/adfm.200901435.[34] X. Zhang, A.J. Du, P. Lee, D.D. Sun, J.O. Leckie, TiO2 nanowire membrane for concurrent filtration and photocatalytic oxidation of humic acid in water, J. Membr. Sci. 313 (1–2) (2008) 44–51.[35] A. Hu, X. Zhang, K.D. Oakes, P. Peng, Y.N. Zhou, M.R. Servos, Hydrothermal growth of free standing TiO2 nanowire membranes for photocatalytic degradation of pharmaceuticals, J. Hazard. Mater. 189 (1–2) (2011) 278–285.[36] A.N.S. Rao, V.T. Venkatarangaiah, Metal oxide-coated anodes in wastewater treatment, Environ. Sci. Pollut. Control Ser. 21 (5) (2014) 3197–3217.[37] N. Mameda, H. Park, S.S.A. Shah, K. Lee, C.-W. Li, V. Naddeo, K.-H. Choo, Highly robust and efficient Ti-based Sb-SnO2 anode with a mixed carbon and nitrogen interlayer for electrochemical 1,4-dioxane removal from water, Chem. Eng. J. 393 (2020) 124794, https://doi.org/10.1016/j.cej.2020.124794.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[38] L. Guo, X. Li, G. Chen, Techniques of electrode fabrication, in: C. Comninellis, G. Chen (Eds.), Electrochemistry for the Environment, Springer New York, New York, NY, 2010, pp. 55–98, https://doi.org/10.1007/978-0-387-68318-8_3.[39] D. Zagklis, F.K. Katrivesis, V. Sygouni, L. Tsarouchi, K. Tsigkou, M. Kornaros, C. A. Paraskeva, Recovery of water from secondary effluent through pilot scale ultrafiltration membranes: implementation at patras’ wastewater treatment plant, Membranes 11 (9) (2021) 663.[40] N. Ghaffour, A. Qamar, Membrane fouling quantification by specific cake resistance and flux enhancement using helical cleaners, Separ. Purif. Technol. 239 (2020) 116587.[41] H. Park, N. Mameda, K.-H. Choo, Catalytic metal oxide nanopowder composite Ti mesh for electrochemical oxidation of 1, 4-dioxane and dyes, Chem. Eng. J. 345 (2018) 233–241.[42] N. Mameda, H.-J. Park, K.-H. Choo, Membrane electro-oxidizer: a new hybrid membrane system with electrochemical oxidation for enhanced organics and fouling control, Water Res. 126 (2017) 40–49, https://doi.org/10.1016/j. watres.2017.09.009. Supplement C.[43] H. Fang, G. Li, S. Yao, X. Liang, T. An, Kinetic and mechanism studies of musk tonalide reacted with hydroxyl radical and the risk assessment of degradation products, Catal. Today 281 (2017) 642–648.[44] I. Kristiana, A. Lethorn, C. Joll, A. Heitz, The use of quenching agents for the analysis of disinfection by-products in water samples, Water Res. 59 (2014) 90–98.[45] N.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "horn, C. Joll, A. Heitz, The use of quenching agents for the analysis of disinfection by-products in water samples, Water Res. 59 (2014) 90–98.[45] N. Mameda, H. Park, K.-H. Choo, Hybrid electrochemical microfiltration treatment of reverse osmosis concentrate: a mechanistic study on the effects of electrode materials, Desalination 493 (2020) 114617, https://doi.org/10.1016/j. desal.2020.114617.[46] APHA, Standard Methods for the Examination of Water and Wastewater, American Public Health Association, American Water Works Association, and Water Environment Federation, 1998. Washington, DC.[47] S.S.A. Shah, K. Lee, H. Park, K.-H. Choo, Live membrane filters with immobilized quorum quenching bacterial strains for anti-biofouling, J. Membr. Sci. 641 (2022) 119895.[48] K.R. Murphy, C.A. Stedmon, D. Graeber, R. Bro, Fluorescence spectroscopy and multi-way techniques. PARAFAC, Anal. Methods 5 (23) (2013) 6557–6566.[49] C.A. Stedmon, R. Bro, Characterizing dissolved organic matter fluorescence with parallel factor analysis: a tutorial, Limnol Oceanogr. Methods 6 [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] (2008) 572–579.[50] J. Xu, C. Ma, M. Balasubramanian, Y.S. Meng, Understanding Na2Ti3O7 as an ultralow voltage anode material for a Na-ion battery, Chem. Commun. 50 (83) (2014) 12564–12567.[51] M. Shirpour, J. Cabana, M.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "standing Na2Ti3O7 as an ultralow voltage anode material for a Na-ion battery, Chem. Commun. 50 (83) (2014) 12564–12567.[51] M. Shirpour, J. Cabana, M. Doeff, New materials based on a layered sodium titanate for dual electrochemical Na and Li intercalation systems, Energy Environ. Sci. 6 (8) (2013) 2538–2547.[52] A.R. Armstrong, G. Armstrong, J. Canales, P.G. Bruce, TiO2-B nanowires, Angew. Chem. Int. Ed. 43 (17) (2004) 2286–2288.[53] I. Mulla, H. Soni, V. Rao, A. Sinha, Deposition of improved optically selective conductive tin oxide films by spray pyrolysis, J. Mater. Sci. 21 (4) (1986) 1280–1288.[54] G. Kim, C. Sung, Y. Seo, K. Park, S. Heo, S. Lee, B. Koo, Effect of dopants (Trivalent, Penta-valent) on the electrical and optical properties of SnO2 based transparent electrodes, J. Ceram. Process. Res. 13 (spc2) (2012) 394–397.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[55] N. Mameda, H. Park, K.-H. Choo, Electrochemical filtration process for simultaneous removal of refractory organic and particulate contaminants from wastewater effluents, Water Res. 144 (2018) 699–708, https://doi.org/10.1016/j. watres.2018.08.003.[56] R. Liu, A. Ren, Z. Yang, S. Tian, Y. Tong, C. Xia, F. Wang, Growth and properties of fluorine-doped tin oxide films deposited by ultrasonic spray pyrolysis, J. Plast. Film Sheeting 36 (1) (2020) 76–93.[57] F. Montilla, E. Morall´on, A. De Battisti, J.L. V´azquez, Preparation and characterization of antimony-doped tin dioxide electrodes. Part 1. Electrochemical characterization, J. Phys. Chem. B 108 (16) (2004) 5036–5043, https://doi.org/ 10.1021/jp037480b.[58] J. Moulder, W. Stickle, W. Sobol, K.D. Bomben, Handbook of X-Ray Photoelectron Spectroscopy, 1992.[59] C. Shao, F. Zhang, X. Li, J. Zhang, Y. Jiang, H. Cheng, K. Zhu, Influence of Cr doping on the oxygen evolution potential of SnO2/Ti and Sb-SnO2/Ti electrodes, J. Electroanal. Chem. 832 (2019) 436–443.[60] Q. Lei, J. Zheng, J. Ma, X. Wang, Z. Wu, Z. Wang, Simultaneous solid-liquid separation and wastewater disinfection using an electrochemical dynamic membrane filtration system, Environ. Res. 180 (2020) 108861, https://doi.org/ 10.1016/j.envres.2019.108861.[61] S.Y. Kim, C. Park, H.-J. Jang, B.-o. Kim, H.-W. Bae, I.-Y. Chung, E.S. Kim, Y.- H. Cho, Antibacterial strategies inspired by the oxidative stress and response networks, J. Microbiol.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ".-o. Kim, H.-W. Bae, I.-Y. Chung, E.S. Kim, Y.- H. Cho, Antibacterial strategies inspired by the oxidative stress and response networks, J. Microbiol. 57 (3) (2019) 203–212, https://doi.org/10.1007/s12275019-8711-9.[62] H. Park, K.-H. Choo, H.-S. Park, J. Choi, M.R. Hoffmann, Electrochemical oxidation and microfiltration of municipal wastewater with simultaneous hydrogen production: influence of organic and particulate matter, Chem. Eng. J. (2013) 802–810, https://doi.org/10.1016/j.cej.2012.11.075, 215-216.[63] C. Yang, L. Wen, Y. Li, X.-y. Li, Fabrication of SnO2-Sb reactive membrane electrodes for high-efficiency electrochemical inactivation of bacteria and viruses in water, Chem. Eng. J. 446 (2022) 137327.[64] J.J. Patil, A. Jana, B.A. Getachew, D.S. Bergsman, Z. Gariepy, B.D. Smith, Z. Lu, J. C. Grossman, Conductive carbonaceous membranes: recent progress and future opportunities, J. Mater. Chem. A (2021).[65] Z. Jian, J. Xu, J. Liu, Y. Wang, C. Fang, Q. Hu, Y. Xia, Fluorescence characteristics of dissolved organic matter in relation to land use in the wetland waters of Poyang Lake, China, Inland Waters (just-accepted) (2025) 1–43.[66] H. Ba-Haddou, O. Taoussi, S.A. Lyazidi, M. Coquery, M. Masson, M. Haddad, A. El Bakkali, C. Margoum, Identifying sources and distribution of organic pollutants in a Moroccan river: characterization of dissolved organic matter by absorption, excitation–emission fluorescence and chemometric analyses, J. Hazard Mater. 480 (2024) 135899.[67] N.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ation of dissolved organic matter by absorption, excitation–emission fluorescence and chemometric analyses, J. Hazard Mater. 480 (2024) 135899.[67] N. Wang, S. Ma, P. Zuo, J. Duan, B. Hou, Recent progress of electrochemical production of hydrogen peroxide by two-electron oxygen reduction reaction, Adv. Sci. 8 [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] (2021) 2100076.[68] X.-y. Wang, Q.-p. Yang, S.-j. Tian, F.-h. Song, F. Guo, N.-n. Huang, W.-q. Tan, Y.- c. Bai, Photochemical reactivity of humic substances in an aquatic system revealed by excitation-emission matrix fluorescence, Front. Chem. 9 (2021) 679286.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007355-main",
+      "title": "Self-assembled electrocatalytic TiO2 nanowire membrane for multifunctional water purification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  }
+]

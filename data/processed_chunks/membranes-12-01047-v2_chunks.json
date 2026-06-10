@@ -1,0 +1,274 @@
+[
+  {
+    "content": "1. Introduction In works [1–7], it is shown that the use of overlimiting currents in electrodialyzers is effective. At overlimiting currents, the structure of the region of the space charge region becomes more complicated. The structure of the diffusion layer in the stationary case was first studied in [8] and later in the works of many authors [9–12]. Non-stationary problems were studied in [13–16]. In all these works, the numerical solution was obtained at initial concentrations much lower than in real electrodialyzers. This is due to the fact that the boundary value problems of mathematical models are “hard” problems, and the “hardness” increases with increasing initial electrolyte concentration. The reason is the appearance of a small parameter at the derivative in the Poisson equation, when passing to a dimensionless form using characteristic parameters, i.e., boundary value problems become singularly perturbed, which means the appearance of narrow boundary layers, where the desired functions of concentrations, electric field strength, etc., change exponentially. Moreover, the greater the initial concentration, the smaller the small parameter, and the more “rigid” the boundary value problem becomes and the more difficult it is to solve it numerically. Therefore, the main numerical results were obtained at initial concentrations of the order of 0.01 mol/m3, while the real initial concentration is of the order of 10 mol/m3 and more.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Chubyr N.",
+        "Uzdenova A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01047-v2",
+      "title": "Theoretical Investigation of the Phenomenon of Space Charge Breakdown in Electromembrane Systems",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This paper proposes a new numerical–analytical method for solving boundary value problems for the system of Nernst–Planck and Poisson equations, which is a generalization of both works [17,18] and models [10,19–22]. This new method made it possible to study the non-stationary phenomenon of space charge breakdown in the desalination channel cross section at real initial concentrations used in electrodialysis desalination apparatuses and to establish under these conditions the main patterns of interaction of charge waves, up to their destruction (breakdown) in potentiostatic and potentiodynamic modes. In [22], we applied the considered method to study breakdown at high concentrations in the galvanostatic mode. The essence of the work lies in the theoretical study of a new phenomenon—the breakdown of a space charge. It is for this reason that all equations and boundary conditions, as well as mathematical transformations, are displayed in the appendix.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Chubyr N.",
+        "Uzdenova A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01047-v2",
+      "title": "Theoretical Investigation of the Phenomenon of Space Charge Breakdown in Electromembrane Systems",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Formation and Properties of a Quasi-Equilibrium Layer (QEL) In [14], the process of the appearance of a space charge region in the potentiodynamic mode in the diffusion layer near the cation-exchange membrane (CEM) was considered, assuming that the potential jump increases linearly with time, starting from zero. As can be seen from Figure 1a, most of the diffusion layer is occupied by the region of electrical neutrality (REN)—I(t, x), at which C1 = C2 or ε = 0. In the region I(t,x), the electromigration and diffusion fluxes are exactly equal, therefore the concentrations of ions of opposite signs at each point at any time are equal, and therefore the conditions of local electroneutrality are observed. It follows from Figure 1 that the formation of a quasi-equilibrium region of the space charge (III(t,ξ)) adjacent to the ion-exchange membrane begins at the initial moment of time, its thickness increases nonlinearly with time and at some point practically stops changing. The transfer of salt ions in this region is practically independent of time and, accordingly, of the potential jump and, consequently, of the current. Therefore, this region of space charge (III(t,ξ)) is called a quasi-equilibrium region or layer (QEL) [23].",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Chubyr N.",
+        "Uzdenova A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01047-v2",
+      "title": "Theoretical Investigation of the Phenomenon of Space Charge Breakdown in Electromembrane Systems",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The reason for the formation of QEL is that, at short times, the migration flow near the membrane in the (III(t,ξ)) region is not much greater than the diffusion flow, and the flows themselves are directed oppositely, as a result of which counterions accumulate near the membrane. As time increases, the predominance of the electromigration flow over the diffusion one increases. This leads to the fact that with a further increase in time, at some t_lim, i.e., when the potential jump becomes large enough and the current corresponding to it becomes greater than the limiting diffusion current, then counterions begin to accumulate at the boundary between the electroneutrality region and the QEL, since diffusion does not have time to blur their accumulation (because the diffusion flux is less than the electromigration flux). Thus, an extended region of space charge (II(t,x)) appears. The thickness of the QEL is practically independent of time, i.e., the quasi-equilibrium layer is simultaneously quasi-stationary. In the cross section of the desalination channel formed by anion-exchange and cation-exchange membranes, quasi-equilibrium layers appear at each of the membranes, and are also quasi-stationary [23,24] and Section 4.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Chubyr N.",
+        "Uzdenova A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01047-v2",
+      "title": "Theoretical Investigation of the Phenomenon of Space Charge Breakdown in Electromembrane Systems",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Formation of an Extended Space Charge Region and Local Extrema of the Space Charge Numerical experiments [25] and analytical calculations show that, at a fixed value of the exchange capacity of an ion-exchange membrane, a local extremum of the space charge appears at a certain potential jump corresponding to the overlimiting current density. If a potential jump is fixed, then at a certain sufficiently large value of the exchange capacity of the membrane, the local extrema disappear. Based on this, it was suggested in [26] that the reason for the occurrence of local extrema is the limited exchange capacity of membranes. Let us consider the dependence of the local maximum on the C1m parameter, which characterizes the exchange capacity of the membrane. The point of the local maximum shifts to the right, but the value practically does not change. At the same time, the local minimum gradually fills up with an increase (the value of the local minimum increases). Thus, we can conclude that the local maximum of the space charge appears due to the limited exchange capacity of the membrane at a given potential jump, i.e., the local maximum of the space charge appears due to the presence of a local minimum of the space charge at the surface of the cation exchange membrane.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Chubyr N.",
+        "Uzdenova A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01047-v2",
+      "title": "Theoretical Investigation of the Phenomenon of Space Charge Breakdown in Electromembrane Systems",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In the potentiodynamic regime, when the potential jump increases linearly with a certain sweep rate, as shown in [27], the existence of local extrema of the plot of current density vs. potential jump (time) is related to the potential sweep rate. If the sweep rate is low, then there are no local extrema. Both in the first and in the second case, everything is connected with the ratio of diffusion and electromigration. At large values of the exchange capacity, the concentration gradient increases and diffusion begins to “prevail” over electromigration. Similarly, with a decrease in the sweep rate, the electromigration flow decreases and diffusion also “prevails” over electromigration, and thus, if the potential jump is slowly increased, local maxima and minima are not formed; however, the extended space charge region will increase. Thus, the prevalence of diffusion over electromigration does not allow the formation of local extrema of the space charge, and vice versa, the prevalence of electromigration over diffusion leads to the formation of local extrema. If the potential jump is taken constant and small enough, then although the electromigration flux will slightly exceed the diffusion flux, they will be approximately equal and there will be no accumulation of ions at the boundary of the electroneutrality region and QEL. At small potential jumps, the QEL smoothly passes into the region of electrical neutrality, there are no boundaries between them and, accordingly, there is no extended region of the space charge. If the potential jump is taken as constant and large enough, then the migration flow will be much larger than the diffusion flow at the boundary between the electroneutrality and QEL regions, which will lead to the accumulation of ions in this region and the formation of an extended SCR.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Chubyr N.",
+        "Uzdenova A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01047-v2",
+      "title": "Theoretical Investigation of the Phenomenon of Space Charge Breakdown in Electromembrane Systems",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Analytical Solution of the Boundary Value Problem in Quasi-Equilibrium Layers in the Section of the Desalination Channel Let us first find the solution on the segment [0, x1], that is, in the quasi-equilibrium boundary layer near the anion-exchange membrane. Let us put (1) and (2), then we substitute in the dimensionless Nernst–Planck and Poisson equations, then after a series of transformations near the anion-exchange membrane, in the first approximation, we obtain (3) with boundary conditions (4), and also E(t,∞,ε) = 0—the condition of merging with the solution inside the channel section, from which follows j1(t) ≡ 0. The system of Equations (A17) and (A18) has the first integral C1 + C2 = 0.5 E^2 - α, where α = -C1(t,x1,ε) - C2(t,x1,ε) < 0. Using which, one can obtain an equation for the electric field strength that does not contain concentrations (5) [22]. Integrating which, after a series of transformations, we obtain (6). The condition of merging with the solution in the REN: E → 0 is obviously satisfied; moreover, it is possible to define the left boundary of the REN in the form x1 = k√ε|lnε|, where k > 0 is an arbitrary constant. Thus, we obtain solution (7) where β is some positive number, which is determined from the boundary condition. Knowing E(x,ε), and using the ratios C1 + C2 = 0.5 E^2 - α and ∂E/∂ξ = C1 - C2, it is easy to calculate C1 and C2. Similarly, the solution is calculated on the segment [x1,1], that is, in the quasi-equilibrium layer near the cation-exchange membrane with the necessary changes, leading to solution (8), where α ≈ -C1(t,x2,ε) - C2(t,x2,ε) < 0. As can be seen from the solutions in quasi-equilibrium layers, in the first approximation they do not depend on time, that is, the quasi-equilibrium layer is also quasi-stationary.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Chubyr N.",
+        "Uzdenova A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01047-v2",
+      "title": "Theoretical Investigation of the Phenomenon of Space Charge Breakdown in Electromembrane Systems",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5. Model Formulation wQEL (without Quasi-Equilibrium Boundary Layer) As shown above, in the initial approximation, the value of the current density does not affect the distribution of the potential and concentrations of the quasi-equilibrium region of the space charge. This influence affects only in the next, first, approximation [14]. In this regard, in the initial approximation, this region can be ignored and a simplified model can be compiled, and the conditional boundary between the quasi-equilibrium region of the space charge and the extended region can be considered the point at which the concentration of counterions reaches its minimum value for ion-exchange membranes, and the space charge reaches a minimum at CEM and the maximum value at AEM. Since in the vicinity of these points the values of the concentration of counterions are much higher than the concentration of coions, then, accordingly, the space charge in these regions is determined by the concentration of counterions. Thus, we can conclude that ∂C1/∂x ≈ ∂ρ/∂x ≈ 0 at the border of the extended region and ∂C2/∂x ≈ ∂ρ/∂x ≈ 0 at the border of the extended region and the quasi-equilibrium region of the anion-exchange membrane. Since the width of the quasi-equilibrium region is rather small, the following boundary conditions can be adopted to simplify the basic model: ∂C2(t,0)/∂x = 0, ∂C1(t,H)/∂x = 0.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Chubyr N.",
+        "Uzdenova A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01047-v2",
+      "title": "Theoretical Investigation of the Phenomenon of Space Charge Breakdown in Electromembrane Systems",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Adding to these conditions the conditions of impermeability of coions, the same as in the basic problem, we obtain a new boundary value problem for the system of Nernst–Planck–Poisson equations, which determines the mathematical model for the transport of salt ions without a quasi-equilibrium layer (wQEL). Thus, the model without a quasi-equilibrium layer is described by Equations (A1)–(A5) and boundary conditions (9), (A6)–(A14). Since this model differs from the basic model in the absence of a quasi-equilibrium space charge region, it can be called a model without a quasi-equilibrium layer. In a number of papers, the authors investigated this model of salt ion transport in a diffusion layer, and it was shown that it gives the distribution of concentration, potential, and space charge with good accuracy everywhere except, of course, the quasi-equilibrium region of the space charge. As the calculations performed in this article show, the wQEL model allows one to numerically study the transfer phenomenon in the cross section of the desalination channel for an electrolyte solution with higher concentrations than the basic model, for example, for initial concentrations C0 = 10 mol·m^{-3}.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Chubyr N.",
+        "Uzdenova A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01047-v2",
+      "title": "Theoretical Investigation of the Phenomenon of Space Charge Breakdown in Electromembrane Systems",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In [14], the quasi-uniform charge distribution (QCD) condition was proposed, which generalizes the electrical neutrality condition. As a result of using this condition instead of the Poisson equation, a finite equation or a differential equation of a lower order is obtained, and as a result, a solution is obtained outside the quasi-uniform layer. In this sense, the wQEL model and the QCD condition lead to the same results. The wQEL model is convenient for numerical solution, since only two boundary conditions change. The QCD condition was derived using the decomposition method of the system of Nernst–Planck and Poisson equations, and the model with the QCD condition is convenient for an asymptotic solution. Above, the wQEL model was derived in dimensionless form. However, it is not difficult to formulate it in dimensional form, since the conditions have the same form in dimensional form. In addition, it is easy to pass to the dimensional form in Formulas (7) and (8).",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Chubyr N.",
+        "Uzdenova A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01047-v2",
+      "title": "Theoretical Investigation of the Phenomenon of Space Charge Breakdown in Electromembrane Systems",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "6. A New Numerical-Analytical Method for Solving Boundary Value Problems for the System of Nernst-Planck and Poisson Equations 6.1. Algorithm of the Numerical-Analytical Method of Solution 1. We numerically solve the boundary value problem (A15)–(A24) of the wQEL model, and find, among other things, C1(t,x2,ε), C2(t,x1,ε); 2. We find the potential jump for the base model. Using the ratio and taking into account that x1≈0, x2≈1, we obtain φ0 ≈ ln(C2A C1K/(C2(t,x1,ε)C1(t,x2,ε))) + ∫_{x1}^{x2} E(x,ε) dx = φ_{QEL} + φ_{wQEL}. Here, φ_{QEL} is the potential jump in the quasi-equilibrium layers of the anion-exchange and cation-exchange membranes, and φ_{wQEL} is calculated using the wQEL model. Estimating φ_{QEL} assuming the concentration decreases by 100 and 10^5 times gives dimensionless jumps of about 9.2 and 23. Taking into account φ0 = 0.02566 V, the total potential jump in quasi-equilibrium layers is approximately 0.24 V and 0.6 V. Since the potential jump in the desalination chamber can reach 1–3 V, the jump in quasi-equilibrium layers can make a significant contribution with increasing degree of desalination. 3. We find an analytical solution in quasi-equilibrium layers using Formulas (7) and (8). 4. Using (1) and (3), we obtain the solution of the basic problem. Remark: As C0 increases, the asymptotic solution becomes more accurate, since the thickness of the quasi-equilibrium layer decreases. Thus, the accuracy of the proposed numerical-analytical method practically does not change with increasing C0.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Chubyr N.",
+        "Uzdenova A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01047-v2",
+      "title": "Theoretical Investigation of the Phenomenon of Space Charge Breakdown in Electromembrane Systems",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "6.2. Verification of Calculations To verify the calculations, numerical experiments were carried out with grids with different numbers of elements 200,000, 330,000, and 400,000. The calculation results in the first two cases differed, although slightly. The results of calculations for grids of 400,000 and 330,000 coincided with the accuracy of the calculations. Therefore, calculations with a grid of 400,000 can be considered quite accurate. 6.3. Comparison of the Results of Calculations of the Base Model and the wQEL Model At low initial concentrations, the basic model and the wQEL model can be used for calculations simultaneously. For C0 = 0.01 mol·m^{-3} at the same potential jumps, the distribution of the space charge calculated by the wQEL model coincides quite accurately everywhere, except for the quasi-equilibrium region. The exclusion of this region leads to some delay (15 s or 0.075 V) in the values calculated by the simplified model. If this shift is taken into account, the results differ by less than 1%. Thus, the proposed numerical–analytical method can be used to calculate the transfer of ions in the cross section of the desalting channel, including the phenomenon of space charge breakdown at real initial concentrations.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Chubyr N.",
+        "Uzdenova A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01047-v2",
+      "title": "Theoretical Investigation of the Phenomenon of Space Charge Breakdown in Electromembrane Systems",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "7. Patterns of Space Charge Breakdown at High Initial Concentrations The concept of space charge breakdown and the main patterns of breakdown in non-stationary membrane systems at fixed potential jumps were studied in [25] at small values of the initial concentration (C0 = 0.01 mol·m^{-3}), due to the singularly perturbed problem. Below, the breakdown phenomenon for the potentiodynamic mode is studied using the wQEL model for C0 = 10 mol·m^{-3}. As time increases, two waves of a positive (for CEM) and a negative (for AEM) space charge are formed in the channel cross section, which move towards each other. These waves are caused by the predominance of migration flows over diffusion ones. In this case, the concentration of cations is higher than that of anions near CEM, and vice versa near AEM. Accordingly, the space charge near CEM is positive, and near AEM negative. In the middle part of the channel, there is a region where the concentrations are equal with high accuracy (local electrical neutrality). In the space charge areas, the intensity is very high, the convexity and concavity of its graph change at the extremum points.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Chubyr N.",
+        "Uzdenova A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01047-v2",
+      "title": "Theoretical Investigation of the Phenomenon of Space Charge Breakdown in Electromembrane Systems",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Calculations show that at first the space charge waves move with almost constant speed and do not interact. Over time, they approach each other and begin to attract, the speed gradually increases. At some point, the waves of negative and positive space charge come into contact and the discharge process begins, when the value of both charges decreases rather quickly and over time the space charge in the middle part of the channel practically disappears—the breakdown process is completed. For the parameters considered (sweep rate d = 0.005 V·s^{-1}), breakdown occurs at 700–720 s, i.e., at approximately 3.5–3.6 V. After breakdown, the fluxes become almost zero, and the current becomes zero; equilibrium is established in the entire channel cross section, and the concentration and tension in the middle part become constant. The quasi-equilibrium layers of the membranes are retained [14].",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Chubyr N.",
+        "Uzdenova A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01047-v2",
+      "title": "Theoretical Investigation of the Phenomenon of Space Charge Breakdown in Electromembrane Systems",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "8. Dependence of the Time (Potential Jump) of the Onset of Breakdown on the Initial Concentration of the Solution The equation of the straight line in Figure 7 has the form φ_n = a lg(C0) + b, where a = 0.54, b = 3.07, R^2 = 0.9973. Assuming a = 0.5, b = 3, we obtain a simple approximate dependence for a preliminary estimate of the critical value of the potential jump at which breakdown begins: φ_new = 0.5 lg(C0) + 3. This formula is quite accurate and can be used in engineering calculations to estimate the potential jump for a solution with an initial concentration C0.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Chubyr N.",
+        "Uzdenova A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01047-v2",
+      "title": "Theoretical Investigation of the Phenomenon of Space Charge Breakdown in Electromembrane Systems",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "9. Conclusions This paper proposes a new mathematical model for the transfer of salt ions in the cross section of the desalination channel with the exception of quasi-equilibrium layers near ion-exchange membranes, called the wQEL model. Asymptotic solutions are found in quasi-equilibrium layers of ion-exchange membranes. Using a combination of the analytical solution and the numerical solution of the wQEL model, a numerical–analytical method for solving the basic model was developed, using which the breakdown phenomenon in the cross section of the desalination channel was theoretically studied at real concentrations of the initial electrolyte solution. The main patterns of breakdown are determined, which can be used to select effective technological parameters for the operation of an electrodialysis desalination apparatus: (1) For the first time, a study of a quasi-equilibrium layer in a non-stationary case was carried out and it was shown that its thickness is practically independent of time, i.e., the quasi-equilibrium layer is also quasi-stationary. (2) It is shown that at overlimiting current densities (potential jumps) in the potentiostatic mode, space charge waves arise at ion-exchange membranes with local extrema, which move towards each other and at the moment of meeting they are discharged, i.e., breakdown of the space charge occurs. It is shown for the first time that the cause of local extrema is the predominance of the electromigration flow over the diffusion one. (3) For the first time for the potentiostatic mode, a simple and fairly accurate formula for engineering calculations has been derived for the dependence of the jump in the breakdown start potential for a KCl solution on the logarithm of the initial concentration C0, which allows you to determine in advance the potential jump acceptable for desalination at a given concentration. (4) It has been shown for the first time that in the potentiodynamic regime with a linear sweep rate of the potential, space charge waves with local extrema arise at sweep rates greater than a certain threshold value, which depends on the concentration of the solution. (5) A new mathematical model of ion transport in the cross section of the desalination channel has been proposed, using which a hybrid numerical–analytical solution method has been developed. This method can be used to solve other problems of membrane electrochemistry, where the appearance of a quasi-equilibrium layer makes it difficult to use only numerical methods.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.",
+        "Chubyr N.",
+        "Uzdenova A.",
+        "Urtenov M."
+      ],
+      "paper_id": "membranes-12-01047-v2",
+      "title": "Theoretical Investigation of the Phenomenon of Space Charge Breakdown in Electromembrane Systems",
+      "year": 2022,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  }
+]

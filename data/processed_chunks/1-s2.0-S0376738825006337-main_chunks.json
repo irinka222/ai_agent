@@ -1,0 +1,942 @@
+[
+  {
+    "content": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling Hluf Hailu Kinfu a , Md Mushfequr Rahman a,*\n\n, Nicol´as Cevallos-Cueva a\n\n, Volker Abetz a,b a Helmholtz-Zentrum Hereon, Institute of Membrane Research, Max-Planck-Straße 1, 21502, Geesthacht, Germanyb University of Hamburg, Institute of Physical Chemistry, Martin-Luther-King-Platz 6, 20146, Hamburg, Germany",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T The development of high flux, selective and sustainable thin-film composite (TFC) membranes for nanofiltration (NF) is critical in addressing water purification challenges. In this work, a thin metal-phenolic network (MPN) selective layer was deposited on a porous support via a facile and scalable process, presenting a sustainable and efficient pathway for developing TFC membranes tailored for NF applications in water treatment and desalination. Here we explored the ion rejection and ion selectivity behavior of MPN membranes for various complex feed solutions. Comprehensive characterization to determine the rejection performance of the MPN selective layer for single and mixed salt solutions, including NaCl, Na2SO4, MgCl2, and MgSO4 are investigated. Furthermore, the application of the Donnan Steric Pore Model with Dielectric Exclusion (DSPM-DE) to predict the ion rejection and elucidate the transport and exclusion phenomena by a tannic acid (TA)-Fe3+ separation layer is explored. The findings reveal that the TA-Fe3+ selective layers exhibit excellent retention performance towards various salts, demonstrating the formation of a dense structure with higher retention when increasing Fe3+ concentration of the casting solution. The TFC membranes exhibited up to 99 % Na2SO4, 92 % NaCl, 96 % MgSO4 and 81 % MgCl2 retentions during single salt filtration tests, indicating a strong potential for high performance nanofiltration or desalting applications.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1 % MgCl2 retentions during single salt filtration tests, indicating a strong potential for high performance nanofiltration or desalting applications. Detailed analysis of the mixed salt retention properties of the MPN membranes highlights a considerable Cl-/SO2-4 and Na+/Mg2+ selectivities by the TA-Fe3+ membranes. Computational elucidation using the DSPM-DE model indeed predicts the retention performance of Na+/Cl-/Mg2+ ternary ion as well as Na+/Mg2+/Cl-/SO2-4 quaternary ion mixtures, identifying dielectric and Donnan exclusions as key mechanisms for ion partitioning at the membrane-solution interface.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Over the years, membrane separation processes, particularly nano­filtration (NF), have been extensively employed for the treatment of saline water and wastewaters at both the laboratory and industrial scales [1–3]. The unique attributes of NF membranes stem from their ability to effectively separate small organic and inorganic solutes while main­taining high water flux at low operating pressure. To date, thin film composite (TFC) membranes are the most popular for NF application [3]. These well-established TFC membranes primarily feature a poly­amide (PA) separation layer synthesized via interfacial polymerization between a diamine (dissolved in water) and an acyl chloride (dissolved in organic solvent) on top of a porous polymer support. PA TFC mem­branes are particularly attractive due to their ease of synthesis and high rejection performance. However, these membranes suffer from some drawbacks, including low chlorine resistance during cleaning of the membrane and the use of highly toxic organic solvents, rendering the membrane fabrication process environmentally unsustainable [4,5]. Many of these organic solvents are classified as substances of high concern due to their detrimental environmental and human health im­pacts [6]. Furthermore, the utilization of organic solvents can prove costly. Therefore, eliminating the dependency on such organic solvents is vital for developing a more sustainable TFC membrane fabrication methods.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ve costly. Therefore, eliminating the dependency on such organic solvents is vital for developing a more sustainable TFC membrane fabrication methods. The need for ecofriendly approaches for TFC membrane fabrication is increasingly recognized. One such promising technology is the deposition of a self-assembled network via metal-polyphenol coor­dination. Metal-phenolic networks (MPN) have emerged as a promising class of materials for the fabrication of TFC membranes over the past decade. MPNs are supramolecular structures formed through the coordina­tion interactions between catechol or galloyl ligands in polyphenols and transition metal-ion cross-linkers, constructed exclusively in aqueous solutions. MPN coatings are universal, multifunctional thin-films that offer tunable properties, mechanical stability and biocompatibility [7,8]. Tannic acid (TA), a star-shaped plant polyphenol, is widely studied for MPN fabrication due to its low price, availability and rich poly­dentate ligand structure [9]. The molecular structure of TA facilitates coordination with metal ions to form thin-films with controllable",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 9 June 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). structure. The characteristics of MPN coatings are influenced by several factors, including TA and metal ion concentrations, assembly time, so­lution pH, and the choice of the crosslinking metal ion [10–13]. Two primary approaches are used for synthesizing the MPN based selective layers of TFC membranes. The one-step coordination self-assembly method (co-deposition) is a rapid process of preparing TA-metal ion coatings. However, it poses challenges in controlling the rapid coordi­nation reaction and achieving precise pore structures. In contrast, the layer-by-layer (LBL) assembly method allows the fabrication of defect-free selective layers [14], minimizing the blockage of membrane pores [10] and offering better control over the thickness and pore size of the selective layer of the TFC membranes. Coordination chemistry thus provides a facile and effective technique of constructing high-performance TFC membranes. These membranes have been stud­ied for several applications such as separation of small organic mole­cules (e.g. dyes) [15–17], removal of trace organic contaminants [18], heavy metal ion removal [19,20], oil/water emulsions separation [21,22], and forward osmosis [23].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "15–17], removal of trace organic contaminants [18], heavy metal ion removal [19,20], oil/water emulsions separation [21,22], and forward osmosis [23]. Some studies have also reported the removal of single salts from their aqueous solutions using optimized MPN membranes [18,24,25]. However, despite numerous studies on TA-Fe3+ MPN TFC membranes, comprehensive investigations of their ion separation performances in mixed ions systems, and the correlation of their separation mechanism and fabrication parameters through transport models have never been reported. Inspired by this gap, in this study we have fabricated TA-Fe3+ membranes using a layer-by-layer (LBL) technique to assess their NF performance in aqueous solutions containing both single and mixed salts. The study is focused on evalu­ating the salt rejections performance of MPN membranes, analyzing their monovalent/divalent ion separation efficiencies in detail, and describing the NF process through an applicable mathematical model. The structural and physicochemical properties of membranes are critical in governing solute mass transport and separation performance. However, the characterization of nanofiltration (NF) membranes re­mains challenging. Due to their small pore dimensions, many techniques commonly applied to ultrafiltration (UF) membranes are not suitable to determine the pore-size of NF membranes [26].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "pore dimensions, many techniques commonly applied to ultrafiltration (UF) membranes are not suitable to determine the pore-size of NF membranes [26]. Zeta potential mea­surements provide valuable insights into the surface charge character­istics which is directly related to the rejection performance of the membranes. However, the surface charge data obtained from zeta po­tential is highly limited for qualitative use due to the inherent limita­tions of the measurement technique. Electrokinetic measurements such as streaming potential, are influenced by the ionic strength and composition of solution under analysis [27]. An alternative approach to describe a NF membrane involves conducting solute rejection mea­surements [26], followed by application of a theoretical model to infer membrane properties. The recent approaches in modeling NF are grounded in theoretical frameworks based on the extended Nernst–­Planck equation. A prominent example is the Donnan steric-pore model (DSPM) developed by Bowen and colleagues [28–30]. This model relates the transport of ions through membrane selective layer to membrane properties. DSPM model has undergone several modifications, to ac­count for factors such as hindrance effects for ion transport through the membrane pores [30], concentration polarization [31], and the effect of dielectric exclusion [32].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "as hindrance effects for ion transport through the membrane pores [30], concentration polarization [31], and the effect of dielectric exclusion [32]. Currently, the Donnan steric-pore model with dielectric exclusion (DSPM-DE), an extension of the DSPM model, is extensively utilized for the prediction of membrane performances of NF membranes for aqueous solutions containing electrolytes [32]. The DSPM-DE model effectively describes ion partitioning at the solution-membrane interface and ion transport across semi-permeable membranes. This model predicts the rejection and permeate flux of multi-ionic feed solutions as functions of membrane characteristics including pore size, membrane thickness, surface charge density and pore dielectric constant [33]. Therefore, a thorough characterization of the membrane is a pre­requisite to describe the mass transport through the membrane using the DSPM-DE model. Developed through a rigorous understanding of the NF process, the DSPM-DE model has predominantly been applied to wellestablished polyamide (PA) TFC membranes. Yet, this approach re­quires more comprehensive demonstration, and further research is necessary to extend its validation beyond PA membranes. Some efforts have been made to extend the DSPM-DE model to other types of mem­branes. For instance, Labban et al. [34] adopted DSPM-DE model for characterizing low-pressure NF membranes from polyelectrolyte layer-by-layer-deposition. Similarly, Junker et al.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "t al. [34] adopted DSPM-DE model for characterizing low-pressure NF membranes from polyelectrolyte layer-by-layer-deposition. Similarly, Junker et al. [35] predicted the salt retention performance of polyelectrolyte multilayer hollow fiber mem­branes using DSPM-DE model. However, MPN-based membranes have been only recently introduced. There is limited understanding regarding the membrane property and its observed membrane performance cor­relation. The fundamental mechanisms governing ion transport and partitioning in MPN membranes remain unexplored, and there has been no attempt to model their ion retention behavior. This study aims to address this gap by modeling the filtration process of MPN membranes to elucidate their ion transport and separation efficiencies. The performance of the MPN membranes for single and mixed salt solutions of NaCl, Na2SO4, MgCl2, and MgSO4 were analyzed. The effect of a common anion in Na+/Mg2+ containing ion mixtures on the retention of ions is also explored. The DSPM-DE model was used to describe the transport and rejection of ions as a function of trans­membrane flux in membranes containing TA-Fe3+ selective layer. This study marks the first mass transport modeling of Na+/Mg2+ separation performance of the MPN membranes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "branes containing TA-Fe3+ selective layer. This study marks the first mass transport modeling of Na+/Mg2+ separation performance of the MPN membranes. The mass transport modeling enabled successful estimation of ion retention in ternary mixtures and provided insight into the dominant mechanisms of ion exclusion and transport that influence the retention and permeation of ions, respectively. 2. Experimental section 2.1. Materials and chemicals The PAN ultrafiltration membrane was provided by HelmholtzZentrum Hereon. For the selective layer fabrication, tannic acid (TA, 1701.19 g/mol) and Iron (III) chloride hexahydrate (FeCl3⋅6H2O, 270.33 g/mol) were purchased from Sigma-Aldrich Chemie GmbH (Germany) and Alfa Aesar GmbH & Co., respectively. Poly(ethylene glycol) (PEG) (400 g/mol) was commercially supplied from VWR In­ternational GmbH (Germany). Magnesium sulfate (MgSO4, 120.366 g/ mol), sodium sulfate (Na2SO4, 142.04 g/mol), hexahydrate form of magnesium chloride (MgCl2⋅6H2O, 203.31 g/mol), and sodium chloride (NaCl, 58.44 g/mol) were obtained from Sigma-Aldrich Chemie GmbH (Germany). All casting and feed solutions were prepared using deionized (DI) water. The Milli-Q ultrapure water purification system was utilized to generate the DI water employed in this investigation. All chemicals were utilized without further purification or modification.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2. Synthesis of the TFC membranes The porous PAN membrane support was first immersed in DI water for 3 h before the coating process. The TFC membranes were fabricated by a sequential layer-by-layer based self-assembly. The steps followed during the fabrication process are schematically provided in Scheme 1. The top layer of the pre-soaked PAN membrane was first immersed in 0.02 w% TA solution for 4 min. The TA molecules are coated over the PAN surface through adsorption. After draining the TA solution from the surface of the PAN membrane, the TA-coated support membrane was immediately rinsed with DI water. Then, the membrane was immersed in a certain concentration of metal ion solution (FeCl3) for the same duration that results in TA-Fe3+ self-assembly. Again, the membrane was rinsed with DI water. This process resulted in the fabrication of one layer of TA-Fe3+ coating. The process was repeated once to fabricate a double TA-Fe3+-layered MPN selective layer. Deposition of two TA-Fe3+",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "H.H. Kinfu et al. Journal of Membrane Science 733 (2025) 124320 layers and a 4 min assembly time were chosen based on our previous works on the effect of membrane fabrication parameters on optimizing permeance and solute rejection performances [36,37]. A series of membranes referred as 1TA-4.5Fe, 1TA-5Fe, 1TA-6Fe and 1TA-8Fe were synthesized by varying the FeCl3 concentration, corresponding to 0.054, 0.06, 0.072 and 0.096 w%, respectively. Both the TA and iron salt were dissolved in water. 2.3. Ion rejection and selectivity of the MPN membranes The separation performance of the TFC membranes were investi­gated with a lab-scale dead-end filtration system using a stirred test cell from Millipore (EMD Millipore XFUF07601). The surface area of the membrane was reduced to 2.13 cm2 with an inhouse made reduction ring. The pure water flux of the membranes was determined at a transmembrane pressure between 1 and 4 bar using pure water as a feed solution. To evaluate the retention performance of the membranes, compaction of the membrane samples was initially performed at 4 bar for 2 h with DI water. Afterwards, the feed solution was replaced with a single salt or a mixed salt solution. 10 mM concentration of NaCl, MgCl2, Na2SO4, and MgSO4 aqueous solutions were used for single salt reten­tion tests. Whereas equimolar mixtures of 10 mM total feed concentra­tion of NaCl–Na2SO4, NaCl–MgCl2, Na2SO4–MgSO4, or NaCl–Na2SO4–MgCl2–MgSO4 were used as mixed salt feed solutions.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "xtures of 10 mM total feed concentra­tion of NaCl–Na2SO4, NaCl–MgCl2, Na2SO4–MgSO4, or NaCl–Na2SO4–MgCl2–MgSO4 were used as mixed salt feed solutions. The feed solutions were stirred with a magnetic stirrer at a stirring speed of 350 rpm. The membrane filtration tests were performed at 3 bar unless otherwise specified. All experiments involved three repetitions, and the average values were documented. The permeate flux (JV, L⋅m-2⋅h-1) and permeance (PWP, L⋅m-2⋅h-1⋅bar-1) were determined using equations (1) and (2), respectively. JV =VA*Δt(1) PWP = JV ΔP(2) Where V (L) is the volume of the permeate collected, while Δt (h) and A (m2) are the duration of filtration and the effective area of the membrane used. ΔP (bar) is the applied transmembrane pressure. The retention rate (R) was evaluated using the following equation. R (%) =(1 -Cp(Cf + Cr )/2 )*100(3) Where R is solute retention, Cp, Cf and Cr are the concentrations of the permeate, feed and retentate solutions, respectively. Ion chromatog­raphy (Dionex ICS600, Thermofischer Scientific Inc., USA) provided with a CS 12A column and a AS 14A column was used to analyze the concentrations of the cations and anion, respectively. The ion selectivity of the membranes, for eg. the passage of a monovalent ion (A) over a divalent ion (B), was calculated using:",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "SA/B = (CB/CA ) f(CB/CA ) p = 100 -RA(%)100 -RB(%)(4) where RA and RB are the rejections of ion A and B, respectively, as computed using equation (3), while CA and CB are the concentrations of ion A and B, respectively, in the feed (f) solution and permeate (p) streams. 2.4. Mathematical modeling using the DSPM-DE model 2.4.1. Neutral solute retention In characterizing NF membranes using mathematical models, the quantification of various membrane properties that govern the mem­brane performance is important. One procedure for the estimation of membrane structural parameters is via retention data obtained from aqueous solutions of uncharged solutes [31,32]. In this work, the pore radius and effective membrane thickness were estimated by performing a neutral solute retention test. PEG 400 g/mol molecular weight was used as a feed solution (1 g/L) and the retention tests were performed in the same procedure as described in section 2.3. The applied trans­membrane pressure was varied between 0.5 and 4.5 bar to adjust the permeate fluxes of the PEG solution. The concentration of PEG in the feed, permeate and retentate samples was analyzed using gel perme­ation chromatography (GPC) (VWR-Hitachi 2130 pump, Hitachi, Darmstadt, Germany). The retention rates were evaluated using equa­tion (3).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ing gel perme­ation chromatography (GPC) (VWR-Hitachi 2130 pump, Hitachi, Darmstadt, Germany). The retention rates were evaluated using equa­tion (3). As the flux of a neutral solute is governed only by diffusion and convection, and only steric hindrance determines its partitioning at the membrane-solution interface, a well-known analytical solution of flux dependent solute rejection has been obtained [31,38] that involves the contributions of concentration polarization as shown in equation (5). Therefore, the experimentally measured real retention data at different permeate fluxes was fitted using equation (5) to determine the pore radius (rP) and thickness to porosity ratio of the membranes (Δxe= ( ΔxAk ))simultaneously. The fitting procedure was performed using a dual annealing algorithm in python by minimizing the sum of squared errors (SSE) between experimental and calculated retention results. Rreal =(1 -Ci,p Ci,m )= 1 -Ki,CΦs 1 -exp(-",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Scheme 1. Schematic of the process for the fabrication of TFC MPN membranes via layer-by-layer led supramolecular self-assembly. H.H. Kinfu et al. Journal of Membrane Science 733 (2025) 124320 f(rp, Δxe )= SSE =∑ fluxes (Rcal -Rexp )2(6) 2.4.2. Charged solute retention The DSPM-DE model was adopted to describe the separation process of the TFC membranes. DSPM-DE model has been extensively used to elucidate ion retention and transport across the NF membrane active layer. Details about the development of this model can be found else­where [39–41]. Solute transport inside the membrane is represented by the extended Nernst-Planck equation (ENP) equation consisting of convection, diffusion and electromigration (Equation (7)). The govern­ing model equations are provided in Table 1. Partitioning equilibrium at both sides of the membrane-solution interface are described using equations [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] and [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}]. The rejection data for mixed salt feed solutions were fitted using the DSPM-DE model to estimate the charge density (CX), and pore dielectric constant (ℇp) of the membrane.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "mixed salt feed solutions were fitted using the DSPM-DE model to estimate the charge density (CX), and pore dielectric constant (ℇp) of the membrane. Rehman and Lienhard [42] showed that the membrane input parameters can be attained using only experimental data of charged species, scrapping the traditional procedure of a step-by-step membrane parameter estimation process. Hence, in this work, these two parameters were obtained simultaneously from a fit of the retention tests of mixed ions at different flux. The function minimization is carried out using dual annealing global minimizer in python with Nelder-Mead local optimizer methods. To solve the system of equations, the algorithm developed by Geraldes et al. [40] was implemented. The SSE between experimental and calculated retention results of the ions was minimized until a tolerance of 1E-6 with the estimated CX and ℇp was achieved. Two different cases of salt mixtures were studied: 1) the mixture of two cations at the same molar ratio having a common anion NaCl–MgCl2 and 2) multi-ionic mixture containing both divalent and monovalent anions and cations (NaCl–MgCl2–Na2SO4–MgSO4). The feed concentration of the mixed salt systems was fixed in a 5 mM:5 mM mixture for case 1, while 2.5 mM of each salt was used for case two. The retention tests were conducted at various permeate fluxes by controlling the transmembrane pressure between 0.5 and 4 bar. 3. Results and discussion 3.1.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ention tests were conducted at various permeate fluxes by controlling the transmembrane pressure between 0.5 and 4 bar. 3. Results and discussion 3.1. SEM and water flux of the MPN membranes The membranes exhibit a sponge-like cross-sectional structure (Fig. S1). Surface SEM images of the pristine support and the fabricated TFC membranes are shown in Fig. 1. The PAN substrate displays a uniformly distributed highly porous structure on its top surface, a typical surface morphology of a UF membrane. After the coating of the TA-Fe3+ layers, the membrane surfaces become significantly more compact, reducing the pore size and the number of pores (Fig. 1b–e). This was on account of the coordination reaction between TA and metal ions, which forms a complex network that uniformly coats the substrate surface [43]. As the Fe3+ concentration in the coating solution increases, a denser membrane surface is fabricated. Feed concentrations influence the stoichiometries of metal-polyphenol self-assembled layers [44]. Increasing Fe3+ concentration leads to a lower TA:Fe ratio in the syn­thesized self-assembled layer, indicating the metal-phenolic network becoming richer in iron. Since the metal ion acts as an inorganic crosslinker [25], Fe3+ enriched complexes result in a highly crosslinked dense thin-film. Due to its abundant hydroxyl groups, each TA molecule can coordinate with several Fe3+ centers.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "plexes result in a highly crosslinked dense thin-film. Due to its abundant hydroxyl groups, each TA molecule can coordinate with several Fe3+ centers. Therefore, availability of more metal ions in the solution leads to further chelation by TA [45], which leads to the formation of more compact TA-Fe3+ structures. Further­more, Ejima et al., [44] observed a small increase in thickness (a few nanometers) of TA-Fe3+ coated capsules when the metal ion concen­tration was increased. This trend of decreasing pore size is consistent with the observed membrane water flux. The pure water permeance gradually decreases with the increase of the Fe3+ concentration.Fig. 2shows linear increase of the pure water fluxes through the TFC mem­branes with increasing transmembrane pressure. The pure water per­meance (PWP) through the TFC membranes were computed from Fig. 2. For reference, the PAN support exhibited PWP of 286 L⋅m-2⋅h-1⋅bar-1. Among the MPN selective layer containing TFC membranes, 1TA-4.5Fe showed the highest permeance of 15 L⋅m-2⋅h-1⋅bar-1 which progres­sively decreased (with increasing Fe3+ concentration) to 6.5, 3.2 and 1.9 L⋅m-2⋅h-1⋅bar-1 for 1TA-5Fe, 1TA-6Fe and 1TA-8Fe, respectively. These results agree with previous reports of the formation of dense membranes at high metal ion concentration [18,24] when substantially dilute casting solutions are used.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ith previous reports of the formation of dense membranes at high metal ion concentration [18,24] when substantially dilute casting solutions are used. These findings indicate that the morphology and the mass transport resistance of the MPN selective layer can be tuned with the concentration of Fe3+ in the coating solution. At low Fe3+ concentrations, an insufficient number of metal ion centers limits the interfacial coordination reaction, resulting in the formation of a porous skin layer [24]. However, at higher Fe3+ concentrations, suf­ficient binding sites are available for TA chelation, leading to a compact selective layer in the self-assembled TFC membrane [46]. 3.2. Single salt retention performance The retention performance of the MPN TFC membranes was first analyzed through single salt retention experiments (Fig. 3). The TFC membranes demonstrated high rejection rates towards sodium sulfate. The 1TA-4.5Fe membrane exhibited a retention of around 73 % for 10 mM Na2SO4 whereas MgCl2 was the least retained salt (12 %) during the filtration tests. As discussed in section 3.1, increasing the Fe3+ concen­tration of casting solution leads to the formation of a denser MPN se­lective layer, which may lead to a higher steric hindrance. Indeed,",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 1 Basic equations of the utilized DSPM&DE model. Mass transport: Ji = -Ki,dDi,∞ dCi dx + Ki,cCiJv -ziCiKi,dDi,∞\n\nFRT dΨdx (7) Ji = -k*c,i (Ci,m -Ci,b )+ JvCi,m -ziCi,mDi,∞FRT dΨdx (8)\n\nJi = JvCi,p(9)boundary condition equilibrium relations: γi,1Ci,1γi,mCi,m = ΦsΦB exp(-ziFRTΔΨD,m )[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] γi,NCi,N γi,PCi,P = ΦsΦB exp(-ziFRTΔΨD,P )[ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] Partitioning coefficients: Φs,i = (1 -λi)2where λi =(rs rp )[ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] ΦB,i = exp(-ΔWi kBT )where ΔWi =z2i e208πℇ0rs ( 1ℇp\n\n-1ℇb )[ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}]\n\n[ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}]\n\nKi,d = ⎧⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎨ ⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎩ ⎛ ⎜⎜⎝1 +(98 )λi ln λi -1.560λi + 0.528λi2 + 1.915λi3 -2.819λi4 + 0.270λi5 + 1.101λi6 -0.435λi7\n\n(19)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "* Subscripts such as b, m and p correspond to the bulk feed solution, at the membrane interface and the permeate side, respectively. See Fig. S9 in the supporting information for the coordinates of b, m and p in the membrane pro­cess. Subscript i corresponds to each solute i. H.H. Kinfu et al. Journal of Membrane Science 733 (2025) 124320 systematically increasing FeCl3 concentration from 0.054 w% to 0.096 w% improved the salt retention (Fig. 3). The 1TA-8Fe membrane exhibited rejection rates exceeding 80 % for all tested salts, with Na2SO4 and MgCl2 retentions reaching 99 % and 81 %, respectively. These re­sults demonstrate the effectiveness of the prepared membranes in separating inorganic salts from aqueous solutions, highlighting the po­tential of the TFC membranes having TA-Fe3+ selective layer for nano­filtration applications. All membranes displayed a higher retention towards Na2SO4 than MgSO4. This is attributed to the negatively charged membrane surface [47]. Despite both salts sharing a common co-ion (SO2-4 ), Na2SO4, containing monovalent Na+ as the counter-ion, was rejected more effectively than MgSO4, which contains bivalent Mg2+. This is due to a stronger contribution of Mg2+to electroneutrality at the feed solution-membrane interface [47]. The salt retention sequence for the 1TA-4.5Fe membrane follows the order: Na2SO4 > NaCl > MgSO4 >MgCl2, indicating that size sieving plays a minimal role in its separation mechanism.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the 1TA-4.5Fe membrane follows the order: Na2SO4 > NaCl > MgSO4 >MgCl2, indicating that size sieving plays a minimal role in its separation mechanism. Intriguingly, all magnesium salts retentions are lower than those of sodium salts for the 1TA-4.5Fe membrane. The interaction be­tween counterions and membrane functional groups affect the mem­brane charge density. The presence of divalent cations such as Mg2+ can lower the membrane charge through adsorption or binding mechanism [48,49]. Divalent ions significantly affect the membrane zeta potential, leading to a reduced negative surface charge [50]. We hypothesize that Mg2+ from the magnesium containing salts interacts with the polyphenol rich selective layer, thereby decreasing the surface charge density and reducing salt retention. However, for membranes fabricated at higher Fe3+ concentration, the retentions of MgSO4 and MgCl2 were improved, indicating an increased contribution of size and dielectric exclusions to the overall rejection mechanism (discussed in detail in section 3.4.2). We examined the effect of flux change on the salt rejection behavior of the membranes by varying the applied pressure between 0.5 and 4 bar using a Na2SO4 aqueous solution (Figure S2, Figure S3 of the supporting information). Fig. S2 shows the rejection of ions improved with an in­crease in the transmembrane flux, i.e., an increase in the applied pres­sure. This effect is particularly prominent at low flux zones.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "oved with an in­crease in the transmembrane flux, i.e., an increase in the applied pres­sure. This effect is particularly prominent at low flux zones. Overall, the analysis of the pressure effects highlights its significant influence on the salt retention properties of the TFC membranes having MPN selective layers. Intrinsically, the rejection of a solute relates to the relative transport rates between the solute and water. While the water flux lin­early increases with feed pressure (Fig. S3 in the supporting informa­tion), the solute flux is only partially influenced by convection and is primarily dependent on the concentration gradient across the mem­brane. A comparison of the separation performance of the obtained MPN TFC membranes with commercially available NF membranes in the literature shows the membranes demonstrate competitive filtration properties (Fig. S4). Na2SO4 and NaCl rejections were similar to those from commercial membranes, while water flux can be further improved.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Mixed salt retention by the MPN membranes Fig. 4 presents a comparison of the retention rates of Cl-and SO2-4 ions from an aqueous solution containing a mixture of NaCl and Na2SO4. Although the retention rates of both ions increased with higher ferric ion concentrations in the casting solution, the TFC membranes exhibited monovalent/divalent selectivity. When the FeCl3 concentration was 0.072 w% (1TA-6Fe), sulfate was almost completely retained while chloride ions permeated relatively readily. The extent of selective transport of Cl-over SO2-4 through the TFC membranes is dictated by\n\nFig. 1. SEM micrographs of the pristine support and MPN membranes: a) PAN, b) 1TA-4.5Fe, c) 1TA-5Fe, d) 1TA-6Fe, and e) 1TA-8Fe membranes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Pure water flux vs pressure for the fabricated TA-Fe3+ membranes. H.H. Kinfu et al. Journal of Membrane Science 733 (2025) 124320 the physicochemical and structural properties of the selective layer, e.g. surface charge and pore size. The Stokes radius, rs, of SO2-4 (0.231 nm) > Cl-(0.121 nm) [51]. Being a divalent ion, SO2-4 experiences a stronger electrostatic repulsion by the negatively charged MPN surfaces than monovalent Cl-. Additionally, the solvation energy barrier for an ion to partition at the membrane-solution interface is higher for multivalent ions, which further increases SO2-4 retention [32]. The selectivity of Cl-/SO2-4 was 3.7 and 27.2 for the 1TA-4.5Fe and 1TA-5Fe membranes, respectively, reaching 35.4 for the 1TA-8Fe membrane. SO2-4 was completely retained by 1TA-6Fe leading to very high selectivity. The results demonstrate that a monovalent ion-rich permeate can be ob­tained, while concentrating sulfate on the retentate solution. Compared to the single salt Na2SO4 retention test discussed in section 3.2, the retention rate for SO2-4 during the mixed salt NaCl–Na2SO4 solution was slightly higher. Conversely, the retention of the monovalent anion (Cl-) was lower than those in single salt NaCl filtration test. We have also evaluated the performance of the MPN membranes to separate monovalent (Na+) and divalent (Mg2+) cations from two different feed solutions containing mixture of i) NaCl–MgCl2 and ii) Na2SO4–MgSO4.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s to separate monovalent (Na+) and divalent (Mg2+) cations from two different feed solutions containing mixture of i) NaCl–MgCl2 and ii) Na2SO4–MgSO4. The retention of the cations was first studied using Cl- as a common anion in the NaCl–MgCl2 system. Fig. 5a presents the experimental retention values of the cations at 3 bar. As expected, increasing the ferric ion concentration in the casting solution enhanced the MPN membranes’ ability to retain a divalent cation. The retention of Mg2+ increased from 13 % to 80 % as the ferric salt concentration in the casting solution increased from 0.054 w% (1TA-4.5Fe membrane) to 0.096 w% (1TA-8Fe membrane). Unlike anion selectivity, the Donann",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. Single Salts Retention results of a) 1TA-4.5Fe, b) 1TA-5Fe, c) 1TA-6Fe, and d) 1TA-8Fe membranes for 10 mM feed concentration of each salt at 3 bar transmembrane pressure.\n\nFig. 4. The anion retentions in NaCl–Na2SO4 Mixed in equal molarity 10 mM total feed concentration. H.H. Kinfu et al. Journal of Membrane Science 733 (2025) 124320\n\nFig. 5. Cation retentions by the MPN membranes from a) NaCl–MgCl2, and b) Na2SO4–MgSO4 equimolar mixed salt retention test using 10 mM total feed concentration.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6,
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. The retention of ions from multi-ionic mixture. Four salts NaCl–Na2SO4–MgCl2–MgSO4 Mixed in equal molarity for 10 mM total feed concentration. a) 1TA4.5Fe, b) 1TA-5Fe, c) 1TA-6Fe, and d) 1TA-8Fe membrane. H.H. Kinfu et al. Journal of Membrane Science 733 (2025) 124320 effect on monovalent/divalent cation selectivity is inversely related. Since both Na+ and Mg2+ act as counter-ions to the negatively charged TFC membrane surface, the divalent Mg2+ cation more effectively counterbalances the fixed membrane charge. This effect would typically suggest a higher sodium removal rate. However, the observed retention for Mg2+ was significantly higher than that of Na+, likely due to several contributing factors. Mg2+ has a larger hydration radius, resulting in a stronger size exclusion effect [52]. Additionally, Mg2+ possesses a higher ionic charge density compared to Na+, which increases its retention due to stronger dielectric interactions. Mg2+ forms stronger bond with sur­rounding water molecules than Na+ due to its higher hydration energy (1830 kJ/mol for Mg2+ and to 365 kJ/mol for Na+) [53]. Thus, Mg2+ undergoes less dehydration compared to Na+ [54]. This lower dehy­dration tendency hinders Mg2+ permeation through the TA-Fe3+ selec­tive layer, whereas Na+, with weaker hydration, enters the pores of the membrane to permeate more readily. These combined effects result in the TA-Fe3+ membranes exhibiting higher retention towards Mg2+ than Na+ (Fig. 5a).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "membrane to permeate more readily. These combined effects result in the TA-Fe3+ membranes exhibiting higher retention towards Mg2+ than Na+ (Fig. 5a). Next, the separation performance of the membranes was examined using SO2-4 as the common anion. A substantial improvement of rejec­tion was observed (Fig. 5b) compared to the Cl-system (Fig. 5a). Notably, the retention of Mg2+ reached nearly 100 % for the 1TA-6Fe and 1TA-8Fe membranes. The observed Na+/Mg2+ selectivity (SNa/Mg) was 1.2, 4.5, 33.1, and 330 for 1TA-4.5Fe, 1TA-5Fe, 1TA-6Fe and 1TA8Fe membranes, respectively. In contrast, the SNa/Mg in the chloride system ranged between 1 and 3 for all membranes. This significant variation can be attributed to the negatively charged TA-Fe3+ membrane surfaces, which exhibit strong SO2-4 exclusion due to its higher charge density compared to Cl-. The MPN layer effectively excludes multiva­lent anions such as SO2-4 , which simultaneously enhances cation reten­ tion in SO2-4 containing feed solutions. These findings demonstrate that the fabricated TFC membranes exhibit a strong potential for selective monovalent/divalent ion separation. Water sources such as seawater, brackish water, and wastewater, are inherently complex, containing a diverse mixture of ions. Therefore, evaluating membrane performance using multi-ionic feed solution is essential.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "are inherently complex, containing a diverse mixture of ions. Therefore, evaluating membrane performance using multi-ionic feed solution is essential. Here, we extended the investigation by conducting filtration tests with a multi-ionic synthetic feed solution comprising Na+, Cl-,Mg2+ and SO2-4 ions at 3 bar transmembrane pressure. The observed retention of Mg2+ and SO2-4 were higher than those of the monovalent ions (Fig. 6). For different TA-Fe3+ membranes, a significant increase in ion retention was observed with increasing Fe3+ content of TA-Fe3+ selfassembled layer. The average retention of Na+ increased from 18 % to 68 %, Cl-from 12 % to 67 % and Mg2+ from 30 % to 91 %. Moreover, the sulfate retention rate of the TFC membranes from the multi-ionic feed solution reached as high as 98 %. The ion retention rates of the mem­branes tested with a multi-ionic feed solution (Fig. 6) were slightly lower than those observed in a single salt or a ternary-ion retention test (Figs. 3 and Figs. 4–5). This finding underscores the impact of feed solution composition on membrane performance. Overall, 1TA-5Fe, 1TA-6Fe and 1TA-8Fe membranes displayed a promising retention performance, demonstrating the potential of using the fabricated MPN membranes for water softening and wastewater treatment applications.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ng retention performance, demonstrating the potential of using the fabricated MPN membranes for water softening and wastewater treatment applications. The composition of the feed solution is hence one of the main factors governing ion retention and selectivity by membranes, necessitating ion retention study using MPN membranes at different chemical environ­ments. Table 2 summarizes the influence of feed composition on the monovalent/divalent ion selectivity of the TA-Fe3+ selective layers. Na+/Mg2+ selectivity is strongly dependent on the anions in the multi­component aqueous solutions (Table 2). The ideal Na+/ Mg2+ selectivity was <1, characteristic of negatively charged membranes as discussed in section 3.2 for single salt solutions. However, for mixed component systems, real Na+/Mg2+ selectivity was higher for the SO42-containing tertiary system than for the Cl-containing tertiary mixed component feed solution. In contrast, the monovalent/divalent cation selectivities from Na+, Cl-, Mg2+ and SO2-4 quaternary system lies between the se­lectivities from chloride and sulfate containing feed solutions of a ter­tiary mixed ion systems. The presence of a counter-cation (Na+ or Mg2+) in the feed solution considerably affects anions (Cl-/SO2-4 ) selectivity. Compared to those Na+ containing solutions, the anion selectivity generally declines in the presence of a divalent cation (Mg2+).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "SO2-4 ) selectivity. Compared to those Na+ containing solutions, the anion selectivity generally declines in the presence of a divalent cation (Mg2+). This was observed in both single salt solutions (ideal selectivity) and mixed-salt solution (real selectivity) containing Na+ and Mg2+. The adsorption coefficient of divalent cations onto negatively charged NF membranes are 77–128 times higher than that of Na+ [55], reducing the surface charge of the membrane. As such, the electrostatic repulsion exerted on the different anions weakens, and the membrane eventually loses selectivity. The Cl-/SO2-4 selectivity was lower when the MPN membranes were used to filter a quaternary system containing both divalent and monovalent cations, in comparison to tests with tertiary systems. Although we observe that the real selectivity in­creases as the Fe3+ concentration increases (Table 2), water permeance declines significantly (Section 3.1) attributed to the selectivity-permeability trade-off. The flux can be improved by opti­mizing the fabrication conditions to enhance the membrane fixed charge to reject ions without significantly hindering water transport. Future studies can also focus on integrating additives and nanomaterials that facilitate water transport in the MPN layer.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.4. Elucidating ion transport through the MPN membranes using DSPMDE In this section, we adopted the well-established DSPM-DE model to elucidate ion transport and rejection properties of the MPN TFC mem­branes. First, we discuss the membrane input parameters estimated from neutral and charged solute retention measurements. Next, we compare the experimental retention data with the predicted values obtained using the estimated parameters. Finally, we analyze the exclusion mechanisms and ion transport processes occurring across the selective layer of the membranes. 3.4.1. Estimation of membrane parameters The membrane structural parameters were estimated using the pore flow model, based on the retention data of PEG. In this model, the separation layer is assumed to consist of cylindrical pores of uniform Table 2 Ideal and real monovalent/divalent selectivities by the fabricated MPN mem­branes. Ideal selectivity is computed from single salt retention tests of the cor­responding salts. Real selectivity is computed from mixed salt retention tests of feed solution of tertiary and quaternary system. Ideal selectivity Salts1TA-4.5Fe1TA-5Fe1TA-6Fe1TA-8Fe Na+/Mg2+NaCl–MgCl20.80.30.30.4Na2SO4–MgSO40.30.10.40.3Cl-/SO2-4NaCl–Na2SO42.57.65.07.9MgCl2–MgSO41.13.15.55.0 Real selectivity Component mixture1TA4.5Fe\n\n1TA5Fe 1TA6Fe 1TA8Fe",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "H.H. Kinfu et al. Journal of Membrane Science 733 (2025) 124320 size. However, it should be noted that this simplification does not fully capture the actual wide pore size distribution and interconnected pore structure of membranes. The retention data revealed that PEG retention increased with permeate flux and stabilized at higher flux levels, indi­cating a limiting rejection at high applied pressure. The pore radius and effective membrane thickness were determined through the curve fitting of the experimental data (Fig. S5). The estimated membrane parameters are depicted in Table S3 of the supporting information. It was found that the fabricated TA-Fe3+ membranes exhibited varying pore sizes. The 1TA-4.5Fe membrane had the largest pore radius of around 1.25 nm followed by 1TA-5Fe at 1.02 nm. In contrast, the pore sizes of 1TA-6Fe and 1TA-8Fe were estimated at 0.67 nm and 0.63 nm, respectively. The concentration of Fe3+ in the casting solution also affects the Δxe of the TA-Fe3+ selective layer of the TFC membranes. As the FeCl3 concen­tration increased, the Δxe decreased. However, beyond a Fe3+ concen­tration of 0.096 w%, the Δxe began to increase. Unlike neutral solutes, the retention properties of charged solutes, such as ions, are strongly influenced by the membrane’s charge density and pore dielectric constant. Therefore, when applying the DSPM-DE model, estimation of these two membrane parameters is required, typically through fitting procedures [56].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "stant. Therefore, when applying the DSPM-DE model, estimation of these two membrane parameters is required, typically through fitting procedures [56]. To achieve this, ion retention experiments were conducted at different permeate fluxes by regulating the applied transmembrane pressure. A ternary ion mixture comprising Na+ and Mg2+ ions with a common anion (NaCl–MgCl2 system) was used for this purpose. The membrane charge density and pore dielectric constant were subsequently estimated following the procedure outlined in section 2.4.2. The obtained results are presented in Table 3. The pore dielectric constant (ℇp) indeed decreased in the 1TA-4.5Fe > 1TA-5Fe >1TA-6Fe > 1TA-8Fe trend. A lower ℇp indicates the formation of a denser TA-Fe3+ separation layer. However, the membrane charge den­sity follows a different trend for the studied salt solution system. The negative membrane charge density generally decreased as the Fe3+ concentration increased. The presence of divalent cations in the feed solution reduces membrane charge density through binding or complexation, which can even result in surface charge reversal [48]. Here, it can be inferred that with the increase in Fe3+ concentration, the amount of tannic acid assembled into the metal-polyphenol network increases. The anionic functional groups in TA act as a binding site for divalent cations, Mg2+.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nnic acid assembled into the metal-polyphenol network increases. The anionic functional groups in TA act as a binding site for divalent cations, Mg2+. Therefore, the small negative charge density at high Fe3+ concentration is further reduced due to the complexation of Mg2+ with the surface functional groups of the selective layer. 3.4.2. Predicted ion retention results for NaCl–MgCl2 mixed salt system Fig. 7 compares the experimentally determined ion retention by the TA-Fe3+ membranes with the values predicted by the DSPM-DE model for a feed solution containing a mixture of NaCl and MgCl2. The model accurately predicts the exclusion of ions under the investigated condi­tions. The agreement between calculated and experimentally measured retentions by the 1TA-5Fe membrane is especially creditable with 0.90, 0.93 and 0.89 R2 values for Na+, Mg2+ and Cl-, respectively. The 1TA4.5Fe membrane showed the lowest rejections, between 5 and 22 % for all ions, owing to its large rp and ℇp which reduce steric and dielectric effects, respectively. In addition, the computed high membrane charge density of 1TA-4.5Fe illustrates a higher charge interaction with the cations in the feed solutions that accelerates their partitioning into the pore entrance of the membrane. For membranes fabricated with higher Fe3+ concentrations, ion retention increases, as predicted by the model.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "into the pore entrance of the membrane. For membranes fabricated with higher Fe3+ concentrations, ion retention increases, as predicted by the model. Overall, the DSPM-DE model effectively quantifies the ion retention behavior of the MPN membranes across various fluxes. Ion retention increased with permeate flux across all TA-Fe3+ membranes, consistent with the pressure-based rejection measurements (section 3.1). Increased applied pressure enhances the solute retention and dilutes the permeate stream, as water permeation increases linearly with pressure, while ion transport does not follow the same trend [41]. The linear relationship between permeate flux and applied pressure is shown in Fig. S6 of the supporting information. The TA-Fe3+ membranes demonstrated a higher exclusion of the divalent Mg2+ than Na+, a trend well predicted by the model. However, for the 1TA-4.5Fe membrane, a lower retention rate for Mg2+ was observed at high permeate flux, a deviation noted only in the experi­mental data with an unclear underlying cause. The preferential rejection of Mg2+ over Na+ can be attributed to differences in ion size, valence, and physicochemical interactions which influence their exclusion co­efficients. The exclusion coefficients quantify the ion rejection behavior of the MPN membranes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "mical interactions which influence their exclusion co­efficients. The exclusion coefficients quantify the ion rejection behavior of the MPN membranes. The partitioning coefficients governing ion exclusion were determined using equations [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}]–[ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}]. An exclusion factor of 1 represents no solute partitioning at the solution-membrane interface, whereas values greater than 1 indicate ion partitioning to­wards the membrane pores, and values less than 1 signify favorable partitioning toward the feed solution. Coefficients near 1 suggest weak partitioning effects, while more extreme values denote stronger exclu­sion mechanism. For instance, as shown in Fig. 9, the steric exclusion coefficient (Φs) for Na+ was higher than for Mg2+, indicating lower steric hindrance towards sodium. This results from Mg2+ having a larger hy­dration radius than Na+ [52]. The dielectric partitioning coefficient (ΦB) of Mg2+ was one order of magnitude lower than that of Na+ for the 1TA-4.5Fe and 1TA-5Fe membranes. It increased to two orders of magnitude for the 1TA-6Fe and 1TA-8Fe membranes. In contrast, the Donnan partitioning factor (ΦD) favored Mg2+ partitioning into the membrane pores.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "f magnitude for the 1TA-6Fe and 1TA-8Fe membranes. In contrast, the Donnan partitioning factor (ΦD) favored Mg2+ partitioning into the membrane pores. This behavior aligns with Donnan exclusion princi­ples, where divalent counter-ions with higher ionic charge densities bind electrostatically to balance the fixed negative charges in the membrane [57]. The resulting electrical potential (i.e. Donnan potential) at the solution-membrane interface enhances counter-ion transport into the membrane pores. Despite Mg2+ having a higher Donnan partitioning coefficient, Na+ consistently exhibited lower rejection across all MPN membranes. This indicates ion retention is governed by the cumulative partitioning coefficient (Φ = Φs*ΦD*ΦB). The overall Φ values for Na+ were 0.753, 0.673, 0.685, and 0.109, while those for Mg2+ were 0.471, 0.352, 0.266 and 0.006 for the 1TA-4.5Fe, 1TA-5Fe, 1TA-6Fe and 1TA-8Fe membranes, respectively. For Na+/ Mg2+ selectivity, both Donnan and dielectric exclusions have opposing effects. Dielectric exclusion primarily dictated Na+ permeation selectivity, whereas Donnan exclusion negatively influenced it. Compared to these mecha­nisms, steric exclusion had a minimal impact due to the relatively small difference in Φs between Mg2+ and Na+. Overall, the higher rejection of Mg2+ in the ternary ion mixture was largely dictated by the dielectric exclusion mechanism.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Φs between Mg2+ and Na+. Overall, the higher rejection of Mg2+ in the ternary ion mixture was largely dictated by the dielectric exclusion mechanism. Among membranes with varying Fe3+ concen­trations, steric and dielectric partitioning coefficients followed a decreasing trend in the order 1TA-4.5Fe > 1TA-5Fe > 1TA-6Fe >1TA-8Fe. On the other hand, the Donnan exclusion coefficient generally increased with Fe3+ concentration, correlating with the decreasing membrane charge density reported in Table 3. The DSPM-DE model provides a link between various ion transport mechanisms and key physicochemical characteristics of the membranesolution system. Ion transport across the membrane is accounted by three driving forces: fluid flow (convection), concentration gradient (diffusion), and electric potential gradient (electromigration). To iden­tify the dominant transport mechanisms, we analyzed the relationship between ion flux and permeate flux of the NaCl–MgCl2 system for all",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 3 Membrane charge density and pore dielectric constant estimated for two different feed solutions. MembraneEstimated membrane parameters Charge density, CX (mol/m3)Pore dielectric constant, ℇp 1TA-4.5Fe-9.843.41TA-5Fe-8.138.81TA-6Fe-8.527.41TA-8Fe-0.6125.1 H.H. Kinfu et al. Journal of Membrane Science 733 (2025) 124320",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "MPN membranes (Fig. 8). The total flux of each ion in the mixture decreased with an increase in Fe3+ concentration in the casting solution. The dense membranes (1TA-6Fe and 1TA-8Fe) displayed lower ion fluxes in agreement with the higher rejection rates observed in Fig. 7. Fig. S8 (supporting information) schematically illustrates the directions of diffusive, convective and electromigrative fluxes through a negatively charged membrane for both co-ions and counter-ions under conditions of positive retention. Notably, only the counter-ions’ electromigrative flux is directed towards the feed, while both the convective and diffusive fluxes are directed towards the permeate side. Na+ exhibits a higher diffusive flux toward the permeate compared to Mg2+ across all mem­branes. This is attributed to the higher diffusion coefficient of the more mobile Na+ than Mg2+ (see Table S2). Generally, the total ion fluxes increased with permeate flux, mainly due to promoted convection. Chloride flux was mainly dominated by diffusion. For the cations in the mixture, opposing convection and electromigration fluxes were observed during ion transport. Within the nanopores of negatively charged membranes, the local concentration of cations exceeds that of anions (Fig. S9). Therefore, pressure driven flow transports more cations through the membrane via convection than anions [58]. This results in the generation of an electric field to maintain electroneutrality.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "more cations through the membrane via convection than anions [58]. This results in the generation of an electric field to maintain electroneutrality. This field gives rise to cation electromigration that opposes convection, while it adds to convection for anions (Figure S8a and Fig. 8). When comparing the counter-ions, sodium exhibited higher electromigrative fluxes (in absolute values) across all membranes. This is due to the fact that Na+ is more sensitive to electrical potential gradient than Mg2+ [40]. In the 1TA-8Fe membrane, a different scenario was observed. Since the membrane charge density of this thin-film was very small (Table 3), the developed electric field within the membrane is weak that can be easily influenced by the local concentration of ions. Consequently, the cation electromigrative flux aligns with the concentration gradient and con­vection flow, driving ions toward the permeate. In this case Na+ being the more mobile cation, diffused back to the feed side to maintain electroneutrality with the excluded chloride ions, yielding a negative diffusive flux (Fig. 8j). 3.4.3. Predicted ion retention results for NaCl–Na2SO4–MgCl2–MgSO4 mixed salt system (quaternary ion mixture) While most studies in the literature focus on the application of the DSPM-DE model to ternary ion mixtures, many water and wastewater sources contain more complex compositions. Expanding membrane separation predictions to such systems is therefore essential.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "many water and wastewater sources contain more complex compositions. Expanding membrane separation predictions to such systems is therefore essential. Here, we explore the application of the DSPM-DE model to predict the retention of a quaternary-ion mixture by the TFC membranes. The feed solution contains Na+, Mg2+, Cl-, and SO2-4 . The 1TA-5Fe membrane was selected for this study considering both its selectivity towards these ions (Fig. 6) and water flux (Fig. 2). Retentions for all ions were observed to increase with higher permeate flux, attributed to the increased transport of water at elevated pressures. Yet again, as expected the retention of divalent cation and anion (Mg2+ and SO2-4 ) by the MPN skin layer was higher compared to monovalent ions. This result highlights the effi­ciency of the MPN membranes in achieving sufficient ion separation. For the analysis of ion retention with the transport model, the membrane parameters of charge density (-0.54 mol⋅m-3) and pore dielectric constant (30.8) were first estimated from the experimentally measured retentions of this system at different flux. The experimental data are then compared to DSPM-DE model predicted retentions, as shown in Fig. 10a. The model satisfactorily fit the experimental results of ion retention by",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. Experimental (column plot) and DSPM-DE model fitted (scatter plot) retention results of a ternary ion mixture at different permeate fluxes for a) 1TA-4.5Fe, b) 1TA-5Fe, c) 1TA-6Fe, and d) 1TA-8Fe membranes. Mixed salt of 10 mM feed solution of NaCl–MgCl2 was used in which the molar ratio of the cations was 1:1. H.H. Kinfu et al. Journal of Membrane Science 733 (2025) 124320",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 8. Flux contributions vs permeate flux for NaCl–MgCl2 mixed salt retention filtration test. Legend in chloride applies to all. The fluxes were computed inside the membrane pore between the second and third nodes after discretizing the ENP equation by dividing the obtained membrane selective layer thickness to 100 nodes. See Fig. S10 in supporting information for the location of N number of nodes and their corresponding concentration and potential profiles. H.H. Kinfu et al. Journal of Membrane Science 733 (2025) 124320 the TA-Fe3+ membrane although clear deviations were found for anions: overestimating sulfate retention at low fluxes while underestimating chloride removal at high flux. The model-estimated transmembrane ionic fluxes provide valuable insights into the transport mechanisms occurring in the examined systems [41]. Fig. 10b–e illustrates the con­tributions of the individual fluxes to the total flux of each ion. The total flux of the ions followed the trend Na+ > Mg2+ and Cl-> SO2-4 trend, in agreement with the observed retentions; a higher retention of an ion corresponds to a lower transmembrane ion flux. Diffusive flux was the dominant transport mechanism for both anions (Fig. 10d and e). Sur­prisingly, the electromigrative flux of the anions was directed toward the feed side.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "minant transport mechanism for both anions (Fig. 10d and e). Sur­prisingly, the electromigrative flux of the anions was directed toward the feed side. Given the low membrane charge density, it is assumed that the surface charges of the membranes were readily reversed through the binding of Mg2+ ions, creating a low potential region on the feed side, and promoting anion migration toward the feed solution. The transport of Mg2+ across the membrane was also primarily diffusion-driven, with electromigration and convection contributing in their respective order. In contrast, the flux of Na+ was largely governed by electromigration (Fig. 10b). This can be explained by the higher sensitivity of Na+ to the electrical potential gradient compared to Mg2+ [40]. The rejection mechanisms of ions by the MPN membrane are further visualized using exclusion coefficients (Fig. 10f–h). For exclusion co­efficients greater than unity, a higher exclusion coefficient indicates an increased likelihood of partitioning into the pore channels. The parti­tioning coefficients for the monovalent ions were higher for all exclusion mechanisms, justifying the difference in the retention of the ions observed experimentally, except for sodium and magnesium in Donnan exclusion. The higher Donnan exclusion factor of Mg2+ is due to the counter-ion interaction with a negatively charged separation layer.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This emphasizes the importance of including dielectric effect in the theoretical studies on ion separation, especially in the presence of divalent ions [59]. Overall, the fabricated MPN membrane demon­strated a Na+/Mg2+ and Cl-/SO2-4 separation from the mixed ion system (Fig. 10a). Moreover, the DSPM-DE model provides excellent perfor­mance in modeling and illustrating the retention mechanisms of TA-Fe3+ membranes. The exclusion of ions by the MPN thin films at the solution-membrane interface is primarily governed by dielectric effects, driven by the reduced dielectric constant within the small confined pores of the separation layer. 4. Conclusion Metal-phenolic network (MPN) membranes are emerging as a promising class of separation materials, offering tunable surface chem­istry, strong metal-ligand coordination, and excellent stability. Howev­er, their ion retention and ion-ion selectivity in complex ionic environments for NF applications in water purification remained largely unexplored. This study provides a comprehensive analysis of ion retention behavior of MPN-based TFC membranes and extends our un­derstanding of the NF performance using a transport model. The MPNbased TFC membranes were prepared through supramolecular selfassembly of tannic acid (TA) and Fe3+. The TA-Fe3+ selective layer structure was fine-tuned during synthesis.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "were prepared through supramolecular selfassembly of tannic acid (TA) and Fe3+. The TA-Fe3+ selective layer structure was fine-tuned during synthesis. This study highlights the salt retention performance of MPN membranes and evaluates their ion selectivity characteristics in both cationic and anionic mixtures. A detailed investigations into the single and mixed salt retention proper­ties of the membranes shows the fabricated membranes exhibit excellent retention performance for various salts, underscoring their potential for NF and desalination applications. Additionally, the Cl-/SO2-4 and Na+/Mg2+ selectivities were evaluated from various mixed salt systems,",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 9. Exclusion coefficients for a) 1TA-4.5Fe, b) 1TA-5Fe, c) 1TA-6Fe and d) 1TA-8Fe membranes during NaCl–MgCl2 mixed salt retention. H.H. Kinfu et al. Journal of Membrane Science 733 (2025) 124320 including ternary ion mixtures (NaCl–Na2SO4, NaCl–MgCl2 or Na2SO4–MgSO4) and quaternary ion mixtures (NaCl–Na2SO4–MgCl2–MgSO4). Using sulfate as a common anion, the observed SNa+/Mg2+ was 1.2, 4.5, 33.1, and 330 for 1TA-4.5Fe, 1TA-5Fe, 1TA-6Fe and 1TA-8Fe membranes, respectively. However, with chloride as the common anion, SNa+/Mg2+ values ranged only between 1 and 3 for all membranes. On the other hand, an anion selectivity (SCl-/SO2-4 ) of up 35 was achieved from a Na+/Cl-/SO2-4 ternary ion mixture retention test. The ion transport and exclusion properties of the MPN membranes were computationally elucidated using the DSPM-DE model. The model sufficiently predicts the retention performance of a ternary and qua­ternary ion mixtures. Dielectric and Donnan exclusion mechanisms play a key role in the partitioning of ions at the membrane-solution interface, dictating ion selectivity. While diffusion was the dominant transport mechanism for anions, convection primarily governed cation transport in most cases. This study demonstrates that the DSPM-DE model can be applied in predicting the separation properties of MPN membranes and contributes to understanding the transport and exclusion mechanisms which influence their performance.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the separation properties of MPN membranes and contributes to understanding the transport and exclusion mechanisms which influence their performance. The DSPM-DE model is shown to be a valuable tool particularly in providing insight to mass transfer, membrane characteristics, and the overall efficiency of NF systems using MPN membranes. CRediT authorship contribution statement Hluf Hailu Kinfu: Writing – original draft, Validation, Software, Methodology, Investigation, Formal analysis, Data curation,",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 10. a) Experimental performance and model predicted retention of a feed solution containing Na+, Mg2+, Cl-, and SO2-4 ions by the 1TA-5Fe membrane. The permeate flux vs pressure relationship is shown in Fig. S7 of the supporting information. b-e) show the contribution of the three fluxes to the total transport of each ion: b) Na+, c) Mg2+, d) Cl-, and e) SO2-4 ions. Plots (f–h) show the exclusion coefficients for steric, Donnan and dielectric effects, respectively. H.H. Kinfu et al. Journal of Membrane Science 733 (2025) 124320\n\nConceptualization. Md Mushfequr Rahman: Writing – review & edit­ing, Writing – original draft, Visualization, Supervision, Resources, Funding acquisition, Formal analysis, Conceptualization. Nicol´as Cevallos-Cueva: Writing – review & editing, Software, Methodology. Volker Abetz: Writing – review & editing, Supervision, Resources. Funding sources This work was funded by the Hereon-I2B-Project NanoMem. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgment The authors acknowledge Maren Brinkmann for the PEG retention analysis in GPC, Juliana Clodt for preparing the polyacrylonitrile membrane support, Martin Held, Erik S. Schneider and Evgeni Sperling for the SEM images, and Jan Pohlmann for setting up the flux and retention measurement facilities.\n\nNomenclature",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13,
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "SymbolDescription AkMembrane porosityCiConcentration of species i, mol/m3 CXMembrane charge density, mol/m3 Di,pDiffusion coefficient of species i in the pore, m2/sDi,∞Diffusion coefficient of species i in the bulk, m2/se0Elementary charge, 1.60218 * 10-19 CFFaraday constant, 96485.3C/molJiSolute flux for species i, mol/m2⋅sJVPermeate flux, m3/m2⋅sKBBoltzmann constant, 1.38065 * 10-23 J/KKc,iSolute mass transfer coefficient of species i, m/sKi,cConvection hindrance factor of species iKi,dDiffusion hindrance factor of species iNcNumber of componentsrpPore radius, mrsSolute Stokes radius for species i, mRUniversal gas constant, 8.31446 J/mol KRcalCalculated rejection from the modelRexpExperimentally measured rejectionRiRejection ratio of species iTTemperature, KZiValency of species iγiActivity coefficient of species iΔPApplied pressure difference, PaΔΠOsmotic pressure difference, PaΔWiBorn solvation energy barrier, JΔxThickness of membrane active layer, mεbDielectric constant of the bulkεpDielectric constant of the poreε0Permittivity of free spaceλiRatio of solute Stokes radius of species i to effective pore radiusμSolution viscosity, Pa⋅sτTortuosityξElectric potential gradient at the feed/membrane interface, V/mρSolution density, kg/m3 ΦSSteric partitioning coefficient of speciesΦBBorn solvation coefficient (dielectric partitioning coefficient)ΦDDonnan partitioning coefficientΨElectric potential, V",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The subscript b represents for the bulk solution in the feed, m is membrane or just inside the membrane pore, p is permeate side or just outside the pore of the membrane-permeate interface, i for solute species, and real is the real rejection considering concentration polarization. Appendix A. Supplementary data Supplementary data to this article can be found online at https://doi.org/10.1016/j.memsci.2025.124320.\n\nData availability Data will be made available on request.\n\nH.H. Kinfu et al. Journal of Membrane Science 733 (2025) 124320",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Desalination (Amst.) 356 (2015) 226–254, https://doi.org/10.1016/J. DESAL.2014.10.043.[2] D.L. Oatley-Radcliffe, M. Walters, T.J. Ainscough, P.M. Williams, A. W. Mohammad, N. Hilal, Nanofiltration membranes and processes: a review of research trends over the past decade, J. Water Proc. Eng. 19 (2017) 164–171, https://doi.org/10.1016/j.jwpe.2017.07.026.[3] M.Q. Seah, W.J. Lau, P.S. Goh, A.F. Ismail, Greener synthesis of functionalized-GO incorporated TFN NF membrane for potential recovery of saline water from salt/ dye mixed solution, Desalination (Amst.) 523 (2022), https://doi.org/10.1016/j. desal.2021.115403.[4] X.Q. Cheng, Y.Y. Liu, Z.H. Guo, L. Shao, Nanofiltration membrane achieving dual resistance to fouling and chlorine for \"green\" separation of antibiotics, J. Membr. Sci. 493 (2015) 156–166, https://doi.org/10.1016/j.memsci.2015.06.048.[5] S.L. Lin, A.C. Semiao, Y.Q. Zhang, S. Lu, C.H. Lau, Interfacial polymerization using biobased solvents and their application as desalination and organic solvent nanofiltration membranes, J. Membr. Sci. 692 (2024), https://doi.org/10.1016/j. memsci.2023.122281.[6] W.C. Xie, T. Li, A. Tiraferri, E. Drioli, A. Figoli, J.C. Crittenden, B.C. Liu, Toward the next generation of sustainable membranes from green chemistry principles, ACS Sustain. Chem. Eng. 9 (2021) 50–75, https://doi.org/10.1021/ acssuschemeng.0c07119.[7] L. Yang, L. Han, J. Ren, H. Wei, L. Jia, Coating process and stability of metalpolyphenol film, Colloids Surf.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ".org/10.1021/ acssuschemeng.0c07119.[7] L. Yang, L. Han, J. Ren, H. Wei, L. Jia, Coating process and stability of metalpolyphenol film, Colloids Surf. A Physicochem. Eng. Asp. 484 (2015) 197–205, https://doi.org/10.1016/J.COLSURFA.2015.07.061.[8] S. Kim, A. Pasc, Advances in multifunctional surface coating using metal-phenolic networks, Bull. Kor. Chem. Soc. 38 (2017) 519–520, https://doi.org/10.1002/ bkcs.11123.[9] Y.C. Xu, Y.R. Xiao, W.T. Zhang, H.J. Lin, L.G. Shen, R.J. Li, Y. Jiao, B.Q. Liao, Plant polyphenol intermediated metal-organic framework (MOF) membranes for efficient desalination, J. Membr. Sci. 618 (2021), https://doi.org/10.1016/j. memsci.2020.118726.[10] C.M. Gao, H.Y. Chen, S.H. Liu, Y.Q. Xing, S.F. Ji, J.C. Chen, J.J. Chen, P. Zou, J. N. Cai, Preparing hydrophilic and antifouling polyethersulfone membrane with metal-polyphenol networks based on reverse thermally induced phase separation method, Surf. Interfaces 25 (2021), https://doi.org/10.1016/j. surfin.2021.101301.[11] J. Guo, J.J. Richardson, Q.A. Besford, A.J. Christofferson, Y. Dai, C.W. Ong, B. L. Tardy, K. Liang, G.H. Choi, J. Cui, P.J. Yoo, I. Yarovsky, F. Caruso, Influence of ionic strength on the deposition of metal-phenolic networks, Langmuir 33 (2017) 10616–10622, https://doi.org/10.1021/acs.langmuir.7b02692.[12] G. Yun, D.G. Kang, H.B. Rheem, H. Lee, S.Y. Han, J. Park, W.K. Cho, S.M. Han, I. S.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "17) 10616–10622, https://doi.org/10.1021/acs.langmuir.7b02692.[12] G. Yun, D.G. Kang, H.B. Rheem, H. Lee, S.Y. Han, J. Park, W.K. Cho, S.M. Han, I. S. Choi, Reversed anionic hofmeister effect in metal-phenolic-based film formation, Langmuir 36 (2020) 15552–15557, https://doi.org/10.1021/acs. langmuir.0c02928.[13] M.A. Rahim, H. Ejima, K.L. Cho, K. Kempe, M. Müllner, J.P. Best, F. Caruso, Coordination-driven multistep assembly of metal-polyphenol films and capsules, Chem. Mater. 26 (2014) 1645–1653, https://doi.org/10.1021/cm403903m.[14] H.H. Kinfu, M.M. Rahman, Separation performance of membranes containing ultrathin surface coating of metal-polyphenol network, Membranes 13 (2023) 481, https://doi.org/10.3390/membranes13050481.[15] L. Fan, Y. Ma, Y. Su, R. Zhang, Y. Liu, Q. Zhang, Z. Jiang, Green coating by coordination of tannic acid and iron ions for antioxidant nanofiltration membranes, RSC Adv. 5 (2015) 107777–107784, https://doi.org/10.1039/ c5ra23490e.[16] F. You, Y. Xu, X. Yang, Y. Zhang, L. Shao, Bio-inspired Ni2+-polyphenol hydrophilic network to achieve unconventional high-flux nanofiltration membranes for environmental remediation, Chem. Commun. 53 (2017) 6128–6131, https://doi.org/10.1039/c7cc02411h.[17] C.E. Lin, M.Y. Zhou, W.S. Hung, B.K. Zhu, K.R. Lee, L.P. Zhu, L.F. Fang, Ultrathin nanofilm with tailored pore size fabricated by metal-phenolic network for precise and rapid molecular separation, Separ. Purif. Technol.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ng, Ultrathin nanofilm with tailored pore size fabricated by metal-phenolic network for precise and rapid molecular separation, Separ. Purif. Technol. 207 (2018) 435–442, https://doi.org/10.1016/j.seppur.2018.06.077.[18] H. Guo, L.E. Peng, Z. Yao, Z. Yang, X. Ma, C.Y. Tang, Non-polyamide based nanofiltration membranes using green metal-organic coordination complexes: implications for the removal of trace organic contaminants, Environ. Sci. Technol. 53 (2019) 2688–2694, https://doi.org/10.1021/acs.est.8b06422.[19] H.J. Kim, D.G. Kim, H. Yoon, Y.S. Choi, J. Yoon, J.C. Lee, Polyphenol/FeIII complex coated membranes having multifunctional properties prepared by a onestep fast assembly, Adv. Mater. Interfac. 2 (2015) 1–8, https://doi.org/10.1002/ admi.201500298.[20] W. Luo, G. Xiao, F. Tian, J.J. Richardson, Y.P. Wang, J.F. Zhou, J.L. Guo, X.P. Liao, B. Shi, Engineering robust metal-phenolic network membranes for uranium extraction from seawater, Energy Environ. Sci. 12 (2019) 607–614, https://doi. org/10.1039/c8ee01438h.[21] Y.Z. Song, X. Kong, X. Yin, Y. Zhang, C.C. Sun, J.J. Yuan, B. Zhu, L.P. Zhu, Tannininspired superhydrophilic and underwater superoleophobic polypropylene membrane for effective oil/water emulsions separation, Colloids Surf. A Physicochem. Eng. Asp. 522 (2017) 585–592, https://doi.org/10.1016/j. colsurfa.2017.03.023.[22] X.T. Zhao, Y.Y. Jiang, L.J. Cheng, Y.Y. Lan, T.Y. Wang, J.F. Pan, L.F.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". Asp. 522 (2017) 585–592, https://doi.org/10.1016/j. colsurfa.2017.03.023.[22] X.T. Zhao, Y.Y. Jiang, L.J. Cheng, Y.Y. Lan, T.Y. Wang, J.F. Pan, L.F. Liu, Hierarchical metal-phenolic-polyplex assembly toward superwetting membrane for high-flux and antifouling oil-water separation, Chin. Chem. Lett. 33 (2022) 3859–3864, https://doi.org/10.1016/j.cclet.2021.12.017.[23] S.R. Razavi, A. Shakeri, S.M. Mirahmadi Babaheydari, H. Salehi, R.G. H. Lammertink, High-performance thin film composite forward osmosis membrane on tannic Acid/Fe3+ coated microfiltration substrate, Chem. Eng. Res. Des. 161 (2020) 232–239, https://doi.org/10.1016/j.cherd.2020.06.032.[24] Y.J. Shen, L.F. Fang, Y. Yan, J.J. Yuan, Z.Q. Gan, X.Z. Wei, B.K. Zhu, Metal-organic composite membrane with sub-2 nm pores fabricated via interfacial coordination, J. Membr. Sci. 587 (2019) 117146, https://doi.org/10.1016/j. memsci.2019.05.070.[25] D. Liu, Y. Chen, T.T. Tran, G. Zhang, Facile and rapid assembly of highperformance tannic acid thin-film nanofiltration membranes via Fe3+ intermediated regulation and coordination, Separ. Purif. Technol. 260 (2021) 118228, https://doi.org/10.1016/j.seppur.2020.118228.[26] J. Schaep, C. Vandecasteele, A.W. Mohammad, W.R. Bowen, Analysis of the salt retention of nanofiltration membranes using the Donnan-steric partitioning pore model, Separ. Sci. Technol. 34 (1999) 3009–3030, https://doi.org/10.1081/SS100100819.[27] S. Salgin, U. Salgin, N.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the Donnan-steric partitioning pore model, Separ. Sci. Technol. 34 (1999) 3009–3030, https://doi.org/10.1081/SS100100819.[27] S. Salgin, U. Salgin, N. Soyer, Streaming potential measurements of polyethersulfone ultrafiltration membranes to determine salt effects on membrane zeta potential, Int. J. Electrochem. Sci. 8 (2013) 4073–4084, https://doi.org/ 10.1016/S1452-3981(23)14454-3.[28] W.R. Bowen, A.W. Mohammad, Characterization and prediction of nanofiltration membrane performance - a general assessment, Chem. Eng. Res. Des. 76 (1998) 885–893, https://doi.org/10.1205/026387698525685.[29] W.R. Bowen, A.W. Mohammad, N. Hilal, Characterisation of nanofiltration membranes for predictive purposes - use of salts, uncharged solutes and atomic force microscopy, J. Membr. Sci. 126 (1997) 91–105, https://doi.org/10.1016/ S0376-7388(96)00276-1.[30] W.R. Bowen, H. Mukhtar, Characterisation and prediction of separation performance of nanofiltration membranes, J. Membr. Sci. 112 (1996) 263–274, https://doi.org/10.1016/0376-7388(95)00302-9.[31] W.R. Bowen, A.W. Mohammad, Diafiltration by nanofiltration: prediction and optimization, AIChE J. 44 (1998) 1799–1812, https://doi.org/10.1002/ aic.690440811.[32] S. Bandini, D. Vezzani, Nanofiltration modeling: the role of dielectric exclusion in membrane characterization, Chem. Eng. Sci. 58 (2003) 3303–3326, https://doi. org/10.1016/S0009-2509(03)00212-4.[33] H. Al-Zoubi, N. Hilal, N.A. Darwish, A.W.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e characterization, Chem. Eng. Sci. 58 (2003) 3303–3326, https://doi. org/10.1016/S0009-2509(03)00212-4.[33] H. Al-Zoubi, N. Hilal, N.A. Darwish, A.W. Mohammad, Rejection and modelling of sulphate and potassium salts by nanofiltration membranes: neural network and Spiegler-Kedem model, Desalination (Amst.) 206 (2007) 42–60, https://doi.org/ 10.1016/j.desal.2006.02.060.[34] O. Labban, C. Liu, T.H. Chong, J.H. Lienhard V, Fundamentals of low-pressure nanofiltration: membrane characterization, modeling, and understanding the multi-ionic interactions in water softening, J. Membr. Sci. 521 (2017) 18–32, https://doi.org/10.1016/j.memsci.2016.08.062.[35] M.A. Junker, E. te Brinke, C.M.V. Compte, R.G.H. Lammertink, J. de Grooth, W. M. de Vos, Asymmetric polyelectrolyte multilayer nanofiltration membranes: structural characterisation via transport phenomena, J. Membr. Sci. 681 (2023), https://doi.org/10.1016/j.memsci.2023.121718.[36] H.H. Kinfu, M.M. Rahman, E.S. Schneider, N. Cevallos-Cueva, V. Abetz, Charge and size selective thin film composite membranes having tannic acid – ferric ion network as selective layer, J. Membr. Sci. 679 (2023) 121709, https://doi.org/ 10.1016/j.memsci.2023.121709.[37] H.H. Kinfu, M.M. Rahman, E.S. Schneider, N. Cevallos-Cueva, V.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "r, J. Membr. Sci. 679 (2023) 121709, https://doi.org/ 10.1016/j.memsci.2023.121709.[37] H.H. Kinfu, M.M. Rahman, E.S. Schneider, N. Cevallos-Cueva, V. Abetz, Using the assembly time as a tool to control the surface morphology and separation performance of membranes with a tannic Acid–Fe3+ selective layer, Membranes 14 (2024) 133, https://doi.org/10.3390/membranes14060133.[38] V. Silva, P. Pr´adanos, L. Palacio, A. Hern´andez, Alternative pore hindrance factors: what one should be used for nanofiltration modelization? Desalination (Amst.) 245 (2009) 606–613, https://doi.org/10.1016/j.desal.2009.02.026.[39] R.Y. Wang, S.H. Lin, Pore model for nanofiltration: history, theoretical framework, key predictions, limitations, and prospects, J. Membr. Sci. 620 (2021) 118809, https://doi.org/10.1016/j.memsci.2020.118809.[40] V. Geraldes, A.M. Brites Alves, Computer program for simulation of mass transport in nanofiltration membranes, J. Membr. Sci. 321 (2008) 172–182, https://doi.org/ 10.1016/j.memsci.2008.04.054.[41] M. Micari, D. Diamantidou, B. Heijman, M. Moser, A. Haidari, H. Spanjers, V. Bertsch, Experimental and theoretical characterization of commercial nanofiltration membranes for the treatment of ion exchange spent regenerant, J. Membr. Sci. 606 (2020) 118117, https://doi.org/10.1016/j. memsci.2020.118117.[42] D. Rehman, J.H. Lienhard, Global optimization for accurate and efficient parameter estimation in nanofiltration, J. Membr. Sci. Lett.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2020.118117.[42] D. Rehman, J.H. Lienhard, Global optimization for accurate and efficient parameter estimation in nanofiltration, J. Membr. Sci. Lett. 2 (2022) 100034, https://doi.org/10.1016/j.memlet.2022.100034.[43] Q.S. Yao, S.X. Li, R.R. Zhang, L.H. Han, B.W. Su, High-throughput thin-film composite membrane via interfacial polymerization using monomers of ultra-low concentration on tannic acid - copper interlayer for organic solvent nanofiltration, Separ. Purif. Technol. 258 (2021), https://doi.org/10.1016/j.seppur.2020.118027.[44] H. Ejima, J.J. Richardson, K. Liang, J.P. Best, M.P. Van Koeverden, G.K. Such, J. Cui, F. Caruso, One-step assembly of coordination complexes, Science 341 (2013) 154–157, https://doi.org/10.1126/science.1237265.[45] H. Wu, J. Xie, L. Mao, One-pot assembly tannic acid-titanium dual network coating for low-pressure nanofiltration membranes, Separ. Purif. Technol. 233 (2020), https://doi.org/10.1016/j.seppur.2019.116051.[46] Y. Xiao, D. Guo, T. Li, Q. Zhou, L. Shen, R. Li, Y. Xu, H. Lin, Facile fabrication of superhydrophilic nanofiltration membranes via tannic acid and irons layer-bylayer self-assembly for dye separation, Appl. Surf. Sci. 515 (2020) 146063, https:// doi.org/10.1016/j.apsusc.2020.146063.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[47] N.S. Suhalim, N. Kasim, E. Mahmoudi, I.J. Shamsudin, A.W. Mohammad, F. M. Zuki, N.L.A. Jamari, Rejection mechanism of ionic solute removal by nanofiltration membranes: an overview, Nanomaterials (Basel) 12 (2022), https:// doi.org/10.3390/nano12030437.[48] S.C. Osorio, P.M. Biesheuvel, J.E. Dykstra, E. Virga, Nanofiltration of complex mixtures: the effect of the adsorption of divalent ions on membrane retention, Desalination (Amst.) 527 (2022), https://doi.org/10.1016/j.desal.2022.115552.[49] W.M. de Vos, S. Lindhoud, Overcharging and charge inversion: finding the correct explanation(s), Adv. Colloid Interface Sci. 274 (2019), https://doi.org/10.1016/j. cis.2019.102040.[50] M.R. Teixeira, M.J. Rosa, M. Nystr¨om, The role of membrane charge on nanofiltration performance, J. Membr. Sci. 265 (2005) 160–166, https://doi.org/ 10.1016/j.memsci.2005.04.046.[51] W.R. Bowen, J.S. Welfoot, Modelling the performance of membrane nanofiltrationcritical assessment and model development, Chem. Eng. Sci. 57 (2002) 1121–1137, https://doi.org/10.1016/S0009-2509(01)00413-4.[52] H.L. Liu, X. Zhang, Z.X. Lv, F. Wei, Q. Liang, L.J. Qian, Z. Li, X.M. Chen, W.S. Wu, Ternary heterostructure membranes with two-dimensional tunable channels for highly selective ion separation, JACS Au 3 (2023) 3089–3100, https://doi.org/ 10.1021/jacsau.3c00473.[53] Y. Marcus, A simple empirical-model describing the thermodynamics of hydration of ions of widely varying charges, sizes, and shapes, Biophys. Chem.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[54] K. Sharma, N. Akther, Y. Choo, P.F. Zhang, H. Matsuyama, H.K. Shon, G. Naidu, Positively charged nanofiltration membranes for enhancing magnesium separation from seawater, Desalination (Amst.) 568 (2023), https://doi.org/10.1016/j. desal.2023.117026.[55] H.Y. Guo, X.Q. Gao, K.C. Yu, X.M. Wang, S.M. Liu, Ion adsorption on nanofiltration membrane surface and its effect on rejection of charged solutes: a zeta potential approach, Separ. Purif. Technol. 326 (2023), https://doi.org/10.1016/j. seppur.2023.124830.[56] S.B. Rutten, M.A. Junker, L.H. Leal, W.M. de Vos, R.G.H. Lammertink, J. de Grooth, Influence of dominant salts on the removal of trace micropollutants by hollow fiber nanofiltration membranes, J. Membr. Sci. 678 (2023), https://doi.org/10.1016/j. memsci.2023.121625.[57] M. Galizia, F.M. Benedetti, D.R. Paul, B.D. Freeman, Monovalent and divalent ion sorption in a cation exchange membrane based on cross-linked poly (-styrene sulfonate–divinylbenzene), J. Membr. Sci. 535 (2017) 132–142, https://doi.org/ 10.1016/j.memsci.2017.04.007.[58] C. Tang, M.L. Bruening, Ion separations with membranes, J. Polym. Sci. 58 (2020) 2831–2856, https://doi.org/10.1002/pol.20200500.[59] D. Vezzani, S. Bandini, Donnan equilibrium and dielectric exclusion for characterization of nanofiltration membranes, Desalination (Amst.) 149 (2002) 477–483, https://doi.org/10.1016/S0011-9164(02)00784-1.\n\nH.H. Kinfu et al. Journal of Membrane Science 733 (2025) 124320",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006337-main",
+      "title": "Ion selective metal-phenolic network nanofiltration membranes: The role of counterions and predictive modeling",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  }
+]

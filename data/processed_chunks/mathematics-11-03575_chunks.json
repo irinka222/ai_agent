@@ -1,0 +1,226 @@
+[
+  {
+    "content": "1. Introduction Ferrocolloids (also known as magnetic fluids) [1] were synthesized in the 20th century; since then, researchers’ interest in them has not waned. They consist of ferromagnetic particles with a diameter of about 10 nm that are suspended in a carrier liquid, such as kerosene. Surfactants, in our case, oleic acid, are used as stabilizers so that the particles do not coagulate. Ferrocolloids have the unique ability to change their characteristics in a wide range of parameters when exposed to electric and magnetic fields, which allows them to be classified as functional materials and creates opportunities for their wide application in practice, such as in medicine for targeted drug delivery [2], tumor hyperthermia [3], and magnetic particle imaging [4]. In engineering, ferrocolloids are used in sealants and for magnetic fluid cooling [5,6].",
+    "citation": {
+      "authors": [
+        "Chekanov V.",
+        "Kandaurova N.",
+        "Kovalenko A."
+      ],
+      "paper_id": "mathematics-11-03575",
+      "title": "Mathematical Modeling of Single and Phase Autowaves in a Ferrocolloid",
+      "year": 2023,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In one study, a ferrocolloid with a concentration of magnetic particles equal to 3–6 vol.% was placed in a constant electric field. It was found that stable localized structures—layers in which the concentration of magnetic particles is much higher than in the rest of the solution—were formed at the boundary with the electrode [7]. This phenomenon is a distinctive feature of ferrocolloids, and near-electrode layers represent a new type of liquid membrane [8]. The formation of layers leads to a change in the physical properties of the colloidal system and is the cause of various near-surface effects, including the phenomenon of self-organization autowaves [9]. In laboratory experiments, autowaves are reproduced rather rarely; therefore, they are of interest for a comprehensive study. Autowave processes in physical, chemical, and biological objects combine some common properties. The new knowledge, for example, regarding the modes of propagation of autowaves, appears in the experimental study and mathematical modeling of autowaves in a ferrocolloid. This knowledge can be generalized to the processes occurring in excitable biological tissues, e.g., the myocardium of the heart, the retina of the eye, etc. Therefore, the mathematical modeling of the autowave process in a ferrocolloid seems relevant.",
+    "citation": {
+      "authors": [
+        "Chekanov V.",
+        "Kandaurova N.",
+        "Kovalenko A."
+      ],
+      "paper_id": "mathematics-11-03575",
+      "title": "Mathematical Modeling of Single and Phase Autowaves in a Ferrocolloid",
+      "year": 2023,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The first basic mathematical model of autowaves, which was built on a fundamental understanding of the physical and electrochemical processes in a ferrocolloid, is described in [8,10]. As a result of solving the 2D model [10], it was found that the concentration of positively and negatively charged particles changes periodically, as in experiments. And this was practically the only result that could be obtained when implementing a two-dimensional model. In the current work, the model boundary conditions are refined, and the propagation of single (“fast”) and phase (“slow”) autowaves is modeled for the first time.",
+    "citation": {
+      "authors": [
+        "Chekanov V.",
+        "Kandaurova N.",
+        "Kovalenko A."
+      ],
+      "paper_id": "mathematics-11-03575",
+      "title": "Mathematical Modeling of Single and Phase Autowaves in a Ferrocolloid",
+      "year": 2023,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Materials and Methods: Experimental Technique In our laboratory experiments, we used a ferrocolloid of the “magnetite in kerosene” type with the following parameters: concentration 3.4 vol.%, conductivity σ = 3.8·10^{-7} (Ohm·m)^{-1}, and dielectric constant ε = 2. An experimental liquid sample was placed between two electrodes. One of the electrodes was transparent with respect to the falling beam. A detailed description of the experimental device and experimental technique can be found in [8,9]. When exposed to a constant electric field, a layer of concentrated liquid, consisting of individual particles and microdroplets, is formed near the electrodes. According to our measurements, the concentration of magnetite particles in the near-electrode layer is 27–30%, which is much higher than the concentration of particles in the rest of the cell volume, namely, 3.5% [11]. The thickness of the layer is 100–200 nm, depending on the applied voltage [12]. It consists of particles and microdroplets, which are immiscible with the liquid in the volume of the cell, and can be determined as a liquid emulsion membrane. The particles of the ferrocolloid become recharged in the liquid membrane, and this initiates the autowave process [8].",
+    "citation": {
+      "authors": [
+        "Chekanov V.",
+        "Kandaurova N.",
+        "Kovalenko A."
+      ],
+      "paper_id": "mathematics-11-03575",
+      "title": "Mathematical Modeling of Single and Phase Autowaves in a Ferrocolloid",
+      "year": 2023,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This special effect makes it possible to speak of a near-electrode dense layer of ferrocolloid particles (liquid membrane) as a new material that requires more theoretical and laboratory research as well as numerical simulations. Interparticle interactions, structuring, and orientation effects in external fields in a magnetic fluid are traditionally studied using optical methods [13–15]. Autowaves in a ferrocolloid were observed and studied via the method of electrically controlled interference [9]. The surface of a cell with a ferrocolloid is illuminated with light with a wide spectrum of wavelengths. After the formation of a layer of particles (liquid membrane) in an electric field, the falling beam is reflected from the transparent electrode boundaries, interferes, and, as a result, the color of the reflecting surface changes. This is explained by a shift in the spectrum maximum due to an increase in the optical thickness of the layer. A change in color and various dynamic structures can be observed on the surface. When the voltage on the electrodes reaches a critical value, autowaves are observed in the experimental cell with the ferrocolloid. They represent a wave change in the concentration of particles, which is shown as a color change.",
+    "citation": {
+      "authors": [
+        "Chekanov V.",
+        "Kandaurova N.",
+        "Kovalenko A."
+      ],
+      "paper_id": "mathematics-11-03575",
+      "title": "Mathematical Modeling of Single and Phase Autowaves in a Ferrocolloid",
+      "year": 2023,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "At the beginning of the autowave process, there is a rapid change in the color of the cell surface, indicating that a single wave has passed. The first wave is followed by a second one, and after a certain period of time, multiple phase waves are visible on the cell’s surface. They propagate at a lower speed compared to a single wave. The physical mechanism of the autowave process is as follows. Due to the high concentration of magnetite particles in the near-electrode layer (membrane) and their dense packing, the ions injected from the surface of the electrodes accumulate inside the membrane, which leads to the recharging of the particles. This ion impermeability property of near-electrode layers is the main reason for the periodic recharging of particles and the appearance of concentration autowaves.",
+    "citation": {
+      "authors": [
+        "Chekanov V.",
+        "Kandaurova N.",
+        "Kovalenko A."
+      ],
+      "paper_id": "mathematics-11-03575",
+      "title": "Mathematical Modeling of Single and Phase Autowaves in a Ferrocolloid",
+      "year": 2023,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Mathematical Model of Single and Fast Autowaves Our theoretical study is based on the numerical analysis of a mathematical model. The mathematical model of the autowave process in a ferrocolloid is a system of coupled equations describing real physical processes occurring in an experimental cell. It includes the flows of charged particles (described by the Nernst–Planck equation), electric field (described by the Poisson equation), and fluid motion (described by the Navier–Stokes equation). The model presented in this article for the first time contains the original boundary conditions, which reflect the process of recharging in the near-electrode layer of a liquid membrane. The first description of a two-dimensional model of the autowave process in a ferrocolloid was provided in [10].",
+    "citation": {
+      "authors": [
+        "Chekanov V.",
+        "Kandaurova N.",
+        "Kovalenko A."
+      ],
+      "paper_id": "mathematics-11-03575",
+      "title": "Mathematical Modeling of Single and Phase Autowaves in a Ferrocolloid",
+      "year": 2023,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The main process occurring in the system—the movement of colloidal particles due to three transfer mechanisms, namely, diffusion, electromigration, and convection—was taken into account during the creation of this mathematical model. The model considers the transfer of charged magnetic particles with concentrations C1 and C2 and fluxes j1 and j2. Chemical reactions are not considered. The influence of impurity and injected ions is taken into account indirectly in the boundary conditions. The following assumptions were made when constructing the model of the autowave process in a ferrocolloid: (1) Space-charge regions appear in magnetic colloids near the electrodes in high-voltage fields. (2) Ferrocolloid particles move due to electrophoresis; the charge of the particle is due to the adsorption of a single ion. (3) Layers of densely packed magnetic particles are formed in a cell at the boundary with the electrode in an electric field; the stability of the layers is due, among other things, to the magnetic interaction of the particles. (4) Chemical reactions on electrodes with the formation of injected ions occur with the participation of surfactant (oleic acid) molecules, but not impurity ions, whose concentration in the solution is low.",
+    "citation": {
+      "authors": [
+        "Chekanov V.",
+        "Kandaurova N.",
+        "Kovalenko A."
+      ],
+      "paper_id": "mathematics-11-03575",
+      "title": "Mathematical Modeling of Single and Phase Autowaves in a Ferrocolloid",
+      "year": 2023,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The adequacy of the mathematical model of the autowave process in a ferrocolloid was proven in [8,10]. However, there are a number of simplifications in the formulation of the boundary conditions in the two-dimensional model described in [10]. The changes in the boundary conditions, reflected in this work, make it possible to obtain a more accurate correspondence of the model to the physical experiment. The model consists of a system of equations: Nernst–Planck equation for charged particles flows (diffusion coefficient is the same for positively and negatively charged particles, charge numbers zi=±1), material balance equation, Poisson equation for electric field, current density equation, Navier–Stokes equation for fluid, continuity equation, and electric force. Boundary conditions (8)–(20) reflect the essence of the mechanism behind the occurrence of autowaves, namely, the charging and recharging of particles in the near-electrode layer.",
+    "citation": {
+      "authors": [
+        "Chekanov V.",
+        "Kandaurova N.",
+        "Kovalenko A."
+      ],
+      "paper_id": "mathematics-11-03575",
+      "title": "Mathematical Modeling of Single and Phase Autowaves in a Ferrocolloid",
+      "year": 2023,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "To describe the recharge process of particles in a liquid membrane, we used the original boundary conditions (8)–(11). The main difference between these conditions and those presented in [10] is the complete correspondence to the physical processes occurring in the studied phenomenon and the absence of simplifications and empirical reasoning, allowing one to naturally simulate the deep processes occurring in the cell without using additional assumptions or fitting parameters. The physical mechanism: Ferrocolloid particles in the near-electrode layer are charged with a sign opposite to the electrode sign. With an increase in the field strength to medium high-voltage values (~10^5 V/m in our experiments), the injection of ions begins at the electrode. Since the dense layer of particles is stable, it works as a liquid membrane, and the injected ions cannot pass it through. Particles accumulate in the layer, and after a while, they become recharged, and the layer of particles “bounces” from the electrode. Thus, positive particles at the cathode become negative, and the flow of positive particles turns into a flow of negative ones. A similar process occurs at the anode.",
+    "citation": {
+      "authors": [
+        "Chekanov V.",
+        "Kandaurova N.",
+        "Kovalenko A."
+      ],
+      "paper_id": "mathematics-11-03575",
+      "title": "Mathematical Modeling of Single and Phase Autowaves in a Ferrocolloid",
+      "year": 2023,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The model considers the equipotentiality of the cathode and anode surfaces as the boundary conditions for the potential. On all boundaries of the study area, the no-slip condition is used for the velocity. Insulators are considered to be impermeable. At the initial moment of time, the particles are concentrated at both electrodes. For the initial distribution of particles, we accept the condition that the near-electrode layer has already formed; therefore, we use exponential distributions. The coefficient 0.0074 corresponds to the particle concentration in the layer of 27 vol.%. Initially, the solution is assumed to be stationary. In [10], it was assumed that at the beginning of the process, the concentration is distributed uniformly; in the described model, an uneven distribution of concentrations with local maxima is allowed, which makes it possible to naturally simulate the deep processes occurring in the cell without using additional assumptions or fitting parameters. In addition to the conditions for the initial velocity, a condition for the pressure was added, which must be taken into account to achieve a stable numerical solution to the problem using the finite element method in Comsol Multiphysics 5.5.",
+    "citation": {
+      "authors": [
+        "Chekanov V.",
+        "Kandaurova N.",
+        "Kovalenko A."
+      ],
+      "paper_id": "mathematics-11-03575",
+      "title": "Mathematical Modeling of Single and Phase Autowaves in a Ferrocolloid",
+      "year": 2023,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Results of the Computer Experiment The implementation of the model described above made it possible to obtain the following results: 1. It has been established that the autowave process begins with the propagation of a single wave. At the initial moment of time t = 0 s after particle recharging, a positive wave is formed at the anode, and a negative one is formed at the cathode. At t = 0.01 s, the waves are formed, and at t = 0.05 s, they start moving towards each other. Positively charged ferrocolloid particles begin to move towards x = H, and negatively charged particles begin to move towards x = 0. Further, two single concentration waves of different amplitudes move towards each other at different speeds. Then, they meet and begin to interact with each other. Single or “fast” waves create the initial phase gradient of self-oscillations, which is necessary for the excitation of phase waves in the medium.",
+    "citation": {
+      "authors": [
+        "Chekanov V.",
+        "Kandaurova N.",
+        "Kovalenko A."
+      ],
+      "paper_id": "mathematics-11-03575",
+      "title": "Mathematical Modeling of Single and Phase Autowaves in a Ferrocolloid",
+      "year": 2023,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. It has been established that after a certain time interval from the beginning of the autowave process, the mode of propagation of autowaves is replaced by the mode of phase waves. By the term “phase waves”, we mean ensembles of equal-phase planes. It is important to note that in both computer and laboratory experiments, the time intervals when the single wave mode changes to the phase wave mode are practically the same, which proves the adequacy of the presented model. In the time range t = 0.8–1.4 s, phase waves with a speed much less than that of single waves appear. This result is also similar to the experimental one. Since this process occurs rather quickly and the time of influence of the initial conditions is short (<1 s), it can be assumed that concentration fluctuations in a thin, near-surface layer are provided by the medium itself. Contours of concentration lines of positively and negatively charged ferrocolloid particles at different time points are shown. In the refined two-dimensional model of the autowave process in a ferrocolloid, it is possible to obtain a correspondence between computer and laboratory experiments, that is, to reproduce the passage of a single wave and phase waves in an autowave process.",
+    "citation": {
+      "authors": [
+        "Chekanov V.",
+        "Kandaurova N.",
+        "Kovalenko A."
+      ],
+      "paper_id": "mathematics-11-03575",
+      "title": "Mathematical Modeling of Single and Phase Autowaves in a Ferrocolloid",
+      "year": 2023,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5. Conclusions A two-dimensional mathematical model of the autowave process in a ferrocolloid has been developed based on the analysis of the physical processes occurring in a cell with a ferrocolloid. The proposed mathematical model is unique in that it contains only fundamental conservation laws, and, as a result, a periodic wave motion arises, the parameters of which are regulated by the system itself. This is the novelty of the proposed modeling approach. The model described in this paper differs from the one proposed earlier in its original boundary conditions, which take into account the conditions and parameters of a real laboratory experiment. All constants introduced into the model are natural (taken from laboratory experiments) or fundamental numbers. As a result of a computer experiment, the modes of single (“fast”) and phase (“slow”) waves were realized for the first time. It has been established that the time ranges of wave propagation in single and phase modes in both computer and laboratory experiments coincide. It was also confirmed in a computer experiment that the propagation velocity of phase waves is less than that of single waves. The analogy of computer and laboratory experiments in such key parameters as time and speed proves the adequacy of the proposed model.",
+    "citation": {
+      "authors": [
+        "Chekanov V.",
+        "Kandaurova N.",
+        "Kovalenko A."
+      ],
+      "paper_id": "mathematics-11-03575",
+      "title": "Mathematical Modeling of Single and Phase Autowaves in a Ferrocolloid",
+      "year": 2023,
+      "section": "unknown",
+      "pages": [1]
+    },
+    "type": "chunk"
+  }
+]

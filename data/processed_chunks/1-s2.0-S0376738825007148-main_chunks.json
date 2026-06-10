@@ -1,0 +1,563 @@
+[
+  {
+    "content": "Contents lists available at ScienceDirect\n\nJournal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nEffects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis Akihiro Mitsuhara a, Kei Saito b,1, Hiroshi Yukawa a, Kenichi Takai c,∗, Hajime Kimizuka a,∗ a Department of Materials Design Innovation Engineering, Graduate School of Engineering, Nagoya University, Furo-cho, Chikusa-ku, Nagoya Aichi, 464-8603, Japanb Graduate School of Science and Technology, Sophia University, 7-1 Kioi-cho, Chiyoda-ku Tokyo, 102-8554, Japanc Department of Engineering and Applied Science, Faculty of Science and Technology, Sophia University, 7-1 Kioi-cho, Chiyoda-ku Tokyo, 102-8554, Japan A R T I C L E I N F O Keywords:Hydrogen diffusivityHydrogen-permeable alloysMetal–hydrogen systemKinetic Monte Carlo methodThermal desorption spectroscopy",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Thorough assessment of hydrogen and lattice defect interactions in hydrogen-permeable alloys is essential because of their significant influence on hydrogen diffusion, the dominant elementary process in hydrogen permeation. However, the underlying mechanisms are not adequately understood. In this study, theoretical and experimental analyses revealed the controlling factors leading to a significant reduction in the hydrogen diffusivity of B2-structured PdCu alloys, which are promising materials for low-temperature hydrogen purification in practical applications. Using a density functional theory (DFT)-informed kinetic Monte Carlo (KMC) approach, we quantitatively evaluated point defect (i.e., antisite Cu atoms and Cu vacancies) effects on the hydrogen diffusivity (𝐷) of PdCu alloys. It was found that antisite Cu atoms decreased 𝐷 in proportion to their number because of the blocking effect, whereas Cu vacancies strongly decreased 𝐷 at temperatures below 500 K due to the trapping effect. Moreover, the 𝐷 values predicted by KMC simulations considering Cu vacancy effects were in good agreement with their experimental counterparts. Thermal desorption spectroscopy measurements were performed to detect the presence of lattice defects that trapped hydrogen in the PdCu alloys. The results indicate that lattice defects with a hydrogen binding energy of 0.40 eV exist in the sample, and this value is comparable to the DFT result for the Cu vacancy.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "that lattice defects with a hydrogen binding energy of 0.40 eV exist in the sample, and this value is comparable to the DFT result for the Cu vacancy. This suggests that point defects, analogous to Cu vacancies, were responsible for the significant reduction in 𝐷 for PdCu alloys observed in experiments. This study contributes to a detailed understanding of the interplay between hydrogen and lattice defects in Pd-based alloys.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Hydrogen-permeable metal membranes are key materials that will enable the supply of ultra-high-purity hydrogen gas at a low cost, as they can purify hydrogen gas in a simple process and promote the widespread use of hydrogen. Currently, Pd-based alloys, such as Pd–Ag [1–3] alloys with a face-centered cubic (FCC) structure and Pd–53 mol% Cu alloys [2,4–6] (hereafter referred to as Pd–53Cu) with a B2 (CsCl) structure, are practically used as hydrogen-permeable metal membranes. In particular, Pd–53Cu alloys have attracted attention in recent years as materials that can meet the increasing demand for hydrogen purification at relatively low temperatures due to their low activation barrier for hydrogen permeation [6–8]. However, the hydrogen permeability of Pd–53Cu alloys decreases significantly at temperatures below 473 K [6,7,9,10]. Previously, this was thought to",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "∗Corresponding authors. E-mail addresses: takai-k@sophia.ac.jp (K. Takai), kimizuka@nagoya-u.jp (H. Kimizuka).1 Present address: National Institute for Materials Science, 1-1 Namiki, Tsukuba, Ibaraki, 305-0044, Japan. be due to a change in the rate-limiting process of hydrogen permeation from diffusion to surface-induced dissociation [9,10]. However, Yukawa et al. reported that the rate of hydrogen permeation through Pd–53Cu alloys with thicknesses of 19 and 61 μm remained limited by hydrogen diffusion, even in the temperature range where hydrogen permeability was severely degraded [7]. Furthermore, their analyses indicated that the reduction in hydrogen permeability was primarily attributed to the decline in hydrogen diffusivity. They also reported that the hydrogen permeability of PdCu alloys not only decreased significantly at low temperatures but also gradually degraded over several days at room temperature. One possible cause of the reduced hydrogen diffusivity of the Pd–53Cu alloy is the interplay between hydrogen and lattice defects. In fact, for some metals such as body-centered cubic iron and tungsten, the Arrhenius plot of the hydrogen diffusion coefficient\n\nJournal of Membrane Science 734 (2025) 124401\n\nAvailable online 15 July 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A. Mitsuhara et al. exhibits a strong downward bend at low temperatures because of the effects of lattice defects [11–13]. Density functional theory (DFT) calculations have emerged as the dominant approach for elucidating various phenomena inmetal–hydrogen systems, including hydrogen dissolution [14–17], hydrogen diffusion [18–23], and hydrogen trapping [24–28]. Recently, the interactions between hydrogen atoms and point defects in B2structured PdCu alloys were systematically investigated using DFT calculations [8,29]. According to their results, antisite Cu atoms inherent in PdCu alloys (due to the Cu-rich composition) reduce hydrogen diffusivity due to the ‘‘blocking effect’’ caused by repulsion with nearby hydrogen atoms. Although this type of point defect does not significantly affect the hydrogen diffusion barrier and is expected to cause a small reduction in hydrogen diffusivity, its actual quantitative effect is still not understood. Conversely, Cu vacancies and defect complexes called ‘‘double defects’’ strongly bind hydrogen atoms and can significantly reduce hydrogen diffusivity due to the ‘‘trapping effect’’. A double-defect mechanism [8] has been proposed as one of the causes of the gradual decrease in the hydrogen permeability of PdCu alloys at room temperature. However, the quantitative effects of these point defects on the hydrogen diffusivity have not been determined.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ity of PdCu alloys at room temperature. However, the quantitative effects of these point defects on the hydrogen diffusivity have not been determined. Although DFT calculations have yielded the hydrogen binding energies of these defects, there is no experimental evidence to support them. In this study, we performed kinetic Monte Carlo (KMC) simulations [30] using the energetics of a Pd–Cu–H system obtained from DFT calculations to investigate the quantitative effects of the interplay between hydrogen and point defects on the hydrogen diffusivity of PdCu alloys. In the KMC simulations, antisite Cu atoms and Cu vacancies were considered representative point defects in the alloys. Because the hydrogen binding energies of double defects are nearly identical to those of Cu vacancies [8], a similar trapping effect can be expected when introducing the same amount of Cu vacancies instead of double defects. In addition, by evaluating the hydrogen binding energy to lattice defects based on thermal desorption spectroscopy (TDS), the aforementioned issue of reduced hydrogen diffusivity in PdCu alloys at low temperatures was discussed both theoretically and experimentally. This study provides a general understanding of the quantitative effects of point defects on hydrogen diffusivity. The results also provide clues to the cause of the decreased hydrogen diffusivity in PdCu alloys at low temperatures and have allowed us to present design guidelines for the alloys.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Methods 2.1. DFT calculations DFT calculations were performed using the Vienna Ab initio Simulation Package [31] within the generalized gradient approximation of Perdew, Burke, and Ernzerhof (PBE) [32]. Interactions between ions and electrons were described using the projector-augmented wave method [33,34]. The valence electron configurations considered in this study were 4𝑑95𝑠1 for Pd, 3𝑑104𝑠1 for Cu, and 1𝑠1 for H. We used a 6 * 6 * 6 Monkhorst–Pack 𝒌-point mesh [35] for the supercells with dimensions of 3𝑎* 3𝑎* 3𝑎 (where 𝑎 is the lattice constant of the unit cell) of stoichiometric PdCu with a B2 structure. The plane-wave energy cut-off was set to 350 eV. Brillouin zone integration was performed using the Methfessel–Paxton smearing method [36] with a width of 0.2 eV. The energy convergence criterion in the self-consistent calculations for the electron system was set to 1.0 * 10-5 eV. Structural relaxation was performed until the residual forces acting on each atom reached <10 meV/Å.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Energetic and structural models used for KMC simulations. (a) Schematic illustration of the energy landscape model around a Cu vacancy. (b) T-site network structure in the PdCu unit cell with B2 structure, where Pd and Cu atoms are located at the corners and center of the unit cell, respectively, with lattice constant 𝑎. Red cubes represent T sites, and red and blue bonds represent hydrogen diffusion paths for Path 1 and Path 2, respectively. (c) The network structure around a Cu vacancy. The gray circle represents a Cu vacancy. Purple cubes represent hydrogen trapping sites, and purple bonds represent the pathways for trapping and detrapping events.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2. KMC model for hydrogen diffusion in PdCu alloys In this study, the hydrogen diffusion process was represented as a series of hydrogen atom jumps between neighboring interstitial sites. In the KMC method, the temporal evolution of the system was described based on the transition rate: 𝛤𝑖= 𝜈𝑖exp(-𝐸a𝑖𝑘B𝑇 ),(1) where 𝛤𝑖 is the transition rate of an event 𝑖 (corresponding to a hydrogen atom jump from the current to adjacent 𝑖 site); 𝜈𝑖 and 𝐸a𝑖 are the attempt frequency and activation barrier for hydrogen migration, respectively; 𝑘B is the Boltzmann constant; and 𝑇 is the absolute temperature. In each step of the KMC simulations, the transition rates of all possible events were calculated, and the event to occur was selected by drawing a uniform pseudorandom number and comparing it to the weights of the transition rates of all events. The time increment (𝛥𝑡) for each KMC step was determined as 𝛥𝑡= -𝛤-1tot ln 𝑢, where 𝛤tot (= ∑𝑖𝛤𝑖) is the total transition rate and 𝑢 is a uniform pseudorandom number in the interval (0, 1). In B2-type PdCu, tetrahedral (T) sites are the most energetically favorable sites for hydrogen atoms. Therefore, hydrogen atom jumps between neighboring T sites are considered elementary processes for hydrogen migration in bulk PdCu. The network connecting the interstitial T sites in the B2 structure is shown in Fig. 1(b).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "d elementary processes for hydrogen migration in bulk PdCu. The network connecting the interstitial T sites in the B2 structure is shown in Fig. 1(b). Each T site is connected to four neighboring T sites, and the hydrogen diffusion paths can be classified into two different types: Path 1 corresponds to the migration around the octahedral (O) site surrounded by four Pd and two Cu atoms, and Path 2 corresponds to the migration around the O site surrounded by four Cu and two Pd atoms [8,14]. The activation barriers for each diffusion path were obtained from the DFT calculations in our previous study [8]. The attempt frequencies for both paths were determined such that the high-temperature limit of the diffusion coefficient was consistent with experimental values [11]. For simplicity, we assumed that the attempt frequency was the same for both paths. The resulting frequency was 2.43 THz, which is in the range of the Debye frequencies of typical transition metals (1–10 THz) [37,38]. Journal of Membrane Science 734 (2025) 124401",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A. Mitsuhara et al. In our previous DFT study, we demonstrated that antisite Cu atoms prevent the occupation of hydrogen atoms at the first nearest neighbor (1NN, where the 𝑛th nearest neighbor is denoted as 𝑛NN) T sites but only have a minimal effect on the hydrogen diffusion barrier [8]. Therefore, the antisite Cu atoms were modeled as repellers that blocked their 1NN T sites. This resulted in a partial disconnection of the Tsite network for hydrogen migration without affecting other interstitial sites. However, according to previous DFT studies [8,29], Cu vacancies trap multiple hydrogen atoms near the six 1NN O sites. From an energetic point of view, a Cu vacancy can trap up to five or six hydrogen atoms at absolute zero. Therefore, the Cu vacancies were modeled as obstacles with six hydrogen-trapping sites corresponding to the 1NN O sites of the Cu vacancy. To determine the activation barriers for the trapping and detrapping of a hydrogen atom in the KMC model, the minimum energy path (MEP) for the detrapping process of a hydrogen atom from a Cu vacancy was obtained using the nudged elastic band (NEB) method [39] based on DFT. The resulting potential energy landscape for hydrogen migration applied to the KMC model is described in Section 3.1. For the KMC simulations, 30𝑎*30𝑎*30𝑎 and 60𝑎*60𝑎*60𝑎 supercells (containing 54000 and 432000 B2 lattice points, respectively) were used for systems with antisite Cu atoms and Cu vacancies, respectively.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "supercells (containing 54000 and 432000 B2 lattice points, respectively) were used for systems with antisite Cu atoms and Cu vacancies, respectively. To investigate the effect of antisite Cu atoms on hydrogen diffusivity, the composition of the model was varied from Pd–50Cu to Pd–70Cu (i.e., 0–20 mol% antisite Cu atoms in the system). The number of hydrogen atoms was set to 100 for systems with antisite Cu atoms, corresponding to a hydrogen concentration of 1.85 * 10-3 H/M (where H/M represents the ratio of the number of hydrogen atoms to the number of metal atoms). In contrast, for systems with Cu vacancies, the concentration of the Cu vacancies was set to 7–463 ppm. The number of hydrogen atoms was varied such that the hydrogen concentration was 1–10 H/V (where H/V is the ratio of the number of hydrogen atoms to the number of Cu vacancies). For each computational setting, KMC simulations were performed for 5 * 107 and 108 steps for systems containing antisite Cu atoms and Cu vacancies, respectively. The hydrogen diffusion coefficients were calculated from the mean-square displacements using Einstein’s relationship. Uniform pseudorandom numbers were generated using the Mersenne Twister algorithm [40]. 2.3. TDS analysis of hydrogen-charged PdCu alloys The samples used in this study were the practical Pd–53Cu alloys with a thickness of 0.3 mm (𝜙 12 mm) provided by TANAKA PRECIOUS METAL TECHNOLOGIES Co., Ltd.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "les used in this study were the practical Pd–53Cu alloys with a thickness of 0.3 mm (𝜙 12 mm) provided by TANAKA PRECIOUS METAL TECHNOLOGIES Co., Ltd. To ensure that all the samples were in a single B2 phase, the X-ray diffraction (XRD) measurements were performed using a Rigaku Smartlab X-ray diffractometer with Cu K𝛼radiation (at 40 kV and 40 mA). In addition, cross-sections of the samples were observed by scanning electron microscopy and electron backscattering diffraction (SEM-EBSD) to verify the crystal structures inside the samples. Prior to the TDS measurements, the samples were subjected to an ‘‘air treatment’’ [41] at 623 K to activate their surfaces. The samples were then charged with tracer hydrogen at a hydrogen pressure of 0.11–0.12 MPa and at room temperature. As mentioned in Section 1, it has been reported that the hydrogen permeability of the alloy sample decreases over several days at room temperature [7]. Therefore, the samples were exposed to hydrogen gas for sufficiently long periods (several months), allowing us to reproduce the sample conditions after the hydrogen permeation tests. TDS measurements were performed using a gas chromatograph with a thermal conductivity detector at a heating rate of 50–300 K⋅h-1 over a temperature range of 298 to 673 K.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e performed using a gas chromatograph with a thermal conductivity detector at a heating rate of 50–300 K⋅h-1 over a temperature range of 298 to 673 K. The activation barrier for hydrogen desorption (𝐸des) was evaluated using the Choo–Lee plot, described by the following equation: 𝜕ln(𝜑∕𝑇2p) 𝜕(1∕𝑇p)= -𝐸des 𝑅,(2) where 𝜑 is the heating rate, 𝑇p is the peak temperature of hydrogen desorption, and 𝑅 is the gas constant.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Results and discussion 3.1. MEP for hydrogen detrapping from a Cu vacancy The MEP for hydrogen detrapping from Cu vacancies was obtained using DFT-based NEB calculations (Fig. 2). As illustrated in Fig. 2, in the initial state (corresponding to the leftmost plot), the hydrogen atom is energetically deeply trapped near one of the O sites at a 1NN distance from the Cu vacancy. The hydrogen atom then escapes from the Cu vacancy and moves from the 2NN T site to the 3NN T site in the final state (corresponding to the rightmost plot). The 2NN T sites of the Cu vacancy were not local energy minima for hydrogen atoms; therefore, the hydrogen atoms placed at these sites spontaneously moved to the hydrogen-trapping sites (i.e., near the 1NN O sites of the Cu vacancy) after structural relaxation. The activation barrier for hydrogen migration was 0.30 eV from the trapping site to the 2NN T site and 0.06 eV from the 2NN T site to the 3NN T site. The former is comparable to the average binding energy between a hydrogen atom and a Cu vacancy, and the latter is comparable to the activation barrier for the lattice diffusion of interstitial hydrogen atoms in PdCu with a B2 structure (i.e., 0.056 eV for Path 2 [8]). The T-site network structure around Cu vacancies in the B2 lattice is shown in Fig. 1(c). The potential energy landscape around a Cu vacancy applied to the KMC model was modeled by simplifying the MEP, as illustrated in Fig. 1(a).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ig. 1(c). The potential energy landscape around a Cu vacancy applied to the KMC model was modeled by simplifying the MEP, as illustrated in Fig. 1(a). The migration of a hydrogen atom from the 2NN T site to the hydrogen-trapping site is regarded as a trapping event, whereas the reverse event is regarded as a detrapping event. Migration of hydrogen atoms between neighboring T sites beyond the 2NN T sites of Cu vacancies was approximated to be the same as that in a perfect crystal. While the activation barrier for the trapping event was set to zero, the activation barrier for the detrapping event was set to the average binding energy of hydrogen atoms to a Cu vacancy (𝐸b𝑛), as obtained from DFT calculations in a previous study [8]. Since the binding energy depends on the number of hydrogen atoms trapped in the Cu vacancy (1 ≤ 𝑛 ≤ 6), it was assumed that a similar dependence would occur in the activation barrier for the detrapping event (i.e., 𝐸b1 = 0.33 eV, 𝐸b2 = 0.32 eV, 𝐸b3 = 0.28 eV, 𝐸b4 = 0.17 eV, 𝐸b5 = 0.18 eV, and 𝐸b6 = 0.06 eV). For simplicity, the attempt frequencies for both trapping and detrapping events were set to the same values as those for migration events. Owing to their large free volumes, the hydrogen-trapping sites and their neighboring Journal of Membrane Science 734 (2025) 124401",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. (a) Temperature dependence of the hydrogen diffusivity for the PdCu systems containing antisite Cu atoms and (b) average normalized diffusion coefficient of hydrogen as a function of the amount of antisite Cu atoms. The experimental data were taken from Refs. [6,7]. (2NN T) sites can be anticipated to have relatively wider potential wells, resulting in lower attempt frequencies of trapping and detrapping events than those of migration events in bulk PdCu. However, the large activation barrier of detrapping events eventually dominates the temperature dependence of hydrogen diffusion, as indicated by the Arrhenius exponential law. Hence, the approximation used for performing the calculations does not compromise the reliability of the results derived using the KMC simulations or alter the conclusions of this study. Through this modeling, the trajectories of hydrogen atoms on the T-site network with the potential energy landscape were obtained using KMC simulations. 3.2. Effects of antisite Cu atoms on hydrogen diffusivity Fig. 3(a) illustrates Arrhenius plots of the hydrogen diffusion coefficients for PdCu alloys with different compositions containing antisite Cu atoms. The experimental values (at room temperature) immediately after cooling from 623 to 298 K and at steady state are also plotted. Above 500 K, the slopes of the Arrhenius plots agree well with those in the experiment [6,7].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "from 623 to 298 K and at steady state are also plotted. Above 500 K, the slopes of the Arrhenius plots agree well with those in the experiment [6,7]. This indicates that the lattice diffusion of hydrogen in PdCu with an ideal B2 structure was reasonably modeled. As the Cu concentration increased, the Arrhenius plots shifted downward, while maintaining almost the same slope. This occurs because the number of potential diffusion paths for hydrogen is reduced by the disconnection of the T-site network, caused by the blocking effect of the antisite Cu atoms. Fig. 3(b) illustrates the normalized hydrogen diffusivity in PdCu alloys as a function of the number of antisite Cu atoms. As in Fig. 3(a), the Arrhenius plot of the hydrogen diffusion coefficient in PdCu alloys containing antisite Cu atoms had a similar constant slope (i.e., the same activation barrier), regardless of the number of antisite Cu atoms. Therefore, in Fig. 3(b), the hydrogen diffusion coefficients were normalized to the value for PdCu without lattice defects and then averaged over the temperature range considered for each antisite Cu content. Notably, the hydrogen diffusion coefficient decreased linearly as the number of antisite Cu atoms increased. The hydrogen diffusion coefficient was reduced by approximately 9.7% when the number of antisite Cu atoms was 3 mol%, which corresponds to the composition of practical alloys (i.e., Pd–53 mol% Cu alloys).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "oximately 9.7% when the number of antisite Cu atoms was 3 mol%, which corresponds to the composition of practical alloys (i.e., Pd–53 mol% Cu alloys). This indicates that there is still room for improvement in the hydrogen diffusivity of practical PdCu alloys that can be achieved by adjusting their composition to approach stoichiometry. These results suggest that the antisite Cu atoms are not directly involved in the significant reduction of hydrogen diffusivity at low temperatures in PdCu alloys, whereas reducing the Cu concentration may improve hydrogen diffusivity in practical Pd–53Cu alloy membranes. It should be noted again that the attempt frequency for hydrogen migration was set to 2.43 THz so that the KMC results for the hydrogen diffusion coefficients of a perfect PdCu (i.e., Pd–50Cu) crystal would agree with the extrapolated experimental values for Pd–53Cu [11] at the high-temperature limit. The obtained effective attempt frequency was lower than the values predicted from the DFT-calculated vibrational frequencies of the hydrogen atom under the assumption of harmonic transition state theory (14.0 THz for Path 1 and 15.3 THz for Path 2). This discrepancy can be attributed to the fact that the transition-state theory model neglects the effects of thermal vibration and recrossing of the dividing surface between states. In addition, the effective attempt frequency may be affected by the difference in the Cu concentration of the PdCu system being fitted.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "etween states. In addition, the effective attempt frequency may be affected by the difference in the Cu concentration of the PdCu system being fitted. However, we would like to emphasize that the results presented were not affected by different values of the attempt frequency because the hydrogen diffusivity only changed linearly with the attempt frequency over the entire temperature range. 3.3. Effects of Cu vacancies on hydrogen diffusivity Fig. 4(a) illustrates a three-dimensional plot of the hydrogen diffusivity as a function of the temperature, Cu vacancy concentration, and hydrogen concentration. As illustrated in Fig. 4(a), at temperatures above 500 K, the hydrogen diffusion coefficients were similar, regardless of the Cu vacancy and hydrogen concentrations. In contrast, below 500 K, the hydrogen diffusivity as a function of the inverse temperature demonstrated significant downward bending, as in the experiment. The plot of hydrogen diffusivity as a function of inverse temperature exhibited a steep curvature as the Cu vacancy concentration increased. However, the extent of the curvature decreased as the hydrogen concentration increased, and the reduction in hydrogen diffusivity became significantly less pronounced at hydrogen concentrations above 4 H/V. This result indicates that the balance between hydrogen concentration and Cu vacancy concentration was one of the main determinants of hydrogen diffusivity in the PdCu alloys. By cutting out the cross-sections in Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "on and Cu vacancy concentration was one of the main determinants of hydrogen diffusivity in the PdCu alloys. By cutting out the cross-sections in Fig. 4(a), we obtained Arrhenius plots of hydrogen diffusivities for PdCu alloys containing Cu vacancies when the hydrogen concentration ranged from 1 to 10 H/V (Figs. 4(b–e)). Notably, the Arrhenius plots exhibited a relatively lower curvature and gradually became linear as hydrogen concentration increased. Journal of Membrane Science 734 (2025) 124401",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A. Mitsuhara et al.\n\nFig. 4. Hydrogen diffusivities obtained from KMC simulations in the systems containing Cu vacancies: (a) Three-dimensional plot of the hydrogen diffusivity as a function of temperature, Cu vacancy concentration, and hydrogen concentration. (b–e) Arrhenius plots of hydrogen diffusion coefficients with a hydrogen concentration of (b) 1 H/V, (c) 2 H/V, (d) 4 H/V, and (e) 10 H/V. The experimental data were taken from Refs. [6,7].\n\nWhen the hydrogen concentration was 1 H/V, the temperature dependence of the hydrogen diffusivities at a Cu vacancy concentration of 23 ppm was in good agreement with the experimental values obtained using the samples immediately after cooling from 623 to 298 K. Additionally, the experimental data at room temperature, under steady-state conditions, aligned well with the values obtained using\n\nKMC simulations at a Cu vacancy concentration of 167 ppm. This suggests that the number of effective trapping sites increased over time, by an order of magnitude from 23 to 167 ppm, via a double-defect mechanism [8] or a similar process. Below 500 K, the hydrogen diffusivity approached that of perfect crystals, albeit with a slight decrease, when the hydrogen concentration Journal of Membrane Science 734 (2025) 124401",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A. Mitsuhara et al. reached 10 H/V. However, above 500 K, the hydrogen diffusivity at all hydrogen concentrations was comparable to those of perfect crystals, even in the presence of Cu vacancies. These trends suggest that once hydrogen atoms were trapped in Cu vacancies, a significant amount of time was required for them to escape from the Cu vacancies at low temperatures, whereas at temperatures above 500 K, hydrogen atoms could escape from the Cu vacancies much more easily with the help of thermal energy. They also imply that increasing the number of untrapped diffusive hydrogen atoms with increasing hydrogen concentration mitigated the trap-induced decrease in the hydrogen-diffusion coefficient. To demonstrate this, we investigated the temperature and hydrogen concentration dependence of the number of hydrogen atoms trapped in the Cu vacancies. Fig. 5 shows the number density distribution of vacancy–hydrogen clusters at a Cu vacancy concentration of 167 ppm and hydrogen concentration of 1–4 H/V. In Fig. 5, VH𝑛 represents a vacancy–hydrogen cluster consisting of one Cu vacancy and 𝑛 hydrogen atoms. The population of the VH𝑛 clusters was obtained from the trajectories of hydrogen atoms sampled every 107 KMC steps out of a total of 108 KMC steps for each condition. For all hydrogen concentrations considered, the number of vacancies that did not trap hydrogen atoms (i.e., VH0) increased significantly above 500 K.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "For all hydrogen concentrations considered, the number of vacancies that did not trap hydrogen atoms (i.e., VH0) increased significantly above 500 K. This suggests that in the high-temperature region above 500 K, hydrogen atoms can overcome the binding energy and escape from Cu vacancies with the help of thermal energy. At ambient temperature (300 K), when the hydrogen concentration was 1–3 H/V, vacancy–hydrogen clusters containing more hydrogen atoms were formed as the hydrogen concentration increased. However, when the hydrogen concentration was 4 H/V, despite having four times as many hydrogen atoms as Cu vacancies, VH3 (or smaller) clusters were dominant and hardly any VH4clusters were formed. This is because the average binding energy of the hydrogen atoms to a Cu vacancy decreases significantly when the number of hydrogen atoms trapped in the Cu vacancy exceeds four [8]. This result indicates that the number of untrapped diffusive hydrogen atoms increased significantly when the hydrogen concentration reached 4 H/V. These results provide evidence that the Arrhenius plot of hydrogen diffusivity is bent downward at 400–500 K, possibly due to the presence of Cu vacancies, and that the curvature of the downward bend decreases significantly at hydrogen concentrations above 4 H/V, as shown in Fig. 4(a).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ce of Cu vacancies, and that the curvature of the downward bend decreases significantly at hydrogen concentrations above 4 H/V, as shown in Fig. 4(a). The change in the population of the VH𝑛 clusters, and thus the change in the fraction of diffusive hydrogen atoms, is an atomistic explanation for the downward bending of the Arrhenius plot of hydrogen diffusivity caused by the presence of trapping sites for hydrogen atoms. Although it is difficult to determine the actual situation in the experimental samples, our KMC results suggest that Cu vacancies are among the possible candidates responsible for the reduction in hydrogen diffusivity in practical Pd–53Cu alloys at low temperatures. 3.4. Experimental characterization of hydrogen trapping using TDS measurements Fig. 6 shows the XRD profile of the Pd–53 mol% Cu alloy samples used for TDS measurements. No peaks attributed to phases other than the B2 phase were identified. An SEM image of the cross-section of the Pd–53 mol% Cu alloy sample is illustrated in Fig. 7(a), and the EBSD phase map of the corresponding area in Fig. 7(a) is illustrated in Fig. 7(b). Nearly the entire area was observed to be in the B2 phase; the black areas distributed in the sample were probably due to grain boundaries. Based on these results, the sample was considered to be in a single B2 phase. The hydrogen desorption profiles at different heating rates are illustrated in Fig. 8(a).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "sults, the sample was considered to be in a single B2 phase. The hydrogen desorption profiles at different heating rates are illustrated in Fig. 8(a). The average hydrogen concentration obtained from four measurements at different heating rates was 116.8 wt. ppm. All the samples exhibited a single hydrogen desorption peak, likely due to the presence of lattice defects that trapped hydrogen. However, in the temperature range 298 to 673 K, it was difficult to detect the temperature peaks corresponding to the migration of interstitial hydrogen atoms due to their low activation barrier. As illustrated in Fig. 8(b), the Choo–Lee plot based on Eq. (2) exhibited a good linear relationship between the inverse of the peak temperature and ln(𝜑∕𝑇2p ), and thus the value of 𝐸des was estimated to be 0.44 eV from its slope. For the KMC results, the effective activation barrier for hydrogen migration in defect-free PdCu was determined to be 0.044 eV from the slope of the Arrhenius plot of hydrogen diffusivity (Fig. 3(a)). Therefore, the binding energy between hydrogen atoms and lattice defects inherent in the samples was estimated to be 0.40 eV by subtracting the effective activation barrier for hydrogen migration from that for hydrogen desorption. This value was significantly higher than the activation barrier for hydrogen migration between adjacent interstitial sites in bulk PdCu (0.044 eV). These results suggest that the samples contained lattice defects that trapped hydrogen atoms.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "een adjacent interstitial sites in bulk PdCu (0.044 eV). These results suggest that the samples contained lattice defects that trapped hydrogen atoms. It is worth noting that the experimentally obtained binding energy showed reasonable agreement with the DFT-calculated results for Cu vacancies and double defects (i.e., 0.39–0.44 eV and 0.32–0.33 eV with and without zero-point energy (ZPE) correction, respectively) [8]. The computational and experimental results of this study suggest that Cu vacancies (or similar defects) significantly contribute to the decrease in hydrogen diffusivity in PdCu alloys at low temperatures. However, the experiments performed in this study were not sufficient for identifying the types of lattice defects that trap hydrogen atoms. In addition, the change in the rate-limiting process from bulk hydrogen diffusion to surface processes cannot be completely excluded as a factor in the reduced hydrogen permeability of Pd–53Cu alloys at low temperatures. Therefore, additional research combining theoretical modeling and experimental investigations, building on the results of this study, is necessary to better understand the dominant factors that inhibit the hydrogen permeability of PdCu alloys. Furthermore, it is also necessary to extend the theoretical model to account for lattice defects other than Cu vacancies. In this study, the ZPE correction was not applied to prevent overestimating nuclear quantum effects (NQEs) at finite temperatures [42].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Cu vacancies. In this study, the ZPE correction was not applied to prevent overestimating nuclear quantum effects (NQEs) at finite temperatures [42]. Although NQEs play an important role in hydrogen diffusion in metals, especially at low temperatures, evaluating temperature-dependent NQEs requires more advanced approaches, such as path integral molecular dynamics (PIMD) simulations [23,43]. Future issues will include evaluating PIMD-based free energy profiles for hydrogen diffusion in the PdCu alloy and applying these profiles to the KMC model. 4. Conclusions In this study, we quantitatively evaluated the effects of point defects (i.e., antisite Cu atoms and Cu vacancies) on hydrogen diffusivity using DFT-informed KMC simulations. Antisite Cu atoms reduced hydrogen diffusivity due to the blocking effect; thus, the hydrogen diffusivity of the practical Pd–53Cu alloy was predicted to be approximately 9.7% lower than that of a perfect crystal with a stoichiometric composition. This suggests that the hydrogen diffusivity of the Pd–53Cu alloy can be further improved by tuning its composition. However, Cu vacancies significantly reduced the hydrogen diffusivity due to the trapping effect, especially at temperatures below 500 K, such that the temperature dependence of the hydrogen diffusivity was in excellent agreement with that in the experiment. In addition, we performed TDS measurements to characterize the trapping sites of hydrogen atoms from an experimental perspective.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "t in the experiment. In addition, we performed TDS measurements to characterize the trapping sites of hydrogen atoms from an experimental perspective. The binding energy of the hydrogen atoms to the lattice defects was predicted to be 0.40 eV, which is in reasonable agreement with the DFT-calculated value for Cu vacancies. These results suggest that Cu vacancies were primarily responsible for the reduction in hydrogen diffusivity of the practical Pd–53Cu alloy at low temperatures. These findings provide deep insights into the quantitative effects of point defects on hydrogen diffusivity at Journal of Membrane Science 734 (2025) 124401",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A. Mitsuhara et al.\n\nFig. 5. Population of vacancy–hydrogen clusters during KMC simulations at 250–900 K with a hydrogen concentration of (a) 1 H/V, (b) 2 H/V, (c) 3 H/V, and (d) 4 H/V in each system. VH𝑛 represents the vacancy–hydrogen cluster consisting of one Cu vacancy and 𝑛 hydrogen atoms.\n\nFig. 6. An XRD profile for the Pd–53 mol% Cu alloy membrane sample with a thickness of 300 μm used for TDS measurements. the atomic level and establish design guidelines for controlling the composition and structure of PdCu alloys. However, additional research is needed to identify the specific lattice defects responsible for trapping hydrogen atoms and to elucidate the effect of the change in ratelimiting processes observed. Future research should focus on utilizing theoretical modeling to incorporate additional lattice defects, such as dislocations, grain boundaries, and defect complexes (e.g., double and triple defects), in B2-type intermetallics [8] and compare the exper-",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. SEM images of the cross section of the Pd–53 mol% Cu alloy sample with a thickness of 300 μm: (a) an electron image and (b) an EBSD phase map. Blue and red areas in (b) correspond to FCC and B2 phases, respectively. imental results with theoretical findings. Additionally, extending the KMC model to include the coupling between hydrogen diffusion and double-defect formation (i.e., the transformation from Pd vacancies via hydrogen-enhanced Cu diffusion) can facilitate the understanding of the degradation of hydrogen diffusivity in PdCu alloys over time. A future challenge is to establish a comprehensive approach for evaluating hydrogen diffusivities through materials, accounting for different lattice defects and their interactions over time. Journal of Membrane Science 734 (2025) 124401\n\nA. Mitsuhara et al.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7,
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 8. TDS measurement results for a hydrogen-charged Pd–53Cu alloy: (a) hydrogen desorption spectra at various heating rates of 50, 100, 200, and 300 K⋅h-1 and (b) the relationship between ln(𝜑∕𝑇2p ) and 1∕𝑇p. CRediT authorship contribution statement Akihiro Mitsuhara: Writing – original draft, Visualization, Validation, Software, Methodology, Investigation, Funding acquisition, Formal analysis, Data curation, Conceptualization. Kei Saito: Visualization, Validation, Investigation, Formal analysis. Hiroshi Yukawa: Writing – review & editing, Validation, Resources, Investigation, Formal analysis. Kenichi Takai: Validation, Supervision, Methodology. Hajime Kimizuka: Writing – review & editing, Supervision, Project administration, Methodology, Funding acquisition, Conceptualization. Declaration of competing interest The authors declare the following financial interests/personal relationships which may be considered as potential competing interests: Hajime Kimizuka reports financial support was provided by Japan Society for the Promotion of Science. Akihiro Mitsuhara reports financial support was provided by Japan Society for the Promotion of Science. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Acknowledgments The authors would like to thank Mr. Daisuke Horikawa of TANAKA PRECIOUS METAL TECHNOLOGIES Co., Ltd. for providing samples for TDS experiments. This work was supported by Grant-in-Aid for JSPS Research Fellows (Grant No. 24KJ1227) and Grant-in-Aid for Scientific Research (B) (Grant Nos. 24K01145 and 21H01603) from the Japan Society for the Promotion of Science (JSPS). The calculations were partially performed using supercomputers at the Institute for Materials Research of Tohoku University, Japan. Data availability Data will be made available on request.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A. Mitsuhara et al. [16] K. Ito, M. Yamamura, T. Omura, J. Yamabe, H. Matsunaga, Effects of Cr, Mn, and Fe on the hydrogen solubility of Ni in high-pressure hydrogen environments and their electronic origins: An experimental and first-principles study, Int. J. Hydrog. Energy 50 (2024) 148–164, http://dx.doi.org/10.1016/j.ijhydene.2023.09.056.[17] A. Mitsuhara, H. Yukawa, H. Kimizuka, First-principles thermodynamic modeling of hydrogen dissolution in metals, Acta Mater. 289 (2025) 120838, http://dx.doi.org/10.1016/j.actamat.2025.120838.[18] P. Kamakoti, B.D. Morreale, M.V. Ciocco, B.H. Howard, R.P. Killmeyer, A.V. Cugini, D.S. Sholl, Prediction of hydrogen flux through sulfur-tolerant binary alloy membranes, Science 307 (5709) (2005) 569–573, http://dx.doi.org/10.1126/science.1107041.[19] D.E. Jiang, E.A. Carter, Diffusion of interstitial hydrogen into and through bcc Fe from first principles, Phys. Rev. B 70 (2004) 064102, http://dx.doi.org/10.1103/PhysRevB.70.064102.[20] W. Zheng, L. Wu, Q. Shuai, Z. Li, H. Wang, W. Fu, Z. Jiang, C. Zhao, Q. Hua, Mechanism for adsorption, dissociation, and diffusion of hydrogen in high-entropy alloy AlCrTiNiV: First-principles calculation, Nanomaterials 14 (17) (2024) http://dx.doi.org/10.3390/nano14171391.[21] H. Kimizuka, S. Ogata, M. Shiga, Unraveling anomalous isotope effect on hydrogen diffusivities in fcc metals from first principles including nuclear quantum effects, Phys. Rev.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Shiga, Unraveling anomalous isotope effect on hydrogen diffusivities in fcc metals from first principles including nuclear quantum effects, Phys. Rev. B 100 (2) (2019) 024104, http://dx.doi.org/10.1103/PhysRevB.100.024104.[22] H. Kimizuka, M. Shiga, Two distinct non-Arrhenius behaviors of hydrogen diffusivities in fcc aluminum, silver, and copper determined by ab initio path integral simulations, Phys. Rev. Mater. 5 (6) (2021) 065406, http://dx.doi.org/10.1103/PhysRevMaterials.5.065406.[23] H. Kimizuka, S. Ogata, B. Thomsen, M. Shiga, Ab initio path-integral simulations of hydrogen-isotope diffusion in face-centred cubic metals, J. Phys. Condens. Matter. 37 (19) (2025) 193001, http://dx.doi.org/10.1088/1361-648X/adc060.[24] Y. Tateyama, T. Ohno, Stability and clusterization of hydrogen-vacancy complexes in 𝛼-Fe: An ab initio study, Phys. Rev. B 67 (2003) 174105, http://dx.doi.org/10.1103/PhysRevB.67.174105.[25] K. Ohsawa, J. Goto, M. Yamakami, M. Yamaguchi, M. Yagi, Trapping of multiple hydrogen atoms in a tungsten monovacancy from first principles, Phys. Rev. B 82 [ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] (2010) 184117, http://dx.doi.org/10.1103/PhysRevB.82.184117.[26] E. Hayward, C.-C. Fu, Interplay between hydrogen and vacancies in 𝛼-Fe, Phys. Rev. B 87 (2013) 174103, http://dx.doi.org/10.1103/PhysRevB.87.174103.[27] W.T. Geng, L. Wan, J.-P. Du, A. Ishii, N.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ogen and vacancies in 𝛼-Fe, Phys. Rev. B 87 (2013) 174103, http://dx.doi.org/10.1103/PhysRevB.87.174103.[27] W.T. Geng, L. Wan, J.-P. Du, A. Ishii, N. Ishikawa, H. Kimizuka, S. Ogata, Hydrogen bubble nucleation in 𝛼-iron, Scr. Mater. 134 (2017) 105–109, http://dx.doi.org/10.1016/j.scriptamat.2017.03.006.[28] H. Luo, W. Liu, Y. Ma, D. Xiao, B. Chen, Y. Liu, C. Liang, Point-defect modulation of hydrogen migration in Pd-based membranes, J. Membr. Sci. 713 (2025) 123285, http://dx.doi.org/10.1016/j.memsci.2024.123285.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[29] T. Wang, P. Dong, J. Li, Y.-W. You, The factors affecting the diffusion properties of hydrogen in palladium copper alloys: Ab initio study, Int. J. Hydrog. Energy 47 (64) (2022) 27579–27589, http://dx.doi.org/10.1016/j.ijhydene.2022.06.077.[30] A.F. Voter, Introduction to the kinetic Monte Carlo method, in: K.E. Sickafus, E.A. Kotomin, B.P. Uberuaga (Eds.), Radiation Effects in Solids, Springer Netherlands, Dordrecht, 2007, pp. 1–23.[31] G. Kresse, J. Furthmüller, Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set, Phys. Rev. B 54 (16) (1996) 11169–11186, http://dx.doi.org/10.1103/PhysRevB.54.11169.[32] J.P. Perdew, K. Burke, M. Ernzerhof, Generalized gradient approximation made simple, Phys. Rev. Lett. 77 [ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] (1996) 3865–3868, http://dx.doi.org/10.1103/PhysRevLett.77.3865.[33] P.E. Blöchl, Projector augmented-wave method, Phys. Rev. B 50 (24) (1994) 17953–17979, http://dx.doi.org/10.1103/PhysRevB.50.17953.[34] G. Kresse, D. Joubert, From ultrasoft pseudopotentials to the projector augmented-wave method, Phys. Rev. B 59 (3) (1999) 1758–1775, http://dx.doi.org/10.1103/PhysRevB.59.1758.[35] H.J. Monkhorst, J.D. Pack, Special points for Brillouin-zone integrations, Phys. Rev.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1999) 1758–1775, http://dx.doi.org/10.1103/PhysRevB.59.1758.[35] H.J. Monkhorst, J.D. Pack, Special points for Brillouin-zone integrations, Phys. Rev. B 13 [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] (1976) 5188–5192, http://dx.doi.org/10.1103/PhysRevB.13.5188.[36] M. Methfessel, A.T. Paxton, High-precision sampling for Brillouin-zone integration in metals, Phys. Rev. B 40 (6) (1989) 3616–3621, http://dx.doi.org/10.1103/PhysRevB.40.3616.[37] G.R. Stewart, Measurement of low-temperature specific heat, Rev. Sci. Instrum. 54 (1) (1983) 1–11, http://dx.doi.org/10.1063/1.1137207.[38] C. Kittel, P. McEuen, Introduction to Solid State Physics, eighth ed., John Wiley & Sons, 2005, p. 116.[39] H. Jónsson, G. Mills, K.W. Jacobsen, Nudged elastic band method for finding minimum energy paths of transitions, in: B.J. Berne, G. Ciccotti, D.F. Coker (Eds.), Classical and Quantum Dynamics in Condensed Phase Simulations, World Scientific, Singapore, 1998, pp. 385–404, http://dx.doi.org/10.1142/9789812839664_0016.[40] M. Matsumoto, T. Nishimura, Mersenne twister: a 623-dimensionally equidistributed uniform pseudo-random number generator, ACM Trans. Model. Comput. Simul. 8 (1) (1998) 3–30, http://dx.doi.org/10.1145/272991.272995.[41] A.L. Mejdell, H. Klette, A. Ramachandran, A. Borg, R.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ACM Trans. Model. Comput. Simul. 8 (1) (1998) 3–30, http://dx.doi.org/10.1145/272991.272995.[41] A.L. Mejdell, H. Klette, A. Ramachandran, A. Borg, R. Bredesen, Hydrogen permeation of thin, free-standing Pd/Ag23% membranes before and after heat treatment in air, J. Membr. Sci. 307 (1) (2008) 96–104, http://dx.doi.org/10.1016/j.memsci.2007.09.024.[42] H. Kimizuka, S. Ogata, M. Shiga, Mechanism of fast lattice diffusion of hydrogen in palladium: Interplay of quantum fluctuations and lattice strain, Phys. Rev. B 97 (1) (2018) 014102, http://dx.doi.org/10.1103/PhysRevB.97.014102.[43] H. Kwon, M. Shiga, H. Kimizuka, T. Oda, Accurate description of hydrogen diffusivity in bcc metals using machine-learning moment tensor potentials and path-integral methods, Acta Mater. 247 (2023) 118739, http://dx.doi.org/10.1016/j.actamat.2023.118739. Journal of Membrane Science 734 (2025) 124401",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825007148-main",
+      "title": "Effects of hydrogen blocking and trapping by point defects on hydrogen diffusivity in B2-type PdCu alloys: Modeling and experimental analysis",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "content": "1. Introduction Currently, various types of autowaves are known: rectilinear, spiral convex and concave, circular, and others. Not so long ago, several new types of autowaves were discovered that have significant applied value. These are, for example, perforated spiral autowaves, segment waves, accelerating waves, packet waves, etc. [1,2]. There is also a large number of works on the theoretical study of annular and convex spiral autowaves with applications in medicine [3,4].\n\nBasically, the experimental systems in which autowaves are studied in laboratory conditions are chemical systems: these are the classical distributed Belousov-Zhabotinsky system with spiral and concentric waves, the chlorite-iodite-malonic acid system with open Turing structures. In the experimental system we used - a cell with a magnetic fluid (a suspension of nanoparticles of ferro- or ferrimagnetics in a liquid medium (kerosene, water, mineral oil, etc.)) - it was possible to observe practically all types of known autowaves: spirals, anti-spirals, concentric waves, packet waves, autowaves with rectilinear propagation fronts.",
+    "citation": {
+      "authors": ["Chekanov V.", "Kovalenko A.", "Diskaeva E.N.", "Kirillova E."],
+      "paper_id": "Two-dimensional_mathematical_model_of_autowave_process_in_thin_surface_layer_of_liquid_dispersed_nanosystem_magnetic_fluid",
+      "title": "Two-dimensional mathematical model of autowave process in thin surface layer of liquid dispersed nanosystem (magnetic fluid)",
+      "year": 2021,
+      "journal": "Journal of Physics: Conference Series",
+      "volume": 2131,
+      "pages": "022012"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Few chemical systems can produce such a variety of wave types. Taking into account the simple conditions for reproducing the experiment, it is clear that a magnetic fluid as an experimental medium is interesting and promising for studying and modeling wave instability and autowave process from both theoretical and experimental points of view. The goal of this article is to construct a two-dimensional model of an autowave process in a cell with a magnetic fluid, to obtain a numerical solution, and to compare the results of computer and mathematical experiments.",
+    "citation": {
+      "authors": ["Chekanov V.", "Kovalenko A.", "Diskaeva E.N.", "Kirillova E."],
+      "paper_id": "Two-dimensional_mathematical_model_of_autowave_process_in_thin_surface_layer_of_liquid_dispersed_nanosystem_magnetic_fluid",
+      "title": "Two-dimensional mathematical model of autowave process in thin surface layer of liquid dispersed nanosystem (magnetic fluid)",
+      "year": 2021,
+      "journal": "Journal of Physics: Conference Series",
+      "volume": 2131,
+      "pages": "022012"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Experiment A magnetic fluid is a complex colloidal system consisting of nanosized ferrimagnetic particles suspended in a carrier fluid, which is usually an organic solvent (kerosene, mineral oil) or water. To ensure the stability of such a liquid, ferrimagnetic particles are coated with a surfactant, which forms a protective shell around the particles and prevents coagulation. A distinctive feature of a magnetic fluid interacting with an electric field is the formation of near-electrode layers, the concentration of dispersed phase particles in which is much higher than the concentration in the solution. The properties of the near-electrode layers differ from the properties of a magnetic fluid in the volume of the cell; wave instability and autowaves were observed in the near-electrode regions. [5-7].",
+    "citation": {
+      "authors": ["Chekanov V.", "Kovalenko A.", "Diskaeva E.N.", "Kirillova E."],
+      "paper_id": "Two-dimensional_mathematical_model_of_autowave_process_in_thin_surface_layer_of_liquid_dispersed_nanosystem_magnetic_fluid",
+      "title": "Two-dimensional mathematical model of autowave process in thin surface layer of liquid dispersed nanosystem (magnetic fluid)",
+      "year": 2021,
+      "journal": "Journal of Physics: Conference Series",
+      "volume": 2131,
+      "pages": "022012"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "To observe autowaves, the surface of a cell with a magnetic fluid was illuminated with light with a wide spectrum of wavelengths. The cell was placed in a constant or pulsed electric field, dense layers of particles were formed in the near-electrode regions, which was accompanied by a change in the color of the electrode surface. This effect is due to the fact that the complex refractive index of the particles of the dispersed phase of a magnetic fluid (magnetite) differs from the complex refractive index of the dispersion medium (kerosene), and in an electric field the refractive and absorption indices of the colloidal system change at the interface with the transparent electrode due to the migration of particles dispersed phase, while the optical properties of the transparent electrode remain unchanged.",
+    "citation": {
+      "authors": ["Chekanov V.", "Kovalenko A.", "Diskaeva E.N.", "Kirillova E."],
+      "paper_id": "Two-dimensional_mathematical_model_of_autowave_process_in_thin_surface_layer_of_liquid_dispersed_nanosystem_magnetic_fluid",
+      "title": "Two-dimensional mathematical model of autowave process in thin surface layer of liquid dispersed nanosystem (magnetic fluid)",
+      "year": 2021,
+      "journal": "Journal of Physics: Conference Series",
+      "volume": 2131,
+      "pages": "022012"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The visible change in the color of the layer is explained by the shift in the maximum of the spectrum due to an increase in the layer optical thickness. If the surface of a cell with a magnetic fluid is illuminated with light of a certain wavelength (laser), then the intensity of the reflected light will change. When the potential difference across the electrodes reaches a certain critical value φ_cr, then wave movements can be observed on the surface, changing their parameters with a constant potential difference – autowaves (Fig. 1).",
+    "citation": {
+      "authors": ["Chekanov V.", "Kovalenko A.", "Diskaeva E.N.", "Kirillova E."],
+      "paper_id": "Two-dimensional_mathematical_model_of_autowave_process_in_thin_surface_layer_of_liquid_dispersed_nanosystem_magnetic_fluid",
+      "title": "Two-dimensional mathematical model of autowave process in thin surface layer of liquid dispersed nanosystem (magnetic fluid)",
+      "year": 2021,
+      "journal": "Journal of Physics: Conference Series",
+      "volume": 2131,
+      "pages": "022012"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Two-dimensional mathematical model of the autowave process 3.1. General To build a model successfully, we must accept the following: 1. Space charge regions are formed in the near-electrode regions of a cell with a magnetic fluid in an electric field. 2. Particles of a magnetic fluid are not charged, their motion is due to Brownian diffusion, and they are charged only when they enter the space charge in the near-electrode space. 3. In an electric field in a cell with a magnetic fluid, dense near-electrode layers are formed, consisting of particles of the dispersed phase of the magnetic fluid. Strictly speaking, in addition to particles, the layer also contains aggregates of magnetic particles (both solid and microdroplet), but within the framework of this model, we will assume that the near-electrode layer consists only of identical spherical particles surrounded by a surfactant layer. The concentration of particles in the near-electrode layer is ~ 30%.",
+    "citation": {
+      "authors": ["Chekanov V.", "Kovalenko A.", "Diskaeva E.N.", "Kirillova E."],
+      "paper_id": "Two-dimensional_mathematical_model_of_autowave_process_in_thin_surface_layer_of_liquid_dispersed_nanosystem_magnetic_fluid",
+      "title": "Two-dimensional mathematical model of autowave process in thin surface layer of liquid dispersed nanosystem (magnetic fluid)",
+      "year": 2021,
+      "journal": "Journal of Physics: Conference Series",
+      "volume": 2131,
+      "pages": "022012"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The theoretical study is based on a numerical analysis of the mathematical model represented by the boundary value problem, which consists of a solution domain (Fig. 2), a system of equations, and initial and boundary conditions. Consider the cross section of a cell with a magnetic fluid by a plane perpendicular to the plane of the electrodes, then we get a rectangle in which we will simulate the autowave process and the movement of the magnetic fluid. In this case, two opposite sides of the rectangle are electrodes, and the other two sides are insulators. Let us draw the coordinate system so that the anode coincides with the Oy axis, and the Ox axis is directed perpendicular to the anode. The cathode passes through the point x = H. (Note: x=0 and x=H are not necessarily the location of the anode and cathode, but conditional points in the space charge regions in which the process of charging the magnetic fluid particles occurs (at the point x=0 initially there may be no space charge). Let us limit the length of the rectangle to L (Fig. 2).",
+    "citation": {
+      "authors": ["Chekanov V.", "Kovalenko A.", "Diskaeva E.N.", "Kirillova E."],
+      "paper_id": "Two-dimensional_mathematical_model_of_autowave_process_in_thin_surface_layer_of_liquid_dispersed_nanosystem_magnetic_fluid",
+      "title": "Two-dimensional mathematical model of autowave process in thin surface layer of liquid dispersed nanosystem (magnetic fluid)",
+      "year": 2021,
+      "journal": "Journal of Physics: Conference Series",
+      "volume": 2131,
+      "pages": "022012"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Mathematical model The Nernst-Planck equation [8-12] describes the flow of charged particles of the dispersed phase of the magnetic fluid, (particles i=1↔M+, i=2↔M-), due to migration in an electric field, diffusion and convection. The charge numbers of positively charged particles z1=1, and negatively charged particles z2=-1. j_i = - (F/(RT)) z_i D_i C_i ∇φ - D_i ∇C_i + C_i V, i=1,2. (1)\n\nMaterial balance equation: ∂C_i/∂t = -div j_i, i=1,2. (2)\n\nPoisson's equation for the potential of the electric field [8-12]: ε_r Δφ = -F(z1 C1 + z2 C2). (3)\n\nThe current flow equation, meaning that the current flowing through the cell is determined by the particle flux, ε_r – dielectric constant of magnetic fluid, F – Faraday constant, R – universal gas constant, T – average temperature of solution, φ – potential, C_i, j_i, D_i – concentration, flux, diffusion coefficient of the i-th charged particle of the magnetic fluid.",
+    "citation": {
+      "authors": ["Chekanov V.", "Kovalenko A.", "Diskaeva E.N.", "Kirillova E."],
+      "paper_id": "Two-dimensional_mathematical_model_of_autowave_process_in_thin_surface_layer_of_liquid_dispersed_nanosystem_magnetic_fluid",
+      "title": "Two-dimensional mathematical model of autowave process in thin surface layer of liquid dispersed nanosystem (magnetic fluid)",
+      "year": 2021,
+      "journal": "Journal of Physics: Conference Series",
+      "volume": 2131,
+      "pages": "022012"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "I = F(z1 j1 + z2 j2). (4) I – current density determined by the flow of charged particles of a magnetic fluid, V – magnetic fluid flow rate.\n\nThe Navier-Stokes equations (5) and continuity equations for an incompressible fluid (6) describe the velocity field [8-12], formed, in particular, under the action of a forced flow and spatial electric force f = ρE, where ρ = F(z1C1+z2C2) – space charge density, and E = -∇φ – electric field strength, t – time constant.\n\n∂V/∂t + (V·∇)V = -(1/ρ_0)∇P + ν ΔV + (1/ρ_0) f, (5) div V = 0. (6)\n\nρ_0 – fluid density, ν – kinematic viscosity. The formula for the electric force f can be written in another way, using the Poisson equation (3): f = ρ E = ε_r (Δφ) ∇φ = ε_r (∇·E) E. (7)\n\nIf we substitute (1) into (2), then equations (2) will be written in the form: ∂C_i/∂t = ∇·((F/(RT)) z_i D_i C_i ∇φ) - D_i ΔC_i - div(C_i V), i=1,2.",
+    "citation": {
+      "authors": ["Chekanov V.", "Kovalenko A.", "Diskaeva E.N.", "Kirillova E."],
+      "paper_id": "Two-dimensional_mathematical_model_of_autowave_process_in_thin_surface_layer_of_liquid_dispersed_nanosystem_magnetic_fluid",
+      "title": "Two-dimensional mathematical model of autowave process in thin surface layer of liquid dispersed nanosystem (magnetic fluid)",
+      "year": 2021,
+      "journal": "Journal of Physics: Conference Series",
+      "volume": 2131,
+      "pages": "022012"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Boundary and initial conditions For the velocity, the adhesion condition is set everywhere, and the zero initial condition, x,y - coordinates i.e. Vx(0,x,y)=Vy(0,x,y)=0. (8)\n\nAlong with (8), we will use the following boundary conditions.\n\nConditions at the anode (x = 0):\n- (F/(RT0)) D1 z1 C2 ∂φ/∂x - D1 ∂C2/∂x = j1A, (9)\n- (F/(RT0)) D2 z2 C1 ∂φ/∂x - D2 ∂C1/∂x = j2A, (10)\nφ(t,0,y)=α, (11) -n·V(t,0,y)=0. (12)\n\nConditions at the cathode (x = H):\n- (F/(RT0)) D1 z1 C2 ∂φ/∂x - D1 ∂C2/∂x = j1K, (13)\n- (F/(RT0)) D2 z2 C1 ∂φ/∂x - D2 ∂C1/∂x = j2K, (14)\nφ(t,H,y)=0, (15) -n·V(t,H,y)=0. (16)\n\nImpermeability conditions (y=0, y=L) are imposed on insulators:\n-n·j_i=0, i=1,2 (17) -n·∇φ=0. (18)",
+    "citation": {
+      "authors": ["Chekanov V.", "Kovalenko A.", "Diskaeva E.N.", "Kirillova E."],
+      "paper_id": "Two-dimensional_mathematical_model_of_autowave_process_in_thin_surface_layer_of_liquid_dispersed_nanosystem_magnetic_fluid",
+      "title": "Two-dimensional mathematical model of autowave process in thin surface layer of liquid dispersed nanosystem (magnetic fluid)",
+      "year": 2021,
+      "journal": "Journal of Physics: Conference Series",
+      "volume": 2131,
+      "pages": "022012"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "We take the initial conditions consistent with the boundary conditions. At the initial moment of time, the particles of the magnetic fluid are concentrated at each of the electrodes (19), where the functions C10(0,x,y), C20(0,x,y) are concentrated near the straight lines x=0 and x=H, respectively.\n\nC_i(0,x,y,z)=C_i0, i=1,2. (19)\nφ(0,x,y)=α - αx/H. (20)\nC1(0,x,y)=C10(0,x,y)=0.0005·e^{-x/(0.01·H)} mol/m³. (21)\nC2(0,x,y)=C20(0,x,y)=0.0005·e^{-(H-x)/(0.01·H)} mol/m³. (22)\n\nThe initial conditions (t=0) determine the initial state of the system, and its further evolution is determined by equations and boundary conditions.\n\nThe initial speed and the value of the potential are taken equal to zero. Below we consider two options for specifying the initial state of the concentrations of charged particles of a magnetic fluid. We assume that at the initial moment of time, the particles of the magnetic fluid are concentrated at each of the electrodes:\nC1(0,x,y)=C10(0,x,y). (23) C2(0,x,y)=C20(0,x,y). (24)",
+    "citation": {
+      "authors": ["Chekanov V.", "Kovalenko A.", "Diskaeva E.N.", "Kirillova E."],
+      "paper_id": "Two-dimensional_mathematical_model_of_autowave_process_in_thin_surface_layer_of_liquid_dispersed_nanosystem_magnetic_fluid",
+      "title": "Two-dimensional mathematical model of autowave process in thin surface layer of liquid dispersed nanosystem (magnetic fluid)",
+      "year": 2021,
+      "journal": "Journal of Physics: Conference Series",
+      "volume": 2131,
+      "pages": "022012"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.4. Results of numerical experiments Numerical calculation was carried out with the following parameters:\n\nH = 0.5 mm (Cell width), L = 4*H (Cell length), V0 = 0 m/s (Initial speed), C0 = 0 mol/m³ (Initial concentration), D1 = 9.34·10^{-11} m²/s (Diffusion coefficient of positively charged particles), D2 = 9.34·10^{-11} m²/s (Diffusion coefficient of negatively charged particles), z1 = 1, z2 = -1, dnu = 0.8937·10^{-3} Pa·s (Dynamic viscosity), dpr = 2·8.85·10^{-12} F/m (Dielectric constant of liquid), R = 8.3145 J/(mol·K), T = 298.15 K, F = 96485.33 C/mol, rho = 1002 kg/m³ (Fluid density).\n\nWe set the potential across the electrodes φ(t,0,y)=4V. With such a potential difference, concentric autowaves are observed on the surface of a cell with a magnetic fluid.",
+    "citation": {
+      "authors": ["Chekanov V.", "Kovalenko A.", "Diskaeva E.N.", "Kirillova E."],
+      "paper_id": "Two-dimensional_mathematical_model_of_autowave_process_in_thin_surface_layer_of_liquid_dispersed_nanosystem_magnetic_fluid",
+      "title": "Two-dimensional mathematical model of autowave process in thin surface layer of liquid dispersed nanosystem (magnetic fluid)",
+      "year": 2021,
+      "journal": "Journal of Physics: Conference Series",
+      "volume": 2131,
+      "pages": "022012"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Figure 3 shows the result of the implementation of a two-dimensional model of the autowave process in the near-electrode layer of a magnetic fluid - the distribution of the concentration of charged particles in a cell with a magnetic fluid in a plane perpendicular to the electrode. At the time t=3.9 s, a periodic oscillation structure is visible on the cathode surface, qualitatively consistent with experimental studies (Fig. 4), which indicates the adequacy of the mathematical model.\n\nComparative analysis of numerical (Fig. 3) and laboratory (Fig. 4) experiments shows the adequacy of the developed two-dimensional model of the autowave process.",
+    "citation": {
+      "authors": ["Chekanov V.", "Kovalenko A.", "Diskaeva E.N.", "Kirillova E."],
+      "paper_id": "Two-dimensional_mathematical_model_of_autowave_process_in_thin_surface_layer_of_liquid_dispersed_nanosystem_magnetic_fluid",
+      "title": "Two-dimensional mathematical model of autowave process in thin surface layer of liquid dispersed nanosystem (magnetic fluid)",
+      "year": 2021,
+      "journal": "Journal of Physics: Conference Series",
+      "volume": 2131,
+      "pages": "022012"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Conclusion The work considers mathematical modeling of the autowave process in the near-electrode layer of a magnetic fluid. The developed model takes into account the processes occurring in a cell with a magnetic fluid: electromigration and diffusion, convection of particles. The reactions occurring in the cell are taken into account indirectly in the boundary conditions. The obtained numerical solutions are in qualitative agreement with the laboratory experiment. The model contains no fit parameters.\n\nThe research was carried out within the framework of the work of the International Laboratory \"Computer and mathematical modeling of nonlinear processes\".",
+    "citation": {
+      "authors": ["Chekanov V.", "Kovalenko A.", "Diskaeva E.N.", "Kirillova E."],
+      "paper_id": "Two-dimensional_mathematical_model_of_autowave_process_in_thin_surface_layer_of_liquid_dispersed_nanosystem_magnetic_fluid",
+      "title": "Two-dimensional mathematical model of autowave process in thin surface layer of liquid dispersed nanosystem (magnetic fluid)",
+      "year": 2021,
+      "journal": "Journal of Physics: Conference Series",
+      "volume": 2131,
+      "pages": "022012"
+    },
+    "type": "chunk"
+  }
+]

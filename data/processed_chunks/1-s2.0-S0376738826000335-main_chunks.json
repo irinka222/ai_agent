@@ -1,0 +1,889 @@
+[
+  {
+    "content": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O Inyoung Jang a,1 , Haoyu Chen a,1\n\n, Ian S. Metcalfe b , Ryan P. Lively a,* a School of Chemical & Biomolecular Engineering, Georgia Institute of Technology, Atlanta, GA, 30332, United Statesb School of Engineering, Newcastle University, Newcastle upon Tyne, NE1 7RU, United Kingdom",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T While membrane-based CO2 capture is a promising technology for separating CO2 from low-concentration environments such as air, it is generally more energyintensive than alternative separation methods like adsorption. The uphill diffusion of CO2, driven by the dissipation of the chemical potential difference of water, can potentially reduce the energy demand of membrane-based CO2 capture from dilute sources. In this analysis, we explore the coupling between CO2 flux and H2O's chemical potential gradient, hypothesizing that dissipation of H2O chemical potential gradients and CO2-selective sorption enable CO2 transport against its con­centration gradient and even its chemical potential gradient. Through Onsager analysis and second-law thermodynamic evaluations, we demonstrate the feasibility of this mechanism under steady-state conditions from multiple perspectives, considering various thermodynamic and transport aspects. We also highlight how the level of CO2 enrichment from the diluted feed to the more concentrated permeate depends on the fraction of water free energy utilized to drive uphill CO2 diffusion. This analysis aims to provide a foundation and identify key targets for developing membrane materials and processes that are designed to exploit this coupling phenomenon.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Membrane-based CO2 capture techniques are one potential solution for removing CO2 from the atmosphere and other dilute sources, such as exhaust gases. Membranes are semi-permeable materials designed to selectively separate CO2 from other gases such as N2 and O2 [1,2]. Un­like many CO2 capture technologies, membrane-based CO2 separation enables continuous operation without requiring temporal changes in local mass or energy gradients, which simplifies the process and can enhance cost efficiency when CO2 fluxes are sufficiently high. Such flexibility in scaling and operation makes membrane-based CO2 sepa­ration an adaptable and effective solution for CO2 removal across various applications. However, the primary drawback of membrane-based CO2 capture is its poor energy efficiency in the application to low CO2 concentration environments [3,4]. Extracting CO2 from low concentration gas mixtures, such as air, requires a sig­nificant amount of energy to achieve the partial pressure ratios needed for inducing “downhill” permeation of CO2, i.e., CO2 permeation from a state of higher chemical potential to a state of lower chemical potential, as illustrated in Fig. 1 [5,6]. Here, we define the feed (retentate) and permeate (sweep) sides based on the membrane location: z = 0 as the feed side and z = L as the permeate side.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "To address these limitations regarding the kinetics associated with low CO2 concentrations, recent research has focused on advancing membrane materials that enhance both selectivity and flux under ambient conditions [7–9]. Facilitated transport membranes incorpo­rating mobile or fixed-site carriers have achieved high CO2 selectivity under ambient conditions. For instance, Lee and Gürkan developed a poly(ionic liquid) membrane impregnated with ionic liquid carriers and reinforced with graphene oxide nanosheets [7]. The membrane was tested under ambient conditions using a feed stream of 410 ppm CO2 in N2 flowing at 150 sccm at 1 atm, while the downstream side (z = L) was swept with helium at 10 sccm. This sweeping configuration maintained a low CO2 partial pressure on the permeate side, enabling a strong “downhill” chemical potential difference across the membrane. As we will discuss later in this paper, there are some parallels between facili­tated transport membrane materials and membranes designed for uphill CO2 permeation; however, the key distinction between a traditional facilitated transport membrane and an uphill permeating one is the driving force for CO2 permeation. Beyond material optimization, some intriguing work has also studied how transport phenomena in multicomponent systems can be leveraged to further improve performance under dilute conditions. In multicom­ponent systems, the motion of one species can be coupled to driving",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 11 January 2026 0376-7388/ 2026 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC license ( http://creativecommons.org/licenses/bync/4.0/ ). forces acting on other species, including chemical potential driving forces. This coupling between fluxes and driving forces can occur in both gas and liquid separation processes [10–13]. In such systems, the chemical potential gradient of a strongly permeating or highly mobile component can indirectly drive the movement of a less mobile or dilute species. This coupling of forces can potentially be utilized to achieve net flux of a target compound relative to other compounds in a mixture without necessitating the substantial energy input required to supply a specific driving force for that compound [14]. In the context of DAC, we hypothesize that the selective permeation of CO2 facilitated by a large chemical potential gradient of H2O, can drive uphill permeation of CO2 through specific membrane materials. Recent studies have experimentally shown that CO2 uphill diffusion can be driven by utilizing the chemical potential difference of moisture permeating from the permeate side to the feed side of the membrane [15,16]. Water facilitates CO2 desorption on the permeate side while promoting CO2 adsorption on the feed side, thereby enabling the pumping of CO2 to a higher concentration [17]. Specifically, Wade et al.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "te side while promoting CO2 adsorption on the feed side, thereby enabling the pumping of CO2 to a higher concentration [17]. Specifically, Wade et al. [15] predicted through simulation that a moisture-driven CO2 pump using anion exchange membranes could possibly achieve continuous CO2 separation, driven solely by a water vapor concentration gradient when the system is not limited by moisture swing kinetics. The experi­mental results in the study showed transient CO2 separation at 35 ◦C and 5.3 % H2O. Metcalfe et al. [16] experimentally demonstrated continuous uphill diffusion of CO2 across a molten carbonate membrane at high temperature range (550–700 ◦C). The system showed a tenfold increase in CO2 flux under humid conditions compared to dry operation, with counter-permeation of H2O and CO2. Under isobaric conditions, the CO2 concentration on the permeate side (z = L) increased by a factor of 1.5–3.5 at 550 ◦C when the sweep gas (z = L) with 3.5 % H2O relative humidity was fed. The feed side (z = 0) contained 400 ppm CO2 and 200 ppm H2O. These findings demonstrate that membrane separations can exploit multicomponent driving forces, i.e., transmembrane water ac­tivity gradients can be harnessed to drive CO2 separation without directly applying CO2-specific pressure differences.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s, i.e., transmembrane water ac­tivity gradients can be harnessed to drive CO2 separation without directly applying CO2-specific pressure differences. According to the Onsager, Maxwell-Stefan, and second law analyses shown in this work, co-permeation of CO2 “uphill” is feasible purely by utilizing the chemical potential of H2O across the membrane [15,16]. The CO2–H2O coupling effect analyzed here relies on the steady-state dissipation of the chemical potential gradient of H2O across the membrane to drive CO2 transport without the need for cyclic carrier regeneration; we argue that this process can occur in either co-permeation or counter-permeation arrangements for CO2 and H2O depending on the specific constraints of the transport mechanism. Uphill transport phenomenon has also been widely reported in liquid membranes as discussed in Baker's Membrane Technology and Appli­cations, such as cases where a sweep phase has lower solute activity but higher solute concentration [18]. This can, in principle, also occur in the CO2–H2O system. However, in our framework, we intentionally formulate all driving forces in terms of fugacity or chemical potential, rather than explicit activity coefficients. Because fugacity already in­corporates any non-ideality or RH-dependent activity effects, evaluating transport directly in fugacity allows us to bypass the need for a separate CO2 activity-coefficient model under humid conditions.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "effects, evaluating transport directly in fugacity allows us to bypass the need for a separate CO2 activity-coefficient model under humid conditions. Thus, the uphill behavior predicted here reflects an increase in CO2 chemical potential (or fugacity) between z = 0 and z = L that is thermodynamically consistent, regardless of the RH-dependent activity coefficient of CO2 in the gas phase or within the membrane. Here, we determine the maximum levels of CO2 uphill diffusion driven by the chemical potential difference of H2O via the use of highlevel Onsager and second law analyses. The high-level Onsager anal­ysis enables a rough estimation of the effects of coupled forces in the multicomponent system when combined with the Maxwell-Stefan equations. In addition, the second law analysis provides context for the thermodynamic energy changes in the case of a system with CO2 uphill diffusion and ultimately yields a limit on the maximum levels of CO2 enrichment that are realizable with this concept. We show that the total system exhibits an overall increase in entropy despite one component permeating uphill. 2. Onsager analysis To explain the uphill transport of a component in a multicomponent system, its validity can first be examined using Onsager analysis.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Onsager analysis To explain the uphill transport of a component in a multicomponent system, its validity can first be examined using Onsager analysis. When considering a system that is not in global equilibrium but maintains local equilibrium conditions at each end of the medium composed of dilute components such as gas molecules, a concentration gradient of the component forms across the medium, leading to the steady-state diffu­sion of gas molecules from regions of high to low concentration. When a membrane is placed between two chambers with different partial pres­sures of CO2, and N2 is present as a background gas, as shown in Fig. 2a, CO2 continuously permeates from the chamber with higher to lower CO2 partial pressure, driven solely by the CO2 concentration gradient across the membrane, assuming the partial pressures are maintained in each chamber. In the case of multicomponent systems, the fluxes and forces of the components can be coupled, i.e. the thermodynamic forces of one component can influence the flux of another and vice versa [20]. In such cases, Onsager analysis can be applied to predict the flux of gas com­ponents coupled with others in the multicomponent system. For instance, if the system contains different CO2 concentrations in each chamber along with other gas molecules such as H2O, N2, and q (heat transfer), ∇p (pressure gradient) etc., the flux of CO2 can be expressed as Eq.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ch chamber along with other gas molecules such as H2O, N2, and q (heat transfer), ∇p (pressure gradient) etc., the flux of CO2 can be expressed as Eq. (1), where, JCO2 refers to the flux of CO2 across the membrane, and Fi represents the conjugated driving forces [20]. This flux of CO2 is influ­enced not only by its own force but also by the conjugated thermody­namic forces exerted by the other components. JCO2 = JCO2 (FCO2, FH2O, FN2, Fq, F∇p..)(1) In short form, the flux can be expressed through Eq. (2) for all components, where Lαβ represents the Onsager's phenomenological co­efficients, which can be expressed in a matrix form L (second rank tensor). j⇀ α =∑ β Lαβ F→ β(2)",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Schematic illustration of the membrane-based direct air capture system, having downhill permeation of CO2. I. Jang et al. Journal of Membrane Science 742 (2026) 125153\n\nOnsager's principle stems from the statistical theory of reversible fluctuations and is based on three key assumptions. First, equilibrium thermodynamics can be applied to calculate both the total rate of en­tropy change and local entropy production, under the assumption of local equilibrium. Second, entropy production is non-negative [20] (Eq. (3) and Eq. (4)). In Eq. (3) and Eq. (4), ˙σ represents the local rate of entropy-density production, ∂̂s ∂t is total rate of entropy-density production in isolated system and J→ s represents the entropy flux, which is related to the sum of all potentials multiplying their conjugated fluxes. T ˙σ =∑ β ∑ αLαβ F→ α F→ β(3) ˙σ ≡∂̂s ∂t + ∇⋅J→ s ≥0(4) Third, each flux exhibits a linear dependence on all relevant driving forces [21]. When forces and fluxes are defined as conjugate pairs, the coupling coefficients (off-diagonal terms) exhibit symmetry, meaning that: Lαβ = Lβα(5) This symmetry simplifies the coupled force-flux equations and en­ables predictions that can be experimentally verified. Onsager's sym­metry principle indicates that the terms in Eq. (5) imply eigenvalues of matrix L in Eq. (2) are real numbers. In addition, the quadratic form in Eq. (3), combined with Eq. (4), demonstrates that the kinetic matrix L is positive semi-definite, viz.,",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[ФОРМУЛА: [FORMULA_ID: 719dac95-0709-43c8-8e7c-bb780b378fef] ⎤ ⎦ ⎡ ⎣ F1 ⋯ Fn ⎤ ⎦≥0 (6)]\n\nThis means all the eigenvalues (characteristic values) for the matrix are non-negative, which should satisfy the following conditions in case of a two-component system [20,22]. ⃒⃒⃒⃒LααLαβLβαLββ ⃒⃒⃒⃒= LααLββ -LαβLβα ≥0(7) For the case where only a single force exists, ˙σ = Lαα F→ α ≥0(8) i.e. the diagonal elements of phenomenological coefficients (direct coefficients), Lαα, are always non-negative. When considering all offdiagonal terms (coupling coefficients), Lαβ, the phenomenological co­efficients must satisfy the following condition, which stems from Eq. (7). [22] LααLββ ≥14 (Lαβ + Lβα )2(9) When applying Eq. (2) to the multicomponent transport system in Fig. 2b, where CO2, H2O and N2 exist, the flux of component i can be expressed, including the conjugated forces from other components, as shown in Eq. [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}]. J→ CO2 = LCO2-CO2 ⋅F→ CO2 + LCO2-H2O ⋅F→\n\nH2O + LCO2-N2⋅F→ N2[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}]",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The driving force can then be expressed in terms of the chemical po­tential gradients across the membrane (Eq. [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}]); we assume there is a",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Schematic illustrations of a. CO2 permeation due to the CO2 concentration gradient and chemical potential gradient across the membrane, and b. CO2 uphill diffusion driven by the chemical potential gradient of H2O across the membrane in a multicomponent system, where N2 is present as a background gas. c. The plot shows Fickian diffusion behavior in binary mixture solution, while d. the ternary mixture solution has a potential zone for reverse or uphill diffusion area in the plot. Reproduced with permission [19]. I. Jang et al. Journal of Membrane Science 742 (2026) 125153 negligible chemical potential gradient for N2 for simplicity and because membranes capable of meaningful uphill CO2 transport must have high CO2/N2 permselectivities. Hence, there are negligible coupled forces with other components, except for H2O. Eq. [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] can also be expressed in terms of fugacity across the membrane (or partial pressure under ideal gas condition, Eq. [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}]) for the system under constant temperature and pressure conditions. J→ CO2 = LCO2-CO2 ⋅(-∇μCO2 )+ LCO2-H2O\n\n[ФОРМУЛА: [FORMULA_ID: ff8fd7d7-c782-4d94-9fda-e5adea039c53] ( -∇μH2O ) (11)]",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[ФОРМУЛА: [FORMULA_ID: 066c89a3-107f-4326-a51a-6baf83e7c8dc] J→ CO2 = LCO2-CO2 ⋅ ( - RT fCO2 ∇fCO2 ) + LCO2-H2O]\n\n[ФОРМУЛА: [FORMULA_ID: a709a4ad-cdf4-4412-be85-c4099e94f9ad] ( - RT fH2O ∇fH2O ) (12)]\n\nHere, R is the universal gas constant, and T is the absolute temperature. ∇fCO2 and ∇fH2O are the transmembrane fugacity gradients of CO2 and water, and fCO2 and fH2O are the fugacity of CO2 and water, respectively. Eq. [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] shows that it is possible for a component to be transported against its chemical potential gradient [12]. For instance, when both diagonal (direct) and off-diagonal (coupling) Onsager phenomenolog­ical coefficients are positive values, according to Eq. [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}], the flux of CO2 (JCO2) can have a positive value even in the presence of a positive ∇fCO2. Here, under the assumption of both positive off-diagonal and diag­onal Onsager coefficients, H2O and CO2 will always exhibit copermeation (as opposed to counter permeation) when CO2 uphill diffusion occurs. This is because JCO2 is dominated by the term LCO2-H2O ( -RTfH2O∇fH2O ) when ⃒⃒∇fH2O",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "⃒⃒≫ ⃒⃒∇fCO2 ⃒⃒. As a result, the CO2 permeation will consistently align with the direction of H2O permeation, driven by the substantial concentration gradient of H2O. However, when the off-diagonal coefficient is negative, (LCO2-H2O < 0), CO2 uphill diffusion will occur during counter permeation of H2O and CO2. This is because, for JCO2 to align with the positive sign of ∇fCO2 (indicating uphill diffusion), ∇fH2O must have high positive value. Consequently, JCO2 and JH2O will permeate in opposite directions. This co-permeation and counter-permeation principle will be discussed in more detail in the following Maxwell-Stefan diffusion model analysis. We note that “sorp-vection”, as introduced by Koros and co-workers, can also be included within our framework [23]. In the Onsager formulation, sorp-vection corresponds to a co-permeation case in which a positive cross-coefficient LCO2-H2O > 0 allows the chemical-potential gradient of a fast-moving species (e.g., H2O) to convect a more slowly permeating, sorbed species (CO2). 2.1. Maxwell-Stefan diffusion model analysis Here, we explicitly assume diffusion-controlled transport in order to construct a simplified and representative framework for analyzing gas transport through the membrane. We note that alternative transport regimes may arise, particularly in systems involving strong surface re­actions, where carrier-mediated reactions between CO2 and H2O can modify the attainable CO2 partial pressure.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "y in systems involving strong surface re­actions, where carrier-mediated reactions between CO2 and H2O can modify the attainable CO2 partial pressure. Such cases would require a different analytical approach and are beyond the scope of the present study. As established by Krishna and others, the Maxwell-Stefan diffusion model can also rationalize uphill permeation systems [24]. The Max­well–Stefan equations (Eq. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}]) provide a general framework for describing steady state diffusion in multicomponent mixtures, which is suitable for interpreting the systems in thermodynamic non-idealities [25]. The general form of the Maxwell-Stefan equation with idealized concentration driving force is: dxi dz = -∑n j=1,j∕=i xixj (u→ i -u→ j ) Ðij",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] where xj is the mole fraction of species j, u→ i and u→ j are the molar averaged convective velocity of species i or j, respectively, and Ðij is the Maxwell-Stefan diffusivity with the units of m2 s-1. Eq. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] relates the gradient of mole fraction to the relative velocities of species i and j ( u→ i, u→ j, respectively), modulated by a diffusional factor (Ðij). For a binary mixture of ideal gases, the Maxwell–Stefan equations are: dx1 dz = - x1x2 (u→ 1 -u→ ) Ð12\n\n[ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] dx2 dz = - x1x2 (u→ 2 -u→ ) Ð21\n\n[ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}]",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Also, given the molar flux of component i is N→ i = ci u→ i, i.e., N→ i =ctxi u→ i, the equations can be solved to be explicit for flux for a binary system, viz, N→ 1 = -ctÐ12 dx1 dz(16) N→ 2 = -ctÐ21 dx2 dz(17) where, ct is a total molar concentration of components.Eq. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] could be also expressed in terms of chemical potential gradient. Using ∂μ = RT∂ln xigi , (i.e. ∂μ = RT\n\n∂xigixi ), where μi is chemical\n\n[ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}]\n\nN→ 1 = -c1Ð12 RT dμ1 dz(19) N→ 2 = -c2Ð21 RT dμ2 dz(20) The form of the Maxwell-Stefan equation in a binary system re­sembles Fick's law, which is valid only for very dilute systems where interactions between species are negligible. In a ternary mixture, the multicomponent effect (uphill diffusion) can occur, which cannot be observed in a binary system [26]. For a ternary mixture of ideal gases, N→ i can be expressed as below (Eqs. 21 and 22) using Eq. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] and N→ i =ctxi u→ i. dx1 dz = -x2 N→ 1 -x1 N→ 2ctÐ12 -x3 N→ 1 -x1 N→ 3ctÐ13\n\n(21) dx2 dz = -x1 N→ 2 -x2 N→ 1ctÐ21 -x3 N→ 2 -x2 N→ 3ctÐ23\n\n(22)",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Subsequently, they can be simplified into Eq. (23) and Eq. (24), showing fluxes as linear functions of the driving forces, which is well explained by Krishna [19]. N→ 1 = -ctD11 dx1 dz -ctD12 dx2 dz(23) N→ 2 = -ctD22 dx1 dz -ctD21 dx2 dz(24) These equations can be expressed in a more compact matrix form, sometimes referred to as the Fick-Onsager formulation [27], viz.,\n\nI. Jang et al. Journal of Membrane Science 742 (2026) 125153\n\n[ N ] = -ct[D] d[x]dz(25) Where [N] is the vector of molar fluxes, and the diffusion coefficient matrix [D] is given by:",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4,
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "By combining the Maxwell-Stefan equations in Eq. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] with the positive entropy production equation in Eq. (8), the matrix [D] is posi­tive definite such that the Maxwell-Stefan Diffusivities (Ðij) in Eq. (26)must be non-negative. However, for the Fickian diffusion coefficients in [D] matrix, the off-diagonal elements Dij. i∕=j can be either positive or negative, including the case of ideal gas mixtures whereas, diagonal elements Dii are individually positive for mixtures of ideal gases. In ternary systems, there exists a region where N→ i has a positive value while dxi also has a positive value, which is indicated with red color in Figs. 2d and 3a. Here, N→ i has the same sign (+) as the con­centration gradient of the component i, indicating reverse diffusion or uphill diffusion. In this case, x1 and x2 permeate in the same direction since the sign of N→ 1 is positive (N→ 1 > 0) while the sign of ∇x2 is negative (∇x2 < 0). This indicates that the signs of N→\n\n1 and N→ 2 are the same, as",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "N→ 2 has the opposite sign to ∇x2 when the concentration gradient of the gas component is the primary driving force for diffusion of x2 across the membrane. We note that this analysis applies only under the condition where |∇x2| ≫|∇x1|. It is helpful to briefly distinguish the different diffusivities discussed in this analysis. In the Maxwell-Stefan framework, the diffusivity Ð12 represents the inverse friction between two molecular species. In this sense, a large Ð12 indicates weak momentum coupling and thus easier relative motion between species 1 and 2. In contrast, the Fickian diffu­sivities D12 appearing in Eq. (26) have a different physical interpreta­tion, which describe how driving force from species 2 contributes to the flux of species 1. Their magnitudes reflect the strength of coupling, and their signs reflect the direction of that coupling. Thus, a large |D12| in­dicates strong coupling between species 1 and 2. Because the MaxwellStefan and Fick formulations describe species interactions differently (frictional coupling versus flux-force coupling), their “diffusivities” need not have similar magnitudes or even the same sign.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "teractions differently (frictional coupling versus flux-force coupling), their “diffusivities” need not have similar magnitudes or even the same sign. However, as previously mentioned, while Ðij must be non-negative, values of the Fickian diffusion coefficients in the [D] matrix can have either positive or negative values (indeed, the requirement of a negative Fickian diffusion coefficient to rationalize uphill diffusion is often cited as the reason for the utilization of the Maxwell-Stefan equations [24]). As illustrated in Fig. 3b, when D11 is positive and D12 is negative, uphill diffusion can occur from feed (z = 0) to the permeate side (z = L) when",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. Schematic illustration of the chemical potential gradient across the membrane is shown in cases where (a) D12 is positive and (b) D12 is negative. Co-flow of CO2 and H2O always occurs when both diffusion coefficients are positive, whereas counter-flow occurs when the off-diagonal diffusion coefficients are negative. The analysis applies under the condition where |∇x2| ≫|∇x1|. [D] =1x1Ð23 + x2Ð13 + x3Ð12 [Ð13(x1Ð23 + (1 -x1)Ð12)x1Ð23(Ð13 -Ð12)x2Ð13(Ð23 -Ð12)Ð23(x2Ð13 + (1 -x2)Ð12)\n\n](26)\n\nI. Jang et al. Journal of Membrane Science 742 (2026) 125153",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "∇x2 > 0 across the membrane. In this case, counter permeation of the component 1 and component 2 occurs under the condition of component 1's uphill diffusion. As shown in Fig. 3a, when D12 is positive, co-permeation of the two components always occurs during uphill diffusion, whereas when D12 is negative, counter permeation always occurs across the membrane. The appearance of a negative D12 in Fig. 3b is physically meaningful and consistent with classical multicomponent diffusion theory. Because D12 describes the response of species 1 to the gradient of species 2, its sign encodes directional coupling rather than intrinsic mobility, which is related to mean squared displacements during a random walk. A nega­tive D12 thus reflects that gradients in species 2 drive species 1 in the opposite direction (i.e., counter-coupled behavior), instead of a negative diffusivity in the physical sense. Similar negative effective crosscoefficients have been documented in various systems such as ternary metallic diffusion couples and in reactive CO2–H2O systems where reversible formation of bicarbonate/carbonate species induces counterpermeation [16,28,29]. The sign of D12 can also be rationalized directly from Eq.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "reversible formation of bicarbonate/carbonate species induces counterpermeation [16,28,29]. The sign of D12 can also be rationalized directly from Eq. (26): when the Maxwell-Stefan diffusivity of CO2 in the membrane (Ð13) is much larger than the CO2–H2O diffusivity (Ð12), CO2 moves more easily relative to the membrane than relative to water, leading to the upper right component of the matrix (x1Ð23(Ð13 -Ð12)) to be positive (i.e., D12 > 0) and thus co-permeation. Conversely, when Ð12 > Ð13, D12 becomes negative, and counter-permeation arises. For example, CO2 diffuses slightly slower in PEI (1.09 * 10-9 m2 s-1) than in water (2.13 * 10-9 m2 s-1), which leads to the counter-permeation described in Fig. 3b [30,31]. However, the magnitude of ∣ D12 ∣ is gov­erned by the absolute values and difference between Ð13 and Ð12 and determines the strength of coupling. If there is a constraint on species flux, for example, to maintain charge neutrality within the membrane, the sign of the off-diagonal Onsager coefficient may become negative [13,32]. This occurs in cases where the transport mechanism involves surface–membrane reactions that drive CO2 and H2O in opposite directions involving ionic species transport such as HCO3-[15,16].",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rt mechanism involves surface–membrane reactions that drive CO2 and H2O in opposite directions involving ionic species transport such as HCO3-[15,16]. However, in the absence of a charge neutrality constraint, such as when only neutral species like N2, H2O, or CO2 are transported and when transport is not governed by competitive sorption on the membrane surface [33], the off-diagonal Onsager coef­ficient can be positive, resulting in co-transport of the two components.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Second law analysis Every separation process can be conceptualized as an engine, but the energy utilization differs fundamentally between processes. In a normal membrane separation process, mechanical work (WMech) is applied to generate chemical work (WChem), with associated entropy loss (Fig. 4a). In contrast, the uphill permeation process discussed here uses chemical work derived from the mixing of two compositionally different streams in the presence of a membrane. This chemical work directly drives the separation process, producing slightly less chemical work (Wʹ Chem) on the outlet side than was performed, with the difference representing the entropic penalty, as shown in Fig. 4b. The second law of thermodynamics imposes strict conditions on the feasibility of such separation processes. Uphill separation, such as the transport of CO2 against its chemical potential gradient, must adhere to the law to ensure that any process is thermodynamically valid. Specif­ically, any process must be driven by sufficient energy and result in a net increase in entropy for the overall system. We analyze two key factors to determine whether this uphill sepa­ration process satisfies the second law of thermodynamics. First, the energy required for separation should originate from the dissipation of the chemical potential (or free energy) of other species within the sys­tem.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e energy required for separation should originate from the dissipation of the chemical potential (or free energy) of other species within the sys­tem. For instance, the mixing process of other gas species (e.g., H2O, N2) can potentially provide the energy needed to separate and transport CO2 uphill. This available energy can be quantified by the maximum work available from the mixing process (Wmax). For the separation process to be thermodynamically feasible, Wmax must be greater than or equal to the minimum work required for the subsequent separation (Wmin). Second, total entropy generation (σ) is non-negative (σ ≥0), with σ = 0 indicating a fully reversible process. Together, these analyses allow us to provide bounds on the extent of uphill transport that can be permitted within a membrane separation process. As noted earlier, one conceptual way to enable uphill transport of CO2 is via the mixing of two gas streams with identical CO2 partial pressures but different water contents. For instance, consider mixing humid air and dry air, both with pCO2 ≈0.04 mbar. Although the CO2 gradient between the streams is negligible, the water partial pressures differ significantly (e.g., pH2O’ ≫ pH2O”, where pH2O’ and pH2O” are the water vapor pressures in the humid and dry streams, respectively). In this case, the free energy of mixing of water from the humid to dry stream provides the driving force for uphill CO2 transport, but the",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. Comparison of energy utilization in normal separation processes vs. uphill diffusion processes: In a normal separation process (a), mechanical work is converted into chemical work with associated entropy loss. In the uphill diffusion process (b), chemical work is directly utilized to drive the separation with the mixing of feed streams occurring at the inlet (black dot), and the entropy loss represented by the difference between input and output chemical work. I. Jang et al. Journal of Membrane Science 742 (2026) 125153 enrichment of CO2 achievable by this process is constrained by the second law. In ideal solutions, where residual enthalpic interactions between the components are absent, this thermodynamic constraint is governed solely by entropy changes. The demixing of CO2 is thus driven by the entropy of mixing of all other species in the system (e.g., H2O, N2, etc); in the presence of a selective membrane partition, this demixing can lead to a steady state separation. To simplify the theoretical analysis, we assume the use of an infinitely selective membrane for CO2 and H2O relative to other compounds (e.g., N2) operating under isobaric condi­tions. This assumption simplifies our analysis of CO2 separation and allows us to focus on the impact of the driving force for separation, which is determined by the chemical potential gradient of water.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "separation and allows us to focus on the impact of the driving force for separation, which is determined by the chemical potential gradient of water. The ideal molar Gibbs free energy change for demixing (Δ̂G Zdemix) is given by: Δ̂G Z demix = -RT⋅∑ i xi ln (xi)(27) Here, the superscript z denotes the transport direction across the membrane, oriented perpendicular to the membrane surface. This equation represents the minimum reversible work required for the separation in an ideal mixture. By incorporating mass balances for each stream, Eq. (27) can be used to determine the overall Gibbs free energy change of the demixed species (CO2 in this case) resulting from the membrane separation at any state. Δ̂G Zdemix can also be thought of as the \"chemical work\" performed by the membrane separation process. The minimum work rate required for separation ( ˙Wmin) is calculated as: ˙Wmin =∑ out ˙n⋅Δ̂G Z demix -∑ in ˙n⋅Δ̂G Z demix > 0(28) where ˙n is the molar flow rate of each stream; the subscripts \"in\" and \"out\" refer to the input streams and output streams in the system (feed, permeate, sweep and retentate). This equation quantifies the minimum work rate required to maintain the steady-state separation of the uphill transporting species (i.e. CO2) within the membrane.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n quantifies the minimum work rate required to maintain the steady-state separation of the uphill transporting species (i.e. CO2) within the membrane. For the separation process to be thermodynamically allowed, the minimum theoretical energy required, or the chemical work rate per­formed ( ˙Wmin in both cases) must always be smaller than or equal to the maximum work rate available extracted from the mixing process ( ˙Wmax). Mathematically, the condition is: ˙Wmax =∑ out ˙n⋅Δ̂G Z mix -∑ in ˙n⋅Δ̂G Z mix ≥˙Wmin(29)",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. Thermodynamic analysis of multicomponent gas diffusion in a two-bulb experiment a. Experimental set up of Duncan and Toor on the transient approach to equilibrium in the two-bulb diffusion experiments for H2/N2/CO2 mixtures at pt = 101.3 kPa, and T = 308.3 K. Reproduced with permission from Duncan, J. B. & Toor, H. L. AIChE Journal 8, 38–41 (1962) [34]. b. Experimental observation of the transient approach to equilibrium for H2, N2, and CO2 mole fractions in Bulb A during the two-bulb diffusion experiment. (regions of uphill diffusion are highlighted with black dashed boxes) c. Experimental observation of the transient approach to equilibrium for H2, N2, and CO2 mole fractions in Bulb B during the two-bulb diffusion experiment. d. Temporal evolution of total molar Gibbs free energy change (Δ̂Gdemix) for the combined gases in both bulbs. The red dashed box highlights the same time window corresponding to Fig. 5b and c, showing that ΔGdemix remains negative across the entire experiment. The downward arrow further indicates the continuous decrease in ΔGdemix, which confirms that the system is thermody­namically consistent despite the local occurrence of uphill diffusion. I. Jang et al. Journal of Membrane Science 742 (2026) 125153\n\nHere, the Gibbs free energy change associated with mixing - Δ̂G",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7,
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Zmix - is the opposite of Δ̂G Zdemix. Further analysis on non-ideal solutions, where interactions between species influence the separation process, can be found in Supplementary Information (SI). As mentioned in this section and in the Onsager analysis in Section 2, the total system entropy production rate must be non-negative in the multicomponent diffusion environment. Using Eq. (30), which also could be derived as Eq. (32), the total system entropy production (σ) can be calculated. σ = 1T ∑n i=1 Ni ⋅(-∇μi) ≥0(30) σ = 1T ∑n i=1 Ni ⋅(-RTfi ∇fi )≥0(31) σ = -R∑n i=1 Ni⋅∇fi fi ≥0(32) where σ is the entropy production rate (J K-1 s-1), which must be greater than zero according to the second law; Ni is the molar flux of component i (mol m-2 s-1); μi is chemical potential of the component i (kJ mol-1); and fi is the fugacity of component i (torr). For the simple verification of the second law of thermodynamics in the case of uphill diffusion, we utilized the experimental data published by Duncan and Toor in 1962 to show that the total system entropy increased in the uphill diffusion process [34]. The experiment shown in Fig. 5a involves a two-bulb diffusion cell setup used to study the tran­sient approach to equilibrium for gas mixtures of H2, N2, and CO2. The setup consists of two interconnected bulbs of equal volume, initially filled with different compositions of the gas mixtures.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "of H2, N2, and CO2. The setup consists of two interconnected bulbs of equal volume, initially filled with different compositions of the gas mixtures. The diffusion process was initiated by opening a stopcock connecting the bulbs, allowing the gases to mix and reach equilibrium through molecular diffusion. The gas composition in each bulb was monitored over time and Fig. 5b and c show the observed change in mole fractions of H2, N2, and CO2 in Bulbs A and B, respectively. Notably, N2 exhibits uphill diffusion during the equilibration process, moving against its concen­tration gradient and also its chemical potential gradient. The change in molar Gibbs free energy for demixing (Δ̂Gdemix) of the gases in Bulb A, Bulb B, and the total system were calculated as a function of time. The results are shown in Fig. 5d. The plot demonstrates a sharp decrease in the total free energy for the entire system over the first 8 h, followed by a much slower decline. (A red dashed box and downward arrow highlight the total ΔGdemix remains negative and constantly declines throughout this period, confirming that the system continues to develop towards equilibrium.) This highlights that the overall behavior of the system is not violating the second law of ther­modynamics, even though certain components show local diffusion behavior that corresponds to a positive Gibbs free energy change, such as the uphill diffusion of N2 in Fig.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "h certain components show local diffusion behavior that corresponds to a positive Gibbs free energy change, such as the uphill diffusion of N2 in Fig. 5b and c (regions of uphill diffusion are highlighted with dashed boxes). The interaction between the locally thermodynamically unfavorable and favorable processes is particularly noteworthy here. From the calculation result, we could assume that when a thermodynamically unfavorable transport process with a posi­tive local ΔGdemix for component i occurs, it must be coupled with other components undergoing more thermodynamically favorable processes, characterized by a more negative local ΔGdemix. This coupling can possibly enable the \"uphill\" thermodynamically unfavorable transport of species with positive ΔGdemix, counteracted by the \"downhill\" processes with more negative ΔGdemix. Intentionally engineering such behavior with the aid of membranes has the potential to enable new classes of separations but it remains unclear as to what extent this process can enrich a target compound (e.g., CO2).",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Potential upper bounds of “enrichment factor” for uphill membrane processes The enrichment factor is a key metric for evaluating the effectiveness of a membrane system in permeating a target compound from a diluted state to a more concentrated state. Using CO2 as a target compound, we define the enrichment factor as the ratio of CO2 fugacity (or partial pressure for ideal gas systems) on the permeate side to that on the feed side. This factor represents the extent of uphill permeation achieved by the membrane system; the second law provides an upper bound on the enrichment factor. It is worth noting that many previously reported examples of uphill permeation derive from specific molecular mechanisms (e.g., complex­ation, ion-exchange, or solvation asymmetry between feed and sweep) [18,19,35,36]. In contrast, the analysis developed here is intentionally not tied to mechanisms. By expressing flux-force relationships in Ons­ager form and evaluating driving forces via chemical potentials, we identify the fundamental thermodynamic boundaries under which any membrane transport mechanism can support uphill CO2 permeation. Whether the microscopic origin of coupling arises from carbo­nate/bicarbonate equilibria, facilitated-transport carriers, competitive sorption, or purely diffusive multicomponent interactions, the thermo­dynamic criteria and bounds established here remain applicable.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ers, competitive sorption, or purely diffusive multicomponent interactions, the thermo­dynamic criteria and bounds established here remain applicable. Because these bounds are derived from chemical potentials, they do not impose a unique prediction for CO2 flux as a function of membrane thickness. In practice, the measured flux can reflect both bulk transport and interfacial exchange processes, and the dominant contribution is membraneand mechanism-specific. Nevertheless, the Onsager/Maxwell-Stefan framework developed here provides a quanti­tative structure that can be combined with independently measured permeabilities and interfacial kinetic parameters in future membrane-specific studies. Such integration would enable the con­struction of design-oriented flux-thickness relationships once the dominant transport and exchange mechanisms for a given membrane material are identified. In our test case of utilizing the chemical potential energy of water to transport CO2 shown in Fig. 6a, the expected CO2 partial pressure on the permeate side and resulting CO2 enrichment factor can be plotted against the fraction of the chemical potential of water employed for the uphill CO2 permeation via a simple calculation. In case of water permeation across the membrane from z = L to z = 0, the total chemical potential change (ΔμH2O) can be expressed as: ΔμH2O = RT⋅ln ( f z=LH2Of z=0H2O )",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(33)\n\nThe total ΔG change across the membrane must be negative for this process to be spontaneous (Eq. (34)). This condition can be expressed differently depending on whether co-permeation or counter-permeation occurs between CO2 and H2O. In the co-permeation scenario, both CO2 and H2O move in the same direction across the membrane. Thus, the total free energy change is given by the sum of the chemical potentials of both species on the permeate side (z = L) minus those on the feed side (z = 0). Conversely, in the counter-permeation case, CO2 and H2O move in opposite directions. The total free energy change expression accounts for this by swapping the terms for water vapor on the feed (z = 0) and permeate (z = L) sides. ΔGpermH2O + ΔGpermCO2 -ΔGfeedH2O -ΔGfeedCO2 < 0(34) Co -permeation : ΔGx=LH2O + ΔGx=LCO2 -ΔGx=0H2O -ΔGx=0CO2 < 0(35) Counter -permeation : ΔGx=0H2O + ΔGx=LCO2 -ΔGx=LH2O -ΔGx=0CO2 < 0(36) In both cases, the magnitude of the free energy change of water must exceed that of CO2 to sustain uphill permeation:\n\nI. Jang et al. Journal of Membrane Science 742 (2026) 125153",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "|Δ̂GH2O| > |Δ̂GCO2|(37) While both co-permeation and counter-permeation are theoretically possible depending on the sign and magnitude of the off-diagonal coupling terms (as discussed in Section 2), here only counterpermeation case was considered in the following analysis to simplify interpretation. Based on Eq. (33), ΔμCO2 is then calculated by multiplying the frac­tion of the chemical potential difference of water (η, where η ranges from 0 to 1, with 1 being a perfectly reversible process) used to permeate CO2 uphill as shown in Eq. (38). ΔμCO2 = η ΔμH2O(38) Based on Eq. (38), the partial pressure of CO2 in the permeate can be estimated by solving Eq. (39) assuming ideal gas behavior, which leads to Eq. (40): ΔμCO2 = η ΔμH2O = RT ln ( f z=LCO2f z=0CO2 )",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(39) pz=LCO2 = exp(ηΔμH2O RT )⋅pz=0CO2(40) The resulting CO2 enrichment factor, compared to the CO2 content in the feed gas, is shown in Fig. 6b as a function of η (the fraction of the chemical potential difference of water used for permeating CO2 uphill). The calculations were carried out for the water-CO2 counter-permeation case, assuming 100 % relative humidity at 100 ◦C on the sweep gas side with 400 ppm CO2, which corresponds to a water vapor pressure pz=LH2O of 760 torr at z = L, and a pz=0H2O of 6 torr at z = 0. Under these conditions, the water gradient is strong enough to drive significant CO2 counterpermeation. When 50 % of the energy is utilized (η = 0.5), the result­ing CO2 enrichment factor is ca. 10 as shown in Fig. 6b. The CO2 enrichment factors from our assumed testing environment in Fig. 6a were compared with the model and experimental data of Wade et al. In Wade's study, the reported enrichment factor was 1.05 under 35 ◦C with 5.3 % H2O at z = L, although the upstream water level (z = 0) was not specified. In Metcalfe's study, the enrichment factor was 3.5 under high- temperature conditions (550 ◦C) with 3.5 % H2O at z = L and 200 ppm H2O at z = 0. While these initial observations of uphill CO2 transport under highly diluted CO2 conditions are promising, they highlight the need for higher CO2 enrichment factors.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ial observations of uphill CO2 transport under highly diluted CO2 conditions are promising, they highlight the need for higher CO2 enrichment factors. For membrane-based systems, one of the fundamental challenges is the extremely low driving force associated with ambient CO2 concentrations, which causes significantly high en­ergy costs. Thus, increasing the CO2 concentration from ambient to even moderate levels (e.g., 5x over air concentration) can significantly relieve this driving force limitation. Our estimates indicate obtaining such enrichment is theoretically accessible at 100 ◦C and 100 % RH (up­stream side water level) when η exceeds 0.33. Gama et al. reported that low-purity (~5 %) CO2 streams can be valuable for processes such as algae cultivation, urea production, and fertilizer manufacturing [37]. Achieving this concentration (~5 %) from ambient level requires an enrichment factor of 125. According to our analysis, this high enrich­ment factor is theoretically feasible at 100 ◦C and 100 % RH when η is close to 1. Alternatively, if we slightly lower the product purity to 1 % CO2, an enrichment factor of 25 is required, which we estimate to be feasible under 100 ◦C and 100 % RH when η exceeds 0.67. In the case of lower partial pressures of H2O in the sweep side (z = L) at lower operating temperatures, the expected CO2 enrichment factor relative to air under various temperature conditions is plotted in Fig. 7a.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "z = L) at lower operating temperatures, the expected CO2 enrichment factor relative to air under various temperature conditions is plotted in Fig. 7a. As shown in the plot, the enrichment factor at 35 ◦C under 100 % RH conditions is ca. 20 times lower than it is at 100 ◦C under 100 % RH conditions, when η is close to 1. After examining the results at lower operating temperatures, we also explored how high-quality steam affects the CO2 enrichment factor. In Fig. 7b, a comparison is shown between high-quality steam with higher partial pressure at 400 ◦C and 80 bar and steam with 100 % relative humidity at 100 ◦C. Our analysis indicates that, at near-maximal energy usage where the ŋ factor is close to 1, steam with 400 ◦C and 80 bar achieves a CO2 enrichment factor of 9000 approx., which is approxi­mately 70 times greater than that of the lower-temperature steam. Of course, operating membrane processes with steam at this temperature and pressure introduces myriad other challenges in addition to the fact that such an enrichment factor is not realistically achievable with a",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. a. Schematic of the assumed testing environment used to estimate CO2 enrichment factors on the permeate side relative to the feed gas. The feed side (z = 0) contains CO2 at 400 ppm, and the sweep side (z = L) is at ~ 100 % relative humidity (RH) at 100 ◦C (~1 atm H2O) with 400 ppm CO2. This counter-permeation scenario creates a water chemical potential gradient across the selective membrane that drives uphill CO2 transport. b. CO2 enrichment factor on z = L side of the membrane as a function of η using water vapor at z = L at 100 ◦C, ~100 % RH (~1 atm H2O). The enrichment factor was calculated using pz=LCO2 in permeate side calculated varying the fraction of water permeation energy (η) used to permeate CO2 uphill, assuming ideal gas behavior. The lines indicate the enrichment factors obtained from the experimental work of Metcalfe et al. [16] and Wade et al. [15]. I. Jang et al. Journal of Membrane Science 742 (2026) 125153 practical membrane, as it would imply that CO2 permeation fully utilizes the chemical potential gradient generated by H2O. The significant differences in enrichment performance under varying η and steam conditions raise the question of what governs the efficiency of water-assisted uphill CO2 transport. In this context, η is hypothesized to be strongly correlated with the off-diagonal Onsager coefficient (LCO2-H2O), which serves as the coupling coefficient between the flux of CO2 and water's driving force.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ated with the off-diagonal Onsager coefficient (LCO2-H2O), which serves as the coupling coefficient between the flux of CO2 and water's driving force. A higher LCO2-H2O would enable more effective usage of water's chemical potential to drive CO2 transport, thereby increasing η, while the sign of this coefficient determines the direction of the uphill diffusion. We hypothesize that membrane chemistry likely plays a role in the magnitude of this coupling coefficient as well; i.e., if the membrane contains functionality (e.g., amines) that promotes CO2–H2O interactions (e.g., via zwitterion or carbamic acid formation), then this off-diagonal coefficient will be more impactful on the partial fluxes of each component. One possible physical interpreta­tion of a high η is that the membrane carrier is continuously loaded with either H2O or CO2, never remaining unloaded, as proposed by Metcalfe et al. [16] This would allow water's chemical potential to effectively “carry” CO2 up against its concentration gradient. To further assess the thermodynamic feasibility of uphill CO2 diffu­sion, an exergy analysis was conducted to complement the second-law assessment by quantifying the maximum useful work available in the system. The results are presented in the SI. As a case study, the Metcalfe system, where separation occurred at 550 ◦C, was analyzed.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "available in the system. The results are presented in the SI. As a case study, the Metcalfe system, where separation occurred at 550 ◦C, was analyzed. The calculated exergy for the membrane-based uphill permeation process was positive, reinforcing the thermodynamic viability of this mecha­nism. Similarly, the exergy of the two-bulb experiment, analyzed under 1 atm and 35 ◦C, was consistently positive throughout the process. These results provide fundamental validation that both systems operate within thermodynamic frameworks. Detailed calculations for both exergy an­alyses can be found in the SI. 5. Conclusion – summary We have provided an overview of the thermodynamics of uphill membrane transport with a focus on CO2 capture from dilute sources. We note that this uphill transport process can be both uphill in terms of concentration gradients as well as chemical potential gradients. First and second law analyses indicate that transport against chemical po­tential gradients in dissipative processes is indeed possible when coupling between multiple (≥3) permeating components occurs. In this case, the component transported uphill utilizes a fraction of another component's driving force such that the total free energy change across the membrane system is negative and the entropy generation remains positive. In counter-permeation, we note that this can be thought of as utilizing the chemical work of mixing of multiple components to drive the transport of one specific component.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "we note that this can be thought of as utilizing the chemical work of mixing of multiple components to drive the transport of one specific component. Focusing on CO2 capture processes specifically, our calculations indicate that this passive “CO2 pumping” process is likely to lead to enhancements in the CO2 concentration relative to dilute CO2 feedstocks (e.g., air). For instance, at 100 ◦C and 100 % RH water vapor as the driving force for uphill CO2 transport, we estimate that the maximum thermodynamically-allowable enrichment is on the order of 100, which is significant and of interest for DAC process design. Indeed, in the case of DAC, this represents a change in CO2 concentration from approxi­mately 400 ppm to approximately 40000 ppm, and is thus a potentially useful pre-concentration step or useful for direct usage (e.g., green­houses). An open question for these uphill membrane systems is the steam requirements compared to other DAC systems (e.g., temperature vacuum swing adsorption) that utilize steam as a desorption medium and achieve very high purity CO2 (>95 mol%). This article has some key limitations. We simplified our analysis by disregarding the effects of other permeating compounds such as O2, and N2.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "mol%). This article has some key limitations. We simplified our analysis by disregarding the effects of other permeating compounds such as O2, and N2. Depending on the membrane materials and how the membrane process is arranged, it is possible for these components to permeate downhill at fluxes comparable to or even higher than the uphill trans­port of CO2, thus reducing the levels of enrichment observed in labo­ratory experiments (we note that in the work of Metcalfe et al., the specific membrane material is basically impermeable to O2 and N2, and thus this potential issue is obviated). Moreover, introducing other gas permeable compounds, such as O2, would also increase the complexity of the system compared to one that relies solely on H2O permeation, as it would require additional steps for O2 separation. Secondly, we only considered isothermal cases. Membrane systems with thermal gradients in addition to concentration gradients can induce new coupling mech­anisms (e.g., Soret effects) not considered here, which are likely to strongly influence the enrichment factors possible using the uphill transport concept. Ultimately, the notion of uphill transport is enticing, especially for the pre-concentration of valuable compounds from diluted feeds [12], but the process will need to be coupled with additional separation stages to enable complete purification of those target",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[10] P. He, A.F. Ghoniem, Phase separation during mixing of partially miscible fluids under near-critical and supercritical conditions, and the phenomenon of “uphill diffusion,”, J. Supercrit. Fluids 135 (2018) 105–119, https://doi.org/10.1016/j. supflu.2017.12.040.[11] E.I. Papaioannou, H. Qi, I.S. Metcalfe, ‘Uphill’ permeation of carbon dioxide across a composite molten salt-ceramic membrane, J. Membr. Sci. 485 (2015) 87–93, https://doi.org/10.1016/j.memsci.2015.03.013.[12] H.D. White, Y.H. Yoon, Y. Ren, C.J. Roos, Y. Wang, W.J. Koros, R.P. Lively, Selective permeation up a chemical potential gradient to enable an unusual solvent purification modality. https://doi.org/10.1073/pnas.2220127120, 2023.[13] M.D. Sanders, R.P. O'Hayre, Coupled transport and uphill permeation of steam and oxygen in a dense ceramic membrane, J. Membr. Sci. 376 (2011) 96–101, https:// doi.org/10.1016/j.memsci.2011.04.007.[14] T. Nishiyama, Uphill diffusion and a new nonlinear diffusion equation in ternary non-electrolyte system, Phys. Earth Planet. Inter. 107 (1998) 33–51, https://doi. org/10.1016/S0031-9201(97)00122-2.[15] J.L. Wade, H. Lopez Marques, W. Wang, J. Flory, B. Freeman, Moisture-driven CO2 pump for direct air capture, J. Membr. Sci. 685 (2023) 121954, https://doi.org/ 10.1016/j.memsci.2023.121954.[16] I.S. Metcalfe, G.A. Mutch, E.I. Papaioannou, S. Tsochataridou, D. Neagu, D.J. L. Brett, F. Iacoviello, T.S. Miller, P.R. Shearing, P.A.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "23.121954.[16] I.S. Metcalfe, G.A. Mutch, E.I. Papaioannou, S. Tsochataridou, D. Neagu, D.J. L. Brett, F. Iacoviello, T.S. Miller, P.R. Shearing, P.A. Hunt, Separation and concentration of CO2 from air using a humidity-driven molten-carbonate membrane, Nat. Energy (2024) 1–10, https://doi.org/10.1038/s41560-02401588-6.[17] E.L. Cussler, Membranes which pump, AIChE J. 17 (1971) 1300–1303, https://doi. org/10.1002/aic.690170607.[18] Carrier facilitated transport, in: Membr. Technol. Appl., John Wiley & Sons, Ltd, 2012, pp. 453–491, https://doi.org/10.1002/9781118359686.ch11.[19] R. Krishna, Uphill diffusion in multicomponent mixtures, Chem. Soc. Rev. 44 (2015) 2812–2836, https://doi.org/10.1039/C4CS00440J.[20] R.W. Balluffi, S.M. Allen, W.C. Carter, Kinetics of Materials, John Wiley & Sons, 2005.[21] D.G. Miller, Ternary isothermal diffusion and the validity of the onsager reciprocity relations, J. Phys. Chem. 63 (1959) 570–578, https://doi.org/10.1021/ j150574a030.[22] Y. Demirel, 3 - fundamentals of nonequilibrium thermodynamics, in: Y. Demirel (Ed.), Nonequilibrium Thermodyn, second ed., Elsevier Science B.V., Amsterdam, 2007, pp. 97–154, https://doi.org/10.1016/B978-044453079-0/50005-5.[23] S. Damle, W.J. Koros, “Sorp-vection”: an unusual membrane-based separation, AIChE J. 51 (2005) 1396–1405, https://doi.org/10.1002/aic.10399.[24] R. Krishna, Diffusing uphill with James Clerk Maxwell and Josef Stefan, Chem. Eng. Sci.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "J. 51 (2005) 1396–1405, https://doi.org/10.1002/aic.10399.[24] R. Krishna, Diffusing uphill with James Clerk Maxwell and Josef Stefan, Chem. Eng. Sci. 195 (2019) 851–880, https://doi.org/10.1016/j.ces.2018.10.032.[25] R. Krishna, J.A. Wesselingh, The Maxwell-Stefan approach to mass transfer, Chem. Eng. Sci. 52 (1997) 861–911, https://doi.org/10.1016/S0009-2509(96)00458-7.[26] H.L. Toor, Diffusion in three-component gas mixtures, AIChE J. 3 (1957) 198–207, https://doi.org/10.1002/aic.690030214.[27] D. Bothe, P.-´E. Druet, On the structure of continuum thermodynamical diffusion fluxes—A novel closure scheme and its relation to the Maxwell–Stefan and the Fick–Onsager approach, Int. J. Eng. Sci. 184 (2023) 103818, https://doi.org/ 10.1016/j.ijengsci.2023.103818.[28] John S. Kirkaldy, David J. Young, Diffusion in the Condensed State, Institute of Metals, 1987. https://cir.nii.ac.jp/crid/1970304959954714022. (Accessed 13 November 2025).[29] A. Vignes, J.P. Sabatier, Ternary diffusion in fe-co-ni alloys, Am. Inst. Min. Metall. Pet. Eng. (1970).[30] J. Chen, H.J. Moon, K.I. Kim, J.I. Choi, P. Narayanan, M.A. Sakwa-Novak, C. W. Jones, S.S. Jang, Distribution and transport of CO2 in hyperbranched poly (ethylenimine)-loaded MCM-41: a molecular dynamics simulation approach, ACS Appl. Mater. Interfaces 15 (2023) 43678–43690, https://doi.org/10.1021/ acsami.3c07040.[31] J.W. Mutoru, A. Leahy-Dios, A.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "cs simulation approach, ACS Appl. Mater. Interfaces 15 (2023) 43678–43690, https://doi.org/10.1021/ acsami.3c07040.[31] J.W. Mutoru, A. Leahy-Dios, A. Firoozabadi, Modeling infinite dilution and Fickian diffusion coefficients of carbon dioxide in water, AIChE J. 57 (2011) 1617–1627, https://doi.org/10.1002/aic.12361.[32] A.V. Virkar, Transport of H2, O2 and H2O through single-phase, two-phase and multi-phase mixed proton, oxygen ion, and electron hole conductors, Solid State Ion 140 (2001) 275–283, https://doi.org/10.1016/S0167-2738(01)00817-7.[33] Y. Wang, M.D. LeVan, Mixture diffusion in nanoporous adsorbents: development of fickian flux relationship and concentration-swing frequency response method, Ind. Eng. Chem. Res. 46 (2007) 2141–2154, https://doi.org/10.1021/ie061214d.[34] J.B. Duncan, H.L. Toor, An experimental study of three component gas diffusion, AIChE J. 8 (1962) 38–41, https://doi.org/10.1002/aic.690080112.[35] H.C. Visser, D.N. Reinhoudt, F. de Jong, Carrier-mediated transport through liquid membranes, Chem. Soc. Rev. 23 (1994) 75–81, https://doi.org/10.1039/ CS9942300075.[36] H. Matsuoka, M. Aizawa, S. Suzuki, Uphill transport of uranium across a liquid membrane, J. Membr. Sci. 7 (1980) 11–19, https://doi.org/10.1016/S0376-7388 (00)83181-6.[37] V. Gama, B. Dantas, O. Sanyal, F.V. Lima, Process operability analysis of membrane-based direct air capture for low-purity CO2 production, ACS Eng. Au 4 (2024) 394–404, https://doi.org/10.1021/acsengineeringau.3c00069.",
+    "citation": {
+      "authors": [
+        "Metcalfe S.",
+        "Lively P."
+      ],
+      "paper_id": "1-s2.0-S0376738826000335-main",
+      "title": "Analysis of uphill diffusion of CO2 driven by the chemical potential difference of H2O",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  }
+]

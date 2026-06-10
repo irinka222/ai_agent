@@ -1,0 +1,1075 @@
+[
+  {
+    "content": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates Hironobu Shirataki a,* , Remo Leisi b\n\n, Junji Hidaka c, S. Ranil Wickramasinghe d a Scientific Affairs Group, Bioprocess Division, Asahi Kasei Medical, Chiyoda, Tokyo, 100-0006, Japanb CSL Behring AG, Wankdorfstrasse 10, Bern 22, Bern, 3000, Switzerlandc Technology Development Department, Bioprocess Division, Asahi Kasei Medical, Nobeoka, Miyazaki, 882-0031, Japand Ralph E Martin Department of Chemical Engineering, University of Arkansas, Fayetteville, AR, 72701, USA\n\nA R T I C L E I N F O Keywords:BioseparationsVirus filterModelingMultilayer membrane structurePore size distribution",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Robust virus reduction and high permeability are characteristic properties of virus filters, which are modeled as having an asymmetric multilayer membrane structure with a pore size distribution. In this study, an advanced heterogeneous multilayer model for the multicomponent solution containing viruses, protein monomers and aggregates, has been developed to reproduce the filtration behavior, virus reduction, and virus/protein retention distribution in the virus filter with asymmetric membrane structure. Calculations based on the multilayer membrane structure with consideration of the effect of aggregate size and concentration numerically reproduce the experimental results that virus LRV (log reduction value) decreases when a large number of protein aggre­gates close in size to that of virus are present in the solution and that high virus LRV can be achieved even when the permeability is significantly reduced by the filtration of high concentration protein solution. In addition, the model calculation reproduced the filtration behavior of both constant flux and constant pressure filtrations with the same physical parameters, suggesting the equivalence of both filtration control modes. The advanced multilayer model was well able to reproduce filtration behavior, virus LRV and virus/protein retention distri­bution in the membrane by the same physical parameters at 1 mg/mL IgG.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "to reproduce filtration behavior, virus LRV and virus/protein retention distri­bution in the membrane by the same physical parameters at 1 mg/mL IgG. However, at 10 mg/mL IgG, while filtration behavior and virus LRV could also be reproduced, the virus/protein retention distribution in the membrane could not be well reproduced. This may simply indicate the possibility that larger sized aggregates that do not follow the size exclusion mechanism may be present in the concentrated feed solution.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Membrane separation technology is widely used in the manufacturing of biopharmaceuticals [1]. Microfiltration (MF) is used to purify culture fluids and remove precipitates from solutions, while ultrafiltration (UF) is used to concentrate target proteins and for buffer exchange. Virus filtration (VF) is used in the final purification step not just in the downstream process of biopharmaceuticals but also plasma products as an essential step for robust reduction of virus impurities [2–5]. Virus filters have a different membrane structure than MF and UF, which are mostly screen-type structures. The design specification of virus filters requires the maintenance of high permeability while simultaneously achieving robust virus reduction and high recovery of target proteins.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1.1. Modeling for VF Our understanding of the structure and filtration mechanism has evolved over the years. Immediately following the development of virus filters, Manabe et al. reported that they were characterized as having a multilayer membrane structure with a pore size distribution in each layer assuming that size exclusion is the main mechanism for virus reduction [6,7] (we call it Manabe model). This model has been widely used to conceptually understand the characteristics of virus filters [8]. As virus filters are widely applied in pharmaceutical production, many studies on quantitative calculation methods for expressing virus filter characteristics have been published. Jackson et al. [9] considered virus filters to consist of a layer that retains virus and a layer that allows it to pass through and reported that the virus logarithmic reduction value (LRV) could be reproduced using the concept of mass balance. Afzal and\n\n* Corresponding author. Scientific Affairs Group, Bioprocess Division, Asahi Kasei Medical Co., Ltd., 1-1-2 Yurakucho, Chiyoda-ku, Tokyo, 100-0006, Japan.E-mail address: shirataki.hb@om.asahi-kasei.co.jp (H. Shirataki).\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 724 (2025) 123976",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Zydney [10] extended this model to solutions containing protein. Peinador et al. [11] determined the pore size distribution of each of the three layers (top, center and bottom) of the virus filter by liquid-liquid displacement porosimetry (LLDP) and showed that these pore size distributions were consistent with the results obtained by SEM cross-sectional image analysis and that the virus removal properties were strongly dependent on the average pore size of each layer. This was the first study to quantitatively demonstrate the importance of the asymmetric structure and pore size distribution of virus filters. From a virus retention study using Pseudomonas phage PP7, Kosiol et al. [12] concluded that the virus LRV is dominated by the size exclusion mech­anism, although virus retention may also be influenced by the interac­tion of virus with the membrane surface. Shirataki [13] applied the multilayer model to the classical blocking model for analyzing filtration behavior and showed that detailed rep­resentation of pore size distribution and multilayer membrane structure is necessary to quantitatively explain the high permeability of virus filters (negative blocking index value) that cannot be explained by the conventional blocking model.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "titatively explain the high permeability of virus filters (negative blocking index value) that cannot be explained by the conventional blocking model. Shirataki and Wickramasinghe [14] further showed that the filtration behavior of virus filters could be quantitatively reproduced and predicted by incorporating the reduction in pore area in the membrane due to particles trapped during a filtration process governed by size exclusion and incorporated the relationship between pressure and flux based on Hagen-Poiseuille’s equation into a multilayer membrane model. Comparison of size exclusion chromatog­raphy (SEC) data of the pre-filtered solution with filtration experimental results has shown that the presence of even small amounts of very large protein aggregates can significantly reduce VF permeability [15–17]. By analyzing the filtration of frozen-thawed mAb (monoclonal antibody) solution, Barnard et al. [18] showed that trace amounts of aggregates with a diameter of 20–40 nm cause a significant decrease in perme­ability and fouling of the virus filter. 1.2. Asymmetric membrane structure of virus filters From 5 mg/mL immunoglobulin solution filtration tests on various virus filters, Kosiol et al. [19] showed that fouling is mainly due to the presence of small amounts of aggregates with hydrodynamic diameters of approximately up to 30 nm.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "et al. [19] showed that fouling is mainly due to the presence of small amounts of aggregates with hydrodynamic diameters of approximately up to 30 nm. They further reported that the membrane structure is asymmetric and that fouling is less likely to occur in mem­branes with a slower pore size gradient (PSG) in the direction of filtra­tion. Through visualization of virus within a virus filter membrane (Planova 20N, Asahi Kasei Medical, Japan), Kubo et al. [20] demon­strated that PPV (porcine parvovirus) virus was captured inside the membrane rather than on the surface of the virus filter and reported that the average pore size of the virus filter was not uniform in the direction of filtration but rather the structure was asymmetric. A study of the pore structure of the virus filters by visualizing the nanoparticles (20, 40 and 100 nm) trapped within the membrane has also been reported for other virus filters by Fallahianbijan et al. [21]. Leisi et al. [22,23] carried out very rigorous investigations of retention distribution and MVM (minute virus of mice) LRV for several virus filters and showed that for all filters, virus was captured unevenly within the membrane rather than on the membrane surface and that the retention distribution varied greatly depending on the virus filter, i.e. different membrane structures.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "her than on the membrane surface and that the retention distribution varied greatly depending on the virus filter, i.e. different membrane structures. Based on these results, Shirataki and Wickramasinghe [24] intro­duced a heterogeneous multilayer membrane model in which pore size distribution varies from layer to layer and quantitatively characterized the structure of each membrane by average pore size with an assumption of a log-normal pore size distribution in each layer. Additionally, the modeled membrane structure matched the retention distribution of MVM reported by Leisi et al. [22] and for different membrane structures, experimental virus LRV can be quantitatively reproduced by the modeled membrane structure. Thus, robust virus removal properties and high target protein recovery of virus filters are the result of specific multilayer membrane structure and pore size distribution characteristics. The change in retention distribution of MVM particles due to process pauses for these membrane structures was also calculated and changes in experimental virus LRV due to multiple process pauses were well reproduced by the calculation, suggesting that it is possible to predict virus LRV using membrane structure.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "due to multiple process pauses were well reproduced by the calculation, suggesting that it is possible to predict virus LRV using membrane structure. As shown previously [24], the heterogeneous multilayer membrane structure with pore size distribution has been identified as an essential element of the virus filter characteristics in order to simultaneously achieve stable filtration performance, robust virus removal, and high target protein recovery. Previous studies have also demonstrated that virus filter performance can be quantitatively predicted by determining the multilayer membrane structure. On the other hand, there have been many studies on the impact of fouling when protein solutions permeate the virus filter, specifically the fouling layer distribution within the membrane [16,25–29]. These studies indicated that the formation of fouling layers and their mecha­nism can affect the filtration performance and LRV of virus filters. There are also reports of a decrease in filtration performance due to reversible self-association of proteins [30,31], suggesting that the filtration per­formance of virus filters cannot be easily explained by the size and ratio of aggregates in the feed solution alone.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "uggesting that the filtration per­formance of virus filters cannot be easily explained by the size and ratio of aggregates in the feed solution alone. In this work, we extend the applicability of the heterogeneous multilayer membrane structure model, which was previously restricted to the filtration of single-component solutions containing only virus, to multi-component solutions containing viruses, protein monomers and aggregates, in order to reproduce the filtration behavior, virus LRV and virus/protein retention distribution in the membrane with the same set of parameters. The model calculation method and its application are described in the following order: 1) asymmetric structure of the virus filter is modeled as a multilayer structure consisting of an arbitrary number of layers; 2) based on experimentally obtained porosity and MVM retention distribution in the filter, the average pore size of each layer is deter­mined based on having a log-normal pore size distribution; 3) calcula­tions of filtration behavior and virus LRV are practiced when a virus spiked protein solution with particles of known size and concentration is filtered through the obtained multilayer membrane structure; and 4) experimental filtration behavior, virus LRV and virus/protein retention distribution in the membrane for multi-component solutions with the same physical parameters are reproduced by optimizing the size and concentration of the protein aggregates.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ane for multi-component solutions with the same physical parameters are reproduced by optimizing the size and concentration of the protein aggregates. The above procedures demon­strate the usefulness of the multilayer model in reproducing experi­mental filtration behavior, virus LRV and protein/virus retention distributions. 2. Methods 2.1. Experimental filtrations 2.1.1. Filtration behavior, virus LRV, and protein/virus retention distribution Visualization results reported by Leisi et al. [23] conducted as fol­lows were used. Three solutions, phosphate-buffered saline (PBS), 1 mg/mL polyclonal human IgG (Merck, G4386) in PBS, and 10 mg/mL IgG in PBS were spiked with MVM at 1.5 * 1011 infectious viral capsids per 50 mL solution, corresponding to approximately 3.0 * 1015 parti­cles/m3 in the feed solution and filtered with 0.001 m2 Planova 20N filters under constant pressure at approximately 0.1 MPa. In these experiment, each solution was filtered on a new filter only once. Planova 20N contains hollow fiber membrane in which solution permeates from the inside to the outside. Filtration behavior up to a throughput of 50 L/m2 (50 mL for 0.001 m2 filter) was monitored by normalized flux, J/J0, which shows flux decay with increasing throughput. MVM LRV at each fractional volume was obtained by determining the concentration of MVM in the feed and filtrate fractions using an optimized quantitative polymerase chain reaction (qPCR) protocol.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Retention of MVM and IgG in the membrane were visualized by laser-scanning microscopy by labeling of MVM and IgG. In the labeling, MVM or IgG were incubated with amine-reactive N-hydroxy-uccinimide ester-modified Atto dyes (NHS-Atto; Atto-Tec, Germany) to achieve crosslinking to surface lysines. MVM and IgG were labeled with Atto-633 and Atto-488, respectively [22,23]. For visualization of IgG retention, Atto-488 labeled IgG was spiked into the feed at a ration to IgG of 1:100. The membranes after filtration were embedded in 2 % low EEO agarose (PBS), cross-sectioned and analyzed using the laser scanning microscope 880 with a 63 * magnification objective (Carl Zeiss, Germany). To visualize filter dimensions and structure, the membrane auto­fluorescence was detected at excitation wavelength of 405 nm and emission wavelength of 422 nm. For analysis of the intact membrane segments, scanning was performed with 20 * magnification objectives and autofluorescence at excitation wavelength of 425 nm. Obtained data was processed with the ZEN program (Carl Zeiss) and exported as TIFF files. Images of membrane segments (n ≥3) were analyzed with ImageJ program (Open source public domain image processing software) and data was processed with GraphPad Prism (Dotmatics Luma, UK) to obtain retention distribution profiles as a function of filter depth.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ing software) and data was processed with GraphPad Prism (Dotmatics Luma, UK) to obtain retention distribution profiles as a function of filter depth. The visualization images of the membranes, MVM and IgG were obtained individually and were overlain to show the respective reten­tion distributions in the membrane (Fig. 4). The membrane porosity distribution is quantified by the autofluorescence intensity distribution of the membrane material (Fig. 5a), assuming that the layer with the highest intensity has the lowest porosity as described later by Equation [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}]. 2.1.2. Equivalence of constant pressure and constant flux filtrations Human-IgG (10 % IgG HI, JB, Japan) solution diluted to 5 mg/mL in PBS was prepared and filtered with 0.001 m2 Planova 20N filters under three constant pressure conditions (0.05, 0.075, and 0.1 MPa) to pro­duce 90 mL (90 L/m2) and four constant flux conditions (15, 22.5, 36, and 51 LMH [L/(m2 ⋅h)] to produce 200 mL (200 L/m2), and the resulting filtration data (flux decay and pressure increase, respectively) were analyzed. For constant pressure filtration, pressurized air controlled to a set constant pressure was used and filtrate weight was recorded in real time using an electronic balance for calculation of flux.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "air controlled to a set constant pressure was used and filtrate weight was recorded in real time using an electronic balance for calculation of flux. For constant flux filtrations, the filter was connected between the inlet and outlet of the column valves of an AKTA Avant 25 (GE Healthcare, US) and the trans-membrane pressure (TMP) was recorded in real time using the pressure gauge monitoring the difference between the column valves for calculation of the TMP. Aggregates ratio of the IgG feed so­lution was measured by SEC using an Acquity UPLC H-Class (Waters, US) with an Acquity UPLC Protein BEH SEC Guard Column (200 A, 1.7 μm 4.6 * 30 mm, Waters, US) and an Acquity UPLC Protein BEH SEC Column (200 A, 1.7 μm 4.6 * 150 mm, Waters, US) for an analysis column. The size distribution and average size of protein in the solution were evaluated by dynamic light scattering (DLS) using the Zetasizer Nano ZSP (Malvern Panalytical, UK). For the SEC measurements, injected IgG solutions were loaded onto the columns with 0.3 M phos­phate/0.2 M arginine-HCl/0.1 M NaCl (pH 6.5) carrier solution. For DLS measurements, solutions were measured as they were without dilution. 2.2. Theoretical calculations 2.2.1. Advanced heterogeneous multilayer membrane structure model The previously reported heterogeneous multilayer membrane structure model [24] was developed to reproduce and predict the filtration of a single component solution containing virus particles, such as MVM.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ane structure model [24] was developed to reproduce and predict the filtration of a single component solution containing virus particles, such as MVM. In this study, we expand this model to be applicable for multi-component solutions. To model the asymmetric structure, it is assumed that the membrane consists of a multilayer structure in which many layers with different porosity and pore size distribution are stacked in the filtration direction, where the layer porosity is defined as the ratio of the total pore cross- sectional area to the area of the layer. Discretization is frequently used when setting up meshes for computational fluid mechanics analyses. It should be noted that the multilayer membrane structure is a model for understanding and analyzing virus filter characteristics, and actual virus filters are not formed as a layered structure laminated parallel to the direction of filtration. At the original proposal of the multilayer structure model, Manabe considered that the number of layers comprising the filter was several hundred or more (personal communication). Due to computational limitations, the number of layers used to determine the pore size distribution in this study was reduced to M = 50. Again, when setting up the mesh size for fluid mechanic analyses, there is always a tradeoff between computational time and accuracy due to reduced mesh size. Following the principles of the model shown in Fig.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "yses, there is always a tradeoff between computational time and accuracy due to reduced mesh size. Following the principles of the model shown in Fig. 1a, the mem­brane structure consists of M number of layers, each having a different porosity and pore size distribution to represent differing distributions of pore sizes across the thickness of the membrane. The filtered solution moves from layer 1 (inside) to layer M (outside). Each layer is composed of Sm sheets, each having the same porosity and pore size distribution. The thickness of each layer is constant, and the number of sheets within a layer, Sm, depends on the average pore size of that layer, as shown in Fig. 1. Captured virus particles or large-sized aggregates are represented by larger spheres, and the target proteins to be permeated are repre­sented by smaller spheres. In this model, the cross-sectional shape of the pores with cross-sectional area, A, is not circular due to distortion during the membrane formation process, i.e., the shape deviates from circu­larity by a certain ratio F (0 < F ≤1) and the opening and A of pore with equivalent radius r is represented by 2r * F and πr2, respectively as shown in Fig. 1b. Here, we assume that the spacing between the sheets forming each layer is not constant but rather reduced to 2ra * F by distortion, as shown in Fig. 1c, where ra is the average radius of pore in the layer.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ming each layer is not constant but rather reduced to 2ra * F by distortion, as shown in Fig. 1c, where ra is the average radius of pore in the layer. In other words, the number of sheets Sm contained in the m-th layer varies depending on the average pore size of the layer (ra,m), and is expressed by the following formula. Sm =Membrane thicknessNumber of Layer(M) * 2ra,mF = Layer thickness2ra,mF(1) All of the sheets within the same layer are assumed to have the same pore size distribution. Virus particles are trapped on the pores of sheets by size exclusion and most of the target protein passes through the membrane without being trapped by the pores. It should be noted again that the multilayer membrane structure is a model to understand and analyze virus filter membrane characteristics and that the actual membrane is not formed by stacking multiple flat porous layers in parallel with gaps in between. Nevertheless, the multilayer membrane model is a powerful way to computationally incorporate the effects of membrane asymmetry and has been shown to be effective in quantitatively reproducing and pre­dicting the filtration behavior and virus LRV of virus filters [13,24]. Based on the concepts of equivalent radius and degree of deviation from circularity, the capture limit equivalent pore radius rB for a particle of radius RP is expressed as rB = RP/F and particles are captured in pores of r ≤rB.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "arity, the capture limit equivalent pore radius rB for a particle of radius RP is expressed as rB = RP/F and particles are captured in pores of r ≤rB. Here, B is the number of pore sizes that trap particles in the pore size distribution, and particles are trapped in pores with ri from i =1 to B (Equation (5)). The membrane pore size is calculated using this equivalent radius r and all radii used in the calculation formulas have equivalent radii. As in the previous study [24], F is independent of pore size and is assumed to be the same for pores in all layers. This is an assumption based on the membrane pore formation process. In many separation membranes, the pore structure is formed by phase inversion, and the pore cross-sectional shape in the equilibrium state where phase sepa­ration has progressed is considered to be circular with the lowest interfacial energy regardless of the pore size. Furthermore, since the",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "H. Shirataki et al. Journal of Membrane Science 724 (2025) 123976 membranes are uniaxially or biaxially distorted at a constant draw ratio during formation, all pores with circular cross sections are also distorted at a constant ratio. Based on this concept, F is assumed to be constant regardless of the pore size and is assumed to be 0.3 from in-house TEM observations of cross-sections (data not disclosed). 2.2.2. Number of trapped particles and unblocked pores in each membrane layer The derivation of the equations used for the calculation is the similar to our previous work [24]. The exception is that the sheet spacing de­pends on the average pore size in a layer, which is different for layers with different average pore sizes, and the number of sheets in m-th layer is Sm. As in the previous work, P is defined as the parameter relating the probability that a particle introduced into a pore of radius rm,i in one sheet is trapped in that pore, and is optimized for virus filtration so that the calculation reproduces the experimental virus LRV. It follows that the probability that a particle moves to the next layer without being captured by any sheet in m-th layer is (1-P)Sm. Then, the number of particles in volume Δv trapped in pores of radius rm,i in the m-th layer at filtration volume v, nTrapm,i (v), is expressed as Equation (2).",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "number of particles in volume Δv trapped in pores of radius rm,i in the m-th layer at filtration volume v, nTrapm,i (v), is expressed as Equation (2). nTrapm,i (v) = rm,i2Nm,i(v)∑n i=1 rm,i2Nm,i(v)nm(v) *(1 -(1 -P)Sm)(2) Here, nm(v) is total number of particles in volume Δv introduced into the m-th layer and Nm,i(v) is the number of unblocked pores of radius rm,i in the m-th layer at filtration volume v, respectively. Since particle removal is assumed to be due only to size exclusion, all particles pass through pores of rm,i > rB without being trapped. The change in the number of unblocked pores in the m-th layer from filtra­tion volume v to v + Δv can be expressed as follows, Nm,i(v + Δv) = Nm,i(v) -(RP rm,i )2 ntrapm,i (v)(3) These equations are combined to give Nm,i(v + Δv) = Nm,i(v) -(RP rm,i )2 rm,i2Nm,i(v)∑n i=1 rm,i2Nm,i(v)nm(v) *(1 -(1 -P)Sm)",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Schematic representation of heterogeneous multilayer membrane structure, equivalent pore radius and sheet thickness. a) Multilayer membrane structure, b) pore cross-sectional deviation from a circle and c) change of sheet thickness by membrane distortion. The membrane contains a total of M layers while each in­dividual layer, m, comprises Sm sheets. Pore size distribution is the same for each sheet within a given layer but differs among layers. r: equivalent pore radius. rB: capture limit equivalent pore radius. RP: particle radius. H. Shirataki et al. Journal of Membrane Science 724 (2025) 123976 layer, nTrapm(v) at filtration volume v is given by nTrapm(v) =∑n i=1 nTrapm,i (v) =∑B i=1 nTrapm,i (v)(5) For the multi-component solution containing different sizes of par­ticles, Equations (2) and (4) are sequentially calculated for each particle to obtain the final number of trapped particles and unblocked pores after the filtration. That is, if the pore size distribution of each layer at v = 0 is known, the pore size distribution of each layer after solution permeation at any volume (Nm,i(v)) can be obtained from the number of particles intro­duced into the membrane. The total area of pores in each layer at v = 0 is obtained from the porosity of the layer, and the initial number of pores with radius ri in m-th layer, Nm,i(0) (initial pore size distribution), is obtained by the porosity and log-normal distribution as derived previ­ously [24,32,33] and expressed below.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ")-ln(R*)]2 2σ*2 ) (6) where Nm(0) is the initial total number of pores in m-th layer per unit area, σ* and R* are parameters expressed by variance σ and mean pore radius ra as ln(R*) = 12 ln(ra4 σ2 + ra2 )(7) and σ* = ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ ln(σ2 + ra2 ra2 )√\n\n(8)\n\nThus, by sequentially conducting this calculation using spreadsheet software for all layers from m = 1 to m = M with defined Δv, the number of particles trapped in each layer when a solution with a known particle concentration is permeated through a multilayer membrane structure can be calculated, and the retention distribution of trapped particles with different sizes in all layers after permeation in the direction of flux can be obtained. By this procedure, the total number of trapped particles in the membrane is calculated from the total number of introduced particles. Thus, the LRV of particles (MVM) in the filtered permeate is given by the following equation. LRV= -log(totalnumberof introducedparticles-totalnumberof trappedparticlestotalnumberof introducedparticles\n\n)\n\n(9)\n\nFrom Equation (4), as shown previously [24], for constant flux filtration, normalized pressure difference Δp(v)/Δp(0) is expressed by the following equation:\n\n[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}]\n\nIn the case of constant pressure filtration, normalized flux, J(v)/J(0) is expressed as",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Thus, applying the pore size distribution of each layer calculated from Equation (4) to Equation [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] or [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}], the pressure difference for constant flux filtration or the flux for constant pressure filtration can be calculated. 2.3. Approximate membrane structure based on virus visualization of retention The average pore size of each virus filter layer according to the advanced multilayer model was determined using the observed MVM retention distribution after filtration of solution without protein ac­cording to the procedure shown in Fig. 2. For the calculations, initial fixed values, as reported previously [24], of F = 0.3, MVM particle radius RP = 14 nm (diameter is 28 nm), rB = 46.7 nm (from rB = RP/F), M = 50, MVM concentration of 3.0 * 1015/m3, porosity of each layer obtained by the experimental membrane intensity as described later by Equation [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] and σ2/ra = 4, where σ is variance of log-normal pore size distribution, were used.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ght|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] and σ2/ra = 4, where σ is variance of log-normal pore size distribution, were used. As described previously, F = 0.3 was set based on in-house data and the value M = 50 was chosen to simultaneously keep the calculation manageable and to give a sufficiently fine calcu­lation of membrane structure. In the example shown in Fig. 2, the calculation unit Δv was set at 1/ 25 of total filtration volume. Additionally, the average pore diameter ra,i of each layer and the particle capture probability P were input as opti­mized values, and Equations (4) and (5) were repeatedly calculated until the total filtration volume reached v = 25 * Δv. The number of sheets forming the m-th layer used in Equation (4) is given by Sm in Equation (1) as shown in Fig. 1a. The layer thickness was set to 0.8 μm (800 nm), as in our earlier study [24]. The pore size distribution of each layer follows a log-normal distribution. Calculations were iteratively per­formed using Macro functions in Microsoft Excel (Microsoft, USA) until the total filtration volume was reached, and the profile of the calculated MVM retention distribution was compared with the experimental retention distribution (Fig. 5b).",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "volume was reached, and the profile of the calculated MVM retention distribution was compared with the experimental retention distribution (Fig. 5b). The input values of ra,i and P were revised and recalculated in order to determine the optimized values until the deviation of retention distribution between the calculations and experiments met the criteria specified in Equation [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}].",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Optimization calculation procedure for determining the average pore radius of each layer in a multilayer membrane model with a pore size distri­bution that follows a log-normal distribution using experimental MVM reten­tion distribution data.\n\nH. Shirataki et al. Journal of Membrane Science 724 (2025) 123976",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Deviation =∑M m=1 ( nTrapm nTrappeak -ImIpeak )2 < 0.5[ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] Here, I is signal intensity of MVM trapped in the membrane layer. For a virus filter with a given membrane structure, the filtration behavior and virus LRV can be calculated by optimizing the parameters by the pro­cedure shown in Fig. 3. Fig. 3 shows the procedure for calculating normalized flux (J/J0), virus LRV, and MVM/protein retention distri­bution in the membrane for filtration of an IgG solution spiked with MVM through a membrane with a structure determined by the optimi­zation procedure in Fig. 2. The IgG solution is assumed to be composed of multiple components, namely monomers and aggregates, and the size and concentration of the aggregates were optimized so that deviation between experimental and calculated results for filtration behavior (J/ J0) and virus LRV at each filtration volume (i = 1 to n) profiles meets the criterion shown in Equation [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}]. ∑n i=1 ( J/J0CaliJ/J0CalPeak -J/J0ExpiJ/J0ExpPeak )2 < 0.1 and *∑n i=1 ( LRVCali LRVCalPeak -LRVExpiLRVExpPeak )2\n\n< 0.1[ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}]",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The calculation was performed by repeating operations using Microsoft Excel Macro in the same way as in Fig. 2. Using the calculation procedure shown in Fig. 3, the filtration behavior when a multicomponent IgG solution is passed through, i.e., the relationship be­tween J/J0 or Δp/Δp0 and the throughput (L/m2), can be obtained by Equation [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] or [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}]. In the calculation, the radius of the aggregate is defined as Ri, and the number of monomers that comprise the aggregate, i, is given by the following equation [34].\n\n[ФОРМУЛА: [FORMULA_ID: 606ca706-dbb6-44eb-8cad-d294a8906879] i = (Ri R0 )2.56]\n\n[ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}]",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Here, R0 is the radius of the monomer. Since the molecular weight of the monomer is known, the weight of protein contained in one aggregate particle can be calculated from the number of monomers that make up the aggregate of the input size, and the number of aggregate particles per unit volume (/m3) can be calculated from the concentration of the aggregate components (mg/mL). In performing the calculation described in Fig. 3, the size and concentration of each IgG aggregate component are entered by trial-and-error and the calculation is repeated until the number of components, aggregate size and concentration of each component satisfy Equation [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}], i.e. the more components there are, the more iterations and the more time the calculations take to find the optimum values. To allow the calculations to be performed on a normal personal computer, the total number of IgG components (monomers and aggregates) was set to approximately three and the probability of each IgG component being captured was set to P = 1, regardless of the size of the aggregate, to simplify the calculations as much as possible and to avoid the huge computation time.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ed was set to P = 1, regardless of the size of the aggregate, to simplify the calculations as much as possible and to avoid the huge computation time. Although the actual probability of capture is likely to be different for each component, the concentrations of IgG components are overwhelmingly greater than that of MVM and pores smaller than the size of the IgG components quickly trap the particles, so P = 1 is assumed to be appropriate for all IgG components. 3. Results and discussion 3.1. Visualization of particle retention in virus filter membrane Laser-scanning microscopy of Planova 20N hollow fiber cross-",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. Calculation procedure for determining the multicomponent IgG solution composition that reproduces filtration behavior and virus LRV. H. Shirataki et al. Journal of Membrane Science 724 (2025) 123976 sections after the filtration of MVM-spiked solutions, PBS without IgG, 1 and 10 mg/mL IgG in PBS, show the respective retention distributions of MVM (red) and IgG (green) in the membrane (gray structure) in Fig. 4. For all runs, IgG recovery after the filtration were >90 % and LRV were >4 as shown later in Fig. 10. Both MVM and IgG show distinct distri­bution patterns within the membrane that differ with solution compo­sition. Notably, neither particle is captured on the membrane surface, illustrating the applicability of modeling the filter as a multilayer membrane. The retention distribution of MVM differs depending on the presence of IgG in the solution. Without IgG in the solution, MVM par­ticles are widely captured from near the surface to the center of the membrane, but for an IgG concentration of 1 mg/mL, MVM retention distribution is concentrated near the center of the membrane. Compared to MVM, IgG retention extends farther toward the permeate side. For the\n\n1 mg/mL IgG solution, the peak extends beyond the center of the membrane, but in the case of a 10 mg/mL IgG solution, the retention distribution is broader and more shifted toward the feed side.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Calculation of optimized multilayer membrane structure The optimization calculation of the average pore size for each layer is obtained by following the procedure in Fig. 2 by inputting initial fixed parameters along with the porosity of each layer. The intensity of membrane autofluorescence of the Planova 20N filter membrane from M = 1 to M = 50 and the experimentally obtained initial porosity of each layer are shown in Fig. 5a. As reported previously [24], porosity of each layer is obtained from the intensity of the membrane autofluorescence. Since the signal intensity of the membrane material proportionally\n\nFig. 4. Filter fouling of IgG and MVM retention distribution in Planova 20N membrane visualized by the laser-scanning microscopy images of cross-section of the hollow fiber membrane after filtration of MVM-spiked PBS, 1 mg/mL IgG in PBS and 10 mg/mL IgG in PBS. The scale bar is not shown at the request of the membrane product supplier.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. The experimentally determined porosity and average pore radius of each layer of the virus filter obtained by optimization, and comparison of the calculated and experimental values of the MVM retention distribution. a) Membrane material autofluorescence intensity and porosity of each layer. b) Optimized average pore radius with log-normal distribution of each layer and comparison of the experimental and calculated results of MVM retention distribution in the membrane. H. Shirataki et al. Journal of Membrane Science 724 (2025) 123976 correlates with the membrane filling rate, porosity ρ (%) is expressed as (100 - filling rate) (%). Therefore, if the porosity at intensity 100 % (lowest porosity) is ρ100 (%) and the porosity at intensity 0 %, ρ0 (%), is 100 %, the porosity ρ (%) at any signal intensity I (%) is expressed by ρ = 100 -(100 -ρ100)100I[ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] In calculating the porosity of each layer, 100 % signal intensity of the membrane material is assumed to correspond to 40 % porosity (ρ100 =40 %) based on in-house data of Planova 20N (not disclosed). The average pore radius for each layer obtained by the procedure in Fig. 2 is shown in Fig. 5b. Fig.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "on in-house data of Planova 20N (not disclosed). The average pore radius for each layer obtained by the procedure in Fig. 2 is shown in Fig. 5b. Fig. 5b also shows the comparison of the retention distribution of MVM in the membrane calculated by the optimized average pore size for each layer and the experimentally ob­tained retention distribution. The experimental MVM retention distri­bution in Fig. 5b is obtained from the intensity of labeled MVM without IgG in Fig. 4. As shown in the figure, the retention distribution of MVM calculated from the optimized pore size distribution of each layer re­produces the experimental results well.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Model calculations of the effect of particle size on permeability and MVM LRV The calculated flux and MVM LRV for constant pressure filtration with Planova 20N using the multilayer structure shown in Fig. 5a for model solutions of 0.1 mg/mL protein consisting of a single particle size spiked with MVM at a particle concentration of 3.0 * 1015/m3 is shown in Fig. 6. This condition represents the model calculation for filtering a solution consisting of uniform-sized spherical protein monomers or ag­gregates through a virus filter. As protein concentration is constant at 0.1 mg/mL, a solution with larger particle size would have a lower particle concentration. Assuming IgG has a molecular weight of 158.5 kDa and the monomer radius is 5 nm [22,24], the protein weight per particle is 2.63 * 10-19 g (assuming the density is 1 mg/mL) with a particle concentration per unit volume of 3.80 * 1020/m3 for a solution comprised entirely of IgG in monomer form. From Equation [ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}], a particle with a radius of 35 nm has 145.7-mers (i.e., number of monomers that comprise the aggregate, i =145.7), the protein weight of a single protein unit is 3.83 * 10-17 g and the particle concentration is 2.61 * 1018/m3. In the calculation, the capture probability of MVM particle is set to P = 0.01 and for protein aggregates particle P is assumed to be 1 because of the significantly higher concentration than MVM. From Fig.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "icle is set to P = 0.01 and for protein aggregates particle P is assumed to be 1 because of the significantly higher concentration than MVM. From Fig. 6a, the normalized flux J/J0 decreases as the particle radius increases despite solutions having lower particle concentration; for 35 nm particles, J/J0 at 50 L/m2 decreases to below 0.03, which corresponds to a state in which the pores of the membrane in some layers are blocked by fouling due to aggregates, which causes filtration to nearly stop. The previous filtration study of the pre-filtered IgG solution with spiking acid-generated aggregates and its SEC data indicated that the presence of even very small amounts of protein aggregates much larger than trimer can significantly reduce the permeability [15]. The effect of small amounts of larger size aggregates on permeability and fouling has also been reported experimentally by Barnard et al. [18] and Kosiol et al. [19]. Thus, the calculated results in Fig. 6a are consistent with the reported experimental results. The calculation results also suggest that when aggregate particles are captured in pores by size exclusion, J/J0 results in a constant value depending on the particle size; for example, when particle radius is 10 nm or less, J/J0 becomes con­stant at 0.8 or more. This calculation result corroborates previously re­ported experimental results showing that IgG dimers do not significantly affect permeability of virus filters [15]. In Fig.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "corroborates previously re­ported experimental results showing that IgG dimers do not significantly affect permeability of virus filters [15]. In Fig. 6b, MVM LRV is at its minimum when aggregate particle radius is 15 nm, which is closest to the size of MVM. For larger aggregate particle radius, MVM LRV increases, and when the particle radius is 35 nm, the MVM LRV reaches a value of more than 4 even at 50 L/m2, where flux has almost stopped. Thus, aggregates of similar size to the virus are competitively captured by pores intended for virus capture, reducing MVM LRV, whereas aggregate particles larger than the virus are preferentially captured by larger pores in the membrane, main­taining virus removal ability even when permeability is reduced. This result may correspond to the previous results of bacteriophage фX-174 LRV using a different virus filter (Viresolve NFP, Millipore, US) reported by Bolton et al. [35], where virus LRV was not affected by spiking with large latex particles (90 nm) but was reduced significantly by spiking with smaller latex particles (21 nm). For the same filter used in this study (Planova 20N), Kayukawa et al.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ") but was reduced significantly by spiking with smaller latex particles (21 nm). For the same filter used in this study (Planova 20N), Kayukawa et al. [36] reported that, by spiking the same size of MVM empty capsid particles at 100 times the concentration, the MVM LRV evaluated by TCID50 (50 % tissue culture infectious dose) was reduced from greater than 5 to less than 4 at a throughput of 50 L/m2, while the virus LRV was maintained above 5 even at a throughput of 200 L/m2 when no empty capsid particles were spiked. In the calculation of Fig. 6b, the concentration of MVM particles (14 nm radius) is set to 3.0 * 1015/m3 and the concentration of aggre­gate particles with 15 nm radius is 2.28 * 1019/m3, i.e. about 104 times higher concentration, in which the calculated MVM LRV is reduced from 5 to 1 at the throughput of 50 L/m2. This means that, since virus LRV is a logarithmic value, the experimental result of Kayukawa et al. [36] is",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. Calculated relationship between protein aggregate radius and normalized flux and MVM LRV for a 0.1 mg/mL protein model solution consisting of monodisperse monomer or aggregates. a) Calculated normalized flux; J/J0, b) calculated MVM LRV. H. Shirataki et al. Journal of Membrane Science 724 (2025) 123976 nearly consistent with the model calculation of this report. The result of this calculation also reproduces the experimental result where high MVM LRV was obtained even when the permeability was significantly reduced in the filtration of a 10 mg/mL IgG solution (Fig. 10).",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.4. Equivalence of constant pressure and constant flux filtrations Experimental filtration behaviors of 5 mg/mL human IgG in PBS solution filtered through a Planova 20N filter under constant flux and constant pressure conditions are shown in Fig. 7. The TMP is higher for filtrations with higher flux conducted at constant flux. The TMP grad­ually increases as the throughput increases (Fig. 7a). At constant flux of 51 LMH, the TMP reached the upper pressure limit of the filter during filtration, 0.1 MPa, at the throughput of approximately 30 L/m2. Thus, filtration was stopped. For constant pressure filtration at three set pressures, flux decreases with increasing throughput (Fig. 7b). Initial flux was greater for higher pressure, and flux decreased monotonically with increasing throughput, reaching 3 LMH or less at about 200 L/m2 at which point the experiment was stopped. Plotting the filtration results as normalized pressure (Fig. 7c) and flux (Fig. 7d) versus throughput shows that pressure changes at different fluxes and the flux changes at different pressures converge to nearly the same master curve. Since the same membrane and solution were used for both constant flux and pressure filtration, the experimental results of Fig. 7c and d should be reproduced by the advanced multilayer model of this study if appropriate solution components are optimized according to the procedure in Fig. 3.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ld be reproduced by the advanced multilayer model of this study if appropriate solution components are optimized according to the procedure in Fig. 3. It should be noted that this approach does not take into account the differences between the experimental setups, in particular the difference in the inner diameter of the tubes used for constant flux and constant pressure filtrations, although the shear stress in the tubes may be different and may affect membrane fouling. In this study, we neglect the effect of the difference in experimental setups, assuming that this effect can be ignored compared to the shear stress due to membrane permeation. The results of the DLS and SEC measurements of the PBS solution of IgG used in this experiment are shown in Fig. 8a and b, respectively. For reference, solutions of different concentrations (1 and 10 mg/mL) other than the 5 mg/mL used in the filtration test were also measured and the profiles are superimposed in the figures for comparison. For DLS the IgG solution was measured at undiluted concentrations, whereas for SEC the IgG solution was diluted with a carrier solution in the columns. For each concentration, the monomer and dimer ratio obtained by SEC are noted in the figure. The DLS profile for 5 mg/mL is similar to 1 mg/mL, whereas 10 mg/mL shows a broader profile indicating the existence of larger size components.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "igure. The DLS profile for 5 mg/mL is similar to 1 mg/mL, whereas 10 mg/mL shows a broader profile indicating the existence of larger size components. It should be noted that DLS detects fluctuations caused by the component motion and converts it to hydrodynamic diameter, differing from SEC which detects the component separated by the size exclusion column. SEC profiles in Fig. 8b shows that the higher the concentration, the higher the dimer ratio, and no quantifiable aggregate peaks larger than the dimer are clearly detected at any con­centration. For IgG solution treated by heat or acid, the SEC analysis would show clear peaks of aggregates larger than dimers [15], but the IgG solution used in the filtration tests in this study had no such history, so the SEC profile is likely to be as shown in Fig. 8b. SEC analysis showed that the 5 mg/mL IgG solution used for this filtration test had two main components with a composition of 94.23 % monomer and 5.77 % dimer (Table 1), and the DLS analysis showed that the z-average radius of IgG in the solution was 5.85 nm. The size of the monomer and dimer (R0 and R2, respectively) was calculated using the average radius of the IgG particles (5.85 nm) determined by DLS, the",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. Constant flux and constant pressure filtration behavior of a 5 mg/mL IgG solution through Planova 20N. a) Relationship between TMP (MPa) and throughput (L/m2) during constant flux filtration at 15, 22.5, 36 and 51 LMH (experimental results). b) Relationship between flux (LMH) and throughput (L/m2) during constant pressure filtration at 0.05, 0.075 and 0.1 MPa (experimental results). c) Relationship between normalized pressure (Δp/Δp0) and throughput (L/m2) during constant flux filtration (experimental and calculated results). d) Relationship between normalized flux (J/J0) and throughput (L/m2) during constant pressure filtration (experimental and calculated results). H. Shirataki et al. Journal of Membrane Science 724 (2025) 123976 monomer and dimer ratio obtained by SEC, and Equation [ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] to obtain R0 = 5.74 nm (Table 1) and R2 = 7.53 nm according to the following equation. 5.85 = 0.9423R0 + 0.0577R2 = R0 (0.9423 + 0.0577 * 21/2.56)(16) When optimizing the calculation for filtration behavior, it may be necessary to add a larger aggregate. For aggregates larger than a dimer, the size of the monomer obtained from Equation [ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] and Equation (16)can be used to obtain the size of the aggregate. Fig.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] and Equation (16)can be used to obtain the size of the aggregate. Fig. 8 shows that the SEC data do not clearly indicate the presence of aggregates larger than dimer size, but the DLS data make it reasonable to consider the presence of aggregates of larger sizes. As can be seen from Fig. 7d, J/J0 at 200 L/m2 drops to less than 0.01. Comparing this result with the result from Fig. 6a suggests that the supplied solution contains a very small amount of aggregate particles with a radius of 20 nm or more. As the initial values for the multi-component optimization calculation procedure in Fig. 3, the dimer ratio determined by SEC was fixed at 5.77 %, and a compo­sition containing approximately 0.1 % aggregate particles of 20 nm or more was inputted. The optimal values for aggregate size and concen­tration were determined by repeated trial-and-error calculations following the procedure in Fig. 3, using the same initial parameters as in the previous section (ra of each layer, initial pore size distribution, F, σ2/ ra, M and P), to reproduce the experimental results for constant flux and constant pressure filtration for a multi-component solution. Table 1 shows the composition of the components of the IgG solution optimized with experimental results for constant flux filtration up to 90 L/m2. In Fig.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1 shows the composition of the components of the IgG solution optimized with experimental results for constant flux filtration up to 90 L/m2. In Fig. 7c, the filtration curve showing the relationship between Δp/Δp0 and throughput (L/m2) for constant flux filtration obtained by the optimization calculation procedure in Fig. 3 is plotted as a solid blue line. The filtration curve is calculated using Equation [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] with the re­sults of Equation (4). As shown in Table 1, by assuming the presence of very small amounts of the larger two-component aggregates in addition to the monomer and dimer detected by SEC, calculation results were obtained that reproduced the experimental results as plotted in Fig. 7c. This result suggests that there may be larger size aggregates present as suggested by DLS that are not detectable by SEC, and that the IgG par­ticle size distribution may be approximated by assuming two additional components. In addition, the results of calculating J/J0 for constant pressure filtration up to 200 L/m2 using the parameters obtained in Table 1 are shown together with the experimental results in Fig. 7d.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "for constant pressure filtration up to 200 L/m2 using the parameters obtained in Table 1 are shown together with the experimental results in Fig. 7d. The figure shows that the parameters obtained from the experiments for constant flux filtration up to 90 L/m2 can be used to reproduce the experimental filtration behavior for constant pressure filtration up to 200 L/m2, which has a larger throughput, with good similarity. These results indicate that constant flux filtration and constant pressure filtration are equivalent in this experiment, such that the filtration behavior conducted in one mode can be theoretically predicted from the filtration behavior data collected in the other mode by using the multilayer model calculations. The relationship between initial TMP and initial flux for both the constant flux (Fig. 9a) and constant pressure filtration (Fig. 9b) are well approximated by a straight line with a slope of 0.0016, and the rela­tionship between initial pressure and initial flux follows Hagen-Pois­euille’s equation. In other words, filtrations conducted in constant pressure or constant flux mode will show the same relationship between TMP and flux at the beginning of filtration, regardless of filtration mode. Thus, for the initial TMP and initial flux determined from the results of a filtration for a given solution and filter, the initial flux and initial TMP at different pressures and fluxes can be quantitatively obtained regardless of the filtration mode.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ution and filter, the initial flux and initial TMP at different pressures and fluxes can be quantitatively obtained regardless of the filtration mode. Furthermore, the filtration model introduced in this study suggests that by determining the membrane structure and physical parameters of the protein solution, it may be possible to quantitatively predict the behavior of both constant flux and constant pressure filtration with minimal experimental results when the same membrane and solution are used, to the extent that constant flux filtration and constant pressure filtration are equivalent. Equations [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] and [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] indicate that for both constant flux and constant pressure filtration modes, the relationship between TMP and flux is determined by the state of pore blocking of the layers in the membrane due to solution permeation. In other words, the fact that constant flux and constant pressure filtration are equivalent suggests",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 8. DLS and SEC measurements of IgG PBS solutions used for the filtration test of Fig. 7. IgG concentrations; 1 mg/mL, 5 mg/mL and 10 mg/mL a) DLS profile, b) SEC profile and monomer/dimer content (%).\n\nTable 1 Optimized composition of the components of 5 mg/mL IgG solution to reproduce the experimental results in Fig. 7 obtained by the optimization procedure in Fig. 3. 5 mg/mL IgG IgG monomerAggregate-1Aggregate-2Aggregate-3 Radius/nm5.747.533245i-mer1281.35194.72Conc. mg/mL4.70450.28850.00650.00025%94.0955.770.130.005Density/m31.788 * 10225.471 * 10203.036 * 10174.878 * 1015 % (SEC data)94.235.77–– H. Shirataki et al. Journal of Membrane Science 724 (2025) 123976 that the change in the state of pores blocking of each layer is the same for both filtration modes, provided the throughput is the same. This is considered reasonable because the state of pore blockage in a membrane corresponds to the total number of particles fed into the membrane that can block the pores, and the total number of particles corresponds to the filtration volume. It should be noted that under high shear stress filtration conditions by pressure, flux or protein concentration differ­ence, the pore blocking state in the membrane with throughput could be different due to the possible deformation or degradation of aggregate particles in the membrane as discussed later, in which case the equiva­lence of the two filtration modes might not be realized.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10,
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.5. Reproduction of experimental results of filtration behavior, MVM LRV, and retention distribution by the same set of parameters Using the same calculation procedure as in Fig. 3, the experimental data of J/J0 and MVM LRV as a function of throughput of 1 and 10 mg/ mL IgG solutions spiked with MVM can be reproduced. Fig. 10 shows the calculated results plotted as a solid line and the experimental results plotted as symbols. The experimental results for filtration of a 1 mg/mL IgG solution in Fig. 10a show that J/J0 is 0.8 or less at 50 L/m2, and the model calculations in Fig. 6 suggest that in order to reproduce the experimental results, the IgG solution should contain a small amount of aggregate particles with a radius of 10 nm or more. Similarly, the experimental results for filtration of a 10 mg/mL IgG solution show that J/J0 is below 0.1 at 10 L/m2 and continues to decline, so the model calculations in Fig. 6 suggest that the solution contains aggregate par­ticles with a radius of 30 nm or more. Based on these observations, it is assumed that aggregates with a radius of 10 nm or greater would be used as initial values to reproduce the filtration behavior of a 1 mg/mL IgG solution and that aggregates with a radius of 30 nm or greater would be used as initial values to reproduce the filtration behavior of a 10 mg/mL IgG solution. This assumption is considered to be reasonable according to the DLS profiles of human-IgG in PBS shown in Fig. 8.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "behavior of a 10 mg/mL IgG solution. This assumption is considered to be reasonable according to the DLS profiles of human-IgG in PBS shown in Fig. 8. Adding to monomer, two aggregate components are entered as the initial condition and their size and concentration of aggregate components are changed by trial-and-error in the optimization to reproduce the experiment ac­cording to the procedure in Fig. 3. We then determined the composition of a multi-component IgG solution that reproduced the experimental results. The initial protein composition in the solution was assumed to consist of monomer and two large aggregates without including dimers. Fig. 10 shows the calculation (solid lines) and the experimental (sym­bols) results for J/J0 and MVM LRV obtained by the procedure in Fig. 3. As can be seen in the figure, for all filtrations regardless of the presence or absence of IgG, the calculations reproduce the filtration behavior and MVM LRV experimental results very well. The optimal compositions of multicomponent solutions of monomers and aggregates for 1 and 10 mg/mL IgG solutions, which give the calculated values in Fig. 10, are shown in Table 2. The filtration behavior can be reproduced well by optimizing the composition of each solution by setting the initial parameters assuming that the 1 mg/mL IgG solution contains aggregates with a radius of 10 nm or larger and the 10",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 10. Comparison of experimental and calculated results for filtration behavior and LRV when MVM-spiked PBS, 1 and 10 mg/mL IgG solutions are filtered through a Planova 20N. a) Relationship between normalized flux and throughput. b) Relationship between LRV and throughput. Symbol: experimental results, solid line: calculated results. H. Shirataki et al. Journal of Membrane Science 724 (2025) 123976 mg/mL IgG solution with a radius of 30 nm or larger as mentioned above. As shown in Fig. 10 and Table 2, the calculation results show good agreement with the experimental results under the assumption of the presence of a small amount of large aggregates of two components, i. e., monomer and two-component aggregates, similar to the results in Fig. 7 and Table 1. The capture probability P of MVM particles, which reproduces the experimental results of LRV, was optimized to be 0.013 and 0.0097 for 1 and 10 mg/mL IgG, respectively. These P values are close to the value of 0.009 for MVM in PBS, but slightly higher for the protein solution. The reason for the slightly higher P value for the IgG solution might be that the mobility of the MVM is inhibited by the IgG in the solution, making it easier for the MVM to become trapped in the pores. The P at 10 mg/mL is less than that at 1 mg/mL, presumably because the greater amount of aggregates inhibits MVM entrapment in the pores compared to the lower concentration protein solution. In the calculation procedure in Fig.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "r amount of aggregates inhibits MVM entrapment in the pores compared to the lower concentration protein solution. In the calculation procedure in Fig. 3 used to obtain the results in Fig. 10, the number of MVM and IgG aggregates trapped in each layer is calculated using Equation (5) to obtain the particle retention distribu­tions within the membrane. Fig. 11 shows comparisons between the calculated and experimental results for the retention distribution of MVM (Fig. 11a and c) and IgG (Fig. 11b and d) in the membrane permeated with 1 and 10 mg/mL IgG solutions. In other words, Fig. 11b and d shows the distribution of protein fouling within the virus filter as shown in Fig. 4. In the case of 1 mg/mL solution, Fig. 11a and b shows that the retention distribution calculated using the optimized composition of the three-component IgG solution, which reproduces the filtration behavior in Fig. 10, closely reproduces the experimental results of the retention distribution of both MVM and IgG. Since the experimental results give the retention distribution of all IgG regardless of monomer or aggregate form, the calculation results of the IgG retention distribution in Fig. 11b are plotted as the total mass of all three components of IgG captured in each layer. On the other hand, in the case of 10 mg/mL solution, as shown in Fig. 11c and d, there is a large difference between the calculated results and the experimental results for the retention distributions for MVM and IgG, respectively.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "there is a large difference between the calculated results and the experimental results for the retention distributions for MVM and IgG, respectively. In particular, in the case of the retention distribution of IgG, the experimental results show that the retention distribution increases significantly after the 10th layer, whereas the calculation re­sults show that significant IgG capture occurs on the surface layer of the membrane. For 1 mg/mL IgG solution, Table 2 indicates that the aggregate size that causes fouling is a radius of 10–15 nm (diameter of 20–30 nm) and it reproduce all the experimental results (filtration behavior, MVM LRV",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 2 Compositions of multi-component IgG solutions that reproduce experimental filtration behavior and LRV results in Fig. 10. Component1 mg/mL IgG10 mg/mL IgG MonomerAggregate-1Aggregate-2MonomerAggregate-1Aggregate-2 Radius/nm5101553033i-mer15.916.65198.19125.32Protein conc. mg/mL0.9350.050.0159.6320.350.018Particle density/m33.55 * 10213.22 * 10193.42 * 10183.66 * 10221.35 * 10195.45 * 1017",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "H. Shirataki et al. Journal of Membrane Science 724 (2025) 123976 introducing unknown empirical parameters for the lower protein con­centration solution. At lower concentrations (1 mg/mL), filtration behavior, virus LRV and virus/protein retention distribution can be reproduced with the same set of parameters. At high concentrations (10 mg/mL), filtration behavior and virus LRV can be also reproduced, but retention distribution cannot. This suggests that deformation, degrada­tion or regeneration of large size aggregates may occur as they pass through the pores of the virus filter. CRediT authorship contribution statement Hironobu Shirataki: Writing – review & editing, Writing – original draft, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Remo Leisi: Visualization, Investigation, Formal analysis, Data curation, Conceptualization. Junji Hidaka: Formal analysis, Data curation. S. Ranil Wickramasinghe: Writing – review & editing, Writing – original draft, Supervision, Investigation, Conceptualization. Data availability statement The data that support the findings of this study are available on request from the corresponding author.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[8] S. Ide, Filter made of cuprammonium regenerated cellulose for virus removal: a mini review, Cellulose 29 (2022) 2779–2793, https://doi.org/10.1007/s10570021-04319-2.[9] N.B. Jackson, M. Bakhshayeshi, A.L. Zydney, A. Mehta, R. van Reis, R. Kuriyel, Internal virus polarization model for virus retention by the Ultipor virus filter grade DV20 membrane, Biotechnol. Prog. 30 (2014) 856–863, https://doi.org/ 10.1002/btpr.1897.[10] M.A. Afzal, A.L. Zydney, Effect of filtrate flux and process disruptions on virus retention by a relatively homogeneous virus removal membrane, Biotechnol. Prog. 38 (2022) e3255, https://doi.org/10.1002/btpr.3255.[11] R.I. Peinador, J.I. Calvo, K. ToVinh, V. Thom, P. Pr´adanos, A. Hern´andez, Liquid–liquid displacement porosimetry for the characterization of virus retentive membranes, J. Membr. Sci. 372 (2011) 366–372, https://doi.org/10.1016/j. memsci.2011.02.022.[12] P. Kosiol, C. Kahrs, V. Thom, M. Ulbricht, B. Hansmann, Investigation of virus retention by size exclusion membranes under different flow regimes, Biotechnol. Prog. 35 (2019) e2747, https://doi.org/10.1002/btpr.2747.[13] H. Shirataki, Analysis of filtration with virus removal filters using the characteristic form of blocking model, Biochem. Eng. J. 183 (2022) 108460, https://doi.org/ 10.1016/j.bej.2022.108460.[14] H. Shirataki, S.R. Wickramasinghe, Modeling virus filtration based on a multilayer membrane morphology and pore size distribution, Biochem. Eng. J.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4] H. Shirataki, S.R. Wickramasinghe, Modeling virus filtration based on a multilayer membrane morphology and pore size distribution, Biochem. Eng. J. 194 (2023) 108903, https://doi.org/10.1016/j.bej.2023.108903.[15] H. Shirataki, Y. Yokoyama, R. Oguri, Effect of mixed-mode and surface-modified column chromatography on virus filtration performance, Biochem. Eng. J. 172 (2021) 108034, https://doi.org/10.1016/j.bej.2021.108034.[16] J. Peles, F. Fallahianbijan, B. Cacace, C. Carbrello, S. Gigli, A.L. Zydney, Effect of operating pressure on protein fouling during constant-pressure virus removal filtration, J. Membr. Sci. 648 (2022) 120351, https://doi.org/10.1016/j. memsci.2022.120351.[17] J. Peles, B. Cacace, C. Carbrello, S. Giglia, A.L. Zydney, Global pore blockage - cake filtration model including pressure effects on protein fouling in virus filtration, J. Membr. Sci. 662 (2022) 120961, https://doi.org/10.1016/j. memsci.2022.120961.[18] J.G. Barnard, D. Kahn, D. Cetlin, T.W. Randolph, J.F. Carpenter, Investigations into the Fouling mechanism of parvovirus filters during filtration of freeze–thawed mAb drug substance solutions, J. Pharmaceut. Sci. 103 (2014) 890–899, https://doi. org/10.1002/jps.23881.[19] P. Kosiol, M.T. Müller, B. Schneider, B. Hansmann, V. Thom, M. Ulbricht, Determination of pore size gradients of virus filtration membranes using gold nanoparticles and their relation to fouling with protein containing feed streams, J. Membr. Sci.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ze gradients of virus filtration membranes using gold nanoparticles and their relation to fouling with protein containing feed streams, J. Membr. Sci. 548 (2018) 598–608, https://doi.org/10.1016/j. memsci.2017.11.048.[20] J.A. Kubo, M. Tsujikawa, K. Takahashi Hongo-Hirasaki, K. Sakai, Microscopic visualization of virus removal by dedicated filters used in biopharmaceutical processing: impact of membrane structure and localization of captured virus particles, Biotechnol. Prog. 35 (2019) e2875, https://doi.org/10.1002/btpr.2875.[21] F. Fallahianbijan, S. Giglia, C. Carbrello, A.L. Zydney, Use of fluorescently-labeled nanoparticles to study pore morphology and virus capture in virus filtration membranes, J. Membr. Sci. 536 (2017) 52–58, https://doi.org/10.1016/j. memsci.2017.04.066.[22] R. Leisi, E. Widmer, B. Gooch, N.J. Roth, C. Ros, Mechanistic insights into flowdependent virus retention in different nanofilter membranes, J. Membr. Sci. 636 (2021) 119548, https://doi.org/10.1016/j.memsci.2021.119548.[23] R. Leisi, I. Rostami, A. Laughhunn, J. Bieri, N.J. Roth, E. Widmer, C. Ros, Visualizing protein fouling and its impact on parvovirus retention within distinct filter membrane morphologies, J. Membr. Sci. 659 (2022) 120791, https://doi. org/10.1016/j.memsci.2022.120791.[24] H. Shirataki, S.R. Wickramasinghe, Predicting virus filter performance using an advanced membrane structural model, J. Membr. Sci. 685 (2023) 121929, https:// doi.org/10.1016/j.memsci.2023.121929.[25] L.K.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ter performance using an advanced membrane structural model, J. Membr. Sci. 685 (2023) 121929, https:// doi.org/10.1016/j.memsci.2023.121929.[25] L.K. Chu, S.R. Wickramasinghe, X. Qian, A.L. Zydney, Retention and fouling during nanoparticle filtration: implications for membrane purification of biotherapeutics, Membranes 12 (3) (2022) 299, https://doi.org/10.3390/membranes12030299.[26] M. Billups, M. Minervini, M. Holstein, H. Feroz, S. Ranjan, J. Hung, H. Bao, S. Ghose, Z.J. Li, A.L. Zydney, Antibody retention by virus filtration membranes: polarization and sieving effects, J. Membr. Sci. 620 (2021) 118884, https://doi. org/10.1016/j.memsci.2020.118884.[27] M.A. Afzal, A.L. Zydney, Impact of proteins and protein fouling on virus retention during virus removal filtration, Biotechnol. Bioeng. 121 (2024) 710–718, https:// doi.org/10.1002/bit.2860.[28] J. Peles, B. Cacace, C. Carbrello, S. Giglia, A.L. Zydney, Protein fouling during constant-flux virus filtration: mechanisms and modeling, Biotechnol. Bioeng. 120 (2023) 3357–3367, https://doi.org/10.1002/bit.28511.[29] H. Nazem-Bokaee, D. Chen, S.M. O’Donnell, A.L. Zydney, Visualizing effects of protein fouling on capture profiles in the Planova BioEX and 20N virus filters, J. Membr. Sci. 610 (2020) 118271, https://doi.org/10.1016/j. memsci.2020.118271.[30] M. Billups, M. Minervini, M. Holstein, H. Feroz, S. Ranjan, J. Hung, A.L.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". Sci. 610 (2020) 118271, https://doi.org/10.1016/j. memsci.2020.118271.[30] M. Billups, M. Minervini, M. Holstein, H. Feroz, S. Ranjan, J. Hung, A.L. Zydney, The role of intermolecular interactions on monoclonal antibody filtration through virus removal membranes, Biotechnol. J. 18 (2023) e2300265, https://doi.org/ 10.1002/biot.202300265.[31] S. Isu, S.-T. Chen, R. Daneshpour, H. Shirataki, D. Strauss, A.L. Zydney, X. Qian, S. R. Wickramasinghe, Enhancing virus filter performance through pretreatment by membrane adsorbers, Membranes 15 (2025) 34, https://doi.org/10.3390/ membranes15010034.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "H. Shirataki et al. Journal of Membrane Science 724 (2025) 123976\n\n[32] A.L. Zydney, P. Aimar, M. Meireles, J.M. Pimbley, G. Belfort, Use of the log-normal probability density function to analyze membrane pore size distributions: functional forms and discrepancies, J. Membr. Sci. 91 (1994) 293–298, https://doi. org/10.1016/0376-7388(94)80090-1.[33] S.R. Wickramasinghe, S.E. Bower, Z. Chen, A. Mukherjee, S.M. Husson, Relating the pore size distribution of ultrafiltration membranes to dextran rejection, J. Membr. Sci. 340 (2009) 1–8, https://doi.org/10.1016/j.memsci.2009.04.056.[34] J. Feder, T. Jossang, Scaling behavior and cluster fractal dimension determined by light scattering from aggregating proteins, Phys. Rev. Lett. 53 [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] (1984) 1403–1406.[35] G. Bolton, M. Cabatingan, M. Rubino, S. Lute, K. Brorson, M. Bailey, Normal-flow virus filtration: detection and assessment of the endpoint in bioprocessing, Biotechnol. Appl. Biochem. 42 (2005) 133–142, https://doi.org/10.1042/ BA20050056.",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14,
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[36] T. Kayukawa, A. Yanagibashi, T. Hongo-Hirasaki, K. Yanagida, Particle-based analysis elucidates the real retention capacities of virus filters and enables optimal virus clearance study design with evaluation systems of diverse virological characteristics, Biotechnol. Prog. 38 (2022) e3237, https://doi.org/10.1002/ btpr.3237.[37] M. Bieberbach, P. Kosiol, A. Seay, M. Bennecke, B. Hansmann, S. Hepbildikler, V. Thom, Investigation of fouling mechanisms of virus filters during the filtration of protein solutions using a high throughput filtration screening device, Biotechnol. Prog. 35 (2019) e2776, https://doi.org/10.1002/btpr.2776.[38] V. Stanevich, A. Pachalla, B. Nunez, M. McInnes, C. Nieder, J. Schreffler, Improving viral filtration capacity in biomanufacturing processes using aggregate binding properties of polyamide-6,6, Biotechnol. Bioeng. 118 (2021) 1105–1115, https:// doi.org/10.1002/bit.27634.\n\nH. Shirataki et al. Journal of Membrane Science 724 (2025) 123976",
+    "citation": {
+      "authors": [
+        "Ranil S.",
+        "However G."
+      ],
+      "paper_id": "1-s2.0-S0376738825002893-main",
+      "title": "Modelling virus filtration and virus reduction by an advanced multilayer model: Retention distribution and the effect of product aggregates",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  }
+]

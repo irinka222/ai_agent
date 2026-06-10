@@ -1,0 +1,1256 @@
+[
+  {
+    "content": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions Melike B. Altay Geren , George Q. Chen , Donghyuck Park , Amanda V. Ellis , Sandra E. Kentish * Department of Chemical Engineering, The University of Melbourne, Victoria, 3010, Australia\n\nA R T I C L E I N F O Keywords:Graphene oxidePermeabilitySolubilityDiffusion coefficientIon transport",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Graphene oxide membranes (GOMs) are a promising material for next-generation membrane technologies. However, the mechanisms underlying their ion transport remain unclear, limiting the ability to optimise their design for specific applications. In this study, we systematically quantify ion transport by calculating the indi­vidual ion diffusion coefficients of GOMs equilibrated in LiCl, NaCl, KCl, and MgCl2 and binary mixtures of the monovalent salts across varied external salt concentrations. We demonstrate that counter-ion diffusion co­efficients generally remain unaffected by external salt concentration, while chloride co-ion diffusion coefficients increase with concentration up to ~0.3 M before plateauing, primarily influenced by electrostatic interactions between the membrane fixed charge groups and ions, rather than membrane water content. Interestingly, the diffusion coefficients of Na+ and Cl-ions in the GOMs are comparable to those in polymeric membranes, challenging previous reports of significantly enhanced ion transport in GOMs. Rather, our analysis reveals that ion permeability in GOMs is predominantly dictated by solubility effects rather than diffusion. In monovalent binary salt systems, counter-ion diffusion coefficients were generally lower than those of single-salt systems, while chloride diffusion coefficients remained comparable, reflecting the influence of ion interactions and membrane hydration on ion transport.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Membranes that combine high selectivity for separating ions and small molecules with exceptional flux have the potential to revolutionize the energy, water, and chemical industries, serving as a key driver for advancing sustainability and addressing critical global challenges [1,2]. Graphene oxide membranes (GOMs) are a promising candidate for next-generation membrane technologies due to their reportedly ultrafast water transport [3–6] and highly selective molecular and ionic sieving properties [7–13]. Despite their promising potential, GOMs face signif­icant challenges, including structural instability, swelling, and me­chanical deformation under aqueous and saline conditions [14–16]. Additionally, for water treatment applications such as desalination, practical benefits may remain limited since increasing permeability alone can provide only minimal energetic gains [17]. Nevertheless, understanding the intrinsic transport behaviour of GOMs remains crucial. Ion permeability through a membrane depends both upon the uptake of ions within the structure (referred to as the partition coefficient, the solubility or the activity) and their transport rate (diffusivity) [18,19]. Numerous studies have reported enhanced ion permeability in GOMs [8,20–22], often attributing it to structural characteristics such as inter­layer spacing [3] and channel alignment [23], or physicochemical properties such as surface charge [10].",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "t to structural characteristics such as inter­layer spacing [3] and channel alignment [23], or physicochemical properties such as surface charge [10]. While these features likely play a role on fast ion permeation in GOMs, the independent parameters of solubility and diffusivity of ions within GOMs nanochannels remains poorly understood, leaving the mechanisms controlling ion transport unclear. While some studies have acknowledged these mechanisms, experimental validation is particularly lacking, with much of the exist­ing understanding based on molecular dynamic (MD) simulations [3,5,24–29]. For example, Joshi et al. first demonstrated ultrafast ion transport through GOMs, suggesting salt uptake as a possible contributor but no direct sorption measurements were provided [8]. Abraham et al. and Zhang et al. focused on tuning interlayer spacing and aligning channels to enhance ion permeability, relying on MD simulations without experimentally probing sorption [3,23]. Zhang et al. and Zhang et al. investigated ion selectivity in modified GOMs and evaluated transport through bulk salt permeability measurements [10,12].",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "* Corresponding author.E-mail address: sandraek@unimelb.edu.au (S.E. Kentish).\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 737 (2026) 124742\n\nAvailable online 23 September 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ).",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "However, neither study considered ion partitioning explicitly; both assumed equal ion concentrations inside and outside the membrane, without measuring or modelling ion sorption within the membrane phase. Notably, Zhang et al. highlighted the role of partition coefficients in facilitating K+ ion transport, yet provided no experimental data on ion sorption, focusing only on pure water sorption [12]. Similarly, Hong et al. studied ion selectivity in GOMs by evaluating ion permeability under the same assumption of uniform concentration, without ac­counting for partitioning effects [30]. Moreover, Cho et al. showed that ion permeability may depend more on sorption than on diffusivity, but their work was limited to salt solutions and did not consider the solu­bility of individual ions [31]. In our own recent work, we showed that ion solubility in GOMs is governed by both electrostatic attractions be­tween negatively charged functional groups and counter-ions, and non-electrostatic chemical interactions with neutral sites [32]. While these studies offer valuable insights into GOM performance, they do not provide direct experimental evidence linking sorption to the transport of individual ions. Given the remarkable sorption capabilities of GO for various ions [33–40], incorporating this parameter into ion transport studies is essential for a more comprehensive understanding of the transport mechanisms.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ions [33–40], incorporating this parameter into ion transport studies is essential for a more comprehensive understanding of the transport mechanisms. Various experimental techniques have been used to measure ion diffusion coefficients in membrane systems. For self-diffusion co­efficients, methods such as nuclear magnetic resonance (NMR) spec­troscopy [41–44], neutron scattering [43,45–48], and isotope labelling [18,49–51] are commonly employed. These techniques typically mea­sure diffusion under near-equilibrium conditions, yielding self-diffusion coefficients that reflect ion movement without the influence of external driving forces [18]. However, for practical applications and process modelling, it is essential to obtain ion diffusion coefficients under operational conditions where external forces are present, as these values more accurately represent ion transport in real-world membrane-based technologies [18,52]. For this purpose, diffusion cell experiments are frequently utilized. In these experiments however, the diffusion coeffi­cient is commonly calculated by assuming the same ion concentration within the membrane as within the external solution [8,12,53]. This approach overlooks the impact of solubility on permeability. This poses a significant limitation which may result in inaccurate evaluations of ion transport within GOMs nanochannels.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "solubility on permeability. This poses a significant limitation which may result in inaccurate evaluations of ion transport within GOMs nanochannels. Conductivity measurements can also be used to offer insights into counter-ion diffusion under an applied electric field [15,52,54]. However, this method is only accurate when the membrane is equilibrated with pure water, ensuring that counter-ions are the sole mobile species [52] in order to exclude the co-ion term in the conductivity equation [54]. Indeed, both techniques often fail to differentiate between counter-ion and co-ion diffusivity, especially in membranes containing multiple ionic species. In this study, diffusion cell experiments and conductivity measure­ments are used in combination with the solubility data from our prior work [32] to estimate the individual diffusion coefficients of counterand co-ions in free-standing GOMs. In both the concentration-driven and electrically driven experiments, the primary transport mechanism is assumed to be diffusion, independent of the applied driving force [52]. The Einstein relation, which links ionic mobility to the diffusion coef­ficient, is regarded as valid. Although this relationship was originally derived for dilute aqueous solutions [55], it has also been applied to graphene-based materials in previous studies [27,56].",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lationship was originally derived for dilute aqueous solutions [55], it has also been applied to graphene-based materials in previous studies [27,56]. Our work isolates single-ion behaviour, quantifies their corresponding diffusion co­efficients and explicitly examines the contribution of sorption, addressing a key gap in the current understanding of ion transport in GOMs. To further explore ion transport behaviour, we also conduct com­plementary experiments using binary monovalent salt mixtures in a 1:1 ratio, allowing an assessment of how ion diffusion trends are influenced by the presence of competing ionic species. This combined approach allows for a more precise characterization of ion transport mechanisms, addressing a gap in the current literature and providing valuable data for the development of advanced GO-based membrane technologies. 2. Materials and methods 2.1. Materials A 1 wt% graphene oxide dispersion (Standard Graphene, Korea) with a carbon-to-oxygen (C/O) ratio of 2.1 was used to fabricate GO mem­branes. Sodium chloride (NaCl, 99.7 %), potassium chloride (KCl, 99.0 %), and magnesium chloride hexahydrate (MgCl2⋅6H2O, 99.0 %), magnesium sulphate heptahydrate (MgSO4⋅7H2O, 99.0 %) were ob­tained from Chem-Supply, Australia. Lithium sulphate monohydrate (Li2SO4⋅H2O, 99 %) and sodium sulphate (Na2SO4, 99 %) were sourced from Sigma Aldrich, Australia. Potassium sulphate (K2SO4, 99 %) was purchased from Ajax Finechem.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "9 %) and sodium sulphate (Na2SO4, 99 %) were sourced from Sigma Aldrich, Australia. Potassium sulphate (K2SO4, 99 %) was purchased from Ajax Finechem. All solutions were prepared using deionized water (>18.2 MΩ cm, Millipore Synergy). Monovalent binary salt solutions were prepared by mixing two salts in equal equivalents amounts (1:1 ratio), so that their combined concentration matched the total equivalent concentration used in single salt solutions (e.g. 0.15 M LiCl +0.15 M NaCl results in the same total ion concentration as 0.3 M LiCl or 0.3 M NaCl). 2.2. GOMs preparation The GO dispersion was shaken for 3–4 min prior to use, with no additional purification. Several millilitres were applied onto poly­vinylidene difluoride (PVDF) substrates (220 * 370 * 3 mm, Profes­sional Plastics, Singapore) using a doctor blade, with the blade gap set to 2000 μm and a movement speed of 0.1 mm/s. After deposition, the films were dried at room temperature for two days, then heated at 60 ◦C for 1–2 h and carefully detached from the substrate. The freestanding membranes underwent further drying at 60 ◦C overnight and were stored in a controlled humidity environment (~50 %). The final dry membrane thickness was approximately 13 μm and the interlayer spacing was 0.89 nm. Further details of the GOMs preparation and characterization are provided in our earlier work [32]. 2.3. Ion solubility Binary salt solubilities were determined following the procedures established in our previous work [32].",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "in our earlier work [32]. 2.3. Ion solubility Binary salt solubilities were determined following the procedures established in our previous work [32]. In brief, cation concentrations were measured using an ashing method, where equilibrated membranes were dried, combusted at 500–550 ◦C and the resulting ash was dis­solved in 2 wt% nitric acid. The solution was then analysed by induc­tively coupled plasma atomic emission spectroscopy (ICP-OES -Agilent ICP 5100) to determine ion concentrations. Co-ion (chloride) concen­trations were determined via a desorption technique, in which salt-equilibrated membranes were soaked in deionized water and the released anions (chloride) were quantified using ion chromatography (IC - Dionex Aquion). 2.4. Ion permeation in GOMs Concentration driven ion permeation tests were carried out using a typical diffusion cell set-up at room temperature (23 ± 1 ◦C). (Fig. S1). The freestanding GOMs were installed between the upstream and downstream compartments of a cell (Side-Bi-Side Cells, PermeGear), providing an effective membrane area of 2.54 cm2. The downstream chamber contained 40 mL of deionized water and a conductivity probe (SevenExcellence S700, Mettler Toledo), while the upstream chamber was filled with 40 mL of the relevant salt solution.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "water and a conductivity probe (SevenExcellence S700, Mettler Toledo), while the upstream chamber was filled with 40 mL of the relevant salt solution. A magnetic stirrer was employed in both chambers to enhance mixing and minimize concen­tration polarization, thereby ensuring that the permeation process was primarily driven by the established concentration gradient. Each experiment was conducted a minimum of three times, and the salt permeability coefficient (Ps) estimated by Eq. (1) [57]:",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "M.B. Altay Geren et al. Journal of Membrane Science 737 (2026) 124742 ln(1 -2 Mt M0 )= Ps (-2AVl t)Eq. 1 where Mt, M0, l, V and A denote the salt concentration on the permeate side at time t, the initial salt concentration on the feed side, hydrated membrane thickness, chamber volume and the effective membrane area, respectively. In single salt experiments, the experimental duration was designed to be significantly shorter than the characteristic time defined in Eq. (1), expressed as Vl2APs. Under the conditions studied here, these characteristic times are around 1–2 days, while all measurements were carried out over durations far shorter than this timescale (3–4 h). Under these short-time conditions with Mt ≪ M0, the logarithmic term on the left-hand side of Eq. (1) can be approximated by a Taylor series expansion. Neglecting higher order terms, Eq. (1) reduces to [52,58]: MtM0 = PsAtVlEq. 2 The permeability coefficient is then given by Eq. (3) [58]: Ps = JslM0",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Eq. 3 where Js represents the pseudo-steady state salt flux. Although Eq. (3) is presented for the overall salt flux, it can similarly be applied to indi­vidual ions by substituting the appropriate ion flux and ion concentra­tion on the feed side in place of Js and M0, respectively [59]. For binary salt mixtures, the same membrane area (2.54 cm2) was used with a slightly increased chamber volume of 45 mL. Samples (~0.25 mL) were collected from the downstream side at intervals after 15 min, with at least six data points obtained to verify steady state by confirming a linear concentration versus time relationship. Cation concentrations were measured by ICP-OES (Agilent 5100), and co-ion concentrations were indirectly determined based on charge electro­neutrality and the measured cation concentrations in the downstream compartment. During experiments, the solution level in the upstream and down­stream chambers was monitored and the corresponding volume changes were recorded over time to determine the water permeability coefficient (Pw) and thus the impact of osmotic water transport (Fig. S4). The framework proposed by Kamcev et al. [60] was used to account for the contribution of this water flux on the overall salt transport and thus on the salt diffusion coefficient (Dm*s ): Dm*s= Ps Ks (1 -(ωs)0 )+ Pwρw(Δp -Δπ)(ωs)0 2MsCmc0",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Eq. 4 where Ks is the partition coefficient for the co-ions (Cmc0Csc0), (ωs)0 the mass fraction of salt and Cmc0 the mobile ion concentration, all evaluated inside the membrane at the upstream face, ρw is the density of water. Δp and Δπ are the hydrostatic and osmotic pressure differences across the mem­brane, respectively (Δp = 0 and Δπ ≈π0 in our experiments) and Ms the molecular mass of the salt. In the absence of an external electric field, the diffusion of cations and anions through the membranes is coupled due to the electro­neutrality condition and is thus dominated by movement of the mobile co-ions. The salt diffusion coefficient (Dms )can then be related to the respective diffusion coefficients within the membrane via the NernstPlanck approach as follows [52,61]: Dms = Dmg Dmc (z2gCmg + z2cCmc ) z2gDmg Cmg + z2cDmc Cmc",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Eq. 5 where Dmg and Dmc (cm2/sec) are the counter-ion and co-ion diffusion coefficients in the membrane; Cmg and Cmc are the counter-ion and co-ion concentrations in the membrane (mole/L of swollen membrane); zg and zc are the charge number of the counterand co-ions and Csc is the concentration of co-ions in the external solution. Ion concentrations inside the membrane were taken from our prior study [32] but con­verted from units of moles per litre of water sorbed to moles per litre of swollen membrane. This unit is more relevant for rate processes such as diffusion since ionic fluxes account for the physically measurable area of the swollen membrane, which includes the ions, water and graphitic region; and the effective thickness encountered by ions and water as they move through the membrane corresponding to the thickness of the swollen membrane [18,60]. To separate the counter-ion and co-ion diffusion coefficients defined in Eq. (5), an electrical field-driven analysis is required as it allows for decoupled transport, with cations migrating toward the negatively charged electrode and anions moving in the opposite direction. Specif­ically, the membrane ionic conductivity can be defined via NernstPlanck as follows [52]: κ = F2 RT (z2gDmg Cmg + z2cDmc Cmc )Eq. 6 where F is the Faraday constant (96,500 C/mol), R is gas constant (8.314 J/mol.K) and T denotes the absolute temperature. The individual ion diffusion coefficients can be estimated by solving Eq. (5) and Eq.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "constant (8.314 J/mol.K) and T denotes the absolute temperature. The individual ion diffusion coefficients can be estimated by solving Eq. (5) and Eq. (6) simultaneously. The ionic conductivity of the GOMs were thus measured using a 4-compartment electrochemical cell (Fig. S2) at room tempera­ture (23 ± 1 ◦C). A membrane with an effective membrane area of 3.14 cm2 was positioned between the compartments, each filled with the same concentration of salt solution, which was continuously recircu­lated. Ag/AgCl reference electrodes filled with 3 M KCl were positioned near the membrane surface using Luggins capillaries and utilized to record the voltage response at a given current using an electrochemical workstation (CH Instruments 1140C using multi-current step mode). The membrane ionic resistance (Rm) was determined by subtracting the solution resistance (Rs) from the total measured resistance (Rm + s) [62]. The results reported represent the average of at least four replicate membranes per condition. The ionic conductivity (κ) was then estimated by the following equation [63]: κ =LRm*AEq. 7 where L is the membrane thickness and A is the effective membrane area. An alternative method was also used to confirm this data using a twoelectrode potentiometric electrochemical impedance spectroscopy (EIS) method, with an AC potential bias of 10 mV and a frequency range of 0.2 MHz–10 Hz. GOMs were soaked in aqueous electrolyte solution for 24 h prior to measurement.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "an AC potential bias of 10 mV and a frequency range of 0.2 MHz–10 Hz. GOMs were soaked in aqueous electrolyte solution for 24 h prior to measurement. The membranes, with an effective area of 2.01 cm2, were positioned between two stainless steel electrodes in a Type CR2032-coin cell and held in place using an alligator clip without crimping, to minimize compaction of the fragile GOMs. Additionally, to compare AC and DC results, EIS measurements with five electrodes were repeated in the same four-compartment cell using representative salt solutions (i.e., LiCl + KCl and NaCl + KCl at a 1:1 ratio), using an identical frequency range and AC bias conditions as in the coin cell experiments. This allowed for a direct comparison of conductivity values between the two measurement regimes. In line with previous studies, the impedance result in the lower frequency region, as observed from the Bode plot, was predominantly resistive with negligible phase shift, allowing for the calculation of system resistance [62,64]. An alternative approach for estimating ion diffusion coefficients is provided by the Mackie and Meares model, which attributes changes in the ion diffusion coefficients (Dmi )solely to the water content of the membrane and the tortuous pathways within it, expressed as [65]: DmiDsi =(ϕw2 -ϕw )2",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "M.B. Altay Geren et al. Journal of Membrane Science 737 (2026) 124742 where Dsi is the ion diffusion coefficient in the external solution and ϕw is the volume fraction of water inside the membrane. An illustrative example of the relevant calculations is included in the Supplementary Information (S6, Table S2). The standard deviation of experimental data is determined in all cases by replicate experiments conducted on different membrane samples. The standard deviation of calculated parameters, such as the membrane resistance and the ion diffusion coefficient was calculated by propagating the variance of all input parameters used in the calculations. Statistical significance was determined by paired t-tests and linear regression. 3. Results 3.1. Water uptake Water volume fraction, a critical parameter in hydrated membranes, governs ion transport behaviour [66]. The water uptake for single salts has been discussed in detail in our previous study [32]. The hydrated membrane thicknesses for both single and binary salts are shown in Fig. 1A, while the water uptake results are presented in Fig. 1B. Both show a decreasing trend with increasing external salt concentration, attributed to osmotic deswelling [67,68]. The binary salt results generally fall between the values of the corresponding single salt solu­tions, consistent with observations in polymeric membranes [69].",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "salt results generally fall between the values of the corresponding single salt solu­tions, consistent with observations in polymeric membranes [69]. In the binary systems containing K+ ions, the water uptake and hydrated membrane thickness values tend to shift toward those of the K+ ion single salt systems, indicating that K+ ions may play a dominant role in governing water uptake and hydrated membrane structures. Prior studies have employed K+ ions to stabilise GO films or adjust GO morphology [70,71] and such application may inherently relate to its influence on membrane hydration. Since partitioning and water uptake in GOMs are thermodynamically governed by the chemical potential of the solution, the data in Fig. 1were also plotted as a function of solution activity (Fig. S3). The trends observed were similar when plotted on this basis.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Ion sorption Both counterand co-ion concentrations in GOMs were measured. While detailed results for single salt systems have been reported previ­ously [32], this study extends the analysis by including binary salt sys­tems. All comparative results are presented in Fig. 2, reported as equivalents of sorbed ions per litre of swollen membrane as a function of external salt concentration. In all binary systems, increasing the external salt concentration led to higher sorbed ion concentrations. For counter-ions, concentrations in­side the membrane exceeded those in the external solution, corre­sponding to a partition coefficient greater than one. In contrast, Cl-ion partition coefficients were close to unity across all conditions. It is worth noting that these values are based on concentration units of moles per litre of swollen membrane. In our prior work, co-ion partition co­efficients above unity were observed, when measured with concentra­tion units of moles per litre of water sorbed. In all cases, total cation concentrations exceeded those of co-ions, although the difference was not statistically significant at higher external salt concentrations due to weaker Donnan exclusion [72]. In the LiCl + NaCl system (Fig. 2A), Li+ and Na+ ion concentrations were nearly identical at all analysed concentrations (p > 0.05), indi­cating negligible competitive sorption between these cations. In contrast, in other monovalent binary systems (Fig.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ed concentrations (p > 0.05), indi­cating negligible competitive sorption between these cations. In contrast, in other monovalent binary systems (Fig. 2B and C), K+ ion concentrations were consistently higher than those of the accompanying cations (p < 0.05 for both LiCl + KCl and NaCl + KCl), suggesting a preferential sorption of K+ ions and consistent with the water uptake results. This selectivity may arise from the smaller hydrated radius of the K+ ion [73] and its stronger interaction with oxygen-functional groups on GO. Additionally, K+ ions exhibits stronger π-cation interactions with sp2 clusters within the GO [74]. Klímov´a et al. also reported that higher sorption correlates with the larger ionic radii and greater coordination ability of larger ions [75]. Unlike Na+ ions, whose higher hydration energy leads to weaker interactions with GO, K+ ions form stronger associations. Mo et al. further highlighted that smaller hydrated radii protect the ionic structure, limiting the interaction between ions and GO in the case of Na+ ions, but not for K+ ions [76]. Cl-ion sorption results showed no difference between monovalent",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Characteristics of Hydrated GOMs. A) Hydrated membrane thickness and B) Water uptake values of GOMs equilibrated with single and binary monovalent salt solutions as a function of external salt concentration. The external salt concentration on the x-axis refers to the total concentration of all salts in solution (e.g., 0.15 eq/L LiCl + 0.15 eq/L NaCl is shown as 0.3 eq/L). Binary results are displayed using open symbols and dashed lines while filled symbols denote single salt solution results. Error bars represent the standard deviation calculated from at least four independent membrane samples. For hydrated membrane thickness, a minimum of 15 measurements were conducted across at least four different membrane samples. M.B. Altay Geren et al. Journal of Membrane Science 737 (2026) 124742 binary and their corresponding single salt systems (p > 0.05) (Fig. 2D), suggesting that Cl-ion uptake is largely independent of the accompa­nying monovalent cation. A similar trend was noted in our prior work.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Salt permeability The salt permeability coefficients (Ps) for a range of salts were determined through concentration gradient driven analysis using solu­tions of LiCl, NaCl, KCl, and MgCl2 and equimolar binary monovalent salt solutions. In single salt solutions, the results show that LiCl has the highest permeability, followed by NaCl, MgCl2 and KCl (Fig. 3 and Fig. S5). However, the differences between the different salts are small at higher salt concentrations (1 eq/L), with all tending to converge to a single value of around 1.8 * 10-11 m2/s. Our permeabilities are generally higher than those reported in most GO studies with a maximum deviation of seven-fold (Fig. 3). These differences in permeability may stem from methodological differences in membrane fabrication. We employed a doctor blade technique, similar to the drop-casting approach used by Sun et al. who achieved results comparable to the present study [7]. Other studies primarily use vacuum filtration [3,8,31], which tends to yield denser membranes with lower permeability. Other factors could also contribute to the differ­ences in salt permeability, such as the number of oxygen functional groups and interlayer spacing [31,80,81]. Differences in the oxygen functional group density influence membrane hydrophilicity and ion sorption behaviour, ultimately affecting salt permeability.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "fferences in the oxygen functional group density influence membrane hydrophilicity and ion sorption behaviour, ultimately affecting salt permeability. Compared to polymeric membranes, our NaCl permeability co­efficients, ranging from 1.66 * 10-11 to 2.81 * 10-11 m2/s exceed those of polyamide-based membranes [79] and the FKS-30 cation exchange membrane [77], both of which have low water uptake values (e.g., 0.22 g/g for FKS-30). However, as the NaCl concentration rises to 1 M, the water uptake of our GO membrane falls to 0.5 g/g, below the 0.8 g/g observed for CR-61 [82]. This reduction in hydration could explain why our permeability coefficient falls below that of CR-61 at 1 M. In the case of MgCl2, however, our permeability coefficients are similar to or lower than those of CR-61, despite the GO membrane having higher or com­parable water uptake. In the binary mixture of LiCl and NaCl, the overall salt permeability falls between those of the individual salts across all tested concentra­tions (Fig. S5A). Similar behaviour is observed in the Li+- K+ ion and Na+- K+ ion systems: initial permeability values fall between those of the respective single salts but gradually approach that of KCl as the con­centration increases. At 1 M, the binary salt permeability for mixtures containing LiCl with KCl or NaCl with KCl is even lower than the values observed for the corresponding single-salt systems (p < 0.05).",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Equilibrium ion concentration in GOMs equilibrated with single salt and binary monovalent salt solutions. Ion concentration profiles in GOMs equilibrated with A) LiCl, NaCl and LiCl + NaCl (1:1) B) LiCl, KCl and LiCl + KCl (1:1) C) NaCl, KCl and NaCl + KCl (1:1) as a function of external salt concentration (eq/L swollen membrane). D) Comparative chloride ion concentration profile in GOMs equilibrated with single and binary monovalent salt solutions. Binary results are shown as open symbols with dashed lines whereas single salt solution results are indicated using filled symbols. The data for single salt solution systems were determined in our previous study [32]. M.B. Altay Geren et al. Journal of Membrane Science 737 (2026) 124742",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. Comparative salt permeability results for GO [3,7,8,31] (with star shape) and polymeric membranes [77–79] (with triangular shape) equilibrated with A) LiCl B) NaCl C) KCl and D) MgCl2. M.B. Altay Geren et al. Journal of Membrane Science 737 (2026) 124742 using freestanding GOMs remains limited, with most studies focusing on single salt solutions [22]. Cation permeability coefficients in binary systems, estimated using Eq. (3), show that Li+ and Na+ ions have nearly identical values in the Li+- Na+ ion mixtures (Fig. S5B and D). In contrast, K+ ions consistently exhibit higher permeability than the accompanying cation in the other systems, indicating stronger permselectivity for K+ ions. This trend is consistent with the partitioning selectivity patterns observed earlier in ion sorption (Fig. 2) and the water uptake results (Fig. 1B). Once the salt permeability coefficient and solubility are known, the salt diffusion coefficient can be readily calculated based on the solution-diffusion model (Ps = Ks * Ds) [83]. The resulting salt diffusion coefficients for single and binary salt solution systems are presented in Fig. S6. How­ever, the primary focus of this study remains on the individual ion diffusion coefficients.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.4. Water permeability The water permeability coefficient values determined experimen­tally are 0.21, 0.32, and 0.09 L μm/(hr bar m2) for 1 M LiCl, NaCl and KCl, respectively (permeance values of 0.052, 0.011 and 0.0054 L/m2 h bar), with the lower value for KCl reflecting the reduced water uptake. These measurements were derived under purely osmotic driving forces, without any externally applied hydraulic pressure. Direct comparison with literature values, which often report very high water permeance (up to 71 L/m2 h bar) is difficult, as these studies typically involve composite membranes with ultrathin GO layers [84–87] and exhibit significant variation due to differences in fabrication methods, testing conditions, and membrane stability [88]. However, as one example, a 70 nm thick GO layer would provide a water permeability of 1–5 L/m2 h bar based on the current results, whereas we recorded water perme­abilities of 31 L/m2 h bar for a commercial composite membrane with a GO layer of this thickness [89]. This suggests that in larger scale GOMs, the water permeability is enhanced by flow through defects in the GO sheet structure. GOMs are also known to show a dynamic microstruc­ture, where loosely packed flakes can cause transiently high initial fluxes that are not intrinsic, with the steady-state water permeance in pressure-driven filtration generally low due to the extremely high tor­tuosity of the membrane structure [88].",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ith the steady-state water permeance in pressure-driven filtration generally low due to the extremely high tor­tuosity of the membrane structure [88]. The relatively low water permeability values indicate that the os­motic water transport through the freestanding GOMs is minimal under the studied conditions, resulting in only 1 to 2 % differences between the corrected and uncorrected salt diffusion coefficients. Therefore, the impact of osmotic water flux on salt transport is considered negligible under the experimental conditions of this study.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.5. Membrane resistance and ionic conductivity Membrane resistance was determined using three independent techniques. The use of either DC or AC in the four-compartment cell gave identical values within the margins of experimental error, even at con­centrations of 0.1 M (Fig. S7). Conversely, the use of AC in the coin cell apparatus generally showed higher membrane resistances than when using the four-compartment cell (Fig. S8B). We speculate that the dif­ference may arise from the extent to which the membranes were com­pressed during the measurement process. In the four-compartment cell, the membranes were free standing. Conversely, in the coin cell approach the electrodes were clamped to the membrane. This is likely to compress the fragile membranes, forcing the GO sheets closer together and causing an increase in resistance and ultimately reducing membrane conductivity [90,91]. For this reason, we used the four-compartment DC measurements in the remainder of this study. In general, our ionic conductivity measurements determined in the four-compartment cell gave higher values than reported in the literature for GO membranes measured using an AC approach (see Supporting Information Section S4). These differences may relate to both the mea­surement technique as discussed above, as well as the methods used to prepare the membranes. As noted earlier, other studies primarily use vacuum filtration, which tends to yield denser membranes.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "as the methods used to prepare the membranes. As noted earlier, other studies primarily use vacuum filtration, which tends to yield denser membranes. When comparing our results with those for polymeric membranes, the ionic conductivity of the GOMs, estimated by the four-compartment DC method, was 8.6 mS/cm in 1 M NaCl, which aligns with previously re­ported values for 40 different polymeric membranes in Espinoza et al. [92], where ionic conductivity ranged from 0.9 to 20.6 mS/cm under similar conditions. In all cases, the membrane resistance for single salt solutions remained essentially constant for each salt above an external salt con­centration of 0.5 M (Fig. 4A and Fig. S8). However, as the external salt concentrations decreased, a significant increase in resistance was observed. This aligns with observations reported by previous re­searchers [62,77,93–101]. Galama et al. proposed that the increased membrane resistance at low concentrations can be explained by",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. Electrical field-gradient driven ion permeation results based on the four compartment direct current measurements. A) Membrane resistance and B) Membrane ionic conductivity values of GOMs equilibrated with single and binary monovalent salt solutions as a function of external salt concentration, measured using DC in a four-compartment cell. Error bars represent the standard deviation based on at least three independent measurements; each performed on different membrane samples. M.B. Altay Geren et al. Journal of Membrane Science 737 (2026) 124742 conceptualizing the membrane as consisting of two distinct phases: a gel-like phase rich in counterions bound to fixed charge groups and an aqueous phase which has an ion concentration matching that of the external solution [93]. When the external concentration falls below a critical threshold (i.e., <0.1 M), the membrane resistance primarily arises from the aqueous phase, making it comparable to the resistance of the surrounding solution. The space-charge model provides a comple­mentary perspective, suggesting that at low salt concentrations, trans­port is dominated by flow through the centre of the nanochannels, where the local viscosity is lower, rather than through interactions with the fixed charge groups [102]. Considering the stacked-channel struc­ture of GOMs, this mechanism is likely a dominant factor influencing the higher resistance observed under dilute conditions.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the stacked-channel struc­ture of GOMs, this mechanism is likely a dominant factor influencing the higher resistance observed under dilute conditions. Other studies sug­gest that the increased resistance at low salt concentrations is due to the increasing influence of the electrical double layer resistance and diffu­sion boundary layer resistance [62]. In the DC experiments, however, resistance was measured across varied flow rates (from 130 to 530 mL/min), with negligible differences observed suggesting that the impact of the diffusion boundary layer on our results is minimal [62]. In binary salt systems, the membrane resistance was consistently higher than that observed for the corresponding single-salt solutions, leading to lower ionic conductivity across all external salt concentra­tions (Fig. 4). This behaviour deviates from the commonly reported trend [103–105], where binary system conductivity typically falls be­tween those of the individual salts. However, similar deviations have been reported in certain polymeric membranes [106]. The underlying cause of this behaviour in freestanding GOMs remains unclear and warrants further investigation. 3.6. Counter-ion diffusivity The diffusivities of both the co-ion (Dcm, m2/s) and counter-ion (Dgm, m2/s) can be determined by simultaneously solving the equations for ionic conductivity (Eq. (6)) and salt diffusion coefficient (Eq.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "counter-ion (Dgm, m2/s) can be determined by simultaneously solving the equations for ionic conductivity (Eq. (6)) and salt diffusion coefficient (Eq. (5)), pro­vided the concentrations of co-ions and counter-ions per litre of swollen membrane are known. The counter-ion diffusivities for Mg2+, K+, and Li+ are independent of external salt concentration (p > 0.05) while that for Na+ shows a slight decline (Fig. 5A). Most studies of polymeric membranes similarly show that counterion diffusivity remains essentially independent of external salt concentration [77,107,108]. This observation aligns with previous findings reported for sulfonated polymers such as XLAMPS and HQ:BP-XX [109], as well as certain ion-exchange membranes [52,108]. Kamcev et al. attribute this trend to a balance between two opposing effects that occur at high external salt concentrations: (1) osmotic deswelling caused by reduced water content, which decreases the vol­ume available for ion transport and could lower ion diffusion co­efficients, and (2) increased ion sorption due to weakened Donnan exclusion, which raises counter-ion concentrations to maintain electro­neutrality [52]. These opposing effects may effectively negate each other, resulting in a negligible net change in Dgm. Our findings suggest a similar cancellation of effects, leading to the observed constancy in counter-ion diffusivity [107].",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ligible net change in Dgm. Our findings suggest a similar cancellation of effects, leading to the observed constancy in counter-ion diffusivity [107]. Conversely, other studies [77,110] sug­gest that osmotic deswelling may reduce the distance between fixed charged groups, thereby accelerating counter-ion transport and increasing the diffusion coefficient by facilitating more efficient ion hopping [77,110]. In this mechanism, the denser membrane structure brings charged sites closer together, allowing ions to move more rapidly between them despite the limited free volume. Our estimated K+ ion diffusion coefficient (12 ± 3 * 10-11 m2/s) is approximately six times higher than the reported data (2.1 ± 0.3 *10-11 m2/s) by Eliseev et al. for GO in 1 M KCl, while our Mg2+ ion value (0.85 ± 0.2 * 10-11 m2/s) is in close agreement with their reported value (0.84 ± 0.2 * 10-11 m2/s) for GO in 1 M MgCl2 [15]. Moreover, our results align well with the range determined by Abraham et al. through MD simulations [3]. Specifically, they reported K+ ion diffusion coefficients ranging from 4.9 * 10-11 to 96 * 10-11 m2/s in GO with interlayer spacings between 0.7 nm and 1.1 nm. For reduced graphene oxide (rGO), the K+ ion diffusion coefficient values varied between 3.5 * 10-11 and 1.5 * 10-11 m2/s, depending on interlayer spacing (4.5 nm–10.9 nm) and surface charge density (0 to -56 mC/m2) [27].",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "es varied between 3.5 * 10-11 and 1.5 * 10-11 m2/s, depending on interlayer spacing (4.5 nm–10.9 nm) and surface charge density (0 to -56 mC/m2) [27]. Our measured diffusion coefficient falls within these ranges, suggesting that the structural characteristics of our GO system may facilitate similar ion transport dynamics as those observed in rGO materials. Our K+ ion diffusion coefficient is nearly 16 times lower than the value for a bulk solution, and for the Mg2+ ions it is approximately 85 times lower than in a bulk solution [111] ( see also Table S3 for com­parison). These significant reductions indicate restricted ion mobility within GOMs compared to free diffusion in bulk liquids. The average counter-ion diffusion coefficients in the GOMs nanochannels follow the order: Li+ > Na+ > K+ > Mg2+. This trend aligns with the pattern observed in the hydrated diameters of monovalent ions (Table S3) and their water uptake values but contrasts with the order of their self-diffusion coefficients, where smaller ions like Li+ ions typically have lower mobility in bulk solution due to their larger hydration shells [112,113]. Li+ ions, with the highest hydration energy [3], can maintain a strongly bound hydration shell [114], reducing interactions with the membrane and allowing these ions to diffuse more freely. In contrast, K+ ions, with lower hydration energy and larger size, experience stronger interactions with the unmodified graphene sheet and the oxygen",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. A) Counter-ion and B) Co-ion diffusion coefficients in the membrane equilibrated with LiCl, NaCl, KCl and MgCl2. M.B. Altay Geren et al. Journal of Membrane Science 737 (2026) 124742 functional groups (on the GO), slowing their diffusion [114,115]. In the case of the Mg2+ ion, the results show significantly lower diffusivity due to its divalent nature (Fig. 5A), which results in stronger ion-membrane interactions with the membrane fixed charges [74], limiting ion mobility. Additionally, the larger size of the Mg2+ ion further contrib­utes to its reduced mobility within the membrane [73,116]. The magnitude of our Na+ ion diffusion coefficient is comparable, or slightly higher, than those reported for polymeric membranes (Fig. S9A) despite often having higher water content (Fig. 1B). The GOM’s narrow, tortuous nanochannels create significant resistance to ion movement [31], limiting effective diffusion pathways even in a hydrated environ­ment. Moreover, studies have found that strong electrostatic, van der Waals, and hydrogen bond interactions between the hydrated ions and the oxygen-containing groups in GOMs further hinder mass transport and contribute to the limited mobility of species within the membrane [117]. Furthermore, confined water in the graphitic regions of the GOMs nanochannels hinders ion movement by increasing friction, as the hy­dration shells interact with the channel walls. Wen et al.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tic regions of the GOMs nanochannels hinders ion movement by increasing friction, as the hy­dration shells interact with the channel walls. Wen et al. highlighted that the presence of cations inside GOMs nanochannels leads to a decrease in slip length and increase in friction, which essentially hinders ion mobility [4].",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.7. Co-ion diffusivity The diffusion coefficient of the chloride co-ions is more consistent between the four salts, as might be expected given it is the same ion but still shows some variation (Fig. 5B). This variation can be explained by changes in the d-spacing and water uptake. For example, the membrane has a greater water uptake and larger hydrated thickness when placed in an LiCl solution and thus the diffusion coefficient of Cl-ions in this solution is greater. Similarly, the water uptake and hydrated thickness is lowest for KCl at external concentrations of greater than 0.5 M, consis­tent with the Cl-ion diffusivities shown. The values are within a com­parable range to that for polymeric membranes (Fig. S9B). To the best of our knowledge, the Cl-ion diffusion coefficient in GOMs has not been previously reported in the literature. The Cl-ion diffusivity increases with external salt concentration up to 0.3 M for both KCl and MgCl2 and then stabilizes for all salt solutions, mirroring the trend observed in our ionic conductivity measurements (Figs. 4B and 5B). The increase in diffusion coefficient as external salt concentration decreased is somewhat surprising given the large reduc­tion in water uptake that simultaneously occurs in these GOMs. In polymeric membranes, such increased water uptake at low external salt concentrations typically increases diffusivity [66] such as observed by",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. Individual ion diffusion coefficients inside membrane equilibrated with A) LiCl B) NaCl C) KCl and D) MgCl2, calculated experimentally (Eqs. (5) and (6)) and via the Mackie Meares (MM) model [65], estimated using Eq. (8) (indicated with a star symbol). M.B. Altay Geren et al. Journal of Membrane Science 737 (2026) 124742",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Bannon et al. [109] for XLAMPS membranes. The Mackie and Meares model, which relates variations in ion diffusion coefficients to the membrane water content (Eq. (8)), is similarly unable to represent our experimental data, generally providing higher diffusion coefficients (Fig. 6). Bannon et al. [109], however, observe an increase in co-ion diffu­sivity at lower solution concentrations for a sulfonated cation exchange polymer (HQ:BP-XX) while the counter ion concentration is constant. This is consistent with the present results. These authors argue that repulsive interactions between fixed charge groups and co-ions can in­crease the effective free volume required for diffusion by reducing thermodynamic favorability, as larger separations minimize electro­static repulsion. The ratio of the counterand co-ion diffusion coefficients in bulk solution (Dgs/Dcs) was consistently lower than in GOMs (Dgm/Dcm) for all monovalent ions (Fig. 7). That is, counter-ions move significantly faster than co-ions within the membrane phase, whereas counter-ions move more slowly than their chloride co-ions in solution. Conversely, for the divalent MgCl2, the diffusion coefficient ratios in the solution (Table S3) and inside the membrane (Fig. 5) remain relatively comparable, with ratios still higher in the membrane, and co-ions moving faster than the counter-ions except at low external concentration (e.g., 0.01 M).",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "arable, with ratios still higher in the membrane, and co-ions moving faster than the counter-ions except at low external concentration (e.g., 0.01 M). These results suggest that ion diffusion in GOMs is influenced more by specific ion-membrane interactions, such as electrostatic effects, rather than by ion size alone. These findings highlight the significant influence of ion size, charge, and specific interactions with the membrane on ion diffu­sion behaviour in GOMs. 3.8. Ion diffusion coefficients in monovalent binary systems No direct and simple method is available to determine the individual ion diffusion coefficients in the binary salt systems [72,118,119]. To overcome this, average diffusion coefficients were calculated for cations using their overall concentrations in the membrane using Eq. (5) and Eq. (6), with the results shown in Fig. 8. The estimated average counter-ion diffusion coefficients in binary systems were generally lower than those in single-salt systems, except at low external concentrations (e.g., 0.01 M). This result aligns with the trend observed in membrane ionic",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. Ratio of counter-ion to co-ion diffusion coefficients in membrane and solution phases for GOMs equilibrated with A) LiCl B) NaCl C) KCl and D) MgCl2. M.B. Altay Geren et al. Journal of Membrane Science 737 (2026) 124742 conductivity (Fig. 4B). Again, at this stage we can offer little rationale for these trends. On the contrary, Cl-ion diffusion coefficients in binary systems fell between the values obtained for single-salt systems, within the range of experimental uncertainty (Fig. S10). 4. Conclusions In this study, individual ion diffusion coefficients in GOMs across varied external salt concentrations (LiCl, NaCl, KCl, and MgCl2) were experimentally estimated using diffusion cell and conductivity experi­ments, combined with solubility data from our prior research. The re­sults revealed that counter-ion diffusion coefficients are independent of external salt concentration, while co-ion diffusion coefficients increase with concentration up to ~0.3 M before stabilising. Notably, Na+ and Cl-ion diffusion coefficients in GOMs are comparable to those of polymeric membranes, challenging the notion of rapid ion transport in GOMs as previously reported. The findings emphasise that ion perme­ability in GOMs is primarily driven by solubility effects rather than diffusivity. Recorded water permeability values were also low, again challenging our understanding of transport through these systems.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "cts rather than diffusivity. Recorded water permeability values were also low, again challenging our understanding of transport through these systems. Compared to single-salt systems, binary mixtures generally exhibited lower counter-ion diffusion coefficients, particularly at higher external concentrations. In contrast, Cl-ion diffusion coefficients remained within the range of single-salt values, following trends observed in membrane water uptake. These findings suggest that monovalent binary ion environments introduce additional transport complexity, especially for counter-ions, and highlight the influence of membrane hydration on co-ion mobility. Further work is needed to fully understand the under­lying mechanisms governing ion transport in multicomponent systems. The work establishes a foundation for understanding ion transport mechanisms in GOMs, including those equilibrated with monovalent binary salt systems, offering insights into their potential applications in electrochemical energy conversion and storage, water treatment, and environmental systems. By elucidating the distinct role of solubility and electrostatic interactions, this study contributes to the advancement of tailored membrane technologies for a wide range of scientific and in­dustrial applications. CRediT authorship contribution statement Melike B. Altay Geren: Writing – original draft, Methodology, Investigation, Formal analysis, Data curation. George Q.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "thorship contribution statement Melike B. Altay Geren: Writing – original draft, Methodology, Investigation, Formal analysis, Data curation. George Q. Chen: Writing – review & editing, Supervision, Methodology, Investigation, Funding acquisition, Formal analysis. Donghyuck Park: Writing – review & editing, Methodology. Amanda V. Ellis: Writing – review & editing, Supervision. Sandra E. Kentish: Writing – review & editing, Supervi­sion, Project administration, Methodology, Funding acquisition, Conceptualization.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 8. Comparative counter-ion diffusion coefficients of GOMs in monovalent binary and single salt solutions. Counter-ion diffusion coefficients of GOMs equili­brated with A) LiCl, NaCl and their binary mixture, B) LiCl, KCl and Li+-K+ mixture and C) NaCl, KCl and Na+-K+ mixture. Open symbols with dashed lines represent binary systems, while filled symbols correspond to their single salt solutions. M.B. Altay Geren et al. Journal of Membrane Science 737 (2026) 124742",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[19] M.Y. Kariduraganavar, A.A. Kittur, S.S. Kulkarni, Ion exchange membranes: preparation, properties, and applications. In Ion Exchange Technology I: Theory and Materials, Dordrecht: Springer Netherlands2012.[20] X. Liu, L. Zhang, X. Cui, Q. Zhang, W. Hu, J. Du, H. Zeng, Q. Xu, 2D material nanofiltration membranes: from fundamental understandings to rational design, Adv. Sci. 8 (23) (2021) 2102493, https://doi.org/10.1002/advs.202102493.[21] J. Kang, O. Kwon, J.P. Kim, J.Y. Kim, J. Kim, Y. Cho, D.W. Kim, Graphene membrane for water-related environmental application: a comprehensive review and perspectives, ACS. Environ. Au. 5 (1) (2024) 35–60, https://doi.org/ 10.1021/acsenvironau.4c00088.[22] D. Pang, L. Liu, X. Zhang, C. Guo, J. Jia, C. Liu, M. Zhang, Ion separation with graphene oxide nanofluidic membranes: a review, Desalination 593 (2025) 118218, https://doi.org/10.1016/j.desal.2024.118218.[23] Z. Zhang, W. Shen, L. Lin, M. Wang, N. Li, Z. Zheng, F. Liu, L. Cao, Vertically transported graphene oxide for high-performance osmotic energy conversion, Adv. Sci. 7 [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] (2020) 2000286, https://doi.org/10.1002/advs.202000286.[24] M. Meshhal, O. Kühn, Diffusion of water confined between graphene oxide layers: implications for membrane filtration, ACS Appl. Nano Mater. 5 (8) (2022) 11119–11128, https://doi.org/10.1021/acsanm.2c02290.[25] Y.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ene oxide layers: implications for membrane filtration, ACS Appl. Nano Mater. 5 (8) (2022) 11119–11128, https://doi.org/10.1021/acsanm.2c02290.[25] Y. Qin, J. Deng, X. Lu, Y. Zhu, Molecular insights into H3O+/Fe2+ sieving on functionalized graphene surface: the role of the ionic microstructures caused by different oxygen groups, Separ. Purif. Technol. 329 (2024) 125087, https://doi. org/10.1016/j.seppur.2023.125087.[26] A. Hasanzadeh, M. Alizadeh, N. Ajalli, J. Azamat, M. Jahanshahi, Molecular dynamic simulation and artificial neural network (ANN) modeling of the functionalized graphene oxide membranes on Cr (VI) ion removal through electrodialysis method, J. Mol. Liq. 383 (2023) 122083, https://doi.org/ 10.1016/j.molliq.2023.122083.[27] C. Cheng, G. Jiang, C.J. Garvey, Y. Wang, G.P. Simon, J.Z. Liu, D. Li, Ion transport in complex layered graphene-based membranes with tuneable interlayer spacing, Sci. Adv. 2 (2) (2016) e1501272.[28] A.B. Farimani, N.R. Aluru, Spatial diffusion of water in carbon nanotubes: from fickian to ballistic motion, J. Phys. Chem. B 115 (42) (2011) 12145–12149, https://doi.org/10.1021/jp205877b.[29] M. Dahanayaka, B. Liu, N. Srikanth, K. Zhou, Ionised graphene oxide membranes for seawater desalination, Desalination 496 (2020) 114637, https://doi.org/ 10.1016/j.desal.2020.114637.[30] S. Hong, C. Constans, M.V. Surmani Martins, Y.C. Seow, J.A. Guevara Carrio, S.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "on 496 (2020) 114637, https://doi.org/ 10.1016/j.desal.2020.114637.[30] S. Hong, C. Constans, M.V. Surmani Martins, Y.C. Seow, J.A. Guevara Carrio, S. Garaj, Scalable graphene-based membranes for ionic sieving with ultrahigh charge selectivity, Nano Lett. 17 (2) (2017) 728–732, https://doi.org/10.1021/ acs.nanolett.6b03837.[31] Y.H. Cho, H.W. Kim, H.D. Lee, J.E. Shin, B.M. Yoo, H.B. Park, Water and ion sorption, diffusion, and transport in graphene oxide membranes revisited, J. Membr. Sci. 544 (2017) 425–435, https://doi.org/10.1016/j. memsci.2017.09.043.[32] M.B. Altay Geren, G.Q. Chen, D. Li, S.E. Kentish, Equilibrium ion sorption in graphene oxide membranes, J. Membr. Sci. 710 (2024) 123155, https://doi.org/ 10.1016/j.memsci.2024.123155.[33] X. Zhang, D. Liu, L. Yang, L. Zhou, T. You, Self-assembled three-dimensional graphene-based materials for dye adsorption and catalysis, J. Mater. Chem. A 3 [ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] (2015) 10031–10037, https://doi.org/10.1039/c5ta00355e.[34] A.S. Kuzenkova, A.Y. Romanchuk, A.L. Trigub, K.I. Maslakov, A.V. Egorov, L. Amidani, C. Kittrell, K.O. Kvashnina, J.M. Tour, A.V. Talyzin, S.N. Kalmykov, New insights into the mechanism of graphene oxide and radionuclide interaction, Carbon 158 (2020) 291–302, https://doi.org/10.1016/j.carbon.2019.10.003.[35] S. Wan, W. Ding, Y. Wang, J. Wu, Y. Gu, F.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "and radionuclide interaction, Carbon 158 (2020) 291–302, https://doi.org/10.1016/j.carbon.2019.10.003.[35] S. Wan, W. Ding, Y. Wang, J. Wu, Y. Gu, F. He, Manganese oxide nanoparticles impregnated graphene oxide aggregates for cadmium and copper remediation, Chem. Eng. J. 350 (2018) 1135–1143, https://doi.org/10.1016/j. cej.2018.06.068.[36] X. Mi, G. Huang, W. Xie, W. Wang, Y. Liu, J. Gao, Preparation of graphene oxide aerogel and its adsorption for Cu2+ ions, Carbon 50 [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] (2012) 4856–4864, https://doi.org/10.1016/j.carbon.2012.06.013.[37] N. Li, L. Yang, D. Wang, C. Tang, W. Deng, Z. Wang, High-capacity amidoximefunctionalized beta-cyclodextrin/graphene aerogel for selective uranium capture, Environ. Sci. Technol. 55 [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] (2021) 9181–9188, https://doi.org/10.1021/acs. est.0c08743.[38] K. Sun, S. Dong, Y. Sun, B. Gao, W. Du, H. Xu, J. Wu, Graphene oxide-facilitated transport of levofloxacin and ciprofloxacin in saturated and unsaturated porous media, J. Hazard Mater. 348 (2018) 92–99, https://doi.org/10.1016/j. jhazmat.2018.01.032.[39] X. Jin, X. Wen, S. Lim, R.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "urated and unsaturated porous media, J. Hazard Mater. 348 (2018) 92–99, https://doi.org/10.1016/j. jhazmat.2018.01.032.[39] X. Jin, X. Wen, S. Lim, R. Joshi, Size-dependent ion adsorption in graphene oxide membranes, Nanomaterials 11 (7) (2021) 1676, https://doi.org/10.3390/ nano11071676.[40] R. Sitko, E. Turek, B. Zawisza, E. Malicka, E. Talik, J. Heimann, A. Gagor, B. Feist, R. Wrzalik, Adsorption of divalent metal ions from aqueous solutions using graphene oxide, Dalton Trans. 42 (16) (2013) 5682–5689, https://doi.org/ 10.1039/c3dt33097d.[41] A.R. Waldeck, P.W. Kuchel, A.J. Lennon, B.E. Chapman, NMR diffusion measurements to characterise membrane transport and solute binding, Prog. Nucl. Magn. Reson. Spectrosc. 30 (1–2) (1997) 39–68.[42] V.I. Volkov, A.V. Chernyak, I.A. Avilova, N.A. Slesarenko, D.L. Melnikova, V. D. Skirda, Molecular and ionic diffusion in ion exchange membranes and biological systems (Cells and proteins) studied by NMR, Membranes 11 (6) (2021) 385.[43] L. Zhang, Z. Liu, C. Yang, V. Garcia Sakai, M. Tyagi, L. Hong, Conduction mechanism in graphene oxide membranes with varied water content: from proton",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "M.B. Altay Geren et al. Journal of Membrane Science 737 (2026) 124742 hopping dominant to ion diffusion dominant, ACS Nano 16 (9) (2022) 13771–13782, https://doi.org/10.1021/acsnano.2c00686.[44] A. Enotiadis, K. Angjeli, N. Baldino, I. Nicotera, D. Gournis, Graphene-based nafion nanocomposite membranes: enhanced proton transport and water retention by novel organo-functionalized graphene oxide nanosheets, Small 8 (21) (2012) 3338–3349.[45] N.R. Aluru, F. Aydin, M.Z. Bazant, D. Blankschtein, A.H. Brozena, J.P. de Souza, M. Elimelech, S. Faucher, J.T. Fourkas, V.B. Koman, M. Kuehne, H.J. Kulik, H. K. Li, Y. Li, Z. Li, A. Majumdar, J. Martis, R.P. Misra, A. Noy, T.A. Pham, H. Qu, A. Rayabharam, M.A. Reed, C.L. Ritt, E. Schwegler, Z. Siwy, M.S. Strano, Y. Wang, Y.C. Yao, C. Zhan, Z. Zhang, Fluids and electrolytes under confinement in singledigit nanopores, Chem. Rev. 123 (6) (2023) 2737–2831, https://doi.org/ 10.1021/acs.chemrev.2c00155.[46] C. Do, P. Lunkenheimer, D. Diddens, M. G¨otz, M. Weiß, A. Loidl, X.-G. Sun, J. Allgaier, M. Ohl, Li+ transport in poly (ethylene oxide) based electrolytes: neutron scattering, dielectric spectroscopy, and molecular dynamics simulations, Phys. Rev. Lett. 111 (1) (2013) 018301.[47] S. Hashimoto, K. Nakajima, T. Kikuchi, K. Kamazawa, K. Shibata, T. Yamada, Experimental analysis on dynamics of liquid molecules adjacent to particles in nanofluids, J. Mol. Liq. 342 (2021) 117580.[48] G.R. Acharya, M. Tyagi, E. Mamontov, P.M.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "sis on dynamics of liquid molecules adjacent to particles in nanofluids, J. Mol. Liq. 342 (2021) 117580.[48] G.R. Acharya, M. Tyagi, E. Mamontov, P.M. Hoffmann, Diffusion dynamics of water and ethanol in graphene oxide, J. Phys. Chem. B 127 (33) (2023) 7384–7393.[49] P. Sun, H. Liu, K. Wang, M. Zhong, D. Wu, H. Zhu, Ultrafast liquid water transport through graphene-based nanochannels measured by isotope labelling, Chem. Commun. 51 [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] (2015) 3251–3254, https://doi.org/10.1039/c4cc10103k.[50] M.W. Verbrugge, R.F. Hill, Ion and solvent transport in ion-exchange membranes: I. A macrohomogeneous mathematical model, J. Electrochem. Soc. 137 (3) (1990) 886.[51] H. Yeager, B. Kipling, Ionic diffusion and ion clustering in a perfluorosulfonate ion-exchange membrane, J. Phys. Chem. 83 [ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] (1979) 1836–1839.[52] J. Kamcev, D.R. Paul, G.S. Manning, B.D. Freeman, Ion diffusion coefficients in ion exchange membranes: significance of counterion condensation, Macromolecules 51 [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] (2018) 5519–5529, https://doi.org/10.1021/acs. macromol.8b00645.[53] J. Pei, L. Huang, H. Jiang, H. Liu, X. Liu, X.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "\\quad \\dots\\tag{15}\\end{equation}] (2018) 5519–5529, https://doi.org/10.1021/acs. macromol.8b00645.[53] J. Pei, L. Huang, H. Jiang, H. Liu, X. Liu, X. Hu, Inhibitory effect of hydrogen ion on the copper ions separation from acid solution across graphene oxide membranes, Separ. Purif. Technol. 210 (2019) 651–658, https://doi.org/ 10.1016/j.seppur.2018.08.059.[54] H. Luo, W.-A.S. Agata, G.M. Geise, Connecting the ion separation factor to the sorption and diffusion selectivity of ion exchange membranes, Ind. Eng. Chem. Res. 59 (32) (2020) 14189–14206, https://doi.org/10.1021/acs.iecr.0c02457.[55] A. Einstein, On the motion of small particles suspended in liquids at rest required by the molecular-kinetic theory of heat, Ann. Phys. 17 (549–560) (1905) 208.[56] J. Yang, X. Hu, X. Kong, P. Jia, D. Ji, D. Quan, L. Wang, Q. Wen, D. Lu, J. Wu, Photo-induced ultrafast active ion transport through graphene oxide membranes, Nat. Commun. 10 (1) (2019) 1171.[57] H. Yasuda, C.E. Lamaze, L.D. Ikenberry, Permeability of solutes through hydrated polymer membranes Part I diffusion of sodium chloride, Die Makromol. Chem. 118 (1) (1968) 19–35, https://doi.org/10.1002/macp.1968.021180102.[58] J. Kamcev, E.-S. Jang, N. Yan, D.R. Paul, B.D. Freeman, Effect of ambient carbon dioxide on salt permeability and sorption measurements in ion-exchange membranes, J. Membr. Sci. 479 (2015) 55–66, https://doi.org/10.1016/j. memsci.2014.12.031.[59] K. Abels, A.B. Botelho Junior, X. Chen, W.A.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n-exchange membranes, J. Membr. Sci. 479 (2015) 55–66, https://doi.org/10.1016/j. memsci.2014.12.031.[59] K. Abels, A.B. Botelho Junior, X. Chen, W.A. Tarpeh, Ligand content and driving force effects on ion-ion permselectivity in ligand-functionalized membranes, J. Membr. Sci. 714 (2025) 123418, https://doi.org/10.1016/j. memsci.2024.123418.[60] J. Kamcev, D.R. Paul, G.S. Manning, B.D. Freeman, Accounting for frame of reference and thermodynamic non-idealities when calculating salt diffusion coefficients in ion exchange membranes, J. Membr. Sci. 537 (2017) 396–406, https://doi.org/10.1016/j.memsci.2017.05.034.[61] D.R. Paul, Reformulation of the solution-diffusion theory of reverse osmosis, J. Membr. Sci. 241 (2) (2004) 371–386.[62] P. Długołęcki, P. Ogonowski, S.J. Metz, M. Saakes, K. Nijmeijer, M. Wessling, On the resistances of membrane, diffusion boundary layer and double layer in ion exchange membrane transport, J. Membr. Sci. 349 (1–2) (2010) 369–379, https://doi.org/10.1016/j.memsci.2009.11.069.[63] A. Wang, R. Tan, D. Liu, J. Lu, X. Wei, A. Alvarez-Fernandez, C. Ye, C. Breakwell, S. Guldin, A.R. Kucernak, K.E. Jelfs, N.P. Brandon, N.B. McKeown, Q. Song, Ionselective microporous polymer membranes with hydrogen-bond and salt-bridge networks for aqueous organic redox flow batteries, Adv. Mater.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Q. Song, Ionselective microporous polymer membranes with hydrogen-bond and salt-bridge networks for aqueous organic redox flow batteries, Adv. Mater. 35 [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] (2023) 2210098, https://doi.org/10.1002/adma.202210098.[64] A.A.E. Elozeiri, R.G.H. Lammertink, H.H.M. Rijnaarts, J.E. Dykstra, Water content of ion-exchange membranes: measurement technique and influence on the ion mobility, J. Membr. Sci. 698 (2024) 122538, https://doi.org/10.1016/j. memsci.2024.122538.[65] J. Mackie, P. Meares, The diffusion of electrolytes in a cation-exchange resin membrane I. Theoretical, Proc. Roy. Soc. Lond. Math. Phys. Sci. 232 (1191) (1955) 498–509.[66] G.M. Geise, M.A. Hickner, B.E. Logan, Ionic resistance and permselectivity tradeoffs in anion exchange membranes, ACS Appl. Mater. Interfaces 5 (20) (2013) 10294–10301, https://doi.org/10.1021/am403207w.[67] M. Galizia, F.M. Benedetti, D.R. Paul, B.D. Freeman, Monovalent and divalent ion sorption in a cation exchange membrane based on cross-linked poly (p-styrene sulfonate-co-divinylbenzene), J. Membr. Sci. 535 (2017) 132–142, https://doi. org/10.1016/j.memsci.2017.04.007.[68] N. Yan, R. Sujanani, J. Kamcev, M. Galizia, E.-S. Jang, D.R. Paul, B.D. Freeman, Influence of fixed charge concentration and water uptake on ion sorption in AMPS/PEGDA membranes, J. Membr. Sci.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "E.-S. Jang, D.R. Paul, B.D. Freeman, Influence of fixed charge concentration and water uptake on ion sorption in AMPS/PEGDA membranes, J. Membr. Sci. 644 (2022) 120171, https://doi.org/ 10.1016/j.memsci.2021.120171.[69] G.Q. Chen, K. Wei, A. Hassanvand, B.D. Freeman, S.E. Kentish, Single and binary ion sorption equilibria of monovalent and divalent ions in commercial ion exchange membranes, Water Res. 175 (2020) 115681, https://doi.org/10.1016/j. watres.2020.115681.[70] S. Yuan, Y. Li, Y. Xia, C. Selomulya, X. Zhang, Stable cation-controlled reduced graphene oxide membranes for improved NaCl rejection, J. Membr. Sci. 621 (2021) 118995, https://doi.org/10.1016/j.memsci.2020.118995.[71] L. Chen, G. Shi, J. Shen, B. Peng, B. Zhang, Y. Wang, F. Bian, J. Wang, D. Li, Z. Qian, G. Xu, G. Liu, J. Zeng, L. Zhang, Y. Yang, G. Zhou, M. Wu, W. Jin, J. Li, H. Fang, Ion sieving in graphene oxide membranes via cationic control of interlayer spacing, Nature 550 (7676) (2017) 380–383, https://doi.org/10.1038/ nature24044.[72] H. Strathmann, Ion-exchange Membrane Separation Processes, 2004. Elsevier.[73] T. Luo, S. Abdu, M. Wessling, Selectivity of ion exchange membranes: a review, J. Membr. Sci. 555 (2018) 429–454, https://doi.org/10.1016/j. memsci.2018.03.051.[74] P. Sun, F. Zheng, M. Zhu, Z. Song, K. Wang, M. Zhong, D. Wu, R.B. Little, Z. Xu, H.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(2018) 429–454, https://doi.org/10.1016/j. memsci.2018.03.051.[74] P. Sun, F. Zheng, M. Zhu, Z. Song, K. Wang, M. Zhong, D. Wu, R.B. Little, Z. Xu, H. Zhu, Selective trans-membrane transport of alkali and alkaline earth cations through graphene oxide membranes based on cation-π interactions, ACS Nano 8 (1) (2014) 850–859.[75] K. Klímov´a, M. Pumera, J. Luxa, O. Jankovský, D. Sedmidubský, S. Matˇejkov´a, Z. Sofer, Graphene oxide sorption capacity toward elements over the whole periodic table: a comparative study, J. Phys. Chem. C 120 (42) (2016) 24203–24212, https://doi.org/10.1021/acs.jpcc.6b08088.[76] Y. Mo, X. Zhao, Y.-x. Shen, Cation-dependent structural instability of graphene oxide membranes and its effect on membrane separation performance, Desalination 399 (2016) 40–46, https://doi.org/10.1016/j.desal.2016.08.012.[77] Y.W. Jia, G.Q. Chen, S.E. Kentish, Investigating the effect of temperature and concentration on the performance of reverse electrodialysis systems, Desalination 592 (2024) 118184, https://doi.org/10.1016/j.desal.2024.118184.[78] J. Kamcev, D.R. Paul, G.S. Manning, B.D. Freeman, Predicting salt permeability coefficients in highly swollen, highly charged ion exchange membranes, ACS Appl. Mater. Interfaces 9 (4) (2017) 4044–4056, https://doi.org/10.1021/ acsami.6b14902.[79] W. Xie, J. Cook, H.B. Park, B.D. Freeman, C.H. Lee, J.E.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Appl. Mater. Interfaces 9 (4) (2017) 4044–4056, https://doi.org/10.1021/ acsami.6b14902.[79] W. Xie, J. Cook, H.B. Park, B.D. Freeman, C.H. Lee, J.E. McGrath, Fundamental salt and water transport properties in directly copolymerized disulfonated poly (arylene ether sulfone) random copolymers, Polymer 52 (9) (2011) 2032–2043, https://doi.org/10.1016/j.polymer.2011.02.006.[80] F. Perreault, A. Fonseca de Faria, M. Elimelech, Environmental applications of graphene-based nanomaterials, Chem. Soc. Rev. 44 (16) (2015) 5861–5896, https://doi.org/10.1039/c5cs00021a.[81] S. Wang, H. Sun, H.M. Ang, M.O. Tad´e, Adsorptive remediation of environmental pollutants using novel graphene-based nanomaterials, Chem. Eng. J. 226 (2013) 336–347, https://doi.org/10.1016/j.cej.2013.04.070.[82] J. Kamcev, D.R. Paul, B.D. Freeman, Ion activity coefficients in ion exchange polymers: applicability of Manning’s counterion condensation theory, Macromolecules 48 (21) (2015) 8011–8024, https://doi.org/10.1021/acs. macromol.5b01654.[83] J.G. Wijmans, R.W. Baker, The solution-diffusion model: a review, J. Membr. Sci. 107 (1–2) (1995) 1–21.[84] A. Akbari, P. Sheath, S.T. Martin, D.B. Shinde, M. Shaibani, P.C. Banerjee, R. Tkacz, D. Bhattacharyya, M. Majumder, Large-area graphene-based nanofiltration membranes by shear alignment of discotic nematic liquid crystals of graphene oxide, Nat. Commun. 7 (1) (2016) 10891.[85] M.A. El-Okazy, G.Q. Chen, E. Hadde, A. Akbari, S.E.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "gnment of discotic nematic liquid crystals of graphene oxide, Nat. Commun. 7 (1) (2016) 10891.[85] M.A. El-Okazy, G.Q. Chen, E. Hadde, A. Akbari, S.E. Kentish, The performance of a graphene oxide thin film composite membrane for sweet whey ultrafiltration, Separ. Purif. Technol. 356 (2025) 129868.[86] K.H. Thebo, X. Qian, Q. Zhang, L. Chen, H.-M. Cheng, W. Ren, Highly stable graphene-oxide-based membranes with superior permeability, Nat. Commun. 9 (1) (2018) 1486.[87] X. Chen, Z. Feng, J. Gohil, C.M. Stafford, N. Dai, L. Huang, H. Lin, Reduced holey graphene oxide membranes for desalination with improved water permeance, ACS Appl. Mater. Interfaces 12 (1) (2019) 1387–1394.[88] J.Y. Chong, B. Wang, C. Mattevi, K. Li, Dynamic microstructure of graphene oxide membranes and the permeation flux, J. Membr. Sci. 549 (2018) 385–392.[89] M. Ali El-Okazy, G.Q. Chen, E. Hadde, A. Akbari, S.E. Kentish, The performance of a graphene oxide thin film composite membrane for sweet whey ultrafiltration, Separ. Purif. Technol. 356 (2025) 129868, https://doi.org/10.1016/j. seppur.2024.129868.[90] W. Li, W. Wu, Z. Li, Controlling interlayer spacing of graphene oxide membranes by external pressure regulation, ACS Nano 12 (9) (2018) 9309–9317.[91] M.B.M.Y. Ang, M.R. Gallardo, G.V.C. Dizon, M.R. De Guzman, L.L. Tayo, S.- H. Huang, C.-L. Lai, H.-A. Tsai, W.-S. Hung, C.-C.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(9) (2018) 9309–9317.[91] M.B.M.Y. Ang, M.R. Gallardo, G.V.C. Dizon, M.R. De Guzman, L.L. Tayo, S.- H. Huang, C.-L. Lai, H.-A. Tsai, W.-S. Hung, C.-C. Hu, Graphene oxide functionalized with zwitterionic copolymers as selective layers in hybrid membranes with high pervaporation performance, J. Membr. Sci. 587 (2019) 117188.[92] C. Espinoza, D. Kitto, J. Kamcev, Counter-ion conductivity and selectivity tradeoff for commercial ion-exchange membranes at high salinities, ACS Appl. Polym. Mater. 5 [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] (2023) 10324–10333, https://doi.org/10.1021/acsapm.3c02102.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[93] A.H. Galama, D.A. Vermaas, J. Veerman, M. Saakes, H.H.M. Rijnaarts, J.W. Post, K. Nijmeijer, Membrane resistance: the effect of salinity gradients over a cation exchange membrane, J. Membr. Sci. 467 (2014) 279–291, https://doi.org/ 10.1016/j.memsci.2014.05.046.[94] G.M. Geise, A.J. Curtis, M.C. Hatzell, M.A. Hickner, B.E. Logan, Salt concentration differences alter membrane resistance in reverse electrodialysis stacks, Environ. Sci. Technol. Lett. 1 (1) (2013) 36–39, https://doi.org/10.1021/ez4000719.[95] K.S. Barros, T. Scarazzato, D.C.R. Espinosa, Evaluation of the effect of the solution concentration and membrane morphology on the transport properties of Cu(II) through two monopolar cation–exchange membranes, Separ. Purif. Technol. 193 (2018) 184–192, https://doi.org/10.1016/j.seppur.2017.10.067.[96] M. García-Gabald´on, V. P´erez-Herranz, E. Ortega, Evaluation of two ion-exchange membranes for the transport of tin in the presence of hydrochloric acid, J. Membr. Sci. 371 (1–2) (2011) 65–74, https://doi.org/10.1016/j. memsci.2011.01.015.[97] A.H. Galama, N.A. Hoog, D.R. Yntema, Method for determining ion exchange membrane resistance for electrodialysis systems, Desalination 380 (2016) 1–11, https://doi.org/10.1016/j.desal.2015.11.018.[98] P. Długołęcki, B. Anet, S.J. Metz, K. Nijmeijer, M. Wessling, Transport limitations in ion exchange membranes at low salt concentrations, J. Membr. Sci. 346 (1) (2010) 163–171, https://doi.org/10.1016/j.memsci.2009.09.033.[99] F.Q.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ns in ion exchange membranes at low salt concentrations, J. Membr. Sci. 346 (1) (2010) 163–171, https://doi.org/10.1016/j.memsci.2009.09.033.[99] F.Q. Mir, A. Shukla, Sharp rise in resistance of ion exchange membranes in low concentration NaCl solution, J. Taiwan Inst. Chem. Eng. 72 (2017) 134–141, https://doi.org/10.1016/j.jtice.2017.01.019.[100] V. Sarapulova, E. Nevakshenova, N. Pismenskaya, L. Dammak, V. Nikonenko, Unusual concentration dependence of ion-exchange membrane conductivity in ampholyte-containing solutions: effect of ampholyte nature, J. Membr. Sci. 479 (2015) 28–38, https://doi.org/10.1016/j.memsci.2015.01.015.[101] S. Zhu, R.S. Kingsbury, D.F. Call, O. Coronell, Impact of solution composition on the resistance of ion exchange membranes, J. Membr. Sci. 554 (2018) 39–47, https://doi.org/10.1016/j.memsci.2018.02.050.[102] Y. Yang, P.N. Pintauro, Multicomponent space-charge transport model for ionexchange membranes, AIChE J. 46 (6) (2000) 1177–1190.[103] A.A.E. Elozeiri, R.G.H. Lammertink, S. Lin, H.H.M. Rijnaarts, J.E. Dykstra, Counter-ion mobility in cation-exchange membranes: single electrolytes versus mixtures, J. Membr. Sci. 718 (2025) 123636, https://doi.org/10.1016/j. memsci.2024.123636.[104] F. Roghmans, M. Martí-Calatayud, S. Abdu, R. Femmer, R. Tiwari, A. Walther, M. Wessling, Electrochemical impedance spectroscopy fingerprints the ion selectivity of microgel functionalized ion-exchange membranes, Electrochem. Commun. 72 (2016) 113–117.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[105] T. Okada, N. Arimura, H. Satou, M. Yuasa, T. Kikuchi, Membrane transport characteristics of binary cation systems with Li+ and alkali metal cations in perfluorosulfonated ionomer, Electrochim. Acta 50 (16–17) (2005) 3569–3575.[106] L. Wu, H. Jiang, T. Luo, X. Wang, On the ionic conductivity of cation exchange membranes in mixed sulfates using the two-phase model, Membranes 13 [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (2023) 811.[107] J. Kamcev, R. Sujanani, E.-S. Jang, N. Yan, N. Moe, D.R. Paul, B.D. Freeman, Salt concentration dependence of ionic conductivity in ion exchange membranes, J. Membr. Sci. 547 (2018) 123–133, https://doi.org/10.1016/j. memsci.2017.10.024.[108] Q. Wang, G.Q. Chen, S.E. Kentish, Sorption and diffusion of organic acid ions in anion exchange membranes: acetate and lactate ions as a case study, J. Membr. Sci. 614 (2020) 118534, https://doi.org/10.1016/j.memsci.2020.118534.[109] S.M. Bannon, E. Kutner, B. Garretson, G.M. Geise, Understanding the influence of sodium chloride concentration on ion diffusion in charged polymers, J. Membr. Sci. 712 (2024), https://doi.org/10.1016/j.memsci.2024.123197.[110] T.C. Huang, The effects of temperature and concen-tration on counter-ion interdiffusion in anion exchange membrane, J. Chem. Eng. Jpn. 13 (1) (1980) 49–54.[111] P.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "he effects of temperature and concen-tration on counter-ion interdiffusion in anion exchange membrane, J. Chem. Eng. Jpn. 13 (1) (1980) 49–54.[111] P. Vanýsek, Ionic Conductivity and Diffusion at Infinite Dilution, 94, CRC handbook of chemistry and physics, 1993.[112] R.A. Robinson, R.H. Stokes, Electrolyte Solutions, 2002. Courier Corporation.[113] P.C. Hiemenz, T.P. Lodge, Polymer Chemistry, 2007. CRC press.[114] L. Mu, Y. Yang, J. Liu, W. Du, J. Chen, G. Shi, H. Fang, Hydrated cation-pi interactions of pi-electrons with hydrated Li(+), Na(+), and K(+) cations, Phys. Chem. Chem. Phys. 23 (27) (2021) 14662–14670, https://doi.org/10.1039/ d1cp01609a.[115] W.J. Paschoalino, N.A. Payne, T.M. Pessanha, S.M. Gateman, L.T. Kubota, J. Mauzeroll, Charge storage in graphene oxide: impact of the cation on ion permeability and interfacial capacitance, Anal. Chem. 92 [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] (2020) 10300–10307, https://doi.org/10.1021/acs.analchem.0c00218.[116] C. Tang, M.L. Bruening, Ion separations with membranes, J. Polym. Sci. 58 (20) (2020) 2831–2856, https://doi.org/10.1002/pol.20200500.[117] W. Li, L. Zhang, X. Zhang, M. Zhang, T. Liu, S. Chen, Atomic insight into water and ion transport in 2D interlayer nanochannels of graphene oxide membranes: implication for desalination, J. Membr. Sci.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n, Atomic insight into water and ion transport in 2D interlayer nanochannels of graphene oxide membranes: implication for desalination, J. Membr. Sci. 596 (2020) 117744, https://doi.org/ 10.1016/j.memsci.2019.117744.[118] G.M. Geise, H.-S. Lee, D.J. Miller, B.D. Freeman, J.E. McGrath, D.R. Paul, Water purification by membranes: the role of polymer science, J. Polym. Sci. B Polym. Phys. 48 [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] (2010) 1685–1718, https://doi.org/10.1002/polb.22037.[119] M. Luqman, Ion Exchange Technology I: Theory and Materials, Springer Science & Business Media2012.",
+    "citation": {
+      "authors": [
+        "Altay B.",
+        "Chen Q.",
+        "Ellis V.",
+        "Kentish E."
+      ],
+      "paper_id": "1-s2.0-S0376738825010555-main",
+      "title": "An experimental study of ion diffusivity in graphene oxide membranes in single and binary salt solutions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  }
+]

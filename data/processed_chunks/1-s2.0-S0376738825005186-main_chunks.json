@@ -1,0 +1,507 @@
+[
+  {
+    "content": "Contents lists available at ScienceDirect\n\nJournal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nFlow and fouling visualization in modules having multiple multichannel membranes Denis Wypysek a,b,1, Simon Wennemaring b,1, Antoni Dudij b, Matthias Wessling a,b,∗ a DWI - Leibniz-Institute for Interactive Materials, Forckenbeckstraße 50, Aachen, 52074, Germanyb Chemical Process Engineering (AVT.CVT), RWTH Aachen University, Forckenbeckstraße 51, Aachen, 52074, Germany A R T I C L E I N F O Keywords:Magnetic resonance imagingMultichannelFoulingFlow investigationBackwashing",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Interest in multichannel membrane modules as robust alternatives to single-bore hollow fiber membranes is growing, yet their complex hydrodynamic behavior remains underexplored, particularly in densely packed configurations. In this study, we employed magnetic resonance imaging (MRI) to investigate flow distributions and fouling dynamics in multichannel membrane modules containing one, seven, and nineteen fibers. Under forward permeation at 100 LMH, we observed marked inhomogeneities on both the shell and lumen sides, which became more pronounced at higher packing densities and toward the module outlet. Notably, jet-like flow streams, reverse flows, and localized recirculation zones developed, creating substantial deviations in velocity profiles along the module axis. Fouling experiments with silica particles revealed a disproportionately reduced contribution of inner bore channels, highlighting the vulnerability of certain lumen regions to filter cake formation. Backwashing at 100 LMH and 200 LMH partially alleviated these blockages but also redistributed filter cakes to previously open bore channels. Despite some channels showing improved flux recovery, a subset of fibers remained inaccessible to cleaning due to preferential flow pathways that bypass clogged regions. These findings have important consequences for module design and operation.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "to cleaning due to preferential flow pathways that bypass clogged regions. These findings have important consequences for module design and operation. They underscore the need for precise control over packing density, fiber spacing, and shell connection configuration to minimize maldistribution and optimize overall hydraulic performance. Going forward, deeper investigations into reverse flow phenomena and localized pressure gradients will be critical in guiding next-generation module architectures and fouling mitigation strategies, ultimately enhancing the reliability and efficiency of membrane-based water treatment processes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction The efficacy of membrane filtration processes in water applications depends largely on controlling fouling phenomena during filtration and ensuring effective deposit removal during backwashing. Traditionally, the understanding of fouling and cleaning processes has been derived from macroscopic measurements of flux recovery and pressure drop recovery after backwashing. Much of the scientific research has focused on identifying optimal membrane materials or surface modifications to minimize fouling. However, insufficient attention has been given to the mechanisms of fouling within membrane modules and the role of local hydrodynamic conditions in its prevention. Even minor, engineered modifications to the geometry of the feed flow channel can significantly mitigate fouling [1,2].\n\n∗Corresponding author. E-mail address: manuscripts.cvt@avt.rwth-aachen.de (M. Wessling).1 Contributed equally to this work.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Hollow fiber membranes have been extensively studied for applications in wastewater treatment [3] and potable water recovery [4]. Industrial-scale membrane modules are densely packed, often containing several hundred to thousands of fibers. While fiber arrangement and spatial distribution are integral to many technical products, publicly available knowledge on these design aspects, beyond commercial considerations, remains limited. Some studies explicitly address the adaptation of module design to enhance backwashing performance [5]. Recently, the interaction between the pressure side and the lumen side within membrane modules has been proposed as a crucial research focus [6]. Simulation-based approaches have historically been employed to investigate various aspects of flow distribution in densely packed modules, including: (a) manifold design [7], (b) the influence of packing densities on mass transfer [8,9], (c) uneven particle deposition\n\nJournal of Membrane Science 732 (2025) 124205\n\nAvailable online 26 May 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "D. Wypysek et al. and cake growth [10], (d) shell-side mass transfer performance in randomly packed hollow fiber modules [8,11], (e) changes in flux distribution due to the interplay of packing density and fiber dimensions [12], and (f) the effects of membrane positioning and fiber–fiber interactions [13]. Our own computational fluid dynamics (CFD) and computed tomography (CT) study on submerged bioreactor filtration analyzed gas/liquid distribution in both fixed and moving fibers, geometrically constrained within a defined volume [14]. Hemodialyzers, as leading hollow fiber modules containing numerous fibers, have been extensively studied in various experimental investigations. On one hand, MRI studies have explored (a) inlet and outlet flow behavior [15], (b) flow distribution on the shell and lumen sides [16,17], considering factors such as high packing densities [18,19], spacers between fibers [20,21], and the use of different contrast agents, including Gd-DTPA [22–24] and heavy water [25], and (c) the optimization of flow paths using installed flow baffles [26]. On the other hand, alternative approaches, such as residence time studies [27], have been employed to investigate flow distribution in dialyzers. Across all these studies, maldistribution – whether in the shell or lumen side – has been consistently observed, impacting toxin removal efficiency.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". Across all these studies, maldistribution – whether in the shell or lumen side – has been consistently observed, impacting toxin removal efficiency. Beyond dialyzers, flow behavior in other modules has been examined using particle image velocimetry (PIV) [28], ultrasonic measurements [29], and MRI [30]. Studies on hollow fiber membranes underscore the critical importance of understanding fiber distribution, packing densities, and fouling behavior. Hollow fiber membranes with multiple bore channels (multichannel membranes) are designed for similar applications as single-bore hollow fiber membranes but offer superior mechanical stability and a higher specific surface area [31–34]. As a result, research interest in multichannel membranes has increased, with studies investigating their individual performance and fouling characteristics. Schuhmann et al. found that the center channel experienced more fouling with gel-forming agents compared to non-gel-forming agents [35]. Wypysek et al. demonstrated that backwashing could not fully restore membrane performance [6]. Simkins et al. observed that biofilm distribution in the lumen was more comparable to concentration polarization than to a compact gel layer [36]. Kern et al. reported incomplete backwash recovery in multichannel fibers with nineteen bore channels [37]. Since flow distribution varies significantly in larger modules, multichannel fibers have also been studied in configurations with higher packing densities. Wang et al.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "bution varies significantly in larger modules, multichannel fibers have also been studied in configurations with higher packing densities. Wang et al. used CFD simulations to examine hollow fiber zeolite membrane modules incorporating seven multichannel membranes, optimizing the module structure with axial and radial flow baffles [38]. Lee et al. investigated the filtration performance of large-scale modules containing multiple multichannel membranes and observed a more pronounced decrease in permeance for multichannel membranes compared to hollow fiber membranes [39]. However, despite conducting module autopsies, they could not demonstrate the influence of the filter cake on flow distribution. Almost all previous studies have focused on single multichannel membrane modules or have not analyzed in-situ fouling and its influence on flow distribution in modules with higher packing densities. Therefore, this study examines the in-situ fouling of multiple multichannel membranes within a densely packed membrane module. 2. Experimental Membrane. The investigated inside-out ultrafiltration membraneswere commercially available PES SevenBore membranes supplied by SUEZ Water Technologies & Solutions with a nominal pore size of 40 nm. The membrane’s permeability calculated from Darcy’s law is k = 1.14*10-15 m2 [6] The membranes consisted of seven bore channels with six bore channels symmetrically surrounding a central bore, with each bore having an inner diameter of about 0.9 mm.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "𝐴housing ), respectively. 3D-printed spacers close to the module’s ends were used to ensure constant positioning of the membrane fibers inside the singleand seven-fiber modules. The manufactured modules had an internal diameter of 18 mm. Furthermore, the membrane modules contained one connection for the feed, permeate, and retentate stream, respectively. Axial and transversal flow fields were measured at five different positions along the module (see Fig. 1(a)). Measurement distances from the module inlet were 8.3 cm for position A-A, and every following measurement slice was also 8.3 cm away from the previous one. Magnetic resonance imaging setup. Fig. 1 illustrates the experimental setup. All MRI measurements were carried out on a Magritek 0.56 Tesla low-field NMR tomography system combined with a KEA2 low-frequency spectrometer using a 2D spin-echo pulse sequence. The membrane module was placed horizontally within the 60 mm inner diameter imaging probe. Transversal and axial velocity measurements were carried out in the x–y-plane, the cross section of the membrane module. In all pure water experiments, a fluid circuit was established with an ISMATEC ISM405 A gear pump. Thereby, fluxes of 100 liter per square meter membrane area per hour (LMH) in forward inside-out permeation mode were applied to the membrane modules, resulting in a Reynolds number of 56 at each module’s inlet, regardless of the packing density.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "permeation mode were applied to the membrane modules, resulting in a Reynolds number of 56 at each module’s inlet, regardless of the packing density. A copper sulfate solution of 1.5 g L-1 copper(II) sulfate pentahydrate (CuSO4 ⋅5 H2O, ≥ 99.5%, Carl Roth, Germany) in deionized water was used as permeating fluid. The use of CuSO4is crucial for MRI because it considerably shortens the time needed to obtain a magnetic resonance image. Mass flow rates across the membrane were checked with a Bronkhorst mini CORI-FLOW M14 mass flow meter. The resulting transmembrane pressure (TMP) was recorded with a Wika pressure transmitter S-11. A 30 min pause time was waited between starting the pumps and imaging the velocity map to avoid start-up effects in the velocity map. The acquisition time of a velocity map was larger than 10 min averaging flow rate changes in this duration. MRI parameters were varied to obtain a maximum spatial and temporal resolution for different conditions. The utilized MRI parameters are listed in Table 1. In the fouling experiment, 1.5 g L-1 GRACE SYLOID C 803 silica particles (3.4 μm–4 μm) were added to the copper sulfate solution in a second container. This fouling solution was pumped with an ISMATEC peristaltic pump at 20 LMH at the beginning of the experiment. The gear pump delivered 80 LMH of copper sulfate solution without silica particles parallel to the peristaltic pump. In total, the flux in the fouling mode was 100 LMH.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "vered 80 LMH of copper sulfate solution without silica particles parallel to the peristaltic pump. In total, the flux in the fouling mode was 100 LMH. The pressure in the module increased from 0.9 barto 1 bar during the fouling. The gear pump’s number of revolutions was increased by 1.2% during the fouling experiment to keep the LMH constant. The backwash was performed with the gear pump with fresh copper sulfate solution at 100 LMH and 200 LMH outside-in. Data processing with matlab. The obtained MRI raw data fromMagritek’s software PROSPA was post-processed using MATLAB 2021b. The pixel by pixel stored velocity data was translated into contour and vector plots while data smoothing was applied. Maximum and minimum lumenand shell-sided velocity values were taken from the matrices. To calculate the deviation (if not otherwise stated), the maximum lumen velocities in all membranes were compared. Assuming parabolic flow profiles in the lumen channels, maximum velocities were located in the middle of each channel. Eq. (1) calculates the deviation in maximum lumen velocities: Deviation =(1 -Lowest maximum velocity Highest maximum velocity",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. (a) Experimental MRI setup for investigations on hydrodynamic behavior of membrane modules containing (b) one, (c) seven, and (d) nineteen multichannel membranes via MRI. Table 1MRI parameters for the investigation of hydrodynamics in multichannel membrane modules with different packing densities. Field of view (FoV). Permeation modeforward inside-out permeationFouling No. of membranes1 ||| 7 ||| 191 ||| 7 ||| 191 ||| 7 ||| 1919 SliceA-A to C-CD-DE-EC-C ParameterUnitValueValueValueValue Repetition time[ms]900900 ||| 900 ||| 600900 ||| 300 ||| 600500 Echo time[ms]3232 ||| 32 ||| 183212 FoV Read [x][mm]2446 ||| 46 ||| 5024 ||| 46 ||| 5040 FoV Phase [y][mm]2446 ||| 46 ||| 5024 ||| 46 ||| 5040 Slice thickness [z][mm]88810 No. of pixels [x * y][ – ]256 * 256256 * 256256 * 256256 * 256 Number of scans[ – ]44 ||| 4 ||| 24 ||| 4 ||| 25 Acquisition time[min:s]15:2215:22||| 15:22 ||| 10:1415:22||| 5:07 ||| 5:078:32 3. Results and discussion Wypysek et al. [6] highlighted the sensitivity of flow patterns within membranes and modules to minor geometric deviations from the ideal membrane position. Uneven flow distribution was also observed in modules with higher packing densities [18,20,30,40]. Consequently, this study investigates flow distribution in membrane modules with three different packing densities using a forward inside-out permeation mode. 3.1. Pure water forward inside-out permeation along the module axis Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "three different packing densities using a forward inside-out permeation mode. 3.1. Pure water forward inside-out permeation along the module axis Fig. 2 illustrates axial flow velocities ranging from 0 mm s-1 (blue) to 100 mm s-1 (yellow) at three positions in front of the permeate outlet. In the dead-end setup, lumen channel velocities decreased, while shell-side velocities increased toward the permeate outlet due to water permeating through the membrane from the lumen to the shell side. Axial velocities on the shell side. As packing density increased, inhomogeneities on the shell side became more pronounced, and maximum velocities also rose. Since the same flux (100 LMH) was applied to all module configurations, higher flow rates were required for modules with higher packing densities. Simultaneously, the reduced space on the shell side led to further velocity increases.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "For the lowest packing density, shown in Figs. 2 (a.i) to (a.iii), no significant shell-side flow was observed. This behavior changed substantially in the highly packed membrane module depicted in Figs. 2 (c.i) to (c.iii). High jet-like flows developed in the peripheral region of the module, particularly between the outermost twelve membranes and the membrane housing. Velocities were higher in the upper half compared to the lower half, possibly due to the upward-facing permeate outlet. Another contributing factor could be the paths of least resistance, where larger gaps on the shell side offered lower resistance [41]. Slightly lower velocities were observed between the outer twelve membranes and the neighboring six membranes, while minimal shell-side flow occurred around the central membrane due to the close proximity of membranes at this position. A small void volume (higher local packing density) results in lower flow rates and higher residence times, potentially enhancing mass transfer in these regions. However, in a randomly packed module, regions with lower packing density – and consequently higher flow rates – dominate overall module performance, ultimately reducing mass transfer efficiency [8]. Fig. 2 (b.iii) shows a homogeneously distributed velocity on the shell side for the module containing seven membranes. However, as illustrated in Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2 (b.iii) shows a homogeneously distributed velocity on the shell side for the module containing seven membranes. However, as illustrated in Fig. 3(a) (where membranes are represented by white circles), all seven membranes are slightly shifted toward the bottom Journal of Membrane Science 732 (2025) 124205",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "D. Wypysek et al.\n\nFig. 2. Axial flow-MRI measurements of multichannel membrane modules in forward inside-out permeation mode containing (a) one, (b) seven and (c) nineteen multichannel membranes at three different positions before the permeate outlet.\n\nFig. 3. Axial flow-MRI measurements of a multichannel membrane module in forward inside-out permeation mode with (a) seven and (b) nineteen multichannel membranes at position C–C. Only the uneven flow distribution on the shell side is visualized. Figure (b) has a small backfolding dot in the upper shell side flow. Here, the velocity is displayed as 0 mm s-1 where it is actually slightly above 100 mm s-1. of the module. This effect is also observed in the module with nineteen membranes. Consequently, the gaps between membranes are larger in the upper part of the module, leading to higher velocities in those regions [16,42]. Another possible explanation is that the higher velocities in the top section of the module result from the position of the permeate outlet. These elevated velocities may induce membrane displacement away from the outlet [28]. Overall, even minor geometric deviations from ideal membrane positions generate local pressure differences [6], influencing flow dynamics and, consequently, filtration performance [8,41]. Thus, while assuming a homogeneous fiber distribution in simulations may serve as a practical model assumption, it may not accurately represent actual module behavior.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Axial velocities on the lumen side. As mentioned earlier, velocities inside the lumen channels decreased along the module axis due to the dead-end configuration. However, flow distribution within the seven lumen channels of a single membrane, as well as among different membranes, was non-uniform. No consistent trend was observed for flow distribution within an individual multichannel membrane. For the module with the lowest packing density, the highest velocities were found in the central, right, and bottom-right lumen channels. In the seven-membrane module, the central membrane exhibited higher velocities compared to the others. Specifically, the bottom-left membrane showed the highest velocities in its central lumen channel, while the bottom-right membrane exhibited increased flow in its right lumen channels. Additionally, one lumen channel in the highly packed module displayed negative velocities, likely caused by blockage near the feed inlet (before slice A-A). Journal of Membrane Science 732 (2025) 124205\n\nD. Wypysek et al.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4,
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. Transversal flow-MRI measurements of the nineteen membrane module in forward permeation mode at three different positions before the permeate outlet. Row (a) shows the velocity magnitude without vector information. Row (b) also contains the flow’s direction in the fastest flow paths. Overall, differences in maximum lumen velocities increased with higher packing densities and at slices further from the inlet. In the single-membrane module, flow distribution was relatively uniform, with a deviation in maximum lumen velocities of 8.5 % near the feed inlet (A-A), increasing to 9.4 % near the permeate outlet (C-C), which is an increase of 0.9 %. This heterogeneity became more pronounced in the seven-membrane module, with deviations of 17.7 % at slice A-A and 21.2 % at slice C–C, corresponding to an increase of 3.4 %. For the nineteen-membrane module, deviations increased from 27.9 % at slice A-A to 35 % at slice C–C, representing an increase of 7.1 %. In conclusion, higher packing densities lead to more complex flow fields and increased heterogeneities. Nevertheless, as long as the lumen channels remain unclogged, liquid continues to flow through them and exits the porous structure. Transversal velocities. The transversal flow velocities for the highly packed membrane module are shown in Fig. 4. Flow magnitudes are represented by colors, ranging from 0 mm s-1 (blue) to 3 mm s-1 (yellow), with arrows indicating flow direction.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "shown in Fig. 4. Flow magnitudes are represented by colors, ranging from 0 mm s-1 (blue) to 3 mm s-1 (yellow), with arrows indicating flow direction. Depending on the measurement position, liquid flows between membranes on the shell side, following paths of least resistance. No clear trends were detected, as flow paths appeared to evolve randomly. However, transversal velocities were highest in regions with lower packing densities. In the seven-membrane and single-membrane modules, no distinct flow paths formed on the shell side due to the excessive void space available for the liquid. 3.2. Pure water forward permeation — the role of the outlet position Velocity fields varied more significantly in the regions measured behind the permeate outlet. Fig. 5 illustrates axial flow fields both at (.i) and behind (.ii) the outlet position for membrane modules containing (a) one, (b) seven, and (c) nineteen multichannel membranes, operating at 100 LMH with different scales. Shell side. In the module with the lowest packing density (Fig. 5(a)), axial flow velocities on the shell side were nearly zero, as the volume flow rate was insufficient to generate significant flow in this region. For the seven-membrane module (Fig. 5 (b.i)), the middle membrane was slightly shifted to the right. As previously noted, such minor deviations from the ideal membrane position led to slightly higher velocities on the left side of the central membrane.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s previously noted, such minor deviations from the ideal membrane position led to slightly higher velocities on the left side of the central membrane. This effect persisted behind the outlet position (Fig. 5 (b.ii)), where velocities of approximately -5 mm s-1 were measured. In the highly packed membrane module shown in Fig. 5 (c.i), jet streams formed between the membranes, exhibiting higher velocities in the upper half of the module, while minimal velocities were measured near the central membrane. Negative flows were expected behind the permeate outlet, as fluid on the shell side must flow backward to reach the outlet. These negative velocities, peaking at -85 mm s-1, were predominantly observed in the module’s upper part. However, where membranes were closely spaced, positive velocities of up to 40 mm s-1 were also detected. These positive velocities followed paths of least resistance, directing flow toward the glued end of the module, where membranes were more evenly spaced, creating larger voids. This recirculating shell-side flow may have influenced fluid distribution within the lumen channels due to localized pressure differences. Lumen side. As described earlier, the non-uniform flow distribution along the membrane axis intensified toward the module’s end. At position E-E, the deviation in maximum lumen velocities increased significantly, highlighting uneven flow distribution within the lumen channels.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". At position E-E, the deviation in maximum lumen velocities increased significantly, highlighting uneven flow distribution within the lumen channels. For the one-membrane module, the deviation was 13.8 % at the permeate outlet slice (D-D), rising to 34.6 % at slice E-E. In the seven-membrane module, lumen flow velocities (Fig. 5 (b.i)) showed that the permeate outlet influenced the hydrodynamic behavior of the membranes. Lumen channels closest to the permeate outlet exhibited the lowest velocities, resulting in high deviations of 52.4 %. These deviations further increased to 69.7 % toward the module’s end (slice E-E, Fig. 5 (b.ii)). Across all membranes, the highest velocities were consistently found in the central lumen channel, suggesting that the central channel contributed less to filtration performance. The inhomogeneous reduction of flow velocities was also observed in the nineteen-membrane module (see Fig. 5 (c.i)), though the effect was less pronounced than in the seven-membrane module. At the two analyzed positions, deviations increased to 42.3 % at slice D-D and 58.3 % at the module’s end (slice E-E), with the highest velocities typically found in the central lumen channels. Additionally, the velocity within the lumen channel exhibiting negative flow velocities increased further. Fig. 5 (c.ii) displays this as a measurement artifact, where the negative flow velocity exceeded the Journal of Membrane Science 732 (2025) 124205",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. Axial flow-MRI measurements of multichannel membrane modules in forward permeation mode containing (a) one, (b) seven, and (c) nineteen multichannel membranes at the permeate outlet and 8.3 cm behind. velocity scale and was incorrectly represented as a positive velocity due to backfolding in the velocity scale. This resulted in an apparent positive velocity in regions where negative velocities actually occurred. 3.3. Fouling behavior For the fouling experiment, slice C–C was investigated in forward permeation mode. Fig. 6 illustrates the axial flow in forward permeation mode for the module before fouling, after 55 min fouling with 0.3 g L-1 silica particles, after a first backwash at 100 LMH, and after a second backwash at 200 LMH. For a stationary filter cake during the velocity measurement, the peristaltic pump transporting the silica particle solution was deactivated and the gear pump’s power was increased to deliver 100 LMH flow rate. The flow rate variations across all lumen channels of the clean module exhibited variations between 1 mL min-1 and 2 mL min-1 (Fig. 6(a)). At this stage, no particles were deposited in the bore channels. After adding silica particles into the feed stream (Fig. 6(b)), a filter cake formed on the membrane surface visible as darker gray coloring of the bore channels. The histogram reveals a wide distribution of flow rates, with most bore channels between a near-zero velocity and up to 2 mL min-1.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the bore channels. The histogram reveals a wide distribution of flow rates, with most bore channels between a near-zero velocity and up to 2 mL min-1. Particle deposition occurred mainly in the outer six bore channels, indicating a smaller filtration through the inner bore. The velocity map underscores this trend, as inner bore channels displayed higher velocities than the outer ones, likely due to less covering of the membrane’s surface. Additionally, the bottom half of the module exhibited more completely blocked bore channels than the upper half, possibly due to particle sedimentation in the inlet manifold. After the first backwash for 30 minutes at 100 LMH (Fig. 6(c)), some fibers were recovered and resumed contributing to filtration. The histogram shows fewer bore channels with near-zero velocity but a greater number exceeding 2 mL min-1. This probably resulted from the removal of the filter cake behind slice C–C, allowing water to travel a longer path through the bore before permeating to the shell side. Consequently, bore-side velocity increased at the measurement slice, as more water flowed past this point. Simultaneously, the velocity of jet streams on the shell side decreased due to increased membrane permeation behind the slice. Furthermore, the velocity map reveals that certain outer bore channels were effectively cleaned and carried volume flows comparable to the inner bore channels, implying that these channels could be cleaned successfully.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s were effectively cleaned and carried volume flows comparable to the inner bore channels, implying that these channels could be cleaned successfully. Interestingly, some fibers exhibited negative velocities, indicating reverse flow. Also, the grayscale image shows previously open fibers that became blocked after the backwash, suggesting a repositioned filter cake. After the second backwash for 30 minutes at 200 LMH (Fig. 6(d)), the histogram shows the complete disappearance of peak volume flows above 2 mL min-1, while the number of near-zero volume flows further declined. With additional bore channels becoming accessible, the volume flow was distributed across a larger membrane area, reducing the magnitude of peak flows within the bore channels. The gray-scale image shows a further increased number of cleaned fibers while a greater number of lumen channels exhibited negative velocities compared to the first backwash. This behavior indicates an influence of the filter cake position on the lumen flow direction. The forward flowing lumen channels show a more homogeneous velocity distribution because more lumen channels are available that not a few open channels have to compensate the flow for the blocked channels. However, some bore channels remained blocked and no longer contributed to filtration.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n channels have to compensate the flow for the blocked channels. However, some bore channels remained blocked and no longer contributed to filtration. Cleaning these fibers via backwashing is particularly challenging, as blocked fibers experience higher pressure losses compared to free fibers, which in turn counterbalances the increased flow rate. As a result, water preferentially bypasses blocked fibers, similar to flow behavior in hollow fiber membrane modules [43]. Journal of Membrane Science 732 (2025) 124205",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "D. Wypysek et al. Fig. 6. Influence of particle deposition on the axial flow distribution. The image shows (left) the particle deposition, (middle) the volume flows in the fibers and (right) the velocity maps (a) before fouling, (b) after 55 min fouling at 100 LMH with 0.3 g L-1 silica particles, (c) after 30 min backwash at 100 LMH, and (d) after 30 min backwash at 200 LMH. 4. Discussion\n\nRefined module design and optimization. The observation of jet-like flow patterns, negative velocities, and uneven flow distribution underscores the importance of precise module geometries, particularly in high packing densities. Manufacturers and engineers can leverage these insights to optimize membrane layouts, spacer design, and outlet positioning. Doing so could improve overall filtration efficiency, reduce energy consumption, and extend membrane lifetimes in industrial water treatment systems and other separation processes. Enhanced fouling control strategies. Detailed MRI measurements of fouling experiments reveal that filter cake deposition often occurs in outer bore channels, while inner bore channels experience reduced flow or become obstructed. Understanding these site-specific fouling mechanisms may guide the development of tailored cleaning regimens – such as pulsed or zoned backwashing – targeted at regions most prone to fouling. This more efficient fouling control can lower operational costs and minimize the environmental impact by reducing chemical use and cleaning frequency.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Informed backwash protocols. The discovery that certain bore channels experienced reversed flow and ‘‘random’’ reopening during backwashing illuminates the inherently dynamic nature of the cleaning process. Adapting backwash pressures, durations, and cycles to account for these unpredictable flow reversals could increase recovery rates, mitigate membrane damage, and ensure more uniform backwash efficacy across the entire module. Potential for cross-application. Although this study focuses on multichannel membranes for water treatment, the underlying principles of flow maldistribution, complex fouling behaviors, and module design trade-offs are relevant to a wide range of membrane processes. Gas separations, pervaporation, and microfiltration could similarly benefit from these findings, enhancing performance across diverse industries. Future research directions. Several open questions remain — especially regarding reverse flow phenomena and the interplay between shellside maldistribution and bore-channel fouling. Addressing these gaps will require further experimental work under varied operational conditions (e.g., different particle sizes, feedwater chemistries, and module geometries). Such efforts may also be combined with next-generation materials (e.g., functional coatings, anti-fouling surfaces) to mitigate fouling and maximize hydraulic performance. Journal of Membrane Science 732 (2025) 124205",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "D. Wypysek et al. By integrating these insights into new module designs, improved fouling control strategies, and refined cleaning methods, industrial and academic stakeholders can enhance the reliability and cost-effectiveness of membrane-based processes for water treatment and beyond. 5. Conclusion In this study, a comprehensive magnetic resonance imaging analysis revealed the hydrodynamic effects in multichannel membrane modules with three different packing densities during both forward permeation and backwashing modes. Understanding how membranes interact with their fluidic environment provides insight into complex flow behaviors on both the shell and lumen sides and highlights the significant influence of the outlet position. In forward permeation mode at 100 LMH, flow on the shell side became increasingly heterogeneous with higher packing densities, leading to the formation of jet streams in the most densely packed module. Additionally, deviations in maximum lumen velocities increased along the module axis, with uneven flow distribution becoming more pronounced at higher packing densities. These non-uniformities were particularly evident behind the outlet position, demonstrating that outlet placement can significantly impact both permeation and backwashing performance.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "icularly evident behind the outlet position, demonstrating that outlet placement can significantly impact both permeation and backwashing performance. Moreover, streams with positive and negative velocities recirculated on the shell side at the end of the membrane module, generating local pressure differences that further disrupted homogeneous flow distribution. The fouling experiment revealed a reduced contribution of the inner bore channels to filtration. The first backwash at 100 LMH removed the filter cake from some bore channels, while others that were previously unblocked became blocked due to filter cake repositioning. The second backwash at 200 LMH removed additional deposits and further homogenized the flow distribution. However, removing residual particles from the module remains challenging, as water preferentially bypasses blocked fibers through open fibers. Additionally, an increasing amount of fibers exhibited reverse flow toward the inlet during forward permeation, a phenomenon that requires further investigation. These findings underscore the complexity of flow distribution in multichannel membrane modules and highlight the critical role of module design in optimizing filtration and backwashing performance. Future research should focus on elucidating the mechanisms driving reverse flow behavior and developing strategies to improve backwash efficiency in densely packed membrane configurations.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ating the mechanisms driving reverse flow behavior and developing strategies to improve backwash efficiency in densely packed membrane configurations. CRediT authorship contribution statement Denis Wypysek: Visualization, Methodology, Investigation, Conceptualization, Data curation, Formal analysis, Validation, Writing – original draft. Simon Wennemaring: Visualization, Methodology, Investigation, Conceptualization, Data curation, Formal analysis, Validation, Writing – original draft, Writing – review & editing. Antoni Dudij: Investigation, Data curation. Matthias Wessling: Supervision, Funding acquisition. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Declaration of Generative AI and AI-assisted technologies in the writing process During the preparation of this work the authors used ChatGPT in order to improve the readability and language of the manuscript. After using this tool, the authors reviewed and edited the content as needed and take full responsibility for the content of the published article.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "D. Wypysek et al. [20] S. Laukemper-Ostendorf, H. Lemke, P. Blümler, B. Blümich, NMR imaging of flow in hollow fiber hemodialyzers, J. Membr. Sci. 138 (2) (1998) 287–295, http://dx.doi.org/10.1016/S0376-7388(97)00241-X.[21] C. Poh, P. Hardy, Z. Liao, Z. Huang, W. Clark, D. Gao, Effect of spacer yarns on the dialysate flow distribution of hemodialyzers: a magnetic resonance imaging study, ASAIO J. 49 (4) (2003) 440—448, http://dx.doi.org/10.1097/01.MAT.0000073966.24950.28.[22] T. Osuga, T. Obata, H. Ikehira, Detection of small degree of nonuniformity in dialysate flow in hollow-fiber dialyzer using proton magnetic resonance imaging, Magn. Reson. Imaging 22 (3) (2004) 417–420, http://dx.doi.org/10.1016/j.mri.2003.08.008.[23] B. Weerakoon, T. Osuga, The applicability of Gd-DTPA magnetic resonance imaging contrast agent for the evaluation of blood compartment flow distribution in hollow fiber hemodialyzers, J. Biomed. Sci. Eng. 08 [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] (2015) 789–796, http://dx.doi.org/10.4236/jbise.2015.811075.[24] B. Weerakoon, T. Osuga, Characterization of flow distribution in the blood compartment of hollow fiber hemodialyzers with contrast-enhanced spin echo magnetic resonance imaging, Appl. Magn. Reson. 47 (4) (2016) 453–469, http://dx.doi.org/10.1007/s00723-016-0766-8.[25] T. Osuga, T. Obata, H.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "pin echo magnetic resonance imaging, Appl. Magn. Reson. 47 (4) (2016) 453–469, http://dx.doi.org/10.1007/s00723-016-0766-8.[25] T. Osuga, T. Obata, H. Ikehira, Proton magnetic resonance imaging of flow motion of heavy water injected into a hollow fiber dialyzer filled with saline, Magn. Reson. Imaging 22 (3) (2004) 413–416, http://dx.doi.org/10.1016/j.mri.2003.07.003.[26] C. Poh, P. Hardy, Z. Liao, Z. Huang, W. Clark, D. Gao, Effect of flow baffles on the dialysate flow distribution of hollow-fiber hemodialyzers: A nonintrusive experimental study using MRI, J. Biomech. Eng. 125 (2003) 481—489, http://dx.doi.org/10.1115/1.1590355.[27] J. Engasser, J. Caumon, A. Marc, Hollow fiber enzyme reactors for maltose and starch hydrolysis, Chem. Eng. Sci. 35 (1) (1980) 99–105, http://dx.doi.org/10.1016/0009-2509(80)80075-3.[28] T. Zhang, K. Guo, C. Li, Y. Li, C. Liu, Investigation on drag reduction characteristics and shell-side hydrodynamics in hollow fiber membrane modules, Adv. Theory Simul. 1 [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (2018) 1800074, http://dx.doi.org/10.1002/adts.201800074.[29] X. Li, J. Li, J. Wang, H. Wang, B. He, H. Zhang, W. Guo, H.H. Ngo, Experimental investigation of local flux distribution and fouling behavior in double-end and dead-end submerged hollow fiber membrane modules, J. Membr. Sci.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ental investigation of local flux distribution and fouling behavior in double-end and dead-end submerged hollow fiber membrane modules, J. Membr. Sci. 453 (2014) 18–26, http://dx.doi.org/10.1016/j.memsci.2013.10.052.[30] X. Yang, E. Fridjonsson, M. Johns, R. Wang, A. Fane, A non-invasive study of flow dynamics in membrane distillation hollow fiber modules using low-field nuclear magnetic resonance imaging (MRI), J. Membr. Sci. 451 (2014) 46–54, http://dx.doi.org/10.1016/j.memsci.2013.09.015.[31] P. Wan, J. Yin, B. Deng, Seven-bore hollow fiber membrane (HFM) for ultrafiltration (UF), Chem. Eng. Res. Des. 128 (2017) 240–247, http://dx.doi.org/10.1016/j.cherd.2017.09.019.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[32] P. Wang, T.S. Chung, Design and fabrication of lotus-root-like multi-bore hollow fiber membrane for direct contact membrane distillation, J. Membr. Sci. 421–422 (2012) 361–374, http://dx.doi.org/10.1016/j.memsci.2012.08.003.[33] P. Wang, T.S. Chung, A new-generation asymmetric multi-bore hollow fiber membrane for sustainable water production via vacuum membrane distillation, Environ. Sci. Technol. 47 [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] (2013) 6272–6278, http://dx.doi.org/10.1021/es400356z.[34] M. Heijnen, R. Winkler, P. Berg, Optimisation of the geometry of a polymeric multibore ultrafiltration membrane and its operational advantages over standard single bore fibres, Desalination Water Treat. 42 (1–3) (2012) 24–29, http://dx.doi.org/10.1080/19443994.2012.682968.[35] S. Schuhmann, J.W. Simkins, N. Schork, S.L. Codd, J.D. Seymour, M. Heijnen, F. Saravia, H. Horn, H. Nirschl, G. Guthausen, Characterization and quantification of structure and flow in multichannel polymer membranes by MRI, J. Membr. Sci. 570–571 (2019) 472–480, http://dx.doi.org/10.1016/j.memsci.2018.10.072.[36] J.W. Simkins, S. Schuhmann, G. Guthausen, M. Heijnen, S.L. Codd, J.D. Seymour, Characterization of biofilm distribution in hollow fiber membranes using compressed sensing magnetic resonance imaging, J. Membr. Sci.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", J.D. Seymour, Characterization of biofilm distribution in hollow fiber membranes using compressed sensing magnetic resonance imaging, J. Membr. Sci. 594 (August 2019) (2020) 117437, http://dx.doi.org/10.1016/j.memsci.2019.117437.[37] S. Kern, R. Lerner, N. Schork, H. Nirschl, M. Heijnen, G. Guthausen, MRI on a new polymeric multichannel membrane for ultrafiltration, Front. Chem. Eng. 4 (February) (2023) 1–9, http://dx.doi.org/10.3389/fceng.2022.1083180.[38] J. Wang, X. Gao, G. Ji, X. Gu, CFD simulation of hollow fiber supported NaA zeolite membrane modules, Sep. Purif. Technol. 213 (2019) 1–10, http://dx.doi.org/10.1016/j.seppur.2018.12.017.[39] Y.-g. Lee, J. Shin, S.J. Kim, K.H. Cho, P. Westerhoff, H. Rho, K. Chon, Science of the total environment an autopsy study of hollow fi ber and multibore ultra fi ltration membranes from a pilot-scale ultra high-recovery fi ltration system for surface water treatment, Sci. Total Environ. 866 (2023) 161311, http://dx.doi.org/10.1016/j.scitotenv.2022.161311.[40] A. Hirano, S. Kida, K. Yamamoto, K. Sakai, Experimental evaluation of flow and dialysis performance of hollow-fiber dialyzers with different packing densities, J. Artif. Organs 15 (2012) 168–175, http://dx.doi.org/10.1007/s10047-011-0620-6.[41] M. Costello, A. Fane, P. Hogan, R. Schofield, The effect of shell side hydrodynamics on the performance of axial flow hollow fibre modules, J. Membr. Sci. 80 (1) (1993) 1–11, http://dx.doi.org/10.1016/0376-7388(93)85127-I.[42] S. Yao, M.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the performance of axial flow hollow fibre modules, J. Membr. Sci. 80 (1) (1993) 1–11, http://dx.doi.org/10.1016/0376-7388(93)85127-I.[42] S. Yao, M. Costello, A. Fane, J. Pope, Non-invasive observation of flow profiles and polarisation layers in hollow fibre membrane filtration modules using NMR micro-imaging, J. Membr. Sci. 99 (3) (1995) 207–216, http://dx.doi.org/10.1016/0376-7388(94)00219-O.[43] B. Yan, N.W. Bristow, S.J. Vogt, J.S. Vrouwenvelder, M.L. Johns, E.O. Fridjonsson, Monitoring of hollow fiber module velocity field and fouling inside individual fibers using benchtop MRI, J. Membr. Sci. 629 (2021) 119238, http://dx.doi.org/10.1016/j.memsci.2021.119238. Journal of Membrane Science 732 (2025) 124205",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825005186-main",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  }
+]

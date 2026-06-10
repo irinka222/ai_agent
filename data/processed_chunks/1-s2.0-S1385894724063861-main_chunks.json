@@ -1,0 +1,446 @@
+[
+  {
+    "content": "1. Introduction\n\nIn recent decades, there has been a substantial and enduring decrease in the cost of renewable electricity from solar and onshore wind farms, primarily resulting from huge reductions in their construction costs. Consequently, the levelized cost of electricity (LCOE) from wind and solar farms is now lower than from fossil fuels. Further, between 2021 and 2022, the LCOE of onshore wind and solar fell by 5% and 3%, respectively, suggesting that costs will continue to decrease. Globally, industrial processes account for more than a third of energy consumption and more than a fifth of greenhouse gas emissions. As such, the electrification of industrial processes has the potential to provide myriad benefits both in terms of process economics and sustainability. However, there are several challenges inhibiting the widespread adoption of electrified process units including the availability of suitable replacement technologies, the high capital costs of these less mature technologies, and the risk averse nature of industry.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "1. Introduction",
+      "pages": [2,3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Much of the focus of electrification revolves around process heat as this consumes a substantial amount of energy and has relatively mature replacement technologies. Separation processes and chemical reactors have historically been much more challenging to electrify. Electromembrane processes will be instrumental in the electrification of many industries as they have a wide range of capabilities in both mass transfer and electrochemical reactions. This makes them excellent as both reactors and separators, often concurrently. Further, the direct transfer of the electrical energy to the unit's functionality makes electromembrane processes highly tuneable and easily controllable.\n\nThe desire to manipulate pH is ubiquitous in chemical processes both to optimise process unit conditions and to neutralise waste effluents prior to discharge. At present, the most common industrial method of pH control involves dosing chemical additives, such as NaOH and HCl in a 'feed-and-bleed' configuration. Sophisticated control loops are required due to the logarithmic nature of pH and its sensitivity to strongly acidic or alkaline substances. Chemical dosing is simple and effective, but involves complex supply chains, increasing the economic and environmental burden. Here, electromembrane processes are uniquely poised to offer an advantageous alternative.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "1. Introduction",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Bipolar membrane electrodialysis (BPMED) is an emerging electromembrane technology which provides an electrochemical alternative to existing pH manipulation process units. The unique structure of BPMED systems allows for the treatment and valorisation of industrial wastewaters by concurrent resource recovery and pH adjustment. In BPMED, an electric field is simultaneously used to drive the transport of ions across ion exchange membranes (IEMs) between flowing streams and to induce water splitting into protons and hydroxide ions. The structure of a BPMED unit, known as a stack, is essentially an extension of conventional electrodialysis (ED) with the addition of a bipolar membrane (BPM).\n\nThe functionality of a BPM is to induce water splitting, which is achieved by laminating two oppositely charged IEM layers together with a catalyst at the interface. These layers are a cation exchange layer (CEL) and anion exchange layer (AEL), which are permeable only to cations and anions, respectively. Theoretically, no ions can permeate through the BPM between the acid and base streams due to its composition. Only neutral species, such as water molecules, may diffuse into the BPM domain. However, to maintain continuity of current, ions must flow through the BPM.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "1. Introduction",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "When a strong enough electric field is applied (on the order of 1 V per BPM), water splitting is initiated at the bipolar interface and protons and hydroxide ions are transported through the CEL and AEL of the BPM, respectively.\n\nAs with ED, the BPMED stack consists of many repeating unit cells which are comprised of streams and membranes. The standard repeating unit of a BPMED stack consists of three membranes: an anion exchange membrane (AEM), a cation exchange membrane (CEM), and the BPM. Three different saline streams flow tangentially between these membranes in channels created by spacers. The stream between the AEM and CEM is known as the diluate or salt. Anions and cations within the diluate streams are driven by the electric field in opposite directions through the AEM and CEM, respectively. The acid stream receives the anions from the diluate stream and protons from the BPM. Conversely, the base stream receives the diluate's cations as well as hydroxide ions from the BPM. As such, the salt initially present within the diluate is converted into an acid and a base in different streams. To exemplify this, an NaCl feed can be converted into highly concentrated NaOH and HCl product streams. The limiting factors controlling how concentrated the acid and base can become are the membrane selectivity, the membrane stability, and the diluate feed concentration.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "1. Introduction",
+      "pages": [3,4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "At present, there are a great number of publications which explore potential applications of BPMED in industry. One of the most prevalent is for the electrochemical recovery of CO2 capture solvents. The regeneration of capture solutions is an energy intensive process which typically involves heating the solution in a stripper column until the chemical equilibrium is thermally driven to the gaseous form of CO2. With BPMED, the same equilibrium can be electrochemically driven by acidification of the stream. Further, BPMED has also been demonstrated to be practicable in the recovery of deep eutectic solvents (DES) used to pre-treat lignocellulosic biomass to increase digestibility prior to fermentation. Here, the BPMED unit cell consists of only a BPM and AEM and is used to concurrently separate the DES and control its pH. Beyond solvent recovery, BPMED has been demonstrated in the recovery of copper from electroplating sludge. The copper was successfully recovered by using the protons generated by the BPMED to balance the pH in the waste sludge. The current best alternate approach to this involves chemical or biological leaching which are environmentally hazardous and slow, respectively.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "1. Introduction",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Despite the myriad potential applications explored academically, there are very few industrially implemented examples of BPMED. This primarily stems from the risk-averse nature of industry and the fact that tried-and-tested technologies typically benefit from lower costs and greater reliability. Bipolar membranes are also very expensive, on the order of 1000 $/m2. This far exceeds the costs of other IEMs, which are typically between 50 and 100 $/m2. Technological advancements in BPM manufacturing are likely to close this gap to a degree but would need to be funded by considerable commercial investment. At present, other cost-saving methods and optimisations are needed in order for BPMED to gain traction. As such, process intensification to reduce the size of units would greatly improve the commercial feasibility.\n\nA cost optimisation for electromembrane processes exists through variation of the applied voltage. In general, the desired overall current is pre-determined as this is directly proportional to the total amount of ions transferred between the streams. A higher voltage leads to a higher current density (Ohm's law) and thus a lower membrane area and stack size is required, reducing the capital expenditure. However, a higher voltage also increases the specific power consumption, increasing the operating expenditure. Mathematical modelling of BPMED can be used to optimise the size of a stack and consequently de-risk industrial adoption of the technology.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "1. Introduction",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "However, due to the myriad concurrent phenomena at the nano, micro, and macro scale, electromembrane technologies, and especially BPMED, can be very challenging to model accurately. Herein, a robust mathematical model of a BPMED process is to be developed which can adequately represent phenomena over a wide range of process conditions to allow for comprehensive design and optimisation.\n\nRelative to conventional ED, there are very few published studies concerning BPMED modelling. A recent publication by Culcasi et al. evaluated twelve existing BPMED models, classifying them based on their solution methods and the phenomena considered and neglected. It was made clear that, as with conventional ED, there are a wide range of different BPMED model formulations. Phenomena such as diffusion, osmosis, back-migration, shunt currents, and concentration polarisation are considered by some models but not by others. Despite this, all models show at least a reasonable agreement with validation experiments. The individual phenomena mentioned are generally very difficult to model accurately without the use of empirical fitting parameters. For example, concentration polarisation is highly dependent on the hydrodynamic environment as it determines the thickness of the boundary layers where concentration gradients form.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "1. Introduction",
+      "pages": [4,5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The degree of turbulence provided by the spacer directly influences the boundary layer thickness, which in turn is strongly controlled by the geometry of the spacer. Since modelling this is ambiguous, fitting parameters are employed. Consequently, it is very easy for the complex phenomena included to confound others, leading to them inadvertently compensating for each other's inaccuracies. With more phenomena and fitting parameters included, it becomes ever easier to find local minima when fitting parameters, especially when limited experimental data sets are considered. As such, the model developed in this work will completely avoid the use of fitting parameters and training data. To achieve this, only phenomena that can be directly modelled and which use readily accessible parameters are included.\n\nFor many existing BPMED models, experimental validation is conducted as a means of parameter estimation. This is done to either find values of parameters that are otherwise difficult to predict (e.g. membrane diffusivities, transport numbers, temperature dependence of conductivity), or used to gain insight into experimental results (e.g. finding the current efficiency, or membrane resistance). This is useful for improving the accuracy in the range where they are experimentally validated but limits generalisation. Extrapolation is often necessary for process design and optimisation due to the time-intensive nature of experimental studies.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "1. Introduction",
+      "pages": [5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Additionally, many existing models use lumped empirical parameters to simplify equations and parameter estimation, further obfuscating the model insights. In this work, experimental and modelling results are collected completely separately, and compared directly, providing a sincere and robust evaluation of the model.\n\nThe Nernst-Planck equation is very commonly used to model multidimensional concentration fields in both conventional ED and BPMED. Here, an overall flux is computed by summing contributions from diffusive, electrophoretic, and convective constituents. A charge condition is required for closure of this model. The most common is the assumption of electroneutrality, where the sum of all charges at each spatial point (including the membrane) is zero. To model the water splitting effect of the Bipolar membrane, an equation for the second Wien effect is used, where the water dissociation constant is a function of the electric field strength.\n\nOrtega et al. and Leon et al. used a Nernst-Planck model in COMSOL Multiphysics to compute a two-dimensional concentration field across a three-channel BPMED cell. Wang et al. used the same method but in an unspecified software. Results tend to be very granular, where the concentrations and fluxes of individual species as well as the electric potential, can be evaluated at every spatial point in the domain. As such, this modelling approach is excellent for investigating small scale phenomena which may or may not contribute significantly to overall performance.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "1. Introduction",
+      "pages": [5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "However, when these concentration profiles are used to calculate full scale performance, errors can aggregate, leading to poor predictability. Further, the 2D electrolyte domains do not account for the turbulent mixing provided by the netted membrane spacer, a key source of mass transfer in real electromembrane systems.\n\nOne-dimensional Nernst-Planck models are more common than 2D models due to their greater simplicity. Here, the dimension perpendicular to the membrane surface is either integrated out or ignored. Other methods of modelling mass transfer in BPMED beyond Nernst-Planck models typically include the incorporation of membrane permeabilities to compute ion fluxes.\n\nEquivalent-circuit models are often used to model conventional ED but have rarely been applied to BPMED. In an equivalent-circuit model, the analogy between electrons moving in a circuit and the ions flowing in an electromembrane stack is leveraged. Fundamental laws such as Ohm's law and Faraday's first law are used to relate important macroscopic variables such as voltage, current density, electrical resistance, and ion flux. As such, these models are very robust, computationally inexpensive, directly applicable to macroscale processes, and can be very flexible. Additional sub-models are used to incorporate smaller-scale phenomena through the electrical resistance and material balance.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "1. Introduction",
+      "pages": [5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Vera et al. used an equivalent circuit model to model the deacidification of fruit juice using BPMED. Despite the high complexity of the media studied, a reasonable agreement between model predictions and experimental results was achieved. However, experiments were conducted to estimate model parameters such as the current efficiency and the membrane resistance, reducing the predictive power and hence generality of the model.\n\nPrevious work has demonstrated the efficacy of a one-dimensional circuit-based modelling strategy for electromembrane processes, using conventional ED as a case study. Adaptability was a key driver in model development, where it was claimed that additional phenomena could be accounted for through modifications to the material balance and the cell resistance model. In this work, this claim is evaluated by using a similar modelling strategy for the development of model of BPMED which avoids the use of empirical fitting parameters. The model developed is then validated against a recirculating-batch experiment, using a moderately concentrated NaCl solution that could be reasonably expected in an industrial operation. Various phenomena such as diffusion, water permeation, concentration polarisation, and shunt currents were neglected due to their low impact at the conditions validated against and the difficulty of modelling them accurately without using empirical parameters.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "1. Introduction",
+      "pages": [5,6]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "However, the flexibility of the model is such that they can easily be included if deemed necessary. The avoidance of empirical parameters ensures that the model has applicability over as wide a range of concentrations and scales as possible. The objective of this research is to provide a robust model framework which can be adapted to specific situations through the assumptions made.\n\n2. Model formulation\n\nLaboratory experiments of both conventional ED and BPMED are almost exclusively conducted on recirculating-batch systems. Separate reservoirs for the acid, base, and diluate are present, the conductivity and pH of which are typically measured over time. Further details about the experimental system being modelled can be found in Section 3. Conversely, industrial BPMED processes are typically operated in a continuous configuration, either as a once-through process or with a recycle stream. As with the previous work, the aim of the modelling approach detailed herein is to be applicable to all scales and all configurations of BPMED. As such, the presented model consists of three 'layers', the outermost of which defines the overall BPMED process. Here, initial conditions are defined, overall material balances are solved, and global variables such as the current density and faradic efficiency are computed.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "2. Model formulation",
+      "pages": [6]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In the middle layer, acid-base equilibria, the BPM voltage drop, and differential spatial material balances are computed along the flow path within the BPMED stack. The stack is imagined as many differential slices perpendicular to the direction of flow. Transport between channels is related to the applied voltage and changes in concentration along the flow path are computed from material balances. The electrical resistance of each differential volume is also computed here using the analogy of an electric circuit with different resistive elements for each membrane and electrolyte. The resistance and cell voltage are then passed to the inner layer where the Tafel equation and Ohm's law are iteratively solved to find and return the current density of the differential slice. An 'effective' current density is computed for each transporting membrane which accounts for the current released by species reacting within the membrane domains. Once the effective current density is known, a modified form of Faraday's law which incorporates transport numbers and like-charge selectivities is used to compute the fluxes of each ion permeating each membrane. The fluxes are converted into concentration derivatives, assuming plug flow within the channels, after which the concentration at the next differential volume can be computed. Once internal concentration profiles are found, the stack outlet concentrations are passed back to the outer layer to be used in the overall material balance.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "2. Model formulation",
+      "pages": [6,7]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In this model, it is assumed that transmembrane diffusion and osmosis are negligible since they are at least two orders of magnitude slower than transport by electroconvection when operating under normal conditions. These assumptions are scrutinised in Section 3.1. Despite their neglection, the flexibility of the model is such that these phenomena may be included through modifications to the material balances. This may prove necessary for processes where they cannot be neglected such as when a low voltage is applied and there is a very large trans-membrane concentration difference. Membrane boundary layers and concentration polarisation are also not considered due to the assumption of plug flow. These are strongly dependent on the hydrodynamic environment and membrane spacer geometry used, and thus require empirical models to capture them accurately. Further, below the LCD of the transporting membranes, where this model is solely applicable, its impact on process scale variables is limited.\n\nThis model of BPMED was implemented and solved in MATLAB R2022b. The explicit nature of this modelling strategy makes solving in programmes like MATLAB and Python particularly attractive and facilitates further development and modification. However, some modellers prefer using implicit methods in software such as gPROMS or COMSOL Multiphysics. As such, a generalised form of the model in its entirety has been presented as a system of differential and algebraic equations within an electronic supplementary information document.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "2. Model formulation",
+      "pages": [7]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.1. Inner layer: Solving for current density\n\nThe goal of the inner-most layer is to determine a current density across a differential volume of a single cell of the BPMED stack given a cell resistance and stack voltage. A single unit cell triplet is here defined as a channel for each of the three streams (diluate, acid, and base) separated by an AEM, CEM and BPM. The analogy of an electric circuit is used, where each of these six constituent domains are resistive elements, and the transported ions are the charge carriers. Thus, the current density (i) perpendicular to the direction of fluid flow can be computed through Ohm's law: i = V_cell / R_cell.\n\nHere, V_cell and R_cell are the voltage and electrical resistance across the unit cell, respectively. The cell resistance is provided by the middle layer, but the voltage across a cell pair is not yet known. It should be noted that the layout of the cell is chosen such that the voltage drop across the bipolar junction is not included in V_cell, making this the voltage which drives ion transport only. A voltage across the entire stack (V_stack) is provided by an external power supply and is constant for all differential volume slices. Since its value is typically set by design, it is assumed here to be known.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "2.1 Inner layer",
+      "pages": [7]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The value of V_cell can be computed from V_stack by accounting for ancillary voltage drops from the electrode equilibrium potential (V_eq), the electrode overpotential (η), the water splitting potential at the bipolar interface (V_bp), and the voltage drop over the electrolyte end chambers (V_ec): V_cell = (1/n_c)*(V_stack - V_eq - η - V_ec) - V_bp, where n_c is the number of unit cells. The overpotential can be computed using the Tafel equation: η = A_a log(i/i_0,a) + A_c log(i/i_0,c), where A and i_0 are well established empirical parameters found in literature dependent on the electrode material and reactions occurring. The voltage drop over the electrolyte chambers and end membranes is accounted for using Ohm's law: V_ec = 2i*(R_eCEM + d_ec/ Σ_i C_ec,i κ_mc,i). Here, R_eCEM is the electrical resistance of the end cation exchange membranes, d_ec is the width of the end chamber, C_ec,i is the end chamber ion concentration, and κ_mc,i is the molar conductivity. A factor of two accounts for both the anolyte and catholyte, assumed to provide the same electrical resistance. The resistance of the end chamber is assumed constant, but this could be altered.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "2.1 Inner layer",
+      "pages": [7]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The voltage drop across the bipolar membrane can be split into an equilibrium potential (V_bp,eq) and overpotential (η_bp), in the same way as electrode reactions are: V_bp = V_bp,eq + η_bp.\n\nThe equilibrium bipolar splitting voltage is the minimum voltage required across the bipolar junction to overcome the thermodynamic energy barrier and induce water splitting. According to Strathmann et al., V_bp,eq can be calculated from the Nernst equation, assuming a complete exclusion of co-ions within the BPM: V_bp,eq = 2.3 R_g T / F * ΔpH, where R_g is the ideal gas constant, T is temperature, F is Faraday constant, and ΔpH is the pH difference across the bipolar junction. The pH inside the membrane is computed using the Donnan equilibrium and a charge balance, assuming only H+ and OH- ions are present inside the bipolar membrane.\n\nThe bipolar membrane overpotential is typically modelled as proportional to the current density, the proportionality constant of which is of Arrhenius type to account for the effect of temperature. A simple, but tested, relation proposed by Chen et al. is: i = G0 * exp(-E_bp/(R_g T)) * η_bp, where G0 and E_bp are kinetic parameters analogous to a pre-exponential factor and activation energy. The exact values depend on the composition of the BPM, especially the catalyst loading. For well-designed BPMs, the bipolar overpotential can often be neglected.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "2.1 Inner layer",
+      "pages": [7,8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "After each ancillary potential has been accounted for, it is possible to compute the cell voltage and current density. However, whilst the cell voltage has a linear dependence on the electrode overpotential, the electrode overpotential has a logarithmic dependence on the current density. Consequently, this set of equations must be solved iteratively. It is primarily for this reason that these computations are separated into their own layer of the model. The MATLAB function 'fzero' was used to loop over the inner layer equations and converge upon a solution for the current density and cell voltage. Greater computational expediency was gained by selecting appropriate initial guesses for the current density when calling the fzero function. The value of the current density from the previous inner layer solution was used for this, as they would naturally be close in value. Special consideration was given for the case that V_cell was computed as negative, indicating that the applied potential was too low to drive any transport. In this case, V_cell was forced to be zero, resulting in zero current density and no flux.\n\n2.2. Middle layer\n\nThe spatial differential material balance within the middle layer computes the concentration profiles of all ion species in each channel along the length of the flow path within the BPMED stack. Ultimately, the derivative of the concentration of species i in channel j with respect to spatial position is found from the concentrations in a differential slice across the stack. It is assumed that the channels are in plug flow and that the spacer nets take up a negligible amount of the internal channel volume.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "2.2 Middle layer",
+      "pages": [8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The middle layer can be broken down into three primary functionalities: I. Solve the acid-base equilibria and set all concentrations to their equilibrium values. II. Compute the electric resistances of the electrolytes and membranes to be passed to the inner layer. III. Find the fluxes of all ionic species once the current density is returned from the inner layer using Faraday's first law.\n\n2.2.1. Acid-base equilibria\n\nAcid-base speciation reactions are a distinctive characteristic of BPMED, and so must be numerically handled appropriately. Within this model, the effect of these reactions is determined before any other calculations can take place. Due to the rapid rate of water dissociation reactions (rate constant ~ 10^8 mol^-1 m^3 s^-1), it is assumed that all reactions are instantaneously brought to equilibrium. For the water speciation reaction within the channels, two equations are required: the water equilibrium equation and a material balance which represents the equivalent consumption/production of H+ and OH- ions. These equations can be combined to compute the extent of reaction within a differential slice as a function of the pre-reaction concentrations. Similar equations can be derived for any weak acid or base present in the streams. The post-reaction concentrations are used in the next steps to determine the electric resistances of the streams and membranes.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "2.2.1 Acid-base equilibria",
+      "pages": [8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2.2. Electrical resistance\n\nThe cell electrical resistance is computed from the sum of the electrolyte and membrane resistances using a resistors-in-series approach. An analogy to an electric circuit is drawn with distinct resistive elements used for each of the membranes and electrolyte streams: R_cell = Σ_j R_j + Σ_m R_m, where R_j is the electric resistance of channel j (d, a, b), and R_m is the electric resistance of membrane m (AEM, CEM, BPM). Note that for the BPM, only the resistance across the transporting domains of the CEL and AEL are considered here as the bipolar junction voltage drop is accounted for separately.\n\nThese electric resistances are calculated in the same way as in previous work. Electrolyte resistances are computed from the conductivity (κ_j) and intermembrane distance (d_j): R_j = d_j / κ_j. The electrolyte conductivity can be computed by summing up contributions from individual ions and using the Nernst-Einstein equation: κ_j = (F^2/(R_g T)) Σ_i z_i^2 C_i,j D_i,s, where C_i,j is the molar concentration of species i in channel j, and D_i,s is its diffusivity in solution.\n\nThe membrane resistance is calculated in a similar way to the electrolyte resistance, but with key differences. The membrane conductivity (κ_m) is again computed using contributions from individual ions in the Nernst-Einstein equation: κ_m = (F^2/(R_g T)) Σ_i z_i^2 C_i,m D_i,m, where C_i,m is the concentration of species i within the membrane, and D_i,m is its membrane diffusivity.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "2.2.2 Electrical resistance",
+      "pages": [8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "As in the previous work, the Donnan equilibrium and electroneutrality equations are used to compute the membrane concentrations at the boundary with the electrolyte. A form of the Donnan equation exists for every pairwise combination of ions. An alternate, non-ideal, formation of these equations exists where activity coefficients multiply each of the concentration terms. Through this, the inherent selectivity of membranes towards certain species may be considered.\n\nMembrane diffusivities are computed using a model outlined by Fan et al. which considers the electrostatic interactions between all transported ions and fixed charge groups. This model incorporates only easily accessible membrane properties such as the swelling degree (f_w) and the fixed charge concentration (C_fix), often provided by membrane manufacturers: D_i,m = D_i,s * (f_w/(2-f_w))^2 * exp(-A z_i^2), where A = (θ e^4 N_A^(2/3)) / (16 π^4 ε_m^2 k_B^2 T^2 C_fix^(2/3)). Other parameters include a coefficient arising from the sum of infinite vectors (θ, 5.48 if fixed charges are assumed to be point charges), charge of an electron (e), Avogadro's number (N_A), matrix permittivity (ε_m), and Boltzmann constant (k_B). For dilute external electrolytes, all parameters are constant, and so the membrane diffusivity is invariant. However, in concentrated solutions, osmotic deswelling causes f_w to decrease and C_fix to increase, reducing membrane diffusivity. Additional equations are required to account for this effect, but for this application membrane deswelling is neglected to avoid empirical fitting parameters and because validation was conducted in dilute NaCl solution.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "2.2.2 Electrical resistance",
+      "pages": [8,9]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Due to the changing internal concentration across the width of the membrane, the overall resistance is computed by finding the conductivities at both sides of the membrane and integrating: R_m = (d_m ln(κ_m,1/κ_m,2))/(κ_m,1 - κ_m,2). This is not necessary for the two layers of the BPM, which are assumed to have a flat concentration profile, resulting in the following equation for the BPM resistance: R_BPM = (R_g T/F^2)*(d_AEL/(D_OH,AEL C_OH,AEL) + d_CEL/(D_H,CEL C_H,CEL)). After the resistances of the membranes and electrolytes are found, the cell resistance is computed and passed to the inner layer. The current density is then returned and used to find the ion flux.\n\n2.2.3. Ion migratory flux\n\nThe current density returned by the inner layer is used to compute an ion flux which is ultimately converted into a concentration differential. For consistency, only the magnitude of the fluxes is considered here, and directionality is factored in later when computing the spatial derivative of the concentration. The simplest flux calculation is that for the bipolar membrane. It is assumed that there is total exclusion of external ions from the BPM and thus all current is carried by the water splitting products. Therefore, the water splitting flux (J_BPM) is equivalent to the flux of protons from the CEL of the BPM into the acid channel and of hydroxide ions from the AEL into the base channel. It is calculated using Faraday's first law: J_BPM = i / F.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "2.2.3 Ion migratory flux",
+      "pages": [9]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A more complex approach is required for the selective transport membranes (AEM and CEM) due to the multitude of species and reactions potentially present. The flux magnitude through each transporting membrane (J_i,m, m = AEM, CEM) is computed separately for counterions and co-ions from the current density, again using Faraday's first law. Instead of directly using the current density returned by the inner layer, an 'effective' current density (i_e) is used. This accounts for the additional current released by acid-base reactions within the membrane.\n\nTwo important selectivity factors are present: the transport number of the membrane (t_m), and the like-charge selectivity of the species (S_i). The membrane transport number is defined as the ratio of the useful current carried by counterions to the total current carried across the membrane. It varies between zero and unity and is analogous to both a selectivity and current efficiency for a single membrane. Hence, the co-ion flux has the (1-t_m) term.\n\nA transport number model is used which considers the transmembrane concentration ratio and an 'intrinsic' transport number (t_m,0, often provided by membrane manufacturers). The model was derived considering the migratory flux term from the Nernst-Planck equation and adapted to account for multiple competing co-ions and counterions. The selectivity between like charged ions (e.g., H+ and Na+) is defined as the fraction of counterion or co-ion flux corresponding to a single species. This can be computed from their relative electromigration fluxes within the membrane as described in the Nernst-Planck equation.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "2.2.3 Ion migratory flux",
+      "pages": [9]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The necessity of an effective current density arises due to acid-base reactions occurring within the transporting membranes. For example, protons and hydroxide ions which both travel through the transporting membranes would meet at a plane and neutralise each other. Consequently, the trans-membrane current carried by acid-base active species is reduced, releasing additional current to be carried by all species. The effective current density can be found from this additional current, which is equal to the reacting flux (J_r,m) multiplied by the Faraday constant. Complete neutralisation is assumed within the membrane rather than an equilibrium forming. This is because any current carried by the reaction limiting species at equilibrium would be vanishingly small, and any small deviations from equilibrium are handled within the electrolyte domains.\n\nIn summary, using both a transport number and like-charge selectivity, the total flux, found from an effective current density, can be broken down first by charge identity (co-ion or counterion), and then into individual species. Finally, the membrane fluxes are summed for those adjacent to the appropriate channels and converted into concentration differentials using the flow velocity (u) and channel width (d). A system of n*m differential equations is required. In this work, this system was solved in MATLAB using the ode15s function, which utilises the Runge-Kutta method. The inlet concentrations were provided as boundary conditions from the outer layer, and the model returned the internal concentration profiles of each species in each channel. Other spatially dependent variables such as the total resistance, the fluxes of individual species over each membrane, the current density, and the cell voltage were also extracted.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "2.2.3 Ion migratory flux",
+      "pages": [9,10]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.3. Outer layer: Temporal material balance\n\nThe extension of the single-pass model (the middle layer) to that of a real system is crucial for model validation and experimental prediction. This is the function of the outer layer, which in this work involves modelling a recirculating batch system with different reservoirs for the acid, base, and diluate streams. The reservoirs are assumed well mixed and constant in volume. Assuming instantaneous fluid transfer, the temporal material balance for species i in reservoir j is dC_R,i,j/dt = -(Q_j / V_R,j)*(C_R,i,j(t) - C_i,j(t, x=L)). Here, C_R,i,j is the concentration in the reservoir, t is experimental time, Q is recirculation flow rate, V_R is reservoir volume, and C_i,j(t, x=L) is the stack exit concentration. Before this balance can be solved, C_R,i,j is supplied to the middle layer as a boundary condition for the spatial material balance, from which C_i,j(t, x=L) is returned.\n\nThe validity of this equation in light of the assumption of instantaneous fluid transfer is questionable as there is substantial dead time in the tubing and flow cells where measurements are taken. For the experimental setup in this work, the dead volumes were around 0.25 L for each stream, significant relative to the reservoir volume of 1 L. This dead-volume must be included in V_R to ensure overall material balance accuracy. Further, with a flow rate of 20 L/h, the time taken for fluid to transfer from reservoir to stack and back is 45 s and thus not negligible. Consequently, a delayed differential equation is appropriate. Accounting for this delay, the material balance becomes dC_R,i,j/dt = -(Q_j/V_R,j)*(C_R,i,j(t) - C_i,j(t-τ_j, L)), where τ_j is the time for the stream to complete a loop. It should be noted that consideration of a series of delays is necessary when comparing measured and computed variables whose domain is not the reservoir. The MATLAB delayed differential equation solver dde23 was used in solving the temporal material balance.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "2.3 Outer layer",
+      "pages": [10]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Experimental validation\n\nModelling BPMED is notoriously complex due to the multitude of competing phenomena combining to influence overall mass transfer. Several assumptions were made in the development of this model to avoid reliance on training data and empirical fitting parameters. Consequently, the efficacy of this modelling strategy must be examined through experimental validation.\n\nAll experiments were performed on a PC BED 1–4 recirculating batch system (PC Cell) with an ED64004 stack (PC Cell). Here, three reservoirs are present, the fluids from which are circulated to the BPMED stack. The four membrane varieties used were the PC Acid 60 (AEM), PC MTE (CEM), PC Bip (BPM) and PC CE (eCEM), all from PC Cell. Eight full cell triplets were used rather than the typical ten to prevent an excessive voltage requirement. A Biologic SP300 potentiostat with 30 V/2A booster card was used to accurately control the applied stack potential and measure the current. The conductivity and pH of the three streams were measured close to either the stack inlet or outlet, depending on the experiment, using JUMO CTI-500 inline conductivity probes and JUMO digiLine pH sensors, respectively. Circulation flow rates were maintained at 20 L/h and reservoir volumes were accurately set at 1 L not including dead volume, which was determined independently.\n\nTo ensure model accuracy and robustness over a wide range of concentrations and voltages, experimental validation was conducted in two orthogonal ways: temporal validation and steady-state validation.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "3. Experimental validation",
+      "pages": [10,11]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.1. Temporal validation\n\nThe evolution of solution conductivity at the stack inlet over time is seen in Fig. 4a. At time zero, all three streams have the same conductivity (~5.9 mS/cm). Over time, the diluate conductivity decreases and the acid and base conductivities increase as Na+ and Cl- ions are transferred from the diluate to the base and acid streams, respectively. This continues until the diluate conductivity asymptotically approaches a very low value. At this point, ions are nearly depleted in the diluate, and the ion flux decreases and acid and base conductivities level out. The combined magnitude of the increase in conductivities of acid and base streams is greater than the decrease in diluate conductivity. This is due to the water splitting reaction and generation of additional ions at the bipolar junction. Ideally, one transferred mole of NaCl forms a mole of NaOH and one mole of HCl. Contributions to solution conductivity from each ion are proportional to both concentration and diffusivity. The diffusivities of H+ and OH- are much higher than those of Na+ and Cl-. Consequently, a solution of NaCl will have a lower conductivity than an equal concentration of NaOH or HCl. The inlayed graph shows system behaviour at the beginning, just after power supply switched on. An initial flat region in all conductivity trends results from the time delay between fluid leaving the stack, returning to the reservoir, mixing, and flowing out to the conductivity probe. This delay is represented in the model through a delayed differential equation and is crucial to capture early behaviour accurately.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "3.1 Temporal validation",
+      "pages": [11]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The temporal evolution of the current density shows an initial increase before reaching a maximum at ~160 A/m2 and then decreasing. After passing an inflection point at ~760 s the current density asymptotically decreases to ~10 A/m2. These trends can be explained through examining contributions to cell resistance from each stream and investigating evolution of the transport number. The increase in conductivity of acid and base streams is faster than the decrease in conductivity of the diluate. Since electrolyte resistance is inversely proportional to conductivity, the increase in diluate resistance is initially offset by a larger decrease in acid and base resistances. Consequently, cell resistance decreases and current density increases. However, the resistance of the diluate soon begins to dominate, and current density falls. As diluate concentration falls to near-zero, the current would also be expected to fall to near-zero. The residual current of ~10 A/m2 at times greater than 3000 s is significant relative to the rate of change of stream conductivities. This can only be explained by a large reduction in membrane transport numbers leading to unwanted back-migration and wasted current. Calculated transport numbers show both membranes initially high at their intrinsic values but decrease to very low values. The transport number for the AEM drops lower than for the CEM. This explains the high current density relative to overall mass transfer. As concentrations in acid and base streams increase to many times greater than that of the diluate, the rate of back-migration of co-ions increases, becoming the dominant source of current across the AEM and CEM later in the experiment.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "3.1 Temporal validation",
+      "pages": [11,12]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The evolution of predicted and experimentally measured pH shows all three streams start at pH ~7. Soon after power supply is activated, the pH of the base rapidly increases, and pH of acid rapidly decreases. However, there is a clear difference for the pH of the diluate stream. The diluate pH decreases slowly relative to predictions, before dropping faster and steadily rising again. Several inflection points are seen in experimental data not present in model predictions. The change in diluate pH results from protons and hydroxide ions permeating as co-ions from acid and base streams. The flux of protons and hydroxide ions depends strongly on current density, membrane transport number, and like-charge selectivity. Extreme concentration differences across membranes affect like-charge selectivities strongly. Since pH is logarithmic, small concentration changes have disproportionate effects. The diluate pH remains around 5-7, adjacent to acid and base streams with concentrations many orders higher, so small degrees of ion crossover likely cause fluctuations. An implicit model assumption that might contribute to poor prediction is instantaneous transfer or 'hopping' of ions between bulk mixed regions. For a given differential slice, it is assumed that ion flux leaving one channel through a membrane equals flux entering the adjacent channel, implying no accumulation inside the membrane. Consequently, protons produced in the BPM can be transported to the base channel effectively instantaneously. For a system close to steady state where inlet changes are slow, this is reasonable. However, pH changes very rapidly in all streams. If real time for ions to cross membranes and boundary layers is similar or greater than changes to inlet conditions, transit time will have a large effect.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "3.1 Temporal validation",
+      "pages": [13]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The permeation transit time (t_p) for a membrane can be estimated via permeation superficial velocity, membrane thickness and water fraction: t_p,m = d_m f_w C_m / J_m. For dilute electrolytes, membrane concentration (C_m) is approximately equal to fixed charge concentration. Hence, t_p is ~60 s for both membranes, very significant compared to channel residence time (~4 s) and to changes in inlet conditions. Sixty seconds after stream inlets begin to change, base and acid have pH 11.5 and 2.5 respectively. For such drastic change, permeation transit time is significant and could be responsible for the sluggish change in experimentally observed diluate pH. Nevertheless, industrial BPMED operations are continuous where long-term changes do not manifest, so overall impact of poor diluate pH predictability is minimal. To quantify agreement between model and experiment, average absolute difference (AAD) was calculated. For almost all variables, AAD is less than 2% of initial value, demonstrating strong agreement. Diluate pH is the exception. The AAD values are slightly larger than for conventional ED in previous work, but not markedly so, expected due to greater complexity of BPMED. The low AAD values demonstrate model accuracy despite lack of experimental fitting parameters and training data. For both conductivity and current density, very good agreement is seen throughout the experiment. The assumption of negligible diffusion is justified: at the end of experiment, electromigratory flux (~1e-4 mol/m2/s) is two orders of magnitude greater than diffusion flux (~2e-6 mol/m2/s).",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "3.1 Temporal validation",
+      "pages": [13,14]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Steady-state current–voltage validation\n\nCurrent-voltage polarisation curves are ubiquitous in electromembrane research. The ability to accurately model this behaviour is paramount for design and optimisation. When operating an electromembrane unit there is an inherent trade-off between specific energy consumption and total membrane area, comprising operating and capital costs respectively. Specific energy consumption is proportional to applied voltage, and membrane area is inversely proportional to it. Therefore, an optimum voltage and membrane area exists which minimises total costs. Accurate process design and optimisation is one objective of this modelling work, so this form of validation is essential.\n\nFig. 5a shows time series data for applied voltage and measured current density. After each step increase in voltage, current spikes before asymptotically decreasing towards a new steady state. This occurs because there is an initial surge of current from transient thickening of the electric double layer and increased concentration polarisation as a new equilibrium concentration field develops. Additional current from these effects would not be present during steady-state operation, so is allowed to dissipate before measurement. The time taken to reach new equilibrium demonstrates that transport is far from instantaneous, providing evidence that this delays changes to diluate pH. There is much less transient behaviour above 10 V, where current reaches steady-state almost immediately.\n\nFig. 5b shows steady-state current-voltage response curve for both experimental data and model predictions. At low voltages below ~5 V, there is essentially no steady-state current seen. This is because there is a minimum operating voltage for current to flow, resulting from reactions within the bipolar membrane and at the electrodes. The electrode reactions have an equilibrium potential of 1.23 V, and the bipolar junction potential drop is proportional to pH difference across it. Any meaningful current results in ΔpH on the order of 10, so effective minimum bipolar potential drop is ~0.5 V. Summing these for eight bipolar membranes and electrode reactions shows that for any current to flow, a minimum voltage of 5.23 V is required. This is reflected in both model and experimental results.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "3.2 Steady-state validation",
+      "pages": [14,15]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "At higher voltages, above 10 V, the current-voltage response appears linear, characteristic of constant resistance. As voltage increases, electrolyte resistance is the only resistive element that meaningfully changes. Membrane resistance, bipolar junction potential drop and electrode overpotential do change but by a relatively low amount. Electrode overpotential is logarithmic with current density, while BPM voltage drop and membrane resistance are affected by internal ion concentration. For dilute solutions, internal concentration is close to membrane fixed charge density and does not vary much with external solution. However, electrolyte resistances are more directly affected by applied voltage. A higher voltage decreases diluate concentration and increases acid and base concentrations due to greater salt transfer and water splitting. Resultantly, increasing voltage increases diluate resistance and reduces acid and base resistances. The increase in diluate resistance is greater than the decrease in acid and base resistance because they are inversely proportional to salt concentration. However, additional H+ and OH- from the BPM to acid and base streams offsets this difference, resulting in a small overall reduction in total electrolyte resistance. This is the same effect causing current density to initially increase in early stages of temporal validation experiments. Even so, overall impact on stream concentrations is relatively low over this voltage range as inlet concentrations are constant. Consequently, overall stack resistance only slightly increases and a near-linear trend in current-voltage curve is seen.\n\nThere is very good agreement between model prediction and experimental current-voltage polarisation data, with an AAD of 3.11 A/m2, very low compared to measured current density range (250 A/m2). The largest divergence occurs during transition above minimum splitting voltage around 5 V, where experimental currents are somewhat larger than predictions. This could be because not enough time was allowed for transitory current to dissipate after each step increase, or because the assumption of exclusion of external ions from the BPM could be responsible (small amounts of Na+ and Cl- permeating the BPM at low voltages could provide low current seen). Nevertheless, close agreement demonstrates model accuracy over a wide range of voltages.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "3.2 Steady-state validation",
+      "pages": [15]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Model exploration\n\nThere are a huge number of individual phenomena comprising BPMED which aggregate and influence macroscale variables. A core strength of mathematical modelling is the ability to extract profiles of variables representing those phenomena. This is particularly useful where empirical measurement of some phenomena is unfeasible. Understanding which phenomena are limiting allows conclusions about where future research developments can have greatest benefit. For BPMED, acid-base reactions are one of the most obfuscated phenomena with a huge impact on overall process. In this section, numerically predicted reaction trends are explored. Another valuable insight is the impact of assumptions made during development. Thes can be evaluated by directly comparing predictions where the assumption is active and inactive. Here, impacts of using a delayed temporal material balance and an effective current density are assessed.\n\n4.1. The impact of a delayed temporal balance\n\nThe inclusion of a delayed temporal material balance was determined necessary to account for significant time taken for fluid to transfer from reservoirs to stack and back. The model prediction curves used for validation for conductivity and current density are presented in Fig. 6a and b. The only difference between models used to generate the two curves is whether a time delay has been included. There is a clear difference: changes in measured variables in non-delayed predictions occur earlier and faster. The difference cannot be completely removed by simply shifting the predicted data series to a later time. If experimental fitting on training data was used to match non-delay predictions to experimental results (which closely match delay predictions), erroneous manipulations would occur. Ion flux would need to be reduced to artificially slow changes to conductivities while maintaining similar current density, potentially involving artificially reducing membrane transport numbers, lowering efficiency and slowing overall changes. Extrapolation of fitted model to a different system would be greatly hampered. A further impact of including delay can be seen in a clear difference between asymptotic limits that acid conductivity reaches after 2000 s, likely due to the delay measured for acid stream being 5 s lower than for the other two streams. This slight difference on a single pass accumulates over the experiment, producing a meaningful difference. Removing this effect by fitting model to training data would reduce globality.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "4. Model exploration",
+      "pages": [15,16]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.2. Investigating the rate of reactions\n\nThe temporal profile for the overall rate of water-recombination reactions in each of the five reacting domains is shown in Fig. 7a. The water recombination reaction (H+ + OH- → H2O) is defined as positive. The reaction rate is always positive, indicating recombination is dominant over splitting. This makes intuitive sense since ions produced in the BPM are an excess to equilibrium already present; recombination is consistently the direction back to equilibrium. The total rate of reaction increases initially before peaking and then decreasing, then reaching a second sharp peak just after 2000 s. This overall profile is the sum of trends in three of the five domains, where reaction sequentially dominates. Reaction is fastest first in the base stream before the CEM takes over, and then within the diluate, tending towards a stable value. Current density is a key driver of overall reaction trend. A higher current density results in greater water splitting in the BPM, higher migratory flux of H+ and OH-, thus greater reaction rate. However, reaction rate peaks at about 1200 s, long after current density peaks at 120 s. This is because most of reaction occurs between protons and hydroxide ions that have leaked through the AEM and CEM as co-ions. The rate of co-ion migration is the greatest driver of reaction rate. Increasing concentration in acid and base streams and declining concentration of diluate reduces membrane transport numbers and increases like-charge selectivity to H+ and OH-. Both effects combine to increase flux of H+ and OH- through AEM and CEM respectively, even as current density decreases.\n\nThe observed successive dominance of reaction within base, CEM, and diluate is indicative of a shifting reaction plane. The lower intrinsic transport number of AEM relative to CEM (0.96 vs 0.99) and higher diffusivity of protons results in co-ion flux of protons to diluate from acid being initially around six times that of hydroxide ions from base. This is illustrated by drop in diluate pH. Subsequent transport of protons across CEM to base stream is fast since they are now counterions, overwhelming hydroxide co-ion transport. Consequently, reaction is initially dominant within base stream. Over time as diluate concentration decreases, transport numbers of both membranes decrease. Decreasing CEM transport number along with increasing like-charge selectivity to hydroxide ions result in co-ion flux of OH- increasing, shifting reaction plane to within CEM. The peak of CEM reaction rate at just after 2000 s coincides with when hydroxide flux matches and then exceeds proton flux (Fig. 4f). At the peak, fluxes of H+ and OH- are equal, leading to complete neutralisation and no transmembrane migration of these ions. After this point, hydroxide flux exceeds proton flux in CEM, shifting reaction plane to within bulk of diluate. The sharp peak in CEM reaction rate results from how reaction flux is calculated: it is the lower of H+ and OH- fluxes. Since they intersect when hydroxide flux is increasing and proton flux decreasing, a smooth function is not expected. Approach to steady current density and rate of reaction in diluate towards end of time series suggests a stable situation arises: H+ and OH- generated in BPM are ultimately both transported to diluate where they combine once again, wasting energy.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "4.2 Investigating the rate of reactions",
+      "pages": [16,17]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Negligible reaction can be seen in the AEM and the acid streams, resulting from transport number of AEM being lower than CEM. Hydroxide ions do not get a chance to make it to the acid stream before being neutralised either in CEM or diluate. As such, the only reaction in acid stream is negligible buffering effect of existing hydroxide ions.\n\nThrough these results, a weakness of the circuit-based modelling strategy can be seen. Modelling using Nernst-Planck equation reveals that due to rapid kinetics, water recombination reactions essentially occur within a plane. However, in Fig. 7a, a considerable amount of reaction is occurring concurrently in multiple domains. This results from two features: plug flow within channels (1D concentration profiles) and instantaneous transfer between domains. During early stages, proton transfer is greater than hydroxide transfer over CEM, but both are significant, so there is substantial reaction within CEM. However, because transport is instantaneous and bulk electrolytes are assumed well mixed, excess protons transported over CEM then react with large hydroxide concentration within base stream. In reality, a reaction plane would be formed, most likely within CEM or boundary layer of base stream.\n\nDespite this inaccuracy, there is no impact on overall model predictions which would affect process design and optimisation. The overall rate of recombination is about four orders of magnitude lower than ion molar flow of streams passing through stack. Therefore, while accounting for reactions is important for long duration experiments, the precise location of where these reactions occur is not. Further, an estimate for location of 'true' reaction plane can be discerned from relative reaction rates in base, CEM, and diluate domains. It is likely to exist somewhere between the two active domains and depend on their relative rates. Flow boundary layers are not considered but are a likely place for reactions to occur. Simply accounting for this excess of ions within the model is sufficient for macro-scale results to be accurate. Deeper insight into precise location of reaction plane may be hampered, but success in achieving original goal of the model is not affected.\n\nThe effect that considering membrane reactions and an effective current density has can be seen in Fig. 7b, where effective current density of CEM is compared to 'true' current density. Effective current density of CEM is always greater due to acid-base reactions occurring. The difference increases and peaks at just after 2000 s when reaction rate within CEM is greatest. At this point, effective current density is ~75% higher than transmembrane current density. There is a proportional increase in flux of all ions across CEM, including sodium and chloride. Failure to account for this would result in inaccurate prediction of flux. For conditions in this work, impact would be limited since change in stream conductivities after 2000 s is very low. However, for a different application with more concentrated feed, this could be very significant.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "4.2 Investigating the rate of reactions",
+      "pages": [17]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5. Conclusion\n\nIn this work, the development, validation, and exploration of a novel circuit-based process model of BPMED is presented. This model was developed without the use of training data or empirical fitting parameters, instead relying on manufacturer provided data only. Consequently, it is hoped that the globality of the model is greatly improved. The model basis uses the analogy of an electric circuit, with different resistive elements for each of the membranes and electrolyte streams. Further, the model was segmented into three layers based on the scale of the domain they consider. In the innermost layer, the current density is found by applying Ohm's law to a differential slice of a cell pair from a cell voltage and cell resistance. The current density was used within the middle layer along with a transport number and like-charge selectivity to compute the fluxes of all species across all membranes using Faraday's first law. This could then be converted to a concentration differential using a spatial material balance and integrated to generate an internal concentration profile. Acid-base reactions were also considered, and assumed to be fast enough that active species were always at equilibrium. Their effect within the membranes of releasing additional current was also captured through the computation of an 'effective' current density. The outlet layer considers adaption to a real process that the stack is a part of, which in this work was a recirculating batch experiment. A delayed temporal material balance was used to compute how the concentration of each species in each reservoir varies with time while accounting for the pipe dead-time encountered by each stream.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "5. Conclusion",
+      "pages": [17]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Experimental validation of the model was conducted in two orthogonal ways. The first method involved a standard recirculating batch experiment with a fixed voltage and comparing experimentally measured variables (current density, conductivity, and pH) with model predictions. A sub-model which computes the transport number of each membrane proved vital for accurately computing how the selectivity of each membrane varies. Computed transport numbers fell from near unity to below 0.3, confirming that the use of a fixed transport number is not sufficient. In the second experimental validation, a series of steady-state currents were measured for a range of applied voltages, maintaining constant inlet concentration. Transient currents present after each step-increase in voltage were allowed to subside and the final steady-state current was compared to model predictions. Both validation methods showed excellent agreement despite the lack of parameter fitting, demonstrating that the model is valid over a wide range of concentrations and voltages.\n\nThe use of a delayed temporal material balance to account for pipe dead time is not typical in existing models but was shown here to have a large impact on the temporal evolution of important variables. Small differences were shown to aggregate over lengthy experimental periods and have significant outcomes, especially when streams have different time delays. Further, experimental fitting of a non-delayed model would result in erroneous predictions of important variables such as electrical resistance or transport number.\n\nAnalysis into the model predictions and calculated fluxes revealed that proton leakage over the AEM is a significant contributor to process inefficiency. Significant proton co-ion flux across the AEM was present throughout the experiment and by the end it was by far the dominating source of current across the membrane. This indicates a strong need to develop AEMs with higher permselectivity to inhibit transfer of protons relative to anionic counterions and increase process efficiency.\n\nAn exploration of the relative reaction rates for water recombination between the three streams revealed a model limitation where reactions are predicted to occur in multiple streams, rather than in a plane. This limitation arises from the assumptions of instantaneous transfer or ion hopping across membranes and plug flow within channels. Despite this, it was determined this would have a low overall effect on the model's predictive power for key variables. Further, the relative reaction rates in each stream could be used to discern an estimated location of the reaction plane within the unit cell.\n\nThe primary limitation of this model is that it has only been tested on a single case-study using NaCl as the electrolytic feedstock. This simple case was chosen to ensure that fundamental phenomena driving BPMED were accurately captured. Future work should focus on expanding application of the model to more commercially relevant scenarios.\n\nOverall, the flexibility and lack of reliance on fitting to training data are core strengths of the model which can be built on to further improve its predictive capabilities. As BPMED systems become more commercially viable, models such as the one presented herein will prove to be powerful tools for both researchers and industry.",
+    "citation": {
+      "authors": ["Ledingham J.", "Sedransk Campbell K.L.", "in 't Veen B.", "Keyzer L.", "Yip N.Y.", "Campbell A.N."],
+      "paper_id": "1-s2.0-S1385894724063861-main",
+      "title": "The development and evaluation of a parameter-free circuit-based model of bipolar membrane electrodialysis for process design and optimisation",
+      "year": 2024,
+      "section": "5. Conclusion",
+      "pages": [17,18]
+    },
+    "type": "chunk"
+  }
+]

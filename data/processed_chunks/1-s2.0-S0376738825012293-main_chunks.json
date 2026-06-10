@@ -1,0 +1,723 @@
+[
+  {
+    "content": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO Peng Yan a , Unalome Wetwatana Hartley b\n\n, Kang Li a,* a Barrer Centre, Department of Chemical Engineering, Imperial College London, SW7 2AZ, London, United Kingdomb Chemical and Process Engineering, The Sirindhorn International Thai–German Graduate School of Engineering (TGGS), King Mongkut’s University of Technology North Bangkok, Bangkok, 10800, Thailand\n\nA R T I C L E I N F O Keywords:Membrane reactorMethane conversionCO2 conversionElectrochemical processProcess intensificationProcess electrification",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T The valorization of CH4 and CO2 into valuable chemicals is a long-standing research challenge. It is typically realized through a multistep catalytic process beginning with syngas production via dry reforming of methane. Herein, we propose to achieve single-step conversion in an electrochemical membrane reactor powered by renewable electricity. A novel electrochemical micromonolithic membrane reactor (EMMR) is designed to decouple CH4 conversion and CO2 conversion via the O2-conducting membrane process (i.e., reac­tion–separation–reaction). On the CH4 conversion side, the use of tailored catalysts and reactor configurations reveals a multizone reaction mechanism governing selective CH4 coupling, highlights the critical oxygen-rich wall effect, and provides in-depth guidance for further reactor design. For the reaction coupling process, the EMMR achieves super-dry conversion by utilizing 2.83 CO2 molecules per CH4 and enables one-step direct production of C2+ and CO. The EMMR system demonstrates 30-h operational stability, and the conceptual process design results in an energy consumption of 57.19 kWh/kgC2+ with a process sustainability of -14.11 kgCO2/kgC2+. These findings highlight the potential of EMMR as a sustainable platform for carbon circularity and electrified chemical manufacturing.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Global climate change continues to attract significant attention. CH4 and CO2 emissions play key roles in global warming due to their high global warming potential, particularly CH4, which is 25–34 times greater than that of CO2. CH4 and CO2 are also abundant in various sources, e.g., biogas, shale gas, and marine natural gas reservoirs, and they are considered crucial feedstocks for the production of valuable chemicals and fuels. Therefore, research on their valorization has been the central focus for quite a long time. Currently, methane dry reform­ing, as shown in Eq. (1), is the dominant process due to its simplicity, but at least one more step is needed to produce more valuable and readily useable hydrocarbons (e.g., olefins and alkanes), as shown in Eq. (2). CH4 can also be directly converted to valuable hydrocarbons by an oxidative coupling process, and CO2 can be converted to CO by thermal or electrocatalytic splitting. Therefore, efficient process integration be­tween methane oxidative coupling and CO2 splitting is expected to present significant benefits, ideally similar to Eq. (3).",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "CH4 + CO2 →2CO + 2H2Eq. (1) CO + H2→CnH2n + CnH2n+2 + H2OEq. (2) CH4 + CO2 →CnH2n + CnH2n+2 + CO + H2O...Eq. (3) It is rarely reported that CH4 and CO2 mixtures can be directly converted into hydrocarbons, as shown in Eq. (3), but in theory, it is feasible to isolate CH4 oxidative coupling and CO2 splitting, e.g., via a membrane, and then link the reactions at two sides together through some kind of O2 transfer. For example, CO2 splitting to CO requires oxygen removal, and CH4 oxidative coupling requires the addition of oxygen to reactively remove H atoms from CH4 molecules and then undergoes a carbon coupling process to form valuable hydrocarbons. Most recently, Linic et al. highlighted the importance of membrane re­actors for shale gas conversion and noted some crucial roles of reaction‒ reaction coupling [1]. Although CO2 and CH4 covalorization has not been mentioned, it has been clear that reaction‒reaction coupling via a separating membrane in membrane reactors is attracting attention. A solid oxide electrolysis cell can enable oxygen ion conduction through a dense electrolyte membrane and produce O2 in the positive\n\n* Corresponding author.E-mail address: kang.li@imperial.ac.uk (K. Li).\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 739 (2026) 124916",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 11 November 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). electrode (positrode), so some studies have explored the oxidative coupling of methane in this system and initially demonstrated its feasibility [2–7]. Due to the limited research, some studies simply refer to this system as a solid oxide reaction system, and there is still no unified name for it until now. Here, we propose the use of a system with a dense electrolyte membrane as an electrochemical membrane reactor. Since it is in the initial research phase, researchers have rarely studied CH4 coupling and CO2 conversion at the same time in a single reactor system. Xie et al. demonstrated its coupling feasibility by using an ox­ygen ion-conducting membrane in a solid oxide electrolysis cell and reported highly selective conversion of CH4 to ethylene on one side and CO2 electrolysis to CO on the other side [8]. Joo et al. achieved the same CO2 and CH4 covalorization by adopting a sequential strategy, namely, CO2 electrolysis followed by the oxidative coupling of methane, in a two-zone sequential reaction system, which is still based on an oxygen ion-conducting solid oxide electrolysis cell [9]. However, nearly all the studies used ideal button-type solid oxide electrolysis cells in which all the gas mixture was fully mixed and the active cell area was approxi­mately 0.5 cm2 or less.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "l button-type solid oxide electrolysis cells in which all the gas mixture was fully mixed and the active cell area was approxi­mately 0.5 cm2 or less. A very ambitious study was conducted by He et al. through the use of large planar cells (100 cm2) for only the oxidative coupling of methane [10]; however, a fundamental mecha­nistic understanding is lacking. All these factors hinder in-depth and comprehensive understanding, particularly in more realistic situations, so the fundamental knowledge gap between laboratory studies and practical application urgently needs to be filled. Negtrode (cathode) : CO2 + e-→CO + O2-Eq. (4) Positrode (anode) : CH4 + O2-→e-+ C2+ + CO + CO2 + H2O + H2",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Overall : CH4 + CO2 →C2+ + CO + H2O + H2Eq. (6) To bridge the knowledge gap between ideal and practical situations, designing and understanding practical membrane reactors is highly desirable. Previously, micromonolithic electrochemical cells were developed and presented significant volumetric productivity in CO2 electrolysis, H2O electrolysis and CO2 - H2O coelectrolysis and excellent long-term stability [11–13]. In recent decades, several well-developed catalysts for the oxidative coupling of methane with excellent C2+selectivity and long-term stability have been reported. Therefore, we propose the integration of a well-performing OCM catalyst and micro­monolithic electrochemical cells to study the reaction‒reaction coupling of CO2 conversion and CH4 conversion. The principle and design of the proposed membrane reactor are schematically shown in Fig. 1, in which CO2 splitting occurs in the negative electrode (negtrode) and oxygen ions are pumped by electrical energy to the positive elec­trode (positrode), where oxygen evolution occurs. The evolved oxygen contacts the flowing CH4 molecules in the OCM catalyst region to initiate the methane coupling process. Eq. (4) and Eq. (5) represent the half-reactions at the negtrode and positrode, respectively, and Eq. (6)represents the overall reaction.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ing process. Eq. (4) and Eq. (5) represent the half-reactions at the negtrode and positrode, respectively, and Eq. (6)represents the overall reaction. Electrochemical membrane reactors are in their infancy stage, and knowledge on their potential for revolutionizing current chemical pro­cesses, e.g., CO2 and CH4 valorization processes, is extremely limited. This is the key reason driving us to conduct this research. The academic community has recently advocated research at the system level to pro­vide wide insights [14,15]. Previously, we conducted conceptual anal­ysis at the process system level for micromonolithic electrochemical cells and provided in-depth insights into their advantages. Therefore, putting the electrochemical membrane reactor in the whole process system and performing systematic energy and emission analyses are highly desirable and valuable for understanding its key potential. It can also encourage more research efforts from multiple parties to conduct fundamental research and further implement it at the demo scale and even in industrial practice. In addition, electrochemical membrane re­actors have key electricity-driven features and thus have high potential to play a crucial role in the electrification of the chemical industry. Herein, we designed an electrochemical micromonolithic membrane reactor and achieved single-step simultaneous CH4 and CO2 valorization to valuable hydrocarbons (C2+) and CO.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "electrochemical micromonolithic membrane reactor and achieved single-step simultaneous CH4 and CO2 valorization to valuable hydrocarbons (C2+) and CO. Catalysts/materials screening is first performed among state-of-the-art OCM catalysts and positrode materials to identify their impact on the intrinsic OCM. Micromonolithic electrochemical cells without any catalyst loading are then studied for the OCM process to obtain some basic insights. The electrochemical micromonolithic membrane reactor with the screened catalyst was subsequently systematically studied for CH4 and CO2 covalorization, in which the multizone reaction mechanism and its operation stability were revealed. Finally, an analytic study at the process system level was performed to reveal the overall reaction conversion (“super-dry one-step valorization”), energy consumption and system sustainability.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Nomenclature BCGBaCe0.8Gd0.2O3-δBYSBi1⋅5Y0.3Sm0.2O3-δGCgas chromatographyLSM(La0⋅8Sr0.2)0.95MnO3-δMNSMnOx-Na2WO3/SiO2NiOnickel oxideNMPN-methyl-2-pyrrolidoneOCMoxidative coupling of methaneOCVopen-circuit voltagePMMApolymethyl methacrylateSEMscanning electron microscopeXRDX-ray diffractionYSZ88 mol% Yttiria-Stabilized Zirconia\n\nFig. 1. One-step covalorization of CH4 and CO2 to C2+ and CO. (A) Electro­chemical membrane reactor principle. (B) Micromonolithic design for a compact, cost-effective and efficient process. OCM: oxidative coupling of methane; Positrode (anode) and Negtrode (cathode) represent relatively posi­tive or negative electrical potential, respectively.\n\nP. Yan et al. Journal of Membrane Science 739 (2026) 124916",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Experimental methods 2.1. Catalyst synthesis and evaluation MnOx-Na2WO3/SiO2 (MNS) catalysts were synthesized via a twostep incipient-wetness impregnation method [16]. Bi1.5Y0.3Sm0.2O3-δ (BYS) was synthesized via the sol-gel method [17]. BaCe0.8Gd0.2O3-δ (BCG) was synthesized via the modified Pechini method in the literature [18]. Yttiria-stabilized zirconia (YSZ8, 8 mol%) and (La0⋅80Sr0.20)0.98MnO3-δ (LSM) were used as received from FuelCellMa­terials Ltd. and Inframat Advanced Materials, respectively. Interested readers can refer to the supplementary information for the detailed syn­thesis procedures of MNS, BYS, and BCG. Catalyst evaluation for the oxidative coupling of methane was con­ducted by packing 30 mg of catalyst powder (MNS, BCG, or BYS) or 60 mg of powder (YSZ8, LSM, or YSZ8-LSM mixture) in a fixed bed reactor (quartz tube: 9 mm O.D., 7 mm I.D., 500 mm in length). The catalytic activity evaluation system is presented in Fig. S1. The gas mixture for the catalytic reaction consisted of 9 mL/min CH4, 3 mL/min O2 and 12 mL/ min Ar, which was selected to reveal the intrinsic activity of the catalyst materials based on the neglectable heat accumulation effect, as shown in Table S1. The reaction was performed at 750, 775, 800, and 850 ◦C under atmospheric pressure. The reaction effluent was analysed by one gas chromatography (GC) equipped with a TCD detector and a Shin­Carbon column and one GC equipped with an FID detector and an Agilent GS-GasPro column.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "as chromatography (GC) equipped with a TCD detector and a Shin­Carbon column and one GC equipped with an FID detector and an Agilent GS-GasPro column. Importantly, at least three experiments were repeated to validate its reproducibility, and the errors are generally less than 5 %. 2.2. Micromonolithic cell manufacturing Micromonolithic cells have a three-layer structure and were pre­pared via a multistep sintering method. The essential steps are presented below, and interested researchers can refer to our previous research for more details [11,13,19]. They are micromonolithic NiO-YSZ8 electrodes manufactured via the phase-inversion assisted extrusion method, a dip-coated YSZ8 electrolyte layer and a brush-painted YSZ8-LSM elec­trode layer. The green body of micromonolithic NiO–YSZ8 electrodes was fabricated using a phase inversion-assisted extrusion process. Spe­cifically, a mixture containing NiO (37.8 wt%), YSZ8 (25.2 wt%), NMP solvent (28.0 wt%), dispersant (0.6 wt%), and PMMA polymer (8.4 wt %) was prepared, followed by ball milling, roll milling, and degassing to obtain a stable suspension with a homogeneous dispersion of NiO and YSZ8 particles. The degassed suspension was then extruded through a custom-designed six-bore tube-in-orifice spinneret. The spinning pa­rameters were as follows: 13 mL/min of an internal bore liquid (30 wt% ethanol and 70 wt% deionized water), 9 mL/min of the suspension feed, and tap water as the coagulation bath.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "mL/min of an internal bore liquid (30 wt% ethanol and 70 wt% deionized water), 9 mL/min of the suspension feed, and tap water as the coagulation bath. The green body was first pre-sintered at 1150 ◦C for 3 h to ensure sufficient mechanical strength for the subsequent steps. After the YSZ8 electrolyte was coated, it was sintered at 1440 ◦C for 6 h. Finally, the full micromonolithic cell with the YSZ8-LSM electrode was sintered at 1100 ◦C for 2 h. The active area is 1.63 cm2 for the 2 cm long samples. 2.3. Membrane reactor performance evaluation The electrochemical micromonolithic membrane reactor was assembled by packing silicon carbide (46 grit)-diluted MNS catalyst around the active YSZ8-LSM electrode area (2 cm in length in the middle) of the micromonolithic cell. Generally, SiC-diluted MNS consists of 0.8 g MNS and 10.0 g SiC. This dilution ratio was adopted because it can ensure similar catalytic activity as the intrinsic activity by sufficient heat management for this exothermic reaction. The reactor was oper­ated under two different modes, co-feeding mode and membrane reactor mode, for comparison. In the co-feeding mode as illustrated in Fig. S1A1, the total flow rate of the feed gas was 24 mL/min, with a fixed CH4 flow rate of 9 mL/min CH4. The CH4:O2 ratios were set to 6, 3, and 2, respectively, and Ar gas was used as the balance and dilution gas. In membrane reactor mode as illustrated in Fig. S1A2, O2 is generated by setting the electrochemical cell current.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ed as the balance and dilution gas. In membrane reactor mode as illustrated in Fig. S1A2, O2 is generated by setting the electrochemical cell current. As calculated, 0.86 A corre­sponds to 3 mL/min oxygen generation. Therefore, 1.29A, 0.86 A, and 0.43A were set in membrane reactor mode to ensure that the CH4:O2 ratios were 2, 3 and 6, respectively. The reaction effluent was analysed by the same equipment and methods as those used for the catalytic materials. The performance evaluation system for the electrochemical membrane reactor is presented in Fig. S1B. At least three experiments were repeated to confirm its reproduc­ibility. Generally, the error for membrane reactor evaluations is less than 10 %, slightly higher than the error of the performance of powder cat­alysts/materials (generally less than 5 %). To avoid messing up the figures in the next section and make it clearly readable, we took the average values for the figure presentation. During the membrane reactor assembling process, one key step is to connect the micromonolithic cell to alumina ceramic tubes and then finish the sealing by selecting a suitable sealant. The excellent sealing is critical for reliable experiments. The sealant used in this study is Ceramabond 552-VFG, Aremco, USA. For verifying the sealing ability, our approach is a two-step method: Step 1 is to do solid oxide fuel cell operation and observe the open circuit voltage (OCV) under 800 ◦C with pure H2 in lumen side and air in shell side.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "p 1 is to do solid oxide fuel cell operation and observe the open circuit voltage (OCV) under 800 ◦C with pure H2 in lumen side and air in shell side. The OCV should normally be more than 1.10 V and close to 1.20 V. In this case, it means very good sealing (and membrane gas-tightness). Step 2 is to do solid oxide elec­trolysis operation with Ar sweeping in shell side and CO/CO2 mixture in lumen side. GC equipped with a TCD detector is used to measure the shell side gas composition, no observation of CO and CO2 peaks can further prove its good sealing property with negligible leakage. 2.4. Characterization The morphology of the catalytic materials and electrochemical cells was characterized by scanning electron microscope (SEM, Sigma 300, Zeiss, Germany). X-ray diffraction (XRD) patterns were recorded on a Malvern PANalytical X’Pert Pro MPD. The electrical voltage under a certain current operation for an elec­trochemical micromonolithic membrane reactor is recorded by an IviumStat potentiostat/galvanostat (Ivium Technologies B⋅V., The Netherlands). 3.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "elec­trochemical micromonolithic membrane reactor is recorded by an IviumStat potentiostat/galvanostat (Ivium Technologies B⋅V., The Netherlands). 3. Results and discussion To elucidate the CH4 and CO2 covalorization process in the newly designed electrochemical micromonolithic membrane reactor (EMMR) and make it logically understandable, this section is divided into several subsections, including the EMMR design, catalytic material evaluation and screening, initial study on the EMMR by designing a zero catalyst load configuration for methane conversion, systematic study on the EMMR with a selected catalyst configuration for the covalorization of CH4 and CO2, and analytic study from the process system perspective. 3.1. Electrochemical micromonolithic membrane reactor The design of the electrochemical micromonolithic membrane reactor is presented in Fig. 2. One of the key parts is the micromonolithic electrochemical cell shown in Fig. 2A, which has 6 separate gas flow channels, as shown in Fig. 2B. The cell diameter is approximately 2.6 mm, and the channel diameter is less than 1 mm, approximately 0.85 mm. The central active section of the electrochemical cell consists of three layers, as shown in Fig. 2C, in which the middle layer is a dense YSZ8 electrolyte membrane that plays a key oxygen-ion-conducting role. In addition, the micromonolithic Ni-YSZ8 layer acts as the CO2 conversion domain, and the YSZ8-LSM layer directly faces the methane conversion domain.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "P. Yan et al. Journal of Membrane Science 739 (2026) 124916 were initially designed for oxygen reduction or evolution reactions, rather than purposely for the oxidative coupling of methane, we propose screening OCM catalysts and packing them around the positrode of micromonolithic electrochemical cells to form a practical electro­chemical micromonolithic membrane reactor. This can also prevent unselective gas‒phase homogeneous methane reactions to a large extent, which may occur in the design shown in Fig. 2D(1). In this respect, the practical EMMR is designed as shown in Fig. 2 D(2–3). The EMMR mainly consists of three key parts: a catalytic reaction zone for the oxidative coupling of methane, a micromonolithic elec­trochemical cell, and CO2 conversion inside the electrochemical cell. It is necessary to first study each of them by decoupling before systematic evaluation of the practical EMMR with complex reaction coupling. Owing to the well-studied CO2 conversion in our previous research [11,\n\nFig. 2. Configuration of the electrochemical micromonolithic membrane reactor. (A) Picture of the micromonolithic cell; (B) cross-sectional morphology and (C) interfaces of the micromonolithic cell; (D) membrane configuration details with several zones, where D1 shows schematics of the membrane reactor without a packed catalyst, and D2 and D3 show schematic and practical membrane reactors with a packed catalyst, respectively.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "12], we do not repeat CO2 conversion inside electrochemical cells in this research but instead focus on the first two parts, as discussed. 3.2. Screening of catalytic materials for the oxidative coupling of methane Both catalysts and membranes play key roles in membrane reactors [20,21]. The EMMR design concept shown in Fig. 1 is essential for the use of a selective catalyst for the oxidative coupling of methane. In recent decades, many catalysts that function in the oxidative coupling of methane have been developed, among which MNS is the most advanced because of its high activity, stability and tunability [16,22]. Other state-of-the-art catalysts with excellent activity and stability include BYS [17,23] and BCG [18,24]. The morphologies and XRD features of the samples are presented in Figs. S2–S3. Fig. 3 presents the catalytic performance of various catalytic mate­rials in the oxidative coupling of methane, with LSM, YSZ8, YSZ8-LSM and the blank as the background performance baselines. MNS presents the highest CH4 conversion, typically 25–30 %, and the highest C2+(ethylene, ethane, propane, propylene) selectivity, typically ~45 %. MNS also presents much higher CO selectivity than CO2 selectivity, which is critical in maximizing the value of OCM products and mini­mizing CO2 emissions. In addition, MNS presented improved C2+selectivity with increasing CH4:O2 ratios, as shown in Fig. S4, where C2+increased to 67 % for CH4:O2 = 6 and decreased to 35 % for CH4:O2 = 2.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ved C2+selectivity with increasing CH4:O2 ratios, as shown in Fig. S4, where C2+increased to 67 % for CH4:O2 = 6 and decreased to 35 % for CH4:O2 = 2. BCG and BYS also present good CH4 conversion rates, ranging from 20 to 25 %, and excellent C2+ selectivity, typically ~40 %. However, they show much higher CO2 selectivity (~50 % for BCG, ~30 % for BYS) than does MNS (typically ~12 %), which not only affects OCM product values and CO2 emissions but is also potentially detrimental to the sta­bility of positrode materials, which are sensitive to high concentrations of CO2. In summary, MNS is the optimal choice for the oxidative coupling of methane and is selected for practical EMMR design. The positrode of EMMR is directly exposed to the atmosphere of oxidative methane coupling, which means that it is also active in methane conversion to some extent. Therefore, the effect of positrode materials (YSZ8, LSM, their mixture) on the oxidative coupling of methane is necessary for fully understanding the EMMR. As shown in Fig. 3, both single YSZ8, single LSM and the YSZ8-LSM mixture present similar CH4 conversions, ~20 %, and very low C2+ selectivity of approximately 22 %, but significant CO2 selectivity (~75 % for LSM, 30 % for YSZ8, and ~70 % for YSZ8-LSM), which are much higher than those of the blank experiment with only a gas‒phase homogeneous re­action (typically ~25 % CH4 conversion, ~24 % C2+ selectivity, ~65 % CO selectivity, and ~11 % CO2 selectivity).",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "with only a gas‒phase homogeneous re­action (typically ~25 % CH4 conversion, ~24 % C2+ selectivity, ~65 % CO selectivity, and ~11 % CO2 selectivity). Additionally, YSZ8-LSM presents similar OCM selectivity for CH4:O2 = 3 or 6 (~74 %) but a significant increase in CO2 selectivity for CH4:O2 = 2 (~90 %). Last but not the least, the reaction temperatures were mainly studied between 750 and 850 ◦C. The reason is that electrochemical cells prefer to operate at approximately 800 ◦C, as proven in our previous research [11]. As shown in Fig. 3, methane conversion presents an obvious in­crease from 750 to 800 ◦C but slight increase from 750 to 850 ◦C, and C2+ significantly decreases with increasing temperature to 850 ◦C. By considering both the preferable OCM for higher C2+ selectivity and the essential temperature requirements for electrochemical cells, 750 ◦C and 800 ◦C are adopted for further EMMR studies. 3.3. EMMR performance and mechanism without the packed catalyst To better understand the oxidative coupling of methane in the EMMR, we first studied the reactor without catalyst loading to decipher the role of YSZ8-LSM positrode coating. Based on the design in Fig. 2D1, we constructed the reactor sche­matically shown in Fig. 4 to illustrate the methane reaction domain around the positrode of the electrochemical cell in the EMMR. Clearly, there are two distinct reaction domains: the gas phase domain and the positrode domain.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "he positrode of the electrochemical cell in the EMMR. Clearly, there are two distinct reaction domains: the gas phase domain and the positrode domain. The main role of the positrode is to generate O2 and deliver it to contact CH4 for reactions, but the positrode also clearly demonstrates catalytic activity in the oxidative coupling of methane, as shown in Fig. 3. In this respect, we hypothesized the multiple-zone re­action for methane conversion. (1) There is a very thin YSZ8-LSM part in which there is only O2 gas due to electrochemical oxygen evolution, and the other gas spe­cies cannot penetrate due to mass transfer resistance. This zone is denoted the “Pure O2 zone”.(2) The top part of the YSZ8-LSM positrode and its nearby gas phase domain are enriched with O2 due to its proximity to the core O2 generation domain. This zone is denoted as the “O2-rich zone”.(3) The rest of the gas phase domain along the radial direction is the main flow region for CH4 gas. The O2 gas generated by the pos­itrode of the electrochemical cell needs to overcome the radial mass transfer resistance to reach this region and then mix and react with CH4. This zone is denoted the “CH4-rich zone”. Several experiments under cofeeding mode and membrane reactor mode were conducted to validate the proposed hypothesis. Table 1shows the OCM performance under the cofeeding mode.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ofeeding mode and membrane reactor mode were conducted to validate the proposed hypothesis. Table 1shows the OCM performance under the cofeeding mode. Its methane conversion and product selectivity are generally between those of gasphase homogeneous reactions [25] and YSZ8-LSM reactions, as shown in Fig. 3. This indicates that the gas‒phase homogeneous reaction and catalytic reactions due to the YSZ8-LSM coating occurred simulta­neously. Typically, methane conversion and C2+ selectivity are closer to those of gas-phase homogeneous, but CO2 selectivity is much higher, which is similar to that of YSZ8-LSM. In this sense, the ability of the catalytic wall effect to achieve very high CO2 selectivity induced by the YSZ8-LSM coating is significant. Table 2 shows the OCM performance in the membrane reactor mode. Clearly, the methane conversion and C2+selectivity are much lower than those under the cofeeding mode, and the CO2 selectivity increases further. This indicates a more significant wall effect caused by the YSZ8-LSM positrode and a lower contribution from the gas‒phase homogeneous reaction. With respect to the multizone Fig. 4. Schematics of the OCM multizone reaction mechanism in EMMR without packed catalysts.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 1 OCM performance in EMMR without packed catalysts under cofeeding mode. CaseXCH4 (%)SC2+ (%)SCO (%)SCO2 (%)YC2+ (%) 800 ◦C13.9220.0414.1265.842.79C:O¼3800 ◦C9.8723.2116.3460.452.29C:O¼6750 ◦C10.1117.4612.1570.391.77C:O¼3750 ◦C6.3418.9111,6969.411.20C:O¼6 Note: The total flow rate is 24 mL/min balanced with argon gas, with CH4 fixed at 9 mL/min and O2 at 3 mL/min for C:O = 3 and 1.5 mL/min for C:O = 6.\n\nP. Yan et al. Journal of Membrane Science 739 (2026) 124916 reaction hypothesis, the results clearly indicate that less O2 diffused to the CH4-rich zone for homogeneous gas‒phase reactions and larger portion O2 is consumed in and near the YSZ8-LSM positrode causing CH4 overoxidation process. When CH4:O2 = 6, as shown in Table 2, the C2+ selectivity is lower, and the CO2 selectivity is higher than that when CH4:O2 = 3, which is contrary to the homogeneous reaction mixture shown in Table 1 and the YSZ8-LSM powder bed in Fig. 3. The key reason behind this is attributed to the nonuniform reaction distribution. This further confirmed that there was a significant catalytic wall effect in the O2-rich zone and that a multizone reaction mechanism existed in the EMMR without catalyst loading.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5,
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.4. EMMR performance and mechanism with the packed catalyst To improve the C2+ selectivity, methane overoxidation in the O2-rich zone and nonselective reactions in the gas phase should be inhibited. In particular, for the O2-rich zone, the positrode should be replaced by highly selective OCM materials while maintaining excellent oxygen evolution activity, and the gas phase zone near the positrode should be packed with the highly selective OCM catalyst. In the current research stage, positrode materials are difficult to change. In fact, we tested the state-of-the-art mixed ionic and electronic material BCG, which also presented excellent OCM performance, but the BCG easily deactivated due to phase segregation, as shown in Fig. S6, and potentially presented carbon deposition during methane conversion [26]. Therefore, we keep using YSZ8-LSM as the positrode. The gas phase zone near positrode can be easily replaced by the most selective MNS catalyst which is diluted by silicon carbide particles for better heat management ability. Fig. 5 presents the methane conversion performance in the EMMR under both the cofeeding mode and the membrane reactor mode. As shown in Fig. 5A, CH4 conversion (~25 %) and C2+ selectivity (~45 %) under cofeeding mode in EMMR are very close to the intrinsic perfor­mance of the MNS catalyst.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5A, CH4 conversion (~25 %) and C2+ selectivity (~45 %) under cofeeding mode in EMMR are very close to the intrinsic perfor­mance of the MNS catalyst. This implies that the positrode wall effect is negligible under the cofeeding mode, possibly because of the limited contact probability between the flowing gas and the wall in view of the 3-mm radial depth of the SiC-diluted catalyst bed. Fig. 5B shows the comparison between the cofeeding mode and the membrane reactor mode in terms of CH4 conversion and product selectivity. The C2+selectivity under the membrane reactor mode is clearly lower than that under the cofeeding mode. This should be attributed to the positrode wall effect during the generation and radial mass transfer of O2 mole­cules. The CH4:O2 ratio plays a significant role in tuning the C2+ selec­tivity of the MNS catalyst. However, it looks quite different in the EMMR",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 2 OCM performance in EMMR without packed catalysts under membrane reactor mode. CaseXCH4 (%)SC2+ (%)SCO (%)SCO2 (%)YC2+ (%) 800 ◦C9.7013.078.6978.241.27C:O¼3800 ◦C7.238.214.8386.960.59C:O¼6750 ◦C8.9112.553.9783.481.12C:O¼3750 ◦C5.955.082.492.520.30C:O¼6 Notes: Three repeated experiments show slightly greater deviations, typically ~10 %. The total flow rate was 24 mL/min balanced with argon gas, with CH4 fixed at 9 mL/min and O2 fixed at 3 mL/min (0.86 A) for C:O = 3 and 1.5 mL/ min (0.43 A) for C:O = 6.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. Oxidative coupling of methane in the EMMR with the highly selective MNS catalyst. (A) Cofeeding mode; (B) comparison between cofeeding mode and membrane reactor mode; (C) effect of various CH4:O2 ratios; (D) lumped C2+ yield under various operation conditions. Notes: Co-feed means cofeeding operation mode, and MR means membrane reactor operation mode. P. Yan et al. Journal of Membrane Science 739 (2026) 124916 with the packed MNS catalyst, as shown in Fig. 5C. This shows that there is only a minor increase in C2+ selectivity, from 37 % to 41 %, when the CH4:O2 ratio is increased from 3 to 6. In contrast, the C2+ selectivity increased from ~46 % to ~68 % for the MNS catalyst, as shown in Fig. S4. This confirmed the existence of combinational effects of the positrode wall effect and limited CH4 and O2 mixing in the radial di­rection. Fig. 5D presents the C2+ yield comparison under various oper­ation conditions. The C2+ yield under the membrane reactor mode is slightly lower than that under the cofeeding mode. Clearly, there is also a suitable CH4:O2 ratio for maximizing the C2+ yield because too low ratio may result in a lower yield because of overoxidation, and too high ratio will cause significantly low CH4 conversion, while the selectivity is not well increased as well due to the positrode wall effect. In the O2-rich zone, a certain amount of oxygen is consumed due to the catalytic activity of the positrode. The rest of the O2 diffuses into the CH4-rich zone.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "-rich zone, a certain amount of oxygen is consumed due to the catalytic activity of the positrode. The rest of the O2 diffuses into the CH4-rich zone. Two extreme cases are obvious. Extreme case 1 has a very high CH4:O2 ratio. In this case, there will be extremely limited O2 remaining for the methane reaction in the CH4-rich zone after over­oxidation due to the positrode, and the combined results from the two reaction zones are lower CH4 conversion and lower C2+ yield. Extreme case 2 has a very low CH4:O2 ratio. In this case, much O2 remains for the methane reaction in the CH4-rich zone after that in the O2-rich zone. However, CH4 tends to be overoxidized to COx rather than to produce C2+. The results are relatively high CH4 conversion and low C2+ yield. Therefore, this can explain the phenomenon shown in Fig. 5C–D, and a mild CH4:O2 ratio is desirable for maximum CH4 conversion and C2+yield. In summary, this special phenomenon, which is different from the catalytic performance of MNS, is due mainly to the combined effects of the positrode wall effect and O2 mass transfer in the radial direction. This further validated the multizone reaction mechanism, and the updated mechanistic scheme is shown in Fig. 6. 3.5. Discussion on the EMMR design optimization Based on the above, it is clear that significant overoxidation stems from the catalytic wall effect of positrode and nonideal reactant mixing, which results from sluggish O2 mass transfer in the radial direction.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "stems from the catalytic wall effect of positrode and nonideal reactant mixing, which results from sluggish O2 mass transfer in the radial direction. To conduct a systematic discussion of the above effects and thus propose potential design optimization, we conceived the schematics of two extreme cases and one practical case for an electrochemical membrane reactor, as shown in Fig. 7. Positrode side with the OCM for the small button-shaped membrane reactor is similar to that in Fig. 7A, which presents maximum mixing between the generated O2 and the flowing CH4. In this sense, the methane reaction is nearly the same as the intrinsic reaction features of the selected catalyst. Unfortunately, this type of membrane reactor is only suitable for proving the suitability of the electrochemical mem­brane reaction process, and it cannot be achieved in practical use. In this study, we propose a practical EMMR with a tubular micromonolith design. However, there is an obvious radial O2 concentration gradient due to wall effects and the mass transfer resistance of the catalytic bed. This practical case is represented in Fig. 7B. In this case, there is a gradient CH4:O2 ratio (from small to large) along the radial direction; thus, it results in nonuniform CH4 conversion and C2+ selectivity in different subdomains. The other extreme ideal design we conceptually conceived shown in Fig. 7C, which is much closer to practical reality than Fig.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n different subdomains. The other extreme ideal design we conceptually conceived shown in Fig. 7C, which is much closer to practical reality than Fig. 7A, mitigates the radial CH4:O2 gradient and maintains the radial plug flow regime. If this EMMR design can be achieved, it can maximize the benefits of membrane reactors. In summary, the EMMR design optimization should focus on mitigating the catalytic wall effect of the positrode and accelerating the radial mass transfer, which was explored in a previous study [27], to ensure that the radial gas mixes as much as possible. 3.6. Long-term operation stability Long-term operating stability is the key to achieving practical application of the EMMR in the covalorization of CH4 and CO2. Fig. 8presents the EMMR operating stability at 800 ◦C with CH4:O2 = 3. It shows nearly stable operation for 30 h with ~20 % CH4 conversion (slight decrease) and ~40 % C2+ selectivity (slight increase). The only undesired aspect is that the operation voltage of the EMMR is gradually elevated over 30 h. Since it is difficult to do microscale comparative characterization for this EMMR before and after long-term operation due to certain technical issues, e.g. inter-pollution from other parts, we performed a YSZ8-LSM powder characterization (Fig. S7) and some more macro-scale characterization (Fig. S8–9). The short-term XRD pattern in Fig.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", we performed a YSZ8-LSM powder characterization (Fig. S7) and some more macro-scale characterization (Fig. S8–9). The short-term XRD pattern in Fig. S7 before and after short-term OCM shows no significant change but some minor phase segregation which is difficult to be observed might be there. Fig. S8 presents the voltage case for simple O2 generation mode with 24 mL/min argon as the sweep gas. By compar­ison, the voltage increase rate of the practical EMMR is slightly higher than that of the case without the OCM. This implies that the EMMR has a higher degradation rate in the presence of OCM. Fig. S9 presents the obvious physical degradation phenomena of the YSZ8-LSM positrode, i. e., clear peeling-off phenomena. This kind of peeling-off phenomenon was not observed in our previous electrolysis research in the absence of OCM [11,13], so the mechanism behind the higher EMMR degradation rate can be attributed to the possible change in the YSZ8-LSM positrode in OCM atmosphere, which is discussed below. To determine the specific degradation mechanism, a more in-depth analysis was performed. The methane reaction products on the shell side of the EMMR include Ar gas (57.86 %), CH4 (34.71 %), C2+ (1.59 %), CO (1.13 %), CO2 (4.34 %) and minor H2 (0.18 %) and O2 (0.20 %), as listed in Table S2.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "he EMMR include Ar gas (57.86 %), CH4 (34.71 %), C2+ (1.59 %), CO (1.13 %), CO2 (4.34 %) and minor H2 (0.18 %) and O2 (0.20 %), as listed in Table S2. We inferred that the main cause is relatively high concentrations of CO2 and some weak reduction species (CH4, C2+, CO, etc.) in the OCM atmosphere because the case without OCM has no such gas atmosphere. By examining previous studies, we realized that some researchers have reported LSM degradation under CO2 or reducing-gas atmospheres [28,29], but there is no direct evidence in such complex gas atmospheres or for such electrode‒catalyst configurations. To better and more directly understand the degradation of the LSM-YSZ electrode, particularly if CO2 is the main cause, we conducted a series of O2 gen­eration experiments with different gas environments at the positrode side. Fig. S10 presents three different EMMR degradation behaviors under different atmospheres. Obviously, simple Ar gas sweeping results in very good stability at 40 h. However, the degradation rate increases as the atmosphere changes from pure argon gas to 4.34 % CO2 in argon gas and further to a real COM gas atmosphere. Compared with the case with 4.34 % CO2 in argon gas, the case under the real OCM gas atmosphere (4.34 % CO2 in argon gas and some reducing gases) seems to present a much higher degradation rate, and the degradation started much earlier.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tmosphere (4.34 % CO2 in argon gas and some reducing gases) seems to present a much higher degradation rate, and the degradation started much earlier. Considering the differences in their gas compositions, it can be concluded that the reducing gas seems to have a severe effect on the EMMR stability. In short, more stable positrode materials under both",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. Schematics of the OCM multizone reaction mechanism in EMMR with packed catalysts. P. Yan et al. Journal of Membrane Science 739 (2026) 124916 high CO2 concentrations and reducing gas atmospheres are highly desirable, and these materials are among the key hurdles hindering the use of EMMR in industrial practice. 3.7. Conceptual process design for sustainable covalorization In addition to the design of membrane reactors with selected cata­lytic materials, placing the early stage developed membrane reactor into the chemical process system is imperative to help understand its ad­vantages and identify bottlenecks. Unfortunately, such research on electrochemical membrane reactor systems is rare. Previously, we introduced this process system concept and conceptual design to monolithic electrochemical cells [11,13] and now would like to extend this methodology to the EMMR. The oxidative coupling of methane and dry reforming of methane has been extensively studied, and their potential is well understood. How­ever, CO2 and CH4 covaloraization to C2+ and CO is still in its infancy, and there is still no such conceptual process analysis. This inhibits the systematic understanding of its industrial potential and creates a considerable knowledge gap between fundamental design and the practical scene. In this respect, the conceptual process analysis is conducted based on the above experimental results.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "een fundamental design and the practical scene. In this respect, the conceptual process analysis is conducted based on the above experimental results. On the basis of the CH4 reaction product (Table S2) at the positrode side and the CO2 splitting at the negative side in the EMMR system, the total reaction can be described via Eq. (7): 5.71CH4 + 16.19CO2 = C2 + 0.037C3 + 19.79CO + nH2 + mH2OEq. (7)",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The H2 and H2O amounts are neglected by denoting them as n and m, considering their insignificance. Clearly, the EMMR can use up to 2.83 CO2 molecules per CH4 molecule. Taking the general composition (40 mol.% CO2, 60 mol.% CH4) of biogas as a case study, we find that CO2 separated from biogas cannot sustain EMMR operation because the CO2 amount is too low. In this way, 1.3 more units of CO2 per unit of biogas mixture are needed. Table 3 presents three typical processes for CO2 and CH4 covalori­zation. Dry reforming of methane is the most conventional method and has been extensively studied. Super-dry reforming of methane was proposed by Marin et al. through leveraging the power of Le Chatelier’s principle in a complex system with CH4 oxidation and CO2 reduction and achieved 3 mol of CO2 converted per mole of CH4 [30]. This is a drastic breakthrough beyond conventional dry reforming of methane, but there are still some limitations in terms of the covalorization prod­ucts. In addition to CO as the covalorization product in the super-dry reforming of methane, the EMMR system has several advantages in addition to maintaining high CO2 conversion per CH4 molecule: (1) it directly produces C2+ hydrocarbons in a single step, (2) it needs only a single reactor system, and (3) it is easy to achieve process electrification.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "directly produces C2+ hydrocarbons in a single step, (2) it needs only a single reactor system, and (3) it is easy to achieve process electrification. Considering the tremendous advantages of the EMMR for the cova­lorization of CO2 and CH4, we conceived the conceptual process design with the EMMR as the core reactor and assume that the whole system can be fully powered by renewable electricity for the purpose of process electrification. The conceptual process design is presented in Fig. 9. The conceptual process system consists of an electrochemical micro­monolithic membrane reactor, well-established 3-stage membrane sep­aration for a gas mixture of CO2 and CH4 [31], and a multistep separation system. Energy consumption for each module is estimated by combining thermodynamic energy consumption (theoretical value [32]) and separation energy efficiency (generally less than 10 % [33]), as shown in the supplementary section S3, and the results are presented in Table 4. The total energy consumption is 57.19 kWh/kgC2+, and the majority is from the EMMR part, accounting for 83 % of the energy consumption. For the analysis of process sustainability, we take CO2 emissions as the key indicator. The CO2 emissions of current PV electricity are 0.05–0.10 kgCO2-eq/kWh, so the operational CO2 emissions from en­ergy consumption are approximately 4.29 kgCO2-eq/kgC2+ on average.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "PV electricity are 0.05–0.10 kgCO2-eq/kWh, so the operational CO2 emissions from en­ergy consumption are approximately 4.29 kgCO2-eq/kgC2+ on average. However, this EMMR process system can consume an additional 18.40 kgCO2/kgC2+ from the other CO2 supply sources apart from CO2 in the feed gas mixture. In this way, this process system can demonstrate negative CO2 emissions, i.e., -14.11 kgCO2/kgC2+ during the C2+ pro­duction process from the biogas mixture. Additionally, CO2 is converted to valuable CO gas, which can be used for further hydrogenation to produce valuable hydrocarbons. All the detailed estimations of separation energy consumption, re­action energy consumption, and process sustainability analysis are presented in the supplementary Excel document. Interested readers can refer to it for more details.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Conclusions In this study, we achieved one-step covalorization of CH4 and CO2 to C2+ and CO by designing an innovative electrochemical micro­monolithic membrane reactor with selected catalysts, which can be powered by renewable electricity for sustainable process electrification. Systematic studies ranging from catalyst screening and membrane reactor configurations to conceptual process design have been con­ducted. Several key points can be drawn from this research. (1) Several methane conversion catalysts (MNS, BCG, BYS, etc.) have been synthesized and evaluated, and MNS presents the best per­formance in terms of CH4 conversion and preferred product selectivity (C2+ and CO). In the future, the key indicators for further catalyst screening should be higher CH4 conversion and higher C2+ selectivity but minimum CO2 selectivity,(2) Multiple-zone reaction mechanisms are conceived and validated by performing a series of experiments on electrochemical mem­brane reactors in two configurations: without or with selected catalyst packing in the EMMR. Thus, the fundamental insight obtained is that the EMMR’s positrode wall effect should be mitigated by further material design because it causes the over- oxidation. Also, radial mass transfer should be accelerated for better reaction selectivity via EMMR design optimization.(3) CH4 and CO2 covalorization in the EMMR can achieve super-dry reactions with 2.83 CO2 molecules consumed per CH4 molecule.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "EMMR design optimization.(3) CH4 and CO2 covalorization in the EMMR can achieve super-dry reactions with 2.83 CO2 molecules consumed per CH4 molecule. Compared with conventional dry reforming of methane (syngas) and super-dry reforming of methane (CO), it has the advantages of producing more valuable reaction products (C2+ and CO).(4) The conceptual process of 100 % electrified CO2 and CH4 cova­ lorization is conceived and preliminarily analysed. The energy consumption is 57.19 kWh/kgC2+, and the process sustainability is -14.11 kgCO2/kgC2+. In summary, this study provides in-depth insights into the design of an electrochemical membrane reactor and highlights further research needs for highly efficient covalorization of CO2 and CH4. CRediT authorship contribution statement Peng Yan: Writing – original draft, Methodology, Investigation, Formal analysis, Conceptualization. Unalome Wetwatana Hartley: Writing – review & editing, Funding acquisition. Kang Li: Writing – review & editing, Supervision, Funding acquisition, Conceptualization. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements P. Yan acknowledges the financial support of the Marie SklodowskaCurie Postdoctoral Fellowship (No. 101105735), which is under the Horizon Europe programme and funded through the EPSRC (No. EP/",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 3 Comparison among several CO2 and CH4 covalorization processes. Consumed CO2 per mole CH4Main productsTemperature (◦C)Catalytic reactor\n\nCOH2C2+\n\nThis study2.83+–+750–800EMMRSuper-dry reforming3+––~750Chemical looping reactorDry reforming of methane1++–~800Conventional reactor Notes: “+” means “Yes”, “-” means “No” or “Nearly No”.\n\nFig. 9. Conceptual design of a 100 % electrified CO2 and CH4 covalorization process system powered by renewable electricity.\n\nTable 4 Energy consumption of the conceptual process system based on the EMMR. EMMR3-stage membrane separation\n\nMultistep separation system Total\n\nEnergy consumption (kWh/kgC2+) 47.402.447.3557.19 Notes: A 0.34 kWh/Nm3 gas mixture is adopted for 3-stage membrane separa­tion by averaging the literature data; the energy efficiency for a multistep sep­aration system is 6 %; and the average EMMR is 1.40 V for operation. P. Yan et al. Journal of Membrane Science 739 (2026) 124916",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[15] L. Torrente-Murciano, J.B. Dunn, P.D. Christofides, J.D. Keasling, S.C. Glotzer, S. Y. Lee, K.M. Van Geem, J. Tom, G. He, The forefront of chemical engineering research, Nat. Chem. Eng. 1 (1) (2024) 18–27, https://doi.org/10.1038/s44286023-00017-x.[16] S. Gu, J. Kang, T. Lee, J. Shim, J.-W. Choi, D.J. Suh, H. Lee, C. Yoo, H. Baik, J. Choi, J.-M. Ha, Na2WO4/Mn supported on all-silica delaminated zeolite for the optimal oxidative coupling of methane via the effective stabilization of tetrahedral WO4: elucidating effects of support precursors with different crystal structures, Aladdition, and morphologies, Chem. Eng. J. 457 (2023) 141057, https://doi.org/ 10.1016/j.cej.2022.141057.[17] N.H. Othman, Z. Wu, K. Li, An oxygen permeable membrane microreactor with an in-situ deposited Bi1.5Y0.3Sm0.2O3-δ catalyst for oxidative coupling of methane, J. Membr. Sci. 488 (2015) 182–193, https://doi.org/10.1016/j. memsci.2015.04.027.[18] V.O. Igenegbai, R.J. Meyer, S. Linic, In search of membrane-catalyst materials for oxidative coupling of methane: performance and phase stability studies of gadolinium-doped barium cerate and the impact of Zr doping, Appl. Catal. B Environ. 230 (2018) 29–35, https://doi.org/10.1016/j.apcatb.2018.02.040.[19] P. Yan, K. Li, Readily scalable and controllable micro-structured catalyst with encapsulated Pd@Silicate-1 towards sustainable catalytic emission control, Chem. Eng. Sci. 293 (2024) 120037, https://doi.org/10.1016/j.ces.2024.120037.[20] S.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ted Pd@Silicate-1 towards sustainable catalytic emission control, Chem. Eng. Sci. 293 (2024) 120037, https://doi.org/10.1016/j.ces.2024.120037.[20] S. Miachon, J.-A. Dalmon, Catalysis in membrane reactors: what about the catalyst? Top. Catal. 29 (1) (2004) 59–65, https://doi.org/10.1023/B: TOCA.0000024928.63811.8b.[21] M. Kulkarni, D. Roy, N.H. Khuu, O. Sanyal, M.R. Ball, Expanding the toolbox for development of metal-based dual-functional catalytic membranes, AIChE J. 69 [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] (2023) e18238, https://doi.org/10.1002/aic.18238.[22] J. Si, G. Zhao, W. Sun, J. Liu, C. Guan, Y. Yang, X.-R. Shi, Y. Lu, Oxidative coupling of methane: examining the inactivity of the MnOx-Na2WO4/SiO2 catalyst at low temperature, Angew. Chem. Int. Ed. 61 [ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] (2022) e202117201, https://doi.org/ 10.1002/anie.202117201.[23] N.H. Othman, Z. Wu, K. Li, Micro-structured Bi1.5Y0.3Sm0.2O3-δ catalysts for oxidative coupling of methane, AIChE J. 61 [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (2015) 3451–3458, https://doi. org/10.1002/aic.14883.[24] J. Wortman, V.O. Igenegbai, R. Almallahi, A.H.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (2015) 3451–3458, https://doi. org/10.1002/aic.14883.[24] J. Wortman, V.O. Igenegbai, R. Almallahi, A.H. Motagamwala, S. Linic, Optimizing hierarchical membrane/catalyst systems for oxidative coupling of methane using additive manufacturing, Nat. Mater. 22 [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] (2023) 1523–1530, https://doi.org/ 10.1038/s41563-023-01687-x.[25] H. Cruchade, I.C. Medeiros-Costa, N. Nesterenko, J.-P. Gilson, L. Pinard, A. Beuque, S. Mintova, Catalytic routes for direct methane conversion to hydrocarbons and hydrogen: current state and opportunities, ACS Catal. 12 (23) (2022) 14533–14558, https://doi.org/10.1021/acscatal.2c03747.[26] V.O. Igenegbai, R. Almallahi, R.J. Meyer, S. Linic, Oxidative coupling of methane over hybrid Membrane/Catalyst active centers: chemical requirements for prolonged lifetime, ACS Energy Lett. 4 (6) (2019) 1465–1470, https://doi.org/ 10.1021/acsenergylett.9b01075.[27] P. Yan, Y. Cheng, Foam structured membrane reactor for distributed hydrogen production, J. Membr. Sci. 661 (2022) 120927, https://doi.org/10.1016/j. memsci.2022.120927.[28] B. Hu, M.K. Mahapatra, M. Keane, H. Zhang, P. Singh, Effect of CO2 on the stability of strontium doped lanthanum manganite cathode, J. Power Sources 268 (2014) 404–413, https://doi.org/10.1016/j.jpowsour.2014.06.044.[29] X. Luo, Y. Yang, Y. Yang, D.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ped lanthanum manganite cathode, J. Power Sources 268 (2014) 404–413, https://doi.org/10.1016/j.jpowsour.2014.06.044.[29] X. Luo, Y. Yang, Y. Yang, D. Tian, X. Lu, Y. Chen, Q. Huang, B. Lin, Reducedtemperature redox-stable LSM as a novel symmetrical electrode material for SOFCs, Electrochim. Acta 260 (2018) 121–128, https://doi.org/10.1016/j. electacta.2017.11.071.[30] L.C. Buelens, V.V. Galvita, H. Poelman, C. Detavernier, G.B. Marin, Super-dry reforming of methane intensifies CO2 utilization via Le Chatelier’s principle, Science 354 (6311) (2016) 449–452, https://doi.org/10.1126/science.aah7161.[31] M. Scholz, T. Melin, M. Wessling, Transforming biogas into biomethane using membrane technology, Renew. Sustain. Energy Rev. 17 (2013) 199–212, https:// doi.org/10.1016/j.rser.2012.08.009.[32] K.Z. House, A.C. Baclig, M. Ranjan, E.A. van Nierop, J. Wilcox, H.J. Herzog, Economic and energetic analysis of capturing CO2 from ambient air, Proc. Natl. Acad. Sci. 108 (51) (2011) 20428–20433, https://doi.org/10.1073/ pnas.1012253108.[33] C. Castel, E. Favre, Membrane separations and energy efficiency, J. Membr. Sci. 548 (2018) 345–357, https://doi.org/10.1016/j.memsci.2017.11.035.",
+    "citation": {
+      "authors": [
+        "The O."
+      ],
+      "paper_id": "1-s2.0-S0376738825012293-main",
+      "title": "An electrochemical micromonolithic membrane reactor for one-step sustainable covalorization of CH4 and CO2 to C2+ and CO",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  }
+]

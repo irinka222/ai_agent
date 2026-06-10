@@ -1,0 +1,783 @@
+[
+  {
+    "content": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes A. Mitranescu , A. Steger , A. Sudjito , J.E. Drewes * Chair of Urban Water Systems Engineering, Technical University of Munich, Am Coulombwall 3, 85748, Garching, Germany\n\nA R T I C L E I N F O Keywords:Reverse osmosisBiofouling dynamicsIn situ biofouling monitoringDirect fouling observationLow-cost camera imaging",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Understanding the development of biofouling on the surface of reverse osmosis and nanofiltration membranes is crucial for a safe and reliable operation of membrane systems. Current monitoring techniques however either cannot account for detailed temporal or spatial fouling trends (e.g., feed channel pressure drop, FCPD) or involve elevated cost and manual data post-processing (e.g., optical coherence tomography). In order to complement existing methods, we developed a low-cost and easy-to-use optical system for biofouling monitoring based on a consumer-grade DSLR camera equipped with a macro lens and freely available post-processing software. Applying our system in accelerated biofouling tests, we demonstrated that it allows for visual detection of incipient biofouling and qualitative real-time assessment of spatial biofilm growth patterns. We calculated the Pixel Intensity Difference ΔPI, a quantitative image-based proxy for biofouling, and demonstrated that it captures temporal biofouling dynamics, particularly the early biofilm growth that is hardly detected by FCPD. However, being limited to 2D top view planar images, ΔPI only partially discerns 3D biofilm growth in later biofouling stages. Additionally, our optical system enabled quantitative spatial fouling characterization, from in-detail assessment of minute pixel clusters to comparison of magnitude and temporal trends of biofouling in feed channel subsections.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rization, from in-detail assessment of minute pixel clusters to comparison of magnitude and temporal trends of biofouling in feed channel subsections. Biofilm growth was found to be substantially stronger on the feed spacer than on the free membrane surface. We share technical information on our system (e.g., drawings, code) so that further research can benefit from this affordable and easy-to-use method for image-based biofouling investigation in lab-scale and full-scale settings.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction In the context of rising global water demand and water-related ef­fects of climate change such as changed runoff regimes and droughts [1,2], water reclamation and seawater desalination can relieve pressure from surface water and groundwater resources and support freshwater supply. For this, nanofiltration (NF) and reverse osmosis (RO) thin-film composite (TFC) membranes have proven to be effective as they are well-known for their ability to reject microorganisms, organic micro­pollutants, and salts. However, biofouling is a major limitation to the performance of these membranes affecting permeate water quality, transmembrane flux as well as required pressure, leading to higher power consumption and operational cost [3,4]. Several techniques have been proposed to reduce biofouling, e.g., biocide dosing [5], coating [6], UV-LED irradiation [7], adaptations to feed spacers [8], and altering membrane geometry [9]. As biofouling assessment is needed during operation of full-scale commercial membrane systems, but also when investigating biofouling remediation approaches in lab-scale membrane cells, numerous monitoring techniques have been studied [10–12]. A straightforward and classical approach lies in the assessment of opera­tional parameters such as the increase of the feed channel pressure drop (FCPD) or the decline of permeate flux that indicate biofouling impacts on the whole membrane module or cell.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "crease of the feed channel pressure drop (FCPD) or the decline of permeate flux that indicate biofouling impacts on the whole membrane module or cell. However, these bulk parameters cannot capture spatial distribution or composition of foulants [11] or reveal how biofilm structure and physical properties influence opera­tional performance [12]. Additionally, these parameters are often not able to detect incipient early-stage fouling [11,13]. Direct observation of membrane and feed spacer surface by digital single-lens reflex (DSLR) cameras with macro lenses or microscopes constitutes another easily accessible, efficient, and low-cost approach for online biofouling monitoring [11]. This in situ non-destructive approach generates readily available camera images that allow for vi­sual detection of incipient biofouling and qualitative assessment of",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 30 December 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). spatial biofilm growth patterns [14–17]. Furthermore, quantitative image-based biofouling indicators have been calculated and their tem­poral trends assessed [16–18]. Biofouling analysis by direct observation has nevertheless been limited by the 2D nature of the planar top or side view images and the micrometer-scale resolution that do not allow to capture biofilm thickness and structure [11,12] or to conduct a quan­titative spatial analysis of biofilm distribution. Direct fouling observation is facilitated by membrane cells/mem­brane fouling simulators, i.e., small (∼0.2 m length) flow cells accu­rately modeling hydrodynamic conditions as well as biofouling development in spiral-wound modules [14]. Such membrane cells enable fouling monitoring through direct observation (by transparent top surfaces), FCPD, and ex-situ analysis of membrane coupons [14]. Since their introduction, further improvements allowed for additional fouling monitoring by, e.g., magnetic resonance imaging [19], permeate flux decline [20], or optical coherence tomography (OCT) [21,22].",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "or additional fouling monitoring by, e.g., magnetic resonance imaging [19], permeate flux decline [20], or optical coherence tomography (OCT) [21,22]. These simulators were applied to investigate fouling mitigation strate­gies such as novel feed spacer designs [6,23], membrane coating [24,25], or biocide dosing [26,27] as well as the influence of flow regimes [28,29] and feed water characteristics [20,30] on membrane fouling potential. Such membrane cells also have been proposed as early warning systems installed in parallel to full-scale membrane in­stallations [14]: The biofouling starting on the feed side of lead mem­brane elements is mirrored in membrane cells and can be directly observed, motivating early application of control measures [31]. More information can be found in the review by Kim et al. [31] dedicated to membrane fouling simulators. Beyond online biofouling monitoring, ex situ analysis approaches, such as confocal laser scanning microscopy (CLSM) of fouled membrane coupons, have been extensively applied. CLSM enables in-detail quali­tative 3D visualization of fouling layers [12,32] and spatial distribution of foulants [33] as well as quantification of biofilm volume [32,33] and microorganism cell density [34].",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ling layers [12,32] and spatial distribution of foulants [33] as well as quantification of biofilm volume [32,33] and microorganism cell density [34]. A major shortcoming of CLSM is however its limitation to ex situ post-experiment analysis as different stages of biofouling processes cannot be captured [33]; the extraction of membrane coupons from flow cells additionally may alter mechanical biofilm properties or even damage the biofilm [35,36]. To overcome these drawbacks, recent studies investigated in situ CLSM imaging at different biofouling time steps [32,37]. In the last years, OCT has been discussed as the state-of-the-art approach for in situ non-invasive biofouling monitoring in flat-sheet membrane cells [12]. Beyond the characterization of mechanical bio­film properties [36], OCT has been used for quantification of biofilm thickness or 3D biofilm volume over time [21,38–40] and for different zones of the membrane channel, i.e., the feed spacer and membrane surface [22,35]. Furthermore, OCT-derived fouling indicators on membrane surface coverage have been shown to react more sharply to early biofouling trends than the operational parameters FCPD and permeate flux decline [39,40]. The high resolution of OCT (∼10 μm [11]) comes at the cost of a reduced field-of-view (approximately one feed spacer element [22,39]) that impairs the comparison of fouling in different locations of the flow cell [12] or the assessment of the average fouling trend on a larger surface area.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "mpairs the comparison of fouling in different locations of the flow cell [12] or the assessment of the average fouling trend on a larger surface area. Further challenges hampering the application of OCT devices in full-scale membrane plants are their elevated cost [11,41] and the laborious manual post-processing of raw OCT scanning data [12,41]. However, AI-supported standardization and automation of image processing [12] as well as data interpretation and prediction tools [41,42] can reduce this manual post-processing effort. Given the versatility and quality of results obtained by advanced biofouling analysis methods (e.g., OCT, CLSM), but also their timeconsuming manual post-processing and high cost, we reassessed the potential of affordable and simple direct observation by camera imag­ing. In this study, we developed a low-cost and easy-to-use optical sys­tem for biofouling monitoring based on a consumer-grade DSLR camera equipped with a macro lens and explored the in-depth information content of the captured images using freely available software. First, we demonstrate that our system allows for visual detection of incipient biofouling and qualitative assessment of spatial biofilm growth patterns during operation as this constitutes the baseline use of direct observa­tion tools. Subsequently, we investigate image-based quantification of temporal biofouling trends as well as in-detail quantitative image analysis for spatial fouling characterization.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tigate image-based quantification of temporal biofouling trends as well as in-detail quantitative image analysis for spatial fouling characterization. We share all necessary in­formation on the system developed (e.g., schemes for technical com­ponents and program code for image processing) so that others can reproduce and improve our method and benefit from this easy-to-use and affordable system for biofouling monitoring. 2. Materials and methods 2.1. Camera system and membrane cell Our optical system consists of a consumer-grade DSLR camera (EOS 600d, Canon Inc., Japan) equipped with a macro lens (EF-S 60 mm f/2.8, Canon Inc., Japan) that was mounted on a camera stand (RS 2 XA Copy Stand, Kaiser GmbH, Germany, Fig. 1). A custom-made stainless-steel lighting structure with an LED pixel strip (WS2812B ECO, 144 LED⋅m-1, 43 W⋅m-1, BTF-LIGHTING Technology Co., Ltd, PR China) was added to ensure homogeneous lighting (Fig. 1, S1-S2). This camera/lighting structure was installed on top of a custom-made transparent PMMA membrane cell with a membrane area of 6, 700 mm2 (146 mm⋅46 mm) and a channel height of 34 mil (0.86 mm). Similar custom-made trans­parent membrane cells equipped with imaging tools have been used for in situ microscopy [17], CLSM [37], or OCT [21,22]. An opening with bevel edges (110 mm⋅40 mm, bevel 34◦) in the cell holder enabled observing and capturing biofouling dynamics on the membrane surface at homogeneous exposure without shadowing effects (Fig. 1, S3).",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ell holder enabled observing and capturing biofouling dynamics on the membrane surface at homogeneous exposure without shadowing effects (Fig. 1, S3). During biofouling tests, the whole setup was covered with a black, light-proof box to block external light. An automatized process using a microcontroller (UNO R3, Elegoo Inc., PR China), the LED pixel strip, and a remote shutter for the camera (RS-60 E3, Canon Inc., Japan) ensured that the membrane surface was illuminated and images were captured every 2 h. Futo et al. [43] applied a similar microcontroller-based system for time-lapse visualization of biofilms grown in Petri dishes using stereomicroscopy. The camera settings applied were a shutter speed of 1/30 s, aperture f/5.0, ISO 100, and the white balance set to Flash; the zoom to the membrane surface was adjusted by hand. The 2D planar images used for analysis covered approximately 700 mm2 (27.3 mm⋅25.9 mm, i.e., 3144⋅2924 pixel) of the membrane surface area at a resolution of 115 pixel⋅mm-1 (Fig. S4). The overall cost of this optical system (including DSLR camera, macro lens, camera stand, LED lighting structure, membrane cell, and control sys­tem) amounted to approximately 1, 200 €. A comparison of our optical method and OCT as well as CLSM regarding technical criteria and application conditions can be found in Table S11 in the supplementary material. 2.2.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "l method and OCT as well as CLSM regarding technical criteria and application conditions can be found in Table S11 in the supplementary material. 2.2. Accelerated biofouling experiments For our accelerated biofouling experiments, we used polyamide thinfilm composite (TFC) RO membrane coupons taken from a FilmTec LC LE 4040 module (DuPont de Nemours, Inc., Wilmington, USA) as well as commercially available diamond-shaped spacers (Toray Industries, Inc., Tokyo, Japan) with a thickness of 34 mil (0.86 mm). The experimental setup consisted of our custom-made transparent polyacrylic membrane cell, pressure sensors before and after the membrane cell (A-10, WIKA SE & Co. KG, Germany), a flow meter (MIM-13, Kobold Messring GmbH, Germany), a gear pump (DGS.38PPPV2NN00000, Ingersoll Rand Inc., USA), a peristaltic pump for nutrient dosing (Ismatec Reglo Digital ISM 597, Cole-Parmer Instrument Company LLC, USA), and a needle valve for pressure control (EPV–SS–6L, Hass Manufacturing Company, USA) (Fig. 2). The membrane cell was operated without permeate production",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A. Mitranescu et al. Journal of Membrane Science 741 (2026) 125114 at a pressure of 1.2⋅105 Pa. Such membrane cells were demonstrated to accurately model hydrodynamic conditions [14] and biofouling devel­opment [44] in spiral-wound membrane modules applied in practice, irrespective of permeate production [45]. Experiments were conducted for approximately 5 days (108 h) in single-pass mode under crossflow conditions with a crossflow velocity of 0.17 m⋅s-1, representative of conditions at scale [46,47]. Tap water was used as feed water and spiked with a synthetic nutrient mix (sodium acetate, sodium nitrate, and sodium dihydrogen phosphate dihydrate) with a C:N:P ratio of 1 : 0.2 : 0.1 mg⋅L-1, according to previous research [7]. The feed water temperature was kept constant at 20◦C. Three experimental runs were conducted consecutively as the installation only allowed one membrane cell to be operated simultaneously (Fig. 2). 2.3. Image processing Processing of the images captured by the camera system was per­formed using ImageJ/Fiji [48] and the Python library OpenCV [49] in two different approaches: a “Rapid Analysis” for quick in situ and real-time observation of biofouling processes during the biofouling ex­periments and a “post-processing” analysis for image-based quantifica­tion of temporal biofouling dynamics (Fig. 3). As the LED strip in our system emits a comparatively cold light (≈6500 K), the raw DSLR camera images obtained had a high blue component (Fig.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ig. 3). As the LED strip in our system emits a comparatively cold light (≈6500 K), the raw DSLR camera images obtained had a high blue component (Fig. S4a) that impeded the observation of biofouling dynamics by the human eye. Additionally, it led to a descending order of intensity of the blue, green, and red color channels in the raw images. This became particularly apparent when splitting the raw DSLR camera images in the separate color channels (Fig. S5a-c, S6), as the blue channel 8-bit grayscale im­ages appear substantially brighter (i.e., they have higher grayscale values, as 0 corresponds to black and 255 to white) than the red and green channels. Therefore, we applied the ImageJ/Fiji function Subtract Background that removed the blue shade (Fig. S4b) and equalized the blue, green, and red color channels (Fig. S5d-f, S6). In the “Rapid Analysis”, this gave images that were suitable for qualitative biofouling observation (Fig. S4b) as biofilm is easily detectable by the human eye",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. a) Optical system with DSLR camera (EOS 600d, Canon Inc., Japan), macro lens (EF-S 60 mm f/2.8, Canon Inc., Japan), camera stand (RS 2 XA Copy Stand, Kaiser GmbH, Germany), custom-made LED lighting structure, membrane cell, and membrane cell holder, mounted in the biofouling test system. b) Exploded view of LED lighting structure, membrane cell, and cell holder.\n\nFig. 2. Schematic diagram of the experimental setup with temperature (T), volume (V), pressure (p) and flow rate (Q) gauges, polyethylene (PE) cartridge filters, valves, feed solution tank, nutrient solution tank, peristaltic and gear pump, membrane cell, and camera system. A. Mitranescu et al. Journal of Membrane Science 741 (2026) 125114 for its yellow-orange color (Fig. 4). In the “post-processing” analysis, images were aligned by image registration to correct minimal deviations and cropped to depict only the active membrane surface area without shadowing (Fig. 3, Supplemen­tary Material S9). As with the “Rapid Analysis”, the background was subtracted to adjust the high blue component of the raw DSLR images.\n\nFig. 4. DSLR Camera images, cropped to the center of the membrane cell at a) t = 0 h, b) t = 36 h, c) t = 72 h, d) t = 108 h; e) Details of biofouling on feed spacer and membrane surface for t = 36 h (D1), t = 72 h (D2, D3), t = 108 h (D4, D5). Flow direction in the figures is top-down. A. Mitranescu et al. Journal of Membrane Science 741 (2026) 125114",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3,
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Subsequently, images were split in their red, green, and blue channels as previous research showed that the different color channels reflect biofouling on the membrane surface at different intensities [18]. The color channel images are 8-bit grayscale images with pixel values be­tween 0 (black) and 255 (white). Then, the OpenCV function cv2.absdiff [49] was applied to calculate the absolute difference between the pixels of the reference image (first image of the time series) and the current image of the time series, yielding a new pixel matrix expressing the absolute difference. In a last step, the average value of this pixel matrix of absolute differences was computed and defined as the scalar “Pixel Intensity Difference” ΔPI (see Supplementary Material S12, S13, S14 for details on image processing). This process can be summarized in the following equation (Eq. (1)):\n\n[ФОРМУЛА: [FORMULA_ID: dbaa4727-da57-4719-b5dd-3eba4b900954] ΔPI = ∑ xy ⃒⃒I0xy -Iixy ⃒⃒ nx⋅ny]",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(1) where I0xy and Iixy refer to the intensity of the pixel at position (x, y) in the initial image (0) and image i of the time series, respectively. nx and ny refer to the number of pixels in xand y-direction, respectively. The “Pixel Intensity Difference” ΔPI hence expresses the overall change in color intensity from the initial reference image to the current imaging time step. As growing biofilm leads to a change in pixel intensities (an overall “darker” and more yellow-orange image), ΔPI is a suitable imagebased proxy for biofilm growth. For the analysis of spatial biofouling dynamics, images were addi­tionally split in the surface sections “Feed Spacer” and “Free Membrane” by masking. Masks were generated by extracting the spacer filaments and creating binary images (see Supplementary Material S9, S10) that were applied to the image sequences. Similar image processing pipelines were previously applied in RO biofouling tests for quantification of image changes by a 2-dimensional Pearson correlation coefficient [18] or for investigation of spatial sub-sections of the membrane feed channel [35], and in RO scaling tests for identification of scaling hotspots [50]. 3.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "r for investigation of spatial sub-sections of the membrane feed channel [35], and in RO scaling tests for identification of scaling hotspots [50]. 3. Results and discussion In this section, we demonstrate that our low-cost, easy-to-use optical system encompassing a consumer-grade DSLR camera equipped with a macro lens can be employed at different experimental and analytical steps to monitor and understand biofouling processes on the surface of high-pressure membranes. For this, we first show that our optical system allows for rapid, qualitative, in situ and real-time observation of biofilm growth during a biofouling process without elaborate image data pro­cessing and analysis (section 3.1). We subsequently step to postexperiment image data analysis and demonstrate that image-based quantification of temporal biofouling dynamics can be conducted using our optical system, comparing image-derived results to FCPD (sections 3.2-3.3). To conclude, we partitioned the images in “Feed Spacer” and “Free Membrane” surface sections to show that spatial differences in biofouling dynamics can be captured by our optical system (section 3.4).",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.1. In situ online observation of biofilm growth Our optical system is based on a DSLR camera equipped with a macro lens and therefore allows for in situ and real-time qualitative analysis of images immediately after image capturing and minimal “Rapid Anal­ysis” image processing (Fig. 3). When inspecting the feed spacers, membrane surface, and acrylic glass surface (top wall of membrane cell) on a millimeter-scale over the course of a biofouling test (Fig. 4a–d), one can perceive overall biofilm growth, indicated by the intensifying yellow-orange color. In detail, one can observe that at t = 36 h (Fig. 4b, D1 in 4e), biofouling started by the development of biofilm filaments on the nodes of feed spacers. At t = 72 h (Fig. 4c), biofilm can additionally be identified as scattered dots on the free membrane surface (D2 in Fig. 4e) as well as in the narrow spaces between spacer strands and the membrane surface (D3 in Fig. 4e). Towards the end of the biofouling experiment (t = 108 h, Fig. 4d), the growth on the free membrane surface (D4 in Fig. 4e) and on the feed spacer (D5 in Fig. 4e) intensified further; biofilm growth on the glass surface of the membrane cell even led to a blurring of the overall image (Fig. 4d).",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "r (D5 in Fig. 4e) intensified further; biofilm growth on the glass surface of the membrane cell even led to a blurring of the overall image (Fig. 4d). These observations made with our optical system correspond to the well-known dynamics of biofilm growth in spacer-filled channels as numerous direct observation studies have reported the development of a yellow-orange biofilm first on the nodes of the feed spacers, and later on the spacer strands and the free membrane surface [14,15,29]. Spatially resolved measurements of the oxygen concentration [51] and assess­ment of biovolume (based on OCT scanning [22,39]) in the spacer-filled membrane channel additionally confirmed these spatiotemporal trends of biofilm growth. In difference to the millimeter-scale assessment in direct observation (as in our optical system), OCT scanning allows for micrometer-scale visualization of 2D biofilm thickness [21,38] and 3D biovolume [22,39] at different time steps of biofouling processes. However, the raw OCT scanning data requires post-processing in order obtain 2D and 3D biofilm visualizations, such as adjustment of contrast and brightness, conversion to grayscale, threshold filtering for mem­brane and edge detection, morphological filtering, binarization, and masking or subtracting of initial images [21,22,39]. In contrast, DSLR camera images from our optical system are readily available immedi­ately after image capturing and background subtraction (cf. section 2.3).",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ast, DSLR camera images from our optical system are readily available immedi­ately after image capturing and background subtraction (cf. section 2.3). Despite being limited to the planar 2D perspective and to a lower res­olution than OCT scans, we conclude that the DSLR camera images provided by our optical system allow for in situ real-time detection of incipient biofouling and qualitative assessment of spatial biofilm growth patterns.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Temporal biofouling dynamics: color channels Beyond the in situ real-time qualitative observation of biofouling processes (section 3.1), we performed a post-experiment data analysis and investigated if our optical system allows for image-based quantifi­cation of temporal biofouling dynamics. For this, we calculated the “Pixel Intensity Difference” ΔPI that expresses the overall change in color intensity over the course of the accelerated biofouling experiment (cf. section 2.3 for calculation details). ΔPI was determined for the different color channels (red, green, blue, and original) as previous research indicated that these react differently to biofilm growth [18]. When examining the evolution of ΔPI for the different color channels over the course of a biofouling experiment (Fig. 5a), one observes that ΔPI values for all color channels are comparable in the first half of the experiment (Fig. 5a, ΔPI(t < 60h) ≈1.6 -4). In contrast, the red color channel shows a substantially weaker ΔPI signal than the other channels in the second half of the experiment (Fig. 5a, red: ΔPI(t = 100h) ≈5.5; blue, green, original: ΔPI(t = 100h) ≈7.6 -10.4). Additionally, one observes that the blue channel yields the highest ΔPI values of all color channels (Fig. 5a, ΔPI (tfinal = 108h)≈11.6 (blue), 10.1 (green), 8.8 (original), and 5.9 (red)). Fig.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nnel yields the highest ΔPI values of all color channels (Fig. 5a, ΔPI (tfinal = 108h)≈11.6 (blue), 10.1 (green), 8.8 (original), and 5.9 (red)). Fig. 5a exemplifies this behavior for one of our experimental runs; the same trends of descending order of intensity of the blue, green, and red color channels were observed for the other experimental runs (Fig. S7). Our results correspond to the findings by Oesinghaus et al. [18] that also noted a descending order for the intensity of blue, green, and red color channels in their investigation on image-based fouling monitoring with different color channels. We consider that this descending order of intensity of the different color channels is linked to the true color of the biofilm. Previous studies have reported that the biofilm developing from a natural water matrix in accelerated biofouling experiments has a yellow-orange color [14,19,44]; our in situ real-time observations show this accordingly (Fig. 4). As this biofilm grows, the yellow-orange color",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A. Mitranescu et al. Journal of Membrane Science 741 (2026) 125114 components of the images increase over time and their complementary color components correspondingly decrease, i.e., blue for yellow and light blue (i.e., a composite of blue and green) for orange. Consequently, the pixel intensity values of the blue color channel react strongest to the yellow-orange biofilm growth, followed by the green color channel and the red color channel. Our experiments consistently showed that the blue color channel yields the highest ΔPI values of all color channels, i.e., it shows the strongest reaction to biofilm growth (Fig. 5, Fig. S7). Therefore, in the following steps of analyzing all experimental results jointly for a relation with the operational fouling indicator FCPD (section 3.3) and for spatial biofouling dynamics (section 3.4), we limit our investigation to the blue color channel. 3.3. Temporal biofouling dynamics: image data vs. FCPD In order to compare the image-based biofouling indicator (the blue channel “Pixel Intensity Difference” ΔPI) to a biofouling indicator commonly used in engineering practice, we additionally monitored the FCPD over the whole membrane cell. The biofilm growth that was qualitatively observed in situ and in real-time (Fig. 4) was captured quantitatively by both indicators (Fig. 6). In detail, the image-based ΔPI started increasing immediately after experiment startup, whereas the FCPD showed almost no change until approximately 50h runtime (Fig.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "mage-based ΔPI started increasing immediately after experiment startup, whereas the FCPD showed almost no change until approximately 50h runtime (Fig. 6, ΔPI(t = 50h) = 3.6, FCPD(t = 50h) = 0.06 bar, corresponding to 17.9% resp. 7.7% of the total increase). Additionally, ΔPI displays relatively higher values than FCPD for the majority of the second half of the run­time (approximately 50h -100h, Fig. 6). In the final phase of biofouling experiments, the ΔPI, however, remains virtually unchanged (Fig. 6, ΔPI(t = 100h) = 10.6, ΔPI (tfinal = 108h)= 11.6), while the FCPD shows a substantial increase during the same period (Fig. 6, FCPD(t = 100h) =0.17 bar, FCPD(tfinal = 108h)= 0.26 bar, i.e., 58.5% and 100% of the total increase). Our biofouling indicator “Pixel Intensity Difference” ΔPI is based on 2D planar view DSLR camera images of the membrane feed channel and therefore captures the onset of biofouling, i.e., biofilm that primarily forms on the nodes and strands of feed spacers (Fig. 4b, t = 36 h, [19,29]). In contrast, FCPD hardly detects this incipient biofouling as it mainly reacts to biofouling that obstructs the flow path and hence im­pacts the pressure drop in the channel, such as biofilm filling the narrow spaces between spacer strands and the membrane surface or acrylic glass surface.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the pressure drop in the channel, such as biofilm filling the narrow spaces between spacer strands and the membrane surface or acrylic glass surface. The same detection trend applies to the formation of small biofilm clusters on the membrane as well as between spacer filaments and the membrane surface in a subsequent step of biofouling (Figs. 4c and 6, t = 72h). However, biofilm development in the depth of the feed channel (i.e., in 3D) can only partially be captured by 2D planar view DSLR camera images and hence the “Pixel Intensity Difference” ΔPI, in contrast to the FCPD that accounts for 3D biofilm development. This explains why the strong biofilm growth in the final phase of experiments is reflected in a substantial increase of FCPD but shows a plateau phase for ΔPI (Fig. 6, t = 100h -108h).These results correspond to the findings of other studies that inves­",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. Visualization of the spatial distribution of local values of the “Pixel Intensity Difference” ΔPI. a) Segment of a planar 2D DSLR camera image at the center of the membrane cell (1419⋅870 pixel, 12.34 mm⋅7.57 mm). b-d) Local “Pixel Intensity Difference” ΔPI for every pixel in this image segment at t = 36 h (b), t = 72 h (c), and t = 108 h (d). A. Mitranescu et al. Journal of Membrane Science 741 (2026) 125114 images. As the indicator ΔPI is a localized value available for every pixel of the images investigated (order of magnitude: 10 μm, see section 2.3), it additionally allows for analysis of disparities in biofilm growth be­tween the different surface sections, i.e., the feed spacer and the free membrane surface. When visualizing the spatial distribution of local ΔPI values for every pixel in an image segment at the center of the membrane cell (Fig. 7), one observes spatial variations in biofilm growth: The area covered by the feed spacer becomes apparent in the 3D surface plot of local ΔPI values for their substantially larger ΔPI values on spacer strands (Fig. 7c: ΔPI(t = 72 h) ≈10 -20, dark red to light red) and spacer nodes (Fig. 7c: ΔPI(t = 72 h) ≈20 -30, light red to orange) compared to the free membrane area between the feed spacer strands (Fig. 7c: ΔPI(t =72 h) ≈0 -10, black to dark red). At the end of the biofouling test, this disparity between area covered by the feed spacer (Fig.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nds (Fig. 7c: ΔPI(t =72 h) ≈0 -10, black to dark red). At the end of the biofouling test, this disparity between area covered by the feed spacer (Fig. 7d: ΔPI (tfinal =108 h)≈25 -40, orange to yellow) and free membrane area (Fig. 7d: ΔPI (tfinal =108 h)≈0 -20, black to light red) is even more pronounced. In order to investigate the spatial variation of biofilm growth further, we applied masking to the image dataset to separate the surface sections “Feed Spacer” and “Free Membrane” (cf. section 2.3, Fig. S10). It is important to note that the biofilm growth on all depth layers of the feed channel in the image segments is quantified. For instance, the “Feed Spacer” image segment encompasses biofilm growth on the feed spacer surface, but also on the membrane and acrylic glass surface as well as the narrow spaces between these surfaces. Therefore, the “Feed Spacer” image segment is more precisely described as a quantifier of biofouling in the vicinity of the feed spacer. We subsequently investigated the temporal trend and magnitude of the average “Pixel Intensity Differ­ence” ΔPI for these surface sections (Fig. 8). ΔPI values for the feed spacer image section show a moderate increase in the first half of the experi­ment (ΔPI(t = 60 h) = 6.42, orange triangles in Fig. 8a), whereas ΔPI values for the free membrane section depict minimal changes (ΔPI(t =60 h) = 3.00, purple squares in Fig. 8a).",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "range triangles in Fig. 8a), whereas ΔPI values for the free membrane section depict minimal changes (ΔPI(t =60 h) = 3.00, purple squares in Fig. 8a). 83.4% of the overall increase of ΔPI values on the free membrane surface occurs only in the second half of the experiment (purple squares in Fig. 8a), compared to 74.4% for the feed spacer surface (orange triangles in Fig. 8a). Similar trends of a delayed increase of ΔPI values of the free membrane surface vs. the feed spacer surface could be observed for all experimental runs (Fig. 8a–S8). This pattern shows that the feed spacer surface section was the main driver of the early increase of ΔPI for the total surface that was discussed in sections 3.2 and 3.3 (Figs. 5 and 6). Comparing the final pixel in­tensity difference between the different surface sections in all experi­mental runs additionally showed substantially larger ΔPI values for the feed spacer surface than the free membrane surface (17.9 vs. 8.8, respectively, Fig. 8b). Overall, our results quantitatively confirm that biofilm growth in spacer-filled membrane feed channels starts on feed spacer nodes and strands to then spread to the membrane surface as has been qualitatively reported in numerous biofouling studies [14,19,29,44]. Since several studies [22,35] additionally performed a quantitative assessment of the spatial variation of biofilm growth, we compare our findings in detail to their outcomes: Fortunato et al.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "performed a quantitative assessment of the spatial variation of biofilm growth, we compare our findings in detail to their outcomes: Fortunato et al. [22] quantified biomass volume on the spacer, membrane, and glass cover of a membrane fouling cell during accelerated biofouling tests using OCT. This dedicated analysis of bio­film growth on the glass cover points to a drawback of our quantification method: The 2D planar top view images can be segmented into areas covered by feed spacers and the free membrane surface, but biofilm growth at distinct depth layers of the feed channel (i.e., on the glass cover, the feed spacer, or the membrane surface) cannot be differenti­ated. Despite this methodical difference, our findings match the results by Fortunato et al., since they reported a substantially faster and stronger increase of biomass volume on the feed spacer and the glass cover vs. the membrane (final values 1.2 mm3, 1.6 mm3 and 0.4 mm3, respectively) [22]. Additionally, Pratofiorito et al. [35] investigated spatial variation of biofilm growth by OCT during RO filtration tests using synthetic high organic load wastewater. They calculated an approximation of the bio­film thickness on the feed spacer based on biofilm coverage and spacer strand thickness (for details, see Ref. [35]) as well as the biofilm thickness on the free membrane surface. Unfortunately, the different calculation methods impair a comparison of absolute values of these two parameters.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ickness on the free membrane surface. Unfortunately, the different calculation methods impair a comparison of absolute values of these two parameters. Nevertheless, relative trends indicate a stronger biofilm growth on the feed spacer vs. the free membrane surface in the first part of the filtration test (85% and 5% of final value after the first part, respectively [35]) and a more substantial biofilm growth on the mem­brane surface during the second part of the test. Our finding on the delayed onset of biofilm growth on the membrane surface is comparable to these results (Fig. 8a). Furthermore, this highlights an advantage of our method based on 2D planar top view images as it allows for the same quantification approach for biofilm growth on the feed spacer and the free membrane surface. 4. Conclusion and outlook The objective of this study was to demonstrate that a low-cost (≈1,200 €), easy-to-use optical system comprising a consumer-grade DSLR camera equipped with a macro lens can efficiently capture biofouling dynamics on the surface of high-pressure membranes. For this, we employed the optical system during biofouling tests and assessed its",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[8] W.-c. Lin, R.-p. Shao, X.-m. Wang, X. Huang, Impacts of non-uniform filament feed spacers characteristics on the hydraulic and anti-fouling performances in the spacer-filled membrane channels: experiment and numerical simulation, Water Res. 185 (2020) 116251.[9] A. Mitranescu, A. Deutsch, M. Amin, J.E. Drewes, Flow characteristics and concentration polarization of surface-patterned reverse osmosis membranes in spacer-filled feed channels: a CFD modeling study, J. Water Proc. Eng. 76 (2025) 108229.[10] L.N. Sim, T.H. Chong, A.H. Taheri, S.T.V. Sim, L. Lai, W.B. Krantz, A.G. Fane, A review of fouling indices and monitoring techniques for reverse osmosis, Desalination 434 (2018) 169–188.[11] G. Rudolph, T. Virtanen, M. Ferrando, C. Güell, F. Lipnizki, M. Kallioinen, A review of in situ real-time monitoring techniques for membrane fouling in the biotechnology, biorefinery and food sectors, J. Membr. Sci. 588 (2019) 117221.[12] K.T. Huisman, B. Blankert, H. Horn, M. Wagner, J.S. Vrouwenvelder, S. Bucs, L. Fortunato, Noninvasive monitoring of fouling in membrane processes by optical coherence tomography: a review, J. Membr. Sci. 692 (2024) 122291.[13] S. Liang, K. Fu, X. Li, Z. Wang, Unveiling the spatiotemporal dynamics of membrane fouling: a focused review on dynamic fouling characterization techniques and future perspectives, Adv. Colloid Interface Sci. 328 (2024) 103179.[14] J. Vrouwenvelder, J. Van Paassen, L. Wessels, A. Van Dam, S.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "on techniques and future perspectives, Adv. Colloid Interface Sci. 328 (2024) 103179.[14] J. Vrouwenvelder, J. Van Paassen, L. Wessels, A. Van Dam, S. Bakker, The membrane fouling simulator: a practical tool for fouling prediction and control, J. Membr. Sci. 281 (1–2) (2006) 316–324.[15] J. Vrouwenvelder, J. Kruithof, M. Van Loosdrecht, Integrated approach for biofouling control, Water Sci. Technol. 62 [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] (2010) 2477–2490.[16] S. Zou, Y.-N. Wang, F. Wicaksana, T. Aung, P.C.Y. Wong, A.G. Fane, C.Y. Tang, Direct microscopic observation of forward osmosis membrane fouling by microalgae: critical flux and the role of operational conditions, J. Membr. Sci. 436 (2013) 174–185.[17] X. Huang, G.R. Guillen, E.M. Hoek, A new high-pressure optical membrane module for direct observation of seawater RO membrane fouling and cleaning, J. Membr. Sci. 364 (1–2) (2010) 149–156.[18] H. Oesinghaus, D. Wanken, K. Lupp, M. Gastl, M. Elsner, K. Glas, Incipient biofouling detection via fiber optical sensing and image analysis in reverse osmosis processes, Membranes 13 (6) (2023) 553.[19] J. Vrouwenvelder, D.G. Von Der Schulenburg, J. Kruithof, M. Johns, M. Van Loosdrecht, Biofouling of spiral-wound nanofiltration and reverse osmosis membranes: a feed spacer problem, Water Res. 43 (3) (2009) 583–594.[20] N. Farhat, L. Javier, M.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ng of spiral-wound nanofiltration and reverse osmosis membranes: a feed spacer problem, Water Res. 43 (3) (2009) 583–594.[20] N. Farhat, L. Javier, M. Van Loosdrecht, J. Kruithof, J.S. Vrouwenvelder, Role of feed water biodegradable substrate concentration on biofouling: biofilm characteristics, membrane performance and cleanability, Water Res. 150 (2019) 1–11.[21] C. Dreszer, A.D. Wexler, S. Drusov´a, T. Overdijk, A. Zwijnenburg, H.-C. Flemming, J.C. Kruithof, J.S. Vrouwenvelder, In-situ biofilm characterization in membrane systems using optical coherence tomography: formation, structure, detachment and impact of flux change, Water Res. 67 (2014) 243–254.[22] L. Fortunato, S. Bucs, R.V. Linares, C. Cali, J.S. Vrouwenvelder, T. Leiknes, Spatially-resolved in-situ quantification of biofouling using optical coherence tomography (OCT) and 3D image analysis in a spacer filled channel, J. Membr. Sci. 524 (2017) 673–681.[23] P.A. Araújo, J.C. Kruithof, M.C. Van Loosdrecht, J.S. Vrouwenvelder, The potential of standard and modified feed spacers for biofouling control, J. Membr. Sci. 403 (2012) 58–70.[24] S.S. Bucs, R.V. Linares, N. Farhat, A. Matin, Z. Khan, M.C. Van Loosdrecht, R. Yang, M. Wang, K.K. Gleason, J.C. Kruithof, Coating of reverse osmosis membranes with amphiphilic copolymers for biofouling control, Desalination Water Treat. 68 (2017) 1–11.[25] M.F. Nava-Ocampo, S.S. Bucs, A.S. Farinha, M. Son, B.E. Logan, J. S.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "copolymers for biofouling control, Desalination Water Treat. 68 (2017) 1–11.[25] M.F. Nava-Ocampo, S.S. Bucs, A.S. Farinha, M. Son, B.E. Logan, J. S. Vrouwenvelder, Sacrificial coating development for biofouling control in membrane systems, Desalination 496 (2020) 114650.[26] N. Farhat, E. Loubineaud, E. Prest, J. El-Chakhtoura, C. Salles, S.S. Bucs, J. Tramp´e, W. Van den Broek, J. Van Agtmaal, M.C. Van Loosdrecht, Application of monochloramine for wastewater reuse: effect on biostability during transport and biofouling in RO membranes, J. Membr. Sci. 551 (2018) 243–253.[27] A. Siddiqui, I. Pinel, E. Prest, S.S. Bucs, M. Van Loosdrecht, J. Kruithof, J. S. Vrouwenvelder, Application of DBNPA dosage for biofouling control in spiral wound membrane systems, Desalination Water Treat. 68 (2017) 12–22.[28] N. Farhat, M. Staal, S.S. Bucs, M. Van Loosdrecht, J.S. Vrouwenvelder, Spatial heterogeneity of biofouling under different cross-flow velocities in reverse osmosis membrane systems, J. Membr. Sci. 520 (2016) 964–971.[29] J. Vrouwenvelder, J. Buiter, M. Riviere, W. Van der Meer, M. Van Loosdrecht, J. Kruithof, Impact of flow regime on pressure drop increase and biomass accumulation and morphology in membrane systems, Water Res. 44 (3) (2010) 689–702.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[30] N. Farhat, J.S. Vrouwenvelder, M.C. Van Loosdrecht, S.S. Bucs, M. Staal, Effect of water temperature on biofouling development in reverse osmosis membrane systems, Water Res. 103 (2016) 149–159.[31] L.H. Kim, M. Nava-Ocampo, M.C. van Loosdrecht, J.C. Kruithof, J. S. Vrouwenvelder, The membrane fouling simulator: development, application, and early-warning of biofouling in RO treatment, Desalination Water Treat. 126 (2018) 1–23.[32] A. Malakian, S.M. Husson, Revealing the spatiotemporal dynamics of protein fouling on micropatterned ultrafiltration membranes by in-situ visualization, Journal of Membrane Science Letters (2025) 100097.[33] W. Choi, C. Lee, D. Lee, Y.J. Won, G.W. Lee, M.G. Shin, B. Chun, T.-S. Kim, H.- D. Park, H.W. Jung, Sharkskin-mimetic desalination membranes with ultralow biofouling, J. Mater. Chem. A 6 (45) (2018) 23034–23045.[34] L. Vanysacker, P. Declerck, I. Vankelecom, Development of a high throughput cross-flow filtration system for detailed investigation of fouling processes, J. Membr. Sci. 442 (2013) 168–176.[35] G. Pratofiorito, H. Horn, F. Saravia, Differentiating fouling on the membrane and on the spacer in low-pressure reverse-osmosis under high organic load using optical coherence tomography, Separ. Purif. Technol. 291 (2022) 120885.[36] S. Kerdi, A. Qamar, A. Alpatova, N. Ghaffour, An in-situ technique for the direct structural characterization of biofouling in membrane filtration, J. Membr. Sci. 583 (2019) 81–92.[37] E.W. Tow, B. Rad, R.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "u technique for the direct structural characterization of biofouling in membrane filtration, J. Membr. Sci. 583 (2019) 81–92.[37] E.W. Tow, B. Rad, R. Kostecki, Biofouling of filtration membranes in wastewater reuse: in situ visualization with confocal laser scanning microscopy, J. Membr. Sci. 644 (2022) 120019.[38] S. Park, T. Nam, J. Park, S. Kim, Y. Ahn, S. Lee, Y.M. Kim, W. Jung, K.H. Cho, Investigating the influence of organic matter composition on biofilm volumes in reverse osmosis using optical coherence tomography, Desalination 419 (2017) 125–132.[39] S. West, M. Wagner, C. Engelke, H. Horn, Optical coherence tomography for the in situ three-dimensional visualization and quantification of feed spacer channel fouling in reverse osmosis membrane modules, J. Membr. Sci. 498 (2016) 345–352.[40] L. Fortunato, S. Jeong, T. Leiknes, Time-resolved monitoring of biofouling development on a flat sheet membrane using optical coherence tomography, Sci. Rep. 7 (1) (2017) 15.[41] H.J. Tanudjaja, N.A. Amin, A. Qamar, S. Kerdi, H. Basamh, T. Altmann, R. Das, N. Ghaffour, Precise biofilm thickness prediction in SWRO desalination from planar camera images by DNN models, npj Clean Water 8 (1) (2025) 22.[42] A. Qamar, S. Kerdi, N. Amin, X. Zhang, J. Vrouwenvelder, N. Ghaffour, A deep neural networks framework for in-situ biofilm thickness detection and hydrodynamics tracing for filtration systems, Separ. Purif. Technol. 301 (2022) 121959.[43] M. Futo, T. ˇSiroki, S. Koska, N. ˇCorak, A.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "detection and hydrodynamics tracing for filtration systems, Separ. Purif. Technol. 301 (2022) 121959.[43] M. Futo, T. ˇSiroki, S. Koska, N. ˇCorak, A. Tuˇsar, M. Domazet-Loˇso, T. DomazetLoˇso, A novel time-lapse imaging method for studying developing bacterial biofilms, Sci. Rep. 12 (1) (2022) 21120.[44] J. Vrouwenvelder, S. Bakker, L. Wessels, J. Van Paassen, The membrane fouling simulator as a new tool for biofouling control of spiral-wound membranes, Desalination 204 (1–3) (2007) 170–174.[45] J. Vrouwenvelder, J. Van Paassen, J. Van Agtmaal, M. Van Loosdrecht, J. Kruithof, A critical flux to avoid biofouling of spiral wound nanofiltration and reverse osmosis membranes: fact or fiction? J. Membr. Sci. 326 (1) (2009) 36–44.[46] N. Horstmeyer, T. Lippert, D. Sch¨on, F. Schlederer, C. Picioreanu, K. Achterhold, F. Pfeiffer, J.E. Drewes, CT scanning of membrane feed spacers–impact of spacer model accuracy on hydrodynamic and solute transport modeling in membrane feed channels, J. Membr. Sci. 564 (2018) 133–145.[47] S.S. Bucs, A.I. Radu, V. Lavric, J.S. Vrouwenvelder, C. Picioreanu, Effect of different commercial feed spacers on biofouling of reverse osmosis membrane systems: a numerical study, Desalination 343 (2014) 26–37.[48] J. Schindelin, I. Arganda-Carreras, E. Frise, V. Kaynig, M. Longair, T. Pietzsch, S. Preibisch, C. Rueden, S. Saalfeld, B. Schmid, Fiji: an open-source platform for biological-image analysis, Nat. Methods 9 (7) (2012) 676–682.[49] G.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". Preibisch, C. Rueden, S. Saalfeld, B. Schmid, Fiji: an open-source platform for biological-image analysis, Nat. Methods 9 (7) (2012) 676–682.[49] G. Bradski, The Opencv library, Dr. Dobb's J. Softw. Tools Prof. Program. 25 [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] (2000) 120–123.[50] N.R. Sarker, A.M. Bilton, Real-time computational imaging of reverse osmosis membrane scaling under intermittent operation, J. Membr. Sci. 636 (2021) 119556.[51] N. Farhat, M. Staal, A. Siddiqui, S. Borisov, S.S. Bucs, J.S. Vrouwenvelder, Early non-destructive biofouling detection and spatial distribution: application of oxygen sensing optodes, Water Res. 83 (2015) 10–20.[52] K.T. Huisman, N. Franco-Clavijo, J.S. Vrouwenvelder, B. Blankert, Improved quantitative evaluation of the fouling potential in spacer-filled membrane filtration channels through a biofouling index based on the relative pressure drop, J. Membr. Sci. 671 (2023) 121400.",
+    "citation": {
+      "authors": [
+        "Mitranescu A.",
+        "Steger A.",
+        "Sudjito A.",
+        "Drewes J.E.",
+        "However D."
+      ],
+      "paper_id": "1-s2.0-S0376738825014279-main",
+      "title": "Low-cost image-based monitoring to assess spatial and temporal biofouling dynamics in high-pressure membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  }
+]

@@ -1,0 +1,759 @@
+[
+  {
+    "content": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery Xinpu Niu a, Zongkai Liu b, Norihiro Moriyama a, Hiroki Nagasawa a, Toshinori Tsuru a, Masakoto Kanezashi a,* a Chemical Engineering Program, Graduate School of Advanced Science and Engineering, Hiroshima University, Higashi-Hiroshima, 739-8527, Japanb School of Chemical Engineering, Zhengzhou University, Zhengzhou, 450001, PR China\n\nA R T I C L E I N F O Keywords:Membrane separationCarbon-silica-zirconia ceramicPervaporationMethanol recovery",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Carbon-SiO2-ZrO2 (C–SiO2–ZrO2) membranes are promising candidates for MeOH/solvent separations via per­vaporation (PV) owing to their outstanding molecular sieving properties, tunable surface characteristics, and chemical stability. However, their dense structure and small pore sizes require deliberate microstructural design for effective MeOH recovery. In this study, benzoylformic acid (BFA) was used as an organic chelating ligand to engineer the C–SiO2–ZrO2 membrane pore structure, with 3-aminopropyltriethoxysilane (APTES) and zirconium (IV) tert-butoxide (ZrTB) as precursors. The rigid phenyl groups in BFA facilitated the formation of a loosely structured SiO2–ZrO2 network via steric hindrance and π-π interaction. Carbonization of the APTES-ZrTB-BFA (AZB) material released the pore structure occupied by organic moieties and enhanced the hydrophilicity of the membrane. The AZB membrane carbonized at 700 ◦C combined a uniform, loose microporous structure with a hydrophilic surface, achieving MeOH permeance surpassing 10-7 mol m-2 s-1 Pa-1 and selectivities of 120 and 1200 for MeOH/DMC and MeOH/toluene, respectively, in the PV process. This work provides valuable insights into tailoring the microstructure of C–SiO2–ZrO2 membranes for challenging sub-nanometer separations.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Methanol (MeOH) is a commonly used solvent in industries such as petroleum, pharmaceuticals, and petrochemicals, and is recognized as one of the most environmentally friendly fuels [1–3]. However, a considerable amount of MeOH is released into the environment as waste, which has detrimental effects on the economy, environment, and public health. For instance, in the United States alone, approximately 14 million tons of MeOH were utilized for waste management in 2019, with approximately 818,258 tons discharged without adequate purification, according to data reported by the United States Environmental Protec­tion Agency (EPA) [4]. In industrial processes for organic solvent pro­duction, MeOH forms azeotropic mixtures with other compounds, such as MeOH/dimethyl carbonate (MeOH/DMC, an azeotropic mixture with a 70/30 wt % ratio) and MeOH/toluene (an azeotropic mixture with a 72/28 wt % ratio), which complicates the separation process [5]. Furthermore, the costs associated with the recycling and disposal of solvents are comparable to the expenses of purchasing new solvents, highlighting the critical need for MeOH recovery, recycling, and reuse for economic and environmental sustainability [6].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "of purchasing new solvents, highlighting the critical need for MeOH recovery, recycling, and reuse for economic and environmental sustainability [6]. Conventional separation techniques, including extractive, azeo­tropic, and pressure-swing distillation, are energy-intensive and economically inefficient due to their substantial capital and operational costs, which account for approximately 10–15 % of the global energy consumption [7]. Therefore, the development of separation technolo­gies that combine energy and process optimization for efficient recovery and recycling of valuable products from waste streams is essential for achieving economic viability and environmental sustainability. Mem­brane separation has emerged as a promising alternative to conventional energy-intensive techniques because of its superior operational simplicity, energy efficiency, and environmental benefits. Pervaporation (PV) technology, a membrane-based method that offers both energy efficiency and eco-friendliness, enables the separation of the majority of the feed without pre-vaporization, thereby reducing the latent heat re­quirements and significantly enhancing energy efficiency [8]. There­fore, PV displays considerable advantages over traditional separation methods, particularly in lower energy consumption, reduced carbon footprint, and superior capability in processing organic solvent",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 31 October 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license ( http://creativecommons.org/licenses/bync-nd/4.0/ ). azeotropes [9,10]. The development of advanced membrane materials to achieve su­perior separation performance is critical for facilitating the industrial application of PV processes. Hydrophilic organic polymers such as poly (vinyl alcohol) (PVA), chitosan (CS), polyamide (PA), and cellulose ac­etate (CA) have been employed for the PV separation of MeOH/organic solvent mixtures due to their high hydrophilicity and ease of membrane fabrication [9,11–13]. However, despite these early advancements, polymer membranes continue to face challenges such as low mechanical strength and pronounced swelling during long-term operation, which compromise their separation efficiency. Furthermore, conventional polymer-based membranes suffer from the permeability-selectivity trade-off [14]. Inorganic sub-nanoporous membranes, such as metal-organic frameworks (MOFs), zeolites, and amorphous silica (SiO2), exhibit superior chemical stability and enhanced separation performance, demonstrating advantages in the PV separation of MeOH [15–19]. However, MOFs and zeolite membranes typically exhibit high brittleness, making them susceptible to cracking.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ges in the PV separation of MeOH [15–19]. However, MOFs and zeolite membranes typically exhibit high brittleness, making them susceptible to cracking. Consequently, the development of high-quality PV membranes that combine exceptional separation performance with pronounced stability for MeOH recovery remains a critical area of ongoing research. Silica-based membranes, with their inherent molecular sieving properties and relatively flexible amorphous structures, offer a viable solution [20,21]. Despite the tendency of conventional silica membranes to densify under high-temperature and humid conditions owing to their structural disorder and the presence of terminal hydroxyl groups [22], ceramic composite membranes that integrate SiO2 with stable metal oxides, especially zirconium oxide (ZrO2), through the sol-gel process demonstrate excellent hydrothermal and chemical stability [23]. On this basis, the modification of the ZrO2 precursor with organic chelating li­gands (OCLs) allows the consumption of alkoxy groups on its side chain, thereby regulating its hydrolysis rate and achieving a homogeneous SiO2–ZrO2 composition [24]. This approach significantly enhances the stability of the membrane while preserving its inherent separation per­formance.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "SiO2–ZrO2 composition [24]. This approach significantly enhances the stability of the membrane while preserving its inherent separation per­formance. Furthermore, through pyrolysis in an inert atmosphere, the organic components in the OCL-modified SiO2–ZrO2 (OCL-SiO2-ZrO2) are converted into carbon structures, resulting in carbon-SiO2-ZrO2 (C–SiO2–ZrO2) composite membranes that exhibit high porosity and superior hydrophilicity. Previous research demonstrates that OCL-­SiO2-ZrO2 with crosslinked organic moieties, characterized by their reduced mobility, enhances the uniformity of carbon distribution following pyrolysis and mitigates defect formation during membrane fabrication, which leads to an outstanding hydrothermal stability and molecular sieving performance [25,26]. These results suggest that C–SiO2–ZrO2 membranes are promising candidates for MeOH separation. However, to date, the organic pre­cursors used for C–SiO2–ZrO2 membranes have been based on linear alkyl structures. Although linear organic moieties with the crosslinked structure help control carbon distribution and reduce defect formation in C–SiO2–ZrO2 membranes, the dense packing of the SiO2–ZrO2 network will not be constrained due to the inherently flexible nature of the linear organic compounds. The reported C–SiO2–ZrO2 membranes, therefore, exhibited dense structures with small pore sizes, limiting their applications primarily to H2 separation and PV dehydration [21,26].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ranes, therefore, exhibited dense structures with small pore sizes, limiting their applications primarily to H2 separation and PV dehydration [21,26]. To address this, we propose that designing OCLs with nonlinear and rigid side chain structures at the molecular level is essential to promote the loose assembly of the SiO2–ZrO2 network and obtain C–SiO2–ZrO2 membranes with large and uniform micropores suitable for precise MeOH separation. Herein, benzoylformic acid (BFA) with a rigid phenyl group on side chains was deliberately selected as the OCL, while 3-aminopropyltrie­thoxysilane (APTES) and zirconium (IV) tert-butoxide (ZrTB) were selected as the precursors for Si and Zr, respectively, to design a nonlinear organic moiety with a rigid side group for the fabrication of C–SiO2–ZrO2 membranes toward the PV separation of MeOH/organic solvents. As shown in Fig. 1a, a crosslinked organic backbone can be obtained from the aldimine condensation in the obtained APTES-ZrTBBFA (AZB) sol, which will optimize the distribution of free carbon during pyrolysis and promote a uniform pore size distribution, ensuring the molecular sieving ability [25]. Additionally, the randomly distrib­uted phenyl groups on BFA act as rigid molecular spacers, inducing the loose arrangement of the SiO2–ZrO2 network during the sol-gel process",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Schematic diagram of the structural change for (a) AZB and (b) AZG composite ceramic materials before and after carbonization. X. Niu et al. Journal of Membrane Science 738 (2026) 124886 through the synergistic effect of steric hindrance and π-π interactions. Carbonization of the organic components releases the network pores, resulting in a loose membrane structure for MeOH/organic solvent separation. Notably, the AZB membrane carbonized at 700 ◦C (AZB-700) exhibited exceptional MeOH separation performance, benefiting from the synergistic effects of adsorption-diffusion and molecular sieving mechanisms, aided by the hydrophilic surface and loose pore structure. Our results demonstrate that nonlinear organic moieties derived from OCLs with rigid side chains facilitate the formation of the loose C–SiO2–ZrO2 network, offering new insights for designing C–SiO2–ZrO2 membranes with precisely tailored pore structures for broader separa­tion applications. 2. Experimental 2.1. Materials 3-aminopropyltriethoxysilane (APTES, >98.0 %) and benzoylformic acid (BFA) were procured from TCI. Tetraethoxysilane (TEOS), yttrium nitrate hexahydrate (Y(NO3)3⋅6H2O), and zirconium (IV) tert-butoxide (ZrTB, 80 wt % in 1-butanol) were purchased from Sigma-Aldrich.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e (TEOS), yttrium nitrate hexahydrate (Y(NO3)3⋅6H2O), and zirconium (IV) tert-butoxide (ZrTB, 80 wt % in 1-butanol) were purchased from Sigma-Aldrich. Methanol (MeOH, 99.5 %), ethanol (EtOH, 99.5 %), isopropanol (IPA, 99.5 %), ethyl acetate (EA, 99.5 %), dimethyl carbonate (DMC, 99.5 %), toluene (99.5 %), and glyoxylic acid monohydrate (GA, 95 %) were obtained from FUJIFILM Pure Chemical Corporation (Japan). Acetic acid (99.0 %) and nitric acid (HNO3, 60 %) were obtained from Nacalai Tesque, Inc. (Japan). Porous α-alumina (Al2O3) tubular substrates with 60 % porosity, a length of 10 cm, an outer diameter of 1 cm, and an average pore size of 1.2 μm were supplied by Nikkato Co. (Japan). 2.2. Sol preparation In this study, two types of sols were synthesized, one containing the phenyl group (APTES-ZrTB-BFA, denoted as AZB) and the other without (APTES-ZrTB-GA, denoted as AZG), as illustrated in Fig. 1. Both sols were prepared via identical procedures, differing only in OCLs employed. Briefly, ZrTB was dissolved in EtOH and subsequently modified with either BFA or GA at an OCL/ZrTB molar ratio of 4:1. Subsequently, the ZrTB-OCL solution was added dropwise to the predissolved APTES in EtOH for an APTES/ZrTB molar ratio of 4:1. After thorough mixing, deionized water and acetic acid were introduced into the system, maintaining an alkoxide/H2O/acetic acid molar ratio of 1:4:0.3.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "fter thorough mixing, deionized water and acetic acid were introduced into the system, maintaining an alkoxide/H2O/acetic acid molar ratio of 1:4:0.3. The resulting mixture was stirred at room temperature at 550 rpm for 12 h to facilitate the hydrolysis, co-condensation, and aldimine condensation reactions, and the sol concentration was maintained at 5 wt %. 2.3. Membrane, film, and xerogel powders preparation The fabricated membrane consists of a porous α-Al2O3 substrate, particle layer, intermediate layer, and separation layer. To fabricate the particle layer, a nonwoven fabric was wetted with a 10 wt % dispersion of 1–2 μm α-Al2O3 particles in a Y–SiO2–ZrO2 sol, which was prepared following established procedures (as described in Text S1 of the Sup­porting Information) [27]. This dispersion was applied onto the α-Al2O3 substrate, followed by air-drying and calcination at 800 ◦C for 20 min. Then, a dispersion of 0.2 μm α-Al2O3 particles in Y–SiO2–ZrO2 sol was applied using the same procedure. Both coating steps were repeated several times to smooth the surface and cover pinholes or defects on the substrate. The intermediate layer was prepared by coating a diluted Y–SiO2–ZrO2 sol (0.5 wt %). The substrate was heated to 200 ◦C, fol­lowed by coating of the Y–SiO2–ZrO2 sol wetted nonwoven fabric, and the membrane was calcined at 800 ◦C for 20 min.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ubstrate was heated to 200 ◦C, fol­lowed by coating of the Y–SiO2–ZrO2 sol wetted nonwoven fabric, and the membrane was calcined at 800 ◦C for 20 min. This step was repeated 5–6 times to ensure a smooth, defect-free intermediate layer with a pore size of approximately 1 nm, which prevented the penetration of the",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "AZB/AZG sol. Finally, the separation layer was fabricated by coating the membrane with a 0.2 wt % EtOH-diluted AZB/AZG sol. The membrane was heated to 200 ◦C, coated with the sol-wetted nonwoven fabric, and then carbonized at 550, 700, or 800 ◦C under N2 for 30 min. The obtained membranes were denoted as AZB-x and AZG-x, where x represents the calcination temperature. The AZB-/AZG-derived films were prepared on Si wafers, which were pretreated with ultraviolet (UV) irradiation, by spin-coating, followed by calcination at specified temperatures. To obtain the xerogel powders, the AZB/AZG sol was subjected to slow solvent evaporation at 50–80 ◦C in air, followed by carbonization under N2 at predetermined tempera­tures. Detailed characterization methods are provided in Text S2 of the Supporting Information. 2.4. Gas and PV performance measurement The physical properties of gas and solvent molecules used for mea­surements are listed in Table S1. The single-gas permeation performance of AZG membranes was evaluated at 200 ◦C for He, H2, CO2, N2, CH4, CF4, and SF6, with the setup illustrated in Fig. S1a. A pressure differ­ential of ~200 kPa was maintained across the membrane using a backpressure valve, while the permeate flow rate was measured using a soap film flowmeter. Before measurements, the membrane was pre­conditioned at 200 ◦C under a 20 mL min-1 N2 flow for 12 h to eliminate any residual moisture. Each test was conducted at least five times to ensure reliability.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "at 200 ◦C under a 20 mL min-1 N2 flow for 12 h to eliminate any residual moisture. Each test was conducted at least five times to ensure reliability. The schematic of the PV setup is shown in Fig. S1b. The feed tem­perature (30–60 ◦C) was controlled using a heater coil and monitored with a thermocouple. MeOH/organic solvent (IPA, EA, DMC, and toluene) mixtures were continuously stirred on the feed side at atmo­spheric pressure (101.3 kPa), while the permeate side was maintained under vacuum (~0 kPa). The permeate was collected using a cold trap, and the compositions of both the feed and permeate were analyzed using gas chromatography (GC-14B, Shimadzu, Japan). Flux and separation factor were calculated using Equations (1) and (2), respectively: Ji =QA * t(1) α = yi /yjxi/xj",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(2) where Ji (kg m-2 h-1), Q (kg), A(m2), t (h), α ( -), xi ( -), and yi ( -)represent the flux, permeate weight, effective membrane area, perme­ation time, molar fraction of each component i in the feed side, and molar fraction of each component i in the permeate side, respectively. Permeance and selectivity were calculated using Equations (3) and (4): Pi =Ji(γixiP0,i -Pp,i )(3) β = Pi Pj\n\n(4) where Pi (mol m-2 s-1 Pa-1), β ( -), Ji (mol m-2 s-1), Pp,i (Pa), P0,i (Pa), γi ( -), and xi ( -) represent the permeance, selectivity, flux, partial pressure in the permeate side, saturated vapor pressure in the feed side, activity coefficient, and mole fraction of component i, respectively.\n\nX. Niu et al. Journal of Membrane Science 738 (2026) 124886",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Results and discussion 3.1. Effects of OCLs on the microstructure and thermal stability of C–SiO2–ZrO2 materials To evaluate the effect of different OCLs on the C–SiO2–ZrO2 struc­ture, a series of chemical structure characterizations were conducted on AZB and AZG. Previous studies have confirmed the role of GA in modifying ZrTB [25]. In this study, we explored the modification effect of BFA on ZrTB through Fourier transform infrared spectroscopy (FTIR), as shown in Fig. 2a. The FTIR spectrum of BFA displayed characteristic peaks corresponding to the C––O groups in the carboxyl and aldehyde groups at 1755 and 1665 cm-1, the C–O bond of the aldehyde group at 1240 cm-1, and the aromatic ring vibrations at 1600 and 1430 cm-1 [28–31]. Compared with the pristine ZrTB, the BFA-modified ZrTB (ZrTB-BFA) exhibited characteristic aromatic ring and C–O bond peaks from BFA. Additionally, the C––O peak of the carboxyl group at 1755 cm-1 was almost absent in ZrTB-BFA, and a new peak appeared in the range of 1600–1650 cm-1, which was ascribed to the carboxylate-metal complexes [32], indicating the successful modification of ZrTB by the carboxyl group on BFA. Fig. 2b presents the FTIR spectra of the uncal­cined AZG and AZB films. For the AZB sample, the characteristic peaks associated with C––O bonds and carboxylate-metal complexes were replaced by a peak in the 1500–1720 cm-1 range, indicative of imine bond formation [33].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "sociated with C––O bonds and carboxylate-metal complexes were replaced by a peak in the 1500–1720 cm-1 range, indicative of imine bond formation [33]. Additionally, a distinct peak around 1070 cm-1, corresponding to Si–O–Si bonds in a SiO2-like network structure [34,35], was observed. The AZB and AZG exhibited nearly identical FTIR spectra, with the exception of a characteristic peak at 1430 cm-1 attributed to aromatic ring vibrations was observed in AZB. Notably, the peak at 1755 cm-1, which was also related to aromatic ring vibrations, was unobservable in the AZB sample due to being obscured by the imine bond peak. To further elucidate the chemical structures of the obtained mate­rials, X-ray photoelectron spectroscopy (XPS) analysis was performed. As shown in Fig. 2c, almost no difference was observed in the N 1s spectra for both AZG and AZB samples, since the N element originated from the amine groups on APTES and underwent the same reaction process. The deconvoluted peaks in both samples at 398.9, 400.3, and 402.1 eV correspond to the imine (C––N) bond, C–N bond, and incom­pletely reacted –NH2 groups, respectively. These results provide direct evidence for the progression of aldimine condensation and the forma­tion of crosslinked organic moieties in both the AZG and AZB samples. Fig. 2d shows the C 1s XPS profiles of the AZB and AZG samples.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "on and the forma­tion of crosslinked organic moieties in both the AZG and AZB samples. Fig. 2d shows the C 1s XPS profiles of the AZB and AZG samples. The deconvoluted peaks observed at 285.7, 286.6, and 289.0 eV correspond to sp3 carbon, C––N/C–O/C–N, and C–Si bonds, respectively, in both samples. Notably, the C 1s spectrum of AZB revealed an additional peak at 284.7 eV, attributed to sp2 carbon, which arises from the phenyl group. This observation confirms the preservation of the phenyl group from the BFA structure in the AZB sample. The thermal stabilities and pyrolysis behaviors of the AZG and AZB xerogel powders were investigated using thermogravimetric analysis (TGA). Before measurement, both samples were kept at 100 ◦C under N2 flow for 2 h to eliminate any adsorbed moisture. As illustrated in Fig. 3a, both samples exhibited a pronounced weight loss in the temperature range of approximately 300–600 ◦C, which is associated with the degradation of the organic backbone within the materials. However, the weight loss observed for AZB was greater than that of AZG, which could be attributed to the phenyl groups present in the organic chains of AZB. Additionally, carbonized AZG and AZB samples obtained after TGA under N2 were further subjected to TGA in air to assess the carbon content difference in the C–SiO2–ZrO2 derived from various OCLs. As depicted in Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nder N2 were further subjected to TGA in air to assess the carbon content difference in the C–SiO2–ZrO2 derived from various OCLs. As depicted in Fig. S2, both carbonized AZG and AZB underwent complete degradation at 1000 ◦C, and the carbon content of AZB (0.283 mg mg-1) was higher than that of AZG (0.227 mg mg-1). Following the test, both samples transitioned from black to white, indicating the complete oxidation of carbon, which further corroborates the accuracy of the results. Fig. 3b displays the X-ray diffraction (XRD) patterns of AZG and AZB xerogel powders calcined at various temperatures. A calcination tem­perature of 250 ◦C was employed to preserve the integrity of the organic",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. (a) FTIR spectra of ZrTB, BFA, and ZrTB-BFA. (b) FTIR spectra of AZB and AZG films without calcination. High-resolution (c) N 1s and (d) C 1s XPS spectra of the AZG and AZB xerogel powders without calcination. X. Niu et al. Journal of Membrane Science 738 (2026) 124886 components, while temperatures of 550 ◦C and 700 ◦C were employed for carbonized samples. All samples exhibited a broad amorphous peak in the 15–35◦range, corresponding to the Si–O–Zr lattice. Upon further inspection, AZB-250 exhibited a significantly narrower full width at half-maximum (FWHM) and larger d-spacing than AZG-250, indicating a more ordered and loosely packed lattice structure [36]. This can be attributed to the repulsive and π-π interaction between the randomly distributed phenyl groups, which will serve as the rigid molecular spacer for the network structure, in the nonlinear BFA side chains. The d-spacing decreased and the FWHM increased with increasing calcina­tion temperature for all AZG and AZB samples, suggesting a densified ceramic network structure and a more disordered structure due to the transformation of the rigid crosslinked organic moieties to amorphous carbon [37]. However, the d-spacings of the AZB samples remained larger than those of the AZG samples at all temperatures, indicating looser structures.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rbon [37]. However, the d-spacings of the AZB samples remained larger than those of the AZG samples at all temperatures, indicating looser structures. No tetragonal ZrO2 peaks were observed in the XRD spectra of the AZB samples [38], and the amorphous structure remained even after calcination at 700 ◦C, confirming the homogeneous SiO2–ZrO2 network structure. After assessing the pyrolysis behavior and phase information of the AZG and AZB materials, N2 adsorption was applied to reveal the dif­ferences in the microstructures of C–SiO2–ZrO2 derived from different OCLs, as shown in Fig. 3c. The AZG sample carbonized at 550 ◦C exhibited typical type I isotherms, indicating a microporous structure [39,40]. However, as the carbonization temperature increased to 700 ◦C, N2 adsorption became negligible for AZG-700, and the Brunauer-Emmett-Teller (BET) surface area and pore volume decreased significantly, suggesting a densification into a non-porous structure (Table 1). In contrast, AZB samples carbonized at both 550 ◦C and 700 ◦C exhibited type I isotherms, indicating the microporous domi­nance networks. Although N2 adsorption decreased slightly with increasing carbonization temperature owing to the densification of the",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "SiO2–ZrO2 network and formation of an ultra-microporous graphitic carbon structure, AZB-700 exhibited higher N2 adsorption, BET surface area, and pore volume than AZG-550 (Table 1). These results demon­strate that a loose C–SiO2–ZrO2 network derived from the AZB material can be obtained. Notably, the decrease in BET surface area and pore volume of AZB (approximately 33 %) was significantly lower than that of AZG (approximately 98 %) as the carbonization temperature increased from 550 ◦C to 700 ◦C, indicating the superior thermal sta­bility of AZB. This enhanced stability is likely due to the higher carbon content in the AZB structure, which provides better shielding against hydrolysis and condensation of the terminal hydroxyl groups in the network [41]. To further investigate the impact of different OCLs on the pore structure of C–SiO2–ZrO2 membranes, we compared the single-gas permeation performances of AZG-550 and AZB-550 membranes at 200 ◦C, as shown in Fig. 3d. At this temperature, the adsorption effects are negligible, providing more accurate representation of the membrane pore characteristics. The gas permeance decreased as the molecular size increased, indicating the molecular sieving properties. Notably, the AZB-550 membrane exhibited significantly higher permeances for all measured gases than the AZG-550 membrane. For instance, the N2 permeance of the AZB-550 membrane exceeded 10-7 mol m-2 s-1 Pa-1,",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. (a) TGA curves of the as-prepared AZG and AZB xerogel powders under N2 in the temperature range of 100–1000 ◦C. (b) XRD patterns of AZG and AZB xerogel powders calcined at 250, 550, and 700 ◦C. (c) N2 adsorption/desorption isotherms at 77 K for AZG and AZB xerogel powders carbonized at 550 and 700 ◦C. (d) Molecular size dependence of the permeance at 200 ◦C for single-gas permeation for AZG-550 and AZB-550 membranes.\n\nTable 1 BET surface area and total pore volume of AZG and AZB xerogel powders carbonized at 550 and 700 ◦C. SamplesBET surface area [m2 g-1]\n\nTotal pore volum [cm3 g-1]\n\nAZG-55078.80.0392AZG-7001.440.0008AZB-5503290.1419AZB-7002210.0950",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "X. Niu et al. Journal of Membrane Science 738 (2026) 124886 far surpassing that of the AZG-550 membrane (4.0 * 10-9 mol m-2 s-1 Pa-1). Given the similar molecular sizes of N2 (0.364 nm) and MeOH (0.38 nm), AZB-derived membranes show good potential for MeOH separation. Additionally, pore size analysis based on the normalized Knudsen permeance (NKP) in relation to the kinetic diameter (details can be found in Text S3 in the Supporting Information) revealed that AZB-550 (0.75 nm) had a larger pore size than AZG-550 (0.55 nm) (Fig. S3). These results collaboratively demonstrate that phenylcontaining OCL effectively act as rigid network spacer and carbon pre­cursor, resulting in a microporous C–SiO2–ZrO2 membrane with large pore structure for sub-nanometer-scale molecular separation. 3.2. The impacts of calcination temperature on the physicochemical properties of the AZB material Having demonstrated the influence of various OCLs on the C–SiO2–ZrO2 network structure and the large pore size of AZB-derived membranes, we further investigated the impact of carbonization tem­perature on the structural and surface properties of the AZB material. Given that the AZB material retained its porous structure upon calci­nation at 700 ◦C, carbonization temperatures of 550, 700, and 800 ◦C were selected for further analysis. Fig. 4a presents transmission electron microscopy (TEM) images and electron diffraction patterns of AZB xerogel powders carbonized at different temperatures.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "presents transmission electron microscopy (TEM) images and electron diffraction patterns of AZB xerogel powders carbonized at different temperatures. All samples dis­played uniform structures without phase boundaries, accompanied by broad electron diffraction halos. These findings suggest that the homo­geneous composition of SiO2–ZrO2 and the free carbon generated during pyrolysis is uniformly integrated into the ceramic matrix, effectively preserving the amorphous structure even at 800 ◦C. Fig. 4b shows the Raman spectra of AZB xerogel powders carbonized at different temperatures. The spectra for all carbonized AZB samples exhibited a D peak at 1340 cm-1, corresponding to disordered carbon, and a G peak at 1580 cm-1, corresponding to ordered graphitic carbon [42]. Notably, the intensity ratio of the D and G peaks (ID/IG) decreased with increasing carbonization temperature, suggesting a more ordered ultramicroporous graphitic carbon structure. Fig. 4c presents the N2 adsorption/desorption isotherms of AZB xerogel powders carbonized at 550, 700, and 800 ◦C. The N2 adsorption capacity and BET surface areas decreased with higher carbonization temperature, with the AZB-800 exhibiting a non-porous character. Although AZB-700 exhibited slightly lower N2 adsorption capacity and specific surface area compared to AZB-550, its pore size distribution was notably more uniform (Fig. S4).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ed slightly lower N2 adsorption capacity and specific surface area compared to AZB-550, its pore size distribution was notably more uniform (Fig. S4). At a relatively low carbonization tem­perature of 550 ◦C, the SiO2–ZrO2 network remained non-densified. However, the organic components in AZB-550 are not completely py­rolyzed according to the TGA result. Consequently, although AZB-550 retains high microporosity, its pore structure is nonuniform. Carbon­ization at 700 ◦C fully pyrolyzes the organic components, and more ordered graphitic carbon with ultramicroporous structures formed, along with slight densification of the SiO2–ZrO2 network. This results in a more uniform microporous network, albeit with a modest reduction in microporosity. For AZB-800, although ordered graphitic carbon forms, excessive densification of the SiO2–ZrO2 network collapses the porous structure. After clarifying the influence of calcination temperature on the textural properties of AZB materials, we proceeded to investigate the surface chemistry of the carbonized AZB. Fig. 5a displays the water contact angles (WCA) of AZB films carbonized at different temperatures. The WCA decreased with increasing calcination temperature, indicating enhanced hydrophilicity. The increased hydrophilicity from AZB-550 to",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. (a) High-resolution TEM images and electron-diffraction patterns of AZB xerogel powders carbonized at 550, 700, and 800 ◦C. (b) Raman spectra of AZB xerogel powders carbonized at 550, 700, and 800 ◦C. (c) N2 adsorption/desorption isotherms at 77 K and BET surface area of AZB xerogel powders carbonized at 550, 700, and 800 ◦C. X. Niu et al. Journal of Membrane Science 738 (2026) 124886",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "AZB-700 can be attributed to more complete pyrolysis of the organic components. However, despite graphite carbon structures showing moderate hydrophilic [43], AZB-800 exhibited even smaller WCA than AZB-700. To investigate the underlying mechanism, the N 1s XPS pro­files of the samples were analyzed. As shown in Fig. 5b, the N 1s spectra of AZB-550 and AZB-700 were deconvoluted into two peaks at 399.1 and 400.5 eV, corresponding to C––N and C–N, respectively [44]. In contrast, the N 1s peak of AZB-800 shifted to a lower binding energy, with peaks referring to pyridinic N and pyrrolic N at 398.8 and 399.8 eV, respectively [45]. These findings suggest the formation of a hydrophilic N-doped graphitic carbon structure in AZB-800, which further enhances its hydrophilicity compared to AZB-700 [46]. To assess the potential of carbonized AZB materials for MeOH re­covery, we investigated their adsorption capacities for MeOH and toluene, as shown in Fig. 5c and S5. Owing to the inherent hydrophilicity of carbonized AZB and the small molecular size of MeOH, all samples demonstrated a higher adsorption capacity for MeOH than toluene. Notably, although AZB-700 displayed a slightly lower microporosity than AZB-550, it exhibited a MeOH adsorption capacity comparable to that of the latter. This can be attributed to the enhanced hydrophilicity of AZB-700, which is also confirmed by the higher MeOH adsorption heat (Qst) for AZB-700 than that of AZB-550 (Fig. S6).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "o the enhanced hydrophilicity of AZB-700, which is also confirmed by the higher MeOH adsorption heat (Qst) for AZB-700 than that of AZB-550 (Fig. S6). Moreover, the toluene adsorption of AZB-700 was lower than that of AZB-550, which is due to the more uniform pore size distribution of AZB-700. Although the low WCA and high Qst for MeOH (Fig. S6) confirmed the strong hy­drophilicity of AZB-800, the adsorption capacities of both MeOH and toluene in AZB-800 were lower than those of AZB-550 and AZB-700 due to the dense network structure. To further realistically assess the adsorption separation capability of carbonized AZB for MeOH, the breakthrough experiment was conducted using a MeOH/toluene (50/50 v/v) mixture. As depicted in Fig. 5d, AZB-550, AZB-700, and AZB-800 effectively excluded toluene and dynamically adsorbed MeOH during the initial stage of the breakthrough measurements. However, in com­parison to AZB-550 (with retention times of 89.7 min for MeOH and 11.2 min for toluene), AZB-700 exhibited a significantly longer retention time for MeOH (140.3 min) and shorter retention time for toluene (4.14 min). In contrast, AZB-800 exhibited the shortest retention times for both MeOH (28.2 min) and toluene (3.11 min). AZB-700 clearly dis­played the most pronounced MeOH/toluene adsorption separation ef­ficiency, which can be attributed to its optimal balance of high hydrophilicity, moderate microporosity, and uniform microporous structure.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "aration ef­ficiency, which can be attributed to its optimal balance of high hydrophilicity, moderate microporosity, and uniform microporous structure. The separation performances of AZB-550 and AZB-800 were less pronounced than that of AZB-700 because of the relatively low hydrophilicity of AZB-550 and the dense structure of AZB-800. Furthermore, the MeOH adsorption capacities of AZB-550 (18.10 cm3 g-1) and AZB-700 (20.08 cm3 g-1) were comparable in the break­through experiment, and both were significantly higher than that of AZB-800 (6.78 cm3 g-1). In contrast, the toluene adsorption capacities followed the order: AZB-550 (2.84 cm3 g-1) > AZB-700 (1.58 cm3 g-1) > AZB-800 (0.97 cm3 g-1). Both trends are consistent with the results obtained from single-component adsorption. Notably, all three materials successfully achieved effective MeOH/toluene separation and demon­strated column breakthrough for high-purity toluene (>99.9 %), thus achieving MeOH enrichment and purification, as shown in Fig. S7. Following a comprehensive characterization of the physicochemical properties of AZB materials at various calcination temperatures, the gas permeation performances of the membranes were assessed to provide more direct insight into the structural changes. Fig. 6a illustrates the permeance of H2, N2, and SF6, along with the H2/N2 and N2/SF6 selec­tivities for AZB membranes as a function of calcination temperature.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. (a) Water contact angles of AZB films carbonized at 550, 700, and 800 ◦C. (b) N 1s XPS spectra of AZB xerogel powders carbonized at 550, 700, and 800 ◦C. (c) MeOH adsorption/desorption isotherms at 25 ◦C of AZB xerogel powders carbonized at 550, 700, and 800 ◦C. (d) Breakthrough curves for MeOH/toluene (volume ratio of 50/50 vol %) separations at 100 kPa and 25 ◦C with AZB xerogel powders carbonized at 550, 700, and 800 ◦C. C0 and Ci represent the inlet and outlet concentration of the breakthrough column for component i, respectively. X. Niu et al. Journal of Membrane Science 738 (2026) 124886 accompanied by an increase in H2/N2 selectivity. To explain this change, the cross-sectional SEM images of AZB-550, AZB-700, and AZB-800 membranes were observed, as shown in Fig. S8. All membranes featured a continuous C–SiO2–ZrO2 selective layer (less than 100 nm in thickness), which was tightly bonded to the intermediate layer. Although the thickness of the selective layer decreased at higher carbonization temperatures due to the complete pyrolysis of organic components and the densified SiO2–ZrO2 structure, potentially reducing the gas permeation resistance, the gas permeance decreased. This sug­gests that the lower gas permeance and higher H2/N2 selectivities at higher carbonization temperatures can be attributed to the more compact structure.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ests that the lower gas permeance and higher H2/N2 selectivities at higher carbonization temperatures can be attributed to the more compact structure. For the larger N2/SF6 molecules, the selectivity increased as the calcination temperature rose from 550 ◦C to 700 ◦C, reflecting an enhanced molecular sieving effect from the more uniform microporous structure. However, when the calcination temperature increased from 700 ◦C to 800 ◦C, the N2/SF6 selectivity decreased, which is attributed to the excessive densification of the membrane structure at 800 ◦C, restricting the permeation of N2. Given the similar molecular sizes of N2 (0.364 nm) and MeOH (0.38 nm) as well as SF6 (0.55 nm) and toluene (0.59 nm), the N2/SF6 sepa­ration performance of the membrane can serve as an indicator of the MeOH/solvent separation capability. Accordingly, we compared the N2/ SF6 separation performance of the AZB-550, AZB-700, and AZB-800 membranes and benchmarked against those reported in the literature, as shown in Fig. 6b (detailed data are presented in Table S2). Notably, each data point in Fig. 6b represented a distinct membrane, and the performance variations of membranes under identical fabrication con­ditions were less than 10 %, demonstrating good reproducibility. The AZB-550 membrane exhibited a high N2 permeance of 3.0 * 10-7 mol m-2 s-1 Pa-1 and a moderate N2/SF6 selectivity of 60.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ating good reproducibility. The AZB-550 membrane exhibited a high N2 permeance of 3.0 * 10-7 mol m-2 s-1 Pa-1 and a moderate N2/SF6 selectivity of 60. Although the N2 permeance of the AZB-700 membrane was slightly lower than that of the AZB-550 membrane, it still exceeded 10-7 mol m-2 s-1 Pa-1, and the N2/SF6 selectivity (180) of the AZB-700 membrane was significantly enhanced owing to its uniform microporous structure. In contrast, the AZB-800 membrane, due to its excessively dense structure, exhibited a sharp decline in N2 permeance to 10-10 mol m-2 s-1 Pa-1, with the N2/ SF6 selectivity dropping to 10. Notably, compared with various mem­branes reported in the literature, both the AZB-700 and AZB-550 membranes demonstrated attractive N2 permeances, and the AZB-700 membrane exhibited superior N2/SF6 selectivity. These results further underscore the significant potential of carbonized AZB membranes for the PV separation of MeOH/solvents.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. PV separation performance of MeOH/solvents for carbonized AZB membranes Fig. 7 and S9 show the PV separation performance of AZB-550, AZB700, and AZB-800 membranes for MeOH/IPA, MeOH/EA, MeOH/DMC, and MeOH/toluene (10/90 wt %) mixtures. With the exception of DMC, the MeOH/solvent selectivities and separation factors of all membranes gradually improved as the solvent molecule size increased. Both AZB550 and AZB-700 membranes exhibited lower MeOH permeance in the MeOH/IPA system compared to other MeOH/solvent mixtures. This can be attributed to the higher polarity and smaller molecular size of IPA than other solvent molecules, which facilitates its adsorption/diffusion within the membrane pores, thereby hindering MeOH permeation [47]. However, this effect was marginal for the AZB-800 membrane, which showed comparable MeOH permeance across various MeOH/solvent mixtures, attributable to the severely densified network structures. Furthermore, despite the slightly larger molecular size of DMC (0.53 nm) relative to that of EA (0.52 nm), the MeOH permeance and selec­tivity in the MeOH/DMC system were slightly lower than those observed in the MeOH/EA system for AZB-550 and AZB-700 membranes. This is likely due to the higher polarity of DMC, which tends to interact with the hydrophilic membrane surface [5,48].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "AZB-550 and AZB-700 membranes. This is likely due to the higher polarity of DMC, which tends to interact with the hydrophilic membrane surface [5,48]. In general, both the AZB-550 and AZB-700 membranes demonstrated comparable high MeOH per­meances, exceeding 10-7 mol m-2 s-1 Pa-1, while the MeOH/solvent selectivities of the AZB-700 membrane were superior to thoes of the AZB-550 membrane. Specifically, the AZB-700 membrane exhibited a MeOH permeance of 2.5 * 10-7 mol m-2 s-1 Pa-1 and selectivity of 120 for MeOH/DMC, as well as a MeOH permeance of 3.7 * 10-7 mol m-2 s-1 Pa-1 and selectivity of 1200 for MeOH/toluene. In contrast, the AZB-800 membrane displayed significantly lower permeances and se­lectivities for all MeOH/solvent mixtures, along with reduced flux and separation factors (Fig. S8) compared to the AZB-550 and AZB-700 membranes. The PV performance of the AZB-550 membrane is primarily gov­erned by its loose pore structure due to its low hydrophilicity, which results in high MeOH permeance and flux. However, the uneven pore size distribution limits its molecular sieving ability, leading to moderate selectivity and separation factor. In contrast, the AZB-700 membrane maintains a relatively loose sub-nanometer porous structure while exhibiting improved hydrophilicity, promoting the formation of continuous hydrogen-bonded monolayer transport chains for rapid MeOH permeation [49].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e exhibiting improved hydrophilicity, promoting the formation of continuous hydrogen-bonded monolayer transport chains for rapid MeOH permeation [49]. This promotes high MeOH permeance and flux, which are comparable to that of the AZB-550 membrane. Additionally, the adsorbed or diffused MeOH molecules, combined with a more uni­form pore size distribution, restrict the permeation of solvent molecules and improve the selectivity and separation factor. Although the AZB-800",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. (a) Effect of carbonization temperature on single-gas permeance and corresponding selectivity at 200 ◦C for AZB membranes. (b) Comparison of the N2/SF6 separation performance of carbonized AZB membranes (measured with single-gas at 200 ◦C) with that of state-of-the-art membranes. X. Niu et al. Journal of Membrane Science 738 (2026) 124886 membrane displays the highest hydrophilicity, its dense structure in­creases the MeOH permeation resistance, resulting in decreased per­meance, selectivity, flux, and separation factor. Fig. 8 illustrates the correlation between the selectivities of N2/CF4 and MeOH/IPA, as well as N2/SF6 and MeOH/toluene, as the permeable and non-permeable species in each system exhibiting similar molecular sizes [47], for silica-based membranes fabricated via the sol-gel method\n\n(see Tables S3 and S4 for detailed membrane data). The performance of these silica-based membranes is primarily governed by the molecular sieving mechanism, as indicated by the correlation lines, and the cor­relation was further compared with carbonized AZB membranes. Each data point for the carbonized AZB membranes in Fig. 8 represented a distinct membrane, highlighting the reproducibility. The selectivities of the AZB-550 and AZB-800 membranes for both systems were aligned\n\nFig. 7. Time courses for permeance and selectivity at 50 ◦C in PV separation of MeOH/solvent (mass ratio of 10/90 wt %) mixtures for (a) AZB-550, (b) AZB-700, and (c) AZB-800 membranes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 8. Correlation between selectivities for gas separation and PV separation of MeOH/solvent mixtures: (a) N2/CF4 in gas permeation and MeOH/IPA in the PV process and (b) N2/SF6 in gas permeation and MeOH/toluene in the PV process for AZB-550, AZB-700, and AZB-800 membranes. X. Niu et al. Journal of Membrane Science 738 (2026) 124886 with the correlation line, reinforcing the predominant role of molecular sieving in the PV separation of MeOH/solvents. In contrast, the perfor­mance of the AZB-700 membrane for both systems significantly sur­passed the correlation curve, suggesting that its PV performance was determined not only by molecular sieving, but also by adsorption-diffusion mechanisms. This further supports our interpreta­tion of the separation mechanisms in AZB membranes obtained at different carbonization temperatures: the PV performance of the AZB-550 and AZB-800 membranes is primarily governed by the mo­lecular sieving mechanism, whereas the AZB-800 membrane exhibits a combination of adsorption-diffusion and molecular sieving mechanisms. Considering the superior permeation capacities of the AZB-550 and AZB-700 membranes, they show significant potential for the MeOH re­covery. Consequently, we investigated the MeOH separation perfor­mance of the AZB-550 and AZB-700 membranes under various operating conditions. Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e­covery. Consequently, we investigated the MeOH separation perfor­mance of the AZB-550 and AZB-700 membranes under various operating conditions. Fig. 9a and b illustrate the effect of MeOH concentration (10–90 wt %) on the PV performance of the AZB-550 and AZB-700 membranes for MeOH/DMC and MeOH/toluene mixtures at 50 ◦C. The MeOH permeance and selectivity of the AZB-550 membrane increased with increasing MeOH concentration for both mixtures. This behavior can be attributed to the reduced adsorbed/diffused solvent molecules within the loose membrane pores, as shown in Fig. 9c. In contrast, the changes observed in MeOH permeance and selec­tivity of the AZB-700 membrane as the MeOH feed concentration increased were less pronounced than those of the AZB-550 membrane. This can be explained by two factors: the enhanced adsorption of the highly polar MeOH molecules on the hydrophilic membrane surface while inhibiting the adsorption of other solvent molecules, and the restricted diffusion of solvent molecules within the membrane due to the uniform pore size distribution. These factors effectively mitigate the impact of feed concentration variations on membrane performance, as shown in Fig. 9d. Throughout the concentration range, the AZB-700 membrane maintained high MeOH permeances, exceeding 10-7 mol m-2 s-1 Pa-1, with selectivities higher than 120 for MeOH/DMC and 1200 for MeOH/toluene.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "membrane maintained high MeOH permeances, exceeding 10-7 mol m-2 s-1 Pa-1, with selectivities higher than 120 for MeOH/DMC and 1200 for MeOH/toluene. These findings also demonstrate the outstanding swelling resistance of the carbonized AZB membranes. Fig. 10 shows the temperature dependence of the AZB-550 and AZB700 membranes in the PV separation of MeOH/DMC and MeOH/ toluene; the corresponding activation energies (calculation method can be found in Text S4 of the Supporting Information) are listed in Table 2. For the AZB-550 membrane, MeOH permeances and selectivities for MeOH/DMC and MeOH/toluene decreased only marginally with increasing temperature, suggesting that adsorption exhibited a minimal effect on the membrane performance, likely due to the weak hydro­philicity. In contrast, for the AZB-700 membrane, both MeOH per­meances and selectivities for MeOH/DMC and MeOH/toluene decreased significantly with increasing temperature. The activation energies for MeOH in both mixtures were lower for the AZB-700 membrane than for",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 9. MeOH concentration (10–90 wt %) dependence of permeance and selectivity at 50 ◦C for (a) MeOH/DMC and (b) MeOH/toluene of AZB-550 and AZB-700 membranes. Schematic illustration of the PV process in MeOH/solvent for (c) AZB-550 and (d) AZB-700 membranes. X. Niu et al. Journal of Membrane Science 738 (2026) 124886 the AZB-550 membrane, indicating that the permeation process for the AZB-700 membrane was more adsorption-dominated owing to its more hydrophilic surface. The hydrophilic affinities of both membranes for MeOH resulted in lower activation energies for MeOH compared to DMC and toluene. The activation energy of MeOH in the MeOH/DMC mixture was higher than that in the MeOH/toluene mixture. Moreover, the activation energy of DMC was slightly lower than that of toluene in both AZB-550 and AZB-700 membranes, suggesting a more adsorptioninfluenced permeation behavior for DMC compared with toluene. These results can be attributed to the stronger polarity and smaller molecular size of DMC compared to toluene, which allow for the easier adsorption of DMC into the membranes and inhibit the preferential adsorption of MeOH [50]. Fig. 11a shows the long-term stability of the AZB-700 membrane in PV separation of the MeOH/toluene (10/90 wt %) mixture. After sta­bilization for 2 h, the PV performance of the AZB-700 membrane remained stable for 40 h of continuous operation.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "luene (10/90 wt %) mixture. After sta­bilization for 2 h, the PV performance of the AZB-700 membrane remained stable for 40 h of continuous operation. Furthermore, after storage in MeOH at room temperature for 20 days, the AZB-700 mem­brane demonstrated stable PV performance with no observable swelling. More importantly, the PV performance of the AZB-700 membrane was maintained even after treatment in pure H2O for 12 h at 90 ◦C, indi­cating its excellent hydrothermal stability. Fig. 11b and c compare the PV performance of the AZB-550 and AZB-700 membranes in MeOH/ DMC and MeOH/toluene with those of state-of-the-art membranes re­ported in the literature (detailed data are provided in Tables S5 and S6). The AZB-550 membrane demonstrated high MeOH permeance along with moderate MeOH/DMC and MeOH/toluene selectivities, which were attributed to its loose structure and non-uniform micropore. In contrast, the AZB-700 membrane, which combined a uniform micro­porous structure with hydrophilic properties, exhibited a MeOH per­meance comparable to that of the AZB-550 membrane but with significantly higher MeOH/DMC and MeOH/toluene selectivities. Spe­cifically, in the MeOH/DMC separation (MeOH content of 10–90 wt %), the AZB-700 membrane exhibited competitive MeOH permeances",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(2.5–3.3 * 10-7 mol m-2 s-1 Pa-1) compared to those of membranes reported in the literature, accompanied by selectivities ranging from 120 to 160. Similarly, for the MeOH/toluene separation (MeOH content of 10–90 wt %), the AZB-700 membrane exhibited high MeOH permeances (3.7–4.2 * 10-7 mol m-2 s-1 Pa-1) and selectivities of 1200–1800, surpassing those of various membranes reported in the literature and being comparable to that of polyhedral oligomeric silsesquioxane (POSS)-containing carbon-based (carbon-POSS) membranes. Notably, surface modification strategies have been shown to enhance the per­formance of carbon-POSS membranes [51]. Therefore, we believe that the implementation of appropriate surface modification strategies can further improve the separation efficiency of C–SiO2–ZrO2 membranes and expand their applications, which will be the underlying research direction. 4. Conclusions In this study, highly microporous C–SiO2–ZrO2 membranes were engineered by selectively utilizing phenyl-containing BFA as the OCL. The phenyl groups in the BFA act as rigid molecular spacers during the sol-gel process, facilitating the formation of a loose SiO2–ZrO2 network via steric hindrance and π-π interaction. High-temperature calcination induces the pyrolysis of organic components, thereby releasing the network pore while simultaneously enhancing membrane hydrophilic­ity.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e calcination induces the pyrolysis of organic components, thereby releasing the network pore while simultaneously enhancing membrane hydrophilic­ity. The AZB-700 membrane, derived through carbonization at 700 ◦C, combines a uniform microporous structure with hydrophilicity, exhib­iting exceptional MeOH/solvent PV separation performance due to the synergistic contributions of adsorption-diffusion and molecular sieving mechanisms. Specifically, the AZB-700 membrane demonstrated a MeOH permeance of 2.5 * 10-7 mol m-2 s-1 Pa-1 and selectivity of 120 for MeOH/DMC (10/90 wt %), as well as a MeOH permeance of 3.7 *10-7 mol m-2 s-1 Pa-1 and selectivity of 1200 for MeOH/toluene (10/ 90 wt %). This study is expected to provide valuable insights into the tailored design of C–SiO2–ZrO2 membrane structures for extended sep­aration applications. CRediT authorship contribution statement Xinpu Niu: Writing – original draft, Methodology, Investigation. Zongkai Liu: Methodology. Norihiro Moriyama: Writing – review & editing. Hiroki Nagasawa: Writing – review & editing. Toshinori Tsuru: Writing – review & editing. Masakoto Kanezashi: Writing – review & editing, Supervision, Funding acquisition, Conceptualization.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 10. Temperature dependence of permeance and selectivity for MeOH/DMC (mass ratio of 10/90 wt %) and MeOH/toluene (mass ratio of 10/90 wt %) for (a) AZB-550 and (b) AZB-700 membranes.\n\nTable 2 Activation energies in the PV separation of MeOH/DMC (mass ratio of 10/90 wt %) and MeOH/toluene (mass ratio of 10/90 wt %) for AZB-550 and AZB-700 membranes. MembraneMeOH/DMC (10/90 wt %)MeOH/toluene (10/90 wt %) EP,MeOH [kJ mol-1]EP,DMC [kJ mol-1]EP,MeOH [kJ mol-1]EP,toluene [kJ mol-1] AZB-550-4.7-2.0-6.0-1.1AZB-700-16-1.1-22-0.32 X. Niu et al. Journal of Membrane Science 738 (2026) 124886\n\nDeclaration of competing interest The authors declare the following financial interests/personal re­lationships which may be considered as potential competing interests: We declare that no known conflict of interests. Acknowledgment This study was financially supported by the New Energy and In­dustrial Technology Development Organization (NEDO). Xinpu Niu sincerely acknowledges the financial support from the China Scholar­ship Council (CSC, No. 202307040023). Appendix A. Supplementary data Supplementary data to this article can be found online at https://doi. org/10.1016/j.memsci.2025.124886.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11,
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 11. (a) Long-term PV separation performance of the AZB-700 membrane for MeOH/toluene (mass ratio of 10/90 wt %), measured at 50 ◦C before and after thermal treatment in pure H2O at 90 ◦C for 12 h. Comparison of the permeance and selectivity in PV separation for (b) MeOH/DMC and (c) MeOH/toluene of carbonized AZB-550 and AZB-700 membranes (with MeOH contents of 10, 50, and 90 wt % for membrane data from left to right) with other representa­tive membranes. X. Niu et al. Journal of Membrane Science 738 (2026) 124886",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[7] D.S. Sholl, R.P. Lively, Seven chemical separations to change the world, Nature 532 (2016) 435–437.[8] L. Jiang, T. Luo, S. Yuan, Y. Wang, X. Xiao, R. Wang, H. Sun, H. Wang, P. Jin, B. Van der Bruggen, Recent advances in membrane synthesis by interfacial polymerization for pervaporation, Adv. Funct. Mater. (2025) 2500708.[9] Y.K. Ong, G.M. Shi, N.L. Le, Y.P. Tang, J. Zuo, S.P. Nunes, T.-S. Chung, Recent membrane development for pervaporation processes, Prog. Polym. Sci. 57 (2016) 1–31.[10] B. Van der Bruggen, P. Luis, Pervaporation as a tool in chemical engineering: a new era? Curr. Opin. Chem. Eng. 4 (2014) 47–53.[11] J.W. Rhim, Y.K. Kim, Pervaporation separation of MTBE-methanol mixtures using cross-linked PVA membranes, J. Appl. Polym. Sci. 75 (2000) 1699–1707.[12] R. Castro-Mu˜noz, A. Msahel, F. Galiano, M. Serocki, J. Ryl, S.B. Hamouda, A. Hafiane, G. Boczkaj, A. Figoli, Towards azeotropic MeOH-MTBE separation using pervaporation chitosan-based deep eutectic solvent membranes, Sep. Purif. Technol. 281 (2022) 119979.[13] G. Liu, W. Jin, Pervaporation membrane materials: recent trends and perspectives, J. Membr. Sci. 636 (2021) 119557.[14] R. Luo, H. Fu, Y. Li, Q. Xing, G. Liang, P. Bai, X. Guo, J. Lyu, M. Tsapatsis, In situ fabrication of metal–organic framework thin films with enhanced pervaporation performance, Adv. Funct. Mater. 33 (2023) 2213221.[15] R. Castro-Mu˜noz, G.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rication of metal–organic framework thin films with enhanced pervaporation performance, Adv. Funct. Mater. 33 (2023) 2213221.[15] R. Castro-Mu˜noz, G. Boczkaj, Pervaporation zeolite-based composite membranes for solvent separations, Molecules 26 (2021) 1242.[16] I. Wenten, P. Dharmawijaya, P. Aryanti, R. Mukti, LTA zeolite membranes: current progress and challenges in pervaporation, RSC Adv. 7 (2017) 29520–29539.[17] F. Wu, L. Lin, H. Liu, H. Wang, J. Qiu, X. Zhang, Synthesis of stable UiO-66 membranes for pervaporation separation of methanol/methyl tert-butyl ether mixtures by secondary growth, J. Membr. Sci. 544 (2017) 342–350.[18] S. Qiu, M. Xue, G. Zhu, Metal–organic framework membranes: from synthesis to separation application, Chem. Soc. Rev. 43 (2014) 6116–6140.[19] G. Dong, H. Nagasawa, L. Yu, Q. Wang, K. Yamamoto, J. Ohshita, M. Kanezashi, T. Tsuru, Pervaporation removal of methanol from methanol/organic azeotropes using organosilica membranes: experimental and modeling, J. Membr. Sci. 610 (2020) 118284.[20] V. Bui, A.M. Tandel, V.R. Satti, E. Haddad, H. Lin, Engineering silica membranes for separation performance, hydrothermal stability, and production scalability, Adv. Membr. 3 (2023) 100064.[21] X. Niu, M. Kanezashi, Microstructure engineering of silica-derived membranes and their applications in molecular separation, Bull. Chem. Soc. Jpn. (2025) uoaf030.[22] R. Zhou, Y. Pan, W. Xing, N.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ing of silica-derived membranes and their applications in molecular separation, Bull. Chem. Soc. Jpn. (2025) uoaf030.[22] R. Zhou, Y. Pan, W. Xing, N. Xu, Advanced microporous membranes for H2/CH4 separation: challenges and perspectives, Adv. Membr. 1 (2021) 100011.[23] B. Liu, Z. Wang, X. Tan, Facile fabrication of SiO2-ZrO2/Al2O3 ceramic hollow fiber nanofiltration membrane for hot industrial wastewater treatment, J. Membr. Sci. 726 (2025) 123983.[24] S.O. Lawal, M. Kanezashi, A brief overview of the microstructural engineering of inorganic–organic composite membranes derived from organic chelating ligands, Membranes 13 (2023) 390.[25] X. Niu, N. Moriyama, H. Nagasawa, T. Tsuru, M. Kanezashi, Rational design of defect-free carbon-silica-zirconia ceramic membrane derived from crosslinked organic structure for highly efficient gas separation, J. Membr. Sci. 709 (2024) 123112.[26] X. Niu, N. Moriyama, H. Nagasawa, T. Tsuru, M. Kanezashi, Hydrothermally robust carbon-silica-zirconia ceramic membranes for efficient pervaporation dehydration, J. Membr. Sci. (2025) 124197.[27] S.O. Lawal, Y. Takahashi, N. Moriyama, H. Nagasawa, T. Tsuru, M. Kanezashi, Fabricating hydrothermally robust ceramic membranes from amorphous yttriumdoped SiO2-ZrO2 composites, J. Eur. Ceram. Soc. 45 (2025) 116826.[28] I. Bykov, Characterization of Natural and Technical Lignins Using FTIR Spectroscopy, Luleå University of Technology, Sweden, 2008.[29] H. Cheng, S. Wu, J. Huang, X.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "acterization of Natural and Technical Lignins Using FTIR Spectroscopy, Luleå University of Technology, Sweden, 2008.[29] H. Cheng, S. Wu, J. Huang, X. Zhang, Direct evidence from in situ FTIR spectroscopy that o-quinonemethide is a key intermediate during the pyrolysis of guaiacol, Anal. Bioanal. Chem. 409 (2017) 2531–2537.[30] M. Wu, M. Nie, X. Wang, J. Su, W. Cao, Analysis of phenanthrene biodegradation by using FTIR, UV and GC–MS, Spectrochim. Acta, Part A 75 (2010) 1047–1050.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[31] R. Xu, S. Cheng, X. Cheng, L. Qi, J. Zhong, G. Liu, M. Huang, P. Wasnik, Q. Jiang, In situ carboxyl functionalization of hybrid organosilica reverse osmosis membranes for water desalination, Adv. Compos. Hybrid Mater. 6 (2023) 153.[32] F. Perrin, V. Nguyen, J. Vernet, FT-IR spectroscopy of acid-modified titanium alkoxides: investigations on the nature of carboxylate coordination and degree of complexation, J. Sol. Gel Sci. Technol. 28 (2003) 205–215.[33] A. Giri, G. Shreeraj, T.K. Dutta, A. Patra, Transformation of an imine cage to a covalent organic framework film at the liquid–liquid interface, Angew. Chem. Int. Ed. 135 (2023) e202219083.[34] H. Nagasawa, T. Kagawa, T. Noborio, M. Kanezashi, A. Ogata, T. Tsuru, Ultrafast synthesis of silica-based molecular sieve membranes in dielectric barrier discharge at low temperature and atmospheric pressure, J. Am. Chem. Soc. 143 (2020) 35–40.[35] R. Xu, P. Lin, Q. Zhang, J. Zhong, T. Tsuru, Development of ethenylene-bridged organosilica membranes for desalination applications, Ind. Eng. Chem. Res. 55 (2016) 2183–2190.[36] L. Wang, A. Lu, C. Wang, X. Zheng, D. Zhao, R. Liu, Nano-fibriform production of silica from natural chrysotile, J. Colloid Interface Sci. 295 (2006) 436–439.[37] W. Salleh, A. Ismail, Carbon hollow fiber membranes derived from PEI/PVP for gas separation, Sep. Purif. Technol. 80 (2011) 541–548.[38] S.O. Lawal, M. Kanezashi, H. Nagasawa, T.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "hollow fiber membranes derived from PEI/PVP for gas separation, Sep. Purif. Technol. 80 (2011) 541–548.[38] S.O. Lawal, M. Kanezashi, H. Nagasawa, T. Tsuru, Development of an acetylacetonate-modified silica-zirconia composite membrane applicable to gas separation, J. Membr. Sci. 599 (2020) 117844.[39] M. Jian, R. Qiu, Y. Xia, J. Lu, Y. Chen, Q. Gu, R. Liu, C. Hu, J. Qu, H. Wang, Ultrathin water-stable metal-organic framework membranes for ion separation, Sci. Adv. 6 (2020) eaay3998.[40] R. Xu, X. Liu, C. Zhu, Y. Pan, S. Cheng, X. Ren, M. Guo, J. Zhong, Q. Liu, G. Liu, UiO-66-NH2 MOF/organosilica mixed-matrix membrane for water desalination, J. Membr. Sci. 685 (2023) 121913.[41] M.C. Duke, J.D. Da Costa, D.D. Do, P.G. Gray, G.Q. Lu, Hydrothermally robust molecular sieve silica for wet gas separation, Adv. Funct. Mater. 16 (2006) 1215–1220.[42] W. Qiu, J.E. Leisen, Z. Liu, W. Quan, W.J. Koros, Key features of polyimide-derived carbon molecular sieves, Angew. Chem. Int. Ed. 133 (2021) 22496–22505.[43] G. Hong, Y. Han, T.M. Schutzius, Y. Wang, Y. Pan, M. Hu, J. Jie, C.S. Sharma, U. Muller, D. Poulikakos, On the mechanism of hydrophilicity of graphene, Nano Lett. 16 (2016) 4447–4453.[44] X. Wang, Y. Liu, Z. Wei, J. Hong, H. Liang, M. Song, Y. Zhou, X. Huang, MXeneboosted imine cathodes with extended conjugated structure for aqueous zinc-ion batteries, Adv. Mater. 34 (2022) 2206812.[45] X. Lv, X. Liu, Y. Suo, Y. Liu, Z.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "imine cathodes with extended conjugated structure for aqueous zinc-ion batteries, Adv. Mater. 34 (2022) 2206812.[45] X. Lv, X. Liu, Y. Suo, Y. Liu, Z. Yuan, Identifying the dominant role of pyridinicN–Mo bonding in synergistic electrocatalysis for ambient nitrogen reduction, ACS Nano 15 (2021) 12109–12118.[46] K.V. Kumar, K. Preuss, Z.X. Guo, M.M. Titirici, Understanding the hydrophilicity and water adsorption behavior of nanoporous nitrogen-doped carbons, J. Phys. Chem. C 120 (2016) 18167–18179.[47] N. Moriyama, Y. Kawano, Q. Wang, R. Inoue, M. Guo, M. Yokoji, H. Nagasawa, M. Kanezashi, T. Tsuru, Pervaporation via silicon-based membranes: correlation and prediction of performance in pervaporation and gas permeation, AlChE J. 67 (2021) e17223.[48] C. Reichardt, Solvatochromic dyes as solvent polarity indicators, Chem. Rev. 94 (1994) 2319–2358.[49] X. Chen, S. Mohammed, G. Yang, T. Qian, Y. Chen, H. Ma, Z. Xie, X. Zhang, G. P. Simon, H. Wang, Selective permeation of water through angstrom-channel graphene membranes for bioethanol concentration, Adv. Mater. 32 (2020) 2002320.[50] S. Liu, G. Zhou, K. Guan, X. Chen, Z. Chu, G. Liu, W. Jin, Dehydration of C2–C4 alcohol/water mixtures via electrostatically enhanced graphene oxide laminar membranes, AlChE J 67 (2021) aic17170.[51] X. Niu, R. Uchino, N. Moriyama, H. Nagasawa, T. Tsuru, M.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "electrostatically enhanced graphene oxide laminar membranes, AlChE J 67 (2021) aic17170.[51] X. Niu, R. Uchino, N. Moriyama, H. Nagasawa, T. Tsuru, M. Kanezashi, Enhanced MeOH selective pervaporation of carbon-polyimide-POSS membranes via water plasma treatment: synergistic effects of microporosity and hydrophilicity, ACS Sustain. Chem. Eng. 13 (2025) 14140–14151.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825011998-main",
+      "title": "Microstructure-engineered carbon-silica-zirconia membrane for highly efficient methanol pervaporation recovery",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  }
+]

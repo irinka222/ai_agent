@@ -1,0 +1,943 @@
+[
+  {
+    "content": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions Simone Colantoni a,b , Guillaume Pillot a\n\n, Sofia Cvoro a, Sven Kerzenmacher a\n\n, ´Oscar Santiago a,* a University of Bremen, Center for Environmental Research and Sustainable Technology (UFT), Research Group Environmental Process Engineering, Leobener Str. 6, 28359, Bremen, Germanyb Leitat Technological Center, C/ de la Innovaci´o 2, Terrassa, 08225, Barcelona, Spain\n\nA R T I C L E I N F O Keywords:pH gradientBiostabilityCellophaneLow-cost separatorsBiofouling",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T This study presents the successful preparation of a novel chemically modified Cellophane separator with poly­dimethylsiloxane (PDMS) for potential use in microbial electrolysis cells (MECs) with real anaerobic digester effluent (ADE). The modified separator was assessed against commercial materials, including anion exchange membrane (AEM), cation exchange membrane (CEM), and unmodified Cellophane. They were evaluated in a conventional two-chamber electrolysis cell, serving as a surrogate for a MEC, and in a bioreactor to assess biofouling. The modified Cellophane demonstrated potential for reducing costs and enhancing separator per­formance. Cellophane, Cellophane + PDMS and AEM effectively prevented pH imbalances, maintaining stable anode pH levels above 7 without cathode alkalinization. However, the CEM was unsuitable due to excessive pH splitting (Δ6 pH) and elevated resistance. The study highlighted the pronounced impact of using real ADE on overpotentials and resistances of all separators. Organic acid crossover occurred across all materials, with Cel­lophane exhibiting higher rates (0.16–0.2 mg m-2 s-1) than CEM and AEM (0.04–0.1 mg m-2 s-1). An extensive investigation into biofouling and degradation under anaerobic digestion conditions revealed that unmodified Cellophane degraded completely within a month, whereas PDMS modification extended its durability to two months before complete disintegration occurred.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Bioelectrochemical systems (BES) are a novel type of electrochemical biotechnology where microorganisms enable the electron transfer in one or both electrodes to convert the chemical energy present in aqueous organic waste into electricity, hydrogen, or other compounds [1,2]. The two primary categories of BES are microbial fuel cells (MFCs) and mi­crobial electrolysis cells (MECs) [3]. MECs are a type of electrochemical cell (EC) where the bio­electrochemical oxidation of organic substrates at the anode is coupled with hydrogen evolution at the cathode through the application of a small additional voltage. Single chambered MEC are a common configuration, capable of reducing the overall cost and complexity of the system [4,5]. However, using a separator to separate anolyte and cath­olyte prevents hydrogen consumption from the hydrogenotrophic mi­crobes present in the anolyte and the hydrogen contamination with the CO2 and methane produced at the anode [6]. Additionally, separating the compartments enhances design versatility by allowing the use of specific catholytes instead of the wastewater commonly utilized as anolyte and thus preventing microbial growth on the cathode [6]. The separator thus emerges as a key component in BES, often representing a significant portion of the overall cost [6,7] and introducing considerable additional electrical overpotentials to the system [8].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ften representing a significant portion of the overall cost [6,7] and introducing considerable additional electrical overpotentials to the system [8]. Active research is underway to develop new separators that reduce capital and operational costs while ensuring high product purity and design versatility [6,7]. The majority of works on double-chambered BES report the use of polymeric ion exchange membranes (IEM), such as cation exchange membranes (CEM) and anion exchange membranes (AEM) [4], which are state-of-the-art materials for EC [6,9–11]. However, electroactive microorganisms typically operate best around neutral pH, where the concentrations of H+ and OH-are around 10-7 M which is 5-6 orders of magnitude lower than the concentrations of other ions content in the waste streams [12]. The low concentrations of H+ and OH-determine a non-selective transport of species across the IEM, causing a pH split",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 21 February 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). between anode and cathode compartments, which, if exacerbated, can bring to system failure due to inhibition of the microbial metabolic processes [8,13–18]. Another significant challenge associated with the use of a separator in BES is biofouling and, in the case of separators presenting some degree of biodegradability, the potential biochemical degradation. Biofouling occurs when the separator gets covered by a biofilm composed of microbes, biological substances, such as extracel­lular polymeric substances, organic substrates, and salt deposition. This reduces the performance of separators by physically blocking the mass diffusion through the separator pores [19–21]. While several reviews address biofouling in BES [22–25], the discussion is primarily theoret­ical, with limited experimental investigations, mainly because experi­ments are typically conducted over short durations and often use synthetic media for testing. To overcome the challenges posed by ion exchange membranes and to reduce the overall technology costs, some studies have evaluated alternative separators in BES, such as nonwoven fabrics [19,26], textile fabrics [19], cellulose esters [19], polystyrene [7], ionic liquid mem­branes [27,28], ceramics [29], and compostable bags [29].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rics [19,26], textile fabrics [19], cellulose esters [19], polystyrene [7], ionic liquid mem­branes [27,28], ceramics [29], and compostable bags [29]. Among these alternative materials, a few papers have reported promising results using Cellophane as a separator in MFC [30–32]. Moqsud et al. [32] compared filter paper, Cellophane, and PEM (Nafion, N-115, Dupont, Japan) in a MFC fed with a water-based blend of grass and leaf mold over the course of 40 h. The MFC equipped with Cellophane exhibited the best performances, achieving a maximum power output of 42.5 mW m-2. Cellophane is an affordable thin film material made from regen­erated cellulose which presents low permeability to oxygen, moisture, oil, grease, and bacteria [33] and good mechanical and hydrophilic properties under dry conditions [31]. On the other hand, Cellophane’s main drawbacks are represented by its high swelling, low dimensional stability and short operational lifetime due to oxidative and hydrolytic degradation [34,35]. Therefore, novel modifications aimed at increasing its lifespan should be investigated [31]. For instance, Bahamonde Soria et al. [31] investigated the use of TiO2:ZnO-modified Cellophane in MFC operated with synthetic wastewater and real textile wastewater. The modified Cellophane exhibited a lifespan of 30 days, double the one of pristine Cellophane (15 days).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "etic wastewater and real textile wastewater. The modified Cellophane exhibited a lifespan of 30 days, double the one of pristine Cellophane (15 days). Another limitation is that separators are usually tested with axenic, synthetic substrate, which are far from the substrate which would be utilized in real industrial applications (i.e. industrial wastewaters, anaerobic digester effluents, etc.). Polydimethylsiloxane (PDMS) could be a promising additive to sta­bilize the performance of Cellophane due to its hydrophobic properties, which results in low water absorption. Additionally, PDMS can crosslink into a sturdy three-dimensional lattice structure composed of repeating Si–O–Si (siloxane) linkages, thereby enhancing the dimensional stability and the mechanical properties of the composite or coated product [36]. Pristine and PDMS-modified cellophane and ion exchange membranes utilize different mechanisms for regulating mass transport between compartments. Ion exchange membranes are designed for selective ion transport while preventing molecular crossover that could reduce elec­trochemical efficiency [17]. However, these membranes are often expensive and prone to fouling [23]. In contrast, cellophane is a cost-effective, mechanically robust material that lacks the ionic speci­ficity of IEMs but offers non-selective permeability to ions and small neutral molecules, regardless of charge.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "st material that lacks the ionic speci­ficity of IEMs but offers non-selective permeability to ions and small neutral molecules, regardless of charge. When infiltrated with PDMS, its hydrophilicity is reduced, enabling it to mimic some advantages of ion exchange membranes, such as minimizing unwanted molecular transfer, while maintaining its lower production costs. The present study reports on a comparative evaluation of various separators in a real anaerobic digester environment. This evaluation includes both commercial and novel cellophane-based separators, and compares them with two established, commercially available ion ex­change membranes (IEMs): cation exchange membrane (CEM) and anion exchange membrane (AEM). The comparison is made against commercial CEM and AEM separators, as they are the most widely used in double chamber BES [6,7]. The novel separator material is a modification of commercial Cellophane with PDMS. To assess the suit­ability of these separators, four-day experiments were conducted in conventional water-splitting electrolysis cells while replicating the ex­pected conditions of a real MEC in terms of media composition and transport phenomena. Thus, real anaerobic digester effluent was used as anolyte, while a carbonate buffer served as catholyte. Additionally, to induce an ion transport comparable to that in an MEC, two current densities (0.4 and 1.0 mA cm-2) were applied.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "served as catholyte. Additionally, to induce an ion transport comparable to that in an MEC, two current densities (0.4 and 1.0 mA cm-2) were applied. In these experiments, although the separators are not tested in real MECs, they are exposed to conditions that closely mimic those anticipated in MEC operation. This approach offers the advantage of more reproducible conditions, allow­ing for a fair comparison of the separators. The electrochemical exper­iments focused on quantifying transport overpotential, pH imbalance, and organic acid crossover. Short-term biodegradation and biofouling of the materials under operative conditions were evaluated using Fourier transform infrared (FTiR) analysis. To elucidate the longer-term biodegradation and biofouling of the separators, they were also ana­lysed after 90 days immersion in anaerobic digester medium using FTiR and fluorescence microscopy. Medium uptake and swelling of the sep­arators under operative conditions were also evaluated. 2. Materials and methods The chemicals utilized were of analytical grade or higher and were used as received. A gas mixture containing 20 % mol CO2 (purity ≥99.995 %, Linde, Germany) and 80 % mol N2 (purity ≥99.999 %, Air Liquide, Germany) was used for purging and anaerobization.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ning 20 % mol CO2 (purity ≥99.995 %, Linde, Germany) and 80 % mol N2 (purity ≥99.999 %, Air Liquide, Germany) was used for purging and anaerobization. pH mea­surements were done using a SenTix Mic probe connected to a Multiline P4 measurement device (Xylem Analytics Germany GmbH), while con­ductivity measurements were conducted with a WTW TetraCon 325 probe connected to a Multiline P4 measurement device (Xylem Analytics Germany GmbH). Volatile organic fatty acids (VFA) and total alkalinity (TAC) were determined using an AT1000 Potentiometric Titrator (HACH, Germany). High-performance liquid chromatography (HPLC) measurements were carried on an Alliance HPLC system (Waters, Ger­many), equipped with 2414 refractive and 2489 UV index detectors (Waters, Germany) and an Aminex HPX-87H column (300 * 7.8 mm) with 8 mM H2SO4 as eluent at a flow rate of 0.6 mL min-1 and a column temperature of 35 ◦C. The anaerobic digester effluent was obtained from a laboratoryscaler anaerobic digester fed with corn silage at an organic loading rate (OLR) of 1.0 g L-1 d-1 with a hydraulic retention time (HRT) of 40 days [37] and aerobically sieved on 2 * 2 mm stainless steel mesh before use. 2.1. Separator materials The separator tested in this study were commercial cation (CEM) and anion (AEM) exchange membranes (FUMATECH BWT GmbH, Ger­many), a commercial Cellophane material (Sigma-Aldrich, Germany) and the novel PDMS-infiltrated Cellophane.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "exchange membranes (FUMATECH BWT GmbH, Ger­many), a commercial Cellophane material (Sigma-Aldrich, Germany) and the novel PDMS-infiltrated Cellophane. Further details regarding the separators utilized are provided in Table 1. Cellophane, being derived from regenerated cellulose, differs from ion exchange mem­branes in both composition and function. Whereas ion exchange mem­branes incorporate fixed charged functional groups (e.g., sulfonic or quaternary ammonium groups) to facilitate selective transport of spe­cific ions, Cellophane is essentially neutral and relies on its cellulose backbone, hydrogen bonding, and hydrophilic character for perme­ability. In particular for the AEM utilized in the current study the manufacturer reported an ion exchange capacity (IEC) of 0.8 meq g-1 (Cl-form), while the for CEM the reported IEC was of 0.6–0.8 meq g-1 (Na+ form). While Cellophane does not display the same degree of ionic specificity, it offers a broader and less selective permeability, particu­larly for neutral or small molecules. However, Cellophane, despite lacking inherent ionic conductivity, has garnered attention for use in BES due to its relatively low cost, biocompatibility, and commercial",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S. Colantoni et al. Journal of Membrane Science 722 (2025) 123887 availability [30–32]. These characteristics make it a practical choice for large-scale applications where economic and environmental consider­ations are paramount. By dispersing PDMS within the Cellophane ma­trix, we aimed to decrease its inherent hydrophilicity. Lowering the separator’s hydrophilicity reduces water absorption and slows the transport of small molecules across the separator. Moreover, the improved mechanical integrity provided by PDMS infiltration can extend the lifetime of the membrane under operating conditions. 2.1.1. Cellophane modification with polydimethylsiloxane (PDMS) The Cellophane sheet, with a size of 24 * 24 cm, was mounted in a custom-made polypropylene frame (30 * 30 cm) that allowed expansion in the plane direction. Prior to infiltration, the mounted sheet was immersed in 100 mL of distilled water (dH2O) for 24 h, allowing it to hydrate and expand fully and expel any air pockets or water-soluble impurities. Meanwhile, a PDMS solution was prepared by thoroughly mixing toluene (≥99.5 %, for synthesis, Carl Roth, Germany), silicone (SYLGARD 184 Silicone Elastomer Kit), and curing agent (SYL­GARD 184 Silicone Elastomer Kit) in a 100:10:1 ratio.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "hesis, Carl Roth, Germany), silicone (SYLGARD 184 Silicone Elastomer Kit), and curing agent (SYL­GARD 184 Silicone Elastomer Kit) in a 100:10:1 ratio. After the hy­dration step, the frame was filled with the prepared PDMS solution, ensuring that the entire surface of the cellophane remained submerged, and left immersed for 2 h to achieve complete infiltration through the full thickness of the Cellophane and cover both sides of the cellophane. Subsequently, the sheet was removed from the frame and placed in a fume hood for 48 h to cure at ambient conditions. Once the curing was complete, the resulting Cellophane + PDMS composite was rinsed with dH2O to remove any residual solvent and stored in a dry state until further use. 2.2. Swelling and water uptake The methodology for the swelling and water uptake experiments was adapted from Santiago et al. [38]. Triplicate samples with a size of 2 * 2 cm from each separator were measured, weighed, placed in Petri dishes, and immersed for 5 days in the media (dH2O or anaerobic digester effluent) at a constant temperature of 35 ◦C. Afterward, the excess of medium from the separator was removed and the samples were measured and weighed again to calculate the resulting swelling and water uptake, expressed respectively as area and weight percentage increments relative to the dry state.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.3. Electrochemical experiments The H-cells, depicted in Fig. 1, consisted in two compartments each with a volume of 100 mL. They were operated at 35 ◦C continuously stirred at 300 rpm with magnetic stirrers and under continuous purging with the previously mentioned CO2/N2 gas mixture. The previously described anaerobic digester effluent was used as anolyte while the catholyte was a carbonate buffer prepared by mixing 7.65 g L-1 of so­dium bicarbonate and 0.95 g L-1 of sodium carbonate in dH2O, to a final pH of ~9.2 after anaerobization. The H-cells were operated in water splitting mode, therefore utilizing an oxygen-evolving abiotic anode, and controlled in galvanostatic mode, imposing a fixed current flow between the working and counter elec­trode while recording the cell voltage, the voltage between the two reference electrodes and between each reference electrode and respec­tive electrode. The galvanostatic control was chosen to ensure controlled conditions of the experimentations, as the operational current density influences the electrolyte overpotential [39], the separator over­potential [16] and the charge transport through the separator [15]. The H-Cells experiments were conducted at two different current densities: 0.4 mA cm-2 (referred to as “low” current density) and 1.0 mA cm-2 (denominated “high” current density), normalized to the separators’ open area of 5.3 cm2. The low current density value was chosen based on the results reported by Colantoni et al.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nsity), normalized to the separators’ open area of 5.3 cm2. The low current density value was chosen based on the results reported by Colantoni et al. [37], where a maximum current density of 0.4 mA cm-2 was achieved during MEC operation in anaer­obic digestion environments. The high current density value of 1 mA cm-2 was selected as representative of an “ideal” bioanode electro­chemical performance [40]. All the H-Cells experiments were conducted in independent tripli­cates for each membrane described in Table 1, except for CEM, which was conducted in quadruplicate for the low current density and dupli­cate for the high current density. Prior to use, all the separator samples were fully hydrated by im­mersion in the anaerobic digester media for 72 h. During the 4-days experimentation, the H-cells were sampled daily (initial volume 100",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 1 Information regarding the separators tested in the present study. Prices were obtained from the manufacturers, with the exception of the Cellophane sepa­rator modified with PDMS, whose price was estimated based on the cost of the materials needed to modify 1 m2 of Cellophane, considering the toluene and SYLGARD 184 Silicone Elastomer Kit I consumed to modify 25 * 25cm sheet of cellophane. NameTypeManufacturerPrice range\n\nThickness\n\nFUMASEP FKLPK-130 (CEM) Cation exchange membrane PEEK reinforced, 130 μm\n\nFUMATECH BWT GmbH, Germany 5001000 EUR m-2 120–140 μm\n\nFUMASEP FAA3-PK-130 (AEM) Anion exchange membrane PEEK reinforced, 130 μm\n\nFUMATECH BWT GmbH, Germany 5001000 EUR m-2 120–137 μm\n\nGel drying frames, extra cellophane sheets. Z377600 (Cellophane) Polymeric cellulose film\n\nSigma-Aldrich, Germany 5-10 EUR m-2 ≈25 μm\n\nCellophane +PDMS PDMS modification of a polymeric cellulose film\n\nIn-house50-70 EUR m-2 ≈25 μm\n\nFig. 1. H-cells schematic. Both compartments had a total volume of 100 mL. The exposed electrode surface for both anode (working electrode, platinized titanium mesh) and cathode (counter electrode, stainless steel AISI 304) was 2.25 cm2. The separator exposed area was 5.3 cm2.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S. Colantoni et al. Journal of Membrane Science 722 (2025) 123887 mL, sample volume 2 mL) for pH and conductivity measurements and for HPLC analysis. At the end of each experimentation, the H-cells were disassembled, and the separators were kept in dH2O for Fourier trans­form infrared (FTiR) analysis. Following this methodology, the suit­ability of separators can be assessed as an initial approach by conducting short-term tests that allow their characterization in terms of pH imbal­ance, crossover, resistance, or biofouling among others, without the need for long-term tests in MECs. Based on this initial screening, the strengths and weaknesses of the different separators can be identified. The electrochemical investigations were conducted using a Solartron Cell Test 1470E Multi-Channel Potentiostat (Solartron Analytical, United Kingdom). Platinized titanium meshes (2.5 μm Pt layer, 1 mm thickness, Horbach Industriebedarf GmbH, Idar-Oberstein, Germany) were used as anodes (working electrode) for oxygen evolution. Stainless steel meshes (EN 1.4301, AISI 304, HAVER & BOECKER OHG, Oelde, Germany) were used as cathodes (counter electrode) for hydrogen evolution. Both electrodes had a projected surface area of 2.25 cm2. Titanium wire (99.7 %wt., 0.25 mm diameter, Sigma Aldrich, Germany) was used as current collector for both electrodes. The reference elec­trodes used were a pair of Ag/AgCl electrodes model SE11 (sat. KCl, 197 mV vs.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ") was used as current collector for both electrodes. The reference elec­trodes used were a pair of Ag/AgCl electrodes model SE11 (sat. KCl, 197 mV vs. standard hydrogen electrode, Sensortechnik Meinsberg, Xylem Analytics Germany GmbH, Germany) and a pair of calomel electrodes model KE11 (sat. KCl, 241 mV vs. standard hydrogen electrode, Sen­sortechnik Meinsberg, Xylem Analytics Germany GmbH, Germany). The transport overpotentials (Vt) were calculated following Eq. (1). The electrolyte resistance calculated for each compartment (Velectrolyte) and the overpotential caused by the pH shift between the two sides of the separator (VpH) were subtracted from the measured overpotentials be­tween the two reference electrodes (ERef-Ref) [15]. Vt = ERef-Ref -(Velectrolyte + VpH )(Eq.1) The pH overpotential (VpH) was calculated considering an over­potential of 57.5 mV for each absolute pH unit shift between the sepa­rator sides (ΔpH) at a temperature of 35 ◦C [41], as reported in Eq. (2). VpH = 61.14*ΔpH(Eq.2) The overpotential associated with the electrolyte resistance (Velectrolyte) was calculated using Eq. (3), where I is the current flowing in the system (mA), L is the distance between each electrode (working electrode and counter electrode) and the separator (3 cm), S is the surface of the separator (5.3 cm2) and σ is the conductivity of the elec­trolyte (mS cm-1). Velectrolyte = I*LS *σ(Eq.3) The diffusion coefficients of acetate were calculated as previously reported [42,43].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.4. Characterization of separators degradation The biostability experiments were conducted in a battery glass reactor (BGR) adapted from Ref. [44]. Three samples of each separator were placed in self-made PP frames, which had an open area of 2.25 cm2, and immersed into the BGR. The BGR was filled with 1.6 L of anaerobic digester effluent and maintained at a temperature of 35 ◦C continuously stirred with a magnetic stirrer at 600 rpm while being purged with the CO2/N2 gas mixture. The bioreactor was fed with corn silage sieved on 2 * 2 mm stainless steel mesh and operated in fill-and-draw mode with the same HRT and OLR of the laboratory scale anaerobic digester previously mentioned [37]. pH, VFA and TAC were monitored to assess the degree of fermentation and stability of the bioreactor. The media in the BGR was replaced every 30 days. At each interval, a sample from each separator was extracted and cut in half. One half was preserved in dH2O for FTiR analysis, while the other half was stored in a 4 % glutaralde­hyde solution in phosphate buffer (pH ~7) for subsequent fluorescence microscopy analysis. Following this experimental procedure, it is possible to monitor changes in FTiR spectra and biofouling of separators immersed in the same media over 90 days by obtaining experimental data after 30, 60, and 90 days.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "changes in FTiR spectra and biofouling of separators immersed in the same media over 90 days by obtaining experimental data after 30, 60, and 90 days. While this methodology does not fully replicate the biofouling conditions expected in real operational MECs, it provides a cost-effective method for evaluating the biofouling trends associated with each separator. A parallel experiment was carried out utilizing autoclaved anaerobic digester effluent as media, following the same experimental procedure described above, the only difference being that the bioreactor was operated in batch mode. The aim of this experimentation was to eval­uate the biodegradation and biofouling of the separator in a media similar to the anaerobic digester effluent but lacking the microbial community. The experiment was executed in non-axenic conditions and based on the pH, VFA and TAC results it was possible to conclude that fermentation was happening in the media due to the proliferation of ubiquitarian microbes contained in the air. Additionally, a control experiment, with only Cellophane and Cellophane + PDMS in distilled water, was conducted to evaluate the possible degradation due to hy­drolysis of the polymeric matrix, or mechanical degradation of the Cellophane in wet conditions due to the stirring of the medium.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "gradation due to hy­drolysis of the polymeric matrix, or mechanical degradation of the Cellophane in wet conditions due to the stirring of the medium. For it, 6 samples of Cellophane and 6 samples of Cellophane + PDMS were inserted in the same BGR utilized for the previous tests, filled with distilled water, and kept for 3 months under gas purging and magnetic stirring at 600 rpm. Before FTiR analysis, the samples were rinsed with dH2O and dried for at least 72 h in a desiccator filled with silica gel, at atmospheric pressure. FTiR spectra were recorded on a Spectrum 100 (PerkinElmer GmbH, Germany) with an attenuated total reflection module. The scans were carried out between 4000 and 650 cm-1, performing 20 scans and with a resolution of 2 cm-1. For each sample, triplicate spectra were taken from 3 points on both sides of the material. Since there was no substantial difference between the spectra taken from both sides of each sample, the resulting 6 spectra were averaged. The FTiR spectra were further processed using PerkinElmer Spectrum IR software, applying an automatic baseline correction, smoothed using a factor of 11, and normalized to an absorbance of 1.5 for the highest peak. For each ma­terial, a “control spectrum” was taken of the unused, dry material. FTiR spectra provide information about the chemical composition and molecular structure of a sample.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "spectrum” was taken of the unused, dry material. FTiR spectra provide information about the chemical composition and molecular structure of a sample. These are associated with the peaks present in the so called “fingerprint region” of the spectra, which can be assigned to specific molecular movements, which are highly character­istic of specific compounds [40]. Additionally, there are no significant modifications in the regions from approximately 1500 to 4000 cm-1, other than a prominent peak between 3000 and 3500 cm-1, which corresponds to water absorbed in the materials. Therefore, only the “fingerprint region” in the 1900-650 cm-1 wavelengths interval is re­ported in the figures of the present work. The full spectra (4000-650 cm-1) are reported in Supplementary Information. Fluorescence microscopy analysis was used for visualization of the biofouling of the membranes over the course of the experiment. After sampling every 30 days, bacterial cells were fixed to the membrane using 4 % glutaraldehyde in PBS 0.1 M for 30 min and later washed in DI water and afterward kept in PBS 0.1 M until further analysis. The fixed membranes were stained with 2 μg ml-1 DAPI (4’,6-diamidino-2-phe­nylindole) and Nile Red (Carl Roth, Germany) and incubated in the dark for 30 min.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ed membranes were stained with 2 μg ml-1 DAPI (4’,6-diamidino-2-phe­nylindole) and Nile Red (Carl Roth, Germany) and incubated in the dark for 30 min. The stained biofilm on the membrane material were visualised using a Zeiss Microscope Axioscope 5/7 (Solid-State Light source Colibri 3 (Type RGB-UV), Microscopy Camera Axiocam 702 mono, Zeiss, Germany) at 100x magnification (Objective ApoChrom 10x). The z-stacks were automatically captured with the motorized stage on the Zen software (Zeiss, Germany, version 3.0). The exposure time and LED powers were set at the same values between all acquisitions for comparisons. The fluorescence microscopy image data were further processed to obtain the 3D reconstruction of the image stacks using BiofilmQ software (v1.0.1) [45]. The segmentation parameters were set",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S. Colantoni et al. Journal of Membrane Science 722 (2025) 123887 with a manual threshold of 1000 to avoid high intensity mineral signal to shift the signal range to high ranges and to avoid filtering out the low intensity biofilm. The segmented files were then exported in Paraview (v5.13.0, kitware), and the visualization was set as intensity mean map with a fixed scale ranging from 1000 to 3000 AU before screenshot in the z axis. The full fluorescence microscopy images are reported in Sup­plementary Information. 3. Results and discussions 3.1. PDMS-modified cellophane The successful infiltration of PDMS in the Cellophane polymeric structure was confirmed by the comparison of the FTiR spectra of bareCellophane and PDMS-modified Cellophane (denominated “Cellophane + PDMS) reported in Fig. 2. The Cellophane + PDMS spectra present the same features as the bare Cellophane but with two clear extra peaks one at 798 cm-1 and another at 1260 cm-1. The peak present in the Cello­phane + PDMS spectra at 798 cm-1 is associated with Si–C stretching in Si–CH3, while the minor peak at 1260 cm-1 is due to CH3 deformation in Si–CH3. These peaks are characteristic of PDMS, as reported by Johnson et al. [46]. 3.2. Swelling and medium uptake The separator swelling and water uptake represent the area and weight increment due to the hydration of the separators, respectively. IEMs require water to improve the ionic conductivity, since water serves as conductive medium for ions [47].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ydration of the separators, respectively. IEMs require water to improve the ionic conductivity, since water serves as conductive medium for ions [47]. However, an excessive medium uptake may jeopardize the mechanical and dimensional integrity of the separators. This is because water can cause chemical degradation and acts as plasticizer for some polymers [48]. It is therefore necessary to find a trade-off between the ionic conductivity and the mechanical properties. The swelling and water uptake for all the separators investigated are reported in Fig. 3. The experiments were conducted in both distilled water and anaerobic digester effluent. CEM showed a 5 % swelling in both dH2O and anaerobic digester effluent, while AEM presented a 5 % swelling in dH2O and an 8 % swelling in ADE. The water uptake results also followed a similar pattern, with CEM presenting similar values in both media, while AEM showed a water uptake in ADE two times higher than in dH2O. The increased swelling and water uptake of AEMs in ADE are likely attributable to the presence of organic anions in the effluent, which influence water uptake behaviour [49]. Wang et al. [49] demonstrated that the solution composition, particularly the presence of organic acid ions, significantly impacts AEM water uptake. Their ex­periments revealed that AEMs submerged in acetate exhibited higher water uptake compared to those submerged in lactate.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "cts AEM water uptake. Their ex­periments revealed that AEMs submerged in acetate exhibited higher water uptake compared to those submerged in lactate. This phenomenon may be attributed to the absorption of organic anions into the polymeric matrix, a mechanism similar to that reported by Ma et al. [50], who observed organic cation absorption in the CEM polymeric matrix. The measured water uptake and swelling values align well with the manu­facturer’s data sheets, which report a water uptake of 10–25 % and swelling of less than 3 % in water at 25 ◦C for the AEM, and a water uptake of 10–25 % with swelling of 0–2% for the CEM. Both Cellophane-based materials exhibited comparable ranges of swelling. On the other hand, Cellophane + PDMS water uptake in dH2O was roughly ~25–55 % less than bare Cellophane, while having similar ranges in the case of ADE. Although the infiltration of PDMS was effective, it did not influence the swelling behavior, indicating that it does not restrict deformation in the plane of the separator. In contrast, PDMS infiltration significantly reduced water uptake in dH2O, sug­gesting that it limits water absorption. This effect, however, was not observed in ADE, implying that PDMS (or the bond between PDMS and Cellophane) may lack stability in the effluent environment. Overall, Cellophane-based materials had 3-times higher swelling and 4-times higher medium uptake than AEM and CEM. From the application point of view, high values of swelling are not optimal.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "-times higher swelling and 4-times higher medium uptake than AEM and CEM. From the application point of view, high values of swelling are not optimal. The change of area from the dry state, in which the devices are usually assembled and kept until operation, to wet state, in which the separators are usually operated, may determine mechanical disruption of the separators. Additionally, excessive water uptake can increase transport of ions, thereby weakening the membrane’s selective barrier and allowing greater ion leakage between compartments.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. pH imbalance and ions migration during short-term electrochemical operation As previously discussed, it is of importance for BES applications that a separator can maintain the optimal pH in both compartments. The anolyte and catholyte pH and conductivity trends in the anodic and cathodic compartments for the different separators during the experi­mental trials at 0.4 mA cm-2 and 1 mA cm-2 are reported in Fig. 4. Under continuous CO2 bubbling, the initially alkaline catholyte (pH ≈9.2) experiences an acidification phase followed by pH stabilization at around 8. The initial pH drops stems from CO2 dissolution and the subsequent formation of H+ (via carbonic acid/bicarbonate equilibria), governed by the CO2 dissolution mechanism described in Eq. (4). Once sufficient buffering capacity is established through the carbonate sys­tem, the pH levels off. This steady state arises from the balance between hydrogen evolution at the cathode (which generates OH-and raises pH) and constant CO2 introduction (which replenishes the acid/base buffer, preventing uncontrolled alkalinization). CO2 + H2O ⇆H2CO3⇆HCO-3 + H+⇆CO2-3 + 2H+(Eq.4) The AEM maintained the anolyte pH stables between 7 and 7.5 at both current densities.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "alkalinization). CO2 + H2O ⇆H2CO3⇆HCO-3 + H+⇆CO2-3 + 2H+(Eq.4) The AEM maintained the anolyte pH stables between 7 and 7.5 at both current densities. This stability is likely caused by the transport of bicarbonate and carbonate ions from the catholyte by electromigration, and possibly diffusion, which bolsters the buffer of the AD effluent in the anolyte and compensates for proton generation by fermentation and oxidation on the anode. The AD effluent buffer may have also played a role; however, as discussed later, the anolyte buffer in the case of the CEM broke down after just 1–2 days of operation. The AEM exhibited an anolyte conductivity roughly constant at around 4.5–5 mS cm-1, as a result of a balance between various",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. Time profiles of pH (top) and conductivity (bottom) in the cathode and anode compartments of electrochemical systems using different separator materials: anion exchange membrane (AEM) in the first column, cation exchange membrane (CEM) in the second column, cellophane in the third column, and cellophane modified with PDMS in the fourth column. Data are shown for current densities of 0.4 mA cm-2 (dashed lines) and 1.0 mA cm-2 (dotted lines) for both the cathode and anode. Each data point represents a daily measurement of pH and conductivity, conducted ex situ using an aliquot sampled from the system. Error bars represent standard deviations from triplicate experiments. Horizontal dashed lines indicate reference pH and conductivity values. S. Colantoni et al. Journal of Membrane Science 722 (2025) 123887 processes such as fermentation, ion migration and diffusion through the separator, and the intrinsic equilibrium between the species that form the buffer. In the case of the catholyte, the conductivity remained in the range of 8–9 mS cm-1 for both current densities, with a slight increase over the days. This increase may be due to the exchange of anions be­tween the anolyte and catholyte, giving the catholyte higher molar mobility. In this sense, anions such as Cl-have a molar mobility of 76.4 S cm2 mol-1, higher than that of both bicarbonate and carbonate, 44.5 and 69.3 S cm2 mol-1 respectively.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ions such as Cl-have a molar mobility of 76.4 S cm2 mol-1, higher than that of both bicarbonate and carbonate, 44.5 and 69.3 S cm2 mol-1 respectively. Similarly, the equilibrium between carbonate species under small pH variations may also play a role in conductivity. In contrast, the use of the CEM as separator resulted in a significant decrease in anodic pH, dropping below pH 3 by day 4 at 0.4 mA cm-2 and by day 2 at 1 mA cm-2. This caused the failure of the experiment due to increased cell voltage, that went above the potentiostat limitation. This effect is due to the non-selective transport of the CEM, which consents the transport of all cations contained in the media, such as Na+, K+, Ca2+, present in concentrations several orders of magnitude higher than the concentration of protons (10-7 M at neutral pH). This prefer­ential transport of cations, rather than protons, accelerated the anolyte’s acidification, leading to the formation of a severe pH shift between the two compartments [8,14,17]. The higher production of protons at higher current and subsequently the higher transport of cations speeds up the buffer breakdown, causing a faster pH decreases at high current densities. This was further confirmed by the conductivity results. The CEM catholyte conductivity increased sharply, with similar trends at both current densities. The catholyte alkalinization is counteracted by the constant equilibrium of the carbonate buffer due to the CO2 purging.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ds at both current densities. The catholyte alkalinization is counteracted by the constant equilibrium of the carbonate buffer due to the CO2 purging. However, cations were transported from the anode chamber to maintain the electroneutrality, thereby increasing cathode conductivity. The anolyte conductivity showed an initial decreasing trend, until day 1 for the higher current density and at 3 for the lower current density. This effect is due, other than the movement of cations through the separator, to the carbonate buffer capturing part of the protons generated at the anode, resulting in the shift of the carbonate buffer equilibrium to the left (Eq. (4)). The subsequent conductivity increasing trends could be attributed to the breaking-down of the carbonate buffer due to the low CO2 solubility in acidic conditions which determined an increase in proton concentration in the anolyte. It is worth mentioning that the molar mobility of bicarbonate is lower than that of carbonate (44.5 and 69.3 S cm2 mol-1 respectively), and both are significantly lower than that of protons (349.8 S cm2 mol-1). Therefore, the conductivity of the anolyte was lower when protons were partially captured by the buffer species than when they were free in the solution. For comparison, Zhao et al. [26] and Park et al. [51] reported similar results for MECs operated with synthetic acetate-based medium, where the use of CEM resulted in final pH gradients of 2.8–2.9 between com­partments. Carde˜na et al.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Cs operated with synthetic acetate-based medium, where the use of CEM resulted in final pH gradients of 2.8–2.9 between com­partments. Carde˜na et al. [11] investigated the operation of MECs using two different cation exchange membranes (CEMs). The anolyte con­sisted of synthetic dark fermentation effluent containing acetate, buty­rate, and propionate. Both CEMs exhibited significant alkalinization of the catholyte (Δ pH > 6) and acidification of the anolyte (pH 1–2). Consistent with these findings, a decrease in anode conductivity (3 mS cm-1) and an increase in cathode conductivity (6 mS cm-1) were also observed. Considering the final point, which is the most significant due to the accumulated interactions, Bare Cellophane maintained a stable anolyte pH of 7–7.5 at both current densities. In contrast, Cellophane + PDMS showed a slightly more acidic anolyte pH at higher current densities, though within the neutral pH range. This can be explained by the fact that Cellophane represents a non-ion selective barrier between the liquid phase of the two compartments. Since ions can move in both directions [52], the pH imbalance between compartments was equilibrated by the movement of H+, OH-and the buffer species between compartments. However, the transport of ions, especially H+ and OH-, relies strongly on the water transport, (i.e. by the vehicle or Grotthuss mechanisms) [53].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ts. However, the transport of ions, especially H+ and OH-, relies strongly on the water transport, (i.e. by the vehicle or Grotthuss mechanisms) [53]. Therefore, the hydrophobic properties of PDMS likely hindered the movement of species within the cellulose polymeric matrix of the Cel­lophane, effectively ’repelling’ water molecules that transport hydrated ions and reducing the net exchange rate across the Cellophane separator. However, this effect was only evident at higher current densities and had minimal impact on the Cellophane’s ability to effectively equilibrate pH imbalances within system. A potential solution is to adjust the amount of PDMS infiltrated into the Cellophane, thereby modulating the separa­tor’s hydrophobicity and the impedance to ion movement. Reducing the PDMS content would create less of a barrier to ion transport, optimizing the ion exchange capacity of the separator. Both materials demonstrated the same increasing trend in catholyte conductivities at higher current densities, rising from 8 mS cm-1 at day 0 to 9–10 mS cm-1 at day 4. Anolyte conductivities remained at 5 mS cm-1 for lower current density but decreased to 3.3–4 for higher current density. The shift in conduc­tivities between compartments, likely due to the crossover of inorganic species and organic compounds from the anolyte to the catholyte, was more pronounced at higher current density.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "kely due to the crossover of inorganic species and organic compounds from the anolyte to the catholyte, was more pronounced at higher current density. Therefore, it can be hy­pothesized that this shift is related to migration driven by the electric field rather than by the diffusion of species driven by the concentration gradient between compartments. 3.4. Electrochemical analysis of the separators The use of a separator brings in an additional resistance in the sys­tem, consequently demanding higher cell voltages to achieve the desired current. This elevated voltage requirement increases the energy expen­diture of the electrochemical system [40]. It is therefore important to quantitatively assess the overpotential introduced by the separator under the specific operating conditions. The overpotentials measured over time between the two reference electrodes at the two different current densities are reported in Fig. 5. CEM showed an increasing trend at both current densities. During the experimentation at 0.4 mA cm-2, the reference-to-reference over­potentials increased from 0.5 V at day 1 to approximately 1.4 V at day 4. This trend was exacerbated at 1 mA cm-2, where the measured over­potentials exceeded 6 V. This escalation was caused by the severe pH split between the two compartments. The AEM and the Cellophane-based materials presented minor variation over time for the measured overpotentials, ranging around 0.4–0.6 V at 0.4 mA cm-2 and 1.1–1.4 V at 1 mA cm-2.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "sed materials presented minor variation over time for the measured overpotentials, ranging around 0.4–0.6 V at 0.4 mA cm-2 and 1.1–1.4 V at 1 mA cm-2. AEM displayed the same trends at both current densities, and the Cellophane-based materials followed the same pattern of AEM at 0.4 mA cm-2. Howev­er, at the higher current density, Cellophane + PDMS exhibited an increasing trend over time, rising from 1.25 V at day 1–1.4 V at day 4, in line with the pH results described in Section 3.3. Cellophane maintained a constant overpotential for the initial two days before transitioning to an increasing trend until the end of the experimental run. This can be correlated to the decrease of the pH in the anolyte during the same timeframe. Table 2 presents a comparison of the mean overpotentials, and area specific resistances calculated in this study with values presented in the literature. In our study, the reported values were derived from the measured reference-to-reference overpotentials, after subtracting the calculated liquid and pH overpotentials. AEM and Cellophane exhibit comparable levels of additional overpotential and resistance as separa­tors. Notably, the PDMS modification did not increased the separator resistance, remaining similar to that of unmodified Cellophane. Conversely, the CEM demonstrated a higher additional resistance.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "creased the separator resistance, remaining similar to that of unmodified Cellophane. Conversely, the CEM demonstrated a higher additional resistance. For all separators tested, the overpotentials and resistances were orders of magnitude higher than those presented in the literature, while exhibit­ing a significant standard deviation. This discrepancy can be attributed to the use of real anaerobic digester effluent, which is a much poorer electrolyte compared to synthetic mineral media. The electrolyte is crucial to separator performance, and the high load of solids and",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S. Colantoni et al. Journal of Membrane Science 722 (2025) 123887 organics in anaerobic digester effluent likely contributes to a significant decrease in the electrical performance of the separators. For the prac­tical application of MEC technology, it is crucial to account for the disparity between separator overpotentials measured under ideal con­ditions, which are frequently reported in the literature, and the \"real\" overpotentials observed under practical operating conditions, which are underreported in literature. Therefore, although water-splitting elec­trolysis cells are used in this experiment instead of MECs, it is demon­strated that these real overpotentials associated to the use of real media can be orders of magnitude higher than those measured under ideal conditions. 3.5. Organic acids crossover The crossover of organics between compartments is a serious issue for BES. Apart from resulting in a voltage loss and waste of organic matter (fuel) [55], it could aggravate the biofouling of the separators [22,23] and determine the poisoning of the cathodic catalyst [56]. Fig. 6 presents the concentration of organic acids (expressed as acetate equivalents) quantified in the catholyte throughout the experimenta­tion. At both current densities, all separators exhibited an increase of organic acids concentration in the catholyte.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lyte throughout the experimenta­tion. At both current densities, all separators exhibited an increase of organic acids concentration in the catholyte. The available data indicate a potential difference in transport be­tween cellophane-based separators and ion-exchange membranes (IEM), despite no statistically significant differences observed between the two current densities (paired t-test). The high variability observed is likely attributed to the use of real anaerobic digester effluent, which is a significantly poorer electrolyte compared to the synthetic ’ideal’ min­eral media commonly used in separator studies for BES. Additionally, the use of anaerobic digester effluent introduces fermentation and other biological processes in the planktonic phase. These processes are inherently variable, resulting in significant standard deviations in organic acid concentrations across replicates for each membrane and contributing to substantial crossover variability. Furthermore, in the case of Cellophane + PDMS, part of this variability may also be attrib­uted to inconsistencies in the separator production process.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. a) Difference of potential measured over time between the two reference electrodes at 0.4 mA cm-2. b) Difference of potential measured in time between the two reference electrodes at 1 mA cm-2. c) Difference of potential measured in time between the two reference electrodes at 1 mA cm-2, data zoomed in the 0–2 V range for comparison with the results reported at 0.4 mA cm-2 (therefore, the CEM is not visible).\n\nTable 2 Comparison of transport overpotentials and resistances reported in literature with the ones reported in the present study. Our results were calculated from the measured reference-to-reference overpotential, subtracting the calculated liquid and pH overpotential.* Area specific resistance is measured by electrochemical impedance spectroscopy in 0.5 M KCl. SeparatorAnolyteAverage current density (A m-2)\n\nTransport overpotential (V) Separator area specific resistance (mΩ m2)\n\nReference\n\nAEM - AMI-70010.5 M KCl––1.33[54]*AEM - AF49R27––0.18novel AEM PSEBS CM DBC\n\n––0.33\n\nNon-woven clothAcetate mineral medium–0.020.9 ± 0.1[26]Polyvinylidenedifluoride (PVDF)\n\n[ФОРМУЛА: [FORMULA_ID: 89f245c7-caf4-4ff5-b41d-65f07305b4c0] – 0.03 1.5 ± 0.2]",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "PEM - Nafion 117–0.063.4 ± 0.2 CEM - FKL-PK-130Anaerobic digester effluent 40.25 ± 0.1459 ± 32Current study101.75 ± 1.60176 ± 160AEM - FAA-3-PK-13040.03 ± 0.016 ± 2100.17 ± 0.0317 ± 3Cellophane40.04 ± 0.019 ± 2100.20 ± 0.0620 ± 6Cellophane + PDMS40.09 ± 0.0222 ± 4100.11 ± 0.0311 ± 3 S. Colantoni et al. Journal of Membrane Science 722 (2025) 123887",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "For the anion exchange membrane (AEM), the maximum calculated rate of volatile fatty acid (VFA) crossover ranged from 0.06 to 0.1 mg m-2 s-1, while for the cation exchange membrane (CEM), it was approximately 0.04 mg m-2 s-1. These crossover rates corresponded to maximum mass transfer coefficients for organic acids crossover in all separators in the 10-6 cm s-1 range. It is interesting to notice how the organic acids crossover would be expected in the case of AEM, since this separator transports anionic species, while CEM should repel negatively charged anions, preventing their crossover [49,50]. Instead, our results showed that the transport of negatively charged species was present in CEM at levels comparable to those in the AEM. This is in accordance with Szak´acs et al. [43], who highlighted how the acetate permeability of a CEM was only marginally lower than that of an AEM, with mass transfer coefficients in the 10-6 cm s-1 range for both separators, similar to the values calculated in the present study. The authors highlighted how CEM are mainly designed for large-scale applications such as electrodialysis, electrolysis, and electrodialysis reversal. The high ion exchange capacity of these membranes often results in increased swelling and lower permselectivity, which likely explains the higher observed acetate permeability [43]. Cellophane-based materials presented similar increasing trends in the concentration of organic acids, but with a high statistical deviation.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ity [43]. Cellophane-based materials presented similar increasing trends in the concentration of organic acids, but with a high statistical deviation. This could be due to the type of material which is not optimized for this use and therefore presents low reproducibility and could be improved by optimizing the material synthesis procedure. The Cellophane-based materials presented higher acids crossover than CEM and AEM, as ex­pected since the Cellophane-based materials allow for the non-selective transfer of species through the separator. In detail, the maximum VFA crossover rate calculated for Cellophane was 0.16–0.19 mg m-2 s-1. The PDMS-modification did not seem to influence the organic crossover rate, since Cellophane + PDMS exhibited crossover rates of 0.17–0.2 mg m-2 s-1. The VFA crossover through the separator is likely driven by the same transport mechanisms identified for methanol crossover in direct methanol fuel cells (DMFC), such as diffusion driven by VFA concen­tration gradients [55]. Another possible mechanism could be the electro-osmotic drag by cationic transport, where the VFA are “dragged” along with the hydrated cations and protons under the influence of electric current flowing across the cell [57]. For comparison, Park et al. [51] reported a maximum acetate crossover of 0.3 mg m-2 s-1 for a Nafion-211 CEM and 0.2 mg m-2 s-1 for a novel self-prepared proton exchange membrane.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "51] reported a maximum acetate crossover of 0.3 mg m-2 s-1 for a Nafion-211 CEM and 0.2 mg m-2 s-1 for a novel self-prepared proton exchange membrane. In both cases, these results were obtained without applying any current to the system, indicating that the observed cross­over was solely due to diffusion across the separator, without influence of electro-migration or electro-osmotic drag [51]. However, these values are significantly higher than those obtained in the present study. Therefore, the electro-migration component of charge transport (movement of organic acid anions from cathode to anode) efficiently opposes diffusive and electro-osmotic mechanisms, minimizing their effects despite the large concentration difference of organic acids be­tween the electrolytes. 3.6. Biochemical degradation of the separators As previously discussed, monitoring the evolution of the FTiR spectra in both short-term (H-cells) and longer-term experiments can allow to identify changes in the chemical composition of a separator due to biofouling and/or biochemical degradation. Fig. 7 displays the FTiR spectra of the separators utilized in the H-cells experiments, while Fig. 8shows those from the biostability experiments. The peaks were assigned following Table 3. The full-range spectra are provided in Supplementary Information.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "those from the biostability experiments. The peaks were assigned following Table 3. The full-range spectra are provided in Supplementary Information. Comparing the AEM spectra from the unused material and the H-Cell operation at 0.4 and 1 mA cm-2 reveals a decrease in peaks at 820-890 cm-1, 1190 cm-1, 1300 cm-1 and 1460 cm-1, potentially indicating biochemical degradation of the separator. The increase in peak area in the 920-1090 cm-1 region could be assigned to the stretching vibration of C–O–C in polysaccharides, while the increase around 1600 cm-1 could be due to C––C stretching, indicating the presence of proteins and carbon compounds in the biofilm [49,50]. All these changes in peaks were more pronounced in the samples from the H-cell operated at 1 mA cm-2, suggesting that the operation at higher current density aggravates the biofouling and biochemical degradation in the case of the AEM. Attenuation of similar peaks was observed in the spectra from the bio­stability experiments, with the peaks getting more attenuated with the proceedings of the months, suggesting ongoing biochemical degradation of the separator. The increase in area at 920-1090 cm-1 after only 1 month could be associated with biofouling of the separator.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ochemical degradation of the separator. The increase in area at 920-1090 cm-1 after only 1 month could be associated with biofouling of the separator. Interest­ingly, the peak decreases were more prominent in the samples immersed in anaerobic digester effluent compared to autoclaved media and H-cells experiments, suggesting a dominance of biochemical degradation and that prolonged immersion does not significantly worsen biofouling but does exacerbate the biochemical degradation. These findings were corroborated by the fluorescence microscopy",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. Organic acids concentration (expressed as acetate equivalents) quantified in the catholyte throughout the experimentation. S. Colantoni et al. Journal of Membrane Science 722 (2025) 123887 analysis shown in Fig. 9. After just one month of immersion in anaerobic digester effluent (Fig. 9b), the AEM exhibited extensive biofouling compared to the original material (Fig. 9a), with a dense biofilm or particulate matter almost completely covering the membrane. Notably, the extent of biofouling does not appear to increase with longer im­mersion times (Fig. 9c and. d), supporting the FTiR results. In contrast, the AEM immersed for one month in autoclaved anaerobic digester effluent showed initial signs of fouling (Fig. 9e), though less extensive and more isolated than in the non-autoclaved effluent. By two months (Fig. 9f), fouling increased, but the coverage and density remained lower than in the non-autoclaved effluent. After three months (Fig. 9g), the membrane displayed more pronounced fouling, with dense particulate matter covering much of the surface. However, this fouling appeared more dispersed rather than forming a continuous layer. Overall, while autoclaving the effluent appeared to delay fouling, it did not prevent it, suggesting that while microbial activity significantly contributes to membrane fouling, particulate matter also plays an important role. The CEM sample utilized in the H-cells tests (Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ity significantly contributes to membrane fouling, particulate matter also plays an important role. The CEM sample utilized in the H-cells tests (Fig. 7) exhibited new peaks appearing at 1105 and 1080 cm-1, and an increase in signal of the four peaks at 1220, 1050, 930 and 850 cm-1, compared to the unused material. These peaks could be assigned to the stretching vibration of C–O–C in polysaccharides [19] and to an ongoing microbial activity and biofouling process in CEM [58]. The peak at 1150 cm-1 could also indicate the stretching vibration of C–F and S–O groups from the poly­meric chains of the CEM. Similar changes were observed in the sample from month 3 of the anaerobic digester media (Fig. 8), while the samples from month 1 and 2 and the ones tested in autoclaved media show no significant changes from the unused material. This may suggest that short-term (4 days) electrochemical operation caused a biofouling and degradation comparable to the long-term (3 months) immersion in the AD media, while the long-term immersion in autoclaved media has minimal effect on the CEM. Therefore, applying an electric field through the CEM appears to boost degradation, with biological contributions also affecting it long-term, even without the electric field. The results from the fluorescence microscopy analysis (Fig. 10) corroborated the findings of the FTiR analysis. As shown in Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "t the electric field. The results from the fluorescence microscopy analysis (Fig. 10) corroborated the findings of the FTiR analysis. As shown in Fig. 10b, after one month of immersion in anaerobic digester effluent, the CEM began to exhibit signs of biofilm or particulate matter adhesion. By the second month (Fig. 10c), fouling had intensified, with a significant accumulation of particulate matter, particularly in specific regions of the membrane. However, the fouling only became extensive after three months (Fig. 10d), forming a thick layer of particulate matter that nearly obscured the membrane’s grid pattern, indicating severe biofouling, as confirmed by the significant changes in the FTiR spectra. In contrast, biofouling was markedly reduced in the autoclaved medium (Fig. 10e and f), consistent with the FTiR analysis. This suggests that microbial adhesion is likely the primary cause of biofouling in the CEM. The Cellophane showed no significant changes in the spectra due to operation in the H-cells (Fig. 7) or one-month immersion in anaerobic digester or autoclaved media (Fig. 8). However, immersion time exceeding one month resulted in the complete degradation of Cello­phane in both media. The PDMS modification extended the operative lifetime of the Cellophane material by two-fold (Fig. 8). A control test was carried out to evaluate the sudden degradation of Cellophane and",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Cellophane + PDMS in wet conditions. After 3 months of immersion in distilled water under agitation and gas purging, the samples were visually inspected, and no signs of material degradation were noticed. In contrast, the same materials in the biostability tests displayed visible signs of degradation, eventually completely disappearing in the liquid phase. Thus, it is plausible that the degradation observed in this study resulted not only from mechanical failure of the Cellophane due to hy­drolysis but also from chemical, biological, or physical degradation\n\nTable 3 Peak assignments reported in literature for separators tested in BES. Wavelength (cm-1) Peaks assignmentSeparators presenting the peak 1680–1620C––C stretching, indicating the presence of proteins and carbon compounds in the biofilm [58,59]\n\nAEM\n\n1260CH3 deformation in Si–CH3 [46]Cellophane +PDMS1250–1000-SO3- symmetric stretching [59]CEM1050–1060Stretching vibration of C–F and S–O [20,21]\n\nCEM\n\n1200–900Stretching vibration of C–O–C in polysaccharides [21] indicative of bacterial activity [60].\n\nAEM, CEM\n\n789–796Si–C stretching in Si–CH3 [46]Cellophane +PDMS",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11,
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 9. DAPI-stained fluorescence microscopy pictures of the anion exchange membrane (AEM). a) Unused material. b) 1 month of immersion in anaerobic digester effluent. c) 2 months of immersion in anaerobic digester effluent. d) 3 months of immersion in anaerobic digester effluent. e) 1 month of immersion in autoclaved anaerobic digester effluent. f) 2 months of immersion in autoclaved anaerobic digester effluent. g) 3 months of immersion in autoclaved anaerobic digester effluent. DAPI is a universal DNA stain that can bind to the DNA in any cell type or DNA-containing organic matter. S. Colantoni et al. Journal of Membrane Science 722 (2025) 123887\n\nFig. 10. DAPI-stained fluorescence microscopy pictures of the cation exchange membrane (CEM). a) unused material. b) 1 month of immersion in anaerobic digester effluent. c) 2 months of immersion in anaerobic digester effluent. d) 3 months of immersion in anaerobic digester effluent. e) 1 month of immersion in autoclaved anaerobic digester effluent. f) 2 months of immersion in autoclaved anaerobic digester effluent. g) 3 months of immersion in autoclaved anaerobic digester effluent. DAPI is a universal DNA stain that can bind to the DNA in any cell type or DNA-containing organic matter.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12,
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 11. DAPI-stained fluorescence microscopy pictures of Cellophane and Cellophane + PDMS. a) Cellophane after one month of immersion in anaerobic digester effluent. b) Cellophane after one month of immersion in autoclaved anaerobic digester effluent. c) Cellophane + PDMS after one month of immersion in anaerobic digester effluent. d) Cellophane + PDMS after one month of immersion in autoclaved anaerobic digester effluent. e) Cellophane + PDMS after two months of im­mersion in anaerobic digester effluent. f) Cellophane + PDMS after two months of immersion in autoclaved anaerobic digester effluent. DAPI is a universal DNA stain that can bind to the DNA in any cell type or DNA-containing organic matter. The unused materials were transparent; therefore, their picture is not included. S. Colantoni et al. Journal of Membrane Science 722 (2025) 123887 modified Cellophane was completely degraded after two months of immersion in either raw or autoclaved media, although it exhibited a lifespan twice that reported by Bahamonde Soria et al. [31] for TiO2: ZnO-modified Cellophane operated in real textile wastewater. The biodegradability of Cellophane could be interesting in the vision of cost-effective, biodegradable BES with a predetermined lifespan [29], since the bare Cellophane costed only 1 % of the cost of the CEM and AEM utilized in this study. The cost increases to 10 % of an IEM for the PDMS-modified Cellophane, see Table 1.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ed only 1 % of the cost of the CEM and AEM utilized in this study. The cost increases to 10 % of an IEM for the PDMS-modified Cellophane, see Table 1. Although modifying cellophane with PDMS enhanced its resistance to degradation, the material still exhibited inferior durability compared to AEM and CEM. The presented results suggest that cellophane-based materials do not degrade purely due to mechanical factors, as they remain stable in deionized water, ruling out plasticization as the sole cause. Instead, degradation appears to result from a combination of chemical and biochemical processes, as indicated by similar degradation rates in both anaerobic digestate and autoclaved AD medium. Physical degradation from suspended particles may also contribute, though this effect could be minimized if the material is protected by electrodes in a membrane-electrode assembly configuration. In terms of cost, cellophane-based separators, with prices around 50–70 EUR/m2, present themselves as a highly economical option compared to the significantly higher 500–1000 EUR/m2 for IEMs. This cost advantage, coupled with the demonstrated improvements in bio­stability, suggests potential applications for Cellophane + PDMS sepa­rators in scenarios where short-to medium-term lifespan is acceptable. However, while PDMS modification enhances stability, the material ultimately fails after two months of operation in anaerobic digestion conditions.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e. However, while PDMS modification enhances stability, the material ultimately fails after two months of operation in anaerobic digestion conditions. Further research is needed to better understand the degra­dation mechanisms of Cellophane and to enhance its long-term stability, possibly through improved crosslinking methods or additional chemical treatments to boost chemical resistance and reduce water absorption. 4. Conclusions In this study, the suitability of four different separators for potential use in microbial electrolysis cells (MECs) under anaerobic digester conditions was evaluated by investigating their performance in watersplitting electrolysis cells that replicate the real conditions in MECs, particularly in terms of media composition and transport phenomena. Notably, Cellophane + PDMS separators, along with unmodified cello­phane and anion exchange membranes (AEMs), demonstrated the abil­ity to prevent the formation of pH imbalances while maintaining stable transport overpotentials. The cation exchange membrane (CEM), in contrast, proved unsuitable for anaerobic digestion conditions due to the excessive pH gradient, which led to increased separator resistance and elevated cell voltage. The observed higher overpotentials and re­sistances across all tested separators, marked by significant variability, underscored the influence of using real anaerobic digester effluent - a more challenging electrolyte compared to synthetic media - on separator performance.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "cored the influence of using real anaerobic digester effluent - a more challenging electrolyte compared to synthetic media - on separator performance. Organic acid crossover was noted in all separators, with a slightly higher degree in cellophane-based materials. Importantly, the modification of Cellophane with PDMS was successfully achieved, marking the first instance of such an enhancement being evaluated in electrochemical systems under anaerobic digestion conditions. This novel modification extended the operational lifespan of cellophane under anaerobic conditions to two months before complete disintegra­tion occurred, showcasing the potential of chemical enhancements to improve the biostability of affordable separators. Future studies should prioritize long-term experiments under operational MEC conditions to evaluate the performance of MECs, along with the biofouling and bio­stability of separators in real anaerobic digestion environments. Addi­tionally, research should focus on improving separators fouling resistance.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S. Colantoni et al. Journal of Membrane Science 722 (2025) 123887 bioelectrochemical systems, ChemistrySelect 2 (2017) 3462–3470, https://doi. org/10.1002/SLCT.201700064.[9] B. Kokabian, V.G. Gude, Role of membranes in bioelectrochemical systems, Membrane Water Treatment 6 (2015) 53–75, https://doi.org/10.12989/ MWT.2015.6.1.053.[10] P. Bakonyi, L. Ko´ok, G. Kumar, G. T´oth, T. R´ozsenberszki, D.D. Nguyen, S. W. Chang, G. Zhen, K. B´elafi-Bak´o, N. Nemest´othy, Architectural engineering of bioelectrochemical systems from the perspective of polymeric membrane separators: a comprehensive update on recent progress and future prospects, J. Membr. Sci. 564 (2018) 508–522, https://doi.org/10.1016/j. memsci.2018.07.051.[11] R. Carde˜na, L. Ko´ok, J. ˇZitka, P. Bakonyi, B. Galajdov´a, M. Otmar, N. Nemest´othy, G. Buitr´on, Evaluation and ranking of polymeric ion exchange membranes used in microbial electrolysis cells for biohydrogen production, Bioresour. Technol. 319 (2021) 124182, https://doi.org/10.1016/J.BIORTECH.2020.124182.[12] M. Henze, M.C.M. van Loosdrecht, G.A. Ekama, D. Brdjanovic, Biological Wastewater Treatment, IWA Publishing, 2008.[13] R.A. Rozendal, T.H.J.A. Sleutels, H.V.M. Hamelers, C.J.N. Buisman, Effect of the type of ion exchange membrane on performance, ion transport, and pH in biocatalyzed electrolysis of wastewater, Water Sci. Technol. 57 (2008) 1757–1762, https://doi.org/10.2166/WST.2008.043.[14] R.A. Rozendal, H.V.M. Hamelers, C.J.N.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "electrolysis of wastewater, Water Sci. Technol. 57 (2008) 1757–1762, https://doi.org/10.2166/WST.2008.043.[14] R.A. Rozendal, H.V.M. Hamelers, C.J.N. Buisman, Effects of membrane cation transport on pH and microbial fuel cell performance, Environ. Sci. Technol. 40 (2006) 5206–5211, https://doi.org/10.1021/ES060387R.[15] T.H.J.A. Sleutels, H.V.M. Hamelers, R.A. Rozendal, C.J.N. Buisman, Ion transport resistance in Microbial Electrolysis Cells with anion and cation exchange membranes, Int. J. Hydrogen Energy 34 (2009) 3612–3620, https://doi.org/ 10.1016/J.IJHYDENE.2009.03.004.[16] F. Harnisch, R. Warmbier, R. Schneider, U. Schr¨oder, Modeling the ion transfer and polarization of ion exchange membranes in bioelectrochemical systems, Bioelectrochemistry 75 (2009) 136–141, https://doi.org/10.1016/J. BIOELECHEM.2009.03.001.[17] F. Harnisch, U. Schr¨oder, Selectivity versus mobility: separation of anode and cathode in microbial bioelectrochemical systems, ChemSusChem 2 (2009) 921–926, https://doi.org/10.1002/CSSC.200900111.[18] F. Harnisch, U. Schr¨oder, F. Scholz, The suitability of monopolar and bipolar ion exchange membranes as separators for biological fuel cells, Environ. Sci. Technol. 42 (2008) 1740–1746, https://doi.org/10.1021/ES702224A/ASSET/IMAGES/ LARGE/ES-2007-02224A_0009. JPEG.[19] S. Kondaveeti, R. Kakarla, H.S. Kim, B. Kim, B. Min, The performance and longterm stability of low-cost separators in single-chamber bottle-type microbial fuel cells, Environ. Technol.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "m, B. Kim, B. Min, The performance and longterm stability of low-cost separators in single-chamber bottle-type microbial fuel cells, Environ. Technol. 39 (2018) 288–297, https://doi.org/10.1080/ 09593330.2017.1299223.[20] J. Xu, G.-P. Sheng, H.-W. Luo, W.-W. Li, L.-F. Wang, H.-Q. Yu, Fouling of proton exchange membrane (PEM) deteriorates the performance of microbial fuel cell, Water Res. 46 (2012) 1817–1824, https://doi.org/10.1016/j.watres.2011.12.060.[21] M. Miskan, M. Ismail, M. Ghasemi, J. Md Jahim, D. Nordin, M.H. Abu Bakar, Characterization of membrane biofouling and its effect on the performance of microbial fuel cell, Int. J. Hydrogen Energy 41 (2016) 543–552, https://doi.org/ 10.1016/J.IJHYDENE.2015.09.037.[22] M.T. Noori, M.M. Ghangrekar, C.K. Mukherjee, B. Min, Biofouling effects on the performance of microbial fuel cells and recent advances in biotechnological and chemical strategies for mitigation, Biotechnol. Adv. 37 (2019), https://doi.org/ 10.1016/J.BIOTECHADV.2019.107420.[23] L. Ko´ok, P. Bakonyi, F. Harnisch, J. Kretzschmar, K.-J. Chae, G. Zhen, G. Kumar, T. R´ozsenberszki, G. T´oth, N. Nemest´othy, K. B´elafi-Bak´o, Biofouling of membranes in microbial electrochemical technologies: causes, characterization methods and mitigation strategies, Bioresour. Technol. 279 (2019) 327–338, https://doi.org/ 10.1016/j.biortech.2019.02.001.[24] G. Pasternak, A. De Rosset, N. Tyszkiewicz, B. Widera, J. Greenman, I.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "chnol. 279 (2019) 327–338, https://doi.org/ 10.1016/j.biortech.2019.02.001.[24] G. Pasternak, A. De Rosset, N. Tyszkiewicz, B. Widera, J. Greenman, I. Ieropoulos, Prevention and removal of membrane and separator biofouling in bioelectrochemical systems: a comprehensive review, iScience 25 (2022) 104510, https://doi.org/10.1016/j.isci.2022.104510.[25] D.A. Jadhav, S. Pandit, J.M. Sonawane, P.K. Gupta, R. Prasad, A.D. Chendake, Effect of membrane biofouling on the performance of microbial electrochemical cells and mitigation strategies, Bioresour. Technol. Rep. 15 (2021) 100822, https://doi.org/10.1016/j.biteb.2021.100822.[26] N. Zhao, D. Liang, X. Li, S. Meng, H. Liu, Hydrophilic porous materials provide efficient gas-liquid separation to advance hydrogen production in microbial electrolysis cells, Bioresour. Technol. 337 (2021) 125352, https://doi.org/ 10.1016/j.biortech.2021.125352.[27] L. Ko´ok, N. Nemest´othy, P. Bakonyi, A. G¨ollei, T. R´ozsenberszki, P. Tak´acs, A. Salekovics, G. Kumar, K. B´elafi-Bak´o, On the efficiency of dual-chamber biocatalytic electrochemical cells applying membrane separators prepared with imidazolium-type ionic liquids containing [NTf2]-and [PF6]-anions, Chem. Eng. J. 324 (2017) 296–302, https://doi.org/10.1016/j.cej.2017.05.022.[28] L. Ko´ok, B. Kaufer, P. Bakonyi, T. R´ozsenberszki, I. Rivera, G. Buitr´on, K. B´elafiBak´o, N.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "96–302, https://doi.org/10.1016/j.cej.2017.05.022.[28] L. Ko´ok, B. Kaufer, P. Bakonyi, T. R´ozsenberszki, I. Rivera, G. Buitr´on, K. B´elafiBak´o, N. Nemest´othy, Supported ionic liquid membrane based on [bmim][PF6] can be a promising separator to replace Nafion in microbial fuel cells and improve energy recovery: a comparative process evaluation, J. Membr. Sci. 570 (2019) 215–225, https://doi.org/10.1016/j.memsci.2018.10.063, 571.[29] J. Winfield, L.D. Chambers, J. Rossiter, I. Ieropoulos, Comparing the short and long term stability of biodegradable, ceramic and cation exchange membranes in microbial fuel cells, Bioresour. Technol. 148 (2013) 480–486, https://doi.org/ 10.1016/j.biortech.2013.08.163.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[30] W. Logro˜no, M. P´erez, G. Urquizo, A. Kadier, M. Echeverría, C. Recalde, G. R´akhely, Single chamber microbial fuel cell (SCMFC) with a cathodic microalgal biofilm: a preliminary assessment of the generation of bioelectricity and biodegradation of real dye textile wastewater, Chemosphere 176 (2017) 378–388, https://doi.org/10.1016/j.chemosphere.2017.02.099.[31] R. Bahamonde Soria, B.D. Chinchin, D. Arboleda, Y. Zhao, P. Bonilla, B. Van der Bruggen, P. Luis, Effect of the bio-inspired modification of low-cost membranes with TiO2:ZnO as microbial fuel cell membranes, Chemosphere 291 (2022) 132840, https://doi.org/10.1016/j.chemosphere.2021.132840.[32] M.A. Moqsud, K. Omine, N. Yasufuku, M. Hyodo, Y. Nakata, Microbial fuel cell (MFC) for bioelectricity generation from organic wastes, Waste Manag. 33 (2013) 2465–2469, https://doi.org/10.1016/j.wasman.2013.07.026.[33] B.A. Morris, 4 - commonly used resins and substrates in flexible packaging, in: B. A. Morris (Ed.), The Science and Technology of Flexible Packaging, William Andrew Publishing, Oxford, 2017, pp. 69–119, https://doi.org/10.1016/B978-0323-24273-8.00004-6.[34] M.R. Vakili, M. Gholami, Z. Mosallaei, A.M. Ghasemi, Modification of regenerated cellulose membrane by impregnation of silver nanocrystal clusters, J. Appl. Polym. Sci. 137 (2020) 48292, https://doi.org/10.1002/app.48292.[35] G. Zhao, X. Lyu, J. Lee, X. Cui, W.-N.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n of silver nanocrystal clusters, J. Appl. Polym. Sci. 137 (2020) 48292, https://doi.org/10.1002/app.48292.[35] G. Zhao, X. Lyu, J. Lee, X. Cui, W.-N. Chen, Biodegradable and transparent cellulose film prepared eco-friendly from durian rind for packaging application, Food Packag. Shelf Life 21 (2019) 100345, https://doi.org/10.1016/j. fpsl.2019.100345.[36] Y. Wang, D. Wang, J. Wang, L. Wang, Preparation and characterization of a sol-gel derived silica/PVA-Py hybrid anion exchange membranes for alkaline fuel cell application, J. Electroanal. Chem. 873 (2020) 114342, https://doi.org/10.1016/j. jelechem.2020.114342.[37] S. Colantoni, ´O. Santiago, J.R. Weiler, M.T. Knoll, C.J. Lapp, J. Gescher, S. Kerzenmacher, Comparative study of bioanodes for microbial electrolysis cells operation in anaerobic digester conditions, J. Environ. Chem. Eng. 12 (2024) 113071, https://doi.org/10.1016/j.jece.2024.113071.[38] J. Mosa Santiago, P.G. Escribano, E. Navarro, E. Chinarro, M. Aparicio, T.J. Leo, C. del Río, 40SiO2–40P2O5–20ZrO2 sol-gel infiltrated sSEBS membranes with improved methanol crossover and cell performance for direct methanol fuel cell applications, Int. J. Hydrogen Energy 45 (2020) 20620–20631, https://doi.org/ 10.1016/j.ijhydene.2020.01.252.[39] L. Cristiani, M. Zeppilli, D. Feriaud, C. Marandola, M. Petrangeli Papini, S. Da Silva, B. Erable, M.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s://doi.org/ 10.1016/j.ijhydene.2020.01.252.[39] L. Cristiani, M. Zeppilli, D. Feriaud, C. Marandola, M. Petrangeli Papini, S. Da Silva, B. Erable, M. Villano, Enhancing energy efficiency and H2 production in lab-scale dual chamber microbial electrolysis cells: a focus on catholyte composition and voltage losses, J. Environ. Chem. Eng. 12 (2024) 111782, https://doi.org/ 10.1016/j.jece.2023.111782.[40] R. Rousseau, L. Etcheverry, E. Roubaud, R. Bass´eguy, M.-L. D´elia, A. Bergel, Microbial electrolysis cell (MEC): strengths, weaknesses and research needs from electrochemical engineering standpoint, Appl. Energy 257 (2020) 113938, https:// doi.org/10.1016/j.apenergy.2019.113938.[41] F. Yin, L. Fang, H. Liu, pH overpotential for unveiling the pH gradient effect of H+/ OH-transport in electrode reaction kinetics, CCS Chem. 4 (2021) 369–380, https://doi.org/10.31635/ccschem.021.202000604.[42] J.R. Kim, S. Cheng, S.-E. Oh, B.E. Logan, Power generation using different cation, anion, and ultrafiltration membranes in microbial fuel cells, Environ. Sci. Technol. 41 (2007) 1004–1009, https://doi.org/10.1021/es062202m.[43] S. Szak´acs, L. Ko´ok, N. Nemest´othy, K. B´elafi-Bak´o, P. Bakonyi, Studying microbial fuel cells equipped with heterogeneous ion exchange membranes: electrochemical performance and microbial community assessment of anodic and membranesurface biofilms, Bioresour. Technol. 360 (2022) 127628, https://doi.org/ 10.1016/j.biortech.2022.127628.[44] I. V´azquez, S.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nt of anodic and membranesurface biofilms, Bioresour. Technol. 360 (2022) 127628, https://doi.org/ 10.1016/j.biortech.2022.127628.[44] I. V´azquez, S. Kerzenmacher, ´O. Santiago, Stainless steel wool as novel bioanode for microbial electrolysis cells: a systematic study of materials, Front. Energy Res. 11 (2023) 124, https://doi.org/10.3389/FENRG.2023.1119090.[45] R. Hartmann, H. Jeckel, E. Jelli, P.K. Singh, S. Vaidya, M. Bayer, D.K.H. Rode, L. Vidakovic, F. Díaz-Pascual, J.C.N. Fong, A. Dragoˇs, O. Lamprecht, J.G. Th¨oming, N. Netter, S. H¨aussler, C.D. Nadell, V. Sourjik, ´A.T. Kov´acs, F.H. Yildiz, K. Drescher, Quantitative image analysis of microbial communities with BiofilmQ, Nat Microbiol 6 (2021) 151–156, https://doi.org/10.1038/s41564-020-00817-4.[46] L.M. Johnson, L. Gao, C.W. Shields IV, M. Smith, K. Efimenko, K. Cushing, J. Genzer, G.P. L´opez, Elastomeric microparticles for acoustic mediated bioseparations, J. Nanobiotechnol. 11 (2013) 22, https://doi.org/10.1186/14773155-11-22.[47] I. Stenina, D. Golubenko, V. Nikonenko, A. Yaroslavtsev, Selectivity of transport processes in ion-exchange membranes: relationship with the structure and methods for its improvement, Int. J. Mol. Sci. 21 (2020) 5517, https://doi.org/10.3390/ ijms21155517.[48] Z. Eslami, S. Elkoun, M. Robert, K. Adjall´e, A review of the effect of plasticizers on the physical and mechanical properties of alginate-based films, Molecules 28 (2023) 6637, https://doi.org/10.3390/molecules28186637.[49] Q.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "icizers on the physical and mechanical properties of alginate-based films, Molecules 28 (2023) 6637, https://doi.org/10.3390/molecules28186637.[49] Q. Wang, G.Q. Chen, S.E. Kentish, Sorption and diffusion of organic acid ions in anion exchange membranes: acetate and lactate ions as a case study, J. Membr. Sci. 614 (2020) 118534, https://doi.org/10.1016/j.memsci.2020.118534.[50] L. Ma, L. Gutierrez, M. Vanoppen, D.N. Lorenz, C. Aubry, A. Verliefde, Transport of uncharged organics in ion-exchange membranes: experimental validation of the solution-diffusion model, J. Membr. Sci. 564 (2018) 773–781, https://doi.org/ 10.1016/j.memsci.2018.07.029.[51] S.G. Park, K.J. Chae, M. Lee, A sulfonated poly(arylene ether sulfone)/polyimide nanofiber composite proton exchange membrane for microbial electrolysis cell application under the coexistence of diverse competitive cations and protons,",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "S. Colantoni et al. Journal of Membrane Science 722 (2025) 123887\n\nJ. Membr. Sci. 540 (2017) 165–173, https://doi.org/10.1016/J. MEMSCI.2017.06.048.[52] M.I. V´azquez, R. de Lara, P. Gal´an, J. Benavente, Modification of cellophane membranes by γ-radiation: effect of irradiation doses on electrochemical parameters, J. Membr. Sci. 256 (2005) 202–208, https://doi.org/10.1016/j. memsci.2005.02.021.[53] M. Oliot, S. Galier, H. Roux de Balmann, A. Bergel, Ion transport in microbial fuel cells: key roles, theory and critical review, Appl. Energy 183 (2016) 1682–1704, https://doi.org/10.1016/j.apenergy.2016.09.043.[54] R. Carde˜na, J. ˇZitka, L. Ko´ok, P. Bakonyi, L. Pavlovec, M. Otmar, N. Nemest´othy, G. Buitr´on, Feasibility of quaternary ammonium and 1,4-diazabicyclo[2.2.2]oc­tane-functionalized anion-exchange membranes for biohydrogen production in microbial electrolysis cells, Bioelectrochemistry 133 (2020), https://doi.org/ 10.1016/j.bioelechem.2020.107479.[55] M. Ahmed, I. Dincer, A review on methanol crossover in direct methanol fuel cells: challenges and achievements, Int. J. Energy Res. 35 (2011) 1213–1228, https:// doi.org/10.1002/er.1889.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15,
+        16
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[56] C. K¨ohler, L. Bleck, M. Frei, R. Zengerle, S. Kerzenmacher, Poisoning of highly porous platinum electrodes by amino acids and tissue fluid constituents, Chemelectrochem 2 (2015) 1785–1793, https://doi.org/10.1002/celc.201500215.[57] J. Han, H. Liu, Real time measurements of methanol crossover in a DMFC, J. Power Sources 164 (2007) 166–173, https://doi.org/10.1016/j.jpowsour.2006.09.105.[58] J.M. Moon, S. Kondaveeti, B. Min, Evaluation of low-cost separators for increased power generation in single chamber microbial fuel cells with membrane electrode assembly, Fuel Cells 15 (2015) 230–238, https://doi.org/10.1002/ fuce.201400036.[59] H.O. Mohamed, M. Obaid, K.A. Khalil, N.A.M. Barakat, Power generation from unconditioned industrial wastewaters using commercial membranes-based microbial fuel cells, Int. J. Hydrogen Energy 41 (2016) 4251–4263, https://doi. org/10.1016/j.ijhydene.2016.01.022.[60] D. Helm, H. Labischinski, D. Naumann, Elaboration of a procedure for identification of bacteria using Fourier-Transform IR spectral libraries: a stepwise correlation approach, J. Microbiol. Methods 14 (1991) 127–142, https://doi.org/ 10.1016/0167-7012(91)90042-O.\n\nS. Colantoni et al. Journal of Membrane Science 722 (2025) 123887",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825002005-main",
+      "title": "Evaluation of separators for potential use in microbial electrolysis cells under anaerobic digester conditions",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  }
+]

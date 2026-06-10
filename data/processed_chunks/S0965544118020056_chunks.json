@@ -1,0 +1,110 @@
+[
+  {
+    "content": "1. INTRODUCTION\nAt current densities exceeding the limiting current density, H⁺ and OH⁻ ions are generated at the interface of the ion-exchange membrane with a depleted solution as a result of the dissociation of water molecules. At present, it is generally accepted that water splitting occurs in a thin (a few nanometers) layer inside the membrane, this reaction being catalytic in nature. The mathematical model of ion transport in the diffusion layer near the membrane surface has been constructed and numerically studied under conditions when dissociation and recombination processes involving water molecules and H⁺ and OH⁻ ions occur simultaneously. It has been shown that in overlimiting current regimes under very high voltages, intense noncatalytic dissociation of water molecules in the extended space charge region of the depleted solution can occur irrespective of the catalytic splitting of water. Since this region has macroscopic dimensions, the rate of noncatalytic water dissociation is comparable with the rate of the corresponding catalytic process. The obtained results significantly supplement modern concepts of the mechanism of generation of H⁺ and OH⁻ ions in membrane systems, showing that this process can proceed not only in accordance with the conventional mechanism with the catalytic participation of functional groups and/or other compounds, but also via the noncatalytic mechanism that has not been taken into account to the present.",
+    "citation": {
+      "authors": ["M. Kh. Urtenov", "A. V. Pismensky", "V. V. Nikonenko", "A. V. Kovalenko"],
+      "paper_id": "S0965544118020056",
+      "title": "Mathematical Modeling of Ion Transport and Water Dissociation at the Ion-Exchange Membrane/Solution Interface in Intense Current Regimes",
+      "year": 2018,
+      "section": "Introduction",
+      "pages": [121, 122]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In intense current regimes when the current used is several times higher than the limiting electrodiffusion current, secondary (or coupled) concentration polarization phenomena arise in membrane systems [1]: the space electric charge occupies a macroscopic region comparable to the diffusion layer thickness, the pH of the solution undergoes a shift [2, 3] explained by the splitting of water, microconvective flows are formed, etc. Taking into account the effect of the dissociation/recombination reaction of water molecules is important for understanding the transport processes in electromembrane systems, since some researchers believe that the appearance of the new charge carriers H⁺ and OH⁻ can lead to a decrease or even disappearance of the space charge, which forms the basis of other transport mechanisms, for example, electroconvection.\nThe splitting of water in systems with ion-exchange membranes was first observed by Frilette [2] and Kressman and Tye [3] and has since been studied by a number of investigators [4–21].",
+    "citation": {
+      "authors": ["M. Kh. Urtenov", "A. V. Pismensky", "V. V. Nikonenko", "A. V. Kovalenko"],
+      "paper_id": "S0965544118020056",
+      "title": "Mathematical Modeling of Ion Transport and Water Dissociation at the Ion-Exchange Membrane/Solution Interface in Intense Current Regimes",
+      "year": 2018,
+      "section": "Introduction",
+      "pages": [122]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Beginning with the works of Greben et al. [10] and Simons [11–13], it is generally assumed that water splitting occurs in thin surface layers of membranes, with this reaction being catalytic in nature [23]. Functional groups of the membrane or other compounds (precipitates of sparingly soluble salts or catalysts immobilized for a special purpose on the interface) are involved in this reaction. The assumption is substantiated by the following argument [12, 13]. If the H⁺ and OH⁻ ions were generated within a thin reaction layer of a thickness δᵣ at the usual, constant water dissociation rate characteristic of a free solution, then their fluxes would not exceed k_d·C_H2O·δᵣ, where k_d is the rate constant of water dissociation and C_H2O is the concentration of water in this layer. Assuming that k_d = 2×10⁻⁵ s⁻¹ at 25°C, C_H2O = 10 mol/L (inside the membrane phase), and δᵣ = 10 nm, the upper limit for the fluxes of water ions can be estimated at 2×10⁻⁹ mol m⁻² s⁻¹. At the same time, their actual fluxes reach 5×10⁻⁴ mol m⁻² s⁻¹ at 25°C for ion exchange membranes [12, 22]. In order to overcome this divergence, Simons [11–13] suggested that the water dissociation reaction is catalytic in character. In the case when functional groups (B) of an anion-exchange membrane take part in this reaction, the generation process can be represented as a reaction proceeding in two steps [13, 14]:\nB + H₂O ↔ BH⁺ + OH⁻,\nBH⁺ + H₂O ↔ B + H₃O⁺.\nThe first reaction proceeds rapidly; the rate-determining step is the dissociation of the protonated functional group BH⁺. However, the rate constant of the second reaction is many orders of magnitude larger than the water dissociation rate constant k_d, a fact that explains the acceleration of the entire process of generation of H⁺ and OH⁻ ions as a whole.\nLater, this theory based on the assumption that water splitting is a catalytic process and occurs only in a thin boundary layer of the membrane was developed in many studies [14–17, 23], becoming generally accepted to date.",
+    "citation": {
+      "authors": ["M. Kh. Urtenov", "A. V. Pismensky", "V. V. Nikonenko", "A. V. Kovalenko"],
+      "paper_id": "S0965544118020056",
+      "title": "Mathematical Modeling of Ion Transport and Water Dissociation at the Ion-Exchange Membrane/Solution Interface in Intense Current Regimes",
+      "year": 2018,
+      "section": "Introduction",
+      "pages": [122]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The theoretical analysis carried out in this paper shows that in an overlimiting current regime at a high potential drop, another scenario of the generation of H⁺ and OH⁻ ions is possible, which is based on the intensive dissociation of water molecules in an extended space charge region. Since the size of this macroscopic region can be four orders of magnitude larger than the thickness of the reaction layer, the flux of H⁺ and OH⁻ ions may also be as many times as large. Thus, these results substantially supplement modern ideas about the mechanism of generation of H⁺ and OH⁻ ions in membrane systems, showing that this process can occur not only via the conventional catalytic mechanism, but also by a noncatalytic mechanism that is not currently taken into account.\nIn this study based on the results obtained in [18], we developed a mathematical model for the electrodiffusion of four types of ions simultaneously (two salt ions and H⁺ and OH⁻ ions) in the diffusion layer near an ideally selective membrane with the combined effect of electroneutrality violation and the dissociation/recombination reaction of water molecules. A numerical analysis of the model in accordance with [24] made it possible to reveal the main features of the influence of the dissociation/recombination reaction on the transport of salt ions.",
+    "citation": {
+      "authors": ["M. Kh. Urtenov", "A. V. Pismensky", "V. V. Nikonenko", "A. V. Kovalenko"],
+      "paper_id": "S0965544118020056",
+      "title": "Mathematical Modeling of Ion Transport and Water Dissociation at the Ion-Exchange Membrane/Solution Interface in Intense Current Regimes",
+      "year": 2018,
+      "section": "Introduction",
+      "pages": [122]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "PHYSICAL STATEMENT OF THE PROBLEM\nThe one-dimensional steady-state transport of singly charged salt ions in the Nernst diffusion layer with allowance for water dissociation/recombination is described by the system of equations (1)–(7). The Nernst–Planck equations for ion fluxes, continuity equations, Poisson equation, and the equations for water dissociation/recombination are used. Subscripts i = 1 and 2 refer to salt ions (Na⁺ and Cl⁻), i = 3 and i = 4 refer to H⁺ and OH⁻ ions, respectively.\nA cation-exchange membrane (CEM) is considered, which is assumed to be ideally selective (co‑ion flux zero). In the bulk of the solution (x=0), the electroneutrality condition is fulfilled. At the membrane surface (x=δ, where δ is the thickness of the Nernst diffusion layer), boundary conditions are set: the cation concentration C₁ is on the order of the exchange capacity of the CEM; the OH⁻ ion flux is set to account for catalytic water dissociation at the interface.\nThe diffusion layer consists of the electroneutrality region (ENR), a narrow recombination region (RR) within the ENR, an intermediate region (IR) between ENR and SCR, and the space charge region (SCR). The SCR itself consists of an extended (nonequilibrium) part and a quasi-equilibrium electrical double layer (EDL).",
+    "citation": {
+      "authors": ["M. Kh. Urtenov", "A. V. Pismensky", "V. V. Nikonenko", "A. V. Kovalenko"],
+      "paper_id": "S0965544118020056",
+      "title": "Mathematical Modeling of Ion Transport and Water Dissociation at the Ion-Exchange Membrane/Solution Interface in Intense Current Regimes",
+      "year": 2018,
+      "section": "Physical statement of the problem",
+      "pages": [122, 123, 124]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "MAIN RESULTS OF NUMERICAL ANALYSIS\nStructure of Diffusion Layer\nFrom the analysis of the charge density distribution (Fig. 2a) it follows that the diffusion layer consists of the electroneutrality region (ENR) and the space charge region (SCR). The ENR begins from x=0 and continues to a point x_c (≈0.7). The SCR starts approximately from x_c and continues to x=1. The SCR width (1-x_c) is about 0.3. The SCR consists of the extended (main) part where all sought functions change relatively slowly, and the region near the membrane surface (x_q ≈ 0.9995) where functions vary exponentially (quasi-equilibrium EDL). The extended SCR arises only at overlimiting current densities; its thickness is finite and determined by how much the current density exceeds ilim [25]. It is in this region that noncatalytic water splitting occurs.\nBetween ENR and SCR, near x=x_c, there is an intermediate region (IR) of small width where the charge density has a local maximum and the equilibrium condition of water dissociation is violated (Fig. 3).",
+    "citation": {
+      "authors": ["M. Kh. Urtenov", "A. V. Pismensky", "V. V. Nikonenko", "A. V. Kovalenko"],
+      "paper_id": "S0965544118020056",
+      "title": "Mathematical Modeling of Ion Transport and Water Dissociation at the Ion-Exchange Membrane/Solution Interface in Intense Current Regimes",
+      "year": 2018,
+      "section": "Main results",
+      "pages": [125, 126]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Analysis of the Reactions of Dissociation of Water Molecules and Recombination of H⁺ and OH⁻ Ions\nNoncatalytic reaction of water dissociation in the extended space charge region. In the SCR, both fluxes of H⁺ and OH⁻ are nonzero and increase almost linearly in the extended SCR, reaching significant values. The inclined segments in Fig. 4 indicate that water dissociation occurs intensively in the main part of the SCR, due to high electric field strength (Fig. 6a). Because of the large electric field, the product C₃C₄ becomes much smaller than the equilibrium constant k_W; thus, the equilibrium condition is violated in favor of dissociation. For example, at C₁₀=1 mol/m³, C₃₀=0.01 mol/m³ (pH 5), I_S=1.5I_lim, j₄m = -0.4, and C₃m=10⁻⁶, we have k_W=10⁻⁸ and C₃C₄<10⁻⁹. Hence, the flux j₃ is sufficiently large already near the SCR. At high salt concentrations (C₁₀=10 mol/m³), the equilibrium condition is satisfied in the extended SCR and noncatalytic dissociation becomes negligible. Thus, the lower the salt concentration, the more intense is noncatalytic water dissociation in the extended SCR.\nRecombination reaction. The recombination region (RR) is located in the ENR. In the RR, the fluxes change exponentially (Fig. 5). The width of the RR is small (about 1.3×10⁻³ of the diffusion layer width). Therefore, the RR can be represented by the “recombination point” x_r where C₃(x_r)=C₄(x_r).",
+    "citation": {
+      "authors": ["M. Kh. Urtenov", "A. V. Pismensky", "V. V. Nikonenko", "A. V. Kovalenko"],
+      "paper_id": "S0965544118020056",
+      "title": "Mathematical Modeling of Ion Transport and Water Dissociation at the Ion-Exchange Membrane/Solution Interface in Intense Current Regimes",
+      "year": 2018,
+      "section": "Main results",
+      "pages": [126, 127, 128]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Analysis of Electric-Field Strength and Concentration Distributions\nContrary to earlier assumptions [21], there is no “spike” in electric field strength at the recombination point (Fig. 6b). Instead, a transition occurs because the field to the left is determined by the H⁺ flux and to the right by the OH⁻ flux; they are not equal due to different diffusion coefficients.\nThe presence of OH⁻ ions leads to displacement of Cl⁻ already in the ENR (Fig. 7a). In the SCR, the Cl⁻ concentration is zero with high accuracy due to ideal selectivity of the CEM. Concentrations do not change dramatically in the RR.\n\nThe ratio of catalytic and noncatalytic routes\nWhen comparing the cases with and without catalytic water dissociation (j₄m ≠ 0 vs. j₄m = 0), the fluxes differ substantially only in the quasi-equilibrium SCR. In other regions, the difference is up to 10–20%. At low salt concentrations, the main contribution to water dissociation is made by noncatalytic dissociation. As salt concentration increases, catalytic dissociation begins to dominate.",
+    "citation": {
+      "authors": ["M. Kh. Urtenov", "A. V. Pismensky", "V. V. Nikonenko", "A. V. Kovalenko"],
+      "paper_id": "S0965544118020056",
+      "title": "Mathematical Modeling of Ion Transport and Water Dissociation at the Ion-Exchange Membrane/Solution Interface in Intense Current Regimes",
+      "year": 2018,
+      "section": "Main results",
+      "pages": [128]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "CONCLUSIONS\nThe structure of the diffusion layer under overlimiting current regimes has been established. It has been shown that intense noncatalytic splitting of water molecules occurs in the extended space charge region, which has finite dimensions, at small salt concentrations.\nThe fluxes of hydrogen and hydroxyl ions have significant values in the extended SCR and are distributed according to an almost linear law. This is due to the fact that the electric field strength in the SCR reaches so large values that the product of concentrations of hydrogen and hydroxyl ions becomes significantly less than the equilibrium constant; i.e., the equilibrium condition C₃C₄ = k_W of the dissociation/recombination reaction is violated in favor of dissociation.\nThe size of the recombination region has been determined, which is much smaller than the width of the diffusion layer (it is on the order of 1 to 2%), and therefore, the RR can be replaced by the “recombination point” in many cases.\nIt has been shown that the equilibrium condition is satisfied everywhere in the diffusion layer, except the recombination and space charge regions. Wherever the equilibrium condition is satisfied, the concentration of either hydrogen or hydroxyl ions can be considered with good accuracy to be zero; i.e., it can be assumed that these ions are not present simultaneously.\nThe revealed trends in the influence of the dissociation/recombination reaction on the transport of salt ions make it possible to explore the possibility of the emergence or enhancement of gravitational convection due to the dissociation/recombination reaction of water molecules, which opens the opportunity of intensifying the transport process of salt ions.",
+    "citation": {
+      "authors": ["M. Kh. Urtenov", "A. V. Pismensky", "V. V. Nikonenko", "A. V. Kovalenko"],
+      "paper_id": "S0965544118020056",
+      "title": "Mathematical Modeling of Ion Transport and Water Dissociation at the Ion-Exchange Membrane/Solution Interface in Intense Current Regimes",
+      "year": 2018,
+      "section": "Conclusions",
+      "pages": [129]
+    },
+    "type": "chunk"
+  }
+]

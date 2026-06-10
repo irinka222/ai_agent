@@ -1,0 +1,1393 @@
+[
+  {
+    "content": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIOTEMPORAL ION CONCENTRATION AND FLUID FLOW PATTERNS IN OVERLIMITING CURRENT ELECTRODIALYSIS A.V. Kovalenko1, M. Wessling2,3, V.V. Nikonenko1, S.A. Mareev1, I.A. Moroz1, E. Evdochenko1,2, M.Kh. Urtenov1 1Kuban State University, Membrane Institute, Stavropolskaya Str. 149, 350040, Krasnodar, Russian Federation 2RWTH Aachen University, Chemical Process Engineering, Forckenbeckstrasse 51, 52074, Aachen, Germany 3DWI - Leibniz Institute for Interactive Materials, Forckenbeckstrasse 50, 52074, Aachen, Germany",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Abstract Overlimiting current regimes are of practical interest for electrodialysis with ion-exchange membranes (IEMs) operating at current densities significantly higher than the limiting current density. Such high ion currents across the membranes allows reducing the investments into expensive IEMs and stacks. Electroconvection (EC) is the major contributor to the overlimiting current and concepts to utilize EC are highly desired. Most of the known theoretical works describing EC in electrodialysis channels are performed when only a single cation exchange membrane is considered. The presence of a neighboring anion-exchange membrane has not been considered so far. We report the results of direct numerical simulations of ion and water transport involving EC in an electrodialysis channel formed by a cationand an anion-exchange membrane. A 2D “basic” model involving the Nernst-Planck-Poisson-Navier-Stokes equations is introduced. Details of spatio-temporal changes in the distribution of concentrations and space charge patterns as well as the interactions of EC vortices are analyzed. The presence of the anion-exchange membrane in the transition to a close-to-chaotic regime at high potential difference is examined. For the first time, we discover the phenomenon of space-charge breakdown where the space charges of opposite sign formed at the two membranes are short-circuited throughout the desalination channel.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "f space-charge breakdown where the space charges of opposite sign formed at the two membranes are short-circuited throughout the desalination channel. The details of the mechanism of this phenomenon are analyzed using the 2D model and a simplified 1D model. Simulations show that the space-charge breakdown leads to a decrease in the size and number of EC vortices in the region of breakdown, which results in a reduction of the local current density. This phenomenon, apparently, determines the upper limit of the possible increase in the mass transfer rate by electroconvection. Keywords: Ion-exchange membranes; Electrodialysis; Concentration polarization; Overlimiting current; Electroconvection",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Electrodialysis (ED) is a widely used electrically driven membrane process for solution desalination, concentration and separation of ions [1, 2]. The main economic advantage of this technique is that during ED ions are removed from the feed solution. In pressure-driven ion separation and concentration processes, the solvent water passes through the membrane. Therefore, the costs of ED process decrease approximately proportionally to the decrease in ion concentration, while in reverse osmosis (RO) and nanofiltration (NF) these costs only slightly depend on solution concentration [3]. Consequently, ED is a significantly less energy consuming process than RO and NF, when the feed solution concentration is sufficiently low [3, 4]. Recent estimations made by Patel, Biesheuvel and Elimelech [5] show that the critical value of total dissolved solids in the feed solution is 3 g L–1. Another advantage is the ability to obtain highly concentrated solutions and high rates of water recovery, which is not possible in the case of using only RO and NF [6, 7]. With a process similar to ED using capacitive flow electrodes, one can even realize deep desalination and high concentration of solutions [8,9].",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", 7]. With a process similar to ED using capacitive flow electrodes, one can even realize deep desalination and high concentration of solutions [8,9]. However, when treating feed solution towards deep desalination, there is a serious limitation of ED: ionic fluxes through the membranes do not follow the driving force but are limited by the diffusion from the bulk electrolyte through laminar boundary layers to the membrane/electrolyte solution interface, wellknown as concentration polarization [10]. This leads to a significant increment of electrical resistance in the diluate compartment, which results in an increase in the ratio of the energy consumption to the minimum required by thermodynamics [5]. To overcome this challenge, narrow ED diluate channels [11], ion-exchange resin fillers [12] and ion-conductive spacers within diluate channels (electrodeionisation) [10] and other methods [13] are used. A phenomenon, that various authors designate as a possible means of overcoming this limitation, is electroconvection [14–17]. Electroconvection (EC) is generally understood as a current-induced volume transport, when an electric field is imposed through the charged solution [18]. This volume transport gives rise to microvortices at the depleted membrane/electrolyte solution interface. The vortices mix the solution near the surface and bring fresh concentrated solution from the bulk solution and delivers it to the membrane surface.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ". The vortices mix the solution near the surface and bring fresh concentrated solution from the bulk solution and delivers it to the membrane surface. Simultaneously, it reinjects the depleted solution from the membrane surface to the bulk [19–21]. Unstable electroconvection producing the vortices with the size comparable with the diffusion layer thickness has been first mathematically predicted in 2000 [14], and later experimentally verified in 2008 [22]. More details of the chaotic turbulence even at zero Reynolds number have been quantified recently through systematic computational visualization experiments [23]. EC increases mass transfer rate even when one operates in conventional ED stack configuration. Experiment shows [15] that due to reducing the area of expensive ion-exchange membranes, it is economically advantageous to apply overlimiting currents (OLC) when treating dilute solutions. Over the last ten years, various new configurations of ED stacks where EC is effectively used for enhancing mass transfer rate have been proposed and intensively discussed. These new systems include ‘ion concentration polarization (ICP) desalination’, which uses cationexchange membranes and microporous membranes as splitters [11, 19], ‘shock ED’ [25–30], applying also cation-exchange membranes but with a porous material filling the space between them. Other microelectrodialysis [31] and microfluidic [32–35] devices are described.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e membranes but with a porous material filling the space between them. Other microelectrodialysis [31] and microfluidic [32–35] devices are described. The latter uses the EC phenomenon for electrophoresis, in particular for DNA sequencing [36], electroosmotic pumps [37–39] and others [40–42]. This introduction shows that the use of EC is considered as one of the possible routes to improve large-scale electrodialysis as well as nano-microfluidic processes. Its origin, the complex interplay of dynamic ion concentration gradients with space charge gradients causes volumetric forces moving the liquid in chaotic patterns depending on the potential difference over the fluid to be deionized. In this paper, we answer the question whether the spatio-temporal space charges at the membrane–fluid interface may interact or even eliminate each other when oppositely charged ion exchange membranes operated in close vicinity and when opposite space-charges interact with each other in time and space.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Background Electromembrane mass transport processes involving EC are mathematically complex since the local deviation from electrical neutrality and coupling between ion and water transport must be taken into account. Modern theories of electrodialysis are based on a two-dimensional model by Sonin and Probstein [43,44], named by the authors hydrodynamic theory of ED, known also as convectiondiffusion model [45].\n\nFig. 1. Concentration profiles in the desalination compartment of an ED cell calculated (at a voltage 0.2 V, a NaCl solution) using the convection-diffusion model [43] at different dimensionless distances from the channel entrance ()2/YLDVH=: 1 – 0, 2 – 0.001, 3 – 0.02, 4 – 0.2. The compartment of length L is formed by an anion-exchange membrane (AEM) and a cation-exchange membrane (CEM); D is the electrolyte diffusion coefficient; H is the intermembrane distance; V is the average velocity of solution forced flow; C0 is the inlet solution concentration. Redrawn from [45].",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "According to this model, when an electrolyte solution flows between an AEM and a CEM in the absence of a spacer, a concentration profile with a clearly pronounced plateau in the center of the channel and diffusion layers at the membrane surface are established at a small distance from the channel entrance. It is the “developing” region of the channel (Fig. 1, line 2). At a sufficiently large distance, in the “developed” region, the diffusion layers overlap and fill the entire channel (Fig. 1, curves 3 and 4). The concentration profile is not symmetric for the electrolytes containing cation and anion with different mobility in solution (as in the case of NaCl considered in Fig. 1). Since the mobility of the Cl- ion is higher than that of Na+, the current density, which is limiting for Na+, is underlimiting for Cl-. At this current density, the electrolyte concentration reaches a close to zero value at the CEM, but not at the AEM. The most interesting is the “developing” region with a small thickness of diffusion layers (); the use of spacers [3,46–48] or membranes with profiled [49] and patterned surface [17,50–52] allows enhancing mass transfer and reducing the effective value of . In the practice of ED, only this “developing” region occurs because the presence of spacers imposes periodic disturbance of the developing flow. As for the shape of concentration profile, experiments indeed show (Fig.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the presence of spacers imposes periodic disturbance of the developing flow. As for the shape of concentration profile, experiments indeed show (Fig. 2a) that when a relatively small voltage/current density is applied in a spacer-free feed channel, the concentration profiles characteristic to the “developing” region are observed. A diffusion layer with a total thickness δtot, where the concentration changes occur, is clearly identified (Fig. 2a). This layer includes the Nernst diffusion boundary layer of thickness δN, which determines the concentration gradient at the membrane surface and the value of ion flux through the membrane, in particular, that of the limiting current density [53]. δN is the thickness of the zone where diffusion is the ratedetermining mechanism of ion transfer. However, in the overlimiting current regime, the distribution of concentrations differs significantly from the classical theory [43]. The emergence of EC vortices at i>ilim leads to flattering the concentration profile near the membrane surface (Fig. 2b): an electroconvection-dominated zone of thickness d appears within the diffusion layer. With that, the diffusion-dominated zone is shifted away from the membrane/solution boundary; the thickness δ'N of this zone decreases with increasing current density, while δtot increases [21].",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "shifted away from the membrane/solution boundary; the thickness δ'N of this zone decreases with increasing current density, while δtot increases [21]. When the current is many times higher than the limiting one, and the voltage is of the order of 10 V per cell pair, a near-chaotic state occurs: the concentration distribution becomes non-monotonous, enriched and depleted regions alternate in the channel space (Fig. 2c).",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Laser interferometric bands visualizing instantaneous concentration profiles (white lines) in flowing solution between a CEM and an AEM at underlimiting, i=0.5 ilim (a), and overlimiting, i=2 ilim (b), i=10 ilim (c) current densities. The concentration profile in (a) agrees with the classical theory of ED [43]. The EC vortices at overlimiting currents disturb the concentration profiles (b, c). Redrawn from [21]. c Convection-dominated zone Diffusion-dominated zone\n\nDiffusion-dominated zone Convectiondominated zone b a",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "There are a number of theoretical publications describing overlimiting current electrodialysis. Most of them use a 2D mathematical description applying the Nernst-PlanckPoisson and Navier-Stokes equations. At relatively low voltages, electroconvection occurs as electroosmosis of the first kind [54–57] or (quasi-)equilibrium electroosmosis [58–60]. In this case, the solution near the membrane surface comes into motion under the action of the applied electric field on the (quasi-)equilibrium space charge region (SCR) (electrical double layer, EDL). The latter exists even in the absence of the external electric field and only slightly depends on the applied current/voltage. In this mode of EC, no visible vortices are visualized, and no significant effect on mass transfer is expected. However, when the current density exceeds its limiting value and an extended SCR appears, the thickness of which is much larger than that of the EDL, significant vortices emerge. They can essentially increase the mass transfer rate, as it was first theoretically predicted by Rubinstein and Zaltzman [14]. This EC mode is named electroosmosis of the second kind [54,55] or non-equilibrium electroosmosis [14,56,58]. The dynamics of formation of EC vortices has been extensively studied [61,62].",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "f the second kind [54,55] or non-equilibrium electroosmosis [14,56,58]. The dynamics of formation of EC vortices has been extensively studied [61,62]. While in the absence of forced flow, the vortices are paired and have a close size [14,63], the forced flow reduces the size of the vortices rotating so that their tangential velocity at a relatively large distance from the membrane is opposite to that of the shear flow. The vortices can be drawn by the tangential shear flow. The formation of vortex clusters, in which paired vortices rotate in opposite directions with different velocities, was described by Urtenov et al. [64]. Mani and co-workers [17,20] studied the transition of EC vortex structure from regular coherent individual vortices to chaotic multiscale patterns, which are accompanied by current oscillations. Demekhin and co-workers [65,66] found that overlimiting current regimes have supercritical and subcritical states; these states are mainly determined by the hydrodynamic conditions and voltage. Druzgalski et al. [67] found that the surface-averaged concentration profile has a well distinguished flattened zone, which proves that EC mixing of the depletion zone is the main trend. The similar peculiarity of concentration profile was emphasized also in Refs. [21,61]. Roghmans et al. [52] show that the direction of the vortices can be even induced by the surface potential. The role of membrane surface heterogeneity was examined Wessling et al. [68] and in Refs. [69,70].",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tices can be even induced by the surface potential. The role of membrane surface heterogeneity was examined Wessling et al. [68] and in Refs. [69,70]. It was found that the mass transfer rate is higher, if a part of the membrane surface is screened; this electric heterogeneity initiates greater vortices enhancing mass transfer. As it was shown by Liu et al. [71], at very high voltages, collision of the EC vortices causes the overlapping of EC vortices, formed at anionand cationexchange membranes. As a result, an extreme depletion zone appears at the channel outlet. This zone then propagates towards the entrance, similar to the propagation of depletion zone in shock ED [25]. 3D modelling gives additional important information. The vortex pattern in shear flow in a 3D ED channel is helical rather than planar [72]; their shape allows a more effective mixing of solution. Druzgalski and Mani [20] presented an analysis of highly chaotic electroconvective flows using 3D simulation data. In particular, they showed formation of instantaneous mushroom-like plumes of ion-depleted fluid. Kang and Kwak described the laboratory observation of three- dimensional electroconvection on a permselective surface [73]. By combining experiment and scaling analysis, they successfully distinguished three 3D patterns (polygonal, transverse, or longitudinal rolls) according to electric Rayleigh, Reynolds and Schmidt numbers. Experimental 3D visualization has not been performed so far.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rse, or longitudinal rolls) according to electric Rayleigh, Reynolds and Schmidt numbers. Experimental 3D visualization has not been performed so far. The main emphasis in the cited works was placed on the role of vortex structures in the transition to a state considered as chaotic or close to chaotic. However, the role of the space-charge region (SCR) and changes in its structure during such a transition have not been examined. There are only a few papers [62,64,71], where the role of both anionand cation-exchange membrane in the formation of vortex patterns was considered. Next to the spatio-temporal ion concentration gradients bridging the channel width, we are interested in the stability of the SCR at either of the two membranes. We are particularly addressing the questions (a) whether space charge breakdown exists and (b) whether it interferes with the local flow and ion gradients.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. 1D Model 3.1. Model formulation To address the above questions, we will consider two mathematical models, a 1D and a 2D model, accompanied by new experimental visualization of the spatio-temporal patterns of concentration distribution in a membrane system in an intensive current regime. Using the 1D model, we consider a motionless solution between two membranes and indicate the space-charge breakdown phenomenon as the mutual annihilation of two oppositely charged SCRs, which are formed at the CEM and AEM. With the 2D model, we examine how the emergence of the vortices and the forced convection affect the breakdown phenomenon, and inversely, how the breakdown influences the vortex structures. First, we introduce a 1D model for instructional reasons and to establish the observation of potential space charge breakdown in a hypothetical 1D geometry. In this model, an immobile electrolyte solution is considered between an AEM (on the left) and CEM (on the right) (Fig. 1). The system can be interpreted as a desalination channel, which is closed to the inlet and outlet. A (conduction) electric current of density IF flows from the left to the right. The model involves the material balance equation (1), the Nernst-Planck (2) and Poisson (3) equations, as well as the equation expressing IF as the sum of the contributions from the individual ion flux densities (4):\n\n,1,2iiCjitx= -= (1) ,1,2iiiiii CFjz DCDiRTxx= --= (2)\n\n122()F CCx  = -- (3)",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8,
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "12()cIF jj=- (4) Eqs. (1)-(4) are written for the case of 1:1 electrolyte composed of a cation (subscript 1) and an anion (subscript 2) with the charge numbers zi equal to +1 and -1, respectively; iC ,ij and iD are the concentration, flux density, and the diffusion coefficient of ion i;  is the dielectric constant of the solution, F is the Faraday constant, R is the gas constant,  and /Ex= - are the electric potential and field strength, respectively. The faradaic (or conduction) current present in Eq. (4) is considered in juxtaposition to the charging (or displacement) current density, CI , analyzed in Section 2.1.4. Only two ions, an anion and a cation, are considered; the presence of the H+ and OH- ions, as well as water splitting are not taken into account. Modelling the influence of these ions on salt electrolyte transport and occurring of water splitting can be found, e.g. in Ref. [74,75]. The boundary conditions assume that 1) the concentration of counterion, Cim (i=1 and 2 for cation and anion, respectively) , on the membrane surface (at x=0, the AEM surface, and at x=H, the CEM surface) is known; this boundary condition was introduced by Rubinstein and Shtilman [76]; (Cim should be lower than the concentration of the fixed ions in the membrane (1c ), but essentially higher than the minimum concentration of counterion, Cis, at the membrane surface.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "centration of the fixed ions in the membrane (1c ), but essentially higher than the minimum concentration of counterion, Cis, at the membrane surface. 2) the co-ion flux through the membrane/solution interface is zero, both membranes are impermeable to coions; 3) the potential difference between x=0 and x=H, )(t, is a known function of time, t; it is accepted that ( )td t= -, where d is the rate of the potential difference growth; in the calculation reported in this section, d = 10 mV s-1. The value of d was chosen so that the calculated I-V curve was quasi-stationary. For determining the maximum value of d, which satisfies this condition, d in computations of the I-V curve decreased until the curve stopped changing; 4) at t=0, the electroneutrality condition is satisfied at all points, and the concentrations of counterion and coion are equal to the initial concentration of the electrolyte, C0; the potential is zero everywhere:",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Concentration and space charge density profiles The boundary value problem (1-7) is solved numerically using COMSOL Multiphysics 5.5. The most calculations are carried out for the cases of NaCl (92111 3 10D.m s--=, 92122 10Dm s--=) and KCl (92111 96 10D.m s--=,92122 10Dm s--=), subscripts 1 and 2 are for a cation and an anion, respectively. Fig. 3 shows the results of calculation for the distribution concentrations of counterion and coion in the solution between the membranes for both electrolytes (NaCl or KCl) as a function of time when the potential difference grows in time. It can be seen that in the case of NaCl (compare with Fig. 1) the electrolyte concentration decreases more rapidly near the CEM due to the greater mobility/diffusion coefficient and transport number, tCl, of the Cl- ions in solution compared to these parameters of the Na+ ions. The rate of decrease of ion concentration at the membrane surface is proportional to the difference in the transport numbers of the counterion in the membrane and solution, counterioncounteriontt- [53] (where the overbar means that the value refers to the membrane). Since the counterion transport number in the membrane is close to 1 (especially in the dilute solutions considered in this study) and tCl>tNa , the difference ( counterioncounteriontt-) is lower for the CEM in NaCl solutions. Consequently, the limiting current density, Ilim, for the CEM is lower than that for the AEM.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "oncounteriontt-) is lower for the CEM in NaCl solutions. Consequently, the limiting current density, Ilim, for the CEM is lower than that for the AEM. The current density in the system is the same for both membranes, hence, the I/Ilim ratio as well as the degree of the boundary solution concentration polarization is higher for the CEM than for the AEM. In the case of KCl for which 0.5counteriont, the concentration profiles are symmetrical.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. Concentration profiles of cations (solid lines) and anions (dashed lines) in the cases when initially 0.1 mol m-3 solution of KCl (a) or NaCl 5 (b) are placed between an anion-exchange membrane (AEM) and a cation-exchange membrane (CEM) forming a diluate compartment of a non-flowing 6 cell. Full-scale profiles are shown in the middle of the figure; on the left, there is the magnification of the area near the AEM; on the right, the 7 magnification near the CEM. The results of calculations using Eqs. (1)-(7) (1D model), when a linear sweep of potential difference with a rate d=10 mV 8 s-1 is applied. The numbers at the curves show the time (in sec.) elapsed after the current is switched on; at the indicated times, the absolute value of the 9 potential difference | is 0, 0.04, 0.08, 0.2, 0.4, 0.6, 0.8 and 1 (V), respectively. H=1000 m, C1m=C2m=0.1 mol m-3. The counterion transport number 10 in both membranes is set equal to 1, since the solution is very dilute. 11 a b",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In the central part of the desalination channel, the local electroneutrality condition is satisfied, and the concentrations of cation and anion are the same with high accuracy [74]. Within the model of Sonin and Probstein [43], this condition is applied to the entire channel. However, in our model, we take into account that the concentrations of counterion coion vary continuously. The concentration of counterion is low near the membrane and increases rapidly when approaching the membrane to reach its concentration in the membrane close to the concentration of the fixed ions. The concentration of coion decreases rapidly near the membrane. Due to the difference in the concentrations of counterion and coion, a space charge is formed in the vicinity of the membrane surface. The space charge density,  is defined as\n\n12()F CC=- (8)",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Figs. 4a-4h show the distribution of the space charge density in the solution for different times during the potential sweep. In the space charge region (SCR) near the CEM, cations prevail over anions; in the SCR near the AEM, anions predominate (Fig. 3, magnifications). The concentration of counterion has a minimum point, which separates the SCR into two zones [74]: the quasi-equilibrium zone next to the membrane surface, and the extended SCR zone adjacent to the electroneutral solution in the central channel part (Figs. 3). The minimum concentration of counterion, Cis (i=1 and 2 for cation and anion, respectively), decreases with increasing current density. At a fixed concentration in the bulk solution, bC (located in the central of the channel), the Cis value decreases only slightly with increasing current and remains of the order of a small parameter  [74,77], Cs~ . The latter is the ratio of the Debye length, DL , to the characteristic length of the system, H: /DLH= , ()2/ 2DbLRTC F=. However, the bulk electrolyte concentration in the non-flowing desalination channel (considered here) decreases with time. In these conditions, Cs decreases quite noticeably with increasing current. Note that at the point where the counterion attains its minimum and in some vicinity of this point, the concentration of coion is negligible.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "current. Note that at the point where the counterion attains its minimum and in some vicinity of this point, the concentration of coion is negligible. Therefore, in this region, the space charge density is approximately equal to isz FC (zi is the charge number of the counterion, zi <0 for anions), and || reaches its minimum at the same point as the concentration of counterion. The maximum value of || is due to the fact that the rate of decrease of the concentrations of counterion and coion is different when approaching the membrane surface. The concentration of coion in the extended SCR decreases rapidly, while the concentration of counterion decreases essentially slower. As a result, the difference between these concentrations rapidly increases, when the distance to the membrane is relatively large; then the concentration of coion practically vanishes (Figs. 3) due to the Donnan exclusion in the membrane [53,78] and  follows the concentration of counterion profile, as mentioned above. Over time, the potential difference increases while Cb decreases. Both factors lead to an increase in the distance from the point of maximum value of || to the membrane surface. This distance approximately equals to the thickness of the extended space charge region, SCR. In the first approximation, lim() /SCRN III- [78], where N is the (Nernst) diffusion layer thickness. The higher potential difference and the lower Cb, the greater the lim()II- and SCR values.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[78], where N is the (Nernst) diffusion layer thickness. The higher potential difference and the lower Cb, the greater the lim()II- and SCR values. As for the difference in the behavior of the membrane system in KCl and NaCl solutions, due to the higher mobility of the K+ ion as compared to the Na+ ion, the resistance of the KCl solution is lower than that of NaCl. Therefore, under the same potential difference, the current density in the KCl membrane system is higher than in the NaCl one; the desalination of KCl solution is faster than NaCl solution (compare Fig. 3a and Fig. 3b). Since the value of Ilim is greater for Cl– than for Na+, at the same I, the lim()II- and SCR values are lower for Cl–. That is the thickness of the SCR formed at the AEM is always less than that at the CEM. When I reaches Ilim at the CEM and an extended SCR appears there, the current density is still below its limiting value at the AEM, where the counterion is the Cl– ion. The limiting current is attained at the AEM only when the current density is 1.5 times greater than Ilim at the CEM: limlim1.5ClNaII=; this state is shown in Fig. 3b at t=50 s. Fig. 4f shows the case t=107 s, where the extended negatively charged SCR is well seen at the AEM (curve 1). The current density in this case is significantly greater than lim NaI, and the maximum of the positive space charge density (initially formed at the CEM) is closer to the AEM than to the CEM.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. Distribution of the space charge density in the solution between an AEM and a CEM; d=10 mV s-1; С0=0.1 mol m-3. The blue curve (1) corresponds to the simulations for NaCl solution, and the green curve (2), to KCl. a b c d e f g h\n\n3.3. Space charge breakdown in 1D system The maximum point on the profile of the space charge density modulus (||) appears, when the current density rises above its limiting value for a given membrane and an extended zone of the SCR emerges. In the case of NaCl, a local maximum of || at the CEM appears at ||=0.87 V; at the AEM, this maximum emerges at ||1.0 V (Fig. 4f). With increasing time (and the potential difference), the local maxima move away from the “native” membranes towards the opposite membrane. These extended SCRs behave like two symmetrical solitary waves (or solitons [74,79]. During the potential sweep, the positions of the maxima of the space charge densities formed at the CEM and AEM are reproached. When the distance between the edges of the positive and negative SCRs becomes sufficiently short, they begin to attract each other, and the speed of their approach increases. When touching each other, they “annihilate”, and the space charge breakdown occurs. From the moment of touching to complete “annihilation”, when the SCRs vanish at both membranes, about 1 second passes.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14,
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.4. Faradaic (conduction) and charging currents Total current density TI in a circuit is a sum of the faradaic (or conduction) current density, FI , and the charging current density C\n\nEIt= [80,81]: TFCIII=+ (9)\n\nIt follows from Eqs. (1) and (8) that FItx= -. On the other hand, taking into account the Poisson equation, Eq. (3), and the definition of IC above, we have CItx=. Therefore, both IF and IC can change with the distance during the formation of SCRs in the solution between the membrane, as 0t. However, the total current density does not vary with x, since it follows from the above that\n\n0CTFIIIxxx=+= [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}]",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5 shows the time dependence of the conduction and charging current densities near the AEM (at x=0.02H), in the channel center (x=0.5H) and near the CEM (at x=0.98H). The difference between IF at different points is negligible, however, IC in the channel center at t close to 60 s ( close to 600 mV) is nearly zero, while it is significant next to the membranes, since the SCRs are formed there up to approximately 30 s (Fig. 5). Then the charge of SCRs slowly decreases due to the decrease in the electrolyte concentration. IF initially increases, since the potential difference increases with time. However, starting from about 10 s, IF decreases as the electrolyte concentration and, consequently, the solution conductivity reduces. With decreasing the distance between the extremums of the SCRs of opposite sign of charge, the charge density at x=0.02H and 0.98H decreases, so that the charging current at these points becomes negative. When the waves of SCRs reach the channel center, IC at x=0.5H first increases sharply, then decreases even faster (during 1 s): the space-charge breakdown occurs at t86 s. With that, the conduction current being already very small at t= 85.5 s vanishes at t= 86.5 s: all charge carriers are removed from the channel bulk. The latter is experimentally unrealistic as water splitting could also occur as present in the bipolar junction which would replenish the ionic environment.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tter is experimentally unrealistic as water splitting could also occur as present in the bipolar junction which would replenish the ionic environment. However this 1D Model indicates the possible existence of a charge breakdown and motivates to expand the modelling into the 2D space with flow through a feed channel between two oppositely charged membranes.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The 2D model used in this study corresponds to the model features described in detail in Ref. [64]. A salt solution flows between anion-exchange and cation-exchange membranes arranged in the same way as in Fig. 1, Fig. 6. A set of the Nernst-Planck-Poisson and NavierStokes coupled equations is used. The electrostatic body force density efE== - acting on the SCR and causing the coupled convective transport of the solution (electroconvection) is taken into account in the Navier-Stokes equation. The boundary conditions assume continuity of fluxes through the solution/membrane interfaces, the coion fluxes through the interfaces are set zero. As in the case of 1D model and following other authors [63,71,82], the concentrations of counterion, Cim, on the membrane surface (C2m at x=0, the AEM surface, and C1m at x=H, the CEM surface) are set as parameters equal to C0 in the considered here cases. The no-slip condition (the fluid velocity is zero at x=0 and x=H) is applied. The fluid viscosity is taken equal to 8.9410-4 Pa s. The input concentration of the electrolyte (assumed electrically neutral), C0=0.01 mol m-3, at the channel entrance (y=0) is given. The potential difference between x=0 and x=H is set as a known function of time: ( )td t= -, where d is the sweep rate of || growth; in the cases considered below, d = 5 mV s-1.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        17
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "x=0 and x=H is set as a known function of time: ( )td t= -, where d is the sweep rate of || growth; in the cases considered below, d = 5 mV s-1. As in section 3.1, the value of d was chosen to satisfy the condition of quasy-stationarity of the ED process: at d ≤ 5 mV s-1, the shape of CVC does not change. Therefore, the computed CVC is the same as that, which can be obtained in a stationary state: each current density, I, refers to a constant potential difference that does not evolve with time. We will see, however, that a small change in Δφ after reaching a certain threshold value (corresponding to a current density exceeding Ilim) leads to a significant change in I, which is associated with the unstable state of the system.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        17
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. 2D membrane system under study. Only the diluate compartment (DC) (the region between x=0 and x=H) is considered; concentration profiles here are calculated, the solid line corresponds to the cation, the dashed line, to the anion. The concentration profile in the concentrate compartment (CC) is shown schematically. The parabolic distribution of velocities, V\n\n, is assumed at the DC entrance. The concentration of counterion is set at the membrane surfaces.\n\nC0=0.01 mol m-3 is a very low concentration; the concentration of salts in drinking water is about 10 mol m-3. Such a low input concentration is taken to facilitate computations, which are very costly for this kind of mathematical problems [67]. At higher concentrations, the thickness of the quasi-equilibrium space charge layer on the membrane surface (electrical double layer) is very thin, which leads to very large concentration gradients and the necessity to apply extremely fine computation grid. The computational costs are often assessed [67] by the value of a dimensional Debye length (or dimensionless electrostatic screening length) /DLH= , where ()20/ 2DLRTC F= is the Debye length, and H is the distance between the membranes forming the channel. The smaller  , the greater the costs. The value of LD for C0=0.01 mol m-3 is about 100 nm, H=500 m; therefore, \n\n=2*10-4. This value is small, the use of ",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        18
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "= 10-3 is considered almost as the least possible [67]. As in section 2.1 and earlier [64], COMSOL Multiphysics 5.5 is applied for computations. The required computing time for our work was 321 hours 59 minutes 26 seconds, the type of processor is 24 CPUs x 2,50 GHz Intel XEON E5-2695v2 and 112 GB of RAM memory used for computing. We used 45865 mesh elements in this model. The grid thickened near the membranes, at the inlet and outlet, and remained rather coarse in the region of electroneutrality.\n\nThe formation of the SCR and the EC vortices is of particular interest for this 2D model. Can the space charge breakdown be observed as in the case of the simplified 1D model? How does the presence of vortex structures affect a potential space charge breakdown phenomenon (the electric current chooses low-resistance pathways in the space, similar as in the case of lightning)? Or vice versa, how does the breakdown affect the vortex structures? Does the degree of chaotic flow motion decrease? Are the sizes and number of EC vortices affected?\n\n4.2. Current-voltage characteristic",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        18,
+        19
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. Current-voltage characteristic of a membrane channel formed by an anionexchange and cation-exchange membranes computed using the 2D model (curve I). A 0.01 mol m-3 NaCl solution (viscosity 8.9410-4 Pa s) with an average velocity of 0.1 mm s-1 flows; potential difference is swept with a rate of 5 mV s-1. Different regions of the CVC are shown: 1 – initial linear region; 2 – plateau of limiting current; 3 – unstable EC vortices occur only at the CEM; 4 – unstable EC vortices occur both at the CEM and AEM without overlapping these two vortex zones; 5 – collisions of the EC vortices and overlapping of vortex zones at the CEM and AEM, isolated cases of “global” space-charge breakdown; 6 – chaotic interaction of EC vortices, regularly repeated cases of “global” space-charge breakdown. Curve II is calculated for the solution viscosity 8.9410-3 Pa s, which makes it possible to be almost totally suppress electroconvection.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        19
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The current-voltage characteristic (CVC) of the membrane system in the case of NaCl solution is computed using the described above 2D model (Fig. 7). The CVC can be divided in 6 different regions according to the features in system behavior, in particular, depending on the vortex flow patterns. In the first section, where  varies from 0 to approximately 0.1 V, a close to linear increase in the current density occurs. Although the total potential difference includes potential drops of the diffusion / concentration potential at interphase boundaries) [83], this region is often called “ohmic” because the membrane system behaves like a resistor governed by Ohm’s law. The second section is the (inclined) plateau of limiting current (from about 0.2 V to 0.65 V).",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        19
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Ion transport by diffusion attains its maximum at about 0.2 V and the CVC slope in this region is due to the fact that the local limiting current density is reached non-simultaneously on the entire surface of the membrane. First, the current reaches its limiting value at the end of the channel, where the diffusion layer thickness is the largest and the bulk concentration is the least. When the voltage increases, the local current density does not grow at the channel edge, y=L, but it increases at y<L. With increasing voltage, the part of the channel where the current density has already reached its limit value, is increasing. Accordingly, the current through the entire channel increases. Upon reaching  = 0.625 V, the current density reaches its limiting value almost along the entire membrane length, except for the small input region, y0, where, according to the boundary condition at y = 0, the concentration is equal to C0 for all x. A possible competing mechanism of current increase in the inclined plateau of limiting current can be electroosmosis of the first kind [54–57] (equilibrium electroosmosis [59,60]). Electroconvection of such nature under these conditions would be due to the quasi-equilibrium space charge region (EDL) only, the thickness of which is of the order of the Debye length, about 100 nm as estimated in Section 2.2.1. Curve (2) in Fig. 7 shows the CVC calculated in conditions where EC does not occur.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        20
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "r of the Debye length, about 100 nm as estimated in Section 2.2.1. Curve (2) in Fig. 7 shows the CVC calculated in conditions where EC does not occur. For this, the solution viscosity was set equal to 8.9410-3 Pa s, that is 10 times greater than the true value. This approach of elimination of EC was used earlier by Uzdenova et al. [84]. It can be seen that in region 2 curve (2) coincides with curve (1), computed with taken into account electroconvection; therefore, the contribution of electroconvection in this region (electroosmosis of the 1-st kind) is negligible. A sharp increase in the current density and the appearance of oscillations on the CVC at 0.625 V (Fig. 7) correspond to the appearance of the first unstable electroconvective vortices along the entire length of the CEM (Fig. 8). Electroconvection in region 3 is classified as nonequilibrium electroconvection, which could be electroosmosis of the 2-nd kind or bulk electroconvection [56]. The extended space charge region (including the maximum of the space charge density and the region farther from the membrane), as well as the residual space charge in the quasielectroneutral region are important for the electroosmotic mechanism and the bulk EC, respectively. In section 3 of CVC, unstable visible vortices at the AEM do not yet appear, since the limiting current density through the AEM is approximately 1.5 times higher than through the CEM, due to the fact that DCl 1.5DNa.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        20
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "t appear, since the limiting current density through the AEM is approximately 1.5 times higher than through the CEM, due to the fact that DCl 1.5DNa. At 1.25 V, a new sharp increase in current density is seen in the CVC, it is the beginning of region 4 (Fig. 7). This increase corresponds to the emergence of unstable vortices at the AEM (Fig. 9). At first, the vortices near the CEM and AEM do not interact with each other (section 4), but at 1.65 V and greater voltages they collide and the vortex zones near both membranes overlap (Fig. 10), which is described also by Liu et al. [71]; these events occur in region 5 of the CVC. At  2.0 V, the first isolated cases of “global” space charge breakdown take place (Fig. 9). Region 6, > 2.4 V, corresponds to the chaotic interaction of electroconvective vortices with each other at both the CEM and AEM, in this region one can observe quite frequent",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        20
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(about once a second) repeated \"global\" space-charge breakdowns (Fig. 11). As it is shown below, these breakdowns lead to a decrease in the size and number of EC vortices.\n\nConcentration and velocity streamlines\n\n(С1-С2) level curves\n\n(С1-С2) surface Fig. 8. Distribution of the cation concentration (shown with different color levels) and fluid velocity streamlines (white lines) (a) as well as the space charge density (divided by F), С1-С2, presented with level curves (b) and surface of this function (c). Quasi-equilibrium regions at the membrane surface are not shown, since the concentration scale there is very different from the values outside these regions. The results of simulation at |Δφ|=0.625 V, t=125 s; the beginning of section 3 in CVC (Fig. 7), formation of unstable vortices on the entire surface of the CEM. C1, mol m-3 a C1-C2, mol m-3 b c C1-C2, mol m-3\n\nConcentration and velocity streamlines\n\n(С1-С2) level curves\n\n(С1-С2) surface\n\nFig. 9. The same as in Fig. 8; the results of simulation at |Δφ| =1.25 V, t=250 s; the beginning of section 4 in CVC (Fig. 7), formation of unstable vortices on the entire surface of the AEM. C1, mol m-3 a C1-C2, mol m-3 b c C1-C2, mol m-3\n\nConcentration and velocity streamlines\n\n(С1-С2) level curves",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        21,
+        22
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(С1-С2) surface Fig. 10. The same as in Fig. 8; the results of simulation at |Δφ| =2.08 V, t=416 s; a local maximum of the space charge density (circled with a red line) in movement from the CEM to the AEM, section 5 in CVC (Fig. 7). C1, mol m-3 a C1-C2, mol m-3 b c C1-C2, mol m-3\n\nConcentration and velocity streamlines\n\n(С1-С2) level curves\n\n(С1-С2) surface Fig. 11. The same as in Fig. 8; the results of simulation at |Δφ|=2.973 V, t=594.5 s; spacecharge breakdown: a positively charged SCR going from the CEM almost to the AEM (seen as a red band), section 6 in CVC (Fig. 7). C1, mol m-3 a C1-C2, mol m-3 b c C1-C2, mol m-3",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        24,
+        25
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.3. Space-charge breakdown in 2D system Figs. 10b and 10c show the level curves and surface of the (С1-С2) function between the AEM and CEM in a desalination channel. This function is the space charge density divided by F. A hill (circled with a red line), representing a local maximum of the space charge density, is seen in the middle of the channel, closer to the AEM. This maximum originates from the maximum of the extended SCR at the CEM, well seen in Fig. 4a presenting the results of the 1D model. As in the 1D model (section 2.1), the maximum moves from the CEM to the AEM when time/voltage increases. At the AEM, there is a local minimum of the negative space charge density. However, in the case of NaCl its absolute value is significantly lower than that at the CEM due to the fact that ilim through the AEM is about 1.5 times greater than that through the CEM. Therefore, we observe the transition of the positive space charge from the CEM membrane to the AEM. The negative space charge formed at the AEM moves also from this membrane towards the CEM (as can be seen in Figs. 4e-4g), however, it is not seen in Figs. 10 and 11 as the near-surface solution regions are not shown because of a high difference in the concentration values in these regions and in the middle of the channel. When two space charge regions meet, one positively charged and the other negatively charged, they break down.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        26
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "egions and in the middle of the channel. When two space charge regions meet, one positively charged and the other negatively charged, they break down. With increasing time, in the 2D desalination channel, like in the case of 1D system, the voltage increases while the concentration decreases. Both changes lead to increasing the distance of the concentration of counterion extremums from the corresponding membrane. Therefore, with increasing time, the two extremums of space charge density, the positive one and the negative one, move towards each other, as in the case of 1D process. The difference is in the presence of the forced convection and electroconvection in the 2D channel. Both kinds of convection, especially their interactions, add a factor of randomness, which is amplified by the instability of the SCR with an extremum of space charge density in the bulk of the ED channel. Figs. 12a and 12b describe the evolution of the space charge density and the normal component of the current density in the time interval involving the discharge phenomenon occurring between 594.5 s and 595 s at y1450 m. Figs. 13a-13c show the change in the fluid streamlines at the same time interval. The red circle shows approximatively the region of the discharge.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        26
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 13. Fluid streamlines at Δφ=2.973 V, t=594.5 s (a); |Δφ|=2.975 V, t=595.0 s (b) and |Δφ| =2.978 V, t=595.5 s (с). During space-charge breakdown, the space charge absolute values in the channel bulk (outside of the quasi-equilibrium regions of the EDL) decreases (Fig. 12a), like in the case of 1D a b c a b model (Fig. 4). This leads to decreasing the driving force for electroconvection. As a consequence, the EC vortices become reduced in the region where the “annihilation” takes place, and the local current density across the membrane surface in the vicinity of this region decreases (like as in 1D model, Fig. 5a). The state just before the discharge is shown in Fig. 10. A red band (Fig. 10b) presenting the elevated positive charge density extends from the CEM (at y1700 m) to the AEM (at y1400 m). The discharge occurs at the AEM between 594.5 s and 595 s at y between 1400 and 1500 m. Fig. 12a shows that at 595 s there is a local maximum of the space charge density at a distance x100 m from the AEM in a section y=1450 m; at 595.5 s this maximum disappears. The normal component of the current density, Ix, in the section y=1450 m, decreases gradually starting at 594 s and reaching the minimum at 595 s when the discharge occurs (Fig. 12b). A vortex, initially presented in the vicinity of the discharge, shifts towards the CEM (Figs. 13a and 13b), which should cause the decrease in Ix at y=1450 m.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        28
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "initially presented in the vicinity of the discharge, shifts towards the CEM (Figs. 13a and 13b), which should cause the decrease in Ix at y=1450 m. However, soon after the discharge, at 595.5 s, there is a sharp increase in Ix (Fig. 12 b). Although at y=1450 m and 60<x<350 (m), the space charge density is nearly zero, the increase in current density (Fig. 12b) can be due to a newly appeared vortex at the AEM with the center at y1350 m (Fig. 13c). As the above consideration shows, relatively high values of the space charges formed near the oppositely charged membranes and a small distance between the membranes create conditions for their “annihilation”: the convergence of the centers of these oppositely charged space charges invariably ends with their mutual elimination. As a consequence, the rate of electroconvection and mass transfer in the vicinity of space-charge breakdown decreases. Although the current density can locally increase in the section where the charge breakdown occurred, this phenomenon is repeated in another section. Therefore, the phenomenon of space-charge breakdown determines the upper limit of the increase in the mass transfer rate due to electroconvection.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        28
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.4. Concentration and space-charge density patterns At high voltages and low concentrations, the patterns of concentration and space charge fields are rather complicated. The regions of high and low concentration, high and low charge density alternate in the 2D channel. Moreover, one can see that there are bands of high and low space charge density, which stretch from one membrane to another and which alternate in the longitudinal direction (Fig. 11). Space charge breakdown occurs along the routes of relatively high conductivity, not necessarily normal to the membrane surface (Fig. 11). There are similarities to lightning, that is the electrostatic discharge of two electrically charged regions in the atmosphere or ground: the charge of these two regions must be great enough, while the distance between them small; the discharge passes through domains of relatively high conductivity. However, the duration of lightning is very fast, while a space-charge breakdown lasts about 1 s, the time is controlled by ion electrodiffusion at a distance of about 1/10 of the distance between the membranes (Fig. 4g); the lightning discharge current is very high, while during space-charge breakdown in membrane system, there is no increase in the value of conductance current (Fig. 5a), but a splash in the charging current is observed (Fig. 5b). In both cases, space-charge breakdown ends with a decrease in current density (Figs.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        30
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5a), but a splash in the charging current is observed (Fig. 5b). In both cases, space-charge breakdown ends with a decrease in current density (Figs. 5a, b) and abatement of coupled effects (such as electroconvection in membrane channel, Fig. 13). The computation shows that negatively charged regions emerge near the CEM at sufficiently high voltages, regions 5 and 6 in CVC, Figs. 9 b,c and Figs. 10 b,c. Since the surface of a CEM is charged negatively, this is a rather unexpected effect. In a sense, it is the reverse of the space charge breakdown. This effect is apparently caused by the local action of several factors: electromigration, diffusion and convection (forced and electroconvection) in conditions of a strong external electric field. Although this effect is absent in the case of an immobile solution (the 1D model, Fig. 4), it is difficult to imagine that it can be caused only by the interactions of EC vortices. The interactions between EC vortices and forced convection seems to be important. A certain support for this can be the results of visualization of the vortex patterns in the ED channel with a forced flow (Fig. 13). The snapshots shown in Fig. 14 are obtained near a Neosepta AMX-Sb anion-exchange membrane from both sides of which a 0.02 M NaCl solution flows with a velocity of 0.7 mm s-1. A small amount of rhodamine (10 M) has been added into the NaCl solution to visualize the concentration changes.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        30
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "flows with a velocity of 0.7 mm s-1. A small amount of rhodamine (10 M) has been added into the NaCl solution to visualize the concentration changes. The rhodamine ion is positively charged, it is coion for an anion-exchange membrane. This ion is strongly adsorbed by a cation-exchange membrane, which rapidly foul and disables it; for this reason, we used an anion-exchange membrane. The areas of low concentration of rhodamine are dark; the areas of its relatively high concentration are lighter. Above and below the AMX-Sb membrane, there are auxiliary MA-41 anion-exchange membranes (not visible in the snapshots). The distance between two neighboring membranes is 3.2 mm. The current flows from bottom to top, so that a depleted solution layer is formed above the membrane under study, and an enriched layer under it. The current density is 8 times higher than the limiting current density the latter is equal to 5.5 mA cm-2, as estimated from the experimental CVC. Fig. 14 and video in Supplementary Information show that an “ejection” of a portion of the depleted solution is possible at a sufficiently large distance (several mm) from the membrane/depleted solution interface. Depleted solution is produced in a very thin layer (10 m) near the membrane. A portion of such solution can be picked up by a rotating vortex at the membrane surface and carried out at a distance equal to the diameter of the vortex.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        30
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tion of such solution can be picked up by a rotating vortex at the membrane surface and carried out at a distance equal to the diameter of the vortex. Further, this portion is caught by the forced flow of the solution, which flows around the vortex cluster being an obstacle to the forced flow. When flowing around vortex structures, the normal component of the forced flow appears, which is directed towards the opposite (upper) membrane. Near this membrane, the solution is concentrated and vortices are not formed. As a result, a portion of the depleted solution can be carried over distances that are two to three times larger than the maximum size of vortex structures (about 500 m in the system under consideration, Fig. 14). The mechanism of the emergence of a negatively charged region near the CEM surface is a rather complicated issue; it might be associated with the existence and properties of self-similar solutions of the system of Nernst-Planck-Poisson-Navier-Stokes equations. This topic requires a separate study.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        30
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 14. Distribution of rhodamine concentration near an AMX-Sb anion-exchange membrane in electrodialysis of a 0.02 M NaCl + 10 μM rhodamine solution. Dark areas correspond to a low rhodamine concentration; light ones, to a high concentration.\n\nSpace-charge breakdown in the experimentally studied system is not possible, since both membranes forming the considered channel are anion-exchange membranes. In addition, the distance between the membranes and the concentration of the feed solution are too great. According to calculations, at a feed solution concentration of 10-5 mol L-1, an intermembrane distance of 500 μm, and a solution flow rate of 0.1 mm s-1, the breakdowns begin at a voltage of 1.74 V.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        30
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "At present, computational difficulties do not allow us to say how an increase in the concentration of the feed solution will affect the occurrence of the space-charge breakdown phenomenon. In real systems, it is difficult to detect such a phenomenon in the concentration range of the order of 10-5 mol L-1, as used in calculations, due to the experimental difficulties in realizing a reproducible quasi-stationary process of ED desalination of a very dilute solution. The development of the scenario described by the idealized model applied here can be hindered by side effects: ion exchange between the solution and the membrane, as well as generation of H+ and OH- ions (water splitting) at the solution / membrane boundaries. The impact of these effects on the space-charge breakdown requires additional research.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        31
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5. Conclusion Numerical simulation of the ED of solution desalting in the channels formed by anion and cation exchange membranes is reported. During the electrodialysis of dilute solutions at sufficiently high voltages and low rates of forced solution flow, a phenomenon of space-charge breakdown through the solution in the desalting chamber emerges. Under the above conditions, a negative space charge forms near the anion-exchange membrane, and a positive one near the cation-exchange membrane. The curves of the distribution of both negative and positive space charge density in the intermembrane solution have characteristic extrema at some distance from the membrane surface. With an increase in the voltage and a decrease in concentration, these extrema, initially formed near the membrane’s surfaces, approach each other. Ultimately, this ends with a discharge of two space charges of opposite signs. The moment of breakdown is preceded by a high degree of instability of the EC vortex motion, which leads to a high degree of randomness in the distribution of concentration, solution flow rates, and space charge density. Immediately after breakdown, the space charge density near both membranes drops to almost zero locally along the breakdown line. Accordingly, this leads to a sharp decrease in the EC vortex motion in the region of discharge and to a decrease in the local current density.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        31
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n line. Accordingly, this leads to a sharp decrease in the EC vortex motion in the region of discharge and to a decrease in the local current density. The breakdown phenomenon described in this theoretical work is a possible scenario for the development of the ED process of desalination at high voltages and low salt concentrations. The observation of such a scenario in real systems can be overshadowed by other simultaneously occurring phenomena: ion exchange between the solution and the membrane, and water splitting at the solution / membrane interface. Taking into account the influence of these effects on the process of ED desalination in intensive current regimes represents yet another herculian effort in unravelling the physical details of overlimiting currents.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        31
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[15] V.V. Nikonenko, A.V. Kovalenko, M.K. Urtenov, N.D. Pismenskaya, J. Han, P. Sistat, G. Pourcelly, Desalination at overlimiting currents: State-of-the-art and perspectives, Desalination. 342 (2014) 85–106. https://doi.org/10.1016/j.desal.2014.01.008. [16] R. Kwak, V.S. Pham, B. Kim, L. Chen, J. Han, Enhanced Salt Removal by Unipolar Ion Conduction in Ion Concentration Polarization Desalination, Sci. Rep. 6 (2016). https://doi.org/10.1038/srep25349. [17] S.M. Davidson, M. Wessling, A. Mani, On the Dynamical Regimes of Pattern-Accelerated Electroconvection, Sci. Rep. 6 (2016). https://doi.org/10.1038/srep22505. [18] B.F. Ronald Probstein, J. Wilq, Physicochemical Hydrodynamics: An Introduction, n.d. [19] H.C. Chang, G. Yossifon, E.A. Demekhin, Nanoscale electrokinetics and microvortices: How microhydrodynamics affects nanofluidic ion flux, Annu. Rev. Fluid Mech. 44 (2011) 401–426. https://doi.org/10.1146/annurev-fluid-120710-101046. [20] C. Druzgalski, A. Mani, Statistical analysis of electroconvection near an ion-selective membrane in the highly chaotic regime, Phys. Rev. Fluids. 1 (2016). https://doi.org/10.1103/PhysRevFluids.1.073601. [21] V.V. Nikonenko, V.I. Vasil’eva, E.M. Akberova, A.M. Uzdenova, M.K. Urtenov, A.V. Kovalenko, N.P. Pismenskaya, S.A. Mareev, G. Pourcelly, Competition between diffusion and electroconvection at an ion-selective surface in intensive current regimes, Adv. Colloid Interface Sci. 235 (2016) 233–246. https://doi.org/10.1016/j.cis.2016.06.014.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        34
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n at an ion-selective surface in intensive current regimes, Adv. Colloid Interface Sci. 235 (2016) 233–246. https://doi.org/10.1016/j.cis.2016.06.014. [22] S.M. Rubinstein, G. Manukyan, A. Staicu, I. Rubinstein, B. Zaltzman, R.G.H. Lammertink, F. Mugele, M. Wessling, Direct observation of a nonequilibrium electro-osmotic instability, Phys. Rev. Lett. 101 (2008) 1–4. https://doi.org/10.1103/PhysRevLett.101.236101. [23] J.C. De Valença, R.M. Wagterveld, R.G.H. Lammertink, P.A. Tsai, Dynamics of microvortices induced by ion concentration polarization, Phys. Rev. E - Stat. Nonlinear, Soft Matter Phys. 92 (2015) 1–5. https://doi.org/10.1103/PhysRevE.92.031003. [24] B. Kim, H. Kwon, S.H. Ko, G. Lim, J. Han, Partial desalination of hypersaline brine by labscale ion concentration polarization device, Desalination. 412 (2017) 20–31. https://doi.org/10.1016/j.desal.2017.02.018. [25] A. Mani, M.Z. Bazant, Deionization shocks in microstructures, Phys. Rev. E - Stat. Nonlinear, Soft Matter Phys. 84 (2011). https://doi.org/10.1103/PhysRevE.84.061504. [26] A. Yaroshchuk, Over-limiting currents and deionization shocks in current-induced polarization: Local-equilibrium analysis, Adv. Colloid Interface Sci. 183–184 (2012) 68–81. https://doi.org/10.1016/j.cis.2012.08.004. [27] D. Deng, W. Aouad, W.A. Braff, S. Schlumpberger, M.E. Suss, M.Z. Bazant, Water purification by shock electrodialysis: Deionization, filtration, separation, and disinfection, Desalination. 357 (2015) 77–83.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        34
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "uss, M.Z. Bazant, Water purification by shock electrodialysis: Deionization, filtration, separation, and disinfection, Desalination. 357 (2015) 77–83. https://doi.org/10.1016/j.desal.2014.11.011. [28] I.G. Wenten, K. Khoiruddin, M.A. Alkhadra, H. Tian, M.Z. Bazant, Novel ionic separation mechanisms in electrically driven membrane processes, Adv. Colloid Interface Sci. 284 (2020). https://doi.org/10.1016/j.cis.2020.102269. [29] M.A. Alkhadra, T. Gao, K.M. Conforti, H. Tian, M.Z. Bazant, Small-scale desalination of seawater by shock electrodialysis, Desalination. 476 (2020). https://doi.org/10.1016/j.desal.2019.114219. [30] J. Čížek, P. Cvejn, J. Marek, D. Tvrzník, Desalination performance assessment of scalable, multi-stack ready shock electrodialysis unit utilizing anion-exchange membranes, Membranes (Basel). 10 (2020) 1–15. https://doi.org/10.3390/membranes10110347. [31] S.J. Kim, S.H. Ko, K.H. Kang, J. Han, Direct seawater desalination by ion concentration polarization, Nat. Nanotechnol. 5 (2010) 297–301. https://doi.org/10.1038/nnano.2010.34. [32] Z. Slouka, S. Senapati, H.C. Chang, Microfluidic systems with ion-selective membranes, Annu. Rev. Anal. Chem. 7 (2014) 317–335. https://doi.org/10.1146/annurev-anchem071213-020155. [33] T. Belloň, P. Polezhaev, L. Vobecká, M. Svoboda, Z. Slouka, Experimental observation of phenomena developing on ion-exchange systems during current-voltage curve measurement, J. Memb. Sci. 572 (2019) 607–618.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        34
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", Experimental observation of phenomena developing on ion-exchange systems during current-voltage curve measurement, J. Memb. Sci. 572 (2019) 607–618. https://doi.org/10.1016/j.memsci.2018.11.037. [34] L.J. Cheng, Electrokinetic ion transport in nanofluidics and membranes with applications in bioanalysis and beyond, Biomicrofluidics. 12 (2018). https://doi.org/10.1063/1.5022789. [35] X. Chen, J. Shen, Review of membranes in microfluidics, J. Chem. Technol. Biotechnol. 92 (2017) 271–282. https://doi.org/10.1002/jctb.5105. [36] B.M. Paegel, R.G. Blazej, R.A. Mathies, Microfluidic devices for DNA sequencing: Sample preparation and electrophoretic analysis, Curr. Opin. Biotechnol. 14 (2003) 42–50. https://doi.org/10.1016/S0958-1669(02)00004-6. [37] A. Ajdari, Pumping liquids using asymmetric electrode arrays, n.d. [38] N.A. Mishchuk, T. Heldal, T. Volden, J. Auerswald, H. Knapp, Micropump based on electroosmosis of the second kind, Electrophoresis. 30 (2009) 3499–3506. https://doi.org/10.1002/elps.200900271. [39] N.A. Mishchuk, T. Heldal, T. Volden, J. Auerswald, H. Knapp, Microfluidic pump based on the phenomenon of electroosmosis of the second kind, Microfluid. Nanofluidics. 11 (2011) 675–684. https://doi.org/10.1007/s10404-011-0833-2. [40] L.Y. Yeo, H.C. Chang, P.P.Y. Chan, J.R. Friend, Microfluidic devices for bioapplications, Small. 7 (2011) 12–48. https://doi.org/10.1002/smll.201000946. [41] J. De Jong, R.G.H. Lammertink, M.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        34
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "riend, Microfluidic devices for bioapplications, Small. 7 (2011) 12–48. https://doi.org/10.1002/smll.201000946. [41] J. De Jong, R.G.H. Lammertink, M. Wessling, Membranes and microfluidics: A review, Lab Chip. 6 (2006) 1125–1139. https://doi.org/10.1039/b603275c. [42] S. Miller, A.A. Weiss, W.R. Heineman, R.K. Banerjee, Electroosmotic flow driven microfluidic device for bacteria isolation using magnetic microbeads, Sci. Rep. 9 (2019). https://doi.org/10.1038/s41598-019-50713-z. [43] P.R.F. Sonin A.A., A hydrodynamic theory of desalination by electrodialysis, Desalination. (1968). https://doi.org/10.1016/S0011-9164(00)80105-8. [44] Ronald F. Probstein, Physicochemical Hydrodynamics: An Introduction, 2nd Edition | Wiley, 2003. [45] V. Nikonenko, A. Nebavsky, S. Mareev, A. Kovalenko, M. Urtenov, G. Pourcelly, Modelling of ion transport in electromembrane systems: Impacts of membrane bulk and surface heterogeneity, Appl. Sci. 9 (2018). https://doi.org/10.3390/app9010025. [46] Y. Kim, W.S. Walker, D.F. Lawler, Electrodialysis with spacers: Effects of variation and correlation of boundary layer thickness, Desalination. 274 (2011) 54–63. https://doi.org/10.1016/j.desal.2011.01.076.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        34
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[47] J.L.C. Santos, V. Geraldes, S. Velizarov, J.G. Crespo, Investigation of flow patterns and mass transfer in membrane module channels filled with flow-aligned spacers using computational fluid dynamics (CFD), J. Memb. Sci. 305 (2007) 103–117. https://doi.org/10.1016/j.memsci.2007.07.036. [48] S. Pawlowski, J.G. Crespo, S. Velizarov, Profiled ion exchange membranes: A comprehensible review, Int. J. Mol. Sci. 20 (2019). https://doi.org/10.3390/ijms20010165. [49] J. Balster, M.H. Yildirim, D.F. Stamatialis, R. Ibanez, R.G.H. Lammertink, V. Jordan, M. Wessling, Morphology and microtopology of cation-exchange polymers and the origin of the overlimiting current, J. Phys. Chem. B. 111 (2007) 2152–2165. https://doi.org/10.1021/jp068474t. [50] F. Dong, D. Jin, S. Xu, L. Xu, X. Wu, P. Wang, Q. Leng, R. Xi, Numerical simulation of flow and mass transfer in profiled membrane channels for reverse electrodialysis, Chem. Eng. Res. Des. 157 (2020) 77–91. https://doi.org/10.1016/j.cherd.2020.02.025. [51] J. Kim, S. Kim, R. Kwak, Controlling ion transport with pattern structures on ion exchange membranes in electrodialysis, Desalination. 499 (2021). https://doi.org/10.1016/j.desal.2020.114801. [52] F. Roghmans, E. Evdochenko, F. Stockmeier, S. Schneider, A. Smailji, R. Tiwari, A. Mikosch, E. Karatay, A. Kühne, A. Walther, A. Mani, M. Wessling, 2D Patterned IonExchange Membranes Induce Electroconvection, Adv. Mater. Interfaces. 6 (2019) 1–11. https://doi.org/10.1002/admi.201801309. [53] F.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        35
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "g, 2D Patterned IonExchange Membranes Induce Electroconvection, Adv. Mater. Interfaces. 6 (2019) 1–11. https://doi.org/10.1002/admi.201801309. [53] F. Helfferich, Ion-exchange_Helfferich.pdf, (1995). [54] S.S. Dukhin, Electrokinetic phenomena of the second kind and their applications, Adv. Colloid Interface Sci. 35 (1991) 173–196. https://doi.org/10.1016/0001-8686(91)80022-C. [55] N.A. Mishchuk, P. V. Takhistov, Electroosmosis of the second kind, Colloids Surfaces A Physicochem. Eng. Asp. 95 (1995) 119–131. https://doi.org/10.1016/0927-7757(94)029885. [56] B. Zaltzman, I. Rubinstein, Electro-osmotic slip and electroconvective instability, J. Fluid Mech. 579 (2007) 173–226. https://doi.org/10.1017/S0022112007004880. [57] V.V. Nikonenko, S.A. Mareev, N.D. Pis’menskaya, A.M. Uzdenova, A.V. Kovalenko, M.K. Urtenov, G. Pourcelly, Effect of electroconvection and its use in intensifying the mass transfer in electrodialysis (Review), Russ. J. Electrochem. 53 (2017) 1122–1144. https://doi.org/10.1134/S1023193517090099. [58] I. Rubinstein, B. Zaltzman, Electro-convective versus electroosmotic instability in concentration polarization, Adv. Colloid Interface Sci. 134–135 (2007) 190–200. https://doi.org/10.1016/j.cis.2007.04.013. [59] I. Rubinstein, B. Zaltzman, Equilibrium electroconvective instability, Phys. Rev. Lett. 114 (2015) 1–5. https://doi.org/10.1103/PhysRevLett.114.114502. [60] R. Abu-Rjal, L. Prigozhin, I. Rubinstein, B.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        35
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ective instability, Phys. Rev. Lett. 114 (2015) 1–5. https://doi.org/10.1103/PhysRevLett.114.114502. [60] R. Abu-Rjal, L. Prigozhin, I. Rubinstein, B. Zaltzman, Equilibrium electro-convective instability in concentration polarization: The effect of non-equal ionic diffusivities and longitudinal flow, Russ. J. Electrochem. 53 (2017) 903–918. https://doi.org/10.1134/S1023193517090026. [61] R. Kwak, V.S. Pham, K.M. Lim, J. Han, Shear flow of an electrically charged fluid by ion concentration polarization: Scaling laws for electroconvective vortices, Phys. Rev. Lett. 110 (2013). https://doi.org/10.1103/PhysRevLett.110.114501.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        35
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[62] R. Kwak, G. Guan, W.K. Peng, J. Han, Microscale electrodialysis: Concentration profiling and vortex visualization, Desalination. 308 (2013) 138–146. https://doi.org/10.1016/j.desal.2012.07.017. [63] V.S. Pham, Z. Li, K.M. Lim, J.K. White, J. Han, Direct numerical simulation of electroconvective instability and hysteretic current-voltage response of a permselective membrane, Phys. Rev. E - Stat. Nonlinear, Soft Matter Phys. 86 (2012). https://doi.org/10.1103/PhysRevE.86.046310. [64] M.K. Urtenov, A.M. Uzdenova, A.V. Kovalenko, V.V. Nikonenko, N.D. Pismenskaya, V.I. Vasil’eva, P. Sistat, G. Pourcelly, Basic mathematical model of overlimiting transfer enhanced by electroconvection in flow-through electrodialysis membrane cells, J. Memb. Sci. 447 (2013) 190–202. https://doi.org/10.1016/j.memsci.2013.07.033. [65] E.A. Demekhin, N. V. Nikitin, V.S. Shelistov, Direct numerical simulation of electrokinetic instability and transition to chaotic motion, Phys. Fluids. 25 (2013). https://doi.org/10.1063/1.4843095. [66] E.A. Demekhin, S. Amiroudine, G.S. Ganchenko, N.Y. Khasmatulina, Thermoelectroconvection near charge-selective surfaces, Phys. Rev. E - Stat. Nonlinear, Soft Matter Phys. 91 (2015). https://doi.org/10.1103/PhysRevE.91.063006. [67] C.L. Druzgalski, M.B. Andersen, A. Mani, Direct numerical simulation of electroconvective instability and hydrodynamic chaos near an ion-selective surface, Phys. Fluids. 25 (2013). https://doi.org/10.1063/1.4818995. [68] M. Wessling, L.G.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        36
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e instability and hydrodynamic chaos near an ion-selective surface, Phys. Fluids. 25 (2013). https://doi.org/10.1063/1.4818995. [68] M. Wessling, L.G. Morcillo, S. Abdu, Nanometer-thick lateral polyelectrolyte micropatterns induce macrosopic electro-osmotic chaotic fluid instabilities, Sci. Rep. 4 (2014) 1–5. https://doi.org/10.1038/srep04294. [69] V.I. Zabolotsky, L. Novak, A.V. Kovalenko, V.V. Nikonenko, M.H. Urtenov, K.A. Lebedev, A.Y. But, Electroconvection in systems with heterogeneous ion-exchange membranes, Pet. Chem. 57 (2017). https://doi.org/10.1134/S0965544117090109. [70] S. Zyryanova, S. Mareev, V. Gil, E. Korzhova, N. Pismenskaya, V. Sarapulova, O. Rybalkina, E. Boyko, C. Larchet, L. Dammak, V. Nikonenko, How electrical heterogeneity parameters of ion-exchange membrane surface affect the mass transfer and water splitting rate in electrodialysis, Int. J. Mol. Sci. 21 (2020). https://doi.org/10.3390/ijms21030973. [71] W. Liu, Y. Zhou, P. Shi, Shear electroconvective instability in electrodialysis channel under extreme depletion and its scaling laws, Phys. Rev. E. 101 (2020) 43105. https://doi.org/10.1103/PhysRevE.101.043105. [72] S. V. Pham, H. Kwon, B. Kim, J.K. White, G. Lim, J. Han, Helical vortex formation in three-dimensional electrochemical systems with ion-selective membranes, Phys. Rev. E. 93 (2016). https://doi.org/10.1103/PhysRevE.93.033114. [73] S. Kang, R. Kwak, Pattern Formation of Three-Dimensional Electroconvection on a Charge Selective Surface, Phys.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        36
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "i.org/10.1103/PhysRevE.93.033114. [73] S. Kang, R. Kwak, Pattern Formation of Three-Dimensional Electroconvection on a Charge Selective Surface, Phys. Rev. Lett. 124 (2020). https://doi.org/10.1103/PhysRevLett.124.154502. [74] M. Urtenov, V. Gudza, N. Chubyr, I. Shkorkina, Theoretical Analysis of the Stationary Transport of 1:1 Salt Ions in a Cross-Section of a Desalination Channel, Taking into Account the Non-Catalytic Dissociation/Recombination Reaction of Water Molecules, Membranes (Basel). 10 (2020) 342. https://doi.org/10.3390/membranes10110342. [75] M. Urtenov, N. Chubyr, V. Gudza, Reasons for the Formation and Properties of Soliton-",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        36
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Like Charge Waves in Membrane Systems When Using Overlimiting Current Modes, Membranes (Basel). 10 (2020) 189. https://doi.org/10.3390/membranes10080189. [76] I. Rubinstein, L. Shtilman, Voltage against current curves of cation exchange membranes, J. Chem. Soc. Faraday Trans. 2 Mol. Chem. Phys. 75 (1979) 231–246. https://doi.org/10.1039/F29797500231. [77] V. V. Nikonenko, N.D. Pismenskaya, E.I. Belova, P. Sistat, P. Huguet, G. Pourcelly, C. Larchet, Intensive current transfer in membrane systems: Modelling, mechanisms and application in electrodialysis, Adv. Colloid Interface Sci. 160 (2010) 101–123. https://doi.org/10.1016/j.cis.2010.08.001. [78] S. Mafé, J.A. Manzanares, H. Reiss, Donnan phenomena in membranes with charge due to ion adsorption. Effects of the interaction between adsorbed charged groups, J. Chem. Phys. 98 (1993) 2325–2331. https://doi.org/10.1063/1.464214. [79] P. McClintock, Physics of solitons., Contemp. Phys. 47 (2006) 235–236. [80] J.A. Manzanares, W.D. Murphy, S. Mafé, H. Reiss, W.D. Murpby, S. Mafd, H. Reiss’j, Numerical simulation of the nonequilibrium diffuse double layer in ion-exchange membranes, J. Phys. Chem. 97 (1993) 8524–8530. https://doi.org/10.1021/j100134a023. [81] P.M. Biesheuvel, S. Porada, J.E. Dykstra, The difference between Faradaic and nonFaradaic electrode processes, (2018). http://arxiv.org/abs/1809.02930. [82] S.M. Davidson, M.B. Andersen, A. Mani, Chaotic induced-charge electro-osmosis, Phys. Rev. Lett. 112 (2013).",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        37
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "18). http://arxiv.org/abs/1809.02930. [82] S.M. Davidson, M.B. Andersen, A. Mani, Chaotic induced-charge electro-osmosis, Phys. Rev. Lett. 112 (2013). https://doi.org/10.1103/PhysRevLett.112.128302. [83] E.I. Belova, G.Y. Lopatkova, N.D. Pismenskaya, V. V. Nikonenko, C. Larchet, G. Pourcelly, Effect of anion-exchange membrane surface properties on mechanisms of overlimiting mass transfer, J. Phys. Chem. B. 110 (2006) 13458–13469. https://doi.org/10.1021/jp062433f. [84] A.M. Uzdenova, A.V. Kovalenko, M.K. Urtenov, V.V. Nikonenko, Effect of electroconvection during pulsed electric field electrodialysis. Numerical experiments, Electrochem. Commun. 51 (2015) 1–5. https://doi.org/10.1016/j.elecom.2014.11.021.",
+    "citation": {
+      "authors": [
+        "Kovalenko A.V.",
+        "Wessling M.",
+        "Nikonenko V.V.",
+        "Mareev S.A.",
+        "Moroz I.A.",
+        "Evdochenko E."
+      ],
+      "paper_id": "SpacechargeBreakdown-Submission15proof",
+      "title": "SPACE-CHARGE BREAKDOWN PHENOMENON AND SPATIO-",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        37
+      ]
+    },
+    "type": "chunk"
+  }
+]

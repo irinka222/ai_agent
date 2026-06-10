@@ -1,0 +1,751 @@
+[
+  {
+    "content": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries Pavel A. Loktionov a,* , Letian Li a, Vojtech Konderla a, Yorick Baljeu b, Ayesha Nawaz b, Sander Looman b, David A. Vermaas a,** a Department of Chemical Engineering, Delft University of Technology, Van der Maasweg 9, 2629HZ, Delft, the Netherlandsb AQUABATTERY B.V., Eikenlaan 255C, 2404BP, Alphen aan de Rijn, the Netherlands\n\nA R T I C L E I N F O Keywords:Acid-base flow batteryBipolar membranesCrossoverDiffusionFlow battery",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Salt-ion crossover through bipolar membranes (BPMs) is a major source of capacity fade and efficiency loss in acid-base flow batteries (ABFBs), yet its mechanisms remain poorly understood. Here, we quantify Na+ and Cl- crossover in a five-cell ABFB stack under varying electrolyte composition, state of charge (SoC), current density, and temperature. The results show that crossover occurs predominantly through BPMs and is governed by diffusion assisted by H+/OH-neutralization. At ambient conditions, Cl-crossover exceeds Na+ by roughly twofold, with apparent activation energies of 15 kJ mol-1 (Cl-) and 33 kJ mol-1 (Na+), reflecting asymmetric coion diffusion within the cationand anion-exchange layers. Increasing current density reduces the relative contribution of crossover, whereas higher electrolyte concentration, SoC, and temperature increase it. Based on the combined voltage efficiency and crossover analysis, we recommend operating ABFBs under conditions corresponding to BPM efficiencies above 80% - that is, with dilute electrolytes (≤0.25 M), near-equimolar acid and base (SoC ≈50%), and cycling current densities exceeding 5 mA cm-2. These insights clarify the interplay between salt-ion transport and BPM operation, and provide design guidelines for next-generation ABFBs and other BPM-based electrochemical systems.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Large-scale energy storage is essential for integrating the growing share of renewable electricity into modern grids. Flow batteries can alleviate the mismatch between production and consumption of elec­tricity, by providing long-duration energy storage. Among emerging technologies, acid-base flow batteries (ABFBs) – based on reverse elec­trodialysis with bipolar membranes (BPMs) – offer a promising route. Their operation relies on water dissociation and recombination within BPMs, enabling the use of earth-abundant, low-cost electrolytes such as salt water. This makes ABFBs attractive for supporting the energy transition. However, as research moves toward industrial scale-up, new challenges related to cycling stability have emerged. The difficulty arises from the non-idealities inherent to ABFB oper­ation. Because of the ever-present pH and concentration gradients across the compartments membranes behave non-ideally [1], resulting in un­desired ionic fluxes – crossover – which cause self-discharge and capacity fade. Two types are particularly relevant: (1) H+ and OH- crossover in the monopolar membranes, which directly reduces voltage and capacity, and (2) salt ion crossover (e.g. Na+ and Cl-) in BPMs, whose effects are more complex. Salt-ion crossover contaminates the acid and base streams, and this contamination is especially critical because the presence of salt impairs water recombination in BPMs, as demonstrated previously[2–4].",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "eams, and this contamination is especially critical because the presence of salt impairs water recombination in BPMs, as demonstrated previously[2–4]. Without mitigating the crossover, the state of health decreases by more than 1% per cycle [5], making salt-ion transport a central challenge. Yet, the mechanisms for salt-ion crossover remain poorly understood and depend on multiple operational and material parameters, hindering systematic optimization. Earlier studies on BPM electrodialysis (BPMED) stacks established the fundamentals of BPM operation, including co-ion leakage, Donnan exclusion, and the effects of membrane composition on Na+ and Cl- crossover rates[6–12]. More recent investigations - primarily in CO2 electrolysers and related BPM-based systems - have expanded this un­derstanding by revealing how crossover is influenced by the local ionic",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "* Corresponding author.** Corresponding author.E-mail addresses: p.a.l.loktionov@tudelft.nl (P.A. Loktionov), d.a.vermaas@tudelft.nl (D.A. Vermaas).\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 745 (2026) 125239",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 6 February 2026 0376-7388/ 2026 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). environment near gas-diffusion electrodes [13], membrane bias [14,15], applied electric field [16,17], and electrolyte speciation [17]. However, these insights cannot be directly extrapolated to ABFBs. Unlike elec­trolysers, ABFBs employ liquid electrolyte recirculation, undergo cyclic transitions between water dissociation and recombination, and function at much lower current densities (<10 mA cm-2 [18]) than CO2 or nitrate electrolysers (>200 mA cm-2 [19–21]). Consequently, the driving forces, time scales, and dominant transport mechanisms are funda­mentally different. To date, only one study - by Boulif et al. [5] - has examined crossover under these unique cycling conditions, revealing the trade-off between cycle life, efficiency, and energy density. However, the precise mecha­nism of crossover and its dependence on electrolyte composition and operating parameters remain unresolved, limiting the rational optimi­zation of BPMs for ABFB applications. Here, we address this knowledge gap by identifying dominant saltion crossover pathways in ABFB stacks and quantifying their impact on performance under varying cycling conditions. We examine the in­fluence of electrolyte composition (concentration and state of charge (SoC)), cycling current density, and temperature.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "conditions. We examine the in­fluence of electrolyte composition (concentration and state of charge (SoC)), cycling current density, and temperature. We also analyze why salt cations and anions exhibit different transport behaviors. Finally, we provide practical guidelines for balancing longevity, voltage efficiency, and power output. By clarifying crossover mechanisms in BPM-based systems, this work offers insights relevant not only for ABFBs but also for other BPM-driven technologies such as CO2 and nitrate electrolysis. 2. Theory In this study, we consider a membrane stack composed of five repeating units (i.e. membrane triplets, see Fig. 1), each consisting of a BPM, an anion-exchange membrane (AEM) and a cation-exchange membrane (CEM). During charging (Fig. 1, A), BPM operates under water dissociation conditions. Under these conditions, water dissociates into H+ and OH- at the BPM interface, which are then transported into the acid and base compartments, respectively. The process is accompanied by the transport of salt ions: Cl-ions migrate from the salt compartment to the acid compartment through the AEM, whereas Na+ ions migrate from the salt compartment to the base compartment through the CEM. During discharging (Fig. 1,C), the BPMs operate under water recombination conditions.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "om the salt compartment to the base compartment through the CEM. During discharging (Fig. 1,C), the BPMs operate under water recombination conditions. In this mode, H+ and OH-are neutralized within the BPMs, while Cl-and Na+ ions are transported from the acid and base compartments back to the salt compartment through the respective monopolar membranes. Because the membranes in the stack are not perfectly selective, crossover – the undesired transport of H+, OH-or salt ions – occurs across the stack. Salt-ion crossover can occur through both bipolar and monopolar membranes (see red dotted lines in Fig. 1). However, a previous study [5] showed that salt-ion crossover occurs predominantly via the BPM, so our analysis focuses on this pathway. According to the Nernst-Planck equation, the crossover flux of salt ions through a BPM (as illustrated in Fig. 1B and D) consists of diffusion, migration, and convection. The convection term is typically neglected because the membrane layers are non-porous [17]. The relative contri­butions of diffusion and migration depend on the operational conditions. The diffusion flux is driven by the concentration difference at either side of the membrane, determined by the feed composition and the thickness of the boundary layers. This translates into a concentration gradient within the membrane that arises from the non-ideal exclusion of co-ions by the membrane layers.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "layers. This translates into a concentration gradient within the membrane that arises from the non-ideal exclusion of co-ions by the membrane layers. This gradient can be estimated from the feed composition using Donnan theory [22], and the resulting flux depends on the diffusion coefficient within each membrane layers, which in turn is influenced by ion size, hydration and valence. In prin­ciple, applied bias may also alter the diffusion contribution by modifying local H+ and OH-concentration within the layers, thereby affecting the salt-ion partitioning and distribution [23]. The migration flux is determined by the magnitude and direction of the potential gradient across the BPM. Blommaert et al. [17] showed that increasing the potential gradient increases the absolute salt-ion crossover, but enhances the rate of water dissociation rates even more strongly, thereby reducing the relative contribution of crossover. In contrast, during water recombination with pure acid and base",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Membrane characterization The procedures used to characterize the Fumasep FBM are summa­rized Section 1.1 of the SI. Characterisation results are presented in Table 1 and Fig. S1. Monopolar membranes were of secondary interest in this study; their typical properties are reported elsewhere [5].\n\n3.3. Diffusion tests To identify preferential crossover pathways for Na+ and Cl-between battery compartments (see Fig. 1A,C), we conducted diffusion experi­ments in an H-cell (membrane area: 1.33 cm2) with two 80 mL com­partments, continuously stirred at a temperature of 22 ◦C. After 3 h, samples from the acid and base compartments were collected for ion chromatography. We assessed Cl-crossover to the base compartment in a: BPM case: 0.5 M HCl vs. 0.5 M NaOH, separated by Fumasep FBM CEM case: 0.5 M NaCl vs. 0.5 M NaOH, separated by Fumasep FKBPK-130 We assessed Na+ crossover to the acid compartment in a: BPM case: 0.5 M HCl and 0.5 M NaOH separated by Fumasep FBM AEM case: 0.5 M NaCl and 0.5 M HCl separated by Fumasep FAB-PK130 Samples were diluted 100-fold before analysis. Cl-concentrations in base samples were measured using 881 Compact IC Pro ion chromato­graph (Metrohm, Switzerland); Na+ concentrations in acid samples were measured using 883 Basic IC Plus (Metrohm, Switzerland). Ion fluxes were calculated from the concentration change over 3 h, normalized to the membrane area.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.4. Stack testing The ABFB stack was supplied by AQUABATTERY B.V. A schematic of a repeating unit is provided in Fig. S2. The stack consisted of five membrane triplets – Fumasep FBM, Fumasep FAB-PK-75, Fumasep FKBPK-75 – between two electrode compartments. An additional Fumasep FKB-PK-75 separated the electrode compartments from the triplets. Ti­tanium mesh electrodes coated with Ir–Ru catalyst were used for water electrolysis. Between membranes, we placed 0.8 mm polypropylene flow spacers, each consisting of two 0.5 mm thick woven mesh layers with 50% open area. The active membrane area was 22 cm2 (110 cm2 in total). The stack was connected to four electrolyte reservoirs – acid, base, salt and electrode rinsing solution – each holding 0.5 L. Acid, base, and salt were circulated at 40 mL min-1; the rinse solution at 80 mL min-1 (MasterFlex peristaltic pumps, Cole-Parmer, USA; polypropylene tubing). Electrolyte concentration studies: Equal concentrations of HCl, NaOH, and NaCl were used at 0.25, 0.5 or 0.75 M (50% SoC). Corre­spondingly, Na2SO4 concentrations of 0.125, 0.25 and 0.375 M Na2SO4 were used for the electrode rinsing solution.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "0.25, 0.5 or 0.75 M (50% SoC). Corre­spondingly, Na2SO4 concentrations of 0.125, 0.25 and 0.375 M Na2SO4 were used for the electrode rinsing solution. SoC variation studies: Acid and base concentrations were adjusted to maintain total salt-ion concentration at 0.5 M: SoC 10%: 0.1 M HCl, 0.1 M NaOH, 0.9 M NaCl SoC 50%: 0.5 M HCl, 0.5 M NaOH, 0.5 M NaCl SoC 90%: 0.9 M HCl, 0.9 M NaOH, 0.1 M NaCl In all SoC tests, the electrode rinsing solution was 0.25 M Na2SO4.Electrochemical tests were performed using an Autolab PGSTAT302 N electrochemical workstation (Metrohm Autolab B.V., The Netherlands). Each test began with measurement of polarization curve (stack voltage vs. current density) in both charge and discharge, fol­lowed by cycling. Polarization curves were obtained via a galvanostatic sweep from -25 mA cm-2 to +25 mA cm-2 in 0.1 mA cm-2 steps at 0.05 mA cm-2 s-1. Cycling consisted of charge, rest (5 min), discharge, and rest (5 min), repeated 4 times unless noted. The charging and discharging step du­rations were adjusted to keep the same SoC range at different current densities: 3600, 1800, 1200, or 600 s for 2.5, 5, 7.5, or 15 mA cm-2, respectively. Voltage efficiency (ηV) was calculated as the ratio of average discharge voltage to average charge voltage; currentindependent electrode overpotentials (1.5 V, from blank tests) were subtracted.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e ratio of average discharge voltage to average charge voltage; currentindependent electrode overpotentials (1.5 V, from blank tests) were subtracted. For crossover measurements, ~10 mL samples from acid and base compartments were taken after each cycle, diluted 100-fold, and analyzed by ion chromatography for Cl-(in NaOH) and Na+ (in HCl). Ion flux was calculated from the slope of concentration vs. time, normalized to the total membrane area (110 cm2 for a 5-cell stack). Temperature variation studies: For elevated-temperature tests, electrolyte reservoirs were placed in an open heat bath (Julabo CORIO CD, Julabo GmbH, Germany). Electrolytes were preheated to 30, 40, or 50 ◦C before circulation; the stack was allowed to reach a stable tem­perature, verified using a non-contact IR thermometer (Fluke 561, Fluke Corp., USA), before testing. Polarization curves and cycling data for all tested conditions are provided in the Supporting Information: reference cycling (Fig. S3–S5), current density variation (Fig. S6–S7), electrolyte concentration (Fig. S8–S10), SoC variation (Fig. S11–S13), and temperature effects (Fig. S14–S16).",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 1 Properties of Fumasep FBM used in this study. Wet thickness, μm Water uptake, % Ion exchange capacitya, meq g-1\n\nPermselectivitya, % Areal resistancea, Ohm cm2\n\n[ФОРМУЛА: [FORMULA_ID: a9b9eb47-4d7a-4aa3-a330-dd0b8d66add0] 0.5 M: 98.2 ± 0.1; 5.11 ± 0.02]\n\n** Permselectivity and areal resistance were measured between 0.5 M HCl and NaOH for FBM. a Ion exchange capacity values were normalized by the weight of either CEL or AEL. P.A. Loktionov et al. Journal of Membrane Science 745 (2026) 125239",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Results and discussion 4.1. Salt ions crossover in ABFBs reduces available capacity and voltage efficiency To evaluate the impact of crossover on battery performance, we performed galvanostatic cycling of the stack at 2.5 mA cm-2 within a moderate SoC range (SoC 50 ± 3.7%, see Fig. 2A). Over one day of continuous cycling, the voltage efficiency dropped from 59% to 50%, primarily due to a gradual decline in discharge performance (see Fig. S17). This degradation was fully reversible: refreshing all the bat­tery electrolytes restores the initial efficiency, as indicated by the sharp recovery following the vertical dashed line in Fig. 2A. This recovery confirms that the efficiency loss arises from acid–base cross-contamination rather than irreversible degradation. As shown in Fig. 2B, both Na+ and Cl-progressively accumulate in the opposite electrolyte compartments, indicating ongoing salt-ion crossover. Although H+ and OH-crossover reduces the acid and base concentra­tion over time - thereby lowering available capacity - we find that this mechanism plays a secondary role in voltage efficiency decay. Instead, undesired transport of salt ions, occurring predominantly through the BPM (see Fig. 2B, Fig. S18), is far more detrimental. Salt accumulation in BPMs during water recombination[2–4] introduces additional voltage losses by increasing mass-transport resistance. In agreement with previous studies [5,6,8,12], Cl-crossover rates exceed those of Na+ (Fig. 2B).",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ltage losses by increasing mass-transport resistance. In agreement with previous studies [5,6,8,12], Cl-crossover rates exceed those of Na+ (Fig. 2B). Maintaining electroneutrality requires that the transport of a salt ion through the BPM be accompanied by an oppositely charged ion moving in the opposite direction [24]. For example, Cl-crossover from acid compartment must be coupled with OH-diffusion toward the catalytic interface, where OH-reacts with H+ to form water (Fig. 3). This mechanism permits differing Cl-and Na+ crossover rates, with the sum of both fluxes corresponding to the overall rate of water formation. As shown in later sections, this cation/anion crossover ratio varies with operating conditions.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Our previous work demonstrated that salt ions in acid and base electrolytes impair BPM performance [4]. Here, we confirm this effect at the stack level for Fumasep FBM. During charging (Fig. 2C), when BPMs operate under water dissociation, salt ions have limited impact because strong H+ and OH-migration fluxes purge salt ions from the membrane layers. In contrast, during discharging (Fig. 2D), when H+ and OH- recombine into water, salt ions accumulate within the membrane layers, causing mass-transport limitations and higher voltage losses. Even a minor salt content in electrolytes degrades the stack perfor­mance (Fig. 2D). When only 25% of acid and base electrolytes are cross-\n\nFig. 2. (A) Cycling profile and voltage efficiency at 2.5 mA cm-2 in an SoC range of 50 ± 3.7%; asterisk (*) marks electrolyte refreshment; (B) Evolution of Cl-and Na+ concentration in base and acid, respectively, during cycling (lines are guides to the eye); (C) Charging polarization curves at different levels of acid-base crossmixing; (D) Discharging polarization curves and single-cell power density as a function of acid-base cross-contamination.\n\nFig. 3. Scheme of Cl-(A) and Na+ (B) crossover through a BPM at zero net current.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "P.A. Loktionov et al. Journal of Membrane Science 745 (2026) 125239 contaminated, the maximum power density decreases by 21% - from 2.8 to 2.2 mW cm-2. This explains the drop in voltage efficiency observed during cycling (Fig. S17). As the AEL is particularly sensitive to salt buildup in the base [3,4], high Cl-crossover is especially harmful during discharge.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.2. Effect of electrolyte composition on crossover We next examine how crossover depends on electrolyte composition - specifically, acid/base concentration and SoC. Because diffusion is the dominant transport mechanism for salt ion crossover in ABFBs, changes in electrolyte concentration have a pronounced impact on crossover magnitude (Fig. 4A). When acid and base concentrations are increased at a fixed SoC of 50%, crossover rates rise sharply. This behavior, also reported for reverse electrodialysis in neutral unbuffered electrolytes [6–9,25], results from weakened Donnan exclusion. At higher bulk concentrations, the co-ion content within the BPM (Na+ for AEL, Cl-for CEL) increases due to reduced electrostatic repulsion. This phenomenon is relevant to any device that generates or uses acids and bases, as it limits the maximum achievable product concen­tration [26] - or, in ABFBs, the electrolyte capacity and maximum en­ergy density. For example, increasing acid and base concentrations from 0.25 M to 0.75 M raises the co-ion concentration in the membrane layers, estimated from Donnan theory [22]. For the CEL, with an ion-exchange capacity of 1.36 ± 0.19 meq g-1 (corresponding to 2.02 ±0.27 M), the estimated co-ion concentration increases from 30 mM to 248 mM. For the AEL, which has a slightly lower ion-exchange capacity of 1.15 ± 0.03 meq g-1 (1.71 ± 0.04 M), the co-ion concentration ranges from 36 to 280 mM.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "r the AEL, which has a slightly lower ion-exchange capacity of 1.15 ± 0.03 meq g-1 (1.71 ± 0.04 M), the co-ion concentration ranges from 36 to 280 mM. Consistently, the measured crossover values increase 5-8-fold: from 6.2 to 52 μmol h-1 cm-2 for Cl-and from 4.6 to 26 μmol h-1 cm-2 for Na+. For CEL with ion-exchange capacity of 1.36 ± 0.19 meq g-1 (or 4.18 ± 0.58 M (mol per L of solution in membrane pores)), co-ion concen­tration raises from 10 mM to 130 mM, while for the AEM, which has ionexchange capacity of 1.15 ± 0.03 meq g-1 (or 3.54 ± 0.09 M (mol per L of solution in membrane pores)), co-ion concentration ranges from 20 to 150 mM. From these data, we estimated the diffusion coefficients of Na+ and Cl-as a co-ion through the corresponding layers of Fumasep FBM (assuming that crossover in ABFBs occurs entirely through the BPM). Using the measured fixed charge densities of both membrane layers (see Table 1), we obtained values of (6.7 ± 0.5) * 10-7 cm2 s-1 for Cl-and (4.69 ± 1.2) * 10-7 cm2 s-1 for Na+ (see details in Section 1.10 of SI). In addition, the ratio between diffusion coefficients in the membrane and in the liquid bulk allows us to estimate the water content in each layer separately [27], which was found to be similar for both layers. Further discussion on the higher crossover magnitude for Cl-compared to Na+ flux are given in following sections.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The above data on diffusion coefficients can be used to refine elec­trochemical models of BPMs [28,29] and BPM-based devices [30], particularly ABFBs where accurate crossover modelling is essential [27]. The SoC has also a strong influence on crossover. The SoC reflects the ratio of acid/base concentration to their maximum values – e.g., for 0.5 M electrolytes, 0% SoC corresponds to 0 M acid/base and 1 M NaCl, while 100% SoC corresponds to 1 M acid/base and 0 M NaCl. As the SoC increases, the salt-ion concentration gradient across the BPM steepens, thereby accelerating diffusion. Simultaneously, a high SoC reduces the driving force for diffusional crossover through the monopolar mem­branes. We observe a higher crossover for increasing SoC. For example, increasing SoC from 10% to 90% raises Na+ crossover from 3.1 to 20 μmol h-1 cm-2 and Cl-crossover from 9.6 to 41 μmol h-1 cm-2 (Fig. 4B). This confirms that the dominant pathway for Na+ and Cl- transport is through the BPM rather than the monopolar membranes. Because diffusion is the dominant mechanism governing salt-ion crossover, the electrolyte flow rate in the acid and base compartments can, in principle, affect the crossover flux. Increasing the flow rate re­duces the thickness of the diffusion boundary layer at the electrolytemembrane interface [31,32], which may enhance diffusive transport across the membrane.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the thickness of the diffusion boundary layer at the electrolytemembrane interface [31,32], which may enhance diffusive transport across the membrane. For example, based on reported dependencies of limiting current density on flow rate [33], one can infer that at very low linear velocities (~0.01 cm s-1) the diffusive crossover could be approximately twofold lower than at the high flow rates typically used in bipolar membrane electrodialysis (~2.6 cm s-1) [34–38]. On this basis, we estimate that the crossover values measured in our study at a linear velocity of ~0.42 cm s-1 may vary within approximately ±40% depending on the flow-rate conditions. Overall, these results demonstrate that both high electrolyte con­centration and overcharging substantially accelerate crosscontamination between compartments, thereby further reducing voltage efficiency.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.3. Impact of cycling current density on crossover Having identified the dominant pathway for salt-ion crossover and its effect on battery performance, we next examine how cycling current density influences the migration part of crossover (Fig. 5A). The data show a slight but consistent increase in the crossover of both salt ions with higher cycling current density. Reported values are normalized by cycling time and thus represent average fluxes across both charging and discharging steps. Since the migration component during discharging is effectively zero (see Fig. 1D), crossover in ABFBs is far less sensitive to current density than in devices operating exclusively under water dissociation [17]. Moreover, the current densities studied here (2.5 – 15 mA cm-2) are much lower than those typically investi­gated in BPM studies on water dissociation[16,17,19–21], reinforcing",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. (A) Crossover of salt ions versus electrolyte concentration (SoC = 50% ± 3.7%, 5 mA cm-2, ambient temperature); 0.5 M data is the average from duplicate experiments (error bars: standard deviation); (B) Crossover of salt ions versus SoC (electrolyte concentration = 0.5 M, 5 mA cm-2); X-axis error bars indicate ±3.7% SoC range. P.A. Loktionov et al. Journal of Membrane Science 745 (2026) 125239 the conclusion that diffusion remains the dominant transport mecha­nism even at 15 mA cm-2. To further interpret ion transport, we evaluated the relative cross­over – the fraction of total BPM ion flux including H+/OH-and Na+ and Cl-attributable to a specific salt ion (Fig. 5B). While absolute crossover rises slightly with current density, relative crossover decreases. As cycling current density increases, the H+/OH-migration flux becomes larger, making the diffusion-driven fluxes of Na+ and Cl-comparatively less significant. We define BPM efficiency (ηBPM) as unity minus relative crossover, which in our experiments ranges between 65 and 92% for current densities between 2.5 and 15 mA cm-2 - consistent with typical water dissociation efficiencies reported for Fumasep FBM [39]. Section 4.5provides practical recommendations based on these observations. 4.4. Temperature dependence of salt-ion crossover We next investigate how temperature variations influence salt-ion crossover in ABFBs.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "observations. 4.4. Temperature dependence of salt-ion crossover We next investigate how temperature variations influence salt-ion crossover in ABFBs. This factor is particularly relevant because stack temperature can rise during operation due to Joule heating [40] or fluctuate with ambient conditions. Cycling tests were performed at 22-50 ◦C under constant conditions (0.5 M electrolyte, 5 mA cm-2, SoC 50 ± 3.7%). As shown in Fig. 6A, crossover increases sharply with temperature. At 50 ◦C, Na+ and Cl- fluxes reach 38 and 39 μmol h-1 cm-2, respectively - nearly double the values at ambient temperature - indicating a thermally activated transport process. An Arrhenius analysis (Fig. 6B), provides deeper insights into the thermally activated nature of salt-ion crossover in Fumasep FBM-based stacks. The measured activation energies represent the energetic bar­riers that co-ions must overcome to traverse the BPM: 15 kJ mol-1 for",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Cl-and 33 kJ mol-1 for Na+. Qualitatively, the higher activation energy observed for the salt cation crossover agrees with earlier reports [6,41,42]. This trend cannot be explained solely by differences in the intrinsic properties of the salt ions. Although Cl-has a larger ionic radius (0.181 nm), it exhibits a smaller hydration shell and a lower hydration energy (340 kJ mol-1) compared to the smaller Na+ (0.102 nm), which possesses a more strongly bound hydration shell (365 kJ mol-1) [43]. Consequently, the activation energy for diffusion of Cl-in aqueous solutions is lower than that of Na+, amounting to 15.22 and 18.26 kJ mol-1, respectively [44]. We hypothesize that, in BPMs, this difference in activation energies is further amplified by interactions between salt ions and the fixed charged sites of the membrane layers. In particular, the more strongly hydrated Na+ ion may experience enhanced electrostatic exclusion within the AEL, effectively increasing the energy barrier for its transport [45]. An additional contribution may arise from differences in the chemical composition or pore structure of the AEL and CEL, although quantitative data on these effects are presently unavailable. Together, the differing energy barriers for co-ion transport and the structural asymmetry of the BPM - characterized by a CEL:AEL thickness ratio of 0.79 ± 0.26 : 1 - govern the relative magnitudes of Na+ and Cl- crossover fluxes.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "asymmetry of the BPM - characterized by a CEL:AEL thickness ratio of 0.79 ± 0.26 : 1 - govern the relative magnitudes of Na+ and Cl- crossover fluxes. We observe an average Cl-:Na+ crossover ratio of approximately 2:1 (Fig. S19), consistent with previous studies attrib­uting such asymmetry to differences in the thickness and transport properties of the CEL and AEL [12,33,46–48]. From a practical perspective, the thermally activated nature of saltion crossover implies higher relative crossover at elevated temperatures (Fig. S20), which directly shortens the projected battery lifetime (see the following section). Moreover, the different activation energies for Na+ and Cl-indicate that heating ABFB stacks alters the relative rates of acid and base contamination. For instance, a 10 ◦C increase above ambient",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. (A) Absolute crossover of salt ions as a function of cycling current density; cycling conditions: 0.5 M electrolyte concentration, SoC 50 ± 3.7%; for 0 and 5 mA cm-2, for 0 and 5 mA cm-2 values are averaged over two experiments (error bars: standard deviation); (B) Relative crossover of salt ions versus cycling current density; lines are the guide for the eye.\n\nFig. 6. (A) Crossover of salt ions versus stack temperature (conditions: 0.5 M electrolyte, 5 mA cm-2, SoC 50 ± 3.7%; ambient-temperature values are averages from duplicate experiments (Y-axis error bars: standard deviation); X-axis error bars reflect temperature control accuracy (B) Arrhenius plot of crossover data; lines in graph A are just the guide for the eye. P.A. Loktionov et al. Journal of Membrane Science 745 (2026) 125239 conditions raises Cl-crossover by approximately 26% while nearly doubling Na+ crossover.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6,
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.5. Practical implementations Our results underscore a core challenge in optimization of ABFBs based on commercially available BPMs: strategies that minimize ion crossover often reduce power output and voltage efficiency. To identify a practical operating window, we propose using the product of voltage efficiency (ηV) and BPM efficiency (ηBPM), here termed η*E, as a practical metric for evaluating round-trip efficiency. Fig. 7 shows η*E as a function of electrolyte concentration, SoC, cycling current density, and stack temperature. In this work, we propose a practical threshold of 80% for BPM efficiency, as lower values are unlikely to support stable long-term cycling. Please note that the voltage efficiency reported here corre­sponds to short-term cycling; during long-term operation, the voltage efficiency is expected to progressively decrease due to salt-ion-induced overvoltages under forward bias [4]. Based on Fig. 7A, concentrations between 0.25 and 0.5 M offer the best balance between the bipolar membrane efficiency and voltage ef­ficiency, yielding η*E values of ~32-33%. However, this analysis does not capture the trade-off between battery lifetime and energy density. For example, the estimated time to reach 20% state of health (see Sec­tion 1.13 and Fig. S21 in SI) is approximately 550 h for 0.25 M elec­trolytes, compared to 190 h for 0.75 M electrolytes.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "20% state of health (see Sec­tion 1.13 and Fig. S21 in SI) is approximately 550 h for 0.25 M elec­trolytes, compared to 190 h for 0.75 M electrolytes. On the other hand, the theoretical energy density of the 0.25 M system is three times lower than that of the 0.75 M case (2.77 vs. 8.32 Wh L(acid and base)-1). We suggest that the use of dilute electrolytes may be viable for long-duration energy storage, although a more detailed techno-economic analysis is needed to validate this strategy [49,50]. Data in (Fig. 7B) indicate that η*E is maximized near 50% SoC, where acid and base concentration are equal. Operating within narrow SoC ranges also sustains higher efficiency: cycling at 50 ± 3.7% SoC yields η*E of ≈34%, whereas expanding the window to ±40% lowers η*E to ~21-28%. Therefore, the SoC window should be chosen based on the intended application - narrow for peak-shaving and broader for longduration storage – while avoiding operating regimes where ηBPM falls below ~80%. For commercial Fumasep FBM membranes, ηBPM higher than 80% implies operating at current densities above 5 mA cm-2 (Fig. 7C). However, this recommendation does not account for the concurrent decline in voltage efficiency at higher current densities. Achieving higher η*E at elevated currents would require improved BPM selectivity or lower stack resistance [49].",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ficiency at higher current densities. Achieving higher η*E at elevated currents would require improved BPM selectivity or lower stack resistance [49]. Potential approaches include employing thinner CEMs, AEMs, and electrolyte compartments to reduce ohmic losses, thereby enabling higher-current operation without compro­mising voltage efficiency. The temperature dependence on η*E (Fig. 7D) suggests that moderate heating from Joule effects (10-20 ◦C above ambient) does not signifi­cantly degrade the apparent η*E, provided membrane stability is main­tained. However, this would substantially reduce the battery lifetime. For example, at room temperature a battery operated with 0.5 M elec­trolytes is expected to reach a state of health of 20% after approximately 310 h (Fig. S22), whereas increasing the temperature by 20 ◦C shortens the lifetime to about 170 h. Although higher temperatures may reduce the sensitivity of BPMs to electrolyte contamination [4], careful tem­perature management remains critical for large-scale ABFB stacks. To conclude, the general trends identified in this study can inform BPM selection for ABFBs. While the precise rate of crossover depends on membrane design, the underlying mechanism is broadly applicable, and BPMs remain the dominant pathway for salt-ion leakage. For dilute electrolytes (<1 M), Fumasep, Yichen, and Weifang BPMs seem to exhibit similar co-ion diffusion rates [51], whereas Neosepta BPMs show lower crossover [52].",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "olytes (<1 M), Fumasep, Yichen, and Weifang BPMs seem to exhibit similar co-ion diffusion rates [51], whereas Neosepta BPMs show lower crossover [52]. Differences in layer thickness and ion-exchange capacity may also influence the cation–anion transport asymmetry, though comparative data remain limited. Custom BPMs - often thinner and less selective [39] - may shorten stack lifetime, but emerging designs aiming to overcome the selectivity-conductivity trade-off [53] could be effective for next-generation ABFBs.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. Voltage efficiency (ηV), BPM efficiency (ηBPM), and energy efficiency metric (η*E) as a function (A) electrolyte concentration, (B) SoC, (C) cycling current density and (D) temperature; X-axis error bars: (B) ± 3.7% SoC; (D) temperature control accuracy; lines are just the guide for the eye. P.A. Loktionov et al. Journal of Membrane Science 745 (2026) 125239",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5. Conclusions This study demonstrates that salt-ion crossover is a major contributor to capacity fade and efficiency losses in Fumasep-based ABFBs. Cross­over occurs predominantly via Fumasep FBM, assisted by H+ and OH- neutralization and driven by non-ideal Donnan exclusion, leading to acid-base contamination that impairs discharge performance and re­duces power output. Salt-ion crossover in bipolar membranes is diffusion-dominated and inherently asymmetric, with Cl-consistently exhibiting higher cross­over rates than Na+. This asymmetry arises from the combined effects of ion hydration, electrostatic exclusion, and structural differences be­tween the anionand cation-exchange layers, which together govern layer-specific co-ion transport. Increasing cycling current density up to 15 mA cm-2 does not significantly enhance salt-ion migration, confirming that crossover re­mains diffusion-limited within the operational range typical for ABFBs. At higher current densities, the relative contribution of crossover to total ion transport decreases, improving BPM efficiency. From these findings, we propose practical guidelines for ABFB optimization: Operate at electrolyte concentrations around 0.25 M or lower and near 50% SoC to enable longer cycle life. Current commercial BPM stacks should operate at current densities above 5 mA cm-2 to achieve high BPM efficiency.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "50% SoC to enable longer cycle life. Current commercial BPM stacks should operate at current densities above 5 mA cm-2 to achieve high BPM efficiency. Reducing stack resistance - via thinner monopolar membranes or narrower electrolyte compartments - would enable higher current density without compromising voltage efficiency. Future studies should analyze operation of ABFBs based on custom BPMs designed for operation at elevated current densities. Overall, this work clarifies the mechanisms of salt-ion crossover in BPM-based flow batteries and outlines material and operational strate­gies to improve performance, supporting the practical deployment of ABFB technology. CRediT authorship contribution statement Pavel A. Loktionov: Writing – original draft, Visualization, Meth­odology, Investigation, Formal analysis, Conceptualization. Letian Li: Writing – review & editing, Methodology, Investigation, Formal anal­ysis. Vojtech Konderla: Writing – review & editing, Formal analysis. Yorick Baljeu: Writing – review & editing, Formal analysis. Ayesha Nawaz: Writing – review & editing, Methodology. Sander Looman: Writing – review & editing, Formal analysis. David A. Vermaas: Writing – review & editing, Project administration, Funding acquisition, Formal analysis, Conceptualization. Notes The authors declare the following conflict of interest: David A.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "roject administration, Funding acquisition, Formal analysis, Conceptualization. Notes The authors declare the following conflict of interest: David A. Ver­maas is a co-founder and Yorick Baljeu, Ayesha Nawaz, Sander Looman are employees of AQUABATTERY B.V., which develops BPM-based acidbase flow batteries. Funding sources NWO-AES Crossover program (RELEASE), project number 17621. Declaration of competing interest The authors declare the following financial interests/personal re­lationships which may be considered as potential competing interests: David A. Vermaas reports a relationship with AQUABATTERY B.V. that includes: employment. Yorick Baljeu reports a relationship with",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[16] B. Eriksson, T. Asset, F. Spanu, F. Lecoeur, M. Dupont, F.A. Garc´es-Pineda, J. R. Gal´an-Mascar´os, S. Cavaliere, J. Rozi`ere, F. Jaouen, Mitigation of carbon crossover in CO 2 electrolysis by use of bipolar membranes, J. Electrochem. Soc. 169 (2022) 034508, https://doi.org/10.1149/1945-7111/ac580e.[17] M.A. Blommaert, J.A.H. Verdonk, H.C.B. Blommaert, W.A. Smith, D.A. Vermaas, Reduced ion crossover in bipolar membrane electrolysis via increased current density, molecular size, and valence, ACS Appl. Energy Mater. 3 (2020) 5804–5812, https://doi.org/10.1021/acsaem.0c00687.[18] P. Loktionov, R. Pichugov, D. Konev, Neutralization flow batteries in energy harvesting and storage, J. Energy Storage 72 (2023) 108467, https://doi.org/ 10.1016/j.est.2023.108467.[19] D. Wakerley, S. Lamaison, J. Wicks, A. Clemens, J. Feaster, D. Corral, S.A. Jaffer, A. Sarkar, M. Fontecave, E.B. Duoss, S. Baker, E.H. Sargent, T.F. Jaramillo, C. Hahn, Gas diffusion electrodes, reactor designs and key metrics of lowtemperature CO2 electrolysers, Nat. Energy 7 (2022) 130–143, https://doi.org/ 10.1038/s41560-021-00973-9.[20] Z. Xu, L. Wan, Y. Liao, M. Pang, Q. Xu, P. Wang, B. Wang, Continuous ammonia electrosynthesis using physically interlocked bipolar membrane at 1000 mA cm-2, Nat. Commun. 14 (2023), https://doi.org/10.1038/s41467-023-37273-7.[21] J. Yan, W. Yu, Z. Wang, L. Wu, Y. Wang, T.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "d bipolar membrane at 1000 mA cm-2, Nat. Commun. 14 (2023), https://doi.org/10.1038/s41467-023-37273-7.[21] J. Yan, W. Yu, Z. Wang, L. Wu, Y. Wang, T. Xu, Review on high-performance polymeric bipolar membrane design and novel electrochemical applications, Aggregate 5 (2024), https://doi.org/10.1002/agt2.527.[22] A.H. Galama, J.W. Post, M.A. Cohen Stuart, P.M. Biesheuvel, Validity of the Boltzmann equation to describe Donnan equilibrium at the membrane-solution interface, J. Membr. Sci. 442 (2013) 131–139, https://doi.org/10.1016/j. memsci.2013.04.022.[23] J.C. Bui, I. Digdaya, C. Xiang, A.T. Bell, A.Z. Weber, Understanding multi-ion transport mechanisms in bipolar membranes, ACS Appl. Mater. Interfaces 12 (2020) 52509–52526, https://doi.org/10.1021/acsami.0c12686.[24] H.Q. Dinh, W.L. Toh, A.T. Chu, Y. Surendranath, Neutralization short-circuiting with weak electrolytes erodes the efficiency of bipolar membranes, ACS Appl. Mater. Interfaces 15 (2023) 4001–4010, https://doi.org/10.1021/ acsami.2c18685.[25] K. Lebedev, P. Ramírez, S. Maf´e, J. Pellicer, Modeling of the salt permeability in fixed charge multilayer membranes, Langmuir 16 (2000) 9941–9943, https://doi. org/10.1021/la0006420.[26] D. Xi, Z. Yang, M.S. Emanuel, P. Zhao, M.J. Aziz, Electrochemical acid-base generators for decoupled carbon management, Energy Environ. Sci. (2025), https://doi.org/10.1039/d4ee05109b.[27] J. Kamcev, D.R. Paul, G.S. Manning, B.D.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "erators for decoupled carbon management, Energy Environ. Sci. (2025), https://doi.org/10.1039/d4ee05109b.[27] J. Kamcev, D.R. Paul, G.S. Manning, B.D. Freeman, Predicting salt permeability coefficients in highly swollen, highly charged ion exchange membranes, ACS Appl. Mater. Interfaces 9 (2017) 4044–4056, https://doi.org/10.1021/acsami.6b14902.[28] S.A. Mareev, E. Evdochenko, M. Wessling, O.A. Kozaderova, S.I. Niftaliev, N. D. Pismenskaya, V.V. Nikonenko, A comprehensive mathematical model of water splitting in bipolar membranes: impact of the spatial distribution of fixed charges and catalyst at bipolar junction, J. Membr. Sci. 603 (2020), https://doi.org/ 10.1016/j.memsci.2020.118010.[29] A. Ortega, L.F. Arenas, J.J.H. Pijpers, D.L. Vicencio, J.C. Martínez, F.A. Rodríguez, E.P. Rivero, Modelling water dissociation, acid-base neutralization and ion transport in bipolar membranes for acid-base flow batteries, J. Membr. Sci. 641 (2021) 119899, https://doi.org/10.1016/j.memsci.2021.119899.[30] A. Culcasi, L. Gurreri, A. Cipollina, A. Tamburini, G. Micale, A comprehensive multi-scale model for bipolar membrane electrodialysis (BMED), Chem. Eng. J. 437 (2022) 135317, https://doi.org/10.1016/j.cej.2022.135317.[31] Y. Tanaka, Concentration polarization in ion-exchange membrane electrodialysis - the events arising in a flowing solution in a desalting cell, J. Membr. Sci. 216 (2003) 149–164, https://doi.org/10.1016/S0376-7388(03)00067-X.[32] S. Pawlowski, P. Sistat, J.G. Crespo, S.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "on in a desalting cell, J. Membr. Sci. 216 (2003) 149–164, https://doi.org/10.1016/S0376-7388(03)00067-X.[32] S. Pawlowski, P. Sistat, J.G. Crespo, S. Velizarov, Mass transfer in reverse electrodialysis: flow entrance effects and diffusion boundary layer thickness, J. Membr. Sci. 471 (2014) 72–83, https://doi.org/10.1016/j.memsci.2014.07.075.[33] D.A. Vermaas, S. Wiegman, T. Nagaki, W.A. Smith, Ion transport mechanisms in bipolar membranes for (photo)electrochemical water splitting, Sustain. Energy Fuels 2 (2018) 2006–2015, https://doi.org/10.1039/c8se00118a.[34] J. Xia, G. Eigenberger, H. Strathmann, U. Nieken, Acid-base flow battery, based on reverse electrodialysis with bi-polar membranes: stack experiments, Processes 8 (2020), https://doi.org/10.3390/pr8010099.[35] A. Culcasi, L. Gurreri, A. Tamburini, A. Cipollina, I.D.L. Bogle, G. Micale, Improving efficiency and discharge power of acid-base flow battery via a biobjective optimisation, J. Energy Storage 66 (2023) 107429, https://doi.org/ 10.1016/j.est.2023.107429.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[36] C. Cassaro, G. Virruso, A. Culcasi, A. Cipollina, A. Tamburini, G. Micale, Electrodialysis with bipolar membranes for the sustainable production of chemicals from seawater brines at pilot plant scale, ACS Sustain. Chem. Eng. 11 (2023) 2989–3000, https://doi.org/10.1021/acssuschemeng.2c06636.[37] I.J. Gonz´alez-Panzo, G. Aparicio-Mauricio, E.P. Rivero, M.R. Cruz-Díaz, Experimental and modeling study of the current-potential behavior of an acid-base flow battery. Electrical performance determination as function of the number of single cell unit in stack, J. Energy Storage 124 (2025), https://doi.org/10.1016/j. est.2025.116898.[38] M. Herrero-Gonzalez, N. El Arroubi, M.F. San-Roman, R. Iba˜nez, Acid-Base flow batteries for sustainable energy storage: balancing energy recovery and efficiency, ACS Omega (2025), https://doi.org/10.1021/acsomega.5c06024.[39] ´E. Lucas, J.C. Bui, T.N. Stovall, M. Hwang, K. Wang, E.R. Dunn, E. Spickermann, L. Shiau, A. Kusoglu, A.Z. Weber, A.T. Bell, S. Ardo, H.A. Atwater, C. Xiang, Asymmetric bipolar membrane for high current density electrodialysis operation with exceptional stability, ACS Energy Lett. 9 (2024) 5596–5605, https://doi.org/ 10.1021/acsenergylett.4c01662.[40] Z. Peng, Y. Sun, P. Shi, Y. Wang, A mathematical model of the external circuits in a bipolar membrane electrodialysis stack: leakage currents and Joule heating effect, Sep. Purif. Technol. 290 (2022), https://doi.org/10.1016/j.seppur.2022.120816.[41] H.D. Hurwitz, R.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "stack: leakage currents and Joule heating effect, Sep. Purif. Technol. 290 (2022), https://doi.org/10.1016/j.seppur.2022.120816.[41] H.D. Hurwitz, R. Dibiani, Investigation of electrical properties of bipolar membranes at steady state and with transient methods, Electrochim. Acta 47 (2001) 759–773, https://doi.org/10.1016/S0013-4686(01)00757-5.[42] H. Espinoza-G´omez, L.Z. Flores-L´opez, E. Rogel-Hern´andez, M. Martínez, Preparation and characterization of PVA/PASA-PVA/PDDAB bipolar membrane, J. Braz. Chem. Soc. 20 (2009), https://doi.org/10.1590/S010350532009000700014.[43] Y. Marcus, Thermodynamics of solvation of ions part 6.-The standard partial molar volumes of aqueous ions at 298.15 K t, J. Chem. Soc. Faraday. Trans. 89 (1993) 713–718.[44] D. Sieme, N. Rezaei-Ghaleh, Water dynamics in eutectic solutions of sodium chloride and magnesium sulfate: implications for life in Europa's subsurface ocean and ice shell, Phys. Chem. Chem. Phys. 26 (2023) 105–115, https://doi.org/ 10.1039/d3cp03455k.[45] C. Tang, M.L. Bruening, Ion separations with membranes, J. Polym. Sci. 58 (2020) 2831–2856, https://doi.org/10.1002/pol.20200500.[46] J. Balster, R. Sumbharaju, S. Srikantharajah, I. Pünt, D.F. Stamatialis, V. Jordan, M. Wessling, Asymmetric bipolar membrane: a tool to improve product purity, J. Membr. Sci. 287 (2007) 246–256, https://doi.org/10.1016/j. memsci.2006.10.042.[47] V. Zabolotskii, N. Sheldeshov, S.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ool to improve product purity, J. Membr. Sci. 287 (2007) 246–256, https://doi.org/10.1016/j. memsci.2006.10.042.[47] V. Zabolotskii, N. Sheldeshov, S. Melnikov, Effect of cation-exchange layer thickness on electrochemical and transport characteristics of bipolar membranes, J. Appl. Electrochem. 43 (2013) 1117–1129, https://doi.org/10.1007/s10800013-0560-3.[48] G. Prats Vergel, H. Mu, N. Kolobov, J. Biemolt, D.A. Vermaas, T. Burdyny, Water dissociation efficiencies control the viability of reverse-bias bipolar membranes for CO2 electrolysis, Nat. Chem. Eng. (2025), https://doi.org/10.1038/s44286-02500306-7.[49] R. P¨arnam¨ae, L. Gurreri, J. Post, W.J. van Egmond, A. Culcasi, M. Saakes, J. Cen, E. Goosen, A. Tamburini, D.A. Vermaas, M. Tedesco, The acid–base flow battery: sustainable energy storage via reversible water dissociation with bipolar membranes, Membranes (Basel) 10 (2020) 409, https://doi.org/10.3390/ membranes10120409.[50] M.A. Morales-Mora, J.J.H. Pijpers, A.C. Antonio, J. de la C. Soto, A.M.A. Calder´on, Life cycle assessment of a novel bipolar electrodialysis-based flow battery concept and its potential use to mitigate the intermittency of renewable energy generation, J. Energy Storage 35 (2021) 102339, https://doi.org/10.1016/j.est.2021.102339.[51] E. Al-Dhubhani, R. P¨arnam¨ae, J.W. Post, M. Saakes, M. Tedesco, Performance of five commercial bipolar membranes under forward and reverse bias conditions for acid-base flow battery applications, J. Membr. Sci.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "co, Performance of five commercial bipolar membranes under forward and reverse bias conditions for acid-base flow battery applications, J. Membr. Sci. 640 (2021) 119748, https:// doi.org/10.1016/j.memsci.2021.119748.[52] W. Yu, Z. Zhang, F. Luo, X. Li, F. Duan, Y. Xu, Z. Liu, X. Liang, Y. Wang, L. Wu, T. Xu, Tailoring high-performance bipolar membrane for durable pure water electrolysis, Nat. Commun. 15 (2024), https://doi.org/10.1038/s41467-02454514-5.[53] X. Li, F. Luo, X. Liang, J. Zhang, W. Li, J. Tu, L. Xiong, W. Yu, L. Wu, T. Xu, Pretreatment-Free direct seawater electrolysis using chloride-blocking bipolar membranes, J. Am. Chem. Soc. (2026), https://doi.org/10.1021/jacs.5c16414.",
+    "citation": {
+      "authors": [
+        "Loktionov A.",
+        "Vermaas A."
+      ],
+      "paper_id": "1-s2.0-S0376738826001195-main",
+      "title": "Co-ion diffusion through bipolar membranes governs efficiency and stability in acid-base flow batteries",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  }
+]

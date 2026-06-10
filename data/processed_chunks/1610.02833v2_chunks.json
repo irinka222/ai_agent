@@ -1,0 +1,1207 @@
+[
+  {
+    "content": "Nernst-Planck transport theory for (reverse) electrodialysis:II. Eﬀect of water transport through ion-exchange membranes\n\nM. Tedesco, H.V.M. Hamelers, and P.M. Biesheuvel∗ Wetsus, European Centre of Excellence for Sustainable Water Technology,Oostergoweg 9, 8911 MA Leeuwarden, The Netherlands\n\nAbstract Transport of water through ion-exchange membranes is of importance both for electrodialysis (ED) and reverse electrodialysis (RED). In this work, we extend our previous theory [J. Membrane Sci., 510, (2016) 370-381] and include water transport in a two-dimensional model for (R)ED. Following a Maxwell–Stefan (MS) approach, ions in the membrane have friction with the water, pore walls, and one another. We show that when ion-ion friction is neglected, the MS–approach is equivalent to the hydrodynamic theory of hindered transport, for instance applied to nanoﬁltration. After validation against experimental data from literature for ED and RED, the model is used to analyze single-pass seawater ED, and RED with highly concentrated solutions. In the model, ﬂuxes and velocities of water and ions in the membranes are self-consistently calculated as function of the driving forces. We investigate the inﬂuence of water and coion leakage under diﬀerent operational conditions.\n\nKeywords:Maxwell–Stefan theory, ion-exchange membranes, osmosis, electro-osmosis, hydraulic permeability.\n\n1. Introduction",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In electromembrane processes, ion-exchange membranes (IEMs) are used to desalinate water, to selectively remove ions or other charged molecules, and to generate energy from salinity diﬀerences [1]. IEMs are membranes that contain ﬁxed charges and allow counterions to pass, while in the ideal case coions and water are completely rejected. For all applications of electromembrane processes, a general membrane transport theory describes ion and water ﬂow as function of gradients in electrical potential, salt concentration, and pressure in a self-consistent manner without ad-hoc assumptions. The complexity of such a general theory depends on the behavior of the membrane: in the ideal case, only counterions pass through the membranes, and the mathematical description of membrane transport is the least complex [2]. However, in most cases membranes cannot be described as ideally selective barriers, as they are partially crossed by coions and water, resulting in a decrease of process performance. This non-ideal behavior of membranes requires the simultaneous description of transport of counterions, coions, and water. Co-ion transport was discussed in detail in our previous work, but we did not yet discuss water transport [1].\n\n∗Corresponding Author (P. M. Biesheuvel): maarten.biesheuvel@wetsus.nl arXiv:1610.02833v2 [physics.chem-ph] 22 Feb 2017",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Water transport through ion-exchange membranes has been addressed in the literature both experimentally [3–5] and theoretically [6–8].Four mechanisms are often considered to cause water transport: I. A hydrostatic pressure diﬀerence across the membrane; II. Osmosis, which is water transport due to an osmotic pressure diﬀerence across the membrane; III. Electro-osmosis, water transport due to ion-water friction; and IV. Water transported in the hydration shell around the ions, where water molecules are tightly held. In the present work, we focus on mechanisms I-III and neglect mechanism IV. Note that we will use the words “water”, “solvent”, and “ﬂuid” interchangeably. Although diﬀerent theoretical approaches have already been proposed, combining ion and water transport in a general model which describes both Electrodialysis (ED) and Reverse Electrodialysis (RED) is still challenging.As an example of such challenges, transport of water is aﬀected by diﬀerences across the membrane in salt concentration, electric potential and hydrostatic pressure, as well as by friction with ions and pore walls, and all eﬀects must be included simultaneously [9]. Previously, we developed a two-dimensional electromembrane model based on the approach by Sonin and Probstein [2], focusing on the eﬀect of coion transport in ED and RED [1] (See Fig. 1 for a brief description of these processes).",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "proach by Sonin and Probstein [2], focusing on the eﬀect of coion transport in ED and RED [1] (See Fig. 1 for a brief description of these processes). Our work showed that in RED coion transport reduces the power density by up to 20%, while for ED the energy consumption increases by at least a factor of three compared to the ideal case [1]. In the present work, we extend the model by including ﬂuid (water) transport through the membranes. We focus on the modeling scale of a single cell pair, because most of the relevant transport phenomena of the (R)ED process relate to the cell level. Stack-level modeling is of importance to identify hydraulic leakage between cells [10], non-uniform ﬂow distribution [11], and parasitic currents in the manifolds [12], but will not be discussed here. We validate the model against experimental data from literature (both for ED and RED), and use the model to describe quantitatively the eﬀects of coion and water transport. concentratediluate feed power source ED driving force:electric potential driving force:concentration difference concentrate outdiluate out external load RED concentrate diluate",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "- - - - - - - - - + counterion co-ion- water - +counterion co-ion- water\n\nFigure 1: Principle of electrodialysis (ED) and reverse electrodialysis (RED). The ED process is used as a separation process of aqueous streams by applying a voltage across membranes, while RED harvests the concentration diﬀerence between two salt solutions for power production. The repeating unit of the system is the cell pair which consists of a concentrate channel, a cation exchange membrane (CEM), a diluate channel, and an anion exchange membrane (AEM).\n\n2. General aspects of ion transport in liquid-ﬁlled membrane pores",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In (reverse) electrodialysis, transport phenomena in the spacer channel have often been the primary focus of theoretical studies [13–23], with membrane transport described by a constant permselectivity (set to 100%, in many cases) and water ﬂow neglected (with [19] a notable exception). Instead, in the present work we combine a two-dimensional (2D) model for the spacer channels with a detailed description of transport of ions and water through the membranes [24, 25], thus providing a full description of transport phenomena in the channels and in the membranes. In the 2D model, one coordinate axis runs through the cell (from entrance to exit), and one coordinate is directed towards and through the membranes, see Fig. 2. For the modeling of ion diﬀusion and electromigration in the spacer channels, we assume that the ions have friction only with the ﬂuid (ion-solvent, or ion-ﬂuid, interaction), while in the membrane we consider that ions also have friction with the membrane matrix (‘ion-wall’ or ‘ion-matrix’ interaction), as well as with other ions (‘ion-ion’ interaction), as described by Maxwell-Stefan (MS) theories [24, 26– 28]. Following the Maxwell-Stefan framework, the total force acting on an ion i in the membrane can be described as\n\n[ФОРМУЛА: [FORMULA_ID: 98c518f4-7d9a-492b-957d-0e2935394e9d] -∇˜µi = Rg T X j fi-j (vi -vj) (1)]",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "where ˜µi is the electrochemical potential of ion i, Rg the gas constant, T temperature, fi-j a friction factor between ion i and phase j (which can be the water, the membrane matrix, or another ion), while vi and vj are velocities of i and j. In this work, we assume ideal thermodynamics with ions as point charges and consider the water as a continuum ﬂuid. For ideal thermodynamic behavior of the ions, ˜µi is then equal to",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "˜µi = ˜µi,0 + RgT ln ci + RTziφ(2) where ci is ion concentration, zi ion valence, φ the dimensionless electric potential (which can be multiplied by VT = RT/F to obtain a dimensional voltage), after which Eq. (1) can be written in a single direction, x, as -∂ln ci ∂x-zi∂φ∂x =1Di-F(vi -vF ) + fi-m (vi -vm) + βck (vi -vk)(3) where Di-F is an ion-ﬂuid diﬀusion coeﬃcient, Di-F = 1/fi-F , fi-m is a friction factor between ion i and the membrane matrix (which has zero velocity, vm = 0), and vF is the ﬂuid velocity in the membrane. The last term in Eq. (3) describes friction of ion i with another ion, k, and includes a linear dependence on the concentration of the other ion, and on the velocity diﬀerence. Note that in this work concentrations are deﬁned per unit open volume, i.e., per unit aqueous volume in the membrane (or, in spacer channel) [29], while velocities and ﬂuxes are deﬁned per unit total area of a channel or membrane. Neglecting ion-ion friction (setting β to zero), Eq. (3) can be rewritten by introducing a modiﬁed diﬀusion coeﬃcient, D∗i , which is deﬁned as\n\n1D∗i=1Di-F+ fi-m(4) resulting for the ion velocity in the membrane in [30]\n\n[ФОРМУЛА: [FORMULA_ID: 06690d14-155f-4026-9e1e-bf5cc7502745] vi = D∗ i Di-F vF -D∗ i ∂ln ci ∂x + zi ∂φ ∂x]\n\n.(5)",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        3,
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Eq. (5) gives the velocity of ion i in an ion-exchange membrane, taking into account ion friction with the ﬂuid and with the membrane matrix. Interestingly, Eq. (5) is formally equivalent to an expression from hydrodynamic theory for hindered transport, in which ﬁltration of particles through a pore is described by means of two ‘hindrance’ factors, Kc and Kd, where “c” and “d” refer to “convection” and “diﬀusion”, respectively [30, 31]. We rewrite Eq. (5) to\n\n[ФОРМУЛА: [FORMULA_ID: e9e07611-a4b2-4cd9-816b-6f941f2cfada] vi = Kc,i vF -Kd,i ϵ τ Di,∞ ∂ln ci]\n\n[ФОРМУЛА: [FORMULA_ID: 9d76aa23-03d0-499a-9019-de011388a16d] ∂x + zi ∂φ ∂x (6)]\n\nwhere the equalities Kc,i = D∗i /Di-F and Kd,i = D∗i / ϵ\n\n[ФОРМУЛА: [FORMULA_ID: dd69916b-695e-4154-8939-148655c229eb] τ Di,∞connect Eqs. (5) and Eq. (6), and where]\n\nDi,∞is the ion diﬀusion coeﬃcient in free solution, ϵ membrane porosity, and τ pore tortuosity. The hindrance factors, Kc and Kd, depend on hydrodynamic conditions in the liquid-ﬁlled pore, and a number of correlations have been reported to calculate Kc and Kd for the case of neutral (spherical) molecules in straight cylindrical pores [32, 33]. Using Eq. (6), the ion ﬂux through the membrane, Ji = ci vi, is now given by [31, 34, 35] Ji = Kc,i ci vF -Kd,iϵτ Di,∞\n\n[ФОРМУЛА: [FORMULA_ID: 0756fe48-bd4c-41e8-95a7-1b510ae17eb9] ∂ci ∂x + zi ci ∂φ ∂x (7)]",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "which is a general expression for ion transport including ion-ﬂuid and ion-membrane friction. Note that if ion-membrane friction is neglected (fi-m = 0), that D∗i = Di-F , Kc,i = 1, and Eq. (7) simpliﬁes to\n\n[ФОРМУЛА: [FORMULA_ID: 818a278b-b4b6-47a6-ad7c-4079b58dcabd] Ji = ci vF -Di-F ∂ci ∂x + zi ci ∂φ ∂x]\n\n(8) which is the well-known extended Nernst-Planck (NP) equation [18–21, 36].Thus, Eq.(7) is a modiﬁed NP-equation that includes also ion-wall friction, where Kd and Kc have values between 0 and 1. The results obtained above demonstrate that, neglecting ion-ion interactions, Maxwell–Stefan theory gives a framework equivalent to the hydrodynamic theory for hindered transport of solutes through narrow pores [31]. This equivalence allow us to implement information about solute hindrance into the MS framework. This is advantageous because the hydrodynamic models for hindered transport do not include a description of ﬂuid ﬂow, but this can be included in the MS framework [31].\n\n3. Model development",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Having laid out the general membrane ion transport model, we show how it can be incorporated in a 2D cell model. In the 2D model, ion concentrations in the spacer channel vary in two directions: from membrane to membrane (the x-direction), and from entrance to exit of the cell (along the membrane, y-direction). A co-current ﬂow arrangement is considered, where both feed streams ﬂow in the same y-direction, while the electric ﬁeld acts in x-direction, perpendicular to ﬂow, see Fig. 2.We assume steady-state operation, and assume that both in the channel and membranes all diﬀusive and electromigration ﬂuxes (thus current density) run exactly in x-direction. We impose that the cell pair voltage is the same at each y-coordinate, and allow the current density to change with y. In the y-direction in the channels, we assume absence of diﬀusion and electromigration, and thus in this direction the ions are only advected with the ﬂuid. For the ﬂuid, we assume a plug ﬂow proﬁle (y-component of the ﬂuid velocity, vy, independent of x-coordinate). Because of ﬂuid transport through the membrane, vy will be y-dependent. Note that, for suﬃciently thin channels (as for RED), the exact ﬂow proﬁle (parabolic or plug ﬂow) has a negligible eﬀect on the salt ﬂux through the membranes [1]. The modeling framework presented here can be used to describe a complete cell pair, i.e., the repeating unit of an (R)ED system.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "gh the membranes [1]. The modeling framework presented here can be used to describe a complete cell pair, i.e., the repeating unit of an (R)ED system. However, to simplify the calculation, we assume in the present work that both the salt molecule and the membranes have “symmetric” properties. In particular, we consider that both AEMs and CEMs have the same physical properties, like porosity, thickness, and magnitude of the membrane charge, and that counterions in the membranes (anions in AEMs, and cations in CEMs) have the same behavior in terms of ion-ﬂuid and ion-membrane friction. The same is assumed to hold for coions as well. In the spacer channel, we assume that the diﬀusion coeﬃcient of cation and anion is the same (this assumption is not made for the membrane). Because of these assumptions, the “repeating unit” in the calculation can be reduced to only one membrane and two “half”-channels, see Fig. 2 [1, 2]. xy cc cd cc cd RED",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ED\n\nIEMconcentratechanneldiluatechannel midplane midplane\n\nFigure 2: Schematic diagram of the model geometry.The computational domain consists of half of a concentrate channel, one ion exchange membrane (IEM) and half of a diluate channel. Symmetry in x-direction is assumed around the midplanes. Typical concentrations proﬁles for ED and RED are sketched.\n\n3.1. Modeling the spacer channel In the 2D model, the ion mass balance in the ﬂow compartment (spacer channel) is given by\n\n[ФОРМУЛА: [FORMULA_ID: b7e8b3f7-5197-4b70-b822-e9b257962e5b] ϵ ∂ci ∂t + ∇·Ji = 0 (9)]",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        5,
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "where Ji is the ion ﬂux (deﬁned per total cross-sectional area), and ϵ is the channel porosity (volume left open by spacer mesh). The ion ﬂux, Ji, can be described by the extended Nernst-Planck (NP) equationJi = ci v -Di,d ∇ci -Di,ezi ci∇φ[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] where v is the ﬂuid ﬂow velocity in the channel (also deﬁned per total cross-sectional area, i.e., the “empty tube” velocity), and Di,d and Di,e are eﬀective ion diﬀusion coeﬃcients for diﬀusion and electromigration. For electromigration, Di,e = ϵ/τ ·Di.∞where Di,∞is the ion diﬀusion coeﬃcient in free solution, ϵ is the spacer open fraction (porosity) and τ is the tortuosity factor in the channel. For the diﬀusional term, the eﬀective coeﬃcient is larger because dispersion eﬀects play a role: because the spacer mesh creates tortuous pathways, the ﬂuid mixes, and thus the concentration is more leveled out. This can be described by adding a dispersion term to the ﬂux equation, which can be combined with the diﬀusive term and leads to an increase in the eﬀective coeﬃcient for diﬀusion (and not for electromigration); thus Di,d > Di,e. Substituting Eq. [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] into Eq. (9) leads to ϵ ∂ci",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[ФОРМУЛА: [FORMULA_ID: 06da1a0d-da53-4e40-9f62-0dbde8d0e130] ∂t = Di,d ∇2ci + Di,e zi ∇· (ci∇φ) -∇· (civ) (11)]\n\nwhich applies to both ions in the spacer channels.In the present work, we consider the system in steady–state, and thus ∂ci/∂t = 0, while both streams are assumed to contain only a completely dissociated 1:1 salt. We assume that in the spacer channels cations and anions have the same diﬀusion coeﬃcient (D+,d/e = D-,d/e = Dd/e), and we neglect diﬀusion and electromigration in the axial (y-)direction (an assumption discussed in detail in ref.[2]).According to the electroneutrality condition, the concentrations of cation and anion at each point in the spacer channel are equal to each other, thus c+ = c-= c. Therefore, adding up Eq. [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] for anions and cations results in the salt balance∂∂x\n\n[ФОРМУЛА: [FORMULA_ID: a162ed74-922f-4a7f-baeb-d5817087e1cc] c vx -Dd ∂c ∂x + ∂ ∂y (c vy) = 0. (12)]\n\nIn order to keep vy independent of x at all y-positions (related to the assumption of plug ﬂow), the ﬂuid velocity in x-direction, vx, relates to the ﬂuid velocity in the membrane, vF , by\n\n[ФОРМУЛА: [FORMULA_ID: 18b8dd34-64e7-4f49-ab0e-4493f89a7410] ∂vy ∂y = -∂vx ∂x = ±vF h . (13)]",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "where h is the channel half-width and the sign “+” is used for the diluate channel, and “-” for the concentrate channel (following the geometry outlined in Fig. 2). The ionic current density across the ﬂow channel (in the x-direction) isJch = J+ -J-[ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] where + and - refer to cation and anion. Note that in Eq. [ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] Jch is expressed in mol/m2/s, and must be multiplied by F to obtain a current density in A/m2, of which the average over the cell will be denoted by I. We deﬁne two average salt concentrations, ⟨c⟩and ⟨c⟩ which are both averages across the width of the channel (in x-direction), and which both depend on y-position. Evaluated at the exit of the cell, one of them, ⟨c⟩, is the “mixed cup” eﬄuent concentration. These two concentrations are given by ⟨c⟩= 1 h Z h 0c(x)dx,1⟨c⟩ = 1 h Z h 1c(x)dx.[ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}]",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Combining Eq. [ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] with the NP-equation [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}], and taking into account that the current density, Jch, is not a function of x (only of y), we can integrate across the width of the ﬂow channel (in x-direction) and arrive at\n\nJch = -2 ⟨c⟩ De∆φ h(16) where ∆φ is the potential diﬀerence across half of the channel. An overall salt balance over a “slice” with thickness dy in the channel relates the ions ﬂux through the membrane to ⟨c⟩according to\n\nJions,m = J+,m + J-,m = ±2hd (vy · ⟨c⟩) dy.(17)\n\n3.2. Modeling the membrane In the membrane, local electroneutrality holds at each position, c+ -c-+ ωX = 0[ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}]\n\n[ФОРМУЛА: [FORMULA_ID: d92617f7-7e8f-43ba-bf56-3bb345a74de5] ∂x = fF -m (vm -vF ) + X i]",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ciDi-F(vi -vF )(19) with fF -m the ﬂuid-membrane friction factor, and P t the total pressure, which is hydraulic pressure, P h, minus osmotic pressure [9, 38, 39]. The total pressure is invariant across the solution/membrane boundary (i.e., across the EDL). Note that in Eq.(19) P t has dimension mol/m3, and can be multiplied by RT to a pressure with unit Pa. In Eq. (19), we assume the ions to be point charges (i.e., without volume), and the summation i runs over all ions. Note that when there are neutral species in the membrane, they must also be considered in Eq. (19). For ions as ideal point charges, the osmotic pressure is equal to the total ion concentration (not salt concentration), multiplied by RT. Note that Eq. (19) is also valid when the ions have friction with the membrane matrix and/or with one another. Interestingly, if friction between ions and membrane matrix is neglected (and vm = 0), Eq. (19) simpliﬁes to",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "∂P h ∂x + fF -m vF = ω X ∂φ ∂x(20) which is the classical result reported by Sonin [38] and Schl¨ogl [40]. Transport of ions in x-direction through the membrane is described by Eq. (3) evaluated separately for the anion and cation, while considering steady-state. Steady state implies that, at a given ycoordinate, the ion ﬂux Ji = vi · ci is constant across the membrane, both for anion and cation (also the ﬂuid velocity vF is constant across the membrane because we neglect the volume of the ions). Instead, ion velocities are not invariant across the membrane, as will be shown in Section 4. Using",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Eqs. [ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] and (17), cation and anion ﬂuxes in the membrane, J+ and J-, relate to the total ions ﬂux, Jions,m, and current density, Jch. To solve for the ion transport in the membrane, Eq.(3) is developed in two ways: ﬁrst, it is integrated across the membrane to arrive at an overall expression for ion ﬂux, and second, it is diﬀerentiated to arrive at a second-order diﬀerential equation.In this way, the mathematical code (obtained after numerical discretization) becomes very robust and can easily be solved by any algebraic equation-solver. The integrated form of Eq. (3) becomes (after multiplying by ci), -c⊖i,d -c⊖i,cδm-zi δm Z ∆φm 0ci dφ =1Di-F(Ji -⟨ci⟩vF ) + fi-m Ji + β · (⟨ck⟩Ji -⟨ci⟩Jk)(21) where average concentrations are deﬁned by Eq. [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}]a with h replaced by δm, and where c⊖i,c/d denotes the concentration of ion type i at the membrane/channel interface, but still just in the membrane, at the cor d-side. After discretization, the integral involving dφ can be solved using the trapezoid rule. Diﬀerentiating Eq. (3) (multiplied by ci) leads to ∂2ci ∂x2 + zi∂∂x\n\n[ФОРМУЛА: [FORMULA_ID: 245bd9a6-8585-49af-8344-457ac9e73118] ci ∂φ ∂x = vF Di-F + β (Jk -Ji) ∂ci]\n\n[ФОРМУЛА: [FORMULA_ID: 85d20651-8e1b-4e61-b315-31af60764310] ∂x (22)]",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "i 1Di-F Ji -vF ⟨ci⟩(23) where c∗c/d is the salt concentration in either the cor d-channel, right at the membrane/channel interface. In Eq. (23), we assume there is no hydrostatic pressure drop between the two channels. Thus, the pressure decay in y-direction through the spacer channel is assumed to be the same in each channel, to keep the diﬀerence between them (across the membrane) at zero. Interestingly, inside the membrane the hydrostatic pressure gradually changes from left to right, but to solve the membrane problem, we do not need to calculate it. We also do not need to solve a diﬀerentiated version of Eq. (19). Because of the symmetry of our geometry, the ﬂux through one membrane of both ions together, Jions,m, equals the salt ﬂux, Jsalt, transported between the cand d-channels. For ED, the ratio of Jsalt over Jch is the current eﬃciency, λ, while for RED, the inverse is deﬁned as the salt ﬂux eﬃciency, ϑ [1]. Both properties can be analyzed as a local (y-dependent) eﬃciency, see Fig. 6, but, to compare with data, they can also be deﬁned as an average over the cell, after ﬁrst averaging current and salt ﬂux separately (see Eq. [ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] in ref. [1], and Fig. 4 for an example).",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Overall and boundary conditions The cell pair voltage, VCP, is the sum of all voltage diﬀerences across a cell pair and can be calculated as VCP = 2 VT (∆φc + ∆φD,c + ∆φm -∆φD,d + ∆φd)(24) where ∆φc, ∆φm and ∆φd are the potential drops over the concentrate half-channel, the inner coordinate of the membrane, and the diluate half-channel, respectively (evaluated as the diﬀerence between potential at a position “right” minus “left”); ∆φD,c and ∆φD,d refer to the Donnan potentials arising at the two membrane/channel interfaces; the factor of two is because a cell pair is twice our computational domain. Though VCP is the same at each y-coordinate, how it splits out in its separate contributions, that depends on y-position. The Donnan potentials on each membrane/solution interface, ∆φD,c/d are a function of the membrane charge density, X, and can be calculated as [36, 41, 42] ωX = 2c∗c/d sinh∆φD,c/d.(25)",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The concentration of an ion i just in the membrane, c⊖i , relates to that just outside according to Boltzmann’s law, c⊖c/d,i = c∗c/d exp-zi∆φD,c/d. In Eq. (25) we assume validity of Boltzmann’s law for ions as ideal point charges, and we do not include additional contributions to ion partitioning beyond the direct electrostatic eﬀect. The above set of equations describes ion and water ﬂow in a 2D model for the (R)ED cell and can be solved for any set of input conditions (ﬂow rates, inlet salt concentrations, cell pair voltage VCP or average current I), together with values for ion diﬀusion coeﬃcients, ion-membrane frictions, the ﬂuid-membrane friction (water permeability), and membrane thickness and charge, δm and X. The diﬀerential equations are discretized in xand y-direction, and the resulting set of algebraic equations solved. Like in ref. [1], discretization in the y-direction is by the implicit (backward) Euler method, and in the x-direction we use a central diﬀerence method. Note that the cell pair voltage VCP is constant along the y-coordinate, as is expected for (R)ED cells with unsegmented electrodes. However, ﬂuxes in x-direction (current, ion ﬂux, ﬂuid ﬂow) vary with y-coordinate. Average current density, water velocity and salt ﬂux, as presented in Figs. 3 and 7, are values averaged from entrance to exit of the cell (over the entire y-coordinate).",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Results and discussion In the next section we show results of validation of our model against experimental data for RED and ED, as well as additional model calculations for RED at higher salt concentration, and for singlepass seawater desalination by ED. We address the inﬂuence of water and coion transport on process performance.\n\n4.1. Model validation for Reverse Electrodialysis To validate the model, in which all ﬂuxes through the membrane, including ﬂuid ﬂow, are selfconsistently calculated from the applied driving forces (which all change between entrance and exit of the cell), calculation results are ﬁrst of all compared with a representative data set for RED from Veerman et al. [43]. After having obtained a good ﬁt of the full model to the data, we will reduce the model complexity and compare three cases: (1) the full model, which considers the ﬂuxes of counterions, coions and water through the membrane; (2) a model where the ﬂux of water (ﬂuid ﬂow) is set to zero; (3) a further simpliﬁed model, in which both the water ﬂux and coion transport are set to zero, and coions are excluded from the membrane, thus simulating the case of ideal (100% permselective) membranes. cd,out (mM) cc,out (mM)\n\nVstack (V)\n\n-1\n\n[ФОРМУЛА: [FORMULA_ID: 56d6f011-348a-4446-bb97-300aa56af442] PD (W/m2)]\n\n-2 -1\n\nELECTRIC VARIABLES ideal ideal with water flow MEMBRANE FLUXESOUTLET CONCENTRATIONS\n\nAB\n\nCD",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        9,
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "EF w/o water flow with water flow with water floww/o water flow ideal with water floww/o water flow ideal with water floww/o water flow ideal with water floww/o water flow ideal w/o water flow\n\nFigure 3: Model validation for an RED stack with 25 cell pairs by comparison with data (symbols) of Veerman et al. [43] as function of average current density. A,B) River water and seawater outlet concentration, cd,out, cc,out. C) Stack voltage, Vstack. D) Power density, PD, per m2 of total membrane area (both AEMs and CEMs combined). E) Average salt ﬂux, ⟨Jsalt⟩. F) Average membrane ﬂuid velocity, ⟨vF ⟩. Lines are model predictions, where solid lines include coion and water transport; dashed lines: with coion transport, no water transport; dotted lines: no coion transport and no water transport, i.e., ideal membranes. The region with ⟨Jch⟩> 0 and Vstack > 0 refers to RED-mode; ⟨Jsalt⟩< 0: ED-mode; the region with Vstack < 0 is ‘forced RED’, or ‘assisted RED’.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The experiments by Veerman et al. [43] were done in a stack consisting of 25 cell pairs, containing Sefar Nitex spacers with a thickness of δsp = 200 µm and Fumasep FAD/FKD membranes with a thickness δm = 80 µm and membrane charge of X ∼4.0 M [44]. Inlet salt concentrations are 21 mM and 551 mM of NaCl, for river and seawater. The membrane area is 10x10 cm2 and the feed ﬂow rate per channel 15.12 mL/min (without water ﬂow through the membranes, the “empty tube” residence time is 7.94 s). The ﬂuid ﬂows from one corner of the spacer to its opposite end, with the main ﬂow direction in the two channels at cross angles to one another. Thus, the ﬂow proﬁle is resembles cross-current rather than co-current. Still, in the present work we will assume co-current ﬂow. For the membrane, the model has a total of six mobility factors, being the diﬀusion coeﬃcients of counterion (ct) and coion (co) in the membrane (Dct-F , Dco-F ), the friction factor between counterand coions, β, the friction of ions with the membrane matrix (fct-m, fco-m), and the watermembrane friction (related to hydraulic permeability), fF -m. Furthermore, as free parameters we have the membrane charge density X and, for the spacer channel, the values of Dd and De (assumed the same for both ions).",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rmore, as free parameters we have the membrane charge density X and, for the spacer channel, the values of Dd and De (assumed the same for both ions). The model validation is performed by ﬁtting ﬁve experimental conditions: two values of the diluate eﬄuent concentration (at two diﬀerent stack voltages), and two values of the concentrate eﬄuent concentration, as well as the current when the stack is short-circuited (when Vstack = 0). With these ﬁve constraints, the optimal parameters to ﬁt the theory to the data are found using a Nelder-Mead method. In the present work, we simplify the analysis by setting the ion-membrane friction coeﬃcients to zero. Thus in the model ions in the membrane have friction with the ﬂuid and with other ions, but not with the membrane pore walls. For the ion-ﬂuid diﬀusion coeﬃcients in the membrane, the optimal values found are Dct-F = 78 µm2/s and Dco-F = 162 µm2/s, which are respectively ∼5% and ∼10% of the diﬀusion coeﬃcient at inﬁnite dilution, D∞(where D∞= pD∞,Na+D∞,Cl-= 1640 µm2/s). Thus, for the counterion, the diﬀusion coeﬃcient in the membrane is reduced by a factor of ∼20, and for the coion by a factor of ∼10. Furthermore, we ﬁnd the best ﬁt using a membrane charge density of X = 4.2 M, an ion-ion friction of β ∼0.60 s·m/µmol, and a water-membrane friction of fF -m = 18 Tmol·s/m5 (corresponding to a water permeability of Lp = 100 mL/m2/bar/hr).",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "friction of β ∼0.60 s·m/µmol, and a water-membrane friction of fF -m = 18 Tmol·s/m5 (corresponding to a water permeability of Lp = 100 mL/m2/bar/hr). For the spacer channel, optimal values are Dd = 1640 µm2/s and De = 515 µm2/s, where Dd is larger than De because it includes dispersion (which enhances concentration equalization). The ratio De/D∞can be ascribed to a reduction in eﬀective diﬀusion coeﬃcient due to the spacer porosity ϵ and tortuosity factor τ [45]. In this case, we obtain for the spacer channel a value of ϵ/τ ∼0.314. All of these values are very realistic, with the diﬀusion coeﬃcients of the ion in the membrane, Di-F about 5-10% of the value in free solution, as reported earlier [46]. Membrane charge density is close to the value reported by G¨uler et al. [44]. The value for the water-membrane friction, fF -m, will be discussed further on. Fig. 3 shows a comparison between model predictions and experimental data for the outlet salt concentrations, cc,out and cd,out, stack voltage, Vstack, power density, PD, average salt ﬂux, ⟨Jsalt⟩, and ﬂuid velocity through the membrane, ⟨vF ⟩. Model predictions agree well with data, not only in the RED regime, but also for the data in ED mode (where ⟨Jsalt⟩< 0), and in the ‘forced RED’ regime (Vstack < 0). Moreover, the model reproduces the non-linear dependence of voltage on current (Fig. 3C) due to the change in internal resistance because of ion transport. In addition, Fig.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "roduces the non-linear dependence of voltage on current (Fig. 3C) due to the change in internal resistance because of ion transport. In addition, Fig. 4 shows the very good ﬁt of theory to data for salt ﬂux eﬃciency, ϑ, based on the results in Fig. 3. The salt ﬂux eﬃciency, ϑ, is about 70 % at maximum power (for a current ∼40 A/m2).",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.2. Evaluation of ion and water velocities in RED With the model validated against data, it is interesting to analyze in more detail microscopic properties of transport, such as ion and water velocities in the membranes. For this analysis, we chose the condition of maximum power production, i.e., at a current of 40 A/m2, and a position half-way along the channel. Model calculations show that, across the membrane, the concentration of each ion decays quite linearly from the concentrate-side to the diluate-side, with a gradient of about 0.8 mM/µm. The electric potential also changes gradually, with a mere 5 mV drop across (the inner coordinate of) the membrane. The ﬂuid velocity is about vF =–0.075 µm/s (see Fig. 3F), directed towards the concentrate side. Both ions move in the other direction, towards the diluate side, with the counterion having a velocity of vct ∼0.12 µm/s. This velocity is almost independent of x-position in the membrane because the counterion concentration is quite constant across the membrane, and only slightly changes from ∼4.27 M to ∼4.20 M. However, for the coion the situation is totally diﬀerent: it diﬀuses faster and its velocity is not constant. At the concentrate side, the coion has a velocity of vco =1.3 µm/s, and near the diluate side it accelerates in the very last few percent of the membrane to a velocity almost 200 times higher.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "elocity of vco =1.3 µm/s, and near the diluate side it accelerates in the very last few percent of the membrane to a velocity almost 200 times higher. We do not know whether forces associated with this strong acceleration of the coion need to be considered in the transport theory, nor would we know how to do so. This coion acceleration is related to the linear decay of coion concentration, from around 65 mM on the concentrate-side, to ∼0.4 mM on the diluate side. This reduction in concentration, at constant ion ﬂux (steady state), must lead to an increase in ion velocity that is inversely proportional to concentration. For the coion, despite its low average concentration, it is due to its high velocity (∼2.5 µm/s in the middle of the membrane), that it nevertheless has a quite signiﬁcant ﬂux (∼18% of that of the counterion), i.e., the salt ﬂux eﬃciency ϑ = Jch/Jsalt is only 70 % [1]. In our modeling framework it is possible to investigate the origin of the high ﬂux of the coions in more detail. Focusing on a position half-way across the membrane, here the counterion concentration is 4234 mM and the coion concentration 34 mM (125* less than counterions). Three eﬀect jointly explain the high coion ﬂux (a fourth eﬀect reduces the coion ﬂux). I). The total force acting on a coion is around 9.2 times higher than for counterions. This can be explained as follows.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "eﬀect reduces the coion ﬂux). I). The total force acting on a coion is around 9.2 times higher than for counterions. This can be explained as follows. The diﬀusional force on an ion scales with Fd = -dln c/dx = -1/c·dc/dx and while the gradient -dc/dx is the same for counterand coion, the prefactor 1/c is 125* higher for the coion, thus making the diﬀusional force higher for the coion by that factor. However, for counterions the electric ﬁeld is an additional driving force which is about 11.4* larger. For coions, the electric ﬁeld is in magnitude equally large, but relatively to diﬀusion, not 11.4* larger (as for counterions), but 11.4* smaller (and working against ﬂow). II). Both ions move against the direction of ﬂuid, which reduces their ﬂux. While this eﬀect is small for the coion (it goes between 20 and 2000* faster than the ﬂuid), it is signiﬁcant for",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Figure 4: Data and theory for the cell-averaged salt transport eﬃciency in reverse electrodialysis, ϑ, as function of cell-averaged current I, based on data and theory in Fig. 3. the counterion, whose velocity relative to the membrane is around 61% of its velocity relative to the ﬂuid. III). Finally, the coion has a diﬀusion coeﬃcient (inverse of ion-ﬂuid friction coeﬁcient) in the membrane that is 2.1* that of the counterion. IV). Whereas ion-ion friction hardly inﬂuences the counterion force balance, it consumes28% of the force on coions (coions are retarded because of ion-ion friction with the much slower counterions). Combining these eﬀects, we ﬁnd that the coion ﬂux is ∼9.2/125/0.61 · 2.1 · (1 -0.28) = 18% of the counterion ﬂux. With the full model (that includes water ﬂow and transport of both ions) successfully ﬁtted to the data, it is now interesting to reduce the model complexity by ﬁrst setting the water ﬂow velocity to zero, and next also to exclude coion ﬂow, and compare the three calculations. First, we set the water velocity through the membrane, vF , to zero in the model, to arrive at the dashed lines in Fig. 3. Without water ﬂow, the two channels will have the same inﬂow as outﬂow volume ﬂux, and thus the two lines for eﬄuent concentration in Fig. 3A–B become anti-parallel, i.e., their summation must be constant, equal to the sum of the two inlet concentrations. Notably, a signiﬁcant change of cc,out is predicted in this case (Fig.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "r summation must be constant, equal to the sum of the two inlet concentrations. Notably, a signiﬁcant change of cc,out is predicted in this case (Fig. 3B), and this diﬀerence is due to water ﬂow through the membrane. The salt ﬂux (Fig. 3E) is hardly changed, thus also ϑ is almost the same. At the condition of maximum power density, the current is slightly higher, as well as the power density (+7%). If coions are now also excluded from the membrane, power density further increases (another +4 % compared to the “no water ﬂow”-case) and Fig. 3C shows that the cell voltage at zero current (i.e., the open circuit voltage, OCV) predicted by the full model is signiﬁcantly lower than in the ideal case (Vstack = 3.6 vs. 4.2 V). The results above demonstrate that the model can predict performance of an RED process in a wide range of applied currents, and that to describe data accurately, water ﬂow is ideally included. Water ﬂow reduces the power density (7% at maximum power; and an additional 4% because of coion leakage), and the water ﬂow velocity vF in the membrane is not small: it is of the same order of magnitude as the counterion velocity, and has an eﬀect on the predicted proﬁles for eﬄuent concentration. The procedure to ﬁt the theory to the data resulted in a value for the water permeability of fF -m = 18 Tmol·s/m5. This number can be multiplied by the membrane thickness, δm, and by RgT ∼2500 J/mol, and then inverted, to give a water permeability of Lp = 100 mL/m2/hr/bar.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ber can be multiplied by the membrane thickness, δm, and by RgT ∼2500 J/mol, and then inverted, to give a water permeability of Lp = 100 mL/m2/hr/bar. This is almost 20x higher than what is reported in literature for commercial IEMs [47]. At the end of this section we derive an eﬀective pore size based on this value of Lp.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.3. Eﬀect of water transport in RED with highly concentrated brines In this sub-section we analyze the importance of water ﬂow and coion leakage for RED at a higher starting concentration of the concentrate stream (brine), up to 2.0 M. These high concentrations can be advantageous for energy production (assuming these highly concentrated brines are available) [48]. The exact analysis of these energy losses due to water and coion transport are of particular relevance for processes in which feed solutions are used in a closed loop circuit, for example in energy storage systems [49, 50]. Results are presented in Fig. 5, where, except for the brine concentration, all parameter settings are the same as in the previous section, including river water concentration (21 mM).\n\n[ФОРМУЛА: [FORMULA_ID: 7106cb55-5606-4ba3-812a-fee32d133d6d] Power Density* (W/m2) Efficiency* (%) 0 1 2 3]\n\nFigure 5: Eﬀect of inlet brine concentration, cc,in, on the performance of the RED process. Eﬃciency is plotted versus power density, for conditions where the response product of eﬃciency times power is at a maximum.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Instead of presenting full curves for stack voltage and power density versus current density, as in Fig. 3C–D, here we determine for each such curve the point where the response product (RP) [43] of power * eﬃciency is at a maximum. Eﬃciency and power at that point are presented in Fig. 5. Eﬃciency is deﬁned as the electric power extracted, over the loss of Gibbs energy, which is based on a calculation of 2 Rg T Q c ln c over all inlet and outlet streams, and taking the diﬀerence (where\n\n0.2 0.4 0.6 0.8\n\n00.20.40.60.81 current efficiency l position along membrane\n\n00.20.40.60.81 salt concentration (mM) position along membrane with membrane water flow\n\nFigure 6: Theoretical analysis of eﬀect of membrane water transport on single pass seawater ED (to 20 mM in diluate channel). A) Proﬁle of average salt concentration as function of position y. B) Local current eﬃciency λ. Q is the ﬂow rate). Fig. 5 shows that with increasing brine concentration, the power that can be extracted (at the point of maximum RP) increases, but eﬃciency goes down. For ideal membranes the eﬃciency is by far the highest, even though power (at the point of maximum RP) is similar to the cases with coion transport and with/without water ﬂow. Comparing these two non-ideal cases, without water ﬂow both eﬃciency and power density are higher than with water ﬂow. Thus, for all salt concentrations, both coion and water transport play an important role, either bringing down process eﬃciency, power density, or both.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        14,
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.4. Eﬀect of water transport in single-pass ED for seawater desalination In this section, we theoretically analyze a hypothetical steady-state single-pass ED experiment to obtain fresh water from seawater, both with and without water ﬂow through the membrane, see Fig. 6. The system is modeled using the same geometry and parameter settings obtained for the RED-calculations in the previous section. We ﬁrst consider the situation that the concentration diﬀerence across the membrane is still small, at the same 40 A/m2 current as analyzed in detail for RED. In this case, counterions move to the concentrate-side with a velocity of 0.1 µm/s, while water ﬂows in the same direction, only by drag of the counterions (electro-osmosis), at a velocity of ∼0.7 µm/s. Since the water ﬂows only because it is dragged by the ions (which are mainly counterions in the membrane) (there is no osmotic pressure diﬀerence across the membrane yet in this calculation), counterions must be faster than the water, though calculations show that the velocity diﬀerence is small. In this calculation, the only driving force for ions is the electric potential diﬀerence, which is just 0.63 mV across one membrane. Interestingly, the coion has a velocity relative to the water towards the diluate side, but relative to the membrane it moves towards the concentrate side, with a velocity about twice less than the counterion.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "er towards the diluate side, but relative to the membrane it moves towards the concentrate side, with a velocity about twice less than the counterion. This means that according to the calculation, current eﬃciency λ is slightly larger than unity (1.01). For the counterion, the main frictional force is due to ion-water friction, but for the coion, ion-ion friction is about equally important as ion-water friction.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The situation just sketched, changes dramatically when we consider a situation of seawater desalination to freshwater at 20 mM. The (“empty tube”) residence time is set to 30 s (8 s in the previous RED-calculations), and the average current is ∼340 A/m2 (VCP ∼0.30 V), in order to reach a diluate concentration of 20 mM at the outlet of the cell. Because of the long residence time, and high current, water ﬂow through the membrane is signiﬁcant, such that the eﬄuent ﬂow rate in the diluate channel is only 75 % of the inlet value. Analyzing exactly half-way in the cell, where the concentrate has an average concentration of 795 mM and the freshwater a concentration of 66 mM, we have a situation that in the membrane the counterion has a net velocity to the concentrate-side of ∼0.42 µm/s, but is outrun by the water, which ﬂows at a velocity of ∼0.56 µm/s.Apparently, the concentration diﬀerence created earlier in the cell now pulls water through the membrane, in this way diluting the concentrate. At the same time, the coion moves to the freshwater side at a velocity which changes across the membrane from 1.1 µm/s on the concentrate side, to a value several hundred times higher on the diluate side. At this position, half-way in the cell, current eﬃciency λ is 83 %. Driving forces on the counterion (which relative to the water is moving to the freshwater side) are both diﬀusion and migration while for the coion it is only diﬀusion.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the counterion (which relative to the water is moving to the freshwater side) are both diﬀusion and migration while for the coion it is only diﬀusion. Without water ﬂow, to reach 20 mM in the freshwater channel (with the same 30 s residence time), the average current must be higher, ∼380 A/m2 (VCP ∼0.41 V). Considering now a point halfway in the channel but for otherwise the same conditions, the counterion velocity is slightly higher, at ∼0.51 µm/s (towards the concentrate side), the water velocity is zero, and the coion has a velocity (towards the diluate side) that changes from ∼1.8 µm/s at the concentrate-side to a number 500* higher on the other side, close to 1 mm/s. Because the counterion cannot proﬁt from the water ﬂowing in the same direction, a much higher voltage drop across the (inner coordinate) of the membrane is needed, from 2.4 mV with water ﬂow, to 15 mV in the case without water ﬂow. Counterions move to the concentrate-side, driven by migration, while migration and diﬀusion both aid the coion to ﬂow to the diluate side. Current eﬃciency is only λ = 71 %. With or without water ﬂow, for the counterions only friction with the ﬂuid is of signiﬁcance (ion-ion friction perhaps 5% relative to ion-ﬂuid friction). However, for the coion, ion-ion friction is much more signiﬁcant, up to 40 % of the ion-ﬂuid friction with water ﬂow, and up to 50 % without water ﬂow.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "owever, for the coion, ion-ion friction is much more signiﬁcant, up to 40 % of the ion-ﬂuid friction with water ﬂow, and up to 50 % without water ﬂow. One unexpected observation of these calculations is the eﬀect of water ﬂow on energy consumption (current times voltage), and we calculated that without water ﬂow, the electric energy input is 52% higher.When calculated per m3 of freshwater produced the diﬀerence is less, but still it is ∼16 % higher. This might suggest that an ED process with water ﬂow through the membrane makes desalination more energy-eﬃcient, which seems a counterintuitive result. However, note that with water ﬂow through the membrane the water recovery is reduced to 38 % (from 50 % without water ﬂow). Desalination is less energy consuming at a lower water recovery and this explains why ED with membrane water ﬂow seems to be more energy eﬃcient. In a further calculation for the case with water ﬂow, we increased the inlet diluate ﬂowrate (and reduced the inlet concentrate ﬂowrate) to reach at the outlet a water recovery of 50% with a 20 mM ﬁnal concentration. In this last case, the energy consumption is higher than in the case without membrane water ﬂow, and the diﬀerence is 10",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "% (I ∼453 A/m2, VCP ∼0.38 V, 66 % of total inﬂow directed to diluate channel). Thus, according to this calculation, as long as the desalination objective function is correctly deﬁned, water ﬂow through membranes increases energy consumption. In conclusion, all of these calculations show that water transport has multiple eﬀects on operation of an ED cell with high single-pass desalination. Further on we discuss results of a more common batch-wise seawater ED operation and compare with data. For the calculations just made we are not aware of suitable data for comparison and model validation. Especially of importance is the value of hydraulic permeability, Lp, and the question whether a lower value is not more realistic for commercial membranes. The calculations above show the dire consequences that water transfer can have, including a large dilution of the concentrate ﬂow.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        17
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.5. Eﬀect of water transport in batch-mode ED for seawater desalination The model calculations just discussed are for single pass seawater ED, for which no data are yet available. In existing experiment work, seawater is desalinated in batch mode [51]. Here the initial salt concentration in a diluate and a concentrate reservoir (“bulk” in Fig. 7) is cini ∼510 mM, and the eﬄuent of the ED stack is returned to the reservoirs. The system is run at constant current, in the range of Jch =10–200 A/m2. We make calculations with the same test conditions as reported by Galama et al. [51]. The ED system consists of a 10-cell pair stack (membrane area 10x10 cm2), equipped with Neosepta ACS/CMS membranes (Tokuyama Co., Japan; δm = 130 µm) and δsp = 500 µm spacers (Sefar Nitex 06-700/53). The stack is fed in batch mode from two 1 L reservoirs, with a constant feed ﬂow rate of Qin = 150 mL/min (i.e., an inﬂow ﬂuid velocity in the channel vinﬂow = 0.5 cm/s). The membrane thickness is δm = 130 µm, and X ∼5.0 M. Theory includes an overall reservoir balance for volume and for total salt. For the ED stack, because of the low desalination per pass, we discretize using only one grid point in y-direction (i.e., conditions in the cell equal exit conditions). Results of the ﬁt of the model to the data are shown in Fig. 7. In particular, Fig. 7A–B show the time evolution of the salt concentration in the two reservoirs, cc,bulk and cd,bulk, at diﬀerent current densities.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        18
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In particular, Fig. 7A–B show the time evolution of the salt concentration in the two reservoirs, cc,bulk and cd,bulk, at diﬀerent current densities. Clearly, high current densities (e.g., I =100, 200 A/m2) lead to fast desalination, but complete salt removal to obtain drinking water is not possible, due to the strong increase of the voltage, VCP (as shown in Fig. 7C). As a result, the energy consumption increases dramatically already during the ﬁrst 60 min of the test (Fig. 7D). Note that the salt concentration in the reservoirs and the energy consumption are aﬀected both by transport of salt and of water through the membranes. These eﬀects are shown in Fig. 7E–F, where the salt ﬂux, Jsalt, and ﬂuid velocity through the membrane, vF , are reported. The ﬁnal panels (Fig. 7G–H) show the decrease in volume in the diluate reservoir, and the current eﬃciency (ratio of salt ﬂux over current). Interestingly, current density of I = 100 A/m2 (or higher) leads after 60 min experiment to a nearly ∼8 % reduction of the volume of diluate (Fig. 7G), which constitutes a loss of target product in desalination processes. A very good ﬁt to the full data set can be obtained, though interestingly, according to the theory the current eﬃciency λ decreases in time (solid lines in Fig.7H), while the data show that the current eﬃciency is rather constant, at around 95 % (dashed lines, Fig. 7H).",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        18
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "λ decreases in time (solid lines in Fig.7H), while the data show that the current eﬃciency is rather constant, at around 95 % (dashed lines, Fig. 7H). The ﬁt of theory to data results in the following parameter settings, for the membrane: Dct-F = 50 µm2/s, Dco-F = 75 µm2/s, X = 5.28 M, β = 0.60 s·m/µmol and Lp = 4.7 mL/m2/bar/hr (fF -m = 234 Tmol·s/m5), and for the spacer: Dd = 525 µm2/s and De = 178 µm2/s. Interestingly, the derived value for water permeability Lp is now in line with values of commercial membranes [47], unlike the value of Lp used to ﬁt the RED-experiments. The values of the diﬀusion and electromigration coeﬃcients in the channel, Dd and De, are about three times lower than in the RED-experiments. In the membrane, Dco-F and Dct-F are slightly lower than for the RED-experiment, and again we ﬁnd Dco-F > Dct-F. The ion-ion friction in the membrane, β, is the same as before. The ﬁtted value for X is higher than for the RED-experiments, and is in line with the higher X reported for Neosepta membranes relative to Fumasep membranes. Finally, we use the Hagen-Poiseuille equation for cylindrical straight pores and calculate the equivalent pore size deq for the derived value of Lp. In all cases we assume a membrane porosity ϵm of 30 %. Using d2eq = 32·Lp,exp·δm·µw/ϵm where µw is the dynamic viscosity of water (∼1 mPa.s), we arrive for the two membranes at an equivalent diameter of deq ∼1.5 nm (Fumasep, RED-experiment) and 0.43 nm (Neosepta, ED-experiment).",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        18
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(∼1 mPa.s), we arrive for the two membranes at an equivalent diameter of deq ∼1.5 nm (Fumasep, RED-experiment) and 0.43 nm (Neosepta, ED-experiment). These are realistic numbers for the pore size of (R)ED membranes, considering also that due to pore tortuosity (not included in this calculation) the actual pore size will be larger than deq.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        18
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "0.01 0.1 VCP (V)\n\n[ФОРМУЛА: [FORMULA_ID: 61259342-5adf-4cd3-ba6f-5eea3db623ac] 0.04 0.40 <Jsalt> (mmol/m2/s)]\n\n0.8 0.85 0.9 0.95 050100150 current efficiency λ t (min) cc.bulk (mM) cd.bulk (mM)\n\n[ФОРМУЛА: [FORMULA_ID: 96ab0cae-ab68-4637-bb4e-72ded95e3faa] 0.01 0.1 EC (kWh/m3)]\n\n0.006 0.06 <vF> (mL/m2/s) EF GH AB CD I=200 A/m2\n\n10 A/m2 50 A/m2 100 A/m2I=200 A/m2 0.03 0.012\n\n0.182.00\n\n0.08\n\nFigure 7: Performance of ED process predicted by the full model including coion and water transport (full continuous lines), compared with data (symbols) of Galama et al. [51] as function of time of the experiment, t. A,B) Diluate and concentrate concentration, cd,bulk, cc,bulk. C) Cell pair voltage, VCP. D) Energy consumption, EC, in kWh per m3 of diluate. E) Average salt ﬂux, ⟨Jsalt⟩. F) Average membrane ﬂuid velocity, ⟨vF⟩. G) Normalized volume in the diluate tank, Vd/Vd,0. H) Current eﬃciency, λ. Dashed line refers to trendline of experimental data.\n\n5. Conclusions",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        19,
+        20
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In the present work we set up a fundamental description of transport phenomena in the (R)ED process, and investigated the eﬀect of water transport through ion-exchange membranes on process performance.In the case of negligible ion-ion friction, we showed how the Maxwell-Stefan (MS) approach is formally equivalent to the hydrodynamic theory for hindered transport [31]. The present model self-consistently describes ﬂuid ﬂow as function of the driving forces on the water, being osmotic and hydrostatic pressure gradients, and as function of the frictions with the membrane matrix and with ions. We showed how, despite the extremely low water permeability of IEMs, the velocity of water in the membrane is not negligible, and has the same order of magnitude of the velocity of counterions. The model shows a reasonable agreement with two separate data sets for ED and RED, though to ﬁt the RED-data the hydraulic permeability was possibly chosen too high. Direct ion-membrane friction was left out of the calculation, as well as non-electrostatic contributions to the partition coeﬃcient at the membrane-solution interface, though both eﬀects are probably of importance. We also assumed absence of a hydrostatic pressure diﬀerence across the membrane, and assumed perfect co-current ﬂow conditions. Spacer shadow eﬀects, which can reduce the spacer/membrane interfacial area, should also be considered in future work.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        20
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Acknowledgments\n\nThis work was performed in the cooperation framework of Wetsus, European Centre of Excellence for Sustainable Water Technology (www.wetsus.eu). Wetsus is co–funded by the Dutch Ministry of Economic Aﬀairs and Ministry of Infrastructure and Environment, the Province of Fryslˆan, and the Northern Netherlands Provinces. The authors thank the participants of the research theme “Blue Energy” for fruitful discussions and ﬁnancial support.\n\n[1] M. Tedesco, H. V. M. Hamelers, P. M. Biesheuvel, Nernst-Planck transport theory for (reverse) electrodialysis: I. Eﬀect of co-ion transport through the membranes, Journal of Membrane Science 510 (2016) 370–381.\n\n[2] A. A. Sonin, R. F. Probstein, A hydrodynamic theory of desalination by electrodialysis, Desalination 5 (1968) 293–329.\n\n[3] C. E. Evans, R. D. Noble, S. Nazeri-Thompson, B. Nazeri, C. A. Koval, Role of conditioning on water uptake and hydraulic permeability of naﬁon R⃝membranes, Journal of Membrane Science 279 (2006) 521–528.\n\n[4] M. A. Izquierdo-Gil, V. M. Barrag´an, J. P. G. Villaluenga, M. P. Godino, Water uptake and salt transport through Naﬁon cation-exchange membranes with diﬀerent thicknesses, Chemical Engineering Science 72 (2012) 1–9.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        20
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[5] L. Han, S. Galier, H. Roux-de Balmann, Ion hydration number and electro-osmosis during electrodialysis of mixed salt solution, Desalination 373 (2015) 38–46. [6] O. Kedem, A. Katchalsky, A physical interpretation of the phenomenological coeﬃcients of membrane permeability., The Journal of General Physiology 45 (1961) 143–179. [7] T. Holt, S. K. Ratkje, K. S. Førland, T. Østvold, Hydrostatic pressure gradients in ion exchange membranes during mass and charge transfer, Journal of Membrane Science 9 (1981) 69–82. [8] C. Jiang, Q. Wang, Y. Li, Y. Wang, T. Xu, Water electro-transport with hydrated cations in electrodialysis, Desalination 365 (2015) 204–212. [9] P. B. Peters, R. van Roij, M. Z. Bazant, P. M. Biesheuvel, Analysis of electrolyte transport through charged nanopores, Phys. Rev. E 93 (2016) 053108. [10] Y. Tanaka, Pressure distribution, hydrodynamics, mass transport and solution leakage in an ion-exchange membrane electrodialyzer, Journal of Membrane Science 234 (2004) 23–39. [11] R. Kod´ym, P. P´anek, D. ˇSnita, D. Tvrzn´ık, K. Bouzek, Macrohomogeneous approach to a twodimensional mathematical model of an industrial-scale electrodialysis unit, Journal of Applied Electrochemistry 42 (2012) 645–666. [12] J. Veerman, J. W. Post, M. Saakes, S. J. Metz, G. J. Harmsen, Reducing power losses caused by ionic shortcut currents in reverse electrodialysis stacks by a validated model, Journal of Membrane Science 310 (2008) 418–430. [13] T.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        21
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "sses caused by ionic shortcut currents in reverse electrodialysis stacks by a validated model, Journal of Membrane Science 310 (2008) 418–430. [13] T. Teorell, Transport processes in ionic membranes, Progress in Biophysics and Biophysical Chemistry 3 (1953) 305–369. [14] R. F. Probstein, A. A. Sonin, E. Gur-Arie, A turbulent ﬂow theory of electrodialysis, Desalination 11 (1972) 165–187. [15] R. E. Lacey, Energy by reverse electrodialysis, Ocean Engineering 7 (1980) 1–47. [16] P. N. Pintauro, D. N. Bennion, Mass transport of electrolytes in membranes. 1. Development of mathematical transport model, Industrial and Engineering Chemistry Fundamentals 23 (1984) 230–234. [17] A. G. Guzman-Garcia, P. N. Pintauro, M. W. Verbrugge, R. F. Hill, Development of a spacecharge transport model for ion-exchange membranes, AIChE Journal 36 (1990) 1061–1074. [18] M. Higa, A. Tanioka, K. Miyasaka, A study of ion permeation across a charged membrane in multicomponent ion systems as a function of membrane charge density, Journal of Membrane Science 49 (1990) 145–169. [19] V. F´ıla, K. Bouzek, A mathematical model of multiple ion transport across an ion-selective membrane under current load conditions, Journal of Applied Electrochemistry 33 (2003) 675– 684.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        21
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[20] V. M. Volgin, A. D. Davydov, Ionic transport through ion-exchange and bipolar membranes, Journal of Membrane Science 259 (2005) 110–121.\n\n[21] M. Fidaleo, M. Moresi, Optimal strategy to model the electrodialytic recovery of a strong electrolyte, Journal of Membrane Science 260 (2005) 90–111.\n\n[22] J. Veerman, M. Saakes, S. J. Metz, G. J. Harmsen, Reverse electrodialysis: A validated process model for design and optimization, Chemical Engineering Journal 166 (2011) 256–268.\n\n[23] Y. Tanaka, M. Reig, S. Casas, C. Aladjem, J. L. Cortina, Computer simulation of ion-exchange membrane electrodialysis for salt concentration and reduction of RO discharged brine for salt production and marine environment conservation, Desalination 367 (2015) 76–89.\n\n[24] G. D. Mehta, T. F. Morse, E. A. Mason, M. H. Daneshpajooh, Generalized Nernst–Planck and Stefan–Maxwell equations for membrane transport, The Journal of Chemical Physics 64 (1976) 3917–3923.\n\n[25] P. Meares, Coupling of ion and water ﬂuxes in synthetic membranes, Journal of Membrane Science 8 (1981) 295–307.\n\n[26] G. Kraaijeveld, V. Sumberova, S. Kuindersma, H. Wesselingh, Modelling electrodialysis using the Maxwell-Stefan description, The Chemical Engineering Journal and the Biochemical Engineering Journal 57 (1995) 163–176.\n\n[27] N. R. Amundson, T.-W. Pan, V. I. Paulsen, Diﬀusing with Stefan and Maxwell, AIChE Journal 49 (2003) 813–830.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        22
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[28] C. Delacourt, J. Newman, Mathematical modeling of a cation-exchange membrane containing two cations, Journal of the Electrochemical Society 155 (2008) B1210–B1217.\n\n[29] A. H. Galama, J. W. Post, M. A. Cohen Stuart, P. M. Biesheuvel, Validity of the Boltzmann equation to describe Donnan equilibrium at the membrane-solution interface, Journal of Membrane Science 442 (2013) 131–139.\n\n[30] K. Thibault, H. Zhu, A. Szymczyk, G. Li, The averaged potential gradient approach to model the rejection of electrolyte solutions using nanoﬁltration: Model development and assessment for highly concentrated feed solutions, Separation and Puriﬁcation Technology 153 (2015) 126–137.\n\n[31] W. M. Deen, Hindered transport of large molecules in liquid-ﬁlled pores, AIChE Journal 33 (1987) 1409–1425.\n\n[32] H. Brenner, L. J. Gaydos, The constrained brownian movement of spherical particles in cylindrical pores of comparable radius. models of the diﬀusive and convective transport of solute molecules in membranes and porous media, Journal of Colloid and Interface Science 58 (1977) 312–356.\n\n[33] T. R. Noordman, J. A. Wesselingh, Transport of large molecules through membranes with narrow pores: The Maxwell-Stefan description combined with hydrodynamic theory, Journal of Membrane Science 210 (2002) 227–243.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        22,
+        23
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[34] Y. Lanteri, P. Fievet, A. Szymczyk, Evaluation of the steric, electric, and dielectric exclusion model on the basis of salt rejection rate and membrane potential measurements, Journal of Colloid and Interface Science 331 (2009) 148–155.\n\n[35] A. Szymczyk, H. Zhu, B. Balannec, Ion rejection properties of nanopores with bipolar ﬁxed charge distributions, The Journal of Physical Chemistry B 114 (2010) 10143–10150.\n\n[36] P. M. Biesheuvel, Two-ﬂuid model for the simultaneous ﬂow of colloids and ﬂuids in porous media., Journal of Colloid and Interface Science 355 (2011) 389–95.\n\n[37] A. E. Yaroshchuk, Transport properties of long straight nano-channels in electrolyte solutions: A systematic approach, Advances in Colloid and Interface Science 168 (2011) 278–291.\n\n[38] A. A. Sonin in: E. S´el´egny, Charged Gels and Membranes I, D. Reidel Publishing Company, 1976.\n\n[39] E. Spruijt, P. M. Biesheuvel, Sedimentation dynamics and equilibrium proﬁles in multicomponent mixtures of colloidal particles, Journal of Physics: Condensed Matter 26 (2014) 075101.\n\n[40] R. Schl¨ogl, Stoﬀtransport durch Membranen, Dr. Dietrich SteinkopﬀVerlag.\n\n[41] F. G. Helﬀerich, Ion Exchange, Mc Graw-Hill, London, 1962.\n\n[42] K. Kontturi, L. Murtom¨aki, J. A. Manzanares, Ionic Transport Processes: In Electrochemistry and Membrane Science, OUP Oxford, 2008.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        23
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[43] J. Veerman, R. M. de Jong, M. Saakes, S. J. Metz, G. J. Harmsen, Reverse electrodialysis: Comparison of six commercial membrane pairs on the thermodynamic eﬃciency and power density, Journal of Membrane Science 343 (2009) 7–15.\n\n[44] E. G¨uler, R. Elizen, D. A. Vermaas, M. Saakes, K. Nijmeijer, Performance-determining membrane properties in reverse electrodialysis, Journal of membrane Science 446 (2013) 266–276.\n\n[45] J. Catalano, H. V. M. Hamelers, A. Bentien, P. M. Biesheuvel, Revisiting Morrison and Osterle 1965: the eﬃciency of membrane-based electrokinetic energy conversion, Journal of Physics: Condensed Matter 28 (2016) 324001.\n\n[46] C.-O. Danielsson, A. Dahlkild, A. Velin, M. Behm, A model for the enhanced water dissociation on monopolar membranes, Electrochimica Acta 54 [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] (2009) 2983 – 2991.\n\n[47] T. Xu, Ion exchange membranes: State of their development and perspective, Journal of Membrane Science 263 (2005) 1–29.\n\n[48] M. Tedesco, C. Scalici, D. Vaccari, A. Cipollina, A. Tamburini, G. Micale, Performance of the ﬁrst Reverse Electrodialysis pilot plant for power production from saline waters and concentrated brines, Journal of Membrane Science 500 (2016) 33–45.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        23,
+        24
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[49] R. S. Kingsbury, K. Chu, O. Coronell, Energy storage by reversible electrodialysis: The concentration battery, Journal of Membrane Science 495 (2015) 502–516.\n\n[50] J. W. van Egmond, M. Saakes, S. Porada, T. Meuwissen, C. J. N. Buisman, H. V. M. Hamelers, The concentration gradient ﬂow battery as electricity storage system: Technology potential and energy dissipation, Journal of Power Sources 325 (2016) 129–139.\n\n[51] A. H. Galama, M. Saakes, H. Bruning, H. H. M. Rijnaarts, J. W. Post, Seawater predesalination with electrodialysis, Desalination 342 (2014) 61–69.",
+    "citation": {
+      "authors": [
+        "Tedesco M.",
+        "Hamelers V.M.",
+        "Biesheuvel P.M.",
+        "Membrane J.",
+        "Following D.",
+        "Biesheuvel M."
+      ],
+      "paper_id": "1610.02833v2",
+      "title": "Nernst-Planck transport theory for (reverse) electrodialysis:",
+      "year": "2017",
+      "section": "unknown",
+      "pages": [
+        24
+      ]
+    },
+    "type": "chunk"
+  }
+]

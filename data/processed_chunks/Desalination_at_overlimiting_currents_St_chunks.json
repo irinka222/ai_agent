@@ -1,0 +1,1014 @@
+[
+  {
+    "content": "Desalination at overlimiting currents: State-of-the-art and perspectives\nVictor V. Nikonenko a, Anna V. Kovalenko a, Mahamet K. Urtenov a, Natalia D. Pismenskaya a, Jongyoon Han b, Philippe Sistat c, Gérald Pourcelly c,*\na Membrane Institute, Kuban State University, 149 Stavropolskaya str., 350040 Krasnodar, Russia\nb Department of Electrical Engineering and Computer Science, Massachusetts Institute of Technology, Cambridge, MA 02139, USA\nc Institut Européen des Membranes, Université Montpellier II - ENSCM, UMR 5635, CC 047, Place Eugène Bataillon, 34095 Montpellier Cédex 5, France\n\nHIGHLIGHTS\n• Overlimiting current electrodialysis possibilities\n• Understanding of the origin of electroconvection\n• How current-induced convection enhances mass transfer\n• Water splitting and its effects on electroconvection\n• A way to enhance water desalination process",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Abstract\nFor about 60 years, it is known that \"limiting current\" density does not really limit the current density in electrodialysis (ED). The use of intensive currents allows one to decrease the area of expensive ion-exchange membranes, hence to obtain more compact ED plants with lower investment costs. However, in practice overlimiting currents are applied solely in electrodeionization, and not in conventional ED devices. In literature (H. Strathmann [1]), overlimiting current density operation ED is considered as being under ongoing research and development. Where is the research today? What is the actual understanding of overlimiting mass transfer processes in membrane systems? As far as electroconvection is involved as a major mechanism of overlimiting transfer, what could bring specific knowledge and practice acquired in nano- and microfluidics into desalination? Can overlimiting ED be economically advantageous? Is there an alternative for classical ED devices applied? This review is intended to give some responses to these questions.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction\nWhile electrodialysis (ED) has been used industrially since the 50s of the last century [2] and considered as a mature process [1], there are a number of outstanding issues. Despite long-term development, ion-exchange membranes (IEMs) still have insufficient permselectivity, especially in concentrated solutions: too high resistance, particularly in solutions containing biomolecules/large organic anions; too high water splitting at anion-exchange membranes. Moreover, IEMs, especially anion-exchange ones, are not stable in food industry applications (dairy, wine, separation of amino acids, etc.). The membranes suffer from scaling and fouling during ED. The cost of IEMs is generally high, and there are no low-cost and quality bipolar membranes, no membranes for high temperature ED.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "It is sufficiently clear that ED operation with intensive current reduces the area of IEMs, hence, the investment costs of desalination. Less evident are other possibilities, which can be eventually realized when applying overlimiting currents. In particular, it can be imagined to help the control of water splitting as well as scaling/fouling by electrokinetic phenomena. Special design of membrane devices and the use of specific knowledge and practice acquired in nano- and microfluidics could revolutionize the practice of desalination. In this review, we will consider the fundamentals of concentration polarization phenomenon and the state-of-the-art in the field. Together with modern understanding of overlimiting transfer mechanisms, some special devices from microfluidics will also be reviewed. We will discuss as well some operational efficiencies as dependent on the current density and show that not all the characteristics of ED are improved with increasing current.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Concentration polarization of ion-exchange membranes. Brief theoretical aspects\nSchematically, a conventional ED elementary cell pair is shown in Fig. 1. It includes an anion-exchange membrane (AEM), a cation-exchange membrane (CEM) and solutions flowing between them. When an electric current passes through an ion-selective membrane separating two electrolyte solutions, salt concentration decreases at one membrane side and increases at the other due to selective transport of counterions in the membrane.\nGenerally, ion transport in solution or membrane is described by the extended Nernst–Planck equation with a convective term: J_i = -D_i ∇c_i + z_i c_i (F/RT) ∇φ + c_i V, where J_i, D_i, z_i and c_i are the flux density, diffusion coefficient, charge number and concentration of ionic species i, respectively; φ is the electric potential, V the fluid velocity vector; F, R and T have their usual meanings.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The current density, i, is the sum of flux densities of all ionic species taking into account their charges: i = F Σ_i z_i J_i.\nAn initial understanding of concentration polarization may be obtained on the basis of the local electroneutrality (LEN) assumption, according to which the total space charge in the solution or in the membrane is zero: Σ_i z_i c_i = 0. When the membrane is considered, the contribution of fixed ions is also taken into account.\nSubstituting the flux densities expressed by Eq. (1) into Eq. (2) and applying Eq. (3) allows one to present the electric field strength E = -∇φ as E = (RT/F) [ (i/(F Σ z_i^2 D_i c_i)) + (Σ z_i D_i ∇c_i)/(Σ z_i^2 D_i c_i) ].",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "After substituting Eq. (4) into Eq. (1), in the case where only salt ions are present, we find J_i in the form: J_i = -D ∇c_i + (i t_i)/(z_i F) + c_i V, where D and t_i are the electrolyte diffusion coefficient and the ionic (migrational) transport number of ion i. D and t_i are expressed through the individual diffusion coefficients D_i and local concentrations c_i. In the case of a 1:1 electrolyte solution (z1 = -z2 = 1), D = 2D1D2/(D1+D2), t_i = D_i/(D1+D2), where subscript \"1\" refers to the counterion, and \"2\" to the co-ion.\nConsider the normal to the membrane surface component of J_i near the interface (x=δ in Fig. 1b). Usually the convective contribution of the flux through the interface, (D_i V_x)_{x=δ}, is negligible. Then J_{ix}|_{x=δ} = -D ∂c_i/∂x|_{x=δ} + (i_x t_i)/(z_i F).",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "At the membrane surface, under condition that no chemical reaction with participation of salt ions occur, the normal component flux density is continuous. The main role of a membrane in a separation process is to provide selective transport of certain kind of species (permselectivity). In electromembrane processes, the measure of membrane permselectivity toward ion \"i\" is the ion transport number t_i^{mb} in the membrane. According to its definition, t_i^{mb} = (z_i F J_i^{mb})/i (with ∇c_i = 0, V_x = 0). It is the fraction of current carried across the membrane by ions \"i\" in conditions where no concentration gradient and (electroosmotic) fluid flow occur there. Note that the same definition is applied to the transport number in solution.\nIt is convenient to present the flux density through the membrane (more precisely, through its interface) in the following form: J_i^{mb} = (i T_i)/(z_i F), where T_i is called integral or effective transport number; it is the fraction of electric current transported through a considered section by ion i.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "No restriction on the concentration gradient or convective flux is imposed. T_i is a function of membrane properties and depends on different contributions into the transfer: migration, diffusion, convection. In principle, T_i may be any number, but the sum of T_i for all ionic species must be equal to 1. Normally, commercial membranes are high permselective to counterions, in the membrane t_2 ≪ t_1 ≈ 1. The electrolyte diffusion coefficient in ion-exchange membranes is 10 to 10^3 times lower than that in solution, hence, the diffusion contribution to the counterion transfer is low, and the migration is the main term in Eq. (5) written for a membrane; so that T_1 is usually only a few percent lower than 1, while the counterion transport number in solution, t_1, is close to 0.5.\nThe variation of c_i with time in solution or in membrane in the absence of chemical reactions is linked to the variation of flux density in space by the balance equation: ∂c_i/∂t = -∇·J_i.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The material balance at the membrane/solution interface is expressed through the equality of incoming and outgoing ion flux densities. For the left membrane interface it reads: (J_{ix})_{x=δ} = J_i^{mb}. Substituting Eqs. (6) and (8) into the latter expression gives: -D ∂c_i/∂x|_{x=δ} + (i t_i)/(z_i F) = (i T_i)/(z_i F).\nConsider the case where an electric current is applied to a system, initially at equilibrium, which is composed of a cation-exchange membrane and two identical single electrolyte solutions separated by the membrane. The flux density of the cation (the counterion in this case) from the bulk solution towards the left interface, Eq. (5), will be lower than its flux density from the interface towards the membrane bulk, Eq. (8), as the diffusion term in solution is initially zero and t_1 < T_1. As a result, the electrolyte concentration at the left interface will decrease while that at the right interface will increase with time.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The flux density varies within the solution boundary layer from i t_1/z_1 F at its left edge, bordering the bulk solution, to i T_1/z_1 F at the membrane interface. The variation in the flux density produces a variation in concentration with time according to Eq. (9). The emergence of concentration gradients at membrane/solution interface under effect of external driving forces is called, following the IUPAC Recommendations, \"concentration polarization\". This term is used in electro- as well as in the pressure driven membrane processes. In all cases, the reason of concentration polarization is that the membrane has the ability to transport some species more readily than the other(s): the retained species are concentrated at the interface while the concentration of transported species decreases.\nNote that in electrochemistry, this term denotes the part of the polarization of an electrolytic cell resulting from changes in the electrolyte concentration due to the passage of current through the solution.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Here polarization is understood as the shift of the potential difference across the cell from its equilibrium value. When the term is used in this sense, it is equivalent to the other commonly used term of so-called \"concentration overpotential\".\nIf the current density is not too high, a steady state is established after a certain time of current flowing: the convection and the diffusion contributions into the ionic flux in the solution compensate for the difference in the ionic migration fluxes in the solution and the membrane. At the one side of the membrane electrolyte concentration decreases, and increases at the other side. However, the increment in electrical resistance caused by the concentration decrease is generally higher than its decrement caused by the concentration increase. Hence, the resistance of the membrane system increases and this increase is greater, the higher the current. Thus, we see that, on the one hand, concentration polarization results in solution desalination and concentration during ED, and on the other hand, this phenomenon leads to higher energy consumption and to rate limitation of the process.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Very often in the description of ion transfer in membrane systems, the notion of diffusion boundary layer is used. To obtain its definition, let us find the normal concentration gradient at the interface by using Eq. (10): ∂c/∂x|_{x=δ} = (c_s - c_0)/δ = - i/(FD(T_1 - t_1)). Here δ is the (Nernst) diffusion boundary layer thickness. It may be understood as the distance from the membrane to the cross point of the tangents drown to the concentration profile at the interface and in the bulk solution (Fig. 1a); c = z_+c_+ = z_-c_- is the electrolyte concentration in equiv./mol.; c_s and c_0 are the electrolyte concentration at the surface and in the solution bulk, respectively. Note that Eq. (11) does not require the fluid flow velocity to be zero everywhere; it is sufficient that only the normal component be zero at the interface, as it was mentioned when obtaining Eq. (6).",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Eq. (11) shows that the concentration gradient at the interface increases and c_s decreases with increasing current density. When c_s reaches zero (more strictly, c_s becomes negligible in comparison to c_0), the current density reaches its highest value, the limiting current density, i_lim: i_lim = (D c_0 F)/(δ (T_1 - t_1)). Eq. (12) was first obtained by Peers in 1956.\n\n3. Mechanisms of overlimiting current\nAs we can see in the previous section, according to the classical electrochemical interpretation, concentration polarization phenomenon results in saturation of the current density caused by the vanishing interface concentration. When i tends to its limiting value (i_lim), the potential drop (electrical resistance) over a membrane surrounded by two diffusion boundary layers tends to infinity. However, in experiment there was no saturation of the current density. The first explanation done to the overlimiting current involved the contribution to charge transfer of new current carriers, H+ and OH- ions generated at the depleted membrane surface in the water splitting reaction.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The emergence of these ions was detected by the change in pH of solutions surrounding the membrane. However, as early as in 1957 Frilette has experimentally shown that not only the total current, but also the salt counterion (Na+) current across a cation-exchange membrane is not saturated as well. He has found that only about 5% of current increase over i_lim can be due to the current transfer by protons generated in water splitting reaction. His explanation, perhaps, for the first time, has addressed to streaming phenomenon, which could enhance mass transfer and result in a decrease of the diffusion boundary layer thickness.\nStarting from this paper by Peers and Frilette, a quite diverse discussion on the mechanisms (Fig. 2) of the overlimiting conductance occurred for decades.\nWhile the role of additional charge transfer by H+ and OH- ions, the products of water splitting reaction at the depleted interface, was sufficiently clear, another effect related to water splitting and known as the Kharkats effect of migration current exaltation, is less evident.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Eq. (12) assumes that the local electroneutrality condition holds and there are no other charge carriers in the solution except salt anion and cation. If H+ or OH- ions are generated at the depleted membrane surface in the water splitting reaction, Eq. (12) is transformed into the following one: i_{1lim} = (2D_1 c_0 F)/δ + (D_w i_w)/D_1, where D_w and i_w are the diffusion coefficient and the current density of the water splitting product, the OH- ion in the case of cation-exchange membrane.\nEq. (13) shows that there is an increase in the salt counterion current density across the membrane caused by generation of H+ and OH- ions. The reason is in the fact that these ions affect the electric field near the membrane that results in an increase in the counterion migration current. Namely, in the case of a cation-exchange membrane, the OH- ions emerging at the depleted interface and, being co-ions, attract positively charged salt cations from the solution bulk towards the interface.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Kharkatz was the first who studied this effect in the case of membrane systems and called it \"migration current exaltation\" as in the case of electrode systems where a similar phenomenon was known till 1936 due to Kemula and Michalski. Eq. (13) is deduced under the LEN assumption. However, the same form can be obtained, if the deviation of electroneutrality is taken into account. The difference is that instead of the total thickness, δ, of the Nernst diffusion layer, its effective thickness, δ', must be present (the quantities δ and δ', as well as the thickness of the electroneutral part, δ1, are shown in Fig. 1b).\nNote that the salt counterion current may be \"exalted\" not exclusively by the co-ions produced in water splitting. Any co-ions emerging at the depleted interface produce similar effect. It may be salt co-ions, which leak through a membrane from the side of concentrating solution (back diffusion and migration across the membrane).",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "An equation similar to Eq. (13) can be obtained. For a symmetric electrolyte the \"exaltation\" current density (the increment of the counterion current, which is due to the exaltation effect) is expressed as (D_1/D_2) i_2.\nThe increase of the salt counterions transfer through the membrane due to the Kharkats effect is rather small. It can be seen from Eq. (13) that when the H+/OH- ions current is the same as the limiting current, the salt counterion current increment over i_lim is only about 20% because the D_1/D_w ratio is close to 0.2: the mobility of H+ and OH- ions is 5 to 10 times higher than the mobility of salt ions.\nCurrent-induced convection (coupled with current flowing) is a more powerful mechanism allowing an essential increase in salt counterion transfer. There are two types of coupled convection, the gravitational one and electroconvection.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Gravitational convection is caused by a non-uniform distribution of solution density, which is due to a concentration gradient (concentration polarization) or/and to a temperature gradient. The latter is due to Joule heating and thermal effects of reaction (heat absorption in water splitting and heat generation in the recombination reaction).\nElectroconvection generally occurs as current-induced volume transport when an electric field is imposed through the charged solution.\nIn order to provide experimental evidence for the dominant type of current-induced convection relevant to overlimiting current regime of ED, a possible way is to eliminate one of them. Rubinstein et al. have realized this by changing the orientation of a polarization membrane cell in the Earth's gravitational field. When the membrane was mounted vertically, both electroconvection and gravitational convection could contribute. However, when the membrane was positioned horizontally so that the lighter depleted solution layer was below the membrane bottom surface, gravitational convection was suppressed.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "They have found that in the case of a 0.01 N CuSO4 solution and a small (<1 mm) distance between the membrane and a copper anode, overlimiting transfer did not depend of the orientation proving that gravitational convection did not contribute. Maletzki et al. have proved that the overlimiting current increase and oscillations in current/potential are due to current-induced electroconvection in the close vicinity of membrane surface. They cast a thin layer of an agarose-gel on a cation-exchange membrane. Thus, extended space charge region of electrolyte was immobilized within this gel layer. The authors have shown that the immobilization of the SCR led to a noiseless I–V curve without oscillations and a true current saturation implying no overlimiting current. As well as Rubinstein et al. did, they mounted the polarization cell in a horizontal position where the gravitational convection was suppressed.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "While in experiments [20,22] the total current was measured, in similar experiments carried out by Zabolotsky et al. [32,46], partial currents were determined. Namely, the currents carried by Na+ across a cation-exchange MK-40 membrane and Cl- across an anion-exchange MA-40 membrane, as well as the currents of H+ and OH- ions generated in water splitting reactions were experimentally found. The authors [46] were the first who have experimentally splitted the overlimiting current into the currents due to (i) water splitting (the current transferred by H+/OH- ions and the Kharkatz exaltation current), (ii) gravitational convection and (iii) electroconvection. They have shown the dominant role of electroconvection in narrow ED channels (h≈1 mm) when operating dilute solutions. In [46] and in later papers [32,38], it was found that electroconvection was dominant in such channels at low concentrations (<0.02 M) and elevated flow rates (>0.1 cm s^-1): orientation of the cell in the Earth's gravitational field had no effect on partial I–V curves.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "However, at higher concentrations (> about 0.1 M), where density gradients get sufficiently strong, and in rather wide channels (about 5 mm), the contribution of gravitational convection was found important: the \"limiting\" plateau of the I–V curve rose and the salt counterion current became about 1.5 times higher when the membrane changed its position from the horizontal to the vertical one [38].\nLater on similar [28,35] and direct [39,40,48–50] experimental observations as well as theoretical evidences [21,40,41,51] confirmed the dominant role of electroconvection in salt counterion overlimiting transfer in dilute solutions. Vortices, which appear under the action of electric field on the space charge, can increase the useful transfer of salt counterions in several times by mixing depleted solution [26,32,38–40].\nWe have mentioned above the effect of increasing overlimiting transfer due to co-ion leakage through the membrane: the co-ions not only carry electric charge themselves, but also \"exalt\" the transport of counterions in diffusion boundary layer.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Recently, Andersen et al. [43] have shown that co-ion leakage can be coupled with water splitting. If an anion-exchange membrane has weakly basic functional groups, OH- ions generated at high currents at the depleted membrane interface may deprotonate the charged (protonated) form of these groups, which results in membrane discharge. (Actually, the effect was named CIMD: Current-induced membrane discharge.) A decrease in the effective exchange capacity of the membrane results in an increase of the membrane permeability towards salt co-ions entering from the side of concentrated solution. The appearance of current carried partially by salt co-ions and water ions leads to increasing total current, but reduces current efficiency in electrodialysis.\nActually, in most ED applications, the use of underlimiting currents is prescribed [4]. However, now the overlimiting current regimes are more and more frequently used in ED, especially in electrodeionization of dilute electrolyte solutions [1,28,52–56].",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The above-described effects are proper not only to ion-exchange membranes used in ED, but also to microchannel–nanochannel systems [42,57–59]. In such systems, a nanochannel with charged walls plays the role of a charged pore in an IEM. A microchannel acts as a channel formed by two IEMs in an ED cell pair. The liquid flow in such systems and related processes occurring on the nanometer and micrometer scales are studied by nanofluidics and microfluidics, respectively. While the terms have appeared rather recently, this type of studies have implicitly been carried out for decades in chemistry, physics, biology, materials science, and many areas of engineering [59]. Among the applications of such systems, there are electrokinetic micropumps [60–63], electrophoresis [64–67], preconcentration of molecules, biomolecule preparation and analysis systems [68–72] and other modes of molecular manipulation [59,73].",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The similarity of phenomena occurring in electromembrane and micro/nanofluidic systems [41,74] allows the use of microfluidic approach in development of novel devices for water desalination [75–77] considered in Section 6. In addition, these micro-nanofluidic systems provide a microscale model for studying complicated and coupled ion and fluid transport phenomena relevant to various membrane processes, including ED and other electrical desalination techniques.\n\n4. Actual understanding of electroconvection\nAs we have mentioned above, electroconvection plays the most important role in enhancement of mass transfer at overlimiting current regimes. Hence, we will focus more on this phenomenon.\n\n4.1. Electroconvection at the curved and flat ion conducting surfaces. Dukhin–Mishchuk and Rubinstein–Zaltzman electroconvection modes\nThe background of the understanding of electroconvection was founded by the pioneering paper by Rubinstein and Shtilman [19], where they obtained a solution for the Nernst–Planck (NP) equations coupled with the Poisson (P) equation, which was used instead of \"classical\" LEN condition.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Earlier, this set of equations was considered only at the current densities not exceeding i_lim [78–81]. It was believed that the PNP equations had no solution at i > i_lim, because the salt concentration at the membrane (or electrode) surface should become negative.\nRubinstein and Shtilman [19] for the first time have shown that when i → i_lim, the counterion concentration at the membrane surface, c_{1s}, does not tend to zero that occurs when applying the LEN condition. Instead, an extended space charge region (SCR) much larger than the equilibrium electric double layer appears. The co-ion concentration exponentially tends to zero when approaching the membrane surface (Fig. 1b). When i > i_lim, c_{1s} only slightly decreases in comparison with the value related to i_lim, while the extended SCR strongly increases and reduces the electroneutral diffusion boundary layer, which still controls the current transfer. However, the decrease in effective diffusion boundary layer thickness, δ' (Fig. 1b), due to the extension of the SCR is too small to explain the experimentally observed growth in the overlimiting current density.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "To fit experimental I–V curves, δ entering into the boundary-value problem as a fitting parameter, must be adjusted as a function of i. Since in experiment, i continues to increase after reaching i_lim, one has to assume, according to Eq. (12), that δ progressively decreases with i and this decrease should be much faster [34,38] than predicted by the model [19].\nTo explain this discrepancy, the problem has to be considered in 2D geometry while taking into account convective transport, which was not considered in the 1D model of Rubinstein and Shtilman [19].\nIn fact, 2D modeling undertaken by Dukhin and Mishchuk [82], and Rubinstein et al. [20] has explained the overlimiting current by electroconvection. To produce electroconvective mixing of depleted solution resulting in essential increase of current above i_lim, two conditions should to be fulfilled: (i) an extended SCR should be formed, far beyond the equilibrium electric double layer, and (ii) the distribution of electric field lines should be inhomogeneous to give rise to a spatially inhomogeneous electric bulk force.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Dukhin and Mishchuk [82] considered an ion-exchange resin particle with a curved surface. According to their interpretation [24–26,82,83], the electric field should contain two components (Fig. 3). The normal one should create an extended SCR as a result of strong concentration polarization. The tangential one should bring in motion the charged fluid, resulting in electroconvective mixing.\nIn the case of heterogeneous membrane, the situation is similar: the normal electric field forms an extended SCR, while the tangential field appeared due to the funnel effect [84] (Fig. 4) acts as driving force on the fluid.\nTo emphasize the difference between the classical electroosmosis and the electroconvection, which causes the ion transport in overlimiting current regime, Dukhin and Mishchuk have introduced the term \"electroosmosis of the second kind\" [24,25]. The latter is produced by the action of an external electric field on the extended non-equilibrium SCR, which is formed by the same electric field.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The classical electroosmosis (of the first kind) is the result of the action of an external electric field on the equilibrium electric double layer, which exits even in the absence of the external electric field.\nLater on, also nearly at the same time, Dukhin and Mishchuk [85,86], and Rubinstein [87] have found analytical approximate solutions for the Navier–Stokes equations coupled to the Nernst–Planck–Poisson (PNP/NS) equation in heterogeneous ion-conducting systems: in a solution bathing a spherical ion-exchange particle [85] and in a solution contacting a heterogeneous ion-exchange membrane [86,87].\nWhile the mechanism of electroconvection enhancing the ion transport in overlimiting regime at a curved or electrically heterogeneous permselective interface was more or less clear, the situation in the case of flat homogeneous membranes was rather vague. Indeed, even if the normal electric field can form an extended SCR, there is no tangential component, which could drug the fluid along the surface.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The normal field can produce a body force applied to the charged liquid near the surface, but if the force is distributed uniformly over the surface, it is compensated by a pressure gradient. In 2000, Rubinstein and Zaltzman [21] developed a model for describing mass transfer in a solution situated between two homogeneous ion-exchange membranes without externally driven lateral convection. They found a numerical solution for NP/NS equations under the LEN assumption in the diffusion layer. At the outer boundary with the bulk solution, a fixed electrolyte concentration and zero fluid velocity were set. At the inner boundary with a non-equilibrium SCR adjacent the membrane surface, a slip condition specific for electroosmosis of the second kind was set. The solution has shown that surface heterogeneity is not the necessary condition for rising electroconvection. A characteristic feature of this system is its hydrodynamic instability at sufficiently high voltages. A fluctuation in velocity or concentration leads to emergence of a spatially inhomogeneous electric field resulting in occurrence of vortices (Fig. 5), which, in turn, contribute to electric field inhomogeneity.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The model [21] has revealed several thresholds in voltage, which separate different phases in the development of hydrodynamic unstability. The first threshold value U* of the voltage corresponds to the transition from stability to unstability. If the system is in quiescent state (the solution velocity is zero everywhere) and U < U*, a small perturbation of solution velocity/concentration results in diffusional damping and the system returns into the quiescent state. If U > U*, any fluctuation is sufficient for initiating the process of vortices generation. However, when U only slightly exceeds U* remaining less than the second threshold U_cr (U* < U < U_cr), paired vortices, which emerge near the membrane surface, become steady-state after oscillatory readjustment in the size and shape. This process manifests itself in decaying oscillations of the electric current through the interface (Fig. 6a).",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Above U_cr steady-state vortices become unstable. In a narrow voltage range, approximately at U_cr < U < U_cr + 0.1, the system approaches the state of small amplitude periodic oscillations (Fig. 6b). Above this range, the oscillations become chaotic (Fig. 6c).\nThe existence of all three regimes of overlimiting membrane behavior was confirmed experimentally by Belova et al. [33].\nThe approaches, similar to that used by Rubinstein and Zaltzman [21], were applied by Dydek et al. [88] and by Green and Yossifon [89] to describe electroconvective transport in microchannels. They used the slip condition at the inner boundary with SCR in the form of the Helmholtz–Smoluchowski formula. A model involving the PNP and NS equations where the counterion concentration was set at the permselective membrane surface like in the Rubinstein 1D model [19] and the flux of co-ion was set there zero was considered in papers by Demekhin et al. [90,91], Pham et al. [51] and Druzgalski et al. [92].",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The no-slip condition was used on the membrane surface. In contrast to previous papers [88,89], the numerical solution was found via direct numerical simulation without a priori separation of the solution into electroneutral and charged regions. To mimic microscale heterogeneity of the membrane surface, Pham et al. [51] modeled the membrane by a series of wavy cation-selective surfaces. In particular, they have shown that an increase in the wave amplitude of the membrane surface led to an earlier onset of the instability, and so the overlimiting current regime. This result is consistent with the conclusions of Rubinstein and Zaltzman [21] and Balster et al. [28] on the influence of membrane surface heterogeneity on the length of the plateau on the I–V curve. Druzgalski et al. [92] used some of the concepts from turbulence theory such as Reynolds-averaging, which allowed them to see how the electrohydrodynamics becomes chaotic.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Note that in papers [21,88–90] as well as in some other theoretical papers treating membrane or micro-nanofluidic systems at overlimiting currents [76,93–95], the cells under study involve no forced convection that does not conform to the practice of ED.\nTo summarize the abovewritten on the overlimiting electroconvective transport, note that in the systems with curved or electrically heterogeneous surface, tangential electric field produces a stable electroosmotic flow of the second kind, no instability is needed in this case, as it was shown by Dukhin and Mishchuk [24–26,82,85,86]. In the case of homogeneous membrane, in the absence of forced flow, electroconvection arises as a result of hydrodynamic instability, according to Rubinstein and Zaltzman [21]. These two modes of electroconvection (Fig. 2) are recognized in literature [41,89] and sometimes are shortly called as Dukhin's and Rubinstein's electrokinetic modes [96].",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.2. Electroconvection in ED channels with forced convection\nIn 2D models developed in Refs. [32,97] the forced convection was taken into account together with electroconvection. However, the coupling between the Navier–Stokes and the Nernst–Planck equations was realized only partially. The value of the electric body force used in the NS equation was approximately calculated by using Rubinstein's 1D model [19] for a given i and an appropriate value of δ. The numerical solution of the NS equations with body force allowed the authors to compute the structure of electroconvective vortices. The same approach was applied by Zabolotskii et al. [98] to heterogeneous membranes, for which the size of conducting and nonconducting surface segments were carefully evaluated.\nThe role of forced convection (occurring as Hagen–Poiseuille shear flow) in the development of electroconvection in an ED channel formed by an anion- and a cation-exchange membranes in more comprehensive ways was recently studied theoretically and experimentally in [39,40,99,100].",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The fully coupled Navier–Stokes and Nernst–Planck–Poisson equations with appropriate boundary conditions were solved numerically by Kwak et al. [40] and by Urtenov et al. [99,100]. As the model relies on established laws and involves no adjustable parameters or empirical assumptions, it is named \"basic\" [100]. The numerical solutions are found without a priori separation of the entire solution into electroneutral and charged regions. There are several important features, which distinguish the behaviors of membrane channels with and without forced convection (Fig. 2).\nFirst of all, the modes of electroconvection are not the same.\nIn the case of a cell with forced flow, concentration distribution is not uniform in the longitudinal direction: the electrolyte concentration decreases while the diffusion layer thickness increases with the distance from the inlet (y). As a result, the solution resistance increases with y, and the current lines are denser near the inlet. There is a tangential component of the current/electric field and a tangential body force f_y = -F(c1-c2)∂φ/∂y both directed towards the inlet [100].",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This force produces steady-state electroconvective clockwise (when a cation-exchange membrane is considered) vortices. The tangential force is not zero even at quite small voltages related to underlimiting current density, hence, electroconvection arises without a threshold. In this case, it can be attributed to electroosmosis of the first kind, according to Dukhin and Mishchuk [24,25]. However, as the body force is located at quite small distance from the membrane, where the viscous forces are important due to the no-slip condition, the contribution of electroconvection into the enhancement of current becomes noticeable only at voltages corresponding to i > i_lim. An extended SCR is formed at a distance much higher than the equilibrium electric double layer and the role of viscous forces gets less important. Thus, the main contribution to the enhancement of overlimiting mass transfer is due to electroosmosis of the second kind. This electroconvection mode is similar to the Dukhin–Mishchuk regime described above.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "However, it is a new electroconvection mode (Fig. 2). The difference is in the fact that in the case of forced convection the tangential electric force responsible for electroconvection appears at a homogeneous flat membrane due to nonuniformity in the lateral concentration distribution; membrane surface nonflatness or electric heterogeneity are not really necessary in contrast to \"classical\" formulation by Dukhin and Mishchuk [24–26].\nComparison of experimental and calculated I–V curves is made in Ref. [100]. It can be seen that the initial linear parts of the curves are nearly the same when the calculation is made using the classical 2D convective diffusion model (firstly proposed by Probstein [47,101] and later developed by Gnusin et al. [102]), or applying the basic model [100]. Note that often this part of the I–V curve is called \"ohmic\", but it is not quite correct [33], since in addition to the ohmic drop caused by the solution and membrane bulks, there is the diffusion potential difference and the Donnan interface potential difference.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The both are proportional to (RT/F) ln(c_s^I / c_s^II), where c_s^I and c_s^II are the electrolyte concentrations in solution at the left-hand and at the right-hand membrane boundaries, respectively. As these concentrations are proportional to the ratio i/i_lim, and the logarithm is also proportional this ratio at small i/i_lim, the total potential difference is proportional to i. Hence, the initial part of I–V curve is linear although the total potential difference, Δφ_tot, involves not only the ohmic, but as well the interface and solution diffusion potential differences. The expression for Δφ_tot at small i/i_lim is deduced in Ref. [33].\nStable electroconvection occurs at relatively low voltages. This regime corresponds to the smooth region of the I–V plateau above the limiting current density i_lim. i_lim is proper to the classical 2D models based on the LEN assumption [101,102]. For a sufficiently short channel with length L < 0.02 V_0 h^2/D (where V_0 is the average flow velocity through the channel, h is the inter-membranes distance, D is the electrolyte diffusion coefficient), the following equations adapted [103] from the Lévêque approximate solution obtained for heat transfer by convection in the space between two plates [104] may be used:",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "i_{lim loc} = (F D c_{0in})/(h (T_1 - t_1)) [0.978 (h^2 V_0/(y D))^{1/3} - 0.2],\ni_{lim} = (F D c_{0in})/(h (T_1 - t_1)) [1.47 (h^2 V_0/(L D))^{1/3} - 0.2],\nfor the local current density (i_{lim loc}) and the average current density over length L (i_{lim}), i_{lim} = (1/L) ∫_0^L i_{lim loc}(y) dy, respectively.\nThe second term in brackets is small compared to the first one at small L, and it is often neglected. Combination of Eq. (15) where only the first term is taken into account with the Peers equation [Eq. (12)] gives the following formula for the average diffusion boundary layer thickness: δ_{Lev} ≈ 1.02 (L D h / V_0)^{1/3}.\nThe smooth sloping plateau on the I–V curve is followed by an oscillating region with a higher slope. These oscillations relate to the Rubinstein–Zaltzman unstable electrokinetic mode, which needs a certain voltage threshold about 1 V per cell pair.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "An interesting feature of channels with forced flow is that two electroconvection modes, the stable one, similar to Dukhin's, and the unstable Rubinstein's one can co-exist simultaneously: the stable one in the beginning part of the channel, and the unstable one, near the exit [100]. Additionally, there is another threshold opening the phase where unstable regime occurs over all surface of the membrane.\nAnother feature is that onset of electroconvection and its different phases are not the same at the cation-exchange membrane and the anion-exchange one, if the diffusion coefficients of cation and anion in solution are not the same. In the case of NaCl, the chloride is about 1.5 times more mobile that the sodium. Hence, the limiting current density at the CEM is about 1.5 times less than at the AEM, according to the Peers equation [Eq. (12)]. The scenario described above is realized first at the CEM, then at higher voltages at the AEM. When the voltage becomes sufficiently high, the vortices emerging at both membranes interact between them.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The balance of forced convection and electroconvection flows in an ED channel is recently studied by Kwak et al. [40]. They have observed experimentally and via mathematical simulation the deviation from the pair symmetry of electroconvective vortices and the tendency to formation of a unidirectional vortex structure (Fig. 2). Really, in the case of no forced convection, the steady-state vortices are paired and symmetric (Fig. 5) [21]. Sheared forced flow disturbs the symmetry. On the CEM, the clockwise rotating vortices become larger than the counterclockwise ones [100]; on the AEM, the counterclockwise rotating vortices are larger than the clockwise ones. In both cases, the forced (shear) flow is favorable to the vortices, the rotational velocity of which in the channel core matches the velocity direction of the forced flow; the vortices rotating in the opposite direction are partially suppressed. The latter are, however, needed to match two neighbor unirotational vortices between them.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Kwak et al. [30] have found that the ratio of the EC zone thickness (d_ec) (≈vortex diameter) to the distance between the membranes (h) is proportional to (Δφ_ec)^{2/3} V_0^{-1/3}, where Δφ_ec is the potential drop in the EC zone, and V_0 is the average forced flow velocity. The simulations made by Urtenov et al. [100] confirm this finding. It was found [100] that for an ED channel characterized by h = 1 mm, L = 2 mm, V_0 = 0.8 mm s^{-1}, the calculation according to the basic model gives d_ec/h = 0.0196 [(Δφ_ec)^{2/3} V_0^{-1/3}] - 0.1084, which is rather close to the experimental data by Kwak et al [30]: d_ec/h = 0.010 (Δφ_ec)^{2/3} V_0^{-1/3} - 0.171.\nAs an example of considered cases in simulations, the thickness of electroconvective zone was 70 μm and the potential drop over this zone was 0.78 V, while the overall potential drop per cell pair (not containing the ohmic drops within the bulk of both membranes) was equal to 1.8 V.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7 shows the concentration distribution and fluid flow visualized in experiment [40] (the first and second columns) and in simulation [40] (the third column) at six regimes according to the dimensionless thickness of electroconvective vortex zone on CEM, d_ec/h. As d_ec/h on CEM or (Δφ_ec)^{2/3} V_0^{-1/3} changes, the number of vortices also varies. Here, the Peclet numbers are high enough to suppress significant diffusion; in experiment, when V_0 = 0.83 mm/s, the Peclet number Pe_L = V_0 L / D_ions is 3320 (L = 4 mm, D_ions ~ 10^{-9} m^2/s and the expansion of diffusion boundary layer δ/h = L/(h √(Pe_L)) is only 0.069. In simulation, when V_0 = 2.4 mm/s and L = 0.1 mm, Pe_L and δ/h are 240 and 0.3, respectively.\n\n4.3. How current-induced convection enhances mass transfer\nThe increase in salt counterion transfer through an IEM over its \"limiting\" value in intensive current regimes is an important source of ED rate enhancement, which is especially important at low salt concentrations [12].",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "But what is the detailed mechanism of mass transfer enhancement by current-induced convection, in particular, electroconvection? This question has been under discussion for several decades up to now. Gavish and Lifson [18] have proposed an extension of the Nernst diffusion boundary layer model in order to take into account convective contribution of salt counterion flux towards the membrane. They assumed that this contribution occurred in a sublayer of thickness δ_conv within the diffusion boundary layer. As the main transport mechanism there is convection, there is no concentration gradient (Fig. 8). It is curious that in these conditions, the diffusion layer is no longer the boundary one [100]. With increasing current density, the current-induced convection grows leading to increasing δ_conv at the cost of the effective thickness of diffusion layer, δ' (Fig. 8), where diffusion and electromigration remain the chief mechanisms of ion transfer. Thus increasing i results in decreasing δ' that explains growing counterion current density via the growing i_lim, according to the Peers equation [Eq. (12)] where δ is replaced by δ'.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Note that the value of δ' as a function of i was found for some experimental conditions by treating partial I–V curve using a 1D model involving the Nernst–Planck and Poisson equations [34].\nThe explanation of Gavish and Lifson [18] is based on the idea that the cause of solution mixture near the membrane surface is gravitational convection. The transition from laminar to turbulent regime due to this current-induced convection explains the overlimiting current. However, the evaluations of the Grashoff and Rayleigh numbers made by Rubinstein et al. [20,105] and by other authors [32,35] as well as experimental data [20,22,46] have shown that gravitational convection can lead to a noticeable contribution to mass transfer only at relatively high (>0.05 M [38]) concentrations, if the intermembrane spacing is rather large (>6 mm [38]) and the flow velocity small (<0.4 cm s^{-1} [38]).\nThe role of electroconvective vortices in mass transfer was discussed in [39,48,49,88,106]. Generally, similar to [18] explanation of the mechanism of mass transfer enhancement is given in these works, but with a different opinion to the role of electroconvection.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The main idea is that the current-induced convective mixes the fluid near the depleted membrane surface, decreasing the role of diffusion contribution. Concentration profile becomes more flat, the thickness of the boundary depletion zone increases with increasing voltage. However, in dilute solutions and narrow channels proper to microfluidic devices and ED stacks, the main mechanism of mixing is determined as electroconvection and not gravitational convection. Due to mass conservation and intertie of fluid, the electric body force localized within the space charge region produces a macroscopic vortex, which is essentially larger than the SCR [39,49]. The vortex generation and expansion of the zone where the concentration is lower than in the bulk (depletion zone) near AEM and CEM were observed in Refs. [36,37,39,49,100]. Actually, it is possible to distinguish between 'classical' concentration polarization with linear concentration profile occurring in the region often called as diffusion boundary layer, and the overlimiting concentration polarization where 'depletion zone' is showing a low, flat concentration profile, quite different from linear drop of concentration (Fig. 1a).",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This distinction is important in many applications, such as Ion Concentration Polarization (ICP) desalination (Section 6). Fig. 9a and b show experimental and calculated, respectively, concentration profiles at underlimiting and overlimiting current densities.\nThe simulation of variation of concentration profiles shows that in voltage range corresponding to the smooth sloping plateau on the I–V curve, the concentration profile is stable and its variation with increasing voltage is nearly not detectable [100] (Video 1). Electroconvection is stable and its contribution is relatively low. After passing a certain voltage threshold, electroconvection mode is changed for the Rubinstein–Zaltzman one characterized by oscillations of the concentration profile (Video 1, Fig. 9) and that of the I–V curve. Note that as far as we know the first who observed the oscillation of potential difference due to electroconvection were Rösler et al. [107].\n\n4.4. Water splitting and its effect on electroconvection\nThe water splitting reaction as described by the resulting equation H2O ⇌ H+ + OH- is not likely to occur at ion-exchange membrane interface.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The forward (dissociation) rate constant in water is too small (k_f = 2.5·10^{-5} s^{-1}); it should be 5 orders of magnitude higher to produce the fluxes of H+ and OH- ions observed in experiment [17].\nTo explain the high rate of water splitting, Greben' et al. [108], and Simons [109], practically at the same time, have proposed that the H+ and OH- ions are generated in the course of protonation and deprotonation reactions involving the fixed ionogenic groups as catalytic centers and water. Different functional groups in ion-exchange membranes have different catalytic activity towards water dissociation; in particular, the activity of quaternary amino groups is much lower than that of tertiary or secondary ones. Moreover, the rate of water dissociation is enhanced by strong electric field, which attain >10^8 V m^{-1} [17] within the reaction zone (of the thickness of several nm) in the membrane/solution interface. More details on the catalytic mechanism and the role of the electric field at the interface may be found in original papers [17,108–117] and reviews [38,118,119].",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The proton-transfer reactions take place in a thin, about 2 nm of thickness, reaction layer of the membrane adjoining to the depleted solution. In the case of cation-exchange membrane, the protons produced in these reactions leave the reaction layer towards the membrane bulk, under the action of applied electric field, while the hydroxyl anions migrate into the adjacent depleted solution.\nThe calculation of the water splitting rate at membrane/solution interface or bipolar junction is a quite complicated problem. There are several models [111,114–116,119–123], however, a comprehensive solution taking into account both chemical reactions and the presence of space charge is not yet found.\nWater splitting essentially affects overlimiting transfer. We have mentioned above that the main effect is the participation of new charge carriers, H+ and OH- ions, in current transfer. Another effect is the Kharkatz one, which results in a slight increase of salt counterion transport over i_lim. The latter linearly depends on the water splitting rate according to Eq. (13).",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The third effect apparently for the first time observed by Belova et al. [29,124] is the partial suppression of electroconvection by the products of water splitting. Later on, this effect was studied in a number of other papers [35,44,125–127].\nBelova et al. [29,124] have compared the partial currents of Cl- ions across two anion-exchange membranes: a commercial MA-40 (produced by Shchekinoazot, Russia) and a modified MA-40M. The latter one was obtained from a MA-40 membrane by its treatment with a strong polyelectrolyte [128,129]. As a result, quaternary ammonium bases were grafted within the original membrane surface layer initially containing secondary and tertiary ammonium groups. Since the catalytic activity of the quaternary ammonium groups is essentially lower than that of the secondary and tertiary ones, water splitting rate was essentially lower in the case of MA-40M in comparison with MA-40, as expected. At the same time, the partial current density [29,124] and the mass transfer coefficient [126] of Cl- ions were noticeably higher for MA-40M.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The results were explained by the hypothesis that lower water splitting favors development of electroconvection, which enhances overlimiting mass transfer.\nZabolotskii et al. [127] studied the evolution of water splitting rate and the partial current of Cl- ions across two commercial anion-exchange membranes containing quaternary ammonium groups, a Ralex AMH (produced by MEGA, Czech Republic) and MA-41 (produced by Shchekinoazot, Russia). They have found that initially both membranes exhibited no water splitting (at least, the current density of OH- ions across each membrane was <0.1 mA cm^{-2} in 0.01 M NaCl, in a system with a membrane rotating disk at 100 rpm and 3 V of applied potential difference). However, as early as after 4 h of membrane operation at an overlimiting electric current, the rate of water splitting at the AMH increased to 1.5 mA cm^{-2}; after 8 h, it was about 2 mA cm^{-2}; and after 16 h, about 2.5 mA cm^{-2}. At the same time, the Cl- ion current density decreased: it was 18 mA cm^{-2} after 4 h of operation, 15 mA cm^{-2} after 8 h, and 13 mA cm^{-2} after 16 h of operation.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A similar behavior was observed for the MA-41 membrane. Thus, the increase in water splitting rate was in all cases accompanied by a decrease in the salt counterion transfer. To explain the increase in water splitting with the duration of operation, the authors [127] refer to the Hofmann elimination reaction [130] : quaternary ammonium groups decompose in a membrane surface layer under the attack of hydroxides produced in water splitting and elevated temperature. The latter is due to Joule heating in the depleted boundary layer of solution. This type of degradation of anion-exchange membranes under the action of electric current was first observed by Simons for an AMF A100 membrane [131] and then described by Choi and Moon [132] in the case of Neosepta AMX membrane, while the alkaline deterioration of this type of membrane was studied by a number of authors [133–136] anion and conditions of the concentrated alkaline solution.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Slouka et al. [44] have observed suppression of electroconvection by water splitting in a system containing an anion-exchange membrane, on the surface of which single-stranded DNA molecules were sorbed. The layer of DNA molecules bearing phosphate negative charges exhibited properties of a cation-exchange membrane. This layer together with the surface layer of AMX formed a bipolar junction capable to water splitting. With increasing DNA concentration, the rate of water splitting increased. At the same time, the intensity of electroconvection was decreased. The latter was found by direct visualization of vortices with rhodamine dye [44].\nAs for the causes of the effect of water splitting on the intensity of electroconvection, two are evoked in literature: the reduction of the space charge in the depleted solution [26,43,137], and the decrease in fluid volume involved in motion by electroosmosis [37]. Both effects are due to the fact that the sign of the charge of the water splitting products emerging in the space charge region of depleted solution is always opposite to the sign of the SCR charge.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Thus, OH- ions produced in water splitting at a CEM and entering the SCR of depleted solution not only reduce its space charge density, but also destroy the integrity of the volume formed by the salt counterions and water molecules connected in hydrogen bond network. Moreover, the Stokesian radius of H+(OH-) ions is quite small: these ions carry the charge by \"tunneling\" from one water molecule to another one without bringing liquid volume into motion. The latter effect was described by Choi et al. [138] who studied the overlimiting membrane behavior in different electrolyte solutions and found that electroconvection increased with the Stokesian radius. Note also that more intensive electroconvection in NaCl solutions usually observed at a CEM (in comparison with an AEM) is eventually due to two effects. First, the rate of water splitting is usually higher at the anion-exchange membrane; second, the Stokesian radius of Cl- is less than that of Na+ [139].\n\n5. Control of overlimiting transfer by tailoring membrane surface\n5.1. Elimination of water splitting\nGenerally, in ED desalination, water splitting is not a desirable effect: apart from the loss in current efficiency, there is a shift in pH increasing with approaching to the interface.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This effect may lead to precipitation of poorly soluble salts sensitive to pH (such as CaCO3). Moreover, as usually water splitting is more intensive at the anion-exchange membrane, the solution in diluate compartment gets more acidic, which impedes the removal of weak acids, such as the boric acid, from natural waters. Growing pH in the concentrate compartment increases the risk of precipitation of hardness salts. However, sometimes the controlled water splitting is a target effect. It is the case where together with desalination/concentration of a solution, it is necessary to shift its pH value. In these cases so-called asymmetric bipolar membranes [117,140] characterized by different thickness and exchange capacity of cation-exchange and anion-exchange layers are used. To combine ion transport and pH shift functions, one of the layers should be much thinner than the other [141,142].\nAs early as in 1979, Simons [143] has found that water splitting at anion exchange membranes containing quaternary ammonium groups and some amount of tertiary amino groups in the surface regions (produced in degradation of quaternary ammonium groups) may be eliminated by methylation.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Soaking of the AEMs preliminarily converted into the OH- form in a solution of methyl iodide eliminated tertiary amino groups. However, the effect of methylation was not stable and water splitting reappeared during current flow [143].\nAnion-exchange membranes chemically modified [124–129] in order to graft quaternary ammonium groups are much more stable in comparison with commercial membranes. A MA-40M membrane obtained according to the method described in [128,129] did not lost its ability to a very low water splitting rate during at least 300 h [125].\nThere is another way to suppress water splitting, via homogenization of the surface. Higher local concentration polarization near conducting areas of heterogeneous membranes (\"funneling effect\" [84]) produces higher water splitting. Volodina et al. [144] have shown it by comparing the rate of water splitting at a homogeneous anion-exchange AMX membrane and at a membrane obtained from the AMX by shielding of a part of its surface via spraying a nonconducting paint. Inversely, homogenization of the surface of heterogeneous membrane results in diminishing water splitting.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In Refs. [145,146] a thin layer of a liquid Nafion-type material was cast onto the surface of a heterogeneous MK-40 membrane having the same fixed cation-exchange groups as Nafion. The water splitting rate decreased with increasing the thickness of the Nafion layer and became nearly the same as in the case of Nafion for a sufficiently thick homogeneous layer.\n\n5.2. Control of electroconvection\nAs we discussed above, electroconvection is considered to be the main mechanism contributing to overlimiting current, at least in dilute solutions. The factors that affected electroconvection are studied in a number of articles. It is shown that this phenomenon is a strong function of membrane surface properties, such as the charge density of the membrane matrix [22,43,107,147], hydrophobicity [38,97,148], electric heterogeneity [20,86,144,149–151], surface geometric heterogeneity/profiling [1,28,152–158], the nature of charged fixed groups [29,43], counterion Stokes' radius in electrolyte solution [137,138].\nMost of the above-listed effects were considered in our previous review [38] and in [159].",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The charge density of the membrane determines the space charge density localized in solution, which in turn conditions the electric body force value. With increasing fixed ion charge density, electroconvection and overlimiting current increase [22,107]. Moreover, a low membrane charge density allows co-ions to pass through the membrane. In some cases, the membrane charge density may vary with current. In CIMD effect [43], the membrane charge density of anion-exchange membranes with weakly basic functional groups decreases due to hydroxide ions generated at the depleted interface.\nIncreasing hydrophobicity of the membrane surface facilitates fluid slip over the surface. Usually in fluid mechanics the no-slip condition is used, i.e. the fluid velocity is set zero at a solid wall restricting the channel. The no-slip condition is supported by macroscopic experiments, in particular, in electrochemistry when non-intensive current regimes are applied [103]. However, when fluid volumes are reduced, the impact of surface phenomena increases and the slip of fluid at the boundary negligible in macroscopic systems becomes important [160,161].",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The slip velocity depends on the degree of surface hydrophobicity. More hydrophobic surface more strongly repels water molecules, that facilitates the fluid slip over the surface [162,163]. The slip boundary condition was introduced by Navier in the form u_slip = b ∂V_y/∂n (at x = 0, x = h), which links the fluid tangential velocity u_slip at the surface and the shear strain rate normal to the surface, ∂V_y/∂n, via the slip-length b. b = 0 relates to the no-slip condition, u_slip increases with increasing b.\nComparison of two I–V curves computed with the help of the \"basic\" model [100] when applying the no-slip condition and the Navier slip condition with b = 1 μm has shown that in the second case the current density is higher. At underlimiting current densities, there is no difference in I–V behavior computed for both cases. It appears on the sloping plateau and becomes rather high in the unstable region reaching about 20% at 1.5 V per cell pair. Note also that the onset of the unstable regime occurs earlier (the length of the plateau is lower) when using the slip condition [100].",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "High correlation between the overlimiting mass transfer rate and the degree of hydrophobicity was observed when studying eight cation-exchange membranes different in the degree of hydrophobicity and in the surface morphology [97]. It was shown that even if the degree of electrical heterogeneity and surface morphology varied from one membrane to another, there was a strong tendency of increasing the limiting current density and overlimiting mass transfer rate with increasing surface hydrophobicity. It is interesting that a freshly prepared Nafion™ membrane coated with a thin Nafion layer where carbon nanotubes (CNT) were immobilized (to increase hydrophobicity) has shown initially lower overlimiting current density than the original Nafion™. As well, the degree of its surface hydrophobicity (evaluated by measuring the contact angle) was lower than that of Nafion™. However, after 100 h of operation at an overlimiting current, the properties of the modified membrane changed: the contact angle increased from 51 to 81°. As well, in the range of 0.6 to 1.8 V the current density across the used modified membrane was higher than across the original Nafion™.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This behavior of the modified membrane was explained by a thin Nafion polymer wall, which initially separated the CNT from the solution, and then was partially destructed during its use in ED at overlimiting current [97].\nElectrical heterogeneity (when a part of membrane surface is poorly conducting or non conducting) leads to two effects. On the one hand, it means that concentration polarization near conducting regions is higher than in the case of homogeneous membrane under the same average current density (Fig. 4). On the other hand, electrical heterogeneity results in occurrence of tangential electric field, which more easily bring in motion charged solution volume [26,86,87]. Effectively there is a subject for surface optimization [28].\nNot only electrical heterogeneity, but other forms of surface heterogeneity such as structural corrugation, can lead to essentially same phenomenon described here. Namely, waved/corrugated membrane surface results in an earlier onset of electroconvective instability and a lower length of the limiting-current (sloping plateau) region [21,28,51].",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The idea of surface profiling where ion conductive ridges [151,152,164] or hillocks [155,165] are formed on the membrane surface is very close to the use of ion conducting spacer [166,167]. The first attempts to obtain a gain from profiling is dated from the beginning of seventieths [154,168]. The gain in mass transfer rate is determined by several effects [1,38,159]. First, the active membrane area available for mass transfer increases compared to flat membrane. This results in increasing limiting current density. Second, there is an increase in fluid mixing by better hydrodynamic situation. It is the additional cause of increasing the limiting current, due to reduced diffusion layer thickness. Third, electroconvective mixing becomes more effective as the tangential component of driving force increases. Fourth, the water splitting rate decreases, as the concentration polarization of the profiled membrane is lower. Fifth, a stack with profiled membranes has lower electric and hydraulic resistances, hence, leading to lower energy consumption than a stack with flat membranes and spacers.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "All these effects are synergic in increasing mass transfer. As a result, the mass transfer coefficient, growing with diluting feed solution, can be up to 10 times higher than that in the same ED stack with flat membranes and conventional spacers (at 0.05 mM NaCl in the feed solution) [54]. According to Strathmann [1], the ED stack costs are reduced by more than 50% and energy costs are reduced by more than 40% when profiled instead of flat membranes are used. This gain depends, however, on the concentration of the feed and diluate solutions and is not so high in the range >0.01 M.\nProfiled membranes have also shown higher performance compared to the flat membranes when applied in reverse ED (RED) stacks, which are used to obtain energy from the salinity difference between salt water and fresh water [157,158]. The ohmic resistance was significantly lower for the stack with profiled membranes compared to that with flat membranes and non-conductive spacers. The hydraulic resistance was lower as well for the stack with profiled membranes, hence, under the same pressure drop, higher Reynolds numbers are possible in such types of stacks.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Furthermore, profiling membranes allow much freedom to optimize profile geometry [157]. Additionally, the setups without spacers between the membranes (i.e. profiled membranes) appear significant less sensitive to fouling [158].\nEnhancement of mass transfer can be achieved by forming not only the prominences on the membrane surface, but also the cavities as well. Pismenskaya et al. [148] have studied the evolution of surface and mass transfer properties of CMX membranes during their operation at overlimiting currents. It was found that the mass transfer rate in overlimiting current regimes increased with increasing time of membrane operation (Fig. 10). Cavities/caverns on the membrane surface were formed as a result of surface erosion caused by water splitting products and elevated temperature. The enhancement of mass transfer at the membrane surface with cavities is due to electroconvection the development of which is facilitated by curved surface. Additionally, the erosion of the surface resulted in increasing its hydrophobicity [148]. The fluid streamlines calculated with help of the \"basic\" model [100] and showing formation of a asymmetric pair of vortices with a cavity are presented in Fig. 11.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The clockwise rotating vortex is larger, because the counterclockwise one is partially suppressed by the forced flow, in accordance with the results by Kwak et al. [40].\nThere is more research and development work in ED and related processes currently in progress. Especially, the use of ion-exchange membranes in energy conversion and energy storage system has led to several interesting new membrane developments [169,170].\n\n6. Desalination and nano/microfluidics. New desalination devices\nThere are non-traditional exciting applications resulting from the research in the very novel and pioneering field of micro- and nanofluidics [66–77,171,172]. While many of these novel desalination processes are not yet fully matured, both in terms of flow throughput and other technical requirements, they are often demonstrating a new way of exploiting complicated ion transport phenomena in various electrical membrane processes using microfluidic and nanofluidic manipulation. In addition, microfluidic systems are ideal platform for studying these ion transport with the ability to track diffusion, fluid flow, and current in situ [39,40].",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Novel conceptions of electromembrane devices for water desalination by 'skimming off' ion depletion zone in overlimiting concentration polarization [75] (so-called ICP desalination [75]) or the effect of \"deionization shock\" in microstructures such as porous frits [76,77] are proposed. Relatively high voltages applied in these new devices give rise to phenomena involving coupling of current and water transfer similar to those occurring in intensive ED with IEMs.\nLet us consider a promising macro-nanofluidic desalination device proposed by J. Han's group [75] (Fig. 12).\nSeawater is pumped through a microchannel (with a width of 500 μm and depth of 100 μm) bifurcated into two other microchannels (each with a width of 250 μm and depth of 100), one of which is used for collecting desalted and the other for concentrated streams. The desalination is due to an ion-selective (cation-selective in Fig. 12) membrane, which serves as a nanojunction between the region of bifurcation and an additional microchannel.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "An electric current through the membrane is generated with the help of three anodes and one (or two) grounded (GND) electrode(s).\nA high voltage (of the order of 70 V cm^{-1}) applied across the membrane gives rise to both a space charge region as well as ion depletion zone since the system enters the overlimiting current regime, just before the bifurcation of the seawater microchannel. Classical theory of concentration polarization predicts linear decrease in concentration toward the membrane, at the current value below the limiting current. In contrast, recurring experimental and theoretical evidences suggest that concentration polarization in the limiting and overlimiting regimes has a different structure, with electroconvective vortices rendering the ion concentration of depletion zone a low, flat value. In the microfluidic channel, due to low Reynolds number, this fluid layer can be effectively separated ('skimmed off') by a simple microfluidic bifurcation, as shown in Fig. 12.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "While this mode of desalination also works at overlimiting regime (therefore certain similarities with overlimiting ED, to be discussed later), there are several important differences. Firstly, the ICP desalination directly captures the low salinity of depletion region in the overlimiting concentration polarization, while the overlimiting ED is mainly capitalizing on the increased ion transport due to electroconvection. Secondly, it is a 'unipolar' membrane operation, with only one kind of ion selective membrane (nanojunction) used to generate overlimiting concentration polarization with flat, low salinity near the membrane. Thirdly, many particles and suspended solids could also be affected and removed by ICP desalination.\nPreliminary tests have shown [75] that both salts and larger particles (cells, viruses and microorganisms) are repelled from the ion depletion region near the membrane, which significantly reduces the risk of membrane fouling. The ability to remove both salts and large particles altogether in a single step process is a unique merit for this technique.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The tested device has shown ~99% salt rejection in the case of seawater desalination at 50% recovery rate. While the originally reported power efficiency (~3.5 Wh/L) was later found to be erroneous and corrected [173], recent report from the group indicates that the technique will have better (~30%) power efficiency than comparable ED process [174]. In the same paper, the authors also report non-microfluidic, stackable design similar to ED systems, which opens up the possibility of massive scale-up and real-world application.\nAnother interesting device named \"shock electrodialysis\" is proposed by Bazant's group [76,77].\nLet us consider ion fluxes in a microchannel or pore with negatively charged walls (Fig. 13a). At the right-hand edge, there is a CEM not permeable for anions. At the left-hand edge there is an electrode or membrane (not shown) allowing current flow from left to right. As the axial electric field pushes the negative co-ions from the membrane to the left, a low-conductivity region in the center of the channel emerges starting at the membrane surface (concentration polarization).",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Positive counterions, in order to avoid this central low-conductivity region, flow into the electric double layers at the microchannel walls where they counterbalance the wall charge. Such surface conduction is driven by the amplified axial electric field in the depleted region, which also pushes the negative co-ions, which remain in the central region of the channel, to the left. As a result, the concentration gradient becomes sharper with time, leading to a steady shock wave [76], which propagates from the membrane surface towards the left edge of the microchannel.\nThe physicochemistry of the phenomenon is quite interesting. Yaroshchuk [175] carried out an analysis of pattern of propagating deionization shock in terms of local thermodynamic equilibrium in the approximation of local electric neutrality in virtual solution. In particular, he has shown that the deionization-shock pattern is really pronounced only at quite high steady-state voltages.\nPropagation of deionization shock in a microstructure of channels with charged walls, such as a porous frit, may be used for water deionization [76,77].",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In Fig. 13b, the water flows from top to bottom through a porous frit. The current flows in the same direction towards a CEM, which is at the bottom. The \"deionization shock\" propagates through the microstructure (from the membrane at the bottom to the top), leaving behind an ultrapure solution, nearly devoid of co-ions and colloidal impurities.\n\n7. Overlimiting current ED\nIn conventional ED, the limiting current density is usually attained at about 1 V per cell pair [159]. In most cases of practical use of ED, this or a slightly lower voltage is steadily applied. The increase in voltage leads to some undesirable effects: growing electric consumption, lowering current efficiency, increasing scaling and fouling. However, the use of overlimiting current modes attracts a number of researchers and engineers [23,28,125,176,177]. The interest is in the fact that the overlimiting mass transfer rate at reasonable voltages close to 2 V may be up to 3 times higher than i_lim [159]. This means that even if the costs related to electric consumption increases, the total costs per 1 m^3 of treated water may be lower owing to decreasing capital costs since lesser amount of membranes and membrane devices needed.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Besides, smaller sizes of the membrane installation may give other advantages, especially in production facilities of limited dimensions.\nTo reduce the risk of scaling and fouling, several methods may be used. The first one is the pre-treatment of water prior to ED. The elimination of salts providing hardness of the water excludes the cause of salt deposition on the membrane surface. Another way is the application of membrane pairs where the water splitting rate is higher at the CEM surface than at the AEM one. In this case, the desalinating stream becomes alkalized while the concentrating stream becomes acid [177]. The latter prevents the deposition of carbonates and oxides on the concentrating membrane surface. The alkalinization of desalinating stream increases the degree of weak-acid anion ionization that improves the removal of weak acids (such as silicic, boric and other) from feed water. The third way is the use of pulsed current mode. This mode not only allows mitigation of scaling and fouling, but also results in an increasing rate of ED desalination.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Mishchuk [26] argues that the gain in applying pulsed currents may be due to electroconvection mixing, which continues during the pause owing to inertial properties of liquid movement. This residual convection could partially restore the electrolyte concentration near the membrane.\nThe variation in pH may be a desirable effect in the case where ampholyte (such as organic acids) containing solutions are treated and a shift in pH results in obtaining the needed product [178–180]. In this case often bipolar membranes and overlimiting current densities are used in order to obtain controlled generation of H+ and OH- ions.\nThe application of overlimiting currents in ED is in accordance with rather general trend of process intensification in chemical engineering. However, as it was rightly noted by Strathmann [1], this emerging mode of ED process is under development and needs further study.\n\n8. Continuous electrodeionization (CEDI)\nTo obtain high purity water, electrodialyzers with a special stack design are applied, the process is called continuous electrodeionization (CEDI) [2,181].",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "These apparatuses are able to produce deionized water, the resistivity of which is close to that of pure water (18 Mohm cm at 25 °C). The process design and the different hardware components needed in CEDI are very similar to those used in conventional ED. The main difference is that in a CEDI stack the diluate cells and sometimes also the concentrate cells are filled with an ion exchange filler: a bed of ion-exchange resin granules [152,159,182,183], ion-exchange textile, [184,185], conducting spacer [182,186–189] or organic porous ion exchange material [190]. The stacks with profiled (relief/undulated) ion-exchange membranes [28,66,152,165] occupy an intermediate position between CEDI with ion-exchange bed and conventional ED with smooth membranes and non-conductive spacer. The range of feed solutions with TDS from 5 to 500 mg L^{-1} (10^{-4} to 10^{-2} M NaCl) is the most effective field of profiled membranes application.\nThe ion-exchange resin increases the conductivity in the diluate cells; as a result, the resistance of CEDI stack is significantly lowered.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "However, the main difference from conventional ED lies in the mechanism of deionization: the electro-migration transfer of salt ions in CEDI is combined with ion exchange: the salt ions are exchanged with the H+ and OH- ions present in the ion-exchange material [66,176,182]. The latter enter ion-exchange resins or membranes due to water splitting reaction [17,191] occurring at A=C contacts where A is an anion- and C is a cation-exchange material, the arrow shows the direction of the current flowing (Fig. 14). Thus, continuous regeneration of ion-exchanger by the products of the water dissociation occurs allowing deep demineralization of the feed water. The active mass exchange surface in a CEDI stack is much higher than that in an ED one due to the presence of ion-exchange bed. The ion-exchange can occur on the all ion-exchange particle surface including the part normal to the current flow direction thus enhancing the rate and the depth of deionization.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Besides, ion-exchange particles or profile on the membrane surface contribute to improving hydrodynamics and reducing the diffusion layer thickness.\nThe source of H+ and OH- ions in CEDI can not only be the A=C contacts between ion-exchange fillers, but also bipolar membranes [1,152,181] or electrochemical reactions occurring at the electrodes [192].\nIt can be expected that the geometry of CEDI stacks promotes electroconvection. Really, ion-exchange beads, projections and cavities provide curved surface where conditions favorable for Dukhin's electroconvection (Figs. 3 and 11) are realized. Apparently, electroconvection, water splitting and ion exchange (regeneration of ion-exchanger) should interfere between them. However, as far as we know there are no studies where electroconvection would be taken into account in CEDI process.\nIn ED of dilute solutions under intensive currents, at least, when using profiled membranes, the electrical conductivity and diffusion permeability of ion exchange membranes no longer play decisive role. More important are surface properties such as ability of water splitting, hydrophobicity, electric and geometric surface heterogeneity (see Section 5). Hence, optimization of membrane surface is the main issue in this field.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "9. Capacitive deionization with ion exchange membranes\nMembrane capacitive deionization (MCDI) is a newly emerging water desalination technique [1–4,172,193–200] based on applying a cell voltage between two oppositely placed porous electrodes sandwiching a spacer channel that transports the water to be desalinated. In MCDI, ion-exchange membranes are positioned in front of each porous electrode to prevent co-ions from leaving the electrode region during ion adsorption, thereby enhancing the salt adsorption capacity.\nThe principles of the process involve phenomena occurring in the electrical double layer at electrodes and membranes, hence, charging and discharging of these layers and the ion transport inevitably coupled with water transport. From this point of view the phenomena of concentration polarization and electroconvection are also involved, which provides similarity with overlimiting current transfer in ED. The details and issues of this promising technique may be found in reviews [193,194,199] and original publications [172,195–198].",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "10. Performances of electrodialysis in intensive current regimes\nAs it was shown above, generally, with increasing current density in an ED process the mass transfer rate increases. This results in a lower membrane area required for desalination, and, consequently, in lower investment costs. However, higher current density involves higher energy costs. The latter is mainly due to increasing voltage, as the total current roughly does not change if the feed and product concentrations are fixed, because it is determined by the number of electrolyte moles, which are removed [1]. Thus, the total costs of ED desalination are a function of the applied voltage. As well, the current efficiency and permeselectivity depend also on the current density/voltage. Generally, the choice of current density/voltage is a question of process optimization.\n\n10.1. Cost estimation of ED desalination as a function of current density\nUsually, the optimum current density in ED desalination is considered to be about 80–90% of the limiting current density value; the voltage drop per cell pair being in the range of 0.5 to 1.0 V, increasing with increasing the distance between the membranes [2,201].",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In the cost estimation, the following costs are taken into account: the operating costs, which include energy and maintenance costs as well as the costs of the membrane replacement; and the capital investment costs, which are necessary to run the ED plant in operation [2].\nThe costs are calculated for an ED unit with 40 cm width of working membrane area (a). The length of the working membrane area (L) is determined by the required degree of desalination (γ), which is chosen in our calculations to be 80%. With increasing current density, the value of L decreases resulting in lower investment costs, however, the energy costs grows [2].\nThe electrical power required for the ion transfer in a desalination process, P_des, is given by the total current, I, passing through the stack multiplied by the applied voltage [2]: P_des = I N_cell U_cell = (F (c_in - c_out) W_cell / ξ) N_cell U_cell, where W_cell is the flow rate of the solution in the diluate cell, c_in and c_out are the equivalent concentrations of the diluate at the cell inlet and outlet, respectively, ξ is the current efficiency, U_cell is the voltage per cell pair, and N_cell is the number of cell pairs in the stack.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The values of the current, the current efficiency and the length of the cell are found by using experimental data presented in Ref. [126]. The data [126] were obtained for a cell with 3 cm width and 10 cm length of working membrane area. Electrodialysis was realized in batch quasi-steady-state mode: diluate recirculated through an intermediate tank where the pH value was maintained constant (equal to 7) during the experiment run.\nThe mass transfer coefficient k was found by the rate of NaCl concentration decrease in the tank. The value of ξ is taken equal to the effective transport number of Cl ions in the AEM, which controls the rate of desalination since the water splitting at this membrane was higher than that at the cation-exchange one. The pH of diluate increased when passing through the cell, and NaOH was added in the tank to keep its pH equal to 7. k and ξ as functions of the NaCl concentration at the cell inlet (equal to the concentration in the tank) are shown in Fig. 15. The data were obtained for two stacks. The first one was composed of Russian commercial heterogeneous membranes MK-40 and MA-40 separated by a 1 mm thickness net spacer (S). The flow velocity in the diluate compartment was 2.5 cm s^{-1}.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The second stack contained a MK-40/Nf membrane obtained from the MK-40 by coating its surface with a thin film of Nafion, and a MA-40M membrane obtained from the MA-40 by its chemical treatment in order to graft on the surface quaternary anion-exchange groups, which have low catalytic activity towards water splitting reaction. The same spacer and the same flow velocity were used.\nThe value of k is linked with the partial current density of Cl- ions, i_Cl-, across the anion-exchange membrane according to the following equation: k = i_Cl- / (F c_in). Eq. (20) can be considered as the definition of k [126]. Combining Eq. (20) with the right-hand side of Eq. (19) and taken into account that i_Cl- = i ξ, we find c_out = c_in (1 - kS/W_cell). The total current flowing through the cell is I = k F c_in S / ξ.\nTo calculate the length of the path needed to obtain the required desalination degree (80% in the considered case), the compartmentation method was used. The idea of this method consists of the presentation of a long channel as a sequence of short ones, the outlet concentration for an element number j is considered as the inlet one for j+1 element [156,202].",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In the case of electrodialysis, the potential drop per cell pair does not vary with the distance from the entrance. This circumstance facilitates the application of the method: instead of studying behavior of long ED cells, it is sufficient to study a \"short\" cell with a fixed length under conditions where the inlet concentration changes with time. It is necessary, however, that the peculiarities of the inlet region (such as non-uniform distribution of velocity, development of the diffusion layer thickness) can be neglected. It was found experimentally [156] that a cell with 10 cm of the membrane working length satisfies the condition above. Thus, Eq. (21) can be employed for the first cell segment of 10 cm length to calculate the outlet concentration when knowing the inlet concentration and the related value of k (Fig. 15); Eq. (22) can be used to find the total current through the first segment. Then considering the found concentration as the inlet one for the next 10 cm segment, Eqs. (21) and (22) can be used again together with the data of Fig. 15 and so on.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The length of the last segment should be fitted (via changing S in Eq. (21)) in order to arrive at the final concentration corresponding to the required degree of desalination. The values of the total length, which is needed to have 80% degree of desalination of a 0.012 M NaCl solution, as a function of the voltage per cell pair, are given in Table 1. The outlet concentration is 0.0024 M.\nTo calculate the costs, a hypothetic stack containing 28 cell pairs needed to produce 1 m^3/h of diluate is considered. Its width a is taken 40 cm, and the length L is found as described above. The following additional characteristics are taken from the paper by Turek [201]: the working membrane area is 70% of the total area; the price of commercial membranes is $40/m^2, the total investment costs are $240/m^2 membrane and the maintenance costs (without membrane replacement) are 25% of the investment costs; the energy cost is $0.1/kWh. We assume that the stack's life is 12 years, and during this period, the membranes are replaced every 4 years. We did not take into account the energy costs needed for pumping.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 16 shows the ED desalination costs as functions of the applied voltage per cell pair. The investment and maintenance costs including the membrane replacement cost as well as the costs of energy consumption for current passage are presented. As expected, in the case of commercial heterogeneous membranes, the minimum costs (about $0.17 /m^3, which is quite close to the values found by Turek [201]) relate to the current density slightly lower than the limiting current. At lower currents, the investments costs strongly increase while at higher currents, the energy costs are high. However, in the case of modified membranes, the price of which is assumed $60 /m^2, the minimum costs (equal to $0.15 /m^3) are shifted to a higher voltage close to 2.5 V/cell pair. It is due to lower investment costs in the case of modified membranes in despite of their higher price. The difference between the costs in both cases should be even more, if we took into account the pumping energy costs, which are roughly proportional to the membrane area.\nNote that the electric energy costs are proportional to the power consumption. Thus, the electric energy costs equal to $0.1 /m^3 relate to the power consumption 1 kWh/m^3.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Higher effects are expected in the case of profiled membranes, which remain effective even at quite low feed concentrations (<5·10^{-3} M) where the flat membranes with spacer show decreased mass transfer rate due to high imbalance in water splitting at AEM and CEM. According to [54], in a 20 cm in length stack with profiled membranes, at a flow velocity 2.9 cm s^{-1} and 2.5 V per cell pair, the Sherwood (Sh) number is equal to 48, when the inlet NaCl concentration is 1.1·10^{-5} M. The mass transfer coefficient, which is related to Sh as k = Sh D1/h [54], is then 2.8 dm h^{-1}. Here D1 is the counterion diffusion coefficient controlling the mass transfer rate in the cell, it was taken [54] equal to 1.3·10^{-5} cm^2 s^{-1} (for Na+).\nThe data presented in Fig. 16 show that the gain in mass transfer rate increases with diluting feed solution, which is apparently due to increasing role of electroconvection. Hydrophobization of cation-exchange membrane surface and lowering water splitting at the anion-exchange membrane result in essential enhancement of mass transfer. However, in the case of flat membranes in the concentration range >0.02 M NaCl, the mass transfer rate does not depend on whether the membrane was modified or not.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The main factor controlling the mass transfer in this case is the electrolyte diffusion in the diffusion layer, whose the thickness, δ, is determined by the properties of the spacer and the flow velocity (the Reynolds number). In the case of the spacer used in experiment [126] and the velocity 2.5 cm s^{-1}, the value of δ related to k = 1.1 dm h^{-1} at c_in > 0.02 M, is about 0.1 mm. This value may be found from the relations k = Sh D1/h and Sh = 2h/δ.\nThe analysis made above shows that modification of membrane surface allows increasing mass transfer rate in ED stack. That shifts the optimum voltage of ED process in a higher range in comparison with conventional stacks. The considered examples prove that the ED operation in intensive current regimes can be economically advantageous. However, with increasing voltage, water splitting increases and after a certain voltage this process noticeably deteriorates the performance of electrodialysis, especially if the rate of water dissociation is different at the cation-exchange and the anion-exchange membranes.\n\n10.2. Specific permselectivity\nNot only the performance of ED desalination, but the characteristics of some other ED processes are functions of voltage/current density.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Ion fractionation by electrodialysis is used to separate singly charged and multicharged ions. It is applied in electrodialytic concentration of seawater to produce sodium chloride [203,204], in denitrification of potable water [205,206], in separation of nutrient ions and organic compounds from salts [207,208] and in other separation processes such as separation of specific cations from the mixtures in hydrometallurgy [203].\nGenerally, the permselectivity among ions of the same sign of charge through an IEM is governed by the difference in affinity of the ions with the membrane (ion-exchange equilibrium constant) and the difference in the ion migration velocity in the membrane (mobility ratio among the ions) [203]. There are several approaches to membrane preparation resulting in selective permeation of singly charged ions through the membrane from a mixture with multicharged ions. This specific selectivity may be due to sieving of monovalent ions by a tight surface (e.g., polypyrrole [203]) layer, or due to stronger electrostatic repulsion force of the fixed cationic charge in a polyelectrolyte layer on the surface of a cation-exchange membrane [203], or due to the effect of hydrophilicity of anion-exchange membranes on permselectivity of anions [209].",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "It is well known that membrane systems exhibit a high specific permselectivity only at low current densities: this property deteriorates with increasing current density[203,207–212]. The reason is in peculiar concentration polarization occurring in this case. Indeed, the concentration of the selectively permeated ion in the diffusion layers adjacent to the membrane changes more than that of the ion, which permeates with difficulty. It is lower at the depleted membrane surface and higher at the enriched surface, in comparison with the concentration of the poorly permeating ion. In these conditions, the concentration gradients of two competitive ions in the membrane are directed in opposite sides: the diffusion in the membrane is opposite to the migration flux and reduces the total flux of the selectively permeated ion, while it enhances the migration flux of the poorly permeating ion. With increasing current density, this effect increases. When the current density approaches its limiting values, the fluxes of competing counterions are no longer dependent on the membrane properties: they are determined by the transport in the depleted diffusion layer, the partial current density of competing counterion k, i_k_lim, can be calculated as follows: i_k_lim = (F/δ) D_k z_k c_k^I (1 + z_k/z_3), where c_k^I is the ion concentration in the depleting solution bulk, z_3 is the charge number of the co-ion. The role of the membrane is reduced in this case to the retention of co-ions.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "11. Conclusion\nDue to Frilette, since 1957 it is known that the salt counterion transfer through an IEM is not saturated when the current density reaches its limiting value; the useful mass transfer continues to grow at i > i_lim. However, the mechanism of this growth was not sufficiently clear during decades. Even about 10 years ago, there were discussions as to what type of the current induced convection is more probable in the overlimiting current range: gravitational convection or electroconvection. Now it is admitted that in dilute solutions, the main mechanism of electrodialysis enhancement is electroconvection; the issues under consideration are the details of occurring this phenomenon. In addition to the modes of electroconvection suggested by Dukhin and Mishchuk and by Rubinstein and Zaltzman, some other kinds of coupling between ion and water transport are studying. Essential progress is obtained in mathematical description of overlimiting electrodialysis, which gives important information about the vortex structure and its dependence on the solution forced flow between the membranes. Promising desalination devices, which use the effects of ion and water transport coupling are proposed.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "It is found that the overlimiting transfer is strongly dependent on the membrane surface properties. By modifying IEM properties, it is possible to enhance the overlimiting electrodialysis. It is shown that ED operation in intensive current regimes with modified membranes can be economically advantageous. In this case, the optimum voltage of ED desalination corresponding to minimum ED costs is shifted from 0.8-1 V range justified for conventional membranes into a higher voltage range. However, with increasing voltage, water splitting increases leading to decreasing current efficiency and suppressing electroconvection. Thus after a certain voltage, the performances of ED desalination process are noticeably deteriorated. On the other hand, controlled water splitting can be a desirable process, especially when treating organic acids. Together with monopolar membranes, in these cases conventional and asymmetric bipolar membranes are used.\nThe here considered examples of overlimiting ED desalination realized in conventional and novel devices are far from optimum. Their optimization should go through enhancement of membrane surface properties (surface hydrophobization and relief geometry optimization) as well as through the choice of electric current regime.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "We hope that this review allows better understanding of electromembrane desalination processes, which can be considered as derivatives of conventional electrodialysis: continuous electro-deionization, capacitive deionization, reverse electrodialysis and some others.\nThis brief review shows that there are many exciting possibilities to enhance water desalination process, which is constantly developing from Biblical times [213] to our days. Even now there are a lot of methods to make fresh water less costly and more available for people. We believe that in future scientific progress will bring even more interesting opportunities.\nSupplementary data to this article can be found online at http://dx.doi.org/10.1016/j.desal.2014.01.008.\nAcknowledgments\nPart of the work has been made within the French–Russian International Associated Laboratory \"Ion-Exchange Membranes and Related Processes\". The authors are grateful to CNRS, France, and to RFBR, Russia (grants 13-08-96507, 13-08-01168, 13-08-93105, 13-08-93106), as well as to FP7 Marie Curie Actions \"CoTraPhen\" project PIRSES-GA-2010-269135 for the financial support. A special thanks to Dr. A. Kozmai for the help in drawing figures.",
+    "citation": {
+      "authors": ["Nikonenko V.", "Kovalenko A.V.", "Urtenov M.K.", "Pismenskaya N.D.", "Han J.", "Sistat P.", "Pourcelly G."],
+      "paper_id": "Desalination_at_overlimiting_currents_St",
+      "title": "Desalination at overlimiting currents: State-of-the-art and perspectives",
+      "year": 2014,
+      "journal": "Desalination"
+    },
+    "type": "chunk"
+  }
+]

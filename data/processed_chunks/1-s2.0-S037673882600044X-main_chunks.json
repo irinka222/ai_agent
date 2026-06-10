@@ -1,0 +1,230 @@
+[
+  {
+    "content": "1. Introduction\nThe growing emphasis on sustainable resource management has led to an increasing practice of valorization of wastewater by recovering valuable chemicals and metals [1]. Separation processes, which can account for up to 50–70 % of overall production costs and often demand the majority of energy input in resource recovery, are therefore pivotal in valorization strategies [2,3]. In particular, solvent extraction is widely employed to recover metals, nutrients, and other high-value chemicals from water and wastewater streams, offering robust separation efficiency, relatively simple operation, and broad applicability in resource valorization. Supported liquid membranes (SLMs) incorporate the solvent extraction process in a membrane platform, enabling extraction and stripping steps in a single membrane module [4–6]. An SLM consists of a porous membrane substrate and an organic liquid (membrane liquid hereafter) that has a high affinity to target compounds, embedded in the membrane pores. This feature allows for a significantly reduced solvent usage and a low footprint compared to conventional solvent extraction, and enables the selective transfer of the target compounds from the feed (e.g., wastewater) to the receiving solution across the thin (~100 μm) membrane. Accordingly, successful recovery of biochemical compounds and critical metals by SLMs has been demonstrated in both lab-scale and pilot-scale.",
+    "citation": {
+      "authors": ["Hiroki Fukuda", "Jongho Lee"],
+      "paper_id": "1-s2.0-S037673882600044X-main",
+      "title": "Electrochemical impedance spectroscopy-assisted mass transfer model for supported liquid membranes in arbitrary degradation states",
+      "year": 2026,
+      "section": "Introduction",
+      "pages": [1, 2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The recovery and selectivity of target analytes in SLM-based extraction are largely governed by the mass transfer kinetics. Specifically, when transferring from the feed to the receiving solution, the target (or any other) compound must overcome two barriers, the concentration boundary layer in the feed and the membrane. The rate of target compound transfer determines the recovery and the contrast of the transfer rate to those of the other compounds does the selectivity [7]. Hence, several investigations have proposed models to describe mass transfer phenomena in SLMs [5,7–12]. These models adeptly capture the influences of several factors such as hydrodynamics, solubility of target compounds to the membrane liquid, and structural properties of the membrane substrate. However, most SLMs degrade over time due to gradual leakage of the membrane liquid from the membrane pores. Such structural change of SLMs alters mass transfer kinetics, and therefore recovery and selectivity. For instance, an open pore without the membrane liquid not only works as a non-selective channel through which unwanted compounds can be transferred, but can also slow down the transfer of target compound compared to that through a tailored membrane liquid. Previous mass transfer models are applicable primarily to intact SLMs (i.e., no degradation) at the early stage, but inadequate to predict the recovery performance when the degradation continues.",
+    "citation": {
+      "authors": ["Hiroki Fukuda", "Jongho Lee"],
+      "paper_id": "1-s2.0-S037673882600044X-main",
+      "title": "Electrochemical impedance spectroscopy-assisted mass transfer model for supported liquid membranes in arbitrary degradation states",
+      "year": 2026,
+      "section": "Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This gap highlights the need for an expanded mass transfer model that incorporates the effect of SLM degradation, a common yet insufficiently understood phenomenon in long-term operations. Such a model requires detailed structural information of the SLM, for which electrochemical impedance spectroscopy (EIS) is particularly effective. In our previous work [13], a four-electrode EIS method was developed to quantify SLM degradation non-destructively by resolving the fractions of closed and open pores and the span of membrane liquid in real time. It was qualitatively demonstrated that structural degradation alters extraction performance. The missing link is a mechanistic framework that connects the diagnosed membrane structural parameters to mass transfer behavior at arbitrary degradation states, without adjustable parameters, allowing for performance prediction, timely intervention, and effective maintenance for SLM-based resource recovery processes. Thus, the objective of this study is to develop an extended model of mass transfer through SLMs considering the degradation of SLMs and identify critical parameters to maximize the recovery and the selectivity of target compounds. First, a comprehensive mass transfer model is presented by parametrizing the key structural components of SLMs that represent any degradation stages, including the intact stage. For the model development, equations for medium-chain fatty acids (MCFAs) and short-chain fatty acids (SCFAs) as target and unwanted compounds, respectively, are formulated as exemplary cases for SLM-based biochemical recovery from wastewater. SLMs in three different degradation stages are then prepared, and their structural parameters are characterized using EIS. Subsequently, MCFA extraction experiments are conducted and compared with predictions from the developed model incorporating SLM structural parameters to validate the model. Finally, the verified mass transfer model is applied to evaluate performance changes during SLM degradation and to propose optimized strategies for long-term SLM operation.",
+    "citation": {
+      "authors": ["Hiroki Fukuda", "Jongho Lee"],
+      "paper_id": "1-s2.0-S037673882600044X-main",
+      "title": "Electrochemical impedance spectroscopy-assisted mass transfer model for supported liquid membranes in arbitrary degradation states",
+      "year": 2026,
+      "section": "Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Model development for mass transfer through degraded SLMs\nWe develop a mass transfer model that incorporates solvent leakage–induced structural changes in SLMs and validate it with extraction experiments for selective MCFA recovery from a mixture of MCFAs (target compounds) and SCFAs (unwanted compounds) as an exemplary case of SLM applications. Leakage of the organic solvent (i.e., membrane liquid) from SLM pores alters diffusional mass transfer kinetics across the membrane. To capture this effect, we extend our previously developed model [7] by linking EIS-diagnosed pore structures to mass transfer kinetics, enabling recovery and selectivity to be predicted under various degradation stages. In this framework, the pore cross-section of a degraded SLM is categorized into three components (Fig. 1a): the area of membrane liquid in closed pores (Acl), the area of membrane liquid in partially open pores (Aorg), and the area of the aqueous solution in partially or fully open pores (Aaq). The sum of these areas is constant and equal to the total pore cross-section area of the membrane substrate (Atot): Atot = Acl + Aorg + Aaq. The diffusion of the solutes (i.e., MCFAs and SCFAs) from the feed to the draw side occurs through cross-section areas of the closed pore (Acl), membrane liquid in the open pore (Aorg), and aqueous solution (Aaq).",
+    "citation": {
+      "authors": ["Hiroki Fukuda", "Jongho Lee"],
+      "paper_id": "1-s2.0-S037673882600044X-main",
+      "title": "Electrochemical impedance spectroscopy-assisted mass transfer model for supported liquid membranes in arbitrary degradation states",
+      "year": 2026,
+      "section": "Model development",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The overall molar flow rate of solute i across the SLM (ṅiov) can be expressed as: ṅiov = Jiov Am = Jif Am = Jicl Acl + Jiorg Aorg + Jiaq Aaq, where Am is the total membrane area and εAm = Atot, with the membrane substrate porosity ε; Jiov the overall molar flux of solute i across the SLM; Jif the molar flux of solute i across the feed-side diffusive boundary layer; Jicl, Jiorg, and Jiaq the molar flux of solute i through the closed pores, the organic phase in the open pores, and the aqueous phase in the open pores, respectively. It is worth mentioning that the flux through the diffusive boundary layer on the feed side (Jif) spans the entire membrane area (Am), not just the membrane pore area (εAm). Each diffusive molar flux is driven by a concentration gradient along each pathway. Only the protonated form of fatty acids can diffuse through the hydrophobic organic phase within the SLM. Because the feed solution has an acidic pH of about 3, the fatty acids are almost fully protonated, allowing us to treat the total fatty acid concentration as equal to the protonated concentration. Thus, the concentrations used in our model (Ci for solute i) represent the protonated form. In contrast, the draw-side concentrations are effectively zero (Cdi = 0) due to the high pH (~12), which ensures complete deprotonation. Therefore, the molar flux, resulting from the concentration difference between the feed and draw bulk solutions, can then be expressed with the feed concentration only, Cfi: Jiov = kovi Cfi, where the overall mass transfer coefficient, kovi, is given by 1/kovi = 1/kif + 1 / ( 1/(kicl,aq Acl*) + 1/(kicl,org KiD Acl*) + kiorg KiD Aorg* + kiaq Aaq* ).",
+    "citation": {
+      "authors": ["Hiroki Fukuda", "Jongho Lee"],
+      "paper_id": "1-s2.0-S037673882600044X-main",
+      "title": "Electrochemical impedance spectroscopy-assisted mass transfer model for supported liquid membranes in arbitrary degradation states",
+      "year": 2026,
+      "section": "Model development",
+      "pages": [2, 3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Here, kif is the mass transfer coefficient across the concentration boundary layer in the feed; kicl,aq, kicl,org, kiaq, and kiorg are the mass transfer coefficients in the aqueous and organic phases in closed and open pores, respectively; KiD is the partition coefficient for the solute between the organic membrane liquid and the aqueous feed; and Acl*, Aorg*, and Aaq* are the cross-section areas of the membrane liquid in the closed pores, of membrane liquid in the open pores, and of aqueous solution in the open pores, respectively, normalized to the membrane’s total cross-section area (Am). The mass transfer coefficients are derived in Appendix C. The partition coefficient is defined only on the feed side because essentially all fatty acids moving into the basic draw solution are deprotonated, leaving the concentration of protonated fatty acids in the draw solution at zero. The closed pores are further characterized by the span of the membrane liquid across the pore (dcl). This parameter determines how diffusion resistance is distributed between the aqueous and organic segments. While dcl does not explicitly appear in the governing equations presented here, it enters into the mass transfer coefficients (kicl,aq, kicl,org) as described in Appendix C. Experimentally, dcl is obtained using EIS, as detailed in our previous work [13]. In brief, the capacitance associated with non-ion-conductive (closed) pores is measured, from which dcl can be deduced.",
+    "citation": {
+      "authors": ["Hiroki Fukuda", "Jongho Lee"],
+      "paper_id": "1-s2.0-S037673882600044X-main",
+      "title": "Electrochemical impedance spectroscopy-assisted mass transfer model for supported liquid membranes in arbitrary degradation states",
+      "year": 2026,
+      "section": "Model development",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Equivalently, the above expression for kovi can be presented using the concept of mass transfer resistance: Rov i = Rf i + 1 / ( 1/(Rcl,aq i + Rcl,org i) + 1/Rorg i + 1/Raq i ), where Rov i is the overall mass transfer resistance for solute i; Rf i the resistance in the feed-side concentration boundary layer; Rcl,aq i and Rcl,org i the resistances of aqueous and organic phases in the closed pore, respectively; and Rorg i and Raq i the resistances in the organic and aqueous phases in open pores, respectively. The equivalent circuit diagram is depicted in Fig. 1c, showing that feed-to-draw transfer occurs through two barriers in series: concentration boundary layer and the membrane. The transfer through the membrane occurs via four different resistances: the (i) aqueous and (ii) organic phases in the closed pore, and (iii) the organic liquid and (iv) aqueous phases in open pores. In our batch experimental system, where the feed solution is sufficiently acidic for all fatty acids to remain protonated, mass conservation gives the rate of change of the molar concentration of protonated solute i in the feed (Cfi) as ṅiov = -Vf dCif/dt, where Vf is the feed volume. From the previous equations, the concentration of (protonated) solute i in the feed as function of time is given as Cif = Cif,0 exp( -Am kovi / Vf t ), where Cf,0i is the initial concentration of (protonated) solute i in the feed. Subsequently, the recovery of solute i (REi) and the selectivity of solute i over solute j (Si/j) are obtained as REi = 1 - Cif/Cif,0 = 1 - exp(-Am kovi t / Vf) and Si/j = REi/REj.",
+    "citation": {
+      "authors": ["Hiroki Fukuda", "Jongho Lee"],
+      "paper_id": "1-s2.0-S037673882600044X-main",
+      "title": "Electrochemical impedance spectroscopy-assisted mass transfer model for supported liquid membranes in arbitrary degradation states",
+      "year": 2026,
+      "section": "Model development",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Materials and methods\n3.1. Materials and chemicals\nFor the preparation of the synthetic feed solution, a variety of fatty acids were procured, including acetic acid (C2), caproic acid (C6), and caprylic acid (C8) from Sigma-Aldrich (Burlington, MA, USA), and propionic acid (C3) from Fisher Scientific (Waltham, MA, USA). To prepare a conductive solution for impedance measurement by EIS, reagent-grade sodium chloride (NaCl) was sourced from Sigma-Aldrich. For the hydrophobic, porous substrate of the SLM, a polyvinylidene difluoride (PVDF) membrane obtained from Merck Millipore (nominal pore diameter: 0.45 μm, porosity: 75 %, thickness: ~125 μm) was selected. Dodecane, a non-polar organic solvent from Alfa Aesar, was chosen to saturate the membrane due to its extensive use in organic material recovery and its prior application in SLM-based extraction of MCFAs [7]. The high purity and non-polar nature of dodecane make it ideal for capacitance measurements. Additionally, reagent-grade ethanol was acquired from Electron Microscopy Sciences to expedite SLM degradation and for use in the synthetic feed solution for MCFA extraction experiments. SLMs were prepared using the same protocol as in our previous work [7,13]. Detailed preparation procedure and characteristics may be referred to these previous publications to avoid duplications. Briefly, dodecane was infused into a PVDF membrane through immersion, and excess liquid was removed with a rubber roller. SLMs in three different degradation states were prepared: freshly prepared (intact), partially degraded, and completely degraded.",
+    "citation": {
+      "authors": ["Hiroki Fukuda", "Jongho Lee"],
+      "paper_id": "1-s2.0-S037673882600044X-main",
+      "title": "Electrochemical impedance spectroscopy-assisted mass transfer model for supported liquid membranes in arbitrary degradation states",
+      "year": 2026,
+      "section": "Materials and methods",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Determination of SLM degradation states by EIS\nDegradation states of the prepared SLMs were diagnosed by the EIS method developed in our previous study [13]. Briefly, impedance measurements were conducted in the custom-made Devanathan–Stachurski cell. The cell consists of two glass chambers with an orifice area of 4.91×10⁻⁴ m². The SLM was placed between the two chambers, each containing 40 mL of a solution comprising 45 % v/v ethanol and 0.5 M NaCl (based on total volume) to accelerate degradation, and the solution was agitated using a magnetic stir bar at 900 rpm. The cell temperature was maintained at 35 °C by circulating water from a temperature controlling water bath. An AC current ranging from 1 kHz to 2 MHz was applied through platinum electrodes by a potentiostat (Interface 1010E, Gamry Instruments), with potential measured using Ag/AgCl electrodes. Data collection was performed using Gamry Framework software in potentiostatic EIS mode over approximately 15 h. The resulting Bode and Nyquist plots were fitted to theoretical models using ZView 4 software. The capacitance and resistance values obtained from EIS were used to determine the structural parameters of the SLM. Specifically, the capacitance from the SLM arises from non-ion-conductive pores occupied by the membrane liquid. Hence, the capacitance allows for quantifying the closed pore area (Acl) and the corresponding liquid span (dcl). On the other hand, the resistance stems from ion-conductive pores where the liquid has been displaced by the aqueous phase, and therefore enables us to calculate the open pore area (Aaq). These structural parameters are obtained by fitting the impedance spectra to the equivalent circuit model developed in our previous study [13]. The partially degraded SLM was prepared by exposing an intact SLM to a 45 v/v% ethanol–water mixture for several hours until EIS measurements indicated the span of the membrane liquid (dcl) became approximately 50 % of the intact state. The measured values of our prepared partially degraded SLM were Acl/Atot = 0.9 and dcl/l = 0.43. Complete degradation was induced by agitating an intact SLM in ethanol until it became opaque and its impedance dropped to nearly zero, with resulting values of Acl/Atot ≈ 0 and dcl/l ≈ 0.",
+    "citation": {
+      "authors": ["Hiroki Fukuda", "Jongho Lee"],
+      "paper_id": "1-s2.0-S037673882600044X-main",
+      "title": "Electrochemical impedance spectroscopy-assisted mass transfer model for supported liquid membranes in arbitrary degradation states",
+      "year": 2026,
+      "section": "Materials and methods",
+      "pages": [3, 4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. MCFA extraction tests\nFor MCFA extraction, the protocol from our previous publications was adopted [7,13]. The feed solution contained MCFAs [caproic acid (C6) and caprylic acid (C8), each at 100 mg/L], SCFAs [acetic acid (C2) and propionic acid (C3), each at 100 mg/L], and ethanol (3000 mg/L). The feed pH was adjusted to around 3 with sulfuric acid to ensure that fatty acids remained fully protonated, which is necessary for transfer through the non-polar organic liquid used in the SLM. The partition coefficient, KDi, for C2, C3, C6 and C8 between the organic membrane liquid and the aqueous feed are 0.050, 0.050, 2.1, and 15, respectively. The draw solution, maintained at pH ≈12 with sodium hydroxide, rapidly deprotonates fatty acids at the membrane interface, resulting in negligible protonated concentrations on the draw side (Cdi = 0). The SLM, with an area of 2.83×10⁻⁵ m², was placed between two 7 mL glass chambers containing the feed and draw solutions agitated using magnetic stir bars at 400 rpm at 35 °C. To ensure a one-directional, feed-to-draw transfer of the solutes by any possible advection, a slightly higher hydraulic pressure was deliberately introduced on the feed than the draw side (ΔP ≈ 122 Pa) by maintaining a higher head of the feed solution than the draw. The test was conducted over 24 h, with samples taken at intervals. Fatty acid concentrations in the feed and draw solutions were determined by gas chromatography-flame ionization detector (GC-FID) using external calibration with standard solutions of C2, C3, C6, and C8.",
+    "citation": {
+      "authors": ["Hiroki Fukuda", "Jongho Lee"],
+      "paper_id": "1-s2.0-S037673882600044X-main",
+      "title": "Electrochemical impedance spectroscopy-assisted mass transfer model for supported liquid membranes in arbitrary degradation states",
+      "year": 2026,
+      "section": "Materials and methods",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Results and discussion\n4.1. Validation of mass transfer model for different SLM degradation states\nPrior to verifying the mass transfer model, SLMs were prepared in three degradation states: intact, partially degraded, and completely degraded. As described in our previous work [7], the intact SLM was tailored for selective MCFA recovery over SCFAs. EIS was then applied to SLMs at each degradation state to obtain their characteristic structural parameters. These EIS-measured parameters were subsequently incorporated into the model, allowing the fluxes of MCFAs and SCFAs to be calculated. Fig. 2 presents a comparative analysis of the experimental results and model predictions of the temporal changes in the mass of SCFAs and MCFAs with SLMs in different degradation states. As expected, the intact SLM (Fig. 2a) shows the selective transfer of MCFAs (C6 and C8) while almost completely blocking the transfer of SCFAs (C2 and C3). The normalized mass of MCFAs in the feed solution rapidly decreases over time, indicating a feed-to-draw transfer. Conversely, the normalized mass of SCFAs remains relatively constant, indicating minimal transfer through the membrane. Fig. 2b shows the performance of the partially degraded SLM (Acl/Atot = 0.9 and dcl/l = 0.43). The transfer of MCFAs is still evident, but at a reduced rate compared to the intact SLM. Notably, there is an increased transfer of SCFAs, as seen by the reduction in their normalized mass in the feed solution and a corresponding increase in the draw solution. This partial degradation impacts the selectivity of the SLM, allowing more SCFAs to pass through while still preferentially transferring MCFAs to some extent. In the completely degraded state (Fig. 2c), the SLM no longer provides any selective barrier to the transfer of fatty acids. Both SCFAs and MCFAs freely pass through the open pores of the membrane. The normalized mass of both types of fatty acids in the feed solution decreases to almost the same degree and increases in the draw solution over time. The slightly higher recovery rate of SCFAs compared to MCFAs is likely due to their smaller molecular size and higher diffusion coefficients in aqueous solutions.",
+    "citation": {
+      "authors": ["Hiroki Fukuda", "Jongho Lee"],
+      "paper_id": "1-s2.0-S037673882600044X-main",
+      "title": "Electrochemical impedance spectroscopy-assisted mass transfer model for supported liquid membranes in arbitrary degradation states",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2 also includes the model predictions for the mass changes of MCFAs and SCFAs in the feed and draw solutions. Relying solely on EIS-derived structural parameters and the experimentally applied operating conditions, without any fitting parameters, the model captures the experimental values satisfactorily: for the intact SLM, weighted RMSE = 0.0263 and global R² = 0.996; for the partially degraded SLM, weighted RMSE = 0.0660 and global R² = 0.977; and for the completely degraded SLM, weighted RMSE = 0.0889 and global R² = 0.931. A slightly faster transfer of SCFAs across open pores, observed experimentally, was also reproduced by the model, which accounts for their higher diffusivity through completely wetted pores compared to MCFAs. However, at the 24 h point in Fig. 2c, the prediction is notably poorer. In the experiment, a completely degraded membrane allows fluid convection to some extent through wetted pores, causing a fraction of the feed solution to be mixed into the draw. A simple scaling analysis shows that, under the applied pressure head, advective and diffusive fluxes through open pores are of comparable magnitude and that advection effectively suppresses back-diffusion from draw to feed. Since the present model only considers diffusive transport, any effect by convection is not captured. Despite the simplifications such as treating the closed-pore liquid spans as a single average value, the model provides a strong representation of the SLM mass transfer behavior across different degradation states.",
+    "citation": {
+      "authors": ["Hiroki Fukuda", "Jongho Lee"],
+      "paper_id": "1-s2.0-S037673882600044X-main",
+      "title": "Electrochemical impedance spectroscopy-assisted mass transfer model for supported liquid membranes in arbitrary degradation states",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [4, 5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.2. Molar flow rate change with temporal SLM degradation\nNext, the mass transfer model was employed to elucidate how solutes traverse different pathways in the SLM as it degrades over time. Fig. 4 presents the model predictions of the normalized molar flow rates of acetic acid (C2) and caprylic acid (C8) in the process of SLM degradation. The time axis corresponds to that used in the degradation study from our previous work [13], where the SLM was progressively degraded due to its exposure to ethanol in the feed solution. The structural parameters (such as the closed pore area and the span of the membrane liquid) acquired by EIS in real time were incorporated into the mass transfer model. To isolate the effect of degradation alone, the simulation considers that the concentrations of SCFAs and MCFAs in the feed remain constant throughout the extraction period. At t = 0 h, the SLM is considered fully intact, composed entirely of closed pores filled with membrane liquid, which enables selective extraction of MCFAs over SCFAs. As degradation progresses, membrane liquid begins to leak from the pores, forming aqueous pathways in open pores. By t = tdegrade ≈ 4.5 h, the SLM transitions to a state where virtually no closed pores remain, and transfer occurs solely through open pores, either via the membrane liquid retained in some open pores or through aqueous solution that infiltrates the fully open pores.",
+    "citation": {
+      "authors": ["Hiroki Fukuda", "Jongho Lee"],
+      "paper_id": "1-s2.0-S037673882600044X-main",
+      "title": "Electrochemical impedance spectroscopy-assisted mass transfer model for supported liquid membranes in arbitrary degradation states",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [5, 7]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In Fig. 4a, the normalized molar flow rate of C2 demonstrates minimal transfer at early times, where closed pores dominate the structure. During this phase, the hydrophobic membrane liquid effectively rejects SCFAs such as acetic acid, which have lower partitioning into the organic phase. The small but non-zero flow of C2 through closed pores is observed early on due to some limited diffusion across the aqueous-organic layered resistance. As degradation proceeds, this flow rapidly diminishes, reflecting the loss of closed pore pathways. Notably, the flow through the aqueous phase in open pores increases substantially after t = tdegrade, coinciding with the full transition of the membrane to an open-pore structure. This increase in aqueous-phase transfer highlights the diminishing selectivity of the SLM, as the membrane liquid is no longer able to reject SCFAs. The flow through membrane liquid in open pores remains relatively low throughout the test, reinforcing the limited affinity of C2 for the organic phase. Conversely, Fig. 4b shows that the mass transfer of C8, an MCFA, follows a markedly different profile. Initially, C8 is almost entirely transferred through the closed pores, reflecting its high solubility in the membrane liquid and the intact structure of the SLM. This flow declines gradually as closed pores degrade. At t = tdegrade, when closed pores are nearly diminished, C8 transfer shifts predominantly to the membrane liquid in open pores, maintaining relatively high flux. Unlike C2, the flow through the aqueous phase remains minimal throughout, demonstrating that even in the degraded state, C8 maintains a preference for the organic phase due to its higher hydrophobicity and favorable partitioning into the membrane liquid. This shift from closed-pore to open-pore transfer illustrates the SLM’s ability to continue selectively extracting MCFAs even after partial degradation, albeit with a reduced efficiency.",
+    "citation": {
+      "authors": ["Hiroki Fukuda", "Jongho Lee"],
+      "paper_id": "1-s2.0-S037673882600044X-main",
+      "title": "Electrochemical impedance spectroscopy-assisted mass transfer model for supported liquid membranes in arbitrary degradation states",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [7]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Interestingly, the overall normalized flow rates of both C2 and C8 do not show monotonic changes during degradation. For C8, a distinct decrease in the total flow rate is observed during the period leading up to t = tdegrade, although the membrane still largely consists of closed pores allowing high partitioning of C8 into the organic phase. This decline is attributed to increased mass transfer resistance introduced by the formation of thin aqueous films between the feed solution and the membrane liquid inside the closed pores. When the SLM is intact, the membrane liquid in closed pores is directly in contact with the feed, enabling efficient C8 transfer. As degradation progresses, however, water infiltration partially separates the membrane liquid from direct feed contact, increasing diffusion path lengths and resistance. In contrast, the total C2 flux remains low at the start and begins to rise only after the closed pores vanish. After t = tdegrade, the aqueous phase becomes the dominant transfer pathway for C2, resulting in a noticeable increase in its normalized flow rate. This directly implies that the SLM loses its ability to reject SCFAs once it becomes fully open-pored, thereby compromising the selectivity. These results highlight the critical role of closed pores and intact membrane-liquid interfaces in governing the selectivity and efficiency of SLMs. This degradation-driven transition significantly affects the recovery and separation performance, emphasizing the importance of real-time membrane monitoring and timely interventions.",
+    "citation": {
+      "authors": ["Hiroki Fukuda", "Jongho Lee"],
+      "paper_id": "1-s2.0-S037673882600044X-main",
+      "title": "Electrochemical impedance spectroscopy-assisted mass transfer model for supported liquid membranes in arbitrary degradation states",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [7]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.3. Effect of time-varying SLM structures on recovery and selectivity\nThe model was further applied to survey the impact of SLM degradation states on the recovery and selectivity of SLMs. Again, using the MCFA recovery as an exemplary case, contour plots for MCFA recovery and its selectivity values over SCFAs were constructed in Fig. 5 as functions of the closed pore area (Acl) and the span of the membrane liquid (dcl). Note that when Acl equals zero there are no closed pores, making dcl undefined, and vice versa; therefore, these conditions are omitted from the contour plots. Moreover, Acl = 0 in Fig. 5 does not signify a completely degraded SLM. Instead, it corresponds to the moment when the closed pore area has just vanished and the membrane liquid covered area in the open pores (Aorg) reaches its maximum (≈0.95), matching the degradation state denoted as tdegrade in Fig. 4. Here, we compute MCFA recovery and selectivity after 4 h of batch operation, referring to the same set of experimental conditions illustrated in Fig. 2. Fig. 5a reveals that the recovery of caprylic acid (REC8) is lower at smaller dcl/l and greater Acl/Atot. When the span of the membrane liquid in the closed pores is reduced, the aqueous phase occupies a greater depth of the pores. While C8 transfers faster through the thinner membrane liquid layer, the aqueous phase intruded in the pore increases the mass transfer resistance, lowering the recovery. At a fixed dcl/l, however, REC8 increases as Acl/Atot decreases. This does not mean that the remaining closed pores become more efficient. As closed pores disappear, the membrane liquid that still remains in the open pores (through Aorg) becomes a more prominent conduit for MCFA transfer. When Acl/Atot → 0 in the proximity of t = tdegrade, ~95 % of the membrane pores are open, but with the membrane liquid remaining on the pore inner surface. While these pores are open, the organic phase in the open pore conducts C8 fast. When the fraction of closed pores becomes very small, REC8 becomes nearly insensitive to dcl/l.",
+    "citation": {
+      "authors": ["Hiroki Fukuda", "Jongho Lee"],
+      "paper_id": "1-s2.0-S037673882600044X-main",
+      "title": "Electrochemical impedance spectroscopy-assisted mass transfer model for supported liquid membranes in arbitrary degradation states",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [7, 8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "On the other hand, the C8/C2 selectivity (SC8/C2) is higher when the closed pore area (Acl) and the span of the membrane liquid in the closed pore (dcl) are greater (Fig. 5b), indicating that the closed pores filled with the organic liquid are critical for the SLM to be selective for MCFAs. Furthermore, the impact of Acl on SC8/C2 is more distinctly pronounced for a greater dcl. For example, when dcl/l ≈ 1.0, an increase in Acl/Atot from 0.2 to 1.0 can escalate the value of SC8/C2 dramatically, from approximately 43 to 90. In contrast, at small dcl (e.g., dcl/l < 0.4), SC8/C2 shows minimal variations with changes in Acl. This indicates that at smaller dcl, the selectivity of the membrane is less sensitive to Acl, which suggests that the structural integrity of the membrane, as dictated by dcl, plays a more pivotal role in determining the selectivity. When the contour plots of recovery and selectivity are compared, it becomes apparent that an intact SLM (Acl/Atot ≈ 1 and dcl/l ≈ 1) exhibits both high recovery and high selectivity; however, any decrease in dcl/l compromises both metrics, highlighting the necessity of maintaining the full span of membrane liquid for optimal performance. At lower Acl/Atot, by contrast, a trade-off relationship appears: recovery can remain high even as selectivity decreases, indicating that once the fraction of closed pores declines, achieving simultaneous high recovery and selectivity is no longer feasible. In short, these plots illustrate the utility of the mass transfer model combined with EIS, as a versatile tool to diagnose the structural degradation of SLM and predict membrane performance.",
+    "citation": {
+      "authors": ["Hiroki Fukuda", "Jongho Lee"],
+      "paper_id": "1-s2.0-S037673882600044X-main",
+      "title": "Electrochemical impedance spectroscopy-assisted mass transfer model for supported liquid membranes in arbitrary degradation states",
+      "year": 2026,
+      "section": "Results and discussion",
+      "pages": [8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5. Conclusion\nThis study presents the development of a comprehensive model for analyzing the mass transfer across SLMs at various stages of degradation. Partially degraded pores were modeled as a series of resistances stemming from the aqueous solution and membrane liquid. Three SLMs with distinct degradation levels were prepared, and their structural parameters, obtained via EIS, were incorporated into the model. The results showed excellent agreement between the model predictions and experimental data, validating the model’s robustness. Residual discrepancies are mainly observed at long times for the completely degraded SLM and in high-flux regimes, where the current model simplifies the underlying pore structure and neglects convective mixing through water-wetted pores. Although the framework could be extended in a straightforward manner to include convective transport through these aqueous pathways, such refinement is unlikely to be critical for most applications, because SLM operation is not pressure-driven and membranes will likely be replaced or regenerated before degradation progresses to a fully-wetted state. Tracking the temporal change of the target compound’s flux illustrates how transport pathways evolve within the membrane as degradation proceeds. MCFA transfer occurs almost exclusively through the membrane liquid in the intact state and also during the early stage of degradation. SCFAs remained largely rejected until the closed-pore fraction vanished, after which they permeated via aqueous channels in open pores. This mechanism explains the observed early decline in selectivity relative to recovery and underscores the pivotal role of organic barrier encompassing the pore diameter.",
+    "citation": {
+      "authors": ["Hiroki Fukuda", "Jongho Lee"],
+      "paper_id": "1-s2.0-S037673882600044X-main",
+      "title": "Electrochemical impedance spectroscopy-assisted mass transfer model for supported liquid membranes in arbitrary degradation states",
+      "year": 2026,
+      "section": "Conclusion",
+      "pages": [8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Expanding the model to map performance across the structural space defined by closed-pore area and liquid span revealed clear operational boundaries. MCFA recovery declines when the membrane-liquid span shortens while many pores remain closed, because intrusion of the aqueous phase into the closed pores raises mass transfer resistance. As the closed pores continue to disappear, recovery rebounds and becomes nearly insensitive to the residual liquid span owing to the transport through the organic liquid remaining in the open pores. However, a high MCFA/SCFA selectivity (≈90) simultaneously requires a large closed pore fraction and a long membrane liquid span. When either parameter falls, selectivity declines far more rapidly than recovery, leading to a trade-off region in which rapid recovery coincides with poor selectivity. Although the present validation focuses on fatty acid recovery as an exemplary case, the mass transfer model is generic and can be directly applied to other SLM-based separation processes. Once the partition coefficients and diffusion coefficients of the target and co-solutes are known, and the structural parameters (closed pore area, open pore area, and liquid span) are obtained from EIS or other diagnostics, the same framework can predict recovery and selectivity at any degradation stage. The implications of these findings are substantial for the design and optimization of SLMs, particularly in ensuring stable, long-term operation. In practice, SLMs require careful selection of membrane liquids, tailored for specific target compounds and operating conditions, with attention to solubility, viscosity, and diffusion properties. Our model provides a systematic framework to predict how these parameters, as well as the SLM’s ability to selectively recover target compounds and their transfer rates, evolve over time as pores degrade. This capability is crucial not only for maximizing short-term performance but also for preserving efficiency and selectivity in prolonged operation. By capturing structural changes in real time, the model guides targeted strategies for slowing or mitigating degradation, thus enabling the development of more robust, long-lasting SLMs. Eventually, this tool can inform better choices of membrane liquids, substrate materials, and operating conditions, offering a pathway to industrial deployments that maintain high performance and reliability throughout the membrane’s service life.",
+    "citation": {
+      "authors": ["Hiroki Fukuda", "Jongho Lee"],
+      "paper_id": "1-s2.0-S037673882600044X-main",
+      "title": "Electrochemical impedance spectroscopy-assisted mass transfer model for supported liquid membranes in arbitrary degradation states",
+      "year": 2026,
+      "section": "Conclusion",
+      "pages": [8, 9]
+    },
+    "type": "chunk"
+  }
+]

@@ -1,0 +1,750 @@
+[
+  {
+    "content": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification Rebat Karki a , Ioannis V. Skiadas b\n\n, John M. Woodley a , Manuel Pinelo a,* a Process and Systems Engineering Centre (PROSYS), Department of Chemical and Biochemical Engineering, Technical University of Denmark, Søltofts Plads, Building 227, DK-2800, Kongens Lyngby, Denmarkb Pilot Plant, Department of Chemical and Biochemical Engineering, Technical University of Denmark, Søltofts Plads, Building 228A, DK-2800, Kongens Lyngby, Denmark\n\nA R T I C L E I N F O Keywords:Membrane bioreactor (MBR)Membrane foulingBackwashing (BW)Protein-cell separationProcess intensificationFractional factorial design (FFD)",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Membrane fouling hinders protein-cell separation efficiency in membrane bioreactors. A comprehensive un­derstanding of multi-variable fouling mechanisms and optimized backwashing (BW) strategies for mixed foulants are not well characterized. Here, we present the first systematic investigation using fractional factorial design (FFD) to reveal yeast-bovine serum albumin (BSA) fouling dynamics, analyzing five critical factors: yeast and BSA concentration, BW flux, BW duration, and BW cycle. The experiments reveal that yeast concentration is the dominant factor dictating flux reduction through cake layer formation, while BSA exhibits minimal significance on flux in the presence of yeast. Elevated BW flux enhances flux while simultaneously reducing BSA transmission, establishing a fundamental operational trade-off between fouling control and product recovery. Short-duration, high-frequency BW effectively controls fouling, yet excessive cleaning compromises protein transmission. Under optimal BW conditions (125 L m-2 h-1 flux for 5 s every 5 min), the system successfully maintained a stable flux of 80 L m-2 h-1 with 81 % BSA recovery over 140 min of operation, tested at BSA concentration (8.66 g L-1), demonstrated a 20–25 % performance improvement over non-BW condition. Furthermore, BSA concentrations up to 40 g L-1 sustained fluxes of 72–80 L m-2 h-1 with 30 % protein transmission within 30 min.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ver non-BW condition. Furthermore, BSA concentrations up to 40 g L-1 sustained fluxes of 72–80 L m-2 h-1 with 30 % protein transmission within 30 min. The concentration-resilient performance indicates significant process intensification potential with reduced footprint and downstream integration for high-titer protein recovery. Superior performance requires multi-variable optimization to balance cleaning intensity and timing for efficient protein-cell separations.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Biomanufacturing extensively relies on fermentation processes for producing high-value biomolecules. However, downstream processing (DSP) often constitutes up to 80 % of total production costs [1,2]. This cost is compounded by low yields, extensive chemical use, and signifi­cant environmental burdens [3], thereby presenting a major bottleneck for process scalability and sustainability [4]. To address these limitations, membrane-based separations are increasingly replacing traditional downstream operations, facilitating continuous bioprocessing [5,6]. Tangential flow filtration (TFF) and its enhanced variant, alternating tangential flow (ATF), are widely applied as primary separation techniques in continuous perfusion bioreactors [7]. These methods enable continuous cell clarification and product transmission by continuously harvesting the desired product while recycling engineered cells back into the bioreactor to maintain cell growth and production. Similarly, membrane bioreactors (MBRs) have emerged as a paradigm-shifting technology, integrating reaction and cell separation into a single unit operation, thereby overcoming challenges posed by conventional batch processes [8]. This integration improves yield, minimizes product inhibition, and enables intensified processing [8,9].",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "es posed by conventional batch processes [8]. This integration improves yield, minimizes product inhibition, and enables intensified processing [8,9]. The versatility of MBRs has been demonstrated across diverse applications, mainly in water treatment industry [10,11] and in biotechnology such as polyhydroxyalkanoate production [12], enzyme reactions [13], and monoclonal antibody production [14]. While TFF, ATF, and MBRs are commonly placed external to the bioreactor and operate in cross-flow filtration configurations, which can alleviate membrane fouling by physically decoupling the filtration module, the associated high shear stress may compromise cell viability and product quality [15]. In contrast, submerged MBRs (SMBRs), where",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 12 September 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). membranes are directly immersed within the bioreactor, offer advan­tages of reduced energy demands and operational simplicity [8]. How­ever, membrane fouling, particularly from complex protein–cell mixtures, remains a major obstacle to their widespread industrial deployment [16,17]. Various strategies have been developed to mitigate fouling, including BW [18–21], back pulsing [22], vibrating modules, pulsatile crossflow [23]. The effectiveness of these methods is highly dependent on complex interactions between multiple variables. For instance, BW performance is influenced by feed composition and BW parameters [18] while back pulsing effectiveness varies with amplitude, duration, and frequency [24]. Similarly, pulsatile crossflow is affected by trans­membrane pressure, pulsation amplitude, and frequency [23]. Crucially, prior studies have largely investigated these factors in isolation, over­looking the complex interplay that defines real-world membrane per­formance and limits comprehensive optimization. In previous work, Jankowska et al. [18] employed a FFD to explore how high cell densities and BW parameters jointly influence fouling dynamics.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ation. In previous work, Jankowska et al. [18] employed a FFD to explore how high cell densities and BW parameters jointly influence fouling dynamics. Yeast cells, being too large to pass through the membrane, serve as a robust model for biomass retention, while BSA represents a common soluble protein product, mimicking the complex large mole­cule fermentation broths encountered in industrial biomanufacturing. Yeast–protein mixtures are known to form composite fouling layers on membrane surfaces, with yeast contributing to reversible cake formation and proteins causing irreversible pore blocking and adsorption [25,26]. Hassan et al. [27] further demonstrated that mixtures of yeast and proteins (or smaller microbes) induce both reversible and irreversible fouling mechanisms, depending on cell concentration and particle size. BW has shown promise in mitigating fouling in such systems by reversing permeate flow to dislodge surface deposits [19], significantly restoring flux and stabilizing transmembrane pressure (TMP) [28]. However, its efficacy varies considerably with foulant type and oper­ating conditions [29,30]. Importantly, most studies examining cell retention and protein recovery—whether via crossflow filtration [22,28,31] or off-line membrane separation process [23]—have adopted a reductionist, one-variable-at-a-time approach, overlooking the complex multivariable interactions that characterize complex bioprocess environments.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "a reductionist, one-variable-at-a-time approach, overlooking the complex multivariable interactions that characterize complex bioprocess environments. This study presents the first comprehensive systems-level approach using FFD to simultaneously optimize five critical parameters governing fouling and separation efficiency in an SMBR, specifically for a model protein-cell system (BSA and Saccharomyces cerevisiae). In contrast to earlier studies that focused on yeast separation or optimized BW in isolation, our work applied FFD to jointly assess BW parameters and feed composition, with both flux and soluble-protein transmission as response variables. This systems-level approach revealed previously unrecognized multi-factor interactions and enabled quantification of the fundamental trade-off between fouling control and protein recovery, with an optimized protocol achieving 20–25 % higher flux and 81 % protein recovery. Moreover, while previous protein–cell microfiltration (MF) studies reported the protective “secondary membrane” effect of yeast cakes only at relatively low protein levels (≈1–5 g L-1 or up to 2–4 g L-1 in cross-flow setups), we demonstrate stable protein transmission and flux across a wide range of industrially relevant concentrations (1–40 g L-1 BSA with 20 gdw L-1 yeast) in SMBR.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "trate stable protein transmission and flux across a wide range of industrially relevant concentrations (1–40 g L-1 BSA with 20 gdw L-1 yeast) in SMBR. By extending this mechanistic role of yeast as both dominant foulant and protective bar­rier to high-titer regimes, and establishing a practical one-step cleaning protocol with Ultrasil-110 that fully restores both permeability and flux, our study provides actionable design principles for robust and sustain­able SMBR operation in cell clarification in bioprocessing. 2. Material and methods 2.1. Membrane and chemicals Ceramic MF membranes with a nominal pore size of 0.4 μm were supplied by Paul Rauschert GmbH & Co. (Germany) and used for assembling a custom-made ceramic membrane module (see Table 1 for specifications). Ceramic membranes were selected for their superior resistance to chemicals, temperature, and microbes, as well as their mechanical strength and tolerance to harsh cleaning, compared to polymeric membranes [32,33]. Saccharomyces cerevisiae yeast, BSA, Bradford reagent was all obtained from Merck KGaA (Germany). Ultrasil-110 was supplied by Ecolab, Denmark. Sodium hydroxide (NaOH) and nitric acid (HNO3) were supplied by VWR Chemicals (Belgium). Yeast and BSA were used in varying concentrations for the FFD study: yeast at 20–80 gdw L-1 and BSA at 0.1–1 g L-1 respectively whereas BSA concentration up to 40 g L-1 was tested to validate SMBR setup’ scalability.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "y: yeast at 20–80 gdw L-1 and BSA at 0.1–1 g L-1 respectively whereas BSA concentration up to 40 g L-1 was tested to validate SMBR setup’ scalability. Yeast cell size was measured by particle tech analyzer supplied by ParticleTech ApS, Denmark while cell budding or growth was observed by Olympus UC 90 Microscope, Evident Scientific, Germany. Feed so­lutions were prepared by homogeneously mixing yeast and BSA in deionized (DI) water at room temperature. The pH was not adjusted and remained at 5.6 ± 0.2, a value above the isoelectric points of both BSA (4.7–5.1 [34]) and yeast (pH 2–4) [35], thereby ensuring that the sus­pension components carried net negative charges. The α-Al2O3 mem­brane has an isoelectric point of 8–10 [36] meaning that at pH 5.6 the membrane surface is positively charged. Consequently, electrostatic attraction between the negatively charged suspension components and the positively charged membrane surface and pores is expected.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2. SMBR and BW setup All filtration and BW experiments were conducted using a custombuilt SMBR system, schematically illustrated in Fig. 1. The membrane module was fully submerged within a 12 L working volume stainless steel vessel (BioBench bioreactor, Biostream, Netherlands). The biore­actor was equipped with a stirrer, level sensor, and integrated pH and temperature control. Filtration was initiated by opening control valve (CV2) and activating the permeate peristaltic pump (P2, Watson Marlow model 520S, UK), which was operated at a constant flow rate of 312 ±24 mL min-1. Permeate was collected in a permeate tank (PT). A sepa­rate peristaltic pump (P1; Verderflex 3000 R3I C, Netherlands) contin­uously supplied DI water as feed to the bioreactor to maintain the membrane module fully submerged throughout the experiment. Pump P1 was manually synchronized with pump P2 according to the permeate flow rate since fouling buildup reduced the permeate flowrate. During filtration, the BW pump (P3; Watson Marlow, model 530S, UK) was operated at flux between 125 and 500 L m-2 h-1, while the control valve (CV3) remained closed. During the BW process, the flow direction was reversed. DI water, stored in a BW reservoir, was used as the BW agent. Table 1 Main characteristics of the ceramic membrane material and membrane module. ParameterValue Membrane materialα-Al2O3Density (g cm-3)2.65Porosity (%)28Average pore size (μm)0.4Thermal conductivity (W m-1 K-1)10Max.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "brane module. ParameterValue Membrane materialα-Al2O3Density (g cm-3)2.65Porosity (%)28Average pore size (μm)0.4Thermal conductivity (W m-1 K-1)10Max. operating temperature (◦C)1400Pore volume (mm3 g-1)100Thermal shock resistance (K)680Filtration typeMFMembrane shapeCylindricalChannels per membrane1Outer diameter (mm)10Inner diameter (mm)7Length (mm)250Number of membranes/modules25Surface area of the module (m2)0.18",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Permeate and BW fluxes were continuously monitored using a Sonoflow flow meter (CO.55/080SD V2.0, Sonotec GmbH, Germany), and data was recorded via Sonoflow C3 software. Permeate pressure was measured using a Wika pressure gauge (CPT, 2500) and recorded via a Wika pressure transmitter interface (Wika A/S, Denmark). 2.3. Separation process and membrane fouling All separation experiments were conducted at constant pump flow rate mentioned before. This maintained the transmembrane pressure at 0.06 ± 0.01 bar (Supplementary information (SI), Fig. S1), with a stir­ring speed of 500 rpm. This specific pump speed was chosen based on preliminary experiments, which indicated that higher speeds (and cor­responding higher pressures) led to irreversible membrane fouling (Fig. S2). Consequently, the pump speed was held constant throughout all experiments to ensure consistent hydrodynamic conditions and pre­vent irreversible fouling-induced performance degradation. Average flux, Jv (L m-2 h-1) during the separation process was calculated as: Jv = Vp Am⋅t(1) where Vp is the total permeate volume (L), t is the separation time (h), and Am is effective membrane surface area (m2). Membrane fouling is characterized by the progressive accumulation of materials on or within the membrane structure, leading to a decline in permeability and flux. This phenomenon is commonly represented as an increase in hydraulic resistance over time.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ne structure, leading to a decline in permeability and flux. This phenomenon is commonly represented as an increase in hydraulic resistance over time. To quantify fouling, the total resistance (Rt, m-1) can be broken down into contributions from the clean membrane, irreversible pore blockage, and reversible cake depo­sition. Understanding these resistances is essential, as a rise in Rt cor­responds directly to the degree of fouling experienced during filtration. Membrane performance metrics and fouling are characterized by equations (3)–(6) in SI. 2.4. Chemical cleaning process Regular cleaning is an integral part of membrane separations, with chemical cleaning being the most extensively used method [37]. It is typically performed at a low TMP to relax compressible fouling layers and mitigate additional irreversible fouling that can arise from high applied TMP [38,39]. For this reason, three different chemicals such as NaOH, HNO3, and Ultrasil-110 were tested to achieve full recovery of membrane perme­ability and flux. An alkaline cleaning step (NaOH) was initially applied to hydrolyze cells and proteins [40,41], followed by an acid cleaning step (HNO3) to remove mineral deposits, constituting a two-step cleaning process [42]. For comparison, Ultrasil-110 was tested as a single-step cleaning process to evaluate its efficacy against the two-step approach (see Fig. 10). The ceramic membrane module was rinsed with DI water prior to each use.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "process to evaluate its efficacy against the two-step approach (see Fig. 10). The ceramic membrane module was rinsed with DI water prior to each use. The detailed cleaning protocol is outlined in Fig. 2. Between experiments, membranes underwent a comprehensive cleaning pro­cedure involving a 15-min forward flush at approximately 0.02 bar pressure (significantly lower than the operational permeate pressure of 0.06 ± 0.01 bar), followed by intermittent BW every 2 min for 30 s, combined with DI water rinses. Each cleaning step (soaking, rinsing/ flushing, and final cleaning solution circulation) lasted 5, 10, and 30 min, respectively. Ultrasil-110 and NaOH cleaning steps were performed at 50 ◦C; all other steps were conducted at room temperature. Cleaning effectiveness was evaluated by measuring post cleaning pure water permeability and flux, comparing these values to the initial clean membrane permeability and flux as an indicator of restoration of filtration ability. Fig. 1. Schematic flow diagram of the SMBR and BW system.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.5. Design of experiments (DoE) and FFD An FFD, specifically a 2k-n design [43] was employed to systemati­cally assess the individual and interactive effects of multiple factors on average flux and BSA transmission. This approach allowed for the identification of key factors and their interactions with a reduced number of experiments, supporting predictive modeling and minimizing future testing needs [44]. Five variables (k)—Yeast and BSA concen­tration, BW flux, BW duration, and BW cycle frequency — were evalu­ated at two levels with one degree (n) of fractionation. A total of 18 experimental runs were conducted, including two repeated center points, to identify significant factors and interactions efficiently. Input variables and their levels (low, center, and high) are presented in Table 2. Experimental runs were generated and analyzed using Minitab version 22 software. 2.6. Protein quantification by Bradford method BSA concentrations in permeate samples were determined using the Bradford method [45] Permeate samples (14 mL) were collected in test tubes every 5, 10, or 15 min, corresponding to the BW cycles. A single feed sample (14 mL) was collected at the beginning of each experiment to determine the initial BSA concentration, and a retentate sample (14 mL) was collected at the end of the experiment to quantify the residual BSA in the reactor.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the initial BSA concentration, and a retentate sample (14 mL) was collected at the end of the experiment to quantify the residual BSA in the reactor. Since no additional BSA or cells were introduced, the reactor BSA content was expected to decline over time due to perme­ation through the membrane (BSA transmission), while residual BSA blocked pores, contributing to irreversible resistance (see Fig. 10). Throughout the experiment, reactor volume was maintained constant at 12 L by continuous addition of DI water by pump P1 to compensate for",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Cleaning steps for the SMBRs. Two routes (A and B) were examined to test the efficacy of possible cleaning protocols for cell-protein mixture. Only one route was chosen based on its ability to fully recover both permeability and flux.\n\nTable 2 Input variables and levels for the 25-1 FFD. The design explores five factors at three levels each: low, center, and high, generating a half-fraction of the full factorial experiment (16 runs instead of 32) while maintaining statistical power to evaluate main effects and two-factor interactions. Center points were included to assess curvature and experimental error. FactorVariableLowCenterHigh AYeast concentration (gdw L-1)205080BBSA concentration (g L-1)0.10.551CBW flux (L m-2 h-1)125312.5500DBW duration (s)51015EBW cycles (min)51015",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "R. Karki et al. Journal of Membrane Science 736 (2025) 124697 permeate withdrawal. The amount of BW volume added in each BW cycle at certain BW fluxes are listed in Table S1. Samples were then centrifuged (Thermo Fisher Scientific Inc., Germany) at 4700 rpm for 5 min. A 20 μL of the supernatant was mixed with 200 μL of Bradford reagent and incubated for 5 min. For higher BSA concentrations, su­pernatants were diluted as necessary to ensure absorbance fell within the established calibration curve range (Fig. S3). Absorbance was measured at 595 nm using a UV-1280 spectrophotometer (SHIMADZU Corp., Japan). BSA concentration was calculated using a BSA calibration curve and BSA transmission (TBSA, %) was calculated as: TBSA(%) = mp mf .100(2) where mp and mf are the total mass (g) of BSA in permeate and feed, respectively. These masses were obtained by multiplying the measured volume of the permeate or feed by their corresponding BSA concentrations. 3. Results and discussion 3.1. Model development and statistical validation To reveal the relationship among the five principal factors and their impact on average flux and BSA transmission, a comprehensive statis­tical analysis using Analysis of Variance (ANOVA) was performed. The DoE based on FFD and corresponding results are summarized in Table 3. All 20 runs, including two baseline runs (18 and 19), were conducted for 30 min.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "DoE based on FFD and corresponding results are summarized in Table 3. All 20 runs, including two baseline runs (18 and 19), were conducted for 30 min. Empirical models incorporating statistically significant terms were developed for both responses at a 95 % confidence interval. The regression equations and model summaries, demonstrating a high de­gree of explanatory power for both average flux and BSA transmission, are presented in Table 4. Fig. 3 (a) and 3 (b) illustrate the relative magnitude and statistical significance of each term, as determined by Student’s t-test. ANOVA results guided the iterative removal of non-significant terms, where terms with p > 0.05 (e.g., BW duration with p = 0.635 and Lack-of-Fit with p = 0.124, as detailed in Tables S2 and S3) were considered sta­tistically insignificant and thus excluded from the final empirical models. The high R2 values (e.g., 99.81 % for average flux) indicate that the developed regression models explain a substantial proportion of the variability in the observed responses, providing a strong predictive capability within the experimental range. The models demonstrate a high degree of explanatory power for both average flux and BSA transmission. The refined model retained key main effects and two-way interactions, as visualized in the standardized Pareto chart (Fig. 3), which highlights the most influential factors exceeding the critical value for significance.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "as visualized in the standardized Pareto chart (Fig. 3), which highlights the most influential factors exceeding the critical value for significance. Standardized effects—represented as the absolute values of the T-statistics—are plotted alongside reference lines at the critical values of 1.94 for average flux and 1.89 for BSA transmission. Terms exceeding these thresholds are considered statistically significant. 3.2. Multivariable effects on membrane performance 3.2.1. Impacts of main process parameters on flux and BSA transmission The Pareto analysis, Fig. 3 (a), reveals yeast concentration (A) as the dominant factor negatively affecting flux (see Fig. S4), followed by BW cycles (E) and BW flux (C). Increasing yeast concentration from 20 to 80 gdw L-1 resulted in a 30 % flux reduction (from ~80 to 55 L m-2 h-1, Fig. 4 (a)). At elevated yeast concentrations, membrane fouling",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 3 DoE matrix generated using Minitab, showing experimental parameters and measured membrane performance (average flux and BSA transmission). Runs 18 and 19 represent baseline conditions conducted without BW, and all 20 runs were tested for 30 min. FFDResults Run Order Center PtBlocksYeast conc. (gdw L-1)\n\nBSA conc. (g L-1) BW flux (L m-2 h-1)\n\nBW duration (s) BW cycles (min) Average flux (L m-2 h-1)\n\nTBSA (%)\n\n111200.112515581.414211800.150015568.6863112011255583.4645.12411800.11255558.91751120150015583.2332.88611201125151578.2340711200.112551578.68581180112551552.9816901500.55312.5101060.94241011801500151557.0824111180112515554.35211211800.150051556.411311200.1500151581.41201411200.15005585.285151120150051579.363516118015005560.0323.531701500.55312.5101061.17191811800.1125151548.8913.631911801Without BW53.6725.85201120177.3243.84\n\nTable 4 Regression equations and model summary for average flux and BSA trans­mission. S represents the standard error (or the standard deviation of the re­siduals) in the regression model. CtPt indicates the center point terms.\n\nModel summary Regression equationSR2R2\n\n(adjusted) R2 (pred)\n\nAverage flux (L m-2 hr-1) 98.28–0.4261A - 2.76B - 0.00254C - 0.4491D - 0.538E + 0.000072A *C - 0.00455A * E -0.003262B * C +0.430B * E +0.000455C * D - 8.218 * CtPt 0.999.81 %99.49 %98.17 % TBSA (%)25.65 + 0.1564A +39.73B - 0.01224C - 1.988D - 1.667E - 0.3338A * B - 0.01079A * E +0.000508C * D +0.000557C * E +0.1685D * E 397.74 %94.52 %84.09 %",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "R. Karki et al. Journal of Membrane Science 736 (2025) 124697 intensifies through cake layer formation [28,49], creating additional hydraulic resistance that reduces filtration efficiency. This aligns well with previous studies demonstrating that yeast deposition is primarily responsible for reducing permeate flux in the presence of protein [28,50,51]. In contrast, the incorporation of yeast with BSA exhibits a dual effect: while yeast cells may reduce protein fouling through sieving mechanisms or secondary membrane formation [52], the resulting yeast cake creates additional resistance that decreases average permeate flux (Fig. 4 (a)). Although the presence of yeast partially alleviates BSA-induced fouling, the net effect is reduced overall membrane per­formance. This suggests that optimal filtration efficiency may be ach­ieved at moderate yeast concentrations, aligning with literature suggesting an optimum cell concentration exists beyond which flux sharply declines [48]. It should be noted that while this study high­lighted cell concentration effects, yeast cell size distribution (~70 % between 4 and 8 μm, see Fig. S5) and morphology may also influence membrane fouling outcomes. As documented in MBR, smaller particles tend to form denser, less porous cake layers, increasing specific cake resistance, whereas larger flocs or aggregates tend to form more porous and permeable cakes, which can reduce fouling resistance due to enhanced shear-induced particle back-transport [53].",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "gregates tend to form more porous and permeable cakes, which can reduce fouling resistance due to enhanced shear-induced particle back-transport [53]. Minor heteroge­neity (aggregates) may thus have affected deposit structure despite no observable cell growth, suggesting future work should vary growth phase or apply pre-filtration to clarify these effects. Under the studied ranges, yeast exerts a dominant influence on membrane surface interactions, where it predominantly blocks mem­brane pores and overshadows the effects of BSA. Therefore, flux per­formance in yeast–BSA mixtures is primarily governed by yeast-driven fouling dynamics, with BSA playing a comparatively minor role (Fig. 4 (b)). Regarding BW parameters, BW flux and cycles had positive effects on flux (Fig. 4(c)–(e)). Increasing BW flux (125 →500 L m-2 h-1) raised flux by about 5 L m-2 h-1, however, the flux dropped by similar magnitude upon increasing the BW cycles, indicating fouling buildup over the extended filtration without BW. Thus, applying high shear force",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. Standardized Pareto charts illustrating the influence of experimental factors on (a) average flux and (b) BSA transmission. Terms exceeding the critical reference line (1.94 for flux, 1.89 for transmission) indicate statistically significant effects. ANOVA results are summarized in Tables S2 and S3.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(high BW flux, higher TMP) more frequently dislodges the reversible cake layer, and recovers the TMP quickly (see Fig. S7) especially in the first half, resulting in less adhesive foulant cake [54]. Similarly, frequent BW (every 5 min), for short BW duration (5 s) improved the flux which implies the cake layer loosens and facilitates permeation. Extending BW duration beyond 5 s did not further improve flux (Fig. 4 (c)), instead longer BW durations consume additional BW volume and reduce net productivity. Finally, replicated center point experiments demonstrated good with flux values about 60 L m-2 h-1 confirming low experimental error and validating the linear model assumptions within the investi­gated parameters. BSA concentration (B) was the dominant positive driver of BSA transmission (Fig. 3 (b)), with increases from 0.10 to 1 g L-1 enhancing transmission rates from ~5 % to >30 % (≈5-fold, Fig. 5 (b)) by increasing the concentration gradients. However, BSA exhibits minimal impact on flux under the studied conditions, as yeast-driven fouling dynamics dominate membrane surface interactions. The strongest negative interaction affecting transmission involved yeast and BSA (A *B; Fig. S4) suggesting that yeast fundamentally alters the mem­brane–protein interfacial environment.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ffecting transmission involved yeast and BSA (A *B; Fig. S4) suggesting that yeast fundamentally alters the mem­brane–protein interfacial environment. At high yeast loadings (≤80 gdw L-1), competitive binding between BSA and yeast for membrane sur­faces intensifies fouling through electrostatic interactions, with yeast cells sequestering BSA and forming resistive fouling structures that reduce free protein available for permeation [50,55]. Increasing BW flux reduced overall BSA transmission, likely due to enhanced shear-induced protein diffusion away from the membrane surface during BW [19], where yeast particles capture BSA aggregates and transport them into the bulk solution. Conversely, extending BW duration to 15 s increased BSA transmission (Fig. 5(c–e)), as prolonged hydraulic shear more effectively dislodged the cake layer and facilitated free BSA passage through the membrane. 3.2.2. Two-factor interactions affecting flux and BSA transmission Significant two-factor interactions revealed synergistic optimization opportunities (Figs. 6 and 7). The yeast concentration * BW flux inter­action (AC) showed the highest flux when both parameters were at minimum levels, with sharp decline when both reached maximum values where yeast concentration increase reduced the flux more than BW flux. This trade-off interaction reflects yeast-induced cake layer formation that BW alone cannot mitigate under high loading conditions.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "more than BW flux. This trade-off interaction reflects yeast-induced cake layer formation that BW alone cannot mitigate under high loading conditions. Furthermore, the BW flux * duration interaction (CD) demonstrated that increasing BW flux from 125 to 500 L m-2 h-1 improved flux by 15 % (65–75 L m-2 h-1), indicating that enhanced hydraulic shear effec­tively disrupted fouling layers when paired with optimized BW duration (5 s). For BSA transmission, BW duration * cycles interaction (DE) produced the strongest positive effect (Fig. 7 and Fig. S4). Optimal temporal coordination of BW events limited formation of dense fouling layers. However, prolonged BW duration (5 →15 s) reduced BSA transmission (25 →15 %), while extended cycles (5 →15 min) increased transmission (15 →25 %), highlighting the trade-off between membrane selectivity and cleaning intervals. Previous work has shown that there is an optimal range for BW duration; durations that are too long can decrease average flux and may not further enhance selectivity [56], whereas longer filtration cycles between BW allow more significant fouling buildup. These observations highlight the trade-off between maintaining membrane selectivity and optimizing cleaning intervals. This counterintuitive result suggests that accumulated yeast facilitates BSA transport through electrostatic co-migration, creating transient high-permeability pathways during cake compression-relaxation cycles [50,57].",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tes BSA transport through electrostatic co-migration, creating transient high-permeability pathways during cake compression-relaxation cycles [50,57]. The BW duration-cycle (DE) interaction (Fig. 7) further dem­onstrates temporal coupling between fouling formation and removal. Prolonged BW duration (5 →15 s) physically displaces membrane-associated BSA in suspension, reducing transmission, while elevated BW cycles (5 →15 min) increase transmission, suggesting a compressible yeast-BSA interface [48,58], and facilitating BSA passage upon increasing TMP because of fouling buildup (see Figs. S7 and S8). Nevertheless, the strong negative interaction between yeast and BSA concentrations (AB) reveals competitive fouling mechanisms, with BSA transmission dropping from 38 % to 22 % as yeast concentration in­creases from 20 to 80 gdw L-1 while increasing BSA concentration from 0.1 to 1 g L-1 had almost no effect (top-left box in Fig. 7), highlighting the major impact of yeast. Based on multivariable analysis and DoE data (Table 3), operating conditions of 125 L m-2 h-1 BW flux, 5 s duration, and 5-min intervals were identified as optimal. To evaluate scalability under more indus­trially relevant conditions, yeast concentration was fixed at 20 gdw L-1 while BSA concentration was increased as high as 40 g L-1.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "y under more indus­trially relevant conditions, yeast concentration was fixed at 20 gdw L-1 while BSA concentration was increased as high as 40 g L-1. This experimental approach follows controlled variable methodology, reflecting industrial practice where cleaning protocols are standardized for operational consistency while feed compositions may vary signifi­cantly. Because yeast concentration dominated fouling behavior in the DoE (see Fig. 11 for membrane resistance contribution), fixing yeast concentration allows for isolated assessment of BSA concentration ef­fects on SMBR performance under the optimized BW protocol. 3.3. Performance validation of optimized BW protocol under industrial conditions 3.3.1. Validation of BW efficacy: BSA transmission and average flux Having established the optimal BW parameters through statistical optimization, the subsequent investigation focused on validating these",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 8. Effect of BW on membrane filtration performance over time. Panels show (a) BSA transmission and (b) normalized flux (Jv/Jw) for membranes operated with and without a periodic BW. The feed solution contained 20 gdw L-1 yeast and 8.66 g L-1 BSA. BW was applied every 5 min for 5 s at a flux of 125 L m-2 h-1. The total permeate volume collected with BW was 33.18 L (BW water used: 0.875 L, 0.03125 L in each BW cycle), and without BW it was 27.29 L. Error bars represent the standard deviation of replicate measurements. R. Karki et al. Journal of Membrane Science 736 (2025) 124697 very low (0.18–10.8 g L-1) yeast concentrations compared to ours (20 gdw L-1). Furthermore, these studies confirm that the yeast cake layer on the membrane surface acts as a protective pre-filter, adsorbing BSA aggregates that would otherwise accelerate internal membrane fouling and compromise long-term filtration performance. Whereas extended filtration time (140 min) with 8.6 g L-1 BSA yielded significantly enhanced overall transmission (81 %) at comparable flux, suggesting beneficial cake layer restructuring or membrane conditioning effects over time [48]. The observed concentration-resilient transmission can be attributed to the establishment of a steady-state fouling resistance dominated by yeast cake formation rather than protein-membrane in­teractions [28,50,52].",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ted to the establishment of a steady-state fouling resistance dominated by yeast cake formation rather than protein-membrane in­teractions [28,50,52]. At high protein concentrations, the yeast cake acts as a dynamic secondary membrane, creating a protective barrier that prevents deeper protein penetration into membrane pores [48,52]. This mechanism effectively decouples protein recovery from feed con­centration, a phenomenon previously reported in cell-protein separation systems at lower concentrations (1–5 g L-1) [28], but not demonstrated at industrially relevant high concentrations. While BSA-yeast model provides mechanistic insights into protein-cell interactions, real fermentation broths contain additional components including extracel­lular polymeric substances, and metabolic byproducts that may modu­late protein-membrane interactions, protein aggregates formation, conformational changes, and precipitation that may modify fouling mechanisms compared to single-protein model systems [59,64–66]. These complex interactions warrant investigation in future studies using real fermentation media to validate relatively concentration-resilient behavior under industrially relevant conditions. 3.4. Membrane cleaning Before each experiment, membrane permeability was assessed using pure deionized water, resulting in an initial permeability of 2050 ± 150 L m-2 h-1 bar-1. However, as physical cleaning via BW cannot fully restore both permeability and flux (see Figs.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "an initial permeability of 2050 ± 150 L m-2 h-1 bar-1. However, as physical cleaning via BW cannot fully restore both permeability and flux (see Figs. S7 and S8 for fouling buildup), chemical cleaning was employed to ensure consistent mem­brane performance across runs. Among the three tested cleaning agents, Ultrasil-110 was selected due to its ability to restore both permeability and flux in a single-step",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 10. Chemical cleaning efficiency measured against permeability and flux recovery amid different treatment steps. The arrow indicates the sequence of cleaning steps. Step 0: pure water permeability and flux (baseline membrane performance) Step 1: after filtration of yeast + BSA suspension. Step 2: after water rinsing and flushing. Steps 3 (a) + (b) is two stage treatment while 3 (c) is only one stage treatment. Error bars imply standard deviations from replicate measurements. R. Karki et al. Journal of Membrane Science 736 (2025) 124697 procedure (Fig. 10). To regenerate membrane performance, more aggressive cleaning protocols were tested since these chemicals can remove irreversible fouling, including NaOH, HNO3, and Ultrasil-110 [39]. Prior studies [42,73] have reported complete flux recovery using Ultrasil at 60 ◦C for over 60 min at higher TMP. In contrast, this study demonstrates that a shorter, one-step cleaning protocol (Ultrasil-110, 50 ◦C, 15 min forward flushing + 15 min BW, see Fig. S9) is sufficient to recover both permeability and flux (see Fig. S10 for linear relationship between pure water flux and pressure), as shown in Fig. 10, while also offering reduced energy and time demands. NaOH restored pure water flux, but HNO3 was required to recover pure water permeability (steps 3a, b), whereas Ultrasil-110 alone restored both.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ands. NaOH restored pure water flux, but HNO3 was required to recover pure water permeability (steps 3a, b), whereas Ultrasil-110 alone restored both. The difference suggests that flux recovery reflects hydraulic performance, while permeability recovery captures changes in the pressure–flux relationship, possibly from structural modifications or compaction during fouling/cleaning [74,75] during fouling and cleaning processes. Thus, membrane recov­ery can involve \"partially revocable\" or \"fully revocable\" structural changes [76] that may impact pressure-flux relationships differently. Fouling resistance analysis (Fig. 11) shows that filtration with the yeast–BSA mixture increases total membrane resistance by ~36-fold compared to clean water. Reversible fouling accounts for 89.4 % of this increase, and while water rinsing effectively removes this component, significant irreversible resistance (68.6 %) remains, necessitating chemical treatment. Ultrasil-110 completely restores membrane resis­tance, indicating full elimination of both reversible and irreversible fouling. Membrane performance loss due to yeast–BSA fouling is severe, with >97 % permeability reduction and only ~65 % flux reduction after BW. While water rinsing/flushing restores ~30 % permeability and ~80 % flux, this confirms the dual presence of loosely bound cake layers and strongly adhered or pore-embedded foulants.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "stores ~30 % permeability and ~80 % flux, this confirms the dual presence of loosely bound cake layers and strongly adhered or pore-embedded foulants. In contrast, Ultrasil110 treatment fully recovers both parameters, validating its role as an essential regeneration step for addressing both the reversible and irre­versible fouling removal agent. 4. Conclusion This study establishes a framework for understanding and optimizing membrane fouling control in SMBR through systematic multi-factorial analysis. The FFD approach reveals that superior performance emerges from complex parameter interactions rather than individual factor optimization. The mechanistic insights demonstrate that yeast concentration dominates flux decline through cake layer formation, while BSA exhibits dual functionality as both foulant and flux modifier. The optimal BW operational window—125 L m-2 h-1 flux, 5 s duration, and 5-min cycle—achieves 20–25 % flux improvement over nonBW while maintaining 81 % BSA transmission. The concentration-resilient BSA transmission behavior (30–45 % across 1–40 g L¡1) has profound implications for continuous bioprocessing integration. This protective yeast cake mechanism [28] decouples protein recovery from feed concentration, enabling predictable clarification performance essential for maintaining steady-state downstream operations.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "protein recovery from feed concentration, enabling predictable clarification performance essential for maintaining steady-state downstream operations. SMBR can serve as a flexible interface delivering clarified product streams at optimal concen­trations for subsequent chromatography steps [67]. The concentration-resilient flux behavior may fundamentally shift downstream purification economics by reducing processing volumes and enhancing chromatography resin utilization. Higher feed concentrations reduce column size and capital costs [70], with documented buffer savings of 40–75 % in continuous capture pro­cesses [68,69]. Integration with semicontinuous chromatography systems can increase resin utilization by 40–50 % while reducing buffer consumption [71]. For industrial fermentation producing therapeutic proteins or monoclonal antibodies, these insights enable direct processing of high-titer broths without dilution, potentially reducing facility footprint and capital costs while maintaining efficient clarification. Fouling resistance analysis confirms that reversible fouling accounts for most of the total resistance, validating BW as an effective primary mitigation strategy. However, sustained performance requires robust cleaning protocols for continuous operation.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "validating BW as an effective primary mitigation strategy. However, sustained performance requires robust cleaning protocols for continuous operation. Yet future investigations should focus on molecular dynamics simulation and computational fluid dynamics [77] to clarify membrane-solute interactions in complex fermentation broths and extend these findings to other protein-cell systems for broader SMBR implementation in continuous bioprocessing.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[39] P. V¨ais¨anen, M.R. Bird, M. Nystr¨om, Treatment of UF membranes with Simple and Formulated cleaning agents, Food Bioprod. Process. 80 (2002) 98–108, https://doi. org/10.1205/09603080252938735.[40] M. Bartlett, M.R. Bird, J.A. Howell, An experimental study for the development of a qualitative membrane cleaning model, J. Membr. Sci. 105 (1995) 147–157, https://doi.org/10.1016/0376-7388(95)00052-E.[41] P. Blanpain-Avet, J.F. Migdal, T. B´en´ezech, Chemical cleaning of a tubular ceramic microfiltration membrane fouled with a whey protein concentrate suspensionCharacterization of hydraulic and chemical cleanliness, J. Membr. Sci. 337 (2009) 153–174, https://doi.org/10.1016/j.memsci.2009.03.033.[42] C.J. Shorrock, M.R. Bird, Membrane cleaning: Chemically enhanced removal of deposits formed during yeast cell harvesting, Food Bioprod. Process. 76 (1998) 30–38, https://doi.org/10.1205/096030898531729.[43] M.B. Rosly, N. Jusoh, N. Othman, H.A. Rahman, N.F.M. Noah, R.N.R. Sulaiman, Effect and optimization parameters of phenol removal in emulsion liquid membrane process via fractional-factorial design, Chem. Eng. Res. Des. 145 (2019) 268–278, https://doi.org/10.1016/j.cherd.2019.03.007.[44] A. Jankovic, G. Chaudhary, F. Goia, Designing the design of experiments (DOE) – an investigation on the influence of different factorial designs on the characterization of complex systems, Energy Build. 250 (2021) 111298, https:// doi.org/10.1016/j.enbuild.2021.111298.[45] M.M.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "actorial designs on the characterization of complex systems, Energy Build. 250 (2021) 111298, https:// doi.org/10.1016/j.enbuild.2021.111298.[45] M.M. Bradford, A rapid and Sensitive method for the Quantitation of Microgram Quantities of protein utilizing the principle of protein-Dye binding, Anal. Biochem. 72 (1976) 248–254, https://doi.org/10.1016/0003-2697(76)90527-3.[48] C. Güell, P. Czekaj, R.H. Davis, Microfiltration of protein mixtures and the effects of yeast on membrane fouling, J. Membr. Sci. 155 (1999) 113–122, https://doi.org/ 10.1016/S0376-7388(98)00305-6.[49] Y. Ye, V. Chen, Reversibility of heterogeneous deposits formed from yeast and proteins during microfiltration, J. Membr. Sci. 265 (2005) 20–28, https://doi.org/ 10.1016/j.memsci.2005.04.031.[50] D.J. Hughes, Z. Cui, R.W. Field, U.K. Tirlapur, Membrane fouling by cell-protein mixtures: in situ characterisation using multi-photon microscopy, Biotechnol. Bioeng. 96 (2007) 1083–1091, https://doi.org/10.1002/bit.21113.[51] N. Arora, R.H. Davis, Yeast cake layers as secondary membranes in dead-end microfiltration of bovine serum albumin, J. Membr. Sci. 92 (1994) 247–256, https://doi.org/10.1016/0376-7388(94)00075-1.[52] V.T. Kuberkar, R.H. Davis, Modeling of fouling reduction by secondary membranes, J. Membr. Sci. 168 (2000) 243–258, https://doi.org/10.1016/S03767388(99)00324-5.[53] P.K. Gkotsis, A.I.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "g of fouling reduction by secondary membranes, J. Membr. Sci. 168 (2000) 243–258, https://doi.org/10.1016/S03767388(99)00324-5.[53] P.K. Gkotsis, A.I. Zouboulis, Biomass characteristics and their effect on membrane bioreactor fouling, Molecules 24 (2019), https://doi.org/10.3390/ molecules24162867.[54] W.D. Mores, R.H. Davis, Yeast-fouling effects in cross-flow microfiltration with periodic reverse filtration, Ind. Eng. Chem. Res. 42 (2003) 130–139, https://doi. org/10.1021/ie020421k.[55] C. Ma, C. Yi, F. Li, C. Shen, Z. Wang, W. Sand, Y. Liu, Mitigation of membrane fouling using an electroactive polyether sulfone membrane, Membranes 10 (2020), https://doi.org/10.3390/membranes10020021.[56] S. Kaykhaii, I. Herrmann, A. Hedstr¨om, K. Nordqvist, I. Heidfors, M. Viklander, Enhancing stormwater treatment through ultrafiltration: impact of cleaning chemicals and backwash duration on membrane efficiency, Water Reuse 13 (2023) 634–646, https://doi.org/10.2166/wrd.2023.106.[57] R. van Reis, A. Zydney, Bioprocess membrane technology, J. Membr. Sci. 297 (2007) 16–50, https://doi.org/10.1016/j.memsci.2007.02.045.[58] J.W. Chew, J. Kilduff, G. Belfort, The behavior of suspensions and macromolecular solutions in crossflow microfiltration: an update, J. Membr. Sci. 601 (2020) 117865, https://doi.org/10.1016/J.MEMSCI.2020.117865.[59] S.T. Kelly, A.L. Zydney, Mechanisms for BSA fouling during microfiltration, J. Membr. Sci. 107 (1995) 115–127, https://doi.org/10.1016/0376-7388(95) 00108-O.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[60] G. Belfort, R.H. Davisb, A.L. Zydney, The behavior of suspensions and macromolecular solutions in crossflow microfiltration, J. Membr. Sci. 96 (1994) 1–58, https://doi.org/10.1016/0376-7388(94)00119-7.[61] C.C. Ho, A.L. Zydney, A combined pore blockage and cake filtration model for protein fouling during microfiltration, J. Colloid Interface Sci. 232 (2000) 389–399, https://doi.org/10.1006/jcis.2000.7231.[62] C.S. Parnham, R.H. Davis, Protein recovery from bacterial cell debris using crossflow microfiltration with backpulsing, J. Membr. Sci. 118 (1996) 259–268, https://doi.org/10.1016/0376-7388(96)00108-1.[63] D. Hughes, R.W. Field, Crossflow filtration of washed and unwashed yeast suspensions at constant shear under nominally sub-critical conditions, J. Membr. Sci. 280 (2006) 89–98, https://doi.org/10.1016/j.memsci.2006.01.022.[64] D.W. Gao, Z.D. Wen, B. Li, H. Liang, Membrane fouling related to microbial community and extracellular polymeric substances at different temperatures, Bioresour. Technol. 143 (2013) 172–177, https://doi.org/10.1016/J. BIORTECH.2013.05.127.[65] H.J. Tanudjaja, A. Anantharaman, A.Q.Q. Ng, Y. Ma, M.B. Tanis-Kanbur, A. L. Zydney, J.W. Chew, A review of membrane fouling by proteins in ultrafiltration and microfiltration, J. Water Process Eng. 50 (2022) 103294, https://doi.org/ 10.1016/J.JWPE.2022.103294.[66] C. Roullier-Gall, V. David, D. Hemmler, P. Schmitt-Kopplin, H. Alexandre, Exploring yeast interactions through metabolic profiling, Sci. Rep.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "294.[66] C. Roullier-Gall, V. David, D. Hemmler, P. Schmitt-Kopplin, H. Alexandre, Exploring yeast interactions through metabolic profiling, Sci. Rep. 10 (2020), https://doi.org/10.1038/s41598-020-63182-6.[67] A.A. Shukla, B. Hubbard, T. Tressel, S. Guhan, D. Low, Downstream processing of monoclonal antibodies—Application of platform approaches, J. Chromatogr. B 848 (2007) 28–39, https://doi.org/10.1016/J.JCHROMB.2006.09.026.[68] A.L. Zydney, Continuous downstream processing for high value biological products: a Review; Continuous downstream processing for high value biological products: a Review, Biotechnol. Bioeng. 113 (2016) 465–475, https://doi.org/ 10.1002/bit.25695/abstract.[69] B. Kelley, Industrialization of mAb production technology: the bioprocessing industry at a crossroads, mAbs 1 (2009) 443–452, https://doi.org/10.4161/ mabs.1.5.9448.[70] A. Xenopoulos, A new, integrated, continuous purification process template for monoclonal antibodies: process modeling and cost of goods studies, J. Biotechnol. 213 (2015) 42–53, https://doi.org/10.1016/J.JBIOTEC.2015.04.020.[71] V. Warikoo, R. Godawat, K. Brower, S. Jain, D. Cummings, E. Simons, T. Johnson, J. Walther, M. Yu, B. Wright, J. Mclarty, K.P. Karey, C. Hwang, W. Zhou, F. Riske, K. Konstantinov, Integrated continuous production of Recombinant therapeutic proteins, Biotechnol. Bioeng. 109 (2012) 3018–3029, https://doi.org/10.1002/ bit.24584/abstract.[73] N.A.P. Maguire, M. Ebrahimi, R. Fan, S. Gießelmann, F. Ehlen, S.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "chnol. Bioeng. 109 (2012) 3018–3029, https://doi.org/10.1002/ bit.24584/abstract.[73] N.A.P. Maguire, M. Ebrahimi, R. Fan, S. Gießelmann, F. Ehlen, S. Schütz, P. Czermak, Influence of ceramic membrane surface characteristics on the flux behavior of a complex fermentation broth, Membranes 11 (2021), https://doi.org/ 10.3390/membranes11060402.[74] S. Stade, M. Kallioinen, A. Mikkola, T. Tuuva, M. M¨antt¨ari, Reversible and irreversible compaction of ultrafiltration membranes, Sep. Purif. Technol. 118 (2013) 127–134, https://doi.org/10.1016/J.SEPPUR.2013.06.039.[75] W. Ding, K. Ma, A.E. Childress, A novel method to quantify real-time compaction of water treatment membranes, Environ. Sci. Technol. Lett. 10 (2023) 955–960, https://doi.org/10.1021/acs.estlett.3c00656.[76] R.D. Gustafson, A.L. McGaughey, W. Ding, S.C. McVety, A.E. Childress, Morphological changes and creep recovery behavior of expanded polytetrafluoroethylene (ePTFE) membranes used for membrane distillation, J. Membr. Sci. 584 (2019) 236–245, https://doi.org/10.1016/J. MEMSCI.2019.04.068.[77] J. Lohaus, F. Stockmeier, P. Surray, J. L¨olsberg, M. Wessling, What are the microscopic events during membrane backwashing? J. Membr. Sci. 602 (2020) 117886 https://doi.org/10.1016/j.memsci.2020.117886.",
+    "citation": {
+      "authors": [
+        "Skiadas V.",
+        "Woodley M."
+      ],
+      "paper_id": "1-s2.0-S0376738825010105-main",
+      "title": "Optimizing protein-cell separation in submerged membrane bioreactor for clarification",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  }
+]

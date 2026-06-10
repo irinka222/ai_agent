@@ -1,0 +1,888 @@
+[
+  {
+    "content": "Journal of Membrane Science 719 (2025) 123705\n\nAvailable online 8 January 20250376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/bync-nd/4.0/). Imidazolium polymerized ionic liquid-based membranes for the sustainableCr(VI) recovery from industrial effluents Berta Alcalde a,b , Francesco Galiano b,**\n\n, Raffaella Mancuso c , Bartolo Gabriele c\n\n,Luca Guglielmero d, Lorenzo Guazzelli e, Christian S. Pomelli e, Enriqueta Antic´o a ,Cl`audia Font`as a,* , Alberto Figoli b a Chemistry Department, Universitat de Girona, C/ Maria Aur`elia Capmany, 69, 17003, Girona, Spainb Institute on Membrane Technology, National Research Council (CNR-ITM), Via P. Bucci 17/C, Rende, CS, 87036, Italyc Laboratory of Industrial and Synthetic Organic Chemistry (LISOC), Department of Chemistry and Chemical Technologies, University of Calabria, Via Pietro Bucci 12/C,Arcavacata di, 87036, Rende, CS, Italyd Scuola Normale Superiore, Piazza dei Cavalieri 7, 56126, Pisa, Italye Department of Pharmacy, University of Pisa, Via Bonanno 33, 56126, Pisa, Italy\n\nA R T I C L E I N F O Keywords:Imidazolium polymerized ionic liquid (PIL)MembraneCr(VI)RecoveryStability",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T This study aimed to address the critical challenge of recovering chromate ions from industrial wastewater usingstable functionalized membranes. We developed and evaluated the possibility of incorporating imidazoliumpolymerized ionic liquids (PILs) into a polymeric matrix by using an original acrylate formulation to copolymerize a series of imidazolium-based PILs, thus chemically entrapping them within the membrane matrix.Notably, the PIL with the longest aliphatic chain produced dense, homogeneous membranes that were easy tomanipulate and suitable for studies on Cr(VI) recovery. The resulting membrane enabled the quantitative recovery of chromate in a 0.1 M NaOH solution. Membrane stability was rigorously evaluated over 18 successivecycles (24 h each) and only a 20 % decrease in the recovery efficiency was observed, demonstrating reliableperformance and the potential for repeated use despite exposure to the alkaline solution employed for chromaterecovery. Importantly, the membrane required no regeneration or activation treatment, facilitating continuousCr(VI) recovery through membrane permeation. Moreover, the effect of pH on the recovery efficiency of Cr(VI)was investigated in the range pH = 2–9, revealing a quantitative extraction for pH above 7. Selectivity experiments revealed the membrane’s affinity for Cr(VI) extraction over Cr(III) and other metal ions in synthetic watermixtures.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "above 7. Selectivity experiments revealed the membrane’s affinity for Cr(VI) extraction over Cr(III) and other metal ions in synthetic watermixtures. Furthermore, the imidazolium PIL-based membrane exhibited high efficiency (ranging from 63 % to82 %) in recovering chromate from industrial wastewater samples, underscoring its practical suitability forenvironmental remediation. Overall, this study highlights the potential of PIL-based membranes as sustainableand efficient materials for water treatment applications.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction In the current times, where there is a strong pressure to obtain rawmaterials and an imperative need to protect the environment from toxicelements, the demand for sustainable solutions for metal recovery hasbecome increasingly urgent. Industrial activities often generate effluentscontaining valuable metals, presenting both an opportunity and achallenge. On one hand, these metals hold significant economic valueand can be reused in various processes, contributing to resource conservation. On the other hand, their presence in industrial wastewaterposes environmental risks. Therefore, there is an increasing demand foreconomically viable and environmentally sound systems that enable therecovery of metals from industrial effluents.Chromium, widely used in industrial processes such as electroplating, metallurgy, and leather tanning, often ends up as a contaminantin industrial effluents, posing significant environmental and health risks.In the environment, the most prevalent forms of chromium are Cr(VI)and Cr(III). Among them, hexavalent chromium is recognized as one of\n\n* Corresponding author.** Corresponding author.E-mail addresses: f.galiano@itm.cnr.it (F. Galiano), claudia.fontas@udg.edu (C. Font`as).\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Journal of Membrane Science 719 (2025) 123705 the most toxic heavy metal elements for living organisms [1]. Therefore,due to its adverse effects on human health and the environment, it iscrucial to effectively remove such pollutants from water sources. Usually, the removal of chromate is achieved by adsorption, chemical precipitation, coagulation and flocculation, electrochemical approaches,and membrane separation, among others [2–4]. Functionalized membranes have also been employed for the removal of Cr(VI). Nie et al. [5]fabricated a composite adsorptive membrane by combining polyacrylonitrile as a substrate with crosslinked polyethyleneimine to efficiently remove Cr(VI) from wastewater. The membrane exhibited a highadsorption capacity, reaching a maximum of 89.16 mg g-1. Furthermore, the membrane was successfully re-utilized for four cycles. Parket al. [6] investigated a chitosan-coated iron oxide nanoparticle immobilized in a membrane for the effective removal of Cr(VI). In that study,an absorption capacity of 14.451 mg g-1 was obtained in a batch system.Polymer inclusion membranes (PIMs), have also been used for theremoval of Cr(VI) from wastewaters. Sellami et al.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "g g-1 was obtained in a batch system.Polymer inclusion membranes (PIMs), have also been used for theremoval of Cr(VI) from wastewaters. Sellami et al. [7] developed a PIMcomposed of poly(vinylidene fluoride), as the polymer, tricaprylmethylammonium chloride, as the extractant, and 2-nitrophenyloctylether,as the plasticizer, for the transport of Cr(VI) in acidic aqueous media.The PIM exhibited a selective transport of Cr(VI) ions, with a 96.9 %removal efficiency from a mixture containing other metal ions. Moreover, Zawierucha et al. [8] studied the Cr(VI) transport through a PIMincluding a calixresorcin[4]arene derivative as the extractant, and theCr(VI) recovery factor values exceeded 98 % for the initial four cycles ofthe PIM, with each cycle lasting 6 h.Over the last decades, ionic liquids (ILs) have been used for extractionand separation processes, besides other applications [9]. ILs are formedby combining an organic cation (such as imidazolium, ammonium,phosphonium or pyridinium) with an organic or inorganic anion, andhave a melting point below 100 ◦C. Many studies have reported that ILscan be used for the extraction of metal ions [10–12].",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nic or inorganic anion, andhave a melting point below 100 ◦C. Many studies have reported that ILscan be used for the extraction of metal ions [10–12]. Among the differentILs, imidazolium-based ILs have been shown to be effective in extractingmetals from aqueous solutions [13–15], and also in recovering metalsfrom scraps, such as Cu from waste printed circuit boards [16].Imidazolium ILs are also highly effective as extractants for Cr(VI), whether utilized directly [17] or integrated into various sorbents to create functionalized materials. For instance, a cellulosicfilter paper was fabricated from waste newspaper functionalizedwith 1-aminopropyl-3-methyl imidazolium bromide [18] or magneticmulti-walled carbon nanotube functionalized with 1-hydroxyethyl-2,3-methyl imidazolium chloride IL [19]. Additionally, this class of ILshas been successfully integrated into a polymeric matrix to producePIMs, capable of continuously transporting chromate from a feedphase to a stripping solution [20–22].Therefore, ILs have been used widely and successfully incorporatedinto materials for metal extraction, although the leaching of ILs limitsthe use of such materials. In recent years, different approaches havebeen studied to overcome this drawback. One of these strategies is thenew class of IL-based materials known as poly(ionic liquids) or polymerized ILs (PILs) [23].",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "to overcome this drawback. One of these strategies is thenew class of IL-based materials known as poly(ionic liquids) or polymerized ILs (PILs) [23]. PILs consist of IL species incorporated into eachmonomer repeat unit, forming a macromolecular structure through apolymeric backbone [12]. A key feature of PILs is their ability to bepolymerized, as they are reactive species, and chemically incorporatedinto a polymer matrix by forming new covalent bonds. This preventstheir release and ensures stability within the resulting material. PILshave attracted considerable attention due to their combination of ILproperties and the structural benefits provided by the macromoleculararchitecture. Moreover, PILs offer enhanced mechanical stability,improvedprocessability,durability,andspatialcontrollabilitycompared to ILs, making them a promising alternative for various applications including thermal-responsive materials, carbon materials,catalysis, porous materials, and adsorption materials [24].In the last decade, PILs have been studied in a great variety of applications (see, for example [25]). The main reason behind the choice ofthis kind of material stems from the possibility to transfer the tunability potential of ILs into the polymeric framework.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "reason behind the choice ofthis kind of material stems from the possibility to transfer the tunability potential of ILs into the polymeric framework. It is indeed possible tobuild up task-specific monomers (in terms of hydrophobic/hydrophilicportions, functional groups, nature of cation and anion) to address therequest of a specific problem.PILs based on imidazolium IL have also been employed for metalextraction. Liu et al. [26] synthesized a low-cost and acid-stable PILdesigned to recover gold from e-waste, Zhang et al. [27] prepared aseries of PILs with different N3 substituents for Pt(IV) adsorption andGaliano et al. [28] a bio-inspired thioester-based PIL for the removal ofboth species of As from water.Regarding Cr(VI), only a few examples of imidazolium-based PILsused as adsorbents can be found in the literature (Table 1). In thesestudies, the focus is primarily on the synthesis of PILs and the characteristics of Cr(VI) adsorption, including the evaluation of sorption isotherms.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "studies, the focus is primarily on the synthesis of PILs and the characteristics of Cr(VI) adsorption, including the evaluation of sorption isotherms. It is important to highlight that after the extraction process, anadditional elution step is mandatory if the aim is to recover the metal.However, the elution, typically achieved by using strong acidic or basicsolutions, can lead to degradation or alteration of the sorbent material,reducing its effectiveness for subsequent reuse and the overall sustainability of the process [29–32].Specifically, the aim of this study is to develop a sustainable and costeffective method of recovering chromium from industrial effluents,aiming to mitigate adverse environmental impacts and operationalcomplexities.In the current context of increasing environmental concerns andstricter regulations, the development of sustainable methods is a criticalfactor in minimizing the ecological footprint of industrial processeswhile ensuring efficient resource recovery and reducing reliance onhazardous chemicals, with particular attention to their effectiveness,selectivity, and environmental impact [37].",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rce recovery and reducing reliance onhazardous chemicals, with particular attention to their effectiveness,selectivity, and environmental impact [37]. This can be achieved byusing biodegradable, low-cost and recyclable reagents, such as the caseof deep eutectic solvents [38] or ILs [39].The hypothesis of our study is that the incorporation of a PIL into apolymeric matrix will produce a stable membrane able to perform theextraction and back-extraction of chromate in a single step, and, therefore, allowing the sustainable recovery of Cr(VI) from industrial effluents.Even though this type of membrane has been used for gas separation [40],to the best of our knowledge, this is the first time that membranes containing imidazolium-PILs have been investigated for the recovery ofmetals from industrial effluents. The integration of PILs into the polymeric structure holds the potential to address stability concernsencountered in other types of functionalized membranes [41]. Therefore,particular attention has been given to the stability and potential reuse ofthe membrane, which could contribute to the development of a sustainable system for removing and recovering toxic hexavalent chromium. 2. Material and methods 2.1. Chemicals The PIL-based membranes were prepared using the following chemicals.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "and recovering toxic hexavalent chromium. 2. Material and methods 2.1. Chemicals The PIL-based membranes were prepared using the following chemicals. Dodecyl trimethylammonium bromide (DTAB, >98.0 %), lithiumbis((trifluoromethyl)sulfonyl)amide (98 %), L-ascorbic acid (>99 %), andpropargyl bromide (80 % toluene, stabilized with MgO) were purchasedfrom Tokyo Chemical Industry (TCI, Tokyo, Japan). Ethylene glycoldimethacrylate (EGDMA, 98 %), toluene, and sodium hydroxide (97 %)were purchased from Sigma Aldrich (St. Loius, Missouri, EEUU) and 2hydroxyethyl methacrylate stabilized (HEMA, 97 %) and 2,2-dimethoxy-2-phenyl acetophenone (DMPA, 99 %) were obtained from AcrosOrganics (Geel, Belgium). Hydrochloric acid (37 %), sodium chloride(>99 %), 4-vinylbenzyl chloride (90 %), copper (II) sulphate pentahydrate (>98 %), and dichloromethane were purchased from Merck LifeScienceS.R.L.(Eppelheim,Germany).Tetrahydrofuran,dimethylformamide and sodium azide (99 %) were purchased from Fluka(Thermo Fisher, Buchs, Germany) and 1-methyl-1H-imidazole (99 %)was purchased from Alfa Aesar (Thermo Fisher, Karlsruhe, Germany).",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "For the Cr extraction and transport experiments using the preparedmembrane, the reagents K2CrO4 and Cr(NO3)3⋅9H2O, both from Panreac(Castellar del Vall`es, Spain), were used to prepare a 1000 mg L-1 Cr(VI)and Cr(III) stock solutions, respectively. The standards for the analysis were prepared using a Cr stock solution (1000 mg L-1) (single elementsolution for A.A.S.) purchased from Fisher Chemical (Hampton, NewHampshire, EEUU). Other reagents used were NaCl, HCl (37 %), andNaOH from Panreac (Castellar del Vall`es, Spain). Aqueous stock solutions (1000 mg L-1) of other metal ions were prepared using Ni(NO3)2⋅6H2O, Cu(NO3)2⋅3H2O, Zn(NO3)2⋅6H2O, and Cd(NO3)2⋅4H2O allfrom Panreac (Castellar del Vall`es, Spain). Standards for the analysiswere prepared using stock solutions (1000 mg L-1) of Cu (SigmaAldrich, Saint Louis, MO, USA), Zn (SPEX CertiPrep (Metuchen, NJ,USA), Ni, and Cd (ROMIL Pure Chemicals, Cambridge, UK).Ultrapure water (Milli-Q Plus; Millipore Ib´erica S.A., Barcelona,Spain) was used to prepare solutions for extraction and recoveryexperiments. 2.2. Polymerizable ionic liquids (PILs) preparation and characterization Imidazolium PILs PIL-1, PIL-2, and PIL-3 were prepared followingthe procedures reported in ref. [42] and PIL-4 was prepared according tothe synthetic procedure described in the supplementary material andshown in Scheme S1.The chemical structures of the imidazolium PILs utilized in this studyare presented in Table 2.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ed in the supplementary material andshown in Scheme S1.The chemical structures of the imidazolium PILs utilized in this studyare presented in Table 2. PIL-1, PIL-2, and PIL-4 share the same anion,Tf2N-, while differing in the cation due to variations in chain length (inthe case of PIL-1 and PIL-2) or the inclusion of a triazole moiety (in PIL4). Additionally, PIL-3 differs from PIL-2 in terms of the anion, nowfeaturing chloride instead of Tf2N-, while maintaining the same cation. 2.3. Membrane preparation The preparation of PIL-based membranes was carried out followingthe procedure described by Galiano et al. [40], and shown in Fig. 1. Ahomogeneous solution was obtained by mixing HEMA (52.0 wt%), ultrapure water (8.0 wt%), DTAB (13.0 wt%), and the corresponding PIL(27.0 wt%). Then, EGDMA (3.0 % on the weight of HEMA and IL) andDMPA (0.6 wt%) were added to the mixture. Additionally, a blankmembrane was also prepared, the composition of which consisted ofHEMA (70.0 wt%), ultrapure water (12.5 wt%), and DTAB (17.5 %),followed by the addition of EGDMA (3.0 % on the weight of HEMA) and",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 1Studies carried on for the adsorption and removal of Cr(VI) using PILs. PILMaterialRemarksRef. Poly(3-ethyl-1vinylimidazolium bis(trifluoromethanesulfonyl)imide) Solid adsorbentCr(VI) and methylblue adsorption.Sorption capacity:17.9 mg Cr(VI) g-1.\n\n[33]\n\nPoly(3-methyl-4pentaoxyethylene-1,2,3triazoliumbis(trifluoromethanesulphonyl)imide) Solid adsorbentSorption capacity:13.5 mg Cr(VI) g-1.[34] (N,N′-methylene-bis(1-(3vinylimidazolium)) chlorideSolidadsorbent.MesoporousPILs with Cl- and Br-\n\nAnionic pollutantsremoval.Regeneration of thesorbent with KCl.Maximum sorptioncapacity: 1615 mgCr(VI) g-1. Highadsorption capacityafter 5 consecutivecycles. [29]\n\n1-allyl-3-methylimidazoliumchloridePulverizedhydrogelMaximumadsorptioncapacity: 74.5 mgCr(VI) g-1 (pH = 2)\n\n[35]\n\nDivinil imidazolium ILPILencapsulatedinto MOFs\n\nUptake capacity:787 mg Cr(VI)/gRecyclability> 10cycles. Elution withNaCl. Maximumremovalpercentages >90 %in pH 3–9. [30]\n\n(1,2,3,4,5,6-hexakis(1-(3-vinylimidazolium) bromide)benzene AlcogelMaximum sorptioncapacity: 236.8 mgCr(VI) g-1. Goodselectivity of Cr(VI)through differentanions. Cr(VI)effectively removesunder a broadrange of pH (2-12).\n\n[36]\n\nHeptkis(6-deoxy-6vinylimidazolium)-β-cyclodextrin Solid adsorbentMaximumabsorptioncapacity: 878.2 mgK2Cr2O7 g-1.Regeneration of atleast 5 times underhighly acidicconditions.Maximum removalefficiency at pH =10.\n\n[31]",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1-Butyl-3-vinyl imidazoliumchloridePowderCr(VI) recoveryfrom tap, drinking,and synthetictannery effluent.Maximum capacity:approx. l51 g Cr(VI) g-1 (pH = 2).Elution with NaOHor NaCl. Any loss inbinding capacitythrough 5 cycles ofuse.\n\n[32]\n\n1-Hexyl-3-(4-vinylbenzyl)-1Himidazole-3-ium bis((trifluoromethyl)sulfonyl)amide MembraneCr(VI) extraction/recovery in onestep. Cr(VI)recovery fromelectroplatingsolutions.\n\nThisstudy Table 2Chemical structures of the PILs used in this study. PILChemical structure PIL-1.1-Hexyl-3-(4-vinylbenzyl)-1Himidazole-3-ium bis((trifluoromethyl)sulfonyl)amide PIL-2.1-Methyl-3-(4-vinylbenzyl)-1Himidazole-3-ium bis((trifluoromethyl)sulfonyl)amide PIL-3.1-Methyl-3-(4-vinylbenzyl)-1Himidazole-3-ium chloride\n\nPIL-4.1-Methyl-3-(1-(4-vinylbenzyl)-1H-1,2,3triazol-4-yl)-1H-imidazole-3-ium bis((trifluoromethyl)sulfonyl)amide\n\nB. Alcalde et al.\n\nJournal of Membrane Science 719 (2025) 123705",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3,
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "DMPA (0.6 wt%). For both of the aforementioned cases, the homogeneous solution containing all membrane components was poured between two glass plates (aluminium foils with a thickness of about 11 μmwere used as spacers at the corners of the glass plate). The solution wasphoto-polymerized for 5 min under UV light using a lamp emission from180 nm to visible light at 500 W, which was purchased from HeliosItalquartz s. r.l. (Cambiago, Italy). The polymerized membranes werecarefully peeled off from the glass plate in water, washed with water,and stored in it until their use. 2.4. Membrane characterization Scanning electron microscopy (SEM) images were recorded using aTESCAN CLARA SEM (Brno, Czech Republic) at a magnification of 2.00K X (resolution: 0.9 nm to 15 kV).",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tron microscopy (SEM) images were recorded using aTESCAN CLARA SEM (Brno, Czech Republic) at a magnification of 2.00K X (resolution: 0.9 nm to 15 kV). The elemental composition on thesurface of the membranes was measured with an energy dispersive X-ray(EDX) detector (Bruker X Flash 7, Massachusetts, EEUU).Fourier-transform infrared spectroscopy (FT-IR) tests were performed on dried samples using the instrument Spectrum One FT-IRSpectrometer from PerkinElmer Instrument (Waltham, Massachusetts,EEUU) in the absorption range of 650–4000 cm-1.Dry membrane samples were obtained by leaving them in a BicasaVuotomatic 50 oven from Gemini (Apeldoorn, The Netherlands) at atemperature of approximately 50 ◦C for at least 24 h.X-ray fluorescence spectra of the membranes were obtained using acommercially available benchtop energy dispersive X-ray fluorescence(EDXRF) spectrometer (S2 Ranger, Bruker AXS, GmbH, Karlsruhe,Germany), equipped with a Pd target X-ray tube (max. power 50 W) andan XFLASHLE Silicon Drift Detector (SDD). The software SPECTRAEDX (Bruker AXS, GmbH, Germany) was used for instrument control anddata processing.Contact angle measurements were conducted using CAM200 instrument (KSV Instrument). A minimum of five measurements weretaken for each membrane sample, followed by the calculation of thestandard deviation. 2.5.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rument (KSV Instrument). A minimum of five measurements weretaken for each membrane sample, followed by the calculation of thestandard deviation. 2.5. Cr(VI) transport and recovery using a transport cell With the aim of using the PIL-1-based membrane for the continuoustransport of Cr(VI) from a feed phase to a stripping phase, this membrane was incorporated into a transport cell (see Fig. S1 in supplementary material). The cell is made of glass with a small opening to clampthe membrane (1.7 cm2 effective membrane area) and a reservoir tocontain the stripping solution (5 mL 0.1 M NaOH) in static mode [43].This device was immersed in the feed solution (100 mL), which wasmechanically stirred. The use of a smaller volume of stripping phasethan the feed phase (5 mL and 100 mL, respectively), facilitates thepreconcentration of Cr(VI).Different experiments were conducted using this device and a PIL-1based membrane. To evaluate the performance, stability and kinetics oftransport, a feed solution consisting of 2 mg L-1 Cr(VI) in ultrapure water was used. The effect of initial Cr(VI) concentration was performedusing feed solutions containing from 0.01 mg L-1 to 10 mg L-1 of Cr(VI)in ultrapure water.Selectivity studies were conducted using synthetic solutions of 2 mgL-1 Cr(III) solution in ultrapure water, and solutions containing Cr(VI)along with other metals (Zn, Cu, Cd, and Ni).",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "using synthetic solutions of 2 mgL-1 Cr(III) solution in ultrapure water, and solutions containing Cr(VI)along with other metals (Zn, Cu, Cd, and Ni). Specifically, mixtures ofZn/Cu at 5 mg L-1 each, along with Cr(VI) at 2 mg L-1, were tested, aswell as mixtures of Cd/Ni along with Cr(VI) at the same concentrations.Overall, the performance of the membrane was investigated in termsof recovery efficiency (RE), calculated using Eq. (1) [44]. RE (%) = VsVf [Cr]s,t[Cr]f,i x 100(1) where Vs corresponded to the volume of the stripping phase, Vf to thevolume of the feed phase, [Cr]r,f to the Cr concentration of the strippingphase at a certain time (t), and [Cr]f,i to the Cr concentration of the feedphase at the initial time.All experiments were done at room temperature (22 ± 2 ◦C) for 24 h(except the kinetics study), and per duplicate, due to the excellentrepeatability (evaluated for n = 5) of the membrane.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.6. Cr determination Cr and other metal concentrations in aqueous solutions were determined by microwave plasma atomic emission spectroscopy (MP-AES,model 4200 from Agilent Technologies, Tokyo, Japan). 3. Results and discussion 3.1. Suitability of the PILs to prepare polymeric membranes Membranes were prepared by copolymerizing imidazolium synthetized PILs with suitable acrylic monomers. The monomers of the PILswere dispersed in a proper acrylate formulation and then photopolymerized in order to obtain the desired dense and stable membranes.The polymerizable nature of the PIL enabled its chemical anchoragewithin the membrane matrix, along with the other polymerizable compounds (HEMA, EGDMA) in the formulation, thus preventing any potential leaching from the membrane structure. In particular, HEMA wasused as a monomer involved in forming the membrane network, whileEGDMA was employed as a crosslinking agent to strengthen the polymermembrane matrix. DTAB, which was also used in the preparation of thestudied membranes, facilitated the formation of a stable phase by actingas a surfactant. This component was removed from the membranecomposition after the polymerization by rinsing. Finally, water was alsoadded to the membrane to prevent it from becoming stiff and fragile.Theresultingmembranespreparedfollowingtheproceduredescribed in section 2.3 were different according to the PIL used.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "t from becoming stiff and fragile.Theresultingmembranespreparedfollowingtheproceduredescribed in section 2.3 were different according to the PIL used. ForPIL-1, the polymerization was effective, obtaining a transparent andmechanically stable membrane. However, PIL-2, PIL-3, and PIL-4, all Fig. 1. Schematic representation of membrane preparation.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Journal of Membrane Science 719 (2025) 123705 sharing the characteristic of being imidazolium PILs with a short alkylchain bonded to N-1 (methyl group), did not successfully form membranes. Therefore, these PILs were discarded and only the imidazoliumbased PIL with the longest aliphatic chain, specifically a hexyl chain(PIL-1), was investigated. The formed membrane exhibited ease ofhandling and a very hydrophilic nature, due to the presence of the ionicimidazolium moiety (with a measured contact angle of 24◦± 1), makingit ideal in applications related to water treatment. Moreover, a blankmembrane (without any PIL) was also satisfactorily prepared and usedas a benchmark. The thickness of the resulting membranes was 138.53μm for the blank membrane, and 53.39 μm for the PIL-1-based membrane. The obtained membranes were characterized using FT-IR (Fig. 2).As can be seen in the spectra, there were common peaks associatedwith the copolymerization of HEMA and EGDMA. Specifically, a broadband at approximately 3400 cm-1 corresponding to the O–H stretchingvibration, while a peak approximately at 1720 cm-1 corresponded to thecarbonyl stretching of the polymerized HEMA and EGDMA can beobserved [45]. Additionally, the C–H stretching and bending appearedin the ranges 3000–2850 cm-1 and 1500–1350 cm-1, respectively [46].Moreover, the FT-IR spectra of the membrane based on PIL-1 (Fig.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nd bending appearedin the ranges 3000–2850 cm-1 and 1500–1350 cm-1, respectively [46].Moreover, the FT-IR spectra of the membrane based on PIL-1 (Fig. 2b)exhibited characteristic peaks of the anion Tf2N-at approximately 1226cm-1, corresponding to the CF3 bond, and at 1185 cm-1, correspondingto the stretching vibration of –SO2- . This confirmed the correct incorporation of the PIL into the membrane.The surface morphologies and cross-sections of both blank and PIL-1based membranes can be seen in the SEM images shown in Fig. 3.As can be seen, the two membranes exhibited a dense structure, withno apparent porosity. The greater thickness of the blank membranecompared to the PIL-1-based membrane can be attributed to its formulation, which contains a higher proportion of water. Water, being theonly non-polymerizable component in the formulation, does notcontribute to the polymerization process and may have led to a lesscompact structure. This increased water content likely caused the blankmembrane to be thicker and less dense than the PIL-1-based membrane, which benefits from the covalent incorporation of the PIL, resulting in amore compact and stable structure.Moreover, EDX analysis of surface the two membranes also corroborated the correct incorporation of PIL-1 within the polymeric matrix, asshown in Fig. 4.The PIL-1-based membrane (Fig. 4b) exhibited the peaks corresponding to S, N, and F, which are attributed to the counter anion of thePIL-1 Tf2N-.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "g. 4.The PIL-1-based membrane (Fig. 4b) exhibited the peaks corresponding to S, N, and F, which are attributed to the counter anion of thePIL-1 Tf2N-. In contrast, these peaks were absent in the blank membrane(Fig. 4a), which only displayed the peaks of C and O. This result providesthe confirmation that the PIL-1 was successfully incorporated into themembrane.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Cr(VI) recovery studies 3.2.1. Cr (VI) transportTo determine the feasibility of using the PIL-1-based membrane forthe transport of chromate, we used a feed solution containing 2 mg L-1 in ultrapure water and a 0.1 M NaOH solution as the stripping phase.Additionally, an experiment was also conducted using a blank membrane under the same experimental conditions. After 24 h, Cr recoveredin the stripping phase was determined, and it was found that the metalwas quantitatively transported in the case of the PIL-1-based membranewhile no transport was achieved for the blank membrane.It is reported in the literature that the extraction of metals bybifunctional ionic liquids (Bif-ILE) can involve both the cation and theanion in the extraction mechanism [10,47]. It is the case of a polymerinclusion membrane including different Bif-ILE as carriers for thetransportofCr(VI),suchastrialkylmethylammoniumbis(2,4,4-trimethylpentyl)-phosphinate ([A336][C272]). The proposed structure of the extracted Cr(VI) species was 2[A336][C272]⋅H2CrO4 [48].In our study, taking into account the nature of the PIL-1 and thepredominant Cr(VI) species at a neutral pH (HCrO4-and CrO42-, apossible extraction mechanism can be described as follows (see Fig. 5):\n\nJournal of Membrane Science 719 (2025) 123705",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5,
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Where VBhim+ is the 1-Hexyl-3-(4-vinylbenzyl)-1H-imidazole-3-iumcation, Tf2N-corresponds to the bis((trifluoromethyl)sulfonyl)amideanion, and C+ is a cation present in the aqueous solution. The subscript mem represents the species present in the membrane.Once the extracted compound reaches the stripping phase, chromateis released to extract OH-ions, and the corresponding cation (Na+), which are transported to the feed phase. This fact was supported by therise in the pH observed in the feed solution. Therefore, the driving forcebehind the extraction process is the gradient of NaOH.The repeatability of the RE% of the synthesized membrane wasevaluated by conducting five separate experiments using devices containing different segments of the original membrane. Analysis of the\n\nFig. 3. SEM images of the blank membrane (a) surface and (b) cross-section and of the PIL-1-based membrane (c) surface and (d) cross-section.\n\nFig. 4. EDX analysis of the surfaces: (a) blank membrane and (b) PIL-1-based membrane.\n\nFig. 5. Schematic diagram of Cr(VI) extraction by PIL-1 based membrane.\n\nB. Alcalde et al.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Journal of Membrane Science 719 (2025) 123705 stripping solutions yielded a mean concentration of Cr(VI) and a standard deviation of 40.7 ± 0.8 mg L-1 (representing a recovery efficiencyof 100 %). Moreover, these results also suggest that the procedure usedto prepare the PIL-1-based membrane produced a uniformly consistentfilm. 3.2.2. Kinetics of Cr(VI) recoveryThe kinetic of Cr(VI) recovery was investigated over different durations, ranging from 1 to 24 h. This parameter is crucial for determiningthe time needed for complete Cr(VI) removal under the experimentalconditions. The results, depicted in Fig. 6, indicate that the removalprocess was nearly complete after 18 h, with over 92 % of Cr(VI)removed. Quantitative removal was achieved after 24 h, which wasselected as the experiment duration for further investigations. 3.2.3. Stability of the PIL-1-based membraneStudying the stability of the PIL-1-based membrane is crucial forunderstanding its long-term performance and reliability in practicalapplications. To assess this, we conducted experiments in duplicate overseveral consecutive days using the same membrane piece in each device,labelled as R1 and R2. After each day of experimentation, both the feedand stripping solutions were refreshed, while the membrane remainedunchanged. The recovery efficiency was calculated for each device every24 h throughout the study. Results are presented in Fig.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e the membrane remainedunchanged. The recovery efficiency was calculated for each device every24 h throughout the study. Results are presented in Fig. 7 in terms of Cr(VI) RE(%) after each cycle.During the initial 48 h, both devices exhibited 100 % RE. After thisperiod, R2 underwent a 2-day immersion in ultrapure water, while R1continued recovery experiments. A slight decrease in efficiency wasobserved on day 3 for R1, reaching about 80 % RE, a value also achievedby R2 upon reintroduction into the experiment. The fact that R2’s efficiency, post-water immersion, was comparable to that of R1 suggeststhat the membrane can be stored in water without losing efficiency, evenafter being used and in contact with 0.1 M NaOH. This finding is ofpractical interest because can simplify the handling and storage ofmembranes in real applications.From day 5 to day 11, RE% was calculated every 24 h, revealing nosignificant changes in membrane efficiency. After 4 days in water, bothreplicates achieved again similar RE% values to those before immersion.The experiment concluded after 18 days, with a mean RE% of 85 % (asindicated by the dotted line in Fig. 7). Other studies evaluating the reuseperformance of PILs only lasted from 5 to 10 cycles [29–32].",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "These experiments highlight the exceptional stability of the PIL-1based membrane, even when exposed to NaOH solutions, and its reusability. For instance, in the study by Thangaraj [32], the use of NaOH asthe desorbing agent reduced the sorption capacity by 20 % upon polymer reuse. Furthermore, for the PIL-1-based membrane, a simple immersion in water is sufficient to keep the membrane ready for furtheruse, without requiring any regeneration solution, as it occurs in Refs.[29,31] which needed a regeneration with KCl and a mix solution ofNaOH/NaCl in ethanol for the reuse of the sorbents.Moreover, to gain further insight into the characteristics of themembranes, both pieces of membrane (corresponding to R1 and R2)were analysed by EDXRF after the conclusion of the experiment, specifically after cycle 18. The resulting spectrum is shown in Fig. 8, withthe spectrum of a pristine membrane also included for comparisonpurposes.Significantly, the S peak attributed to the anion Tf2N-remainsconsistently intense even after several cycles in contact with a 0.1 MNaOH solution. This observation supports the fact that the extraction ofCr(VI) is not based on an ion-exchange, but a co-extraction mechanisminvolving both the cation and the anion of the PIL, as suggested in section 3.2.1.Furthermore, a small peak corresponding to the Kα energy of Cr canbe observed, indicating that some Cr(VI) remains in the membrane.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "d in section 3.2.1.Furthermore, a small peak corresponding to the Kα energy of Cr canbe observed, indicating that some Cr(VI) remains in the membrane. Thissuggests that Cr(VI) occupies some active sites of the PIL, therebyslightly affecting the overall efficiency of the system (resulting in a 15 %reduction in efficiency). 3.2.4. Effect of feed solution: pH and initial concentration of Cr(VI)To evaluate the interaction between the PIL incorporated in themembrane and the species present in the Cr(VI) solution, the effect ofsolution pH on chromate recovery efficiency was studied in the pH range2.0–9.0 using 2 mg L-1 Cr(VI) solutions. Generally, Cr(VI) exists asH2CrO4, Cr2O72-, HCrO4-, and CrO42-species depending on the solutionpH and Cr(VI) concentration [49]. According to Visual MINTEQ software [50], at pH = 2–3 the main species present is HCrO4-(>99 %). AtpH = 7 there is a mixture of 24 % HCrO4-and 76 % CrO42-, while at pH =9 the predominant species is CrO42-(>99 %).The results (Fig. 9a) indicated that the RE(%) was not quantitative atacidic pH levels but reached 100 % at both pH 7 and pH 9.This finding contrasts with other studies using imidazolium PILs[32], specifically 1-butyl-3-vinyl imidazolium with different anions, ascounter-anions. In that study, the sorption mechanism was attributed toan ion-exchange mechanism, with a maximum capacity achieved at pH= 3, with a decrease in metal uptake observed as the pH increased.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "m was attributed toan ion-exchange mechanism, with a maximum capacity achieved at pH= 3, with a decrease in metal uptake observed as the pH increased. Thisphenomenon was attributed to competition from OH-ions for cationicbinding sites, as well as the prevalence of doubly charged CrO42-speciesat higher pH levels. These species can bind through two binding sites,resulting in reduced capacity compared to binding by the mono-anionicHCrO4-species. The fact that in our study the RE is not affected at basicpH supports the hypothesis that the transport of Cr(VI) relies on aco-extraction mechanism, as stated in the previous section. Nevertheless, the membrane based on PIL-1 is highly efficient in Cr(VI) removaland remains unaffected at pH 3 and above.Moreover, the influence of the initial concentration of Cr(VI) on itsremoval efficiency was investigated within the range of 0.01–10 mg L-1,maintaining a fixed pH of 7. As depicted in Fig. 9b, the concentration ofCr(VI) in the stripping solution linearly increased with increasing initialconcentration, resulting in a recovery efficiency (RE) of 100 % in all thecases. Notably, the separation system demonstrated the ability to preconcentrate Cr(VI), achieving a solution concentration of 188.3 ± 0.1mg L-1 from an initial source of 10 mg L-1. This fact highlights theusability of the membrane in efficiently recovering chromate, enablingpreconcentration and facilitating both its reuse and the management of areduced volume of toxic waste.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2.5. Selectivity studies of Cr(VI)In order to investigate the selectivity of these membranes for Cr(VI),a set of experiments was done. Firstly, we investigated the transport ofCr(III), but this Cr species was not transported. Besides, the evaluation ofthe presence of other metal ions was investigated using mixtures of Cd(II)/Ni(II)/Cr(VI) and Cu(II)/Zn(II)/Cr(VI). After the analysis of thestripping solution, the different metals used for selectivity studies (e.g.Cd(II), Ni(II), Cu(II), and Zn(II)) were analysed and only Zn was determined (1.5 mg L-1) with a Cr(VI) recovery of 92 %. 3.2.6. Cr(VI) recovery from a real industrial wastewaterThe efficiency of Cr(VI) recovery was assessed using a sample of Cr(VI) waste water generated during the electroplating process. Followingzinc plating, a chromate treatment is applied to create a chromate filmover the zinc surface, enhancing corrosion resistance and providing adecorative appearance. Presently, there are two predominant forms of passivation: hexavalent chromium passivation and trivalent chromiumpassivation. For this study, we used the waste water generated after thewashing process after Cr(VI) passivation.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "um passivation and trivalent chromiumpassivation. For this study, we used the waste water generated after thewashing process after Cr(VI) passivation. This solution had the followingchemical characteristics: pH = 3.84; conductivity 42702 μS cm-1; [Cr(VI)] = 2175 mg L-1; [Zn] = 633 mg L-1; [Cl-] = 45.4 mg L-1; [SO42-]= 2315.3 mg L-1; [NO3-] = 10879.7 mg L-1.Different dilutions of this sample were prepared to test Cr(VI) recovery, resulting in solutions with concentrations of 0.90, 4.28, and9.39 mg L-1 of Cr.The resulting pH was 6.5. Table 3 shows both the Cr(VI) in the initialsolution and the accumulated in the stripping solution as well as the RE(%), where it can be seen that the PIL-1-based membrane showed a goodefficiency in chromate recovery from an industrial wastewater solution.Zn was also detected in the stripping phase, with values in the range0.4–2 mg L-1.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. RE(%) for membrane stability experiments. Feed phase: 100 mL of 2 mg L-1 Cr(VI) in ultrapure water, membrane: PIL 1-based membrane, stripping phase: 5mL 0.1 M NaOH. The dotted line represents the average of the RE(%) values.\n\nFig. 8. EDXRF spectra for a PIL1-based membrane, and a PIL1-based membrane after the stability experiments (for replicates 1 and 2). EDXRF experimentalconditions: 20 KeV, 100 s measurement time, He atmosphere. B. Alcalde et al.\n\nJournal of Membrane Science 719 (2025) 123705",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8,
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Environmental impact The development of membranes incorporating polymerized ionicliquids for chromium(VI) recovery in industrial wastewater represents anotable advancement in environmental sustainability. By anchoring theionic liquid to a polymeric matrix, concerns regarding ionic liquidleaching and associated environmental risks are mitigated. Furthermore, the exceptional stability demonstrated by the imidazolium PILbased membrane enables its repeated use without the need for additional treatment or regeneration.Moreover, this new class of membranes contribute significantly toreducing chromate environmental pollution and minimizing risks toecosystems and human health. The pre-concentration capabilities ofmembrane systems, coupled with the use of a small volume of strippingsolution, facilitate their reuse, conserving valuable resources andreducing the environmental impact associated with chromium extraction and production. Additionally, they help minimize the volume ofwaste requiring treatment, thereby reducing the burden on wastemanagement facilities and decreasing disposal costs. For instance, wehave demonstrated that a membrane area of less than 2 cm2 can treatover 1 L of water contaminated with Cr(VI), equivalent to 11 cycles of0.1 L solution each time.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rated that a membrane area of less than 2 cm2 can treatover 1 L of water contaminated with Cr(VI), equivalent to 11 cycles of0.1 L solution each time. This results in a substantial volume reduction,concentrating the Cr(VI) 20 times more than the original solution.Consequently, the preconcentrated sample requires less treatment for Cr(VI) recovery or presents a smaller volume for disposal as residue.Overall, the possibility of using PIL-based membranes for the recovery of metals ensures continued efficiency and reusability of thematerial, contributing to a more environmentally friendly approach toindustrial wastewater treatment. Moreover, the preparation procedureof this type of membranes does not require, unlike the preparation oftraditional polymeric membranes, the use of any solvent which has to beproperly handled (most of them are, in fact, toxic) and correctlydisposed of, further contributing to the overall sustainability of theprocess. The robustness and stability of the membranes produced by photo-polymerization positively impact on maintenance and replacement costs traditionally associated to membrane processes favouring thescale-up of this type of technology. 4. Conclusions Membranes synthesized from imidazolium polymerizable ionic liquids (PILs) have demonstrated significant potential in metal recoveryfrom aqueous solutions.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ranes synthesized from imidazolium polymerizable ionic liquids (PILs) have demonstrated significant potential in metal recoveryfrom aqueous solutions. Notably, PILs with longer aliphatic chains haveproven to be more effective in forming mechanically strong membranes.Among the various formulations, the membrane based on hexyl-3-(4vinylbenzyl)-1H-imidazole-3-iumbis((trifluoromethyl)sulfonyl)amideexhibited outstanding performance in recovering Cr(VI) from watersolutions treated with a 0.1 M NaOH solution. The exceptional stabilityof this membrane, which is attributed to the chemical structure of thePIL, further supports its suitability for continuous use without the needfor regeneration. Additionally, the successful recovery of Cr(VI) fromindustrial wastewater samples highlights the practical applicability ofthe PIL-based membrane system, supporting its potential as an effectivealternative for industrial wastewater treatment. Investigating other PILswith diverse functional groups may lead to the discovery of new membranes with improved performance or specialized applications. Thetuneable nature of PILs, in fact, allows for the development of membranes targeting other contaminants or specific industrial needs, makingthe technology adaptable for various sectors such as pharmaceuticals,chemicals, and mining. CRediT authorship contribution statement Berta Alcalde: Writing – original draft, Investigation.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ectors such as pharmaceuticals,chemicals, and mining. CRediT authorship contribution statement Berta Alcalde: Writing – original draft, Investigation. FrancescoGaliano: Writing – review & editing, Validation, Supervision, Investigation.Raffaella Mancuso: Methodology, Investigation. BartoloGabriele:Writing–review&editing,Conceptualization.LucaGuglielmero: Methodology, Investigation. Lorenzo Guazzelli: Writing– review & editing, Investigation. Christian S. Pomelli: Writing – review & editing, Conceptualization. Enriqueta Antic´o: Writing – review& editing, Writing – original draft, Supervision. Cl`audia Font`as:Writing – review & editing, Writing – original draft, Validation, Supervision, Resources, Funding acquisition, Conceptualization. AlbertoFigoli: Validation, Supervision, Resources.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 9. (a) Effect of the pH on the recovery efficiency of Cr(VI) ± SD. Feed phase: 100 mL 2 mg L-1 Cr(VI) in ultrapure water; (b) Cr(VI) accumulated in the strippingsolution± SD (SDs are not visible in the Figure; they ranged from 0.01 to 0.25 mg L-1) vs. initial Cr(VI) content in the feed phase. In both cases: membrane, PIL-1based membrane; stripping phase: 5 mL 0.1 M NaOH. Table 3Cr(VI) recovery efficiency from an electroplating industrial waste water. [Cr(VI)]initial feed (mg L-1)[Cr(VI)]stripping phase (mg L-1)RE (%) 0.9014.36 ± 0.0479.8 ± 0.24.2870 ± 182 ± 29.39119 ± 263 ± 1 B. Alcalde et al.\n\nJournal of Membrane Science 719 (2025) 123705\n\nFunding This work was supported by the Ministerio de Ciencia, Innovaci´on yUniversidades (MICIU) through projects PID2019-107033 GB-C22/AEI/10.13039/501100011033andPID2022-140312NB-C22/MCIN/AEI/10.13039/501100011033/FEDER. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influencethe work reported in this paper. Acknowledgements Martí Pilsa and Martina Pujols are acknowledged for their assistancewith laboratory tasks. Eva Marguí is acknowledged for her support inEDXRF analysis.\n\nAppendix A. Supplementary data Supplementary data to this article can be found online at https://doi.org/10.1016/j.memsci.2025.123705. List of abbreviations",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9,
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "AbbreviationName [A336][C272]Bis(2,4,4-trimethylpentyl)-phosphinateBif-ILEBifunctional ionic liquidDMPA2,2-Dimethoxy-2-phenyl acetophenoneDTABDodecyl trimethylammonium bromideEDXEnergy dispersive X-rayEDXRFEnergy dispersive X-ray fluorescenceEGDMAEthylene glycol dimethacrylateFT-IRFourier-transform infrared spectroscopyHEMA2-Hydroxyethyl methacrylateILIonic liquidMP-AESMicrowave plasma atomic emission spectroscopyPILPolymerized ionic liquidPIMPolymer inclusion membraneRERecovery EfficiencySDStandard deviationSDDSilicon Drift DetectorSEMScanning electron microscope",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[9] G. Kaur, H. Kumar, M. Singla, Diverse applications of ionic liquids: acomprehensive review, J. Mol. Liq. 351 (2022) 118556, https://doi.org/10.1016/j.molliq.2022.118556.[10] P.A. Yudaev, E.M. Chistyakov, Ionic liquids as components of systems for metalextraction, ChemEngineering 6 (2022) 6, https://doi.org/10.3390/chemengineering6010006.[11] V. Rajadurai, B.L. Anguraj, Ionic liquids to remove toxic metal pollution, Environ.Chem. Lett. 19 (2021) 1173–1203, https://doi.org/10.1007/s10311-020-01115-5.[12] M. Tian, L. Fang, X. Yan, W. Xiao, K.H. Row, Determination of heavy metal ionsand organic pollutants in water samples using ionic liquids and ionic liquidmodified sorbents, J. Anal. Methods Chem. 2019 (2019) 1948965, https://doi.org/10.1155/2019/1948965.[13] U. Doma´nska, A. Rękawek, Extraction of metal ions from aqueous solutions usingimidazolium based ionic liquids, J. Solut. Chem. 38 (2009) 739–751, https://doi.org/10.1007/s10953-009-9402-7.[14] D. Lled´o, G. Grindlay, R. Serrano, L. Gras, J.M. Sansano, Imidazolium-based taskspecific ionic liquid for selective Ag, Cu, Pd and Pt determination by means ofdispersive liquid-liquid microextraction and inductively coupled plasma opticalemission spectrometry, Spectrochim. Acta Part B At. Spectrosc. 204 (2023)106672, https://doi.org/10.1016/j.sab.2023.106672.[15] S. Muhammad, M.N. Javed, K.A. Gill, F.I. Ali, W. Henderson, A. Bari, S.G. Musharraf, J.A. Baig, I.A.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2, https://doi.org/10.1016/j.sab.2023.106672.[15] S. Muhammad, M.N. Javed, K.A. Gill, F.I. Ali, W. Henderson, A. Bari, S.G. Musharraf, J.A. Baig, I.A. Hashmi, Selective extraction of heavy metals (Fe, Co,Ni) from their aqueous mixtures by Task-Specific salicylate functionalizedimidazolium based ionic liquid, J. Clean. Prod. 344 (2022) 131119, https://doi.org/10.1016/j.jclepro.2022.131119.[16] D.J. Zhang, L. Dong, Y.T. Li, Y. Wu, Y.X. Ma, B. Yang, Copper leaching from wasteprinted circuit boards using typical acidic ionic liquids recovery of e-wastes’surplus value, Waste Manage. (Tucson, Ariz.) 78 (2018) 191–197, https://doi.org/10.1016/j.wasman.2018.05.036.[17] V. Eyupoglu, H.I. Turgut, R.A. Kumbasar, A comprehensive study for selectiveremoval of Cr(VI) by asymmetric imidazolium bromide salts as environmentallyfriendly extractant, J. Dispersion Sci. Technol. 39 (2018) 802–813, https://doi.org/10.1080/01932691.2017.1393433.[18] W. Song, M. Yang, Y. Zhao, M. Zhu, Y. Zhu, H. Ren, S. Tian, Z. Miao, L. Qian,Imidazolium functionalized cellulose filter paper derived from waste newspaper",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Journal of Membrane Science 719 (2025) 123705 and its application in removal of chromium(VI), React. Funct. Polym. 157 (2020)104776, https://doi.org/10.1016/j.reactfunctpolym.2020.104776.[19] C. Wu, J. Fan, J. Jiang, J. Wang, PH/temperature dependent selective removal oftrace Cr(vi) from aqueous solution by imidazolium ionic liquid functionalizedmagnetic carbon nanotubes, RSC Adv. 5 (2015) 47165–47173, https://doi.org/10.1039/c5ra06026e.[20] S. Zhao, A. Samadi, Z. Wang, J.M. Pringle, Y. Zhang, S.D. Kolev, Ionic liquid-basedpolymer inclusion membranes for metal ions extraction and recovery:fundamentals, considerations, and prospects, Chem. En. J. 481 (2024), https://doi.org/10.1016/j.cej.2024.148792.[21] H.I. Turgut, V. Eyupoglu, R. Ali Kumbasar, The comprehensive investigation of theroom temperature ionic liquid additives in PVC based polymer inclusionmembrane for Cr(VI) transport, J. Vinyl Addit. Technol. 25 (2019) E107–E119,https://doi.org/10.1002/vnl.21649.[22] P. Szczepa´nski, H. Guo, K. Dzieszkowski, Z. Rafi´nski, A. Wolan, K. Fatyeyeva,J. Kujawa, W. Kujawski, New reactive ionic liquids as carriers in polymer inclusionmembranes for transport and separation of Cd(II), Cu(II), Pb(II), and Zn(II) ionsfrom chloride aqueous solutions, J. Membr. Sci. 638 (2021) 119674, https://doi.org/10.1016/j.memsci.2021.119674.[23] E. Rynkowska, K. Fatyeyeva, W. Kujawski, Application of polymer-basedmembranes containing ionic liquids in membrane separation processes: a criticalreview, Rev.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ka, K. Fatyeyeva, W. Kujawski, Application of polymer-basedmembranes containing ionic liquids in membrane separation processes: a criticalreview, Rev. Chem. Eng. 34 (2018) 341–363, https://doi.org/10.1515/revce-20160054.[24] M. Zhang, R. Semiat, X. He, Recent advances in Poly(ionic liquids) membranes forCO2 separation, Sep. Purif. Technol. 299 (2022) 121784, https://doi.org/10.1016/j.seppur.2022.121784.[25] M. Zhu, Y. Yang, Poly(ionic liquid)s: an emerging platform for green chemistry,Green Chem. 26 (2024) 5022–5102, https://doi.org/10.1039/d4gc00202d.[26] X. Liu, R. Liu, Y. Lu, Q. Sun, W. Xue, M. Cheng, Y. Yang, Efficient and selective goldrecovery from e-waste by imidazolium-based poly(ionic liquid)s, Sep. Purif.Technol. 328 (2024) 125049, https://doi.org/10.1016/j.seppur.2023.125049.[27] X. Zhang, Y. Yang, Y. Wu, X. Xu, Z. Huang, Exploring imidazolium-based poly(ionicliquids) as adsorbents for Pt(IV) removal: the impact of N3 substituents, J. Environ.Chem. Eng. 11 (2023) 110683, https://doi.org/10.1016/j.jece.2023.110683.[28] F. Galiano, R. Mancuso, L. Guazzelli, C.S. Pomelli, J. Bundschuh, J. Rinklebe, S.-L. Wang, C. Apollaro, F. Palumbo, C. Chiappe, A. Figoli, B. Gabriele, Arsenic waterdecontamination by a bioinspired As-sequestering porous membrane, NatureWater 2 (2024) 350–359, https://doi.org/10.1038/s44221-024-00220-x.[29] Y. Xie, J. Lin, H. Lin, Y. Jiang, J. Liang, H. Wang, S. Tu, J.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "membrane, NatureWater 2 (2024) 350–359, https://doi.org/10.1038/s44221-024-00220-x.[29] Y. Xie, J. Lin, H. Lin, Y. Jiang, J. Liang, H. Wang, S. Tu, J. Li, Removal of anionichexavalent chromium and methyl orange pollutants by using imidazolium-basedmesoporous poly(ionic liquid)s as efficient adsorbents in column, J. Hazard Mater.392 (2020) 122496, https://doi.org/10.1016/j.jhazmat.2020.122496.[30] M. Ming, S. Yin, J. Shi, Poly(ionic liquids)-Impregnated UiO-66 composites forefficient sequestration of dichromate, J. Solid State Chem. 310 (2022) 123091,https://doi.org/10.1016/j.jssc.2022.123091.[31] J. Chen, C. Bao, M. Chen, Y. Wang, X. Xu, T. Yang, C. Shang, Q. Zhang,β-cyclodextrin-scaffolded crosslinked poly(ionic liquid)s for ultrafast removal ofmultiple pollutants: insight into adsorption performance and mechanism, Chem.Eng. J. 464 (2023) 142526, https://doi.org/10.1016/j.cej.2023.142526.[32] V. Thangaraj, A. Bhaskarapillai, Crosslinked poly(ionic liquid)s as selectivereceptors for Cr(VI) – counter anion effect and application in treating drinkingwater and tannery effluents, Chemosphere 286 (2022) 131922, https://doi.org/10.1016/j.chemosphere.2021.131922.[33] H. Mi, Z. Jiang, J. Kong, Hydrophobic poly(ionic liquid) for highly effectiveseparation of methyl blue and chromium ions from water, Polymers 5 (2013)1203–1214, https://doi.org/10.3390/polym5041203.[34] J.M.C. Puguan, H.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "J. Environ. Chem. Eng. 8 (2020) 104084, https://doi.org/10.1016/j.jece.2020.104084.[35] Y. Jiang, F. Li, G. Ding, Y. Chen, Y. Liu, Y. Hong, P. Liu, X. Qi, L. Ni, Synthesis of anovel ionic liquid modified copolymer hydrogel and its rapid removal of Cr (VI)from aqueous solution, J. Colloid Interface Sci. 455 (2015) 125–133, https://doi.org/10.1016/j.jcis.2015.05.030.[36] Y. Xie, J. Lin, J. Liang, M. Li, Y. Fu, H. Wang, S. Tu, J. Li, Hypercrosslinkedmesoporous poly(ionic liquid)s with high density of ion pairs: efficient adsorbentsfor Cr(VI) removal via ion-exchange, Chem. Eng. J. 378 (2019) 122107, https://doi.org/10.1016/j.cej.2019.122107.[37] Y. Wang, J. Wu, W. Zhang, L. Zhong, D. Zhang, S. Yan, J. Shi, Efficient removal ofdibutyl phthalate from aqueous solutions: recent advances in adsorption andoxidation approaches, React. Chem. Eng. 9 (2024) 1276–1291, https://doi.org/10.1039/d4re00055b.[38] Y. Yu, S. Li, J. Lu, F. Xi, X. Chen, D. Wu, W. Ma, R. Deng, Green recycling of end-oflife photovoltaic modules via Deep-Eutectic solvents, Chem. Eng. J. 499 (2024)155933, https://doi.org/10.1016/j.cej.2024.155933.[39] Y. Zhao, X. Wang, Z. Li, H. Wang, Y. Zhao, J. Qiu, Understanding the positive roleof ionic liquids in CO2 capture by poly(ethylenimine), J. Phys. Chem. B 128 (2024)1079–1090, https://doi.org/10.1021/acs.jpcb.3c06510.[40] F. Galiano, R. Mancuso, L. Guazzelli, M. Mauri, C. Chiappe, R. Simonutti,A. Brunetti, C.S. Pomelli, G. Barbieri, B. Gabriele, A.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "acs.jpcb.3c06510.[40] F. Galiano, R. Mancuso, L. Guazzelli, M. Mauri, C. Chiappe, R. Simonutti,A. Brunetti, C.S. Pomelli, G. Barbieri, B. Gabriele, A. Figoli, Phosphonium ionicliquid-polyacrylate copolymer membranes for improved CO2 separations,J. Membr. Sci. 635 (2021) 119479, https://doi.org/10.1016/j.memsci.2021.119479.[41] L.C. Tom´e, A.S.L. Gouveia, C.S.R. Freire, D. Mecerreyes, I.M. Marrucho, Polymericionic liquid-based membranes: influence of polycation variation on gas transportand CO2 selectivity properties, J. Membr. Sci. 486 (2015) 40–48, https://doi.org/10.1016/j.memsci.2015.03.026.[42] J.E. Bara, S. Lessmann, C.J. Gabriel, E.S. Hatakeyama, R.D. Noble, D.L. Gin,Synthesis and performance of polymerizable room-temperature ionic liquids as gasseparation membranes, Ind. Eng. Chem. Res. 46 (2007) 5397–5404, https://doi.org/10.1021/ie0704492.[43] B. Alcalde, E. Antic´o, C. Font`as, A polymer inclusion membrane for sensing metalcomplexation in natural waters, Appl. Sci. 11 (2021) 10404, https://doi.org/10.3390/app112110404.[44] G. Elias, S. Díez, C. Font`as, System for mercury preconcentration in natural watersbased on a polymer inclusion membrane incorporating an ionic liquid, J. HazardMater. 371 (2019) 316–322, https://doi.org/10.1016/j.jhazmat.2019.03.017.[45] G. Bayramoglu, M. Yakup Arica, Preparation and characterization of comb typepolymer coated poly(HEMA/EGDMA) microspheres containing surface-anchoredsulfonic acid: application in γ-globulin separation, React.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "zation of comb typepolymer coated poly(HEMA/EGDMA) microspheres containing surface-anchoredsulfonic acid: application in γ-globulin separation, React. Funct. Polym. 69 (2009)189–196, https://doi.org/10.1016/j.reactfunctpolym.2008.12.017.[46] K. Unger, P. Salzmann, C. Masciullo, M. Cecchini, G. Koller, A.M. Coclite, Novellight-responsive biocompatible hydrogels produced by initiated chemical vapordeposition, ACS Appl. Mater. Interfaces 9 (2017) 17408–17416, https://doi.org/10.1021/acsami.7b01527.[47] L.Y. Wang, Q.J. Guo, M.S. Lee, Recent advances in metal extraction improvement:mixture systems consisting of ionic liquid and molecular extractant, Sep. Purif.Technol. 210 (2019) 292–303, https://doi.org/10.1016/j.seppur.2018.08.016.[48] L. Guo, J. Zhang, D. Zhang, Y. Liu, Y. Deng, J. Chen, Preparation of poly(vinylidenefluoride-co-tetrafluoroethylene)-based polymer inclusion membrane usingbifunctional ionic liquid extractant for Cr(VI) transport, Ind. Eng. Chem. Res. 51(2012) 2714–2722, https://doi.org/10.1021/ie201824s.[49] R.K. Tandon, P.T. Crisp, J. Ellis, R.S. Baker, Effect of pH on Chromium(VI) speciesin solution, Talanta 31 (1984) 227–228, https://doi.org/10.1016/0039-9140(84)80059-4.[50] J.P. Gustafsson, Visual MINTEQ Ver 3.1, KTH Royal Institute of Technology,Sweden, last Modification, 26 November 2020.",
+    "citation": {
+      "authors": [
+        "This B.V.",
+        "Pomelli S.",
+        "Bucci P."
+      ],
+      "paper_id": "1-s2.0-S0376738825000183-main",
+      "title": "Imidazolium polymerized ionic liquid-based membranes for the sustainable Cr(VI) recovery from industrial effluents",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  }
+]

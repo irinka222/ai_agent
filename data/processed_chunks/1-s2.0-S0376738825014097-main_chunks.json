@@ -1,0 +1,565 @@
+[
+  {
+    "content": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators Jannis M. Focke a , Kai P. Barbian a\n\n, Paul-Luca Bonke a, Ulrich Steinseifer a, Jutta Arens b\n\n, Michael Neidlin a,* a Cardiovascular Engineering, Applied Medical Engineering, RWTH Aachen University, Aachen, Germanyb Engineering Organ Support Technologies Group, Department of Biomechanical Engineering, University of Twente, Enschede, the Netherlands\n\nA R T I C L E I N F O Keywords:Blood oxygenatorMembrane fiber arrangementGas transfer modelingReduced order modelCFD",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Severe lung diseases can be clinically treated with extracorporeal blood oxygenation (ECMO), where blood oxygenators exchange gases across thousands of hollow fiber membranes. However, their large surface area increases blood trauma and the risk of device failure. Understanding and improving gas transfer efficiency through computational models can help to reduce the required membrane surface area for the design of smaller and safer oxygenators. However, existing models either oversimplify local flow and gas exchange or rely on experimental calibration. To address this gap, we developed a reduced order model (ROM) that predicts oxygen transfer in fiber bundles modeled as porous media, without requiring a priori experiments. The model provides locally resolved oxygen source terms that account for fiber configuration, Reynolds number, and oxygen concentration, and were derived from and fitted to data from in-vitro validated fiber-scale computational fluid dynamics (CFD) simulations (RMSE <0.01). The ROM predicted oxygen transfer of the validated simulations with high accuracy (R-squared = 0.995) and an overestimation of 6 %. When applied to a lab-scale oxygenator, the ROM accurately predicted total oxygen transfer with a relative error of 2.3 % compared to experimental results and provided spatially resolved oxygen concentration distributions within the fiber bundle.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "a relative error of 2.3 % compared to experimental results and provided spatially resolved oxygen concentration distributions within the fiber bundle. We provide source term functions and coefficients for the four most common fiber configurations and a CFD implementation in a full-scale oxygenator for further use.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Extracorporeal membrane oxygenation (ECMO) is a life-support treatment used in patients with severe respiratory failure when me­chanical ventilation is no longer sufficient. ECMO works by an extra­corporeal perfusion of the patient's blood through oxygenators, or socalled artificial lungs. Hollow fiber membranes (HFMs), packed into fiber bundles, are flushed with sweep gas on the inside. With Blood flowing on the outside, oxygen and carbon dioxide are exchanged across the membrane. The high foreign surface area and suboptimal flow paths of the membrane bundles cause blood trauma, hemolysis and throm­bosis, which may lead to sudden device failure and risky system changes [1]. Novel oxygenator designs with improved efficiency can lower these risks and additionally reduce device size and extracorporeal blood volume. However, prototyping and testing of new designs is very expensive and time consuming. Furthermore, the gas transfer in fiber bundles cannot be determined analytically due to complex flow patterns be­tween the HFMs. Numerical simulations through computational fluid dynamics (CFD) can help, but modeling flow and gas transfer across all fibers of a membrane oxygenator is not possible with acceptable computation time and cost.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "FD) can help, but modeling flow and gas transfer across all fibers of a membrane oxygenator is not possible with acceptable computation time and cost. Empirical approaches can help and, analo­gous to heat transfer, convectional gas transfer through fiber bundles can be generalized in a dimensionless correlation: Sh = a⋅Reb⋅Sc1/3(1) The Sherwood number, Sh, incorporates gas transfer and is related to the flow regime (Reynolds number, Re) and diffusive and viscous ma­terial properties (Schmidt number, Sc) [2]. Parameters a and b are empirical and specific for the flow domain. Hewitt et al. averaged the parameters of experiments with similar",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 11 January 2026 0376-7388/ 2026 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). intravascular fiber bundles, whereas for different fiber bundle configu­rations they suggest to determine specific fittings [3]. With their find­ings, they were able to predict gas transfer of their fiber bundles at different Re. Zhang et al. performed CFD simulations on a commercial oxygenator geometry and modeled the fiber bundle as porous medium [4]. They solved the blood flow by utilizing the Ergun equation and applied the gas transfer correlation and parameters of Hewitt et al. to the porous medium. They modeled oxygen as transported species and used local Re and oxygen partial pressures to determine Sh that was converted into a local oxygen source term. This way, local gas transfer in the fiber bundle was estimated. He et al. experimentally fitted the Sherwood correlation on a small experimental fiber bundle. They then approximated cylindrical full-size oxygenators by their key geometric parameters (length, diameter, bundle porosity, membrane area) and used those to compute the Rey­nolds number, which was inserted into the same Sherwood correlation. Consequently, they reproduced overall gas transfer of seven oxygenators [5].",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Rey­nolds number, which was inserted into the same Sherwood correlation. Consequently, they reproduced overall gas transfer of seven oxygenators [5]. However, all of these reduced order models (ROMs) require pre­liminary tests with a prototype and do not allow for an a priori calcu­lation of oxygenator gas exchange. Furthermore, they erroneously assume that a and b remain constant throughout the entire fiber bundle of the varying flow direction through different sections of the aniso­tropically packed fiber bundle. Convectional gas transfer strongly depends on fiber arrangement, packing density and relative blood flow direction and therefore un­derlies local variations inside the fiber bundle [5–9]. Low et al. inves­tigated the influence of fiber bundle porosity and flow direction in simulations of 2D fiber bundle sections and determined local Sh across single fibers and averaged Sh over a common fiber bundle length. They provide a procedure to evaluate overall gas transfer a priori, but with averaged mean flow direction and without local resolution of the fiber bundle [7]. Jian et al. modeled flow across differently angled fibers but also reduced complex flow effects to 2D section planes [6]. Lukitsch et al. provided a method to estimate carbon dioxide transfer in their prototype fiber bundle. First, they simulated flow around all fibers, identified main flow directions and derived a small fiber bundle that represents the main flow field.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e. First, they simulated flow around all fibers, identified main flow directions and derived a small fiber bundle that represents the main flow field. Then they modeled gas transfer in this section with resolving single fibers and scaled up the gas transfer to the whole bundle [9]. Although their predictions were accurate, these steps would have to be repeated during an iterative fiber bundle design. Moreover, they provide only the overall transfer rates with no infor­mation on local gas transfer. We showed in our previous work that gas transfer depends on the angle between fiber layers and flow direction through the anisotropically packed fibers using 3D simulations and in-vitro experiments of the four most common fiber bundle configura­tions [8]. The studies discussed above provided important insights on gas transfer on the fiber scale, but they did not accurately predict gas transfer of a full-size oxygenator. Existing ROMs either require calibration experiments, assume con­stant gas transfer properties without resolving local gas transfer in the fiber bundle, or are too computationally intensive to resolve local gas transfer across the full fiber bundle. Thus, a translation from microscopic to macroscopic gas transfer modeling is missing that accounts for 3D fiber bundle orientations and the substantial anisotropy in flow and gas exchange. Our aim is to provide a validated, generalized ROM for oxygen transfer modeling in full-sized oxygenators.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "antial anisotropy in flow and gas exchange. Our aim is to provide a validated, generalized ROM for oxygen transfer modeling in full-sized oxygenators. The ROM describes the fiber bundle as a porous medium and accounts for local gas transfer, influ­enced by the fiber configuration, local oxygen partial pressure and the Reynolds number. Furthermore, we provide dimensionless gas transfer coefficients for commercially available fiber mat orientations. This approach enables prediction of gas transfer in full-scale membrane ox­ygenators without the need of calibration experiments.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. Materials and methods In this study, a ROM for oxygen transfer was developed with a porous medium representing the oxygenator's fiber bundle. First, microscopic simulations at different fiber bundle configurations, blood flow rates and oxygen partial pressures were used to obtain gas transfer rates, which were then fitted into a dimensionless correlation. In a second step, this correlation was translated into oxygen source terms for the ROM and verified with the microscopic simulations. Finally, the new model was applied on a lab sized oxygenator and validated with in-vitro experi­ments. An overview of this process and its relation to our previous work is shown in Fig. 1. 2.1. Development of the reduced order gas transfer model This section describes the development of a dimensionless correla­tion to model oxygen transfer in the ROM. This process consists of three steps. First, the general form of dimensionless gas transfer correlation for the ROM is determined, considering the parameters that influence gas transfer. Thereafter, we describe the microscopic simulations of our previous work [8] and the calculation of dimensionless parameters from their results. Lastly, these values are used to fit the correlation for different fiber configurations. 2.1.1. Expanded sherwood correlation In the ROM, oxygen transfer will be described by an expanded form of the Sherwood correlation (1), which then provides oxygen source terms in the porous medium.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", oxygen transfer will be described by an expanded form of the Sherwood correlation (1), which then provides oxygen source terms in the porous medium. In the initial form, gas transfer (incorpo­rated by Sh) depends on the flow regime (Re), the fiber bundle config­urations (represented by the empirical, dimensionless coefficients α and β) and the oxygen concentration gradient between membrane and blood, which is also included in Sh. However, to use it as an independent dimensionless variable for the correlation, the concentration gradient is accounted for as a separate dimensionless oxygen partial pressure dif­ference ΔpO*2 according to equation (2): ShSc-1/3 = α1⋅Reβ1 + α2⋅ΔpO*2β2 + α12⋅Reβ11⋅ΔpO*2β21(2) Analogous to the initial form, coefficients αk and βk are dimensionless empirical parameters that depend only on the respective fiber bundle configuration. When Sh, Re, and ΔpO*2 for an individual configuration are known, αk and βk can be determined by fitting them to the above function, which makes them empirical. The non-linear coupling be­tween Re and ΔpO*2 accounts for the inherently non-linear behavior of convective transport (Re), the local driving force for diffusion (ΔpO*2) and gas transfer (Sh), which are especially pronounced in blood oxy­genators due to the combined effects of fluid dynamics and biochemical transport. The presented form in equation (2) was found to yield the lowest relative error when fitted to provided data [8], which is explained in section 2.1.3.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The presented form in equation (2) was found to yield the lowest relative error when fitted to provided data [8], which is explained in section 2.1.3. 2.1.2. Acquisition of dimensionless numbers To obtain values for Sh, Re, and ΔpO*2 we evaluated the results of validated microscopic simulations for different fiber configurations re­ported in a previous study [8]. In brief, periodic 3D sections of hollow fiber membrane bundles in four different fiber configurations were simulated with respect to plasma oxygen partial pressure and Reynolds number. The fiber bundle configurations were modeled after typical oxygenator designs that use either 90◦stacked fibers perfused in trans­verse direction (90Z), or 24◦layered fibers with different flow path designs, resulting in a combination of longitudinal (24X), circumferen­tial (24Y) and radial (24Z) flow directions (Fig. 2). The 3D fiber bundle sections were simulated as periodic domains (PDs) over an accumulated length of x = 16 mm (cf. Fig. 3), resulting in rising oxygen partial pressure data for each PD over the length x of the flow path. The inlet oxygen partial pressure was set to 41.2 mmHg, and a constant oxygen",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The characteristic length is L char =εFB1 -εFB ⋅dfiber(4) with the outer fiber diameter dfiber = 380 μm [14]. The fiber bundle porosity εFB = 0.4625 is defined as the ratio of blood volume to total bundle volume, where mats are packed with a typical density of 18 fi­bers per 10 mm and adjacent mats are in contact. DO2,plasma,eff = 1.2 ⋅ 10-5 cm2/s ⋅ (1-Hct) is the effective diffusion coefficient for oxygen in blood, which incorporates the tortuous diffusion path of oxygen in plasma between RBCs of the volume fraction (hematocrit) Hct = 0.36 [8]. Amem,i is the membrane fiber surface area in the PD providing gas exchange. ΔcO2,in is the oxygen concentration difference in plasma be­tween fiber surface and the venous inlet, calculated with the respective oxygen partial pressures and the solubility coefficient of oxygen in plasma αO2,plasma = 1.56 ⋅ 10-3 mol/mmHg/m3 as ΔcO2,in = (713 mmHg -41.2 mmHg)⋅αO2,plasma.(5) The molar oxygen mass flow ˙nO2,i from the membranes into the blood is described as ˙nO2,i = (cO2i -cO2i-1)⋅Qblood,(6) where Qblood is the volumetric blood flow rate, cO2i is the average oxygen concentration at the outlet of the PDi and cO2i-1 is the concentration at the outlet of the previous PDi-1 (Fig. 3). The oxygen concentrations cO2 are calculated with cO2 = cO2dis⋅1Hct + cHbO2RBC(7) with cO2dis and cHbO2RBC being the concentrations of dissolved ox­ygen in full blood and chemically bound oxygen in the RBC phase, respectively.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "BC(7) with cO2dis and cHbO2RBC being the concentrations of dissolved ox­ygen in full blood and chemically bound oxygen in the RBC phase, respectively. The dimensionless concentration gradient ΔpO*2 is introduced as the oxygen partial pressure difference between membrane pO2,mem and blood plasma pO2 normalized by the highest difference at the venous inlet pO2,in: ΔpO*2 = pO2,mem -pO2 pO2,mem -pO2,in",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(8)\n\nThe Schmidt number expresses the relation between hydrodynamic and concentration boundary layer thickness and is described as Sc =ηρ⋅DO2,plasma,eff\n\n(9) with the mixture dynamic viscosity η = 2.9 mPas and the density of blood ρ = 1052 kg/m3. The Reynolds number is calculated as Re = ρ⋅u⋅L char η[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] with u as the mean velocity of blood between the fibers. 2.1.3. Determination of αk and βk For each configuration, the coefficients αk and βk were determined by a least-squares fitting to equation (2) performed in MATLAB R2023b. The fitting used the results of the dimensionless numbers from the microscopic simulations.\n\n2.2. Reduced order model The dimensionless gas transfer correlations explained in the previous section were converted into oxygen source terms ΦO2 for the porous medium using the individual coefficients αk, βk from equation (2) for every fiber bundle orientation. For each configuration, equations (2), (3)and (5) give ΦO2 =( α1⋅Reβ1 + α2⋅ΔpO*2β2 + α12⋅Reβ11⋅ΔpO*2β21)⋅Sc 13⋅(pO2,mem -pO2,in )⋅DO2,plasma,eff L char\n\n⋅Amem,spec [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}]",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The source terms are volumetric in mol/s/m3, therefore the mem­brane surface Amem has to be expressed as a specific surface area (m2/ m3), relative to the control volume of the porous medium. For the given fiber bundle specifications, this yields Amem, spec = 1800 π m2/m3. Local velocities and oxygen partial pressures required for the calculation of Re and ΔpO*2, respectively, were obtained from the CFD solver.The implementation of oxygen transfer into porous medium was verified using quasi-2D domains of 16 mm length and width of the 90Z PD 0.556 mm. The source terms of the four fiber configurations 90Z, 24X, 24Y and 24Z were applied to these domains. Gas transfer of the ROM and the microscopic simulations was compared at the initial five\n\nTable 2 Properties of the blood phases. Parameters that have been changed regarding the original model [11] are marked with an asterisk. PropertySymbolPlasmaRed blood cells\n\nUnits\n\n–",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "O2 solubility coefficient αO21.56–mmol/ mmHg/m3 Inlet partial pressure O2 pO2,in41.2*mmHg Inlet partial pressure CO2 pCO2,in44.0*mmHg Inlet Saturation HbO2/HbT SO2,in–0.65*– J.M. Focke et al. Journal of Membrane Science 742 (2026) 125096 flow rates to verify the correlation formulation. Samples of the total oxygen concentrations were taken at distances corresponding to the PD length of the respective fiber configurations (cf. Fig. 3). The porous domains were meshed with Ansys Meshing 24R1 using an unstructured mesh of hexahedral elements. Mesh independence using the outlet oxygen concentration cO2out as the independent variable was achieved with an element size of 10-2 mm yielding a total of 89.600 mesh elements per domain. The solutions were obtained with Ansys CFX 24R1 on 18 2.4 GHz Intel Xeon E5-2640 CPUs and 64 GB RAM. Blood flow was solved in steady state simulations with a residual target of 10-5. In a second simulation, gas transfer was solved on the obtained flow field with the same residual targets and monitoring outlet partial pressures which settled after about 120 accumulate iterations. Due to the low Reynolds numbers, flow was modeled laminar. All simulations were handled with a high-resolution advection scheme and timescale was calculated auto­matically with a conservative length scale. To facilitate convergence of the highly nonlinear oxygen source term, unphysical negative values for ΔpO*2 and Sh were prevented by a threshold at 0.001.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.3. Simulation of oxygenator and validation with experimental data The ROM was applied to two versions of a full-size lab oxygenator (RatOx, Fig. 4 A) and compared to pre-existing experimental results which are described in detail elsewhere [15,16]. In brief, the oxygena­tors contained 29 or 56 stacked fiber mats (90Z configuration), resulting in lengths of 11.0 mm and 21.3 mm, and membrane surfaces of 0.031 and 0.059 m2, respectively. The bundles were potted cylindrically to a diameter of 25 mm. Through the central inlet, venous porcine blood was perfused at flow rates of 60 and 180 mL/min for the 56-layer oxygenator and for the 29-layer oxygenator at a flow rate of 500 mL/min. The latter was chosen to test extrapolation of the ROM beyond the training data range (Re = 0.9 ... 4.4). For an ideally homogenously perfused fiber bundle, this corresponds to Reynolds numbers of 0.52, 1.57, and 4.36, respectively. The sample sizes were 6 for the 29-layer oxygenator and 10 for the 56-layer oxygenators. The experiments had been performed ac­cording to ISO 7199, so that comparable boundary conditions of venous blood gas concentrations could be assumed for the simulations (Table 1). The fiber bundle was modeled as porous medium with porosity εFB =0.4625 and permeability Kperm = 1.1 ⋅ 10 -9 m2 which was determined by Schlanstein et al. [13] for the 90Z configuration and the fiber diameter and packing density used in this case.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1.1 ⋅ 10 -9 m2 which was determined by Schlanstein et al. [13] for the 90Z configuration and the fiber diameter and packing density used in this case. Inlet and outlet of the oxygenators were central; thus, an axisymmetric 45◦-section of the oxygenator was simulated (Fig. 4 B). Inlet and outlet were designed as a 15 mm long tube of 2.2 mm in diameter, which corresponds to the diameter of the connectors used in experiments. Blood was modeled in the same way as in the microscopic simulations with parameters listed in Table 2. Gas transfer from the simulations was determined as the gain of oxygen concentration ΔcO2 in mL oxygen per L of blood using equation [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}]. ΔcO2 = (cO2out -cO2in)⋅Vm[ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] with the oxygen concentrations cO2 in molO2/Lblood and the molar volume of oxygen at 25 ◦C, Vm = 22.41 ⋅ 103 mLO2/molO2. An unstructured tetrahedral mesh with a global size of 3 ⋅ 10-4 m was used including 10 layers prism elements at 1.5 ⋅ 10-5 m for the oxygenator inlet and outlet tube and local refinements at 5 ⋅ 10-5 m within the fiber bundle to resolve the flow and gas transfer (Fig. 4 C). Mesh independent results regarding gas transfer were achieved at an element number of 8.2 ⋅ 106 elements.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "esolve the flow and gas transfer (Fig. 4 C). Mesh independent results regarding gas transfer were achieved at an element number of 8.2 ⋅ 106 elements. Solver settings were used as in section 2.2. A flexible timescale factor was set that gradually increased during the iteration from 0.1 to 1 to improve convergence. 3. Results 3.1. Fitting parameters and reduced order model Dimensionless correlation was successfully performed according to equation (2) for all four fiber configurations with a fitting accuracy of RMSE < 0.01. Given that ShSc-1/3 ranges from 0.5 to 2.5, this corre­sponds to a deviation less than 0.5 % related to the total range. The fittings of the coefficients αk and βk for the four configurations are shown in Table 3. The function correlates well with the provided data points with an adjusted R-squared of 0.9994 or higher for all fittings. The in­dividual plots are shown in Fig. 5, which display the fitted correlations in comparison to the results from the microscopic simulations for all four fiber configurations. The plots indicate generally highest gas transfer for 90Z and 24Y configurations. Across all configurations, gas transfer is elevated at higher Re and approaching zero for low Re, indicating no convective gas transport. A value of ΔpO*2 = 1 is the highest relative partial pressure",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 3 Coefficients of all configurations for equation (2). Configurationα1α2α12β1β2β11β21 90Z0.46900.76080.21160.55862.75230.360017.814924X0.17170.09320.59870.5766-1.60980.20063.676624Y0.7974-0.13640.87790.3958-1.30890.15665.713724Z0.26780.59890.02250.72145.00591.157317.6503\n\nUtilizing the dimensionless transfer correlations as an oxygen source term in porous medium according to equation [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}], the ROM was applied to fluid domains of the size of the microscopic simulations and modeled at the same boundary conditions. Fig. 6 (left) provides the linear regression of oxygen between concentrations in microscopic CFD and the ROM at all Re, configurations, and positions along the flow path. An excellent agreement with an R-square of 0.995 was achieved. The ROM overestimates oxygen concentration on average with by 6 %, and most for configuration 24Z by 12 %. In Fig. 6 (right), the best performing configuration (24Y at lowest Re) and the worst performing configuration (24X at highest Re) are used to compare the results of the ROM, the microscopic simulations (at all PDs), and the oxygenators of the vali­dating experiments (at inlet and outlet) along the 16 mm domain.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        6,
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Modeling of full oxygenator Fig. 7 compares the gas transfer into blood between the ROM pre­dictions and in-vitro data from literature. The comparison includes three design points, one for a smaller oxygenator version at high flow rate, and two for the larger version at lower flow rates. In the small version, the high flow rate led to low oxygenation, with 29.6 mL O2 per L blood. The model strongly underestimated oxygen transfer by 33 % with 19.9 mL/ L. In the large version, transfer rates of 71.8 and 51.8 mL/L were measured at flow rates 60 and 180 mL/L, respectively. The ROM pre­dicted corresponding values of 70.1 and 51.9 mL/L, with deviations below 2.3 %, which falls within the experimental standard deviation. Fig. 8 shows the local oxygen saturation inside of the oxygenators as blood passes through the porous medium at different flow rates. In the smaller oxygenator, the high flow rate produces a jet that passes through the center of the fiber bundle and leads to inhomogeneous saturation. This jet causes almost unsaturated blood (70 %) to leave the bundle in the central region. Peripheral to the jet, blood has slightly higher satu­ration of up to 80 %. In the larger oxygenator, at 60 mL/min, blood is saturated to 80 % after about a fifth of the flow path and nearly fully saturated to 95 % after two thirds.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "larger oxygenator, at 60 mL/min, blood is saturated to 80 % after about a fifth of the flow path and nearly fully saturated to 95 % after two thirds. At higher flow of 180 mL/min, 80 % saturation is reached at about a third of the flow path and leaves the oxygenator at about 90 % saturation, with oxygenation appearing most homogenous across the entire fiber bundle. Under this condition, oxygenation appears most homogenously distributed across the whole fiber bundle. In all versions, zones of elevated oxygen concentration can be observed near the inlet that extend downstream into the fiber bundle along a curved path. These regions are located at the flow separation between the inlet jet from the pipe and the perpendicular distributor geometry. At this transition, areas of reduced flow and backflow occur near the first layers of fibers (cf. Fig. A 1, Supplementary data ). Further plots that show the distribution of Re, ΔpO*2 and ΦO2 can be found in the supplement. 4. Discussion The aim of this work was to develop a ROM for gas transfer in blood oxygenators that predicts gas transfer a priori, without the need for calibration experiments. This required the model to resolve local gas transfer within the fiber bundle for four common fiber configurations. Using validated microscopic simulations from our previous study, we derived oxygen source terms from fiber bundle sections and applied them to a porous medium model.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "microscopic simulations from our previous study, we derived oxygen source terms from fiber bundle sections and applied them to a porous medium model. These results were compared to both microscopic simulations and in-vitro experiments. The ROM was then applied to a full-scale lab oxygenator and accurately predicted the overall oxygen transfer across typical flow regimes and provided local oxygen concentrations within the fiber bundle. The ROM was developed by fitting a dimensionless gas transfer correlation to the results of validated microscopic simulations [8]. For a Reynolds number range of 0.9–4.4 the correlation closely matched the simulation data. The low root mean square error (RMSE) values below 0.01 correspond to deviations of less than 0.5 % over the full range of ShSc-1/3, indicating excellent agreement and confirming the reliability of the chosen fitting function within these ranges. Testing the ROM against microscopic simulations gave a strong correlation across all configurations and Reynolds numbers with a high coefficient of determination (R-squared = 0.995), which verified the robustness of the fitted source terms and the general applicability of the ROM. However, a systematic overestimation of 6–12 % was observed in the ROM when directly compared to microscopic simulations. This likely results from the porous medium approach, which does not resolve the microscale concentration boundary layers at individual fiber surfaces.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This likely results from the porous medium approach, which does not resolve the microscale concentration boundary layers at individual fiber surfaces. These layers introduce additional diffusion resistance in fully resolved CFD, reducing the concentration gradient at the fiber surface, which is the effective driving force for gas transfer. In contrast, the ROM treats oxygen concentration as locally averaged within the porous domain, which can lead to an overestimation of the gradient between membrane and blood. The verified ROM then accurately predicted the total oxygen transfer for a full-size oxygenator, demonstrating the applicability of the ROM in actual design processes. However, the model was fitted to realistic Re in fiber bundles and does not reliably extrapolate to flow conditions far beyond this training data. In the case of the 29-layer oxygenator at 500 mL/min blood flow rate, 23 % of the fiber bundle volume was exposed to Re > 5 (cf. Fig. A 1, Supplementary data). For these cases, gas transfer tends to be underestimated due to limitations in the ROM's ability to capture flow phenomena like jetting at inlet regions, which should be avoided anyway, as they lead to elevated shear rates, and consequently to blood damage, as well as inhomogeneous and inefficient perfusion of the fiber bundle. Similar flow inhomogeneities and regions of increased thrombosis risk have been observed in clinically used oxygenators through numerical simulations [17,18]. Zhang et al.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "neities and regions of increased thrombosis risk have been observed in clinically used oxygenators through numerical simulations [17,18]. Zhang et al. found a linear relationship between Re and wall shear stress in fiber bundles, which in the jet region could exceed the threshold for hemolysis. Nevertheless, they reported that hemolysis remains negligible for flow regimes rele­vant to commercial oxygenators [19]. Additionally, this working point represents a blood flow to gas exchange area ratio (0.5 L/min: 0.031 m2) which is far outside of the design point of an oxygenator and thus beyond clinical applicability as the oxygenator does not supply sufficient gas exchange at this flow rate (minimum gas exchange should reach 50 mLgas/Lblood) [20]. A key strength of the ROM is its ability to resolve local gas transfer and saturations throughout the fiber bundle. This enables a detailed",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. Oxygen transfer for two sizes of the oxygenator at three flow rates, predicted by the ROM and as reported in literature. J.M. Focke et al. Journal of Membrane Science 742 (2026) 125096 assessment of how different regions contribute to the overall perfor­mance. Local inefficiencies, delayed saturation or bypassing flow paths can be identified, which is critical to improve fiber bundle design. The computational cost of the ROM was approximately 24 CPU hours for the 29-layer oxygenator. In contrast, fully resolved microscopic simulations from our previous study, require on the order of 8 ⋅ 104 CPU hours when extrapolated to the same volume. Even the more efficient mesh proposed by Monsefi Estakhrposhti et al. [21] would still reduce this only by a factor of about four, remaining far beyond practical feasibility for full-size oxygenators. This makes the ROM a valuable tool for evaluation and optimization of fiber bundle geometries. Previous studies have proposed ROMs, empirical correlations, and surrogate fiber bundles to estimate oxygen transfer in hollow fiber membrane oxygenators, but most of them are limited in scale or reso­lution. Gas transfer is often averaged across whole devices, assuming constant transfer coefficients, regardless of local flow effects or fiber configuration. For example, He et al.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "veraged across whole devices, assuming constant transfer coefficients, regardless of local flow effects or fiber configuration. For example, He et al. fitted the Sherwood correlation to experimental data from a small scale fiber bundle and were able to derive transfer rates of full-size oxygenators, achieving prediction errors within 16 % for seven commercial oxygenators [5]. Nevertheless, this approach requires homogeneous flow fields and does not resolve local variations. Low et al., Jian et al., and Li used 2D simulations to inves­tigate the effects of fiber arrangement and flow direction, providing valuable insight into local transfer behavior [6,7,22]. Low et al. used 2D simulation data to provide an analytical method to estimate gas transfer for uniform flow through simplified fiber bundles, with tendencies comparable to our findings [7]. However, the restriction to two-dimensional sections limits their applicability to realistic 3D ge­ometries, and the analysis of only small sections or homogeneous flow conditions restricts their use for full size devices with more complex flow fields. We closed these gaps by using fiber-scale gas transfer to calculate oxygen source terms that can be applied to porous medium fiber bun­dles.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "w fields. We closed these gaps by using fiber-scale gas transfer to calculate oxygen source terms that can be applied to porous medium fiber bun­dles. This can be performed by using the correlation coefficients from Table 3 and implementing them in CFD through the source term in equation [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}]. The porous medium CFD model of the RatOx with the source term implementation can be found at Zenodo (see Data availability). The reduction of complexity comes with restrictions in our study. The most obvious limitation is the underestimation of oxygen transfer for an oxygenator with blood flow that is higher than the data used for fitting the ROM. Although these high blood flows are irrelevant for commercial oxygenators, additional microscopic simulations at higher flow rates, especially in the relevant range of Re < 10 [4,5,7,13], would provide further data to account for high Reynolds numbers. Further­more, Zierenberg et al. found that at Re > 10, vortices form downstream of fibers, enhancing mixing and thereby increasing gas transfer [23]. This change of flow regime is neglected by the ROM, which assumes consistent flow regime across all Re and does not account for additional convective gas transfer though vortices. This limitation likely contrib­utes to the underestimation of gas transfer above the validated range.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "itional convective gas transfer though vortices. This limitation likely contrib­utes to the underestimation of gas transfer above the validated range. Another important factor for oxygenator characterization is carbon dioxide removal. Not only is it crucial for life support, but it also in­creases the binding affinity of oxygen to hemoglobin, the so-called Bohr effect [24], and subsequently the oxygen transfer. While the blood model used is capable to reproduce this effect, the CO2 transfer data from our previous study was not included here, as it significantly underestimated actual transfer. With reliable data, the same approach demonstrated for oxygen transfer can be used to formulate CO2 sink terms in the porous medium for different fiber configurations, Re and the dimensionless concentration gradient ΔpCO*2. Yet, the sweep gas flow would have to be accounted for as an additional variable, as it strongly influences CO2 removal [25,26]. In this study, pCO2 was kept constant at 44 mmHg, which was the CO2 partial pressure measured in the validating experiments [8], representing normal venous blood values. In the 24Z configuration, a simplified in-line configuration of consecutive fiber mats has been used due to high computational cost of single PDs. This setup led to reduced mixing and an extended formation of concentration boundary layers at the fiber membrane surface, which propagated along downstream fibers and PDs, impairing gas transfer.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ed formation of concentration boundary layers at the fiber membrane surface, which propagated along downstream fibers and PDs, impairing gas transfer. This effect was most pronounced in the first PDs, where gas transfer was underestimated. The first two PDs at high values of ΔpO*2 were excluded from the fitting to avoid an overestimation of the response surface",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "J.M. Focke et al. Journal of Membrane Science 742 (2026) 125096\n\n[18] X. Fu, Z. Su, Y. Wang, A. Sun, L. Wang, X. Deng, Z. Chen, Y. Fan, Comparison of hemodynamic features and thrombosis risk of membrane oxygenators with different structures: a numerical study, Comput. Biol. Med. 159 (2023) 106907.[19] J. Zhang, X. Chen, J. Ding, K.H. Fraser, M.E. Taskin, B.P. Griffith, Z.J. Wu, Computational study of the blood flow in three types of 3D hollow fiber membrane bundles, J. Biomech. Eng. 135 (2013) 121009.[20] J. Arens, R. Borchardt, S.V. Jansen, Oxygenator design, in: S.D. Gregory, A. F. Stephens, S. Heinsar, J. Arens, J.F. Fraser (Eds.), Mechanical Circulatory and Respiratory Support, Academic Press an imprint of Elsevier, London, San Diego, CA, Cambridge, MA, 2025, pp. 591–608.[21] S.H. Monsefi Estakhrposhti, J. Xu, M. Gf¨ohler, M. Harasek, A validated CFD model for gas exchange in hollow fiber membrane oxygenators: incorporating the bohr and haldane effects, Membranes 15 (2025).[22] W. Li, Numerical Investigation of Gas Exchange Processes in Hollow-Fiber Membrane Bundles, ASAIO journal (American Society for Artificial Internal Organs 1992, 2025.",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        9,
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[23] J.R. Zierenberg, H. Fujioka, R.B. Hirschl, R.H. Bartlett, J.B. Grotberg, Pulsatile blood flow and oxygen transport past a circular cylinder, J. Biomech. Eng. 129 (2007) 202–215.[24] C. Bohr, K. Hasselbalch, A. Krogh, Concerning a biologically important relationship - the influence of the carbon dioxide content of blood on its oxygen binding, Skand. Arch. Physiol. 16 (1904) 401–412.[25] K. Askew, J. Rizzo, L. Fan, G. He, Computational fluid dynamics modeling of sweep gas flow rate-dependent carbon dioxide removal in oxygenators, Fluids 10 (2025) 158.[26] S. Strassmann, M. Merten, S. Sch¨afer, J. de Moll, D. Brodie, A. Larsson, W. Windisch, C. Karagiannidis, Impact of sweep gas flow on extracorporeal CO2 removal (ECCO2R), Intensive care medicine experimental 7 (2019) 17.[27] G. Poletti, D. Ninarello, G. Pennati, Computational analysis of the effects of fiber deformation on the microstructure and permeability of blood oxygenator bundles, Ann. Biomed. Eng. 52 (2024) 1091–1105.\n\nJ.M. Focke et al. Journal of Membrane Science 742 (2026) 125096",
+    "citation": {
+      "authors": [
+        "Focke M.",
+        "Barbian P."
+      ],
+      "paper_id": "1-s2.0-S0376738825014097-main",
+      "title": "A reduced order model for spatially resolved gas transfer prediction in full scale oxygenators",
+      "year": "2026",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  }
+]

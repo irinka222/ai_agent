@@ -1,0 +1,277 @@
+[
+  {
+    "content": "We study global dynamics of the Poisson-Nernst-Planck (PNP) system for flows of two types of ions through a narrow tubular-like membrane channel. As the radius of the cross-section of the three-dimensional tubular-like membrane channel approaches zero, a one-dimensional limiting PNP system is derived. This one-dimensional limiting system differs from previous studied one-dimensional PNP systems in that it encodes the defining geometry of the three-dimensional membrane channel. To justify this limiting process, we show that the global attractors of the three-dimensional PNP systems are upper semi-continuous to that of the limiting PNP system. We then examine the dynamics of the one-dimensional limiting PNP system. For large Debye number, the steady-state of the one-dimensional limiting PNP system is completed analyzed using the geometric singular perturbation theory. For a special case, an entropy-type Lyapunov functional is constructed to show the global, asymptotic stability of the steady-state.\n\nKey words. Poisson-Nernst-Planck system, global attractor, steady solution. MSC 2000. Primary 37L55. Secondary 35B40.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "Abstract"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1 Introduction\nPoisson-Nernst-Planck (PNP) systems serve as basic electro-diffusion equations modeling, for example, ion flow through membrane channels, transport of holes and electrons in semiconductors (see, e.g., [1, 2, 21, 27] and the references therein). There are many excellent works on derivation of PNP systems from Boltzmann equations (see [1] and reference therein) by assuming the collision time is much smaller than the characteristic time. The PNP systems have been studied under various physical relevant boundary conditions such as the non-flux, homogeneous Dirichlet and Neumann boundary conditions. For those types of boundary conditions, in addition to the total charge conservation and the existence of various first integrals, Boltzmann H-functionals or entropy-like functionals are successfully constructed, which, together with the advances of Csisz´ar-Kullback type or logarithmic Soblev inequalities, are applied to investigate the asymptotic behavior of the PNP systems and stability of steady-state or self-similar solutions (see, e.g., [3, 4, 8, 9, 10, 24, 28]).",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "1 Introduction"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In the context of ion flow through membrane channels, it is physically unreasonable to impose the above mentioned boundary conditions on the whole boundary, particularly at the two \"ends\" of the channels. Instead, non-homogeneous Dirichlet conditions on the two \"ends\" are typically assumed. PNP systems supplemented with this type of boundary conditions result in quite different dynamical behavior. The total charges within the channels are not conserved and entropy-like functionals are not available in general, and, most significantly, the asymptotic behavior is different as showed in special cases in the present paper.\n\nIn this work, we start a systematic study of the PNP systems modeling ion flows through narrow tubular-like membrane channels in physiology. For definiteness, consider flow of two types of ions, S1 and S2, one with the positive valence α1 > 0 and the other with the negative valence -α2 < 0, passing through a membrane channel with length normalized from X = 0 to X = 1.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "1 Introduction"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Denote the concentrations of S1 and S2 at location (X,Y,Z) and time t by c1(t,X,Y,Z) and c2(t,X,Y,Z). Then the electric potential Φ(t,X,Y,Z) in the channel is governed by the Poisson equation ΔΦ = -λ(α1c1 - α2c2), where the parameter λ is the Debye number related to the ratio of the Debye length to a characteristic length scale. The flux densities, J1 and J2, of the two ions contributed from the concentration gradients of the two ions and the electric field satisfy the Nernst-Planck equations D1(∇c1 + α1c1∇Φ) = -J1 and D2(∇c2 - α2c2∇Φ) = -J2, and the continuity equations ∂c1/∂t + ∇·J1 = 0, ∂c2/∂t + ∇·J2 = 0, where D1 and D2 are the diffusion constants of ions S1 and S2 relative to the membrane channel.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "1 Introduction"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The Poisson-Nernst-Planck system is thus given by:\nΔΦ = -λ(α1c1 - α2c2),\n∂c1/∂t = D1 ∇·(∇c1 + α1c1∇Φ),\n∂c2/∂t = D2 ∇·(∇c2 - α2c2∇Φ).\n\nPNP systems have been studied by many authors (see, e.g., [1, 2, 3, 4, 8, 9, 10, 15, 16, 17, 21, 24, 25, 27, 28]). Many works have been attributed to the one-dimensional PNP systems and particularly the steady-state problems (see, e.g., [15, 16, 25, 17]). Consideration of one-dimensional PNP systems is motivated naturally by the fact that membrane channels are narrow. To make this reduction more rigorous, we present a mathematical framework based on the ideas in [12, 13] and investigate mathematically the limiting process as the three-dimensional domain shrinks to a line segment.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "1 Introduction"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "More specifically, starting with the situation that Ωε is a revolution domain about its length (ε is related to the maximal radius of the cross-sections of the channel), we will derive a one-dimensional limiting PNP system as ε → 0. Differing from the simple one-dimensional version of the PNP system, this limiting PNP system encodes the defining geometry of the three-dimensional channel. As the first step in justifying the limiting process, we show the upper semi-continuity of the global attractors Aε of the three-dimensional systems at ε = 0. The existence of global attractors for the PNP systems can be found in [9]. It is expected that if the one-dimensional limiting system is structurally stable, then its dynamics determines that of three-dimensional system for ε > 0 small.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "1 Introduction"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "We will thus examine, in this paper, the steady-state problem of the one-dimensional limiting system. For large Debye number, the steady-state problem can be viewed as a singularly perturbed one. We show that this problem can be completely analyzed using the geometric singular perturbation theory as in [23].\n\nThe rest of the paper is organized as follows. In Section 2, we give detailed formulation of our problem. The domain for the three-dimensional PNP system will be specified and, as the domain shrinks to a one-dimensional segment, a one-dimensional limiting PNP system is derived. We then state our results on the upper semi-continuity of attractors, on the singular boundary value problem of the steady-state PNP system. The proofs are provided in Sections 3 and 4.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "1 Introduction"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In Section 3, after some technical preparations, we show the upper semi-continuity of attractors. Section 4 is devoted to the geometric analysis of the singularly perturbed steady-state problem of the one-dimensional limiting PNP system. At the end of this section, a special case is studied for which a H-function is found and used to establish the asymptotic stability of the steady-state.\n\n2 Formulation of the problem and the statements of main results\n2.1 Three-dimensional PNP and a one-dimensional limit\nWe start with setting up our problem. The membrane channel considered here is special and will be viewed as a tubular-like domain Ωε in R3 as follows: Ωε = {(X,Y,Z) : 0 < X < 1, Y^2+Z^2 < g^2(X,ε)}, where g is a smooth (at least C^3) function satisfying g(X,0) = 0 and g0(X) = ∂g/∂ε (X,0) > 0 for X ∈ [0,1].",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "2 Formulation"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The positive parameter ε measures the sizes of cross-sections of the membrane channel. For a technical reason (used in Lemma 3.1), we also assume that ∂g/∂X (0,ε) = ∂g/∂X (1,ε) = 0.\nThe boundary ∂Ωε of Ωε will be divided into three portions: Lε = {(X,Y,Z) ∈ ∂Ωε : X = 0}, Rε = {(X,Y,Z) ∈ ∂Ωε : X = 1}, Mε = {(X,Y,Z) ∈ ∂Ωε : Y^2+Z^2 = g^2(X,ε)}. Thus, Lε and Rε are viewed as the two ends of the channel and Mε the wall of the channel. The boundary conditions considered in this paper are:\nΦ|Lε = φ0 > 0, Φ|Rε = 0, ck|Lε = lk > 0, ck|Rε = rk > 0, ∂Φ/∂n |Mε = ∂ck/∂n |Mε = 0, where φ0, lk and rk (k = 1,2) are constants, and n is the outward unit normal vector to Mε.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "2 Formulation"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Although the most natural boundary conditions on Mε would be the non-flux one (∂c1/∂n + α1c1 ∂Φ/∂n)|Mε = (∂c2/∂n - α2c2 ∂Φ/∂n)|Mε = 0, the above homogeneous Neumann conditions on Mε are reasonable (they are the consequences of the non-flux and zero-outward electric field conditions).\n\nIn this paper, we are interested in the limiting behavior of the PNP system when the three-dimensional tubular-like domain Ωε collapses to a one-dimensional interval as ε → 0. Naturally we expect a one-dimensional limiting system whose global dynamics is comparable with those of PNP systems for ε > 0 small. This important idea was applied by many researchers in studying the dynamics of equations defined on thin domains (see, e.g., [12, 13, 26, 29]). We follow the procedure in [13] to derive a one-dimensional limiting system but avoid expressing differential operators and transformations in local coordinates. As a result, the expected one-dimensional limiting system is more transparent.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "2 Formulation"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "To derive the limiting PNP system, we transfer the ε-dependent domain Ωε into a fixed domain Ω = [0,1] × D, where D is the unit disk, by applying the change of coordinates: x = X, y = Y/g(X,ε), z = Z/g(X,ε). In the sequel, we denote by L, R and M, respectively, the boundaries of Ω corresponding to Lε, Rε and Mε under the transformation. Let J denote the Jacobian matrix of the change of coordinates. Then, after applying Lemma 2.1 (a technical result for diffeomorphisms), system (1.1) can be rewritten in terms of (x,y,z) with boundary conditions. By inspecting the structural dependence of JJ^T on ε, we expect the one-dimensional limiting PNP system to be:\n(1/g0^2) ∂/∂x (g0^2 ∂Φ/∂x) = -λ(α1c1 - α2c2),\n∂c1/∂t = (D1/g0^2) ∂/∂x (g0^2 (∂c1/∂x + α1c1 ∂Φ/∂x)),\n∂c2/∂t = (D2/g0^2) ∂/∂x (g0^2 (∂c2/∂x - α2c2 ∂Φ/∂x)), on x∈(0,1) with boundary conditions Φ(t,0)=φ0, Φ(t,1)=0, ck(t,0)=lk, ck(t,1)=rk, where g0(x) is defined above.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "2 Formulation"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "It was shown in [9] that, for any ε > 0, the three-dimensional PNP system has a global attractor Aε which is a compact subset and attracts all solutions with respect to the norm topology of H^1×H^1. This result is based on an invariant principle discovered in [10, 11, 9, 28] for the van Roosbroeck models of semi-conductor. The PNP systems are basically the same as the van Roosbroeck models and we recall the invariant principle using the above setting.\n\nProposition 2.2. Let M be a positive constant with M ≥ max{α1l1, α1r1, α2l2, α2r2}, and let Σ̃ be the subset of H^1(Ωε)×H^1(Ωε) given by Σ̃ = {(c1,c2)∈ H^1(Ωε)×H^1(Ωε) : 0 ≤ α1c1 ≤ M, 0 ≤ α2c2 ≤ M}. Then Σ̃ is positively invariant for the PNP system. More precisely, if the initial datum (c1(0),c2(0)) ∈ Σ̃ and (c1,c2) is the solution, then (c1(t),c2(t)) ∈ Σ̃ for all t ≥ 0.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "2 Formulation"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "We remark that, for PNP systems with three or more types of ions, the above invariant principle is not available. It is not clear to us whether or not a similar principle still holds in this case. PNP systems with more than two types of ions are worth further studying.\n\nThe results in [10, 11, 9, 28] show also that the one-dimensional problem (2.6)-(2.7) has a positively invariant region Σ̃0 = {(c1,c2)∈ H^1(0,1)×H^1(0,1) : 0 ≤ α1c1 ≤ M, 0 ≤ α2c2 ≤ M}, where M is the constant in Proposition 2.2, and problem (2.6)-(2.7) is globally well-posed in Σ̃0 and has a global attractor A0 in Σ̃0 ∩ H^1(0,1)×H^1(0,1).\n\nOur first result claims that the global attractors Aε of the three-dimensional PNP systems are upper semi-continuous to the global attractor A0 of the one-dimensional limiting system as ε → 0, which partially justify the limiting process.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "2 Formulation"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Theorem 2.3. The global attractors Aε of the three-dimensional PNP systems are upper semi-continuous at ε = 0, that is, for any η > 0, there exists a positive number ε1 = ε1(η) such that for all 0 < ε ≤ ε1 and all w ∈ Aε, dist_{Xε}(w, A0) ≤ η, where Xε = { w : ∥w∥^2_{Xε} = ∥w∥^2_{L^2} + ∥∇w∥^2_{L^2} + (1/ε^2)∥wy∥^2_{L^2} + (1/ε^2)∥wz∥^2_{L^2} < ∞ }.\n\n2.2 Steady-state problem of the one-dimensional limiting PNP system\nThe steady-state of problem (2.6) and (2.7) can be rewritten as\nμ^2 d/dx (h(x) dφ/dx) = -h(x)(α1c1 - α2c2),\ndJ1/dx = 0, dJ2/dx = 0,\nh(x) dc1/dx + α1c1 h(x) dφ/dx = -J1,\nh(x) dc2/dx - α2c2 h(x) dφ/dx = -J2,\nwhere μ^2 = 1/λ, J1 = J̄1/D1, J2 = J̄2/D2 and h(x) = g0^2(x), and the boundary conditions are φ(0)=φ0, c1(0)=l1, c2(0)=l2, φ(1)=0, c1(1)=r1, c2(1)=r2.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "2.2 Steady-state problem"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Since λ is large, we treat the problem as a singularly perturbed problem with μ as the singular parameter. We recast it into a system of first order equations. Denote derivatives with respect to x by overdot and introduce τ = x, u = μ h(τ) φ̇, v = -h(τ)(α1c1 - α2c2), w = α1^2 c1 + α2^2 c2. Then the slow system is obtained. Setting μ = 0 gives the limiting slow system and the slow manifold Z0 = {u = v = 0}. The boundary layers are governed by the fast system after rescaling x = μξ.\n\nTheorem 2.4. Assume that α1l1 ≠ α2l2 and α1r1 ≠ α2r2 (otherwise, see Remark 4.1). For μ > 0 small, the boundary value problem has a unique solution near a singular orbit. The singular orbit is the union of two fast orbits of the fast system representing the boundary layers and one slow orbit of a blow-up system for the regular layer. The limiting flux densities are explicitly given by formulas involving h^{-1}(x) integrated over [0,1], reflecting the geometry of the three-dimensional channel.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "2.2 Steady-state problem"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Remark 2.1. The factor ∫_0^1 h^{-1}(x)dx on the denominators in the expressions for the flux densities J1 and J2 reflects the effect of the geometry of the three-dimensional channel. For a cylindrical channel where the wall is defined by {Y^2+Z^2 = ε}, the corresponding integral factor is 1. The volume of the channel is πε^2. For general channels we assume Vol = ∫_0^1 πg^2(x;ε)dx = πε^2, from which we have ∫_0^1 h(x)dx = 1. Therefore, 1 = (∫_0^1 h^{-1/2} h^{1/2})^2 ≤ (∫_0^1 h^{-1})(∫_0^1 h) = ∫_0^1 h^{-1}. The inequality indicates that the more complicated the geometry of the channel, the smaller the flux for the ion flow, which agrees with common sense.\n\n3 Upper semi-continuity of attractors\n3.1 Homogenization of boundary conditions\nWe convert the non-homogeneous Dirichlet boundary conditions on L∪R to homogeneous ones, while keeping homogeneous Neumann conditions on M. A technical Lemma 3.1 constructs a function Hε with needed properties.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "3 Upper semi-continuity"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2 Uniform estimates of global attractors\nWe derive uniform estimates of the global attractors Aε in ε. Using an inner product on L^2(Ω) and bilinear form a_ε, we define an operator L_ε. From the invariant principle and energy estimates, we obtain uniform bounds in H^1_D(Ω)×H^1_D(Ω) for solutions and for the attractors. Key lemmas (3.2, 3.3, 3.6) provide estimates on norms and time derivatives independent of ε.\n\n3.3 Upper semicontinuity\nWe compare solutions of the 3D problem and the 1D limiting problem. Using a projection operator M(f) (average over cross-section), we prove Lemma 3.8 that ∥f-M(f)∥_{H_ε} ≤ Cε∥f∥_{X_ε}. Then we derive estimates for the differences P_ε, Q_ε, ψ_ε (Lemma 3.9 and 3.10) that decay as ε→0. Finally, using the global attractor properties and the estimates, we prove Theorem 2.3.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "3 Upper semi-continuity"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4 Steady-states for the one-dimensional limiting PNP system\nMany mathematical works have been done on the existence, uniqueness and qualitative properties of boundary value problems even for high dimensional systems and algorithms have been developed toward numerical approximations (see, e.g. [15, 16, 25, 17]). Under the assumption that μ ≪ 1, the problem can be viewed as a singularly perturbed system. Typical solutions exhibit different time scales; for example, boundary and internal layers evolve at fast pace and regular layers vary slowly. For the boundary value problem (2.8)-(2.9), there are two boundary layers one at each end. Physically, near boundaries x=0 and x=1, the potential φ(x) and concentrations c1(x),c2(x) exhibit a large gradient. In [2], for α1=α2=1, the problem was studied using matched asymptotic expansions. In [23], geometric singular perturbation theory was applied. The treatment for the limiting one-dimensional PNP system (2.8) carrying the geometric information follows that in [23].",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "4 Steady-states"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "It is convenient to study an equivalent connecting problem to the boundary value problem (2.8) and (2.9). Let B_L and B_R be subsets of R^7 defined by B_L = {φ = φ0, v = -h(0)(α1l1-α2l2), w = α1^2 l1+α2^2 l2, τ = 0}, B_R = {φ = 0, v = -h(1)(α1r1-α2r2), w = α1^2 r1+α2^2 r2, τ = 1}. The boundary value problem is equivalent to finding a solution of (2.10) from B_L to B_R.\n\n4.1 Fast dynamics and boundary layers\nSystem (2.14) governs the boundary layers. The slow manifold Z0 = {u=v=0} is a 5-dimensional manifold of equilibria. Each equilibrium has a 1D stable and 1D unstable manifold. System (2.14) possesses a complete set of integrals, allowing full analysis. Proposition 4.1 describes the integrals and the intersections of the stable/unstable manifolds with B_L and B_R. The boundary layers are orbits of (2.14) connecting B_L and B_R to Z0.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "4.1 Fast dynamics"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.2 Slow dynamics and regular layers\nWe examine the slow flow in the vicinity of Z0. By blowing up u = μp, v = μq, we obtain a singular perturbation problem. The slow manifold S0 = {p = (α2J2-α1J1)/w, q=0} is normally hyperbolic and persists. The limiting slow dynamics on S0 are given by a reduced system. Its solution for the regular layer connecting the two boundary layers is derived explicitly, yielding formulas for φ(x), w(x) in terms of h(x) and the constants J1,J2. Proposition 4.2 shows that the forward and backward images of ω(N_L) and α(N_R) intersect transversally, uniquely determining J1 and J2.\n\n4.3 Proof of Theorem 2.4\nUsing the Exchange Lemma, we prove that for μ>0 small, the manifolds Mμ_L and Mμ_R intersect transversally, giving a unique solution near the singular orbit. This completes the proof.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "4.2-4.3 Slow dynamics and proof"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4.4 A Special Case\nConsider the one-dimensional limit PNP system with special boundary conditions: φ(0)=φ0, φ(1)=0, α1c1(0)=α1c1(1)=α2c2(0)=α2c2(1)=k>0. Then (c1^0, c2^0, φ^0) = (k/α1, k/α2, (1-x)φ0) is a steady-state. Define L(t) = Σ_{j=1}^2 (1/D_j) ∫_0^1 h(x)[c_j(x,t) - c_j^0(x) ln(c_j(x,t)/c_j^0(x))] dx. Using the equation and integration by parts, L'(t) ≤ 0 and L'(t)=0 iff c1=c1^0, c2=c2^0, φ=φ^0. Moreover, L(t) is equivalent to Σ ∫ (c_i - c_i^0)^2 dx. Hence, ci → ci^0 in L^2(0,1) exponentially as t→∞. This shows a significant difference in asymptotic behavior between total non-flux boundary conditions and the boundary conditions considered in this work.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "4.4 A Special Case"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "References\n[1] V. Barcilon, D.-P. Chen, and R. S. Eisenberg, Ion flow through narrow membrane channels: Part II. SIAM J. Appl. Math. 52 (1992), 1405-1425.\n[2] V. Barcilon, D.-P. Chen, R. S. Eisenberg, and J. W. Jerome, Qualitative properties of steady-state Poisson-Nernst-Planck systems: Perturbation and simulation study. SIAM J. Appl. Math. 57 (1997), 631-648.\n[3] P. Biler and J. Dolbeault, Long time behavior of solutions to Nernst-Planck and Debye-Hückel drift-diffusion systems. Ann. Henri Poincaré 1 (2000), 461–472.\n[4] P. Biler, W. Hebisch, and T. Nadzieja, The Debye system: existence and large time behavior of solutions. Nonlinear Analysis TMA 23 (1994), 1189–1209.\n[5] B. Deng, The Sil'nikov problem, exponential expansion, strong λ-lemma, C1 linearization and homoclinic bifurcation. J. Differential Equations 79(1989), 189-231.\n[6] N. Fenichel, Persistence and smoothness of invariant manifolds for flows. Indiana Univ. Math. J. 21(1971), 193-226.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "References"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[7] N. Fenichel, Geometric singular perturbation theory for ordinary differential equations. J. Differential Equations 31(1979), 53–98.\n[8] H. Gajewski and K. Gröger, On the basic equations for carrier transport in semiconductors. J. Math. Anal. Appl. 113(1989),12–35.\n[9] H. Gajewski and K. Gröger, Semiconductor equations for variable mobilities based on Boltzmann statistics or Fermi-Dirac statistics. Math. Nachr. 140(1989), 7–36.\n[10] K. Gröger, Initial boundary value problems from semiconductor device theory. Math. Nachr. 129(1986), 167–174.\n[11] K. Gröger, Initial boundary value problems from semiconductor device theory. Z. Angew. Math. Mech. 67(1987), 345–355.\n[12] J.K. Hale and G. Raugel, A Damped Hyperbolic Equation on Thin Domains, Trans. Amer. Math. Soc. 329(1992), 185–219.\n[13] J.K. Hale and G. Raugel, Reaction-Diffusion Equation on Thin Domains. J. Math. Pures et Appl. 71(1992), 33-95.\n[14] M. Hirsch, C. Pugh, and M. Shub, Invariant Manifolds. Lect. Notes in Math. 583, Springer Verlag, New York, 1976.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "References"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[15] M. Holmes, Nonlinear Ionic Diffusion Through Charged Polymeric Gels. SIAM J. Appl. Math. 50(1990), 839-852.\n[16] J.W. Jerome, Consistency of Semiconductor Modeling: An Existence/Stability Analysis for the Stationary Van Roosbroeck System. SIAM J. Appl. Math. 45(1985), 565-590.\n[17] J. W. Jerome and T. Kerkhoven, A finite element approximation theory for the drift-diffusion semiconductor model. SIAM J. Numer. Anal. 28 (1991), 403-422.\n[18] C. Jones, Geometric singular perturbation theory. Dynamical systems (Montecatini Terme, 1994), 44-118. Lect. Notes in Math. 1609, Springer, Berlin, 1995.\n[19] C. Jones, T. Kaper, and N. Kopell, Tracking invariant manifolds up to exponentially small errors. SIAM J. Math. Anal. 27(1996), 558-577.\n[20] C. Jones and N. Kopell, Tracking invariant manifolds with differential forms in singularly perturbed systems. J. Differential Equations 108(1994), 64-88.\n[21] J. Keener and J. Sneyd, Mathematical Physiology. Interdisciplinary Applied Mathematics, Springer-Verlag, New York.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "References"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[22] W. Liu, Exchange Lemmas for Singular Perturbation Problems with Certain Turning Points. J. Differential Equations 167(2000), 134-180.\n[23] W. Liu, Geometric singular perturbation approach to steady-state Poisson-Nernst-Planck systems. SIAM J. Appl. Math. (to appear).\n[24] M. S. Mock, Asymptotic behavior of solutions of transport equations for semiconductor devices. J. Math. Anal. Appl. 49 (1975), 215–225.\n[25] J.-K. Park and J. W. Jerome, Qualitative properties of steady-state Poisson-Nernst-Planck systems: Mathematical study. SIAM J. Appl. Math. 57 (1997), 609-630.\n[26] G. Raugel and G. R. Sell, Navier-Stokes equations on thin 3D domains. I. Global attractors and global regularity of solutions. J. Amer. Math. Soc. 6 (1993), 503–568.\n[27] I. Rubinstein, Electro-Diffusion of Ions. SIAM Studies in Applied Mathematics, SIAM, Philadelphia, PA, 1990.\n[28] T. Seidman, Time-dependent solutions of a nonlinear system arising in semiconductor theory – II, boundedness and periodicity. Nonlinear Analysis TMA 10(1986), 491-502.\n[29] R. Temam and M. Ziane, Navier-Stokes equations in three-dimensional thin domains with various boundary conditions. Adv. Differential Equations 1 (1996), 499–546.\n[30] S.-K. Tin, N. Kopell, and C. Jones, Invariant manifolds and singularly perturbed boundary value problems. SIAM J. Numer. Anal. 31(1994), 1558-1576.",
+    "citation": {
+      "authors": ["Weishi Liu", "Bixiang Wang"],
+      "paper_id": "0902.4290v1",
+      "title": "Poisson-Nernst-Planck Systems for Narrow Tubular-like Membrane Channels",
+      "year": "2009",
+      "section": "References"
+    },
+    "type": "chunk"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "content": "1. INTRODUCTION\nOverlimiting current modes are of considerable interest for the practice of electrodialysis (ED). However, the economical expedience of such ED modes is evident only for desalination of dilute solutions. As was shown experimentally [1–4] and by mathematical simulations [5–7], electroconvection is the main mechanism of overlimiting transport in membrane systems in dilute electrolyte solutions. Electroconvection (EC) is the solution motion caused by the electric field action on the space charge localized near the ion-selective interface. The ion-selective surface is typical of ion-exchange membranes, electrodes, and microfluid devices with nanochannels [8]. To describe the EC mechanism, Dukhin and Mishchuk [9–10] introduced the concept of electroosmosis of the first and second kinds [9–11]. Electroosmosis of the first kind arises due to the action an external electric field on the equilibrium electric double layer (EDL) which exists even in the absence of electric current. Rubinstein and Zaltzman [5,12] call this kind of osmosis (quasi)equilibrium. Electroosmosis of the second kind (or nonequilibrium electroosmosis [5,13]) is associated with the electric field action on the extended space charge region (SCR) that appears at the overlimiting current densities. Electroosmosis of the second kind brings about sufficiently efficient solution mixing and intensifies the mass transport. For membranes with certain optimization of properties, the mass transfer rate can several times exceed its value corresponding to the so-called limiting current density [2,4,6,14].",
+    "citation": {
+      "authors": ["A.M. Uzdenova", "A.V. Kovalenko", "M.Kh. Urtenov", "V.V. Nikonenko"],
+      "paper_id": "S1023193517110179",
+      "title": "Theoretical Analysis of the Effect of Ion Concentration in Solution Bulk and at Membrane Surface on the Mass Transfer at Overlimiting Currents",
+      "year": 2017,
+      "section": "Introduction",
+      "pages": [1254, 1255]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The appearance of intense EC in membrane systems requires that three conditions be fulfilled [15–17]: (1) the presence of a sufficiently large space charge in solution; (2) the localization of charge in solution at a sufficient distance from the electrode/membrane surface; (3) the nonuniform distribution of the space charge to induce the tangential bulk force. The fact that at i → ilim, the existence of the extended SCR that far exceeds the region of the equilibrium electric double layer was demonstrated for the first time by Rubinstein and Shtilman based on the numerical solution of equations of Nernst–Planck and Poisson (NPP) [18]. By considering a particle of ion-exchange resin with the curved surface, Dukhin and Mishchuk [9–11], proposed the following mechanism of EC development. The electric field should contain two components: its normal component creates the extended SCR due to the strong concentration polarization of solution near the interface, its tangential component sets in motion the charged liquid. For a membrane with the electrically nonuniform surface, the situation is analogous: the normal electric field induces the formation of the extended SCR, while the tangential field appears due to bending of current lines near the boundaries between the conducting and nonconducting surface areas (the funnel effect [19]).",
+    "citation": {
+      "authors": ["A.M. Uzdenova", "A.V. Kovalenko", "M.Kh. Urtenov", "V.V. Nikonenko"],
+      "paper_id": "S1023193517110179",
+      "title": "Theoretical Analysis of the Effect of Ion Concentration in Solution Bulk and at Membrane Surface on the Mass Transfer at Overlimiting Currents",
+      "year": 2017,
+      "section": "Introduction",
+      "pages": [1255]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In 2000, Rubinstein and Zaltzman [5] developed the model for describing the mass transport in solution between two uniform ion-exchange membranes in the absence of forced convection. They have found the numerical solution for equations of NPP and Navier–Stokes (NS) under the assumption of local electroneutrality in solution beyond the SCR by using a special condition of the electroosmotic slip at the boundary between the electroneutral region and the SCR. They have shown that the surface heterogeneity is not the necessary condition for the EC appearance. A characteristic feature of this system is its hydrodynamic instability at sufficiently high overpotentials. Several threshold potential drops were observed [5] which separated different phases in the development of electrokinetic instability. The first threshold potential drop corresponds to the transition from the stable state to unstable one. If the system is in the rest state (the flow velocity is equal to zero everywhere) and the potential drop is lower than its first threshold value, then the small perturbations of the fields of concentration or velocity die out because of viscosity and diffusion, and the system returns to its initial state. When the first threshold value of the potential drop is exceeded, the perturbations become sufficient for starting the process of generation of periodic paired vortices. After their appearance, such vortices are reorganized, their size and form change in the oscillating mode. However, after several oscillations, they are stabilized and stop to change in time. As the potential drop increases further, its second threshold value is reached and when the latter is exceeded, the oscillations of vortices are not dumped out but become chaotic. The presence of all three modes of overlimiting transport in membranes was confirmed experimentally by Belova et al. [20].",
+    "citation": {
+      "authors": ["A.M. Uzdenova", "A.V. Kovalenko", "M.Kh. Urtenov", "V.V. Nikonenko"],
+      "paper_id": "S1023193517110179",
+      "title": "Theoretical Analysis of the Effect of Ion Concentration in Solution Bulk and at Membrane Surface on the Mass Transfer at Overlimiting Currents",
+      "year": 2017,
+      "section": "Introduction",
+      "pages": [1255]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The approaches like that of Rubinstein and Zaltzman [5] were used by Dydek et al. [21] and also by Green and Yossifon [22] for the description of electroconvective transport in microchannels. They used the slip condition on the internal boundary with SCR in the form of the formula of Helmholtz–Smoluchowski. The model based on the NNP and NS equations in which the counterion concentration was determined on the selectively permeable membrane surface, as in the 1D model of Rubinstein [18], and the flow of coions was equal to zero was considered by Demekhin et al. [23,24], Pham et al. [25], and Druzgalski et al. [26]. Thus, in the membrane and micro-nanofluid systems without forced flow, two EC modes can be singled out. For curved or electrically nonuniform surfaces at underlimiting currents, the tangential electric field induces the steady electroosmotic transport described by Dukhin and Mishchuk [27–29]. Such mode is not realized on uniform ideally selective membranes in the absence of forced liquid flow: the EC appears as a result of hydrodynamic instability at overlimiting currents, as was shown by Rubinstein and Zaltzman [5]. For briefness sake, these two modes are sometimes referred to as the electrokinetic modes of Dukhin and Rubinstein, respectively [30]. Note that for nonideally selective membranes, the electrokinetic stability can arise also in the mode of (quasi)equilibrium electroosmosis, as was recently shown by Rubinstein and Zaltzman [12]. For an ideally selective membrane in the absence of forced flow, the electrochemical potential does not vary along the transversal coordinate in the membrane, as in the electric double layer. This has the stabilizing effect on the EC development.",
+    "citation": {
+      "authors": ["A.M. Uzdenova", "A.V. Kovalenko", "M.Kh. Urtenov", "V.V. Nikonenko"],
+      "paper_id": "S1023193517110179",
+      "title": "Theoretical Analysis of the Effect of Ion Concentration in Solution Bulk and at Membrane Surface on the Mass Transfer at Overlimiting Currents",
+      "year": 2017,
+      "section": "Introduction",
+      "pages": [1255, 1256]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The EC in ED channels with forced flow was studied by Urtenov et al. [7,31] and Kwak et al. [6]. In such channels, the concentration is distributed nonuniformly along the channel length: as the solution moves between membranes, the electrolyte concentration decreases and the diffusion layer thickness increases. As a result, the current lines are concentrated closer to the channel entrance where system’s resistance per unit of membrane surface is lower. In this case, the tangential bulk force arises and acts on the SCR at the depleted membrane surface even when the membrane is homogeneous. This force induces the stationary EC even at underlimiting current densities. This kind of EC can be considered as electroosmosis of the first kind [9,10] or equilibrium EC [5,12]. The difference from the mechanism described by Dukhin and Mishchuk lies in the fact that the tangential force required for electroosmosis of the first kind arises not because of the electrical nonuniformity of the surface but as a result of nonuniformity of the longitudinal concentration distribution. In this mode of underlimiting currents, the bulk force is localized at a relatively small distance from the membrane where the viscous forces play the important role due to the adhesion condition. The contribution of EC to intensification of the mass transfer becomes considerable only at voltages corresponding to i > ilim at which the nonequilibrium EC develops (electroosmosis of the second kind). In this case, the SCR thickness sharply increases as compared with the equilibrium double layer to become of the order of several hundred nanometers. At such distances, the role of viscous forces decreases. Hence, the main contribution to the development of overlimiting transport is made by electroosmosis of the second kind. In this study, we consider theoretically how the concentration at inlet to the electrodialyzer channel affects the intensity of EC development. It was found experimentally [2] that as the solution concentration increases, the contribution of EC to the overlimiting transport of ions decreases in favor of other mechanisms. However, as far as we know, the question on the role of concentration was never considered in the literature.",
+    "citation": {
+      "authors": ["A.M. Uzdenova", "A.V. Kovalenko", "M.Kh. Urtenov", "V.V. Nikonenko"],
+      "paper_id": "S1023193517110179",
+      "title": "Theoretical Analysis of the Effect of Ion Concentration in Solution Bulk and at Membrane Surface on the Mass Transfer at Overlimiting Currents",
+      "year": 2017,
+      "section": "Introduction",
+      "pages": [1256]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "MATHEMATICAL FORMULATION OF THE PROBLEM\nThe model used here includes the system of coupled equations NPP–NS, which for a binary electrolyte is written as follows [7,33]: the Nernst–Planck equations for ion fluxes, continuity equations, Poisson equation, electric current density, Navier–Stokes equation with electric body force, and continuity for fluid are used. These equations are considered in two-dimensional geometry as applied to the desalination chamber of an ED cell containing an anion-exchange (AEM) and a cation-exchange (CEM) membranes. Here, x is the coordinate transversal as regards the forced flow and varying from 0 (AEM interface) to H (CEM interface); y is the longitudinal coordinate varying from 0 (channel inlet) to L (channel outlet). In the concentration chambers neighboring to the desalination chamber under consideration, the solution concentration is preset to be constant (c = c0). The electric mode is determined by setting the potential difference Δϕ between two equipotential planes that are parallel to the membranes in concentration chambers. When calculating the voltammetric characteristic (VAC) of the electrodialysis channel, the Δϕ scan rate was 0.01 V/s, which provided the quasistationary mode.",
+    "citation": {
+      "authors": ["A.M. Uzdenova", "A.V. Kovalenko", "M.Kh. Urtenov", "V.V. Nikonenko"],
+      "paper_id": "S1023193517110179",
+      "title": "Theoretical Analysis of the Effect of Ion Concentration in Solution Bulk and at Membrane Surface on the Mass Transfer at Overlimiting Currents",
+      "year": 2017,
+      "section": "Mathematical formulation",
+      "pages": [1256, 1257]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "At the conditional boundaries AEM/solution (x=0, y∈[0,L]) and solution/CEM (x=H, y∈[0,L]), the concentration of counterions is set to be a constant value [18] N-times exceeding the concentration in solution bulk (Na for AEM, Nc for CEM). On the same boundaries, the electric potential values are preset. The membranes are assumed to be impermeable for coions. The velocity of liquid at the membrane/solution boundaries is assumed to be zero (adhesion condition). The interfacial potential drops are found from the Donnan relationship with disregard of the concentration gradient in the membrane. At the inlet to the channel (x∈[0,H], y=0), the electrolyte concentration is set constant c0; the electric potential is determined from the condition of the zero tangential current density iy through the inlet cross-section; the velocity profile is assumed to be parabolic with average velocity V0. At the outlet (x∈[0,H], y=L), the sum of diffusion and migration components of the flows of cations and anions is assumed to be zero (which provides the zero tangential current density through the plane y=L); the velocity distribution is parabolic; the tangential derivatives of concentration and potential are assumed equal to zero. For t=0, the uniform distribution of concentration is preset (except at boundaries); the initial conditions agree with the other boundary conditions. The average current density in the channel is calculated by integrating the normal current density over the membrane area.",
+    "citation": {
+      "authors": ["A.M. Uzdenova", "A.V. Kovalenko", "M.Kh. Urtenov", "V.V. Nikonenko"],
+      "paper_id": "S1023193517110179",
+      "title": "Theoretical Analysis of the Effect of Ion Concentration in Solution Bulk and at Membrane Surface on the Mass Transfer at Overlimiting Currents",
+      "year": 2017,
+      "section": "Mathematical formulation",
+      "pages": [1257, 1258]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The formulated problem was solved by the finite element method by using Comsol Multiphysics 5.1 software package. Figure 2 shows the experimental and calculated voltammetric characteristics of individual ion-exchange membranes; the current density iav averaged was normalized to the limiting current density ilim calculated by the Levec equation. It is seen that the VAC found from the solution of coupled equations of Nernst–Planck–Poisson and Navier–Stokes demonstrates no current limit. Like the experimental curves, the calculated VAC rises much higher than ilim, the reason for this is the electroconvective transfer of ions. The initial linear segment of VAC is followed by an inclined plateau at values corresponding to the attainment of ilim. Initially, the current in the plateau increases monotonously and the curve is smooth. This part of curve corresponds to the stable EC developing by the mechanism analogous to that of Dukhin–Mishchuk. However, in contrast to the “classical” treatment, the current density along the membrane surface varies not as a result of electrical nonuniformity of the membrane surface but as a result of nonuniformity of the concentration field [7]: the current lines are concentrated in the vicinity of the channel inlet because, as solution moves, its desalination takes place and the specific resistance increases. This VAC segment is followed by the segment in which oscillations of current/potential appear. The appearance of oscillations is associated with the transition to the mode of electroconvective instability of Rubinstein–Zaltzman [5]. The sharper oscillations and the steeper ascend of the VAC are associated with the beginning of intense EC in the vicinity of AEM where this phenomenon arises at the higher current density (because the limiting current density through the AEM in NaCl solution is approximately 1.5-times higher than through the CEM).",
+    "citation": {
+      "authors": ["A.M. Uzdenova", "A.V. Kovalenko", "M.Kh. Urtenov", "V.V. Nikonenko"],
+      "paper_id": "S1023193517110179",
+      "title": "Theoretical Analysis of the Effect of Ion Concentration in Solution Bulk and at Membrane Surface on the Mass Transfer at Overlimiting Currents",
+      "year": 2017,
+      "section": "Mathematical formulation",
+      "pages": [1258, 1259]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "THE EFFECT OF THE INLET ELECTROLYTE CONCENTRATION\nThe calculations were carried out for H=0.5 mm, L=2 mm, V0=0.8 mm/s, T=298 K, D1=1.33×10⁻⁹ m²/s, D2=2.05×10⁻⁹ m²/s, Na=Nc=1. The main results are shown for Δϕ=0.8 V, where EC proceeds in nonequilibrium mode by the mechanism of electroosmosis of the second kind. Figure 4 shows the concentration profiles, the charge density, and the absolute magnitude of the tangential component of electric force in the overlimiting state. As the concentration c0 increases, the SCR that determines the electric force narrows down. As a result, the distance from the local maximum of force to the membrane surface decreases. Moreover, as the concentration increases, the force also increases in the absolute value. The density of the bulk electric force is proportional to the product ρE. The bulk force per membrane surface unit can be assessed as the product of force density and the thickness of the extended SCR. According to this estimate, as the concentration increases 10-fold, the force applied to the extended SCR per membrane surface unit increases approximately 4.6-fold, which agrees with numerical results. The voltammetric curves for different c0 show that before the threshold potential drop (Δϕcr≈0.7 V), the curves are smooth and the current increases monotonously with Δϕ (stable EC, Dukhin–Mishchuk mode). For Δϕ>Δϕcr, EC becomes unstable: current density oscillates. As c0 increases, the dimensionless current density decreases (at fixed Δϕ), and Δϕcr increases. Table 2 shows that the difference between current densities is sufficiently large. Figure 6 shows the variations in the structure of the electroconvective vortex region with increasing c0.",
+    "citation": {
+      "authors": ["A.M. Uzdenova", "A.V. Kovalenko", "M.Kh. Urtenov", "V.V. Nikonenko"],
+      "paper_id": "S1023193517110179",
+      "title": "Theoretical Analysis of the Effect of Ion Concentration in Solution Bulk and at Membrane Surface on the Mass Transfer at Overlimiting Currents",
+      "year": 2017,
+      "section": "Effect of inlet concentration",
+      "pages": [1259, 1260, 1261, 1262]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "THE EFFECT OF COUNTERION CONCENTRATION AT THE MEMBRANE SURFACE\nFor studying how counterion concentration determined by the boundary conditions at the membrane surface affects the membrane behavior, calculations were carried out for fixed c0=1 mol/m³ with Na=Nc=10, 1, and 0.1. Figure 7 shows the calculated VAC. As Na=Nc increases, the tendency for the increase in the current density appears at fixed Δϕ. However, at Na=Nc=10 and 1, the VAC curves are indistinguishable. At Na=Nc=0.1, the curve is localized somewhat lower; moreover, Δϕcr is somewhat higher. A curve calculated with the Neumann boundary condition (zero normal derivative of counterion concentration) is considerably lower than the Dirichlet condition curves, because the region of quasi-equilibrium double layer is eliminated from consideration. In [38], it was shown that the local maximum of the space charge density is independent of the interfacial concentration of counterions, but the threshold voltage of the transition to the Rubinstein–Zaltzman instability mode depends on Na and Nc, because they affect the space-charge localization.",
+    "citation": {
+      "authors": ["A.M. Uzdenova", "A.V. Kovalenko", "M.Kh. Urtenov", "V.V. Nikonenko"],
+      "paper_id": "S1023193517110179",
+      "title": "Theoretical Analysis of the Effect of Ion Concentration in Solution Bulk and at Membrane Surface on the Mass Transfer at Overlimiting Currents",
+      "year": 2017,
+      "section": "Effect of counterion concentration",
+      "pages": [1262, 1263, 1264]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "CONCLUSIONS\nAs the electrolyte concentration in solution (c0) supplied to the flow-through ED cell increases, the SCR size in depleted solution at the membrane surface decreases; however, the charge density and the tangential component of the bulk electric force increase. These two factors exert the opposite effects on the development of EC in depleted solution at the membrane surface. The results of numerical calculations showed that the factor responsible for the decrease in the SCR size dominates: as the concentration increases, the intensity of overlimiting transport determined by the ratio i/ilim decreases at the fixed potential difference. However, the stable EC in the Dukhin–Mishchuk mode depends weakly on c0; the effect of concentration growth strengthens with the increase in the potential difference. The higher c0, the larger the threshold potential difference (Δϕсr) at which the transition from the Dukhin–Mishchuk mode to the mode of Rubinstein–Zaltzman is observed. In the instability mode (oscillations appear in the voltammogram), the ratio i/ilim considerably decreases with the increase in c0. The increase in counterion concentration at the membrane interface (cm) has the opposite effect on EC: as cm increases, Δϕcr decreases and the EC intensity increases.",
+    "citation": {
+      "authors": ["A.M. Uzdenova", "A.V. Kovalenko", "M.Kh. Urtenov", "V.V. Nikonenko"],
+      "paper_id": "S1023193517110179",
+      "title": "Theoretical Analysis of the Effect of Ion Concentration in Solution Bulk and at Membrane Surface on the Mass Transfer at Overlimiting Currents",
+      "year": 2017,
+      "section": "Conclusions",
+      "pages": [1264, 1265]
+    },
+    "type": "chunk"
+  }
+]

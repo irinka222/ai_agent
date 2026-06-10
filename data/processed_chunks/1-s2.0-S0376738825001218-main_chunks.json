@@ -1,0 +1,886 @@
+[
+  {
+    "content": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes Nicol´as Cevallos-Cueva a\n\n, Md. Mushfequr Rahman a,*\n\n, Hluf Hailu Kinfu a , Volker Abetz a,b a Helmholtz-Zentrum Hereon, Institute of Membrane Research, Max-Planck-Straße 1, 21502, Geesthacht, Germanyb University of Hamburg, Institute of Physical Chemistry, Martin-Luther-King-Platz 6, 20146, Hamburg, Germany\n\nA R T I C L E I N F O Keywords:Interfacial polymerizationNanofiltration membranesThin film composite membranesSodium/magnesium separationDSPM-DE model",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T This study investigates the selective ion separation capabilities of interfacially polymerized nanofiltration (NF) membranes, focusing on the effect of piperazine (PIP) and trimesoyl chloride (TMC) concentrations on Na+/ Mg2+ selectivity. By varying the concentrations of PIP and TMC during interfacial polymerization (IP), we altered the membranes’ physicochemical characteristics and assessed their performance. The Donnan Steric Pore Model with Dielectric Exclusion (DSPM-DE) was used to explore the correlations between the DSPM-DE input param­eters and the partitioning mechanisms and transmembrane fluxes of Na+ and Mg2+ in terms of the monomer concentrations. Our findings reveal that variations in the thickness-to-porosity ratio and the effective membrane charge density, influenced by higher PIP and lower TMC concentrations, enhance the Na+/Mg2+ separation capabilities of the membranes. This study provides a mechanistic understanding of selective Na+/Mg2+ sepa­ration in terms of PIP and TMC concentrations, elucidating the underlying transport and exclusion mechanisms. These insights are important for optimizing membrane fabrication by IP and designing NF membranes for effi­cient Na+/Mg2+ separation, which is essential due to the importance of magnesium as a critical raw material.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Nanofiltration (NF) is a pressure-driven membrane process that can be used to selectively retain multivalent ions while allowing monovalent ions to permeate. NF membranes achieve the selective separation of ions based on their size, charge, diffusivity, and solubility [1]. To fully exploit the separation capabilities of NF membranes and minimize en­ergy consumption, it is essential to select membranes with tailored properties [2]. Due to the similar hydrated ionic radii of Mg2+ and Na+, separation based solely on sieving or steric effects might be insufficient. Therefore, non-sieving mechanisms, such as Donnan or charge effects, become more significant, with a positively charged membrane surface being particularly effective in enhancing divalent/monovalent cation selectivity [1–4]. This underscores the importance of elucidating the role of the membrane’s characteristics and underlying ion permeation mechanisms that influence cation selectivity, particularly in the context of Na+/Mg2+ separation. In our previous study [5], we demonstrated the effectiveness of NF membranes in selectively separating NO-3 / SO2-4 ions, where dielectric exclusion and diffusion were identified as the dominant exclusion and transport mechanisms, respectively.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Despite advancements in NF membrane fabrication, a research gap remains regarding the systematic influence of monomer concentrations in interfacial polymerization (IP) on Na+ and Mg2+ separation in terms of mass transport modeling. The Donnan Steric Pore Model with Dielectric Exclusion (DSPM-DE) is a state-of-the-art model that charac­terizes the membranes based on their physicochemical features, namely the pore radius (rpore), the thickness-to-porosity ratio of the active layer (Δxe), the charge density (cx), and the pore dielectric constant (εpore) [6]. These membrane characteristics serve as the input parameters of the model, determining the extent of the exclusion mechanisms and the magnitude of the transmembrane ionic fluxes, which ultimately drive the ion selectivity [6–10]. Previous studies on cation selectivity modeling have primarily focused on the effects of NF membrane operating parameters and syn­thesis conditions [8,9,11–22]. In the context of the DSPM-DE model, variations in the intrinsic characteristics of the membranes, resulting from changes in operating parameters and synthesis conditions, are re­flected as changes in the input parameters of the model. The influence of the operating parameters, including temperature, pH, and feed solution concentration on cation separation has been extensively investigated [8,\n\n* Corresponding author.E-mail address: mushfequr.rahman@hereon.de (Md.M. Rahman).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Contents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 721 (2025) 123808\n\nAvailable online 4 February 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "11,13,15–20]. However, these studies typically focus on variations in only two input parameters of the model. Conversely, only a few studies have focused on coupling the fabrication conditions of NF membranes with the DSPM-DE model [21–23]. These studies generally performed sensitivity analyses by varying one or two DSPM-DE input parameters at a time. For example, Labban et al. [23] fabricated membranes using layer-by-layer deposition and performed a sensitivity analysis to opti­mize a membrane for a desalination pretreatment. Furthermore, L´eniz-Pizarro et al. [22] synthesized NF membranes using interfacial polymerization (IP) between piperazine (PIP) and trimesoyl chloride (TMC) with the addition of polyallylamine hydrochloride (PAH) to yield positively charged membranes for the selective separation of multiva­lent cations. They utilized the DSPM-DE model to better understand the effect of the addition of PAH on the separation focusing mainly on cx and εpore. However, these studies reveal a gap in understanding the combined effects of all membrane physicochemical characteristics within the context of NF membrane fabrication. Our study addresses this gap by systematically varying all four DSPM-DE input parameters through changes in the fabrication conditions. Unlike our previous study of anion separation [5], the selective transport mechanisms governing Na+ and Mg2+ separation, where Donnan becomes a dominant factor, have remained less explored.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ration [5], the selective transport mechanisms governing Na+ and Mg2+ separation, where Donnan becomes a dominant factor, have remained less explored. By exploring the correlations between the DSPM-DE input parameters, the partitioning mechanisms, and trans­membrane molar fluxes of Na+ and Mg2+, we provide a comprehensive assessment of the impact of intrinsic membrane characteristics on cation selectivity. Most commercial NF membranes are fabricated by IP. They are thinfilm composite (TFC) membranes, comprising a thin polyamide (PA) active layer on top of a porous support [24]. Among the different IP reaction conditions, the monomer concentrations play a crucial role in dictating the final characteristics of the membranes, altering the thick­ness, porosity, surface charge, and roughness of the active layer [2,5,25–36]. Thus, varying the monomer concentrations during IP is ex­pected to affect the four DSPM-DE input parameters of the resulting membranes, considering their concurrent influence [5,35,36]. Following our earlier work on NO-3 /SO2-4 separation [5], this study extends the investigation to the selective separation of Na+ and Mg2+ ions. In this study, for the first time, we investigated the influence of the concentrations of the monomers PIP and TMC on the Mg2+/Na+ selec­tivity of the TFC NF membranes using the DSPM-DE model.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "stigated the influence of the concentrations of the monomers PIP and TMC on the Mg2+/Na+ selec­tivity of the TFC NF membranes using the DSPM-DE model. We sys­tematically varied the concentrations of the monomers to alter the membranes’ physicochemical characteristics and evaluated their sepa­ration performance with PEG 200, single salt (NaCl, MgCl2, Na2SO4, and MgSO4), and mixed salt retention tests (NaCl + MgCl2 and Na2SO4 +MgSO4). For the first time, we provide a mechanistic understanding of the phenomena underlying Mg2+ and Na + separation in terms of PIP and TMC concentration by correlating the membranes’ physicochemical features with the DSPM-DE input parameters. These correlations eluci­dated the role of the membranes’ characteristics in their performance, offering new insights into the partitioning and transmembrane ion fluxes. Unlike our earlier work focusing on NO-3 /SO2-4 separation [5], this study provides novel insights into how PIP and TMC concentrations affect Na+/Mg2+ separation in TFC NF membranes. This knowledge is crucial for optimizing membrane fabrication conditions and designing NF membranes specifically targeted for efficient Na+/Mg2+ separation. Efficient separation of Mg2+ from Na+ is vital, as magnesium is considered a “critical raw material” by the European Commission due to its essential and sustainable supply [37]. 2. Materials & methods 2.1. Materials All chemicals were used as received. Piperazine anhydrous (PIP)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(>99 %), trimesoyl chloride (TMC), and n-heptane were purchased from Sigma-Aldrich Chemie GmbH (Germany). Ultrafiltration poly­acrylonitrile (PAN) membrane support was prepared at and supplied by Helmholtz-Zentrum Hereon. Poly (ethylene glycol) (PEG) of average molecular weight 200 Da was purchased from VWR International GmbH (Germany). NaCl (>99.5 %) and Na2SO4 (>99 %) were purchased from Merck KGaA (Germany) and Carl Roth Gmbh (Germany), respectively. MgCl.6H2O (>99 %) and MgSO4 (>99.5 %) were purchased from SigmaAldrich Chemie GmbH (Germany). 2.2. Methods 2.2.1. Fabrication of PA membranes TFC membranes consisting of a PA active layer on top of a porous PAN support were fabricated by IP with aqueous PIP and organic TMC solutions of varying concentrations. A minimum of three membranes was fabricated under each of the conditions presented in Table 1, which summarizes the monomer concentrations we used. One day before the synthesis of the TFC membranes, the PAN support was immersed in ultrapure DI water; PIP and TMC were dissolved in ultrapure DI water and HPLC-grade n-heptane, respectively. One-minute rubber rolling and dust-free Kim wipes were used to remove any droplets from the surface of the PAN supports. Then, a 6-min immersion of the support in 350 ml PIP solution was carried out. Next, any remaining droplets on top of the PAN support were removed by the previously mentioned procedure.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ort in 350 ml PIP solution was carried out. Next, any remaining droplets on top of the PAN support were removed by the previously mentioned procedure. The supports were clamped onto a 5.1 cm * 15.9 cm glass plate, with a frame consisting of one layer of nitrile rubber and one PTFE frame. Then, the TMC solutions were poured on top of the soaked PAN supports to start the 90-s IP reactions. The IP reaction was stopped by pouring 150 ml of pure n-heptane. Then, the TFC membranes were air-dried for 30 min at room temperature, cured for 30 min at 60 ◦C under vacuum, and finally stored in ultrapure DI water. 2.2.2. Characterization The membrane morphology was analyzed with scanning electron microscopy (SEM). SEM images were captured with a Merlin SEM (Zeiss, Jena, Germany) at accelerating voltages between 1.5 and 3 kV using an InLens secondary electron detector. Before imaging, the samples were dried under vacuum at 60 ◦C for at least 72 h and coated with 1–1.5 nm platinum using a CCU-010 coating device (Safematic, Zizers, Switzerland). The cross-fractured specimens were prepared in liquid nitrogen. The topography data of the membrane surfaces were obtained by an Atomic Force Microscopy MultiMode 8 instrument from Bruker, USA, in Tapping mode. Typical scan areas were 3 μm * 3 μm. RTESPA-150 probes (tip radius ≈8 nm, spring constant ≈5 N/m) were applied for these measurements. Roughness values Rq and Ra were calculated with the program NanoScope Analysis 1.9.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 1 PIP and TMC concentrations used during IP to fabricate TFC PA membranes. PIP (%w-w)TMC (%w-w)Label 0.1250.15PIP0.125TMC0.150.250.15PIP0.25TMC0.150.500.15PIP0.5TMC0.150.750.15PIP0.75TMC0.151.000.15PIP1TMC0.150.1250.30PIP0.125TMC0.30.250.30PIP0.25TMC0.30.500.30PIP0.5TMC0.30.750.30PIP0.75TMC0.31.000.30PIP1TMC0.3\n\nN. Cevallos-Cueva et al. Journal of Membrane Science 721 (2025) 123808",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2.3. Performance evaluation Each fabricated membrane was evaluated according to this section.A stirrer cell (EMD Millipore XFUF07601) with a 3-cm long stirrer was used for the retention and pure water permeance evaluation ex­periments in dead-end filtration mode. The effective area was reduced to 2.14 cm2. The pure water permeance (PWP) was calculated with the data recorded during the water compaction step, which comprised ultrapure DI water permeation for at least 2 h at 4 bar and room temperature: PWP =ΔmδH2OAmbΔtΔP(1) where Δm is the change of mass, δH2O density of liquid water at room temperature, Amb effective membrane area, Δt the elapsed time, and ΔP the transmembrane pressure. 2.2.3.1. Ion retention. Following the water compaction step, salt solu­tions were added to the stirring cell. Single salt experiments were carried out using 200 ppm solutions of NaCl, MgCl2, Na2SO4, and MgSO4. Mixed salt experiments were performed using 200 ppm of Na+/Mg2+ equi­molar mixtures of NaCl + MgCl2 and Na2SO4+MgSO4. The trans­membrane pressure was set to 3 bars. Permeate samples collected during the first 2 h were discarded. Then, 1 ml retentate and permeate samples were collected to ensure that a steady state had been reached.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ollected during the first 2 h were discarded. Then, 1 ml retentate and permeate samples were collected to ensure that a steady state had been reached. As the retentate concentration varies with time in dead-end mode, the reten­tion, Ri,obs, was computed using the average concentration of the feed and retentate solution: Ri,obs = 1 -2ci,pci,f + ci,r(2) where ci,p, ci,f, ci,r are the concentrations of species i in the permeate, feed, and retentate solutions, respectively. The concentration of each ionic species was quantified with an Ion Chromatograph (Dionex ICS600, Thermosicher Scientific Inc., USA). The ideal selectivity, S*a/b, from single salt retention tests and the real selectivity, Sa/b, from mixed salt retention test were computed with the following equation: S*a/b or Sa/b = 1 -Ra,obs 1 -Rb,obs(3) 2.2.3.2. PEG retention. PEG retention tests were performed similarly to ion retention tests. A 500 ppm PEG 200 solution was used for each test, after the water compaction step. The retention tests were carried out at transmembrane pressure values of 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, and 4.0 bars to determine the PEG 200 retention at different solution ve­locities. The solution or solvent velocities were computed with: Jv =ΔmδH2OAmbΔt(4) The PEG concentration was measured with Gel Permeation Chro­matography (GPC) (VWR-Hitachi 2130 pump, Hitachi, Darmstadt, Germany). 2.2.3.3. Fitting.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ") The PEG concentration was measured with Gel Permeation Chro­matography (GPC) (VWR-Hitachi 2130 pump, Hitachi, Darmstadt, Germany). 2.2.3.3. Fitting. To fully solve the DSPM-DE model, the membranerelated input parameters, namely rpore, Δxe, εpore, and cx, need to be determined. They were determined by fitting retention test data. We used data from PEG 200 retention experiments for determining rpore and Δxe (supporting information), while data from mixed salt retention tests were used for determination of εpore and cx. The details of the fitting procedure and the set of equations used to solve the model are described in the supporting information.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Results and discussion 3.1. Membrane morphology and water permeance Cross-sections of the TFC membranes were investigated with SEM to determine the thickness of the PA layer (Figs. 1 and 2). The thickness of the PA layer increased with PIP concentration. The top surface of the prepared membranes was investigated both with SEM and AFM. The SEM micrographs demonstrate heterogeneous granular features, which are typical for PA layers [38]. The formation of such rough heteroge­neous surface is associated with the complex reaction kinetics of IP, monomer partitioning, and diffusion of monomers in the two-phase system. The surface roughness of the PA layer has long been corre­lated with the permeance of the membrane. A general intuition has been that the higher the surface roughness, the higher the permeance. By now, it is well established that although it is logical to claim that an increased interfacial area between the feed solution and membrane active layer can lead to high permeance, the irregular morphology of the PA layer has additional features that influence the permeance. The thickness of PA layers in TFC membranes varies significantly due to their inherent heterogeneity, which directly impacts local mass transport. This variation in thickness creates regions where the resistance to mass transport differs, leading to an uneven distribution of permeance across the membrane.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ation in thickness creates regions where the resistance to mass transport differs, leading to an uneven distribution of permeance across the membrane. One key factor influencing this resistance is the \"funnel effect\", as schematically represented in Fig. 3a. This phenomenon occurs because permeating substances can more easily reach the pores of the substrate through areas of the PA layer directly above these pores. In",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Morphologies of the fabricated membranes at %w-w TMC = 0.15. (a) % w-w PIP = 0.125 (b) %w-w PIP = 0.25 (c) %w-w PIP = 0.50 (d) %w-w PIP =0.75 and (e) %w-w PIP = 1.0. The left micrographs are SEM cross-sectional images, the centered micrographs SEM top surface images, and the right im­ages AFM surface images. The average observed thickness of the PA layer is indicated in each cross-sectional image.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "N. Cevallos-Cueva et al. Journal of Membrane Science 721 (2025) 123808 contrast, regions of the PA layer that are farther from the substrate pores require a much longer path length for permeation, increasing resistance in these areas. Beneath the surface of the heterogeneous PA layers, there are regions with nanovoids. These nanovoids help mitigate the \"funnel effect\" by providing easier passage for permeating substances, enabling them to reach the substrate pores more efficiently. As a result, TFC membranes with PA layers exhibit localized regions of significantly higher permeance compared to neighboring areas. The DSPM-DE model considers that the selective layer of the nanofiltration membrane is composed of equally spaced perpendicularly aligned cylinders (Fig. 3b). Under this assumption, the influence of surface roughness on the per­meance is averaged out by the input parameter Δxe which represents the effective thickness-to-porosity ratio. We have explored the covariance and correlation of the variables RMS surface roughness (obtained from AFM), average observed thickness (obtained from SEM), rpore (obtained from PEG retention), Δxe (obtained from PEG retention) and pure water permeance (PWP). Both roughness and thickness of the PA layer increased with PIP concentration for the membranes prepared using TMC concentration 0.15 w-w% (Figs. 1) and 0.3 w-w% (Fig. 2). Consequently, a positive covariance is observed between the roughness and the thickness of the membranes (Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5 w-w% (Figs. 1) and 0.3 w-w% (Fig. 2). Consequently, a positive covariance is observed between the roughness and the thickness of the membranes (Fig. 3c). In other words, the higher roughness of the membranes comes at the expense of a greater overall thickness of the PA layer. The PWP increases with the roughness as expected. Additionally, a positive covariance is observed between PWP and roughness (Fig. 3d). This suggests that the roughness of the PA layers plays a more dominant role in determining the resistance of the membranes to water permeation compared to overall thickness of the PA layer. This conclusion is supported by the fact that an increase in overall thickness might also imply an increase in resistance to water transport, which would typically lead to a decrease in PWP. Therefore, the observed increase in PWP with roughness indicates that roughness is the more influential factor in dictating PWP. It is also observed that PWP decreases with increasing rpore which is counterintuitive. It suggests while rpore is representative of the size sieving feature of the membranes, it does not dictate the resistance against mass transport through the membranes. The rpore values of all the membranes range between 0.6 and 0.7 nm. In other words, the obtained rpore values are rather similar to each other and rpore cannot explain the resistance of the membranes against permeation of water.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ords, the obtained rpore values are rather similar to each other and rpore cannot explain the resistance of the membranes against permeation of water. The input parameter Δxe is also a measure of the resistance of the membrane to mass transport. As expected, there is a negative covariance between PWP and Δxe, i.e., PWP decreases with the increase of Δxe. In what follows we have demonstrated Δxe is also a very important parameter to determine the ion permeation through the membrane. 3.2. Ion retention and selectivity We have thoroughly investigated the retention and Na+/Mg2+ ion selectivity of the prepared membranes. Often the Na+/Mg2+ selectivity of the membranes is evaluated from the retention of single salts from",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Morphologies of the fabricated membranes at %w-w TMC = 0.30. (a) % w-w PIP = 0.125 (b) %w-w PIP = 0.25 (c) %w-w PIP = 0.50 (d) %w-w PIP =0.75 and (e) %w-w PIP = 1.0. The left micrographs are SEM cross-sectional images, the centered micrographs SEM top surface images, and the right im­ages AFM surface images. The average observed thickness of the PA layer is indicated in each cross-sectional image.\n\nFig. 3. Schematic representation and plots: (a) The heterogeneous morphology of the PA layer. (b) The DSPM-DE model assumes the PA layer is composed of equally spaced, perpendicularly aligned cylinders with radius rpore and thickness-to-porosity ratio Δxe. (c) RMS roughness versus thickness (obtained from SEM). (d) Pure water permeance (PWP) vs. RMS roughness. (e) PWP vs. rpore (obtained from PEG retention tests). (f) PWP vs. Δxe (obtained from PEG 200 retention tests).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "N. Cevallos-Cueva et al. Journal of Membrane Science 721 (2025) 123808 their respective aqueous solution. In this work, we have thoroughly investigated both single and mixed salt retention behavior to understand the role of co-ions and counterions on the ideal and real selectivity of the membranes. The influence of Cl-as counterion on the Na+/Mg2+ ideal and real selectivities of the membranes is depicted in Fig. 4. Single salt retention tests results show that the Mg2+ rejection is larger than the Na + rejection for all the membranes fabricated at a PIP concentration larger than 0.5% w-w regardless of the TMC concentration. The rejection of Na+ is higher than that of Mg2+ for PIP0.125TMC0.15, PIP0.125 TMC0.3 and PIP0.25TMC0.3 membranes. This is also observed in the values of the ideal selectivity being smaller than 1 (Fig. 4c). Therefore, it was expected that PIP0.125TMC0.15, PIP0.125 TMC0.3, and PIP0.25TMC0.3 membranes would allow faster permeation of Mg2+ compared to Na+ when the feed solution contains a mixture of NaCl and MgCl2, i.e., a ternary ion mixture of Na+, Mg2+ and Cl-. However, that was not the case. The rejection of Mg2+ is larger than that of Na+ for all the membranes, highlighting the selective separation of the membranes. The rejection of Na+ even reaches negative values, which generally become more negative as PIP concentration increases.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e separation of the membranes. The rejection of Na+ even reaches negative values, which generally become more negative as PIP concentration increases. Na+ and Mg2+ ions were almost completely retained (i.e., 100% retention) by the membranes when the feed solutions contained Na2SO4 and MgSO4 single salts, respectively (Fig. 5a). In most cases, it was observed that Na+ was retained more than Mg2+ which is reflected in the Na+/Mg2+ ideal selectivities being smaller than 1. But when the feed solution contained Na+/Mg2+/SO2-4 ternary ion mixtures, Mg2+ was retained more than Na+ and the Na+/Mg2+ real selectivities were larger than 1. From our detailed investigation of retention and selectivities of the membranes using feed solutions containing binary and ternary ion systems, it is evident that the ideal and real Na+/Mg2+ selectivities are substantially different from each other. Contrary to chloride salts, there is not a clear tendency of the effect of PIP and TMC concentrations. Similar to the Na2SO4 and MgSO4 single salt retention tests, the trend of retention of Na+/Mg2+/SO2-4 does not exhibit a clear pattern with PIP concentration. Almost all of Mg2+ is retained, resulting in nearly 100 % retention. This leads to S values reaching approximately 726 (Fig. 5d). S values increase with PIP concentration and with lower TMC concen­tration. This trend is similar to the Na+/Mg2+/Cl-system. However, the S values (and the ions’ retention) for the Na+/Mg2+/SO2-4 are larger.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. (a) Retentions of Na+ and Mg2+ by the fabricated membranes with feed solutions containing single salts, i.e., NaCl and MgCl2, respectively. (b) Re­tentions of ions from the feed solution containing a mixture of NaCl and MgCl2, i.e., a ternary ion mixture of Na+, Mg2+ and Cl-. (c) Ideal selectivities of Na + over Mg2+ (obtained from single salt retention). (d) real selectivity (obtained from mixed salt retention).\n\nFig. 5. (a) Retentions of Na+ and Mg2+ by the membranes from feed solutions containing single salts, i.e., Na2SO4 and MgSO4, respectively. (b) Retentions of ions from the feed solution containing a mixture of Na2SO4 and MgSO4, i.e., a ternary ion mixture of Na+, Mg2+ and SO42-. (c) Ideal selectivities of Na + over Mg2+ (obtained from single salt retention). (d) real selectivity (obtained from mixed salt retention).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "N. Cevallos-Cueva et al. Journal of Membrane Science 721 (2025) 123808 chloride and sulfate systems in single salt retention tests. Therefore, it is important to investigate the effect of the common anion on ion retention and selectivity values. This is done through the DSPM-DE model, pre­sented in the following section. Moreover, from Figs. 4d and 5d it is evident that the real selectivities of PIP1TMC0.15 and PIP1 TMC0.3 are substantially larger than other membranes for both the Na+/ Mg2+/ Cl- and Na+/Mg2+/SO2-4 ternary ion systems. From the mass transport modeling, it will also be clear how these two membranes differ from the others. 3.3. Mass transport modelling The retention behavior of the prepared membranes for the feed so­lution containing the ternary ion mixture Na+/Mg2+/Cl-was success­fully modelled on the basis of the DSPM-DE model (supporting information). The concentration and electrical potential profiles inside the membranes’ active layers were obtained (Fig. 6a). These profiles were discretized (Fig. 6b) and linearized to solve the model (supporting information). However, it was not possible to model the retention behavior of the membranes for the feed solutions containing the ternary ion mixture Na+/Mg2+/SO42-(details provided in supporting informa­tion).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ntion behavior of the membranes for the feed solutions containing the ternary ion mixture Na+/Mg2+/SO42-(details provided in supporting informa­tion). The retention of the ions by membranes is pictured as a combi­nation of three steps: (i) partitioning of the ions at the interface between feed solution and membrane, (ii) ion transport through the membrane, and (iii) partitioning of the ions at the interface between membrane and permeate solution. According to the DSPM-DE model, the ion parti­tioning at the interfaces occurs as a result of three exclusion mecha­nisms: (i) steric, (ii) dielectric, and (iii) Donnan (Fig. 6a). The partitioning of ions at the interface between feed solution and the membrane is expressed as [6]: ci,1γi,1 = ci,mγi,mΦS,iΦx=0D,i ΦDE,i(5) where ci,1 is the concentration of ion i at the pore entrance on the feed side; γi,1 and γi,m are the activity coefficients of ion i at the pore entrance on the feed side and in the feed-solution/membrane interface, respec­tively. ΦS,i is the steric exclusion coefficient, ΦDE,i is the dielectric exclusion coefficient and Φx=0D,i is the Donnan exclusion coefficient. The product of these terms (i.e., ΦS,iΦx=0D,i ΦDE,i) is termed as the overall exclusion coefficient.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "and Φx=0D,i is the Donnan exclusion coefficient. The product of these terms (i.e., ΦS,iΦx=0D,i ΦDE,i) is termed as the overall exclusion coefficient. Similarly, the equilibrium correlation at the interface between the membrane’s active layer and the permeate side is given by: ci,Nγi,N = ci,pγi,pΦS,iΦx=Δxe D,iΦDE,i(6) γi are computed with Davies equation (supporting information) In what follows, we thoroughly discuss the individual contributions of steric, dielectric and Donnan exclusion or partitioning of Na+, Mg2+ and Cl-at the feed-solution/membrane interface in the ten membranes prepared in this work. The steric exclusion coefficient, ΦS,i, represents the probability of an ion entering the pore of the membrane based on its size. ΦS,i = (1 -λi)2(7) λi = ri rpore(8) where rpore is the effective radius of the pores of the membrane and ri is the ionic radius. The bare ionic radius (also termed as crystal ionic radius) of Cl- (1.81 Å) > Na+ (0.95 Å) > Mg2+ (0.65 Å) [39,40]. Owing to the ion-water affinity, it is essential to take into account the radii of the hydrated ions rather than the bare ions to interpret the mass transport phenomenon. In general, ions with smaller bare ionic radius and higher charge have larger hydrated ionic radius compared to those having larger crystal ionic radius and smaller charge. By convention, Stokes radii are used as input parameters in DSPM-DE models as a measure of the size of the hydrated ions.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "c radius and smaller charge. By convention, Stokes radii are used as input parameters in DSPM-DE models as a measure of the size of the hydrated ions. The Stokes radius of Mg2+ (3.47 Å) > Na+ (1.84 Å) > Cl-(1.21 Å) [39,40]. The Stokes ionic radii are calculated from the limiting ionic equivalent conductance. It essentially means that the mobility of an ion together with its neighboring water molecules (which have the same mobility as the ion) is translated into the size of the hydrated ion. The Stokes ionic radii are often referred to as the radius of a hard sphere where the ion and the neighboring water mol­ecules are considered as a part of the same entity. Therefore, Mg2+, Na+, and Cl-are schematically represented as a purple, green, and blue sphere in Fig. 7, respectively. All of the prepared membranes have rpore larger than the Stokes radius of the 3 ions. Therefore, ΦS,i of the 3 ions are smaller than 1. In other words, the pore size of the membrane is not small enough to completely exclude the ions as a result of steric hin­drance. Mg2+ has the lowest value of the steric exclusion coefficient due to its largest Stokes radius among the 3 ions. The ΦS,i of the 3 ions in­crease linearly with the increase of pore size as result of the change of PIP and TMC concentration during IP. The slope of the trend line of ΦS,i vs. rpore plot is the largest for Mg2+ followed by Na+ and Cl-(supporting information Figure SI4).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tion during IP. The slope of the trend line of ΦS,i vs. rpore plot is the largest for Mg2+ followed by Na+ and Cl-(supporting information Figure SI4). Hence, for the given membranes having rpore in the range of approximately 0.6–0.7 nm the increase in the steric exclusion coefficient of Mg2+ (owing to change of pore size) is larger than Na+ and Cl-. ΦS,i just quantifies how difficult it is for the ions to enter the pores of the membranes owing to the size of the hydrated ions (i.e., solvated ions). The solvation of an ion in water can be visualized as follows. Water molecules acquire random orientation as a result of thermal motion in bulk water. When an ion is introduced to the bulk water, it exerts an electric field around itself. Water molecules, having permanent dipole",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. Schematic representations of: (a) the exclusion mechanisms at the pore openings and the theoretical concentration and electrical potential profiles developed across the membrane’s active layer during NF operation, and (b) the discretized scheme of such concentration profile. N. Cevallos-Cueva et al. Journal of Membrane Science 721 (2025) 123808 moments, reorient surrounding the ion in response to the electric field. Consequently, the electrostatic forces between two neighboring ions are largely reduced in an aqueous medium. In other words, water is a strong dielectric medium. The dielectric constant of bulk water (i.e., the rela­tive permittivity) is approximately 80 [6]. The dielectric constant of the water is largely reduced inside the pores of a NF membrane, i.e., the reorientation of water molecules is limited due to spatial confinement. It is difficult for the water molecules inside the pores to solvate an ion compared to the molecules of bulk water. Thus, it is energetically favorable for the ions to stay in the bulk feed solution, which is a region of larger dielectric constant, than the narrow pores. In order to enter the confined region having a lower dielectric constant (i.e., the pores of the membrane), the ions have to overcome a solvation energy barrier. The DSPM-DE model takes into account the exclusion of ions at the mem­brane feed solution interfase, originating from this phenomenon, using the dielectric exclusion coefficient ΦDE,i.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nt the exclusion of ions at the mem­brane feed solution interfase, originating from this phenomenon, using the dielectric exclusion coefficient ΦDE,i. ΦDE,i = exp(-ΔWi kBT )(9) where ΔWi is the solvation energy barrier, kB the Boltzmann constant, and T the temperature. ΔWi is computed through the Born formula with the values of the dielectric constant inside the pores, εpore, and in the bulk solution, εbulk: ΔWi = z2i e208πε0ri ( 1 εpore -1εbulk )[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] where zi is the ion valence, e0 is the electronic charge, and ε0 the permittivity of vacuum. The water molecules have reduced freedom inside the pores compared to the bulk, leading to smaller value of εpore compared to εbulk. There is ongoing debate regarding the underlying physical mechanism responsible for the reduced dielectric constant of water in confinement. Varghese et al. [41] found that the water molecules in the immediate vicinity of the solid surface (i.e., pore walls) have significantly low rotational diffusion which leads to a low dielectric constant. It is obvious that for very small rpore the dielectric constant of the water molecules near the pore walls will dictate the overall value of εpore.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "t. It is obvious that for very small rpore the dielectric constant of the water molecules near the pore walls will dictate the overall value of εpore. In this work, we assume that the reduction in dielectric constant of water in the pore (compared to bulk water) is caused by a single layer of water molecules next to the pore wall (schematically represented in Fig. 8a) [6]. The thickness of this layer is equal to the diameter of a single water molecule, i.e., dH2O = 0.28 nm [42]. The dielectric constant of water of this layer is ε*. The εpore is computed using a radial geometry-based formula [6]. εpore = ε* + (εbulk -ε*)(1 -dH2O rpore )2",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}]\n\nIt is a prerequisite to determine rpore and ε* in order to use this relation to compute εpore. While rpore is determined from retention of PEG 200, there is no empirical method to determine ε*. Bowen et al. [42] assumed that ε* may reach the high-frequency limit of the dielectric constant of water. Therefore, they used ε* = 6 to calculate εpore of the Desal-DK membrane. Hussain et al. [43] determined the experimental rejection of NaCl at the isoelectric point and determined ε* by fitting the experimental rejection data with modelled rejection data where steric and dielectric exclusion was considered to be the only exclusion pa­rameters. They reported for Desal-HL membrane ε* = 34 (when Stokes radius is used). The value of ε* originates from the affinity of water molecules with the pore walls [6]. Hence, the nature and content of the functional groups at the pore walls are likely to play a dictating role for the ε* of a given membrane. Similar to our previous work [5], we assumed the value of ε* changes only with the TMC concentration. Double minimization with the following objective function was used to determine ε* and cx simultaneously.\n\n)2 σ2i,j )[ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}]",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The subscript i cycles through all ionic species and j through all PIP concentrations for the same TMC concentration. Rmodi,j is the simulated retention and Rexpi,j is the average experimental rejection value of at least 3 replications for the membranes fabricated at every PIP concentration. To bias the minimizations towards more experimentally confident\n\nFig. 7. Steric exclusion or partitioning coefficients of Mg2+, Na+, and Cl-as a function of the effective pore radius, rpore, of the fabricated membranes. Each shape of the data points corresponds to a different PIP concentration, and the border color of the data points indicates the TMC concentration (cyan for 0.30 w-w% and orange for 0.15 w-w%).\n\nFig. 8. (a) Schematic representation of water molecules in confined pores of the membrane. (b) Determination of ε* for the membranes prepared using TMC concentration 0.15 and 0.3 w-w%, respectively. (c) Variation of εpore with monomer concentration. (d) Variation of ΦDE,i of Na+, Mg2+, and Cl-with εpore. For (c) and (d), each shape of the data points corresponds to a different PIP concentration, and the border color of the data points indicates the TMC con­centration (cyan for 0.30 w-w% and orange for 0.15 w-w%).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "N. Cevallos-Cueva et al. Journal of Membrane Science 721 (2025) 123808 values, σ2i,j was computed with the unbiased variance equation [44]. A series of ε* values were tested to find preliminary minima of cx for each PIP concentration. Then, the optimized ε* value was found by mini­mizing the sum of the previously minimized differences across all membranes prepared at the same TMC concentration. The optimized values of ε* for the membranes prepared using TMC concentrations 0.15 and 0.3 w-w% are 22 and 23, respectively (Fig. 8b). As the obtained ε* values are rather close to each other and εbulk is constant (i.e., εbulk = 80), the variation of εpore due to the change of monomer concentration originates mostly from the variation of rpore (equation [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}]). The change in PIP concentration between 0.125 and 1.0 w-w% brought about a larger variation of εpore for the membranes prepared using a TMC con­centration of 0.3 w-w% compared to 0.15 w-w%. Mg2+ has smaller ΦDE,i compared to Na+. Owing to the higher valency, Mg2+ experiences a larger solvation energy barrier to enter the pores of the membrane compared to Na+. Fig. 8d shows ΦDE,i of Na+, Mg2+ and Cl-scale linearly with εpore.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "larger solvation energy barrier to enter the pores of the membrane compared to Na+. Fig. 8d shows ΦDE,i of Na+, Mg2+ and Cl-scale linearly with εpore. A rather perfect linear relationship is observed between ΦDE,i and εpore for the values of εpore in the range 39–43 having R2 values be­tween 0.99 and 1.00 (supporting information Figure SI5). However, equations (9) and [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] imply that ΦDE,i increases exponentially with εpore. Thus, the linear relationships (i.e., the equations of the trend lines pre­sented in Fig. 8d and Figure SI5) would not be valid for all values of εpore. PIP0.5TMC0.3 has the smallest εpore value (≈39) while PIP.125TMC0.3 has the highest εpore value (≈43) among the prepared membranes. The difference in ΦDE,i for Na+ and Mg2+ is the lowest for PIP0.5TMC0.3, having εpore value of 39, and the highest for PIP.125TMC0.3, having εpore value of 43 (Fig. 8d). Although the increase of εpore leads to a weaker dielectric exclusion (larger ΦDE,i values), the selective dielectric parti­tioning between Na+ and Mg2+ (i.e., higher tendency of Na+ to enter the pore of the membrane compared to Mg2+) linearly increases with εpore in the range of 39–43, which corresponds to an increase of rpore from 0.7 to 0.8 nm. That is the main implication of Fig. 8d which, to the best of our knowledge, has never been reported before. Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ncrease of rpore from 0.7 to 0.8 nm. That is the main implication of Fig. 8d which, to the best of our knowledge, has never been reported before. Fig. 9 shows the change in the effective charge density, cx, of the membranes with the concentration of the monomers. For both TMC concentrations of 0.15 and 0.30 w-w%, the membranes prepared using 0.125 w-w% PIP displayed the most negative cx. The negative cx decreased gradually with the increase in PIP concentration. The mem­branes prepared using 1 w-w% PIP concentration showed positive cx. The DSPM-DE model ensures that the electroneutrality condition is fulfilled in the feed solution, permeate solution, and membrane, respectively. In the fluid phases, i.e., the feed and the permeate solution, the summation of the products of valences and the concentrations of all the ions is zero. 0 =∑Nc i=1 zici,m[ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] 0 =∑Nc i=1 zici,p[ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] However, inside the membrane’s active layer, the electroneutrality condition will only be fulfilled if the sum of charge of the permeating ions is equal and opposite to cx of the membrane. -cx =∑Nc i=1 zici[ФОРМУЛА: \\begin{equation}x=0:\\quad \\left.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "d if the sum of charge of the permeating ions is equal and opposite to cx of the membrane. -cx =∑Nc i=1 zici[ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] It essentially means that an unequal distribution of ions will occur at the interface between the feed solution and the membrane due to the interaction of the ions with the fixed charge of the membrane. The resulting potential from this unequal distribution of ions is termed as the Donnan potential (ΔΨD), which attracts the counterions (with respect to the fixed charge of the membrane) towards the membrane and repels the coions. The Donnan exclusion coefficient Φx=0D,i at the feed-solution/ membrane interface is expressed as: Φx=0D,i = exp(-ziFRT ΔΨD,f )(16) where ΔΨD,f is the Donnan potential at the feed-solution/membrane interface, R is the ideal gas constant, and T the temperature. As cx ranges from approximately -0.9 to +0.8 mM, we could examine the influence of a gradual change of cx on Φx=0D,i . A detailed investigation revealed that for Na+, Mg2+ and Cl-the log(Φx=0D,i",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ")is a cubic function of cx (supporting information Figure SI6). To the best of our knowledge, this relationship has never been reported before. Φx=0D,i of Cl-increases gradually as the value of cx changes from -0.9 to +0.8. A wonderful demonstration of the change of Φx=0D,i for monovalent and divalent cation (i.e., Na+ and Mg2+) owing to the change of cx between -0.9 and + 0.8 mM is depicted in Fig. 9b. The Φx=0D,i value of Mg2+ is larger than that of Na+ in case of PIP0.125TMC0.3 with cx = -0.9 mM, that is, the exclusion of Mg2+ owing to the Donnan potential is lower than that of Na+. As cx become less negative, the difference between the Φx=0D,i values of Mg2+ and Na + also decreases. Eventually, the Φx=0D,i values of Mg2+ and Na + reverses, i.e., the exclusion of Mg2+ due to Fig. 9. For the ternary ion mixture of Na+, Mg2+, and Cl-, (a) cx as a function of the PIP and TMC concentrations during IP, individual exclusion or parti­tioning coefficients as a function of cx: (b) Donnan, and (c) overall. The trend lines are third-order polynomials (details in supporting information). Each shape of the data points corresponds to a different PIP concentration, and the border color of the data points indicates the TMC concentration (cyan for 0.30 w-w% and orange for 0.15 w-w%).\n\nN. Cevallos-Cueva et al. Journal of Membrane Science 721 (2025) 123808",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Donnan potential becomes higher than that of Na + for PIP1TMC0.15 and PIP1TMC0.3 which have positive cx. The overall exclusion coefficients of Na+, Mg2+, and Cl-are largely dictated by Φx=0D,i (Fig. 9c). The overall exclusion coefficient is a cubic function of cx as well (supporting information Figure SI7). An overall higher exclusion of Mg2+ compared to Na+ is observed for all the pre­pared membranes at the feed-solution/membrane interface. However, it is evident that, as the value of cx gradually changes from -0.9 to 0.8 mM (i.e., the overall negative charge decreases and eventually the charge becomes positive), the selective partitioning between Na+ and Mg2+ at the interface between the feed solution and membrane increases. PIP1TMC0.15 displays the highest selective partitioning of Mg2+ over Na+ at the interface. It is noteworthy that PIP1TMC0.15 not only has the most positive cx, but also the highest real selectivity of Na+ over Mg2+ among the membranes for the ternary ion mixture of Na+, Mg2+, and Cl- (Fig. 4d). In a dead-end filtration mode, the molar flux of an ion through the membrane in steady state is the product of the concentration of the ion in the permeate side, ci,p , and the solution flux, Jv. The DSPM-DE model allows us to gain insight into the mechanism of mass transport by individually examining the advective, diffusive and electromigrative contributions to the molar flux of every ion of the feed solution.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s transport by individually examining the advective, diffusive and electromigrative contributions to the molar flux of every ion of the feed solution. Ji = Jvci,p = Ji,adv + Ji,diff + Ji,elec(17) While Ji is a result of the applied pressure gradient (i.e., trans­membrane pressure), Ji,adv , Ji,diff, and Ji,elec show us the contributions driven by the solvent flow, the ion concentration gradient, and electric potential gradient across the membrane, respectively. Ji,adv = Ki,aciJv[ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] Ji,diff = -Ki,dDi,∞ dci dx(19) Ji,elec = -ziFciKi,dDi,∞ RT dΨdx(20) where Ki,a and Ki,d are the hindrance factors of advection and diffusion, respectively. Di,∞ is the diffusion coefficient in the bulk, ci is the con­centration of ion i inside the membrane’s active layer. Details of the computation of the contributions to molar flux are described in the supporting information. As equation [ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] shows, the advective flux (Ji,adv )is a function of concentration of each species in the membrane (ci) and the solution flux (Jv).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "{18}\\end{equation}] shows, the advective flux (Ji,adv )is a function of concentration of each species in the membrane (ci) and the solution flux (Jv). It is clear from the discussion in the previous section that the overall exclusion coefficient at the feed-solution/membrane interface de­termines the concentration of each ion entering the membrane. Figs. 9c and 10a show, when plotted against cx, the trend of Ji,adv of the three ions through the prepared membranes has some similarity to the trend of overall exclusion coefficients (i.e., ΦS,iΦx=0D,i ΦDE,i). As the value of cx changes from -0.9 to 0.8, Ji,adv of Cl-increases while those of Na+ and Mg2+ decrease as a result of the overall exclusion coefficients. However, Jv is not a function of cx rather it is a function of Δxe (supporting in­formation Figure SI8). Ji,adv of Mg2+ and Cl-follows a cubic function of cx with R2 values of 0.98 and 0.96, respectively (supporting information Figure SI9). In the case of Na+, the cubic function trendline is not such a good fit with an R2 value of 0.89. It is noteworthy that for all the negative membranes (i.e., for 8 of the 10 prepared membranes) Na+ is less excluded at the feed-solution/membrane interface compared to Mg2+ and Cl-(Fig. 9c). Since higher amounts of Na+ enter the negative membranes, Jv has a stronger influence on determining Ji,adv of Na + compared to Mg2+ and Cl-in these membranes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "her amounts of Na+ enter the negative membranes, Jv has a stronger influence on determining Ji,adv of Na + compared to Mg2+ and Cl-in these membranes. As the solution flux is not a function of cx, Ji,adv tends to deviate from the cubic relationship with cx. The electromigrative (Ji,elec )and diffusive fluxes (Ji,diff )for the three ions are plotted in Fig. 10b and c, respectively. Ji,adv, Ji,diff and Ji,elec of",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Mg2+ are positive for all the prepared membranes. It implies that the advective, diffusive, and electromigrative contributions to molar flux of Mg2+ act always from the feed toward the permeate side. In the case of Cl-, Ji,diff is positive while Ji,elec is negative for all the membranes. On the other hand, for Na+, Ji,diff is negative for 8 of the 10 prepared membranes and Ji,elec is always positive. Na+ has positive Ji,diff only in the case of PIP1TMC0.15 and PIP1TMC0.3. The concentration gradient is the driving force of the diffusive flux. Thus, Ji,diff being larger in absolute value for thinner membranes stems from the correlation between the concentration gradients with Δxe (supporting information Figure SI15). It is evident from Fig. 10b and c that the trend of Ji,elec and Ji,diff as a function of Δxe (i.e., the thickness-toporosity ratio) are mirror images of each other in case of Na+ and Cl-. These observations provide unprecedented insight into the mechanisms of ion transport from the feed to the permeate side of the membranes. Among the three ions, Cl-has the highest mobility (i.e., largest infinite dilution diffusion coefficient, Di,∞, and smallest Stokes radius) which is the main factor responsible for Cl-having larger absolute values of diffusive flux (Ji,diff ), compared to Na+ and Mg2+. For Cl-, large positive Ji,diff is counterbalanced by negative electromigrative flux (Ji,elec )as shown in Fig. 10b and c.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", compared to Na+ and Mg2+. For Cl-, large positive Ji,diff is counterbalanced by negative electromigrative flux (Ji,elec )as shown in Fig. 10b and c. It means that the spontaneously arising electric fields develop to hinder Cl-diffusive transport to reach Fig. 10. Transmembrane fluxes of the ternary ion mixture of Na+, Mg2+, and Cl-for the fabricated membranes: (a) advective as a function of cx, (b) elec­tromigrative, and (c) diffusive as a function of Δxe. The trend lines are thirdorder polynomials (details in supporting information). Each shape of the data points corresponds to a different PIP concentration, and the border color of the data points indicates the TMC concentration (cyan for 0.30 w-w% and orange for 0.15 w-w%).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "N. Cevallos-Cueva et al. Journal of Membrane Science 721 (2025) 123808 electroneutrality condition on the permeate side. This condition is also translated into the zero-current condition within the membrane’s active layer (ΣziJi = 0). Diffusion, undoubtedly, originates from concentration gradients, which are bound by electroneutrality condition within the membrane’s active layer (supporting information). But these observa­tions intrigued us to investigate the covariance of Ji,diff and the sponta­ neous electric fields that arise in the membranes (-dΨdx",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ")(supporting information Figure SI13). A positive covariance was observed between Ji,diff and -dΨdx in case of Mg2+ and Cl-. However, in the case of Na+, the covariance is negative. Simultaneously, these electric fields drive posi­tive electromigrative transport of cations in all the membranes. The difference between the electromigrative fluxes of Na+ and Mg2+ results mainly from their mobility and concentration inside the membrane’s active layer. Both are smaller for Mg2+ because of the smaller diffusion coefficient and its stronger overall partitioning compared to those of Na+ (Fig. 9c) Fig. 11 presents how these contributions affect the total molar transport (Ji) of ions from the feed to the permeate solutions. For the three ions, Ji follows a cubic relationship with Δxe similar to the diffu­sive (Ji,diff )and electromigrative (Ji,elec )contributions (supporting in­formation Figures SI10-SI12). This is a result of Ji,diff and Ji,elec being the largest contributions to Ji as observed in Fig. 11c–e. The absolute values of the relative contributions of Ji,diff and Ji,elec, presented in Fig. 11c and d, are larger than 1 for Cl-and Na+. For Cl-, Ji is smaller than Ji,diff, due to the negative Ji,elec acting in the opposite direction (from the permeate to the feed side). As a result, JCl-,diff/JCl-and JCl-,elec/JCl-values are larger than 1 and negative, respectively. In the case of Mg2+, JMg2+,diff/JMg2+ is smaller than 1 for all the membranes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "-and JCl-,elec/JCl-values are larger than 1 and negative, respectively. In the case of Mg2+, JMg2+,diff/JMg2+ is smaller than 1 for all the membranes. The largest JMg2+,diff/JMg2+ value corresponds to the positively-charged membranes PIP1TMC0.15 and PIP1TMC0.3 owing to the stronger overall exclusion experienced by Mg2+, i.e., smaller overall exclusion coefficient (Fig. 9c). In other words, compared to the negatively-charged membranes, the concentration of Mg2+ within the positively-charged membranes’ active layers is largely decreased, resulting in smaller Ji,adv and Ji,elec. Con­cerning Na+, JNa+,elec/JNa+ is larger than 1 for all the negatively-charged membranes. It means that JNa+,elec is larger than JNa+ because of the",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 11. Total transmembrane molar fluxes of the ternary ion mixture of Na+, Mg2+, and Cl-for the fabricated membranes as a function of (a) Δxe and (b) monomer concentrations. Ratios of the (c) diffusive, (c) electromigrative, and (d) advective contributions to the total transmembrane molar fluxes. The trend lines in (a) are third-order polynomials (details in supporting information). For (a), each shape of the data points corresponds to a different PIP concentration, and the border color of the data points indicates the TMC concentration (cyan for 0.30 w-w% and orange for 0.15 w-w%). N. Cevallos-Cueva et al. Journal of Membrane Science 721 (2025) 123808 negative JNa+,diff. This did not hold for the positively charged PIP1TMC0.15 and PIP1TMC0.3 membranes, which render positive JNa+,diff. For this reason, JNa+ behaves differently between the negativelyand positively-charged membranes. For the negatively-charged membranes, positive electromigrative flux of Na+ (JNa+,elec )accelerates its transport across the active layer from the feed side to the permeate side. The large total flux of Na+ (JNa+), resulting from its electromigrative contribution, is the reason for its retention reaching negative values (Fig. 4b). As mentioned before, the spontaneously-arising electric field resulted from the large diffusive fluxes of Cl-which varies according to Δxe.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(Fig. 4b). As mentioned before, the spontaneously-arising electric field resulted from the large diffusive fluxes of Cl-which varies according to Δxe. Interestingly, the highest selectivity of Na+/Mg2+ is not achieved by the membranes exhibiting the smallest values of Δxe which is PIP0.5TMC0.3. This is a result of the effect PIP and TMC concentrations have on cx and Δxe. As the PIP concentration increases (from PIP0.25 for TMC0.15 and from PIP0.5 for the TMC0.3 membranes) and the TMC concentration decreases, JNa+,diff and JMg2+,diff decrease in absolute value due to the increase in Δxe. Similarly, cx becomes less negative, increasing the difference in overall exclusion of Na+ and Mg2+ (Fig. 9c). This hinders less the Na + con­centration than Mg2+ inside the membrane’s active layer as PIP con­centration increases. Consequently, the positive JNa+,elec decreases less than JMg2+,elec with increasing PIP concentration. These result in a higher decrease in JMg2+ than in JNa+. Accordingly, the highest selectivity values are achieved by PIP0.75TMC0.15 and PIP0.75TMC0.3 among the negatively-charged membranes. Similarly, the positively-charged membranes PIP1TMC0.15 and PIP1TMC0.3 achieve the highest Na+/Mg2+ selectivity among all the prepared membranes (Fig. 4d). Na+ and Mg2+ concentration inside their active layers are smaller compared to the negatively-charged mem­branes as a result of Donnan exclusion.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4d). Na+ and Mg2+ concentration inside their active layers are smaller compared to the negatively-charged mem­branes as a result of Donnan exclusion. In consequence, their electro­migrative and advective fluxes (Ji,elec and Ji,adv) drop, as expressed in Equations [ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] and (20). However, their diffusive fluxes (Ji,diff )take over their overall transmembrane transport from the feed to the permeate side. This is observed through the values of JNa+,diff/ JNa+ and JMg2+,diff/JMg2+ being close to 1 for both PIP1TMC0.15 and PIP1TMC0.3 membranes. A careful inspection of Fig. 11b shows that their total transmembrane fluxes of Na+ and Cl-(JNa+ and JCl-) are similar for both PIP1TMC0.15 and PIP1TMC0.3 membranes. This similarity is necessary to attain zero-current conditions (ΣziJi = 0) because JMg2+ is almost negligible. Since Mg2+ is excluded the most by these two membranes (Fig. 9c), the concentration profiles of Cl-and Na+ are parallel (supporting information Figure SI14) to reach electroneutrality condi­tions within the membranes’ active layers. This indicates that their concentration gradients are coupled, suggesting that JNa+ is determined by JCl-,diff. Consequently, membranes PIP1TMC0.15 and PIP1TMC0.30 attain the largest values of Na+/Mg2+ selectivity among all the fabri­cated membranes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "JCl-,diff. Consequently, membranes PIP1TMC0.15 and PIP1TMC0.30 attain the largest values of Na+/Mg2+ selectivity among all the fabri­cated membranes. Considering all these factors, between the two positively-charged membranes, PIP1TMC0.15 achieves the largest selectivity due to its stronger Donnan exclusion owing to its largest positive cx value (Fig. 9a). 4. Conclusions In this study, we assessed the effect of the concentrations of PIP and TMC during IP on the Na+/Mg2+ selective separation performance of TFC membranes having a PA selective layer, based on the DSPM-DE model. The effect of PIP and TMC concentrations on the Na+/ Mg2+ separation capabilities of the membranes was particularly dictated by Δ xe and cx. Our findings corroborate that Δxe, comprising the porosity, tortu­ osity, actual thickness (observed by SEM), and roughness of the PA layer (obtained from AFM), is a measure of the mass transport resistance of the membranes. PWP tests revealed that the roughness of the PA layer plays a dominant role in determining the PWP values of the fabricated membranes. Although the actual thickness of the PA layer contributes to the overall resistance, it is less significant than the roughness. Addi­tionally, Δxe was found to correspond with the magnitude of the diffu­sive fluxes. Interestingly, the diffusion of the most mobile and smallest ion, Cl-, dictated the magnitude of the spontaneously generated electric field.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e fluxes. Interestingly, the diffusion of the most mobile and smallest ion, Cl-, dictated the magnitude of the spontaneously generated electric field. To attain zero current conditions, the generated electric field impaired Cl-transport as the primary effect and accelerated Na+ and Mg2+ transport through their electromigrative fluxes. As a result, Δxe played a key role in determining the transmembrane ionic fluxes. The difference in the transmembrane fluxes between Na+ and Mg2+ primarily arose from the different impact of PIP and TMC concentrations on both diffusive and electromigrative fluxes. The separation between Na+ and Mg2+ was mainly impacted by cx, which governs the Donnan exclusion coefficients at the pore entrance. In general, the cx values became more positive or less negative with higher PIP and lower TMC concentrations. Specifically, the positively charged membranes ach­ieved the highest Na+/Mg2+ selectivity among all the prepared mem­branes. The concentrations of Na+ and Mg2+ inside the active layers of the positively charged membranes were lower compared to the nega­tively charged membranes. Consequently, their electromigrative and advective fluxes decreased, but their diffusive fluxes dominated the overall transmembrane transport from the feed to the permeate side. The coupling of Cl-and Na+ diffusion was necessary to attain zero current conditions.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rall transmembrane transport from the feed to the permeate side. The coupling of Cl-and Na+ diffusion was necessary to attain zero current conditions. The experimental retention results confirmed that higher PIP and lower TMC concentrations resulted in larger ideal and real Na+/Mg2+ selectivity. Accordingly, the most positively-charged mem­brane, PIP1TM0.15, demonstrated the highest Na+/Mg2+real selectivity. CRediT authorship contribution statement Nicol´as Cevallos-Cueva: Writing – review & editing, Writing – original draft, Validation, Software, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Md. Mushfequr Rahman: Writing – review & editing, Writing – original draft, Visualization, Su­pervision, Resources, Funding acquisition, Formal analysis, Conceptu­alization. Hluf Hailu Kinfu: Writing – review & editing, Methodology. Volker Abetz: Writing – review & editing, Supervision. Funding This work was funded by the Hereon-I2B-Project NanoMem. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments The authors would like to acknowledge Maren Brinkmann for the PEG analysis in GPC, Juliana Clodt and Barbara Bajer for fabricating the polyacrylonitrile support, Erik Schneider for the SEM analysis, Evgeni Sperling for the AFM analysis, and Jan Pohlmann for setting up the flux and retention measurement facilities.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "VariableDescriptionUnits Atemperature dependent correction factor for the activity coefficient(-)Ambeffective membrane area for filtration experimentsm2 ci,1concentration of ion i at the pore entrance on the feed sidemol/m3 ci,fconcentration of ion i in the feed solutionmol/m3 ci,Nconcentration of ion i at the pore entrance on the permeate sidemol/m3 ci,pconcentration of ion i in the permeatemol/m3 ci,mconcentration of ion i in the feed-solution/membrane interfacemol/m3 ci,nconcentration of ion i in node nmol/m3 ci,rconcentration of ion i in the retentatemol/m3 ciconcentration of ion i in the membrane active layermol/m3 cxvolumetric membrane charge densitymol/m3 dH2Othickness of a single layer of water moleculesmDi,∞diffusion coefficient of species i in the bulkm2/se0electronic charge1.602E-09 C/JFFaraday constant96500 C/molJi,advadvective flux of species imol/m2/sJi,diffdiffusive flux of species imol/m2/sJi,electelectromigrative flux of species imol/m2/sJimolar flux of species imol/m2/sJvsolution fluxm/skc,imass transfer coefficient of species i in the bulkm/skc,icorrected mass transfer coefficientm/s Ki,ahindrance factor of advection(-)Ki,dhindrance factor of diffusion(-)kBBoltzmann constant1.38066E-23 J/KLcharacteristic length of the stirrer0.03 mNAAvogadro number6.023E23Ncnumber of ions in the system(-)NFnanofiltration(-)PApolyamide(-)PANpolyacrylonitrile(-)PemPeclet number(-)PIPpiperazine(-)PWPpure water permeanceL/MPa/h/m2 RMSroot mean square(-)Rideal gas constant8.314 J/K/molRmodeli,realtheoretical retention of species i at infinite stirring velocity(-) Rexpi,jexperimental retention of ion i(-) Rmodi,jmodelled retention of ion i(-) Ri,obsobserved or experimental retention of species i(-)Ri,realretention of species i at infinite stirring velocity(-)rporeeffective pore radiusmristokes radius of species imReReynolds number(-)Sa/bselectivity (real) from mixed salt retention tests(-) S*a/bselectivity (ideal) from single salt retention tests(-) ScSchmidt number(-)ShSherwood number(-)TtemperatureKTFCThin film composite membrane(-)TMCTrimesoyl Chloride(-)xdirection across the membrane active layer from the feed towards the permeate sidemzivalence of ion i(-)GreekΔΨD,fDonnan potential at the feed-solution/membrane interfaceVΔΨD,pDonnan potential at the permeate-solution/membrane interfaceVΔmchange of massgΔtelapsed timesΔWiBorn solvation energy barrier of ion iJΔxethickness-to-porosity ratio (effective membrane active layer thickness)mδxndistance between two consecutive nodesmδH2Odensity of liquid water at room temperatureg/m3 γi,1activity coefficient of ion i at the pore entrance on the feed side(-)γi,mactivity coefficient of ion i in the feed-solution/membrane interface(-)γi,Nactivity coefficient of ion i at the pore entrance on the permeate side(-)γi,pactivity coefficient of ion i in the permeate(-)λiratio of solute to pore radius(-)ωstirring speeds-1 Φx=0D,iDonnan exclusion coefficient of ion i at the pore entrance on the feed side(-) Φx=Δxe D,iDonnan exclusion coefficient of ion i at the pore entrance on the permeate side(-) ΦDE,idielectric exclusion coefficients of ion i(-)ΦS,isteric exclusion coefficient of ion i(-)Ψelectrical potential inside the membrane active layerVΨnelectrical potential in node nV",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(continued on next page)\n\nN. Cevallos-Cueva et al. Journal of Membrane Science 721 (2025) 123808\n\n(continued) Variable Description Units Ψfelectrical potential in feed solutionVΨpelectrical potential in permeate solutionVσ2i,jvariance(-) εbulkdielectric constant of water in the bulk(-)εporedielectric constant of water inside the pores(-)ε0permittivity of vacuum8.854E-12 F/mεrdielectric constant of the medium(-)ε*dielectric constant of a single layer of water molecules next to the pore walls(-)ξelectrical potential gradient at the feed-solution/membrane interfaceV/m\n\nAppendix A. Supplementary data Supplementary data to this article can be found online at https://doi.org/10.1016/j.memsci.2025.123808.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12,
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[15] S. Bandini, Modelling the mechanism of charge formation in NF membranes: theory and application, J. Membr. Sci. 264 (2005) 75–86, https://doi.org/ 10.1016/j.memsci.2005.03.055.[16] S. D´eon, P. Dutourni´e, L. Limousy, P. Bourseau, Transport of salt mixtures through nanofiltration membranes: numerical identification of electric and dielectric contributions, Separ. Purif. Technol. 69 (2009) 225–233, https://doi.org/10.1016/ J.SEPPUR.2009.07.022.[17] S. D´eon, A. Escoda, P. Fievet, P. Dutourni´e, P. Bourseau, How to use a multi-ionic transport model to fully predict rejection of mineral salts by nanofiltration membranes, Chem. Eng. J. 189–190 (2012) 24–31, https://doi.org/10.1016/j. cej.2012.02.014.[18] A. Escoda, S. D´eon, P. Fievet, Assessment of dielectric contribution in the modeling of multi-ionic transport through nanofiltration membranes, J. Membr. Sci. 378 (2011) 214–223, https://doi.org/10.1016/J.MEMSCI.2011.05.004.[19] S. Casta˜no Osorio, P.M. Biesheuvel, J.E. Dykstra, E. Virga, Nanofiltration of complex mixtures: the effect of the adsorption of divalent ions on membrane retention, Desalination 527 (2022) 115552, https://doi.org/10.1016/j. desal.2022.115552.[20] S.S. Wadekar, R.D. Vidic, Influence of active layer on separation potentials of nanofiltration membranes for inorganic ions, Environ. Sci. Technol.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "0] S.S. Wadekar, R.D. Vidic, Influence of active layer on separation potentials of nanofiltration membranes for inorganic ions, Environ. Sci. Technol. 51 [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (2017) 5658–5665, https://doi.org/10.1021/acs.est.6b05973.[21] M.A. Junker, E. te Brinke, C.M. Vall Compte, R.G.H. Lammertink, J. de Grooth, W. M. de Vos, Asymmetric polyelectrolyte multilayer nanofiltration membranes: structural characterisation via transport phenomena, J. Membr. Sci. 681 (2023), https://doi.org/10.1016/j.memsci.2023.121718, 121718-121718.[22] F. L´eniz-Pizarro, C. Liu, A. Colburn, I.C. Escobar, D. Bhattacharyya, Positively charged nanofiltration membrane synthesis, transport models, and lanthanides separation, J. Membr. Sci. 620 (2021), https://doi.org/10.1016/j. memsci.2020.118973.[23] O. Labban, C. Liu, T.H. Chong, J.H. Lienhard, Relating transport modeling to nanofiltration membrane fabrication: navigating the permeability-selectivity tradeoff in desalination pretreatment, J. Membr. Sci. 554 (2018) 26–38, https://doi.org/ 10.1016/j.memsci.2018.02.053.[24] Zhou Yang, Rui Feng, Zhang Zhang, A review on reverse osmosis and nanofiltration membranes for water purification, Polymers 11 (2019) 1252, https://doi.org/ 10.3390/polym11081252.[25] A.L. Ahmad, B.S. Ooi, A.W. Mohammad, J.P.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ation membranes for water purification, Polymers 11 (2019) 1252, https://doi.org/ 10.3390/polym11081252.[25] A.L. Ahmad, B.S. Ooi, A.W. Mohammad, J.P. Choudhury, Composite nanofiltration polyamide membrane: a study on the diamine ratio and its performance evaluation, Ind. Eng. Chem. Res. 43 (25) (2004) 8074–8082, https://doi.org/ 10.1021/ie0497994.[26] S.H. Huang, C.J. Hsu, D.J. Liaw, C.C. Hu, K.R. Lee, J.Y. Lai, Effect of chemical structures of amines on physicochemical properties of active layers and dehydration of isopropanol through interfacially polymerized thin-film composite membranes, J. Membr. Sci. 307 (2008) 73–81, https://doi.org/10.1016/J. MEMSCI.2007.09.014.[27] A.L. Ahmad, B.S. Ooi, Properties–performance of thin film composites membrane: study on trimesoyl chloride content and polymerization time, J. Membr. Sci. 255 (2005) 67–77, https://doi.org/10.1016/J.MEMSCI.2005.01.021.[28] Y.l. Liu, Y.y. Zhao, X.m. Wang, X.h. Wen, X. Huang, Y.F. Xie, Effect of varying piperazine concentration and post-modification on prepared nanofiltration membranes in selectively rejecting organic micropollutants and salts, J. Membr. Sci. 582 (2019) 274–283, https://doi.org/10.1016/j.memsci.2019.04.018.[29] N.K. Saha, S.V. Joshi, Performance evaluation of thin film composite polyamide nanofiltration membrane with variation in monomer type, J. Membr. Sci. 342 (1–2) (2009) 60–69, https://doi.org/10.1016/j.memsci.2009.06.025.[30] T. Zhang, R.Y. Fu, K.P. Wang, Y.W. Gao, H.R. Li, X.M.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "r type, J. Membr. Sci. 342 (1–2) (2009) 60–69, https://doi.org/10.1016/j.memsci.2009.06.025.[30] T. Zhang, R.Y. Fu, K.P. Wang, Y.W. Gao, H.R. Li, X.M. Wang, Y.F. Xie, L.a. Hou, Effect of synthesis conditions on the non-uniformity of nanofiltration membrane pore size distribution, J. Membr. Sci. 647 (2022) 120304, https://doi.org/ 10.1016/j.memsci.2022.120304.[31] R. Nadler, S. Srebnik, Molecular simulation of polyamide synthesis by interfacial polymerization, J. Membr. Sci. 315 (1–2) (2008) 100–105, https://doi.org/ 10.1016/j.memsci.2008.02.023.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "N. Cevallos-Cueva et al. Journal of Membrane Science 721 (2025) 123808\n\n[32] J. Tian, H. Chang, S. Gao, R. Zhang, How to fabricate a negatively charged NF membrane for heavy metal removal via the interfacial polymerization between PIP and TMC? Desalination 491 (2020) 114499 https://doi.org/10.1016/j. desal.2020.114499.[33] R. Zhang, S. Yu, W. Shi, J. Zhu, B. Van der Bruggen, Support membrane pore blockage (SMPB): an important phenomenon during the fabrication of thin film composite membrane via interfacial polymerization, Separ. Purif. Technol. 215 (2019) 670–680, https://doi.org/10.1016/J.SEPPUR.2019.01.045.[34] Q.Y. Zhu, L.K. Wu, L.Q. Li, L.W. Zhuang, S.M. Xue, Z.L. Xu, Y.J. Tang, Novel insight on the effect of the monomer concentration on the polypiperazine-amide nanofiltration membrane, Ind. Eng. Chem. Res. 61 (2022) 5843–5852, https://doi. org/10.1021/acs.iecr.2c00478.[35] Y. Zhao, X. Tong, Y. Chen, Fit-for-purpose design of nanofiltration membranes for simultaneous nutrient recovery and micropollutant removal, Environ. Sci. Technol. 55 (5) (2021) 3352–3361, https://doi.org/10.1021/acs.est.0c08101.[36] R.y. Fu, T. Zhang, X.m. Wang, Rigorous determination of pore size non-uniformity for nanofiltration membranes by incorporating the effects on mass transport, Desalination 549 (2023), https://doi.org/10.1016/j.desal.2022.116318, 116318116318.[37] EuropeanCommission, Critical Raw Materials Resilience: Charting a Path towards Greater Security and Sustainability, 2020.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13,
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[38] Z. Tan, S. Chen, X. Peng, L. Zhang, C. Gao, Polyamide membranes with nanoscale Turing structures for water purification, Science 360 (6388) (2018) 518–521, https://doi.org/10.1126/science.aar6308.[39] C. Tang, M.L. Bruening, Ion separations with membranes, J. Polym. Sci. 58 (20) (2020) 2831–2856, https://doi.org/10.1002/pol.20200500.[40] E.R. Nightingale Jr., Phenomenological theory of ion solvation. Effective radii of hydrated ions, J. Phys. Chem. 63 (9) (1959) 1381–1387, https://doi.org/10.1021/ j150579a011.[41] S. Varghese, S.K. Kannam, J.S. Hansen, S.P. Sathian, Effect of hydrogen bonds on the dielectric properties of interfacial water, Langmuir 35 (24) (2019) 8159–8166, https://doi.org/10.1021/acs.langmuir.9b00543.[42] W.R. Bowen, J.S. Welfoot, Modelling the performance of membrane nanofiltrationcritical assessment and model development, Chem. Eng. Sci. 57 (2002) 1121–1137, https://doi.org/10.1016/S0009-2509(01)00413-4.[43] A.A. Hussain, S.K. Nataraj, M.E.E. Abashar, I.S. Al-Mutaz, T.M. Aminabhavi, Prediction of physical properties of nanofiltration membranes using experiment and theoretical models, J. Membr. Sci. 310 (1) (2008) 321–336, https://doi.org/ 10.1016/j.memsci.2007.11.005.[44] D. Rehman, J.H. Lienhard, Global optimization for accurate and efficient parameter estimation in nanofiltration, J. Membr. Sci. Lett. 2 (2022) 100034, https://doi.org/10.1016/J.MEMLET.2022.100034.\n\nN. Cevallos-Cueva et al. Journal of Membrane Science 721 (2025) 123808",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825001218-main",
+      "title": "Mass transport mechanisms insights of selective sodium/magnesium separation through nanofiltration membranes",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  }
+]

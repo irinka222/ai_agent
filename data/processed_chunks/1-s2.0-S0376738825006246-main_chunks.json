@@ -1,0 +1,1460 @@
+[
+  {
+    "content": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance A. Bartoletti a,b, E. Mercadelli a,*, V. Saraceni c,d, A. Sangiorgi a, A. Gondolini a, C. Melandri a, P. Pinasco a, P. Gramazio c, A. Fasolini c,d, J. De Maron c,d,**, F. Basile c,e, A. Sanson a a National Research Council of Italy, Institute of Science, Technology and Sustainability for Ceramics (CNR-ISSMC), Via Granarolo 64, 48018, Faenza, Italyb Department of Chemical Sciences, Universit`a degli Studi di Padova, Via Marzolo 1, 35131, Padova, Italyc Department of Industrial Chemistry “Toso Montanari” University of Bologna, Viale Del Risorgimento 4, 40136, Bologna, Italyd Center for Chemical Catalysis - C3, University of Bologna, Viale Del Risorgimento 4, 40136, Bologna, Italye Consorzio Interuniversitario per La Scienza e Tecnologia Dei Materiali (INSTM), Via G. Giusti, 9 50121, Firenze, Italy\n\nA R T I C L E I N F O Keywords:BCZY-GDCCeramic compositeMicroextrusionH2 separationAdditive manufacturingMechanical properties",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T In this work, the possibility of using 3D printing technology as a tool to boost the widespread use of all-ceramic membranes operating at high temperatures for hydrogen separation and membrane reactors is proposed for the first time. Dense ceramic-ceramic composite membranes based on BaCe0.65Zr0.20Y0.15O3-δ-Gd0.2Ce0.8O2-δ were produced by 3D microextrusion. A suitable water-based ink was formulated and thermally/rheologically char­acterized. Both printing parameters and post-printing operations were carefully adjusted to obtain crack-free and planar membranes. In particular, the use of polyethylene glycol with the lowest molecular weight as desiccant liquid combined with a warm ethanol washing bath is crucial for the production of defect-free microextruded ceramics. The optimization of the whole ceramic process allows the fabrication of ceramic membranes with a relative density of 98.7 ± 1.1 % and a flexural strength of 98.4 ± 18.9 MPa. After activation with Pt nano­particles, the 3D microextruded membranes show H2 permeabilities of 0.21 and 0.32 mL min-1 cm-2 at 750 ◦C using a feed stream with respectively 50 % and 80 % of H2 in He. These hydrogen fluxes are among the highest reported so far for symmetric all-ceramic membranes.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Producing clean energy fuels, decarbonizing industries, and devel­oping sustainable energy storage and distribution technologies, are ur­gent and mandatory goals to contrast global warming, address the energy crisis, and reduce emissions to near zero by 2050 [1]. In this context, hydrogen is expected to play a key role in the world’s energy transition [2]. The International Energy Agency (IEA) estimates that hydrogen use will continue to increase in the coming five decades [3]. H2 is the most attractive zero-carbon energy carrier, other than electricity, being seriously considered for low-carbon transport, indus­trial decarbonisation, and heat provision in many countries [4]. Nowadays, most of the hydrogen produced worldwide comes from fossil fuels, especially by steam reforming, coal gasification and natural gas pyrolysis [2,5]. However, hydrogen produced through these tech­nologies has significant impurities (such as CO, CO2, H2O) and needs additional purification steps for process intensification and for industrial and automotive applications where >99.999 % H2 purity is required [6–8]. Among the approaches used for industrial hydrogen separation, the technology based on inorganic membranes operating at high tempera­tures is currently considered the most promising alternative among separation technologies due to the low energy consumption, possibility for continuous operations, and process intensification [9].",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "g alternative among separation technologies due to the low energy consumption, possibility for continuous operations, and process intensification [9]. However, this technology is currently based only on commercially available Pd-based membranes, being the all-ceramic-based ones tested only at the lab-scale. The latter, thanks to their intrinsic characteristics of efficiency and operational simplicity, 100 % selectivity, good stability under operating conditions, and environmental compatibility, can be directly applied in existing implants for hydrogen generation, unlocking the possibility of process intensifications [10,11]. For this reason, a huge effort has been devoted to the development of proton-conductive",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "* Corresponding author.** Corresponding author. Department of Industrial Chemistry \"Toso Montanari\" University of Bologna, Viale Del Risorgimento 4, 40136, Bologna, Italy.E-mail addresses: elisa.mercadelli@cnr.it (E. Mercadelli), jacopo.demaron2@unibo.it (J. De Maron).\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 733 (2025) 124311",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 5 June 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license ( http://creativecommons.org/licenses/bync-nd/4.0/ ). perovskites. Perovskites such as doped barium cerates-zirconates, and defected fluorites like lanthanum tungstate are considered the most promising ceramic proton conductors [12,13]. However, they generally suffer from low electronic conductivity that limits their application in gas separa­tion processes, therefore they are typically coupled with a ceramic or metallic phase to provide ambipolar conductivity (H+ and e-), pro­ducing the so-called mixed protonic-electronic conductive (MPEC) membranes. Among these materials, dense ceramic-ceramic composites of BaCe0.65Zr0.20Y0.15O3-δ and Ce0.8Gd0.2O2-δ (BCZY-GDC) have emerged as potential candidates [14] to obtain low-cost hydrogen purification devices, thanks to the good stability in CO2 [15] and H2S reach atmo­sphere [16], high ambipolar conductivity, and mechanical stability [13,17,18]. Dense BCZY-GDC membranes produced by Rebollo et al. [13] present among the highest hydrogen permeation flux reported up to now for symmetric architecture, showing JH2 of 0.27 ml min-1 cm-2 at 755 ◦C in wet 50 % H2 in Ar.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the highest hydrogen permeation flux reported up to now for symmetric architecture, showing JH2 of 0.27 ml min-1 cm-2 at 755 ◦C in wet 50 % H2 in Ar. Higher permeation values can be obtained by employing asymmetric architectures [19–21], composed of a thin dense layer supported on a thick porous substrate that provides me­chanical strength, and by properly engineering the catalytic Pt particles [22] to overcome surface reaction kinetics limitations. Catalysts such as Pt are required to enhance the proton dissociation kinetics on the surface of the membrane, which is typically the rate-determining step when bare ceramic membranes are used [11]. Up to now, dry-pressing and tape casting are the most used fabri­cation methods for symmetric and asymmetric H2 separation mem­branes, respectively [9]. However, they enable the manufacturing of simple geometries with randomly oriented porous structures, which limit gas fluid dynamics within the pores [23] and hinder a uniform dispersion of catalytic particles throughout the entire membrane. Overall, there is a notable shortage of practical research on dense ceramic membranes for hydrogen separation, primarily due to the dif­ficulties in fabricating flat, consistent, and defect-free structures, particularly in asymmetric configurations [24].",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ation, primarily due to the dif­ficulties in fabricating flat, consistent, and defect-free structures, particularly in asymmetric configurations [24]. In this contest, Additive Manufacturing (AM) offers a compelling alternative to traditional manufacturing methods, enabling the pro­duction of geometrically complex, near-net-shape 3D ceramic parts without using expensive tooling [25]. AM provides more flexibility in product design and customized solutions, allowing for the fabrication of virtually any type of porous morphology in one step. This capability can significantly reduce both the processing time and the complexity of the whole manufacturing process, enabling rapid iteration and optimization of membrane designs with targeted properties. As a result, the devel­opment cycle is accelerated, reducing time-to-market and promoting faster technology adoption across various industries. Extrusion-based processes such as direct ink writing (DIW) are considered the cheapest, most versatile, and easiest scalable technique to fabricate complex components with a high production rate [25–27]. Moreover, it can be easily integrated into hybrid systems, allowing rapid prototyping and the fabrication of multimaterial parts. DIW is the only manufacturing technique that enables the practical fabrication of ceramic parts from the micro to the meter size [28–31].",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "erial parts. DIW is the only manufacturing technique that enables the practical fabrication of ceramic parts from the micro to the meter size [28–31]. For these rea­sons, and for the possibility of fabricating near-net shaping asymmetric architectures with complex geometries - unattainable through tradi­tional shaping techniques - extrusion-based AM techniques are consid­ered highly appealing for the production of proton conducting ceramic membranes. The successful development of DIW will pave the way for streamlined fabrication of dense/porous asymmetric membranes with precise control over key parameters such as pore and channel size, porosity, and surface roughness, ultimately enhancing membrane per­formance and efficiency. The integration of porous support structures during the 3D printing process will improve membrane stability and mechanical strength. By strategically designing support structures, re­searchers can mitigate issues such as warping, cracking, and deforma­tion, ensuring optimized gas fluid dynamics, improved catalytic activation [32], integrity, and reliability of 3D-printed ceramic mem­branes. Honeycomb-type and tubular dense membranes produced by DIW can also be designed as potential multi-chamber membrane re­actors.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ted ceramic mem­branes. Honeycomb-type and tubular dense membranes produced by DIW can also be designed as potential multi-chamber membrane re­actors. Furthermore, the possibility to fabricate more complex struc­tures, such as the so-called “independently distributed dual-phase ceramic membrane” [33], which has so far been hindered by significant technological challenges, will become readily achievable. This novel architecture consists of independent transport channels formed by alternating layers of proton-conducting and electron-conducting mate­rials. Unlike conventional dual-phase composite membranes, which rely on a random mixture of protonic and electronic pathways, this design provides well-defined, separate routes for proton and electron transport. As a result, it minimizes pathway interference and enhances hydrogen permeation flux [34]. Recent studies highlight the possibility of producing MPEC materials through 3D printing for solid oxide cell applications, i.e. protonic ceramic electrochemical cells [35–37]. On the other hand, preliminary studies conducted in our laboratory demonstrated the feasibility of 3D printing BCZYand BCZY-GDC-based small parts by DIW [38,39]. To the best of our knowledge, no studies are present in the literature regarding the fabrication and hydrogen permeation of ceramic membranes by AM techniques. Here, highly dense and planar BCZY-GDC ceramic parts with different sizes, geometries, and architectures were successfully fabri­cated by DIW.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "niques. Here, highly dense and planar BCZY-GDC ceramic parts with different sizes, geometries, and architectures were successfully fabri­cated by DIW. The whole optimization of (i) paste preparation meth­odology, (ii) 3D printing parameters, and (iii) post-printing operations allowed the fast and near zero-waste production of highly reproducible membranes without post-processing operations. Moreover, the ther­momechanical stability and hydrogen permeation through 3D-printed symmetric membranes were investigated for the first time and compared with traditionally shaped specimens produced by drypressing. 2. Experimental 2.1. Materials BaCe0.65Zr0.20Y0.15O3-δ (BCZY), specific surface area (s.s.a.) = 4.92 m2 g-1 and d50 = 1.1 μm, Marion Technologies, France) and Ce0.8Gd0.2O2-δ (GDC, s.s.a. = 5.60 m2 g-1 and d50 = 0.21 μm, Fuel Cell Materials, USA) were used as the starting ceramic powders. ZnO nano­powder (Sigma Aldrich, UK) was used as sintering aid. Ethylene Glycol (99.99 %, Sigma Aldrich, UK), Glycerol (87.00 %, Merck, Germany), and Pluronic F-127 (Sigma Aldrich, UK) were selected for the ink prepara­tion. Polyethylene glycol 200 (PEG200, Merck, Germany), Polyethylene glycol 400 (PEG 400, Sigma Aldrich, UK), Polyethylene glycol 600 (PEG600, Fluka, Germany), and Polyethylene glycol 2000 (PEG2000, Merck, Germany) were used as liquid desiccants. Anhydrous ethanol (99.99 %, Sigma Aldrich, UK) was used for the ink preparation and to wash PEG residues after drying. 2.2.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "used as liquid desiccants. Anhydrous ethanol (99.99 %, Sigma Aldrich, UK) was used for the ink preparation and to wash PEG residues after drying. 2.2. Ink preparation A water-based ceramic paste was obtained following a previously optimized methodology [38,39]. First, stoichiometric amounts of BCZY and GDC (1:1 vol) with 1 wt% of ZnO were treated in a high-energy planetary mill (Fritsch, Poulverisette 6) using zirconia beads (Ø = 3 mm, Tosoh, Japan) with absolute ethanol as solvent. The ratio between grinding media and ceramic powders was kept equal to 5. The suspen­sion was then subjected to a 15-min sonicating treatment (Sonicator, ultrasonic processor XL, USA) to provide ≈70 W. Afterwards, Ethylene Glycol and Glycerol were added to the suspension, and EtOH was evaporated under mechanical stirring at room temperature under a laboratory extractor hood. The resulting wet paste was then gently ground into an agate mortar with a pestle for 15 min to break down any agglomerates. Finally, the Ink was prepared by mixing small aliquots of",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A. Bartoletti et al. Journal of Membrane Science 733 (2025) 124311 the wet grounded paste with a 25 wt % Pluronic F-127 aqueous solution in a continuous planetary mixer (Thinky ARE-500CE, Thinky Corpora­tion, Japan), imposing 3 min mixing at 900 rpm and 3 min defoaming at 1200 rpm. Before printing, a prolonged defoaming cycle of 10 min at 400 rpm was performed to eliminate trapped bubbles. The composition of the produced paste is reported in Table 1. 2.3. 3D microextrusion The depositions were carried out with a stand-alone multiple-heads machine (XCEL, AUREL, Italy) equipped with a micro extruder (ECOPEN 450, ViscoTec, Germany) using conical needles with different nozzle sizes from 410 to 50 μm. The paste extrusion flow rate (Q) was set at 0.1 ml min-1, while the distance h between the extruder nozzle and the substrate (dense Al2O3 plates supplied by Aurel SpA), the stage moving speed (v), and the line spacing between the adjacent filaments (w) were carefully optimized to obtain high-resolution structures with different designs. The 2D representations of the selected designs are shown in Fig. 1. Before printing each part, about 10 μL of the paste was squeezed out in a separate container to ensure a homogeneous ink flow during depositions. 2.4. Post-printing operations Two different drying methodologies were applied in order to release water from the hydrogel structures quickly and effectively. 1.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "printing operations Two different drying methodologies were applied in order to release water from the hydrogel structures quickly and effectively. 1. Air drying in a homemade humidity-controlled chamber at 70–90 % humidity (U) and 23 ◦C for a certain amount of time.2. Osmotic drying at 60 ◦C in 50 ml of different concentrated PEG so­ lutions, i.e. PEG 200, PEG 400, PEG 600, and PEG 2000, for a certain amount of time and then air drying for 24 h at 30 ◦C. Some of the samples were also immersed in a warm ethanol bath before air drying to release PEG residue from the structures. Finally, samples were debinded at 400 ◦C and sintered at 1550 ◦C for 4 h in air following the procedure previously reported [19,40]. A schematic representation of the whole process is reported in Fig. S1. 2.5. Production of ceramics parts by dry-pressing Membranes and test bars were also produced by dry-pressing, the most commonly used method for producing symmetric membranes, to provide a benchmark for evaluating the performance of the innovative 3D-printed components. Initially, BCZY and GDC in a 1:1 vol% ratio were ball milled in ethanol with 1 wt% ZnO as sintering aid. The resulting powder was dried, sieved at 200 μm, and uniaxially pressed in a 40.0 * 7.0 mm2 (for test bars) or Ø = 20.0 mm (for membranes) die at 750 kg cm-2, and isostatically pressed at 3000 bar at room temperature. The green pellets were finally sintered at 1550 ◦C for 4 h in a BCZY-GDCrich atmosphere.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2, and isostatically pressed at 3000 bar at room temperature. The green pellets were finally sintered at 1550 ◦C for 4 h in a BCZY-GDCrich atmosphere. The relative density of the sintered pellets was 97.0 ±1 %, calculated as the ratio between the density measured using the Archimedes’ method and the theoretical density of the BCZY-GDC composite (6.77 g cm-3), multiplied by 100. The final thickness of the membranes was achieved by mechanical processing using a semiautomatic lapping machine Tegramin (Struers, France) equipped with 500 and 1200 SiC grinding discs. Test bars were manually machined using sandpaper 500 and SiC grinding paper 1200. A macroscopic pic­ture of the as-produced sintered parts is provided in Fig. S2 along with SEM micrographs of the polished section. 2.6. Characterizations The viscosity of printable inks was determined by recording the flow curves at 25 ◦C in the 0.01–100 s-1 range through a rotational rheometer with controlled shear stress, C-VOR 120 Bohlin (Malvern Instruments, UK), using a parallel plate geometry (1 mm gap) with a top plate diameter of 20 mm (PP20) and a solvent trap to avoid any water evaporation phenomena during the test. Storage (G′) and loss (G″) modulus were determined through stress sweep tests conducted in the 0.1–1000 Pa range using a flat cone geometry (0.150 mm gap) with a top plate diameter of 40 mm, with an angle of 4◦, and the solvent trap.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "cted in the 0.1–1000 Pa range using a flat cone geometry (0.150 mm gap) with a top plate diameter of 40 mm, with an angle of 4◦, and the solvent trap. TG/DSC analysis was performed with a Simultaneous Thermal Analyser STA 449 F3 Jupiter (Netzsch, Selb/Bavaria, Germany) to characterize the thermal behaviour of the ink and the Pluronic aqueous solution at a constant heating rate of 5 ◦C min-1 from room temperature to 1100 ◦C under air flux. Morphological characterizations of green, debinded, and sintered samples were carried out using a three-dimensional digital microscope (RH 2000, HIROX, Japan), equipped with the image analysis software RH-2000 (ver. 2.0.3.0) used for the determination of the extruded fila­ments’ diameter. Sintered bodies were also characterized by XRD analysis (D8 ADVANCE, LynkEye Detector-Bruker AXS, Germany) using CuKα radi­ation in the 20–80◦2θ range and a scan rate of 0.02◦. Before XRD analysis, the sintered samples were manually grounded and sieved through a 75 μm mesh to obtain the corresponding powders. The microstructure of the sintered specimens and fractography analysis were performed using a scanning electron microscope ΣIGMA SEM-FEG (Zeiss). SEM micrographs were also used to evaluate the grain dimension. The density of sintered samples was measured by Archimedes’ method in distilled water at 25 ◦C. To calculate the relative density, a theoretical density of 6.77 g cm-3 was considered.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "as measured by Archimedes’ method in distilled water at 25 ◦C. To calculate the relative density, a theoretical density of 6.77 g cm-3 was considered. The 4-pt flexural strength of the dense BCZY-GDC parts was measured at 750 ◦C in Ar flow (3.5 L min-1) using the furnace HTTF 974 (Severn Fornaces). The as-prepared test bars were manually machined to reach the desired dimension before testing. The measurement was per­formed using a universal screw-driven load frame for mechanical testing (Instron mod. 1195, Instron). An alumina flexural jig with upper and lower spans of 10 and 20 mm, respectively, was used, while the speci­mens were broken with a crosshead speed of 1 mm min-1. Before applying the load during testing at high temperature, a dwell of 15 min was set to reach thermal equilibrium. For each set of samples, at least 3 bars were tested. 2.7. Hydrogen permeation measurement Hydrogen permeation was measured on disk-shaped samples in the 550–750 ◦C temperature range, using the setup described in previous studies [22]. The testing apparatus included a double-chamber quartz reactor with separate feed and sweep sections, sealed with silver alloy rings. A mixture of H2 and He was used for the feed, while Ar was used as the sweep gas. Mass flow controllers (MFC) regulated the flow rates of the feed and sweep gases at 80 mL min-1 and 150 mL min-1, respec­tively, with both gases humidified to saturation at 28 ◦C.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "egulated the flow rates of the feed and sweep gases at 80 mL min-1 and 150 mL min-1, respec­tively, with both gases humidified to saturation at 28 ◦C. The hydrogen concentration on the permeate side was measured at the reactor outlet using an Agilent Technologies 490 Micro GC equipped with a Molsieve 5A capillary module. The results presented were obtained after 30 min of stabilization at steady state, with temperature monitored by a",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A. Bartoletti et al. Journal of Membrane Science 733 (2025) 124311 thermocouple placed near the membrane. The quality of the sealing was evaluated by measuring the He content in the permeate, and results were deemed acceptable if He leakage was below 5 %. Hydrogen leaks were subtracted from the permeation data. The hydrogen permeability of the membranes was characterized by varying hydrogen partial pressures at high temperatures with humidified fluxes. To enhance hydrogen dissociation and water splitting reactions, the membranes were activated with Pt, a commonly used catalyst for this type of membrane, due to surface kinetic effects that limit permeation [22]. Pt was deposited on both membrane sides. A Tetraammineplati­num(II) nitrate (Premion, 99.99 %) solution, with the suitable con­centration, was dropped on the membrane surfaces up to full coverage, followed by drying in the oven at 50 ◦C for 1 h. The reduction of the deposited Pt precursor to metal Pt was carried out directly in the reactor during the sealing procedure to give a total amount of Pt (metal) of 0.23 mg for each side of the membrane. 3. Results and discussion 3.1. Paste production and characterization A homogeneous paste with good apparent viscosity was obtained through the well-optimized ink preparation methodology developed in our laboratory (Fig. 2a). The rheological behaviour of the as-prepared paste was assessed by measuring the viscosity curve (Fig.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Picture of the paste after mixing at the planetary mixer (a), viscosity curve (b), G′ and G″ vs shear stress at 1 Hz (c), and TG-DSC analysis (d) of the pro­duced ink. ∅= Gʹ (LVR) τy A. Bartoletti et al. Journal of Membrane Science 733 (2025) 124311 process, and a good viscosity at rest of 6.4 * 104 Pa s. Elastic (G′) and viscous (G″) moduli as a function of the applied shear stress are reported in Fig. 2 c. G′ represents the energy stored in the material during deformation, reflecting the stiffness of the ink at rest, while G″ is a measure of the energy dissipated by the paste, which cannot be recov­ered. At low stress values G’ > G’’ ≈7 * 105 Pa, indicating a solid-like behaviour with mainly elastic deformations in the linear viscoelastic region (LVR). As the stress amplitude rises (i.e. above 150 Pa), G′ starts decreasing and the yield stress (τy) occurs at 191 Pa. Generally, printable inks present G′ between 10 and 100 * 103 Pa and τy in the 100–1000 Pa range [41]. High values of τy and G’ are required to minimise the deformation of the paste after deposition and to prevent structural col­lapses [42]. Another important aspect to consider in the DIW process is the transition from fluid-like flow to elastic shape retention, i.e. the ink behaviour at rest after being deposited. As shown in Figure S4 a, the paste produced can fully recover its viscosity in a few seconds after being stressed at high shear rate, ensuring structural stability of the printed part [43,44].",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "d can fully recover its viscosity in a few seconds after being stressed at high shear rate, ensuring structural stability of the printed part [43,44]. Rheological properties can be directly linked with the printability of the produced paste. The printability window is typically defined as the range of values where both storage modulus G’ and yield stress enable successful robocasting operation [45]. For hydrogel-based inks, E. Feilden [46] formulated a paste-specific figure of merit ∅ defined as (Eq. (1)).and found out that for ∅ > 20 the paste produced can be considered printable. Here, the calculated ∅ is about 3665. Considering literature suggestions [41,45–47] and our preliminary results [39], we can esti­mate that the paste produced can be theoretically used to produce multilayer structures by microextrusion. TG-DSC analysis was conducted to assess the thermal behaviour of the ink. The thermogram of the system (Fig. 2d) shows an initial water evaporation step (6.5 wt %), followed by the combustion of the organic additives between 150 and 320 ◦C (≈11.3 wt%). The final weight loss occurs at ≈800 ◦C and is attributed to the decomposition of carbonate species, probably derived from the starting BCZY particles (Fig. S3). At the end of the analysis, the mass residue is ≈20 %, deviating <1 % from the theoretical solid loading.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "from the starting BCZY particles (Fig. S3). At the end of the analysis, the mass residue is ≈20 %, deviating <1 % from the theoretical solid loading. The DSC curve is characterized by three main peaks: a first endothermic peak centred at 100 ◦C related to water evaporation, and two exothermic peaks at 215 ◦C and 275 ◦C associated with the degradation of Pluronic F-127 (Section S4 of Supplementary Information) and ethylene glycol/glycerol [48,49], respectively.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. 3D microextrusion Several nozzles with different orifice sizes were considered in order to enhance the surface quality of the printed parts and to achieve thin layers suitable for the production of hydrogen separation membranes. The ink was found to correctly flow through 410, 250, and 200 μm nozzles for several hours without blockage, but it was not possible to use the smaller orifice (50 μm) due to the fast clogging of the nozzle (Fig. S5). This means that some aggregates in the range of 50–200 μm are still present in the paste (or formed during the extrusion), and further optimization of the mixing methodology should be done before printing with the 50 μm diameter nozzle. For this reason, depositions were carried out using nozzles of ≥200 μm diameter. The following equation (Eq. (2)) was used to control the gap between extruded filaments (w) [39,50], and to define the suitable printing pa­rameters for each nozzle considered: dth = Qv⋅h where dth is the theoretical filament width, Q is the flow rate (ml min-1), v and h the printing rate (mm s-1), and height (mm) of the extruded filament, respectively. The different setups adopted in this study are reported in Table 2. A macroscopic picture of the as-printed samples is reported in Fig. 3.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Controlling the gap between filaments made it possible to obtain cir­cular, fully dense structures with different nozzle sizes. Samples obtained through the largest nozzle present a certain surface “waviness” since h < dth ≫ w. In this scenario, the nozzle is partially immersed in the paste to avoid gaps between extruded filaments, to the detriment of the surface quality. The setup used for the 250 and 200 μm nozzles provides smoother surfaces and thinner layers. Furthermore, we would like to point out two aspects of the developed production strategy: (i) the high productivity and flexibility of the process, and (ii) the possibility of reusing the microextruded paste after printing (i.e. defective printed parts or scraps). Regarding the former, considering the manufacturing of 1-layered button membranes (discs Ø = 20.0 mm), we can estimate an increase in productivity from 5 to 20 times (depending on the printing rate) compared to traditional batch processes such as dry-pressing methodology (see S.I. Section S6). Moreover, preliminary studies show that the produced paste can be reused once microextruded, by simply mixing scraps in the continuous planetary mixer (see S.I. Section S7). All of these aspects are extremely important considering the scaling up of membrane manufacturing.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e continuous planetary mixer (see S.I. Section S7). All of these aspects are extremely important considering the scaling up of membrane manufacturing. Further studies like Life Cycle Assessments (LCAs) will be considered to understand the impact of 3D printing technologies in the production of hydrogen purification devices, taking into account the entire manufacturing process.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Post printing operations In the first stage, the as-printed parts were transferred in a home­made humidity-controlled chamber at 70–90 % humidity (U) and 23 ◦C to control the release of water from the hydrogel structures. Samples were treated at fixed or decreasing amounts of humidity as described in Table 3, but even with very slow drying steps, samples appeared cracked after drying (Fig. S8). To prevent the formation of these defects, a liquid desiccant drying method [39,51] was considered. In this method, the wet green parts are poured into an appropriate liquid desiccant bath (typically PEG solu­tions), and water is extracted by an osmotic mechanism due to the different chemical potentials of water in the green body and the sur­rounding environment. Following this approach, the as-printed samples were immersed into different warm PEG solutions for a certain amount of time and then air dried for 24 h at 30 ◦C. A multistep liquid desiccant method was also considered as sug­gested by Xie et al. [52]. The method involves the immersion of the printed green bodies in different PEG baths with increasing molecular weight in order to gradually extract all the water from within the structure. Some samples were also washed with warm ethanol at 60 ◦C before air drying. Table 4 summarizes the drying tests carried out. For each batch, at least 6 samples were used.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "so washed with warm ethanol at 60 ◦C before air drying. Table 4 summarizes the drying tests carried out. For each batch, at least 6 samples were used. PEG 200 was found to be able to successfully extract all the water inside the samples, however, the prolonged drying time leads to the diffusion of some PEG molecules in the hydrogel that must be removed to avoid the formation of defects. Washing glycols with ethanol was proved to be effective in preventing crack formation: during the extraction process, ethanol diffuses into the structure, inducing a gradual swelling of PEG and the body expansion. When the concentra­tion of ethanol in the swollen body reaches a certain level, PEG Table 2 Different setups employed for the fabrication of the membranes by DIW: flow rate (Q), printing rate (v), printing height (h), theoretical filament width (dth), spacing between the adjacent extruded filaments (w). Set up Nozzle size (μm) Q (ml min-1) v (mm s-1) h (mm) dth (mm) w (mm) 0.1 0.1 0.1 0.55 0.6 0.25 0.61 0.29 0.17",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A. Bartoletti et al. Journal of Membrane Science 733 (2025) 124311 molecules dissolve and diffuse from inside to outside due to the con­centration gradient [52]. Images of some samples from the test batches after osmotic drying are shown in Fig. S8. Samples subjected to 110 h of osmotic drying in PEG 200 were then subjected to debinding and sintering. The effect of the ethanol washing on the integrity of osmotic-dried membranes after sintering is shown in Fig. 4. When PEG molecules remain trapped within the structures, some cracks arise from the bulk to the upper surfaces. Leaving samples in a warm ethanol bath provided the progressive extraction of glycols with time, and after ≈5 h, the complete removal was achieved. No im­provements were observed by prolonging the immersion of 3D printed parts in the ethanol bath. Once drying was optimized, crack-free and planar samples were obtained after thermal treatments. 3.4. Microstructural characterization Fig. 5a and b shows the upper and lower surfaces of the sintered parts printed with different nozzles/set-ups. No defects were observed on either the surfaces or within the bulk (Fig. 5 c) of sintered specimens. The surface quality of the lower side (Fig. 5 b) is mainly related to the roughness of the alumina plates used as printing substrates (more details are provided in S.I. Section S9), while the quality of the upper part is directly correlated to the printing parameters.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ting substrates (more details are provided in S.I. Section S9), while the quality of the upper part is directly correlated to the printing parameters. The diameter of the sin­tered filaments was calculated through image analysis and found to be 550 ± 7 μm, 254 ± 10 μm, and 130 ± 10 μm for samples printed with the 410, 250, and 200 μm nozzles. The addition of ZnO as sintering aid to the paste has a great influence on the densification during thermal treatments. The density of the sin­tered parts was measured through the Archimedes’ method and found to be 98.7 ± 1.1 %. Moreover, the microstructure of sintered samples (Fig. 6 a) shows micrometric grains of 2.7 ± 1.0 μm, approximately twice as large as samples without ZnO (Fig. 6 b). An in-depth micro­structural characterization revealed a homogeneous microstructure along the cross-section of several samples with different thicknesses, confirming that no delamination defects or PEG/water residues are present after the optimized process (S.I. Section S10). Moreover, XRD analysis (Fig. 6 c) revealed that the perovskite – fluorite phases are preserved after thermal treatments. It’s worth mentioning that ceramic parts produced by dry-pressing show a quite different microstructure composed of larger grains (11.0 ± 2.9 μm) and pores (5.5 ± 2.2 μm), regardless of the same starting powders, and sintering treatment employed (Fig. S2). We can attribute these differences to the different manufacturing processes.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "of the same starting powders, and sintering treatment employed (Fig. S2). We can attribute these differences to the different manufacturing processes. During the ink preparation for the DIW the powders are subjected to high-energy planetary milling and then remain finely dispersed in the paste, while dry-pressed parts are produced from non-dispersed powders that agglomerate into soft and larger aggregates after sieving, leading to different grain growth kinetics during sintering. When particles are more dispersed, as in the 3D-printed green body, fewer BCZY-BCZY or GDC-GDC contact points are present, limiting the grain growth during sintering. On the contrary, the agglomerated powder used for drypressing contains a higher amount of contacting particles with the same nature, favouring grain growth through the Ostwald ripening mechanism. Furthermore, we would like to point out that the proposed manufacturing strategy (microextrusion and subsequent osmotic dry­ing) can be used for the preparation of samples with different geometries and sizes, such as test bars, grids, honeycomb-type structures, and asymmetric architectures (i.e. structures composed by a dense layer supported onto a porous substrate). Details about the production of these structures are shown in S.I. Section S11. 3.5.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "res composed by a dense layer supported onto a porous substrate). Details about the production of these structures are shown in S.I. Section S11. 3.5. Mechanical characterization The thermomechanical stability of the 3D printed BCZY-GDC dense samples was assessed through 4-pt bending tests at 750 ◦C in a nonoxidizing atmosphere (Ar), following the protocol outlined in our pre­vious work for determining the flexural strength of asymmetric BCZYGDC membranes [15]. For comparison, test bars obtained by",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. Macroscopic picture of samples produced with different nozzle sizes and set up.\n\nTable 3 Description of the drying cycles with humidity-controlled chambers. Time is expressed in days. CycleHumidity (%)Time (d)StatePresence of cracks 195 90 75 70 1.5 1 1 4\n\nDryyes\n\n295 90 80 70 2 1 3 11\n\nDryyes\n\n39019WetNo48019Dryyes57019Dryyes\n\nTable 4 Summary of the osmotic drying treatments performed at 60 ◦C. BatchPEG 200 (h) PEG 400 (h) PEG 600 (h)\n\nPEG 2000 (h) Ethanol (h) Quality\n\n1 2 3 4 5 6 7 8 9 10 11 12 20 20 20 20 20 20 20 48 48 110 110 110 6 6 6 6 28 48 – – – – – – 16 16 22 22 – – – – – – – –\n\n6 6 – – – – – – – – – – – 5 – 5 – – – – 5 – 1 5 X X X X X X X X X X X ✓\n\n√: without defects; X: cracks formation. A. Bartoletti et al. Journal of Membrane Science 733 (2025) 124311\n\nFig. 4. Effect of the ethanol washing on the microstructure of sintered parts with different thicknesses and printed with different setups.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6,
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. Optical images of the upper (a) and lower (b) surface; SEM micrographs of the polished cross section of sintered samples printed with different setups (c). A. Bartoletti et al. Journal of Membrane Science 733 (2025) 124311 dry-pressing were also produced and characterized. To the best of our knowledge, this is the first study concerning the thermomechanical characterization of symmetric BCZY-GDC specimens. Test bars were produced as described in S.I. Section S11 (for microextrusion) and in the experimental section (for dry-pressing). After sintering, specimens ob­tained by both techniques were manually machined to obtain the desired surface quality and dimensions (S.I. Section S12). Characteristics and measured flexural strength (σb) of the samples tested are shown in Table 5. The measured flexural strength values can be considered comparable within the error, and results are higher than those reported for sym­metric La5.4WO12-δ proton conductors [53] and asymmetric BCZY-GDC parts tested under similar conditions [15]. The higher variability shown by 3D printed parts can be related to the manufacturing process, which is more sensitive to the processing environment (i.e. presence of dust due to the absence of a gray/clean room) compared to the dry-pressing methodology and the presence of organic components to be removed during thermal treatments.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "absence of a gray/clean room) compared to the dry-pressing methodology and the presence of organic components to be removed during thermal treatments. There­fore, some defects deriving from trapped bubbles (resulting from the decomposition of the organics during debonding/sintering) or dust inclusions are more expected in the 3D printed parts. This is confirmed by fractographic analysis. In Fig. 7 the fracture surfaces of two 3D printed test bars after bending tests are reported, showing pores/defects located at the surface as the failure origin. It’s worth mentioning that failure origins are not associated with delamination defects, commonly present in 3D printed parts, confirming the good optimization of the overall process. In the other tested samples (manufactured by microextrusion and dry-pressing) showing higher strength values (σb > 116 MPa), it was more difficult and sometimes impossible to locate the failure origins since they probably derived from small defects caused during machining or from small compositional inhomogeneities (S.I. Section S12) [54]. 3.6. H2 permeation performances Recently, we demonstrated that the optimization of the catalytic particle size and distribution on the membrane’s surfaces is a promising route to boost the H2 permeation [22]. Membranes produced using the 410 μm nozzle present a certain degree of corrugation on the upper surface, which can influence the catalyst dispersion.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Membranes produced using the 410 μm nozzle present a certain degree of corrugation on the upper surface, which can influence the catalyst dispersion. Moreover, corru­gated patterns can theoretically enhance both the mechanical strength during sealing and the performance of the device (i.e. increasing the total active area of the membrane) as shown by recent studies [55]. For this reason, as-produced “corrugated” membranes obtained using the 410 μm nozzle without any further mechanical grinding/polishing processes were selected for hydrogen permeation reactions (S.I. Fig. S19). For comparison, membranes produced using the traditional dry-pressing methodology were also tested, since it is the most employed technique to manufacture symmetric membranes, especially on the lab scale. The characteristics of the tested membranes are reported in",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. Polished cross section of a 3D printed sintered membrane with (a) and without (b) ZnO as sintering aid; XRPD of a sintered specimen (c). In the SEM mi­crographs, lighter grains are associated with the GDC phase, the darker “matrix” is composed of BCZY, and black zones are pores.\n\nTable 5 Characteristics and flexural strength of the specimens tested in 4-pt bending test in Ar flow at 750 ◦C. The dimensions of the tested bars (geometry) are reported in the format: length x width x thickness. darchimedes (%) is the relative density of the samples measured by Archimedes’ method, considering 6.77 g cm-3 as the theoretical density. ManufacturingGeometry (l x w x t) mmdarchimedes (%)σb (MPa) Microextrusion Dry-pressing 26.0 x 3.0 x 2.0 26.0 x 4.6 x 2.0\n\n98.0 ± 1.5 96.9 ± 0.1 98.4 ± 18.9 118.7 ± 2.3\n\nA. Bartoletti et al. Journal of Membrane Science 733 (2025) 124311",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 6, while the SEM microstructures are shown in Fig. 8. As expected from Wagner’s equation, the hydrogen flux increases with higher temperatures and a higher hydrogen concentration in the feed stream. Comparing these results with those obtained from testing a membrane prepared by dry-pressing (Fig. 10), an improvement in H2 permeability performance can be observed, particularly with an 80 % H2 in He feed, which shows significantly higher permeability even at lower temperatures. The improved performance can be attributed to the membrane’s internal microstructure, as shown in Fig. 8. Notably, the 3D-printed membrane exhibits a finer and more homogeneous grain size distribution in both the BCZY and GDC phases. This refined micro­structure enhances phase interconnectivity and facilitates continuous transport pathways for charge carriers. Moreover, the reduced size and number of pores contribute to a denser and more percolated matrix, effectively minimizing transport barriers. Conversely, the presence of large voids within the membrane can significantly hinder transport processes. Protons, electrons, and O2-ions may accumulate and recombine within these closed pores, where further dissociation re­actions are inhibited due to the absence of the platinum active phase, thus blocking their permeation.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ese closed pores, where further dissociation re­actions are inhibited due to the absence of the platinum active phase, thus blocking their permeation. In summary, the superior microstruc­tural quality of the 3D-printed membrane is a key factor in its enhanced hydrogen permeation performance, enabling higher permeation rates even at increased membrane thicknesses. Previous studies [13,22] highlighted how two main phenomena contribute to hydrogen production on the sweep side: (i) hydrogen dissociation into protons and electrons on the membrane surface and their permeation through the membrane; and (ii) water splitting (WS) reaction. Recently, results on asymmetric membranes [22] have shown",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. SEM micrographs at different magnifications of two test bars obtained by microextrusion, showing a failure origin in a pore zone located at the surface. σb was 82.9 MPa (a–c) and 92.8 MPa (d–f). Yellow arrows and circles indicate the failure origin, while white arrows, the crack propagation direction.\n\nTable 6 Characteristics of the membranes used for hydrogen permeation tests. ManufacturingThickness (mm)darchimedes (%)D grains (μm)aD pores (μm)aPorosity (%)a Microextrusion Dry-pressing 1.1 0.6\n\n99.0 ± 1.0 97.0 ± 1.0 2.7 ± 1.0 11.0 ± 3.0\n\n0.8 ± 0.3 5.5 ± 2.2 0.7 ± 0.5 2.8 ± 0.5 a Calculated through image analysis.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 8. Microstructure of the two considered membranes for hydrogen permeation tests: dry-pressing (a) and microextrusion (b). The permeation test results for the microextruded membrane are presented in Fig. 9, showing data obtained for different feed gas compositions (20 %, 50 %, and 80 % H2 in He, vol%) as a function of temperature. A. Bartoletti et al. Journal of Membrane Science 733 (2025) 124311 that the WS phenomenon is favoured by the presence of a porous layer with a higher surface area. Both the microextruded and dry-pressed symmetric membranes, characterized by a dense structure, have a low surface area, leading to poor Pt dispersion. This limitation hinders the WS reaction, resulting in an insignificant contribution of H2 to the permeate. Therefore, although the microextruded membrane has a distinct corrugated surface, it does not significantly influence the water splitting reaction, while the main improvement is given by the more uniform and denser microstructure. This is demonstrated by a test in which the feed flows were reversed, specifically by directing the hydrogen-containing flow onto the corrugated surface. This operating condition is referred to as inverse fluxes, while the previous normal condition is called standard fluxes. The comparison between standard and inverse fluxes is reported in Fig. 11.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "erse fluxes, while the previous normal condition is called standard fluxes. The comparison between standard and inverse fluxes is reported in Fig. 11. The data indicate that reversing the flows has no significant impact on H2 permeability, suggesting that while the corrugated surface of the microextruded membranes does not hinder Pt dispersion, it is also ineffective in increasing the membrane’s total active area. These results demonstrate the possibility of using this 3D-printing technique for the production of dense ceramic membranes for hydrogen separation, without any further post-processing mechanical operations. Additionally, it is important to emphasize that the hydrogen permeation improvement is observed regardless the higher thickness of the microextruded membrane. In fact, the latter has a thickness nearly twice that of the membrane prepared by dry-pressing (Table 6). Comparing the hydrogen fluxes reported in literature for all-ceramic symmetric membranes (Table 7), it is worth noting that BCZY-GDC composites fabricated through microextrusion show JH2 values among the highest reported so far, confirming the DIW a valuable and practical technology to encourage the development of ceramic membranes. From the SEM analyses performed on the microextruded membrane after permeation tests (Fig. 12), it is possible to observe the distribution of platinum particles.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "M analyses performed on the microextruded membrane after permeation tests (Fig. 12), it is possible to observe the distribution of platinum particles. The presence of surface roughness on the mem­brane leads to a good platinum dispersion, and a certain homogeneity in particle size and distribution can be observed on both faces of the membrane, with small agglomerations occurring along the ridges only on the side with higher roughness.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 9. H2 flux (mL min-1 cm-2) as a function of temperature and feed composition (20 %, 50 %, and 80 % of H2 in He, %vol) for microextruded membrane (thickness = 1.1 mm). Both currents are humidified to saturation at 28 ◦C.\n\nFig. 10. H2 flux (mL min-1 cm-2) as a function of temperature and feed composition (50 % and 80 % of H2 in He, %vol) for microextruded membrane (thickness =1.1 mm) and dry-pressed membrane (thickness = 0.6 mm). Both currents are humidified to saturation at 28 ◦C.\n\nFig. 11. H2 flux (mL min-1 cm-2) as a function of temperature and feed composition (50 % and 80 % of H2 in He, %vol) for microextruded membrane (thickness = 1.1 mm) in standard (feed stream at the flat side) and inverse (feed stream at the corrugated side) fluxes. Both currents are humidified to saturation at 28 ◦C.\n\nA. Bartoletti et al. Journal of Membrane Science 733 (2025) 124311",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Conclusions In this work, the fabrication of a planar BCZY-GDC composite membrane via Ink Direct Writing and its hydrogen permeation perfor­mance were thoroughly investigated for the first time. A water-based paste of BCZY-GDC and ZnO with suitable rheological properties was formulated and printed in single or multilayer structures without nozzle clogging. The optimization of the drying step was found to be paramount to obtain defects-free specimens. Only applying an osmotic drying with PEG200 followed by the glycol washing in an ethanol warm bath led to obtain cracks-free green samples regardless of the geometries/printing parameters employed. After the sintering treatment, the microextruded membranes showed density values above 99 %, a fine and homogenous microstructure preserving the dual perovskite/fluorite phases, and suitable flexural strength (98.4 ± 18.9 MPa) at the operating tempera­ture (750 ◦C). The possibility of obtaining membranes with different geometries (discs, bars, porous grids, asymmetric structures), tailoring the printing parameters, was widely demonstrated. Finally, 3D-printed membranes showed a JH2 of 0.21 ml min-1 cm-2 at 750 ◦C feeding 50 % H2 in Ar. Considering the normalized JH2 by the thickness, the hydrogen amount at the permeate side was found to be 3 times higher than the same BCZY-GDC membrane produced by the conventional dry-pressing, and among the highest reported for mixed protonic–electronic ceramic membranes.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the same BCZY-GDC membrane produced by the conventional dry-pressing, and among the highest reported for mixed protonic–electronic ceramic membranes. This behaviour can be explained by considering that samples obtained by DIW present a finer and more homogeneous microstructure with fewer and smaller pores and better percolation of the BCZY and GDC phases, compared to membranes produced by dry-pressing. This study confirms the outstanding potential of 3D printing tech­nology for the fabrication of ceramic membranes, paving the way for their widespread production and commercialization for gas separation applications. CRediT authorship contribution statement A. Bartoletti: Writing – original draft, Methodology, Investigation, Formal analysis, Data curation. E. Mercadelli: Writing – review & editing, Validation, Project administration, Investigation, Data curation, Conceptualization. V. Saraceni: Writing – review & editing, Method­ology, Investigation, Formal analysis. A. Sangiorgi: Methodology, Investigation, Conceptualization. A. Gondolini: Writing – review & editing, Validation, Investigation, Conceptualization. C. Melandri: Methodology, Formal analysis, Data curation. P. Pinasco: Methodology, Formal analysis. P. Gramazio: Methodology, Investigation, Formal analysis. A. Fasolini: Writing – review & editing, Validation, Supervi­sion, Investigation, Data curation. J. De Maron: Writing – review & editing, Validation, Supervision, Data curation. F.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "& editing, Validation, Supervi­sion, Investigation, Data curation. J. De Maron: Writing – review & editing, Validation, Supervision, Data curation. F. Basile: Validation, Supervision, Project administration, Conceptualization. A. Sanson: Su­pervision, Resources, Funding acquisition, Conceptualization. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 7 Summary of performances in terms of hydrogen separation flux (JH2) and JH2 normalized by the thickness (JH2, norm) of different hydrogen separation symmetric membranes. *JH2 at 700 ◦C with 50 % H2–He as the feed and Ar or N2 as the sweep gas, both current humidified until saturation. SystemManufacturing routeThickness [mm]J*H2 [ml cm-2 min-1]J*H2, norm [ml cm-1 min-1]Ref. 50BaCe0.8Y0.2O3-δ -50Ce0.8Y0.2O2-δDry pressing1.44≈0.0011.4 10-4[56]50BaCe0.65Zr0.2Y0.15O3-δ -50Ce0.85Gd0.15O2-δDry pressing0.650.159.8 10-3[13]50BaZr0.1Ce0.7Y0.1Sc0.1O3–δ-50Ce0.9Gd0.1O2–δDry pressing0.650.03a2.0 10-3[57]50BaCe0.8Eu0.2O3-δ -50Ce0.8Y0.2O2-δDry pressing0.500.402.0 10-2[58]50La5.5WO11.25-δ – 50La0.87Sr0.13CrO3-δDry pressing0.370.155.6 10-3[12]60La5.5WO11.25-δ – 40La0.87Sr0.13CrO3-δDry pressing0.360.176.1 10-3[59]La5.5W0.8Re0.2O11.25-δDry pressing0.760.075.3 10-3[60]50BaCe0.65Zr0.2Y0.15O3-δ -50Ce0.80Gd0.20O2-δDry pressing0.600.127.2 10-3This work50BaCe0.65Zr0.2Y0.15O3-δ -50Ce0.80Gd0.20O2-δDirect ink writing1.100.171.9 10-2This work a both feed and sweep sides are dry.\n\nA. Bartoletti et al. Journal of Membrane Science 733 (2025) 124311",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11,
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[39] A. Bartoletti, A. Sangiorgi, E. Mercadelli, C. Melandri, A. Gondolini, S. GarcíaGonz´alez, L. Ortiz-Membrado, M. Morales, E. Jimenez-Pique, A. Sanson, 3D microextrusion of eco-friendly water based cer-cer composite pastes for hydrogen separation, Open Ceramics 16 (2023) 100504, https://doi.org/10.1016/j. oceram.2023.100504.[40] D. Montaleone, E. Mercadelli, A. Gondolini, M. Ardit, P. Pinasco, A. Sanson, Role of the sintering atmosphere in the densification and phase composition of asymmetric BCZY-GDC composite membrane, J. Eur. Ceram. Soc. 39 (2019) 21–29, https://doi. org/10.1016/j.jeurceramsoc.2018.01.043.[41] L. del-Mazo-Barbara, M.-P. Ginebra, Rheological characterisation of ceramic inks for 3D direct ink writing: a review, J. Eur. Ceram. Soc. 41 (2021) 18–33, https:// doi.org/10.1016/j.jeurceramsoc.2021.08.031.[42] A. Schwab, R. Levato, M. D’Este, S. Piluso, D. Eglin, J. Malda, Printability and shape fidelity of bioinks in 3D bioprinting, Chem. Rev. 120 (2020) 11028–11055, https://doi.org/10.1021/acs.chemrev.0c00084.[43] N.D. Polychronopoulos, A. Brouzgou, Direct ink writing for electrochemical device fabrication: a review of 3D-Printed electrodes and ink rheology, Catalysts 14 (2024) 110, https://doi.org/10.3390/catal14020110.[44] D. Gardini, L. Backman, P. Kaczmarek, C. Capiani, A. Sangiorgi, C. Melandri, L. Silvestroni, Viable route to the manufacture of short carbon fiber-rich UHTC complex shapes with enhanced toughness, Compos. B Eng.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "i, C. Melandri, L. Silvestroni, Viable route to the manufacture of short carbon fiber-rich UHTC complex shapes with enhanced toughness, Compos. B Eng. 277 (2024) 111373, https://doi.org/10.1016/j.compositesb.2024.111373.[45] S. Lamnini, H. Elsayed, Y. Lakhdar, F. Baino, F. Smeacetto, E. Bernardo, Robocasting of advanced ceramics: ink optimization and protocol to predict the printing parameters - a review, Heliyon 8 (2022) e10651, https://doi.org/ 10.1016/j.heliyon.2022.e10651.[46] E. Feilden, Additive manufacturing of ceramics and ceramic composites via robocasting. https://doi.org/10.25560/55940, 2017.[47] A. Corker, H.C.-H. Ng, R.J. Poole, E. García-Tu˜n´on, 3D printing with 2D colloids: designing rheology protocols to predict ‘printability’ of soft-materials, Soft Matter 15 (2019) 1444–1456, https://doi.org/10.1039/C8SM01936C.[48] M.M. Abdelghafour, ´A. Orb´an, ´A. De´ak, Ł. Lamch, ´E. Frank, R. Nagy, A. ´Ad´am, P. Sipos, E. Farkas, F. Bari, L. Janov´ak, The effect of molecular weight on the solubility properties of biocompatible poly(ethylene succinate) polyester, Polymers (Basel) 13 (2021) 2725, https://doi.org/10.3390/polym13162725.[49] M.L. Castell´o, J. Dweck, D.A.G. Aranda, Thermal stability and water content determination of glycerol by thermogravimetry, J. Therm. Anal. Calorim. 97 (2009) 627–630, https://doi.org/10.1007/s10973-009-0070-z.[50] Y. Hong, J. Lei, M. Heim, Y. Song, L. Yuan, S. Mu, R.K. Bordia, H. Xiao, J. Tong, F.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "97 (2009) 627–630, https://doi.org/10.1007/s10973-009-0070-z.[50] Y. Hong, J. Lei, M. Heim, Y. Song, L. Yuan, S. Mu, R.K. Bordia, H. Xiao, J. Tong, F. Peng, Fabricating ceramics with embedded microchannels using an integrated additive manufacturing and laser machining method, J. Am. Ceram. Soc. 102 (2019) 1071–1082, https://doi.org/10.1111/jace.15982.[51] M. Trunec, Osmotic drying of gelcast bodies in liquid desiccant, J. Eur. Ceram. Soc. 31 (2011) 2519–2524, https://doi.org/10.1016/j.jeurceramsoc.2011.02.015.[52] H. Xie, X. Yang, P. Liu, X. Xu, Z. Zhou, W. Zhao, Z. Shen, 3D gel printing of alumina ceramics followed by efficient multi-step liquid desiccant drying, J. Eur. Ceram. Soc. 41 (2021) 6634–6640, https://doi.org/10.1016/j.jeurceramsoc.2021.05.034.[53] W. Deibert, V. Stournari, M.E. Ivanova, S. Escol´astico, J.M. Serra, J. Malzbender, T. Beck, L. Singheiser, O. Guillon, W.A. Meulenberg, Effect of microstructure on electrical and mechanical properties of La5.4WO12-δ proton conductor, J. Eur. Ceram. Soc. 38 (2018) 3527–3538, https://doi.org/10.1016/j. jeurceramsoc.2018.04.009.[54] G.D. Quinn, NIST Recommended Practice Guide: Fractography of Ceramics and Glasses, second ed., NIST, 2016. https://www.nist.gov/publications/nist-reco mmended-practice-guide-fractography-ceramics-and-glasses-2nd-edition. (Accessed 23 August 2024).[55] A.M. Martos, S. M´arquez, R.S. Pavlov, W. Zambelli, S. Anelli, M. Nu˜nez, L. Bernadet, J.J. Brey, M. Torrell, A.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ition. (Accessed 23 August 2024).[55] A.M. Martos, S. M´arquez, R.S. Pavlov, W. Zambelli, S. Anelli, M. Nu˜nez, L. Bernadet, J.J. Brey, M. Torrell, A. Taranc´on, 3D printing of reversible solid oxide cell stacks for efficient hydrogen production and power generation, J. Power Sources 609 (2024) 234704, https://doi.org/10.1016/j.jpowsour.2024.234704.[56] W.A. Rosensteel, S. Ricote, N.P. Sullivan, Hydrogen permeation through dense BaCe0.8Y0.2O3-δ – Ce0.8Y0.2O2-δ composite-ceramic hydrogen separation membranes, Int. J. Hydrogen Energy 41 (2016) 2598–2606, https://doi.org/ 10.1016/j.ijhydene.2015.11.053.[57] Y. Yang, Y. Zeng, B.S. Amirkhiz, J.-L. Luo, N. Yan, Promoting the ambientcondition stability of Zr-doped barium cerate: toward robust solid oxide fuel cells and hydrogen separation in syngas, J. Power Sources 378 (2018) 134–138, https:// doi.org/10.1016/j.jpowsour.2017.12.036.[58] M.E. Ivanova, S. Escol´astico, M. Balaguer, J. Palisaitis, Y.J. Sohn, W. A. Meulenberg, O. Guillon, J. Mayer, J.M. Serra, Hydrogen separation through tailored dual phase membranes with nominal composition BaCe0.8Eu0.2O3-δ: Ce0.8Y0.2O2-δ at intermediate temperatures, Sci. Rep. 6 (2016) 34773, https:// doi.org/10.1038/srep34773.[59] S. Escol´astico, C. Kjølseth, J.M. Serra, Catalytic activation of ceramic H2 membranes for CMR processes, J. Membr. Sci. 517 (2016) 57–63, https://doi.org/ 10.1016/j.memsci.2016.06.017.[60] S. Escolastico, J. Seeger, S. Roitsch, M. Ivanova, W.A. Meulenberg, Jos´eM.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Sci. 517 (2016) 57–63, https://doi.org/ 10.1016/j.memsci.2016.06.017.[60] S. Escolastico, J. Seeger, S. Roitsch, M. Ivanova, W.A. Meulenberg, Jos´eM. Serra, Enhanced H2 separation through mixed proton–electron conducting membranes based on La5.5W0.8M0.2O11.25, ChemSusChem 6 (2013) 1523–1532, https://doi. org/10.1002/cssc.201300091.",
+    "citation": {
+      "authors": [
+        "Bartoletti A.",
+        "Mercadelli E.",
+        "Saraceni V.",
+        "Sangiorgi A.",
+        "Gondolini A.",
+        "Melandri C.",
+        "Pinasco P.",
+        "Gramazio P.",
+        "Fasolini A.",
+        "De J.",
+        "Basile F.",
+        "Sanson A.",
+        "Giusti G."
+      ],
+      "paper_id": "1-s2.0-S0376738825006246-main",
+      "title": "3D-printed ceramic membranes: Fabrication and hydrogen permeation performance",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  }
+]

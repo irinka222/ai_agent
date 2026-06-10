@@ -1,0 +1,595 @@
+[
+  {
+    "content": "Contents lists available at ScienceDirect\n\nJournal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nA closed-form analytical model for estimating permeate salinity in reverse osmosis systems Mingheng Li a,∗, Joseph Li b a Department of Chemical and Materials Engineering, California State Polytechnic University, Pomona, CA 91768, USAb Department of Chemical and Biomolecular Engineering, University of California, Berkeley, CA 94720, USA A R T I C L E I N F O Keywords:Reverse osmosisPermeate salinityAnalytical modelDesalinationWater fluxConcentration polarization",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T This study presents a simplified yet accurate analytical expression for estimating permeate salt concentration in reverse osmosis (RO) systems. The model is derived from classical solution-diffusion theory for a single membrane element and extended to multi-element systems using effective flux approximations. It is validated against five datasets: two seawater RO datasets based on single-element experiments conducted under varying recovery, feed concentration, and temperature (one recent and one historical); a brackish water module using cellulose acetate membranes; a full-scale brackish water RO plant treating real feedwater with complex ionic composition; and simulation data generated using ROSA (DuPont WAVE) for full-scale brackish and seawater systems. In all cases, the model shows strong agreement with reference data, with relative errors typically below 3 percent. Rather than replacing commercial design software, the proposed approach offers a fast, transparent, and straightforward method for estimating permeate concentration, suitable for use alongside commercial tools or when a quick, reasonably accurate estimate is needed. These parameters are generally available from design specifications or system monitoring, making the model especially useful for rapid design screening, real-time performance diagnostics, and operator training.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Reverse osmosis (RO) has become a cornerstone technology for seawater and brackish water desalination due to its high separation efficiency, operational reliability, and scalability [1,2]. Among the key performance indicators in RO systems, the salt concentration of the permeate is especially important, as it directly impacts product water quality, regulatory compliance, and post-treatment requirements [3]. While detailed process models can predict permeate concentration with high fidelity [4], they are often computationally intensive and rely on numerous input parameters that may not be readily available during system design or routine operation. This complexity can limit their applicability, particularly in resource-constrained or time-sensitive settings. In many practical scenarios such as preliminary design, system diagnostics, or control system tuning, engineers and operators require a quick and reasonably accurate method for estimating permeate salinity [5–8]. A simplified analytical expression can offer immediate insight into system behavior, supporting timely decision-making without the need for extensive simulation or experimentation [9,10]. Unlike proprietary simulation platforms provided by membrane manufacturers (e.g., DuPont WAVE and Toray DS), which operate as",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "∗Corresponding author. E-mail address: minghengli@cpp.edu (M. Li). black-box tools primarily intended for system design, the proposed analytical expression offers a transparent and physically grounded alternative. It requires only minimal input data, often obtainable from routine field measurements such as recovery and lead/tail flux, and is well suited for use in real-time diagnostics, operator training, and integration into automated control systems where full numerical simulation may not be practical. While permeate salinity is often monitored using conductivity sensors at the final product outlet, such measurements alone may not fully capture performance drift or membrane degradation. The proposed model can serve as a soft sensor by providing a baseline prediction of permeate concentration based on operating conditions. Significant deviations between measured and predicted values may indicate fouling, aging, or other anomalies. This diagnostic capability applies to both brackish and seawater RO systems and is particularly useful when distributed sensors or detailed modeling are unavailable. Motivated by this need, the present work proposes a simple yet effective analytical equation for estimating permeate salt concentration in both seawater and brackish water RO systems. The model is derived from classical solution-diffusion theory for a single element and extended to multi-element configurations. It aims to strike\n\nJournal of Membrane Science 735 (2025) 124526",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 14 August 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license ( http://creativecommons.org/licenses/bync-nd/4.0/ ).\n\nM. Li and J. Li\n\nFig. 1. Control volume for microscopic balance of water and salt. a balance between simplicity and predictive accuracy, enabling practical application in field operations as well as broader system-level evaluations. 2. Mathematical model 2.1. Single element According to classical solution-diffusion theory, the instantaneous salt concentration on the permeate side is: 𝐶𝑝=𝐽𝑠𝐽𝑤 =𝐵𝑠⋅CPF ⋅(𝐶-𝐶𝑝) 𝐽𝑤\n\n(1) where 𝐽𝑠 and 𝐽𝑤 are the salt and water fluxes, respectively, 𝐵𝑠 is the salt permeability coefficient, 𝐶 is the salt concentration in the bulk feed, and CPF is the concentration polarization factor. Rearranging yields: 𝐶𝑝=𝐵𝑠⋅CPF ⋅𝐶𝐽𝑤+ 𝐵𝑠⋅CPF(2) The corresponding instantaneous salt rejection (𝑅) is: 𝑅=1 -𝐶𝑝 𝐶 =1 -𝐵𝑠⋅CPF𝐽𝑤+ 𝐵𝑠⋅CPF ≈1 -𝐵𝑠⋅CPF 𝐽𝑤\n\n(3)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The approximation holds under typical RO operating conditions where 𝐽𝑤≫𝐵𝑠⋅CPF, or 𝐶≫𝐶𝑝. Consider a differential control volume within an RO module as illustrated in Fig. 1. At the inlet, the dimensionless flow rate and salt concentration are 1 -𝑌 and 𝐶, respectively, where 𝑌 is the recovery ratio. At the outlet, these become 1-𝑌-𝑑𝑌 and 𝐶+𝑑𝐶. The permeate stream has flow 𝑑𝑌 and concentration 𝐶𝑝. Applying a microscopic salt balance over the differential volume: (1 -𝑌)𝐶=(1 -𝑌-𝑑𝑌)(𝐶+ 𝑑𝐶) + 𝑑𝑌⋅𝐶𝑝(4) Simplifying yields: (𝐶-𝐶𝑝)𝑑𝑌=(1 -𝑌)𝑑𝐶(5) Substituting 𝑅 from Eq. (3): 𝑅⋅𝐶⋅𝑑𝑌=(1 -𝑌)𝑑𝐶(6) Assuming constant 𝐽𝑤, CPF, and 𝐵𝑠 (reasonable for a single element), 𝑅 is treated as constant. Integrating Eq. (6) using separation of variables: 𝑅∫ 𝑌 11 -𝑌𝑑𝑌=∫ 𝐶1 𝐶0 1𝐶𝑑𝐶(7) where 𝐶1 is the brine concentration. Solving gives: 𝐶1=𝐶0(1 -𝑌)-𝑅(8)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "From the overall salt balance: 𝐶0=(1 -𝑌)𝐶1 + 𝑌𝐶𝑝𝑜(9) where 𝐶𝑝𝑜 is the concentration of the permeate product at the outlet. Substituting for 𝐶1 yields: 𝐶𝑝𝑜=1 -(1 -𝑌)1-𝑅 𝑌𝐶0[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] This matches Equation (VIII-27) from Mulder’s textbook [11]. Salt rejection 𝑅 is not an intrinsic membrane property; it depends on both membrane properties and operating conditions. Substituting Eq. (3) into Eq. [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] gives: 𝐶𝑝𝑜=1 -(1 -𝑌) 𝐵𝑠⋅CPF 𝐽𝑤𝑌𝐶0[ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] or in logarithmic form: ln(1 -𝐶𝑝𝑜𝑌∕𝐶0) ln(1 -𝑌)=𝐵𝑠⋅CPF 𝐽𝑤[ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] Thus, plotting ln(1 -𝐶𝑝𝑜𝑌∕𝐶0)∕ln(1 -𝑌) against CPF∕𝐽𝑤 yields a straight line through the origin, with slope 𝐵𝑠.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "=1}^{4} z_i C_i\\tag{12}\\end{equation}] Thus, plotting ln(1 -𝐶𝑝𝑜𝑌∕𝐶0)∕ln(1 -𝑌) against CPF∕𝐽𝑤 yields a straight line through the origin, with slope 𝐵𝑠. Since 𝐶𝑝𝑜𝑌∕𝐶0 ≪1, we can approximate ln(1 -𝐶𝑝𝑜𝑌∕𝐶0) ≈-𝐶𝑝𝑜𝑌∕𝐶0, resulting in: 𝐶𝑝𝑜=𝐵𝑠⋅𝐶0 ⋅[-ln(1 -𝑌)∕𝑌] ⋅CPF 𝐽𝑤[ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] The salt permeability coefficient 𝐵𝑠 plays a central role in the model and can be estimated via calibration using measured permeate concentrations, or drawn from literature values for the specific membrane and solute system. While 𝐵𝑠 reflects solute-specific and membrane-specific properties, the model remains robust as long as consistent calibration or reference values are applied for a given solute (e.g., NaCl) and membrane type under stable operating conditions. This expression is consistent with the equation obtained in our earlier work using a different approach [12]. It can also be derived from Eq. [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] by applying the approximation (1 -𝑌)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "𝐽𝑤≈1 +𝐵𝑠⋅CPF 𝐽𝑤ln(1 -𝑌) which holds under the assumption that 𝐵𝑠⋅CPF 𝐽𝑤≪1.FilmTec recommends the empirical relation CPF = exp(0.7𝑌) for estimating element-level concentration polarization in RO systems [13], where 𝑌 is the recovery of an individual membrane element. The exponent 0.7 is an empirically fitted constant derived to best match pilotand full-scale system performance. This simplified form originates from the more fundamental expression exp(𝐽𝑤∕𝑘𝑚), where 𝑘𝑚 is the mass transfer coefficient, and reflects typical hydraulic conditions and flow geometry in standard spiral-wound elements (see our prior work [14] for a comparison of both approaches). By relating CPF directly to recovery, a readily available design or operating parameter, this empirical model offers a convenient and robust surrogate for detailed hydrodynamic modeling, enabling rapid CPF estimation during preliminary design and field evaluations. 2.2. Multiple elements in series In commercial-scale RO systems, multiple membrane elements (or modules) are installed in series within a pressure vessel. For the 𝑖th element, the retentate concentration at its outlet, 𝐶𝑖, can be expressed as: 𝐶𝑖=𝐶𝑖-1(1 -𝑌𝑖)-𝑅𝑖[ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] where 𝑌𝑖 and 𝑅𝑖 are the recovery and rejection terms for the 𝑖th element. The retentate concentration at the vessel exit is: 𝐶𝑁=𝐶0 𝑁∏ 𝑖=1(1 -𝑌𝑖)-𝑅𝑖[ФОРМУЛА: \\begin{equation}x=0:\\quad \\left.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "jection terms for the 𝑖th element. The retentate concentration at the vessel exit is: 𝐶𝑁=𝐶0 𝑁∏ 𝑖=1(1 -𝑌𝑖)-𝑅𝑖[ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] where 𝑁 is the total number of elements in the vessel. The overall stage recovery is: 𝑌=1 - 𝑁∏ 𝑖=1(1 -𝑌𝑖)(16) Journal of Membrane Science 735 (2025) 124526",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "M. Li and J. Li A stage-level salt balance gives the average concentration of the permeate product: 𝐶𝑝𝑜=𝐶0 -(1 -𝑌)𝐶𝑁 𝑌\n\n= 1 -(1 -𝑌) 𝑁∏ 𝑖=1(1 -𝑌𝑖)-𝑅𝑖 𝑌𝐶0\n\n= 1 - 𝑁∏ 𝑖=1(1 -𝑌𝑖)1-𝑅𝑖 𝑌𝐶0\n\n= 1 - 𝑁∏ 𝑖=1(1 -𝑌𝑖) 𝐵𝑠⋅CPF𝑖 𝐽𝑤𝑖 𝑌𝐶0\n\n(17)\n\n[ФОРМУЛА: [FORMULA_ID: 43ce7188-2ca7-4338-a0c4-6ea35157ffee] 𝐶𝑝𝑜 = 𝐵𝑠 𝑌𝐶0 𝑁 ∑ 𝑖=1 [ -ln(1 -𝑌𝑖) ⋅CPF𝑖 𝐽𝑤𝑖]\n\n] (19)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "This is a natural generalization of the single-element formula, accounting for spatial variation in flux and concentration polarization. In the ideal case where 𝐵𝑠, CPF𝑖, and 𝐽𝑤𝑖 are constant (i.e., uniform rejection 𝑅𝑖), Eq. (19) reduces to the single-element result, since ∑𝑁𝑖=1 ln(1 -𝑌𝑖) = ln(1 -𝑌). However, in real systems, 𝐽𝑤 varies along the length of a pressure vessel due to pressure drop and the progressive increase in osmotic pressure. In brackish water RO (BWRO), the tail-to-lead flux ratio typically ranges from 70% to 80%, following a quasi-linear decline along the vessel. In contrast, seawater RO (SWRO) often exhibits a steeper, slightly curved flux decay, with the tail-to-lead ratio dropping to as low as 20%. While CPF may increase slightly in BWRO, it generally decreases in SWRO due to the pronounced flux decline. Overall, variation in CPF is far less significant than that of flux. As a result, flux variation dominates the nonlinearity in Eq. (19). In practice, Eq. (19) can be approximated using limited but commonly available plant data. The overall recovery 𝑌 and average flux ̄𝐽𝑤are typically known from system design or operation. The lead and tail fluxes (𝐽𝑤1, 𝐽𝑤𝑁), and sometimes their corresponding recoveries, can often be inferred from plant pressure and flow readings. Furthermore, commercial membrane elements are typically operated at element-level recoveries below 15%, which helps ensure that simplifying assumptions remain valid. To simplify Eq.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e elements are typically operated at element-level recoveries below 15%, which helps ensure that simplifying assumptions remain valid. To simplify Eq. (19), we approximate the summation by evaluating the average behavior of each component term: For -ln(1 -𝑌𝑖): -ln (1 -𝑌𝑖)=1𝑁 𝑁∑ 𝑖=1-ln (1 -𝑌𝑖) =-1 𝑁ln (1 -𝑌) =-ln (1 -̄𝑌)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(20) where ̄𝑌 is the ideal constant per-element recovery required to maintain overall recovery 𝑌: ̄𝑌=1 -(1 -𝑌)1∕𝑁(21) Note that 1 -̄𝑌 is the geometric mean of 1-𝑌𝑖 since (1-̄𝑌)𝑁= 1 -𝑌=∏𝑁𝑖=1(1 -𝑌𝑖). For CPF𝑖, it is assumed that it follows the same expression as the single-element expression, given the fact that the variation in CPF𝑖 is mild: CPF=exp (0.7 ̄𝑌)(22)\n\nFor 1∕𝐽𝑤𝑖, the spatial profile of 𝐽𝑤 is taken into account. It is observed that under typical design and operation conditions, there is approximately linear decay from the lead to tail element in a vessel consisting of 7 elements in BWRO: 𝐽𝑤(𝑥) = 𝐽𝑤(0)(1 -𝑘𝑥∕𝐿), where 𝑥 is distance from inlet, 𝐿 is total length of vessel, and 𝑘= 1 -𝐽𝑤(𝐿)∕𝐽𝑤(0)is a constant parameter. The spatial mean of 1∕𝐽𝑤 is: 1𝐽𝑤=1𝐿∫ 𝐿 1𝐽𝑤(0)(1 -𝑘𝑥∕𝐿) 𝑑𝑥 =ln(11 -𝑘 ) 𝐽𝑤(0)𝑘 =ln (𝐽𝑤(0)∕𝐽𝑤(𝐿)) 𝐽𝑤(0) -𝐽𝑤(𝐿) =1𝐽𝑤,lm",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(23) where 𝐽𝑤,lm is the log-mean flux. Accordingly, the flux term in Eq. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] can be replaced by the logmean flux 𝐽𝑤,lm to account for spatial variation across the vessel. When variation is small, 𝐽𝑤,lm ≈̄𝐽𝑤, and the correction becomes negligible. The effective, log-mean flux 𝐽𝑤,lm can be calculated based on lead and rear-end fluxes: 𝐽𝑤,lm=𝐽𝑤1 -𝐽𝑤𝑁 ln(𝐽𝑤1𝐽𝑤𝑁 )(24) which is not exactly the inverse of the mean flux ̄𝐽𝑤: ̄𝐽𝑤=1𝑁 𝑁∑ 𝑖=1𝐽𝑤𝑖(25) Based on the above, Eq. (19) can be estimated by: 𝐶𝑝𝑜=𝐵𝑠⋅𝐶0 ⋅[-ln(1 -𝑌)∕𝑌] ⋅CPF 𝐽𝑤,lm =𝐵𝑠⋅𝐶0 ⋅[-ln(1 -𝑌)∕𝑌] ⋅CPF ̄𝐽𝑤⋅̄𝐽𝑤𝐽𝑤,lm\n\n(26)",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "It is important to note that, in general, the sum of products is not equal to the product of the averages. Accordingly, Eqs. (19) and (26) are not mathematically equivalent in a strict analytical sense. However, in the specific context of RO system design, Eq. (26) offers a highly accurate approximation due to practical constraints. Membrane manufacturers typically limit individual element recovery to below 15%–20%, and the overall recovery in a pressure vessel containing 6–7 elements rarely exceeds 50%–60%. Under these design guidelines, the variation in CPF and flux is smooth enough that the log-mean approximation performs well. Despite being derived for BWRO systems, Eq. (26) also performs well in SWRO applications, where the flux profile is more strongly curved. Although the lead-to-tail flux ratio is larger, the recovery of tail-end elements is correspondingly lower. A more detailed justification for the log-mean approximation is provided in Appendix A. In short, the log-mean flux arises as a weighted harmonic mean of local fluxes when extending the single-element model to a multi-element configuration. When 𝐽𝑤 decays linearly, the harmonic mean and logmean are mathematically identical. More generally, when 𝐽𝑤 decays quadratically (either convex or concave), the approximation still holds if the flux is a quasi-linear function of the cumulative sum of weights. Thus, Eq. (26) remains valid for a wide range of smooth, realistic flux profiles encountered in RO systems.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "function of the cumulative sum of weights. Thus, Eq. (26) remains valid for a wide range of smooth, realistic flux profiles encountered in RO systems. This approximation builds directly on the single-element expression (Eq. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}]), with a flux correction introduced via the log-mean to represent spatial variation along the vessel. In the special case of uniform flux, Eqs. (26) and [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] yield essentially the same result. The correction factor ̄𝐽𝑤∕𝐽𝑤,lm remains close to unity in BWRO systems and deviates more significantly in SWRO, reflecting the stronger flux decline. This Journal of Membrane Science 735 (2025) 124526",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Correlation between (a) ln(1 -𝐶𝑝𝑜𝑌∕𝐶0)∕ln(1 -𝑌) and CPF∕𝐽𝑤 (R2 = 0.98–0.99), and (b) 𝐶𝑝𝑜 and 𝐶0[-ln(1 -𝑌)∕𝑌] ⋅CPF∕𝐽𝑤 [12]. Experimental data are from a single seawater spiral-wound element [15], with CPF estimated using exp(0.7𝑌). approach strikes a balance between simplicity and predictive accuracy. Importantly, the estimation error remains bounded even under substantial flux variation. As demonstrated later, this approximation agrees with the full model in Eq. (19) within a 3% margin for representative BWRO and SWRO operating conditions. To apply the proposed expression for estimating permeate salinity, the following input parameters are required: (i) feed concentration 𝐶0, (ii) recovery ratio 𝑌, (iii) design-average water flux ̄𝐽𝑤 and representative lead/tail element fluxes, (iv) an estimate of the concentration polarization factor (CPF), and (v) the salt permeability coefficient 𝐵𝑠. In most applications, 𝐶0, 𝑌, and 𝐽𝑤 are readily measurable or known from system design specifications or online monitoring systems. CPF can be approximated using empirical expressions such as exp(0.7𝑌), or refined based on hydrodynamic modeling. The parameter 𝐵𝑠 may be estimated from literature data, manufacturer specifications, or calibration using measured permeate concentrations under known conditions. These parameters are typically accessible from design specifications or online monitoring systems, enabling use in diagnostics, monitoring, and rapid screening.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "meters are typically accessible from design specifications or online monitoring systems, enabling use in diagnostics, monitoring, and rapid screening. The simplicity of required inputs enables implementation in design spreadsheets, digital twins, and soft sensor platforms for real-time performance tracking. 3. Results and discussion In this section, single-element and full-scale data are used to validate equations presented in the previous section. All data are included in the supplemental material. 3.1. Seawater RO module under steady-state and sinusoidal feed conditions [15] Experiments were conducted using a single FilmTec SW30-2540 element under both steady-state and sinusoidal feed conditions. The operating conditions included a temperature of approximately 27 ◦C, feed pressures ranging from 34 to 60 bar, a feed concentration of approximately 35,000 ppm, feed flow rates between 6 and 16 L/min, and recovery ratios from 3% to 23%. The CPF was estimated using the empirical relation CPF = exp(0.7𝑌) [13]. Fig. 2 compares the predictions of Eqs.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", and recovery ratios from 3% to 23%. The CPF was estimated using the empirical relation CPF = exp(0.7𝑌) [13]. Fig. 2 compares the predictions of Eqs. [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] and [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] for four different test categories: sst: steady-state test, sin: sinusoidal feed test, sss: steady-state integrity check after sinusoidal testing, ssr: steady-state integrity check after rectified sinusoidal testing (indicative of membrane degradation).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Both plots show consistent trends, confirming the equivalence of Eqs. [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] and [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}]. The datasets are categorized into non-degraded (sst, sin, sss) and degraded (ssr) membranes. For non-degraded membranes, the model trained on sst data also fits sin and sss datasets well, with root mean square error (RMSE) values of 8.3, 6.7, and 15.5 ppm, respectively. For the degraded membrane condition (ssr), a separate correlation is necessary, with an RMSE of 12.3 ppm. Fig. 2 shows that the model trained on non-degraded membrane data (e.g., sst) fails to fit the degraded condition (ssr) without recalibration. This sensitivity enables the model to serve as a soft sensor for detecting deviations from baseline performance, providing early indication of fouling or degradation. As noted in our prior work [12], the intercept in Fig. 2 is close to zero for datasets collected before membrane degradation but significantly elevated for those obtained after degradation. Eq.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ept in Fig. 2 is close to zero for datasets collected before membrane degradation but significantly elevated for those obtained after degradation. Eq. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] does not include a constant offset and therefore predicts 𝐶𝑝→0 as 𝐽𝑤→∞, a known artifact of the simplified solution-diffusion framework. This behavior arises from the model’s assumption that rejection approaches unity at very high flux. A more rigorous correction, such as Equation (78) in [16], introduces pressure-dependent solute transport and yields a finite asymptotic salt passage, consistent with observed membrane selectivity. Alternatively, the solution-friction framework [17,18] provides a physically motivated explanation by accounting for convective coupling between water and solute fluxes. Both approaches offer possible extensions to improve high-flux predictions beyond the current model’s scope. 3.2. Seawater RO module at different temperatures and feed concentrations [19] This study utilized a membrane assembly consisting of two feed channels and one permeate channel, sandwiched between twoFilmTec FT30 SW membranes, each with an active area of0.87 m * 1.17 m.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "consisting of two feed channels and one permeate channel, sandwiched between twoFilmTec FT30 SW membranes, each with an active area of0.87 m * 1.17 m. Experiments were conducted under varying operating conditions, with temperatures ranging from 20 to 35 ◦C, feed pressures between 50 and 80 bar, feed concentrations from 25,000 to 40,000 ppm, flow rates of 7.5–13 L/min, and recovery ratios between 6.7% and 17.4%. Fig. 3(a) shows the correlation results obtained using Eq. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] under the assumption CPF = exp(0.7𝑌). Strong linear relationships were observed at all tested temperatures. The RMSE values were 9.6, 3.4, 5.2, and 9.7 ppm for 20, 25, 30, and 35 ◦C, respectively. The corresponding 𝐵𝑠 values were 0.12, 0.15, 0.20, and 0.26 lmh, differing by less than 6% from those obtained via nonlinear regression using a Sherwood-type mass transfer correlation [20], where both the power-law indices and pre-exponential coefficients were optimized. In addition, the relationship between 𝐵𝑠 and temperature followed an Arrhenius-type expression: ln (𝐵𝑠∕[lmh]) = -4729.4∕(𝑇∕[◦K]) + 13.98, as shown in Fig. 3(b). This result aligns with the well-documented trend Journal of Membrane Science 735 (2025) 124526",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. (a) Correlation between 𝐶𝑝𝑜 and [-ln(1 -𝑌)∕𝑌] ⋅CPF ⋅𝐶0∕𝐽𝑤 at different temperatures (R2 = 0.93–0.96). (b) Arrhenius-type correlation between 𝐵𝑠 and temperature (R2 =0.99). Experimental data are from a single seawater spiral-wound module [19]. that salt permeability increases with temperature. For example, under otherwise constant operating conditions, salt transport approximately doubles as the temperature increases from 20 to 35 ◦C. The Arrheniustype dependence of 𝐵𝑠 reported here is established specifically for NaCl. Extrapolation to other solutes (e.g., Ca2+ or SO2-4 ) requires separate validation. Furthermore, when CPF values derived from nonlinear regression using Sherwood-type correlation [20] were plotted against 𝑌 on a semilogarithmic scale (Fig. 4), a clear linear relationship was observed. The slope values were 1.12, 1.02, 0.89, and 0.78 for 20, 25, 30, and 35 ◦C, respectively. The observed trend of decreasing CPF with increasing temperature is consistent with previous findings in the literature [21]. As discussed in our previous work [20], higher temperatures reduce the kinematic viscosity of the feed solution, which in turn increases the mass transfer coefficient and lowers the CPF under otherwise identical operating conditions. The parameter 𝐵𝑠 is typically determined by fitting the model to experimental data under an assumed CPF form.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "therwise identical operating conditions. The parameter 𝐵𝑠 is typically determined by fitting the model to experimental data under an assumed CPF form. When the exponent in the empirical CPF expression is changed (e.g., from 0.7 to 1.02), the predicted 𝐶𝑝𝑜 values remain nearly unchanged, but the fitted 𝐵𝑠 shifts proportionally. This occurs because 𝐵𝑠 and CPF always appear as a product in the correlation (e.g., Eq. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}]), and thus are not independently identifiable without separate measurement of mass transfer coefficients. In this sense, adjusting the CPF exponent effectively ‘‘rescales’’ the interpreted 𝐵𝑠, while preserving the accuracy of the model equation. This sensitivity analysis does not indicate model instability, but rather underscores the coupling between fitted parameters and assumed CPF behavior. Regardless of the CPF exponent, the model maintains high predictive performance across the temperature range, as shown by consistent RMSE values and linearity in Fig. 3(a). Therefore, the correlation remains valid and useful for performance estimation across temperatures, as long as the CPF formulation is consistently applied. It is important to either (i) calibrate the CPF exponent for the specific membrane or (ii) treat it as a tunable parameter during model fitting, especially when the dataset spans a wide recovery range.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "onent for the specific membrane or (ii) treat it as a tunable parameter during model fitting, especially when the dataset spans a wide recovery range. Otherwise, extrapolation accuracy, particularly at high recoveries, may be compromised. 3.3. Brackish water RO module [22] Experiments were conducted using a ROGA-4160HR spiral-wound module with cellulose acetate membranes developed by UOP, a design that is no longer commercially available. The operating conditions included a temperature of 25 ◦C, feed pressures ranging from 27 to 36 atm, feed concentrations slightly below 2000 ppm, flow rates between 5.4 and 31.7 L/min, and recovery ratios from 6.8% to 43.9%. It is worth noting that the recovery ratios used in some experiments reached up to 43.9% within a single module, which is significantly higher",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. Relationship between ln (CPF) and 𝑌 based on regression of experimental data [19], assuming a Sherwood-type correlation for the mass transfer coefficient [20].\n\nFig. 5. Correlation between 𝐶𝑝𝑜 and [-ln(1 -𝑌)∕𝑌] ⋅CPF ⋅𝐶0∕𝐽𝑤 (R2 = 0.96). Experimental data are from a single cellulose acetate spiral-wound module [22]. than current design recommendations. Modern RO practice typically constrains element-level recovery to a low level (e.g., 15%) to reduce the risk of aggravated concentration polarization and fouling. Assuming the empirical relation CPF = exp(0.7𝑌), Eq. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] provided excellent agreement with the experimental data, as shown in Fig. 5, achieving an R2 value of 0.96 and an RMSE of 2.3 ppm. The fitted line exhibited a slight positive intercept. A sensitivity analysis that varied the CPF exponent from 0.3 to 1.2 maintained R2 values above 0.93, indicating the model’s robustness to variations in concentration polarization assumptions. Although the ROGA module represents an earlier generation of membrane technology, the results support the applicability of the proposed correlation across different membrane chemistries and a broad range of operating conditions. Journal of Membrane Science 735 (2025) 124526\n\nM. Li and J. Li",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5,
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.4. Two-stage brackish water RO plant at constant design flux [23] Field experiments were conducted at a full-scale brackish water desalination plant, as detailed in our prior work [23]. The feedwater used in this study was actual groundwater with a complex ionic composition, including multivalent ions, rather than a synthetic or simplified solution. The system consisted of 294 FilmTec BW30-400 elements arranged in a two-stage (28:14) configuration, with seven elements per pressure vessel. It operated at a fixed permeate flow of 1235 gpm (280.5 m3/h), corresponding to an average system flux of 15.1 gfd (25.7 lmh), while the overall recovery ratio varied from 80% to 91%. Under these constant-flux, variable-recovery conditions, a strong linear relationship was observed between 𝐶𝑝𝑜 and -ln(1 -𝑌)∕𝑌, as shown in Fig. 6. The proposed analytical correlation demonstrated excellent predictive accuracy, with an R2 value of 0.94 and an RMSE of just 0.7 ppm. These results validate the robustness of the model under real-world conditions, including non-ideal water quality and large-scale system operation. 3.5. ROSA simulation data Simulation data from two representative RO processes modeled using ROSA (now DuPont WAVE) are used to validate the proposed correlation at both the element and stage levels. The first scenario involves a two-stage BWRO system configured in a 2:1 array with seven BW30-400 elements per vessel, operated at 80% recovery and a design flux of 15.1 gfd (25.7 lmh) [23].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "BWRO system configured in a 2:1 array with seven BW30-400 elements per vessel, operated at 80% recovery and a design flux of 15.1 gfd (25.7 lmh) [23]. The second scenario consists of a one-stage SWRO system using six SW30HR-380 elements at 50% recovery and a flux of 8.4 gfd (14.3 lmh) [24]. The simulation results are summarized in Tables 1 and 2, where subscripts 𝑓, 𝑝, and 𝑖 refer to feed, permeate, and element index, respectively. Fig. 7 demonstrates that plotting 𝐶𝑝𝑖 against [-ln(1 -𝑌𝑖)∕𝑌𝑖] ⋅CPF𝑖⋅𝐶𝑓𝑖∕𝐽𝑤𝑖 in each element results in a straight line through the origin, validating Eq. [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}]. The slope corresponds to the salt permeability coefficient 𝐵𝑠, calculated as 0.2676 lmh for the full BWRO system (or 0.2739 and 0.2669 lmh for stages 1 and 2, respectively), and 0.0634 lmh for the SWRO system. In operational contexts, 𝐵𝑠 can be treated as a calibrated parameter, provided the CPF approximation is applied consistently, as shown in sensitivity analyses in Section 3.2. Fig. 8 shows that while 𝑌𝑖 varies significantly across elements, CPF𝑖remains relatively consistent, supporting the use of an average CPF in system-level approximations. The element-wise contributions to stage-level permeate concentration are illustrated in Fig. 9. Differences in curve shapes between BWRO and SWRO reflect their distinct flux and recovery profiles.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 1ROSA simulation data for a two-stage BWRO at 80% recovery. Element𝑌𝑖𝑄𝑝𝑖 (gpm)𝐶𝑝𝑖 (mg/l)𝑄𝑓𝑖 (gpm)𝐶𝑓𝑖 (mg/l)𝑃𝑓𝑖 (psig) Stage 1: 10.095.0312.7155.061257.56225.99 20.14.8514.4350.021385.07219 30.14.6916.5545.171532.52212.93 40.114.5519.1740.471708.52207.7 50.124.4322.535.921922.85203.25 60.144.3226.8431.492190.25199.52 70.154.2132.7127.182533.92196.46 Stage 2: 80.094.0137.1745.932992.22189.01 90.093.8242.7941.923274.84183.58 100.103.6349.5638.113598.58178.82 110.103.4357.8234.483971.55174.68 120.103.2367.9831.054403.31171.09 130.113.0180.6927.834905.38168.01 140.112.7996.7924.815490.51165.38 Table 2ROSA simulation data for a one-stage SWRO at 50% recovery. Element𝑌𝑖𝑄𝑝𝑖 (gpm)𝐶𝑝𝑖 (mg/l)𝑄𝑓𝑖 (gpm)𝐶𝑓𝑖 (mg/l)𝑃𝑓𝑖 (psig) 10.153.94114.5326.6735 235.30855.45 20.143.17162.0522.7241 331.94852.98 30.122.41236.9419.5547 999.65850.99 40.101.75355.9917.1454 721.21849.36 50.081.21544.215.460 888.97847.98 60.060.85814.2614.1866 055.90846.76 Table 3Estimation of permeate product concentration from process data. BWRO (stage 1)BWRO (stage 2)SWRO 𝑌0.580.520.50 𝑁776 ̄𝐽𝑤 (lmh) (ROSA)28.020.914.3 ̄𝑌 (Eq. (21))0.1170.1000.109 CPF (Eq. (22))1.091.071.08 𝐽𝑤,lm (lmh) (Eq. (24))28.220.613.0 𝐵𝑠 (lmh)0.27390.26690.0634 𝐶0 (mg/l) (ROSA)1257.562992.2235 235.30 𝐶𝑝𝑜 (mg/l) (ROSA)20.359.5263.3 𝐶𝑝𝑜 (mg/l) (Eq. (19))20.459.5256.2 𝐶𝑝𝑜 (mg/l) (Eq. (26))19.958.9257.4",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 3 compares stage-level permeate concentration estimated using both the detailed element-wise model (Eq. (19)) and the simplified log-mean flux model (Eq. (26)) against the ROSA-calculated reference. In all cases, deviations remain within 3%. Additional simulations spanning recoveries from 72%–90% (BWRO) and 35%–55% (SWRO) confirm that the simplified model remains accurate across a wide operating range. Fig. 10 shows that under constant design flux, both the ROSA simulations and the proposed model predict an approximately linear relationship between 𝐶𝑝𝑜 and -ln(1 -𝑌)∕𝑌, consistent with the trend observed in full-scale plant data (Fig. 6). The analytical formulation developed in this work offers more than computational simplicity; it also provides physical insight into the mechanisms governing permeate salinity in RO systems. Specifically, the expression 𝐶𝑝𝑜∝𝐵𝑠⋅CPF",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "𝐽𝑤⋅ln(1 -𝑌) 𝑌 shows that permeate concentration is determined by salt permeability (𝐵𝑠), concentration polarization (CPF), water flux (𝐽𝑤), and recovery ratio (𝑌). This explicit relationship reveals the competing influences of transport resistance and system recovery, which are often obscured in simulation outputs from platforms such as ROSA/WAVE. By incorporating log-mean water flux, the model accounts for spatial variability across membrane elements and connects membranescale transport with stage-level system behavior. This bridging of scales enables not only fast estimation but also meaningful interpretation of Journal of Membrane Science 735 (2025) 124526\n\nM. Li and J. Li\n\nFig. 7. Correlation between element-level 𝐶𝑝𝑖 and [-ln(1 -𝑌𝑖)∕𝑌𝑖] ⋅CPF𝑖⋅𝐶𝑓𝑖∕𝐽𝑤𝑖 in (a) two-stage BWRO and (b) one-stage SWRO using ROSA simulation data (R2 = 1.00). CPF𝑖is calculated by exp (0.7𝑌𝑖).\n\nFig. 8. Element-level CPF𝑖 and 𝐽𝑤𝑖 from ROSA for (a) BWRO (element 1–7 for stage 1 and 8–14 for stage 2) and (b) SWRO.\n\nFig. 9. Contribution of each RO element to the stage-level permeate product concentration (blue symbols) and the average representation (red symbols) for (a) BWRO (elements 1–7 in stage 1 and 8–14 in stage 2) and (b) SWRO.\n\nFig. 10. Comparison between ROSA simulation results and short-cut model estimates for final permeate concentration (𝐶𝑝𝑜) at varying recoveries under constant system-level design flux conditions for (a) a two-stage BWRO system and (b) a one-stage SWRO system.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6,
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "M. Li and J. Li performance trends, which can aid in diagnostics, optimization, and control of RO operations. 4. Conclusions This work presents a physically transparent, closed-form model for estimating average permeate salt concentration in RO systems, requiring only several readily available inputs. Unlike simulation tools, the model offers interpretability, fast evaluation, and serves both design and operational diagnostic purposes. The formulation, originally developed for a single membrane element, was extended to multiple elements in series within a pressure vessel. This extension captures spatial variations in water flux and concentration polarization by introducing an effective log-mean flux and a concentration polarization factor based on the geometric mean recovery. The resulting expression achieves a practical balance between physical accuracy and analytical simplicity. The model was validated against five independent datasets, spanning both experimental and simulated scenarios: (1) a seawater RO element under variable recovery, (2) a seawater RO module tested across a range of temperatures and feed concentrations, (3) a historical brackish water RO module using cellulose acetate membranes, (4) a full-scale brackish water RO plant with variable recovery and constant design flux, and (5) element-wise data from ROSA/WAVE simulations for both two-stage BWRO and one-stage SWRO systems.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "h variable recovery and constant design flux, and (5) element-wise data from ROSA/WAVE simulations for both two-stage BWRO and one-stage SWRO systems. In all cases, the model demonstrated excellent predictive performance, with correlation coefficients (R2) typically above 0.93. The analysis also confirmed that accurate predictions are achievable using the log-mean flux approach, even when only the fluxes at the lead and tail elements are available. In addition to predictive accuracy, the model provides physical insights into system behavior, enabling users to better understand the influence of design and operating parameters on permeate salinity. It may also function as a soft sensor for membrane health monitoring by comparing predicted and measured salt concentrations, enabling early detection of fouling or degradation. By relying only on parameters that are readily measurable or estimable in the field, the proposed framework enables quick and accurate estimation of permeate salinity. It is especially valuable for design screening, real-time monitoring, and operational diagnostics in both seawater and brackish water RO applications. Because the model avoids reliance on proprietary software and uses only basic inputs, it can be embedded in control platforms or used for rapid feasibility screening in early-stage RO system design.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "software and uses only basic inputs, it can be embedded in control platforms or used for rapid feasibility screening in early-stage RO system design. CRediT authorship contribution statement Mingheng Li: Writing – review & editing, Writing – original draft, Validation, Project administration, Methodology, Investigation, Funding acquisition, Formal analysis, Conceptualization. Joseph Li: Writing – original draft, Methodology, Investigation, Formal analysis. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments The authors would like to acknowledge financial support from the National Science Foundation, United States (CBET-2140946). Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "]\n\n[ФОРМУЛА: [FORMULA_ID: bed8d193-abc3-48f6-9b7f-1ba11725c255] = 𝐵𝑠 𝑌⋅𝐶0 ⋅-ln(1 -𝑌𝑖) ⋅CPF ⋅ 𝑁 ∑ 𝑖=1]\n\n[-ln(1 -𝑌𝑖) ⋅CPF𝑖 -ln(1 -𝑌𝑖) ⋅CPF⋅1𝐽𝑤𝑖 ]\n\n[ФОРМУЛА: [FORMULA_ID: 2b017f09-521d-4e7a-89f3-caecfdd43728] = 𝐵𝑠 𝑌⋅𝐶0 ⋅-ln(1 -𝑌) 𝑁 ⋅CPF ⋅ 𝑁 ∑ 𝑖=1]\n\n[-ln(1 -𝑌𝑖) ⋅CPF𝑖 -ln(1 -𝑌𝑖) ⋅CPF⋅1𝐽𝑤𝑖 ]\n\n[ФОРМУЛА: [FORMULA_ID: cac29042-5623-42b7-bc4b-99ceb61dbad3] = 𝐵𝑠⋅𝐶0 ⋅-ln(1 -𝑌) 𝑌 ⋅CPF ⋅ 𝑁 ∑ 𝑖=1]\n\n[-ln(1 -𝑌𝑖) ⋅CPF𝑖 -ln(1 -𝑌) ⋅CPF⋅1𝐽𝑤𝑖 ]\n\n[ФОРМУЛА: [FORMULA_ID: cac29042-5623-42b7-bc4b-99ceb61dbad3] = 𝐵𝑠⋅𝐶0 ⋅-ln(1 -𝑌) 𝑌 ⋅CPF ⋅ 𝑁 ∑ 𝑖=1]\n\n[ 𝑤𝑖⋅1𝐽𝑤𝑖 ] (A.1) where 𝑤𝑖=-ln(1 -𝑌𝑖)-ln(1 -𝑌) ⋅CPF𝑖 CPF\n\n(A.2) is the weight factor, and its sum 𝑁∑ 𝑖=1𝑤𝑖≈ 𝑁∑ 𝑖=1 -ln(1 -𝑌𝑖)-ln(1 -𝑌)=1(A.3) is approximately unity. The sum is not exactly 1 due to variations in CPF𝑖, but the deviation is generally less than 1% when 𝑌𝑖 lies within typical design ranges (e.g., 10%–20% for BWRO at 80% recovery and 6%–15% for SWRO at 50% recovery; see supplementary material for examples). Therefore, the expression within square brackets in Eq. (A.1) may be interpreted as the weighted harmonic mean of 𝐽𝑤𝑖. Moreover, since -ln(1-𝑌𝑖) ≈𝑌𝑖 for 𝑌𝑖< 0.2, the weight factor can be approximated as: 𝑤𝑖≈ 𝑁∑ 𝑖=1 -ln(1 -𝑌𝑖)-ln(1 -𝑌)≈𝑌𝑖∑𝑁𝑗=1 𝑌𝑗",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(A.4) whose sum is 1. The above formulation can, in principle, be extended to 𝑁 segments in a single element or pressure vessel, where 𝑁 approaches infinity in the continuous limit.with 𝑁 goes as high as infinity. Now consider an RO system divided into 𝑁 equal-area segments, as shown in Fig. A.11. It can be shown that: 𝑌1𝐽𝑤1=𝑌2(1 -𝑌1) 𝐽𝑤2=𝑌3(1 -𝑌1)(1 -𝑌2)\n\n𝐽𝑤3=⋯=𝑘(A.5)\n\n(A.6)\n\n(A.7)\n\n[ФОРМУЛА: [FORMULA_ID: d405ed59-ac8a-4382-843d-c34bb4ca6359] or equivalently: 𝑌𝑖 = 𝑘𝐽𝑤𝑖 1 -∑𝑖-1 𝑗=1 𝑘𝐽𝑤𝑗]\n\n(A.8)\n\nWhen the flux 𝐽𝑤𝑖 decreases linearly or quasi-linearly with 𝑖, a common trend resulting from increasing osmotic pressure and pressure Journal of Membrane Science 735 (2025) 124526\n\nM. Li and J. Li\n\nFig. A.11. Illustration of segment-wise recovery.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8,
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. A.12. (a, c) Linear relationships between the normalized cumulative sums ∑𝑖𝑗=1[-ln(1 -𝑌𝑗)]∕∑𝑁𝑗=1[-ln(1 -𝑌𝑗)] and ∑𝑖𝑗=1 𝑌𝑗∕∑𝑁𝑗=1 𝑌𝑗 versus local flux 𝐽𝑤𝑖 for BWRO at 80% recovery; (b, d) corresponding plots for SWRO at 50% recovery. All data are based on ROSA simulation results presented in Section 3.5. ‘‘cusum’’ in the plots denotes cumulative sum. drop along the membrane length, the cumulative sum 𝑆𝑖= ∑𝑖𝑗=1 𝑌𝑗exhibits a linear relationship with 𝐽𝑤𝑖 (see Fig. A.12 and more case studies in the supplementary material). For example, consider a mildly curved flux profile expressed as: 𝐽𝑤𝑖=𝑎-𝑏𝜉+ 𝑐𝜉2(A.9) where 𝜉=𝑖-1𝑁-1 , so that 𝜉∈[0, 1], and 𝑎, 𝑏, and 𝑐 are empirical coefficients with 0 ≤|𝑐| ≪𝑏 and 0 ≤𝑎. This profile captures the typical flux behavior in both BWRO and SWRO systems. In this case, the denominator in Eq. (A.8), given by 1-∑𝑖-1𝑗=1 𝑘𝐽𝑤𝑗, represents the fraction of feedwater not yet recovered. Since 𝐽𝑤𝑖 varies smoothly with 𝑖, the cumulative sum ∑𝐽𝑤𝑗 also increases smoothly and predictably. As a result, the denominator decreases monotonically and smoothly with 𝑖, ensuring that each 𝑌𝑖 remains finite, positive, and continuous under practical operating conditions. Therefore, the cumulative recovery 𝑆𝑖=∑𝑖𝑗=1 𝑌𝑗 is a sum of well-behaved terms and is itself a smooth, strictly increasing function.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rating conditions. Therefore, the cumulative recovery 𝑆𝑖=∑𝑖𝑗=1 𝑌𝑗 is a sum of well-behaved terms and is itself a smooth, strictly increasing function. When the flux profile is mildly curved, the total recovery 𝑆𝑖 shows quasi-linear dependence on local flux, and can be closely approximated by a linear relation: 𝑆𝑖≈𝛼𝐽𝑤𝑖+ 𝛽(A.10) where the constants 𝛼 and 𝛽 depend only weakly on the overall system recovery and the curvature of the flux profile. This quasi-linear behavior is especially accurate when 𝑌𝑖< 0.2, as is typical in seawater and brackish water RO systems. Therefore, cumulative recovery can be estimated efficiently using local flux measurements, facilitating system analysis and diagnostics. Now define 𝑊𝑖 as the cumulative sum of 𝑤𝑖: 𝑊𝑖= 𝑖∑ 𝑗=1𝑤𝑗= 𝑖∑ 𝑗=1 -ln(1 -𝑌𝑗) -ln(1 -𝑌)(A.11) Note that 𝑊𝑖∝𝑆𝑖, or 𝑊𝑖 is quasi-linearly related to 𝐽𝑤𝑖. Thus, in the limit as 𝑁→∞: lim𝑁→∞ 𝑁∑ 𝑖=1𝑤𝑖⋅1𝐽𝑤𝑖=lim𝑁→∞ 𝑁∑ 𝑖=1 𝑊𝑖-𝑊𝑖-1",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(A.12)\n\nThis derivation provides a theoretical justification for using the log-mean flux to estimate average permeate concentration in Eq. (26). Journal of Membrane Science 735 (2025) 124526\n\nM. Li and J. Li Eq. (A.12) shows that the log-mean flux closely approximates the weighted harmonic mean of the local fluxes, provided that the weighting factors sum to unity. The equivalence is exact for linearly decaying flux and remains accurate for mildly curved (quadratic) profiles, as long as 𝐽𝑤 varies quasi-linearly with the cumulative weight. This explains the strong agreement between Eq. (26) and detailed simulations across typical BWRO and SWRO configurations. Appendix B. Supplementary data Supplementary material related to this article can be found online at https://doi.org/10.1016/j.memsci.2025.124526.\n\nData availability Data file is provided as supplementary material.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9,
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[8] M. Di Martino, S. Avraamidou, E.N. Pistikopoulos, A neural network based superstructure optimization approach to reverse osmosis desalination plants, Membr. 12 (2) (2022) 199.[9] I. Alatiqi, A. Ghabris, S. Ebrahim, System identification and control of reverse osmosis desalination, Desalination 75 (1989) 119–140.[10] L. Gao, A. Rahardianto, H. Gu, P.D. Christofides, Y. Cohen, Energy-optimal control of RO desalination, Ind. Eng. Chem. Res. 53 (2014) 7409–7420.[11] M. Mulder, Basic Principles of Membrane Technology, Kluwer Academic Publishers, Boston, 1997.[12] M. Li, J. Li, Incorporating convection into the solution-diffusion framework enhances modeling accuracy in reverse osmosis, Chem. Eng. Res. Des. 214 (2025) 441–445.[13] Dupont, FilmTec reverse osmosis membranes technical manual, 2020, https://www.dupont.com/content/dam/dupont/amer/us/en/water-solutions/public/documents/en/45-D01504-en.pdf. Online; (Accessed 25 April 2020).[14] M. Li, Reverse osmosis desalination under periodically oscillating conditions: insight from spatiotemporal simulations, Desalination (2025) 118942.[15] T.K. Das, M. Folley, P. Lamont-Kane, C. Frost, Performance of a SWRO membrane under variable flow conditions arising from wave powered desalination, Desalination 571 (2024) 117069.[16] D.R. Paul, Reformulation of the solution-diffusion theory of reverse osmosis, J. Membr. Sci. 241 (2) (2004) 371–386.[17] P. Biesheuvel, S. Porada, M. Elimelech, J.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "formulation of the solution-diffusion theory of reverse osmosis, J. Membr. Sci. 241 (2) (2004) 371–386.[17] P. Biesheuvel, S. Porada, M. Elimelech, J. Dykstra, Tutorial review of reverse osmosis and electrodialysis, J. Membr. Sci. 647 (2022) 120221.[18] L. Wang, T. Cao, J.E. Dykstra, S. Porada, P. Biesheuvel, M. Elimelech, Salt and water transport in reverse osmosis membranes: Beyond the solution-diffusion model, Environ. Sci. Technol. 55 (24) (2021) 16665–16675.[19] S. Avlonitis, W.T. Hanbury, M.B. Boudinar, Spiral wound modules performance an analytical solution: Part II, Desalination 89 (1993) 227–246.[20] M. Li, Predictive modeling of a commercial spiral wound seawater reverse osmosis module, Chem. Eng. Res. Des. 148 (2019) 440–450.[21] G.E. Dévora-Isiordia, C.A. Cásares-De la Torre, D.P. Morales-Mendívil, R. Montoya-Pizeno, N. Velázquez-Limón, J.A. Aguilar-Jiménez, J. Ríos-Arriola, Evaluation of concentration polarization due to the effect of feed water temperature change on reverse osmosis membranes, Membr. 13 (1) (2022) 3.[22] Y. Taniguchi, An analysis of reverse osmosis characteristics of ROGA spiral-wound modules, Desalination 25 (1978) 71–88.[23] M. Li, B. Noh, Validation of model-based optimization of brackish water reverse osmosis (BWRO) plant operation, Desalination 304 (2012) 20–24.[24] H.-J. Oh, T.-M. Hwang, S. Lee, A simplified simulation model of RO systems for seawater desalination, Desalination 238 (1–3) (2009) 128–139.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825008397-main",
+      "title": "A closed-form analytical model for estimating permeate salinity in reverse osmosis systems",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  }
+]

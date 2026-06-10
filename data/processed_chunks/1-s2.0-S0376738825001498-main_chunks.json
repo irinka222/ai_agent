@@ -1,0 +1,1247 @@
+[
+  {
+    "content": "Performance comparison of flat sheet and hollow fibre air gap membranedistillation: A mathematical and simulation modelling approach Hamed Kariman a, Hussein A. Mohammed a, Masoumeh Zargar a, Mehdi Khiadani a,b,* a School of Engineering, Edith Cowan University, 270 Joondalup Drive, Joondalup, Perth, 6027, WA, Australiab Mineral Recovery Research Center (MRRC), School of Engineering, Edith Cowan University, Joondalup, Perth, WA, 6027, Australia\n\nA R T I C L E I N F O Keywords:Flat sheetHollow fibreAir gap membrane distillationMathematical modellingtemperature polarization",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T Membrane Distillation (MD) systems could address current challenges related to global water demand. AmongMD systems, Air Gap Membrane Distillation (AGMD) systems play crucial roles in addressing this challenge.AGMD systems can be categorized into two main structural groups: flat sheet and hollow fibre forms. It isimportant to study, analyse, model and compare these two systems under the same operational conditions. In thisstudy, a detailed mathematical model of flat sheet and hollow fibre AGMD modules under the same conditions (i.e., membrane type, membrane area, porosity, and pore radius of membrane) has been introduced. The simulationof system performance parameters, including flux, Temperature Polarization Coefficient (TPC), Specific ThermalEnergy Consumption (STEC) and Gain Output Ratio (GOR) have also been conducted, based on various operational conditions and membrane properties. A comprehensive comparison has been then performed between flatsheet AGMD and hollow fibre AGMD systems in terms of flux, TPC, STEC and GOR. The results show thatamongst all operational conditions and membrane properties, feed water temperature, air gap thickness, feedwater Reynolds number, membrane porosity and pore radius significantly impact the flux of both systems.Furthermore, the operational conditions and membrane properties affected the STEC and GOR.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "d pore radius significantly impact the flux of both systems.Furthermore, the operational conditions and membrane properties affected the STEC and GOR. Moreover, thecomparison results showed that the hollow fibre system had higher flux, TPC and GOR than the flat sheet systemboth in laminar and turbulent state of feed water flow, while the flat sheet system showed a higher STEC valuethan the hollow fibre system in all operational conditions and membrane properties, indicating that a highenergy requirement in the case of hollow fibre system for producing the same amount of flow.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Nomenclature Cp,aSpecific heat of water vapor (kJ.kg-1. K-1)CfHeat capacity of feed water (kJ.kg-1. K-1)DDiffusion coefficient of the water (m2.s-1)DkKnudsen diffusion coefficient (m2.s-1)DmMolecular diffusion coefficient (m2.s-1)dagAir gap thickness (m)dcpPlate thickness (m)dhHydraulic diameter (m)dfDiameter of each fibre (m)dmThicknesses of membrane (m)E0PEnergy consumption of pump (kWh) E0TOTTotal energy consumption (kWh)gAcceleration of gravity (m.s-2)hConvective heat transfer coefficient (W.m-2. K-1)ha,gConvective heat transfer coefficient in gaseous phase of water (W.m-2.K-1)\n\n(continued on next column) (continued) hcConvective heat transfer coefficient at cold water side (W.m-2. K-1)hcpConvective heat transfer coefficient at condensation plate (W.m-2. K-1)hdConvective heat transfer coefficient at condensation layer (W.m-2. K-1)hd-cOverall heat transfer coefficient from vapor water interface to cold water(W.m-2. K-1)hfConvective heat transfer coefficient at feed side (W.m-2. K-1)hpConvective heat transfer coefficient at permeate side (W.m-2. K-1)HvEnthalpy of water evaporation (kJ.kg-1)HHeight of flow channelHmHeight of condensation plate (m)JPermeate mass flux (l.m-2.h-1)KThermal conductivity (W.m-1. K-1)KagThermal conductivity in the gaseous phase (W.m-1. K-1)KcpThermal conductivity of condensation plate (W.m-1. K-1)KdThermal conductivity of distilled water (W.m-1. K-1)KbBoltzmann constant (J.K-1)LLength of membrane(m)\n\n(continued on next page)",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "* Corresponding author. School of Engineering, Edith Cowan University, 270 Joondalup Drive, Joondalup, Perth, 6027, WA, Australia.E-mail address: m.khiadani@ecu.edu.au (M. Khiadani).\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 721 (2025) 123836\n\nAvailable online 12 February 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ).",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(continued) M0Mass flow rate of flow (l.h-1)Molamolecular weight of air (g.mol-1)Molwmolecular weight of water (g.mol-1)NfNumber of fibres in hollow fibre moduleNuNusselt numberPrPrandtl numberPairPressure of air (Pa)PtTotal pressure in membrane pore (Pa)PvPartial vapor pressure (Pa)PvmfPartial vapor pressure on the feed/membrane side (Pa) PvcwPartial vapor pressure on the condensate/water side (Pa)ReReynolds numberQ0inInput heat flux (W.m-2) Q0cHeat flux at cold water (W.m-2) Q0cpHeat flux through the condensate plate (W.m-2) Q0dHeat flux from condensation layer to condensate plate (W.m-2) Q0d-cHeat flux from condensation layer to coolant solution Q0fHeat flux in the feed side (W.m-2) Q0pHeat flux in the permeate side (W.m-2) rAverage pore radius of the membrane (μ m)RIdeal gas constant (J.K-1.mol-1)RHT/FLRatio of heat transfer improvement to friction loss incrementSpathway surface of flow (m2)TaveAverage temperature in membrane pore size (K)TcCold water temperature (K)TfFeed water temperature (K)TmTemperature of membrane surface (K)TmfTemperature of feed water at the membrane surface (K)TcwTemperature of condensate water (K)TpaTemperature of condensation layer (K)TpcTemperature of condensation plate (K)WWidth of flow channel (m)AbbreviationsAGMDAir gap membrane distillationDCMDDirect contact membrane distillationGORGain output ratioMDMembrane distillationPGMDPermeate gap membrane distillationSGMDSweeping gas membrane distillationSTECSpecific thermal energy consumptionTPTemperature polarizationTPCTemperature polarization coefficientVMDVacuum membrane distillationWGMDWater gap membrane distillationGreek lettersεPorosity of membraneρDensity of water (kg/m3)uVelocity of flow (m.s-1)μdDynamic viscosity of distilled water (kg.m-1.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "mbrane distillationGreek lettersεPorosity of membraneρDensity of water (kg/m3)uVelocity of flow (m.s-1)μdDynamic viscosity of distilled water (kg.m-1. s-1)x NaclMole fraction of NaCl in the solutionx wfWater mole fraction of the feed waterγwfActivity coefficient of the feed waterσaCollision diameters of air (m)σwCollision diameters of water vapor (m)τTortuosity of membraneλMean molecular free path (m)ΔPPressure drop (Pa)ΔηHTHeat transfer improvementΔFLFriction loss increment",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Freshwater shortage is one of the most crucial and comprehensivehuman problems, underscoring the need for sustainable water management and responsible fossil fuel use to reduce the environmentalimpact of energy-intensive water treatment processes [1–6]. Out ofvarious methods that are available, desalination systems could play asignificant role in addressing this issue [7,8]. In further consideringvarious types of distillation systems, including multi-stage desalination,multi-effect desalination, electrodialysis and reverse osmosis, membrane distillation systems have attracted significant attention [9–11].The primary reasons for the prominence of these systems relates totheir capability to desalinate at lower temperatures, thereby lowering heat requirements for operation, as well as their overly uncomplicateddesigns [12,13]. These systems generally can be configured on the difference of fluid in the permeate side and can be categorized into fivemain groups: Direct Contact Membrane Distillation (DCMD), Air GapMembrane Distillation (AGMD), Sweeping Gas Membrane Distillation(SGMD), Water Gap Membrane Distillation (WGMD) and VacuumMembrane Distillation (VMD) [10,14]. In addition to these, there areother types of MD systems, such as Permeate Gap Distillation systems(PGMD) [14]. Additionally, MD systems can be categorized into somegroups based on the structure of the module, flat sheet and hollow fibretypes are two main structure MD systems [15].",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tems can be categorized into somegroups based on the structure of the module, flat sheet and hollow fibretypes are two main structure MD systems [15]. Flat sheets consist of asingle thin sheet with a dense barrier layer. In this configuration, thefeedwater flows along one side of the flat sheet membrane, while pressure is applied to drive water molecules through the membrane [16].Furthermore, hollow fibre type MD systems are configured as smallhollow tubes with a hollow centre, whereby the feedwater flows throughthe interior of the hollow fibres while vapor pressure difference causethe water molecules vaporise and move across through the walls of thefibres [17].One of the main categories of MD systems is AGMD systems. In anAGMD configuration, the temperature differential across the hydrophobic membrane induces a partial pressure difference, promptingwater molecules to evaporate at the hot feed side and permeate throughmembrane pores. The vaporized water additionally traverses through astagnant air gap positioned between the membrane and a condensationplate, where it condenses at a lower temperature, yielding distilledwater [18,19]. Due to its high thermal efficiency and low electricitydemand, AGMD has recently attracted widespread attention [20,21].Furthermore, AGMD exhibits a decreased permeate flux due to theadded resistance to mass transfer [22].",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "recently attracted widespread attention [20,21].Furthermore, AGMD exhibits a decreased permeate flux due to theadded resistance to mass transfer [22]. However, similar to other MDconfigurations, AGMD systems suffer from Temperature Polarization(TP), which is typically quantified via a dimensionless index known asthe Temperature Polarization Coefficient (TPC). Therefore, calculatingTPC in these systems is essential. As the TPC value trends closer to 1, thisindicates better performance, suggesting minimal temperature polarization and more efficient operation [23–25]. TP refers to a situationwhere the temperature of the bulk feed solution differs from the temperature at the interface of the membrane [26]. TP results in a significant decrease in water vapor mass transfer, typically ranging from 50 %to 80 %, which consequently leads to lower distillate flux [27]. Theprimary performance indicators for AGMD systems, which are crucialfor assessing efficiency, thermal distribution, and productivity, encompass permeate flux, TPC, gain output ratio (GOR) and specific thermalenergy consumption (STEC) [28–30].In order to investigate the impact of operational conditions onpermeate flux, TPC, GOR and STEC on flat sheet AGMD systems, Xu et al.have examined the impact of operational conditions including feedtemperatures and flow velocities, as well as membrane characteristicslike material, thickness and pore size, on permeate flux of a flat sheetAGMD.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "feedtemperatures and flow velocities, as well as membrane characteristicslike material, thickness and pore size, on permeate flux of a flat sheetAGMD. They observed that increasing feed temperature enhancedpermeate flux, while feed flow velocity had a minimal effect. Moreover,smaller pore sizes resulted in reduced flux, and increased membranethickness led to a decrease in permeate flux [31]. Ali et al. have reportedthat increasing porosity from 60 % to 90 % resulted in a rise in mass fluxand TPC values, from 5 g m-2 s to 13 g m-2 s and 0.7 to 0.85, respectively. As the feed flow rate temperature increased from 50 ◦C to 75 ◦C,the mass flux in their study increased from 1 g m-2 s to 5 g m-2 s in a flatsheet AGMD module [32]. Ansari et al. have investigated the impact ofoperational conditions, in particular via solar absorbers, on TPC and fluxof a flat sheet AGMD system via computational fluid dynamics modelling. Their findings indicated that solar absorbers could slightly enhancewater flux while reducing both temperature and concentration polarization effects. Their results were shown to be more sensitive to changesin air-gap thickness compared to the use of solar absorbers [24]. Khalifaet al. have investigated the influence of various operational parameterson permeate flux in a flat sheet AGMD system. They found that permeate",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "H. Kariman et al.Journal of Membrane Science 721 (2025) 123836 flux increased with higher feed temperature and feed flow rate butdecreased with increasing air gap width and coolant temperature.Further, they showed that higher coolant flow rates could marginallyincreaseflux,wheresystemperformancecouldbesignificantlyimpacted by changes in feed temperature and air gap width. Forinstance, increasing feed temperature from 40 ◦C to 80 ◦C led to a fluxincrease of 550 %–750 % respectively, whilst decreasing the air gapwidth from 7 mm to 3 mm resulted in an approximately 130 % higherflux [33]. Choi et al. have studied the impact of feed water temperatureand air gap width on a multi-effect flat sheet AGMD system performance. Their increase in feed water temperature from 40 ◦C to 80 ◦Cresulted in a notable increase in permeate flux, escalating from 2.5 lm-2.hr-1 to 17.5 l m-2.hr-1 ,respectively [34]. Alsaadi et al. haveinvestigated the impact of operational conditions on a flat sheet AGMDsystem’s thermal efficiency and permeate flux, whereby with increase inmembrane length, the flux decreased, while it increased with higherflow rates. Furthermore, the thermal efficiency of the process increasedwith an increase in membrane surface area.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ased, while it increased with higherflow rates. Furthermore, the thermal efficiency of the process increasedwith an increase in membrane surface area. Additionally, varyingseawater feed temperatures from 40 ◦C to 80 ◦C led to an increase inwater vapor fluxes from 0.5 l m-2.hr-1 to 6 l m-2.hr-1, respectively.Similarly, widening the air gap from 5 mm to 13 mm resulted in adecrease in water vapor fluxes from 3 l m-2.hr-1 to 1.5 l m-2.hr-1 [35],respectively. Lawal et al. have examined a flat sheet AGMD systemequipped with a rotating fan and observed that with the increase in feedwater temperature, feed water flow rate and coolant flow rate, permeateflux and GOR all increased followed by a decrease in STEC. Additionally,elevating the coolant temperature resulted in a decline in permeate fluxand STEC, followed by an increase in GOR [36]. Qin et al. have investigated and simulated a flat sheet AGMD system and performed extensive sensitivity analyses, with their findings revealing that higher feedwater temperature enhances system performance, whereas an increasein coolant water temperature, wider air gap, thicker hydrophobicmembrane or higher feed water NaCl concentration could lead to performance deterioration [37].In order to investigate the impact of operational conditions onpermeate flux, TPC, GOR and STEC on hollow fibre AGMD systems,Sandid et al.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ration [37].In order to investigate the impact of operational conditions onpermeate flux, TPC, GOR and STEC on hollow fibre AGMD systems,Sandid et al. have assessed a hollow fibre AGMD system integrated withsolar energy, indicating that the STEC ranged from 158.83 kWh.m-3 to346.55 kWh.m-3, with a GOR of 4.4 [38]. Liu et al. have investigated acombined hollow fibre AGMD system with vacuum pressure, revealingthat the applied vacuum could eliminate non-condensable gases, effectively enhancing process performance. Additionally, their study showedthat with an increase in vacuum pressure, both flux and GOR valuesincreased [39]. Requena et al. have conducted a laboratory analysis of ahollow fibre AGMD system with a zero liquid discharge system, withresults indicating that as the feed water temperature increased, the fluxincreased as well. Furthermore, an increase in feed salinity and STECvalue resulted in a decrease in flux [40]. Niu et al. have investigated andmodelled a combined AGMD and VMD hollow fibre system, with analysis revealing a positive correlation between membrane flux and feedwater temperature. Further, an increase in their desiccant flow rate ledto a gradual increase in membrane flux. Additionally, membrane fluxincreased with higher vacuum conditions [41]. After thorough investigations of flat sheet and hollow fibre AGMD systems, the main operational parameters and material properties have been identified.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ter thorough investigations of flat sheet and hollow fibre AGMD systems, the main operational parameters and material properties have been identified. Toachieve optimal TPC and other performance indicators within thesesystems, optimizing these parameters could provide valuable insights.In order to investigate the economic analysis of flat sheet and hollowfibre AGMD systems, Felix et al., have performed a techno economicassessment on a AGMD system with three conventional concentratemanagementsystemsincluding:ponds,deep-wellinjection,andconcentration-crystallization. The results have showed that, the waterproduction cost for deep-well injection, evaporation ponds, and concentrators is 1.09 $.m-3, 1.47 $.m-3, and 6.2 $.m-3, respectively. andthe water production cost at optimal point is 0.9 $.m-3 [42]. Coenenet al. Have employed a flat sheet AGMD unit to treating the water. Theexperimental and economic modelling results of the system haveshowed that, the water treatment cost is 16 $.m-3 [43]. Martin andDahl. have investigated an economic analysis for an integrated flat sheetAGMD system to low grade heat source energy for the treatment ofchemical mechanical planarization. In this research, the results haveshowed that, the wastewater treatment cost is 3 $.m-3 [44].",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "y for the treatment ofchemical mechanical planarization. In this research, the results haveshowed that, the wastewater treatment cost is 3 $.m-3 [44]. Afterexamining previous research, it is evident that the critical parametersinfluencing the TPC and performance of both flat sheet and hollow fibreAGMD systems can be categorized into two main groups including:operational conditions (e.g., feed water temperature, feed water flowrate or velocity, coolant water temperature, coolant water flow rate orvelocity, air gap thickness and salt concentration) and membraneproperties (e.g., membrane area, porosity, thickness and membrane poresize).To the best of the authors’ knowledge, there is a lack of detailedanalysis regarding the effects of all operational conditions and materialproperties on system performance indicators, in particular, focusing onflux, TPC, GOR and STEC for both flat sheet and hollow fibre AGMDsystems. Even though studies have been conducted to investigate theeffects of operational conditions on performance indicators, these havenot covered all the operational parameters and material properties. Todate, detailed investigations have not accounted for the effects of alloperational parameters and material properties on TP.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nd material properties. Todate, detailed investigations have not accounted for the effects of alloperational parameters and material properties on TP. Furthermore,there is a lack of direct comparison between flat sheet AGMD and hollowfibre AGMD systems under similar conditions, scales and materials,which needs to be understood for better decision-making regardingsystem structure.To address these concerns, this research aims to conduct a comprehensive comparative modelling analysis, simulation and comparison offlat sheet and hollow fibre AGMD systems under the same operationalconditions and material properties. In brief, the key contributions of thisstudy can be summarized as follows. To develop mathematical and simulation models of both flat sheetand hollow fibre AGMD systems while considering the impact of alloperational conditions on TP, including feed water temperature, feedwater flow rate, coolant water temperature, coolant water flow rate,air gap thickness, feed water Reynolds number, salt concentration,and membrane properties such as porosity, thickness, and pore sizein same membrane area. To assess flat sheet and hollow fibre systems performance indicatorsincluding permeate flux, GOR and STEC for providing valuable Fig. 1. The schematic of flat sheet AGMD module.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "H. Kariman et al.Journal of Membrane Science 721 (2025) 123836 insight into the productivity, efficiency and thermal consumption ofthese systems. To conduct a comprehensive analysis of pressure drop, pump powerconsumption, and the heat transfer enhancement to friction loss ratioin both flat sheet and hollow fibre AGMD systems, providing valuable insights into their performance differences under varying feedflow rates To compare flat sheet and hollow fibre AGMD systems consideringeffective membrane area, operational conditions and materialproperties. This analysis can offer valuable insights for designers tounderstand the advantages and disadvantages of flat sheet and hollow fibre AGMD systems under similar conditions. Overall, the results of this research can contribute to efforts onincreasing efficiency and reducing TP effects on the performance of flatsheet and hollow fibre AGMD systems. 2. Systems description 2.1. Flat sheet air gap membrane distillation (AGMD) Fig. 1 shows the schematic of the flat sheet AGMD module. The feedwater flows through the feed water channel, which is separated from theair gap layer by the membrane surface. In this process, the evaporatedwater can pass through the membrane pores and enter the air gap layer.Directly below this, there is a condensate plate in the air gap layer that facilitates the condensation of distilled water. This plate is cooled by thecold-water flow in the cooling section.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "te plate in the air gap layer that facilitates the condensation of distilled water. This plate is cooled by thecold-water flow in the cooling section. The specifications of flat sheetAGMD systems are presented in Table 1. 2.2. Hollow fibre air gap membrane distillation (AGMD) A schematic of the hollow fibre AGMD module is shown in Fig. 2.Similar to the flat sheet type, the feed water flows through the fibres,whereby it serves as the feed water channel. The outer surface of thefibres is covered in a membrane that separates the feed water channelfrom the air gap layer. The air gap layer is covered with a condensationsurface. Furthermore, cold water flows around the fibre space to providethe cooling energy required for condensing the evaporated water. Thespecifications of hollow the fibre AGMD system are presented in Table 2. 2.3. Modules features and membrane properties The schematic of arrangement of layers and parameters for both flatsheet and hollow fibre AGMD modules is presented in Fig. 3.For the modelling of both flat sheet and hollow fibre AGMD systems,commercially available polypropylene types of membranes wereconsidered. The characteristics of membranes used in this study arepresented in T able 5, [31,45]. As shown in Table 3, most of the characteristics of the membranes for both systems are identical, except forthe thickness of the membrane, which differs between the flat sheet andhollow fibre systems. 3.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "he membranes for both systems are identical, except forthe thickness of the membrane, which differs between the flat sheet andhollow fibre systems. 3. Methodology In both flat sheet and hollow fibre AGMD modules, operations havebeen maintained under stable conditions while disregarding transientphenomena. Given that the air gap is relatively narrow in comparison tothe overall AGMD structure, the air within this gap is assumed to remainstatic. The flow within the membrane channels is characterized aslaminar, as the Reynolds number addressed in this study remainedbelow 2300. If Re exceeds 2300, turbulent flow considerations wouldnecessitate a revision of the Nusselt number formula. The followingassumptions have been considered in the AGMD model. (1) Heat transfer within the AGMD is one-dimensional and steadystate [46];(2) The air within the narrow air gap is considered stationary [46, 47].(3) The fluid flow within the membrane channels in both systems isincompressible and laminar [46,48].(4) Concentration polarization in the feed channel of both systems isneglected [46,49].",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.1. Heat transfer In both flat sheet and hollow fibre AGMD modules, various heattransfer mechanisms simultaneously occur across three distinct regions.The initial heat transfer mechanism is illustrated in Fig. 3, which occurson the feed side, where brine water flows through the feedwater channel. In this segment, the heat flux from the feed boundary to the membrane is comprised of both convective and diffusive components. As thecondition in both systems is steady, the heat flux in the feed side can beobtained from equation below [46,50,51]. Q0f =(hf + JCf )(Tf -Tmf )(1) where, hf represents the convective heat transfer coefficient at the feedside and J and Cf are the permeate mass flux and heat capacity of feedwater, respectively. Further, Tf and Tmf represent the feed water temperature and the temperature of feed water at the membrane surface of\n\nTable 1The specifications of flat sheet AGMD system. ParametersValue Length of membrane (m)1Width of membrane (m)0.5Height of feed water channel (mm)3Effective surface of membrane (m2)0.5\n\nFig. 2. The schematic of hollow fibre AGMD module.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 2The specifications of hollow fibre AGMD system. ParametersValue Length of fibres (m)1Inner fibre diameter (m)0.0018Effective surface of membrane (m2)0.5 H. Kariman et al.Journal of Membrane Science 721 (2025) 123836 feed channel, respectively.The second heat transfer mechanism (Fig. 1) involves the heat fluxfrom the membrane surface to the condensate water interface, wherebyitincludesbothconductiveandevaporativeheatcomponents.Conductive heat refers to the heat transfer through the membrane,typically considered waste heat. Evaporative heat, in contrast, is theenergy utilized to evaporate water, actively contributing to the membrane distillation process. The heat flux in the permeate side can beobtained from this equation [33,46]. Q0p = hp (Tmf -Tcw )+ JHv(2) where, hp represents the convective heat transfer coefficient of permeateside, and Tcw and Hv represent the temperature of condensate water andthe enthalpy of water evaporation, respectively. The enthalpy of waterevaporation can be calculated from Equation (3) [46,52]. Hv =(1.7535 Tmf + 2024.3)*1000(3)\n\nFurthermore, hp can be calculated from this equation [46,50,51]. hp =J* Cp,a 1 -e J*Cp,a hag\n\n(4) where, Cp,a is the specific heat of water vapor and ha,g is the heat transfercoefficient in the gaseous phase, which can be calculated as below [46,50,51]. ha, g = Kag dag",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(5) where, Kag and dag are the thermal conductivity in the gaseous phase andthe air gap thickness, respectively. The air gap thickness in AGMD systems is typically selected within a range of 10–100 times the membranethickness, balancing heat and mass transfer limitations [51,53].The third heat transfer mechanism involves the following processes.The heat flux from the condensation layer to the condensation plate thentransfers through the condensation plate and the exchange at the coolantside. These processes can be respectively characterized by their distinctheat transfer pathways and mechanisms, as presented below [46,50,51]. Q0d = hd*(Tcw -Tpa )(6) Q0cp = hcp*(Tpa -Tpc )= Kcp dcp (Tpa -Tpc\n\n)(7)\n\nQ0c = hc*(Tpc -Tc )(8) In these Equations, hd, hcp and hc are the heat transfer coefficients ofcondensation layer, condensation plate and coolant solution, respectively. Tpa , Tpc and Tc are the temperature of condensate layer at\n\nFig. 3. The schematic of arrangement of layers, thermal distribution, and convective heat coefficient of layers in both flat sheet and hollow fibre AGMD modules.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Table 3The membrane characteristics. Membrane propertiesFlat sheetHollow fibre Membrane materialPolypropylenePolypropylenePorosity (%)7070Nominal pore size (μm)0.20.2Thermal conductivity (W.m-1.K-1)0.20.2 Membrane thickness (mm)0.090.4SupplierMembrana(Germany)Microdyn(Germany) H. Kariman et al.Journal of Membrane Science 721 (2025) 123836 condensation plate interface, temperature of condensation plate atcoolant solution interface and cold-water temperature, respectively.Furthermore, Kcp and dcp are the thermal conductivity of condensationplate and the plate thickness, respectively. The heat transfer coefficientof condensation layer can be calculated as below [46,54]. hd =(g* ρ2* Hv* Kd3 Hm*μd*(Tcw -Tpa )) 14(9) In this equation, g and Kd are the acceleration of gravity and thermalconductivity of distilled water, respectively. Hm and μd are the height ofcondensation plate and viscosity of distilled water, respectively.The fourth heat transfer mechanism, indicating the heating transferfrom condensation layer to coolant solution can be obtained from thefollowing equation [33,46]. Q0d-c = hd-c*(Tcw -Tc)[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] In this equation, hd-c is the overall heat transfer coefficient fromvapor water interface to cold water, which can be obtained from theequation below [46,54]. hd-c =( 1hd + 1Kcp + 1hc )-1",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}]\n\nIn this equation, hc is the heat transfer coefficient of cold water.Further, hf and hc can be calculated from the following equation [46,55]. h = Nu*Kdh\n\n[ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}]",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In this equation, dh is the hydraulic diameter of both flat sheet andhollow fibre systems, which can be obtained separately as follows [56]. Flat sheet (dh) = 2*( W*H)(W + H)[ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] Hollow fiber (dh) = dh = df[ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] Accordingly, W and H are width and height of flow channelrespectively, and df is the diameter of each fibre. The Nusselt number(Nu) for laminar flow and turbulent flow can be calculated as follows[46,57]. Nu = 1.86*(Re*Pr *(dh L )) 0.33[ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] Nu = 0.023*Re0.8* Pr0.3(16) Reynolds number (Re) and Prandtl number (Pr) can be calculated asfollows [4,46,57]. Re = u* ρ* dh μ(17) Pr = μ* Cp K[ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] where, ρ , μ, Cp and K are density, dynamic viscosity, heat capacity ofwater and the average thermal conductivity, respectively (Table 2). Theu is the flow velocity, which can be obtained from equation below [4,56]. u = M0 S(19) In this equation, M0 is mass flow rate and S is pathway surface offlow, which can be separately calculated for flat sheet and hollow fibremodules as follows [56].",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. Flow chart of iterative method for both flat sheet and hollow fibreAGMD systems.\n\nTable 4Operational parameters and modelling specifications for both systems. ParametersValueUnit Feed water temperature35–80◦CCold water temperature24.5–42◦CFeed water flow rate100–250l.hr1 Cold water flow rate75–275l.hr1 Air gap width1–10mmSalt concentration (NaCl)35–125g.l-1 Universal gas constant8.31J.mol-1. K-1 Gas phase thermal conductivity0.025W.m-1. K-1 Acceleration of gravity9.8m.s-2 Thermal conductivity of condensation plate401W.m-1. K-1 Width of condensation plate1mmHeat capacity of distilled water4182J.kg1. K-1 Heat capacity of feed water4200J.kg1. K-1 Thermal conductivity of feed water0.638624W.m-1. K-1 Thermal conductivity of distilled water0.633201W.m-1. K-1 Density of feed water1013g.m-3 Density of distilled water996g.m-3 Viscosity of feed water7.49 * 10-4kg.m-1. s-1 Viscosity of distilled water8.68 * 10-4kg.m-1. s-1\n\nH. Kariman et al.Journal of Membrane Science 721 (2025) 123836\n\nHollow fibre (S) = Nf*π d2h4(21) where, Nf is the number of fibres in hollow fibre module. In both flatsheet and hollow fibre AGMD systems, the relationships governing heattransfer in one-dimensional and steady-state heat transfer are as follows[33]. Q0f = Q0p(22) Q0d = Q0cp = Q0c = Q0d-c(23) By manipulating and solving Equations (1)–(23), the Tmf and Tcw canbe obtained as follows [33,46]. Tmf = Tf -(Tf -Tc + J* Hv hp )* ⎛ ⎜⎜⎜⎝ (\n\n1hf )+( 1hp )+( 1hd-c )-1 hf ⎞ ⎟⎟⎟⎠(24)",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6,
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Tcw = Tc +(Tf -Tc + J* Hv hp )* ⎛ ⎜⎜⎜⎝ (\n\n1hf )+( 1hp )+( 1hd-c )-1 hf ⎞ ⎟⎟⎟⎠(25)\n\n3.2. Mass transfer The vapor pressure difference across the membrane creates thedriving force that enables water vapor to traverse through the membrane. This mass transfer is quantified by the permeate flux, whereby itcan be obtained as follows [51,58]. J = D*(Pvmf -Pvcw ))(26) In this equation, D is the diffusion coefficient of the water (Eq. (32)–(35)). Additionally, Pvmf and Pvcw can be calculated by the Antoineequation as follows [34,59]. Pvmf or Pvcw = exp(23.328 -3841Tmf or cw -45\n\n)(27)",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "As the feed water contains salt impurities, Equation (26) can bemodified as follows [46,60]. J = D*((γwf*x wf* Pvmf )-Pvcw )(28) where, γwf and x wf are the activity coefficient and the water molefraction of the feed water, respectively. The activity coefficient for NaClsolution can be calculated as follows [46]. γwf = 1 -0.5* x Nacl -10* x Nacl2(29) where, x Nacl is the mole fraction of NaCl in the solution.A proper model is crucial for accurately predicting the mass transferof gaseous components through porous media. The Fickian model,Stefan-Maxwell Equations [39,61–63] and the dusty-gas model havebeen widely used for modelling mass transfer in porous membranes. Inthe MD process, the mass transfer across the membrane is typicallydescribed by the dusty gas model [39,64,65]. This model includesKnudsen diffusion, molecular diffusion, and their combination, knownas Poiseuille flow. In a conventional AGMD process, the total pressure isapproximately 1 atm, and the operating temperature is below 100 ◦C.Therefore, Poiseuille flow can be disregarded [39]. The Knudsen number is defined as the ratio of the mean free path of the transportedmolecules to the diameter of the membrane pores [39,66]. Kn = λr(30) where, he λ and r are the mean molecular free path and average poreradius of the membrane, respectively. In a binary mixture of air andwater vapor, the mean free path (λ) of the vapor molecules in air can becalculated based on the average membrane temperature (Tm) [39,67].",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e of air andwater vapor, the mean free path (λ) of the vapor molecules in air can becalculated based on the average membrane temperature (Tm) [39,67]. λ =Kb*Tm π*( (σw+σa)2 )2 *Pt*1 1 +(̅̅̅̅̅̅̅MolwMola √)(31) In this equation, Kb is the Boltzmann constant (1.381 * 10-23 J K-1)and σw and σa are the collision diameters of water vapor (2.641 * 10-1 0 m) and air (3.711 * 10-10 m), respectively. Pt is the total pressure,which is equal to 1 atm for AGMD modules. Molw and Mola are molecularweight of water and air at membrane temperature (33–80◦C),respectively.The Knudsen number (Kn) is typically used to identify the dominantdiffusion mechanism. Effective diffusive flux in AGMD is consideredacross a wide range of Knudsen numbers, as follows [39,41,46,68]. Inthis model, for the pore radius range of 0.1 * 10⁻⁶ m to 1 * 10⁻⁶ m, the",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. Comparison of effect of increasing the feed water temperature(a) andfeed water flow rate(b) on flux between the present results and Francis et al.[73] results. H. Kariman et al.Journal of Membrane Science 721 (2025) 123836 corresponding Kn range would be 0.55 to 0.0559.\n\nJ = ⎧⎪⎪⎪⎪⎪⎨ ⎪⎪⎪⎪⎪⎩ Dk*((γwf*x wf* Pvmf\n\n)-Pvcw ), if Kn > 1 ( 1Dk + 1Dm )-1 *((γwf*x wf* Pvmf )-Pvcw\n\n(32)\n\nThe permeability coefficient for Knudsen diffusion can be defined asfollows [39,41,46,68]. Dk = ((3*dm*τ 2*ε*r )*(π*R*Tm 8*Molw )0.5)-1\n\n(33) The permeability coefficient for the molecular diffusion can bedefined as follows [39,41,46,68]. Dm =( R*Tm*dm*τ*Pair Molw* ε*Pv*Dw,air )(34) According to the Bosanquet equation, the permeability coefficientcomprises both the Knudsen diffusion term and the molecular diffusionterm. This can be calculated as follows [39,41,46,68]. In these Equations, dm and ε are the thicknesses and porosity of themembrane, respectively. R and Pair are the universal gas constant andthe partial pressure of air in the membrane pores, respectively. Thevalue of Pv*Dw,air can be estimated as follows [46,69].\n\nFig. 6. Comparison of (a) flux, (b) TPC, (c) STEC, and (d) GOR between flat sheet and hollow fibre systems for various feed water temperatures (M0f = 250 l.h-1, M0c = 75 l.h-1, Tc = 32 C0, dag = 1 mm, wNaCl = 35 g.l-1).\n\nDk,m =( 1Dk + 1Dm )-1 =[3*( τ* dm + dag\n\n]-1\n\n(35)\n\nH. Kariman et al.Journal of Membrane Science 721 (2025) 123836",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Pv*Dw,air = 1.895*10-5*T2.072ave(36) In this equation, the Tave is the average temperature in membranepore size, which can be calculated as follows [46]. Tave = Tmf + Tcw 2(37) In Equation (33), τ is the tortuosity of the membrane, which can beobtained as follows [46,70]. τ = (2 -ε)2 ε(38) As explained previously, the Kn range is 0.01 ≤Kn ≤1 and transitionregion where both Knudsen diffusion and molecular diffusion contributesignificantly to transport through the membrane. For this reason,Equation (35) has been used to calculate both the Knudsen diffusionterm and the molecular diffusion term.After solving the Equations in MATLAB software and obtaining thevalues of J, Tmf, Tcw, Q0f and Q0p, the TPC, GOR and STEC can be calculated as follows [31–33,36]. TPC = (Tmf -Tcw )(Tf -Tc )(39) GOR = J* Hv*Amem E0TOT\n\n(40)\n\n[ФОРМУЛА: [FORMULA_ID: a7df1125-074c-41cf-aaea-24e38bc13d6b] STEC = Q0 in Vp]\n\n(41) Q0in = Q0f + Q0c(42) Additionally, by combining Equations ((1), (8), [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] and (42),Equation (41) can be converted as follow: STEC = [( Nuf*Kdh )+(J*Cf\n\n)(Tf -Tmf )]+[( Nuc*Kdh )*(Tpc -Tc",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ")] Vp (43) In these Equations, the Amem and Vp are the effective membrane areaand the distillate volume flowrate, respectively. The energy consumption of pumps, pressure drop or friction loss (Hagen-Poiseuille’s equation for laminar flow) in the modules, and total energy consumption ofsystems can be calculated as follows [71,72].\n\nE0P = M0 ( m3 s )*ΔP η(44) ΔP = 32* μ*L* u dh2(45) E0TOT = E0P + Q0in(46) where η is efficiency of pumps. In addition to Equation (45), To quantifythe trade-off between heat transfer efficiency and Friction Loss, the ratioof heat transfer improvement to friction loss increment has been definedas [71]: RHT/FL =ΔηHTΔFL = ΔP(47)\n\nFig. 7. Comparison of (a) flux, (b) TPC, (c) STEC, and (d) GOR between flat sheet and hollow fibre systems for various feed water flow rates and effect of changing feed water flow rate on feed water Reynolds number (Tf = 60 C0, M0c = 75 l.h-1, Tc = 32 C0, dag = 1 mm, wNaCl = 35 g.l-1). H. Kariman et al.Journal of Membrane Science 721 (2025) 123836 where ΔηHT is improvement in heat transfer efficiency which can beconsider as overall heat transfer coefficient (Equation [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}]) [71]. Q0c canbe calculated as follows. Q0c = Tmf -Tcw dmkm + dag kag",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9,
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(48) where, km represents the thermal conductivity of the membrane.The energy model for both flat sheet and hollow fibre AGMD systemscan be solved in MATLAB software with the iteration method. Relatedflowchart details are shown in Fig. 4 and operating parameter specifications for both systems are presented in Table 4. 4. Model validation The mathematical model in this research was validated using theexperimental results of flat sheet AGMD systems of Francis et al. [73].For accurately assessing the difference between experimental data andmodelling results, the average relative error has been used as follows[74]. Er = 1n*∑n i=1 ⃒⃒⃒⃒ Xcal,i -Xexp,i Xexp,i ⃒⃒⃒⃒*100 %(44) In this equation, Xcal,i, Xexp,i and n represent the calculation results ofmodelling in this research, the experiment results of Francis et al. [73]and the numbers of comparison points, respectively. In Fig. 5, the effectsof increasing feed water temperature and feed flow rate on flux havebeen compared with the results of Francis et al. [73]. The averagerelative error of the model based on Equation (38) (Fig. 5(a) and (b))was found to be 5.67 % and 1.68 %, respectively. The models for both flat sheet and hollow fibre AGMD systems in this study exhibit reliability, ensuring a certain level of accuracy for the system model. 5. Results and discussion All comparison results for both flat sheet and hollow fibre systemswere obtained under the same operating conditions and will be presented in the following sections.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5.1. Effect of feed water temperature The comparison of flux, TPC, STEC and GOR between flat sheet andhollow fibre systems for various feed water temperatures is illustrated inFig. 6. On the one hand, as evident in Fig. 6(a), increasing the feed watertemperature base on Equation (26) led to increase the pressure of feedwater and led to an exponential increase in flux for both hollow fibre andflat sheet systems.On the other hand, at lower temperatures, the flux is almost the samefor both systems. Beyond 60 ◦C, the rate of increase in flux for the hollowfibre system is higher than that for the flat sheet system, with values ofapproximately 2.1 l m-2 h-1 and 1.4 l m-2 h-1 for hollow fibre and flatsheet systems, respectively. As seen in Fig. 6(b), the amount of TPC forhollow fibre system is higher than that for flat sheet system at all temperatures. The reason for this difference between flat sheet and hollowfibre AGMD systems would be based on their structure and thermaldistribution through the feed water channels. With an increase in feedwater temperature, the TPC increases rapidly at first, and then remainsapproximately constant after 50 ◦C for both systems. The values of TPCfor hollow fibre and flat sheet systems at 80 ◦C were approximately 0.87",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 8. Comparison of (a) pressure drops, (b) Pump power, and heat transfer enhancement to friction loss ratio (R =HT/FL) between flat sheet and hollow fibre systems for various feed water flow rates (Tf = 60 C0, M0c = 75 l.h-1, Tc = 32 C0, dag = 1 mm, wNaCl = 35 g.l-1). H. Kariman et al.Journal of Membrane Science 721 (2025) 123836 and 0.6, respectively. As shown in Fig. 6(c), the amount of STEC for theflat sheet system was higher than that for hollow fibre system. This trendindicates that with increasing feed water temperature, the STEC for bothsystems decrease. Fig. 6(d) confirms that the GOR for the hollow fibresystem was consistently higher than flat sheet system across all temperatures. Additionally, as the feed water temperature increased, theGOR for both systems increase linearly. The highest amount of GOR forhollow fibre and flat sheet systems were approximately 3.4 and 2.3,respectively. The reason for differences the STEC and GOR between flatsheet and hollow fibre AGMD systems would be based on Equations (40)and (41), the energy consumption and flux of flat sheet is higher andlower than hollow fibre, respectively. 5.2. Effect of feed water flowrate The comparison of flux, TPC, STEC and GOR between flat sheet andhollow fibre systems for various feedwater flowrates and the effect ofchanging feed water flow rate on feed water Reynolds number arepresented in Fig. 7. Fig.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ibre systems for various feedwater flowrates and the effect ofchanging feed water flow rate on feed water Reynolds number arepresented in Fig. 7. Fig. 7(a) show that increasing the feedwater flowrate did not have a significant effect on flux for either system. The fluxfor the hollow fibre system was consistently higher than that for the flatsheet system across all feedwater flow rates. At feed water flow rate 250l h-1, the flux were approximately 0.78 l m-2 h-1 and 0.61 l m-2 h-1 forhollow fibre and flat sheet, respectively.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7(b) demonstrates that increasing the feedwater flow rate, asdescribed in Equations [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] and [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}]–(17), led to an increase in feedwater velocity, which in turn increases the Reynolds number. This increase in Reynolds number enhances the Nusselt number, therebyimproving the heat transfer coefficient on the feed side. Based onEquations (24), (25) and (39), this can result in a significant increase inthe TPC for both systems. This rate of increase for both systems werealmost the same, with the hollow fibre system exhibiting a higheramount of TPC than the flat sheet system across all feedwater flow ratesdue to a higher Reynolds number than flat sheet system. The reason forthis difference is in their design and geometry and how the flow isdistributed in each system. The values of TPC at feed water flow rate(250 l h-1) were approximately 0.86 and 0.6 for hollow fibre and flatsheet, respectively. As shown in Fig.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "m. The values of TPC at feed water flow rate(250 l h-1) were approximately 0.86 and 0.6 for hollow fibre and flatsheet, respectively. As shown in Fig. 7(c) and (d), increasing the feedwater flow rate resulted in a higher Reynolds number for both systems.According to Equations (40) and (41), this increase in Reynolds numberled to a rise in the amount of input energy to the system, consequentlyincreasing the STEC and decreasing the amount of GOR for both systems.The STEC of the flat sheet system was higher than that of the hollowfibre system, while the GOR of the hollow fibre system was higher thanthat of flat sheet system across all feedwater flow rates that could be dueto a higher Reynolds number in hollow fibre case. The values of GOR at250 l h-1 feed water flow rate were approximately 1.77 l m-2 h-1 and1.35 l m-2 h-1 for hollow fibre and flat sheet systems, respectively.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The comparison of pressure drops, feed pump power, and heattransfer enhancement to friction loss ratio(RHT/FL )of flat sheet andhollow fibre systems for various feedwater flowrates is presented inFig. 8. Fig. 8(a) confirms that increasing the feedwater flow rate, asdescribed in Equations 19 and 44, led to a rise in pressure drop in bothflat sheet and hollow fibre systems. Similarly, as shown in Fig. 8(b), thisincrease in pressure drop results in higher pump power consumption inboth systems, as predicted by Equation 43. Furthermore, Fig. 8 illustrates that, based on Equations 43 and 44, the hollow fibre system,having a lower hydraulic diameter than the flat-sheet system, experiences higher pressure drops and greater pump power consumption.Specifically, in the hollow fibre system, at a feedwater flow rate of 100 lh-1, the pressure drop, and pump power consumption are 583 Pa and0.02 kWh.m-3, respectively, while at 250 l h-1, these values increase to1460 Pa and 0.12 kWh.m-3 respectively. In contrast, for the flat-sheetsystem, the pressure drop, and pump power at 100 l.h-1are 127 Paand 0.004 kWh.m-3, respectively, and at 250 l h-1, they rise to 319 Paand 0.027 kWh.m-3, respectively. This comparison highlights that froman economic and energy efficiency perspective, the flat-sheet system ismore advantageous due to its significantly lower pumping power requirements compared to the hollow fibre system.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "perspective, the flat-sheet system ismore advantageous due to its significantly lower pumping power requirements compared to the hollow fibre system. As shown in Fig.8(c),the heat transfer enhancement to friction loss ratio (R) decreases forboth flat sheet and hollow fibre AGMD systems as the feedwater flowrate increases, following Equations 12, 45, and 47. At low flow rates, Rinitially increases due to significant heat transfer improvement. As theflow rate reaches moderate levels, R peaks as the rate of heat transfergain slows while friction losses continue to rise. At high flow rates, Rdeclinessharplyduetotherapidincreaseinfrictionallosses outweighing heat transfer improvements. Additionally, the flat sheetsystem consistently exhibits a higher R value compared to the hollowfibre system across all feedwater flow rates. For instance, at a feedwaterflow rate of 100 l h-1, R is 2.55 for the flat-sheet system and 1.34 for thehollow fibre system. As the flow rate increases to 250 l h-1, R decreasesto 1.38 and 0.72, respectively, corresponding to a reduction of 54 % and53 % for the flat sheet and hollow fibre systems, respectively. This trendhighlights the impact of increasing feedwater flow rate on the trade-offbetween heat transfer efficiency and frictional losses in both AGMDconfigurations.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "5.3. Effect of cold-water temperature The comparison of flux, TPC, STEC and GOR between flat sheet andhollow fibre systems for various cold-water temperatures is shown inFig. 9. As illustrated in Fig. 9(a), increasing the cold-water temperaturebased on Equation (26) led to a decrease in the pressure of cold-waterand led to decrease the flux for both systems. This decline was not significant and the amount of flux across all temperatures was higher forhollow fibre systems compared to flat sheet systems. The values of flux atcold water temperature (42 ◦C) are likely to decrease to approximately0.62 l m-2 h-1 and 0.52 l m-2 h-1 for hollow fibre and flat sheet,respectively. As shown in Fig. 9(b), the amount of TPC of hollow fibresystems was higher than flat sheet system across all temperatures.Increasing cold water temperature could decrease the TPC of both systems, and the values of TPC at cold water temperature (42 ◦C) werelikely to decrease to approximately 0.85 and 0.58 for hollow fibre andflat sheet, respectively. Fig. 9(c) and (d) confirm that the STEC of both",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 10. Comparison of flux(a), TPC(b), STEC(c) and GOR(d) between flat sheet and hollow fibre systems for various cold water flow rates (Tf = 60 C0, M0f = 250 l. h-1 , Tc = 32 C0dag = 1 mm, wNaCl = 35 g.l-1). H. Kariman et al.Journal of Membrane Science 721 (2025) 123836 systems increased with rising cold-water temperature, although the GORof both systems decreased after cold-water temperature rises. Furthermore, the amount of STEC in the flat sheet system was higher than thehollow fibre system, while the GOR of hollow fibre systems was higherthan flat sheet system across all temperature. The values of GOR at coldwater temperature (42 ◦C) are likely to decrease to approximately 1.39and 1.23 for hollow fibre and flat sheet, respectively. The reason for thisdifference between flat sheet and hollow fibre AGMD systems would bebased on their structure and thermal distribution through the cold-waterchannels. 5.4. Effect of cold-water flowrate The comparison of flux, TPC, STEC and GOR between flat sheet andhollow fibre systems for various cold-water flow rates are shown inFig. 10. As shown in Fig. 10(a) and (b), the increase in cold water flowrate based on Equations ([ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] and [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] and [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] and (17)–(19) and (24) and (25)and (39), had a very low impact on flux and TPC of both systems, withthe changes being almost negligible. The hollow fibre system had higherflux and TPC than flat sheet systems across all flowrates. Fig. 10(c) and(d) show that based on Equations 40–42 the STEC was likely to increasefor both systems after increasing the cold-water flow rate, while the GORwas likely to decrease. In addition, the STEC of the flat sheet system washigher and the GOR was lower than that of hollow fibre system across allflow rates. The reason for this difference between flat sheet and hollow fibre AGMD systems would be based on their structure and flow distribution through cold-water channels. 5.5. Effect of air gap thickness The comparison of flux, TPC, STEC and GOR between flat sheet andhollow fibre systems for various airgap thicknesses are shown in Fig. 11.As illustrated in Fig. 11(a), increasing the air gap thickness based onEquations (26) and (35) led to decreasing the diffusion coefficient andled to dramatically decreased the flux for both systems. This decrease isexponential, with the most significant reductions occurring at thebeginning of the diagram.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "cally decreased the flux for both systems. This decrease isexponential, with the most significant reductions occurring at thebeginning of the diagram. The amount of flux for hollow fibre systemwas higher than flat sheet forms across all thicknesses, where the valuesof flux at air gap thickness (10 mm) was likely to decrease to approximately 0.09 l m-2 h-1 and 0.06 l m-2 h-1 for hollow fibre and flat sheetsystems, respectively. Fig. 11(b) shows that increasing the air gapthickness based on Equations (24) and (25) led to a decrease in TPC forboth systems. The hollow fibre system had higher TPC than flat sheetsystems across all thicknesses, and the values of TPC at air gap thickness(10 mm) were likely to decrease to approximately 0.83 and 0.57 forhollow fibre and flat sheet, respectively. As exhibited in Fig. 11(c) and(d), increasing the air gap thickness led to decrease in flux and based onEquations (40) and (41) led to a significant increase in STEC, and adramatic decrease in GOR for both systems. Additionally, the amount ofSTEC for the hollow fibre system was lower than the flat sheet system.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The values of STEC at an air gap thickness of 10 mm are likely to increaseto approximately 7000 kWh.m-3 and 29000 kWh.m-3 for hollow fibreand flat sheet, respectively. Although the GOR of the hollow fibre ishigher than the flat sheet across all thicknesses, the values of GOR at airgap thickness (10 mm) were likely to decrease to approximately 0.21and 0.14 for the hollow fibre and the flat sheet, respectively. 5.6. Effect of salt concentration The comparison of flux, TPC, STEC and GOR between flat sheet andhollow fibre systems for various salt concentrations of feed water arereported in Fig. 12. As shown in Fig. 12(a), (b), (c) and (d), the changesin salt concentration of feed water have negligible impact on flux, TPC,STEC and GOR of both systems. Increasing the salt concentration led to aslight decrease in flux, TPC and GOR, while the STEC increasedmarginally. Furthermore, the amount of flux, TPC and GOR of hollowfibre system was higher than flat sheet systems, and STEC of hollow fibresystems was lower than flat sheet systems across all salt concentrations. 5.7. Effect of feed water Reynolds number Fig. 13 presents a comparison of flux, TPC, STEC, and GOR betweenflat sheet and hollow fibre systems across various Reynolds numbers,both in laminar and turbulent feedwater flow conditions. The purpose ofthis section is to demonstrate the systems’ performance at Reynoldsnumbers beyond the laminar range, simulating turbulent flow conditions.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e purpose ofthis section is to demonstrate the systems’ performance at Reynoldsnumbers beyond the laminar range, simulating turbulent flow conditions. This comparison was conducted using membranes with similarproperties, such as membrane thickness, while varying the feedwater flow rate to generate different Reynolds numbers, allowing for anevaluation of system performance. As shown in Fig. 13(a), an increase inthe Reynolds number within the laminar region (Reynolds below 2300)led to a rise in the Nusselt number, as described by Equations [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] and[ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}]–(17) and (26). This subsequently enhances the heat transfer coefficient in the feedwater section, resulting in a significant increase in fluxfor both systems. However, after a Reynolds number of 4000, theamount of flux for both systems were likely to remain constant and reach0.96 l m-2 h-1 and 0.86 l m-2 h-1 for hollow fibre and flat sheet systemsrespectively, at a Reynolds number of 5100. Similarly, Fig.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "constant and reach0.96 l m-2 h-1 and 0.86 l m-2 h-1 for hollow fibre and flat sheet systemsrespectively, at a Reynolds number of 5100. Similarly, Fig. 13(b) showsthat the TPC for both systems, as described by Equations ([ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] and [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}]–(17) and (24) and (25) and (39), increased sharply with the rise inReynolds number within the laminar region (Reynolds number below2300). This increase in Reynolds number led to a higher Nusselt number,which subsequently enhances the heat transfer coefficient. For the hollow fibre system, this remained approximately constant after a Reynoldsnumber of 4000, while the increasing trend for the flat sheet systemcontinued up to a Reynolds number of 4100 before leveling off.Furthermore, Fig. 13 (c) and (d) show that increasing the Reynoldsnumber dramatically increased the STEC and decreased the GOR forboth systems in both laminar and turbulent regions. Finally, as shown inFig. 12 (c) and (d), although increasing the Reynolds number canenhance both flux and TPC, it may also result in an increase in STEC anda decrease in GOR for both flat sheet and hollow fibre systems. 5.8. Effect of membrane porosity Fig. 14 shows the comparison of flux, TPC, STEC and GOR between",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 12. Comparison of flux(a), TPC(b), STEC(c) and GOR(d) between flat sheet and hollow fibre systems for various salt concentrations (Tf = 60 C0, M0f = 250 l.h-1 Tc = 32 C0, M0c = 75 l.h-1, dag = 1 mm. H. Kariman et al.Journal of Membrane Science 721 (2025) 123836 flat sheet and hollow fibre systems for various membrane porosityvalues. As illustrated in Fig. 14(a), (b), (c) and (d), increasing theporosity of membrane based on Equations ((24), (26), (35) and (40) cansignificantly increase the flux, TPC and GOR. Moreover, the amount offlux, TPC and GOR for hollow fibre systems can be higher than flat sheetsystems across all porosity values. Further, an increase in porosity candecrease the STEC value dramatically for both systems based on Equation (41). The flat sheet system has higher STEC values than hollow fibreacross all porosity values. The amount of flux, TPC, STEC and GOR forhollow fibre system at porosity 0.9 can be approximately 1 l m-2 h-1,0.9, 679 kWh.m-3, and 2.26, respectively. These values for flat sheetsystems are 0.77 l m-2 h-1, 0.64, 2402 kWh.m-3 and 1.74, respectively. 5.9. Effect of membrane pore radius Fig. 15 shows a comparison of flux, TPC, STEC and GOR between flatsheet and hollow fibre systems for various pore radii of membrane. Asshown in Fig. 15(a) and (d), increasing the pore radius based on Equations ((24), (30), (35) and (40) led to an increase in both flux and GORfor both systems.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 15(a) and (d), increasing the pore radius based on Equations ((24), (30), (35) and (40) led to an increase in both flux and GORfor both systems. For flat sheet systems, the increase was linear, whilefor hollow fibre systems, it was exponential. This difference causes theflux and GOR of hollow fibre systems to be higher than those of flat sheetsystems, with a pore radius of 0.1 μm to 0.6 μm. Beyond 0.7 μm and up to1 μm, the flux and GOR of flat sheet systems reached approximately to2.9 l m-2 h-1 and 6.62, respectively, which is higher than that of fluxand GOR of hollow fibre system with values of 2.74 l m-2 h-1 and 6.17,respectively. Fig. 15(b) shows that the effect of increasing pore radius on TPC forboth systems is negligible. Fig. 15 (c) shows that increasing the poreradius of the membrane can significantly decrease the STEC for bothsystems. These changes can be considerable for a pore radius between",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "0.1 μm to 0.4 μm and after 0.4 μm, whereby these changes could becomevery gradual for both systems. The changes of STEC for flat sheet systemscan be higher than hollow fibre systems across all pore radii. The valuesof STEC at pore radius 1 μ m is likely to decrease to 248 kWh.m-3 and631 kWh.m-3 for hollow fibre and flat sheet systems, respectively. 5.10. Effect of membrane thickness The comparison of flux, TPC, STEC and GOR between flat sheet andhollow fibre systems for various membrane thicknesses is illustrated inFig. 16. As shown in Fig. 16(a) and (d), the increase in the membranethickness based on Equations (28), (32) and (40) led to increase thethermal resistance of membrane and is likely to decrease the flux andGOR for both systems. The amount of flux and GOR values for hollowfibre system are higher than that of flat sheet system. As shown in Fig. 16(b), the increase in the membrane thickness based on Equations (24),(25) and (39) had a negligible effect on TPC for both systems, and thehollow fibre system had a higher TPC value than the flat sheet systemacross all membrane thicknesses. Fig. 16(c) clearly shows that based onEquations (28,32, and 41) the STEC value is likely to increase slightlyafter increasing the membrane thickness for both systems, where the flatsheet system had a higher STEC value than hollow fibre membranesystems across all membrane thicknesses. 6.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e thickness for both systems, where the flatsheet system had a higher STEC value than hollow fibre membranesystems across all membrane thicknesses. 6. Conclusions and future prospects This study has modelled, simulated and compared two differenttypes of AGMD system designs and structures in terms of flux, TPC, STECand GOR. The research has introduced flat sheet and hollow fibre AGMDsystem descriptions and designs. Further, it has presented a detailedmathematical model for flat sheet and hollow fibre AGMD systems based",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 13. Comparison of flux(a), TPC(b), STEC(c) and GOR(d) between flat sheet and hollow fibre systems for various feed water Reynolds numbers (Tf = 60 C0, M0f = 250 l.h-1 Tc = 32 C0, M0c = 75 l.h-1, dag = 1 mm, wNaCl = 35 g.l-1). H. Kariman et al.Journal of Membrane Science 721 (2025) 123836 on their structural features and design parameters. The study hascomprehensively compared these systems in terms of flux, TPC, STECand GOR, based on operating conditions and membrane properties inboth laminar and turbulent feed water flow conditions. The findings canbe summarized as follows. The hollow fibre AGMD system has higher flux, TPC and GOR andlower STEC than the flat sheet AGMD system in all operationalconditions and membrane properties (Figs. 6–15). For instance, inFig. 6, the flux value for hollow fibre and flat sheet AGMD systems atsimulation conditions and 80 ◦C feed water temperature is approximately 2.1 l m-2 h-1 and 1.4 l m-2 h-1, respectively. Additionally, inFig. 7, the TPC value for hollow fibre and flat sheet AGMD systems atsimulation conditions and 250 l h-1 feed water flow rate is approximately 0.86 and 0.6, respectively. The comparison of pressure drops and feed pump power between flatsheet and hollow fibre systems (Fig. 8) indicates that increasing thefeedwater flow rate leads to higher pressure drops and pump powerconsumption in both systems.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "llow fibre systems (Fig. 8) indicates that increasing thefeedwater flow rate leads to higher pressure drops and pump powerconsumption in both systems. However, due to its lower hydraulicdiameter, the hollow fibre system experiences significantly greaterpressure drops (up to 1460 Pa) and higher pump power consumption(up to 0.12 kWh.m-3) compared to the flat sheet system (319 Pa,0.027 kWh.m-3 at the same flow rate), making the flat-sheet systemmore energy efficient and economically favourable. In addition to, asthe feedwater flow rate increases, the heat transfer enhancement tofriction loss ratio (R) decreases in both flat sheet and hollow fibreAGMD systems. This decline is attributed to the rapid increase in frictional losses surpassing the gains in heat transfer efficiency.Notably, the flat sheet system consistently exhibits higher R valuesacross all tested flow rates compared to the hollow fibre system. Forexample, at a feedwater flow rate of 100 l h-1, the R value is 2.55 forthe flat-sheet system and 1.34 for the hollow fibre system. As the flowrate increases to 250 l h-1, R decreases to 1.38 and 0.72, respectively, representing a reduction of 54 % and 53 % for the flat-sheetand hollow fibre systems. This trend emphasizes how increasingthe feedwater flow rate affects the balance between heat transferefficiency and frictional losses in both AGMD configurations.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "mphasizes how increasingthe feedwater flow rate affects the balance between heat transferefficiency and frictional losses in both AGMD configurations. The Reynolds number of the feedwater flow is a crucial parameter forboth the performance and thermal efficiency of the systems. Asshown in Fig. 6, at the same feedwater flow rate, the hollow fibresystem exhibits a higher Reynolds number compared to the flat sheetsystem. This difference can lead to higher flux, TPC, and GOR andlower STEC in the hollow fibre system. Furthermore, in Fig. 13,considering the simulation conditions of this study in both laminarand turbulent regimes of feed water flow, hollow fibre AGMD systemhas higher flux, GOR and lower STEC than the flat sheet AGMDsystem. This indicates that hollow fibre AGMD system has higherefficiency, productivity and lower energy consumption compared toflat sheet AGMD system under same effective membrane area,properties and operational conditions. The hollow fibre AGMD system has higher TPC than the flat sheetsystem for all simulated Reynolds numbers (Fig. 13), whereby itexhibits that the hollow fibre system has better thermal distributionand thermal efficiency than the flat sheet AGMD system under same",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        16
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 14. Comparison of flux(a), TPC(b), STEC(c) and GOR(d) between flat sheet and hollow fibre systems for various membrane porosities (Tf = 60 C0, M0f = 250 l. h-1, Tc = 32 0C, M0c = 75 l.h-1, dag = 1 mm, wNaCl = 35 g.l-1). H. Kariman et al.Journal of Membrane Science 721 (2025) 123836 effective membrane area, properties, and operational conditions.Additionally, while an increase in the feedwater Reynolds numberleads to higher TPC for both systems, it also results in a decrease inGOR and an increase in STEC. The results of this study indicate thatoperating AGMD at a Reynolds number above 4000 does not enhanceflux in either system. However, these findings are based on mathematical simulations, and the authors were unable to find anyexperimental research in the literature in turbulent condition forcomparison. In both hollow fibre and flat sheet AGMD systems, the air gapthickness has a high impact on flux, TPC, GOR and STEC. With theincrease in the air gap thickness, the flux, TPC and GOR decreasesharply and STEC increase dramatically. For instance, in Fig. 11, thevalues of flux of hollow fibre AGMD system in air gaps 1 mm and 10mm are 0.78 l m-2 h-1 and 0.09 l m-2 h-1, respectively. Additionally, the values of TPC of flat sheet AGMD systems in 1 mm and 10mm air gaps are 0.59 and 0.56, respectively.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        17
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nd 0.09 l m-2 h-1, respectively. Additionally, the values of TPC of flat sheet AGMD systems in 1 mm and 10mm air gaps are 0.59 and 0.56, respectively. Besides this, the air gap thickness and Reynolds number of feed waterflow, the feed water temperature, porosity and pore radius have asignificant impact on the flux of both systems (Figs. 6, 14 and 15).Furthermore, the feed water temperature, feed water flow rate, coldwater temperature and porosity have a paramount influence on theTPC of both systems (Figs. 6, 7, 10 and 14). Moreover, almost all operational conditions and membrane properties, except salt concentration, could affect the STEC and GOR ofboth systems.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        17
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Salt concentration has a negligible impact on the flux, TPC, STEC andGOR for both systems (Fig. 12). As this study does not provide insights into the effects of increasing salt concentration on other MDsystem phenomena including wetting and fouling, further investigations are required in the future to address this effect of theoverall system’s performance. Experimentally analysis comparison of flat sheet and hollow fibreAGMD systems in future at same effective membrane area wouldprovide valuable insights related to performance and thermal efficiency of these systems. CRediT authorship contribution statement Hamed Kariman: Writing – review & editing, Visualization, Validation,Supervision,Software,Resources,Projectadministration,Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Hussein A. Mohammed: Writing – review & editing, Visualization, Supervision, Resources, Investigation. Masoumeh Zargar:Writing – review & editing, Visualization, Supervision, Resources,Investigation. Mehdi Khiadani: Writing – review & editing, Visualization, Supervision, Resources, Methodology, Investigation, Formal analysis, Conceptualization. Declaration of competing interest We wish to confirm that there are no known conflicts of interestassociated with this publication and there has been no significant",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        17
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 16. Comparison of flux(a), TPC(b), STEC(c) and GOR(d) between flat sheet and hollow fibre systems for various membrane thickness values (Tf = 60 C0, M0f = 250 l.h-1, Tc = 32 C0, M0c = 75 l.h-1, dag = 1 mm, wNaCl = 35 g.l-1). H. Kariman et al.Journal of Membrane Science 721 (2025) 123836 approach, Desalination 526 (Mar 15 2022) (in English), ARTN 11553910.1016/j.desal.2021.115539.[20] B.G. Im, L. Francis, R. Santosh, W.S. Kim, N. Ghaffour, Y.D. Kim, Comprehensiveinsights into performance of water gap and air gap membrane distillation modulesusing hollow fiber membranes, Desalination 525 (Mar 1 2022) (in English), ARTN11549710.1016/j.desal.2021.115497.[21] M. Bindels, B. Nelemans, Theoretical analysis of heat pump assisted air gapmembrane distillation, Desalination 518 (Dec 15 2021). ARTN 11528210.1016/j.desal.2021.115282, (in English).[22] P. Behnam, M. Faegh, M. Khiadani, A review on state-of-the-art applications ofdata-driven methods in desalination systems, Desalination 532 (Jun 15 2022).ARTN 11574410.1016/j.desal.2022.115744, (in English).[23] N. Thomas, J. Swaminathan, G. Zaragoza, R.K.A. Al-Rub, H.A. Arafat, Comparativeassessment of the effects of 3D printed feed spacers on process performance in MDsystems, Desalination 503 (2021) 114940.[24] A. Ansari, et al., Computational fluid dynamics modelling of air-gap membranedistillation: Spacer-filled and solar-assisted modules, Desalination 546 (Jan 152023). ARTN 11620710.1016/j.desal.2022.116207(in English).[25] H.A.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        19
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "anedistillation: Spacer-filled and solar-assisted modules, Desalination 546 (Jan 152023). ARTN 11620710.1016/j.desal.2022.116207(in English).[25] H.A. Hijaz, M. Zargar, A. Shafieian, A. Razmjou, M. Khiadani, Experimentalinvestigation of temperature polarisation by capturing the temperature profiledevelopment over DCMD membranes, J. Membr. Sci. 687 (Dec 5 2023). ARTN12208910.1016/j.memsci.2023.122089, (in English).[26] Y.M. Manawi, M.A.M.M. Khraisheh, A.K. Fard, F. Benyahia, S. Adham, A predictivemodel for the assessment of the temperature polarization effect in direct contactmembrane distillation desalination of high salinity feed, Desalination 341 (May 152014) 38–49, https://doi.org/10.1016/j.desal.2014.02.028 (in English).[27] A. Anvari, A.A. Yancheshme, K.M. Kekre, A. Ronen, State-of-the-art methods forovercoming temperature polarization in membrane distillation process: a review,J. Membr. Sci. 616 (Dec 15 2020). ARTN 11841310.1016/j.memsci.2020.118413,(in English).[28] F.E. Ahmed, B.S. Lalia, R. Hashaikeh, N. Hilal, Alternative heating techniques inmembrane distillation: a review, Desalination 496 (Dec 15 2020). ARTN11471310.1016/j.desal.2020.114713, (in English).[29] P. Wang, T.S. Chung, Recent advances in membrane distillation processes:membrane development, configuration design and application exploring,J. Membr. Sci. 474 (Jan 15 2015) 39–56, https://doi.org/10.1016/j.memsci.2014.09.016 (in English).[30] G. Naidu, L. Tijing, M.A.H. Johir, H. Shon, S.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        19
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ",J. Membr. Sci. 474 (Jan 15 2015) 39–56, https://doi.org/10.1016/j.memsci.2014.09.016 (in English).[30] G. Naidu, L. Tijing, M.A.H. Johir, H. Shon, S. Vigneswaran, Hybrid membranedistillation: resource, nutrient and energy recovery, J. Membr. Sci. 599 (Apr 12020).[31] J.L. Xu, Y.B. Singh, G.L. Amy, N. Ghaffour, Effect of operating parameters andmembrane characteristics on air gap membrane distillation performance for thetreatment of highly saline water, J. Membr. Sci. 512 (Aug 15 2016) 73–82, https://doi.org/10.1016/j.memsci.2016.04.010 (in English).[32] K. Ali, H.A. Arafat, M.I.H. Ali, Detailed numerical analysis of air gap membranedistillation performance using different membrane materials and porosity,Desalination 551 (Apr 1 2023). ARTN 11643610.1016/j.desal.2023.116437, (inEnglish).[33] A. Khalifa, D. Lawal, M. Antar, M. Khayet, Experimental and theoreticalinvestigation on water desalination using air gap membrane distillation,Desalination 376 (Nov 16 2015) 94–108, https://doi.org/10.1016/j.desal.2015.08.016 (in English).[34] J. Choi, J. Cho, H. Cha, K.G. Song, Computational fluid dynamics simulation of thestacked module in air gap membrane distillation for enhanced permeate flux andenergy efficiency, Appl. Energy 360 (2024) 122805.[35] A.S. Alsaadi, et al., Modeling of air-gap membrane distillation process: a theoreticaland experimental study, J. Membr. Sci. 445 (Oct 15 2013) 53–65, https://doi.org/10.1016/j.memsci.2013.05.049 (in English).[36] D. Lawal, M.A. Azeem, A.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        19
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nd experimental study, J. Membr. Sci. 445 (Oct 15 2013) 53–65, https://doi.org/10.1016/j.memsci.2013.05.049 (in English).[36] D. Lawal, M.A. Azeem, A. Khalifa, W. Falath, T. Baroud, M. Antar, Performanceimprovement of an air gap membrane distillation process with rotating fan, Appl.Therm. Eng. 204 (Mar 5 2022). ARTN 11796410.1016/j.applthermaleng.2021.117964, (in English).[37] Y. Qin, et al., Integration of high-temperature PEMFC with air gap membranedistillation for simultaneous electricity generation and seawater desalination: atheoretical investigation, Desalination 543 (Dec 1 2022). ARTN 11610010.1016/j.desal.2022.116100(in English).[38] A.M. Sandid, M. Bassyouni, D. Nehari, Y. Elhenawy, Experimental and simulationstudy of multichannel air gap membrane distillation process with two types of solarcollectors, Energy Convers. Manag. 243 (Sep 1 2021). ARTN 11443110.1016/j.enconman.2021.114431, (in English).[39] Z.Y. Liu, Q.J. Gao, X.L. Lu, Z. Ma, H. Zhang, C.R. Wu, Experimental study of theoptimal vacuum pressure in vacuum assisted air gap membrane distillation process,Desalination 414 (Jul 15 2017) 63–72, https://doi.org/10.1016/j.desal.2017.03.031 (in English).[40] I. Requena, J.A. Andr´es-Ma˜nas, G. Zaragoza, Influence of internal design on theperformance of pilot vacuum-assisted air-gap membrane distillation modules forbrine concentration with solar energy, Desalination 573 (Mar 15 2024). ARTN11721810.1016/j.desal.2023.117218, (in English).[41] R.P. Niu, J.J. Du, X.C.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        19
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rine concentration with solar energy, Desalination 573 (Mar 15 2024). ARTN11721810.1016/j.desal.2023.117218, (in English).[41] R.P. Niu, J.J. Du, X.C. Kong, Simulation study of membrane distillation regeneratorbased on reduced pressure air gap, J. Build. Eng. 62 (Dec 15 2022).[42] V. Felix, M. Hardikar, K.L. Hickenbottom, Concentrate circularity: a comparativetechno-economic analysis of membrane distillation and conventional inlandconcentrate management technologies, Desalination 574 (Apr 6 2024). ARTN11721310.1016/j.desal.2023.117213, (in English).[43] J. Coenen, A. Martin, O. Dahl, M. Åslin, Experimental investigation and technoeconomic analysis of tetramethylammonium hydroxide removal from wastewater in nano-electronics manufacturing via membrane distillation, J. Membr. Sci. 579(2019) 283–293.[44] A. Martin, O. Dahl, Techno-economic system analysis of membrane distillationprocess for treatment of chemical mechanical planarization wastewater in nanoelectronics industries, Separ. Purif. Technol. 248 (2020) 117013.[45] A. Alkhudhiri, N. Hilal, Membrane distillation—principles, applications,configurations, design, and implementation, in: Emerging Technologies forSustainable Desalination Handbook, Elsevier, 2018, pp. 55–106.[46] C. Lai, H.C. Zhang, An efficient and economic evacuated U-tube solar collectorpowered air gap membrane distillation hybrid system for seawater desalination,J. Clean. Prod. 394 (Mar 25 2023). ARTN 13638210.1016/j.jclepro.2023.136382,(in English).[47] G.L.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        19
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "istillation hybrid system for seawater desalination,J. Clean. Prod. 394 (Mar 25 2023). ARTN 13638210.1016/j.jclepro.2023.136382,(in English).[47] G.L. Liu, C. Zhu, C.S. Cheung, C.W. Leung, Theoretical and experimental studies onair gap membrane distillation, Heat Mass Tran. 34 (4) (Nov 1998) 329–335,https://doi.org/10.1007/s002310050267 (in English).[48] M. Rabie, et al., Thermal analysis of a hybrid high concentrator photovoltaic/membrane distillation system for isolated coastal regions, Sol. Energy 215 (Feb2021) 220–239, https://doi.org/10.1016/j.solener.2020.12.029 (in English).[49] Q. Zhao, H.C. Zhang, Z.Y. Hu, S.J. Hou, A solar driven hybrid photovoltaicmodule/direct contact membrane distillation system for electricity generation andwater desalination, Energy Convers. Manag. 221 (Oct 1 2020). ARTN11314610.1016/j.enconman.2020.113146, (in English).[50] F.A. Banat, J. Simandl, Desalination by membrane distillation: a parametric study,Separ. Sci. Technol. 33 (2) (1998) 201–226, https://doi.org/10.1080/01496399808544764 (in English).[51] M. Khayet, T. Matsuura, Membrane Distillation, Elsevier, 2011.[52] Y.B. Yun, R.Y. Ma, W.Z. Zhang, A.G. Fane, J.D. Li, Direct contact membranedistillation mechanism for high concentration NaCl solutions, Desalination 188(1–3) (Feb 8 2006) 251–262, https://doi.org/10.1016/j.desal.2005.04.123 (inEnglish).[53] A. Alkhudhiri, N. Darwish, N. Hilal, Membrane distillation: a comprehensivereview, Desalination 287 (2012) 2–18.[54] F.A.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        19
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2005.04.123 (inEnglish).[53] A. Alkhudhiri, N. Darwish, N. Hilal, Membrane distillation: a comprehensivereview, Desalination 287 (2012) 2–18.[54] F.A. Banat, Membrane Distillation for Desalination and Removal of VolatileOrganic Compounds from Water, 1994.[55] M.I. Soomro, W.S. Kim, Performance and economic investigations of solar powertower plant integrated with direct contact membrane distillation system, EnergyConvers. Manag. 174 (Oct 15 2018) 626–638, https://doi.org/10.1016/j.enconman.2018.08.056 (in English).[56] A. Criscuoli, M.C. Carnevale, E. Drioli, Modeling the performance of flat andcapillary membrane modules in vacuum membrane distillation, J. Membr. Sci. 447(Nov 15 2013) 369–375, https://doi.org/10.1016/j.memsci.2013.07.044 (inEnglish).[57] S. Srisurichan, R. Jiraratananon, A.G. Fane, Mass transfer mechanisms andtransport resistances in direct contact membrane distillation process, J. Membr.Sci. 277 (1–2) (Jun 1 2006) 186–194, https://doi.org/10.1016/j.memsci.2005.10.028 (in English).[58] M. Khayet, T. Matsuura, J.I. Mengual, Porous hydrophobic/hydrophilic compositemembranes: estimation of the hydrophobic-layer thickness, J. Membr. Sci. 266(1–2) (Dec 1 2005) 68–79, https://doi.org/10.1016/j.memsci.2005.05.012 (inEnglish).[59] J. Phattaranawik, R. Jiraratananon, A.G. Fane, Heat transport and membranedistillation coefficients in direct contact membrane distillation, J. Membr. Sci.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        19
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "attaranawik, R. Jiraratananon, A.G. Fane, Heat transport and membranedistillation coefficients in direct contact membrane distillation, J. Membr. Sci. 212(1–2) (Feb 15 2003) 177–193, https://doi.org/10.1016/S0376-7388(02)00498-2.Pii S0376-7388(02)00498-2(in English).[60] M. Essalhi, M. Khayet, Self-sustained webs of polyvinylidene fluoride electrospunnanofibers at different electrospinning times: 2. Theoretical analysis, polarizationeffects and thermal efficiency, J. Membr. Sci. 433 (Apr 15 2013) 180–191, https://doi.org/10.1016/j.memsci.2013.01.024 (in English).[61] F.A. Banat, F.A. Al-Rub, M. Shannag, Modeling of dilute ethanol-water mixtureseparation by membrane distillation, Sep. Purif. Technol. 16 (2) (Jul 12 1999)119–131, https://doi.org/10.1016/S1383-5866(98)00117-8 (in English).[62] F.A. Banat, F. Abu Al-Rub, R. Jumah, M. Shannag, Theoretical investigation ofmembrane distillation role in breaking the formic acid-water azeotropic point:comparison between Fickian and Stefan-Maxwell-based models, Int Commun HeatMass 26 (6) (Aug 1999) 879–888, https://doi.org/10.1016/S0735-1933(99)00076-7 (in English).[63] F.A. Banat, F.A. Al-Rub, M. Shannag, Simultaneous removal of acetone and ethanolfrom aqueous solutions by membrane distillation: prediction using the Fick’s andthe exact and approximate Stefan-Maxwell relations, Heat Mass Tran. 35 (5) (Oct1999) 423–431, https://doi.org/10.1007/s002310050344 (in English).[64] M.A. Abu-Zeid, Y.Q. Zhang, H. Dong, L. Zhang, H.L. Chen, L.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        19
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ss Tran. 35 (5) (Oct1999) 423–431, https://doi.org/10.1007/s002310050344 (in English).[64] M.A. Abu-Zeid, Y.Q. Zhang, H. Dong, L. Zhang, H.L. Chen, L. Hou,A comprehensive review of vacuum membrane distillation technique, Desalination356 (Jan 15 2015) 1–14, https://doi.org/10.1016/j.desal.2014.10.033 (inEnglish).[65] H.W. Fan, Y.L. Peng, Application of PVDF membranes in desalination andcomparison of the VMD and DCMD processes, Chem. Eng. Sci. 79 (Sep 10 2012)94–102, https://doi.org/10.1016/j.ces.2012.05.052 (in English).[66] J. Phattaranawik, R. Jiraratananon, A.G. Fane, Effect of pore size distribution andair flux on mass transport in direct contact membrane distillation, J. Membr. Sci.215 (1–2) (Apr 15 2003) 75–85, https://doi.org/10.1016/S0376-7388(02)00603-8(in English).[67] K.Y. Wang, S.W. Foo, T.S. Chung, Mixed matrix PVDF hollow fiber membraneswith nanoscale pores for desalination through direct contact membranedistillation, Ind. Eng. Chem. Res. 48 (9) (May 6 2009) 4474–4483, https://doi.org/10.1021/ie8009704 (in English).",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        19
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "H. Kariman et al.Journal of Membrane Science 721 (2025) 123836\n\n[68] M. Khayet, K.C. Khulbe, T. Matsuura, Characterization of membranes formembrane distillation by atomic force microscopy and estimation of their watervapor transfer coefficients in vacuum membrane distillation process, J. Membr. Sci.238 (1–2) (Jul 15 2004) 199–211, https://doi.org/10.1016/j.memsci.2004.03.036(in English).[69] M.R. Qtaishat, F. Banat, Desalination by solar powered membrane distillationsystems, Desalination 308 (Jan 2 2013) 186–197, https://doi.org/10.1016/j.desal.2012.01.021 (in English).[70] D.U. Lawal, A.E. Khalifa, Flux prediction in direct contact membrane distillation,Int. J. Mater. Mech. Manuf 2 (4) (2014) 302–308.[71] N. Cancilla, A. Tamburini, A. Tarantino, S. Visconti, M. Ciofalo, Friction and heattransfer in membrane distillation channels: an experimental study on conventionaland novel spacers, Membranes 12 [ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] (2022) 1029.",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        19,
+        20
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[72] Y.-D. Kim, K. Thu, N. Ghaffour, K.C. Ng, Performance investigation of a solarassisted direct contact membrane distillation system, J. Membr. Sci. 427 (2013)345–364.[73] L. Francis, N. Ghaffour, A.A. Alsaadi, G.L. Amy, Material gap membranedistillation: a new design for water vapor flux enhancement, J. Membr. Sci. 448(Dec 15 2013) 240–247, https://doi.org/10.1016/j.memsci.2013.08.013 (inEnglish).[74] S.Y. Wu, Z.H. Zhong, L. Xiao, Z.L. Chen, Performance analysis on a novelphotovoltaic-hydrophilic modified tubular seawater desalination (PV-HMTSD)system, Desalination 499 (Feb 1 2021). ARTN 11482910.1016/j.desal.2020.114829, (in English).\n\nH. Kariman et al.Journal of Membrane Science 721 (2025) 123836",
+    "citation": {
+      "authors": [
+        "Mohammed A.",
+        "The R.",
+        "Moreover R."
+      ],
+      "paper_id": "1-s2.0-S0376738825001498-main",
+      "title": "Performance comparison of flat sheet and hollow fibre air gap membrane distillation: A mathematical and simulation modelling approach",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        20
+      ]
+    },
+    "type": "chunk"
+  }
+]

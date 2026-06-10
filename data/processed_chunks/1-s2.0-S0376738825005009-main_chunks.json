@@ -1,0 +1,691 @@
+[
+  {
+    "content": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries Víctor Gregorio a,b,**, Jin Hyun Chang b\n\n, Nuria García a, Pilar Tiemblo a,* a Institute of Polymer Science and Technology, ICTP-CSIC, Juan de la Cierva 3, 28006, Madrid, Spainb Department of Energy Conversion and Storage, Technical University of Denmark, Anker Engelunds vej, Building 301, Kongens Lyngby, 2800, Denmark\n\nA R T I C L E I N F O Keywords:UHMW polymerFunctional separatorZn electrolytesSolid electrolytePolymer blend porous membrane",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T This works explores the synthesis of a porous membrane concept combining two polymers: one with a structural role which constitutes the scaffold of the membrane, and the other with the capacity to form a polymer gel with ad-hoc liquids at the pores and surface of the membrane. After liquid infiltration, the structural polymer keeps the mechanical properties and dimensional stability of the membrane constant, i.e. no swelling, for long time periods, while the soluble polymer forms a gel at the pores and membrane surface. In this work, the goal of these membranes is that of a functional separator able to produce semisolid electrolytes by in-situ gel formation upon soaking with liquid electrolytes at electrochemical cells. This functional separator enables the formation of the semisolid electrolyte without modification of the electrochemical cells industrial processes, and avoiding the handling of UHMW gels at an industrial scale. Functional separators comprising polycarbonate (PC) as the structural scaffold and ultrahigh molecular weight (UHMW) polyethylene oxide (PEO) as the soluble polymer for in-situ gel formation are prepared by adapting the non-solvent induced phase separation (NIPS) process to the simultaneous coagulation of the two polymers. The polymer distribution, pore morphology depend on the experimental conditions, especially on the PC/PEO degree of mixing before coagulation.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "lymers. The polymer distribution, pore morphology depend on the experimental conditions, especially on the PC/PEO degree of mixing before coagulation. The polymer distri­bution permits the formation of PEO gel at the pores of the PC scaffold, thus combining the electrochemical properties of UHMW polymer gel electrolytes, with the chemical and mechanical resistance of PC. Moreover the presence of PEO enables the wetting of the PC scaffold (otherwise hydrophobic) with hydrophilic electrolytes such as aqueous ZnCl2, the Zn eutectic acetamide Zn(TFSI)2 (ACE-Zn) and the chloroaluminate acetamidineAlCl3, selected in this work to showcase the separators’ versatility, which do not do not swell, break, or degrade after months soaked in the electrolytes. Symmetric Zn||Zn cells were built using the electrolyte ACE-Zn soaked in PC/PEO membranes (40 μm) and in a 100 μm glass fiber separator. While the latter short-circuited before 150 cycles, functional separators endured 300 cycles with no short-circuiting, proving the formation of the UHMW PEO gel at the functional separators and concomitant increase in cycling stability, highlighting the success of this approach.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Batteries play a critical role in the green energy transition. However, they still face notable challenges. Well-known issues in electrochemical cells are the heterogeneous growth of metallic deposits during the charging stage of the battery, the cell polarization because of reaction products’ accumulation or reagents’ depletion, the shuttling of un­wanted species from one electrode to the other, or the existence of secondary/parasitic reactions. These phenomena reduce the cell capacity along cycling and can even produce safety hazards such as short circuits or very exothermic reactions, ending up in fires or explosions when the cell contains volatile or flammable components. All the issues described above are strongly connected to the diffusion of the different species in the electrochemical cell, and modifying the electrolyte’s diffusivity can help tackle them. This can be done, for instance, by endowing the separator with complex functionalities modifying species transport. The purpose of conventional separators in the first Ni–Cd cells was to ensure that no contact between electrodes\n\n* Corresponding author.** Corresponding author. Department of Energy Conversion and Storage, Technical University of Denmark, Anker Engelunds vej, Building 301, Kongens Lyngby, 2800, Denmark. E-mail addresses: victgr@dtu.dk (V. Gregorio), ptiemblo@ictp.csic.es (P. Tiemblo).",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 5 May 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). occurred while keeping the ion mobility as unhindered as in the pure liquid. Up to now, commercial separators (glass fiber, cellulose or polyolefin [1,2]) are still basically barrier elements with enough wettability to allow the electrolyte infiltration and mechanical re­quirements, which may include thermal shutdown. As performance, sustainability, and safety requirements of batteries become more strin­gent, the role of separators has become more complex, incorporating functions such as thermal stability, size screening, electrostatic repul­sion, or chemisorption, attained by pore size control of the separator or by its chemical modification with anions or polymers [3,4]. Beyond the coating with fluorinated polymers or polyethylene glycol (PEG) to improve the separator wettability, in recent times other sepa­rator modifications with different polymers have been proposed, since the beneficial role of polymers in the safety and performance of electrochemical batteries has become apparent in the last few years. Polymers adsorbed on the electrodes or dissolved in the liquid electrolyte can modify the electrode/electrolyte interface, allowing for a more homo­geneous metal deposition.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e electrodes or dissolved in the liquid electrolyte can modify the electrode/electrolyte interface, allowing for a more homo­geneous metal deposition. For instance, it has been found that the presence of a low concentration of polymer additives such as poly­acrylamide, PEG, or polyacrylic acid (PAA) can largely reduce dendritic growth in gelled Zn electrolytes because their presence increases vis­cosity, promoting a more homogeneous Zn deposition-dissolution pro­cess [5]. Polyolefin separators are being modified with Nafion, polydopamine (PDA), PAA, or polyethylenimine (PEI) to reduce pore size, promote polysulfide sieving or reject anions via electrostatic repulsion [3]. Particularly for Zn secondary batteries, of increasing in­terest, recent work proposes the development of very homogeneous transport channels [6] made of Zn alginate. It has also been shown that ultrahigh molecular weight (UHMW) polymers gel electrolytes stabilize electroconvection at the electrolyte/ electrode interphase, mitigating dendrite growth, increasing cycle life, and improving cell safety, as compared to the neat liquid electrolyte [7–9]. At sufficiently low concentrations, these UHMW polymer gels do not decrease significantly the ion conductivity of the liquid electrolyte [10], and are thus a very attractive option for improving the homoge­neity of metal deposition during the charging of a battery.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "he liquid electrolyte [10], and are thus a very attractive option for improving the homoge­neity of metal deposition during the charging of a battery. However, handling gels, particularly UHMW polymer gels, at an industrial scale may be cumbersome and require the modification of industrial process stages. To incorporate the properties of UHMW polymer gels into the electrolyte in an industrially-friendly way, we started working on a membrane concept which would be handled as a conventional separator, and where a UHMW polymer gel would be formed in situ once it was soaked with the liquid electrolyte [11], thus forming a semisolid solid electrolyte at the electrochemical cell without need to handle the UHMW polymer gel. This membrane concept consists on porous membrane comprising two polymers, one of them with a structural role (mechanical barrier) and the other able to form the polymer gel. For its preparation, we chose the non-solvent-induced phase separation method (NIPS), a process well-known in polymer membrane technology, which we have adapted to the simultaneous coagulation of the two polymers. The structural polymer endures long contact with the liquid electrolyte without swelling, providing long-term structural stability to the ensemble.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "s. The structural polymer endures long contact with the liquid electrolyte without swelling, providing long-term structural stability to the ensemble. The other polymer, of UHMW and preferentially located at the surface of the membrane pores, interacts with the liquid electrolyte, facilitating its infiltration into the membrane pores, forming an UHMW polymer gel at the pores and surface of the separator. In this way, structural stability and gel-forming ability rely on two different polymers, what makes the separator design very versatile. The key characteristic of these separators’ design is that both poly­mers become sufficiently phase-separated upon coagulation so that each of them can fulfill their role. If, on the contrary, the gel-forming and structural polymers are compatible and form a single phase, then the scaffold of the membrane will swell upon infiltration and the separator’s mechanical properties will be compromised. In the membranes pre­sented in this work as separators, the formation of a gel with the UHMW should mitigate the inception of metal dendrites. Additionally, the pore size and tortuosity of the membrane, in combination with scaffolds with high elastic moduli should contribute to obstacle the growth of the dendrites. Finally, the fabrication of the membrane by NIPS can produce surfaces where porosity is scarce and small, which is an added barrier against dendrite growth [12].",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e fabrication of the membrane by NIPS can produce surfaces where porosity is scarce and small, which is an added barrier against dendrite growth [12]. In this work, we describe the separators prepared with the combi­nation of Bisphenol A polycarbonate (PC) as structural polymer and UHMW polyethylene oxide (PEO) as gel-forming polymer. The reason for choosing PEO is that, on one hand, it interacts readily and is dis­solved in numerous liquids, among which chloroaluminates [13,14], and on the other, it is commercially available with molecular weight (MW) as high as 8 * 106 g mol-1. On its turn, PC was chosen as a structural polymer because of its chemical resistance, particularly to­wards acidic media [15]. This makes it very useful for emerging elec­trochemical batteries, such as the mentioned Al batteries [16] employing acidic chloroaluminates as electrolytes, where separators are either glass fiber or carbon-based [17–19] as conventional polyolefin separators cannot endure contact for a long time [20]. PC and PEO are compatible polymers, which should make their combination unfit for preparing this type of two-polymer phase-sepa­rated porous membrane. However, phase separation can be induced by using the PC and PEO crystallization peculiarities in the blend. It has been shown that PC does not easily crystallize on its own because of the stiffness of its chains, but it does crystallize in the presence of PEO [21].",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "been shown that PC does not easily crystallize on its own because of the stiffness of its chains, but it does crystallize in the presence of PEO [21]. In blends prepared by precipitation of the co-dissolved PC/PEO at 2 wt% in chloroform, PEO (MW ranging from 2 * 104 to 6 * 105 g mol-1) induced the crystallization of PC within the entire composition range. On the opposite, in these blends, the presence of PC hindered the crys­tallization of PEO, particularly in the blends where PEO was at low ratios and for instance in the PC/PEO blend with 90 % PC, PEO could not crystallize. Together with the details on the preparation procedure of the porous membranes and their characterization as regards phase separation of the polymers, pore morphology, and mechanical properties, this work shows how these separators can absorb remarkable amounts of different liquid electrolytes, from the aqueous to ionic liquids, illustrating their versatility. As proof of concept of their value as functional separators, their electrochemical performance with the eutectic electrolyte Acet­amide-Zn(TFSI)2 is further tested. 2. Experimental 2.1. Materials PC was supplied from Goodfellow (Goodfellow, Cambridge, En­gland). PEO of MW 80 * 105 and 1 * 105 g mol-1, and N-methyl pyr­rolidone (NMP) and ethanol (EtOH) 99.95 % are from Sigma Aldrich.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "llow, Cambridge, En­gland). PEO of MW 80 * 105 and 1 * 105 g mol-1, and N-methyl pyr­rolidone (NMP) and ethanol (EtOH) 99.95 % are from Sigma Aldrich. Acetamide (ACE, 99 %, Sigma Aldrich), Zinc bis(tri­fluoromethanesulfonyl)imide (Zn(TFSI)2, 99.5 %, Solvionic), Zinc chloride (ZnCl2, 98 %, Sigma Aldrich), and ethylene glycol (EG, 99.9 % Sigma Aldrich) have been used to prepare the deep eutectic solvents (DES) employed as electrolytes. The Acetamidine-AlCl3 ionic liquid analog (ILA) was kindly supplied by the University of Leicester [22]. Zn foil (99.9 %, Goodfellow) was used for electrochemical tests. A glass fiber (GF) membrane of 100 μm thickness and 1.5 μm pore size is used as a standard separator.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2. Preparation of the liquid electrolytes The zinc-based DES ACE4:Zn(TFSI)2 (ACE-Zn) was prepared by mixing two solid components, ACE and Zn(TFSI)2, with a molar ratio of 4:1. The DES EG4:ZnCl2 (EG-Zn) was prepared by dissolving ZnCl2 in EG in a molar ratio 4:1. Both mixtures were magnetically stirred at 80 ◦C for 2 h, after which they became homogeneous transparent liquids, cooled then slowly down to room temperature (RT).\n\nV. Gregorio et al. Journal of Membrane Science 730 (2025) 124187",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.3. Preparation of the membranes The membranes described in this work are meant to be used as functional separators in real batteries, with the purpose of avoiding the problems arising from the handling of UHMW PEO gels at the industrial scale, and eventually facilitating battery recycling. Thus, efforts to find scalable and sustainable procedures for this endeavour were searched for. The porous membranes were prepared using the well-known NIPS process, with NMP as the solvent and EtOH as the non-solvent. NIPS is a procedure well-known to the industry, and its use will facilitate the eventual scaling of these membranes’ fabrication. NMP was chosen because its high boiling point makes it very adequate for this modified NIPS process. Moreover, efforts have been done to evaluate the potential improvement of the procedure’s sustainability. For instance, it has been checked that EtOH can be reused for a number of times, making its consumption lower. The use of NMP can be reconsidered in further developments, since other solvents could eventually produce separators with adequate properties for specific battery environments. In this work, 1 g of PC was dissolved in 5 ml of NMP at RT 24h. The desired amount of PEO was then dispersed in the PC solution at RT. Once well dispersed, the mixture was heated to 120 ◦C while mechanically stirred for different times using a mechanical rotor, obtaining highly viscous solutions.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "spersed, the mixture was heated to 120 ◦C while mechanically stirred for different times using a mechanical rotor, obtaining highly viscous solutions. Finally, the solutions were spread on a glass with a fixed thickness of 200 μm and, afterward, introduced in an EtOH bath for 30 min. Finally, they were dried overnight at RT. The membranes thickness was of about 30 ± 10 μm. Scheme 1 presents the preparation procedure of the membranes. In this work, coagulation of the PC/PEO dissolution occurred by immersion in EtOH, which coagulated PC but not PEO. PEO is soluble in EtOH, but it presents an upper critical solution temperature (UCST) at 40 ◦C, and below that temperature, it crystallizes in the EtOH solution [23]. To name the membranes the following nomenclature is employed: PCx-tm, where x stands for the wt.% of PC and m is the time (in minutes) that PC and PEO are stirred together before coagulation. The PEO MW employed to prepare the membranes is 80 * 105 g mol-1. For instance, PC90-t120 is a membrane prepared with 90 wt% of PC, which was stirred with PEO 80 * 105 g mol-1 for 120 min before coagulation. For comparison, three membranes have been prepared using PEO MW = 1 * 105 g mol-1 and at a PC/PEO mass ratio 90/10, and they are named PC90-1-tm, where m stands again for the stirring time (in minutes) of the polymer mixture before coagulation. 2.4.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ass ratio 90/10, and they are named PC90-1-tm, where m stands again for the stirring time (in minutes) of the polymer mixture before coagulation. 2.4. Infiltration of the porous membranes For the infiltration with different liquid electrolytes, membranes were cut into 20 mm diameter discs and then immersed into the elec­trolyte bath overnight. The quantification of the liquid uptake was done by gravimetric measurements. Before weighing, samples were left to drip for 60 min and then carefully dried with filter paper to remove the liquid excess. The infiltration with chloroaluminates and ACE-Zn was done inside a glovebox. 2.5. Characterization Differential scanning calorimetry (DSC) measurements were done in a PerkinElmer DSC7 from TA instruments. The heat flow was recorded from 25 to 250 ◦C at 10 ◦C min-1 in three runs, a heating scan is firstly done, followed by a cooling one and a final heating scan. The crystal­linity (χc) in Table 1 is measured in the first heating scan. Thermal gravimetric experiments (TGA) under nitrogen atmosphere were carried out in a TA Q-500, from room temperature to 800 ◦C at a heating rate of 10 ◦C min-1. T10 refers to the temperature at which 10 wt % of the initial weight is lost. Fourier-transformed infrared spectra (FTIR) were recorded with a PerkinElmer Spectrum Two FTIR. At least three measurements were done in different positions in each sample to ensure the chemical ho­mogeneity of the membrane.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "er Spectrum Two FTIR. At least three measurements were done in different positions in each sample to ensure the chemical ho­mogeneity of the membrane. The FTIR resolution was set to 4 cm-1 and the resultant spectrum was the average of 4 scans. Scanning electron microscopy (SEM) imaging was performed with a PHILIPS XL30. Samples were fractured after immersion in liquid nitro­gen. The cross-section of the samples was imaged after sputtering a layer of gold-palladium alloy by means of a Sputter Coater Polaron SC7640. Mechanical properties of the membranes were determined using a universal tensile machine (MTS model DX 2000, Eden Prairie, MN, USA)",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Scheme 1. Preparation of the PC/PEO porous membranes. Table 1 Nomenclature, wt.% of PC and PEO (PC/PEO wt.%) in the membranes, stirring time of PC and PEO in NMP at 120 ◦C. Crystallinity (χc) of PC and PEO in the membrane, as obtained from the first DSC heating scan, and T10, the temperature at which weight lost is 10 wt% in N2 thermogravimetry analysis. MembranePC/PEO (wt./ wt. %)\n\nStirring time at 120 ◦C (min)χc (wt. %)TGA (N2) T10 (◦C) PCPEO PC100100/0n.a0n.a393PC95-t2095/5206.339.6–PC95-t404013.445.7337PC92.5-t4092.5/7.54013.550.8351PC90-t2090/10204.837.1–PC90-t404011.957.4–PC90-t909017.655.8354PC90-t12012019.561.4–PC85-t4085/15406.747.4–PC85-t909010.351.6337PC80-t12080/201204.018.3337PC90-1-t590/1056.622.3–PC90-1-t101011.729.4–PC90-1t120 12034.010.2–",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "V. Gregorio et al. Journal of Membrane Science 730 (2025) 124187 with a crosshead speed of 10 mm min-1. Membranes were cut out rectangular in 5 * 40 mm pieces. The results were the average of five measurement values. Electrolyte and liquid uptakes of these membranes were tested with a set of different liquids and electrolytes: water, EG-Zn, ACE-Zn, and with the ILA chloroaluminate Acetamidine-AlCl3. The uptake was estimated gravimetrically following Equation (1), where Wd and Ws are the weights of the membrane before (dry) and after soaking, respectively. The membranes were left to drip for 60 min, and then the surface of the membranes was dried with filter paper before weighing the soaked membrane. Subsequently, the weight of the membranes was recorded after 1, 3, and 30 days. % Uptake = (Ws-Wd)Wd ⋅100(1) Contact angles (θ) of the electrolytes on the surface of the membrane were obtained by the sessile drop method using a conventional drop shape analysis technique (Attension Theta optical tensiometer) and 5 μL volume drops. The θ values were calculated by the Young -Laplace method. Reported θ values were the average of at least five measure­ments in different surface positions. Standard deviation is included. Electrochemical tests. The membranes were soaked for 24 h in the corresponding liquid electrolyte before assembly of the cell for the electrochemical measurements.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "al tests. The membranes were soaked for 24 h in the corresponding liquid electrolyte before assembly of the cell for the electrochemical measurements. For those tests with GF separator (ACEZn GF), this was soaked conventionally, filling it with the electrolyte when assembling the coin cell. All electrochemical characterization was performed with a Biologic VMP3 potentiostat. Impedance spectroscopy was measured from 200 kHz to 100 mHz, using coin cells and two stainless steel discs as blocking electrodes. The coin cells were placed in the temperature-controlled chamber, where the temperature was incremented from 10 to 70 ◦C with a 10 ◦C step. Each of the measure­ments was performed 2 h after reaching the set temperature in the chamber to allow for temperature stabilization of the samples. For the Zn||Zn galvanostatic stripping-plating measurements, the soaked membranes of 20 mm diameter were sandwiched between the two Zn electrodes of 15 mm diameter and assembled inside a coin cell. All cycling tests were carried out with a current density of 0.2 mA cm-2. Linear sweep voltammetry (LSV) was performed in an EL-Cell, using a Zn foil counter electrode, a Zn wire reference electrode, and a Glassy carbon working electrode. Instead of a separator, a 1 mm thickness Teflon ring was used as a spacer. 3. Results and discussion 3.1.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rode, and a Glassy carbon working electrode. Instead of a separator, a 1 mm thickness Teflon ring was used as a spacer. 3. Results and discussion 3.1. Physicochemical characterization of the membranes The χc of PEO and PC in the porous membranes with PEO of UHMW (80 * 105 gr mol-1) and 1 * 105 g mol-1 appears in Table 1 and Fig. 1, and the DSC thermograms for the first and second heating scans are collected in Fig. S1. In agreement with the results reported in the liter­ature [21], in this work, PC crystallizes in all the membranes, though to different extents depending on the PEO MW, its ratio in the blend, and the stirring time of the polymers’ solution. It is to be considered that the overall concentration of polymers in these dissolutions is about 20 wt%, i.e., much higher than in the works described in the literature (2 wt%), which makes their viscosity very high, and polymer mixing compara­tively very slow, more so in the case of the UHMW PEO. Fig. 1a shows the PC χc as a function of the stirring time of the polymer dissolution. See how in the membrane series PC90-1-tm, PC χc increases faster and reaches a higher value than in the UHMW PEO membranes PC90-tm. This is because of the lower viscosity of the dissolutions prepared with PEO 1 * 105 g mol-1, and consequently the faster and more efficient polymer mixing. In the UHMW PEO membranes, the higher the PEO ratio, the longer the stirring time needed to attain PC χc similar to membranes prepared with a lower PEO ratio.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "HMW PEO membranes, the higher the PEO ratio, the longer the stirring time needed to attain PC χc similar to membranes prepared with a lower PEO ratio. This is again a conse­quence of the viscosity of the dissolution, which increases very strongly with the PEO concentration, making polymer mixing slower for the highest PEO concentrations. In all cases, PC χc increases with stirring time, and it is an indirect measurement of the mixing degree of both polymers in the membrane. In agreement with the literature [24], PEO crystallization is hindered in the PC90-1-tm membranes, and PEO barely crystallizes in PC90-1-t120 where the polymers are stirred for the longest time and better mixed. On the opposite, UHMW PEO crystallization is not only not hindered (not even when it is present at the lowest 5 wt% ratio), but it increases with the stirring time for all the PC/PEO ratios. This is particularly well seen in the PC90 series, where five blends have been prepared increasing the stirring time from 20 to 120 min. Fig. 1b shows the correlation between the χc of both polymers. In PC90-1-tm mem­branes, PEO χc is always well below that of bulk PEO, while in the UHMW PEO membranes, both polymers’ χc increase concomitantly until UHMW PEO reaches values close to the bulk. It is worth reminding that the χc values in Table 1 and Fig. 1 are obtained from the first DSC scans. See how the crystalline phases depicted in the second heating scan (Fig.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "at the χc values in Table 1 and Fig. 1 are obtained from the first DSC scans. See how the crystalline phases depicted in the second heating scan (Fig. S1), once the membranes have been melted, are very different from the first scan, basically because no PEO crystallization is seen, as re­ported before by other authors in melt compounded blends of PC/PEO [24]. This is because the melting of the membrane in the DSC pan produces a dense (no porous) film, similar to a melt compounded blend, where PEO is unable to crystallize. Therefore, high PEO χc values in the membranes suggest strong phase separation between both polymers, and the crystallized UHMW PEO seen in the first heating scan is likely located at the pore and membrane surface. Further evidence on PEO and PC χc is supplied by the ATR-FTIR spectra of the PC90 membrane series which appear in Fig. S2, by the intensity of the ω(CH2) PEO band at 1340 cm-1 and the shift of the υ(CO) PC band. ATR-FTIR agrees with the DSC data regarding the effect of composition, stirring time, and effect of PEO MW on the χc of both polymers. In summary, by controlling the degree of mixing of both polymers before coagulation in EtOH it is possible to produce phase-separated membranes when using UHMW PEO. These membranes could be apt for the separator concept pursued in this work. SEM images of all the membranes in Table 1 appear in Fig. 1c.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "g UHMW PEO. These membranes could be apt for the separator concept pursued in this work. SEM images of all the membranes in Table 1 appear in Fig. 1c. PC90t20, PC90-t40, PC85-t40, PC85-t90 and PC80-t120 display homoge­neous pore sizes in the range of a few microns or smaller. In comparison to pure PC also included in the figure, their pore size is smaller and the pore walls are thicker. All membranes displaying this type of morphology are prepared with UHMW PEO and have PC crystallinity roughly under or close to 10 wt%. On the other hand, PC95-t20, PC95t40, PC92.5-t40, PC90-t90, PC90-t120, and PC90-1-t5 show a deficient porous morphology, because of an uneven pore size distribution, very large and oblong pores with thick walls, or other evidences of hetero­geneity at a large scale (>10 μm). This second group of membranes comprises: i) all the membranes prepared with the PEO 1 * 105 g mol-1, ii) those prepared with UHMW PEO content under 10 wt%, and iii) the one prepared with UHMW PEO content 10 wt% and stirred for longer times (PC90-t90 and especially PC90-t120). Note that all membranes with PC χc well above 10 wt%, i.e. those stirred for longer times and better mixed, evolve towards heterogeneous pore size distribution and morphology. Then, membrane morphology becomes less homogeneous when PC and PEO mixing is high, when PEO MW is not sufficiently high or when the content of UHMW PEO is too low. The MW of PEO also impacts the membranes’ mechanical behavior.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "high, when PEO MW is not sufficiently high or when the content of UHMW PEO is too low. The MW of PEO also impacts the membranes’ mechanical behavior. The membranes prepared with 1 * 105 g mol-1 PEO are all brittle, and PC90-1-t120 does not even form a continuous membrane (extremely fragile). On the opposite, those prepared with UHMW PEO are tough and can be handled without breaking, though their brittleness increases slightly as PC χc does so. Only membranes prepared with UHMW PEO have adequate mechanical properties and pore morphology, and are the only ones further studied in this work as viable battery separators. Fig. 1d shows the elastic modulus and the elongation at break of the",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 1. Physicochemical properties of the membranes: (a) PC χc as a function of stirring time for different PEO content (PC1 refers to the PC90-1-tm samples prepared with PEO 1 * 105 g mol-1) and (b) PEO χc vs that PC χc for the different membranes. In blue, data of the membranes prepared with PEO 1 * 105 g mol-1. (c) SEM images of the membranes cross-sections. (d) Mechanical properties of PC100, PC95-t40, PC90-t40, PC85-t40, and PC80-t120. (e) Heat shrinkage of PC90-t90 compared to Celgard 2500 separator, after heating at 175 ◦C for 10 min. Lines are for guidance. V. Gregorio et al. Journal of Membrane Science 730 (2025) 124187 membranes as a function of the UHMW PEO weight content. As the concentration of PEO increases, the membranes become softer, though they still show elastic moduli apt for a separator. For instance, PC90 membranes’ elastic moduli are close to 180 MPa, which is very similar to the MD (machine direction) moduli in Celgard-type separators [25], with the added advantage that the separators presented in this work are mechanically isotropic. This mechanical isotropicity has another advantage. Thermal shrinkage is commonly associated with polyolefin MEAUS (melting extrusion annealing uniaxial stretching) separators because of the stretching step in their preparation method. NIPS meth­odology produces membranes with no mechanical stress which should therefore not suffer shrinkage on heating. Fig.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "their preparation method. NIPS meth­odology produces membranes with no mechanical stress which should therefore not suffer shrinkage on heating. Fig. 1e shows the membrane PC90-t90 before and after a thermal treatment at 175 ◦C for 10 min, in comparison to Celgard 2500 after the same thermal treatment. PC90-t90, like the rest of the UHMW PEO membranes in Table 1, does not shrink because it is not mechanically anisotropic. The thermal stability of the membranes presented in this work is also adequate for their performance as separators. In Fig. S3 their TGA curves",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Electrolyte wetting and infiltration: a) EG-Zn θ on PC90-t40 and PC80-t120 compared with a conventional separator Celgard 2500. b) Pictures of the membranes PC90-t40 and PC85-t90 before and after being soaked with water and PC80-t120 with EG-Zn. c) Initial EG-Zn uptake of the PC/PEO membranes as compared to Celgard 2500 and GF commercial separators, together with pictures showing the wettability of the different separators. d) EG-Zn retention in the membranes: PC100, PC95-t40, PC92.5-t40, PC90-t90, PC85-t90 and PC80-t120 as a function of time. (e) SEM micrographs of the section of the membrane before and after being soaked with EG-Zn. V. Gregorio et al. Journal of Membrane Science 730 (2025) 124187 in N2 appear. They are all thermally stable well over 200 ◦C, less stable as the PEO content increases, as can be expected. T10 values for each membrane appear in Table 1. 3.2. Wetting, liquid uptake and chemical and dimensional stability of the infiltrated membranes The wetting properties and chemical and dimensional stability of these membranes were tested inside the glovebox with chloroaluminates such as the ILA Acetamidine-AlCl3 [22] or the IL EMIC:AlCl3, and with the eutectic liquid ACE-Zn. In the particular case of chloroaluminates, the chemical inertia of these membranes is especially remarkable.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "l3, and with the eutectic liquid ACE-Zn. In the particular case of chloroaluminates, the chemical inertia of these membranes is especially remarkable. The membrane PC90-t40 was kept in contact with Acetamidine-AlCl3 for 60 days with no signs of mechanical deterioration or swelling, while conventional commercial polymer separators are known to degrade in these highly corrosive electrolytes soon after getting into contact with them [20]. Out of the glovebox the membranes were tested with water and the eutectic EG-Zn, and a summary of their wetting properties appears in Fig. 2. A common feature of all membranes is their high wettability regardless of the liquid nature. As an example, see in Fig. 2a the EG-Zn θ value on PC90-t40 and PC80-t120 as compared to a PP Celgard 2500 commercial separator. Celgard 2500 presents a θ of 94◦, while the PC90t40 and PC80-t120 values are 54◦and 42◦, respectively. This is a consequence of the PEO presence at the surface of the membrane and the pore walls, which swells and dissolves in these hydrophilic liquids. PC100 membrane would not be wetted by any of the tested liquids because of its hydrophobicity. Fig. 2b shows the dimensional stability of PC90-t40 and PC85-t90 after soaking in water, and PC80-t120 after soaking in the liquid elec­trolyte EG-Zn, both for 24 h.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "he dimensional stability of PC90-t40 and PC85-t90 after soaking in water, and PC80-t120 after soaking in the liquid elec­trolyte EG-Zn, both for 24 h. The picture also illustrates how the mem­branes became translucent once infiltrated with the chosen liquid because of extensive pore filling and sufficient matching between the refractive index of the polymer matrix (n = 1.58) and the filling liquids. These soaked membranes keep their dimensional stability for long pe­riods. PC90-t40, PC85-t40, and PC80-t120 have been soaking for 12 months in EG-Zn with no variations in their dimensions. The excellent dimensional stability proves that PEO is not a part of the membrane scaffold but is rather lining the pore walls and surface. Fig. 2c shows the initial uptake of EG-Zn in a selection of membranes, as compared to Celgard 2500 and GF separators. The liquid uptake of the PC/PEO membranes depends on the PEO ratio, being higher as the concentration of PEO increases, as one would expect. Compared with Celgard 2500, the uptake of any of the PC/PEO membranes is much higher, because of the wettability provided by the PEO layer. The uptake of these membranes, at or over 1000 wt%, is comparable to that of the GF separator, and even higher for the membrane with the higher PEO loading, PC80-t120.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "se membranes, at or over 1000 wt%, is comparable to that of the GF separator, and even higher for the membrane with the higher PEO loading, PC80-t120. The initial uptake of these membranes is higher than what is reported in the literature in PVDF-based membranes (about 400 wt%) [26], where the structural polymer is swelling by contact with the electrolyte, and hence where mechanical properties are very likely not preserved after the soaking. Fig. 2d shows the liquid retention experiment described in the experimental section. All PC membranes present a reduction in the liquid uptake over time, and, after 30 days, it is roughly the same for the PC90-t90, PC85-t90, and PC80-t120 (360–420 wt%). This suggests that PEO ratios over 10 wt% do not contribute substantially to the gel formation in the membrane. The infiltration and liquid uptake of the membranes have also been studied by SEM, comparing the section of the membrane before and after being soaked with EG-Zn, and they appear in Fig. 2e. The pores of the dry membranes clearly show swelling once infiltrated. The swelling is caused by the formation of the PEO gel in the pores, and concomitant densification of the membranes. This swelling and densification be­comes more evident as the PEO ratio increases. The voids seen in the SEM images of PC95-t40 and PC92.5-t40 very likely correspond to large pores where the PEO has been insufficient to completely gel the liquid electrolyte filling the pore.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "40 and PC92.5-t40 very likely correspond to large pores where the PEO has been insufficient to completely gel the liquid electrolyte filling the pore. Non-gelled liquid electrolyte, upon freeze fracturing, has detached from the polymer matrix. Soft swollen regions become dominant from PC90-tm on, evidencing that in those mem­branes a PEO gel has been uniformly formed. The images also show that the swollen membranes preserve the scaffold morphology of the dry membrane because PC is not swelling. The wetting properties and dimensional stability prove that the membrane concept, consisting of a structural polymer as membrane scaffold and a soluble polymer available at the surface to form a polymer gel with the liquid has been achieved. 3.3. Ion conductivity and electrochemistry of ACE-Zn liquid electrolyte using PC/PEO membranes as functional separators In this section, the ability of these membranes to produce functional semisolid electrolytes is tested. To do so, we compare the cycling sta­bility of symmetrical Zn||Zn cells built with the functional separators soaked in ACE-Zn, to that of the ACE-Zn gels prepared with UHMW PEO and studied in previous work [9]. These gels displayed longer cycling stability than the pure liquid electrolyte ACE-Zn when tested in sym­metrical Zn||Zn cells, and SEM images showed that metal deposits at the electrodes were more homogeneous than when using neat ACE-Zn.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "en tested in sym­metrical Zn||Zn cells, and SEM images showed that metal deposits at the electrodes were more homogeneous than when using neat ACE-Zn. The membranes in Table 1 have been soaked with ACE-Zn as explained in the Experimental Section, with the purpose to produce, inside the membrane pores, a polymer gel electrolyte with the same electrochemical properties as described previously [9]. First, their ionic conductivity has been measured and it appears in Fig. 3a, compared to that of the same electrolyte and a GF separator. As expected, the ion conductivity is lower when using the PC/PEO membranes than when using the GF separator, being the decrease from about a three-fold decrease in the membrane with the highest conductivity (PC90-t20) to a ten-fold in that with the lowest conductivity (PC95-t40). As can be expected, the membranes with the lowest electrolyte uptake (Fig. 2d), which are those with the lowest amount of PEO, are also those showing the lowest ion conductivity in the whole T range. The dependence of ion conductivity with temperature is similar in the PC membranes and in the GF separator, particularly in those mem­branes displaying the higher ion conductivities: PC90-tm, PC85-tm and PC80-t120. The conductivity vs temperature curves shown in Fig. 3a can be fitted using the Vogel-Fulcher-Tammann equation. The fitted curves and the VFT parameters appear in Fig. S4 and Table S1.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rves shown in Fig. 3a can be fitted using the Vogel-Fulcher-Tammann equation. The fitted curves and the VFT parameters appear in Fig. S4 and Table S1. It is seen how the conductivity at infinite (very high) T σ0 decreases strongly in the membranes with respect to the liquid electrolyte. Across the mem­branes, σ0 first increases from PC95 membranes up to PC90 series, and then it decreases again for the PC80 membrane. The balance between the opposed effect of PEO concentration on electrolyte uptake and gel viscosity drives the σ0 (and σ) values, making PC90 membranes those with the highest values. Prior to the electrochemical testing of the membranes, linear sweep voltammetry was performed to ensure that the electrochemical stability of the liquid electrolyte was not deteriorated by the presence of PEO. Fig. S5 compares the LSV of pure ACE-Zn and the gel prepared with 5 wt % PEO, showing that the addition of PEO does not reduce the electro­chemical window of ACE-Zn. To test the ability of these membranes to mitigate the inception and growth of Zn dendrites, the Zn stripping plating behavior in Zn||Zn symmetrical cells was tested in all membranes (except PC95-tm and PC92.5-tm, because of their deficient electrolyte uptake), and the results appear in Fig. 3b. Except for PC90-t90, and PC90-t120, the rest of membranes are able to cycle 50 times with no shortcircuiting. PC90-t90 and PC90-t120 suffer short circuit, after about 25 cycles the former and about 10 the latter.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "able to cycle 50 times with no shortcircuiting. PC90-t90 and PC90-t120 suffer short circuit, after about 25 cycles the former and about 10 the latter. See in the SEM images in Fig. 1 how PC90-t90 and PC90-t120 have larger pore size and lower tortuosity than any of the other membranes electrochemically tested. PC90-t120 is the one with the largest pores and lower tortuosity, in agreement with its lowest electrochemical stability. Membranes PC90-t20, PC90-t40, PC85-t40,",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "V. Gregorio et al. Journal of Membrane Science 730 (2025) 124187\n\nFig. 3. (a) Ionic conductivity variation with temperature of ACE-Zn measured using the porous membranes as compared to that using GF separator (ACE-Zn GF). (b) Striping-plating measurements for 50 cycles (100 h) of ACE-Zn in Zn||Zn symmetrical cells using different membranes as separators. (c) Illustration of the gel formation at the pores and the lack of gel uniformity when pore size increases over a threshold. V. Gregorio et al. Journal of Membrane Science 730 (2025) 124187",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7,
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "PC85-t90, and PC80-t120, all with smaller and more homogeneous pores, demonstrate cycling stability for at least 50 cycles, suggesting dendrite growth mitigation in comparison with PC90-t90 and PC90t120. Further cycling was carried out with PC90-t20 and PC85-t40 cells, and it appear in Fig. 4, in comparison with the cycling data of ACE-Zn using a GF separator. It is to be noted that PC90-t20 and PC85-t40 membranes are about 30 μm thick, and GF is 100 μm. While the cell with the GF separator is showing a short circuit at around 300 h of cycling, the cells using the PC membranes as separators, not only thinner but also significantly lighter than GF, present a stable cycling for at least 600 h, demonstrating dendrite growth inhibition. Looking at the elec­trochemical properties of the Zn gels presented in previous work [9], those gels prepared with the same ACE-Zn electrolyte and PEO 80 * 105 Da endured 200 cycles where the neat liquid electrolyte short-circuited after 17. So, a priori, the mere formation of the gel in the pores of PC90-t90 and PC90-t120 should suffice to produce much higher cycling stability than that seen in Fig. 3b. Our hypothesis, illustrated in Fig. 3c, is that in membranes with pores over a threshold, the PEO gel will be formed only close to the pore walls but probably will not as the distance from the wall becomes higher. Significant fractions of the liquid infil­trated in the larger pores will stay as a liquid. Beyond the cycling stability shown in Fig.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "becomes higher. Significant fractions of the liquid infil­trated in the larger pores will stay as a liquid. Beyond the cycling stability shown in Fig. 4, evidence of the for­mation of a polymer gel has been found by visual inspection of the Zn|| Zn symmetrical cells, some of which were opened after finishing the electrochemical experiments. It was found that a well-developed elastic gel was sticking to the Zn electrodes, resembling very much the homo­geneous elastic and sticky gels studied in our previous work [9]. Furthermore, the membranes retained their mechanical properties and showed no signs of degradation. Thus, leak free semisolid electrolytes comprising an UHMW polymer gel with increased cycling stability can be obtained by the mere soaking of the polymer blend membranes presented in this work. When this approach can be used, it eliminates the need to handle UHMW polymer gels in the building of electrochemical cells, and the problems associated to the incorporation of a separator with such viscous materials. 4. Conclusions A membrane concept based on a mixture of polymers playing different roles was tested as a separator for electrochemical cells. These functional porous separators comprising PC and UHMW PEO are pre­pared by an adaptation of the NIPS process, where both polymers are coagulated in a single step to form a porous membrane with a specific morphology. PC forms the scaffold of the membrane and constitutes the mechanical barrier of the separator.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "p to form a porous membrane with a specific morphology. PC forms the scaffold of the membrane and constitutes the mechanical barrier of the separator. UHMW PEO is located lining the surface of pores and when in contact with the liquid electrolyte it swells, dissolves, and forms a polymer gel electrolyte. This membrane config­uration permits to achieve UHMW polymer gels embedded in the inside of the pores. Moreover, these membranes can be handled as conven­tional separators in the assembling of electrochemical cells, by direct soaking with the liquid electrolyte, what makes them easy to scale at an industrial level. The formation of UHMW polymer gels in the pores al­lows to take advantage of the excellent electrochemical stability and cycling of these gels. Furthermore, these separators can be very thin (from 30 to 40 μm) and extremely light, and on heating do not suffer shrinkage, since they do not have internal stresses because of stretching. The preparation of the porous membranes by NIPS is simple, but their morphology depends on many experimental parameters what makes morphology control not straightforward. Polymer distribution, pore size and pore homogeneity change very strongly depending on the PEO MW, PC/PEO ratio, and on the time both polymers are stirred together, since the morphology of the membranes is strongly dependent on the degree of mixing of both polymers before coagulation. Small and homogeneous pores are found for PC/PEO ratios from 90/10 to 80/20.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ly dependent on the degree of mixing of both polymers before coagulation. Small and homogeneous pores are found for PC/PEO ratios from 90/10 to 80/20. The combination of PC and PEO allows to use a hydrophobic scaf­fold, such as PC with hydrophilic electrolytes, as those chosen in this work. The PC/PEO show excellent wetting and liquid uptake with EGZnCl2 electrolytes, the eutectic ACE-Zn and the chloroaluminate acet­amidine-AlCl3. In the case of the latter, the separators show excellent",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[5] W. Hu, J. Ju, N. Deng, M. Liu, W. Liu, Y. Zhang, L. Fan, W. Kang, B. Cheng, Recent progress in tackling zn anode challenges for zn ion batteries, J. Mater. Chem. A 9 (46) (2021) 25750–25772.[6] L. Yan, Q. Zhang, Z. Zhang, G.-J. Li, Y. Jin, X.-L. Zhang, Y.-Y. Sun, Hydrogel electrolyte membrane with regulated pore effect to stabilize zinc anode in aqueous zinc-ion batteries, J. Membr. Sci. 690 (2024) 122243.[7] S. Wei, Z. Cheng, P. Nath, M.D. Tikekar, G. Li, L.A. Archer, Stabilizing electrochemical interfaces in viscoelastic liquid electrolytes, Sci. Adv. 4 (3) (2018) eaao6243.[8] D. Zhang, A.J. Warren, G. Li, Z. Cheng, X. Han, Q. Zhao, X. Liu, Y. Deng, L. A. Archer, Electrodeposition of zinc in aqueous electrolytes containing high molecular weight polymers, Macromolecules 53 (7) (2020) 2694–2701.[9] V. Gregorio, P. Jankowski, N. Garcia, J.M. Garcia Lastra, P. Tiemblo, J.H. Chang, Electrolytes for Zn batteries: deep eutectic solvents in polymer gels, ChemSusChem 16 [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] (2023) e202300256.[10] V. Gregorio, N. García, P. Tiemblo, Ionic conductivity enhancement in UHMW PEO gel electrolytes based on room-temperature ionic liquids and deep eutectic solvents, ACS Appl. Polym. Mater. 4 (4) (2022) 2860–2870.[11] P. Tiemblo, V. Gregorio, A. Martínez-G´omez, N. García, Infiltrated Porous Polymer Blend Membrane, EP, 2023, 23382285.7.[12] C.-Y.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "022) 2860–2870.[11] P. Tiemblo, V. Gregorio, A. Martínez-G´omez, N. García, Infiltrated Porous Polymer Blend Membrane, EP, 2023, 23382285.7.[12] C.-Y. Tsai, Y.-L. Liu, Crosslinked polyimide asymmetric membranes as thermallystable separators with self-protective layers and inhibition of lithium dendrite growth for lithium metal battery, J. Membr. Sci. 640 (2021) 119816.[13] ´A. Miguel, N. García, V. Gregorio, A. L´opez-Cudero, P. Tiemblo, Tough polymer gel electrolytes for aluminum secondary batteries based on urea: alCl3, prepared by a new solvent-free and scalable procedure, Polymers 12 (6) (2020) 1336.[14] ´A. Miguel, R.P. Fornari, N. García, A. Bhowmik, D. Carrasco-Busturia, J.M. GarcíaLastra, P. Tiemblo, Understanding the molecular structure of the elastic and thermoreversible AlCl3 : urea/polyethylene oxide gel electrolyte, ChemSusChem 13 (20) (2020) 5523–5530.[15] J.T. Bendler, Handbook of Polycarbonate Science and Technology, first ed., CRC Press, 2000.[16] M. Angell, C.J. Pan, Y. Rong, C. Yuan, M.C. Lin, B.J. Hwang, H. Dai, High coulombic efficiency aluminum-ion battery using an AlCl3-urea ionic liquid analog electrolyte, ChemSusChem 114 (5) (2017) 834–839.[17] M. Sorriaux, S. Kang, K.G. Reeves, A.G. Porras Gutierrez, S. Leclerc, V. SarouKanian, F. Fayon, C. Legein, M. Body, G. Gouadec, O.J. Borkiewicz, D.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "7] M. Sorriaux, S. Kang, K.G. Reeves, A.G. Porras Gutierrez, S. Leclerc, V. SarouKanian, F. Fayon, C. Legein, M. Body, G. Gouadec, O.J. Borkiewicz, D. Dambournet, Electrochemical and chemical reactivities of titanium oxide-based materials with a chloroaluminate ionic liquid electrolyte for aluminum batteries, ACS Appl. Energy Mater. 7 (21) (2024) 9852–9862.[18] S. Li, G. Li, Z. Li, W. Xu, L. Chen, W. Wang, B. He, M. Zhou, Z. Hou, Achieving longcycling life rechargeable aluminum batteries with a Cu2Se cathode enabled by a carbon-functionalized separator, Electrochim. Acta 466 (2023) 143050.[19] R. Jay, A.L. Jadhav, L.W. Gordon, R.J. Messinger, Soluble electrolyte-coordinated sulfide species revealed in Al–S batteries by nuclear magnetic resonance spectroscopy, Chem. Mater. 34 [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] (2022) 4486–4495.[20] G.A. Elia, J.B. Ducros, D. Sotta, V. Delhorbe, A. Brun, K. Marquardt, R. Hahn, Polyacrylonitrile separator for high-performance aluminum batteries with improved interface stability, ACS Appl. Mater. Interfaces 9 (44) (2017) 38381–38389.[21] J. Brus, J. Dybal, P. Schmidt, J. Kratochvíl, J. Baldrian, Order and mobility in polycarbonate-Poly(ethylene oxide) blends studied by solid-state NMR and other techniques, Macromolecules 33 (17) (2000) 6448–6459.[22] I. Sumarlan, A. Kunverji, A.J. Lucio, A.R. Hillman, K.S.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "studied by solid-state NMR and other techniques, Macromolecules 33 (17) (2000) 6448–6459.[22] I. Sumarlan, A. Kunverji, A.J. Lucio, A.R. Hillman, K.S. Ryder, Comparative study of Guanidine-, Acetamidineand urea-based chloroaluminate electrolytes for an aluminum battery, J. Phys. Chem. C 127 (38) (2023) 18891–18901.[23] D.L. Ho, B. Hammouda, S.R. Kline, W.-R. Chen, Unusual phase behavior in mixtures of poly(ethylene oxide) and ethyl alcohol, J. Polym. Sci., Part B: Polym. Phys. 44 (3) (2006) 557–564.[24] C. Li, Q. Kong, Q. Fan, Y. Xia, Crystallization behavior of polycarbonate/poly (ethylene oxide) blends studied by DSC, Mater. Lett. 59 (7) (2005) 773–778.[25] S. Kalnaus, Y. Wang, J.A. Turner, Mechanical behavior and failure mechanisms of Li-ion battery separators, J. Power Sources 348 (2017) 255–263.[26] J. Cui, J. Liu, C. He, J. Li, X. Wu, Composite of polyvinylidene fluoride–cellulose acetate with Al(OH)3 as a separator for high-performance lithium ion battery, J. Membr. Sci. 541 (2017) 661–667.",
+    "citation": {
+      "authors": [
+        "Moreover C."
+      ],
+      "paper_id": "1-s2.0-S0376738825005009-main",
+      "title": "Porous membranes of polymer blends and their use as functional separators for electrochemical batteries",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  }
+]

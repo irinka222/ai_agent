@@ -1,0 +1,98 @@
+[
+  {
+    "content": "1. Introduction\nThe Sand equation [1] defines the dependence of the transition time τ of electrode and membrane systems on the density i of direct current through the system and other parameters. For the electrode–electrolyte solution system, the equation was derived in 1901 [1]. Later, it was adapted by Lerche and Wolf for membrane systems [2] and used by Krol et al. [3]: τ = (π D / 4) · (c10 z1 F / (T1 - t1))^2 · (1/i^2), where D is the diffusion coefficient of the electrolyte related to the individual diffusion coefficients of ions: D = 2 D1 D2 / (D1 + D2) and z1 for the 1:1 electrolyte; c10 are the concentration and charge number of counterions in solution, respectively; F is the Faraday constant; t1 is the transport number of counterions in solution; T1 is the integrated [4] or effective [5, 6] transport number of counterions in the membrane on the boundary of the solution. For the electrode–solution system, T1 = 1. In the membranes, Tk is determined as the fraction of the electric current transferred across the membrane–solution boundary by ions of sort k: Tk = zk jk F / i.\nThe transition time is defined in chronopotentiometry as the time after the switch-on of current (exceeding its limiting stationary value ilim) within which the electrolyte concentration at the membrane (electrode) surface has reached a certain small value and the potential difference has become large enough for the current transport mechanism to change [7]. In electrode systems, another electrochemical reaction can start after a certain overvoltage has been reached [7]. In membrane systems, the potential increase is decelerated at t > τ due to the development of the extra limiting mechanisms of mass transfer such as water dissociation [3, 8, 9], which generates new charge carriers, and conjugated (current-induced) convection (gravitational convection [10–13] and/or electroconvection [14–17]), which accelerates the ion supply to the membrane surface.",
+    "citation": {
+      "authors": ["S.A. Mareev", "D.Yu. Butyl’skii", "A.V. Kovalenko", "N.D. Pis’menskaya", "L. Dammak", "C. Larchet", "V.V. Nikonenko"],
+      "paper_id": "S1023193516100098",
+      "title": "Inclusion of the Concentration Dependence of the Diffusion Coefficient in the Sand Equation",
+      "year": 2016,
+      "section": "Introduction",
+      "pages": [996, 997]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The Sand equation (1) is widely used in both theoretical electrochemistry (experimental determination of ion concentration [7] and diffusion coefficient [18], revealing the mechanism of electrochemical reactions [19], etc.) and membrane electrochemistry (determination of the transport numbers in a membrane [20], analysis of its surface morphology [21], and determination of the type of conjugated convection [3, 21, 22]). At the same time, Eq. (1) contains a somehow ill-defined parameter—the diffusion coefficient of electrolyte. Indeed, at t = τ the electrolyte concentration can change from its value in the bulk to a small value at the surface. The question arises: Which value of D should be used: the one that relates to c0 (Db) or the one that relates to the infinitely dilute solution (D0)? In the literature we can find examples of both Db [2, 3] and D0 [21] used for calculating τ.\nNote that for electrode systems, the problem of choosing D can often be solved either by using a dilute solution (D = D0) or by introducing a supporting electrolyte [7] (D is determined by the ion strength, which does not change in the coordinate). However, the second approach is inapplicable to membrane systems because the current flow causes changes in the concentrations of all ions in solution in this case [4–6].",
+    "citation": {
+      "authors": ["S.A. Mareev", "D.Yu. Butyl’skii", "A.V. Kovalenko", "N.D. Pis’menskaya", "L. Dammak", "C. Larchet", "V.V. Nikonenko"],
+      "paper_id": "S1023193516100098",
+      "title": "Inclusion of the Concentration Dependence of the Diffusion Coefficient in the Sand Equation",
+      "year": 2016,
+      "section": "Introduction",
+      "pages": [997]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "One important problem in membrane electrochemistry is investigation of the dependence of the behavior of membranes on the concentration of the external solution с0. Clearly, this problem cannot be solved by using only a dilute solution. In particular, to determine the transport number in a membrane at a given с0 value from the transition time [20], it is necessary to know D: when D is exaggerated by 10%, the transport number of co-ions (Т2) will be understated by ~0.025. This error can prove intolerable if Т2 is of the same order of magnitude (for 1 М NaCl, the typical values, e.g., for the Russian-made MK-40 membrane are Т1 = 0.97 and Т2 = 0.03 [23]).\nAt present, there are only two publications devoted to the problem of inclusion of the D(c) dependence in calculation [24, 25]. Kubicek [24, 25] used the linear approximating function D(c) to obtain an approximate solution of the Cottrell equation [24] and Sand equation [25].\nHere we present a one-dimensional model in which the concentration dependence D(c) is taken as a polynomial function that approximates the experimental data for aqueous NaCl solutions and is valid over a wide range of concentrations (up to 0.5 М). The problem derived with allowance for D(c) is solved numerically. An effective value Def is determined in the range from Db to D0, and its substitution into the Sand equation gives the same transition time as the numerical calculation.",
+    "citation": {
+      "authors": ["S.A. Mareev", "D.Yu. Butyl’skii", "A.V. Kovalenko", "N.D. Pis’menskaya", "L. Dammak", "C. Larchet", "V.V. Nikonenko"],
+      "paper_id": "S1023193516100098",
+      "title": "Inclusion of the Concentration Dependence of the Diffusion Coefficient in the Sand Equation",
+      "year": 2016,
+      "section": "Introduction",
+      "pages": [997]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "THEORETICAL\nThe Sand equation was derived [1] for one-dimensional diffusion in a solution of a symmetric binary electrolyte (z1, –z1) inside a semi-infinite region. At a moment of time t = 0, the current changes abruptly from zero to the current density i, which then remains constant with time. The i value should be larger than the stationary limiting value ilim. The change of the concentration field of ions 1, which react on the electrode when the current passes, with time is described by the second Fick's law: ∂c1/∂t = ∂/∂x (D(c) ∂c1/∂x). The initial condition sets the concentration value that is constant at all points: c1(x,0) = c10. The concentration in the bulk of solution at a sufficiently long distance from the interface does not change with time: c1(∞,t) = c10.\nThe current is transferred through the interface (x=0) only by the ions that are involved in the electrochemical reaction (Faraday's law). In solution, the current of these ions involves the diffusion transfer proportional to D ∂c1/∂x and the migration transfer proportional to t1. The equation of these currents (flow continuity) gives: i/(z1 F) = - D ∂c1/∂x|_{x=0}. Sand [1] obtained an analytical solution of (2) with conditions (3)–(5) at D = const for only one reaction occurring on the electrode.\nIn the case of an ion-selective membrane considered instead of an electrode, the flow density continuity condition for ions 1 is of the form: T1 i/(z1 F) = - D ∂c1/∂x|_{x=0}, where the effective transport number T1 determined above is used to take into account that ions 1 transfer only some part of the charge across the interface.\nThe dependence of the electrolyte concentration at the membrane surface on the time of direct-current flow is expressed by the equation: c1(0,t) = c10 - (2 i / (z1 F)) √(t/(π D)) (T1 - t1). It is derived by solving the Sand problem, in which the boundary condition is replaced. Equation (7) is identical to the equation obtained by Sand [1] at T1 = 1. According to (7), c1(0,t) decreases with time. The transition time τ can be determined as the time when c1(0,t) approaches zero. Substitution of c1(0,t)=0 into (7) gives (1).",
+    "citation": {
+      "authors": ["S.A. Mareev", "D.Yu. Butyl’skii", "A.V. Kovalenko", "N.D. Pis’menskaya", "L. Dammak", "C. Larchet", "V.V. Nikonenko"],
+      "paper_id": "S1023193516100098",
+      "title": "Inclusion of the Concentration Dependence of the Diffusion Coefficient in the Sand Equation",
+      "year": 2016,
+      "section": "Theoretical",
+      "pages": [997, 998]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Condition (4) means that problem (2)–(5) ignores the convection effect: Fick's law is assumed to be valid at any distances from the interface. This formulation is valid provided that within the time under study (t < τ) the changes in the concentration field that are due to the presence of a drain/source at the interface do not yet reach the region of the solution where the convection substantially affects the transfer. The role of convection can be implicitly taken into account by introducing diffusion layers of finite thickness δ [10] in calculation. Then condition (4) is replaced by the following: c1(δ,t) = c10.\nNote that in reality Sand [1] used condition (8) and obtained the dependence с(x, t) at given δ in the form of a series. However, the well-known Eq. (7) and Eq.(1) that follows from it were already derived under the simplifying assumption that δ → ∞.\nAn analytical solution of the problem using condition (8) with a fixed thickness of diffusion layers adjacent to the ion-exchange membrane on both sides was obtained by Sistat and Pourcelly [26] at pre-limiting current densities. A similar model was developed by Moya and Sistat for chronoamperometry [27]. Larchet et al. [28] solved the chronoamperometry problem numerically for the case of free convection, taking into account the dependence of δ on the change of concentration in the diffusion layer (and hence on the time) using the known Levich equation.\nAt t → τ according to model (2)–(4), (6), (8) (with finite or infinite δ), c1(0,t) → 0, and the potential difference Δϕ in the system tends to infinity. Even at current densities much higher than ilim in real systems, c(0, τ) takes small (of the order of ε1/2, where ε = 2εε0 RT/(F^2 C0 δ^2) and LD is the Debye length) [29] but not zero values. At t → τ the time dependence of the potential difference Δϕ (t) passes through an inflection point. This is due to the fact that the small c(0,τ) value and the relatively large Δϕ(t) value trigger new transfer mechanisms mentioned above [6, 11, 12]. These effects stabilize the concentration profile with a nonzero boundary concentration, which leads to the stationary state of the system with a finite potential difference.",
+    "citation": {
+      "authors": ["S.A. Mareev", "D.Yu. Butyl’skii", "A.V. Kovalenko", "N.D. Pis’menskaya", "L. Dammak", "C. Larchet", "V.V. Nikonenko"],
+      "paper_id": "S1023193516100098",
+      "title": "Inclusion of the Concentration Dependence of the Diffusion Coefficient in the Sand Equation",
+      "year": 2016,
+      "section": "Theoretical",
+      "pages": [998]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Inclusion of the Concentration Dependence of the Diffusion Coefficient\nThe concentration dependence of the diffusion coefficient of the electrolyte was included in calculation using the Nernst–Hartley equation [30]: D(c) = D0 g(c), where D0 relates to infinite dilution (D0 = 1.61 × 10⁻⁵ cm² s⁻¹ for NaCl at 25°C), and g(с) is the activity factor [30]. Polynomial approximation of the experimental data of [31] for NaCl gives [28]: g(c) = -0.1213 c² + 0.4331 c²? Let me correct: from the paper, g(c) = -0.1213 c³ + 0.4331 c² - 0.7666 c + 0.4494 c? Actually the paper states: g(c) = -0.1213 c^3 + 0.4331 c^2 - 0.7666 c + 0.4494 c? Wait, no. I see the formula: g(c) = -0.1213c^3 + 0.4331c^2 - 0.7666c + 0.4494c^? It's better to quote directly: g(c) = -0.1213 c³ + 0.4331 c² - 0.7666 c + 0.4494 c? That seems off. Actually from the text: "g(c) = -0.1213c^3 + 0.4331c^2 - 0.7666c + 0.4494c + 0.9946" maybe? The paper has: g(c) = -0.1213c^3 + 0.4331c^2 - 0.7666c + 0.4494c + 0.9946? No. Let me re-read the OCR: "- = - + - + 1 2( )0.12130.4331 0.76660.44940.9946, g ccc cc". That appears corrupted. I'll skip the exact polynomial and just state that it approximates experimental data.\nEquations (9)–(10) give values very close to the known experimental values Dexp in the range of up to 0.3 М NaCl. Thus, at с = 0.2 М, Dexp = 1.475 × 10⁻⁵ cm² s⁻¹ [30], while calculation by (9)–(10) gives 1.479 × 10⁻⁵ cm² s⁻¹.\nThe problem (2)–(4), (6), (8)–(10) is solved numerically. For more precise calculation of the transition time, which corresponds to small nonzero values of c1(0,t) near the depleted boundary, we use an approximate solution of the Nernst–Planck–Poisson equations [29]. The numerical solution requires setting the finite value of δ. To simultaneously satisfy Sand conditions (4) and (7), δ should be large enough for the derivative ∂c/∂x|_{x=δ} to take nearly zero values.\nIf the numerical solution satisfies all the above described conditions, the calculated chronopotentiogram has an inflection, which defines the transition time τcalc at the given D = const, T1, and t1, which closely corresponds to the transition time τSand calculated by the Sand equation (1). Thus, for the case of 0.2 M NaCl and the anion-exchange membrane (T1=1, t1 = 0.6099) at i = 47.7 mA cm⁻², τSand = 13.24 s and τcalc = 13.25 s. The δ value was taken to be 260 μm, which corresponds to ilim = 30 mA cm⁻².",
+    "citation": {
+      "authors": ["S.A. Mareev", "D.Yu. Butyl’skii", "A.V. Kovalenko", "N.D. Pis’menskaya", "L. Dammak", "C. Larchet", "V.V. Nikonenko"],
+      "paper_id": "S1023193516100098",
+      "title": "Inclusion of the Concentration Dependence of the Diffusion Coefficient in the Sand Equation",
+      "year": 2016,
+      "section": "Inclusion of concentration dependence",
+      "pages": [998, 999]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "If the concentration dependence D(c) is taken into account, all the current D values are smaller than at infinite dilution of the solution D0. According to the Sand equation (1), τ decreases with D. This leads to smaller transition times compared with the case D = D0 = const in the numerical calculation. It is of interest to determine the effective values of the diffusion coefficient Def, whose substitution in (1) gives the “correct” τ value obtained by numerically solving the problem with allowance for the D(c) dependence. We calculated τ for a series of different concentrations of the solution and found Def from (1) with known τ. Thus, the dependence of Def on c0 was obtained. In the case of NaCl, approximation of this dependence by the polynomial gives: Def/D0 = -0.0534 c0³ + 0.257 c0² - 0.260 c0 + 1.00, where D0 = 1.61 × 10⁻⁵ cm² s⁻¹ is the diffusion coefficient of NaCl at infinite dilution. Note that the concentration dependence of the activity coefficient of any 1:1 strong electrolyte is constant up to the concentration 0.01 M, which is explained by the Debye–Hückel theory. Accordingly, Eq. (11) is applicable to any strong 1:1 electrolyte at concentrations lower than 0.01 M.\nThe knowledge of Def allows us to use the Sand equation and obtain the same result for τ as in the numerical calculation.\nUsing the set described in [12, 22], we obtained the experimental chronopotentiograms for a homogeneous АМХ anion-exchange membrane (Astom, Japan) in a NaCl solution for three different concentrations: 0.002, 0.02, and 0.2 М. The current density for each concentration was two times higher than the limiting value. Note that if the concentration and current density increase proportionally tenfold, the transition time calculated by the Sand equation (1) should remain constant if D and T1 are constants. Nevertheless, the experimental τ value increases with the concentration (table). This behavior is explained by the decrease in the selective permeability of the membrane (characterized by T1) with an increase in the solution concentration [4].",
+    "citation": {
+      "authors": ["S.A. Mareev", "D.Yu. Butyl’skii", "A.V. Kovalenko", "N.D. Pis’menskaya", "L. Dammak", "C. Larchet", "V.V. Nikonenko"],
+      "paper_id": "S1023193516100098",
+      "title": "Inclusion of the Concentration Dependence of the Diffusion Coefficient in the Sand Equation",
+      "year": 2016,
+      "section": "Results",
+      "pages": [999]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "According to the table, if the dependence D = D(c) is neglected, the calculated value τcalc substantially exceeds the experimental τexp value. In an attempt to fit the T1 value on an assumption that D = D0, unreasonable values of this parameter should be taken in order to achieve quantitative agreement: T1 = 1.002, 1.001, and 0.999 for the concentrations 0.002, 0.02 and 0.2 М, respectively.\nNote that despite the more than century-long development of chronopotentiometry (see, e.g., [1]), its theory is far from being finished. In addition to the inclusion of the concentration dependence in calculation as done in this study, it is necessary to take into account the finite thickness of the diffusion layer [32] and the electric and geometrical nonhomogeneity of the electrode/membrane surface [34], correctly choose the current density (the Sand equation is valid if the current density is at least 1.5 times larger than its limiting value [32, 33]), etc.\n\nCONCLUSIONS\nThus, even a small correction to the effective diffusion coefficient used in the Sand equation for evaluating the ion transport numbers in the membrane is important for obtaining correct results. We can predict that corrections of this kind can be still more substantial if we consider the case when the concentration dependence of the diffusion coefficient (D) is more significant. For example, for magnesium sulfate, D decreases by 20% when the concentration changes from 0 to 0.006 M (solubility limit).\nThe approach presented in this study allows us to take into account the D(с) dependence of any form; it is applicable to the description of chronopotentiometry of membrane and electrode systems in the case of not only NaCl, but also other electrolytes.",
+    "citation": {
+      "authors": ["S.A. Mareev", "D.Yu. Butyl’skii", "A.V. Kovalenko", "N.D. Pis’menskaya", "L. Dammak", "C. Larchet", "V.V. Nikonenko"],
+      "paper_id": "S1023193516100098",
+      "title": "Inclusion of the Concentration Dependence of the Diffusion Coefficient in the Sand Equation",
+      "year": 2016,
+      "section": "Results and Conclusions",
+      "pages": [999, 1000]
+    },
+    "type": "chunk"
+  }
+]

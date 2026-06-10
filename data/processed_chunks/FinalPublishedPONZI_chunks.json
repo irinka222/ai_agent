@@ -1,0 +1,132 @@
+[
+  {
+    "content": "1. Introduction On December 11, 2008, Bernard L. Madoff was arrested for allegedly running a multibillion-dollar Ponzi scheme in which investors across the world lost $50 billion dollars (Henriques and Kouwe, 2008). The principle of such a scheme is simple: you entice potential investors by promising a high rate of return, which you cannot possibly deliver. The only way you can pay the promised interest is by attracting new investors whose money you use to pay interests to those already in the fund. Various macroeconomic models of rational Ponzi games have been described in the literature (O’Connell and Zeldes, 1998; Bhattacharya, 2003; Blanchard and Weil, 2001; Forslid, 1998). Micro-Ponzi schemes have proliferated particularly on the Internet to the point that regulators fear \"Ponzimonium\" (Blas, 2009). Here we wish to investigate the mathematics of Ponzi schemes by going beyond the simplistic pyramid-type explanations that rely on a more or less rapid doubling of the number of new investors. Madoff’s fund is only the most recent and perhaps the biggest Ponzi scheme in history. Madoff offered a supposedly safe 10% return, which was considered unrealistic, particularly in the financial climate prevailing at the end of 2008. Still, if he could invest the money at a two or three percent interest rate and if new deposits came in fast enough, he could use the fresh money to pay those who withdrew their earnings. But how fast must new deposits come in? How long can the scheme last? What parameters drive the dynamics of the fund? In this paper we provide some answers to these questions with a simple model that captures the main features of a Ponzi scheme. The model is described in Section 2 with detailed results on the behavior of the fund as a function of seven parameters. In Section 3 we describe Charles Ponzi’s eponymous 1920 scheme and crudely fit the model to the data available (see Zuckoff (2005) and Dunn (2004) for biographies of this colorful character). We also discuss an improbable “philanthropic Ponzi scheme” that may have something to do with Social Security. Highlights and the main results are brought together in the concluding Section 4.",
+    "citation": {
+      "authors": ["Artzrouni M."],
+      "paper_id": "artzrouni_2009_ponzi",
+      "title": "The mathematics of Ponzi schemes",
+      "year": 2009,
+      "journal": "Mathematical Social Sciences",
+      "volume": 58,
+      "pages": "190-201"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2. The model 2.1. Assumptions We assume that the fund starts at time t = 0 with an initial deposit K ≥ 0 followed by a continuous cash inflow s(t). We next assume a promised rate of return r_p and a nominal interest rate r_n at which the money is actually invested. If r_n ≥ r_p then the fund is legal and has a profit rate r_n - r_p. If r_n < r_p, the fund is promising more than it can deliver. The promised rate r_p may be called the “Ponzi rate” and is equal to 0.10 in the introductory example. The nominal interest rate r_n is 0.02 or 0.03 in that example. We need to model the fact that investors withdraw at least some of their money along the way. The simplest way of doing this is to assume a constant withdrawal rate r_w applied at every time t to the promised accumulated capital. In order to calculate the total density of withdrawals W(t) at time t we first consider withdrawals by those who deposited the initial amount K. With a promised rate of return r_p and a withdrawal rate r_w, investors expect an accumulated capital of K e^{(r_p - r_w)t} at time t. The density of withdrawals at time t is therefore r_w K e^{(r_p - r_w)t}. If r_w is less than the promised rate r_p then these withdrawals increase exponentially; r_w can also be larger than r_p in which case withdrawals decrease exponentially as these investors are eating into the capital K. Withdrawals by those who added to the fund between times 0 and t are obtained by calculating withdrawals for those who invested at time u and then summing for u between 0 and t. The quantity s(u) is invested at time u with an expected growth rate r_p - r_w for the duration t - u. The expected accumulated value at time t is then s(u) e^{(r_p - r_w)(t-u)}. The density of withdrawals at time t is then r_w s(u) e^{(r_p - r_w)(t-u)} with a sum r_w ∫_0^t s(u) e^{(r_p - r_w)(t-u)} du of withdrawals from all those who invested between times 0 and t. The total density of withdrawals W(t) is then the sum of withdrawals by initial investors and by those who invested between times 0 and t: W(t) = r_w K e^{(r_p - r_w)t} + r_w ∫_0^t s(u) e^{(r_p - r_w)(t-u)} du. We note that the nominal interest rate r_n does not appear in W(t): withdrawals are based only on the promised rate of return r_p.",
+    "citation": {
+      "authors": ["Artzrouni M."],
+      "paper_id": "artzrouni_2009_ponzi",
+      "title": "The mathematics of Ponzi schemes",
+      "year": 2009,
+      "journal": "Mathematical Social Sciences",
+      "volume": 58,
+      "pages": "190-201"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2. The differential equation If S(t) is the amount in the fund at time t then S(t+dt) is obtained by adding to S(t) the nominal interest r_n S(t) dt, the inflow of fresh money s(t) dt and subtracting the withdrawals W(t) dt: S(t+dt) = S(t) + dt [r_n S(t) + s(t) - W(t)]. For dt → 0 the amount S(t) is the solution to the first order linear differential equation dS/dt = r_n S(t) + s(t) - W(t). We let C = S(0) be the initial condition which may or may not be equal to K, the initial deposit made by customers. The fund managers can make an initial “in-house” deposit K0 ≥ 0, which will also be invested at the nominal rate r_n. In this case the initial value C = K0 + K is larger than K. An initial condition C < K formally corresponds to the case where for some reason (theft or other) a fraction of the initial deposits K is not available. We will see later that the solution to the differential equation with an initial condition C = S(0) other than K will be used when there is a sudden change in parameter values at some subsequent time t*. (For example the cash inflow or withdrawal rate changes at t*.) A simple assumption one can make on the cash inflow s(t) is that of exponential growth: s(t) = s0 e^{r_i t}, where s0 is the initial density of the deposits and r_i is called the investment rate. The withdrawals function W(t) then becomes W(t) = r_w e^{(r_p - r_w)t} [ K + s0 (e^{t(r_w + r_i - r_p)} - 1)/(r_w + r_i - r_p) ] (where the fraction should be taken equal to t when r_w + r_i - r_p = 0). The solution S(t) to the differential equation has a closed-form expression. Using the function g(t,a,b,c,d,α) = a e^{bt} + c e^{dt} + α, the solution is S(t) = g(t,a,b,c,d,α) e^{r_n t} = a e^{(b+r_n)t} + c e^{(d+r_n)t} + α e^{r_n t}, where a = r_w [s0 - (r_i - r_p + r_w)K] / [(r_p - r_n - r_w)(r_i - r_p + r_w)], b = r_p - r_n - r_w, c = s0 (r_i - r_p) / [(r_i - r_n)(r_i - r_p + r_w)], d = r_i - r_n, α = C - [s0 (r_n - r_p) + K r_w (r_i - r_n)] / [(r_i - r_n)(r_n - r_p + r_w)].",
+    "citation": {
+      "authors": ["Artzrouni M."],
+      "paper_id": "artzrouni_2009_ponzi",
+      "title": "The mathematics of Ponzi schemes",
+      "year": 2009,
+      "journal": "Mathematical Social Sciences",
+      "volume": 58,
+      "pages": "190-201"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The solution S(t) is a linear combination of three exponentials. The zeros of S(t) and of its derivative can be calculated numerically but no closed forms were found. However, if we know the number of positive zeros of S(t) we can shed light on the conditions under which the fund is solvent (S(t) remains positive). Depending on parameter values, S(t) has 0, 1 or 2 positive zeros. When there is no positive zero then S(t) remains positive and the fund is solvent. One positive zero means that S(t) becomes negative and the fund has collapsed. Two positive zeros mean that S(t) becomes negative, reaches a negative minimum, then becomes positive again. The fund has collapsed but could recover with a bailout equal to the absolute value of the negative minimum. Analytical results on the number of positive zeros are obtained by noting that the zeros of S(t) are also those of g(t,a,b,c,d,α). This function is a linear combination of only two exponentials plus a constant. The derivative of g is a linear combination of two exponentials with no constant, which can be studied analytically. Proposition 1 provides results on the number of positive zeros of g(t,a,b,c,d,α) based on conditions involving the signs of cd/(ab) and (1+cd/ab)/(b-d). The proof is elementary and hinges on the derivative and limits. The limiting cases are left as exercises.",
+    "citation": {
+      "authors": ["Artzrouni M."],
+      "paper_id": "artzrouni_2009_ponzi",
+      "title": "The mathematics of Ponzi schemes",
+      "year": 2009,
+      "journal": "Mathematical Social Sciences",
+      "volume": 58,
+      "pages": "190-201"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.3. Main result To apply Proposition 1, define ρ = r_i - r_p, σ_K = (K r_w)/s0 - 1. Define C1(K) = [s0 (r_n - r_p) + K r_w (r_i - r_n)] / [(r_i - r_n)(r_n - r_p + r_w)], which is the critical value of C above which α is positive. Define Z(K) = [ (K/s0)^{(r_w + r_i - r_p)} - 1 ] / [(r_i - r_p)/r_w], and note that Z(K)=1 iff K = s0/r_w (i.e., σ_K=0). The extremum m and corresponding t_c are: m = s0 (r_p - r_i) Z(K)^{(r_n - r_i)/(r_p - r_i - r_w)} / [(r_i - r_n)(r_n - r_p + r_w)] + C - C1(K), t_c = ln(Z(K)) / (r_w + r_i - r_p). Define C2(K) = C1(K) + s0 (r_p - r_i) Z(K)^{(r_n - r_i)/(r_p - r_i - r_w)} / [(r_i - r_n)(r_n - r_p + r_w)] if K ≥ s0/r_w, and C2(K)=0 if K < s0/r_w. C2(K) is the critical value of C above which m is positive. Theorem 1 gives the number of positive zeros of S(t) as a function of the sign of ρ. Case B1 (ρ > 0, i.e., r_i > r_p): Sub-case B1,1 (σ_K < 0, K < s0/r_w): S(t) has no positive zero. Sub-case B1,2 (σ_K > 0, K > s0/r_w): For r_n > r_i, if C > C2(K) (including C=K) then no zero; if C1(K) < C < C2(K) then one zero on each side of t_c; if C < C1(K) then one zero. For r_p < r_n < r_i, S(t) has one zero for C < C2(K) (including C=K) and none if C > C2(K). For r_n < r_p, S(t) has one zero for C < C2(K) (including C=K if K larger than fixed point K* of C2(K)) and none if C > C2(K) (including C=K if K smaller than K*). Case B2 (ρ < 0, r_i < r_p): Sub-case B2,1 (r_w < r_p - r_n or r_n < r_i): one positive zero. Sub-case B2,2 (r_w > r_p - r_n and r_n > r_i): for C > C1(K) (including C=K if r_n > r_p) no zero; for C < C1(K) (including C=K if r_n < r_p) one zero.",
+    "citation": {
+      "authors": ["Artzrouni M."],
+      "paper_id": "artzrouni_2009_ponzi",
+      "title": "The mathematics of Ponzi schemes",
+      "year": 2009,
+      "journal": "Mathematical Social Sciences",
+      "volume": 58,
+      "pages": "190-201"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.4. Interpretation of results The results break down depending on whether r_i is larger or smaller than r_p. When r_i > r_p (Case B1) and r_n > r_p (legal fund), in sub-case B1,1 (K < s0/r_w) the fund is solvent regardless of C. In sub-case B1,2 (K > s0/r_w) the fund remains solvent when C > C2(K) (which includes C=K if the first diagonal is above C2(K)). For r_n between r_p and r_i the fund collapses (Z=1) as soon as C drops below C2(K). For r_n larger than r_i the fund collapses but recovers (Z=2) if C is not too far below C2(K); if C is too small (C < C1(K)) then the fund collapses (Z=1). In a Ponzi scheme (r_n < r_p) even with r_i > r_p, the fund is solvent for C=K only if K is not too large (less than the fixed point K*). In Case B2 (r_i < r_p), sub-case B2,2 with r_n > r_p (legal fund): fund remains solvent for C > C1(K). In the Ponzi sub-case B2,2 with r_i < r_n < r_p and r_w > r_p - r_n, the fund is solvent if C > C1(K) (which is larger than K). This means the scheme is solvent if the manager adds an “in-house” investment at least equal to C1(K)-K. This can be large, hence “philanthropic Ponzi scheme”. This scenario hinges on r_i remaining smaller than r_n. Sub-case B2,1 (r_n < r_i or r_w < r_p - r_n) leads to collapse (Z=1). Thus, a small r_w may seem desirable but leads to faster growth and eventual collapse; a large r_w depletes the fund early but leads to smaller withdrawals later, and solvency if C is large enough.",
+    "citation": {
+      "authors": ["Artzrouni M."],
+      "paper_id": "artzrouni_2009_ponzi",
+      "title": "The mathematics of Ponzi schemes",
+      "year": 2009,
+      "journal": "Mathematical Social Sciences",
+      "volume": 58,
+      "pages": "190-201"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.5. Actual and promised amounts in the fund To describe dynamics with a sudden parameter change at time t*, denote S(t, K, C, s0, r_i, r_w, r_p, r_n) the solution. The actual amount S_a(t) (based on r_n and initial condition C) is given by Eq. (25). The promised amount S_p(t) (belonging to investors) is obtained by setting r_n = r_p and C = K, yielding S_p(t) = [s0/(r_p - r_i - r_w)] (e^{(r_p - r_w)t} - e^{r_i t}) + K e^{(r_p - r_w)t}. Contrary to S_a(t), S_p(t) is always positive. 2.6. Change in parameter values If at time t* the parameters change discontinuously to (s0', r_i', r_w', r_p', r_n'), the new initial condition C' = S_a(t*) and new initial investment K' = S_p(t*) are used, and the actual and promised amounts for t > t* are given by the same functions with shifted time.",
+    "citation": {
+      "authors": ["Artzrouni M."],
+      "paper_id": "artzrouni_2009_ponzi",
+      "title": "The mathematics of Ponzi schemes",
+      "year": 2009,
+      "journal": "Mathematical Social Sciences",
+      "volume": 58,
+      "pages": "190-201"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Applications 3.1. Charles Ponzi’s original scheme The scheme is named after Charles Ponzi (1882–1949). Data from DeWitt (2009). Ponzi issued bonds offering 100% profit if held for 90 days (0.25 years), giving an annualized r_p = 2.773. He was penniless, so K = C = 0. Deposits: from December 26, 1919 (t=0) to July 26, 1920 (t*=0.58), last day collected $200,000, total $10 million. With exponential growth assumption, parameters s0 and r_i satisfy s0 e^{0.58 r_i} = 0.2·365 and s0 (e^{0.58 r_i} - 1)/r_i = 10, yielding s0 = 1.130 (million/year), r_i = 7.187. The actual profit on coupons was negligible; r_n is set to 0.01 (though could be 0). The withdrawal rate r_w is estimated from the fact that after July 1920, Ponzi redeemed $5 million with $7 million still outstanding, meaning S_p(0.58) = 12. Solving gives r_w = 1.47. Then S_a(0.58) = $7.763 million; after $5 million redemption, $2.763 million left, consistent with reported assets. With r_n < r_p < r_i and K=C=0, the scheme is in sub-case B1,1, so S_a(t) has no zero and would continue to grow at rate r_i as long as new investments pour in. As a projection, if after t*=0.58 the flow becomes constant (r_i'=0) at $200,000/day (s0' = 200,000·365 = $73 million/year) while other parameters unchanged, then with r_i'=0 < r_n'=0.01 < r_p'=2.773 we are in sub-case B2,1 (since r_w=1.47 < r_p' - r_n' = 2.763). The fund would collapse about nine months later (S_a(1.30)=0).",
+    "citation": {
+      "authors": ["Artzrouni M."],
+      "paper_id": "artzrouni_2009_ponzi",
+      "title": "The mathematics of Ponzi schemes",
+      "year": 2009,
+      "journal": "Mathematical Social Sciences",
+      "volume": 58,
+      "pages": "190-201"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. A philanthropic Ponzi scheme When r_w > r_p - r_n and r_i < r_n < r_p, for C > C1(K) the Ponzi scheme is solvent. With C - C1(K) positive, the asymptotic growth rate of S_a(t) is r_n, while S_p(t) grows at r_p - r_w (smaller than r_n). The profit S_a(t) - S_p(t) ∼ (C - C1(K)) e^{r_n t}. If K=0, C is the in-house investment K0, and C must be > C1(0) = s0 (r_p - r_n)/[(r_n - r_i)(r_n - r_p + r_w)]. The actual amount and profit are both smaller than the profit C e^{r_n t} from simply investing C at rate r_n, so the manager gives away a share of profits — hence “philanthropic”. Example: r_p=0.15, s0=1 (million/year), r_i=0, r_w=0.12, r_n=0.04, K=0. Then C1(0)=275, so the manager must invest at least $275 million to keep the fund solvent. With C=280, ln(S_a(t))/t and ln(S_p(t))/t converge to r_n=0.04 and r_p - r_w=0.03 respectively, while ln(C e^{r_n t})/t = ln(C)/t + r_n stays larger. Such a large initial investment to sustain a fund growing only $1 million/year is unprofitable. This example may relate to the Social Security debate: a Ponzi scheme can last a long time or even indefinitely with a large initial investment, and solvency depends on r_i remaining smaller than r_n (i.e., new investments not growing too fast).",
+    "citation": {
+      "authors": ["Artzrouni M."],
+      "paper_id": "artzrouni_2009_ponzi",
+      "title": "The mathematics of Ponzi schemes",
+      "year": 2009,
+      "journal": "Mathematical Social Sciences",
+      "volume": 58,
+      "pages": "190-201"
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Conclusion After the collapse of Charles Ponzi’s scheme in July 1920, investors eventually got 37 cents on the dollar. Ponzi spent 10 years in prison, then returned to Italy, worked briefly for Mussolini, fled to Brazil, and died a pauper in 1949. Robbing Peter to pay Paul is an ancient practice experiencing a comeback on the Internet. This paper presented a simple continuous-time mathematical model of a fund that promises more than it can deliver. Constant investment, withdrawal and nominal rates capture only crudely the variety of human behaviors, but some assumptions are realistic. As expected, a legal fund (r_n > r_p) is always solvent with C=K. In a Ponzi scheme (r_n < r_p) solvency depends on r_i and r_w. If r_i is too large or r_w too small, the fund grows fast and can collapse as withdrawals increase. If r_i is too small or r_w too large, the fund may not keep up with withdrawals. The model yields qualitatively different long-run behaviors that may look alike initially. Parameter values near border regions can produce funds that increase for a long time before collapsing. The results can help financial regulators predict the fate of funds making unrealistic claims. The model provides a framework to answer questions such as: given a promised return, initial in-house investment, deposit growth rate, and withdrawal rate, will the fund collapse and when?",
+    "citation": {
+      "authors": ["Artzrouni M."],
+      "paper_id": "artzrouni_2009_ponzi",
+      "title": "The mathematics of Ponzi schemes",
+      "year": 2009,
+      "journal": "Mathematical Social Sciences",
+      "volume": 58,
+      "pages": "190-201"
+    },
+    "type": "chunk"
+  }
+]

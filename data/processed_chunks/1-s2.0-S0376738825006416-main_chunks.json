@@ -1,0 +1,366 @@
+[
+  {
+    "content": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights Tu˘gba Baysal a,1 , Madhavi Dahanayaka b,1\n\n, Sadiye Velio˘glu a,c,** , Jia Wei Chew b,d,* a Institute of Nanotechnology, Gebze Technical University, Gebze, Kocaeli, 41400, Türkiyeb School of Chemical and Biomedical Engineering, Nanyang Technological University, Singapore, 637459, Singaporec Nanotechnology Research and Application Center (NUAM), Gebze Technical University, Gebze, Kocaeli, 41400, Türkiyed Division of Chemical Engineering, Chalmers University of Technology, 412 96, Gothenburg, Sweden\n\nA R T I C L E I N F O Keywords:Organic solvent nanofiltrationNon-equilibrium molecular dynamicsMetal organic frameworkMembraneMolecular simulations",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T HKUST-1 is a popular metal-organic framework (MOF) that is widely for organic solvent nanofiltration (OSN). This study targets a molecular-level understanding of the organic solvent permeation characteristics of HKUST-1based OSN membranes. Non-equilibrium molecular dynamics (NEMD) simulations are conducted to investigate the permeation of two polar (namely, methanol and acetone) and five non-polar (namely, hexane, cyclohexane, toluene, xylene, and CCl4) organic solvents through the HKUST-1 membrane. Compared to polar protic methanol and polar aprotic acetone, non-polar solvents exhibited higher solvent flux due to their weaker interactions with the HKUST-1 membrane, except for CCl4, which has the highest viscosity and relatively larger molecular diameter. Among the non-polar solvents, the highest permeation flux exhibited by hexane (256 * 104 ± 24 *104 kg m-2 h-1) is attributable to the lowest viscosity, narrow potential mean force distribution, relatively lower energy barrier, and loss of long-range interactions. Furthermore, for slow-permeating solvents, the moving wall NEMD (MW-NEMD) approach is recommended, due to its straightforward implementation and ease of use. On the other hand, for fast-permeating solvents, the boundary-driven NEMD (BD-NEMD) is more effective, as it allows for extended simulation times with reasonably sized systems, avoiding the need for large-scale setups and thereby reducing computational costs.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction The interest in the organic solvent nanofiltration (OSN) process has grown significantly because of the widespread use of organic solvents, strict environmental regulations, and the increasing demand for energy efficiency. Especially, OSN emerges as a promising process for removing dissolved solutes in organic solvents with a molecular weight between 100 and 200 Da [1]. OSN has a wide range of potential applications in various industries due to its ability to selectively separate and purify organic solvents. Some of the key potential applications include the chemical and pharmaceutical industries, wastewater treatment, the food and beverage industry, fine chemicals and specialty materials, etc. [2–4]. Compared to conventional separation processes such as adsorp­tion, evaporation, and distillation, it offers advantages such as energy efficiency and reduced environmental impact (by enabling solvent recycling). For efficient recovery of organic solvents, OSN membranes are designed with pore sizes in the range of 5–20 Å [1]. Polymeric membranes are ubiquitous in filtration due to their availability, relatively low cost, and ease of fabrication relative to ceramic membranes. However, structural and performance challenges, especially swelling in organic solvents, limit their use in OSN.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "cation relative to ceramic membranes. However, structural and performance challenges, especially swelling in organic solvents, limit their use in OSN. To address these issues, recent studies have focused on strategies such as chemical cross-linking [5], surface modification [6], and the incorporation of nanomaterials like graphene oxide [7], which have significantly enhanced the chemical resistance and stability of polymeric membranes. Despite these advancements, it remains difficult to synergize solvent resistance, long-term durability, and reliable separation performance in harsh conditions. Consequently, attention has turned to the",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "* Corresponding author. Division of Chemical Engineering, Chalmers University of Technology, 412 96 Gothenburg, Sweden.** Co-corresponding author. Institute of Nanotechnology, Gebze Technical University, Gebze, Kocaeli, 41400, Türkiye.E-mail addresses: sadiyevelioglu@gtu.edu.tr (S. Velio˘glu), jia.chew@chalmers.se (J.W. Chew). 1 T.B. and M.D. contributed to (BD)-NEMD and (MW)-NEMD simulations, respectively.\n\nContents lists available at ScienceDirect Journal of Membrane Science journal homepage: www.elsevier.com/locate/memsci\n\nJournal of Membrane Science 733 (2025) 124328",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 16 June 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). development of novel membrane materials such as metal-organic frameworks (MOFs) [8–10], covalent organic frameworks (COFs) [11,12], carbon nanotubes (CNTs) [13,14], graphene, graphene oxide [15–18], MoS2 [19], and MXene [20], which offer promising charac­teristics for high-performance OSN applications, including tunable porosity and superior chemical stability. Among the novel membrane materials, MOFs are distinguished by their high surface area, tunable pore size, and unique properties, as well as their ability to be synthesized under milder conditions than conven­tional nanomaterials (e.g., zeolite, silica, titanium dioxide, etc.) used in membrane technology. MOFs are a class of porous materials that consist of metal ions or clusters coordinated with organic ligands to form a three-dimensional, crystalline structure. The versatility of these organic ligands not only enhances their compatibility with polymers but also enables the fine-tuning of their properties. By varying metal nodes and ligands, a diverse family of MOFs can be synthesized. This means that their properties can be fine-tuned to design MOFs with tailored char­acteristics for specific applications. Recently, a continuous MOF membrane has been produced as a pure polycrystalline layer on a support.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ilored char­acteristics for specific applications. Recently, a continuous MOF membrane has been produced as a pure polycrystalline layer on a support. These membranes are excellent candidates for solvent nanofiltration, as they have higher solvent resis­tance and lower swelling tendency in addition to their high separation performances. The size and nature of nanopores or nanochannels within the MOF layer are responsible for solvent permeation and solute rejec­tion. For instance, continuous Zn-benzene-1,4-dicarboxylic acid (Zn (BDC)) polycrystalline membranes were prepared on chemically modi­fied polyacrylonitrile (PAN) supports by Tham et al. [21]. The mem­branes maintained their good crystallinity even after being soaked in isopropyl alcohol (IPA) for one week, achieving 86 % rejection of Bril­liant Blue R dye and an IPA permeance of approximately 2 LMHbar-1. Ma et al. [22] subsequently fabricated UiO-66-NH2 polycrystalline membranes on polymeric supports through an in situ solvothermal synthesis approach. The UiO-66-NH2 membrane has demonstrated strong chemical stability in a variety of organic solvents and an outstanding ability to reject Rose Bengal dye molecules (96.33 %), which were attributed to the combined effects of size exclusion and electrostatic repulsion mechanisms.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "to reject Rose Bengal dye molecules (96.33 %), which were attributed to the combined effects of size exclusion and electrostatic repulsion mechanisms. These groundbreaking studies have paved the way for the development of more advanced MOF poly­crystalline membranes that can exhibit superior separation performance and long-term stability for OSN applications. Although groundbreaking studies have explored the OSN perfor­mance of MOF-based membranes, OSN remains a complex process due to the intricate interactions among solvent, solute, and membrane. The incorporation of MOFs adds further challenges, as factors such as pore size, pore distribution, metal type, and other structural characteristics significantly affect performance. A comprehensive understanding of the mechanistic aspects of OSN within the MOF structure is still needed. For this purpose, molecular simulation is an effective tool that can provide a deeper understanding of molecular transport across MOF nanopores. However, according to our knowledge, there is only one molecular-level discussion available on organic solvent permeation through MOF-based membranes. Wei et al. [23] evaluated three microporous crystalline zeolitic imidazolate frameworks (ZIF-25, ZIF-71, and ZIF-96) via mo­lecular simulation approaches and unveiled the effects of pore chemistry in organic solvent permeation [23].",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "works (ZIF-25, ZIF-71, and ZIF-96) via mo­lecular simulation approaches and unveiled the effects of pore chemistry in organic solvent permeation [23]. Rather than this work, solvent transport was identified in either nanochannels [24–27] or polymeric-free volumes [28–30] by molecular simulation approaches. Therefore, well-validated molecular simulation approaches can serve as powerful tools for elucidating the performance of MOF structures in OSN processes. Non-equilibrium molecular dynamics (NEMD) simulations provide an effective way to model solvent transport under realistic filtration conditions. Among various NEMD techniques, the moveable-wall NEMD (MW-NEMD) method is one of the simplest, fastest, and most widely used approaches. As demonstrated in our previous study [25], it enables the investigation of molecular-level interactions between solutes, solvents, and membrane materials, and provides reliable insights, particularly into solvents with low permeability. However, due to spatial limitations in MW-NEMD systems, the total simulation time is relatively short, making it challenging to obtain statistically meaningful data for fast-permeating solvents, in which transport events occur rapidly. To overcome this limitation, both MW-NEMD and boundary-driven NEMD (BD-NEMD) simulations were employed in the present study to evaluate solvent transport using various solvents with diverse properties.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ary-driven NEMD (BD-NEMD) simulations were employed in the present study to evaluate solvent transport using various solvents with diverse properties. MW-NEMD is useful for slow-permeating solvents due to its simplicity and computational efficiency. On the other hand, BD-NEMD, which applies periodic boundary conditions to maintain a continuous flow, is beneficial for fast-permeating solvents. This method enables longer simulation durations, improves statistical reliability, and allows for a more accurate representation of flux [31], albeit at a higher computa­tional cost. By combining both approaches, a more comprehensive un­derstanding of solvent transport mechanisms through MOFs can be achieved. This underlies the current effort. Recent studies by distinguished researchers have demonstrated that among MOF structures, HKUST-1 membranes, prepared on a polymer support through an electrochemically assisted interfacial growth strat­egy or via in situ growth within the pores of integrally skinned asym­metric polymer support, exhibit excellent dye rejection [32,33]. Additionally, the HKUST-1 membranes have been shown to have considerable permeance for methanol [9,34,35] and acetone [33,36,37] solvents. Therefore, we aimed to explore the organic solvent permeation performance of the HKUST-1 membrane, given its well-reported ad­vantages, such as room-temperature fabrication and pore sizes within the nanofiltration range, which makes it one of the most promising MOF-based membranes.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "es, such as room-temperature fabrication and pore sizes within the nanofiltration range, which makes it one of the most promising MOF-based membranes. This study evaluates the permeation charac­teristics of organic solvents with varying polarities to identify factors governing transport behavior. Specifically, solvents with polar protic, polar aprotic, and non-polar properties were examined using two NEMD simulation approaches. The aim is to reveal the potential performance of HKUST-1 in OSN applications and to clarify how solvent properties (molecular size, polarity, viscosity), solvent–membrane interactions, and structural features of the MOF influence solvent transport. 2. Simulation methods The HKUST-1 MOF structure (Fig. S1(a)) is adopted from the Cam­bridge Crystallographic Data Centre [38]. Initially, its superstructure is produced to observe a HKUST-1 membrane having a cross-section area of 51.3 * 24.97 Å2 and a thickness in the z-direction of 24.97 Å. Along the z-direction, solvent baths with lengths of 60 and 30 Å are located on the left and right sides of the membrane in order to represent the feed and permeate compartments, respectively. As shown in Fig. 1(a), the simulation cell consists of an HKUST-1 membrane immersed in pure solvent baths. Then, at the ends of the system, two rigid impermeable walls are placed to serve as pistons for the simulation of the nano­filtration process.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "baths. Then, at the ends of the system, two rigid impermeable walls are placed to serve as pistons for the simulation of the nano­filtration process. The position of the feed and permeate pistons are adjusted based on pressures, Pleft and Pright, respectively. Finally, a vacuum space with a z-directional length of 100 Å is placed on the permeate side to avoid interaction with the periodic image of the feed side. The large-scale atomic/molecular massively parallel simulator (LAMMPS) package is used to investigate the solvent permeation [39]. Periodic boundary conditions are applied in all three orthogonal di­rections. The membrane atoms are constrained to their initial positions by using a spring with a constant of 50 kcal mol-1Å-2. This setup minimizes lateral drifting of the membrane atoms due to the created pressure difference, maintains the atomic structure while allowing some degree of flexibility, and reduces computational time. Interactions be­tween solvent molecules, pistons, and membrane atoms are modeled using van der Waals (vdW) and electrostatic interactions. The 12-6 Lennard-Jones (LJ) potential with a cutoff distance of 12 Å is used to describe the vdW interactions between two atoms. The",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "T. Baysal et al. Journal of Membrane Science 733 (2025) 124328 particle-particle-particle-mesh (PPPM) summation technique is employed to compute the long-range electrostatic interactions with a cutoff distance of 14 Å [40]. As proposed by Zhao et al. [41], the vdW parameters of the MOF atoms (C, O, and H) are extracted from the Dreiding force field [42] and those of Cu from the universal force field (UFF) [43]. The partial charges of the MOF atoms are adopted from an earlier study (see Fig. S1) [44]. The optimized potentials for liquid simulations-all atom (OPLS-AA) [45] force field parameters are adopted to simulate solvent molecules and paracetamol solute. Atomic charges of all organic solvents adapted to OPLS-AA force field are given in Fig. S2. The sp2 hybridized carbon atoms of impermeable walls, which are used as pistons, are treated as neutral. The Lorentz-Berthelot mixing rules are used to estimate the atomic interactions among the different species. The Velocity-Verlet algorithm, with a time step of 1 fs, is used to perform Molecular Dynamics (MD) simulations for the equilibration process and Non-Equilibrium MD (NEMD) simulations for the perme­ation calculations. Initially, each system is equilibrated for 1 ns with constant volume and temperature (NVT) ensemble using the Nos´eHoover thermostat at 300 K, until solvent densities in both solvent baths reach the experimental values listed in Table S1.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "T) ensemble using the Nos´eHoover thermostat at 300 K, until solvent densities in both solvent baths reach the experimental values listed in Table S1. After that, Pleft and Pright are adjusted to the pressures of 400.1 MPa and 0.1 MPa, respec­tively, to mimic the nanofiltration process using movable walls (MW)- NEMD simulations. It should be noted that the pressure gradient applied in NEMD simulations is higher than that in practical OSN systems to reduce thermal noise and improve the signal-to-noise ratio, enabling statistically reliable results within a reasonable computational time [23,25–28]. This approach is valid for operation within the linear response regime, where flux is proportional to applied pressure. Studies have shown that this regime can persist even under perturbations comparable to intermolecular forces [46], allowing permeance values obtained under elevated pressures to be extrapolated to experimental conditions with confidence, as the underlying transport mechanism remains un­changed. All the MW-NEMD simulations are conducted for 10 ns, and data from the last 5 ns are analyzed to evaluate the permeation per­formance of methanol, acetone, xylene, toluene, and CCl4. The proper­ties and molecular structures of all solvents used in this study are presented in Table S1 and Fig. S1(b), respectively.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "toluene, and CCl4. The proper­ties and molecular structures of all solvents used in this study are presented in Table S1 and Fig. S1(b), respectively. Since the length of simulation time is directly proportional to the volume of the solvent bath on the feed side, it is not easy to run a continuous MW-NEMD simulation for highly permeable solvents like hexane. If all molecules pass through the membrane, the simulation can be terminated within a short time without yielding sufficient statistical data. Therefore, a different NEMD method is followed for fastpermeating solvents, as boundary-driven (BD)-NEMD simulations [47–49], which had been applied successfully mainly for water perme­ation predictions. In BD-NEMD simulations, a constant external force is directly applied to fluids in the predefined region of the feed. Unlike the MW-NEMD approach, BD-NEMD allows for longer simulation times without compromising the pressure difference across the membrane , as permeated solvent molecules return to the feed bath due to periodicity. Therefore, in the system design, only impermeable walls and vacuum space are removed, and the region where the external force is applied is defined as represented in Fig. 1(b). As for the simulation details, the simulation procedure established in our previous study [31] was utilized for the BD-NEMD simulations.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "in Fig. 1(b). As for the simulation details, the simulation procedure established in our previous study [31] was utilized for the BD-NEMD simulations. Unlike the classical BD-NEMD approach, where a constant force is applied directly to individual atoms within the slab region, in this study, forces are applied to entire molecules that contain at least one atom within the slab. This modification results in more repeatable and meaningful outcomes, particularly for large solvents such as hexane. The necessity of this adjustment arises from the observation that when force is applied to atoms of large solvent molecules within the slab, atoms outside the slab exhibit different velocities, disrupting the force balance and leading to inconsistent solvent fluxes. To ensure a more precise force distribution, the number of affected atoms at each timestep is considered. A specific n * f value is selected to achieve a pressure difference of approximately 400 MPa, similar to the MW-NEMD method, based on Equation (1): n * f = ΔP * A(1) where n represents the number of atoms in the slab region, f denotes the applied force per atom, ΔP is the pressure difference, and A is the cross-",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(3) where r is the distance between atoms i and j, Nij(r, r +Δr) is the number of j atoms located within a spherical shell of thickness Δr around atom i, V is the total system volume, and Nᵢ and Nⱼ are the total numbers of atoms i and j, respectively. The position and intensity of the first RDF peak provide quantitative information about interaction strength. Spe­cifically, a peak at a lower r indicates stronger affinity between the corresponding atom types (e.g., membrane–solvent, solvent–solute, solvent–solvent). The PMF profile represents the free energy barrier that solvent molecules must overcome to permeate through various depths of the membrane. It is calculated using the following equation [50,51]: PMF = -RTln[ρ(z) ρ0 ](4) where R is the gas constant, T is the temperature, ρ(z) denotes the local density of solvent molecules at position z, and ρ0 is the reference density, typically taken as the bulk solvent density.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3. Results and discussion To ensure the reliability of the methodology of molecular simula­tions, it is essential to evaluate the properties of the solvent carefully by carrying out proper model parameter selection. To this end, we con­ducted a thorough analysis of the solvent properties and subsequently compared our findings with experimental data. For this analysis, the fluxes of three solvents, namely, methanol, acetone, and hexane, which are polar protic, polar aprotic, and non-polar, respectively, are assessed. Validations of the model are carried out in two ways. Firstly, the RDFs (g (r)) between O–O atom pairs of methanol and acetone molecules, as well as H–H atom pairs of hexane molecules, in the feed reservoir, are calculated, as shown in Fig. 2(a). Methanol and acetone solvents exhibit the first peaks at 2.9 and 5.5 Å, respectively, which agree with earlier studies ([52,53], respectively) and thus validate the model. Secondly, the densities of the solvents are evaluated. Under atmospheric pressure, the bulk solvent densities in the permeate reservoir are estimated, as presented in Table S2. These results agree with the densities reported at 300 K (Table S1) and thus further validate the simulation model used in this study. The HKUST-1 membrane consists of pores with radii of 5.5 and 7 Å. Inside the HKUST-1 membrane, three different regions are marked in Fig. 2(b), namely, the apertures (I and III) and the cage (II). Fig.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "f 5.5 and 7 Å. Inside the HKUST-1 membrane, three different regions are marked in Fig. 2(b), namely, the apertures (I and III) and the cage (II). Fig. 2(c) presents the solvent density distribution along the z-direction. The density peaks near the membrane surfaces are due to strong membranesolvent interactions. Because of the higher pressure applied on the feed, the feed solvent density is slightly higher than the permeate solvent density. Since the solvent density values in the membrane are directly proportional to the pore size of the membrane, the molecular size of each molecule was measured (Fig. S2), and the maximum molecular size calculated for each solvent molecule is given in Table S1. Within the membrane, the highest density is reported at the cage (i. e., region II in Fig. 2(b)) due to the capacity for more solvent molecules to enter. On the other hand, at the apertures (i.e., regions I and III in Fig. 2(b)), lower density values are observed because of the lower free volume available for solvent molecules. Two observations are worth highlighting. Firstly, among the three solvents, the density of methanol inside the membrane region is the highest, as it has the lowest molecular size (3.83 Å) compared to acetone (5.3 Å) and hexane (9.21 Å), and consequently, more methanol molecules can enter the pores in the MOF structure (Fig. S3).",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.83 Å) compared to acetone (5.3 Å) and hexane (9.21 Å), and consequently, more methanol molecules can enter the pores in the MOF structure (Fig. S3). Secondly, the hexane density around the cage region (II) exhibits a narrow peak, while acetone and methanol display broad and almost two peaks, respectively. This is tied to molecular interactions or the non-polarity of hexane, which affects the packing in confined spaces. Fig. 3(a) illustrates the number of solvent molecules (Ns) transferred through the HKUST-1 membrane as a function of time simulated via MW-NEMD and BD-NEMD. Under the applied pressure gradient, a net flow of solvents from the feed reservoir to the permeate reservoir can be",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[27] J. Liu, Z. Zhao, L. Li, Y. Wu, H. He, Molecular simulation study of 2D MXene membranes for organic solvent nanofiltration, J. Membr. Sci. 677 (2023) 121623, https://doi.org/10.1016/j.memsci.2023.121623.[28] Y. Xu, L. Li, X. Bi, Y. Wu, Y. Zhang, X. Tan, J. Liu, Simulation insights into the spirobifluorene aryl diamine (SBAD-1)/porous organic cage mixed-matrix membranes for organic solvent nanofiltration, J. Membr. Sci. 696 (2024) 122490, https://doi.org/10.1016/j.memsci.2024.122490.[29] J. Liu, Q. Xu, J. Jiang, A molecular simulation protocol for swelling and organic solvent nanofiltration of polymer membranes, J. Membr. Sci. 573 (2019) 639–646, https://doi.org/10.1016/j.memsci.2018.12.035.[30] J. Liu, J. Jiang, Microporous benzimidazole-linked polymer and its derivatives for organic solvent nanofiltration, Polymer 185 (2019) 121932, https://doi.org/ 10.1016/j.polymer.2019.121932.[31] A. Güvensoy-Morkoyun, T. Baysal, S¸.B. Tantekin-Ersolmaz, S. Velio˘glu, Guide for nonequilibrium molecular dynamics simulations of organic solvent transport in nanopores: the case of 2D MXene membranes, J. Chem. Theor. Comput. 20 (2024) 9642–9654, https://doi.org/10.1021/acs.jctc.4c00693.[32] X. Zhang, Y. Li, C. Van Goethem, K. Wan, W. Zhang, J. Luo, I.F.J. Vankelecom, J. Fransaer, Electrochemically assisted interfacial growth of MOF membranes, Matter 1 (2019) 1285–1292, https://doi.org/10.1016/j.matt.2019.06.022.[33] J. Campbell, R.P. Davies, D.C. Braddock, A.G.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "cial growth of MOF membranes, Matter 1 (2019) 1285–1292, https://doi.org/10.1016/j.matt.2019.06.022.[33] J. Campbell, R.P. Davies, D.C. Braddock, A.G. Livingston, Improving the permeance of hybrid polymer/metal–organic framework (MOF) membranes for organic solvent nanofiltration (OSN) – development of MOF thin films via interfacial synthesis, J. Mater. Chem. A 3 (2015) 9668–9674, https://doi.org/ 10.1039/c5ta01315a.[34] N.A.A. Sani, W.J. Lau, N.A.H.M. Nordin, A.F. Ismail, Influence of organic solvents and operating conditions on the performance of polyphenylsulfone (PPSU)/copper1,3,5-benzenetricarboxylate (Cu-BTC) solvent resistant nanofiltration (SRNF) membranes, Chem. Eng. Res. Des. 115 (2016) 66–76, https://doi.org/10.1016/j. cherd.2016.09.021.[35] N.A.A. Sani, W.J. Lau, A.F. Ismail, Polyphenylsulfone-based solvent resistant nanofiltration (SRNF) membrane incorporated with copper-1,3,5benzenetricarboxylate (Cu-BTC) nanoparticles for methanol separation, RSC Adv. 5 (2015) 13000–13010, https://doi.org/10.1039/c4ra14284e.[36] J. Campbell, G. Sz´ekely, R.P. Davies, D.C. Braddock, A.G. Livingston, Fabrication of hybrid polymer/metal organic framework membranes: mixed matrix membranes versus in situ growth, J. Mater. Chem. A 2 (2014) 9260–9271, https://doi.org/ 10.1039/c4ta00628c.[37] J. Campbell, J.D.S. Burgal, G. Szekely, R.P. Davies, D.C. Braddock, A.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "J. Mater. Chem. A 2 (2014) 9260–9271, https://doi.org/ 10.1039/c4ta00628c.[37] J. Campbell, J.D.S. Burgal, G. Szekely, R.P. Davies, D.C. Braddock, A. Livingston, Hybrid polymer/MOF membranes for organic solvent nanofiltration (OSN): chemical modification and the quest for perfection, J. Membr. Sci. 503 (2016) 166–176, https://doi.org/10.1016/j.memsci.2016.01.024.[38] Cambridge Crystallographic Data Center, Atomic coordinates of HKUST-1. https:// www.ccdc.cam.ac.uk/, 2025. (Accessed 20 February 2025).[39] S. Plimpton, Fast parallel algorithms for short-range molecular dynamics, J. Comput. Phys. 117 (1995) 1–19, https://doi.org/10.1006/jcph.1995.1039.[40] A.D. MacKerell, D. Bashford, M. Bellott, R.L. Dunbrack, J.D. Evanseck, M.J. Field, S. Fischer, J. Gao, H. Guo, S. Ha, D. Joseph-McCarthy, L. Kuchnir, K. Kuczera, F.T. K. Lau, C. Mattos, S. Michnick, T. Ngo, D.T. Nguyen, B. Prodhom, W.E. Reiher, B. Roux, M. Schlenkrich, J.C. Smith, R. Stote, J. Straub, M. Watanabe, J. Wi´orkiewicz-Kuczera, D. Yin, M. Karplus, All-atom empirical potential for molecular modeling and dynamics studies of proteins, J. Phys. Chem. B 102 (1998) 3586–3616, https://doi.org/10.1021/jp973084f.[41] L. Zhao, Q. Yang, Q. Ma, C. Zhong, J. Mi, D. Liu, A force field for dynamic Cu-BTC metal-organic framework, J. Mol. Model. 17 (2011) 227–234, https://doi.org/ 10.1007/s00894-010-0720-x.[42] S.L. Mayo, B.D. Olafson, W.A. Goddard, DREIDING: a generic force field for molecular simulations, J. Phys. Chem.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[43] A. Rappe, C. Casewit, K. Colwell, W. Goddard, W. Skiff, UFF, a full periodic table force field for molecular mechanics and molecular dynamics simulations, J. Am. Chem. Soc. 114 (1992) 10024–10035, https://doi.org/10.1021/ja00051a040.[44] Q. Yang, C. Zhong, Molecular simulation of carbon dioxide/methane/hydrogen mixture adsorption in metal-organic frameworks, J. Phys. Chem. B 110 (2006) 17776–17783, https://doi.org/10.1021/jp062723w.[45] W.L. Jorgensen, D.S. Maxwell, J. Tirado-Rives, Development and testing of the OPLS all-atom force field on conformational energetics and properties of organic liquids, J. Am. Chem. Soc. 118 (1996) 11225–11236, https://doi.org/10.1021/ ja9621760.[46] G. Ciccotti, M. Ferrario, Non-equilibrium by molecular dynamics: a dynamical approach, Mol. Simul. 42 (2016) 1385–1400, https://doi.org/10.1080/ 08927022.2015.1121543.[47] H. Frentrup, C. Avenda˜no, M. Horsch, A. Salih, E.A. Müller, Transport diffusivities of fluids in nanopores by non-equilibrium molecular dynamics simulation, Mol. Simul. 38 (2012) 540–553, https://doi.org/10.1080/08927022.2011.636813.[48] A. Phan, D. Fan, A. Striolo, Fluid transport through heterogeneous pore matrices: multiscale simulation approaches, Phys. Fluids 32 (2020) 101301, https://doi.org/ 10.1063/5.0022481.[49] J. Muscatello, F. Jaeger, O.K. Matar, E.A. Müller, Optimizing water transport through graphene-based membranes: insights from nonequilibrium molecular dynamics, ACS Appl. Mater.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ".K. Matar, E.A. Müller, Optimizing water transport through graphene-based membranes: insights from nonequilibrium molecular dynamics, ACS Appl. Mater. Interfaces 8 (2016) 12330–12336, https://doi.org/ 10.1021/acsami.5b12112.[50] W. Wei, J. Liu, J. Jiang, Computational design of 2D covalent-organic framework membranes for organic solvent nanofiltration, ACS Sustain. Chem. Eng. 7 (2019) 1734–1744, https://doi.org/10.1021/acssuschemeng.8b05599.[51] A. Nalaparaju, J. Wang, J. Jiang, Enhancing water permeation through alumina membranes by changing from cylindrical to conical nanopores, Nanoscale 11 (2019) 9869–9878, https://doi.org/10.1039/c8nr09602c.[52] J.A. Morrone, M.E. Tuckerman, Ab initio molecular dynamics study of proton mobility in liquid methanol, J. Chem. Phys. 117 (2002) 4403–4413, https://doi. org/10.1063/1.1496457.[53] S.E. McLain, A.K. Soper, A. Luzar, Investigations on the structure of dimethyl sulfoxide and acetone in aqueous solution, J. Chem. Phys. 127 (2007) 174515, https://doi.org/10.1063/1.2784555.[54] X. Yu, W. Fan, V. Wee, D. Shi, H. Yuan, Y. Ying, Y. Di Yuan, Z. Yang, Y. Feng, D. Sun, D. Zhao, Polycrystalline iron (III) metal-organic framework membranes for organic solvent nanofiltration with high permeance, J. Membr. Sci. 644 (2022) 120130, https://doi.org/10.1016/j.memsci.2021.120130.[55] E.G. Ajebe, C.C. Hu, G. Lugito, C.-P. Hu, W.-S. Hung, K.-R. Lee, J.-Y.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "embr. Sci. 644 (2022) 120130, https://doi.org/10.1016/j.memsci.2021.120130.[55] E.G. Ajebe, C.C. Hu, G. Lugito, C.-P. Hu, W.-S. Hung, K.-R. Lee, J.-Y. Lai, Investigating the impact of metal ion variations in terephthalate metal–organic frameworks on the organic solvent nanofiltration performance of mixed matrix membranes, J. Membr. Sci. 700 (2024) 122715, https://doi.org/10.1016/j. memsci.2024.122715.[56] H. Li, X. Li, G. Ouyang, L. Huang, L. Li, W. Li, W. Huang, D. Li, Ultrathin organic solvent nanofiltration membrane with polydopamine-HKUST-1 interlayer for organic solvent separation, J. Environ. Sci. 141 (2024) 182–193, https://doi.org/ 10.1016/j.jes.2023.05.027.[57] N.A.A. Sani, W.J. Lau, A.F. Ismail, Polyphenylsulfone-based solvent resistant nanofiltration (SRNF) membrane incorporated with copper-1,3,5benzenetricarboxylate (Cu-BTC) nanoparticles for methanol separation, RSC Adv. 5 (2015) 13000–13010, https://doi.org/10.1039/C4RA14284E.[58] L. Wu, M. Zhao, Q. Ye, X. Xin, K. Zhang, Y. Chen, Z. Wang, Electrochemical synthesis of ultra-flexible PES/HKUST-1 composite membranes for wastewater treatment, Microporous Mesoporous Mater. 366 (2024) 112917, https://doi.org/ 10.1016/j.micromeso.2023.112917.",
+    "citation": {
+      "authors": [],
+      "paper_id": "1-s2.0-S0376738825006416-main",
+      "title": "Organic solvent permeation through HKUST-1 MOF membranes: Molecular-scale insights",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  }
+]

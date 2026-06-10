@@ -1,0 +1,1033 @@
+[
+  {
+    "content": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation A. Mapetere a, G. Di Profio b\n\n, E. Curcio c, P. Campo a, E.J. McAdam a,* a Cranfield Water Science Institute, Cranfield University, Bedfordshire, MK43 0AL, UKb Institute on Membrane Technology (ITM-CNR), C/o University of Calabria, Italyc Department of Chemical Engineering and Materials, University of Calabria, Italy\n\nA R T I C L E I N F O Keywords:Metastable zoneTemperature and temperature differenceZero liquid dischargeBrineDistillation",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T While several mechanisms have been proposed to describe crystallisation processes in membrane distillation, it has not been possible to provide a definitive description since the nucleation kinetics are difficult to measure. This study therefore introduced non-invasive techniques to measure induction time within two discrete domains (the membrane surface and bulk solution) and was complemented by the introduction of a modified power law relation between supersaturation and induction time, that enables mass and heat transfer processes in the boundary layer to be directly related to classical nucleation theory (CNT). Temperature (T, 45–60 ◦C) and temperature difference (ΔT, 15–30 ◦C) were used to adjust boundary layer properties, which established a loglinear relation between the nucleation rate and the supersaturation level in the boundary layer at induction, which is characteristic of CNT. Crystal size distribution analysis demonstrated how nucleation rate and crystal growth rate could be adjusted using ΔT and T respectively. Consequently, ΔT and T can be used collectively to fix the supersaturation set point within the boundary layer to achieve the preferred crystal morphology. However, at higher supersaturation levels, scaling was observed. Discrimination of the primary nucleation mechanisms, using measured induction times, revealed scaling to be formed homogeneously, which indicates exposure of the pores to extremely high supersaturation levels.",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "measured induction times, revealed scaling to be formed homogeneously, which indicates exposure of the pores to extremely high supersaturation levels. Morphological analysis of scaling indicated growth to be dominated by secondary nucleation mechanisms, that resulted in a habit that is distinctive from the crystal phase formed in the bulk solution. From this analysis, a critical supersaturation threshold was identified, below which kinetically controlled scaling can be ‘switched-off’, leaving crystals to form solely in the bulk solution comprising the preferred cubic morphology. This study serves to unify understanding on nucleation and growth mechanisms to enhance control over crystallisation in membrane systems.",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Crystallisation is an important unit operation for the production of solids in numerous sectors (e.g., pharmaceutical, environment and manufacturing), and is emerging as a critical unit process for the man­agement of desalination brines in the transition toward zero liquid discharge (ZLD) [1]. For crystallisation to occur, the concentration of the solution must exceed the solubility limit to generate a supersaturated solution [2]. It is the extent of supersaturation that is achieved at nucleation which determines the kinetics of nucleation and crystal growth. While crystallisation has been used at an industrial scale to produce and separate valuable solid (crystalline) products from aqueous solutions for many decades [1,3,4], reactor geometries often comprise poorly-defined interfacial area, which results in poor mixing conditions. Consequently, precise control of heat and mass transfer is difficult to achieve leading to inconsistent regulation of supersaturation, which can introduce wide crystal size distributions (CSDs) with irreproducible product morphology and purity [3]. These properties are important for simplifying downstream recovery, limiting postprocessing re­quirements, and can be relevant in the final application of the crystalline product [2,5]. It is therefore critical to achieve strict control over supersaturation.",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nd can be relevant in the final application of the crystalline product [2,5]. It is therefore critical to achieve strict control over supersaturation. Membrane distillation crystallisation (MDC) concentrates the feed solution by establishing a vapour-pressure gradient across a hydropho­bic microporous membrane [2]. The well-defined membrane area fa­cilitates uniform heat and mass transfer, enabling the rate of vapour",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Available online 23 March 2025 0376-7388/ 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). transfer across the membrane to be precisely controlled. This advances the regulation of supersaturation, therefore improving control over the kinetics of nucleation and crystal growth [2,3,6]. The laminar condi­tions in the feed channel also promote localised temperature and con­centration polarisation phenomena to foster a highly-supersaturated boundary layer [4]. Consequently, it is proposed that nucleation and crystal growth may be independently controlled by the development of two distinct regions; an interfacial boundary layer, where nucleation is most likely to occur, and the bulk solution, where crystal growth can subsequently proceed [7,8]. This was recently illustrated through a characterisation of mixing within these discrete domains which could be correlated to the regulation of nucleation and growth of the crystal phase in the bulk solution [9,10]. Heterogeneous primary nucleation is presumed to be the predomi­nant crystallisation pathway in MDC, as it is proposed that the interfacial energy of the membrane lowers the critical energy barrier for nucle­ation. However, this reduction in the energy barrier has also been linked to the promotion of scale formation at the membrane, where the ensuing surface coverage leads to a rapid decline in flux [11–13].",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "has also been linked to the promotion of scale formation at the membrane, where the ensuing surface coverage leads to a rapid decline in flux [11–13]. Classical nucleation theory can be used to describe both scaling and crystal­lisation. In both cases, nucleation is assumed to proceed on condition that the change in Gibbs free energy of the system (ΔG) exceeds the critical energy barrier for homogeneous nucleation (ΔG > ΔG*hom) or that the energy barrier is sufficiently reduced such that ΔG can over­come the activation energy barrier for heterogeneous nucleation (ΔG >ΔG*het) [2,14,15]. An increase in scaling has been observed when tem­perature difference (ΔT) is increased, which is commensurate with a higher interfacial supersaturation level [12,16]. Various MD studies have also identified greater scaling with an increase in feed temperature which will also raise the maximum saturation level at which scaling occurred [12,16,17]. According to CNT, since supersaturation is the driving force for crystallisation, higher supersaturation levels initiated through an increase in T or ΔT should favour homogeneous nucleation rather than surface (heterogeneous) nucleation [18]. The apparent disconnection between theory and observation cannot be resolved without determining the supersaturation level at induction and the in­duction time as these measurements can be used to characterise primary nucleation and delineate between heterogeneous and homogeneous nucleation mechanisms.",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n time as these measurements can be used to characterise primary nucleation and delineate between heterogeneous and homogeneous nucleation mechanisms. Misinterpretation of the preferential primary nucleation mechanism may also arise due to the deposition of crystals formed within the bulk solution which can be mistaken as scaling formed through a heterogeneous mechanism. This was illustrated pre­viously for calcium sulphate, where negligible surface scaling was evi­denced provided crystals were separated from the bulk solution via filtration [17,19]. Membrane flux has been primarily used as a surrogate measure of induction time, where the inflection point at which the permeate flux drastically declines is used to indicate the onset of crys­tallisation [6,16,17]. However, this flux decline has been attributed to deposition [9] and therefore cannot provide a representative induction time for nucleation. To advance knowledge of crystallisation in MD, it is therefore critically important to employ techniques that can provide more accurate determination of induction time and enable the delin­eation of scaling from that of the crystal phase emanating from the bulk solution. While supersaturation is recognised to be the driving force for crystallisation, the extent of supersaturation that develops within the boundary layer and bulk solution are rarely characterised in MD [9].",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "force for crystallisation, the extent of supersaturation that develops within the boundary layer and bulk solution are rarely characterised in MD [9]. The metastable zone width (MSZW) describes the maximum supersaturation (c-c*) achieved by a system at the commencement of nucleation. Through modifying the supersaturation rate (the rate at which a system crosses the metastable zone) and saturation temperature, different levels of supersaturation can therefore be achieved. This will determine the kinetics of nucleation and crystal growth. In MDC, crystallisation behaviour is generally examined through changes to temperature and temperature difference (ΔT) which will simultaneously alter mass and heat transfer processes, subsequently modifying membrane flux and adjusting the metastable zone width. While membrane flux is often used as an empirical measure to infer how system modifications affect crys­tallisation, it is a normalised parameter that cannot be related to nucleation kinetics as it does not directly describe factors such as solvent Fig. 1. Schematic of MDC experimental setup.",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A. Mapetere et al. Journal of Membrane Science 725 (2025) 124021 volume, solvent removal rate, solute concentration and solvent tem­perature which are critical to the characterisation of the MSZW [20,21]. The supersaturation rate (R’) has therefore been developed to collec­tively describe these interrelated factors, together with the effects of concentration and temperature polarisation, in a single term, enabling MDC operating parameters to be directly correlated to nucleation rate through classical nucleation theory (CNT) [9]. The application of this term was illustrated when examining how Reynolds number in the feed channel modified the MSZW, but the role of temperature and ΔT were not examined in detail.\n\nIn this study, we therefore systematically characterise the kinetics of nucleation and crystal growth when mass and heat transfer processes are modified in MDC by temperature and ΔT to provide a rational basis for crystallisation design. Through a modified Nývlt [22] like approach, the supersaturation rate (R’), which is used to represent MDC operating conditions, provides a direct analogy to nucleation rate. This yields a unifying approach where the power-law relation between nucleation rate and supersaturation can collectively describe the nucleation ki­netics of sodium chloride crystallisation for any temperature or ΔT applied. To provide this characterisation, in-situ non-invasive",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 2. Determining how temperature (T) and temperature difference (ΔT) modify permeate flux (5-min running average): (a) Illustrative primary data where flux decline is observed (T 45–60 ◦C; ΔT 25 ◦C); and (b) permeate flux at the onset of bulk nucleation based on turbidity response for all experimental conditions (T 45–60 ◦C; ΔT 15–30 ◦C). Error bars indicate standard deviation of at least three replicated experiments undertaken at the same conditions. A. Mapetere et al. Journal of Membrane Science 725 (2025) 124021 techniques are used to quantify when scaling and crystallisation within the bulk solution begin. This permits induction time to be estimated for scaling and crystallisation within the bulk solution to enable the inde­pendent characterisation of each crystallisation process, elucidation of the preferential primary nucleation pathway, and enhancing under­standing of the origin of crystallisation in membrane processes. Through this analytical approach, the supersaturation level can be derived at the point of induction for the bulk and interfacial boundary layer to provide a definitive explanation for which region primarily controls nucleation and crystal growth when temperature or ΔT are used to modify mass and heat transfer processes in MDC.",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n for which region primarily controls nucleation and crystal growth when temperature or ΔT are used to modify mass and heat transfer processes in MDC. The intended outcome is to establish a unified approach for the characterisation of nucleation in membrane systems that can be used to provide a holistic description of the nucle­ation pathway, therefore enabling the mitigation of scaling in favour of advanced control over crystal growth within the bulk solution in membrane processes. 2. Materials and methods 2.1. Membrane distillation crystallisation experimental setup and operation A direct-contact membrane distillation (DCMD) setup was used (Fig. 1). A 0.95 M sodium chloride (NaCl, 99.5 %, ACROS Organics,",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 3. Induction time is a measure of the metastability of the system: (a) using turbidimetry to determine the time when bulk nucleation begins (illustrative data provided for T 45–60 ◦C, ΔT 25 ◦C); and (b) induction time calculated for each experimental condition (T 45–60 ◦C, ΔT 15–30 ◦C) which is the difference in time from when the system first produces a stable crystal phase, and the time at which the system exceeded saturation (C/C* = 1). Error bars indicate standard deviation of at least three replicated experiments undertaken at the same conditions. A. Mapetere et al. Journal of Membrane Science 725 (2025) 124021",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fisher Chemicals, Loughborough, UK) feed solution and deionised water (≈15.0 MΩ cm) permeate stream were recirculated counter-currently through the vertically mounted membrane module. The feed Reynolds number (Re) was fixed at 1750. The permeate flow rate was set at 65 % of the feed flow rate. A flat-sheet ePTFE membrane was used which was 50 μm thick and possessed a 0.1 μm pore size (Cobetter Filtration, Hangzhou, China). The measured water contact angle was 142◦. The total surface area was 0.004 m2. The feed solution was heated prior to entering the membrane module using an inline heat exchanger (LT ecocool 150, Grant Instruments (Cambridge) Ltd., Shepreth, UK). Fluid temperatures were monitored and recorded using thermocouples (±0.22 ◦C, EI-1034, Electronic Innovations Corporation, Colorado, USA) connected to a data logger (LabJack T7 Pro, LabJack Corporation, Col­orado, USA). The feed solution was mixed (300 rpm) with an overhead stirrer (Hei-TORQUE Ultimate 400, Heidolph Instruments, Schwabach, Germany). The permeate stream was cooled in the permeate vessel by passing cold water from the chiller (LT ecocool 150, Grant Instruments Ltd., Shepreth, UK) through the vessel jacket. A precision balance (Cole Parmer Symmetry PT-4202E, Antylia Scientific, Illinois, USA) was used to measure the mass of permeate every minute.",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "jacket. A precision balance (Cole Parmer Symmetry PT-4202E, Antylia Scientific, Illinois, USA) was used to measure the mass of permeate every minute. Continual permeate conductivity measurements (every minute) (Seven2Go Pro S7, Mettler-Toledo Ltd, Leicester, UK) were taken to ensure that no salt breakthrough occurred. An inline turbidity probe (InPro 8200/S/ Epoxy/120 turbidity sensor, Mettler-Toledo Ltd, Leicester, UK) was inserted in the feed solution with data recorded every second. The dual optic fibre sensor uses the backscatter technique to provide high reso­lution detection of induction time enabling reproducible particle detection, and is used extensively for the characterisation of nucleation kinetics [9,23]. A digital microscope (UHM350-11, AmScope, Reigate, UK) was used to provide non-invasive high-resolution imaging of the membrane surface in real time (1280x720p). The working distance was 30–145 mm, which was compatible with the wall thickness and channel depth (22 mm combined) of the polished Perspex cell and enabled a field of view across the full membrane surface. Videos were recorded at 30 frames per second (fps) with observation of crystal growth discriminated to single pixel definition (up to 2.2 μm pixel-1 dependent on field of view).",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "frames per second (fps) with observation of crystal growth discriminated to single pixel definition (up to 2.2 μm pixel-1 dependent on field of view). Due to the extent of supersaturation and the reduction in solution solubility (c*) instigated by the boundary layer conditions, crystal growth rates (G) for scaling are extremely fast (G exceeding 3 μm s-1 have been recorded [9]), which means that the crystal is consequently observable within a few seconds of its formation [24]. The induction time for scaling was recorded at the time the first formed crystal is observable at the membrane surface and is therefore analogous to nucleation detection techniques based on backscatter that are widely deployed for the determination of induction time in solution. The in­duction time for scaling, and the scaling surface coverage were both subsequently determined through image analysis. Further information on this method can be found in Ref. [9]. 2.2. Experimental analysis To obtain crystal size distributions (CSDs), the crystalliser suspen­sion was vacuum filtered using a 0.45 μm nitrocellulose membrane filter (Whatman NC45, Cytiva, Maidstone, UK) 10 min after the onset of bulk nucleation. The filtered crystals were then allowed to dry in open air at room temperature for at least 48 h before analysis using an optical microscope (CTR 5500 B, Leica Microsystems Ltd, Milton Keynes, UK) in conjunction with a digital camera (SC50 5 MP, Olympus, Southend-onSea, UK).",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ical microscope (CTR 5500 B, Leica Microsystems Ltd, Milton Keynes, UK) in conjunction with a digital camera (SC50 5 MP, Olympus, Southend-onSea, UK). A sample of at least 1000 crystals was analysed using Olympus Stream Image Analysis Software (Olympus, Southend-on-Sea, UK) to obtain the CSDs. The crystals deposited on the membrane surface were also filtered at the end of each experiment. Residence time for the crystals was fixed by waiting 10 min after bulk nucleation prior to sampling. Crystal and membrane samples were characterised using scanning electron microscopy (SEM) (VEGA 4, Tescan Orsay Holding, Czech Republic). Samples were coated with a 10 nm coating of gold by physical vapour deposition (acceleration voltage, 20 keV; beam current, 300 pA; working distance, 10 mm). 2.3. Data analysis For each experiment, the permeate flux was calculated based on the permeate mass accumulated over time: Jp = ΔmAmΔt(1) where Jp (kg m-2 s-1) is the permeate flux, Am (m2) is the membrane surface area, and Δm (kg) and Δt (s) are the changes in permeate mass and time, respectively. A 5-min average of the permeate flux was used in calculations to account for experimental error. It was assumed that only water vapour passed through the membrane module. This assumption was validated by the permeate conductivity measurements which showed no evidence of salt breakthrough. Hence, the change in feed concentration could be directly calculated based on the mass of permeate vapour recovered.",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "no evidence of salt breakthrough. Hence, the change in feed concentration could be directly calculated based on the mass of permeate vapour recovered. The metastable zone width (MSZW) can be described using either the concentration (ΔCmax, kg m-3) or supersaturation (Smax) at induction as follows: ΔCmax = Cmax -Csat(2) Smax = Cmax Csat",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(3) where Cmax (kg m-3) and Csat (kg m-3) are the actual (maximum) and saturation concentrations at induction, respectively. The quantity ΔCmax represents the width or extent of the metastable zone width at nucle­ation, whereas Smax is a dimensionless parameter in which the solute concentration at nucleation is normalised by the solute concentration representing the solubility limit in solution for the specific conditions studied. The bulk induction time was determined based on the inflection point of the turbidity-time trends and the scaling induction time was ob­tained by analysis of online digital microscope images. The temperature and concentration polarisation coefficients (TPC and CPC respectively) were calculated and applied to obtain the MSZWs within the boundary layer at the membrane interface (interfacial supersaturation) [25]:\n\nFig. 4. Lag time observed between the turbidity response and delayed flux response to bulk crystallisation. The precision and accuracy of flux as a surro­gate measure of induction improves with an increase in T and ΔT. Error bars indicate standard deviation of at least three replicated experiments. A. Mapetere et al. Journal of Membrane Science 725 (2025) 124021",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ΔCint = Cint -Csat(Tint)(4) Sint =CintCsat(Tint)(5) where the subscript int refers to the interface and Csat(Tint) is the satu­ration concentration at the interfacial temperature (Tint, K). The inter­facial concentration (Cint, kg m-3) is determined from the bulk concentration (Cb, kg m-3) as follows: Cint = Cb(CPC) = Cb exp( Jp ρK )(6) where ρ (kg m-3) is the solution density and K (m s-1) is the mass transfer coefficient based on the L´evˆeque solution for laminar flow: K = 1.62Ddh ( Vd2hDL )13\n\n(7) D (m2 s-1) is the molecular diffusivity or diffusion coefficient, dh (m) is the hydraulic diameter, V (m s-1) is the feed solution velocity, and L (m) is the length of the membrane surface. The TPC is the ratio between the interfacial and bulk temperature differences [26]: TPC = ΔTint ΔTb = Tint -Tint,p Tb,f -Tb,p\n\n(8) where subscripts b, f and p refer to the bulk, feed and permeate, respectively. A steady-state energy balance of the heat transfer from the bulk feed to the bulk permeate solution yields the following equation for the interfacial feed temperature which must be solved iteratively using the subsequent equations:\n\nTint = kmδm (Tp +( hfhp )Tf + hfTf -JpΔHv\n\n) kmδm + hf + km δm hfhp\n\n(9)",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 5. Characterisation of concentration and temperature polarisation coefficients (CPC, TPC) which determine the interfacial saturation level at the onset of bulk nucleation: (a) CPC; and (b) TPC. Conditions: T 45–60 ◦C, ΔT 15–30 ◦C. Error bars indicate standard deviation of at least three replicates. A. Mapetere et al. Journal of Membrane Science 725 (2025) 124021\n\nTint,p = kmδm (Tf +( hphf )Tp + hpTp + JpΔHv\n\n) kmδm + hp + km δm hp hf\n\n[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] where δm (m) is the thickness of the membrane, ΔHv (J kg-1) is the latent heat of vaporisation and km (W m-1 K-1) is the thermal conductivity of the membrane which is calculated using the isostress model [27]: km =( ε kgas + 1 -ε ksolid )-1\n\n[ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] where ε is the membrane porosity. The thermal conductivities of the water vapour/air gas mixture (kgas, W m-1 K-1) and solid polymer (ksolid, W m-1 K-1) were calculated using the following correlations [27]: kgas = 1.5x10-3̅̅̅T√[ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}]",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        6,
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. Comparison of supersaturation conditions within the interfacial region at the onset of bulk nucleation. Conditions: T 45–60 ◦C; ΔT 15–30 ◦C. Error bars indicate standard deviation of at least three replicates.\n\nFig. 7. Comparing the relationship between metastable zone width (MSZW, ΔCmax) and supersaturation rate (R′) at induction based on interfacial and bulk solution concentrations from the complete data set (T 45–60 ◦C; ΔT 15–30 ◦C). Nývlt’s [22] modified method (linear trend for each discrete dataset) provides a description of the nucleation kinetics. The stronger data fit to interfacial concentration suggests that crystals found in the bulk solution are primarily formed near the mem­brane interface.\n\nFig. 8. Comparison of supersaturation levels within the bulk solution at the onset of bulk nucleation. Conditions: T 45–60 ◦C; ΔT 15–30 ◦C. Error bars indicate standard deviation of at least three replicates.\n\nA. Mapetere et al. Journal of Membrane Science 725 (2025) 124021 ksolid = 4.86x10-4T + 0.253[ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] hf (W m-2 K-1) and hp (W m-2 K-1) are the feed and permeate heat transfer coefficients, respectively: hf = Nukf dh\n\n[ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}]\n\n[ФОРМУЛА: [FORMULA_ID: 642a675f-0de5-48e4-b14f-63508fad294b] hp = Nukp dh]",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        7,
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] where kf (W m-1 K-1) and kp (W m-1 K-1) are the feed and permeate conductivities, respectively. The Nusselt number, Nu, is dimensionless, and is calculated with other dimensionless parameters including the Reynolds number (Re) and Prandtl (Pr) number [26]: Nu = 0.023Re0.8Pr 13(16) Re = ρVdh μ(17)\n\nFig. 9. Relating interfacial supersaturation level (Sint) to the extent of scaling up to the onset of bulk nucleation (T 50–60 ◦C, ΔT 20–30 ◦C): (a) Illustrating the discrete roles of T and ΔT on scale formation; and (b) Complete dataset demonstrating transition from conditions where no scaling exists to where scaling proceeds (T 45–60 ◦C, ΔT 15–30 ◦C). Error bars indicate standard deviation of at least three replicates. A. Mapetere et al. Journal of Membrane Science 725 (2025) 124021",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Pr = cpμ k[ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] where μ (Pa s) is the dynamic viscosity, cp (J kg-1 K-1) is the specific heat capacity, and k (W m-1 K-1) is the thermal conductivity of the respective solutions. The solution properties were determined using Aspen Plus, applying the Elec-NRTL thermodynamic model which is an appropriate model for highly-concentrated electrolyte solutions [15]. According to Nývlt [22], the operating window of a crystallisation process can be defined by applying MSZW measurements to characterise the nucleation kinetics. Nývlt’s [22] method was based on classical nucleation theory (CNT) which assumes an empirical power law rela­tionship between the nucleation rate and the MSZW: Bm = kmΔCmmax(19) where Bm (kg m-3 s-1) is the nucleation rate (mass basis), and km (kg m-3 s-1) and m are the nucleation rate constant and apparent nucleation order, respectively. It is assumed that at the point of induction (onset of nucleation or vicinity of metastability), the rate of supersaturation is equal to the nucleation rate [22]. Therefore, Rʹ = kmΔCmmax(20) where Rʹ (kg m-3 s-1) is the supersaturation rate in the vicinity of metastability. The validity of this assumption is based on assuming that the surface area of the initial crystals is still very small, and the nucle­ation rate is therefore significantly higher than the growth rate.",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ng that the surface area of the initial crystals is still very small, and the nucle­ation rate is therefore significantly higher than the growth rate. To ac­count for experimental fluctuations, the supersaturation rate was taken as the average rate from the start of the experiment to the point of induction: Rʹ = ΔCmax -ΔC0 Δtnucl",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(21) where ΔC0 is the starting saturation level and Δtnucl is the time required for nucleation to take place from the start of the experiment. Linear­isation of Eq. (21) yields: ln(Rʹ) = ln(km) + m[ln(ΔCmax)](22) Linear regression of the plot of ln(ΔCmax) versus ln Rʹ will then yield m as the gradient of the line of best-fit. km can be obtained by calculating the exponential function of the y-intercept. The crystal growth rate, G, was calculated based on the growth rate equation for mixed suspension mixed product removal (MSMPR) crys­tallisers [28]: G = 6L450αBn φ(23) where L50 (m) and α are the median size and shape factor, respectively. Bn (m-3 s-1) is the nucleation rate (number basis, assumed based on R ʹ) and φ is the volumetric holdup of crystals in suspension: φ = Vc Vsusp =VcVc + Vsol",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(24) where, Vc (m3), Vsusp (m3) and Vsol (m3) are the crystal, suspension and solution volumes, respectively. The primary nucleation mechanism may be dependent on the pres­ence of a foreign surface to reduce the effective interfacial energy, which reduces the activation energy required for nucleation. Hence, the lower the interfacial energy, the greater the likelihood that heterogeneous nucleation will predominate over homogeneous nucleation [2,29,30]. Classical nucleation theory assumes an inversely proportional relation­ship between nucleation rate and induction time, where the relationship between induction time (tind, s) and supersaturation level (S) at the onset of nucleation is described by Ref. [30]: ln(tind) = K +16πγ3v2 3(kBT)2 ln2 S(25) where K is a constant, γ (J m-2) is the interfacial energy, v (m3) is the volume of the solute molecule, kB is the Boltzmann constant, and T (K) is the nucleation temperature. A plot of ln(tind) against ln-2 S at constant",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 10. Establishing the relationship between metastable zone width (MSZW, ΔCmax) and supersaturation rate (R′) at induction based on interfacial concentrations for: (i) bulk induction (distinguished between data where scaling was also present or absent); and (ii) scaling induction (black closed circles). Complete dataset (T 45–60 ◦C, ΔT 15–30 ◦C) is shown for bulk nucleation which occurred irrespective of scaling. A. Mapetere et al. Journal of Membrane Science 725 (2025) 124021 temperature yields a linear trend with gradient (B): B = 16πγ3v2 3(kBT)2(26) Hence, steeper gradients indicate higher interfacial energies and a tendency towards homogeneous nucleation. Conversely, a lower gradient evidences a lower interfacial energy and enhanced probability of heterogeneous nucleation [29,30]. 3. Results and discussion 3.1. Characterisation of flux and induction time when modified by temperature and ΔT Permeate flux was characterised across a range of feed temperatures",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "(45-60 ◦C) and Δ T (15-30 ◦C). At a fixed Δ T of 25 ◦C, an increase in T from 45 to 60 ◦C raised the permeate flux from 20.7 to 30.7 kg m-2 h-1 at induction (Fig. 2a). The increase in permeate flux with T was due to the exponential dependence of vapour-pressure difference on tempera­ture in accordance with the Antoine equation [16]. For each feed tem­perature (45–60 ◦C), an increase in Δ T from 15 to 30 ◦C resulted in a higher permeate flux (Fig. 2b). This is due to the temperature difference which enhanced the vapour pressure difference between the feed and permeate solutions, increasing the driving force for mass transfer [31]. Induction time was characterised in the bulk solution by turbidim­etry (Fig. 3a). Induction time represents a measure of the metastability of a system, as it is defined as the time taken to produce a crystal phase once saturation has been achieved (tind = tcrys – tc/c*=1). An induction time was determined for each set of conditions tested; this illustrates that a crystal phase was produced in the bulk solution for each T and ΔT studied. An increase in feed solution temperature, or ΔT, shortened",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 11. (a) Relating induction time to the interfacial supersaturation level (T 45–60 ◦C, ΔT 15–30 ◦C) for data where scaling preceded bulk nucleation (closed symbols), or where bulk nucleation occurred first in the system (open symbols, i.e. where scaling was not observed). Classical nucleation theory describes two regions: (i) a region of elevated supersaturation characterised by a steeper gradient (B) which favours homogeneous primary nucleation; and (ii) a region of low supersaturation which favours heterogeneous primary nucleation [29,30]; and (b) characterisation of bulk crystallisation following scaling. A. Mapetere et al. Journal of Membrane Science 725 (2025) 124021 induction time (Fig. 3b). The shortest induction time was recorded for the highest temperature and Δ T used. To illustrate, an induction time of 113 min was recorded for T and Δ T of 45 and 15 ◦C respectively, whereas induction time shortened to 32 min when T and Δ T were 60 and 30 ◦C respectively. The measured induction times were compared to those characterised using the conventional approach of a rapid flux decline as a surrogate measure of induction (Fig. 4). This analysis consistently identified a lag time between the occurrence of crystal­lisation in the bulk solution, and the onset of a flux decline. The lag time generally increased with a reduction in T and Δ T.",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "occurrence of crystal­lisation in the bulk solution, and the onset of a flux decline. The lag time generally increased with a reduction in T and Δ T. The longest lag time of 50 min was observed with T and Δ T of 45 and 15 ◦C respectively, which represents the lowest driving force employed. The sensitivity of flux decline as a surrogate measure of induction is therefore further compromised at lower permeate fluxes. Importantly, this data evidences that primary nucleation is not principally responsible for the flux decline in MDC, which contradicts previous suggestions in the literature. This confirms that a stable crystal phase can be produced within the bulk solution without necessarily incurring a diminution in flux. 3.2. Determination of supersaturation at the onset of bulk crystallisation Concentration and temperature polarisation are adjusted at the membrane interface by changes to T and ΔT. The concentration polar­isation coefficient (CPC) increased with T and Δ T due to the rise in water vapour flux (Fig. 5a). Consequently, the interfacial (boundary layer) solute concentration increased with T and Δ T, which can then increase the interfacial supersaturation level. However, an increase in T and Δ T also decreased the temperature polarisation coefficient (TPC), resulting in lower interfacial temperatures (Fig. 5b). Sodium chloride possesses a slight inverse solubility-temperature dependency.",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "oefficient (TPC), resulting in lower interfacial temperatures (Fig. 5b). Sodium chloride possesses a slight inverse solubility-temperature dependency. Hence, a reduction in interfacial temperature will lower the solubility constant, which enhances the interfacial supersaturation level (Sint) at induction (Fig. 6). For example, at a constant T 60 ◦C, the Sint recorded at induction for the bulk crystal phase, increased from 1.10 to 1.34 when Δ T rose from 15 to 30 ◦C. Higher T and Δ T therefore increased the driving force for nucleation within the boundary layer. In order to relate the role of T and Δ T to the mechanism of nucle­ation in MDC, the approach of Nývlt [22] was modified to characterise the supersaturation rate and metastable zone width within the bulk and interfacial regions for each of the T and Δ T conditions (Fig. 7). Ac­cording to classical nucleation theory (CNT), the dependence of nucleation rate on the maximum supersaturation level is exponential. Within this analysis, supersaturation rate is a direct analogy to nucle­ation rate. Hence, by applying the method adapted from Nývlt [22], a linear relationship should be observed between the natural logarithms of the supersaturation rate and the MSZW. A linear relationship (r2, 0.93) was obtained for interfacial conditions based on the supersaturation achieved at the point of induction for the bulk crystal phase across the complete range of conditions (T 45–60 ◦C; ΔT 15–30 ◦C).",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "n the supersaturation achieved at the point of induction for the bulk crystal phase across the complete range of conditions (T 45–60 ◦C; ΔT 15–30 ◦C). The MSZW increased with T and Δ T due to higher permeate fluxes which modified the interfacial conditions. The broader MSZW is attributed to the faster supersaturation rates set by the higher permeate flux. For these condi­tions, there is not sufficient time for the system to adjust to each su­persaturation level, instigating a non-equilibrium condition where the perceived energy barrier is higher than the actual energy barrier of the solution and the likelihood of nucleation is reduced. This lag between the perceived and actual states of solution results in a wider MSZW [32,33]. The gradient of the curve represents the solute-solvent interactions between sodium chloride and water, where the low interfacial energy of NaCl requires a low level of supersaturation to initiate nucleation, resulting in relatively small nucleation rates. Consequently, this analysis confirms that the primary nucleation kinetics of the bulk crystal phase are determined by the interfacial supersaturation set at the membrane and can be collectively represented by the analytical approach proposed. There was no statistically significant relationship demonstrated be­tween the supersaturation level set in the bulk conditions (ΔCmax, open circles), and the supersaturation rate (R′).",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "cant relationship demonstrated be­tween the supersaturation level set in the bulk conditions (ΔCmax, open circles), and the supersaturation rate (R′). To further investigate the role of the bulk solution, the absolute value of the bulk supersaturation level (Sbulk) was characterised at the point the bulk crystal phase was iden­tified by turbidimetry (induction) (Fig. 8). For each T and ΔT studied, supersaturation was consistently recorded at a S value of ~1. This is equal to the solubility limit of solution (i.e. saturation, or c/c* = 1). For crystallisation to occur, the chemical potential of NaCl in solution must exceed that of the crystal phase [14]. While the interfacial supersatu­ration exceeded this threshold, the newly ‘birthed’ nuclei formed within this region will dissolve in the bulk solution unless S > 1, as it is only once this threshold is exceeded that the system has sufficient chemical potential to sustain a thermodynamically stable ‘critical’ nucleus. Therefore, while the nucleation kinetics are defined by supersaturation within the interfacial boundary layer, a crystal phase cannot form in the bulk solution until saturation (c/c* ~1) is met. 3.3. Establishing a kinetic description of scaling The role of T and ΔT in the formation of scaling was undertaken with digital microscopy, where the extent of scaling that occurred up to the point of bulk nucleation could be quantified (Fig. 9).",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ing was undertaken with digital microscopy, where the extent of scaling that occurred up to the point of bulk nucleation could be quantified (Fig. 9). Raising feed tem­perature (Δ T fixed at 25 ◦C) resulted in a modest increase in the extent of scaling observed and was coincident with an increased interfacial supersaturation level at induction (of the bulk crystal phase). According to CNT, an increase in solution temperature should decrease the MSZW due to the increased likelihood of molecular attachments which reduces the activation energy requirement for nucleation [6,14]. However, in MD, an increase in feed temperature also increases permeate flux, which modifies the supersaturation rate subsequently broadening the MSZW. Therefore, temperature indirectly increased the extent of scaling through kinetically modifying Sint, which has implications for both the nucle­ation rate and growth rate of scaling. An increase in Δ T (T fixed at 60 ◦C) provided a greater increase in scaling due to the larger transition in mass and heat transfer processes within the boundary layer. The extent of scaling was subsequently compared for each T and ΔT studied to characterise the transition in scaling based on the relative supersat­uration driving force (Fig. 9b). Below a metastable zone width (lnΔCmax) of around 1.9, no scaling was observed prior to formation of the bulk crystal phase (see also Fig. 10, open circles).",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 12. Scanning electron microscopy (SEM) image of scaling illustrating dendritic hopper morphology. Conditions: T 55oC, ΔT 25oC. A. Mapetere et al. Journal of Membrane Science 725 (2025) 124021 dependent on the supersaturation driving force in the boundary layer. The supersaturation and supersaturation rate were also measured at the induction time for scaling to better understand the nucleation kinetics (Fig. 10). The supersaturation rate (R’) recorded for scaling was considerably higher than for the bulk crystal phase, which is due to the higher fluxes at scaling induction, leading to greater concentration polarisation and solute concentration within the boundary layer. Consequently, the nucleation rate for scaling at induction exceeds the nucleation rate for the bulk crystal phase. This is exemplified by the nucleation order (m) derived for bulk nucleation and scaling nucleation",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 13. Relating interfacial conditions to conditions for crystal growth (T 50–60 ◦C; ΔT 15–30 ◦C): (a) Median crystal size; (b) Median crystal size related to interfacial supersaturation; and, (c) crystal growth rate. Error bars indicate standard deviation of at least three replicates. A. Mapetere et al. Journal of Membrane Science 725 (2025) 124021 which were 0.69 and 2.58 respectively. Both values indicate strong diffusive interactions between sodium chloride and water which pro­mote the aggregation and growth of nuclei; the higher order for scale emphasising how the elevated interfacial concentration reduces the distance between the solute molecules to favour cluster formation. The primary nucleation mechanism that governs how scaling and the bulk crystal phase are formed, can be determined through investigating the relationship between induction time and supersaturation (Eq. (25)). Induction times for each set of conditions studied (T and ΔT) are initially presented based on where primary nucleation first occurred in the sys­tem, i.e. tind represents the metastable period either up to when scaling first began to form (black symbols), or, when scaling did not occur, tind represents the metastable period up to when the bulk crystal phase was first identified (open symbols) (Fig. 11a).",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "r, when scaling did not occur, tind represents the metastable period up to when the bulk crystal phase was first identified (open symbols) (Fig. 11a). Two discrete domains were identified: (i) a region of low supersaturation characterised by longer induction times in which bulk crystals were first formed without the presence of scaling; and (ii) a region of high supersaturation, where tind exhibited a stronger dependence upon supersaturation which describes conditions in which scaling occurred. The value of the slope (B) repre­sents the energy barrier for nucleation [20]. The shallow gradient (B, 0.002) reported for the bulk crystal phase is indicative of favouring heterogeneous primary nucleation, whereas the steep slope representing the kinetics of scaling, is indicative of homogeneous primary nucleation (B, 0.046). It has previously been assumed that the bulk crystal phase is first formed on the membrane by a heterogeneous primary nucleation mechanism where it grows to a critical size (based on a force balance), above which the applied shear stress is presumed sufficient to overcome the attachment forces to enable its backtransport to the bulk solution [8]. However, in this study, it is evident that a crystal phase can be produced without first forming crystals at the membrane surface.",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "bulk solution [8]. However, in this study, it is evident that a crystal phase can be produced without first forming crystals at the membrane surface. The transition to conditions favouring scaling mitigation is therefore deno­ted by a threshold supersaturation value at the intersection between homogeneous and heterogeneous primary nucleation mechanisms. The bulk crystal phase that is formed when T and ΔT favour scale formation, was also characterised by a homogeneous primary nucleation mecha­nism, with tind exhibiting less dependency on supersaturation compared to scaling (B, 0.020; Fig. 11b). For conditions favouring homogeneous crystallisation, tind is inversely proportional to nucleation rate. This is illustrated by the higher R′ recorded for scaling, than for the bulk crystal phase (Fig. 10). As the MSZW reduced toward the threshold supersat­uration value that marks the transition between heterogeneous nucle­ation mechanisms, the nucleation rate (R’) for scaling also began to converge with the values established for the bulk crystal phase. This suggests the origin for the heteronuclei or embryos that form scaling and",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 15. Mechanism proposed for kinetically controlled nucleation and crystal growth in membrane systems. A. Mapetere et al. Journal of Membrane Science 725 (2025) 124021 the bulk crystal phase may be shared, but that scaling is formed ho­mogeneously due to solute entrapment within the pores and crevasses of the membrane, where exposure to a supersaturation level in excess of this critical supersaturation threshold enables the establishment of a thermodynamically stable crystal phase. Scaling can form in advance of the bulk crystal phase due to its consistent exposure to a supersaturated state that fosters exposure to extremely high nucleation rates, whereas the establishment of the bulk crystal phase requires the bulk solution to achieve saturation (c/c* ~1) to enable the thermodynamically stable crystal phase to form, which institutes a time lag and as such, due to temporal modifications of mass and heat transfer processes in the boundary layer, the interfacial conditions at which the bulk crystal phase is produced are distinct from those of scaling. In previous research on porous media, nucleation of NaCl crystals was also only observed once a critical supersaturation threshold was achieved [24]. The supersaturation threshold identified is equivalent to the supersaturation threshold in this study that marks the transition from a heterogeneous to a homogeneous nucleation mechanism.",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ied is equivalent to the supersaturation threshold in this study that marks the transition from a heterogeneous to a homogeneous nucleation mechanism. This threshold was explained as the intersection between extremely small (below unity) and very high nucleation rates, consistent with classic nucleation theory. At this threshold, the high supersaturation level instigated rapid growth of ‘hopper crystals’ which are formed through secondary nucleation occurring at the edges of the primary nuclei, due to faster growth rates at the crystal edges versus the crystal faces. This was illustrated in this study through formation of long thin sheets, and well-aligned ‘branches’ or ‘chain-like’ cubic sectors growing outwards from the primary central cubic crystal (Fig. 12). This is indicative of a two-dimensional nucleation growth mechanism (birth and spread model) where high supersaturation levels are a prerequisite for stability of the adatoms that form on a flat surface [24]. The rapid decrease in local supersaturation during growth consequently favours the formation of only single large skeletal crystals (several thousand microns in diameter). The nucleation rate depends so steeply on the supersatura­tion level that all other parameters (for example, changes to T or ΔT) are irrelevant, and a critical supersaturation threshold can be identified from this study, below which scaling can be ‘switched-off’ leading to production of only crystals in the bulk solution.",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.4. Control of nucleation, growth and morphology of the bulk crystal phase Analysis of CSDs indicated that at a fixed temperature (T 50 ◦C), an increase in Δ T from 15 to 25 ◦C, decreased median size of the bulk crystals from 50.4 to 35.2 μm (Fig. 13a). This can be explained by the higher supersaturation rate, which raised supersaturation level at in­duction (Fig. 13b). Supersaturation provides the driving force for nucleation, where higher nucleation rates tend to inhibit crystal growth as there are fewer ions available for growth, resulting in smaller crystal sizes (Fig. 13c) [15]. When sustaining a constant ΔT (25 ◦C), an increase in T from 50 to 60 ◦C raised the median crystal size from 35.2 to 43.4 μm. While the interfacial supersaturation increased with T, an increase in T also enhances the kinetics for diffusion-controlled growth which favours a larger median crystal size [34]. The bulk crystal phase comprised of cubic morphology (Fig. 14, T 55 ◦C, ΔT 25 ◦C) which is the characteristic crystal habit for NaCl. This is reflective of growth within less supersat­urated conditions, providing more time for the absorption and diffusion of solute molecules at the centre of faces to form flat surfaces [24]. The nucleation order (m, Fig. 7) demonstrates that it is possible to estimate nucleation rate for all T and ΔT studied.",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "es to form flat surfaces [24]. The nucleation order (m, Fig. 7) demonstrates that it is possible to estimate nucleation rate for all T and ΔT studied. As such, setting T and ΔT can deliver supersaturation to a set point, where adjustments to nucleation rate (ΔT) and crystal growth (T) can be made to control final product specification. While all feed temperatures studied can be used (45–60 ◦C), ΔT must be limited to between 15 and 20 ◦C (dependent upon T) to favour heterogeneous primary nucleation and therefore supress scaling (Fig. 15).",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Conclusions This study has used non-invasive techniques for the direct determi­nation of induction time, enabling differentiation between nucleation mechanisms occurring on the membrane surface and those occurring in the bulk solution, to provide a unified understanding of crystallisation within membrane systems. Whereas the literature has previously sup­posed that crystallisation occurs in a sequential process where scaling commences followed by detachment via shear-based processes, this study demonstrates two discrete nucleation pathways, where the crystal phase can be formed in the bulk solution in the absence of scaling. For this condition, the crystal phase in the bulk solution is formed via a heterogeneous primary nucleation mechanism. The preferential primary nucleation mechanisms for scale and bulk crystal formation are there­fore contrary to those typically perceived in the literature, but the mechanistic explanation is consistent to previous literature observations where scaling is regarded as more tenacious in conditions of higher heat and mass transfer and is shown to be complementary to classical nucleation theory. This insight was enabled through exploitation of the supersaturation rate which can directly relate mass and heat transfer processes within the boundary layer to nucleation theory.",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "gh exploitation of the supersaturation rate which can directly relate mass and heat transfer processes within the boundary layer to nucleation theory. The modified power law relation demonstrates that nucleation rate is driven by the interfacial supersaturation, the extent of change being dependent on the crystalliquid interfacial energy of the salt. Consequently, T and ΔT can be collectively used to set supersaturation level within the boundary layer to control the final crystal product properties. The capability to relate complex simultaneous mass and heat transfer processes in the boundary layer to nucleation control is unique to membrane processes. This pro­vides simplification for technology scale-up which is otherwise a major challenge to conventional crystalliser design. The supersaturation level at the intersection between heterogeneous and homogeneous primary nucleation mechanisms is specific to kinetically controlled scale for­mation. This value can be adopted generically as a critical threshold to ‘switch-off’ scaling by NaCl. However, a rapid flux decline is still observed in the absence of scaling due to the subsequent deposition of crystals from the bulk solution. Further work is therefore required to better understand the mechanistic principles governing the backtran­sport of solid particles in membrane distillation as a method to advance more sustainable operation. CRediT authorship contribution statement A.",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ktran­sport of solid particles in membrane distillation as a method to advance more sustainable operation. CRediT authorship contribution statement A. Mapetere: Writing – original draft, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. G. Di Profio: Writing – review & editing, Formal analysis. E. Curcio: Writing – review & editing, Formal analysis. P. Campo: Writing – review & editing, Su­pervision, Methodology, Formal analysis, Conceptualization. E.J. McAdam: Writing – review & editing, Supervision, Project administra­tion, Methodology, Funding acquisition, Formal analysis, Data curation, Conceptualization. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements This research was financially supported by European Research Council Starting Grant 714080, ‘Sustainable chemical alternatives for reuse in the circular economy’ (SCARCE).",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[17] D.M. Warsinger, E.W. Tow, J. Swaminathan, J.H. Lienhard V, Theoretical framework for predicting inorganic fouling in membrane distillation and experimental validation with calcium sulfate, J. Membr. Sci. 528 (2017) 381–390.[18] F. He, J. Gilron, H. Lee, L. Song, K.K. Sirkar, Potential for scaling by sparingly soluble salts in crossflow DCMD, J. Membr. Sci. 311 (1–2) (2008) 68–80.[19] D.M. Warsinger, J. Swaminathan, H.W. Chung, S. Jeong, J.H. Lienhard, Effect of filtration and particulate fouling in membrane distillation, Int. Desalin. Assoc. (2015).[20] A. Ouda, Y. Bajon Fernandez, E. McAdam, Modifying supersaturation rate with membrane area to volume ratio: scaling reduction and improved crystal growth control in membrane distillation crystallisation, J. Membr. Sci. 683 (2023) 121838.[21] A. Ouda, Y. Bajon Fernandez, E. McAdam, Methods to modify supersaturation rate in membrane distillation crystallisation: control of nucleation and crystal growth kinetics (including scaling), J. Membr. Sci. 691 (2024) 122249.[22] J. Nyvlt, Kinetics of nucleation in solutions, J. Cryst. Growth 3 (1968) 377–383.[23] R.S. Harner, R.J. Ressler, R.L. Briggs, J.E. Hitt, P.A. Larsen, T.C. Frank, Use of a fiber-optic turbidity probe to monitor and control commercial-scale unseeded batch crystallizations, Org. Process Res. Dev. 13 (2009) 114–124.[24] J. Desarnaud, H. Derluyn, J. Carmeliet, D. Bonn, N. Shahidzadeh, Metastability limit for the nucleation of NaCl crystals in confinement, J. Phys.",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[24] J. Desarnaud, H. Derluyn, J. Carmeliet, D. Bonn, N. Shahidzadeh, Metastability limit for the nucleation of NaCl crystals in confinement, J. Phys. Chem. Lett. 5 (2014) 890–895.[25] X. Jiang, D. Lu, W. Xiao, X. Ruan, J. Fang, G. He, Membrane assisted cooling crystallization: process model, nucleation, metastable zone, and crystal size distribution, AIChE J. 62 (2016) 829–841.[26] ´O. Andrjesd´ottir, C.L. Ong, M. Nabavi, S. Paredes, A.S.G. Khalil, An experimentally optimized model for heat and mass transfer in direct contact membrane distillation, Int. J. Heat Mass Tran. 66 (2013) 855–867.[27] A. Alkhudhiri, N. Darwish, N. Hilal, Membrane distillation: a comprehensive review, Desalination 287 (2012) 2–18.[28] A. Mersmann, K. Bartosch, How to predict the metastable zone width, J. Cryst. Growth 183 (1998) 240–250.[29] G. Zeng, H. Li, S. Huang, X. Wang, J. Chen, Determination of metastable zone width and the primary nucleation kinetics of sodium sulfate, Theor. Found. Chem. Eng. 49 (2015) 869–876.[30] S. Fan, X. Gu, X. Zhou, X. Duan, H. Li, Determination of nucleation kinetics from the induction time of 1,1-diamino-2,2-dinitroethylene (FOX-7) in DMSO/Water, Energ. Mater. Front. 2 (2021) 62–68.[31] M. Gryta, Effectiveness of water desalination by membrane distillation process, Membranes 2 (2012) 415–429.[32] C. Bian, H. Chen, X. Song, J. Yu, Metastable zone width and the primary nucleation kinetics for cooling crystallization of NaNO3 from NaCl-NaNO3-H2O system, J. Cryst.",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", X. Song, J. Yu, Metastable zone width and the primary nucleation kinetics for cooling crystallization of NaNO3 from NaCl-NaNO3-H2O system, J. Cryst. Growth 518 (2019) 5–13.[33] S.A. Kulkarni, S.S. Kadam, H. Meekes, A.I. Stankiewicz, J.H. Ter Horst, Crystal nucleation kinetics from induction times and metastable zone widths, Cryst. Growth Des. 13 (2013) 2435–2440.[34] X. Jiang, G. Li, L. Dapeng, W. Xiao, X. Ruan, X. Li, G. He, Hybrid control mechanism of crystal morphology modification for ternary solution treatment via membrane assisted crystallization, Cryst. Growth Des. 18 (2017) 934–943.",
+    "citation": {
+      "authors": [
+        "Mapetere A.",
+        "Di G.",
+        "Curcio E.",
+        "Campo P.",
+        "Mc E.J.",
+        "Crystal T."
+      ],
+      "paper_id": "1-s2.0-S0376738825003345-main",
+      "title": "Unifying nucleation and crystal growth mechanisms in membrane crystallisation",
+      "year": "2025",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  }
+]

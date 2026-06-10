@@ -1,0 +1,230 @@
+[
+  {
+    "content": "1. Introduction\n\nCapturing CO2 from low-concentration point sources such as fermentation off-gas (1–2% CO2) [1] or directly from air (≈400 ppm) has gained attention as a pathway to reduce atmospheric CO2 levels [2]. However, the low CO2 partial pressure in these streams imposes severe thermodynamic and kinetic barriers. The extremely low CO2 partial pressure makes CO2 separation technically challenging and energy-intensive [3].\n\nCurrently, the most technologically mature direct air capture (DAC) approaches rely on chemical sorption of CO2, such as using amine-based liquid solvents and solid adsorbents [4,5]. These processes, however, suffer from high regeneration energy penalties, material degradation during cycling, and scale-up challenges [6]. Membrane separation is often cited as an emerging DAC technology due to its modularity and potentially lower energy consumption. Yet most membrane studies focus on point source separation conditions (5-40% CO2), ignoring <1% CO2 scenarios, and conventional polymer membranes are hindered by the permeability-selectivity trade-off with performances often below the Robeson upper bound for CO2/N2 separation [7–9]. The extremely low driving force associated with dilute CO2 feeds makes CO2 transport particularly unfavorable.",
+    "citation": {
+      "authors": ["Sivasamy K.S.", "Lindbråthen A.", "Sandru M.", "Deng L."],
+      "paper_id": "1-s2.0-S0376738826002747-main",
+      "title": "Spatial control of MOF distribution in mixed-matrix membranes enables CO2-Separation at low concentration",
+      "year": 2026,
+      "section": "1. Introduction",
+      "pages": [1,2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Facilitated transport membranes (FTMs), where CO2-reactive carriers mediate transport, are known to have the potential to overcome the trade-off and have therefore been proposed as a promising option for low CO2 concentration separation [10–12]. Facilitated transport mechanisms are particularly advantageous under DAC conditions as carrier saturation is minimized and carrier utilization becomes more efficient at low CO2 concentrations. Typical FTMs employ amino groups as fixed carriers and/or weak basic compounds as mobile carriers [12,13]. Facilitated transport enhances permeation by introducing additional reactive transport pathways beyond simple diffusion. Three facilitated transport mechanisms may operate simultaneously depending on membrane chemistry and hydration level: (i) hop-hop transport between adjacent carriers, (ii) the carbamate route (amine-CO2 complexation), and (iii) the bicarbonate route (CO2 hydration in the presence of water) [14]. Operando FTIR work by O'Brien et al. provides direct evidence for the formation of bicarbonate intermediates in amine-based facilitated transport membranes [15].",
+    "citation": {
+      "authors": ["Sivasamy K.S.", "Lindbråthen A.", "Sandru M.", "Deng L."],
+      "paper_id": "1-s2.0-S0376738826002747-main",
+      "title": "Spatial control of MOF distribution in mixed-matrix membranes enables CO2-Separation at low concentration",
+      "year": 2026,
+      "section": "1. Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Under most CO2 separation conditions, water vapor is abundant, making the bicarbonate pathway dominant and thus the focused mechanism of discussion in this work [12,16], where CO2 transport transitions from molecule diffusion through the polymer matrix to rapid ionic diffusion transport of bicarbonate species within water-swollen hydrophilic domains. This transition substantially enhances effective diffusion and CO2 permeability under humid conditions.\n\nA complementary strategy to enhance CO2 transport uses mixed-matrix membranes (MMMs), where CO2-philic fillers enhance CO2 solubility and free volume in the polymer matrix. Conventional fillers such as zeolites [17], activated carbon [18], carbon molecular sieves [19] have been explored but they often show moisture sensitivity and reduced performance at low CO2 concentration (<1000 ppm) [20]. Metal–organic frameworks (MOFs) offer unique advantages due to their tunable chemistry, porosity, high CO2 affinity, and, for some frameworks, catalytic activities [21–23].",
+    "citation": {
+      "authors": ["Sivasamy K.S.", "Lindbråthen A.", "Sandru M.", "Deng L."],
+      "paper_id": "1-s2.0-S0376738826002747-main",
+      "title": "Spatial control of MOF distribution in mixed-matrix membranes enables CO2-Separation at low concentration",
+      "year": 2026,
+      "section": "1. Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A notable example is the Zn-based MOF Coordination Framework Augsburg-1 (CFA-1), which contains zinc centers coordinated with hydroxyl groups (Zn–OH). CFA-1 exhibits strong CO2 adsorption uptake at sub-1000 ppm levels (uptake 2.2 mmol/g at 400 ppm) [25,26]. Although CFA-1 has a high adsorption enthalpy (60–71 kJ/mol) indicating strong CO2 binding and high energy penalty for sorbent regeneration, this drawback is mitigated in MMMs since gas transport through membrane is a non-equilibrium process, where adsorbed CO2 is continuously transported through the membrane and does not require bulk regeneration [24,27,28]. CFA-1 contains Zn–OH active sites that promote CO2 hydration in humid environments, potentially coupling adsorption and catalytic transport within the polymer matrix.\n\nIn a CFA-1-based MMM, facilitated transport occurs via water-mediated hydration of CO2 (forming HCO3-) with diffusion of HCO3- ions through the water-swollen polymer phase. Since membrane separation is fundamentally a rate-limited process, in a facilitated transport membrane, especially when at ultra diluted CO2 concentration, the reaction kinetics critically influence the overall performance.",
+    "citation": {
+      "authors": ["Sivasamy K.S.", "Lindbråthen A.", "Sandru M.", "Deng L."],
+      "paper_id": "1-s2.0-S0376738826002747-main",
+      "title": "Spatial control of MOF distribution in mixed-matrix membranes enables CO2-Separation at low concentration",
+      "year": 2026,
+      "section": "1. Introduction",
+      "pages": [2]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Catalytic Zn–OH groups of CFA-1 accelerate CO2 hydration at the MOF-polymer interface in the presence of water, promoting the interconversion between CO2 and bicarbonate species [29,30]. Prior work by Zheng et al. has shown that CFA-1/Pebax MMMs can surpass the Robeson upper bound, though only under post-combustion conditions (10% CO2) [31].\n\nPebax (polyether-block-amide copolymers) is a widely adopted polymeric matrix for MMM due to its segmented structure, where polyethylene oxide (PEO) blocks provide CO2-philic, hydrophilic pathways and polyamide (PA) blocks supply mechanical integrity through semi-crystalline domains [32–34]. Despite extensive studies of Pebax/MOF MMMs, nearly all reported data were performed using post-combustion CO2 levels (5-15% CO2), where the high driving force masks subtle transport effects relevant at extremely low concentrations [35,36]. Systematic evaluation at ≤1% CO2, a regime where facilitated transport and filler chemistry can dominate, remains largely unexplored.\n\nHere, we develop Pebax/CFA-1 MMMs with controlled filler distribution for DAC-relevant separation (0.1–1% CO2).",
+    "citation": {
+      "authors": ["Sivasamy K.S.", "Lindbråthen A.", "Sandru M.", "Deng L."],
+      "paper_id": "1-s2.0-S0376738826002747-main",
+      "title": "Spatial control of MOF distribution in mixed-matrix membranes enables CO2-Separation at low concentration",
+      "year": 2026,
+      "section": "1. Introduction",
+      "pages": [2,3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Homogeneous and surface-enriched architectures were compared to determine how filler placement affects adsorption-assisted and humidity-dependent transport. Two membrane fabrication strategies were therefore employed: (i) homogeneous dispersion of MOFs via ultrasonication, and (ii) controlled sedimentation to form a MOF-enriched selective layer at the feed side. This study provides a systematic evaluation of Pebax/CFA-1 MMMs under extremely low CO2 concentration (0.1-10%) with humidity across a broad range of 0–100% RH.\n\n2. Materials and methods\n\n2.1. Materials\n\nPebax-1657 was supplied by Arkema (France). 3,3',4,4'-tetramine biphenyl and sodium nitrite (NaNO2) were purchased from Sigma Aldrich (Norway). Glacial acetic acid and methanol were purchased from VWR Chemicals. Anhydrous ethanol was purchased from Kilto clean. Zinc acetate dihydrate, N,N-dimethylformamide (DMF), and isopropanol were purchased from Sigma Aldrich (Norway). All chemicals were utilized as received with no further purification.\n\nCO2/N2 mixtures (10:90, 5:95, 1:99 v/v) were provided by Linde (Norway) with 99.999% purity. For 0.1% CO2 in N2, the 1% CO2/N2 mixture was further diluted with N2 using mass flow controllers.",
+    "citation": {
+      "authors": ["Sivasamy K.S.", "Lindbråthen A.", "Sandru M.", "Deng L."],
+      "paper_id": "1-s2.0-S0376738826002747-main",
+      "title": "Spatial control of MOF distribution in mixed-matrix membranes enables CO2-Separation at low concentration",
+      "year": 2026,
+      "section": "2. Materials and methods",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The synthesis of CFA-1 was carried out in-house via a solvothermal method. This involved the reaction of zinc acetate dihydrate with a synthesized organic linker, 1H,1'H-5,5'-bibenzo[d][1–3]triazole (H2-bibta), in a mixture of N,N-dimethylformamide (DMF) and acetic acid. The detailed procedure of CFA-1 synthesis can be found in Supplementary Information section S2.\n\n2.2. Membrane fabrication\n\nPebax solution was prepared by dissolving Pebax-1657 in ethanol/water mixture (7:3 v/v) at 80°C. CFA-1 particles were dispersed in the same solvent mixture. MOF loading was calculated as: Loading (wt%) = m_CFA-1/(m_CFA-1 + m_Pebax) * 100%.\n\nFor homogeneous membrane fabrication, CFA-1 particles suspended in the ethanol/water mixture were first ultrasonicated using a probe sonicator at 50% amplitude with alternating cycles of 30 s sonication and 15 s rest for 10 min in an ice bath to prevent thermal degradation and ensure effective particle deagglomeration. The pre-dispersed MOF suspension was then added to the polymer solution and subjected to an additional ultrasonication for 5 min to achieve uniform distribution throughout the polymer matrix for a stable MOF/polymer suspension. The casting solution was poured onto a Teflon tray and dried at 85°C for 3-4 h.",
+    "citation": {
+      "authors": ["Sivasamy K.S.", "Lindbråthen A.", "Sandru M.", "Deng L."],
+      "paper_id": "1-s2.0-S0376738826002747-main",
+      "title": "Spatial control of MOF distribution in mixed-matrix membranes enables CO2-Separation at low concentration",
+      "year": 2026,
+      "section": "2.2 Membrane fabrication",
+      "pages": [3]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "For layered membrane architecture, CFA-1 particles pre-dispersed in the ethanol/water mixture were sonicated for 5 min and then directly mixed with the polymer solution and stirred for 15 min without further ultrasonication to preserve particle mobility during casting. The casting solution was immediately poured onto a Teflon tray and subjected to a two-stage drying process: initial drying at 50°C overnight followed by 85°C for 3-4 h. This strategy deliberately allows gravitational settling of MOF particles during solvent evaporation, resulting in the formation of a MOF-enriched dense layer at the bottom surface (feed side) while maintaining a MOF-lean polymer matrix in the bulk membrane. The thickness of the MOF-enriched layer is controlled by the duration of the slow evaporation stage at 50°C, during which particles settle before the polymer matrix solidifies at higher temperature.\n\nBoth types of MOF/polymer suspensions were cast into Teflon trays (100 mm diameter) and dried at 80°C. The resulting membrane exhibited thicknesses of 40–60 μm depending on the membrane types.\n\nSample nomenclature: \"1% CFA-1/Pebax-dispersed\" and \"3% CFA-1/Pebax-dispersed\" refer to homogeneous membranes containing 1 wt% and 3 wt% CFA-1, respectively. Membranes with the layered structure are denoted by replacing the term \"dispersed\" with \"layered\".",
+    "citation": {
+      "authors": ["Sivasamy K.S.", "Lindbråthen A.", "Sandru M.", "Deng L."],
+      "paper_id": "1-s2.0-S0376738826002747-main",
+      "title": "Spatial control of MOF distribution in mixed-matrix membranes enables CO2-Separation at low concentration",
+      "year": 2026,
+      "section": "2.2 Membrane fabrication",
+      "pages": [3,4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.3. Characterization\n\nX-ray Diffraction (XRD) was performed using a Bruker D8 Advance A25 diffractometer equipped with a Cu Kα radiation source and a LynxEye XE position-sensitive detector. Diffraction patterns were recorded over a 2θ range of 2-50°, with data presentation starting from 3.5° to exclude low-angle air-scattering artifacts. The collected data were analyzed using Bruker Diffrac. EVA software, and phase indication was performed by comparison with reference patterns from the Crystallographic Open Database (COD).\n\nThe specific surface area and pore size distribution of the CFA-1 MOF were determined via N2 adsorption at 77 K using a Micromeritics TriStar 3000 Surface Area and Porosity Analyzer. Samples were degassed under vacuum at 100°C for 12 h prior to analysis to remove adsorbed species. Adsorption isotherms were recorded over a relative pressure range and analyzed using the BET and BJH models to calculate the specific surface area and pore size distribution, respectively.\n\nThe morphology of the synthesized MOF and MMMs was analyzed using a Hitachi TM3030Plus Tabletop Scanning Electron Microscope (SEM) and SEM EVO 10 with LaB6 source from Zeiss Germany. Energy dispersive X-ray spectroscopy (EDS) was performed with a focused ion beam (FIB), Helios G4 UX from Thermo Fisher Scientific. EDS was performed at 10 kV acceleration voltage and 1.6 nA beam current and acquired with 80 mm² Oxford detector using Aztec software.",
+    "citation": {
+      "authors": ["Sivasamy K.S.", "Lindbråthen A.", "Sandru M.", "Deng L."],
+      "paper_id": "1-s2.0-S0376738826002747-main",
+      "title": "Spatial control of MOF distribution in mixed-matrix membranes enables CO2-Separation at low concentration",
+      "year": 2026,
+      "section": "2.3 Characterization",
+      "pages": [4]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Cross-sections were made by standard ion-beam sputtering after depositing a Pt-based protection layer on top of the surface. The first part of the protection layer was deposited with electron beam assisted deposition to avoid ion beam damage at the top of the membrane surface.\n\nDifferential scanning calorimetry (DSC) was conducted using a Mettler Toledo DSC 2 instrument to examine the interfacial interactions between MOF and polymer phases. Glass transition temperatures (Tg) were determined using STARe software. To investigate interfacial adhesion with the Pebax matrix and compatibility at the MOF-polymer interface, Tg values were measured for MMMs at different MOF loadings. Approximately 10 mg of sample was analyzed over a temperature range of -200 to 0°C at a heating rate of 10°C/min under nitrogen atmosphere.\n\nThe chemical structure of the samples was analyzed using Fourier Transform Infrared (FT-IR) spectroscopy with a PerkinElmer ATR-FTIR spectrometer (PerkinElmer, USA). The spectra were collected in the mid-infrared region (500–4000 cm⁻¹) using attenuated total reflectance (ATR) mode to identify functional groups and assess potential chemical interactions between the MOF and polymer matrix.\n\n2.4. Gas permeation testing\n\nBoth single and humid mixed gas permeation experiments were performed to evaluate the separation performance of the membranes.\n\n2.4.1. Single gas permeability measurements\n\nSingle gas permeability tests were conducted using a standard constant-volume, differential-pressure time-lag method, applying vacuum on the permeate side, exposing it to a constant upstream pressure, and recording the steady-state pressure increase in a calibrated downstream volume (See Fig. S1).",
+    "citation": {
+      "authors": ["Sivasamy K.S.", "Lindbråthen A.", "Sandru M.", "Deng L."],
+      "paper_id": "1-s2.0-S0376738826002747-main",
+      "title": "Spatial control of MOF distribution in mixed-matrix membranes enables CO2-Separation at low concentration",
+      "year": 2026,
+      "section": "2.3-2.4.1",
+      "pages": [4,5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The gas permeance was calculated from the rate of increase of pressure over time on the permeate side. The single gas measurements were done at room temperature (25 ± 1°C) at 1-3 bar. The gas permeability values were obtained by considering the thickness of samples and the measured permeance [37]. The calculation formula for membrane permeability (P) is given as: P = [((dpd/dt)_(t→∞) - (dpd/dt)_leak] * V_d / (A * R * T * l * (p_u - p_d)), where P is the permeability of the components (1 Barrer = 10⁻¹⁰ cm³(STP)·cm⁻¹·s⁻¹·cmHg⁻¹ = 3.35×10⁻¹⁶ mol·m⁻¹·s⁻¹·Pa⁻¹), (dpd/dt) is the steady-state permeation rate, p_d and p_u represent downstream and upstream pressure, t is time, V_d is downstream volume, A is effective membrane area, R and T are gas constant and temperature, and l is membrane thickness.\n\n2.4.2. Mixed gas permeation measurements\n\nMixed gas separation performance was evaluated in a continuous mode using a custom-built permeation apparatus [38–40]. Measurements were conducted at 25°C using CO2/N2 gas mixtures with varying CO2 concentrations of 10, 5, 1, and 0.1 vol% as feed gas under 1.2 bara pressure. Helium was employed as sweep gas on the permeate side. All experiments were performed under controlled humidity conditions. The feed-side humidity was controlled via a split-stream configuration, where the feed gas was divided into a dry stream and a volume adjustable bypassed humid stream (through a water bubbler at 25°C). RH of the combined feed was set by adjusting the ratio of these streams using calibrated mass flow controllers and verified by a humidity sensor (see Fig. S2).",
+    "citation": {
+      "authors": ["Sivasamy K.S.", "Lindbråthen A.", "Sandru M.", "Deng L."],
+      "paper_id": "1-s2.0-S0376738826002747-main",
+      "title": "Spatial control of MOF distribution in mixed-matrix membranes enables CO2-Separation at low concentration",
+      "year": 2026,
+      "section": "2.4.1-2.4.2",
+      "pages": [5]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The experiments were performed at 0, 20, 40, 80, and 100% RH feed gas humidity.\n\nGas compositions were analyzed and recorded continuously every 10 min using a calibrated gas chromatograph (490 Micro GC, Agilent). Permeability obtained from mixed gas tests was determined by multiplying the membrane thickness (μm) by permeance, which is calculated as the flux divided by the partial pressure difference across the membrane. 1 GPU = 3.35 × 10⁻¹⁰ mol/(m²·s·Pa). and 1 Barrer = 1 GPU × 1 μm. The selectivity (α) was calculated as the ratio of the permeabilities of the gas pair: α = P_CO2 / P_N2.\n\nDuplicate membrane samples were tested in triplicate tests to assess reproducibility. All permeation test data were collected after the performance remained stable during each measurement period (>200 h) without observable decline in permeability or selectivity.\n\n3. Results and discussion\n\n3.1. Structural characterization\n\nThe PXRD analysis was conducted to confirm the phase purity and crystallinity of the synthesized CFA-1, with the diffraction pattern matching the literature reference [24,31]. Characteristic CFA-1 peaks are preserved in both 1 wt% and 3 wt% CFA-1/Pebax MMMs, demonstrating the structural integrity of CFA-1 during membrane fabrication and processing.\n\nThe surface and pore information of the synthesized CFA-1 were also examined. Based on the nitrogen adsorption-desorption analysis at 77K, the material has a high BET surface area of 1552.6 m²/g, and an average pore diameter of 1 nm, with small mesopores in the 3.1-3.9 nm range.",
+    "citation": {
+      "authors": ["Sivasamy K.S.", "Lindbråthen A.", "Sandru M.", "Deng L."],
+      "paper_id": "1-s2.0-S0376738826002747-main",
+      "title": "Spatial control of MOF distribution in mixed-matrix membranes enables CO2-Separation at low concentration",
+      "year": 2026,
+      "section": "3.1 Structural characterization",
+      "pages": [5,6]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.2. Morphologic characterization\n\nSEM analysis revealed triangular CFA-1 crystals with well-defined crystalline edges consistent with literature reports for this MOF [24]. Quantitative analysis of 70 particles yielded a mean diameter of 1.44 ± 1.62 μm with a median of 0.91 μm, indicating a broad size distribution ranging from submicron to 3 μm. The triangular morphology corresponds to CFA-1's characteristic crystal structure and aligns with reported Kuratowski-type secondary building units.\n\nCross-sectional SEM images of the CFA-1/Pebax MMMs show the internal structure with distinct morphologies. Dispersed membrane displays a uniform distribution of CFA-1 throughout the whole polymer matrix, with MOF particles well embedded. The layered membrane prepared via controlled sedimentation shows a clearly defined architecture comprising a MOF-enriched layer atop a Pebax bulk, characterized by a thin, high-density MOF layer at the membrane surface and a MOF-lean polymer matrix beneath.\n\nSurface SEM images reveal even more pronounced differences. Dispersed membrane appears relatively smooth, with sporadically distributed MOF particles well-integrated. In contrast, the surface of the layered membrane exhibits a continuous MOF-rich layer with a granular texture and substantially higher roughness. This MOF layer is expected to increase local CO2 uptake at the feed interface, likely contributing to a locally enhanced CO2 concentration near the membrane surface before transport through the underlying polymer layer. SEM-EDS analysis further confirms the presence of a MOF-enriched surface layer.",
+    "citation": {
+      "authors": ["Sivasamy K.S.", "Lindbråthen A.", "Sandru M.", "Deng L."],
+      "paper_id": "1-s2.0-S0376738826002747-main",
+      "title": "Spatial control of MOF distribution in mixed-matrix membranes enables CO2-Separation at low concentration",
+      "year": 2026,
+      "section": "3.2 Morphologic characterization",
+      "pages": [6]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.3. Thermal analysis\n\nDSC analysis was conducted to evaluate the thermal behavior of pristine Pebax and CFA-1/Pebax MMMs, with particular focus on the polymer glass transition temperature (Tg). Pristine Pebax exhibited a Tg of -46°C, consistent with reported values for commercial Pebax-1657 [41]. Incorporation of CFA-1 led to a clear depression in Tg, with both 1 wt% and 3 wt% CFA-1 membranes displaying Tg values of approximately -53°C. This 7°C depression indicates disruption of polymer chain packing and enhanced segmental mobility within the soft domains, which is beneficial for CO2 diffusion. Furthermore, the presence of a single shifted Tg rather than multiple transitions suggests good polymer-filler compatibility and the absence of macroscopic phase separation or interfacial voids [36,42]. The DSC curves show insignificant changes in Tg between 1% and 3% loading, suggesting that the MOF-induced perturbation of polymer chain packing reaches a plateau already at such low loading.\n\n3.4. Chemical and interfacial behavior analysis\n\nThe FTIR spectra of CFA-1, pristine Pebax, and the CFA-1/Pebax membrane were analyzed. The CFA-1 spectrum displays a band at 3670 cm⁻¹, corresponding to the –OH stretching vibration of terminal hydroxyl groups coordinated to zinc centers. Additional characteristic CFA-1 features are also visible. Pristine Pebax exhibits typical absorptions: a broad N–H stretching band at 3298 cm⁻¹ (polyamide segments), a C–O–C stretching band at 1096 cm⁻¹ (PEO blocks), and two carbonyl bands at 1731 cm⁻¹ (ester C=O) and 1636 cm⁻¹ (amide C=O).",
+    "citation": {
+      "authors": ["Sivasamy K.S.", "Lindbråthen A.", "Sandru M.", "Deng L."],
+      "paper_id": "1-s2.0-S0376738826002747-main",
+      "title": "Spatial control of MOF distribution in mixed-matrix membranes enables CO2-Separation at low concentration",
+      "year": 2026,
+      "section": "3.3-3.4",
+      "pages": [7,8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "In the CFA-1/Pebax membrane, characteristic CFA-1 peaks, particularly the –OH band at 3670 cm⁻¹, are not distinctly observed due to the low MOF loading (3 wt%) and spectral overlap with dominant Pebax signals. Nevertheless, all intrinsic Pebax signals are preserved, and no new bands emerge upon MOF incorporation. The unchanged FTIR features further support preservation of the chemical structure of Pebax after membrane fabrication. This indicates that CFA-1 maintains its structural integrity during membrane fabrication and undergoes no chemical degradation or covalent interactions during solution casting. The absence of peak shifts suggests that strong hydrogen bonding or significant chemical interactions between CFA-1 and Pebax are either absent or undetectable at this loading. Overall, the FTIR results support a physical incorporation mechanism rather than chemical grafting at the MOF–polymer interface.\n\n3.5. Single gas permeation performance analysis\n\nSingle gas permeation tests were conducted at 1 bar and 25°C under dry conditions to establish baseline performance. The pristine Pebax-1657 membrane exhibited a CO2 permeability of 45 Barrer and a CO2/N2 selectivity of 42. While these values are lower than those reported by Zheng et al. [31] (110 Barrer, selectivity 50), they fall within the broad range documented in the literature [44]. The incorporation of CFA-1 into the Pebax matrix resulted in systematic performance improvements despite the lower baseline. At 1 bara, CO2 permeability increased from 45 Barrer (pristine) to 62 Barrer (1% CFA-1) and 78 Barrer (3% CFA-1), representing improvements of 38% and 73%, respectively. Simultaneously, CO2/N2 selectivity increased from 42 to 48 (1% loading) and 58 (3% loading).",
+    "citation": {
+      "authors": ["Sivasamy K.S.", "Lindbråthen A.", "Sandru M.", "Deng L."],
+      "paper_id": "1-s2.0-S0376738826002747-main",
+      "title": "Spatial control of MOF distribution in mixed-matrix membranes enables CO2-Separation at low concentration",
+      "year": 2026,
+      "section": "3.4-3.5",
+      "pages": [8]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.6. Mixed gas permeation performance analysis\n\n3.6.1. Effects of feed CO2 concentration\n\nThe humid mixed-gas permeation performances of CFA-1/Pebax MMMs were systematically investigated across feed CO2 concentrations ranging from 0.1% to 10%. Both CO2 permeability and CO2/N2 selectivity increase as the feed concentration decreases, with the most pronounced effects observed in the range of 0.1-1% CO2. For pristine Pebax, permeability increases from 55 Barrer at 5-10% CO2 to 83 Barrer at 0.1% CO2. Incorporation of CFA-1 further enhances the permeation performance: with the CO2 feed concentration decreasing from 10% to 0.1%, the 1 wt% CFA-1 MMM shows an increase in CO2 permeability from 90 to 129 Barrer while the 3 wt% CFA-1 MMM increases from 112 to 140 Barrer. The selectivity trends generally follow those of permeability for the CFA-1/Pebax MMMs. Both CFA-1 MMMs achieve a maximum selectivity of 71 at 0.1% CO2.\n\n3.6.2. Facilitated-transport mechanism and the role of layered architecture\n\nCO2 transport in these MMMs under humid conditions is assumed by two major pathways: (i) facilitated transport involving reversible CO2 hydration to form mobile HCO3- species in the polymer phase and (ii) CO2 adsorption-enhanced diffusion through the MOF particles. CFA-1 plays a dual functional role by providing enhanced CO2 sorption sites and acting as a nucleophilic catalytic center. The Zn–OH coordination sites possess higher basicity than bulk water, enabling the promotion of the bicarbonate pathway in the adjacent hydrated polymer phase.",
+    "citation": {
+      "authors": ["Sivasamy K.S.", "Lindbråthen A.", "Sandru M.", "Deng L."],
+      "paper_id": "1-s2.0-S0376738826002747-main",
+      "title": "Spatial control of MOF distribution in mixed-matrix membranes enables CO2-Separation at low concentration",
+      "year": 2026,
+      "section": "3.6 Mixed gas permeation",
+      "pages": [8,9]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The surface-layered CFA-1/Pebax MMM architecture, in which controlled sedimentation forms a granular MOF-rich layer on the feed side, provides a substantially higher density of accessible sorption and catalytic sites. This localized MOF-rich zone functions as a pre-concentrating zone that preferentially adsorbs CO2 from dilute streams, increasing the effective CO2 concentration at the MOF-polymer interface. Direct comparison of the two MMM architectures shows that layered membranes consistently outperform dispersed membranes across all concentrations. At 0.1% CO2, the 3 wt% CFA-1 layered membrane achieves a permeability of 160 Barrer and a CO2/N2 selectivity of 109, corresponding to 14% and 54% improvements, respectively, compared with its dispersed counterparts (140 Barrer, selectivity 71). This performance advantage is maintained across the full concentration range, with the divergence between layered and dispersed curves increasing as CO2 concentration decreases.\n\n3.6.3. Effects of humidity on CO2 transport\n\nFor dispersed MMMs, CO2 permeability and selectivity remain modest and nearly unchanged below 40% RH. Above 40% RH, CO2 permeability increases rapidly. At 100% RH, the dispersed membrane reaches CO2 permeability of about 140 Barrer and selectivity of 71. In contrast, the layered membrane demonstrates superior performance throughout the entire humidity range, exhibiting a progressive increase with RH in both CO2 permeability and selectivity. At 40% RH, the layered membrane already achieves CO2 permeability of 128 Barrer and selectivity of 91. At full humidity, layered membranes reach CO2 permeability of 160 Barrer and selectivity of 109.",
+    "citation": {
+      "authors": ["Sivasamy K.S.", "Lindbråthen A.", "Sandru M.", "Deng L."],
+      "paper_id": "1-s2.0-S0376738826002747-main",
+      "title": "Spatial control of MOF distribution in mixed-matrix membranes enables CO2-Separation at low concentration",
+      "year": 2026,
+      "section": "3.6.2-3.6.3",
+      "pages": [9,10]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "3.7. Maxwell model analysis of CO2 transport\n\nThe gas transport behavior of CFA-1 loaded MMMs was analyzed using the Maxwell model to examine whether classic diffusion-based transport through inert fillers can explain the observed permeability trends under 0.1% CO2 feed conditions. For spherical fillers uniformly dispersed in a continuous matrix, the relative permeability (Peff/Pc) of the MMM is given by the Maxwell equation. Two limiting cases were evaluated: impermeable fillers (Pd=0) and highly permeable fillers (Pd→∞). The experimental data show a much larger permeability increase of nearly 100%, far exceeding the Maxwell model's classical effective-medium expectations. The significant upward deviation indicates that CFA-1 behavior cannot be fully described by classical Maxwell assumptions for inert, impermeable filler with no interfacial transport modification and diffusion-only transport; facilitated transport and adsorption invalidate these assumptions. The discrepancies are attributed to three key effects: (i) high-affinity CO2 adsorption sites within CFA-1, (ii) interfacial polymer-MOF regions altering chain mobility and increasing local free volume, and (iii) CFA-1 activated bicarbonates under humid conditions enabling facilitated transport.\n\n3.8. Positioning of MOF/Pebax MMM performance under DAC-relevant conditions\n\nThis work provides the first performance dataset for MOF-based MMMs under conditions directly relevant to atmospheric CO2 capture. Despite operating under dilute CO2 concentration (0.1%), the layered CFA-1/Pebax MMM exhibits a CO2/N2 selectivity of 109, outperforming most reported systems, which often trade selectivity for higher permeability.",
+    "citation": {
+      "authors": ["Sivasamy K.S.", "Lindbråthen A.", "Sandru M.", "Deng L."],
+      "paper_id": "1-s2.0-S0376738826002747-main",
+      "title": "Spatial control of MOF distribution in mixed-matrix membranes enables CO2-Separation at low concentration",
+      "year": 2026,
+      "section": "3.7-3.8",
+      "pages": [10,11]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "4. Conclusions\n\nThis study demonstrates that CFA-1/Pebax mixed-matrix membranes enable efficient CO2 capture from dilute CO2 streams under DAC-relevant conditions (0.1-1% CO2). Incorporation of CFA-1 enhances both CO2 permeability and selectivity, which is attributed to the combined effects of CO2 adsorption in the MOF and CO2 hydration-assisted facilitated transport under humid conditions. Enhanced performances by humidity indicate the importance of water in activating the transport pathways associated with CFA-1. Maxwell model analysis indicates that CFA-1's contribution in the MMMs differs significantly from inert fillers, which qualitatively reflects the assumptions that CFA-1 in MMMs improve CO2 transport.\n\nA key finding is that spatial control of filler distribution strongly influences membrane performance. MMMs with a MOF-enriched feed-side layer achieved 160 Barrer CO2 permeability and CO2/N2 selectivity of 109 at 0.1% CO2, outperforming homogeneously dispersed MMMs by more than 50% in selectivity. This suggests that localized surface enrichment effectively promotes CO2 pre-concentration and selective transport under extremely low driving force conditions.\n\nThis work provides the first systematic evaluation of Pebax-based MMMs under DAC-relevant concentrations, demonstrates that spatial filler distribution can be an effective design principle for ultra-dilute CO2 separation and surface side pre-concentration design can be a strategy to overcome low driving-force limitations. Future work should address optimization of the thickness and morphology of the MOF-rich layer, long-term stability under continuous humid operation, and the implementation of fabrication strategy toward scalable membrane module configurations.",
+    "citation": {
+      "authors": ["Sivasamy K.S.", "Lindbråthen A.", "Sandru M.", "Deng L."],
+      "paper_id": "1-s2.0-S0376738826002747-main",
+      "title": "Spatial control of MOF distribution in mixed-matrix membranes enables CO2-Separation at low concentration",
+      "year": 2026,
+      "section": "4. Conclusions",
+      "pages": [11,12]
+    },
+    "type": "chunk"
+  }
+]

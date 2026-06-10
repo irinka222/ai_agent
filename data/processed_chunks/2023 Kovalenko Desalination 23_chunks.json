@@ -1,0 +1,1666 @@
+[
+  {
+    "content": "Desalination 550 (2023) 116398\n\n0011-9164/ 2023 Elsevier B.V. All rights reserved. Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions A.V. Kovalenko, V.V. Nikonenko *, N.O. Chubyr, M.Kh. Urtenov Kuban State University, Membrane Institute, Stavropolskaya Str. 149, 350040 Krasnodar, Russian Federation H I G H L I G H T S G R A P H I C A L A B S T R A C T Limitations of water deionization by electrodialysis (ED) are studied theoretically. 1D and 2D models allowing for water dissociation-recombination are developed. During ED of dilute solutions, space charge arises in the bulk of desalination chamber. This effect is due to recombination of H+ and OH-ions. Water splitting makes impossible total deionization of feed solution. A R T I C L E I N F O Keywords: Ion-exchange membranes Electrodialysis Concentration polarization Overlimiting current Electroconvection Water dissociation-recombination Water splitting Space charge",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A B S T R A C T The paper explores the limitations of electrodialysis (ED) in the range of very dilute feed solutions. The results of first principles modeling of this process are presented, taking into account water dissociation-recombination reactions (without catalytic effects). A 1D and a 2D model are formulated and applied. Both models use the equation for the rate of chemical reactions, the Nernst-Planck and Poisson equations; additionally, the NavierStokes equation is used in the 2D model. We show that the dissociation-recombination reactions can cause the appearance of a space charge region (SCR) in the central part of the desalination chamber (DC). In electro­chemistry and colloidal science, the formation of a SCR is associated with the formation of an electrical double layer (EDL) at a charged solid surface. Our modeling predicts that in conditions where the concentrations of H+/ OH-ions and salt ions in solution are comparable, a SCR can appear in the bulk solution due to the recombi­nation of H+ and OH-ions. The latter are generated at the membrane forming the DC (water splitting). Water splitting makes impossible total desalting of aqueous solutions by conventional ED. An inversion of the salt concentration profiles is observed: the salt ions are accumulated near the membranes; a depletion region occurs in the center of the DC. Interplay between the chemical reactions and space charge is discussed.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        1
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "1. Introduction Electrodialysis (ED) is a widely used membrane process for desali­nation of solutions, concentration and separation of ions [1–8]. The main advantage of ED is that costs decrease approximately in proportion to the decrease in the ion concentration of the feed solution, while in reverse osmosis (RO) and nanofiltration (NF) these costs only slightly depend on the solution concentration [1,8–10]. ED is a less energyconsuming process than RO and NF when the feed solution concentra­tion is sufficiently low: brackish waters and more dilute solutions [11]. However, there are serious limitations of ED related to concentration polarization [11–18]. A sharp decrease in the ion concentration near the membrane surface causes a significant increase in the resistance of the membrane system, which leads to an increase in energy consumption. Electroconvection is considered one of the ways to overcome this limi­tation [9,19–22]. Electroconvection generally occurs as current-induced volume transfer under the action of an electric field applied to a charged solution [23]. During electrodialysis, extended space charge regions (SCR) emerge at the cation-exchange membrane (CEM) and anionexchange membrane (AEM), which form desalination and concentra­tion compartments [24–26]. The thickness of these regions can reach a few μm [17]. An extended SCR can be considered as a nonequilibrium extension of an electrical double layer (EDL) in a near-membrane solu­tion [27].",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "a few μm [17]. An extended SCR can be considered as a nonequilibrium extension of an electrical double layer (EDL) in a near-membrane solu­tion [27]. This (equilibrium) EDL exists even when no current flows through the membrane. Its thickness increases with increasing current density. When the current density is greater than the limiting current density, ilim, a nonequilibrium and unstable addition arises. The action of an external field on the extended SCR causes a microvortex motion of the solution, which facilitates the delivery of fresh solution from the bulk to the membrane surface. As well, the microvortices evacuate the depleted near-membrane solution into the bulk. Electroconvection allows significantly (in several times compared to ilim [28–37]) increasing the mass transfer rate during electrodialysis in the overlimiting current range. In overlimiting current regimes, dissociation of water with the pro­duction of H+ and OH-ions occurs at the depleted solution/membrane interface (the effect is known as water splitting [38]). The cause is the deviation from equilibrium in the reaction H2O ⇄ kd kr H+ + OH-(1) where kd and kr are the rate constants of water dissociation and recombination, respectively. H+ and OH-ions are removed from the interface by the external electric field, which makes the concentration product of these ions lower than the water dissociation (self-ionization) constant, Kw: CHCOH < Kw.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rnal electric field, which makes the concentration product of these ions lower than the water dissociation (self-ionization) constant, Kw: CHCOH < Kw. Water splitting has a great influence on the transport processes in membrane systems [16,39–42]. At present, two types of water dissoci­ation are distinguished: (i) non-catalytic reaction of dissociation of water molecules, which occurs in one stage; (ii) catalytic water splitting [38,43–46], which proceeds in the surface layer of ion-exchange mem­branes in several stages with the participation of proton transfer re­actions between charged groups in the membrane and water molecules. In both cases, especially when water dissociation occurs as a noncatalytic reaction, the acceleration of the reaction by a high-strength electric field (the second Wien effect [47–49]) is of great importance [35,38,46,50–56]. The appearance of new charge carriers H+ and OH- ions as a result of water dissociation not only reduces the current effi­ciency during desalination of solutions [57], but also leads to a decrease in space charge in the extended SCR. The latter causes a decrease in electroconvection [58,59]. The effect of water dissociation on ED desalination was considered theoretically, on the basis of the 1D stationary Nernst-Planck-Poisson equation, by Urtenov et al. [60]. A closed no-flow ED desalination compartment limited by a cation-exchange and an anion-exchange membrane initially contained a stagnant NaCl solution was studied.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "flow ED desalination compartment limited by a cation-exchange and an anion-exchange membrane initially contained a stagnant NaCl solution was studied. It was shown that in a stationary case under a voltage applied to the compartment, the system is in a state when fluxes of salt ions through the membranes are zero. The electric current through the compartment is due to the water dissociation. In this reaction, new charge carriers, H+ and OH-ions are produced, which immediately leave the desalination compartment. The electric current efficiency in such a desalination system is zero. In the present paper, we theoretically predict a new effect, which is due to the coupling between ion electrodiffusion and chemical reactions of water dissociation/recombination during electrodialysis. We show that under deep demineralization conditions, when the concentration of salt ions becomes comparable to the concentration of H+ and OH-ions, rapid recombination reaction can provoke formation of a space charge in the center of the desalination compartment. This space charge gives rise to electroconvection, which interacts with electroconvection initiated by the extended SCR localized near CEM and AEM. The above effects are simulated using a 1D and a 2D nonstationary models. The 1D model, which is perhaps the simplest model that captures the effect of space charge formation in bulk solution, serves to understand the physicochemistry behind this effect.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the simplest model that captures the effect of space charge formation in bulk solution, serves to understand the physicochemistry behind this effect. The 2D model illustrates how the space charge in the bulk affects electroconvection in the ED desalination channel. Compared to the previous paper [60], we now account for temporal changes in concentration and electric fields and the evolution of an ED desalination cell from an initial state with a uniform distribu­tion of electrolyte concentration to the stationary state. These changes are especially important in the actual 2D version, which describes spatio-temporal ion concentration and fluid flow patterns in the desa­lination compartment of an electrodialysis cell. 2. Results and discussion 2.1. 1D model 2.1.1. Model formulation A stagnant desalination channel formed by an AEM and a CEM is considered (Fig. 1). At the initial moment of time (t = 0), in the space between the membranes there is an aqueous solution of a binary salt with a concentration of C0. As an example, a solution of potassium chloride is considered; the closeness of the diffusion coefficients of the cation and anion leads to an almost symmetric distribution of concen­trations in the channel. The electrical mode is set by the potential dif­ference Δφ inside the channel between the points x = 0 (boundary with an AEM) and x = H (boundary with a CEM). The value of Δφ increases",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        2
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Desalination 550 (2023) 116398 linearly in time starting from 0 at t = 0. This mode (or linear increase in current) is generally applied when measuring current-voltage charac­teristics. In addition, when modeling in a large range of voltages, the state of the system found at a given t is considered as an initial state when computing its state at t = Δt. As time and Δφ increase, the solution becomes more and more desalted, and the concentrations of K+ and Cl- ions decrease. Along with this, the generation of H+ and OH-ions occurs as a result of the dissociation of water in a depleted solution near the surface of the CEM and AEM (Fig. 1). When a water molecule dissociates near the AEM surface, the released H+ ions are directed into the desa­lination chamber, while the OH-ions leave the reaction zone through the AEM. At the CEM surface, OH-ions, which have arisen during water dissociation, enter the solution in the desalination chamber, and the H+ ions migrate through the CEM. In order to simplify the model and exclude the use of empirical parameters, only the non-catalytic disso­ciation of water in solution is considered in this paper; catalytic re­actions in membranes are not taken into account. For the same reasons, we do not take into account the dependence of the water dissociation rate on the electric field (the second Wien effect).",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "count. For the same reasons, we do not take into account the dependence of the water dissociation rate on the electric field (the second Wien effect). Both the second Wien effect and the catalytic participation of functional groups increase the rate of water splitting [41–46], [61] hence, strengthen the coupling between ion transport and water dissociation/recombination reactions. By neglecting these effects, we simplify the model and eliminate the influence of empirical assumptions. The present model will make it possible to evaluate the effects of water dissociation-recombination re­actions proceeding in ED chambers at the lowest possible rate. It is generally believed that water splitting occurring without catalytic participation of membrane fixed functional groups is negligible [38,46]. However, we will see that even water splitting occurring at the lowest possible rate dramatically affects ED desalination, if the feed concen­tration becomes low enough. In the system under consideration, only the changes in ion concen­trations and other quantities along the transverse coordinate x are important. This allows us to formulate a one-dimensional mathematical problem. Note that the process of solution demineralization in 1D geometry, which occurs in a given volume of solution in time, is similar to what happens in a 2D channel, when we analyze how the situation in the channel cross section changes as a portion of solution moves along the channel.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "what happens in a 2D channel, when we analyze how the situation in the channel cross section changes as a portion of solution moves along the channel. Although it is impossible to simulate electroconvection (EC) in 1D geometry, it is possible to simulate the formation of the SCR, which is the cause of the EC, as well as the generation and recombination of H+ and OH-ions, which affect the SCRs. A simpler geometry and the assumption of immobility of the solution can significantly simplify the mathematical problem and make it easier to understand how the space charge is formed. The non-stationary transfer of salt ions for a 1:1 electrolyte in the channel cross section, taking into account the space charge and the dissociation/recombination reaction, is described by the following sys­tem of equations: ∂Ci ∂t = -∂ji ∂x + Ri, i = 1, ..., 4(2) ji = -zi FRTDiCi ∂φ ∂x -Di ∂Ci ∂x ,i = 1, ..., 4(3) ∂2φ ∂x2 = -F εr ∑4 i=1 ziCi,i = 1, ..., 4(4) R1 = R2 = 0,R3 = R4 = kdCH2O -krC3C4 = kr(Kw -C3C4)(5) I = F∑4 i=1 ziji,i = 1, ..., 4(6) z1 = 1, z2 = -1, z3 = 1, z4 = -1.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Here Eq. (2) is the species conservation equation; Eq. (3) is the Nernst-Planck equation written for the flux densities of potassium ( K+,i = 1 ), chloride ( Cl-,i = 2 ), hydrogen ( H+,i = 3 ), and hy­droxide ( OH-,i = 4 ) ions; Eq. (4) is the Poisson equation relating the electric potential and space charge density ρ = F(z1C1 + z1C2 + z3C3 +z4C4); Eq. (6) is the current flow equation, which shows that the current density I, flowing in solution, is determined by the ionic fluxes; εr is the electric permittivity of the solution, F is the Faraday number, R is the universal gas constant, φ is the electric potential, E = -∂φ/∂x is the electric field strength; Ci, ji and Di are the concentration, flux density and diffusion coefficient of ion i. I is the Faraday current density. Since the sweep rate of the potential difference is small, the EDL charging current (displacement current) is neglected. However, the displacement current has to be considered in a general description of the ionic transport processes through ion-exchange membranes [62]. Eq. (5) describe the rate of chemical reactions in solution, Ri is the rate of formation of ion i in mol m-3 s-1. Ions K+ and Cl-do not participate in chemical reactions, hence, R1 = R2 = 0. The dissociation and recombination of water are taken into account in accordance with the reaction scheme represented by Eq. (1).",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "hence, R1 = R2 = 0. The dissociation and recombination of water are taken into account in accordance with the reaction scheme represented by Eq. (1). According to this equation, the rate of dissociation of water molecules is kdCH2O, and the rate of recombination is krC3C4; kd = 2 * 10-5 s-1, kr = 1.1 ⋅ 108 (m3/(s mol)). The resulting rates of formation of H+ ions (the rate of H+ formation) (R3) and OH-(R4) are the difference between the rates of dissociation and recombination (Eq. (5); Kw = (kd/kr)CH2O = 10-8 (mol2/m6) is the equilibrium constant for the autoionization of water (ionic product of water).",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "on and recombination (Eq. (5); Kw = (kd/kr)CH2O = 10-8 (mol2/m6) is the equilibrium constant for the autoionization of water (ionic product of water). Boundary conditions: (-FRTC1D1 ∂φ ∂x -D1 ∂C1 ∂x )⃒⃒⃒⃒ x=0 = 0(7) C2(t, 0) = C2a(8) (-FRTC3D3 ∂φ ∂x -D3 ∂C3 ∂x )⃒⃒⃒⃒ x=0 = j3a = 0(9) ∂C4(t, 0) ∂x= 0[ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] φ(t, 0) = d⋅t[ФОРМУЛА: \\begin{equation}J_i = -D_i \\frac{\\partial C_i}{\\partial x} - \\frac{z_i F D_i}{RT} C_i \\frac{\\partial \\varphi}{\\partial x}, \\qquad i=1,\\dots,4\\tag{11}\\end{equation}] C1(t, H) = C1с[ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}] ( FRTC2D2 ∂φ ∂x -D2 ∂C2 ∂x )⃒⃒⃒⃒ x=H = 0[ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}] ∂C3(t, H) ∂x= 0[ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}] ( FRTC4D4 ∂φ ∂x -D4 ∂C4 ∂x )⃒⃒⃒⃒ x=H = j4c = 0[ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}] φ(t, H) = 0(16) The initial conditions are as follows: C1(0, x) = C2(0, x) = C0, 0 < x < H(17) C3(0, x) = C4(0, x) =̅̅̅̅̅̅Kw√, 0 < x < H[ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ollows: C1(0, x) = C2(0, x) = C0, 0 < x < H(17) C3(0, x) = C4(0, x) =̅̅̅̅̅̅Kw√, 0 < x < H[ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] φ(0, x) = 0(19) Condition [ФОРМУЛА: \\begin{equation}\\frac{\\partial C_i}{\\partial t} = -\\frac{\\partial J_i}{\\partial x} + R_i, \\qquad i=1,\\dots,4\\tag{10}\\end{equation}] reflects the fact that the OH-ions, which are formed when water dissociates, do not accumulate at point x = 0, but are carried out of the reaction zone through the AEM. A similar condition [Eq. [ФОРМУЛА: \\begin{equation}I_c = F \\sum_{i=1}^{4} z_i J_i\\tag{14}\\end{equation}]] is applied for H+ ions at x = H, the boundary with the CEM. The ideal selectivity of both membranes is assumed: they are impermeable to coions, Eqs. (7) and [ФОРМУЛА: \\begin{equation}R_1 = R_2 = 0,\\quad R_3 = R_4 = k_d C_{\\mathrm{H_2O}} - k_r C_{\\mathrm{H}^+} C_{\\mathrm{OH}^-}\\tag{13}\\end{equation}]. Since non-catalytic reactions of water",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        3
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Desalination 550 (2023) 116398 dissociation/recombination are considered, it is assumed that there is no injection of hydrogen and hydroxyl ions from the membrane surface into solution: j3|x=0 = j3a = 0, j4|x=H = j4c = 0, Eqs. (9) and [ФОРМУЛА: \\begin{equation}x=0:\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=0}=0,\\quad C_2(0,t)=C_a,\\quad \\dots\\tag{15}\\end{equation}]. Initial condition (17) assumes that the salt ion concentrations at t =0 are equal to C0 at 0 < x < H, i.e. at each point in the region under study except the boundaries, x = 0 and x = H. C0 is taken equal to 1 mol m-3 in this study. In region 0 < x < H, the local electroneutrality is assumed at t = 0. However, at x = 0 and x = H, i.e. on the membrane surface, the electroneutrality condition does not hold; these point are inside EDL from the side of solution. The counterion concentrations at these points (C2a at the AEM surface and C1c at the CEM surface) are given by Eqs. (8), [ФОРМУЛА: \\begin{equation}\\varepsilon_r \\varepsilon_0 \\frac{\\partial^2 \\varphi}{\\partial x^2} = -F \\sum_{i=1}^{4} z_i C_i\\tag{12}\\end{equation}]. For the first time such a condition was used by Rubinstein and Shtilman [63]. Since the concentrations are supposed to change continuously when passing from the solution to the membrane bulk, the values of C2a and C1c lie in the interval between the minimum coun­terion concentration in the solution and their concentrations in the membranes.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "the values of C2a and C1c lie in the interval between the minimum coun­terion concentration in the solution and their concentrations in the membranes. The latter is equal to the concentration of the membrane fixed charged groups, close to 103 mol m-3, while the minimum coun­terion concentration decreases with time, starting from C0. At great voltage, it can be of the order of 10-3 C0, as the calculations show (see the next section). We take the values of C2a and C1c equal to C0 to be consistent with the initial conditions (17). Note that the setting the coion concentration value at x = 0 and x = H is not needed for solving the problem, as was shown in Ref. [63]. It is also important that the values of C2a and C1c have little effect on the distribution of concentrations even at a small distance from the membrane [64]. In fact, the x = 0 and x = H points are localized within the equilibrium part of the EDL; the con­centration distribution there is governed by the Poisson-Boltzmann equation [64]. If we take a higher value for C2a and C1c than C0, the counterion concentration will be equal to C0 at a very small distance from x = 0 (or x = H), which is identified as the membrane surface. Condition [ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] sets the initial concentrations of H+ and OH-ions both equal to 10-7 mol L-1 (=10-4 mol m-3).",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "al x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] sets the initial concentrations of H+ and OH-ions both equal to 10-7 mol L-1 (=10-4 mol m-3). As mentioned above, potentiodynamic regime is considered, when the potential difference increases with a certain sweep rate d: φ(t,0) = d ⋅ t. The effect of the sweep rate on the current-voltage curve (CVC) was studied by Moya and Sistat [65]. The potential growth rate should be slow enough to provide a quasi-stationary state at any time. The value of d in our work is chosen as large as possible (to reduce the computation time), but such that, as this value decreases, the concentration profiles and current density at a given potential difference do not depend on d. The mathematical model above [expressed by Eqs. (2)–(19)] is a boundary-value problem for 1D non-stationary system of partial differ­ential equations. The corresponding model belongs to first-principles models, since it is based on the fundamental equations of physics and chemistry and does not involve any empirical relationships and parameters. 2.1.2. Numerical solution The boundary value problem was solved by the finite element method in combination with the parameter continuation method [66]. A non-uniform adaptive grid (containing 2.5 million elements, the length of one element is between 0.2 nm and 0.6 nm) was applied. The grid thickened near the membrane surface and in the desalination compartment bulk in the regions of rapid change of functions.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ".6 nm) was applied. The grid thickened near the membrane surface and in the desalination compartment bulk in the regions of rapid change of functions. The idea of the parameter continuation method is in the use of an initial approximation, in which instead of the small (large) values of some input parameters, their values are set to several orders of magnitude larger (less) [66]. The 1D model was implemented using our original software in the Comsol Multiphysics 5.5 environment. It is necessary about 2 h for the computations with one set of input parameters, when the potential drop varies from 0 to 1 V. The used equipment is detailed in the Supplementary materials.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "2.2. Analysis of the 1D model 2.2.1. Small degree of desalination Below are the results, unless otherwise stated, for the following pa­rameters: C1c = C2a = 1 mol m-3, d = 0.005 V/s, C0 = 1 mol m-3, C3(0, x) = C3(0,x) = 10-4 mol m-3. In the analysis below, we use two additional functions: 1) ρ = F(C1 -C2 + C3 -C4) is the space charge density. If this function is positive, the total concentration of cations is greater than that of anions, and vice versa. 2) Pw = C3C4/Kw is the reduced ion-product of water. In the region where Pw < 1, dissociation prevails over recombination, and vice versa, recombination dominates when Pw > 1; Pw = 1 signifies that the rates of dissociation and recombination processes are the same, H+ and OH-ions are in equilibrium with water molecules. Numerical analysis of problem (1)–(17) shows that with an increase in the potential difference and simultaneous desalting of the solution, several qualitatively different periods are distinguished. The first period in the range of low Δφ corresponds to the conventional ED regime (described among others by Probstein [23]): the desalination process occurs under conditions when the concentration of salt ions significantly exceeds the concentration of H+ and OH-ions. However, limiting cur­rent density is reached in this regime when Δφ becomes greater than approximately 0.5 V. Typical concentration profiles of salt ions are shown in Fig. 2a.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "density is reached in this regime when Δφ becomes greater than approximately 0.5 V. Typical concentration profiles of salt ions are shown in Fig. 2a. The salt concentration in the central part of the desalination compartment nearly does not change, while near the membranes the concentration is not far from zero. The salt counterion concentration (that of K+ in Fig. 2b) passes through a minimum where its concentration is about 10-3 C0. A space charge region (SCR), where the concentration of K+ is close to 10-3 mol m-3 while the concentra­tions of Cl-OH-ions is nearly zero, occurs approximately between x =0.98H and x = H. The thickness of this SCR (about 20 μm) is much larger than the thickness of equilibrium EDL (about 10 nm at bulk concen­tration 1 mol m-3). It can be shown that greater part of this SCR is nonequilibrium (the part where the K+ ion concentration decreases with increasing x). This part of the SCR is called extended space charge re­gion; it emerges at overlimiting currents and plays an important role in initiating electroconvection [24,58]. The concentration of H+ and OH-ions is relatively low; the appearance of these ions is due to (non-catalytic) dissociation of water molecules. Under the action of an external electric field, salt ions, as well as H+ and OH-ions, are removed from the near-membrane solution: counterions are transferred through the membrane, co-ions are removed from the near-membrane solution into the bulk solution.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "near-membrane solution: counterions are transferred through the membrane, co-ions are removed from the near-membrane solution into the bulk solution. A simultaneous decrease in the concentration of both H+ and OH-ions in the nearmembrane solution leads to a decrease in the function Pw, which be­comes <1 in this region, and reaction (1) deviates from equilibrium: dissociation dominates over recombination. At a low degree of desalt­ing, salt ions dominate in all areas of the solution (Fig. 2a and b), the space charge is concentrated near ion-exchange membranes, and the Pw function is less than unity only in thin reaction zones near the AEM and CEM surfaces (Fig. 2c and d). The space charge density is comparatively high, the local maximum in the extended SCR near the CEM reaches about 200 С m-3 (in units of concentration, the value of ρ/F is close to 2 * 10-3 mol m-3) (Fig. 2d). The latter is close to the salt cation con­centration in this region (Fig. 2b). As can be seen from Fig. 2d, the re­action zone (where Pw < 1) is in the same region as the SCR and where there are high field strengths. A similar situation occurs in the bipolar interface layer in a bipolar membrane [61]: a strong electric field at a permselective interface is needed to draw ions H+ and OH-out of the reaction zone and thus shift the dissociation-recombination equilibrium [67]. The products of water dissociation gradually accumulate in the diluate compartment: the H+ ions near the AEM, the OH-ions near the",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        4
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "A.V. Kovalenko et al.\n\nDesalination 550 (2023) 116398 Fig. 2. Concentrations of all ions present in the desalination compartment (a); magnification of (a) near the CEM, х = Н (b); concentrations of H+ and OH-ions, space charge density, ρ/F, function Pw =C3C4/Kw and electric field strength, E, near the CEM (d). Simulation of electrodialysis of KCl solution with initial concentration С0 = 1 mol m-3 at t = 120 s, when potential difference Δφ = 0.6 V between x =0 and x = H is applied. The values of the parameters are presented in Appendix, Table A1.\n\nFig. 3. Concentrations of all ions present in the desalination compartment (a); concentrations of H+ and OH-ions, space charge density, ρ, function Pw = C3C4/Kw and electric field strength, E, in this compartment (b); variation of the ionic fluxes in the compartment (c). Simulation of electrodialysis of KCl solution with initial concentration С0 = 1 mol m-3 and linear growth of the voltage, t = 200 s, Δφ = 1.0 V. A.V. Kovalenko et al.\n\nDesalination 550 (2023) 116398",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        4,
+        5
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "CEM (Fig. 2a and b). Since the catalytic participation of membrane functional groups is not taken into account, and the diffusion co­efficients of salt ions (K+ and Cl-) are close, the concentration profiles are almost symmetrical, and the rates of water dissociation differ little near AEM and CEM. Note that usually AEM functional groups (typically secondary and tertiary amino groups) exhibit much greater catalytic activity compared to CEM functional groups (typically sulfonate groups) [12,38,43,45]. The H+ ions formed in the left part of the desalination chamber and the OH-ions formed in the right part of the chamber move towards each other under the action of electric and diffusion forces. Their flows meet near the center of the desalination chamber, which leads to an increase in the product of their concentrations and a burst of function Pw = C3C4/ Kw (Fig. 2c). The maximum of Pw is reached in the point xr (Fig. 2c). The reaction zone, where Pw > 1 and where the recombination of H+ and OH-ions (neutralization of these ions) occurs, is located in the vicinity of x = xr (Fig. 2c). To the left of xr, H+ ions predominate over OH-ions; OH-ions predominate on the right. 2.2.2. High degree of desalination The effects described above take place at a low degree of desalination (short times and small potential differences). This initial period con­tinues until the concentration of salt ions remains much higher than the concentration of H+ and OH-ions.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ential differences). This initial period con­tinues until the concentration of salt ions remains much higher than the concentration of H+ and OH-ions. With an increase in the potential difference and desalination time, the concentration of salt ions decreases, while the concentration of H+ and OH-ions increases due to the fact that the rate of generation of these ions exceeds the rate of their removal through the membranes (plus the rate of their recombination). As a result, H+ ions accumulate in the right part of the desalination chamber, and OH-ions, in the left part. Fig. 3a shows the concentration profiles at a high degree of desalination (about 99 %). The maximum concentration of salt ions in the bulk so­lution becomes quite low (0.02 mol m-3), almost no Cl-ions remain in the right side of the desalination chamber (they are replaced by OH- ions), and almost no K+ ions remain in the left side (which are replaced by H+ ions) (Fig. 3a). The concentration profiles in the left and right parts of the desali­nation chamber are not quite symmetrical due to the difference in diffusion coefficients (D2 > D1 and D3 > D4, the values of the parameters are shown in Appendix, Table A1). At initial stages of desalination, the asymmetry of concentration profiles follows from the expression of the ion concentration gradient at the solution/membrane interface.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "esalination, the asymmetry of concentration profiles follows from the expression of the ion concentration gradient at the solution/membrane interface. For K+, this expression at the solution/CEM interface is written in the form [9,68]: ( ∂cK ∂x ) x=H = -iFD (1 -tK), where it is taken into account that the cation transport number is assumed to be 1 in the CEM. A similar expression can be written for Cl-at the solution/AEM interface. Due to the fact that the diffusion coefficient of Cl-ions is somewhat higher than that of K+ ions, the difference (1 -tK) is greater than (1 -tCl). Therefore |∂cK/∂x|x=H > |∂cCl/∂x|x=0. Taking into account that the thickness of the diffusion layers in equal at both AEM and CEM, it follows from the last inequality that the concentration of salt ions decreases faster in the right part of the desalination chamber than in the left part (Fig. 3a). The re­action zones in the solution, bordering on AEM and CEM, are the sources of H+ and OH-ions, respectively; in these zones Pw < 1, Fig. 3b. The H+ and OH-ions formed in these zones move towards each other from the chamber boundaries to the center, where, when they meet, they react to form water molecules. In the recombination reaction zone (where Pw >1, xr/H = 0.518, Fig. 3b), not only the concentration of H+ and OH-ions decreases, but also the total concentration of ions. This leads to the appearance of a high resistance region in the center of the chamber.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nd OH-ions decreases, but also the total concentration of ions. This leads to the appearance of a high resistance region in the center of the chamber. Correspondingly, the electric field strength increases in this region (Fig. 3b). Moreover, the computation shows that an electrical double layer is formed in this region. Here, charge separation occurs: fast codirectional electromigration and diffusion of H+ ions result in the dominance of cations over anions to the left of the xr point; and a similar codirectional electromigration and diffusion of OH– ions create domi­nance of anions over cations to the right of the xr point. Thus, ρ(x) > 0 to the left of xr and ρ(x) < 0 to the right of xr (Fig. 3b). As can be seen from Fig. 3b, the ρ(x) profile is asymmetric: due to the significantly higher mobility of H+ ions, their dominance over OH-ions to the left of the xr point is more pronounced compared to the dominance of OH-ions over H+ to the right of this point. As a result, the EDL turns out to be asym­metric: its positively charged part significantly exceeds its negatively charged part in absolute value. Note that the presence of a space charge region in the center of an ED desalination chamber emerged in condi­tions of non-catalytic water dissociation was recently described by Urtenov et al. [60], when using 1D model (2)–[ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ater dissociation was recently described by Urtenov et al. [60], when using 1D model (2)–[ФОРМУЛА: \\begin{equation}x=H:\\quad C_1(H,t)=C_k,\\quad \\left. \\frac{\\partial \\varphi}{\\partial x} \\right|_{x=H}=0,\\quad \\dots\\tag{18}\\end{equation}] in the case of sta­tionary regime, ∂Ci/∂t = 0. In the vicinity of the xr point, there is a sharp change in the fluxes of H+ and OH-ions: the flux of H+ ions sharply decreases almost to zero after passing this point from left to right (Fig. 3c). Similarly, the OH-ion flux decreases almost to zero as it passes through this point from right to left. Near the AEM, H+ ions dominate and the concentration of OH-ions is negligible; OH-ions dominate near the CEM, and the concentration of H+ ions is low. Since AEM is impermeable to cations, the flux of K+ ions near the surface of this membrane is zero; it grows and reaches its maximum value near the surface of the CEM (Fig. 3c). The flux of Cl- ions changes along the coordinate similarly. Interestingly, at low degrees of desalination, when the concentra­tions of H+ and OH-ions are insignificant, the thickness of the SCR near the membranes is small (about 3 μm in Fig. 2d). At a high degree of desalination, when H+ and OH-ions dominate, not only the formation of a space charge in the center of the channel occurs, but also the nature of its distribution near the membrane surface changes. The SCR thick­ness at the membrane surface expands significantly (>100 μm, Fig.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "also the nature of its distribution near the membrane surface changes. The SCR thick­ness at the membrane surface expands significantly (>100 μm, Fig. 3b), which is due to very low concentration of ions in the electroneutrality region (2 * 10-2 mol m-3 = 2 * 10-5 mol L-1, Fig. 3a). In this case, the local maximum of ρ occurring near each membrane at low degrees of desalination (which is well seen in Fig. 2d) disappears at high degrees of desalination (Fig. 3b). The latter is apparently caused by the formation of OH-anions in the reaction zone, which is still a few μm. The SCR thickness in the center of the channel is about 5 μm (Fig. 3b), the maximum charge density is 2 * 10-7 in concentration units (mol m-3). This value is significantly less than near the membrane surface, where the charge density of 2 * 10-7 mol m-3 is already achieved at a distance of 50 μm from the membrane, and further, when approaching the membrane, the ρ/F value grows approximately exponentially (Fig. 3b). Computations show that as the recombination rate constant, kr, de­creases, the thickness of the recombination reaction zone increases (Fig. 4a–c). If the value of kr is low enough, the thickness of this zone becomes so much that the concentration gradients of H+ and OH-ions are too small to form a significant space charge (Fig. 4c). In this case, the region of the maximum field strength expands, the positive and negative parts of the inner double layer diverge in space (Fig. 4b and c). 2.2.3.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": ", the region of the maximum field strength expands, the positive and negative parts of the inner double layer diverge in space (Fig. 4b and c). 2.2.3. Coupling between space charge formation and chemical reactions From a mathematical point of view, the appearance of a sharp surge in the function Pw = C3C4/Kw in the middle of the desalination chamber is associated with the presence of a small dimensionless parameter at derivatives ∂Ci/∂t and ∂ji/∂t in Eq. (2) after substituting Eq. (5) into it and dividing the result by the parameter kr, which has a large value. Although such a feature in the behavior of the concentration profiles of H+ and OH-ions in membrane systems is mathematically predictable, it has not been examined in the literature before. With regard to a sharp change in concentrations, space charge density and electric potential at the ion-selective surface of an electrode or membrane and the rela­tionship of this change with a small parameter in the Poisson equation, this feature is well known [63,64,69–71]. The reason for this feature is a sharp change in the concentration of potential-determining ions (the ions, which dominate in the right-hand side of the Poisson equation [Eq. (4)] and, therefore, determine the potential distribution). This change is",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        6
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Desalination 550 (2023) 116398 due to the presence of a fixed charge on the surface and/or in the bulk of one of the phases. The small parameter in the Poisson equation causes a rapid change not only in concentrations, but also in the potential and field strength in a very thin boundary layer: the smaller this parameter, the thinner the boundary EDL. A rapid change in the concentration of potential-determining ions causes the appearance of a strong electric field at the surface of a membrane or electrode. The action of this field on the H+ and OH-ions causes a decrease in the concentration of both of these ions near the interface and causes the fact that function Pw < 1 in the same boundary region where there is a rapid change in φ and ρ. This behavior of electrode and membrane systems, namely a sharp change in the function Pw and ρ near the ion-selective boundary, is known [61,72] and is not surprising. However, the appearance of such a feature in the bulk solution in the volume of the solution is quite unexpected. The reason for the appearance of the SCR at the center of the channel is not the presence of an ion-selective boundary, but the occurrence of a chemical reaction. As a result of this reaction (recombination of the H+ and OH-ions), there is a sharp decrease in the concentration of potential-determining H+ and OH-ions. Since, as noted above, the concentration of salt ions in this reaction zone is comparable to the concentration of H+ and OH-ions (Fig.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "H+ and OH-ions. Since, as noted above, the concentration of salt ions in this reaction zone is comparable to the concentration of H+ and OH-ions (Fig. 3a), a sharp decrease in the latter leads to a decrease in the total concentration of ions and, as a consequence, to an increase in the field strength in this region (Fig. 3b). Thus, when there is a space charge at an ion-selective interface, the flow of electric current can cause a chemical reaction (in our case, water dissociation). Conversely, we show that when an intensive chemical reaction (recombination of H+ and OH-ions) occurs, it can cause for­mation of an electric space charge in the bulk solution. In both cases, the space charge is due to the occurrence of large concentration gradients. The latter follows from the Nernst-Planck and Poisson equations. Using these equations, the distribution of the space charge density can be calculated, if the distribution of ion concentrations is known. Indeed, the addition of the Nernst-Planck equations [Eq. (3)], preliminarily multi­plied by ziF, for all four types of ions (i = 1, 2, 3, 4), taking into account the equation for the current density [Eq. (6)], allows us to express the field strength E = -∂φ/∂x:",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "⎞ ⎟⎟⎟⎠.(20)\n\nWhen knowing E [Eq. (20)], it is possible to find the distribution of the space charge density using the Poisson equation [Eq. (4)]: ρ = εr ∂E ∂x.(21) Eqs. (20) and (21) are exact, without any assumptions. Their appli­cation when using the results of the numerical calculation of the dis­tribution of concentrations leads to the distributions of E and ρ, which are identical to the corresponding distributions found using direct nu­merical calculations for the model described by Eqs. (2)–(19).",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The point xr is located near the middle of the channel (its position may change depending on the growing potential difference and time). There are practically no OH-ions to the left of this point, hence, ρ is determined by an excess of H+ ions. There are no H+ ions to the right of this point, ρ is determined by the excess of OH-ions. In the vicinity of the xr point, all the H+ ions that have arisen as a result of the water dissociation at the AEM completely recombine with the OH-ions that have arisen in the space charge region at the CEM. 2.2.4. Great times/voltages: impossibility to remove all salt ions, and space charge breakdown As time/voltage increases, the system passes to a more and more deep overlimiting current regime. H+ ions more and more displace K+ ions on the left side of the desalination chamber, and OH-ions displace Cl-ions on the right side (Fig. 5a). A depletion region devoid of salt ions appears in the center of the chamber; only H+ and OH-ions are present there, which are in equilibrium with water molecules. The pH in this desalted region is quite close to 7. Hence, the concentrations of H+ and OH-ions there are 10-4 mol m-3 (10-7 mol L-1). This region contrib­utes significantly to the overall voltage. The electric field is elevated here (E ≈0.25 * 104 V/m) due to a very low concentration of charge carriers. The thickness of this region is close to 0.2 mm (Fig. 5b), which determines the potential drop across this region as about 0.5 V.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "of charge carriers. The thickness of this region is close to 0.2 mm (Fig. 5b), which determines the potential drop across this region as about 0.5 V. The overall potential drop is only slightly higher, 0.6 V. Note that the dis­tribution of salt ion concentrations is quite unusual for electrodialysis: the depletion region emerges in the center of the desalination compartment, and not in the near-membrane areas, as occurs with an insignificant water splitting reaction. According to Eq. (21), at the left boundary of this depletion region, where E increases, the space charge density is positive (H+ ions pre­dominate there); at the right boundary, E decreases and ρ < 0 (OH-ions predominate) (Fig. 5b). With increasing time/voltage, the thickness of the depletion region increases, hence, the degree of desalination increases. However, with that, the current efficiency decreases and tends to zero. When a voltage is fixed, and the system reaches a stationary state, the current efficiency becomes zero: the fluxes of salt ions through the membranes are zero. The electric current through the ED compartment is due to water dissociation: new charge carriers, H+ and OH-ions are produced in this reaction and immediately leave the desalination compartment, as it was also shown in Ref. [60]. Due to water dissociation in the reaction zones near the membrane, generation of H+ and OH-ions is constantly occurring.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "was also shown in Ref. [60]. Due to water dissociation in the reaction zones near the membrane, generation of H+ and OH-ions is constantly occurring. The tendency for local electroneutrality in the solution re­tains salt ions: Cl-ions are retained in the left side of the desalination chamber, and K+ ions in the right side. The situation seems paradoxical. In conventional ED mode, the salt ion concentration is maximum in the center of the compartment and minimum near the membranes [68,73]. As Fig. 5a shows, at a high degree of desalination, the situation is reversed: the concentration of salt ions is zero in the center and increases near the membranes, where they are retained by the products of water dissociation via the electroneutrality condition. However, the maximum",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 4. Space charge density ρ, function Pw = C3C4/Kw and field strength, E, calculated at different values of the recombination rate constant, kr: kr = 1.33 * 108 (a), 1.33 * 107 (b), 1.33 * 106 (c), all values in m3/(mol s). Since Kw = (kd/kr)CH2O and kd = 2 * 10-5 s-1 is taken the same, the value of Kw in the above three cases is equal to 10-8, 10-7 and 10-6 (in mol2m-6), respectively. Initial salt concentration С0 = 1 mol m-3, t = 200 s, Δφ = 1.0 V. A.V. Kovalenko et al.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        7
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Desalination 550 (2023) 116398 salt ion concentration attained outside the interfacial EDL is rather small: about 3 * 10-3 mol m-3 (3 * 10-6 mol L-1) (Fig. 5a). The con­centration of salt ions in the central desalted region is about 10-5 mol m-3 (3 * 10-8 mol L-1), that is 10 times lower than the H+ and OH ions' concentration. The desire to further reduce the salt concentration is constrained by a very low current efficiency: the current is mainly used for the formation of H+ and OH-ions in the opposite sides of the desalination compart­ment. These ions move towards each other and recombine in the center of the compartment, which leads to a waste of energy. Moreover, the modeling shows that water splitting makes impossible total desalting of aqueous solutions when using conventional ED. Indeed, H+ ions emitted into the DC accumulate near the anion-exchange membrane in the left part of the chamber. These ions retain salt anions (Cl-ions) (Fig. 5a) in virtue to the requirement of electrical neutrality. Similarly, OH-ions emitted into the DC and accumulated near the cation-exchange mem­brane on the right side of the chamber retain salt cations (K+ ions). The concentration of Cl-and K+ ions captured by the H+ and OH-ions depends on the balance of water dissociation and recombination rates; the higher the current density, the greater the concentrations of H+ and OH-ions, and, accordingly, those of K+ and Cl-ions in the DC.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "bination rates; the higher the current density, the greater the concentrations of H+ and OH-ions, and, accordingly, those of K+ and Cl-ions in the DC. As time/voltage increases, the space charges at the edges of the central desalted region move away from each other. The positive in­ternal space charge (Fig. 5b) approaches the negatively charged extended SCR near the AEM; the negative internal space charge ap­proaches the CEM, where there is a positively charged extended SCR. Space-charge breakdown occurs when the distance between two oppo­sitely charged regions is sufficiently small and these space charges are short-circuited. The difference in comparison with the space-charge breakdown phenomenon described recently in our paper [15] is in the fact that in the previous work, the presence of H+ and OH-ions was not taken into account. The space charges of opposite sign were formed only by the salt ions as the extensions of the electric double layers adjacent to the membranes that form the desalination compartment [15]. For a short circuit to occur, the oppositely charged regions had to cover the entire distance between the membranes, whereas when water dissocia­tion takes place, the oppositely charged regions pass only half the intermembrane distance. Summarizing this section, it can be said that there is an interplay between chemical reactions and space charge in electrochemical sys­tems. On the one hand, space charge can affect chemical reactions.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "is an interplay between chemical reactions and space charge in electrochemical sys­tems. On the one hand, space charge can affect chemical reactions. Several mechanisms are possible. It is well known that dissociation of water molecules is accelerated by a strong electric field (the second Wien effect theoretically described by Onsager [74]). The intensity of the electric field is very high in the electric double layer at an ionexchange membrane, and especially at the junction of a bipolar mem­brane where it can reach 109 V/m [75–77]. Another mechanism is described by Rubinstein and Zaltzman [72]. They have shown that the space charge at an electrode can affect essentially the kinetics of a chemical (electrochemical) reaction at the electrode surface through electroconvection. Electroconvection increases the mass transfer rate of ion transport towards the electrode surface, which leads to an increase in the distance between the growth points of crystalline deposits on the electrode surface. The latter have a dendritic (like a tree) shape with several branches. Electroosmosis effectively stirs the solution between two dendritic branches, slowing down or eliminating their growth. On the other hand, an opposite effect described in this paper is possible: an intensive chemical reaction (recombination of H+ and OH-ions) can lead to the appearance of a space charge in the bulk solution in an ED desalination compartment. 2.3. 2D model 2.3.1.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "mbination of H+ and OH-ions) can lead to the appearance of a space charge in the bulk solution in an ED desalination compartment. 2.3. 2D model 2.3.1. Model formulation As in Section 2.1, a desalination chamber formed by an AEM and a CEM is considered. However, in this section, this chamber is a channel through which a binary salt (KCl) solution is flowing with an average velocity V (Fig. 6). The inlet solution concentration is C0, the pH is 7. The potential difference between x = 0 and x = H increases linearly with time: Δφ(t) = -d ⋅ t, where d is the sweep rate of potential difference growth; d = 5 mV/s in the cases considered below. The 2D model applied in this study is a generalization of the “basic” model developed earlier [15,17]. The model is based on the NernstPlanck-Poisson (NPP) equations with convective term together with the Navier-Stokes equation. The transport of four kinds of ions is described: K+, Cl-, H+ and OH-. These two blocks of equations are coupled through the electric volume force, f→ e, and fluid velocity, V→. f→ e is proportional to the space charge density and the electric field strength ( f→ e = ρ⋅E→= -ρ⋅∇φ), which are included in the NPP equations. When a SCR moves under the action of the electric force, this causes a convective transport of the solution (electroconvection) and affects the solution velocity, which is described by the Navier-Stokes equation. The change in V→influences ionic fluxes, which is taken into account by the NPP equations.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "velocity, which is described by the Navier-Stokes equation. The change in V→influences ionic fluxes, which is taken into account by the NPP equations. As for the equation of the species conservation equation and the equations describing the kinetics of water dissociation and recombina­tion, they represent a 2D geometry version of the corresponding equa­tions of the 1D model. Like in the 1D model, continuity of fluxes through the solution/ membrane interfaces and zero coion fluxes through the interfaces are assumed in the boundary conditions. In addition, the counterion con­centrations, Cim, on the membrane surface (C2m at x = 0, and C1m at x =H, Fig. 5) are given as parameters (both are set to C0 in the calculations).",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        8
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The condition of zero fluid velocity at x = 0 and x = H (the no-slip condition) is used. The detailed formulation of the 2D mathematical problem is given in the Supplementary materials. In all calculations, C0 (the feed solution concentration at y = 0) is taken equal to 0.01 mol m-3; the intermembrane distance, H, is 0.5 mm; the channel length, L, is 2 mm; the inlet fluid velocity, V, is 0.1 mm s-1. A small value of C0 is used in order to make the computation time, needed to show the same effects as described in the 1D model, accept­able. All parameters and their values are listed in the Supplementary materials. As it was shown in Ref. [68], in the case of conventional electrodi­alysis in underlimiting current regime, the concentration profiles and other characteristics depends on the dimensionless “length” Y = LD/ (VH2), where D is the electrolyte diffusion coefficient. Since in realistic electrodialysis, the used fluid velocities are several cm/s, i.e. >100 times greater than V = 0.1 mm s-1 in this study, the length 2 mm applied in calculations is appropriate for describing the real ED process (taking into account that the D and H values are the same as in reality). Of cause, electroconvection can be affected by the value of fluid velocity, but the degree of desalination should have close values for the same Y regardless of V. Indeed, the computational process is quite sensitive to both L and V: larger values of these parameters would complicate the calculation.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rdless of V. Indeed, the computational process is quite sensitive to both L and V: larger values of these parameters would complicate the calculation. Direct numerical simulation of the 2D boundary value problem, similar to the 1D problem described above, was conducted using our original software in the Comsol Multiphysics 5.5 environment. The so­lution method is based on a combination of the finite element method and the method of successive approximations on each time series with the splitting of the problem into electrochemical and hydrodynamic problems, followed by their sequential solution until they converge. A non-uniform adaptive grid containing 307,686 elements used in this computation is presented in Fig. 1SM in the Supplementary materials. The computation time was about 160 h when using the same equipment as for the 1D problem. 2.3.2. Space charge Fig. 7a and b show the profiles of the cross section of the space charge density, ρ, at y = 0.4 mm and y = 1.2 mm at different times. It can be seen that the profiles at y = 0.4 mm qualitatively repeat those simulated using a 1D model: ρ(x) contains a positive and a negative branch, as an electric double layer, whereas the positive branch dominates over the negative one. The difference is that the point at which ρ = 0 is located at xr/H ≈0.52 in the 1D model, while in the 2D model this point refers to the same position only at small voltages/times. For large values of t and Δφ, xr shifts to the left.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "model, while in the 2D model this point refers to the same position only at small voltages/times. For large values of t and Δφ, xr shifts to the left. In section y = 1.2 mm, the profiles of ρ(x) correspond to those obtained in 1D model at higher values of t and Δφ. It is explained by the fact that the solution is desalting when passing from y = 0.4 mm to y = 1.2 mm. As follows from the 1D model, the more desalted is solution, the stronger are the effects coupled with the space charge formation. It can be seen from Fig. 7b that, near the inlet, the positive and negative branches of the internal space charge are brought together, but they are separated more and more as the portion of solu­tion moves towards the outlet and becomes more and more desalted. Great changes in the distribution of space charge occur with increasing time/voltage; they are seen when comparing Fig. 7c and d. These changes are due to electroconvection, which is produced due to the space charges developed at the membranes as well as in the bulk solution. It is obvious that the presence of additional SCRs in the bulk solution significantly changes the spatio-temporal ion concentration and fluid flow patterns. The appearance of a double electric layer in the middle part of the channel even at relatively small potential differences affects the development of electroconvection, and in particular, leads to a strong curvature of the fluid streamlines (Fig. 7d).",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "potential differences affects the development of electroconvection, and in particular, leads to a strong curvature of the fluid streamlines (Fig. 7d). Such a curvature generates a normal component of ion fluxes directed towards and away from the membrane surface. This enhances the supply of an enriched solution from the middle part of the channel to the membrane surface. In addition, the convective flow from the membrane surface to the bulk facilitates removal of the depleted solution. 2.3.3. Effect of the water dissociation/recombination reactions on the rate of desalination As in the case of the 1D model (Fig. 5a), the phenomenon of the “inversion” of the concentration profiles in the desalination compart­ment occurs. It takes place when the degree of desalination is very high and the concentrations of H+ and OH-ions predominate over the salt ion concentrations. Instead of the maximum salt concentration in the center of the desalination compartment, which occurs in conventional ED, there is a depletion region in the center. As it is explained in Section 2.2, the appearance of this region is due to water dissociation/recom­bination reactions and the tendency of the system to electroneutrality. Fig. 8a and b show that the position of the depletion region can change rather quickly with time. This is due to instability of the position of SCRs, which arise at the boundaries of the depletion region (see Fig. 5a and b). The spatio-temporal space charge patterns presented in Fig.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "sition of SCRs, which arise at the boundaries of the depletion region (see Fig. 5a and b). The spatio-temporal space charge patterns presented in Fig. 7 make it possible to observe the tortuous trajectory of the depletion re­gion movement. Fig. 9a–f show the simulated distribution of K+ concentration and fluid streamlines in an ED desalination channel at different time elapsed since the start of the voltage linear sweep. The results are presented for two scenarios of the desalination process: with allowance for water dissociation/recombination reactions (Fig. 9a, c, e) and without (Fig. 9b, d, f). As can be seen from these figures, the concentration of salt ions in the desalination channel decreases faster if dissociation/recombination reactions occur in the channel. Indeed, the comparison of Fig. 9e and f (t = 288 s, Δφ = 1.44 V) shows that when dissociation and recombination",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 6. Diagram of a 2D desalination channel and simulated phenomena; the Ox axis is directed across the channel, x = 0 corresponds to the boundary with the AEM, x = H to that with the CEM; the Oy axis is directed along the channel, y = 0 refers to the channel inlet, y = L, to the outlet. A.V. Kovalenko et al.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        9
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Desalination 550 (2023) 116398 reactions are taken into account, the concentration of K+ ions equal to 3 * 10-3 mol m-3 is already reached at a length of 400 μm, whereas in the case when these reactions are not taken into account, a channel with a length of 1000 μm is required to achieve the same concentration. This result is quite unexpected. The generation of H+ and OH-ions is an undesirable effect in the process of ED desalination. Water dissociation products compete with salt ions in charge transfer across the mem­branes, which reduces current efficiency [3,4,12,16,78–80]; pH shift provokes precipitation of sparingly soluble salts (scaling) [81,82] as well as the formation of organic deposit (fouling) [83,84]. In addition, H+ and OH-ions, which appear as a result of water splitting, reduce the space charge in the near-membrane solution, which suppresses elec­troconvection [58,85]. It is established experimentally that in the con­centration range close to 0.02 mol L-1 (20 mol m-3), the limiting and overlimiting salt transfer rate in electrodialysis decreases with increasing water splitting [86,87]. Water splitting and electroconvection are antagonists: the greater the rate of water splitting, the lower the electroconvection; and, conversely, intensive electroconvection reduces water splitting (due to delivery of the fresh solution from the bulk to the depleted near-membrane region of the solution).",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "electroconvection reduces water splitting (due to delivery of the fresh solution from the bulk to the depleted near-membrane region of the solution). What are the reasons why the above relationships between water splitting and mass transfer rate are not hold in the range of very dilute solutions? An analysis of the results of mathematical modeling allows us to identify two reasons: (1) Kharkats' exaltation effect [88,89] occurring due to water splitting, and (2) enhanced electroconvection due to space charge formed in the bulk solution.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        10
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 7. Distribution of the space charge density presented as the profiles in the cross sections at у = 0.4 mm (a) and у = 1.2 mm (b) at different times and voltages indicated in the figures, as well as the surface of function ρ(x, y) (c, d) at t = 180 s (0.9 V) (c) and t = 288 s (1.44 V) (d).\n\nFig. 8. Distribution of the ion concentrations in the cross section at у = 1.2 mm, when t = 117 s, Δφ = 0.585 V (a), and t = 118 s, Δφ = 0.590 V (b). A.V. Kovalenko et al.\n\nDesalination 550 (2023) 116398\n\nThe water ions generated in water dissociation at a membrane sur­face affect the electric field in the depleted solution and, consequently, the salt ion fluxes. Thus, H+ ions, which are formed at the AEM and released into the depleted solution, attract the salt anions from the bulk towards the membrane surface. As a result, the migration flux of salt anion (Cl-) towards the AEM increases, or becomes “exalted” in the words in the papers on membrane electrochemistry of Kharkats [88,89] and earlier studies on the electrode kinetics of Kemula and Michalski [90]. Similarly, OH-ions generated at the CEM into the depleted solu­tion attract the salt cations towards this membrane. The enhancement of overlimiting salt counterion flux through an IEM by the exaltation effect is described in the case of a 1:1 electrolyte and neutral bulk solution (pH = 7) by a simple relation [91,92]: j1 = 2D1Cb1δ+ D1 D4 jC4s,j2 = 2D2Cb2δ+ D2",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        10,
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "D3 jA3s(22) where subscripts 1, 2, 3 and 4 refer to K+, Cl-, H+ and OH-, relatively (see Table A1); Cib is the bulk concentration of ion i; jisk is the flux density of ion i from the surface of a CEM (k = C) [or AEM (k = A)] towards the bulk solution. This flux should be taken outside of the space charge re­gion, since the deduction of Eq. (22) assumes local electroneutrality. The first term in Eq. (22) refers to the limiting or overlimiting current density controlled by the effective thickness of the diffusion layer, δ, which can be a function of current density/voltage [18,19,93,94] The second term shows the increase in the counterion flux due to the exal­tation effect. The latter is proportional to the water ion flux from the membrane surface towards the bulk solution. It is rather difficult to calculate this flux using the 2D model. However, it can be evaluated using the 1D model. As Fig. 3c shows, the flux of H+ ions is zero at the AEM surface, however, it rapidly increases in a very thin reaction layer (about 2 μm) due to water splitting. Starting from about 2 μm from the surface, the flux continues to increase, but quite slowly. This increase is associated with an increase in the H+ concentration with distance from the AEM. The value of j3sA can be found by extrapolating the close to linear j3(x) dependence to x = 0. Similar evaluation can be made for j4sC . It can be seen that in conditions of calculations made for Fig.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "e close to linear j3(x) dependence to x = 0. Similar evaluation can be made for j4sC . It can be seen that in conditions of calculations made for Fig. 3 (the bulk concentration of salt ions is close to 0.02 mol m-3 (Fig. 3a), Δφ = 1.0 V), the fluxes of salt ions through the membranes are close to those of the water dissociation products: j2sA and j1sC are 0.58 and 0.68 (in 10-6 mol m-2 s-1), respectively; j3sA and j4sC are 1.00 and 0.90 (in 10-6 mol m-2 s-1), respectively. The total current density (which is the sum of the contributions of corresponding salt and water ions) flowing through the AEM and CEM is the same, about 0.15 A m-2. In conventional ED desalination, the contribution of the exaltation effect is not significant: when the H+ and OH-ions transfer about 20 % of the electric charge through CEM and AEM, respectively, the contri­bution of this effect to the limiting salt counterion flux is about 10 % [9]. However, when the solution is very dilute, as in the considered above case, the exaltation effect becomes quite important. Indeed, the calcu­lation of the first term in Eq. (22), when evaluating the ratio C1b/δ from Fig. 3a as 0.0205/0.24 * 10-3 [(mol/m3)/m], yields 0.335 * 10-6 mol m-2 s-1. The second term, expressing the exaltation effect, has a very close value of 0.337 * 10-6 mol m-2 s-1. The calculation of the total flux of K+ ion through the CEM gives 0.672 * 10-6 mol m-2 s-1, which is very close to the result of numerical calculation 0.68 * 10-6 mol m-2 s-1.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tal flux of K+ ion through the CEM gives 0.672 * 10-6 mol m-2 s-1, which is very close to the result of numerical calculation 0.68 * 10-6 mol m-2 s-1. Similar estimates are also obtained for the transport of Cl-ions through the AEM. Thus, the contribution of the exaltation effect approximately doubles the flux of salt counterions through each of the membranes. As for electroconvection, its contribution also increases despite the fact that the water dissociation products reduce the space charge density in the near-membrane depleted solution. The appearance of a space charge in the bulk solution enhances electroconvection. As Fig. 9c and d show, at t = 186 s, Δφ = 0.93 V, unstable electroconvection (detected by the appearance of curved fluid streamlines) occurs in the case where water splitting takes place in the desalination channel; it is not observed in the absence of water splitting. Unstable electroconvection in the channel, where water splitting does not occur, starts at higher time/ voltage, Fig. 9e and f. Note that at t = 102 s, Δφ = 0.51 V, there is no electroconvection in both cases, however, the K+ ion concentration is significantly lower in the channel, where there is no water splitting.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        11
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 9. The simulated distribution of K+ concentration and fluid streamlines in an ED desalination channel at different time elapsed since the start of the voltage linear sweep. Panels a, c and e show the results obtained with allowance for water dissociation/recombination reactions, panels b, d and f, without. Simulation at t = 102 s, Δφ = 0.51 V (a, b); t = 186 s, Δφ = 0.93 V (c, d) and t = 288 s, Δφ = 1.44 V (e, f). A.V. Kovalenko et al.\n\nDesalination 550 (2023) 116398",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        11,
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Evidently, only the exaltation effect is the reason for the greater degree of desalination in this channel at t = 102 s, Δφ = 0.51 V. 2.3.4. Current-voltage characteristic (CVC) of a 2D desalination channel Only the current transported by K+ and Cl-ions are taken into ac­count when calculating CVC for a desalination channel where water splitting occurs and for a channel without water splitting (Fig. 10). Other parameters are identical and shown in Table A1. To calculate the average current density of salt ions, iav, the following formula [95,96] is used: iav(t) = 1HL ∫H ∫L Isaltx (t, x, y)dxdy(23) This formula allows founding numerically stable with respect to rounding errors. Here Ixsalt = (j1x -j2x)F is the current density transferred by cation K+ (1) and anion Cl-(2). Note that although these formulas explicitly do not include the fluxes and concentrations of H+ and OH- ions, nevertheless iav(t) implicitly depends on them, since the potential and solution velocity depend on the dissociation/recombination reactions. Fig. 10 shows the ratio of iav to the averaged over the membrane length limiting current density, ilim, calculated using the Leveque equation [97]: ilim =FDC0H(T1 -t1) [ 1.47(H2V0 LD )1/3 -0.2",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "] (24) where D is the KCl electrolyte diffusion coefficient (D = 2.00 * 10-9 m2s-1), T1 = 1 and t1 = 0.491 are the K+ ion effective transport number in the CEM and its transport number in solution, respectively. The ilim value calculated as specified above refers to the state where the mem­branes are not permeable to coions, and no water splitting occurs. It can be seen in Fig. 10, that the value of iav/ilim identified graphi­cally (by the intersection of the tangents to the initial linear and to the inclined plateau of limiting current) is lower than 1 in the case of zero water splitting. This is due to the fact that the dimensionless “length” Y = LD/(VH2) of the channel is so large that the Leveque equation is not hold. Eq. (24) gives an overestimated value of ilim, since its derivation assumes that the concentration at center of the channel remains the same as at the inlet, i.e. C0, at any length. The numerical solution shows that the salt concentration at the center of the channel remains the same as at the inlet only at the beginning. As Fig. 8 shows, the condition of C (y, 0.5H) = C0 does not hold even at у = 1.2 mm, when Δφ = 0.590 V.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "The limiting current density of K+ (and not of Cl-) is calculated because the diffusion coefficient of the Cl-ion is higher than that of K+; therefore, the current of K+ will determine the limiting current in the ED cell, that is, the current, the excess of which is associated with a sharp increase in voltage. The onset of unstable electroconvection in CVC corresponds to appearance of oscillations of the curve. It can be seen that the first os­cillations appear on the CVC for the channel with water splitting at about 0.9 V (Fig. 9). The iav/ilim ratio for this channel reaches 1.8, while this ratio is only about 1. 5 for the channel without water splitting. As it was mentioned above, this relatively high value of the current of salt ions is explained by the exaltation effect. In Fig. 10, the difference be­tween the upper (red) curve and the lower (green) curve at Δφ < 0.9 V is equal to the exaltation current normalized to the limiting current. Unstable electroconvection in the channel in which there are no dissociation/recombination reactions begins at 1.2 V. However, the partial CVC for this channel increases quite sharply at Δφ > 1.2 V and soon exceeds the CVC for the channel with water splitting. This behavior is explained by the fact that that the onset of unstable electroconvection in the latter is not accompanied by a sharp increase in the mass transfer rate, as it occurs in the case of insignificant water splitting.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "oconvection in the latter is not accompanied by a sharp increase in the mass transfer rate, as it occurs in the case of insignificant water splitting. Apparently, electroconvection is not efficient in terms of increasing mass transfer, if the H+ and OH-ions, formed during water splitting, enter the nearmembrane space regions and reduce the space charge density there. 3. Conclusion In the paper, for the first time, the effect of the dissociation/recom­bination reactions of water molecules on the transfer of salt ions during ED of highly dilute solutions is theoretically analyzed. It is shown that under such conditions, the products of water dissociation can dominate over salt ions and can be potential-determining. In this case, in the central part of the desalination channel, an electrical double layer (EDL) arises due to the recombination reaction of H+ and OH-ions. Between this internal EDL and the near-membrane space charge region, an electrically neutral region can be located. At a high degree of desali­nation, when the H+ and OH-ions predominate over the salt ions, the phenomenon of “inversion” of the shape of concentration profiles in the desalination compartment is observed. Instead of the maximum salt concentration in the center of the desalination compartment, which occurs in conventional ED, there is a depletion region. The appearance of this region is due to water dissociation/recombination reactions and the tendency of the system to electroneutrality.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "letion region. The appearance of this region is due to water dissociation/recombination reactions and the tendency of the system to electroneutrality. The H+ and OH-ions generated at the surface of CEM and AEM, retain salt ions in the nearmembrane regions of the solution. With that, the recombination of H+ and OH-ions occurs in the center of the compartment. The very low concentration of these ions (close to 10-7 mol L-1) does not allow them to retain salt ions. In the near-membrane solution regions, the dissociation reaction prevails over the recombination reaction, due to the fact that in these areas the electric field strength takes on such large values that the electric field removes H+ and OH-ions from the reaction zone, pre­venting them from recombine. The recombination of H+ and OH-ions occurs at the center of the desalination channel in the vicinity of a point (denoted as point xr), where the product of H+ and OH-concentrations attains a maximum, which exceeds the water dissociation constant Kw. Although this reaction is local, all H+ and OH-ions cannot simulta­neously recombine at one point. There is an excess of H+ ions in the left semi-neighborhood of the xr point, and an excess of OH-ions in its right semi-neighborhood; thus, an EDL is formed in the bulk solution. The use of 2D modeling showed that the appearance of an internal EDL signifi­cantly affects the spatio-temporal ion concentration and fluid flow patterns.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "use of 2D modeling showed that the appearance of an internal EDL signifi­cantly affects the spatio-temporal ion concentration and fluid flow patterns. Even at relatively small potential jumps, a strong curvature of the fluid streamlines arises. This enhances the supply of the enriched solution from the bulk of the channel to the membrane surface, as well as the evacuation of the depleted solution from the membrane to the bulk.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        12
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Fig. 10. Comparison of partial current-voltage curves computed using the 2D model for the sum of K+ and Cl-ion currents with (red curve) and without (green curve) water dissociation/recombination reactions. The input parame­ters are shown in Table A1. A.V. Kovalenko et al.\n\nDesalination 550 (2023) 116398",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        12,
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "When water splitting occurs, the H+/OH-ions affects the electric field in diffusion layer, which results in an increase in salt counterion fluxes towards the membrane (the exaltation effect). In conventional ED desalination of moderately dilute solutions, the contribution of the exaltation effect is insignificant. However, when the feed solution is very dilute, this effect becomes important. It is found that when the con­centrations of the salt and water ions are comparable in the desalination channel, the exaltation effect can provide a 50 % contribution to the total salt ion transfer through the membrane. As a result, the partial current of salt ions through the membranes at relatively low voltages is higher in the channel where water splitting occurs compared to the channel, where this reaction is not taken into account. However, un­stable electroconvection, which develops at large voltages, is more efficient (in terms of mass transfer enhancement) in a channel without water splitting, since H+/OH-ions reduce the near-membrane space charge. In addition, H+ and OH-ions generated during water splitting are located near ion-exchange membranes, where they retain salt ions. The situation is such that in the middle of the desalination channel, the concentration of H+ and OH-ions is low, since they recombine there. The concentration of salt ions there is also very low, whereas the ions are accumulated near the membranes.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "H-ions is low, since they recombine there. The concentration of salt ions there is also very low, whereas the ions are accumulated near the membranes. This ion distribution is inverse compared to conventional ED, where the ion concentration is relatively high in the center of the channel, and near the membranes, the ion concentration is very low (concentration polarization). Moreover, the fact that H+ and OH-ions are continuously generated and they retain salt ions in the channel means that it is impossible to remove all salt ions from feed water during its electrodialysis treatment. It should be noted that the models presented in this paper describe water splitting under the assumption of the lowest possible rate of water dissociation (the influence of the electric field and the catalytic partic­ipation of fixed functional groups are not taken into account). In real conditions, the rate of water splitting would be significantly greater, as well as its effect on the ED desalination process. CRediT authorship contribution statement All authors must check* the relevant terms to indicate their contri­butions. To know more about the CReDiT Author Statement and definitions of each term mentioned in the below form, please visit https ://www.elsevier.com/authors/policies-and-guidelines/credit-author-s tatement. Term A.V.K. Author 1 V.V.N. Author 2 N.O.C. Author 3 M.K.U.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "visit https ://www.elsevier.com/authors/policies-and-guidelines/credit-author-s tatement. Term A.V.K. Author 1 V.V.N. Author 2 N.O.C. Author 3 M.K.U. Author 4 Conceptualization √ √ X √ Methodology/Study design √ X X X Software √ X √ X Validation X √ X X Formal analysis NA NA NA NA Investigation √ X √ X Resources NA NA NA NA Data curation √ X X X Writing – original draft √ X √ X Writing – review and editing X √ X X Visualization NA NA NA NA Supervision X X X √ Project administration √ X X X Funding acquisition X X X √ *Use tick mark (√) to indicate contribution, a cross (X) to indicate no contri­bution and NA where not applicable. #Use author initials to declare the contributions to the manuscript. Declaration of competing interest All authors of the manuscript “Mathematical modeling of electrodi­alysis of a dilute solution with accounting for water dissociationrecombination reactions” declare no conflicts of interest including employment, consultancies, stock ownership, honoraria, paid expert testimony, patent applications/registrations, and grants or other funding. Data availability Data will be made available on request. Acknowledgement The reported study was funded by RFBR research project N◦20-5812018 NNIO.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        13
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "Appendix A Table A1 1D and 2D model input parameters. Symbol Value Unity Description С0 1 (1D) or 0.01 (2D) mol m-3 Initial concentration of K+ and Cl- С30 = C40 10-4 mol m-3 Initial concentration of H+ and OH-ions H 1 (1D) or 0.5 (2D) mm Distance between the membranes L 2 (2D) mm Length of the desalination channel D1 1.96 * 10-9 m2 s-1 Diffusion coefficient of K+ in solution (infinite dilution) D2 2.03 * 10-9 m2 s-1 Diffusion coefficient of Cl-in solution (infinite dilution) D3 9.34 * 10-9 m2 s-1 Diffusion coefficient of H+ (infinite dilution) D4 5.23 * 10-9 m2 s-1 Diffusion coefficient of OH-(infinite dilution) kd 2 * 10-5 s-1 Dissociation rate constant of water molecules kr 1.33 * 108 m3 (mol⋅s)-1 Recombination rate constant of hydrogen and hydroxyl ions Kw 1.0 * 108 mol2 m-6 Water dissociation (self-ionization) constant d 0.005 V/s Rate of potential difference growth\n\nAppendix B. Supplementary data Supplementary data to this article can be found online at https://doi.org/10.1016/j.desal.2023.116398. A.V. Kovalenko et al.\n\nDesalination 550 (2023) 116398",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        13,
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[25] S. Park, G. Yossifon, Induced-charge electrokinetics, bipolar current, and concentration polarization in a microchannel-Nafion-membrane system, Phys. Rev. E 93 (2016), https://doi.org/10.1103/PhysRevE.93.062614. [26] I. Cho, H. Lee, S.J. Kim, Dynamic analysis of the extended space charge layer using chronopotentiometric measurements, MicroNano Syst.Lett. 8 (2020), https://doi. org/10.1186/s40486-020-00112-1. [27] B. Zaltzman, I. Rubinstein, Electro-osmotic slip and electroconvective instability, J. Fluid Mech. 579 (2007) 173–226, https://doi.org/10.1017/ S0022112007004880. [28] S.M. Davidson, M. Wessling, A. Mani, On the dynamical regimes of patternaccelerated electroconvection, Sci. Rep. 6 (2016) 1–10, https://doi.org/10.1038/ srep22505. [29] S. Zyryanova, S. Mareev, V. Gil, E. Korzhova, N. Pismenskaya, V. Sarapulova, O. Rybalkina, E. Boyko, C. Larchet, L. Dammak, V. Nikonenko, How electrical heterogeneity parameters of ion-exchange membrane surface affect the mass transfer and water splitting rate in electrodialysis, Int. J. Mol. Sci. 21 (2020), https://doi.org/10.3390/ijms21030973. [30] Z. Gu, P. Huo, B. Xu, M. Su, M.Z. Bazant, D. Deng, Electrokinetics in twodimensional complicated geometries: conformal mapping and experimental comparison, Phys. Rev. Fluids 7 (2022), 033701, https://doi.org/10.1103/ PhysRevFluids.7.033701. [31] K.S. Barros, M.C. Martí-Calatayud, T. Scarazzato, A.M. Bernardes, D.C.R. Espinosa, V.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "), 033701, https://doi.org/10.1103/ PhysRevFluids.7.033701. [31] K.S. Barros, M.C. Martí-Calatayud, T. Scarazzato, A.M. Bernardes, D.C.R. Espinosa, V. P´erez-Herranz, Investigation of ion-exchange membranes by means of chronopotentiometry: a comprehensive review on this highly informative and multipurpose technique, Adv. Colloid Interf. Sci. 293 (2021), https://doi.org/ 10.1016/j.cis.2021.102439. [32] M. Seo, W. Kim, H. Lee, S.J. Kim, Non-negligible effects of reinforcing structures inside ion exchange membrane on stabilization of electroconvective vortices, Desalination 538 (2022), https://doi.org/10.1016/j.desal.2022.115902. [33] F. Stockmeier, M. Schatz, M. Habermann, J. Linkhorst, A. Mani, M. Wessling, Direct 3D observation and unraveling of electroconvection phenomena during concentration polarization at ion-exchange membranes, J. Membr. Sci. 640 (2021), https://doi.org/10.1016/j.memsci.2021.119846. [34] M. C´esar Martí-Calatayud M. García-Gabald´on V. P´erez-Herranz, Mass Transfer Phenomena during Electrodialysis of Multivalent Ions: Chemical Equilibria and Overlimiting Currents, (n.d.). doi:10.3390/app8091566. [35] T. Le´on, J. L´opez, R. Torres, J. Grau, L. Jofre, J.-L. Cortina, Describing ion transport and water splitting in an electrodialysis stack with bipolar membranes by a 2-D model: experimental validation, J. Membr. Sci. 660 (2022), https://doi.org/ 10.1016/j.memsci.2022.120835. [36] P.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "tack with bipolar membranes by a 2-D model: experimental validation, J. Membr. Sci. 660 (2022), https://doi.org/ 10.1016/j.memsci.2022.120835. [36] P. Shi, Direct numerical simulation of electroconvection with thin Debye layer matching canonical experiments, Phys. Fluids 33 (2021), https://doi.org/10.1063/ 5.0043900. [37] V.V. Nikonenko, S.A. Mareev, N.D. Pis'menskaya, A.M. Uzdenova, A.V. Kovalenko, M.K. Urtenov, G. Pourcelly, Effect of electroconvection and its use in intensifying the mass transfer in electrodialysis (review), Russ.J.Electrochem. 53 (2017) 1122–1144, https://doi.org/10.1134/S1023193517090099. [38] R. Simons, Strong electric field effects on proton transfer between membranebound amines and water, Nature 280 (1979) 824–826, https://doi.org/10.1038/ 280824a0. [39] M.K. Urtenov, A.V. Pismensky, V.V. Nikonenko, A.V. Kovalenko, Mathematical modeling of ion transport and water dissociation at the ion-exchange membrane/ solution interface in intense current regimes, Pet. Chem. 58 (2018) 121–129, https://doi.org/10.1134/S0965544118020056. [40] F. Balzaretti, V. Gupta, L.C. Ciacchi, B. Aradi, T. Frauenheim, S. K¨oppen, Water reactions on reconstructed rutile TiO$_2$: a DFT/DFTB approach. http://arxiv. org/abs/2102.02725, 2021. [41] S. Ashitha, S.C. George, Splitting of water: biological and non-biological approaches, in: Handbook of Biofuels, 2022, pp. 453–469, https://doi.org/ 10.1016/B978-0-12-822810-4.00023-3. [42] S. Wang, A. Lu, C.-J.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "on-biological approaches, in: Handbook of Biofuels, 2022, pp. 453–469, https://doi.org/ 10.1016/B978-0-12-822810-4.00023-3. [42] S. Wang, A. Lu, C.-J. Zhong, Hydrogen production from water electrolysis: role of catalysts, Nano Converg. 8 (2021) 4, https://doi.org/10.1186/s40580-021-00254x. [43] E. Kniaginicheva, N. Pismenskaya, S. Melnikov, E. Belashova, P. Sistat, M. Cretin, V. Nikonenko, Water splitting at an anion-exchange membrane as studied by impedance spectroscopy, J. Membr. Sci. 496 (2015) 78–83, https://doi.org/ 10.1016/j.memsci.2015.07.050. [44] S. Melnikov, V. Zabolotskiy, D. Bondarev, E. Nosova, E. Melnikova, Water splitting and transport of ions in electromembrane system with bilayer ion-exchange membrane, Membranes 10 (2020) 1–37, https://doi.org/10.3390/ membranes10110346 (Basel). [45] X. Cao, D. Novitski, S. Holdcroft, Visualization of hydroxide ion formation upon electrolytic water splitting in an anion exchange membrane, ACS Mater. Lett. 1 (2019) 362–366, https://doi.org/10.1021/acsmaterialslett.9b00195. [46] R. Simons, Water splitting in ion exchange membranes, Electrochim. Acta 30 (1985) 275–282, https://doi.org/10.1016/0013-4686(85)80184-5. [47] L. Onsager, Deviations from Ohm's law in weak electrolytes, J. Chem. Phys. 2 (1934) 599–615, https://doi.org/10.1063/1.1749541. [48] V. Kaiser, S.T. Bramwell, P.C.W. Holdsworth, R. Moessner, Onsager's Wien effect on a lattice, Nat. Mater. 12 (2013) 1033–1037, https://doi.org/10.1038/ nmat3729. [49] J. Cai E.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "P.C.W. Holdsworth, R. Moessner, Onsager's Wien effect on a lattice, Nat. Mater. 12 (2013) 1033–1037, https://doi.org/10.1038/ nmat3729. [49] J. Cai E. Griffin V.H. Guarochico-Moreira D. Barry B. Xin M. Yagmurcukardes S. Zhang A.K. Geim F.M. Peeters M. Lozada-Hidalgo, Wien effect in interfacial water dissociation through proton-permeable graphene electrodes, (n.d.). doi:10.1038/ s41467-022-33451-1.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        14
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[50] S. Maf´e, P. Ramı́rez, A. Alcaraz, Electric field-assisted proton transfer and water dissociation at the junction of a fixed-charge bipolar membrane, Chem. Phys. Lett. 294 (1998) 406–412, https://doi.org/10.1016/S0009-2614(98)00877-X. [51] J. Balster, S. Srinkantharajah, R. Sumbharaju, I. Pünt, R.G.H. Lammertink, D. F. Stamatialis, M. Wessling, Tailoring the interface layer of the bipolar membrane, J. Membr. Sci. 365 (2010) 389–398, https://doi.org/10.1016/j. memsci.2010.09.034. [52] J. Schiffbauer, N.Yu. Ganchenko, G.S. Ganchenko, E.A. Demekhin, Overlimiting current due to electro-diffusive amplification of the second Wien effect at a cationanion bipolar membrane junction, Biomicrofluidics 12 (2018), 064107, https:// doi.org/10.1063/1.5066195. [53] M. Urtenov, V. Gudza, N. Chubyr, I. Shkorkina, Theoretical analysis of the stationary transport of 1:1 salt ions in a cross-section of a desalination channel, taking into account the non-catalytic dissociation/recombination reaction of water molecules, Membranes 10 (2020) 342, https://doi.org/10.3390/ membranes10110342 (Basel). [54] M.Kh. Urtenov, A.V. Pismensky, V.V. Nikonenko, A.V. Kovalenko, Mathematical modeling of ion transport and water dissociation at the ion-exchange membrane/ solution interface in intense current regimes, Pet. Chem. 58 (2018) 121–129, https://doi.org/10.1134/S0965544118020056. [55] A. Kovalenko, V. Gudza, M. Urtenov, N.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "rface in intense current regimes, Pet. Chem. 58 (2018) 121–129, https://doi.org/10.1134/S0965544118020056. [55] A. Kovalenko, V. Gudza, M. Urtenov, N. Chubyr, Mathematical modeling of the influence of non-catalytic dissociation/recombination of water molecules in the desalination channel on electric convection, J. Phys. Conf. Ser. 2131 (2021), 022109, https://doi.org/10.1088/1742-6596/2131/2/022109. [56] A. Ortega, L.F. Arenas, J.J.H. Pijpers, D.L. Vicencio, J.C. Martínez, F.A. Rodríguez, E.P. Rivero, Modelling water dissociation, acid-base neutralization and ion transport in bipolar membranes for acid-base flow batteries, J. Membr. Sci. 641 (2022), 119899, https://doi.org/10.1016/J.MEMSCI.2021.119899. [57] V.J. Frilette, Electrogravitational transport at synthetic ion exchange membrane surfaces, J. Phys. Chem. 61 (1957) 168–174, https://doi.org/10.1021/ J150548A010. [58] N.A. Mishchuk, Concentration polarization of interface and non-linear electrokinetic phenomena, Adv. Colloid Interf. Sci. 160 (2010) 16–39, https://doi. org/10.1016/j.cis.2010.07.001. [59] M.V. Porozhnyy, S.A. Shkirskaya, D.Y. Butylskii, V.V. Dotsenko, E.Y. Safronova, A. B. Yaroslavtsev, S. Deabate, P. Huguet, V.V. Nikonenko, Physicochemical and electrochemical characterization of nafion-type membranes with embedded silica nanoparticles: effect of functionalization, Electrochim. Acta 370 (2021), https:// doi.org/10.1016/j.electacta.2020.137689. [60] M. Urtenov, V. Gudza, N. Chubyr, I.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "effect of functionalization, Electrochim. Acta 370 (2021), https:// doi.org/10.1016/j.electacta.2020.137689. [60] M. Urtenov, V. Gudza, N. Chubyr, I. Shkorkina, Theoretical analysis of the stationary transport of 1:1 salt ions in a cross-section of a desalination channel, taking into account the non-catalytic dissociation/recombination reaction of water molecules, Membranes 10 (2020) 342, https://doi.org/10.3390/ membranes10110342 (Basel). [61] S.A. Mareev, E. Evdochenko, M. Wessling, O.A. Kozaderova, S.I. Niftaliev, N. D. Pismenskaya, V.v. Nikonenko, A comprehensive mathematical model of water splitting in bipolar membranes: Impact of the spatial distribution of fixed charges and catalyst at bipolar junction, J. Membr. Sci. 603 (2020), https://doi.org/ 10.1016/j.memsci.2020.118010. [62] A.A. Moya, Electrochemical impedance of ion-exchange membranes with interfacial charge transfer resistances, J. Phys. Chem. C 120 (2016) 6543–6552, https://doi.org/10.1021/acs.jpcc.5b12087. [63] I. Rubinstein, L. Shtilman, Voltage against current curves of cation exchange membranes, J. Chem. Soc., Faraday Trans. 2 (75) (1979) 231–246, https://doi.org/ 10.1039/F29797500231. [64] M.K. Urtenov, E.V. Kirillova, N.M. Seidova, V.V. Nikonenko, Decoupling of the Nernst-Planck and Poisson equations.Application to a membrane system at overlimiting currents, J. Phys. Chem. B 111 (2007) 14208–14222, https://doi.org/ 10.1021/jp073103d. [65] A.A. Moya, P.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ication to a membrane system at overlimiting currents, J. Phys. Chem. B 111 (2007) 14208–14222, https://doi.org/ 10.1021/jp073103d. [65] A.A. Moya, P. Sistat, Reaching the limiting current regime by linear sweep voltammetry in ion-exchange membrane systems, J. Membr. Sci. 555 (2018) 134–145, https://doi.org/10.1016/j.memsci.2018.03.043. [66] E.I. Grigolyuk, V.I. Shalashilin, Problems of Nonlinear Deformation, Springer Netherlands, Dordrecht, 1991, https://doi.org/10.1007/978-94-011-3776-8. [67] I. Kylnp, T.T. Rantala, First-principles simulation of molecular dissociationrecombination equilibrium, J. Chem. Phys. 135 (2011), https://doi.org/10.1063/ 1.3633516. [68] N.P. Gnusin, V. Zabolotskii, V. Nikonenko, M.K. Urtenov, Convective-diffusion model of electrodialytic desalination. Limiting current and diffusion layer, in: Soviet Electrochemistry 23, 1986, pp. 273–278. [69] V.G. Levich, Theory of the nonequilibrium double layer, Dokl. Akad. Nauk SSSR 67 (1949) 309–312. [70] J. Newman, The polarized diffuse double layer, Trans. Faraday Soc. 61 (1965) 2229, https://doi.org/10.1039/tf9656102229. [71] R.P. Buck, Kinetics of bulk and interfacial ionic motion: microscopic bases and limits for the Nernst—Planck equation applied to membrane systems, J. Membr. Sci. 17 (1984) 1–62, https://doi.org/10.1016/S0376-7388(00)81386-1. [72] I. Rubinstein, B. Zaltzman, The effects of reaction kinetics upon the instabilities in cathodic electrodeposition, Curr. Opin. Colloid Interface Sci.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "[73] A.A. Sonin, R.F. Probstein, A hydrodynamic theory of desalination by electrodialysis, Desalination (1968), https://doi.org/10.1016/S0011-9164(00) 80105-8. [74] L. Onsager, Deviations from Ohm's law in weak electrolytes, J. Chem. Phys. 2 (1934) 599–615, https://doi.org/10.1063/1.1749541. [75] R. Simons, Electric field effects on proton transfer between ionizable groups and water in ion exchange membranes, Electrochim. Acta 29 (1984) 151–158, https:// doi.org/10.1016/0013-4686(84)87040-1. [76] S. Mafe, P. Ramırez, A. Alcaraz, S. Spain, Electric field-assisted proton transfer and water dissociation at the junction of a fixed-charge bipolar membrane, 1998. [77] S.A. Mareev, E. Evdochenko, M. Wessling, O.A. Kozaderova, S.I. Niftaliev, N. D. Pismenskaya, V.V. Nikonenko, A comprehensive mathematical model of water splitting in bipolar membranes: impact of the spatial distribution of fixed charges and catalyst at bipolar junction, J. Membr. Sci. 603 (2020), https://doi.org/ 10.1016/j.memsci.2020.118010. [78] Y. Tanaka, Ion Exchange Membranes: Fundamentals and Applications: Second Edition, in: Ion Exchange Membranes: Fundamentals And Applications: Second Edition, 2015, pp. 1–500, https://doi.org/10.1016/C2013-0-12870-X. [79] L. Gurreri, A. Tamburini, A. Cipollina, G.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ndamentals And Applications: Second Edition, 2015, pp. 1–500, https://doi.org/10.1016/C2013-0-12870-X. [79] L. Gurreri, A. Tamburini, A. Cipollina, G. Micale, Electrodialysis applications in wastewater treatment for environmental protection and resources recovery: a systematic review on progress and perspectives, Membranes 10 (2020) 1–93, https://doi.org/10.3390/membranes10070146 (Basel). [80] L. Gurreri, G. Battaglia, A. Tamburini, A. Cipollina, G. Micale, M. Ciofalo, Multiphysical modelling of reverse electrodialysis, Desalination 423 (2017) 52–64, https://doi.org/10.1016/j.desal.2017.09.006. [81] M. Asraf-Snir, J. Gilron, Y. Oren, Gypsum scaling of anion exchange membranes in electrodialysis, J. Membr. Sci. 520 (2016) 176–186, https://doi.org/10.1016/J. MEMSCI.2016.07.013. [82] M.A. Andreeva, V.V. Gil, N.D. Pismenskaya, L. Dammak, N.A. Kononenko, C. Larchet, D. Grande, V.V. Nikonenko, Mitigation of membrane scaling in electrodialysis by electroconvection enhancement, pH adjustment and pulsed electric field application, J. Membr. Sci. 549 (2018) 129–140, https://doi.org/ 10.1016/j.memsci.2017.12.005. [83] S. Mikhaylin, L. Bazinet, Fouling on ion-exchange membranes: classification, characterization and strategies of prevention and control, Adv. Colloid Interf. Sci. 229 (2016) 34–56, https://doi.org/10.1016/j.cis.2015.12.006. [84] L. Dammak, N.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "on and strategies of prevention and control, Adv. Colloid Interf. Sci. 229 (2016) 34–56, https://doi.org/10.1016/j.cis.2015.12.006. [84] L. Dammak, N. Pismenskaya, In-depth on the fouling and antifouling of ionexchange membranes, membranes (2021), https://doi.org/10.3390/ membranes11120962. [85] M.B. Andersen, M. van Soestbergen, A. Mani, H. Bruus, P.M. Biesheuvel, M. Z. Bazant, Current-induced membrane discharge, Phys. Rev. Lett. 109 (2012), https://doi.org/10.1103/PhysRevLett.109.108301. [86] N.D. Pismenskaya, E.V. Pokhidnia, G. Pourcelly, V.V. Nikonenko, Can the electrochemical performance of heterogeneous ion-exchange membranes be better than that of homogeneous membranes? J. Membr. Sci. 566 (2018) 54–68, https:// doi.org/10.1016/J.MEMSCI.2018.08.055. [87] M.V. Porozhnyy, S.A. Shkirskaya, D.Y. Butylskii, V.V. Dotsenko, E.Y. Safronova, A. B. Yaroslavtsev, S. Deabate, P. Huguet, V.V. Nikonenko, Physicochemical and electrochemical characterization of nafion-type membranes with embedded silica nanoparticles: effect of functionalization, Electrochim. Acta 370 (2021), 137689, https://doi.org/10.1016/J.ELECTACTA.2020.137689. [88] Y. Kharkats, The mechanism of “supralimiting” currents at ion-exchange membrane/electrolyte interfaces, Sov. Electrochem. 21 (7) (1986) (Engl. Transl.); (United States). [89] Yu.I. Kharkats, A.V. Sokirko, Theory of the effect of migration current exaltation taking into account dissociation-recombination reactions, J. Electroanal. Chem.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "ts, A.V. Sokirko, Theory of the effect of migration current exaltation taking into account dissociation-recombination reactions, J. Electroanal. Chem. Interfacial Electrochem. 303 (1991) 27–44, https://doi.org/10.1016/0022-0728 (91)85113-4. [90] W. Kemula, M. Michalski, Roczniki Chem. 16 (1936) 535–541. [91] V. Nikonenko, M. Urtenov, S. Mareev, G. Pourcelly, Mathematical modeling of the effect of water splitting on ion transfer in the depleted diffusion layer near an ionexchange membrane, Membranes 10 (2020), https://doi.org/10.3390/ membranes10020022 (Basel). [92] A. Sokirko, Theory of the Effect of Migration Current Exaltation Taking Into Account Dissociation-recombination Reactions, Elsevier Sequoia S.A, 1991. [93] S.M. Rubinstein, G. Manukyan, A. Staicu, I. Rubinstein, B. Zaltzman, R.G. H. Lammertink, F. Mugele, M. Wessling, Direct observation of a nonequilibrium electro-osmotic instability, Phys. Rev. Lett. 101 (2008) 1–4, https://doi.org/ 10.1103/PhysRevLett.101.236101. [94] R. Kwak, G. Guan, W.K. Peng, J. Han, Microscale electrodialysis: concentration profiling and vortex visualization, Desalination 308 (2013) 138–146, https://doi. org/10.1016/j.desal.2012.07.017. [95] A. Kovalenko, M. Urtenov, Analysis of the theoretical CVC of electromembrane systems, in: E3S Web of Conferences, EDP Sciences, 2020, p. 02010, https://doi. org/10.1051/e3sconf/202022402010. [96] M.K. Urtenov, A.V. Kovalenko, A.I. Sukhinov, N.O. Chubyr, V.A.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  },
+  {
+    "content": "nces, EDP Sciences, 2020, p. 02010, https://doi. org/10.1051/e3sconf/202022402010. [96] M.K. Urtenov, A.V. Kovalenko, A.I. Sukhinov, N.O. Chubyr, V.A. Gudza, Model and numerical experiment for calculating the theoretical current-voltage characteristic in electro-membrane systems, IOP Conf. Ser. Mater. Sci. Eng. (2019), https://doi. org/10.1088/1757-899X/680/1/012030. [97] J.S. Newman, Electrochemical Systems, Prentice-Hall, 1973.",
+    "citation": {
+      "authors": [
+        "All B.V.",
+        "Kovalenko A.V.",
+        "Nikonenko V.V.",
+        "Chubyr N.O.",
+        "An D.",
+        "Interplay C."
+      ],
+      "paper_id": "2023 Kovalenko Desalination 23",
+      "title": "Mathematical modeling of electrodialysis of a dilute solution with accounting for water dissociation-recombination reactions",
+      "year": "2023",
+      "section": "unknown",
+      "pages": [
+        15
+      ]
+    },
+    "type": "chunk"
+  }
+]
